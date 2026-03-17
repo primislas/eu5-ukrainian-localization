@@ -1,0 +1,5 @@
+﻿l_russian:
+ exploration_success.1.title: "Отличившийся мичман"
+ exploration_success.1.desc: "После возвращения экспедиции из области [target.GetName] мы узнали, что [actor.GetName] очень хвалит талантливого молодого офицера, блестяще проявившего себя в путешествии."
+ exploration_success.1.a: "Позволим ему командовать собственными экспедициями."
+ exploration_success.1.b: "Нам нужны хорошие мичманы."
