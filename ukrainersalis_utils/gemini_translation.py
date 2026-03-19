@@ -2,7 +2,7 @@ from typing import override
 
 from flask.cli import load_dotenv
 from google import genai
-from google.genai.types import GenerateContentConfig
+from google.genai.types import GenerateContentConfig, HttpOptions, HttpRetryOptions
 
 from ukrainersalis_utils.logger import logger
 from ukrainersalis_utils.translators.translation_api import Translator
@@ -37,7 +37,16 @@ class GeminiTranslator(Translator):
             str: The translated text in Ukrainian.
         """
         if self._gemini is None:
-            self._gemini = genai.Client()
+            self._gemini = genai.Client(
+                http_options=HttpOptions(
+                    retry_options=HttpRetryOptions(
+                        attempts=5,
+                        initial_delay=15,
+                        exp_base=2,
+                        max_delay=480,
+                    )
+                )
+            )
 
         lines = text.splitlines()
         if not lines:
@@ -62,7 +71,23 @@ class GeminiTranslator(Translator):
                 contents=batch_text,
                 config=GenerateContentConfig(system_instruction=self.system_instruction),
             )
-            translated_batches.append(response.text.strip())
+            
+            input_line_count = len(batch)
+            output_text = response.text
+            output_line_count = output_text.count("\n") + 1
+            if input_line_count > output_line_count:
+                logger.warning(f"Input line count ({input_line_count}) is greater than output line count ({output_line_count})")
+                output_text += "\n" * (input_line_count - output_line_count)
+            elif input_line_count < output_line_count:
+                logger.warning(f"Input line count ({input_line_count}) is less than output line count ({output_line_count})")
+                output_text = output_text.rstrip()
+                output_line_count = output_text.count("\n") + 1
+                if input_line_count > output_line_count:
+                    output_text += "\n" * (input_line_count - output_line_count)
+                elif input_line_count < output_line_count:
+                    output_text = output_text.strip()[:input_line_count]
+            
+            translated_batches.append(output_text)
 
         return "\n".join(translated_batches)
 
