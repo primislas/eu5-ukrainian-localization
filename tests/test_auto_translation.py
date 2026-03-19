@@ -1,5 +1,3 @@
-import pytest
-import re
 from ukrainersalis_utils.auto_translation import expand_concepts, expand_adjectives, translation_postprocessing
 
 def test_expand_concepts_single():
