@@ -2400,7 +2400,7 @@
  OTHERINSULT_MAP: "INSULT!"
  
  #
-  RANSOMTHEYACCEPT_SETUP: "When a [country|e] accepts our ransom offer."
+ RANSOMTHEYACCEPT_SETUP: "When a [country|e] accepts our ransom offer."
  RANSOMTHEYACCEPT_HEADER: "$MESSENGER$"
  RANSOMTHEYACCEPT_TITLE: "Ransom Accepted"
  RANSOMTHEYACCEPT_DESC: "$RECIPIENT$ accepted our generous offer to ransom back $SOLDIERS$ in exchange for $COST$."
@@ -12175,18 +12175,18 @@ ACTION_negotiate_succession_law_PERFORMED_ON_US_MAP: ""
  EVILDISCOVEREDOTHER_BTN2: "OK"
  EVILDISCOVEREDOTHER_BTN3: "$common_string_go_to$"
 
-#
-EDUCATION_CHANGED_SETUP: "When we change the education of a child in the rulers family."
-EDUCATION_CHANGED_HEADER: "$MESSENGER$"
-EDUCATION_CHANGED_TITLE: "$EDUCATION$"
-EDUCATION_CHANGED_EFFECTS: "We decided to now give $CHARACTER$ an $EDUCATION$."
-EDUCATION_CHANGED_FLAVOR: "$DESC$"
-EDUCATION_CHANGED_LOG: "$CHARACTER$ will now gain an $EDUCATION$"
-EDUCATION_CHANGED_BTN1: "OK"
-EDUCATION_CHANGED_BTN2: "OK"
-EDUCATION_CHANGED_BTN3: "$common_string_go_to$"
-EDUCATION_CHANGED_MAP: ""
-#
+ #
+ EDUCATION_CHANGED_SETUP: "When we change the education of a child in the rulers family."
+ EDUCATION_CHANGED_HEADER: "$MESSENGER$"
+ EDUCATION_CHANGED_TITLE: "$EDUCATION$"
+ EDUCATION_CHANGED_EFFECTS: "We decided to now give $CHARACTER$ an $EDUCATION$."
+ EDUCATION_CHANGED_FLAVOR: "$DESC$"
+ EDUCATION_CHANGED_LOG: "$CHARACTER$ will now gain an $EDUCATION$"
+ EDUCATION_CHANGED_BTN1: "OK"
+ EDUCATION_CHANGED_BTN2: "OK"
+ EDUCATION_CHANGED_BTN3: "$common_string_go_to$"
+ EDUCATION_CHANGED_MAP: ""
+ #
  PERFORM_reclaim_high_kingship_land_ACTION_SETUP: "When a country attempts to reclaim land for their [GetInternationalOrganizationType('high_kingship').GetName]."
  PERFORM_reclaim_high_kingship_land_ACTION_HEADER: "$MESSENGER$"
  PERFORM_reclaim_high_kingship_land_ACTION_TITLE: "[SCOPE.sCountry('actor').GetName] claims [target_province.GetName]"

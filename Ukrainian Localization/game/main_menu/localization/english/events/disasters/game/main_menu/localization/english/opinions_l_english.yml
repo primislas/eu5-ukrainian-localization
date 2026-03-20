@@ -878,18 +878,18 @@
  opinion_rtr_loyal_subject: "Loyal Subject"
  
 
-# Iroquois
-iro_walking_sale: "Walking Purchase Treaty"
-refused_iro_walking_sale: "Refused Walking Purchase Treaty"
-trading_in_furs_iro: "Trading in Fur"
+ # Iroquois
+ iro_walking_sale: "Walking Purchase Treaty"
+ refused_iro_walking_sale: "Refused Walking Purchase Treaty"
+ trading_in_furs_iro: "Trading in Fur"
 
  #Brandenburg
  opinion_bra_changing_allegiances_negative: "Changing Allegiances"
  opinion_bra_changing_allegiances_positive: "Changing Allegiances"
 
-# Novgorod
-nov_seized_control_of_peterhof: "Seized Control of Peterhof Kontor"
-nov_friendly_hanseatic_relations: "Friendly Hanseatic Relations"
+ # Novgorod
+ nov_seized_control_of_peterhof: "Seized Control of Peterhof Kontor"
+ nov_friendly_hanseatic_relations: "Friendly Hanseatic Relations"
 
-#Denmark
-dan_banned_lutheran_bible: "Banned Lutheran Bible"
+ #Denmark
+ dan_banned_lutheran_bible: "Banned Lutheran Bible"

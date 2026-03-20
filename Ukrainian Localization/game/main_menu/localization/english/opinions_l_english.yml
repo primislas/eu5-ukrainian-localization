@@ -226,7 +226,7 @@
  maha_samanta_overlord_opinion: "Our $maha_samanta$"
  pradhana_maha_samanta_subject_opinion: "Our [overlord|e]"
  pradhana_maha_samanta_overlord_opinion: "Our $pradhana_maha_samanta$"
- opinion_have_food_access: "Have Food Access"	
+ opinion_have_food_access: "Have Food Access"
  opinion_influence_nation: "Accepted Influence Nation"
  opinion_decline_influence_nation: "Declined Influence Nation"
  opinion_receiving_deny_market_access: "Market Access Denied"
@@ -853,9 +853,9 @@ iro_walking_sale: "Walking Purchase Treaty"
 refused_iro_walking_sale: "Refused Walking Purchase Treaty"
 trading_in_furs_iro: "Trading in Fur"
 
- #Brandenburg
- opinion_bra_changing_allegiances_negative: "Changing Allegiances"
- opinion_bra_changing_allegiances_positive: "Changing Allegiances"
+# Brandenburg
+opinion_bra_changing_allegiances_negative: "Changing Allegiances"
+opinion_bra_changing_allegiances_positive: "Changing Allegiances"
 
 # Novgorod
 nov_seized_control_of_peterhof: "Seized Control of Peterhof Kontor"

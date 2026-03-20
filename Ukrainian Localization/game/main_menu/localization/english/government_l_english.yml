@@ -1148,24 +1148,24 @@
  SUBTAB_GOVERNMENT_ESTATES: "$game_concept_estates$"
  SUBTAB_GOVERNMENT_ESTATES_TT_TITLE: "$game_concept_estates$"
  SUBTAB_GOVERNMENT_ESTATES_TT_TEXT: "This window allows you to attend to the [estates|e] in our [country|e]. Here you can grant or revoke [privileges|e] to manage their [estate_satisfaction|e] or leverage their [estate_power|e]. You can also modify our [government|e] by enacting [reforms|e]."
- SUBTAB_GOVERNMENT_ESTATES_TT_FLAVOR_TEXT: ""L'État, c'est moi!""
+ SUBTAB_GOVERNMENT_ESTATES_TT_FLAVOR_TEXT: "\"L'État, c'est moi!\""
 
  SUBTAB_GOVERNMENT_PARLIAMENT: "$game_concept_parliament$"
  SUBTAB_GOVERNMENT_PARLIAMENT_TT_TEXT: "This window allows you to call our [estates|e] to [parliament|e]."
- SUBTAB_GOVERNMENT_PARLIAMENT_TT_FLAVOR_TEXT: ""What is the Third Estate? Everything.""
+ SUBTAB_GOVERNMENT_PARLIAMENT_TT_FLAVOR_TEXT: "\"What is the Third Estate? Everything.\""
  
  SUBTAB_GOVERNMENT_CABINET: "$game_concept_cabinet$"
  SUBTAB_GOVERNMENT_CABINET_TT_TEXT: "This window allows you to manage our [cabinet|e] by appointing [characters|e] to the [role|e] of [cabinet_member|e] and assigning them [cabinet_actions|e]."
- SUBTAB_GOVERNMENT_CABINET_TT_FLAVOR_TEXT: ""Quis custodiet ipsos custodes?""
+ SUBTAB_GOVERNMENT_CABINET_TT_FLAVOR_TEXT: "\"Quis custodiet ipsos custodes?\""
 
  SUBTAB_GOVERNMENT_POLITICS: "$game_concept_laws$"
  SUBTAB_GOVERNMENT_POLITICS_TT_TEXT: "This window allows you to change the [laws|e] and [policies|e] in our [country|e]."
- SUBTAB_GOVERNMENT_POLITICS_TT_FLAVOR_TEXT: ""Dura lex, sed lex""
+ SUBTAB_GOVERNMENT_POLITICS_TT_FLAVOR_TEXT: "\"Dura lex, sed lex\""
 
  SUBTAB_GOVERNMENT_VALUES: "Values"
  SUBTAB_GOVERNMENT_VALUES_TT_TITLE: "$game_concept_societal_values$"
  SUBTAB_GOVERNMENT_VALUES_TT_TEXT: "In this window you can see the [societal_values|e] that define our [country|e] and assign a [cabinet_member|e] to pursue a specific direction."
- SUBTAB_GOVERNMENT_VALUES_TT_FLAVOR_TEXT: ""O tempora, o mores!""
+ SUBTAB_GOVERNMENT_VALUES_TT_FLAVOR_TEXT: "\"O tempora, o mores!\""
 
  SUBTAB_GOVERNMENT_SOCIETY: "Society"
 

@@ -3,6 +3,14 @@ from ukrainersalis_utils.auto_translation import expand_concepts, expand_adjecti
 def test_expand_concepts_single():
     assert expand_concepts("[locations|e]") == "[Concept('locations', 'CONCEPT_PLACEHOLDER')|e]"
 
+def test_expand_concepts_uppercase():
+    assert expand_concepts("[locations|E]") == "[Concept('locations', 'CONCEPT_PLACEHOLDER')|e]"
+
+def test_expand_concepts_mixed_case():
+    input_text = "See [locations|E] and [peace|e] for more info."
+    expected = "See [Concept('locations', 'CONCEPT_PLACEHOLDER')|e] and [Concept('peace', 'CONCEPT_PLACEHOLDER')|e] for more info."
+    assert expand_concepts(input_text) == expected
+
 def test_expand_concepts_multiple():
     input_text = "See [locations|e] and [peace|e] for more info."
     expected = "See [Concept('locations', 'CONCEPT_PLACEHOLDER')|e] and [Concept('peace', 'CONCEPT_PLACEHOLDER')|e] for more info."

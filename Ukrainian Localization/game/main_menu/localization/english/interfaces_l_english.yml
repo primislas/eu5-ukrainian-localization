@@ -260,7 +260,7 @@
  
  MORALE_SUB_ENTRY: "[SUBUNIT.GetDefinition.GetCategory.GetIcon][SUBUNIT.GetName]: [SUBUNIT.GetMoraleLabel]"
  
- ENGAGED_SUB_ENTRY: ""[SUBUNIT.GetDefinition.GetCategory.GetIcon] [SUBUNIT.GetTypeIcon] [SUBUNIT.GetName]";"[SUBUNIT.GetDefinition.GetName]"#M;"[SUBUNIT.GetOwner.GetFlagIcon]";"[SUBUNIT.GetStat('frontage')] [frontage_icon]";"[SUBUNIT.GetStrength][SelectLocalization(SUBUNIT.IsRegiment, '@army_strength!', '@navy_strength!')]""
+ ENGAGED_SUB_ENTRY: "\"[SUBUNIT.GetDefinition.GetCategory.GetIcon] [SUBUNIT.GetTypeIcon] [SUBUNIT.GetName]\";\"[SUBUNIT.GetDefinition.GetName]"#M;"[SUBUNIT.GetOwner.GetFlagIcon]\";\"[SUBUNIT.GetStat('frontage')] [frontage_icon]";"[SUBUNIT.GetStrength][SelectLocalization(SUBUNIT.IsRegiment, '@army_strength!', '@navy_strength!')]\""
  ENGAGED_SUBUNITS: "[combat_icon] There is [CombatSubUnitArray.GetEngagedFrontage|V2] total [frontage] [engaged|e] in this [section|e]:"
  NON_ENGAGED_SUBUNITS: "[CombatSubUnitArray.GetNonEngagedFrontage|V2] total [frontage] trying to [engage|e]:"
  NON_ENGAGED_TITLE: "[initiative_icon] Regiments trying to engage based on their [initiative|e]:"

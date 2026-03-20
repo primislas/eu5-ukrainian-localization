@@ -61,7 +61,7 @@ def expand_concepts(line: str) -> str:
     """Expands concepts in the translated text."""
     # Pattern to match [<concept>|e] where <concept> doesn't contain '(' or '|' to avoid double-processing
     # or nested structures if any.
-    pattern = r"\[([^()|]+)\|e\]"
+    pattern = r"\[([^()|]+)\|[eE]\]"
     replacement = r"[Concept('\1', 'CONCEPT_PLACEHOLDER')|e]"
 
     return re.sub(pattern, replacement, line)
@@ -140,8 +140,9 @@ def translate_dir(dir_path: str, translator: Translator, max_translations: int |
                 translation = translator.translate(lines).splitlines()
                 for key, value in zip(l_english.keys(), translation):
                     translated_value = translation_postprocessing(value)
-                    if translated_value == "":
+                    if translated_value == "" and value != "":
                         logger.warning(f"Empty translation for {key} in {file_name}, potentially a translation glitch")
+                        translated_value = "POSTEDIT_EMPTY_TRANSLATION"
                     l_english[key] = translated_value
 
                 if not os.path.exists(output_dir):
