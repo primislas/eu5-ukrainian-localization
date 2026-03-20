@@ -385,7 +385,7 @@
  flavor_tur.61.b: "Our court is strange enough as it is..."
  flavor_tur.61.historical_info: "The Interior Service featured many unusual characters, and was notable for its employment of Dilsiz, deaf-mutes. It was considered that they could be entrusted with secrets and especially sensitive missions, and accordingly, they often acted as guards, attendants, messengers - and sometimes executioners. Though mute, many of them were literate and used their own sign language."
 
-  flavor_tur.62.title: "The Hidden Language"
+ flavor_tur.62.title: "The Hidden Language"
  flavor_tur.62.desc: "The deaf-mutes at court have put their clever minds together, and developed a new sign language that allows them to communicate very well, and silently, with each other. Now they propose that [target_ruler.GetName] should practice this language, too, since it would allow for very secret and intimate exchanges of information, whenever [target_ruler.GetHerHis] highness so wishes."
  flavor_tur.62.a: "Let [target_ruler.GetHerHim] begin to practice."
  flavor_tur.62.b: "Better to focus on martial pursuits."
@@ -1082,7 +1082,7 @@
  flavor_tur.155.b: "Let us listen to the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]."
 
  
-  flavor_tur.156.title: "Tulips' End"
+ flavor_tur.156.title: "Tulips' End"
  flavor_tur.156.desc: "[petrona_halil.GetName] is the leader of a group of $janissaries_advance$ who have gotten increasingly aggrieved by the decadence and conciliatory politics they associate with the $tulip_period$. They are now marching in strength towards [target_capital.GetName], demanding the surrender of [target_character.GetName] and a reversal of recent reforms. The [ROOT.GetCountry.Custom('GetHeadOfCabinetName')] has a plan to thwart them — but to achieve it, we need to buy time. If the [ROOT.GetCountry.GetGovernment.GetRulerTitle] agrees to abdicate, we would appease the less ardent members of the uprising, and could then muster enough allies to kill [petrona_halil.GetNameWithNoTooltip] and the remaining rebels. Thus, we would at least preserve the prestige of the [ROOT.GetCountry.GetFlavorRank]." 
  flavor_tur.156.historical_info: "The reforms and the extravagances at court during the Tulip Period enraged parts of the populace, and especially Albanian Janissaries, who became the chief participants in a rebellion led by the Janissary Petrona Halil. For weeks, the rebels controlled the empire, forcing the abdication of Ahmed III. But the grand vizier sought the aid of the khan of Crimea and loyal Janissaries to put down the rebellion, and managed to turn the tide. Petrona Halil was killed, as was thousands of his followers. But with this violence, the Tulip Period came to its end, and a more oppressive climate took hold."
  flavor_tur.156.a: "It is a necessary sacrifice."
@@ -1198,7 +1198,7 @@
  flavor_tur.170.b: "Make a larger investment in the area."
  grasslands_judge.tt: "We appoint a Qāḍī to this position."
 
-  flavor_tur.171.title: "The [ShowCultureNameWithNoTooltip('circassian_culture')] Beauty"
+ flavor_tur.171.title: "The [ShowCultureNameWithNoTooltip('circassian_culture')] Beauty"
  flavor_tur.171.desc: "[circassian_cariye.GetName] is a hitherto rather unknown Cariye concubine in the [ROOT.GetCountry.GetGovernment.GetAdjective] harem, but [circassian_cariye.GetSheHe] does not lack ambition. [circassian_cariye.GetSheHe|U] wants desperately to be painted by [italian_painter.GetName], a talented artist [circassian_cariye.GetSheHe] has befriended through her Kira intermediary. [circassian_cariye.GetNameWithNoTooltip] promises that the painting would be modest and not break with [ShowReligionGroupAdjective('muslim')] tradition, but still be a celebration of her rare [ShowCultureName('circassian_culture')] beauty, to the envy of all of [ShowContinentName('europe')]."
  flavor_tur.171.historical_info: "Though the term Circassian most often refers to the Adyghe people, in the historical context it could also include other peoples from the Caucasus, such as Georgians and Abkhazians. Circassians, especially women, were long thought of as especially beautiful, spirited and elegant. Circassian slave concubines were much sought after in the Islamic world, and extremely expensive. They eventually came to make up a majority of the concubines in many harems. The Circassian beauties were celebrated in Europe as well, and became a staple of orientalist art in the 18th and 19th centuries."
  flavor_tur.171.a: "Very well, let us allow it."
@@ -1235,7 +1235,7 @@
  flavor_tur.175.b: "Put our trust in the Kadiluks instead."
  flavor_tur.175.c: "The power must always remain in [target_capital.GetNameWithNoTooltip]."
 
-  flavor_tur.176.title: "The Race of Death"
+ flavor_tur.176.title: "The Race of Death"
  flavor_tur.176.desc: "[grand_vizier.GetName], the [ROOT.GetCountry.Custom('GetHeadOfCabinetName')], has been accused of a multitude of crimes, and if found guilty, [grand_vizier.GetSheHe] will be strangled by [bostancibasi.GetName], the [ROOT.GetCountry.GetGovernment.GetAdjective] diplomatic. The sentence will be passed out, in accordance with tradition, by giving the accused a cup of sherbet — if it is red, [grand_vizier.GetSheHe] is condemned, but if it is white, [grand_vizier.GetSheHe] will be freed. But even if given the red sherbet, the [ROOT.GetCountry.Custom('GetHeadOfCabinetName')] has a plan. For as a high-ranking official, [grand_vizier.GetSheHe] will be allowed to compete in a race against the diplomatic, and possibly save [grand_vizier.GetHerHis] life. And [grand_vizier.GetSheHe] has been practicing..."
  flavor_tur.176.historical_info: "The Topkapi palace saw much bloodshed, with executions often being administered by the Bostancibaşi, the sultan's head diplomatic. He was also responsible for the Fountain of Execution in the First Court, where executioners would wash their hands after performing their grisly tasks. In the 18th century, a curious tradition emerged, where condemned high-ranking officials would be allowed to race the Bostancibaşi in the palace garden. If they won, their sentences was commuted from execution to banishment."
  flavor_tur.176.a: "Give [grand_vizier.GetHerHim] the red sherbet."

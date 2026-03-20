@@ -89,7 +89,7 @@
  flavor_sco.15.b: "Away with this foolish mince. Surely there is a reasonable explanation..."
  #
  flavor_sco.16.title: "Mons Meg"
- flavor_sco.16.desc: "The industrious [gifter.GetLongName] has sent us a gift in the shape of a massive seven-tonne bombard, whose barrel is almost the length of three men lying down.\n\nThe men have already begun calling her "$work_of_art_mons_meg$", after the [gifter.GetAdjectiveWithNoTooltip] town of [origin.GetName] in which she was forged."
+ flavor_sco.16.desc: "The industrious [gifter.GetLongName] has sent us a gift in the shape of a massive seven-tonne bombard, whose barrel is almost the length of three men lying down.\n\nThe men have already begun calling her \"$work_of_art_mons_meg$\", after the [gifter.GetAdjectiveWithNoTooltip] town of [origin.GetName] in which she was forged."
  flavor_sco.16.a: "She will take pride of place in [destination.GetNameWithNoTooltip] Castle."
  flavor_sco.16.b: "She shall tear down the walls of other castles."
  flavor_sco.16.c: "Melt her down for scrap."

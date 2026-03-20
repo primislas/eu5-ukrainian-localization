@@ -46,7 +46,7 @@ def copy_localizations(source_dir: Path, target_dir: Path, languages: list[str])
 if __name__ == "__main__":
     _game_dir = Path("/home/primislas/.steam/debian-installation/steamapps/common/Europa Universalis V")
     # _mod_dir = Path("/home/primislas/.steam/debian-installation/steamapps/compatdata/3450310/pfx/drive_c/users/steamuser/Documents/Paradox Interactive/Europa Universalis V/mod/Ukrainian Localization")
-    _mod_dir = Path("/home/primislas/workspace/eu5-modding/ukrainian-localization/Ukrainian Localization/game/main_menu/localization/english/events/disasters")
+    _mod_dir = Path("/home/primislas/workspace/eu5-modding/ukrainian-localization/Ukrainian Localization")
     _languages = ["english", "russian"]
 
     copy_localizations(_game_dir, _mod_dir, _languages)

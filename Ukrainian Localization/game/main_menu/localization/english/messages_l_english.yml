@@ -7694,7 +7694,7 @@
  WE_PERFORM_add_religious_aspect_ACTION_BTN3: "$common_string_go_to$"
  WE_PERFORM_add_religious_aspect_ACTION_MAP: ""
  #
- OTHER_PERFORMS_add_religious_aspect_ACTION_SETUP: "When another [country|e] adds a [religious_aspect|e] to their religious following"."
+ OTHER_PERFORMS_add_religious_aspect_ACTION_SETUP: "When another [country|e] adds a [religious_aspect|e] to their religious following."
  OTHER_PERFORMS_add_religious_aspect_ACTION_HEADER: "$MESSENGER$"
  OTHER_PERFORMS_add_religious_aspect_ACTION_TITLE: "Changes in Religion"
  OTHER_PERFORMS_add_religious_aspect_ACTION_EFFECTS: "[SCOPE.sCountry('actor').GetName] added [SCOPE.sReligiousAspect('target').GetName] to their [SCOPE.sCountry('actor').GetReligion.GetAdjective] religious following."
@@ -7718,7 +7718,7 @@
  WE_PERFORM_change_religious_aspect_ACTION_BTN3: "$common_string_go_to$"
  WE_PERFORM_change_religious_aspect_ACTION_MAP: ""
  #
- OTHER_PERFORMS_change_religious_aspect_ACTION_SETUP: "When another [country|e] replaces a [religious_aspect|e] from their religious followings"."
+ OTHER_PERFORMS_change_religious_aspect_ACTION_SETUP: "When another [country|e] replaces a [religious_aspect|e] from their religious followings."
  OTHER_PERFORMS_change_religious_aspect_ACTION_HEADER: "$MESSENGER$"
  OTHER_PERFORMS_change_religious_aspect_ACTION_TITLE: "Changes in Religion"
  OTHER_PERFORMS_change_religious_aspect_ACTION_EFFECTS: "[SCOPE.sCountry('actor').GetName] replaced [SCOPE.sReligiousAspect('existing_religious_aspect').GetName] with [SCOPE.sReligiousAspect('replacement_religious_aspect').GetName] in their [SCOPE.sCountry('actor').GetReligion.GetAdjective] religious followings."
@@ -7741,7 +7741,7 @@
  WE_PERFORM_remove_religious_aspect_ACTION_BTN3: "$common_string_go_to$"
  WE_PERFORM_remove_religious_aspect_ACTION_MAP: ""
  #
- OTHER_PERFORMS_remove_religious_aspect_ACTION_SETUP: "When another [country|e] removes a [religious_aspect|e] from their religious following"."
+ OTHER_PERFORMS_remove_religious_aspect_ACTION_SETUP: "When another [country|e] removes a [religious_aspect|e] from their religious following."
  OTHER_PERFORMS_remove_religious_aspect_ACTION_HEADER: "$MESSENGER$"
  OTHER_PERFORMS_remove_religious_aspect_ACTION_TITLE: "Changes in Religion"
  OTHER_PERFORMS_remove_religious_aspect_ACTION_EFFECTS: "[SCOPE.sCountry('actor').GetName] removed [SCOPE.sReligiousAspect('existing_religious_aspect').GetName] from their [SCOPE.sCountry('actor').GetReligion.GetAdjective] religious following."
@@ -10969,7 +10969,7 @@
  CANCEL_INFILTRATEADMINTHEM_SETUP: "When another [country|e] stops infiltrating our administration."
  CANCEL_INFILTRATEADMINTHEM_HEADER: "$MESSENGER$"
  CANCEL_INFILTRATEADMINTHEM_TITLE: "Infiltrators Found"
- CANCEL_INFILTRATEADMINTHEM_DESC: "$MONARCHTITLE$, some of our administrators have fled the [country|e] after we found out that they were leaking information to the bastards in "$WHO$."
+ CANCEL_INFILTRATEADMINTHEM_DESC: "$MONARCHTITLE$, some of our administrators have fled the [country|e] after we found out that they were leaking information to the bastards in $WHO$."
  CANCEL_INFILTRATEADMINTHEM_EFFECTS: "$EFFECT$"
  CANCEL_INFILTRATEADMINTHEM_FLAVOR: "They will no longer have access to our state secrets."
  CANCEL_INFILTRATEADMINTHEM_LOG: "$WHO$ stopped infiltrating our administration."

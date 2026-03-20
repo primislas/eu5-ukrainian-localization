@@ -125,8 +125,11 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
             lines = "\n".join([translation_preprocessing(l) for l in l_english.values()])
             logger.info(f"Translating {input_file_path}")
 
-            # IO-bound translation call
-            translation = await asyncio.to_thread(translator.translate, lines)
+            # Call async translation method if available, otherwise fall back to sync
+            if hasattr(translator, 'translate_async'):
+                translation = await translator.translate_async(lines)
+            else:
+                translation = await asyncio.to_thread(translator.translate, lines)
             translation = translation.splitlines()
 
             for key, value in zip(l_english.keys(), translation):
@@ -194,7 +197,13 @@ async def translate_dir_async(dir_path: str, translator: Translator, max_transla
         if max_translations and len(files_to_translate) >= max_translations:
             break
 
-    logger.info(f"Found {len(files_to_translate)} files to translate")
+    logger.info(f"Identified {len(files_to_translate)} files to translate")
+    for f in files_to_translate:
+        try:
+            with open(f[0], "r") as file_handle:
+                yaml.load(file_handle, Loader=yaml.FullLoader)
+        except Exception:
+            logger.exception(f"Error loading {f[0]}")
 
     # Create semaphore to limit concurrency
     semaphore = asyncio.Semaphore(max_concurrency)
@@ -224,4 +233,4 @@ if __name__ == '__main__':
     load_dotenv()
     _translator = GeminiTranslator()
     _source_dir = "../Ukrainian Localization"
-    translate_dir(_source_dir, _translator, max_translations=32, overwrite_existing_translation=False)
+    translate_dir(_source_dir, _translator, max_translations=512, overwrite_existing_translation=False)

@@ -19,7 +19,7 @@
 
  subject_interaction_events.4.title: "Incompetent Relative"
  subject_interaction_events.4.desc: "Our dearly beloved [subject_target.GetGovernment.GetFullRulerName] that rules over our subject [subject_target.GetName] has proven to be an incompetent buffoon, one that cannot and should not rule over any country."
-  subject_interaction_events.4.a: "Replace them with [better_ruler.GetName]"
+ subject_interaction_events.4.a: "Replace them with [better_ruler.GetName]"
  subject_interaction_events.4.b: "This can only bring disorder to the country. Leave it be."
 
  subject_interaction_events.5.title: "Competent Relative"

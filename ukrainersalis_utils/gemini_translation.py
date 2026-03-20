@@ -1,4 +1,4 @@
-import re
+import asyncio
 from typing import override
 
 from flask.cli import load_dotenv
@@ -34,12 +34,14 @@ Output:
 
 class GeminiTranslator(Translator):
     def __init__(self, model: str = _DEFAULT_GEMINI_MODEL, system_instruction: str = _DEFAULT_SYSTEM_INSTRUCTION,
-                 batch_size: int = 25, min_last_batch_size: int = 10):
+                 batch_size: int = 25, min_last_batch_size: int = 10, max_concurrent_batches: int = 8):
         self.model = model
         self.system_instruction = system_instruction
         self._gemini: genai.Client | None = None
         self._batch_size = batch_size
         self._min_last_batch_size = min_last_batch_size
+        self._max_concurrent_batches = max_concurrent_batches
+        self._current_loop: asyncio.AbstractEventLoop | None = None
 
     @override
     def translate(self, text: str) -> str:
@@ -57,18 +59,113 @@ class GeminiTranslator(Translator):
             return ""
 
         batches = self._split_into_batches(lines)
-        translations = []
-        for batch in batches:
-            batch_text = "\n".join(batch)
-            translation = self._translate_to_match_line_count(batch_text, len(batch))
-            output_lines = self._splitlines_and_pad_to_batch_size(translation, batch, len(translations))
-            translations.extend(output_lines)
-            logger.debug(f"Translated {len(translations)}/{len(lines)} phrases")
+
+        # Run all batches concurrently, preserving order
+        translations = asyncio.run(self._translate_batches_async(batches))
 
         return "\n".join(translations)
 
+    async def translate_async(self, text: str) -> str:
+        """Async version of translate for use within async contexts.
+
+        Args:
+            text (str): The text to be translated.
+
+        Returns:
+            str: The translated text in Ukrainian.
+        """
+        lines = text.splitlines()
+        if not lines:
+            return ""
+
+        batches = self._split_into_batches(lines)
+        translations = await self._translate_batches_async(batches)
+
+        return "\n".join(translations)
+
+    async def _translate_batches_async(self, batches: list[list[str]]) -> list[str]:
+        """Translates all batches concurrently while preserving order.
+
+        Args:
+            batches: List of text batches to translate
+
+        Returns:
+            Flat list of all translated lines in order
+        """
+        # Create semaphore to limit concurrent API calls
+        semaphore = asyncio.Semaphore(self._max_concurrent_batches)
+
+        # Calculate total lines for progress tracking
+        total_lines = sum(len(batch) for batch in batches)
+        total_batches = len(batches)
+
+        # Create tasks for all batches - gather preserves order
+        tasks = [
+            self._translate_batch_async(i, batch, semaphore, total_batches, total_lines)
+            for i, batch in enumerate(batches)
+        ]
+
+        # Execute concurrently with limited parallelism, results maintain order
+        # return_exceptions=True prevents one failure from canceling all tasks
+        batch_results = await asyncio.gather(*tasks, return_exceptions=True)
+
+        # Flatten results, handling exceptions
+        translations = []
+        for batch_idx, result in enumerate(batch_results):
+            if isinstance(result, Exception):
+                logger.error(f"Batch {batch_idx + 1}/{total_batches} failed: {result}")
+                # Fill with empty strings to maintain line count
+                translations.extend(["POSTEDIT_FAILED_TRANSLATION"] * len(batches[batch_idx]))
+            else:
+                translations.extend(result)
+
+        return translations
+
+    async def _translate_batch_async(self, batch_index: int, batch: list[str],
+                                     semaphore: asyncio.Semaphore, total_batches: int,
+                                     total_lines: int) -> list[str]:
+        """Translates a single batch asynchronously.
+
+        Args:
+            batch_index: Index of this batch (for logging)
+            batch: Lines to translate
+            semaphore: Semaphore to limit concurrent requests
+            total_batches: Total number of batches
+            total_lines: Total number of lines across all batches
+
+        Returns:
+            Translated lines for this batch
+        """
+        async with semaphore:
+            batch_text = "\n".join(batch)
+
+            # Use native async API
+            translation = await self._translate_to_match_line_count_async(batch_text, len(batch))
+
+            output_lines = self._splitlines_and_pad_to_batch_size(
+                translation, batch, batch_index * self._batch_size
+            )
+
+            # Calculate completed phrases
+            if batch_index + 1 == total_batches:
+                completed_phrases = total_lines
+            else:
+                completed_phrases = (batch_index + 1) * self._batch_size
+
+            logger.debug(f"Translated {completed_phrases}/{total_lines} phrases")
+
+            return output_lines
+
     def _get_gemini_client(self) -> genai.Client:
-        if self._gemini is None:
+        """Get or create Gemini client, recreating if event loop changed."""
+        try:
+            current_loop = asyncio.get_running_loop()
+        except RuntimeError:
+            # No running loop - will be created by asyncio.run()
+            current_loop = None
+
+        # Recreate client if event loop changed or client doesn't exist
+        if self._gemini is None or self._current_loop != current_loop:
             self._gemini = genai.Client(
                 http_options=HttpOptions(
                     retry_options=HttpRetryOptions(
@@ -79,6 +176,8 @@ class GeminiTranslator(Translator):
                     )
                 )
             )
+            self._current_loop = current_loop
+
         return self._gemini
 
     def _split_into_batches(self, lines: list[str]):
@@ -129,22 +228,33 @@ class GeminiTranslator(Translator):
                 output_lines.append("")
         return output_lines
 
-    @staticmethod
-    def extract_response(translation_text: str) -> str:
-        match = re.search(r"Thought:.*?Response:(.*)", translation_text, re.DOTALL)
-        if match:
-            return match.group(1).lstrip()
-        return translation_text
+    async def _translate_to_match_line_count_async(self, text: str, expected_output_lines: int) -> str:
+        """Async version of translate with retry for line count mismatch."""
+        translation = await self._translate_async(text, expected_output_lines)
+        if not translation or len(translation.splitlines()) != expected_output_lines:
+            translation = await self._translate_async(text, expected_output_lines)
+        if not translation:
+            translation = "\n".join(["POSTEDIT_FAILED_TRANSLATION"] * expected_output_lines)
+
+        return translation
+
+    async def _translate_async(self, text: str, expected_output_lines: int) -> str:
+        """Async translation using native genai async API."""
+        response = await self._get_gemini_client().aio.models.generate_content(
+            model=self.model,
+            contents=text,
+            config=GenerateContentConfig(
+                system_instruction=self.system_instruction,
+                temperature=0.15,
+            ),
+        )
+        return response.text
 
     def _translate_to_match_line_count(self, text: str, expected_output_lines: int) -> str:
         translation = self._translate(text, expected_output_lines)
-        translation = self.extract_response(translation)
-
         if len(translation.splitlines()) != expected_output_lines:
-            # Oftentimes it's just a gemini glitch fixed on a retry
             translation = self._translate(text, expected_output_lines)
-        translation = self.extract_response(translation)
-        
+
         return translation
 
     def _translate(self, text: str, expected_output_lines: int) -> str:
