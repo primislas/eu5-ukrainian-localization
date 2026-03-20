@@ -1,0 +1,11 @@
+l_english:
+  flavor_ice.10.title: "Єпископства [ROOT.GetCountry.GetNameWithNoTooltip]"
+  flavor_ice.10.desc: "[ROOT.GetCountry.GetReligion.GetAdjective] віра довгий час була важливою частиною [ROOT.GetCountry.GetAdjective] життя. Однак на острові існують два окремі єпископства: [target_location.GetName] та [skalholt.GetName].\n\n[target_location.GetNameWithNoTooltip], що у [target_location.GetProvince.GetName], має репутацію більш незалежного та самодостатнього, тоді як [skalholt.GetNameWithNoTooltip] у [skalholt.GetProvince.GetName] вважається більш тісно пов'язаним з [overlord.GetLongName].\n\nУ міру того, як [ROOT.GetCountry.GetNameWithNoTooltip] рухається вперед, буде важливо враховувати унікальний характер кожного єпископства."
+  flavor_ice.10.a: "Підтримати незалежне [target_location.GetNameWithNoTooltip]."
+  flavor_ice.10.b: "Задобрити [overlord.GetAdjectiveWithNoTooltip] єпископа."
+  opinion_opposed_our_bishop: "Протистояли Нашому Єпископу"
+  opinion_supported_our_bishop: "Підтримали Нашого Єпископа"
+  flavor_ice.11.title: "Хульдуфольк"
+  flavor_ice.11.desc: "Історії про Хульдуфольк, містичних прихованих людей, століттями захоплювали [ROOT.GetCountry.GetCulture.GetName] народ. Вважається, що ці невловимі ельфи мешкають у самих скелях і горах Ісландії.\n\nТепер виникла нова ситуація, оскільки планується будівництво [ROOT.GetCountry.GetReligion.GetAdjective] церкви в районі [target_location.GetName], який, як кажуть, належить Хульдуфольку.\n\n[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] побоюються, що порушення спокою скель, де мешкає Хульдуфольк, призведе до катастрофічних наслідків. [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')], звісно, затято заперечує існування невидимих істот. Вирішити цю духовну суперечку та визначити долю запропонованого будівництва випадає [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')]."
+  flavor_ice.11.a: "Поважати вірування та відмовитися від церкви."
+  flavor_ice.11.b: "Ігнорувати забобони та побудувати церкву."

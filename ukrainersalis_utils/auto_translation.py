@@ -233,4 +233,4 @@ if __name__ == '__main__':
     load_dotenv()
     _translator = GeminiTranslator()
     _source_dir = "../Ukrainian Localization"
-    translate_dir(_source_dir, _translator, max_translations=512, overwrite_existing_translation=False)
+    translate_dir(_source_dir, _translator, max_translations=1, overwrite_existing_translation=False)

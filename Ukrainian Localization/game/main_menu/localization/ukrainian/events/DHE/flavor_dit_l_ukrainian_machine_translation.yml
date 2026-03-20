@@ -1,0 +1,5 @@
+l_english:
+  flavor_dit.1.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] [ROOT.GetCountry.GetNameWithNoTooltip]"
+  flavor_dit.1.desc: "Землі, що їх обробляють наші [ShowPopTypeName('peasants')], отримують мало уваги від зовнішнього світу, що призвело до розвитку самоорганізованих громад, далеко від впливу будь-яких [ShowPopTypeName('nobles')]. Можливо, настав час розірвати останні зв'язки, що прив'язують нас до феодального суспільства [ShowContinentName('europe')], і прийняти структури [ShowGovernmentReformName('peasant_republic_reform')], які керували нами століттями."
+  flavor_dit.1.a: "Мир хатам! Війна палацам!"
+  flavor_dit.1.b: "Це звучить дещо занадто радикально."

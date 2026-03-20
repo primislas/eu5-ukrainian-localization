@@ -1,0 +1,8 @@
+l_english:
+  flavor_ned_plc.1.title: "[target_country.GetAdjectiveWithNoTooltip] купці в [target_location.GetNameWithNoTooltip]"
+  flavor_ned_plc.1.desc: "Інтереси [receiving_country.GetLongName] та [target_country.GetLongName] збігаються в багатьох аспектах. Щороку чимало їхніх [target_country.GetGovernment.GetEstateName('burghers_estate')] прибувають до портів [target_market.GetName] і особливо до антрепо [target_good.GetName] у [target_location.GetName]. З іншого боку, [receiving_country.GetGovernment.GetEstateName('nobles_estate')] [receiving_country.GetNameWithNoTooltip] явно отримують вигоду від цього партнерства, маючи змогу обмінювати надлишок [target_good.GetNameWithNoTooltip] на розкішні товари, привезені купцями."
+  flavor_ned_plc.1.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
+  flavor_ned_plc.2.title: "$flavor_ned_plc.1.title$"
+  flavor_ned_plc.2.desc: "$flavor_ned_plc.1.desc$"
+  flavor_ned_plc.2.a: "Влити додаткові кошти в оптову торгівлю."
+  flavor_ned_plc.2.b: "[ROOT.GetCountry.Custom('common_string_positive')]"

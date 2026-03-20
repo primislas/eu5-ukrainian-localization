@@ -1,0 +1,6 @@
+l_english:
+  civil_war.1.title: "Громадянська війна програна"
+  civil_war.1.desc: "[loser.GetAdjective] громадянська війна завершилася. Ми програли. На щастя для нас, це не кінець, а, можливо, нагода."
+  civil_war.1.a: "З попелу постає нове життя!"
+  civil_war.1.b: "Настав час розплатитися"
+  civil_war_game_over: "Це завершить нашу гру!\n\n@trigger_no! #R GAME OVER !#! @trigger_no!"

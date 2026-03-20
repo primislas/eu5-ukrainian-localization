@@ -1,0 +1,13 @@
+l_english:
+  legatusnatus.1.title: "Legatus Natus"
+  legatusnatus.1.desc: "[home_ruler.GetName] довго був удостоєний честі бути представником [pope_ruler.GetName] - [ShowGovernmentReformName('legatus_natus')] - на північ від Альп.\nТакий престижний титул вимагає певного рівня гідності, і ми не можемо дозволити нашому престижу або нашим відносинам із [GetCountry('PAP').GetGovernment.GetRulerTitle] впасти надто низько."
+  legatusnatus.1.a: "Все в руках Божих."
+  legatusnatus.2.title: "Титул Legatus Natus втрачено"
+  legatusnatus.2.desc: "Наші позиції в [GetUniqueInternationalOrganization('hre').GetName] та у [pope_ruler.GetName] останнім часом погіршилися. [GetCountry('PAP').GetGovernment.GetRulerTitle], схоже, більше не довіряє нам у виконанні нашої ролі його [ShowGovernmentReformName('legatus_natus')] у [GetUniqueInternationalOrganization('hre').GetNameWithNoTooltip] і, на превеликий жаль, вирішив позбавити нас цього титулу."
+  legatusnatus.2.a: "Здається, все ж таки це було в моїх руках..."
+  legatusnatus.3.title: "Посланець від [GetCountry('PAP').GetGovernment.GetRulerTitle]"
+  legatusnatus.3.desc: "Добрі новини! [home_ruler.GetName] був обраний [pope_ruler.GetName] для отримання престижного титулу [ShowGovernmentReformName('legatus_natus')] - його представника на північ від Альп - після того, як попередній володар втратив прихильність."
+  legatusnatus.3.a: "Чи це сутінковий промінь пробивається всередину?"
+  legatusnatus.4.title: "Посаду [ShowGovernmentReformName('legatus_natus')] відкликано"
+  legatusnatus.4.desc: "Престижну посаду [ShowGovernmentReformName('legatus_natus')] може обіймати лише [ShowReligionAdjective('catholic')] єпископ у [GetUniqueInternationalOrganization('hre').GetName]. Оскільки [home_ruler.GetName] більше не відповідає цій вимозі, [pope_ruler.GetName] відкликав титул."
+  legatusnatus.4.a: "Будь проклятий, [GetCountry('PAP').GetGovernment.GetRulerTitle]."

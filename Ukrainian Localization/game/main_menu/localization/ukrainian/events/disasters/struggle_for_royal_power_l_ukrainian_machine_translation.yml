@@ -1,0 +1,13 @@
+l_english:
+  struggle_for_royal_power.1.title: "Боротьба за королівську владу"
+  struggle_for_royal_power.1.desc: "Напруга між [ROOT.GetCountry.GetGovernment.GetRulerTitle] та Сеймом досягла межі. [ROOT.GetCountry.GetGovernment.GetRulerTitle] став абсолютно нетерпимим до постійної необхідності йти на компроміси зі Шляхтою, аби здійснити навіть найменший акт управління, оскільки ці шляхтичі знаходять привід діяти проти монарха за кожної можливої нагоди. [ROOT.GetCountry.GetGovernment.GetRulerTitle] вважає, що нарешті настав час покласти край владі Сейму в [ROOT.GetCountry.GetName]."
+  struggle_for_royal_power.1.a: "Розпочати війну проти Шляхти."
+  struggle_for_royal_power.100.title: "Кінець боротьби за королівську владу"
+  struggle_for_royal_power.100.desc: "Після тривалої боротьби, що включала як політичний, так і військовий конфлікт, криза в [ROOT.GetCountry.GetName] завершилася. Більше немає жодних сумнівів щодо того, де лежить справжня влада в [ROOT.GetCountry.GetName]."
+  struggle_for_royal_power.100.a: "[ROOT.GetCountry.GetGovernment.GetRulerTitle] є верховним!"
+  struggle_for_royal_power.100.b: "Сейм є верховним!"
+  struggle_for_royal_power.100.c: "Ця громадянська війна стане кінцем [ROOT.GetCountry.GetName]"
+  struggle_for_royal_power.10.title: "Конфедерація"
+  struggle_for_royal_power.10.desc: "Так само, як [ROOT.GetCountry.GetGovernment.GetRuler.GetName] вирішив усунути владу від Сейму, так і Сейм висунув власні вимоги до [ROOT.GetCountry.GetGovernment.GetRuler.GetName]. Миколай Зебжидовський, Ян Щенсний Гербурт, Станіслав Стадніцький, Александер Юзеф Лісовський та Януш Радзивілл утворили рокош, або напівлегальне повстання, у Стенжиці та Любліні. Шляхтичі, що зібралися на рокоші, утворили Конфедерацію, яка виклала вимоги у 67 статтях, вимагаючи скинення [ROOT.GetCountry.GetGovernment.GetRuler.GetName] за порушення Генріхових артикулів, та право Сейму призначати державних чиновників замість [ROOT.GetCountry.GetGovernment.GetRulerTitle]."
+  struggle_for_royal_power.10.a: "Спробувати домовитися з конфедерацією."
+  struggle_for_royal_power.10.b: "Відхилити їхні вимоги."

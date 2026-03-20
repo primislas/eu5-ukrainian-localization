@@ -1,0 +1,9 @@
+l_english:
+  flavor_zzz.1.title: "Стіни [target_location.GetNameWithNoTooltip]"
+  flavor_zzz.1.desc: "Зі зростанням нашої войовничості в [ShowRegionName('guinea_region')], [target_location.GetName] став осередком не лише культури, а й конфлікту. Через це [target_character.GetName] бажає звести стіни на [target_character.GetHerHis] ім'я, забезпечуючи, що [target_location.GetRank.GetName] ніколи не впаде."
+  flavor_zzz.1.a: "Захистимо [target_location.GetNameWithNoTooltip]."
+  flavor_zzz.1.b: "Немає потреби у стінах."
+  flavor_zzz.2.title: "[ROOT.GetCountry.GetNameWithNoTooltip] у наступі"
+  flavor_zzz.2.desc: "Через зростання військової могутності [ROOT.GetCountry.GetName], [target_character.GetName] та [target_character.GetHerHis] [ROOT.GetCountry.GetGovernment.GetCourtTitle] вже розробили плани, як надалі збільшити нашу міць. Вони пропонують або підхід до завоювання наших сусідів, або більш оборонну стратегію, зосереджену на захисті будь-яких здобутків, яких ми досягли."
+  flavor_zzz.2.a: "Рушайте і завойовуйте!"
+  flavor_zzz.2.b: "Зміцнити поточні здобутки."

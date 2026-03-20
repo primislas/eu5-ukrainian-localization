@@ -1,0 +1,4 @@
+l_english:
+  flavor_tle.1.title: "Падіння [capital_scope.GetNameWithNoTooltip]"
+  flavor_tle.1.desc: "Столиця нашого дорогого [ROOT.GetCountry.GetFlavorRank], [capital_scope.GetName], на жаль, пала до рук наших мерзенних ворогів, і, на додаток до трагедії, наш улюблений правитель [ruler_scope.GetName] та його сини були вбиті під час штурму.\n\nЦя трагедія рознесла хвилю відчаю по всьому [ROOT.GetCountry.GetFlavorRank] і зробила продовження боротьби проти наших нападників ще складнішим."
+  flavor_tle.1.a: "[ROOT.GetCountry.Custom('common_string_negative')]"

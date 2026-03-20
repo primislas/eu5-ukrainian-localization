@@ -1,0 +1,5 @@
+l_english:
+  exploration_success.1.title: "Видатний мічман"
+  exploration_success.1.desc: "Після успішного повернення експедиції до [target.GetName] ми чуємо, що [actor.GetName] віддає велику шану перспективному молодому офіцеру, який служив експедиції з великою відзнакою."
+  exploration_success.1.a: "Надати йому командування його власними експедиціями."
+  exploration_success.1.b: "Нам потрібні хороші мічмани."

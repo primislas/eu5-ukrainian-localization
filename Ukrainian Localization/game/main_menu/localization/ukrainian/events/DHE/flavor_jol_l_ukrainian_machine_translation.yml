@@ -1,0 +1,6 @@
+l_english:
+  flavor_jol.1.title: "Навернення [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]"
+  flavor_jol.1.desc: "Зі зростанням нашого впливу в [ShowRegionName('guinea_region')], ми зуміли задовольнити значну частину вимог [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] на завойованих землях, проте вони ще не повністю інтегрувалися до [ROOT.GetCountry.GetReligion.GetAdjective] цінностей, ані до [ROOT.GetCountry.GetCulture.GetName] цінностей. Можливо, ми можемо розпочати кампанію, щоб допомогти в цьому."
+  flavor_jol.1.a: "Стабілізувати [ROOT.GetCountry.GetNameWithNoTooltip]!"
+  flavor_jol.1.b: "Немає потреби антагонізувати [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]."
+  jol_convert_nobility_tt: "#Y 15%#! наших [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] [Concept('pops', 'CONCEPT_PLACEHOLDER')|e] навернуться до [ROOT.GetCountry.GetCulture.GetName] та [ROOT.GetCountry.GetReligion.GetName]"

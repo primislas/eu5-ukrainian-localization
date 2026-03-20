@@ -1,0 +1,9 @@
+l_english:
+  building.1.title: "Університет [new_university.GetNameWithNoTooltip]"
+  building.1.desc: "Після низки палких дебатів, що переросли у насильство, вчені з Університету [old_university.GetName] втекли до [new_university.GetName], щоб заснувати там конкуруючий навчальний заклад.\n#NL!Випускники [old_university.GetNameWithNoTooltip] становлять значну частину [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')], і вони звертаються до нас з проханням придушити це освітнє повстання."
+  building.1.a: "Заохотити цей новий навчальний заклад."
+  building.1.b: "Наказати біженцям повернутися до [old_university.GetNameWithNoTooltip]."
+  building.2.title: "Місто та Університет"
+  building.2.desc: "Студенти Університету [university.GetName] перебувають під захистом [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')], і як такі мають інші права, ніж місцеві міщани. Дві громади, що живуть у безпосередній близькості, часто викликають недовіру, але нещодавно ця недовіра переросла у жорстокі заворушення."
+  building.2.a: "Стати на бік університету."
+  building.2.b: "Стати на бік міщан."

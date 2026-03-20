@@ -1,0 +1,10 @@
+l_english:
+  flavor_cas_por.1.title: "Королівська п'ята"
+  flavor_cas_por.1.desc_common: "[ROOT.GetCountry.GetGovernment.GetRulerTitle], як єдиний правитель [ROOT.GetCountry.GetName], має право на всі природні багатства та блага, що знаходяться в межах [ROOT.GetCountry.GetFlavorRank]. Саме тому всі природні ресурси, видобуті [ROOT.GetCountry.GetAdjectiveWithNoTooltip] громадянами, по праву належать [target_character.GetName]. Однак, якби кожен мав віддавати свої товари уряду, не було б стимулу проводити ці гірничі операції, і саме тому ми вирішили видобувати ресурси згідно з [ShowPolicyName('royal_fifth_law')]."
+  flavor_cas_por.1.desc: "$flavor_cas_por.1.desc_common$\n\nПитання податку знову постало, оскільки воно стане набагато важливішим через розширення видобутку [target_goods.GetName] у [target_location.GetName]. Місцеві віце-королі неохоче застосовували податок, вважаючи, що це придушить виробництво."
+  flavor_cas_por.1.a: "Застосувати [ShowPolicyNameWithNoTooltip('royal_fifth_law')]."
+  flavor_cas_por.1.b: "Не порушувати їхні операції."
+  flavor_cas_por.2.title: "$flavor_cas_por.1.title$"
+  flavor_cas_por.2.desc: "$flavor_cas_por.1.desc_common$\n\nНещодавнє відкриття [target_goods.GetName] у [target_location.GetName] знову винесло на обговорення питання цього податку, оскільки місцевий віце-король вимагає від керівників шахт дотримуватися податку, який досі був значною мірою актуальним. Кілька радників [ROOT.GetCountry.GetGovernment.GetRulerTitle] стверджують, що це може зашкодити виробництву ресурсу."
+  flavor_cas_por.2.a: "$flavor_cas_por.1.a$"
+  flavor_cas_por.2.b: "Забути про це наразі."

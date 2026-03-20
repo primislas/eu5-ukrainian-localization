@@ -1,0 +1,10 @@
+l_english:
+  generic_mercenary_name: "[AREA.GetName] Компанія"
+  burgher_cogs_name: "[AREA.GetName] Коги"
+  rogue_free_company_1: "Розбійні Рут’єри"
+  rogue_free_company_2: "Розбійні Рут’єри"
+  french_levy_retinue: "Французька Ополченська Дружина"
+  french_elite_retinue: "Французька Піхотна Дружина"
+  flo_white_company: "Біла Компанія"
+  pol_lisowczycy: "Лісовчики"
+  mor_ottoman_mercenaries: "Османський Корпус"

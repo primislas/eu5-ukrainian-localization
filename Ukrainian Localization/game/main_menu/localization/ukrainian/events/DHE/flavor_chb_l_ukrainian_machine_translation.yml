@@ -1,0 +1,10 @@
+l_english:
+  flavor_chb.1.title: "Повстання [target_character.GetNameWithNoTooltip]"
+  flavor_chb.1.desc: "[GetCharacter('chb_chupan').GetName] був одним із найважливіших полководців [GetCountry('MGE').GetName]. Хоча його рід дещо занепав, він не згас, і тепер його онук [target_character.GetName] зумів зібрати навколо себе багато прихильників. Одним із тих, хто згуртувався навколо нього, був намісник [target_location.GetName], що дозволило йому взяти під контроль [target_location.GetRank.GetName] та всю навколишню територію, і він навіть захопив та стратив [GetCharacter('jal_muhammad_khan').GetName]."
+  flavor_chb.1.a: "Ми розчавимо його та його рід, як черв'яків, якими вони є."
+  flavor_chb.1.tt: "[target_character.GetName] зумів здобути територію навколо [target_location.GetName]"
+  flavor_chb.1.b: "Чи принесе його піднесення велич?"
+  flavor_chb.2.title: "Спадщина $rank_kingdom_horde_ruler_female$"
+  flavor_chb.2.desc: "[target_khatun.GetName] була дружиною [GetCharacter('chb_chupan').GetName] і була дуже залучена в політику [GetUniqueInternationalOrganization('ilkhanate').GetName]. Вбачаючи в нас можливість вибороти контроль над престолом, вона готова перейти на наш бік і запропонувати нам свою підтримку. Ми могли б використати її родинні зв'язки та контакти і посадити її як нашу маріонетку на престол [GetUniqueInternationalOrganization('ilkhanate').GetNameWithNoTooltip]. Однак, вона може бути занадто амбітною для власного блага, тому, можливо, найкраще було б одружити її з більш поступливою маріонеткою."
+  flavor_chb.2.a: "Вона стане чудовою $rank_kingdom_horde_ruler_female$."
+  flavor_chb.2.b: "Краще не давати їй занадто багато впливу."

@@ -1,0 +1,5 @@
+l_english:
+  character_events.1.title: "Перепади настрою [target_character.GetNameWithNoTooltip]"
+  character_events.1.title.no_event_target: "Перепади настрою"
+  character_events.1.desc: "Хоча й особа великої відповідальності та очільник [ROOT.GetCountry.GetName], [target_character.GetName], на жаль, відомий своєю непередбачуваною поведінкою та змінами настрою. Знову ж таки, ставлення [target_character.GetHeSheFormal] до державних справ виходить за межі розуміння [target_character.GetHerHis] підданих..."
+  character_events.1.a: "Сподіваймося, [target_character.GetSheHe] не стане тягарем для нашої нації..."

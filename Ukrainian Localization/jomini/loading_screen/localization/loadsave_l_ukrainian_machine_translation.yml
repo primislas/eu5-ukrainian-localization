@@ -1,0 +1,13 @@
+l_english:
+  JOMINI_LOAD_GAME_FAILED_TITLE: "Невдалося завантажити збережену гру"
+  JOMINI_LOAD_GAME_FAILED_DESC: "Збережену гру не вдалося завантажити, це може бути спричинено тим, що:"
+  JOMINI_LOAD_INCOMPATIBLE_GAME_TITLE: "#indent_newline:2 • Збережену гру створено несумісною версією гри"
+  JOMINI_LOAD_INCOMPATIBLE_GAME_DESC: "• Збережена гра використовує інший набір DLC"
+  JOMINI_DELETE_PLAYTHROUGH_CONFIRMATION_TITLE: "• Файл збереження пошкоджено#!"
+  JOMINI_DELETE_PLAYTHROUGH_CONFIRMATION_DESC: "Збережена гра може бути несумісною"
+  JOMINI_DELETE_SAVEGAME_CONFIRMATION_TITLE: "Збережену гру може не бути завантажено через:"
+  JOMINI_DELETE_SAVEGAME_CONFIRMATION_DESC: ""
+  JOMINI_OVERWRITE_SAVEGAME_CONFIRMATION_TITLE: "$REASON$"
+  JOMINI_OVERWRITE_SAVEGAME_CONFIRMATION_DESC: ""
+  JOMINI_INCORRECT_FILENAME_TITLE: "Бажаєте продовжити завантаження?"
+  JOMINI_INCORRECT_FILENAME_DESC: "Видалення проходження"

@@ -1,0 +1,8 @@
+l_english:
+  flavor_ven_papal_interdicts.1000.title: "[ROOT.GetCountry.GetAdjectiveWithNoTooltip] Інтердикт"
+  flavor_ven_papal_interdicts.1000.desc: "[GetCountry('PAP').GetGovernment.GetRulerTitle] наклав інтердикт на [ROOT.GetCountry.GetName], нібито у відповідь на свободу релігійного фанатизму, що панує в місті, що, очевидно, є постійною образою для [GetCountry('PAP').GetName]. Однак для нас очевидно, що це лише хитрість, яку вони використовують для просування своїх амбіцій."
+  flavor_ven_papal_interdicts.1000.a: "[ROOT.GetCountry.GetNameWithNoTooltip] є [ROOT.GetCountry.GetNameWithNoTooltip]!"
+  flavor_ven_papal_interdicts.1000.b: "Схиліться перед Святим Отцем"
+  flavor_ven_papal_interdicts.1001.title: "Місто Гріха"
+  flavor_ven_papal_interdicts.1001.desc: "Люди [target_sinner_country.GetName] є нечестивими та надзвичайно грішними перед Господом. Немає жодного праведника, що живе в тому місті торгівлі, і воно сповнене людьми, яких Син Божий вигнав із Храму. Як Божі представники на землі, ми повинні діяти!"
+  flavor_ven_papal_interdicts.1001.a: "[venice_target.GetNameWithNoTooltip] впаде як Содом і Гоморра!"

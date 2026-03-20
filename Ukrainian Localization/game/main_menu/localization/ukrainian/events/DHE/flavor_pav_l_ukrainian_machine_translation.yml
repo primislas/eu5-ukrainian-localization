@@ -1,0 +1,11 @@
+l_english:
+  flavor_pav.1.title: "Вигнання [expelled_ruler.GetDynasty.GetNameWithNoTooltip]"
+  flavor_pav.1.desc: "Місто [ROOT.GetCountry.GetCapital.GetName] охоплене полум'ям, коли спалахує чергове повстання проти [expelled_ruler.GetDynasty.GetName]. Цього разу його очолює харизматичний клірик [pav_iacopo_bussolari_scope.GetName], який об'єднав місто проти його [ROOT.GetCountry.GetGovernment.GetRulerTitle]. Якщо нічого не буде зроблено, [expelled_ruler.GetName] доведеться тікати, можливо, у лещата [ShowDynastyName('visconti_dynasty')]."
+  flavor_pav.1.historical_info: "У 1356 році Беккаріа були вигнані з Павії народним повстанням, очолюваним ченцем Якопо Буссоларі, який згодом допоміг врятувати місто від падіння під час облоги, очолюваної Вісконті. Вигнанці об'єдналися б, і місто впало б перед Міланом у 1359 році, після чого Беккаріа відновили деякі привілеї, але місто залишилося під контролем міланців."
+  flavor_pav.1.a: "Йдіть за його проповідями!"
+  flavor_pav.1.b: "Ми мусимо чинити опір цьому заворушенню."
+  flavor_pav.2.title: "$flavor_pav.1.title$"
+  flavor_pav.2.desc: "До нас дійшла звістка про народне повстання в [target_country.GetName], очолюване харизматичним [pav_iacopo_bussolari_scope.GetName]. Під [pav_iacopo_bussolari_scope.GetHisHer] проводом населення [target_country.GetCapital.GetNameWithNoTooltip] зуміло вигнати династію [expelled_ruler.GetDynasty.GetName] з правління їхнім містом, включно з [expelled_ruler.GetName], який звернувся до нас по допомогу. Хоча ми раніше ворогували з [expelled_ruler.GetDynasty.GetNameWithNoTooltip], ми могли б використати це як нагоду, щоб остаточно заволодіти цим містом."
+  flavor_pav.2.historical_info: "$flavor_pav.1.historical_info$"
+  flavor_pav.2.a: "Скористатися хаосом."
+  flavor_pav.2.b: "Не наша справа."

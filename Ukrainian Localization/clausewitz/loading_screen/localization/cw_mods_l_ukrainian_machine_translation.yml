@@ -1,0 +1,8 @@
+l_english:
+  MODS_DEPENDENCY_NONE: "Немає залежностей"
+  MODS_DEPENDENCY_UNKNOWN: "Невідомий запис залежності"
+  MODS_DEPENDENCY_ENTRY_ACTIVE: "$MOD_NAME$ версія $MOD_VERSION$"
+  MODS_DEPENDENCY_ENTRY_INACTIVE: "$MOD_NAME$ версія $MOD_VERSION$ (вимкнено)"
+  MODS_DEPENDENCY_ENTRY_INSTALLED: "$MOD_NAME$ версія $MOD_VERSION$ (на диску)"
+  MODS_DEPENDENCY_ENTRY_MISSING: "$MOD_NAME$ версія $MOD_VERSION$ (не знайдено)"
+  MODS_DEPENDENCY_ENTRY_VERSION_MISMATCH: "$MOD_NAME$ версія $MOD_VERSION$ (встановлено невірну версію)"

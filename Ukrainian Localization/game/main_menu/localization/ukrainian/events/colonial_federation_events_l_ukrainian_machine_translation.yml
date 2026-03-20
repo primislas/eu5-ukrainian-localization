@@ -1,0 +1,10 @@
+l_english:
+  colonial_federation_events.1000.title: "Централізація [target_io.GetNameWithNoTooltip]"
+  colonial_federation_events.1000.desc: "Спочатку альянс між багатьма колоніальними підданими іноземних держав, [target_io.GetName] перетворився на функціонуючу державу з великою внутрішньою політикою та єдиним зовнішнім фронтом. Однак відсьогодні [target_io.GetNameWithNoTooltip] буде вже не просто вільним союзом, а об'єднаною владою на чолі з [target_character.GetName] з [target_country.GetName]."
+  colonial_federation_events.1000.a: "Нехай це призведе до процвітаючого майбутнього для всіх!"
+  colonial_federation_unify_the_io_tt: "Ми об'єднуємо [target_io.GetName] в єдину сутність"
+  colonial_federation_events.1001.title: "$colonial_federation_events.1000$"
+  colonial_federation_events.1001.desc: "Голоси віддано. Наш народ висловив свою думку чітко і голосно. Старий [target_io.GetName] буде об'єднаний в єдину державу під пильним керівництвом [target_character.GetName] – і ми станемо її частиною."
+  colonial_federation_events.1001.a: "Хай живе нова держава!"
+  colonial_federation_events.1001.b: "Ми ніколи не схилимо коліна ні перед ким!"
+  colonial_federation_break_away_tt: "Кожна володіння, яка є [Concept('core', 'CONCEPT_PLACEHOLDER')|e] [target_country.GetName], відділяється від нас"

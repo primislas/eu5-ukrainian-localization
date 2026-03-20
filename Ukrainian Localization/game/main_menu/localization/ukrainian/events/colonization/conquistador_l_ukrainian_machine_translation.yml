@@ -1,0 +1,12 @@
+l_english:
+  conquistador.1.title: "Завоювання [SCOPE.sLocation('target_location').GetNameWithNoTooltip]"
+  conquistador.1.desc: "Наш конкістадор прибув до [SCOPE.sLocation('target_location').GetName], готовий поширювати наш вплив."
+  conquistador.1.a: "Погляньмо, що ми зможемо знайти!"
+  conquistador.10.title: "Завоювання [ROOT.GetLocation.GetNameWithNoTooltip]"
+  conquistador.10.desc: "Ми захопили ще більше територій, збагачуючи себе, даруючи великий престиж [ROOT.GetLocation.GetOwner.GetDiplomacy.GetOverlord.GetLongName] та Славу [former_overlord.GetReligion.GetGodName]!"
+  conquistador.10.a: "На нас чекає ще більше багатств!"
+  conquistador.10.b: "Нам потрібна підтримка для управління цим!"
+  conquistador.11.title: "Колонія [conquistador_country.GetGovernment.GetRuler.GetNameWithNoTooltip]"
+  conquistador.11.desc: "[conquistador_country.GetLongName] просять нашої допомоги, щоб стати нашим формальним суб'єктом, де вони стануть колоніальною нацією!"
+  conquistador.11.a: "Це чудове рішення!"
+  conquistador.11.b: "Це їхня проблема."
