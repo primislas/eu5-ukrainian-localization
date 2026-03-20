@@ -1,5 +1,4 @@
 ﻿l_english:
-
  choose_colonial_charter: "Choose Colonial Charter"
 
  CLOSEST_DISTANCE_IS_FROM: "Closest is $VAL|0V$ from [AREA.GetName]"
@@ -2951,7 +2950,7 @@
  CURRENT_ADVANCE: "Current Advance"
  RESEARCH_TEXT: "Research"
  RESEARCH_SUBTAB_TT_TEXT: "From here you can manage your [research|e] and access the [advances|e] available to your [country|e]."
- RESEARCH_SUBTAB_TT_FLAVOR_TEXT: ""Eppur si muove"."
+ RESEARCH_SUBTAB_TT_FLAVOR_TEXT: "\"Eppur si muove\"."
  AGES_TEXT: "Ages"
  AGES_SUBTAB_TT_TEXT: "This Tab contains a chronicle of the [ages|e] that were and will be, and the mechanics and [institutions|e] they bring forth."
  AGES_SUBTAB_TT_FLAVOR_TEXT: ""Sic transit gloria mundi"."

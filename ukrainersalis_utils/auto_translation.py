@@ -1,8 +1,8 @@
+import asyncio
 import os
 import re
-from pathlib import Path
-from queue import Queue
 
+import aiofiles
 import yaml
 
 
@@ -100,75 +100,128 @@ def translation_postprocessing(line: str) -> str:
     return line
 
 
-def translate_dir(dir_path: str, translator: Translator, max_translations: int | None = None,
-                  overwrite_existing_translation: bool = False):
-    remaining_dirs = Queue()
-    remaining_dirs.put(Path(dir_path))
+async def translate_file(input_file_path: str, output_file_path: str, output_dir: str,
+                         translator: Translator, semaphore: asyncio.Semaphore) -> bool:
+    """Translate a single file asynchronously.
 
-    translated_files = 0
-    while not remaining_dirs.empty():
-        current_dir = remaining_dirs.get()
-        for file_name in os.listdir(current_dir):
-            input_file_path = os.path.join(current_dir, file_name)
+    Returns:
+        True if translation succeeded, False otherwise
+    """
+    file_name = os.path.basename(input_file_path)
+    output_file_name = os.path.basename(output_file_path)
 
-            if os.path.isdir(input_file_path):
-                remaining_dirs.put(Path(input_file_path))
+    try:
+        async with semaphore:
+            # Read file
+            async with aiofiles.open(input_file_path, "r") as file_handle:
+                content_str = await file_handle.read()
+
+            content = yaml.load(content_str, Loader=yaml.FullLoader)
+            l_english = content.get("l_english")
+            if not l_english:
+                logger.info(f"Skipping {file_name} -> {output_file_name} (no l_english key)")
+                return False
+
+            lines = "\n".join([translation_preprocessing(l) for l in l_english.values()])
+            logger.info(f"Translating {input_file_path}")
+
+            # IO-bound translation call
+            translation = await asyncio.to_thread(translator.translate, lines)
+            translation = translation.splitlines()
+
+            for key, value in zip(l_english.keys(), translation):
+                translated_value = translation_postprocessing(value)
+                if translated_value == "" and value != "":
+                    logger.warning(f"Empty translation for {key} in {file_name}, potentially a translation glitch")
+                    translated_value = "POSTEDIT_EMPTY_TRANSLATION"
+                l_english[key] = translated_value
+
+            # Create output directory if needed
+            await asyncio.to_thread(os.makedirs, output_dir, exist_ok=True)
+
+            # Write file
+            dumped = yaml.dump(
+                content,
+                Dumper=DoubleQuotedDumper,
+                allow_unicode=True,
+                sort_keys=False,
+                width=float('inf'),
+            )
+            async with aiofiles.open(output_file_path, "w") as output_file_handle:
+                await output_file_handle.write(dumped.strip())
+
+            logger.info(f"Translated {file_name} -> {output_file_name}")
+            return True
+
+    except Exception as e:
+        logger.exception(f"Error processing {file_name}: {e}")
+        return False
+
+
+async def translate_dir_async(dir_path: str, translator: Translator, max_translations: int | None = None,
+                               overwrite_existing_translation: bool = False, max_concurrency: int = 8):
+    """Translate all English localization files in directory tree asynchronously.
+
+    Args:
+        dir_path: Root directory to search for translation files
+        translator: Translator instance to use
+        max_translations: Maximum number of files to translate (None for unlimited)
+        overwrite_existing_translation: Whether to overwrite existing translations
+        max_concurrency: Maximum number of concurrent translation tasks
+    """
+    # Collect all files to translate
+    files_to_translate = []
+
+    for root, dirs, files in os.walk(dir_path):
+        for file_name in files:
+            if not "_l_english" in file_name or not file_name.endswith(".yml"):
                 continue
 
-            if not os.path.isfile(
-                    os.path.join(current_dir, file_name)) or not "_l_english" in file_name or not file_name.endswith(
-                    ".yml"):
-                continue
-
-            output_dir = str(current_dir).replace("/english", "/ukrainian")
+            input_file_path = os.path.join(root, file_name)
+            output_dir = root.replace("/english", "/ukrainian")
             output_file_name = file_name.replace("_l_english.yml", "_l_ukrainian_machine_translation.yml")
             output_file_path = os.path.join(output_dir, output_file_name)
+
             if os.path.exists(output_file_path) and not overwrite_existing_translation:
                 logger.info(f"Skipping {file_name} -> {output_file_name} (already exists)")
                 continue
 
-            try:
-                with open(os.path.join(current_dir, file_name), "r") as file_handle:
-                    content = yaml.load(file_handle, Loader=yaml.FullLoader)
-                l_english = content.get("l_english")
-                if not l_english:
-                    logger.info(f"Skipping {file_name} -> {output_file_name} (no l_english key)")
-                    continue
+            files_to_translate.append((input_file_path, output_file_path, output_dir))
 
-                lines = "\n".join([translation_preprocessing(l) for l in l_english.values()])
-                logger.info(f"Translating {input_file_path}")
-                translation = translator.translate(lines).splitlines()
-                for key, value in zip(l_english.keys(), translation):
-                    translated_value = translation_postprocessing(value)
-                    if translated_value == "" and value != "":
-                        logger.warning(f"Empty translation for {key} in {file_name}, potentially a translation glitch")
-                        translated_value = "POSTEDIT_EMPTY_TRANSLATION"
-                    l_english[key] = translated_value
+            if max_translations and len(files_to_translate) >= max_translations:
+                break
 
-                if not os.path.exists(output_dir):
-                    os.makedirs(output_dir)
-                with open(output_file_path, "w") as output_file_handle:
-                    dumped = yaml.dump(
-                        content,
-                        Dumper=DoubleQuotedDumper,
-                        allow_unicode=True,
-                        sort_keys=False,
-                        width=float('inf'),
-                    )
-                    output_file_handle.write(dumped.strip())
-                logger.info(f"Translated {file_name} -> {output_file_name}")
-                translated_files += 1
-                if max_translations and translated_files >= max_translations:
-                    logger.info(f"Reached max translations ({max_translations})")
-                    return
-            except Exception as e:
-                logger.exception(f"Error processing {file_name}: {e}")
+        if max_translations and len(files_to_translate) >= max_translations:
+            break
 
-        logger.info(f"Processed {current_dir}")
+    logger.info(f"Found {len(files_to_translate)} files to translate")
+
+    # Create semaphore to limit concurrency
+    semaphore = asyncio.Semaphore(max_concurrency)
+
+    # Create tasks for all files
+    tasks = [
+        translate_file(input_path, output_path, output_dir, translator, semaphore)
+        for input_path, output_path, output_dir in files_to_translate
+    ]
+
+    # Execute all tasks concurrently
+    results = await asyncio.gather(*tasks, return_exceptions=True)
+
+    # Count successful translations
+    successful = sum(1 for r in results if r is True)
+    logger.info(f"Completed: {successful}/{len(files_to_translate)} files translated successfully")
+
+
+def translate_dir(dir_path: str, translator: Translator, max_translations: int | None = None,
+                  overwrite_existing_translation: bool = False, max_concurrency: int = 5):
+    """Synchronous wrapper for translate_dir_async."""
+    asyncio.run(translate_dir_async(dir_path, translator, max_translations,
+                                    overwrite_existing_translation, max_concurrency))
 
 
 if __name__ == '__main__':
     load_dotenv()
     _translator = GeminiTranslator()
     _source_dir = "../Ukrainian Localization"
-    translate_dir(_source_dir, _translator, max_translations=20, overwrite_existing_translation=False)
+    translate_dir(_source_dir, _translator, max_translations=32, overwrite_existing_translation=False)

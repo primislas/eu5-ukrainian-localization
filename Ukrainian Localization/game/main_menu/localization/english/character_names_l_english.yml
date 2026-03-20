@@ -11,7 +11,7 @@
  CHARACTER_NAME_ORDER_TURKISH:                                      "$PREFIX$$LASTNAME$$NICKNAME$$NUMBER$$NAME$$SUFFIX$"
  
  # Character.GetCharacterPrefixWithNoTooltip]#! #character_name [Character.GetFirstNameWithNoTooltip]#! #regnal_name [Character.GetCharacterRegnalNumWithNoTooltip]#! #nickname [Character.GetAdultNicknameWithNoTooltip]#! #lastname [Character.GetLastNameWithNoTooltip]#!#suffix_name , [Character.GetAge]#!"
-			
+
  CHARACTER_NAME_FORMAT_FIRST_NAME: "#character_name $NAME$#!"
  CHARACTER_NAME_FORMAT_LAST_NAME: "#lastname $NAME$#!"
  CHARACTER_NAME_FORMAT_FLUFF: "#nickname $NAME$#!"

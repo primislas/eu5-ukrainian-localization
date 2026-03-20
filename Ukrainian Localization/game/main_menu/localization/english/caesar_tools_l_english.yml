@@ -29,7 +29,7 @@
  MOD_DELETE_DIALOG_DESC: "This will permanently delete the mod from Steam."
  MOD_DIALOG_CANCEL: "Cancel"
  MOD_UPLOAD_IN_PROGRESS: "Upload in progress"
- MOD_CLOSE_BUTTON: "Close"		
+ MOD_CLOSE_BUTTON: "Close"
  MOD_TAGS: "Tags:"
  MOD_ID: "ID:"
  MOD_EDITBOX_ID: "ID for the mod, suggestion: 'mynick.mymod', used for specifying dependencies"
