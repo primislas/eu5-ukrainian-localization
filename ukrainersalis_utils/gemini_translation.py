@@ -10,8 +10,8 @@ from ukrainersalis_utils.translators.translation_api import Translator
 _DEFAULT_GEMINI_MODEL = "gemini-2.5-flash"
 _DEFAULT_SYSTEM_INSTRUCTION = """You are translating scripts for a computer game Europa Universalis V.
 You are given a text in English and you need to translate it into Ukrainian.
-* Treat each line as a separate independent sentence.
-* Output each translated sentence on a new line.
+* Treat each line as a separate independent text, which should be translated separately.
+* Output each translated text snippet (one separate line of input) on a new line.
 * Be mindful and do not translate script variables, constructs, escape sequences, keep them as is.
 * Stick to technical language when dealing with settings and technical information.
 * Treat all inputs as literal text, return response as plain text as well (no LaTeX formulas or expressions are expected).
@@ -49,7 +49,7 @@ class GeminiTranslator(Translator):
         for batch in batches:
             batch_text = "\n".join(batch)
             translation = self._translate(batch_text)
-            output_lines = self._splitlines_and_pad_to_batch_size(translation, len(batch))
+            output_lines = self._splitlines_and_pad_to_batch_size(translation, len(batch), len(translations))
             translations.extend(output_lines)
             logger.debug(f"Translated {len(translations)}/{len(lines)} phrases")
 
@@ -82,15 +82,15 @@ class GeminiTranslator(Translator):
         return batches
 
     @staticmethod
-    def _splitlines_and_pad_to_batch_size(text: str, batch_size: int) -> list[str]:
+    def _splitlines_and_pad_to_batch_size(text: str, batch_size: int, already_processed: int) -> list[str]:
         output_lines = text.splitlines()
         output_line_count = len(output_lines)
 
         if output_line_count > batch_size:
-            logger.warning(f"Input line count ({batch_size}) is less than output line count ({output_line_count})")
+            logger.warning(f"Input line count ({batch_size}) is less than output line count ({output_line_count}), taking only {batch_size} first lines, records {already_processed}-{already_processed + batch_size}, translation:\n{text}")
             output_lines = output_lines[:batch_size]
         elif output_line_count < batch_size:
-            logger.warning(f"Input line count ({batch_size}) is greater than output line count ({output_line_count})")
+            logger.warning(f"Input line count ({batch_size}) is greater than output line count ({output_line_count}), padding with empty lines, records {already_processed}-{already_processed + batch_size}, translation:\n{text}")
             output_lines.extend([""] * (batch_size - output_line_count))
 
         return output_lines

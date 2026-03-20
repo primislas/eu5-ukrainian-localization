@@ -49,6 +49,14 @@ from ukrainersalis_utils.gemini_translation import GeminiTranslator
 from ukrainersalis_utils.translators.translation_api import Translator
 
 
+_NEWLINE_REPLANCEMENT = "#NL!#"
+
+
+def translation_preprocessing(line: str) -> str:
+    line = line.replace("\n", _NEWLINE_REPLANCEMENT)
+    return line
+
+
 def expand_concepts(line: str) -> str:
     """Expands concepts in the translated text."""
     # Pattern to match [<concept>|e] where <concept> doesn't contain '(' or '|' to avoid double-processing
@@ -88,6 +96,7 @@ def translation_postprocessing(line: str) -> str:
     """Postprocesses the translated text by removing unnecessary characters and formatting."""
     line = expand_concepts(line)
     line = expand_adjectives(line)
+    line = line.replace(_NEWLINE_REPLANCEMENT, "\n")
     return line
 
 
@@ -126,11 +135,14 @@ def translate_dir(dir_path: str, translator: Translator, max_translations: int |
                     logger.info(f"Skipping {file_name} -> {output_file_name} (no l_english key)")
                     continue
 
-                lines = "\n".join(l_english.values())
+                lines = "\n".join([translation_preprocessing(l) for l in l_english.values()])
                 logger.info(f"Translating {input_file_path}")
                 translation = translator.translate(lines).splitlines()
                 for key, value in zip(l_english.keys(), translation):
-                    l_english[key] = translation_postprocessing(value)
+                    translated_value = translation_postprocessing(value)
+                    if translated_value == "":
+                        logger.warning(f"Empty translation for {key} in {file_name}, potentially a translation glitch")
+                    l_english[key] = translated_value
 
                 if not os.path.exists(output_dir):
                     os.makedirs(output_dir)

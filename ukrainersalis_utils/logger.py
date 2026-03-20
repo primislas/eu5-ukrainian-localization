@@ -25,16 +25,16 @@ class CustomFormatter(logging.Formatter):
         formatter = logging.Formatter(log_fmt)
         return formatter.format(record)
 
-def get_logger(name="ukrainersalis_utils"):
-    logger = logging.getLogger(name)
-    logger.setLevel(logging.INFO)
+def get_logger(name="ukrainersalis_utils", level=logging.DEBUG):
+    _logger = logging.getLogger(name)
+    _logger.setLevel(level)
 
-    if not logger.handlers:
+    if not _logger.handlers:
         ch = logging.StreamHandler(sys.stdout)
-        ch.setLevel(logging.INFO)
+        ch.setLevel(level)
         ch.setFormatter(CustomFormatter())
-        logger.addHandler(ch)
+        _logger.addHandler(ch)
 
-    return logger
+    return _logger
 
 logger = get_logger()
