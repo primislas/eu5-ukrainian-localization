@@ -1,0 +1,5 @@
+l_english:
+  AND: "та"
+  AND_LIST: ", та"
+  COMMA: ","
+  NEWLINE: "\n"

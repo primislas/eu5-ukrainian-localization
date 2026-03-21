@@ -1,0 +1,12 @@
+l_english:
+  JOMINI_NOTIFICATION_TIMESTAMP_NOW: "Щойно"
+  JOMINI_NOTIFICATION_TIMESTAMP_MINUTES: "$MINUTES$ хвилин тому"
+  JOMINI_NOTIFICATION_TIMESTAMP: "$DATE$"
+  JOMINI_DLC_MANAGER_DISABLED_MODS_CRASH_TITLE: "Моди вимкнено"
+  JOMINI_DLC_MANAGER_DISABLED_MODS_CRASH_DESC: "Гра зіткнулася з проблемою під час останнього запуску, можливо, через несумісний мод.\nДля забезпечення стабільності всі моди було тимчасово вимкнено.\nЩоб повторно активувати ваші моди, перейдіть до набору ігор \"$MESSAGE$\", видаліть будь-які проблемні моди та застосуйте зміни."
+  JOMINI_DLC_MANAGER_OUTDATED_MODS_ALERT_TITLE: "Виявлено моди, що не підтримуються"
+  JOMINI_DLC_MANAGER_OUTDATED_MODS_ALERT_DESC: "Деякі з ваших модів призначені для іншої версії $GAME$. Ці моди можуть працювати некоректно та спричинити проблеми з вашою грою. Для стабільності ми рекомендуємо вимкнути ці моди, доки їх не буде оновлено.\n\nНаступні моди застаріли:\n$MODS_OUTDATED_LIST$"
+  JOMINI_JOIN_SERVER_ALERT_TITLE: "Неможливо підключитися до сервера"
+  JOMINI_JOIN_SERVER_ALERT_DESC: "Будь ласка, перейдіть до головного меню, щоб приєднатися до гри."
+  JOMINI_DLC_MANAGER_CONFIRM_UGC_UPLOAD_TITLE: "Підтвердження завантаження UGC"
+  JOMINI_DLC_MANAGER_CONFIRM_UGC_UPLOAD_DESC: "Ви впевнені, що хочете завантажити цей мод? Це створить новий мод у Майстерні Steam.\n\nНадсилаючи цей елемент, ви погоджуєтеся з умовами надання послуг Майстерні. Якщо ви не погодилися з умовами, відкриється вікно оверлею Steam, яке запропонує вам прочитати умови, і ваш вміст буде приховано Steam, доки ви їх не приймете."

@@ -1,0 +1,5 @@
+l_english:
+  SETTING_ANIMATED_PORTRAITS: "Анімовані персонажі"
+  SETTING_ANIMATED_PORTRAITS_TOOLTIP: "#T $SETTING_ANIMATED_PORTRAITS$\n#!Визначає, чи повинні бути анімовані видатні персонажі.\n\nВимкнення може підвищити продуктивність."
+  SETTING_PORTRAITS_SSAO: "Персонажі SSAO"
+  SETTING_PORTRAITS_SSAO_TOOLTIP: "#T $SETTING_PORTRAITS_SSAO$\n#!Визначає, чи повинна застосовуватися екранна оклюзія навколишнього середовища до портретів.\n\nВимкнення може підвищити продуктивність."

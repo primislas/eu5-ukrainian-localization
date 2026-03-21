@@ -1,0 +1,7 @@
+l_english:
+  flavor_nur.1.title: "[target_character.GetNameWithNoTooltip]"
+  flavor_nur.1.desc: "Мало хто досяг такого успіху в житті, як [target_character.GetName]. Походячи з родини купців, [target_character.GetShortNameWithNoTooltip] неймовірно успішно вів справи по всьому [ShowRegionName('italy_region')]. Уся торговельна мережа, збудована його родиною, становить значну частину багатства, що циркулює на заможній півострові. Однак з часом славетний купець бажає повернутися додому і почати інвестувати в наші ринки, навіть приносячи багато інновацій з [ShowRegionNameWithNoTooltip('italy_region')]..."
+  flavor_nur.1.a: "Ласкаво просимо додому!"
+  flavor_nur.1.b: "Ми не можемо дозволити собі таких фривольностей!"
+  flavor_nur.1.c: "Ми мусимо шанобливо відмовитися..."
+  target_character_vanishes_tt: "[target_character.GetShortNameWithNoTooltip] зникне"
