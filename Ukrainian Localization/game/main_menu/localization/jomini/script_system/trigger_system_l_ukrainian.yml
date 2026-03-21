@@ -1,0 +1,9 @@
+l_english:
+  TRIGGER_LINE_ACTIVE_PASSED: "Умова виконана! $TEXT$"
+  TRIGGER_LINE_ACTIVE_FAILED: "Умова не виконана! $TEXT$"
+  TRIGGER_LINE_ACTIVE_UNDEFINED: "  •  $TEXT$"
+  TRIGGER_LINE_INACTIVE_PASSED: "Умова виконана (неактивна)! #trigger_inactive $TEXT$#!"
+  TRIGGER_LINE_INACTIVE_FAILED: "Умова не виконана (неактивна)! #trigger_inactive $TEXT$#!"
+  TRIGGER_LINE_INACTIVE_UNDEFINED: "#trigger_inactive   •  $TEXT$#!"
+  TRIGGER_LINE_BLOCKER: "Попередження! #X $TEXT$#!"
+  TRIGGER_LINE_UNEVALUATED: "  •  $TEXT$"

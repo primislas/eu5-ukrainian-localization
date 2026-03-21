@@ -1,0 +1,7 @@
+l_english:
+  DELETE_PLAYTHROUGH_CONFIRMATION_DESC: "#T $SAVE_NAME$#! проходження та збереження всередині будуть видалені."
+  DELETE_SAVE_CONFIRMATION_DESC: "#T $SAVE_NAME$#! буде видалено."
+  FRONTEND_SAVE_EXIT_TEXT: "Зберегти гру як автозбереження #high $SAVE_NAME$#!"
+  FRONTEND_END_GAME_TEXT: "Якщо ви як Хост покинете гру, багатокористувацька гра завершиться, і інші гравці не зможуть її продовжити."
+  FRONTEND_LEAVE_GAME_TEXT: "Якщо ви покинете гру, багатокористувацька гра продовжиться без вас"
+  OVERWRITE_SAVE_CONFIRMATION_DESC: "#T $SAVE_NAME$#! буде перезаписано."

@@ -161,6 +161,17 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
         return False
 
 
+def _validate_yaml_file(file_path: str) -> bool:
+    """Validate a YAML file by parsing it and checking for errors."""
+    try:
+        with open(file_path, "r") as file_handle:
+            content = yaml.load(file_handle, Loader=yaml.FullLoader)
+        return "l_english" in content
+    except Exception:
+        logger.exception(f"Error parsing {file_path}")
+        return False
+
+
 async def translate_dir_async(dir_path: str, translator: Translator, max_translations: int | None = None,
                                overwrite_existing_translation: bool = False, max_concurrency: int = 8):
     """Translate all English localization files in directory tree asynchronously.
@@ -188,22 +199,17 @@ async def translate_dir_async(dir_path: str, translator: Translator, max_transla
             if os.path.exists(output_file_path) and not overwrite_existing_translation:
                 logger.info(f"Skipping {file_name} -> {output_file_name} (already exists)")
                 continue
+            if not _validate_yaml_file(input_file_path):
+                logger.info(f"Skipping {file_name} -> {output_file_name} (invalid YAML)")
+                continue
 
             files_to_translate.append((input_file_path, output_file_path, output_dir))
-
             if max_translations and len(files_to_translate) >= max_translations:
                 break
 
         if max_translations and len(files_to_translate) >= max_translations:
             break
-
     logger.info(f"Identified {len(files_to_translate)} files to translate")
-    for f in files_to_translate:
-        try:
-            with open(f[0], "r") as file_handle:
-                yaml.load(file_handle, Loader=yaml.FullLoader)
-        except Exception:
-            logger.exception(f"Error loading {f[0]}")
 
     # Create semaphore to limit concurrency
     semaphore = asyncio.Semaphore(max_concurrency)
@@ -233,4 +239,4 @@ if __name__ == '__main__':
     load_dotenv()
     _translator = GeminiTranslator()
     _source_dir = "../Ukrainian Localization"
-    translate_dir(_source_dir, _translator, max_translations=1, overwrite_existing_translation=False)
+    translate_dir(_source_dir, _translator, max_translations=1024, overwrite_existing_translation=False)
