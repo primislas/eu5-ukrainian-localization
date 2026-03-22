@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_brb.1.title: "Піднесення [target_location.GetNameWithNoTooltip]"
   flavor_brb.1.desc: "[target_location.GetName] завжди був важливим портом для [ROOT.GetCountry.GetName], дозволяючи нам ще більше зміцнити наших купців у [target_market.GetName]. Однак нещодавно [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] з [target_location.GetRank.GetName] досягли успіхів у його розвитку до нових висот. Тепер вони планують зміцнити гавань міста."
   flavor_brb.1.a: "[target_location.GetNameWithNoTooltip] заслуговує на нашу підтримку."

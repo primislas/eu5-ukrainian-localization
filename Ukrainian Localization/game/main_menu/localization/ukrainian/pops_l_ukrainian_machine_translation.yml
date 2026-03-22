@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   nobles: "Шляхта"
   clergy: "Духовенство"
   burghers: "Міщани"
@@ -31,7 +31,7 @@ l_english:
   peasants_pop_percentage_impact: "Відносна кількість [ShowPopTypeName('peasants')]"
   slaves_pop_percentage_impact: "Відносна кількість [ShowPopTypeName('slaves')]"
   tribesmen_pop_percentage_impact: "Відносна кількість [ShowPopTypeName('tribesmen')]"
-  POP_TYPE_BELONGS_TO: "Є частиною [Concept('ESTATE.GetName] [estate', 'CONCEPT_PLACEHOLDER')|e]"
+  POP_TYPE_BELONGS_TO: "Є частиною [ESTATE.GetName] [Concept('estate', 'CONCEPT_PLACEHOLDER')|e]"
   POP_TYPE_FOOD: "Кожні #Y 1,000#! [Concept('pops', 'CONCEPT_PLACEHOLDER')|e] споживають $VAL|2Y$ [Concept('food', 'CONCEPT_PLACEHOLDER')|e] щомісяця."
   POP_TYPE_UPPER_CLASS: "Належить до [Concept('upper_class', 'CONCEPT_PLACEHOLDER')|e]."
   POP_TYPE_LOWER_CLASS: "Належить до [Concept('lower_class', 'CONCEPT_PLACEHOLDER')|e]."

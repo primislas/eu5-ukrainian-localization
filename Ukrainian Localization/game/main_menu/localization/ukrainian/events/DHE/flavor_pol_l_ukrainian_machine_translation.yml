@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_pol.1.title: "Флот Речі Посполитої"
   flavor_pol.1.desc: "Наші зіткнення з суперниками та ворогами по всій [ShowContinentName('europe')] породили нову потребу. Щоб зберегти наш суверенітет і кинути виклик тим, хто прагне панувати над нашим народом, було подано пропозицію створити новий флот під [ROOT.GetCountry.GetAdjective] командуванням. Доки ми обговорюємо дрібні деталі цієї справи, стає очевидним, що прихильники впливового [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], схоже, не бажають підтримувати цю ідею через витрати, пов'язані з таким підприємством. На щастя, член [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] на ім'я [target_character.GetName] виступив, щоб допомогти нам фінансувати це починання."
   flavor_pol.1.a: "Ця пропозиція має сенс."
@@ -361,7 +361,7 @@ l_english:
   LOAN_SHORT_NAME_pledge_of_spisz_B: "Застава Спишу"
   LOAN_NAME_pledge_of_spisz_L: "Застава Спишу"
   LOAN_NAME_pledge_of_spisz_B: "Застава Спишу"
-  LOAN_TOOLTIP_pledge_of_spisz: "Угода між двома сторонами, згідно з якою [Concept('lender', 'CONCEPT_PLACEHOLDER')|e], [Concept('LOAN.GetLender.GetName], утримує [location', 'CONCEPT_PLACEHOLDER')|e] [ShowLocationName('lubica')], доки [Concept('borrower', 'CONCEPT_PLACEHOLDER')|e], [LOAN.GetBorrower.GetName], не поверне позику."
+  LOAN_TOOLTIP_pledge_of_spisz: "Угода між двома сторонами, згідно з якою [Concept('lender', 'CONCEPT_PLACEHOLDER')|e], [LOAN.GetLender.GetName], утримує [Concept('location', 'CONCEPT_PLACEHOLDER')|e] [ShowLocationName('lubica')], доки [Concept('borrower', 'CONCEPT_PLACEHOLDER')|e], [LOAN.GetBorrower.GetName], не поверне позику."
   flavor_pol.1602.title: "Позику повернено"
   flavor_pol.1602.desc: "У минулі часи ми позичили [loan_repayer.GetLongName] багато коштів у позику, яка була забезпечена заставою сіл [ShowProvinceDefinitionName('szepes_province')] нам, внаслідок чого ми отримали територію в [loan_pledge.GetName]. Сьогодні озброєні посланці прибули з [loan_repayer.GetNameWithNoTooltip], несучи кошти, які [loan_repayer.GetFlavorRank] нам заборгував. Згідно з угодою, ми повинні повернути [loan_pledge.GetNameWithNoTooltip], хоча це ризикувало б засмутити [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], які вже влаштувалися в цьому районі. Альтернативно, ми могли б спробувати представити їм дуже законний документ, який виправдовує наше рішення залишити села в наших руках."
   flavor_pol.1602.a: "Ми повернемо [loan_pledge.GetNameWithNoTooltip]."

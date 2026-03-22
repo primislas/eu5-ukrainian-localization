@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   anglican_events.1.title: "Виставлення Королівського Герба"
   anglican_events.1.desc: "Після руйнування та усунення папістських символів, англіканські церкви залишилися дещо позбавленими прикрас. Було постановлено, що замість цих богохульних ікон має бути виставлений Королівський Герб [ROOT.GetCountry.GetGovernment.GetRuler.GetName]. Присутність Королівського Герба закріплює у суспільній свідомості реальність нового порядку; що [ROOT.GetCountry.GetGovernment.GetRuler.GetName] призначений Богом не лише як [ROOT.GetCountry.GetGovernment.GetRulerTitle] [ROOT.GetCountry.GetName], але й як Верховний Правитель Церкви."
   anglican_events.1.a: "Гордо виставляти Королівський Герб у кожній церкві."

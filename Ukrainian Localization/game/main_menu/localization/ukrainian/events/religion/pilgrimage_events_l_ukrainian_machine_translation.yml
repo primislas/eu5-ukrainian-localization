@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   pilgrimage_events.1.title: "Зсув"
   pilgrimage_events.1.desc: "Під час [target_ruler.GetHerHis] паломництва до [target_holy_site.GetName] у [target_location.GetName], [target_ruler.GetName] та [target_ruler.GetHerHis] почет зіткнулися з неабиякою перешкодою на шляху. Здається, нещодавні дощі розпушили ґрунт навколо і спричинили зсув, завдавши значної шкоди сусіднім поселенням. Шляхи повністю зникли, а будинки були змиті пухким ґрунтом; плантації зруйновані, а люди залишилися без засобів до існування. Люди приходять до [target_ruler.GetShortNameWithNoTooltip], щоб просити допомоги у відновленні їхнього життя."
   pilgrimage_events.1.a: "Дати їм золота, щоб полегшити їхній тягар."

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   catholic_flavor.1.title: "Впливовий проповідник"
   catholic_flavor.1.desc: "Набожний молодий проповідник на ім'я [target_character.GetName] нещодавно висловився про те, наскільки велика наша відданість вченням Святого Отця в [pope_capital_scope.GetName]. Це може бути лише на благо нашого майбутнього."
   catholic_flavor.1.a: "Відправити його до [pope_capital_scope.GetNameWithNoTooltip]."

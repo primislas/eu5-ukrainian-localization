@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_por.1.title: "[columbus_scope.GetNameWithNoTooltip]"
   flavor_por.1.desc: "Прагнення морського шляху до $india$ охопило [ShowSubContinentName('western_europe')]. До нашого [ROOT.GetCountry.GetGovernment.GetCourtTitle] звернувся [ShowCultureName('ligurian')] навігатор, який стверджує, що західний шлях до $india$ є кращим варіантом, ніж пошук шляху навколо [ShowSubContinentName('southern_africa')]. Хоча деякі наші радники відкидають підстави його тверджень, це може виявитися вигідною інвестицією."
   flavor_por.1.a: "Відхилити його пропозицію"
@@ -78,7 +78,7 @@ l_english:
   flavor_por.19.desc: "Вплив [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] слабшає, маючи незначну підтримку при [ROOT.GetCountry.GetGovernment.GetCourtTitle] та не маючи посад у [ROOT.GetCountry.GetGovernment.GetCabinetTitle], призначених їхньому стану. Наші шпигуни повідомляють, що провокаційний [joao_braganca.GetName] шукає підтримки, щоб повалити [ROOT.GetCountry.GetGovernment.GetRuler.GetName], відновивши владу та привілеї [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] взамін."
   flavor_por.19.desc_subject: "Вплив [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] слабшає, маючи незначне представництво при дворі та не маючи впливу у зовнішніх чи внутрішніх справах. Наші шпигуни повідомляють, що провокаційний [joao_braganca.GetName] планує повалити [overlord.GetCountry.GetAdjective] правління та відновити незалежність [ROOT.GetCountry.GetName]. [joao_braganca.GetSheHe] має підтримку групи, відомої як #italic Сорок змовників#!, серед [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')], і очікується, що [joao_braganca.GetSheHe] завдасть удару будь-якої миті."
   flavor_por.19.a: "Зректися престолу на [joao_braganca.GetHisHer] користь."
-  flavor_por.19.tt1: "[Concept('joao_braganca.GetNameWithNoTooltip] додається як [character', 'CONCEPT_PLACEHOLDER')|e] і захоплює трон за підтримки [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]"
+  flavor_por.19.tt1: "[joao_braganca.GetNameWithNoTooltip] додається як [Concept('character', 'CONCEPT_PLACEHOLDER')|e] і захоплює трон за підтримки [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]"
   flavor_por.19.b: "Нехай [joao_braganca.GetNameWithNoTooltip] очолить боротьбу."
   flavor_por.19.tt2: "[joao_braganca.GetSheHe|U] згуртовує [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] на підтримку [joao_braganca.GetHisHer] боротьби за звільнення [target_root_country.GetName] від [GetCountry('SPA').GetAdjective] впливу"
   flavor_por.19.c: "Не йти на поступки."

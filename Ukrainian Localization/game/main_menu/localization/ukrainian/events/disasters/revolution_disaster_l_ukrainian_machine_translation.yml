@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   revolution_disaster.1.title: "Повстання в [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]"
   revolution_disaster.1.desc: "Десятиліття феодального гніту, релігійної нетерпимості та несправедливого оподаткування — усе це сприяло революційним рухам, що почали виникати на наших землях. [target_ruler.GetName] відчайдушно шукав вирішення проблем, що постійно зростали, оскільки наша країна опинилася на милості дедалі амбітніших [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')], підтримуваних обуреними [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')].\n\n [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] та [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] [ROOT.GetCountry.GetCapital.GetArea.GetName] приєдналися до [target_rebel.GetName] [ROOT.GetCountry.GetCapital.GetProvince.GetName]. Швидким ударом повстанці штурмували місцеву в'язницю [ROOT.GetCountry.GetCapital.GetName], озброївшись у процесі, і оголосили активний стан [ShowDisasterName('revolution_disaster')] проти Старого Режиму!"
   revolution_disaster.1.a: "Нас чекають лихі часи."

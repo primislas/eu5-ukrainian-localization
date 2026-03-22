@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   ACTION_COST: "Витратити $PRICE$, щоб отримати такі ефекти:"
   call_jihad: "Оголосити $jihad$"
   call_jihad_desc: "Виберіть невірну країну, на яку обрушиться міць Аллаха."
@@ -131,7 +131,7 @@ l_english:
   vote_in_relocate_ecumenical_patriarchate: "Голосувати щодо перенесення Вселенського патріархату до [SCOPE.sHolySite('target').GetName]"
   vote_in_relocate_ecumenical_patriarchate_desc: "Вирішити, чи бажаємо ми підтримати перенесення осідку [SCOPE.sInternationalOrganization('recipient').GetName] до [SCOPE.sHolySite('target').GetName]."
   take_estate_loan: "Взяти в борг у станів"
-  take_estate_loan_desc: "[Concept('Player.GetTakeLoanInfo]\n\nМи також могли б попросити позику у банківської [country', 'CONCEPT_PLACEHOLDER')|e]."
+  take_estate_loan_desc: "[Player.GetTakeLoanInfo]\n\nМи також могли б попросити позику у банківської [Concept('country', 'CONCEPT_PLACEHOLDER')|e]."
   settle_country: "Заселити країну"
   settle_country_desc: "Ми встановили нашу релігію та культуру на цих землях, зробімо це офіційним і [Concept('settle', 'CONCEPT_PLACEHOLDER')|e] тут назавжди, щоб ми могли обробляти поля та будувати покращення, аби поліпшити наше становище в житті."
   hire_advisor: "Найняти $game_concept_courtier$"
@@ -511,7 +511,7 @@ l_english:
   new_policy: "Нова [Concept('policy', 'CONCEPT_PLACEHOLDER')|e]"
   EMPIRE_NEED_ELECTORS: "Імперії потрібні Виборці"
   SELECT_CHARACTER_TO_MARRY: "Оберіть персонажа для шлюбу:"
-  SELECT_CHARACTER_TO_MARRY_TT: "Оберіть [Concept('CHARACTER.GetName], щоб укласти [royal_marriage', 'CONCEPT_PLACEHOLDER')|e] з кимось із [COUNTRY.GetName]."
+  SELECT_CHARACTER_TO_MARRY_TT: "Оберіть [CHARACTER.GetName], щоб укласти [Concept('royal_marriage', 'CONCEPT_PLACEHOLDER')|e] з кимось із [COUNTRY.GetName]."
   SELECT_THEIR_CHARACTER: "Оберіть, з ким ми хочемо їх одружити:"
   SELECT_EXPLORER: "Оберіть дослідника:"
   LOC_NOT_PLAYER: "@trigger_no! Ми не [Concept('own', 'CONCEPT_PLACEHOLDER')|e] цю [Concept('location', 'CONCEPT_PLACEHOLDER')|e]."
@@ -590,7 +590,7 @@ l_english:
   rot_plan_invasion: "Спланувати вторгнення"
   rot_plan_invasion_desc: "Оберіть [Concept('country', 'CONCEPT_PLACEHOLDER')|e], на яку плануєте вторгнення."
   rot_plan_invasion_select_country: "Оберіть країну, на яку плануєте вторгнення"
-  rot_plan_invasion_no_countries: "@trigger_no! Немає дійсних сусідніх [Concept('countries', 'CONCEPT_PLACEHOLDER')|e], які не є [Concept('allies', 'CONCEPT_PLACEHOLDER')|e] [Concept('actor.GetName] і не мають з нею [truce', 'CONCEPT_PLACEHOLDER')|e]"
+  rot_plan_invasion_no_countries: "@trigger_no! Немає дійсних сусідніх [Concept('countries', 'CONCEPT_PLACEHOLDER')|e], які не є [Concept('allies', 'CONCEPT_PLACEHOLDER')|e] [actor.GetName] і не мають з нею [Concept('truce', 'CONCEPT_PLACEHOLDER')|e]"
   rot_plan_invasion_tt: "[actor.GetName] отримує [ShowCasusBelliName('cb_timurs_conquests')] [Concept('casus_belli', 'CONCEPT_PLACEHOLDER')|e] проти цільової [Concept('country', 'CONCEPT_PLACEHOLDER')|e]"
   rot_select_core_region: "Вибрати Основний Регіон"
   rot_select_core_region_desc: "Оберіть [Concept('region', 'CONCEPT_PLACEHOLDER')|e], щоб надати йому статус #Y Основного Регіону#! для [actor.GetName]."

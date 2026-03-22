@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   unionevents.1.title: "Місцеві дворяни протестують"
   unionevents.1.desc: "Здається, [ROOT.GetCountry.GetGovernment.GetFullRulerName|U] віддає перевагу дворянам [ROOT.GetCountry.GetGovernment.GetRuler.GetCulture.GetName], а не дворянам [ROOT.GetCountry.GetCulture.GetName]. Наша існуюча шляхта засмучена тим, що їхні століття доброго походження безглуздо ігноруються. Це має деякі кардинальні наслідки для нашого королівства."
   unionevents.1.a: "Обезголовити кількох із них!"

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   treaty_of_tordesillas.1.common_phrase: "конкурент за найкращі землі та гавані узбережжя [ShowContinentName('america')].\n\nЯкщо нічого не буде зроблено, ситуація неминуче призведе до конфлікту між нашими країнами, оскільки обидві прагнуть отримати найкращі торговельні шляхи та ресурси."
   treaty_of_tordesillas.1.title: "Наша частка світу"
   treaty_of_tordesillas.1.desc: "Наше розширення на нові землі [target_location.GetName] не залишилося непоміченим народом [other_country_scope.GetLongName]. Вони також розширюють свої володіння в [other_country_colony_scope.GetName] і швидко стають $treaty_of_tordesillas.1.common_phrase$ Натомість ми могли б провести зустріч, де дипломати та державні діячі зможуть розробити рішення, яке справедливо розділить нові землі та задовольнить обидві сторони."

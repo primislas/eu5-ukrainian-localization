@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   diplomatic_status_casus_belli_creation_name: "Створення Casus Belli"
   diplomatic_status_casus_belli_creation_tooltip: "#T Створення Casus Belli#!\nЦя країна зайнята створенням [Concept('casus_belli', 'CONCEPT_PLACEHOLDER')|e] проти цих [Concept('countries', 'CONCEPT_PLACEHOLDER')|e]."
   diplomatic_status_getting_economic_support_name: "Отримання економічної підтримки"

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   STATIC_MODIFIER_NAME_volcanic_soil: "Вулканічний ґрунт"
   volcano_events_weak.title: "Дим на горі"
   volcano_events_weak.desc: "Видатна гора на краю [ROOT.GetLocation.GetName] кілька днів випускала дим довгим стовпом, але сьогодні вона раптово вибухнула, вивергаючи попіл і лаву, що спалюють і знищують усе на своєму шляху. Руйнування не зламало духу людей [ROOT.GetLocation.GetNameWithNoTooltip], але без допомоги їм буде важко відновити колишню силу."

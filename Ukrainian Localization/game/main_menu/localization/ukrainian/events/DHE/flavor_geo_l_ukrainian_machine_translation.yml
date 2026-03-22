@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_geo.1.title: "Вигнання [ShowCultureGroupNameWithNoTooltip('mongolian_group')]"
   flavor_geo.1.desc: "Минуло десять років відтоді, як ми взялися за зброю проти очільників [GetUniqueInternationalOrganization('ilkhanate').GetName] і вигнали десятки тисяч [ShowCultureGroupName('mongolian_group')] військ з наших земель. Пронизані корупцією, здійснюючи набіги та зловживання проти нашого народу, чужоземні кінні володарі тісно співпрацювали з [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], щоб тримати наш народ на короткому повідку. [target_character1.GetName], використавши смерть [target_character2.GetName] як привід, розтрощив наші кайдани, вимагав евакуації чужоземних військ з наших кордонів і вирізав тих серед [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')], кого [target_character1.GetSheHe] вважав зрадниками або впливовими. Сьогодні відзначається десята річниця цієї події, і святкування на часі..."
   flavor_geo.1.a: "Святкування поширяться по всій [ROOT.GetCountry.GetNameWithNoTooltip]!"

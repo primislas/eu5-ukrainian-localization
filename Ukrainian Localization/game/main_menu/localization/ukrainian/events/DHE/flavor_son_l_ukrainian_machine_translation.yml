@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_son.1.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] у [ShowLocationNameWithNoTooltip('timbuktu')]"
   flavor_son.1.desc: "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] засмучені браком віри у [target_character.GetName]. Вже зараз вони поширюють чутки, що [target_character.GetSheHe] ближче до язичників, ніж до істинного [ShowReligionGroupAdjective('muslim')] правителя, і що [target_character.GetHerHis] брак віри засудить нас усіх. [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] вже погрожують, що якщо [target_character.GetSheHe] не пристосується до вимог [ShowReligionGroupAdjectiveWithNoTooltip('muslim')] віри, вони шукатимуть нового правителя, який це зробить."
   flavor_son.1.a: "Відмовитися від алкоголю та вечірок з цими людьми? Ніколи!"

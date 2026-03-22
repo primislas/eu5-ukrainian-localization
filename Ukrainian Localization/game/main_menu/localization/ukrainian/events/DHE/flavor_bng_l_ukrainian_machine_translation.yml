@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_bng.1.title: "Вплив [target_artist.GetNameWithNoTooltip]"
   flavor_bng.1.desc: "[target_artist.GetName], походячи з впливової родини, здобув широке визнання як вчений та письменник, зберігаючи вчення суфійського ордену Чишті в [ROOT.GetCountry.GetName]. З його зростаючою славою серед [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] та [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')], ми могли б підвищити наш власний авторитет серед населення, запросивши його до двору та спонсоруючи його. Це ще більше посилило б вплив ордену в нашій країні, закріпивши їхні цінності в нашому суспільстві."
   flavor_bng.1.a: "Заступімося за нього!"

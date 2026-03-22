@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   COUNTRY_INTERACTION_REJECT_EFFECT: "Якщо вони відмовлять, станеться наступне:"
   COUNTRY_INTERACTION_REJECT_BIAS_LOSS_EFFECT: "$TARGET$ втрачає $VALUE|-0$ [Concept('opinion', 'CONCEPT_PLACEHOLDER')|e] до $ACTOR$"
   COUNTRY_INTERACTION_REJECT_BIAS_GAIN_EFFECT: "$TARGET$ отримує $VALUE|+0$ [Concept('opinion', 'CONCEPT_PLACEHOLDER')|e] до $ACTOR$"
@@ -36,7 +36,7 @@ l_english:
   support_heir_interaction: "Підтримати спадкоємця"
   dip_support_heir_interaction_CATEGORY: "CATEGORY_INFLUENCE_ACTIONS"
   support_heir_at: "Вільний [Concept('character', 'CONCEPT_PLACEHOLDER')|e] з нашої [Concept('dynasty', 'CONCEPT_PLACEHOLDER')|e] буде відправлений до цільової країни, ставши доступним для них як [Concept('heir', 'CONCEPT_PLACEHOLDER')|e]"
-  support_heir_bt: "[Concept('target.GetName] стає доступним [heir', 'CONCEPT_PLACEHOLDER')|e] для [recipient.GetLongName]"
+  support_heir_bt: "[target.GetName] стає доступним [Concept('heir', 'CONCEPT_PLACEHOLDER')|e] для [recipient.GetLongName]"
   support_heir_interaction_act: "Підтримати спадкоємця."
   support_heir_interaction_desc: "Відправити члена нашої впливової [Concept('dynasty', 'CONCEPT_PLACEHOLDER')|e] до цільової країни, щоб підтримати його як потенційного спадкоємця."
   support_heir_interaction_effect_text: "[SCOPE.sCountry('actor').GetName] відправляє [SCOPE.sCharacter('target').GetName] до [SCOPE.sCountry('recipient').GetName], щоб підтримати його як можливого [Concept('heir', 'CONCEPT_PLACEHOLDER')|e]."
@@ -329,7 +329,7 @@ l_english:
   dip_lordship_of_ireland_assert_regency_CATEGORY: "КАТЕГОРІЯ_ДІЇ_ЩОДО_ВАСАЛІВ"
   lordship_of_ireland_assert_regency: "Проголосити Регентство"
   lordship_of_ireland_assert_regency_act: "Проголосити нашого [Concept('ruler', 'CONCEPT_PLACEHOLDER')|e] [Concept('regent', 'CONCEPT_PLACEHOLDER')|e]ом [SCOPE.sCountry('recipient').GetName]."
-  lordship_of_ireland_assert_regency_desc: "Ми проголосимо нашого [Concept('ruler', 'CONCEPT_PLACEHOLDER')|e] [Concept('actor.GetGovernment.GetRuler.GetName] їхнім [regent', 'CONCEPT_PLACEHOLDER')|e]ом, право, що належить нам через наше становище в [GetUniqueInternationalOrganization('lordship_of_ireland').GetName]."
+  lordship_of_ireland_assert_regency_desc: "Ми проголосимо нашого [Concept('ruler', 'CONCEPT_PLACEHOLDER')|e] [actor.GetGovernment.GetRuler.GetName] їхнім [Concept('regent', 'CONCEPT_PLACEHOLDER')|e]ом, право, що належить нам через наше становище в [GetUniqueInternationalOrganization('lordship_of_ireland').GetName]."
   lordship_of_ireland_assert_regency_effect_text: "[SCOPE.sCountry('actor').GetName] проголошує свого [Concept('ruler', 'CONCEPT_PLACEHOLDER')|e] [Concept('regent', 'CONCEPT_PLACEHOLDER')|e]ом [SCOPE.sCountry('recipient').GetName]."
   lordship_of_ireland_assert_regency_effect_text_simple: "Наш [Concept('ruler', 'CONCEPT_PLACEHOLDER')|e] проголосить себе [Concept('regent', 'CONCEPT_PLACEHOLDER')|e]ом обраної [Concept('country', 'CONCEPT_PLACEHOLDER')|e]."
   lordship_of_ireland_assert_regency_effect_text_past: "[SCOPE.sCountry('actor').GetName] проголосив свого [Concept('ruler', 'CONCEPT_PLACEHOLDER')|e] [Concept('regent', 'CONCEPT_PLACEHOLDER')|e]ом [SCOPE.sCountry('recipient').GetName]."

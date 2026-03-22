@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   reformation.1.title: "Лютеранська Реформація"
   reformation.1.desc: "Думки несхвалення щодо Римської [GetUniqueInternationalOrganization('catholic_church').GetName] поширюються по всій [ShowContinentName('europe')] після зростання практики індульгенцій, що викликає питання щодо жадібності Церкви.\n\nХоча ці звинувачення поки що залишалися досить широкими та загальними, певний інцидент у [target_location.GetName] спонукав скромного ченця на ім'я [target_character.GetName] написати та опублікувати тезу про природу істинного поклоніння та природу нашої віри. [target_character.GetSheHe|U] конкретно націлений на продаж індульгенцій, ганьблячи їх як жадібні та непотрібні, а також оскаржуючи авторитет [GetUniqueInternationalOrganization('catholic_church').GetLeaderTitle] продавати те саме прощення, яке може дарувати лише Бог."
   reformation.1.a: "Лише час покаже, що це може принести."

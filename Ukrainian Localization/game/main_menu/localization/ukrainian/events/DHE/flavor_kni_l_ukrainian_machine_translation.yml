@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_kni.3.title: "Великий карака з [ShowLocationNameWithNoTooltip('alexandria')]"
   flavor_kni.3.desc: "Невеликий, але вправний флот [ROOT.GetCountry.GetName] був бичем різних [ShowReligionAdjective('muslim')] ворогів протягом сотень років. Утримання вод чистими від ворожих каперів, а також захоплення [ShowReligionAdjective('muslim')] торгових суден, тримало скарбниці [ROOT.GetCountry.GetCapital.GetName] повними, а [ShowReligionAdjective('muslim')] моряків у жаху. Однією з найвідоміших подій було захоплення Великого карака з [ShowLocationName('alexandria')] у [GetCurrentYear], наповненого величезними багатствами."
   flavor_kni.3.a: "Божественність прихильна до нас!"

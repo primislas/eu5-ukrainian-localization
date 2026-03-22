@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   ap_falls_desc_key: "Після бурхливої облоги та доблесної оборони місцевого гарнізону, [target_location.GetName] пав перед могутністю наших великих армій. У його стінах перебуває потужна релігійна влада, адже [target_location.GetRank.GetNameWithNoTooltip] колись приймав сановників [ShowReligionAdjective('orthodox')] віри. Питання залишається: чи слід нам скасувати цю споріднену інституцію, чи взяти її під свій захист?"
   autocephalous_patriarchates.1.title: "Автокефальний Патріарший Престол Пав!"
   autocephalous_patriarchates.1.desc: "$ap_falls_desc_key$"

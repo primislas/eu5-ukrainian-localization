@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   legatusnatus.1.title: "Legatus Natus"
   legatusnatus.1.desc: "[home_ruler.GetName] довго був удостоєний честі бути представником [pope_ruler.GetName] - [ShowGovernmentReformName('legatus_natus')] - на північ від Альп.\nТакий престижний титул вимагає певного рівня гідності, і ми не можемо дозволити нашому престижу або нашим відносинам із [GetCountry('PAP').GetGovernment.GetRulerTitle] впасти надто низько."
   legatusnatus.1.a: "Все в руках Божих."

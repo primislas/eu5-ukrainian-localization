@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   horde_civil_war.1.title: "Криза спадкоємності [ShowGovernmentTypeNameWithNoTooltip('steppe_horde')]"
   horde_civil_war.1.desc: "Смерть нашого попереднього правителя залишила [target_country.GetLongName] у небезпечному становищі. Новий [target_country.Custom('GetRulerOrRegentTitle')] міг би зайняти [target_country.GetAdjectiveWithNoTooltip] престол, проте [target_character.GetSheHe] бракує єдності та підтримки [target_character.GetHerHis] воїнів. Таким чином, [scope_pretender.GetName], воєначальник у наших кордонах, почав збирати лоялістів, щоб кинути виклик [target_character.GetName] за [target_character.GetHerHis] престол..."
   horde_civil_war.1.a: "Принесіть мені [scope_pretender.GetHerHis] голову на списі!"

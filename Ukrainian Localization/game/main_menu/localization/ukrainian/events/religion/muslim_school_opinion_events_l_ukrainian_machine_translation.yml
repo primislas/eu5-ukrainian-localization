@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   muslim_school_opinion_events.1.title: "Взаємна повага між [ROOT.GetCountry.GetReligiousSchool.GetName] та [SCOPE.sCountry('school_opinion_increase_country').GetReligiousSchool.GetName]"
   muslim_school_opinion_events.1.desc: "Ніколи не було теологічних розбіжностей, вартих справжнього конфлікту, між школами [ROOT.GetCountry.GetReligiousSchool.GetName] та [SCOPE.sCountry('school_opinion_increase_country').GetReligiousSchool.GetName], і обидва звичаї часто співіснували поруч.\nОднак довготривала співпраця між [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetReligiousSchool.GetName] та [SCOPE.sCountry('school_opinion_increase_country').GetAdjective] [SCOPE.sCountry('school_opinion_increase_country').GetReligiousSchool.GetName] державами призвела до нової ери взаєморозуміння та поваги."
   muslim_school_opinion_events.1.a: "Бог великий."

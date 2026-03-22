@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_maj.1.title: "Книга Царів"
   flavor_maj.1.desc: "Кульмінація нашої історії та коріння нашої цивілізації дуже добре задокументовані. Нещодавно [target_artist.GetName] звернувся до [target_character.GetName] з пропозицією. Під [target_artist.GetHerHis] рукою буде написана хроніка. Цей літературний твір деталізуватиме правителів, які привели [ROOT.GetCountry.GetLongName] до величі. Прагнучи возвеличити минуле та вшанувати тих, на чиїх плечах ми збудували цей великий [ROOT.GetCountry.GetFlavorRank], ми повинні прагнути пам’ятати, звідки ми прийшли."
   flavor_maj.1.a: "Замовити роботу."
@@ -94,7 +94,7 @@ l_english:
   flavor_maj.20.desc: "[target_character.GetDaughterSon] члена [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] прибув до нашого [ROOT.GetCountry.GetGovernment.GetCourtTitle] не так давно, все про нього було абсолютно невідомо, крім [target_character.GetHerHis] імені – Дамарвулан. [target_character.GetSheHe|U] служив нам конюхом, але незабаром чутки про [target_character.GetHerHis] природну красу досягли доньки прем'єр-міністра, і мало які вогні важче загасити, ніж молоду любов.\n\nДоля, що чекає [target_character.GetHerHim] за [target_character.GetHerHis] образу, повинна бути ясною, як літній день, однак, [target_character.GetSheHe] здобув прихильність [ROOT.GetCountry.GetGovernment.GetCourtTitle], і багато хто бачить [target_character.GetHerHim] як пророкованого рятівника [ROOT.GetCountry.GetFlavorRank]."
   flavor_maj.20.a: "Можливо, [target_character.GetSheHe] наш рятівник."
   flavor_maj.20.b: "Це була б гарна історія!"
-  maj_winning_10_battles_with_damarwulan: "Коли [Concept('target_character.GetName] виграє щонайменше 10 [battles', 'CONCEPT_PLACEHOLDER')|e], [Concept('target_character.GetSheHe] отримає #g +15#! [mil', 'CONCEPT_PLACEHOLDER')|e], а [Concept('ROOT.GetCountry.GetName] отримає #g +25#! [legitimacy', 'CONCEPT_PLACEHOLDER')|e]."
+  maj_winning_10_battles_with_damarwulan: "Коли [target_character.GetName] виграє щонайменше 10 [Concept('battles', 'CONCEPT_PLACEHOLDER')|e], [target_character.GetSheHe] отримає #g +15#! [Concept('mil', 'CONCEPT_PLACEHOLDER')|e], а [ROOT.GetCountry.GetName] отримає #g +25#! [Concept('legitimacy', 'CONCEPT_PLACEHOLDER')|e]."
   flavor_maj.21.title: "Перемога [target_character.GetNameWithNoTooltip]"
   flavor_maj.21.desc: "Легше не стає. Гнила кров все ще смердить, як своя, очі ворогів все ще людські очі, ніч перед битвою все ще не дає [target_character.GetName] заснути.\n\nБитва закінчується переможно, як і будь-яка інша битва для [target_character.GetHerHim]. Це десята битва, і [target_character.GetSheHe] бажає, щоб десять було остаточним числом. Коли [target_character.GetSheHe] повертається до [ROOT.GetCountry.GetGovernment.GetCourtTitle], [target_character.GetSheHe] зустрічають з найбільшими почестями, [target_character.GetHerHis] ім'я повторюється стільки разів, що [target_character.GetSheHe] забуває, що це [target_character.GetHerHis] ім'я, і думає, що це просто інше слово для \"перемоги\". [ROOT.GetCountry.GetGovernment.GetRuler.GetName] наближається до [target_character.GetHerHim], [ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis] серце сповнене радості."
   flavor_maj.21.a: "Справді славетний переможець!"
@@ -120,7 +120,7 @@ l_english:
   flavor_maj.26.desc: "До нас звернувся один високопоставлений міністр, [target_character.GetName] з [target_country.GetLongName]. [target_character.GetSheHe|U] служив/служила нам у минулому і запропонував/запропонувала очолити експедицію в [ShowAreaName('south_sumatra_area')], щоб зміцнити нашу владу над нашими підданими, а також підкорити [target_country2.GetName]."
   flavor_maj.26.a: "[target_character.GetNameWithNoTooltip] був би хорошим лідером."
   flavor_maj.26.b: "Ми не можемо фінансувати такі експедиції."
-  maj_fire_will_event_if_target_character_lives: "Якщо [Concept('target_character.GetName] помре до кінця експедиції, [event', 'CONCEPT_PLACEHOLDER')|e] не спрацює."
+  maj_fire_will_event_if_target_character_lives: "Якщо [target_character.GetName] помре до кінця експедиції, [Concept('event', 'CONCEPT_PLACEHOLDER')|e] не спрацює."
   flavor_maj.27.title: "$PGR$"
   flavor_maj.27.desc: "Після експедиції [target_character.GetName] [target_character.GetSheHe] взяв/взяла під контроль [ROOT.GetCountry.GetLongName] і заснував/заснувала власну державу. Як [ROOT.GetCountry.GetGovernment.GetRulerTitle] $PGR$, [target_character.GetNameWithNoTooltip] має намір контролювати знамениту торгівлю [ShowGoodsName('goods_gold')]."
   flavor_maj.27.a: "[ROOT.GetCountry.Custom('common_string_positive')]"

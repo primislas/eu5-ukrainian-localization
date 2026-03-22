@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_tim_governor.1.title: "Смерть нашого правителя"
   flavor_tim_governor.1.desc: "Зі смертю нашого правителя, [target_area.GetName] тепер перебуває під де-юре управлінням [target_country.GetName]. Відтак, [target_character2.GetName] вимагає від поточного правителя повернути їх до [target_country.GetAdjectiveWithNoTooltip] рук."
   flavor_tim_governor.1.a: "Наш час як намісників вичерпано."

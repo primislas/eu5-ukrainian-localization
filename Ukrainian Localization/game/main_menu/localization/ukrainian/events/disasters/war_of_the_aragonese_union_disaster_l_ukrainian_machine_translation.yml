@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   war_of_the_aragonese_union_disaster.1.title: "Відродження Союзу"
   war_of_the_aragonese_union_disaster.1.desc: "[ruler_brother.GetName] був вигнаний з [target_location.GetName] та йому заборонено в'їзд до [ShowAreaName('catalonia_area')] та [ShowLocationName('zaragoza')], щоб запобігти поширенню його отрути на інших шляхтичів. Натомість, він насміхався над наказами нашого Короля та скликав своїх співзмовників зустрітися з ним за межами міста [ShowLocationNameWithNoTooltip('zaragoza')], і разом вони знову розпалили повстання, що принизило [scope_alfons_iii.GetName], #italic Союз Арагону#!.\n\nБрехня [ruler_brother.GetNameWithNoTooltip] змішується зі старими образами, які [GetCountry('ARA').GetAdjective] шляхта та міста мають проти Корони, створюючи багаття, що швидко поширюється по всій [ShowLocationNameWithNoTooltip('zaragoza')]."
   war_of_the_aragonese_union_disaster.1.a: "Вислухаймо їхні вимоги, можливо, питання можна вирішити мирно."

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   hussite_wars: "Гуситські війни"
   hussite_wars_desc: "Серія конфліктів між послідовниками [ShowReligionName('hussite')] та [ShowReligionName('catholic')], що швидко переросла у повномасштабну війну за саму ідентичність країни."
   recognized_hussites_tt: "Ми вийшли переможцями з #Y Гуситських війн#!"

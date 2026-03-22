@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   noble_marriage.1.title: "[ROOT.GetCountry.GetGovernment.GetConsortTitle] для [ROOT.GetCountry.GetGovernment.GetRuler.GetName]"
   noble_marriage.1.desc: "Оскільки наш [ROOT.GetCountry.GetGovernment.GetRulerTitle] не одружений, шляхта висловила занепокоєння щодо продовження нашої монархії. Один з наших найважливіших шляхтичів, [target.GetDynasty.GetDynastyHead.GetName], запропонував, щоб наш [ROOT.GetCountry.GetGovernment.GetRulerTitle] одружився з [target.GetName]"
   noble_marriage.1.a: "Це гарне рішення!"

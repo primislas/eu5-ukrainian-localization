@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   SETTING_ANIMATED_PORTRAITS: "Анімовані персонажі"
   SETTING_ANIMATED_PORTRAITS_TOOLTIP: "#T $SETTING_ANIMATED_PORTRAITS$\n#!Визначає, чи повинні бути анімовані видатні персонажі.\n\nВимкнення може підвищити продуктивність."
   SETTING_PORTRAITS_SSAO: "Персонажі SSAO"

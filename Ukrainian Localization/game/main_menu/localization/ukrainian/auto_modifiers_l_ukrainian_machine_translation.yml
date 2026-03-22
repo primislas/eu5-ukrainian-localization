@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   AUTO_MODIFIER_NAME_country_base_values: "Базове значення для кожної [Concept('country', 'CONCEPT_PLACEHOLDER')|e]"
   AUTO_MODIFIER_NAME_country_base_values_with_taxation: "$AUTO_MODIFIER_NAME_country_base_values$"
   AUTO_MODIFIER_NAME_location_tt_name: "[Concept('settled_country', 'CONCEPT_PLACEHOLDER')|e]"

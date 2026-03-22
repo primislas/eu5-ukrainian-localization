@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   SAVE_BUTTON_DISABLED: "@trigger_no! Гру можна автозберігати лише в режимі Ironman"
   SAVE_BUTTON_DISABLED_BY_TUTORIAL: "@trigger_no! Ви не можете зберегти гру під час проходження."
   LOAD_INGAME_BUTTON_DISABLED: "Ви не можете завантажити гру в багатокористувацькому режимі"

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   primasgermaniae.1.title: "Primas Germaniae"
   primasgermaniae.1.desc: "З десятого століття [target_country.GetGovernment.GetRulerTitle] [target_country.GetName] тримали престижний титул [ShowGovernmentReformName('primas_germaniae')] — найважливіший [ShowReligionAdjective('catholic')] [target_country.GetGovernment.GetRulerTitle] у всій [GetUniqueInternationalOrganization('hre').GetName].\n\nПриродно, такий титул викликатиме заздрість серед інших князів Імперії... Наш правитель, [home_ruler.GetName], мусить бути обачним і не дозволити нашому $game_concept_prestige$ впасти надто низько, інакше ми можемо втратити цей титул!"
   primasgermaniae.1.a: "Розумію..."

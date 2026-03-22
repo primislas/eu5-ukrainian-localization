@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   ireland.10.title: "Їдка сатира"
   ireland.10.desc: "Бардівська поезія традиційно вважається надійним літописом історії [bard_country.GetCulture.GetName]; як така, вона може бути використана для політичної вигоди.\n\nОдин із бардів на службі у [bard_ruler.GetName] написав особливо нищівну сатиру на [neighbor_ruler.GetName], правителя [neighbor_ruler.GetCountry.GetName].\n\nОкрім дотепних та влучних образ, вона також ставить під сумнів родовід [neighbor_ruler.GetHisHer]."
   ireland.10.a: "Це зруйнує репутацію [neighbor_ruler.GetShortNameWithNoTooltip]!"

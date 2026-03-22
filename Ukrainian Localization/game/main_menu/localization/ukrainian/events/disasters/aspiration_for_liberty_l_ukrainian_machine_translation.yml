@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   aspiration_for_liberty.1.title: "Прагнення до свободи"
   aspiration_for_liberty.1.desc: "Сумнівне правління [target_character.GetName], прагнення народу до свободи та бажання втілення просвітницьких ідеалів спровокували революцію, що здається майже неминучою. Народ об'єднався та взявся за зброю, намагаючись скинути [ROOT.GetCountry.GetFlavorRank], тим самим розпочавши одну з найкривавіших революцій нашого часу."
   aspiration_for_liberty.1.a: "Нас чекають лихі часи."
@@ -16,5 +16,5 @@ l_english:
   aspiration_for_liberty.4.desc: "Нездатність уряду керувати країною під час [ShowDisasterName('aspiration_for_liberty')] нашого народу призвела до широкого невдоволення, дозволивши виникнути новим повстанням по всій країні, таким як [target_rebel.GetName]. Громадське розчарування досягло критичної точки, оскільки багато хто виступає проти лідерів, яких вони вважають корумпованими та неефективними.\n\nВимога революції стає гучнішою з кожним днем, з людьми з усіх верств суспільства, що приєднуються до руху. Сподіваючись повернути контроль над своїм майбутнім, вони готові боротися за свої вимоги за будь-яку ціну, даючи зрозуміти, що вони не приймуть нічого меншого, ніж повна капітуляція перед їхніми вимогами."
   aspiration_for_liberty.4.a: "Немає про що турбуватися."
   aspiration_for_liberty.4.b: "Надати [target_rebel.GetNameWithNoTooltip] деякі поступки."
-  lose_10_control_in_affected_locations_tt: "[Concept('locations', 'CONCEPT_PLACEHOLDER')|e], які наразі підтримують [Concept('target_rebel.GetNameWithNoTooltip] [rebellion', 'CONCEPT_PLACEHOLDER')|e], втратять [ShowNamedValue('control_mild_penalty')|+=2%] [Concept('control', 'CONCEPT_PLACEHOLDER')|e]"
-  every_supporter_pop_gains_5_satisfaction_tt: "Кожен [Concept('pop', 'CONCEPT_PLACEHOLDER')|e], що підтримує [Concept('target_rebel.GetNameWithNoTooltip] [rebellion', 'CONCEPT_PLACEHOLDER')|e], отримає [ShowNamedValue('pop_satisfaction_weak_bonus')|+=2%] [Concept('pop_satisfaction', 'CONCEPT_PLACEHOLDER')|e]"
+  lose_10_control_in_affected_locations_tt: "[Concept('locations', 'CONCEPT_PLACEHOLDER')|e], які наразі підтримують [target_rebel.GetNameWithNoTooltip] [Concept('rebellion', 'CONCEPT_PLACEHOLDER')|e], втратять [ShowNamedValue('control_mild_penalty')|+=2%] [Concept('control', 'CONCEPT_PLACEHOLDER')|e]"
+  every_supporter_pop_gains_5_satisfaction_tt: "Кожен [Concept('pop', 'CONCEPT_PLACEHOLDER')|e], що підтримує [target_rebel.GetNameWithNoTooltip] [Concept('rebellion', 'CONCEPT_PLACEHOLDER')|e], отримає [ShowNamedValue('pop_satisfaction_weak_bonus')|+=2%] [Concept('pop_satisfaction', 'CONCEPT_PLACEHOLDER')|e]"

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   muslim_flavor.1.title: "$ramadan$"
   muslim_flavor.1.desc: "Незабаром настане дев'ятий місяць нашого календаря, і [ShowReligionGroupAdjective('muslim')] віряни по всьому світу готуються до місяця посту. Це один із П'яти Стовпів [ShowReligionGroupNameWithNoTooltip('muslim')] і є фард (обов'язковим) для всіх дорослих [ShowReligionGroupAdjectiveWithNoTooltip('muslim')] чоловіків і жінок, які не хворі, не подорожують і не вагітні. Від світанку до заходу сонця не можна вживати їжу, пити рідини, використовувати тютюн і мати статеві стосунки. Це час духовних роздумів, самовдосконалення та посиленої відданості й поклоніння. Жоден [ShowReligionGroupAdjectiveWithNoTooltip('muslim')], хто боїться [ROOT.GetCountry.GetReligion.GetGodName], не повинен ігнорувати $ramadan$."
   muslim_flavor.1.a: "Час постити."

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   MODIFIER_NONE: "Нічого"
   MODIFIER_ABSTAIN: "Утримання"
   less_left_than_right: "менше $LEFT|Y$, ніж $RIGHT|Y$"

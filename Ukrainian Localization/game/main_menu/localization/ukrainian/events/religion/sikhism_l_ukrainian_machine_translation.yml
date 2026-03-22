@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   lots_of_sikhs: "Багато [Concept('pops', 'CONCEPT_PLACEHOLDER')|e] у нашій [Concept('country', 'CONCEPT_PLACEHOLDER')|e] тепер сповідують [ShowReligionName('sikhism')]."
   sikhism.1.title: "[ShowReligionAdjectiveWithNoTooltip('sikhism')] Віра"
   sikhism.1.desc: "[target_location.GetName] розташоване на кордоні між прихильниками [ShowReligionName('hindu')] та [ShowReligionGroupName('muslim')]. У цій місцевості, позначеній релігійною напругою та розбіжностями, чоловік на ім'я [target_character.GetName] почав проповідувати, що немає ні [ShowReligionAdjectiveWithNoTooltip('hindu')], ні [ShowReligionGroupAdjectiveWithNoTooltip('muslim')], але істина є з Богом, який не є ні тим, ні іншим.\n\nХоча [target_character.GetHisHer] відмова від давніх звичаїв обурила відданих [target_religion.GetAdjectiveWithNoTooltip] вірян, зневага [target_character.GetNameWithNoTooltip] до віровчення дозволила [target_character.GetHisHer] вченням вкоренитися серед населення. [target_character.GetHisHer|U] учні відомі як сикхи і швидко поширюють цю нову віру по всьому [target_location.GetNameWithNoTooltip]."

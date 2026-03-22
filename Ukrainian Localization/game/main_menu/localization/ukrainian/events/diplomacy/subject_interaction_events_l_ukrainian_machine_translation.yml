@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   subject_interaction_events.1.title: "Претендент повстає"
   subject_interaction_events.1.desc: "Колишній монарх [ROOT.GetCountry.GetName] мав [target_previous_ruler.GetHerHis] прихильників, і багато з них вважають, що вони мають кращі права на трон [ROOT.GetCountry.GetName], ніж [target_ruler.GetName]. Їм вдалося зібрати досить велику кількість послідовників, і вони йдуть до [ROOT.GetCountry.GetCapital.GetName], маючи намір посадити на трон 'справжнього' правителя."
   subject_interaction_events.1.a: "Попросити допомоги у [ROOT.GetCountry.GetDiplomacy.GetOverlord.GetLongNameWithNoTooltip]."

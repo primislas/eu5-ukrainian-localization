@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   game_concept_struct: "#TOOLTIP:GAME_CONCEPT,$DESC_KEY$,X $KEY_LOC$#!"
   game_modifier_struct_boolean: "#TOOLTIP:BOOLEAN_MODIFIER,$DESC_KEY$,X #P $KEY_LOC|L$#!#!"
   game_static_modifier_struct_positive: "#TOOLTIP:STATIC_MODIFIER,$DESC_KEY$,X #P $KEY_LOC|L$#!#!"

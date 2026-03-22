@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   rise_of_the_szlachta.1.title: "Піднесення [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]"
   rise_of_the_szlachta.1.desc: "Махінації внутрішньої політики часто переплітаються з одвічним прагненням до влади. [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] завжди вважали себе головними захисниками нашого королівства, завжди прагнучи тримати [ROOT.GetCountry.GetName] та її інтереси на першому плані.\n\nОднак, схоже, що абсолютна влада абсолютно розбещує, і вони також стали жертвами своїх наївних амбіцій. Вони не лише відкинули наше верховенство, але й відверто поставили під сумнів саму легітимність наших засад!"
   rise_of_the_szlachta.1.a: "Як вони сміють?"

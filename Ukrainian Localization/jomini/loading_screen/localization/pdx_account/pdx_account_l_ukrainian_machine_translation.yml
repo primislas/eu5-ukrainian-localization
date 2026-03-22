@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   REVIEW_LEGAL_DOCUMENT: "Переглянути юридичний документ"
   CREATE_SOCIAL_PROFILE_ERROR: "Помилка: [CreateSocialProfileWindow.GetErrorMessage]"
   POPS_LOGIN_RESET_PASSWORD_EMAIL_SENT: "Електронний лист надіслано на [LoginView.GetEmail]. Щоб скинути пароль, дотримуйтесь інструкцій в електронному листі"

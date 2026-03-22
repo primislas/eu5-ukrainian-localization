@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_ben.1.title: "$walls_of_benin$"
   flavor_ben.1.desc: "Процвітання [target_location.GetName] залежить від її стін. З цієї причини [target_character.GetName] вирішив, що настав час їх розширити. Такий проєкт буде коштовним, але він дозволить [target_location.GetRank.GetName] досягти нових висот."
   flavor_ben.1.a: "Збудуймо ці стіни."

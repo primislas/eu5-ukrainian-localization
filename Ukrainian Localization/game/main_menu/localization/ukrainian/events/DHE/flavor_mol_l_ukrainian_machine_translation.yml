@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_mol.1000.title: "[target_character.GetShortNameWithNoTooltip] [target_character.GetNicknameWithNoTooltip]"
   flavor_mol.1000.desc: "З часу заснування [target_country.GetLongName] [root_country.GetName] перебуває в постійному конфлікті з мародерськими рейдерами [target_country.GetCulture.GetName]. [target_character.GetShortName] з [target_location.GetName] має намір об'єднати [target_area.GetName] під [target_character.GetHerHis] та нашими прапорами. [target_character.GetShortNameWithNoTooltip] присягнув на вірність [root_character.GetName] і обіцяє нам заселити прикордонні землі та служити [root_country.GetFlavorRank] як вірний [ShowSubjectTypeName('march')]."
   flavor_mol.1000.historical_info: "Драгош Воде, також відомий як Драгош Засновник, був першим воєводою Молдавії та васалом Угорської Корони. Після гучної перемоги над Золотою Ордою в 1345 році, Драгош та інші чоловіки з Марамурешу вирушили до річки Молдова, щоб заселити ці землі. Хоча «Спішування» на берегах згаданої річки оповите міфами, і тому саме заснування Молдавії є дискусійним питанням."

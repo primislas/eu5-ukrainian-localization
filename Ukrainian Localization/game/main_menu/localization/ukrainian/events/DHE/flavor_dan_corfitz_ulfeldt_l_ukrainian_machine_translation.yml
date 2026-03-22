@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_dan_corfitz_ulfeldt.1.title: "[target_character.GetNameWithNoTooltip]"
   flavor_dan_corfitz_ulfeldt.1.desc: "[target_character.GetName] повернувся до [ROOT.GetCountry.GetName], після навчання за кордоном у [ShowLocationName('padova')], і цим [target_character.GetSheHe] швидко представив [target_character.GetHerselfHimself] нашому доброму [target_ruler.GetName]. [target_character.GetSheHe|U] пропонує [target_character.GetHerHis] послуги [ROOT.GetCountry.GetFlavorRank], які, як [target_character.GetSheHe] обіцяє, будуть щедрими."
   flavor_dan_corfitz_ulfeldt.1.marriage.desc: "$flavor_dan_corfitz_ulfeldt.1.desc$\n\nКрім того, [target_character.GetSheHe] також почав залицятися до доньки [ROOT.GetCountry.GetGovernment.GetRulerTitle], [target_princess.GetName], і обіцянки шлюбу вже на горизонті."

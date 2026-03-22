@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   rise_of_the_ottomans.1.title: "Загроза [ShowCultureNameWithNoTooltip('turkish_culture')]"
   rise_of_the_ottomans.1.desc: "Народжена з попелу вмираючого Сельджуцького султанату, невелика територія [target_character.GetName] спочатку була затьмарена могутнішими сусідами. Однак бачення та амбіції [target_country.GetName] виявилися далекосяжними, оскільки вони нещодавно стали на шлях експансії та консолідації, виборюючи своє місце в бурхливому гобелені фрагментованої [ShowRegionNameWithNoTooltip('anatolia_region')].\n#NL![target_character.GetShortNameWithNoTooltip] та [target_character.GetHerHis] наступники вміло скористалися пануючим хаосом і розколами в регіоні. З кожною перемогою [target_country.GetAdjectiveWithNoTooltip] князівство стає сильнішим, приваблюючи воїнів, вчених та амбітні уми, які прагнуть взяти участь у цій зростаючій силі. Їхні стратегічні шлюби, хитромудрі союзи та військова доблесть поступово перетворили скромну державу на імперію, що формується."
   rise_of_the_ottomans.1.a: "Їх треба зупинити!"

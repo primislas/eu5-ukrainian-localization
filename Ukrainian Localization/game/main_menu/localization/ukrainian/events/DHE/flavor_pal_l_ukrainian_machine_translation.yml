@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_pal.1.title: "Гарний вибір"
   flavor_pal.1.desc: "Наша підтримка справжнього [GetCountry('PAP').GetGovernment.GetRulerTitle] у [ShowSituationName('western_schism')] здобула нам прихильність [ShowLocationName('rome')], що спонукало славетного [pope_ruler.GetName] надати нам нову папську буллу, яка дозволяє будівництво нового [ShowBuildingTypeName('university')] у [ShowLocationName('heidelberg')] за зразком університету [ShowLocationName('paris')]."
   flavor_pal.1.a: "Розпочати будівництво."

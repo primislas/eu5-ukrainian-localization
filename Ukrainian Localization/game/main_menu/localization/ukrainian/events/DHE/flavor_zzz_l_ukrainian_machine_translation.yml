@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_zzz.1.title: "Стіни [target_location.GetNameWithNoTooltip]"
   flavor_zzz.1.desc: "Зі зростанням нашої войовничості в [ShowRegionName('guinea_region')], [target_location.GetName] став осередком не лише культури, а й конфлікту. Через це [target_character.GetName] бажає звести стіни на [target_character.GetHerHis] ім'я, забезпечуючи, що [target_location.GetRank.GetName] ніколи не впаде."
   flavor_zzz.1.a: "Захистимо [target_location.GetNameWithNoTooltip]."

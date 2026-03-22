@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   great_pirate_era.1.title: "[target_country.GetNameWithNoTooltip] повстає"
   great_pirate_era.1.desc: "[target_location.GetName] став жертвою розгулу піратства! Місцеві головорізи зайшли так далеко, що проголосили [target_country.GetLongName]. Осмілені відсутністю законної влади на острові, вони захопили форт і оголосили піратську республіку.\n\nНа чолі стоять сумнозвісні піратські капітани [target_character.GetName] та [target_character2.GetName], чия крихка влада над бандою розбійників острова постійно випробовується їхніми безжальними лейтенантами, які прагнуть використати будь-яку ознаку слабкості.\n\nЦя так звана республіка є не лише порушенням нашого суверенітету над [ShowProvinceDefinitionName('bahamas_province')], але й прямим викликом порядку та цінностям усіх цивілізованих націй. Хаос тепер панує в [target_country.GetNameWithNoTooltip]."
   great_pirate_era.1.a: "Піратське життя для мене!"

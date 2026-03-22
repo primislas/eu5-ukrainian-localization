@@ -9,7 +9,7 @@ from ukrainersalis_utils.gemini_translator import GeminiTranslator
 from ukrainersalis_utils.logger import logger
 from ukrainersalis_utils.translators.translation_api import Translator
 from ukrainersalis_utils.utils.file_utils import list_localization_files
-from ukrainersalis_utils.utils.yaml_utils import async_write_eu5_localization_yaml, async_load_eu5_yaml, \
+from ukrainersalis_utils.utils.yaml_utils import write_eu5_localization_yaml_async, load_eu5_yaml_async, \
     validate_localization_file
 
 _NEWLINE_REPLANCEMENT = "#NL!#"
@@ -76,7 +76,7 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
     try:
         async with semaphore:
             # Read file
-            content = await async_load_eu5_yaml(input_file_path)
+            content = await load_eu5_yaml_async(input_file_path)
             l_english = content.get("l_english")
             lines = "\n".join([translation_preprocessing(l) for l in l_english.values()])
 
@@ -93,7 +93,7 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
 
             # Create output directory if needed
             await asyncio.to_thread(os.makedirs, output_dir, exist_ok=True)
-            await async_write_eu5_localization_yaml(content, output_file_path)
+            await write_eu5_localization_yaml_async(content, output_file_path)
             logger.info(f"Translated {file_name} -> {output_file_name}")
             return True
 

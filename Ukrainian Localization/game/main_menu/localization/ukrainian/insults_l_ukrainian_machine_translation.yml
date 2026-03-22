@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   insult_default: "Твоя мати була хом'яком, а твій батько смердить бузиною!"
   insult_default2: "Судний день настав! Посіпаки Люцифера ходять по землі — О, ні, це всього лише [TARGET_COUNTRY.GetAdjective]."
   insult_default3: "Крім того, я вважаю, що [TARGET_COUNTRY.GetCapital.GetName] має бути знищено!"

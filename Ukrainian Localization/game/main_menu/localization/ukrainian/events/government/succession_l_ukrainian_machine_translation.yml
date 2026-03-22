@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   succession_desc_key: "Традиція нашого народу вимагає, щоб лише найдостойніші та найздібніші сходили на престол, незалежно від того, яким чином вони цього досягають. Це зазвичай означає, що сини старого [ROOT.GetCountry.GetGovernment.GetRulerTitle] вбиватимуть один одного, доки не залишиться лише один, щоб правити безперешкодно."
   succession.1.title: "Винищення синів [old_ruler.GetNameWithNoTooltip]"
   succession.1.title_fallback: "Винищення синів"
@@ -10,7 +10,7 @@ l_english:
   succession.1.a.tt: "Винищення триватиме, доки не залишиться лише один гідний син."
   succession.1.b: "Слава [killer_scope.GetNameWithNoTooltip]!"
   succession.1.c: "Покласти край цій ситуації, підтримати [killer_scope.GetShortNameWithNoTooltip]."
-  succession.1.c.tt: "Кожен брат [Concept('killer_scope.GetName] гине. За кожного вбитого [character', 'CONCEPT_PLACEHOLDER')|e] відбудеться наступне:"
+  succession.1.c.tt: "Кожен брат [killer_scope.GetName] гине. За кожного вбитого [Concept('character', 'CONCEPT_PLACEHOLDER')|e] відбудеться наступне:"
   succession.1.d: "Традицію слід підтримувати, ми зачекаємо."
   succession.1.e: "Це нісенітниця, підійде інший член [old_ruler.GetDynasty.GetNameWithNoTooltip]."
   succession.2.title: "Могутній радник"
@@ -33,7 +33,7 @@ l_english:
   succession.5.desc.new_ruler_regent: "$succession.4.desc.default$\n\n[new_ruler_regent.GetName] з [new_ruler_regent.GetDynasty.GetName] династії зійшов з [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] як найвпливовіший та наймогутніший серед них, приборкуючи будь-які незадоволені фракції та запобігаючи падінню країни в хаос."
   succession.5.desc.no_ruler: "$succession.4.desc.default$"
   succession.5.a: "[new_ruler_son.GetDynasty.GetNameWithNoTooltip] переможе!"
-  succession.5.a.tt: "Кожен брат [Concept('new_ruler_son.GetName] гине. За кожного вбитого [character', 'CONCEPT_PLACEHOLDER')|e] станеться наступне:"
+  succession.5.a.tt: "Кожен брат [new_ruler_son.GetName] гине. За кожного вбитого [Concept('character', 'CONCEPT_PLACEHOLDER')|e] станеться наступне:"
   succession.100.title: "Новий [ROOT.GetCountry.GetGovernment.GetRulerTitle] з [ROOT.GetCountry.GetNameWithNoTooltip]"
   succession.100.desc.a: "Дотримуючись традиції нашого народу, після смерті [old_ruler.GetName], [old_ruler.GetHisHer] первісток отримує левову частку титулів та спадщини, стаючи нашим новим [ROOT.GetCountry.GetGovernment.GetRulerTitle], але за тим же законом кожен чоловічий нащадок має право на частину земель свого батька, щоб правити ними самостійно без втручання головного спадкоємця.\n\nЦе зменшує контроль, який [new_ruler.GetName] здатен здійснювати в цих провінціях, можливо, до точки, де він близький до нуля. Водночас, Поділ [ROOT.GetCountry.GetFlavorRank] також забезпечує мир та стабільність, оскільки немає збіднілих синів, які шукають землі свого батька."
   succession.100.desc.b: "[old_ruler.GetName] відійшов у потойбіччя, на щастя, [new_ruler.GetName] залишається і цього дня стає нашим новим [ROOT.GetCountry.GetGovernment.GetRulerTitle]. Оскільки [new_ruler.GetHeShe] не має відповідних братів, поділу титулів [old_ruler.GetNameWithNoTooltip] не буде."
@@ -48,7 +48,7 @@ l_english:
   succession.101.title: "Унія Корон"
   succession.101.desc: "Наш попередній монарх уклав угоду з Короною [union_partner.GetName]: той, хто переживе іншого монарха, успадкує престол свого договірного партнера. Таким чином, великий [new_ruler.GetName] буде відомий як суверен [junior_partner.GetAdjective] Корони."
   succession.101.a: "Хай живе [junior_partner.GetGovernment.GetRulerTitle]!"
-  succession.102.desc: "Корона [Concept('union_partner.GetName] колись уклала пакт з Короною [junior_partner.GetName]: чий монарх переживе іншого, успадкує його престол, об'єднавши обидві нації в одну [union', 'CONCEPT_PLACEHOLDER')|e]. Як виявилося, попередній [ROOT.GetCountry.GetGovernment.GetRulerTitle] [junior_partner.GetNameWithNoTooltip] був забраний Смертю, і тепер [junior_partner.GetAdjectiveWithNoTooltip] престол належить єдиному справжньому [new_ruler.GetName]."
+  succession.102.desc: "Корона [union_partner.GetName] колись уклала пакт з Короною [junior_partner.GetName]: чий монарх переживе іншого, успадкує його престол, об'єднавши обидві нації в одну [Concept('union', 'CONCEPT_PLACEHOLDER')|e]. Як виявилося, попередній [ROOT.GetCountry.GetGovernment.GetRulerTitle] [junior_partner.GetNameWithNoTooltip] був забраний Смертю, і тепер [junior_partner.GetAdjectiveWithNoTooltip] престол належить єдиному справжньому [new_ruler.GetName]."
   succession.102.a: "Нехай [new_ruler.GetHerHis] правління розпочне еру процвітання для Унії."
   joint_ruling.100.title.a: "Термін дії закінчився"
   joint_ruling.100.title.b: "Долина Сліз"

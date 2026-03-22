@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   decline_of_majapahit.1.title: "Занепад [ROOT.GetCountry.GetNameWithNoTooltip]"
   decline_of_majapahit.1.desc: "[ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetFlavorRank] у передсмертних муках. Колись центр величезної мережі [ShowSubjectTypeName('vassal')] королівств та [ShowSubjectTypeName('tributary')] держав, [ROOT.GetCountry.GetNameWithNoTooltip] тепер має мало влади за межами [ROOT.GetCountry.GetCapital.GetName]. Купці все частіше відвідують наших [ShowReligionAdjective('sunni')] суперників, і релігія повільно закріплюється на півночі [ShowAreaName('java_area')]. Гірше того, внутрішні чвари за спадщину загрожують розірвати залишки [ROOT.GetCountry.GetFlavorRank] зсередини."
   decline_of_majapahit.1.a: "Це темні часи."

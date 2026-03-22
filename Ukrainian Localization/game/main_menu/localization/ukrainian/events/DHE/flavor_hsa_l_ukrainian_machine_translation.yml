@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_hsa.1.title: "[target_character.GetNameWithNoTooltip]"
   flavor_hsa.1.desc: "Купець [target_character.GetName], який раніше працював у [ShowLocationName('london')] як член Ганзейської ліги, повернувся до [ShowLocationName('gdansk')]. Він має одружитися з Христиною Крюгер, донькою престижного громадянина Данцига, і зараз шукає нову нагоду."
   flavor_hsa.1.a: "Найняти його"

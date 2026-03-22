@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   MODS_DEPENDENCY_NONE: "Немає залежностей"
   MODS_DEPENDENCY_UNKNOWN: "Невідомий запис залежності"
   MODS_DEPENDENCY_ENTRY_ACTIVE: "$MOD_NAME$ версія $MOD_VERSION$"

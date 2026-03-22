@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   struggle_for_royal_power.1.title: "Боротьба за королівську владу"
   struggle_for_royal_power.1.desc: "Напруга між [ROOT.GetCountry.GetGovernment.GetRulerTitle] та Сеймом досягла межі. [ROOT.GetCountry.GetGovernment.GetRulerTitle] став абсолютно нетерпимим до постійної необхідності йти на компроміси зі Шляхтою, аби здійснити навіть найменший акт управління, оскільки ці шляхтичі знаходять привід діяти проти монарха за кожної можливої нагоди. [ROOT.GetCountry.GetGovernment.GetRulerTitle] вважає, що нарешті настав час покласти край владі Сейму в [ROOT.GetCountry.GetName]."
   struggle_for_royal_power.1.a: "Розпочати війну проти Шляхти."

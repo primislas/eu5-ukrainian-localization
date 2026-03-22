@@ -1,9 +1,9 @@
-l_english:
+﻿l_english:
   diplomatic_annex.1.title: "Анексія [target.GetNameWithNoTooltip]"
   diplomatic_annex.1.desc: "Інтеграція [target.GetLongName] зайняла чимало часу, але тепер, коли [target.GetCapital.GetName] є [ROOT.GetCountry.GetAdjective] [target.GetCapital.GetRank.GetNameWithNoTooltip], воно розкриє свій повний потенціал і змусить нашу націю процвітати ще більше.\n\nПроте є й інші країни, які не оцінили це розширення нашої території."
   diplomatic_annex.1.a: "Oderint dum metuant!"
   every_subject_hates_us_tt: "Наші [Concept('subjects', 'CONCEPT_PLACEHOLDER')|e] змінюють свою [Concept('opinion', 'CONCEPT_PLACEHOLDER')|e] щодо [ROOT.GetCountry.GetLongName] на [ShowBiasValue('opinion_annexed_other_subject')|+=0]"
-  every_annex_target_neighbor_hates_us_tt: "Кожна сусідня [Concept('country', 'CONCEPT_PLACEHOLDER')|e] [Concept('target.GetName] змінює свою [opinion', 'CONCEPT_PLACEHOLDER')|e] щодо [ROOT.GetCountry.GetLongName] на [ShowBiasValue('opinion_annexed_neighbor')|+=0]"
+  every_annex_target_neighbor_hates_us_tt: "Кожна сусідня [Concept('country', 'CONCEPT_PLACEHOLDER')|e] [target.GetName] змінює свою [Concept('opinion', 'CONCEPT_PLACEHOLDER')|e] щодо [ROOT.GetCountry.GetLongName] на [ShowBiasValue('opinion_annexed_neighbor')|+=0]"
   opinion_annexed_neighbor: "Анексований сусід"
   opinion_annexed_other_subject: "Анексовано іншого [Concept('subject', 'CONCEPT_PLACEHOLDER')|e]"
   historical_rival_events.1.title: "[rivalling_country.GetAdjectiveWithNoTooltip]-[target_country.GetAdjectiveWithNoTooltip] Суперництво"

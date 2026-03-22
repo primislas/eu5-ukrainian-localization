@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   MODIFIER_TYPE_NAME_trade_efficiency: "Ефективність торгівлі"
   MODIFIER_TYPE_DESC_trade_efficiency: "$game_concept_trade_efficiency_desc$"
   MODIFIER_TYPE_NAME_trade_income: "Дохід від торгівлі"
@@ -2170,7 +2170,7 @@ l_english:
   MODIFIER_TYPE_NAME_correct_box_chance: "Шанс Потрапляння до Правильної Секції"
   MODIFIER_TYPE_DESC_correct_box_chance: "Це впливає на шанс підрозділу, що запізнився на [Concept('battle', 'CONCEPT_PLACEHOLDER')|e], приєднатися до своєї призначеної [Concept('section', 'CONCEPT_PLACEHOLDER')|e]."
   MODIFIER_TYPE_NAME_local_proximity_source: "Місцеве Джерело Близькості"
-  MODIFIER_TYPE_DESC_local_proximity_source: "Це слугуватиме ще одним джерелом [Concept('proximity', 'CONCEPT_PLACEHOLDER')|e] у [Concept('location', 'CONCEPT_PLACEHOLDER')|e], що також може допомогти покращити [Concept('proximity] у сусідніх [locations].\n\nЦе не сумується з [proximity] від [capital', 'CONCEPT_PLACEHOLDER')|e], тому цей модифікатор не матиме ефекту, якщо [location] вже отримує вищу [proximity] від [capital]."
+  MODIFIER_TYPE_DESC_local_proximity_source: "Це слугуватиме ще одним джерелом [Concept('proximity', 'CONCEPT_PLACEHOLDER')|e] у [Concept('location', 'CONCEPT_PLACEHOLDER')|e], що також може допомогти покращити [proximity] у сусідніх [locations].\n\nЦе не сумується з [proximity] від [Concept('capital', 'CONCEPT_PLACEHOLDER')|e], тому цей модифікатор не матиме ефекту, якщо [location] вже отримує вищу [proximity] від [capital]."
   MODIFIER_TYPE_NAME_crown_estate_levy_size: "Розмір Коронного Набору"
   MODIFIER_TYPE_DESC_crown_estate_levy_size: "НЕ ВИКОРИСТОВУЄТЬСЯ"
   MODIFIER_TYPE_NAME_local_crown_estate_power: "Місцева Коронна Сила"

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   nahuatl_events.1.title: "Погані знамення"
   nahuatl_events.1.desc: "Після інтенсивного вивчення небес та відповідних календарів, наші [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] погоджуються, що все вказує на суворі та тривожні часи попереду. Оскільки [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] та [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] однаково готуються до того, що має статися, багато хто спробує врятувати себе від лихих часів, проливши трохи власної крові."
   nahuatl_events.1.a: "Ye ica otopan tlamaceuhque."

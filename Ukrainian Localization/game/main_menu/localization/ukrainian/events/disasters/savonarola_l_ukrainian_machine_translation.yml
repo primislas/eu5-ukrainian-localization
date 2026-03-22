@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   savonarola.1.title: "POSTEDIT_Савонарола: Опис лиха"
   savonarola.1.desc: "\n\nНам надійшла пропозиція запросити цього проповідника, [GetCharacter('flo_savonarola').GetName], до [ROOT.GetCountry.GetCapital.GetName], стверджуючи, що ми могли б багато чого отримати від його присутності в місті. Принаймні, ми б точно виграли від впливу його слів на маси."
   savonarola.1.a: "Запросити його."

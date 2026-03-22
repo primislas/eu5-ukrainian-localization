@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   hindu_events.1.title: "Дитя [ShowGodNameWithNoTooltip('surya_god')]"
   hindu_events.1.desc: "[ROOT.GetCountry.GetName] деякий час був без відповідного [ROOT.GetCountry.GetGovernment.GetHeirTitle], що турбувало членів родини [target_ruler.GetDynasty.GetName]. [target_character.GetName], член належного роду, нещодавно народила дитину, яка могла б вважатися спадкоємцем престолу, якби не той факт, що вона незаміжня.\n\nОднак, будучи обізнаною в легендах $mahabarata$, вона переповідає історію про те, як великий цар Карна народився від незайманої від самого [ShowGodName('surya_god')]. [target_ruler.GetNameWithNoTooltip] пояснює, що вона також вивчила мантру, за допомогою якої завагітніла принцеса з легенди, і що її дитина, дитя сонця, призначена для великих справ."
   hindu_events.1.a: "[ShowGodNameWithNoTooltip('surya_god')] благословив нас! Це буде початок Сонячної Династії."

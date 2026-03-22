@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_ice.10.title: "Єпископства [ROOT.GetCountry.GetNameWithNoTooltip]"
   flavor_ice.10.desc: "[ROOT.GetCountry.GetReligion.GetAdjective] віра довгий час була важливою частиною [ROOT.GetCountry.GetAdjective] життя. Однак на острові існують два окремі єпископства: [target_location.GetName] та [skalholt.GetName].\n\n[target_location.GetNameWithNoTooltip], що у [target_location.GetProvince.GetName], має репутацію більш незалежного та самодостатнього, тоді як [skalholt.GetNameWithNoTooltip] у [skalholt.GetProvince.GetName] вважається більш тісно пов'язаним з [overlord.GetLongName].\n\nУ міру того, як [ROOT.GetCountry.GetNameWithNoTooltip] рухається вперед, буде важливо враховувати унікальний характер кожного єпископства."
   flavor_ice.10.a: "Підтримати незалежне [target_location.GetNameWithNoTooltip]."

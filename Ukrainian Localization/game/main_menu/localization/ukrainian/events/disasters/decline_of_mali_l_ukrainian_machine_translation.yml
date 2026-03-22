@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   decline_of_mali.1.title: "Занепад [ROOT.GetCountry.GetNameWithNoTooltip]"
   decline_of_mali.1.desc: "Це почалося непомітно, але день за днем, місяць за місяцем, рік за роком, неспокійне відчуття поширювалося землями [ROOT.GetCountry.GetLongName]. Трава на полях вже не така зелена, як раніше, товари, привезені купцями на ринки, стають дефіцитнішими, а подорожі за межами сіл та поселень стають дедалі небезпечнішими. Як [ROOT.GetCountry.GetGovernment.GetRulerTitle], сидячи при [ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis] дворі, зустріне цей зловісний період?"
   decline_of_mali.1.a: "Попереду темні часи..."

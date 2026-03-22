@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   military_order_events.1.title: "Прохання до [GetCountry('PAP').GetGovernment.GetRulerTitle]"
   military_order_events.1.desc: "У нашій боротьбі за захист нашої віри від невірних, єретиків та язичників ми не самотні. Люди істинної віри стікаються під наш прапор, відповідаючи на вищий заклик до зброї проти тиранії та руйнування, спричинених нашими релігійними ворогами. У часи війни та потреби ми звернемося до наших [ShowReligionAdjective('catholic')] братів та [GetCountry('PAP').GetGovernment.GetRulerTitle] за допомогою у нашій справі."
   military_order_events.1.a: "Нам потрібна допомога з нашою інфраструктурою."

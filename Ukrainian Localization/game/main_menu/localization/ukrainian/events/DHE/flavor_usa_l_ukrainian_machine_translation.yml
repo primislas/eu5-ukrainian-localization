@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_usa.1.title: "Збори делегатів"
   flavor_usa.1.desc: "Делегати нашого [ROOT.GetCountry.GetGovernment.GetParliament.GetName] зібралися, щоб обговорити важливі питання сьогодення. Серед найактуальніших питань – питання управління та того, чи варто нам підтримувати місцеву владу, чи прагнути до централізованої держави. Хоча більшість наших делегатів виступають за децентралізацію, ми маємо сильну підтримку серед більшості представників і, безсумнівно, могли б переконати їх підтримати більшу централізацію."
   flavor_usa.1.a: "Місцева автономія має залишатися нашим пріоритетом."
@@ -45,9 +45,9 @@ l_english:
   flavor_usa.11.a: "Звучить вражаюче, давайте спонсоруємо це!"
   flavor_usa.12.title: "Велика пожежа в [target_location.GetNameWithNoTooltip]"
   flavor_usa.12.desc: " [target_location.GetRank.GetName] [target_location.GetName] охоплено вогнем!\n\nПоки ненажерливе полум'я все ще палить будинки, деякі представники з [target_location.GetNameWithNoTooltip] вже почали організовувати план допомоги та відбудови для [target_location.GetRank.GetNameWithNoTooltip]. Це було б дорогим заходом, але могло б виявитися гарною довгостроковою інвестицією для цінної ділянки землі."
-  flavor_usa.12.a.tt: " [Concept('target_location.GetName] втратить [prosperity', 'CONCEPT_PLACEHOLDER')|e], втратить [Concept('pops', 'CONCEPT_PLACEHOLDER')|e] і деякі [Concept('buildings', 'CONCEPT_PLACEHOLDER')|e] постраждають від пожежі"
+  flavor_usa.12.a.tt: " [target_location.GetName] втратить [Concept('prosperity', 'CONCEPT_PLACEHOLDER')|e], втратить [Concept('pops', 'CONCEPT_PLACEHOLDER')|e] і деякі [Concept('buildings', 'CONCEPT_PLACEHOLDER')|e] постраждають від пожежі"
   flavor_usa.12.a: "Обрати амбітний план!"
-  flavor_usa.12.b.tt: " [Concept('target_location.GetName] втратить [prosperity', 'CONCEPT_PLACEHOLDER')|e], втратить [Concept('development', 'CONCEPT_PLACEHOLDER')|e], втратить [Concept('pops', 'CONCEPT_PLACEHOLDER')|e] і деякі [Concept('buildings', 'CONCEPT_PLACEHOLDER')|e] постраждають від пожежі"
+  flavor_usa.12.b.tt: " [target_location.GetName] втратить [Concept('prosperity', 'CONCEPT_PLACEHOLDER')|e], втратить [Concept('development', 'CONCEPT_PLACEHOLDER')|e], втратить [Concept('pops', 'CONCEPT_PLACEHOLDER')|e] і деякі [Concept('buildings', 'CONCEPT_PLACEHOLDER')|e] постраждають від пожежі"
   flavor_usa.12.b: "Робити лише те, що необхідно!"
   flavor_usa.13.title: "Експедиція [target_character.GetNameWithNoTooltip] та [target_character_2.GetNameWithNoTooltip]"
   flavor_usa.13.desc: "[target_character.GetName] та [target_character.GetHerHis] близький друг [target_character_2.GetName] пропонують експедицію [ROOT.GetCountry.GetAdjective] народу, щоб перетнути західну частину [ShowSubContinent('north_america')] та знайти найпряміший і найпрактичніший водний шлях через континент. Разом із невеликою групою добровольців вони перетнуть континент і дослідять річку Міссурі, щоб з'ясувати, чи може якась річка запропонувати водний шлях через цей континент для комерційних цілей."

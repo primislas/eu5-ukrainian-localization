@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   confucian_events.1.title: "Концепція Шан-ді"
   confucian_events.1.desc: "Послідовники [target_location.GetDominantReligion.GetAdjective] віри в [target_location.GetName] дедалі більше інтегрують наші обряди та концепції з [ShowPolicyName('confucianism_policy')] у своє повсякденне життя. Останньою тенденцією є ототожнення концепції Шан-ді з їхніми власними верховними божествами. Ця інтерпретація дещо неортодоксальна для вчених-експертів нашого [ROOT.GetCountry.GetFlavorRank], але вона дозволила [target_location.GetDominantReligion.GetAdjectiveWithNoTooltip] вірним інтегрувати низку концепцій, обрядів, констант та класичних вчень з [ShowPolicyNameWithNoTooltip('confucianism_policy')] у свою теологію.\n\nОднак, у палацових залах [ROOT.GetCountry.GetCapital.GetName] все ще точаться дебати, чи це правильний і належний шлях для прихильників [target_location.GetDominantReligion.GetNameWithNoTooltip] до кращої інтеграції в нашу бюрократію."
   confucian_events.1.a: "Ми повинні навчити їх правильних шляхів!"

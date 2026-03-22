@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   hre.privilege_revoked.intro_desc: "У рік Господній, [GetCurrentYear], найвеличніший Август [target_character.GetName], Імператор Римлян, коронований Богом, знову скликав Стани [GetUniqueInternationalOrganization('hre').GetName]."
   hre.100.title: "Привілеї скасовано"
   hre.100.desc: "$hre.privilege_revoked.intro_desc$ Імперський Сейм погодився на пропозицію централізувати зовнішню політику та військові дії, зобов'язавши всі держави-члени підкоритися прямому васалітету під [GetUniqueInternationalOrganization('hre').GetLeaderTitle]."

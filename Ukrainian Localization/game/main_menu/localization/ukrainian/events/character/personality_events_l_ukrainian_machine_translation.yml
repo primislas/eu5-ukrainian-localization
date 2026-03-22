@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   personality_events.1.title: "Численні інтереси [target_ruler.GetNameWithNoTooltip]"
   personality_events.1.desc: "Наш [ROOT.GetCountry.GetGovernment.GetRulerTitle] дедалі більше цікавиться вищими інтелектуальними заняттями і може проводити дні, розмовляючи з ученими мужами нашого [ROOT.GetCountry.GetGovernment.GetCourtTitle]. [target_ruler.GetHeSheFormal|U] почав запрошувати вчених зблизька та здалеку, аби допомогти [target_ruler.GetHerHim] краще зрозуміти, як функціонує світ і люди в ньому.\n\nСудячи з того, як розвиваються події, [target_ruler.GetName] [target_ruler.GetHerselfHimself] міг би, ймовірно, сам стати авторитетом у [target_ruler.GetHerHis] галузі, якби [target_ruler.GetSheHe] міг приділяти достатньо часу та ресурсів обраним [target_ruler.GetHerHis] сферам."
   personality_events.1.a: "Ми повинні прагнути зрозуміти фізичний світ навколо нас."

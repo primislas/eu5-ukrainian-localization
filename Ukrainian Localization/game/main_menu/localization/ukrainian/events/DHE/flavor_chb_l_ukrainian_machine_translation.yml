@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_chb.1.title: "Повстання [target_character.GetNameWithNoTooltip]"
   flavor_chb.1.desc: "[GetCharacter('chb_chupan').GetName] був одним із найважливіших полководців [GetCountry('MGE').GetName]. Хоча його рід дещо занепав, він не згас, і тепер його онук [target_character.GetName] зумів зібрати навколо себе багато прихильників. Одним із тих, хто згуртувався навколо нього, був намісник [target_location.GetName], що дозволило йому взяти під контроль [target_location.GetRank.GetName] та всю навколишню територію, і він навіть захопив та стратив [GetCharacter('jal_muhammad_khan').GetName]."
   flavor_chb.1.a: "Ми розчавимо його та його рід, як черв'яків, якими вони є."

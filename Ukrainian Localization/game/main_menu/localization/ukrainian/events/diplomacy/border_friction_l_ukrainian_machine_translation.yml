@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   border_friction.1.title: "Прикордонні тертя"
   border_friction.1.desc: "Не всі задоволені тим, що ми об'єдналися з [border_claim_country.GetLongName]. Впливова фракція наших [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] наполягає на припиненні союзу, зосереджуючись на провінції [border_claim_province.GetName], яка належить [border_claim_country.GetNameWithNoTooltip], але яку багато хто вважає по праву нашою. Їм вдалося викликати широке обурення ситуацією!"
   border_friction.1.a: "Можливо, настав час змінити політику..."

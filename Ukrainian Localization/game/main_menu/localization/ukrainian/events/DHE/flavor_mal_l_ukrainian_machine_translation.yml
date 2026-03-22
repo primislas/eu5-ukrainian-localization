@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_mal.1.title: "Зеніт [ROOT.GetCountry.GetLongNameWithNoTooltip]"
   flavor_mal.1.desc: "Під час правління [mal_mansa_musa_ruler.GetName] [ROOT.GetCountry.GetLongName] досягла вершини могутності в $west_africa$. Воістину благословенний Аллахом, великий [ROOT.GetCountry.GetGovernment.GetRulerTitle] правив [ROOT.GetCountry.GetNameWithNoTooltip] із силою та мудрістю, і навіть показав велике багатство [ROOT.GetCountry.GetFlavorRank] решті світу під час [ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis] Хаджу.\n\nОднак колесо фортуни не може вічно обертатися на нашу користь. [mal_maghan_ruler.GetName] ніколи не мав великого значення, і [ROOT.GetCountry.GetFlavorRank] стикається із соціальними проблемами через присутність у державі такої кількості різноманітних культур.\n\nЛише час покаже, що станеться з [ROOT.GetCountry.GetLongNameWithNoTooltip]..."
   flavor_mal.1.a: "Нехай ці процвітаючі часи не знають кінця."

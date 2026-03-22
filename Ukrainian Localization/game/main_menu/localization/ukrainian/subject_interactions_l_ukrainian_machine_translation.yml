@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   colonial_nation: "Колоніальна нація"
   colonial_nation_desc: "$colonial_nation$ — це [Concept('subject', 'CONCEPT_PLACEHOLDER')|e], створений для адміністрування [Concept('overseas', 'CONCEPT_PLACEHOLDER')|e] [Concept('colonies', 'CONCEPT_PLACEHOLDER')|e] від імені свого [Concept('overlord', 'CONCEPT_PLACEHOLDER')|e]. Вона отримує вигоду від збільшеного [ShowModifierTypeName('global_population_capacity_modifier')] та можливості використовувати [ShowPopTypeName('slaves')] для роботи в [Concept('rgo', 'CONCEPT_PLACEHOLDER')|e], надаючи своєму [Concept('overlord', 'CONCEPT_PLACEHOLDER')|e] сплеск [Concept('merchant_power', 'CONCEPT_PLACEHOLDER')|e], а також виплати у [Concept('manpower', 'CONCEPT_PLACEHOLDER')|e] та [Concept('sailors', 'CONCEPT_PLACEHOLDER')|e] на додаток до [Concept('gold', 'CONCEPT_PLACEHOLDER')|e]."
   dominion: "Домініон"

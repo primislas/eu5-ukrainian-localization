@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   text_filters_category_name: "Поведінка рядка пошуку"
   text_filters_category_tooltip: "Клацніть правою кнопкою миші, щоб фільтрувати лише за цими критеріями.\nКлацніть лівою кнопкою миші, щоб додати ці критерії пошуку до результатів."
   search_filters_tooltip_struct: "#T $NAME$#!\n$DESC$"
@@ -791,7 +791,7 @@ l_english:
   CUSTOM_SEARCH_FILTER_BUILDING_ONLY_POPTYPE_DESC: "Показати [Concept('buildings', 'CONCEPT_PLACEHOLDER')|e], які можуть [Concept('employ', 'CONCEPT_PLACEHOLDER')|e] [POP_TYPE.GetName]."
   custom_search_filter_building_category_group_name: "@building_levels! Категорія"
   CUSTOM_SEARCH_FILTER_BUILDING_ONLY_BUILDINGCATEGORY_NAME: "[BUILDING_CATEGORY.GetNameWithNoTooltip]"
-  CUSTOM_SEARCH_FILTER_BUILDING_ONLY_BUILDINGCATEGORY_DESC: "Показати [Concept('buildings', 'CONCEPT_PLACEHOLDER')|e] категорії [Concept('BUILDING_CATEGORY.GetName] [building_category', 'CONCEPT_PLACEHOLDER')|e]."
+  CUSTOM_SEARCH_FILTER_BUILDING_ONLY_BUILDINGCATEGORY_DESC: "Показати [Concept('buildings', 'CONCEPT_PLACEHOLDER')|e] категорії [BUILDING_CATEGORY.GetName] [Concept('building_category', 'CONCEPT_PLACEHOLDER')|e]."
   custom_search_filter_hints_category_name: "@hint! Фільтри підказок"
   CUSTOM_SEARCH_FILTER_HINTS_PRIO_NAME: "Підказки високого пріоритету"
   CUSTOM_SEARCH_FILTER_HINTS_PRIO_DESC: "Показати підказки, які можуть бути наразі кориснішими для нас."
@@ -892,7 +892,7 @@ l_english:
   custom_search_filter_building_location_rank_category_name: "@location! Ранг локації"
   custom_search_filter_building_location_rank_group_name: "@location! Типи рангів локацій"
   CUSTOM_SEARCH_FILTER_BUILDING_LOCATION_RANK_NAME: "[LOCATION_RANK.GetNameWithNoTooltip]"
-  CUSTOM_SEARCH_FILTER_BUILDING_LOCATION_RANK_DESC: "Показати [Concept('buildings', 'CONCEPT_PLACEHOLDER')|e], що є [Concept('LOCATION_RANK.GetName] [locations', 'CONCEPT_PLACEHOLDER')|e]."
+  CUSTOM_SEARCH_FILTER_BUILDING_LOCATION_RANK_DESC: "Показати [Concept('buildings', 'CONCEPT_PLACEHOLDER')|e], що є [LOCATION_RANK.GetName] [Concept('locations', 'CONCEPT_PLACEHOLDER')|e]."
   custom_search_filter_raw_goods_category_name: "@good! Розширити товари"
   custom_search_filter_raw_goods_group_name: "@good! Розширити товари"
   CUSTOM_SEARCH_FILTER_RAW_GOODS_ONLY_FULL_NAME: "Повністю розширені локації"

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_mei.1.title: "Срібна лихоманка у [ShowLocationNameWithNoTooltip('freiberg')]"
   flavor_mei.1.desc: "Новознайдені поклади [ShowGoodsName('silver')] спричинили справжню бурю переселення людей в район навколо [ShowLocationName('freiberg')], які намагаються отримати прибуток від процвітаючої гірничої промисловості в [ShowProvinceDefinitionName('erzgebirge_province')]. Зростання інтересу до наших гірничих міст може бути лише нашою перевагою."
   flavor_mei.1.a: "[ROOT.GetCountry.Custom('common_string_positive')]"

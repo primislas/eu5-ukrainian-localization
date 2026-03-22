@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_oyo.1.title: "[ShowUnitDefinitionNameWithNoTooltip('a_esho_cavalry_oyo')]"
   flavor_oyo.1.desc: "Оскільки кіннота є домінуючою силою в [ROOT.GetCountry.GetName], [target_character.GetName] вирішив створити елітний загін під назвою [ShowUnitDefinitionName('a_esho_cavalry_oyo')]. Ми можемо використовувати їх як спеціалізовані полки або інтегрувати їх з рештою армії."
   flavor_oyo.1.a: "Вони будуть відокремлені від решти армії."

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_hab.1.title: "[target_character.GetNameWithNoTooltip]"
   flavor_hab.1.desc: "[target_character.GetName] здобув велике визнання на службі [ROOT.GetCountry.GetReligion.GetAdjective] Церкви, і оскільки він тепер обіймає посаду, розташовану на наших землях, ми могли б використати його навички на нашу користь, або при нашому [ROOT.GetCountry.GetGovernment.GetCourtTitle], або як дипломатичного посланця до [GetUniqueInternationalOrganization('catholic_church').GetLeaderTitle]."
   flavor_hab.1.a: "Залишити його при нашому [ROOT.GetCountry.GetGovernment.GetCourtTitle]."

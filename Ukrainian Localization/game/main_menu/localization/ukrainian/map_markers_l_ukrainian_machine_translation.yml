@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   COUNTRY_FLAG_TT: "[COUNTRY.GetName]"
   CLICK_TO_RECRUIT: "Натисніть, щоб набрати"
   CLICK_TO_SELECT: "Натисніть, щоб вибрати"
@@ -6,7 +6,7 @@ l_english:
   ARMY_STACK_IN_PROVINCE: "#T $VAL$ армій#!"
   PORT_STACK_HEADER: "#T $VAL$ флотів у порту#!"
   PORT_NO_VISIBILITY: "Ми не знаємо, чи є кораблі, розміщені в цьому [Concept('port', 'CONCEPT_PLACEHOLDER')|e]."
-  ARMY_STACK_MORE: ".. та $MEN|V$ [Concept('manpower_i] від $VAL$ більше [armies', 'CONCEPT_PLACEHOLDER')|e]"
+  ARMY_STACK_MORE: ".. та $MEN|V$ [manpower_i] від $VAL$ більше [Concept('armies', 'CONCEPT_PLACEHOLDER')|e]"
   NAVY_STACK_MORE: ".. та $SHIP|V$ @navy_generic! від $VAL$ більше [Concept('navies', 'CONCEPT_PLACEHOLDER')|e]"
   ARMY_TOOLTIP_IN_PROVINCE_HEADER: "#T [UNIT.GetName]#!\n[UNIT.GetVisualStrength] [manpower_i] від [UNIT.GetCountry.GetName]"
   ARMY_TOOLTIP_IN_PROVINCE: "$BULLET_WITH_TAB$[UNIT.GetName] з [UNIT.GetVisualStrength] [manpower_i] від [UNIT.GetCountry.GetName] у [UNIT.GetLocation.GetName]"
@@ -18,7 +18,7 @@ l_english:
   ONMAP_UNIT_TOOLTIP: "$NAME$ ($CONTROLLER$)\n($MORALE|Y$%)(бойовий дух)\nПідкріплення/місяць: $REINFORCEMENTS|Y$\nПолки: $REGIMENTS|Y$\nУтримання: $MAINTENANCE$"
   UNIT_WILL_ARRIVE: "Прибуде до $NAME|Y$ $DATE|Y$"
   UNIT_WILL_ARRIVE_AND_COMBAT: "Бій відбудеться в $NAME|Y$ після прибуття $DATE|Y$"
-  UNIT_IS_MOTHBALLED: "[Concept('UNIT.GetName] [mothballed', 'CONCEPT_PLACEHOLDER')|e] і тому не може рухатися."
+  UNIT_IS_MOTHBALLED: "[UNIT.GetName] [Concept('mothballed', 'CONCEPT_PLACEHOLDER')|e] і тому не може рухатися."
   UNIT_IS_RETREATING: "#R Підрозділ відступає і прибуде до $NAME|Y$ $DATE|Y$. Він не зможе отримувати нові накази або бути атакованим під час відступу.#!"
   UNIT_WILL_ARRIVE_FINAL_DESTINATION: "Прибуде до кінцевого пункту призначення в $NAME|Y$ $DATE|Y$"
   UNIT_WILL_ARRIVE_CROSS_RIVER: "Перетне річку і прибуде до $NAME|Y$ $DATE|Y$"
@@ -32,7 +32,7 @@ l_english:
   FORT_LOCATION_LEVEL: "Рівень [Location.GetRomanFortLevel]"
   NO_FORT_LOCATION_LEVEL: "Немає фортів"
   CHARACTER_TOOLTIP: "[CHARACTER.GetName|Y]"
-  CHARACTER_COMMANDER_TOOLTIP: "[Concept('CHARACTER.GetTitledFullName] є командиром у цій [army', 'CONCEPT_PLACEHOLDER')|e]"
+  CHARACTER_COMMANDER_TOOLTIP: "[CHARACTER.GetTitledFullName] є командиром у цій [Concept('army', 'CONCEPT_PLACEHOLDER')|e]"
   CHARACTER_ACTIVITY_TOOLTIP: "[CHARACTER.GetTitledFullName] бере участь у цій діяльності"
   CHARACTER_MOVEMENT_DAYS: "$DAYS|H$ день(днів)"
   FORD_TOOLTIP: "Брід між $FROM|H$ та $TO|H$"
@@ -60,4 +60,4 @@ l_english:
   BLOCKED_VISION_TOOLTIP: "Ворожі [Concept('units', 'CONCEPT_PLACEHOLDER')|e] можуть бути [Concept('hidden', 'CONCEPT_PLACEHOLDER')|e] в [LOCATION.GetName] через наявність наступних особливостей:\n$WHY$"
   BLOCKED_VISION_TOOLTIP_TEXT: "Заблокований огляд"
   DESERT_CONNECTOR_TOOLTIP: "Зв'язок з пустелею"
-  DESERT_CONNECTOR_TOOLTIP_TEXT: "[Concept('LOCATION.GetName] з'єднує наступні [locations', 'CONCEPT_PLACEHOLDER')|e]:"
+  DESERT_CONNECTOR_TOOLTIP_TEXT: "[LOCATION.GetName] з'єднує наступні [Concept('locations', 'CONCEPT_PLACEHOLDER')|e]:"

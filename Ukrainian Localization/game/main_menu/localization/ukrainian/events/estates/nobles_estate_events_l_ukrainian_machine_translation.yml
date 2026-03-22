@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   nobles_estate_events.1.title: "Шляхетне походження"
   nobles_estate_events.1.desc: "Багато родин [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] здобули своє нинішнє становище завдяки діянням предка, який служив державі у часи війни. Для більшості їхніх синів життя у війську є, отже, єдиною можливою кар'єрою. Проте, з модернізацією армії, звичайні офіцери вже не є цілком незвичним явищем. Члени [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] тепер звернулися до нас, просячи гарантувати те, що вони вважають правом свого стану. Жодна людина не повинна мати змоги служити командиром у [ROOT.GetCountry.GetAdjective] арміях, якщо вона не шляхетного походження!"
   nobles_estate_events.1.a: "Гарантувати їхнє право командувати нашими арміями."

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   DELETE_PLAYTHROUGH_CONFIRMATION_DESC: "#T $SAVE_NAME$#! проходження та збереження всередині будуть видалені."
   DELETE_SAVE_CONFIRMATION_DESC: "#T $SAVE_NAME$#! буде видалено."
   FRONTEND_SAVE_EXIT_TEXT: "Зберегти гру як автозбереження #high $SAVE_NAME$#!"

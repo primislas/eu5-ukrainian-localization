@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   revolution_side: "Революція"
   monarchists_side: "Монархічний рух"
   revolutionary_chaos_sided_with_revolution_tt: "#Y Ефекти вище відбуваються тому, що ми стали на бік $revolution_side$#!\n"

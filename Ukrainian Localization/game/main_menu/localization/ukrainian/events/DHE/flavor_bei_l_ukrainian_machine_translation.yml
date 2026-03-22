@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_bei.1.title: "Султан Брунею"
   flavor_bei.1.desc: "Коли [ShowReligionGroupAdjective('muslim')] вірні поширювалися Південно-Східною Азією, амбітний [ROOT.GetCountry.GetGovernment.GetRuler.GetName] розчарувався в дипломатичних обмеженнях своєї традиційної [ROOT.GetCountry.GetGovernment.GetRuler.GetReligion.GetAdjective] віри.\n#NL![ROOT.GetCountry.GetGovernment.GetRuler.GetHeSheFormal|U] почав благати нас прийняти шляхи [ShowReligionGroupName('muslim')], оскільки це відкриє дипломатичні можливості та навіть шлюб з іншими вірними правителями.\n#NL!Звісно, серед наших вірних підданих є певна радість, але чи справді навернення — це правильний шлях?"
   flavor_bei.1.a: "Ми складемо шахаду."

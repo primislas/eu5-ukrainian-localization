@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   ARTIST_TYPE_NAME_: "(аматор)"
   ARTIST_TYPE_DESC_: "Це не професійний митець."
   ARTIST_TYPE_NAME_painter: "Художник"
@@ -136,7 +136,7 @@ l_english:
   WORK_OF_ART_DATA: "[Concept('art_quality', 'CONCEPT_PLACEHOLDER')|e]: [WORK_OF_ART.GetQualityName|V] ([WORK_OF_ART.GetQuality|Y]%)\nТип: [WORK_OF_ART.GetDefinition.GetName]\nСтворено: [WORK_OF_ART.GetCreationDate]\nПоходження: [WORK_OF_ART.GetOrigin.GetName]"
   WORK_OF_ART_CREATOR: "[WORK_OF_ART.GetCreator.GetArtistType.GetName]: [WORK_OF_ART.GetCreatorName]"
   WORK_OF_ART_DESTROYED: "Його було, на жаль, знищено та втрачено [WORK_OF_ART.GetDestructionDate]."
-  WORK_OF_ART_LOCATION: "[Concept('owner', 'CONCEPT_PLACEHOLDER')|e]: [Concept('WORK_OF_ART.GetLocation.GetOwner.GetName]\n[location', 'CONCEPT_PLACEHOLDER')|e]: [WORK_OF_ART.GetLocation.GetName]"
+  WORK_OF_ART_LOCATION: "[Concept('owner', 'CONCEPT_PLACEHOLDER')|e]: [WORK_OF_ART.GetLocation.GetOwner.GetName]\n[Concept('location', 'CONCEPT_PLACEHOLDER')|e]: [WORK_OF_ART.GetLocation.GetName]"
   WORK_OF_ART_NAME: "[WORK_OF_ART.GetCreator.GetArtistType.GetBasicWorkName] "
   WORK_OF_ART_COUNTRY_MODS: "Модифікатори, застосовані до країни за володіння мистецтвом цього типу:"
   WORK_OF_ART_LOCATION_MODS: "У кожній [Concept('location', 'CONCEPT_PLACEHOLDER')|e], якщо це найкращий [Concept('work_of_art', 'CONCEPT_PLACEHOLDER')|e] з наявних, відбувається наступне:"

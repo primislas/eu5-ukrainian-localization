@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   succession_crisis.1.title: "Боротьба за [ROOT.GetCountry.GetAdjectiveWithNoTooltip] Корону"
   succession_crisis.1.desc: "Роки безгосподарності, придворних інтриг та нестабільного правління посіяли насіння нашої загибелі! Немов тіні в сутінках, багато видатних осіб з [ROOT.GetCountry.GetGovernment.GetAdjective] прагненнями зібралися у дрібній спробі підтримати [scope_pretender.GetName] як законного правителя [ROOT.GetCountry.GetLongName]."
   succession_crisis.1.a: "Принесіть мені [scope_pretender.GetHerHis] голову на списі!"

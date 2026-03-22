@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_chi_mon.1.title: "Перемога при [target_location.GetNameWithNoTooltip]"
   flavor_chi_mon.1.desc: "Славні вісті прибули до нашого [ROOT.GetCountry.GetGovernment.GetCourtTitle] у [ROOT.GetCountry.GetCapital.GetName]. Ми не лише здобули перемогу в битві при [target_location.GetName], як і очікували, але наша перемога була настільки абсолютною, що нам вдалося захопити [captured_emperor.GetName], лідера, що стояв на чолі [GetInternationalOrganizationType('middle_kingdom').GetName]. Якщо ми скористаємося нашою перевагою, то зможемо отримати великі поступки від [target_war.GetName]."
   flavor_chi_mon.1.a: "Скористатися нашою перевагою."

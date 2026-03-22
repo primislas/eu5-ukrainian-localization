@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   curse_of_stefan_uros_iii.1.title: "Прокляття [GetCountry('SER').GetNameWithNoTooltip]"
   curse_of_stefan_uros_iii.1.desc: "Настали лихі часи! Прокляття [GetCharacter('ser_stefan_decanski').GetName] охопило нашу націю, наші придворні та радники говорять про кінець епохи і занурення нашої великої країни в темний період..."
   curse_of_stefan_uros_iii.1.a: "Це не може бути кінцем, не таким чином..."
@@ -20,4 +20,4 @@ l_english:
   curse_of_stefan_uros_iii.6.desc: "Низинні мешканці тіней у [target_location.GetName] наважилися показати свої кігті та підняти голови проти нашої влади. У найгротескнішому прояві фальшивої влади вони оголосили себе відокремленими від корони і навіть висунули свою претензію на наш трон!"
   curse_of_stefan_uros_iii.6.a: "Їхні останки допоможуть зрости добробуту на наших полях!"
   curse_of_stefan_uros_iii.6.b: "Залиште їх у спокої..."
-  people_of_target_province_will_declare_war_on_us_tt: "Народ [Concept('target_province.GetNameWithNoTooltip] оголосить [war', 'CONCEPT_PLACEHOLDER')|e] нам!"
+  people_of_target_province_will_declare_war_on_us_tt: "Народ [target_province.GetNameWithNoTooltip] оголосить [Concept('war', 'CONCEPT_PLACEHOLDER')|e] нам!"

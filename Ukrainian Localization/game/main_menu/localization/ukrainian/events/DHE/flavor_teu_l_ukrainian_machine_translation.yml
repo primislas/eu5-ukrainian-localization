@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_teu.1.title: "Прусська конфедерація повстає"
   flavor_teu.1.desc: "Попри всі наші зусилля, ми не змогли приборкати спроби Прусської конфедерації підірвати [ROOT.GetCountry.GetAdjective] правління. Міста, що присягнули на вірність Конфедерації, зібрали армію та підняли відкрите повстання. Як ми й підозрювали, багато її членів мають зв’язки з Польщею і вже запросили польську інтервенцію в майбутній конфлікт. Здається, кривава боротьба в Пруссії неминуча, якщо ми не відмовимося від нашого правління над цими містами."
   flavor_teu.1.a: "Вбити кожного зрадника!"
@@ -192,7 +192,7 @@ l_english:
   flavor_dan_teu.1.desc: "Лихо спіткало наші володіння в [ShowProvinceDefinitionName('estonia_province')]. Місцеве [ShowCultureName('estonian')] населення, незадоволене тим, що ми показали їм Світло Христа всі ці десятиліття тому, підняло збройне повстання. У спокійний день вони здійснили смертоносну атаку на наші гарнізони та замки. З-поміж себе вони обрали чотирьох лідерів, яких сміють називати «королями». Більше того, щоб додати образи до травми, у своєму акті диявольської «помсти» вони почали вбивати своїх колишніх володарів і опікунів у язичницькій люті. Ми цього не потерпимо, і їхнє повстання буде придушене."
   flavor_dan_teu.1.historical_info: "У ніч Святого Юрія 1343 року місцеве естонське населення повстало проти своїх данських володарів та різних іноземних дворян, які правили ними. Щоб очолити повстання, вони обрали з-поміж себе «Чотирьох Королів», яких пізніше заманили в пастку і вбили. Повстання вийшло за межі данських кордонів і поширилося на території Лівонського ордену та острови Езель."
   flavor_dan_teu.1.a: "Будь вони прокляті!"
-  TEU_st_georges_uprising: "Кожен [Concept('owned', 'CONCEPT_PLACEHOLDER')|e] [ShowCultureName('estonian')] [Concept('pop', 'CONCEPT_PLACEHOLDER')|e] у провінції [ShowProvinceDefinitionName('estonia_province')] втрачає [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction', 'CONCEPT_PLACEHOLDER')|e] і приєднується до [Concept('estonian_uprising.GetName].\n#r 75.0%#! з них також змінили [religion', 'CONCEPT_PLACEHOLDER')|e] на [ShowReligionName('muinaisusko')]."
+  TEU_st_georges_uprising: "Кожен [Concept('owned', 'CONCEPT_PLACEHOLDER')|e] [ShowCultureName('estonian')] [Concept('pop', 'CONCEPT_PLACEHOLDER')|e] у провінції [ShowProvinceDefinitionName('estonia_province')] втрачає [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction', 'CONCEPT_PLACEHOLDER')|e] і приєднується до [estonian_uprising.GetName].\n#r 75.0%#! з них також змінили [Concept('religion', 'CONCEPT_PLACEHOLDER')|e] на [ShowReligionName('muinaisusko')]."
   estonian_uprising: "Повстання Юрієвої ночі"
   STATIC_MODIFIER_NAME_teu_fervor_st_georges_night_uprising: "Повстання Юрієвої ночі"
   flavor_dan_teu.2.title: "Естонські повстанці атакують Лівонію"

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_pap.1.title: "Реорганізація Святої Інквізиції"
   flavor_pap.1.desc: "За ініціативи [future_paul_iv_scope.GetName] з [ShowLocationName('naples')], [ROOT.GetCountry.GetGovernment.GetRulerTitle] реорганізував Римську інквізицію за іспанським зразком. Разом з єзуїтами на народ було накладено панування терору. Однак жорстокі методи є ефективними і призводять до повного викорінення [ShowReligionAdjective('lutheran')] руху на Італійському півострові."
   flavor_pap.1.a: "Іспанська модель інквізиції"

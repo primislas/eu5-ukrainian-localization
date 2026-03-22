@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   generic_mission_events.4.title: "[arguing_estate.GetNameWithNoTooltip] Протест у [target_location.GetNameWithNoTooltip]"
   generic_mission_events.4.desc: "[arguing_estate.GetName] висловлює зростаюче занепокоєння щодо збільшення впливу стану [mission_target_estate.GetName] при нашому дворі. У [target_location.GetName] їхні протести стали гучнішими, звинувачуючи [target_character.GetName] у фаворитизмі та ігноруванні традиційного балансу сил.\n\nЦі заворушення загрожують дестабілізувати ретельно налагоджену співпрацю між станами та підірвати внутрішню єдність нашого [ROOT.GetCountry.GetFlavorRank]. Наші радники та місцеві адміністратори наполегливо радять нам втрутитися, перш ніж протест охопить усю столицю."
   generic_mission_events.4.a: "Ми не будемо потурати [arguing_estate.GetNameWithNoTooltip]."
@@ -75,12 +75,12 @@ l_english:
   generic_mission_events.18.a: "Фінансувати їхні починання."
   generic_mission_events.18.b: "Ми не можемо витрачати стільки грошей на марні витрати"
   based_on_target_location_average_literacy_tt: "На основі середньої [Concept('literacy', 'CONCEPT_PLACEHOLDER')|e] в [target_location.GetName]:"
-  scholars_in_target_location_wont_approach_tt: "#italic Вчені в [Concept('target_location.GetName] можуть знову звернутися до нас за кілька місяців, поки поточне [mission_task', 'CONCEPT_PLACEHOLDER')|e] активно прогресує#!"
+  scholars_in_target_location_wont_approach_tt: "#italic Вчені в [target_location.GetName] можуть знову звернутися до нас за кілька місяців, поки поточне [Concept('mission_task', 'CONCEPT_PLACEHOLDER')|e] активно прогресує#!"
   generic_mission_events.19.title: "Розум для [ROOT.GetCountry.GetGovernment.GetCourtTitle]"
   generic_mission_events.19.desc: "Чутки швидко ширяться залами [ROOT.GetCountry.GetCapital.GetName]. Багатообіцяючий і недосвідчений художник, [target_character2.GetName], прибув зі сміливими теоріями, анотованими рукописами та баченням перетворення інтелектуальної культури нашого [ROOT.GetCountry.GetFlavorRank]. Дехто називає [target_character2.GetHerHim] шарлатаном, інші — вундеркіндом. Безсумнівно те, що [target_character2.GetSheHe] шукає покровительства, місця при дворі, де [target_character2.GetHerHis] ідеї могли б процвітати.\n\nТі, хто цінує розум і реформи, закликають нас ризикнути. Ті, хто чіпляється за ієрархію та традиції, воліли б, щоб [target_character2.GetHerHim] зник, перш ніж [target_character2.GetSheHe] скаже ще хоч слово."
   generic_mission_events.19.a: "[target_character.GetSheHe|U] подає надії!"
   generic_mission_events.19.b: "Ще один бездарний дурень прийшов засмічувати [ROOT.GetCountry.GetGovernment.GetCourtTitle]."
-  skill_of_scientist_scales_with_country_literacy_tt: "[Concept('artistic_skill', 'CONCEPT_PLACEHOLDER')|e] [Concept('target_character2.GetName] частково залежатиме від середньої [literacy', 'CONCEPT_PLACEHOLDER')|e] в нашому [ROOT.GetCountry.GetFlavorRank]"
+  skill_of_scientist_scales_with_country_literacy_tt: "[Concept('artistic_skill', 'CONCEPT_PLACEHOLDER')|e] [target_character2.GetName] частково залежатиме від середньої [Concept('literacy', 'CONCEPT_PLACEHOLDER')|e] в нашому [ROOT.GetCountry.GetFlavorRank]"
   artist_will_be_promtly_defenestrated_tt: "#italic [target_character2.GetName] буде негайно та безповоротно викинуто з вікна#!"
   generic_mission_events.20.title: "Розум [target_character2.GetNameWithNoTooltip]"
   generic_mission_events.20.desc: "Трактати, написані [target_character2.GetName], почали поширюватися серед освічених кіл [ROOT.GetCountry.GetCapital.GetName]. Сміливі, суперечливі та елегантно написані, вони кидають виклик старим догмам і пропонують радикальні реформи в управлінні, праві та духовному порядку. Дехто шепоче, що [target_character2.GetSheHe] є генієм, інші кричать про богохульство. Якою б не була правда, ці твори викликали дебати далеко за межами навчальних закладів, і тепер вони лежать перед нами, чекаючи на суд. Те, як ми вирішимо відповісти, може визначити не лише долю автора, а й інтелектуальну траєкторію нашого [ROOT.GetCountry.GetFlavorRank]."

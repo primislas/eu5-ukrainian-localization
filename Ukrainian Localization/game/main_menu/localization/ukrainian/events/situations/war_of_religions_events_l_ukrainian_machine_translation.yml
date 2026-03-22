@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   war_of_religions.generals.generic: "Перспективний полководець, [target_character.GetName] прослужив у нашому війську кілька років, піднявшись по службових сходах. Народжений у [target_location.GetName], [target_character.GetSheHe] був би ідеальним кандидатом, щоб очолити наші армії у війні проти наших ворогів."
   war_of_religions.1.a: "Нам потрібна [target_character.GetHerHis] служба."
   war_of_religions.1.c: "[target_character.GetHerHis|U] навички тут не потрібні."

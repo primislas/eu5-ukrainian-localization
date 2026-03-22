@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_hab_tir.1.title: "[GetCountry('BOH').GetAdjectiveWithNoTooltip] Вплив"
   flavor_hab_tir.1.desc: "[target_spouse.GetName], молодий чоловік [target_ruler.GetName], приносить із собою впливи зі своєї батьківщини [GetCountry('BOH').GetName]. Не лише його власні манери дещо чужі нашому [ROOT.GetCountry.GetGovernment.GetCourtTitle], але й його почет [GetCountry('BOH').GetAdjective] [GetCountry('BOH').GetGovernment.GetEstateName('nobles_estate')] намагається накопичити владу на [ROOT.GetCountry.GetAdjective] землях. Наші власні [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] щодня дедалі більше занепокоєні тим, який вплив це може мати на наш [ROOT.GetCountry.GetFlavorRank], якщо народиться спадкоємець [target_spouse.GetDynasty.GetName]."
   flavor_hab_tir.1.a: "Обмежити їхній вплив якомога більше."

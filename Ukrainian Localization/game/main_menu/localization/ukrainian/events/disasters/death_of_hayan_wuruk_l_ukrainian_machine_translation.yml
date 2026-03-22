@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   death_of_hayan_wuruk.1.title: "Смерть [target_hayan.GetNameWithNoTooltip]"
   death_of_hayan_wuruk.1.desc: "Один із найвеличніших правителів в історії [target_country.GetLongName], [target_hayan.GetName], відійшов у вічність. Шепіт у темряві та серед наших підданих перетворився на вимоги автономії перед обличчям нашої слабнучої влади. У такий вирішальний момент ми повинні проявити силу та тримати наших сусідів, а також наш народ, у покорі!"
   death_of_hayan_wuruk.1.a: "Ми втратили великого лідера..."

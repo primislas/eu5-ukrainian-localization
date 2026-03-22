@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_vij.1.title: "Адміністрація Держави"
   flavor_vij.1.desc: "Під вмілим правлінням [ROOT.GetCountry.GetGovernment.GetRuler.GetName] ми розширилися в південну частину $india$ і тепер керуємо [ShowCultureName('telugu')] та [ShowCultureName('tamil')] народами та їхніми унікальними мовами. Щоб забезпечити стабільність нашого [ROOT.GetCountry.GetFlavorRank], ми повинні інтегрувати цих людей далі в нього, замість того, щоб ставитися до них як до віддалених підданих. Першим кроком у цьому напрямку може бути надання їм права звертатися до суду їхньою мовою, незалежно від нашого [ShowCultureName('kannadiga')] двору."
   flavor_vij.1.a: "Надати їм права."

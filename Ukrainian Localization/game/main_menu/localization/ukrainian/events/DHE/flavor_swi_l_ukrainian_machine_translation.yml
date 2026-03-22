@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_swi.1.title: "Досягнення [target_character.GetNameWithNoTooltip]"
   flavor_swi.1.desc: "Центральна опора у створенні [ShowCultureGroupName('swiss_group')] гвардії для Святого Престолу, [target_character.GetName] міг би послужити нам і в інших справах, якщо ми готові тісніше прив'язати його до нашого [ROOT.GetCountry.GetGovernment.GetCourtTitle]. [target_character.GetNameWithNoTooltip], працюючи на наш уряд, міг би підвищити нашу репутацію та відкрити для нас дипломатичні шляхи, які раніше були закриті."
   flavor_swi.1.a: "Яка блискуча людина!"

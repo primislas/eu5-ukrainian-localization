@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   clergy_events_common: "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] здавна були однією з найважливіших опор [ROOT.GetCountry.GetLongName], а їхні члени надавали не лише духовне керівництво, а й служили адміністраторами, суддями та дипломатами на благо нашого [ROOT.GetCountry.GetGovernment.GetRulerTitle]."
   clergy_estate_common_ending: "Часи, однак, стають суворими, і держава мусить покривати дедалі більшу кількість витрат. Пропозиції, що, можливо, [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] могли б зробити добровільний внесок, не були сприйняті прихильно."
   clergy_estate_events.1.title: "Libertas Ecclesiae"

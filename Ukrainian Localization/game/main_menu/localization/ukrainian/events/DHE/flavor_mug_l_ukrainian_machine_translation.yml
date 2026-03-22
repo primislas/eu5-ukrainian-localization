@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_mug.1.title: "[ShowReligiousSchoolNameWithNoTooltip('din_i_ilahi_school')]"
   flavor_mug.1.desc: "Оскільки [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetFlavorRank] є плавильним котлом різних вірувань, [target_character.GetName] розмірковував про відмову від шляхів [target_religious_school.GetName]. Натомість, [target_character.GetSheHe] бажає створити [target_character.GetHerHis] власну. Ця школа була б ближчою до нової релігії, де всі секти розглядаються як єдине ціле. Названа [ShowReligiousSchoolName('din_i_ilahi_school')], її мета — об'єднати людей, що проживають у [ROOT.GetCountry.GetFlavorRank]."
   flavor_mug.1.historical_info: "Мультикультурний та мультирелігійний характер Моголів відзначив правління Акбара «Великого». Він провів кілька реформ, щоб допомогти в цьому, і навіть створив власну віру. Вона була відома як Дін-і Ілагі, Релігія Бога, яка функціонувала подібно до Яси-е Чингізі Тимуридів, розглядаючи всі секти як єдине ціле."

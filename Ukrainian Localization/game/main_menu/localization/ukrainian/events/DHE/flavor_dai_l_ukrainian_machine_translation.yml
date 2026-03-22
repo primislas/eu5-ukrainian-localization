@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_dai.1.title: "[ROOT.GetCountry.GetAdjectiveWithNoTooltip] кампанія проти [target_country.GetNameWithNoTooltip]"
   flavor_dai.1.desc: "Конфлікти між [ROOT.GetCountry.GetLongName] та [target_country.GetLongName] були присутні протягом століть у відносинах між [ROOT.GetCountry.GetCulture.GetName] та [target_country.GetCulture.GetName]. Знову правління [target_country.GetNameWithNoTooltip] виявляє слабкість, роблячи їх готовими до остаточного захоплення."
   flavor_dai.1.historical_info: "Попри союз у 13 столітті проти династії Юань, конфлікт між цими двома державами знову виник, коли суперечка про спадкування престолу Чампи переросла в напівгромадянську війну. Че Мо, член королівської родини Чампи, перейшов на бік Дайв'єту і попросив допомоги у Чан Зу Тонга проти узурпатора Ча Хоа Бо Де, щоб зайняти трон Чампи, що, своєю чергою, призвело до Чамсько-Дайв'єтської війни, яка тривала з 1367 по 1390 рік."

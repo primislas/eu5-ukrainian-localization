@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   SETTING_VALUE_WARNING: "$VALUE|0X$"
   SETTING_VALUE_PERCENTAGE_WARNING: "$VALUE|%0X$"
   RECOMMENDED_GUI_SCALE_TOO_HIGH: "#X Масштабування вище $VALUE|%0$ призведе до того, що інтерфейси виходитимуть за межі екрана#!"

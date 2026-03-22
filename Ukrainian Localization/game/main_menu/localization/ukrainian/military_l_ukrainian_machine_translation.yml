@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   HAS_PROP_FORTS_IN_LOC: "Має $NUM|Y$ рівнів укріплень, які поширюють [Concept('zone_of_control', 'CONCEPT_PLACEHOLDER')|e] на сусідні [Concept('locations', 'CONCEPT_PLACEHOLDER')|e]."
   HAS_FORTS_IN_LOC: "Має $NUM|Y$ рівнів простих укріплень."
   INFLUENCE_FORT_ENTRY: "У [Concept('zone_of_control', 'CONCEPT_PLACEHOLDER')|e] [LOCATION.GetName]."

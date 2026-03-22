@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   BECOME_MERCENARIES_FOR_COUNTRY_EFFECT: "$NUM$ військ буде підкуплено, щоб приєднатися до $COUNTRY$ як [Concept('mercenaries', 'CONCEPT_PLACEHOLDER')|e] за плату в $COST$."
   THIRD_BECOME_MERCENARIES_FOR_COUNTRY_EFFECT: "$NUM$ військ буде підкуплено, щоб приєднатися до $COUNTRY$ як [Concept('mercenaries', 'CONCEPT_PLACEHOLDER')|e] за плату в $COST$."
   PAST_BECOME_MERCENARIES_FOR_COUNTRY_EFFECT: "$NUM$ військ було підкуплено, щоб приєднатися до $COUNTRY$ як [Concept('mercenaries', 'CONCEPT_PLACEHOLDER')|e] за плату в $COST$."

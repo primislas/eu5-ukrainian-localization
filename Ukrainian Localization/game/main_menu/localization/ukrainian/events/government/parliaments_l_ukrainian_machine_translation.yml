@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   parliaments.1.title: "[target_city.GetRank.GetNameWithNoTooltip] Вимагає Місце в [ROOT.GetCountry.GetGovernment.GetParliament.GetName]"
   parliaments.1.desc: "[target_city.GetRank.GetName] [target_city.GetName] розбагатів і процвітає, а люди там розчаровані, що їх не обрали місцем засідань поточного [ROOT.GetCountry.GetGovernment.GetParliament.GetName]. Представники [target_city.GetNameWithNoTooltip] вимагають від нас компенсації та гарантій, що забезпечать їхні інтереси в майбутньому. Вони погрожують піти, якщо їхні вимоги не будуть задоволені."
   parliaments.1.a: "Задовольнити їх!"

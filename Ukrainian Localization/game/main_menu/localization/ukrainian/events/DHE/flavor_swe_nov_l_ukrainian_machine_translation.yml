@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_swe_nov.1.title: "[swedish_theologian.GetNameWithNoTooltip] зі [sweden_country.GetNameWithNoTooltip]"
   flavor_swe_nov.1.desc: "Релігійна людина зі [sweden_country.GetName] здійснила довгу подорож. За наказом [swedish_theologian.GetHerHis] величності, [swedish_theologian.GetName] вирушив до далеких земель [byzantium_country.GetName] для Теологічної Дискусії, яка мала б показати перевагу Римсько-Католицької Церкви над Православ'ям.\n\nОднак, [byzantium_country.GetAdjectiveWithNoTooltip] виявилися досить переконливими, і святий посол навернувся до [byzantium_country.GetReligion.GetName]. Природно, що нерозумний [sweden_country.GetGovernment.GetRulerTitle] не міг прийняти видатного єретика до [sweden_country.GetGovernment.GetRuler.GetHerHis] двору і вигнав [swedish_theologian.GetNameWithNoTooltip]. Тепер [swedish_theologian.GetSheHe] прибув до нас, щоб знайти новий дім серед [swedish_theologian.GetHerHis] нових братів і сестер по вірі."
   flavor_swe_nov.1.a: "[swedish_theologian.GetSheHe|U] буде вітатися в нашому скромному королівстві!"

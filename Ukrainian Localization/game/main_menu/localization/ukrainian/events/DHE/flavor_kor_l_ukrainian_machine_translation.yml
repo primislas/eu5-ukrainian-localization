@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_kor.1.title: "Монгольське панування"
   flavor_kor.1.desc: "У жахливому 1231 році монголи розпочали свою 39-річну боротьбу з [ROOT.GetCountry.GetAdjective] народом. З роками ресурси та людська сила [ROOT.GetCountry.GetNameWithNoTooltip] більше не могли протистояти загарбникам, і наш улюблений [ROOT.GetCountry.GetFlavorRank] упав, ставши васалом династії [GetCountry('CHI').GetLongName].\n\nВідтоді [GetCountry('MGE').GetAdjective] аристократи стали звичним явищем на ключових керівних посадах у нашому уряді, диктуючи політику та напрямки в державі та нав'язуючи [ShowGovernmentReformName('son_in_law_rule')] нашій державі.\n\nАле жодна імперія не панує вічно, і тому сам час стукає по [GetCountry('CHI').GetNameWithNoTooltip]. Її неминучий занепад близько, але ми ніколи не будемо по-справжньому вільними від [GetCountry('MGE').GetAdjectiveWithNoTooltip] кайданів, доки не позбудемося ляльководів зсередини."
   flavor_kor.1.a: "Ми звільнимося від їхнього варварського панування!"
@@ -40,9 +40,9 @@ l_english:
   flavor_kor.7.title: "Прохання [from_country.GetNameWithNoTooltip]"
   flavor_kor.7.desc: "[target_character.GetName] став правлячою владою над [target_country.GetName], але все ще є [target_character.GetDaughterSon] з [from_country.GetName], провінційним [from_country.GetFlavorRank] для нашого великого [target_country.GetFlavorRank]. Таким чином, [target_character.GetHisHer] зв'язки з [from_country.GetAdjectiveWithNoTooltip] землями все ще сильні, попри [target_character.GetHisHer] нову позицію влади в [target_country.GetNameWithNoTooltip].\n\n[from_country.GetGovernment.GetRuler.GetName] зробив запит на подарунок, який підтримає [from_country.GetNameWithNoTooltip]."
   flavor_kor.7.a: "Золото чудово послужить [from_country.GetNameWithNoTooltip]."
-  flavor_kor.7.a.tt: "[Concept('from_country.GetName] отримає [gold', 'CONCEPT_PLACEHOLDER')|e]"
+  flavor_kor.7.a.tt: "[from_country.GetName] отримає [Concept('gold', 'CONCEPT_PLACEHOLDER')|e]"
   flavor_kor.7.b: "Давайте подаруємо їм наші дорогоцінні артефакти."
-  flavor_kor.7.b.tt: "[Concept('from_country.GetName] отримає [prestige', 'CONCEPT_PLACEHOLDER')|e]"
+  flavor_kor.7.b.tt: "[from_country.GetName] отримає [Concept('prestige', 'CONCEPT_PLACEHOLDER')|e]"
   flavor_kor.7.zzz: "Їм не потрібен жоден подарунок."
   flavor_kor.8.title: "Подарунок від [target_country.GetGovernment.GetRulerTitle]"
   flavor_kor.8.desc: "Граціозний [target_country.GetGovernment.GetRulerTitle], [target_country.GetGovernment.GetRulerOrRegent.GetShortName], надіслав [target_country.GetGovernment.GetRulerOrRegent.GetHisHer] вітання!"

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   PARLIAMENT_MARKER_DURATION_TXT: "#T [Player.GetGovernment.GetParliament.GetName] засідає#!\nОбговорюється [Player.GetGovernment.GetParliament.GetCurrentDebate.GetName] ще [Player.GetGovernment.GetParliament.GetRemainingParliamentDuration|W] днів у @location![Player.GetGovernment.GetParliament.GetParliamentLocation.GetName]."
   PARLIAMENT_DURATION_TXT: "Залишилося [Player.GetGovernment.GetParliament.GetRemainingParliamentDuration|W] днів у @location![Player.GetGovernment.GetParliament.GetParliamentLocation.GetName]"
   PARLIAMENT_DURATION_TXT_NO_LOCATION: "Залишилося [Player.GetGovernment.GetParliament.GetRemainingParliamentDuration|W] днів"
@@ -48,7 +48,7 @@ l_english:
   ask_for_law_changes_select_policies_title: "Оберіть [Concept('політику', 'CONCEPT_PLACEHOLDER')|e], яку наш [Player.GetGovernment.GetParliament.GetName] погодиться змінити."
   prepare_for_war_select_title: "Оберіть [Concept('країну', 'CONCEPT_PLACEHOLDER')|e], щоб отримати [Concept('casus_belli', 'CONCEPT_PLACEHOLDER')|e] проти неї"
   prepare_for_war_select_province_title: "Оберіть [Concept('провінцію', 'CONCEPT_PLACEHOLDER')|e], щоб встановити її як [Concept('мету війни', 'CONCEPT_PLACEHOLDER')|e]"
-  select_a_country_to_get_casus_belli_on: "Оберіть [Concept('країну', 'CONCEPT_PLACEHOLDER')|e], проти якої наш [Concept('Player.GetGovernment.GetParliament.GetName] надасть нам [casus_belli', 'CONCEPT_PLACEHOLDER')|e]."
+  select_a_country_to_get_casus_belli_on: "Оберіть [Concept('країну', 'CONCEPT_PLACEHOLDER')|e], проти якої наш [Player.GetGovernment.GetParliament.GetName] надасть нам [Concept('casus_belli', 'CONCEPT_PLACEHOLDER')|e]."
   prepare_for_war: "Сфабрикувати Casus Belli"
   prepare_for_war_desc: "Просимо [Concept('Player.GetGovernment.GetParliament.GetName] схвалити [війну', 'CONCEPT_PLACEHOLDER')|e], надавши нам законний [Concept('casus_belli', 'CONCEPT_PLACEHOLDER')|e].\n• Ми оберемо країну, щоб отримати [ShowCasusBelliName('cb_fabricated_conquer_province')] [Concept('casus_belli', 'CONCEPT_PLACEHOLDER')|e]"
   PARLIAMENT_IN_SESSION: "[Player.GetGovernment.GetParliament.GetName] на засіданні"

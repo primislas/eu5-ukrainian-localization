@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   colonial_revolution.1.title: "Без оподаткування немає представництва"
   colonial_revolution.1.desc: "Відколи нашу територію було засновано, ми існували лише для збагачення заморської [target_country.GetName]. На жаль, ми не отримали рівного представництва ані в [target_country.GetAdjectiveWithNoTooltip] справах, ані в справах наших власних земель. Деякі з наших найшанованіших співвітчизників, натхненні [ShowInstitutionName('enlightenment')], говорять про можливі варіанти тиску на нашого сюзерена, щоб той відмовився від влади, що може перерости в конфлікт."
   colonial_revolution.1.a: "Ідеї [ShowInstitutionNameWithNoTooltip('enlightenment')] переможуть!"

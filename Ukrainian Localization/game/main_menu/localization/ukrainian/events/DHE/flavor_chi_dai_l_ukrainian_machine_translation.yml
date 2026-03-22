@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   DAI_NGU: "Đại Нгу"
   DAI_NGU_ADJ: "$DAI_NGU$"
   flavor_chi_dai.1.title: "[target_character.GetNameWithNoTooltip]"

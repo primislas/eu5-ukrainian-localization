@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   nanbokuchou.1.title: "$nanbokuchou$"
   nanbokuchou.1.desc.common: "Часи невизначеності настали, оскільки імператорська лінія розділена. І [target_koumyou.GetName] з [GetCountry('NTC').GetAdjective] лінії в [GetCountry('NTC').GetCapital.GetName], і [target_go_daigo.GetName] з [GetCountry('STC').GetAdjective] лінії в [GetCountry('STC').GetCapital.GetName] претендують на те, щоб бути законними правителями Хризантемового Трону."
   nanbokuchou.1.desc.north: "$nanbokuchou.1.desc.common$\n\nВідтоді, як [target_go_daigo.GetNameWithNoTooltip] втік від [target_ashikaga.GetName] і усамітнив [target_go_daigo.GetHerselfHimself] у [ShowLocationNameWithNoTooltip('yoshino')], [target_go_daigo.GetSheHe] був кісткою в горлі для влади [GetUniqueInternationalOrganization('japanese_shogunate').GetName]."

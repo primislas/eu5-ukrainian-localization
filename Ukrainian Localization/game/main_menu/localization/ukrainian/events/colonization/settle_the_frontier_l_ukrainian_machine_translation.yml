@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   settle_the_frontier.1.title: "Розширення до [target.GetNameWithNoTooltip]"
   settle_the_frontier.1.desc: "[recipient.GetName] - відважний член [ROOT.GetCountry.GetLongName] - вирушив із загоном добровольців на незаймані землі [target.GetName]. [recipient.GetSheHe|U] та [recipient.GetHerHis] послідовники розширять території нашого [ROOT.GetCountry.GetFlavorRank]."
   settle_the_frontier.1.a: "[ROOT.GetCountry.Custom('common_string_ok')]"

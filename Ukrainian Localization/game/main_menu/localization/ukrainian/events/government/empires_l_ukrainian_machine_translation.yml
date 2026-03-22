@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   empires.1.title: "Загрози для [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('crown_estate')]"
   empires.1.desc: "Як і більшість династій, наша нація перебуває під постійними нападами іноземних суперників, які заявляють свої права на нашу [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')]. Знедолений браком фінансових ресурсів, [target_ruler.GetName] отримав пораду шукати дипломатичних переговорів, інакше зіткнеться з можливим кінцем нашого [ROOT.GetCountry.GetFlavorRank]."
   empires.1.a: "Дати останній бій"

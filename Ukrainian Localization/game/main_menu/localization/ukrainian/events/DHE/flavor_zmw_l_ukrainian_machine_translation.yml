@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_zmw.1.title: "Піднесення $MTP$"
   flavor_zmw.1.desc: "Наше розширення в [ShowProvinceDefinitionName('upper_mazowe_province')] створило новий економічний центр, який тепер перебуває в руках [target_character.GetName]. З багатством, що повільно почало накопичуватися від прибутків [ShowProvinceDefinitionNameWithNoTooltip('upper_mazowe_province')], [target_character.GetSheHe] планує захопити ще більше влади в [ROOT.GetCountry.GetName] і оголосити [target_character.GetHerselfHimself] «Завойовником Людини»."
   flavor_zmw.1.a: "[target_character.GetNameWithNoTooltip] поведе нас."

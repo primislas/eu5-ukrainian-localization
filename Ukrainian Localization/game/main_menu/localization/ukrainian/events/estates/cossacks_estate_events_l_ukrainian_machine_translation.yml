@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   cossack_estate_events.1.title: "Колонізація Степів"
   cossack_estate_events.1.desc: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] скаржаться, що дедалі більше кріпаків покидають безпечні домівки, надані їм, щоб шукати щастя серед [ROOT.GetCountry.GetGovernment.GetEstateName('cossacks_estate')] степів. Вони вважають, що ми винні, оскільки дозволили [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('cossacks_estate')] стати надто могутніми, і це надихає кріпаків залишати своїх законних панів.\n\nПредставники великих родин [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] тепер вимагають, щоб ми обмежили владу [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('cossacks_estate')], аби самі [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] могли натомість розширити свої латифундії в регіонах, що межують зі степом. Таким чином, стверджують вони, дикі поля можна приборкати, а закони держави підтримувати."
   cossack_estate_events.1.a: "Цих кріпаків треба повернути."

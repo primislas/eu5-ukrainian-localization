@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_cas.1.title: "[columbus_scope.GetNameWithNoTooltip]"
   flavor_cas.1.desc: "Після невдалої спроби переконати [GetCountry('POR').GetGovernment.GetRuler.GetName] у своєму плані, [columbus_scope.GetName] тепер звернувся до нашого двору. Його твердження про західний шлях до $india$, уникаючи довгої подорожі навколо [ShowSubContinentName('southern_africa')], може здатися сумнівним, але це може стати для нас чудовою можливістю посилити власні дослідницькі зусилля."
   flavor_cas.1.a: "Фінансувати його експедицію!"
@@ -504,9 +504,9 @@ l_english:
   flavor_cas.105.title: "Спалах [ShowDiseaseNameWithNoTooltip('smallpox')|U] у [ShowRegionNameWithNoTooltip('mesoamerica_region')]"
   flavor_cas.105.desc: "Страшні новини з наших територій у Новому Світі розповідають про масову загибель серед корінних народів. [ShowDiseaseName('smallpox')|U], жахлива хвороба, ймовірно, завезена через океан нашими власними людьми, лютує в поселеннях [ShowRegionName('mesoamerica_region')]. Уражені гинуть натовпами, і, ймовірно, цілі поселення будуть стерті з карти, якщо ми не діятимемо швидко."
   flavor_cas.105.a: "Нам бракує будь-яких засобів, щоб зупинити це."
-  flavor_cas.105.a.tt: "Кожна [Concept('location', 'CONCEPT_PLACEHOLDER')|e] у [ShowRegionName('mesoamerica_region')], що належить [Concept('ROOT.GetCountry.GetName] або нашим [subjects', 'CONCEPT_PLACEHOLDER')|e], отримає [Concept('modifier', 'CONCEPT_PLACEHOLDER')|e] [ShowModifier('spa_severe_smallpox_outbreak')] на #Y 20#! років"
+  flavor_cas.105.a.tt: "Кожна [Concept('location', 'CONCEPT_PLACEHOLDER')|e] у [ShowRegionName('mesoamerica_region')], що належить [ROOT.GetCountry.GetName] або нашим [Concept('subjects', 'CONCEPT_PLACEHOLDER')|e], отримає [Concept('modifier', 'CONCEPT_PLACEHOLDER')|e] [ShowModifier('spa_severe_smallpox_outbreak')] на #Y 20#! років"
   flavor_cas.105.b: "Ми повинні зробити все можливе, щоб зупинити поширення!"
-  flavor_cas.105.b.tt: "Кожна [Concept('location', 'CONCEPT_PLACEHOLDER')|e] у [ShowRegionName('mesoamerica_region')], що належить [Concept('ROOT.GetCountry.GetName] або нашим [subjects', 'CONCEPT_PLACEHOLDER')|e], отримає [Concept('modifier', 'CONCEPT_PLACEHOLDER')|e] [ShowModifier('spa_mild_smallpox_outbreak')] на #Y 20#! років"
+  flavor_cas.105.b.tt: "Кожна [Concept('location', 'CONCEPT_PLACEHOLDER')|e] у [ShowRegionName('mesoamerica_region')], що належить [ROOT.GetCountry.GetName] або нашим [Concept('subjects', 'CONCEPT_PLACEHOLDER')|e], отримає [Concept('modifier', 'CONCEPT_PLACEHOLDER')|e] [ShowModifier('spa_mild_smallpox_outbreak')] на #Y 20#! років"
   flavor_cas.105.historical_info: "Запровадження хвороб Старого Світу, таких як віспа, кір та грип, спустошило корінне населення Америки. Ці хвороби швидко поширювалися, і за оцінками, від 50% до 90% корінного мезоамериканського населення загинуло в десятиліття після контакту."
   flavor_cas.106.title: "Завоювання [ShowLocationNameWithNoTooltip('tenochtitlan')]"
   flavor_cas.106.desc: "[ShowLocationName('tenochtitlan')], колись сліпучий мегаполіс високих храмів, широких каналів та процвітаючих ринків, тепер лежить у руїнах. Захисники билися з відчайдушною відвагою, але вони не змогли протистояти об'єднаній силі нашої зброї. Із захопленням їхньої столиці та смертю їхніх лідерів, їхня владна структура була непоправно зруйнована."

@@ -259,7 +259,7 @@
   buccaneer_die_desc: "З [CHARACTER.GetHerHim] відходом наші вороги знову почуватимуться безпечніше на морських шляхах."
   prize_hunter_die_desc: "[CHARACTER.GetHerHis|U] подвиги мужності принесли багато нових [Concept('ships', 'CONCEPT_PLACEHOLDER')|e] як трофеїв до наших рук."
   ironside_die_desc: "[CHARACTER.GetHerHis|U] сильна віра в оборонну тактику залишила тривале враження на всіх, хто був під [CHARACTER.GetHerHis] командуванням."
-  naval_engineer_die_desc: "[CHARACTER.GetHerHis|U] увага до [Concept('ships', 'CONCEPT_PLACEHOLDER')|e] під [Concept('CHARACTER.GetHerHis] командуванням значно збільшила довговічність нашого [navy', 'CONCEPT_PLACEHOLDER')|e] під час [CHARACTER.GetSheHe] служби."
+  naval_engineer_die_desc: "[CHARACTER.GetHerHis|U] увага до [Concept('ships', 'CONCEPT_PLACEHOLDER')|e] під [CHARACTER.GetHerHis] командуванням значно збільшила довговічність нашого [Concept('navy', 'CONCEPT_PLACEHOLDER')|e] під час [CHARACTER.GetSheHe] служби."
   naval_showman_die_desc: "[CHARACTER.GetHerHis|U] сміливі маневри принесли славу та досвід нашим екіпажам."
   ram_raider_die_desc: "[CHARACTER.GetHerHis|U] сміливі маневри принесли славу та досвід нашим екіпажам."
   naval_gunner_die_desc: "[CHARACTER.GetHerHis|U] постійні тренування наших артилерійських екіпажів значно збільшили нашу морську міць за [CHARACTER.GetHerHis] життя."

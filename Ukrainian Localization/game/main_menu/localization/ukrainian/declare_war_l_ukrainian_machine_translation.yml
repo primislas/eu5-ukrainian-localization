@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   PRICE_ON_WAR_IMPACT_ENTRY: "@trigger_yes!$NAME$ : $PRICE$"
   PRICE_ON_WAR_ANTAGONISM: "Це також спричинить [Concept('антагонізм', 'CONCEPT_PLACEHOLDER')|e] інших [Concept('країн', 'CONCEPT_PLACEHOLDER')|e] до нас, точна міра якого залежатиме від їхньої зацівленості у цій війні:"
   PRICE_ON_WAR_ANTAGONISM_ENTRY: "$NAME$: База $VAL|Y$[antagonism_i]"

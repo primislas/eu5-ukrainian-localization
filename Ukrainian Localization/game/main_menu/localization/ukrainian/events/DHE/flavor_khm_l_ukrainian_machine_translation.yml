@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_khm.1000.title: "[ShowBuildingTypeNameWithNoTooltip('khmer_baray')] [target_location.GetNameWithNoTooltip]"
   flavor_khm.1000.desc: "[ShowBuildingTypeName('khmer_baray')] [target_location.GetName] забезпечує [target_location.GetRank.GetName] життєво важливим запасом води. Під час негараздів останніх десятиліть та успадкування [target_old_ruler.GetName] він не отримував необхідної уваги та догляду і повільно втрачає свою ефективність. Якщо ми не діятимемо зараз, велике водосховище може стати непридатним у майбутньому."
   flavor_khm.1000.a: "Це надто дорого."

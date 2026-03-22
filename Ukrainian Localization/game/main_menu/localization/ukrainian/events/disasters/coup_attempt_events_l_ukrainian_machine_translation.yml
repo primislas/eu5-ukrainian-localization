@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   coup_attempt.1.title: "Залізо та Зрада"
   coup_attempt.1.desc: "Повітря густе від шепоту зради. Змова пустила коріння в нашому [ROOT.GetCountry.GetGovernment.GetCourtTitle], маючи на меті скинути правління [target_character.GetName]. Придворні шепочуться за зачиненими дверима, і самі основи нашого [ROOT.GetCountry.GetFlavorRank] хитаються. Ми повинні діяти швидко та рішуче, перш ніж зрада обернеться кровопролиттям. Якщо ми не мобілізуємо наших довірених осіб, змовники лише наберуть сміливості, завдавши удару, коли ми будемо найбільш вразливими, спричинивши тривалу нестабільність."
   coup_attempt.1.a: "Викрити змовників і розгромити їх!"
@@ -13,7 +13,7 @@ l_english:
   coup_attempt.3.a: "Стратити [target_character_1.GetHerHim]!"
   coup_attempt.3.b: "Пощадити [target_character_1.GetHerHis] життя."
   coup_attempt.3.c: "Примусити [target_character_1.GetHerHim] розкрити потенційних співзмовників!"
-  coup_attempts_3_b_tt: "[Concept('target_character_1.GetShortNameWithNoTooltip] припинить [target_character_1.GetHerHis] підтримку перевороту та призведе до страти двох #Y потенційних#! співзмовників [characters', 'CONCEPT_PLACEHOLDER')|e] у нашому [ROOT.GetCountry.GetGovernment.GetCourtTitle]"
+  coup_attempts_3_b_tt: "[target_character_1.GetShortNameWithNoTooltip] припинить [target_character_1.GetHerHis] підтримку перевороту та призведе до страти двох #Y потенційних#! співзмовників [Concept('characters', 'CONCEPT_PLACEHOLDER')|e] у нашому [ROOT.GetCountry.GetGovernment.GetCourtTitle]"
   conspirators_exposed_tt: "Буде проведено розслідування для виявлення потенційних змовників"
   target_character_1_flees: "[target_character_1.GetSheHe|U] тікає за кордон"
   cease_activities_and_stay: "\n[target_character_1.GetSheHe|U] залишається в нашому [ROOT.GetCountry.GetGovernment.GetCourtTitle] і припиняє [target_character_1.GetHerHis] змовницьку діяльність"
@@ -52,7 +52,7 @@ l_english:
   coup_attempt.100.title: "Затяжні тіні"
   coup_attempt.100.desc: "Заколот не було придушено, а невдоволення продовжує розростатися та гноїтися в тіні. Змовники, можливо, затаїлися, але їхні ідеї живуть, отруюючи розуми тих, хто залишився. Якщо ми не будемо пильними, історія може повторитися."
   coup_attempt.100.a: "Нам доведеться готуватися до їхньої наступної спроби."
-  inconclusive_end_5_years_tt: "Змовників не було усунуто вчасно, проте вони також не діяли проти [Concept('target_character.GetName]. [disaster', 'CONCEPT_PLACEHOLDER')|e] завершується #R безрезультатно#! і може знову розпочатися через #Y 5#! років"
+  inconclusive_end_5_years_tt: "Змовників не було усунуто вчасно, проте вони також не діяли проти [target_character.GetName]. [Concept('disaster', 'CONCEPT_PLACEHOLDER')|e] завершується #R безрезультатно#! і може знову розпочатися через #Y 5#! років"
   murdered_ending_tt: "Змовникам вдалося вбити [target_character_2.GetName]. Лише час покаже, чи є [target_character.GetName] маріонеткою змовників."
   coup_attempt.101.title: "Кінець змови"
   coup_attempt.101.desc: "З відновленням легітимності правління [target_character.GetName] стоїть міцно. Народ гуртується за нами, і ніхто не наважується оскаржувати наше право. Ми вийшли з темряви сильнішими, ніж будь-коли!"

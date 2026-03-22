@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_mch.1.title: "Реформи [target_character.GetShortNameWithNoTooltip]"
   flavor_mch.1.desc: "У [GetCurrentYear] році [target_character.GetShortName] зумів(ла) об'єднати усі [ShowCultureName('jurchen_culture')] племена. [target_character.GetSheHe|U] також реформував(ла) уряд, адміністрацію та судову систему за зразком $china$."
   flavor_mch.1.a: "Ми обираємо Інноваційні реформи."
@@ -39,7 +39,7 @@ l_english:
   flavor_mch.10.desc: "[target_country.GetLongName] протягом багатьох століть був вірним підданим [GetInternationalOrganization('middle_kingdom').GetName]. Однак, схоже, для [target_country.GetAdjectiveWithNoTooltip] держави наша претензія на Мандат Неба має мало значення, оскільки вони відмовляються стати лояльним [ShowSubjectTypeName('tributary')] [ROOT.GetCountry.GetName]. Якщо ми не зможемо їх приборкати, наша претензія може бути поставлена під сумнів."
   flavor_mch.10.a: "Ми вимагаємо коутоу!"
   flavor_mch.10.b: "Їх буде підкорено з часом."
-  mch_benefits_of_subjugating_korea: "У нас є 25 років, щоб перетворити [Concept('target_country.GetName] на нашого [subject', 'CONCEPT_PLACEHOLDER')|e]. Якщо ми досягнемо успіху, [ShowGovernmentReformName('warring_state')] надасть нам додаткові переваги."
+  mch_benefits_of_subjugating_korea: "У нас є 25 років, щоб перетворити [target_country.GetName] на нашого [Concept('subject', 'CONCEPT_PLACEHOLDER')|e]. Якщо ми досягнемо успіху, [ShowGovernmentReformName('warring_state')] надасть нам додаткові переваги."
   flavor_mch.11.success_title: "Падіння [target_country.GetNameWithNoTooltip]"
   flavor_mch.11.failure_title: "[target_country.GetNameWithNoTooltip] Стоїть Міцно"
   flavor_mch.11.success_desc: "Кампанія з підкорення [target_country.GetName] була гучним успіхом. Ми утвердилися як справжні володарі [GetInternationalOrganization('middle_kingdom').GetName], і з таким проявом влади інші непокірні монархи схиляють коліна перед нашим [ROOT.GetCountry.GetGovernment.GetRulerTitle]."

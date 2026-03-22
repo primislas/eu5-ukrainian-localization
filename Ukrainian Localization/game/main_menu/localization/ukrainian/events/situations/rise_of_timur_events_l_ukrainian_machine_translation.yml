@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   rise_of_timur.1.title: "[ShowSituationNameWithNoTooltip('rise_of_timur')]"
   rise_of_timur.1.desc: "Керований амбіціями перевершити занепалі Халіфати та відновити велику [GetCountry('MGE').GetLongName], [target_character.GetName] з жменькою вірних воїнів заклав основу [GetCountry('TIM').GetLongName]. Хоча наразі здається незначним, [GetCountry('TIM').GetGovernment.GetRulerTitle] має намір використати [target_character.GetHerHis] неперевершене розуміння військової справи та [target_character.GetHerHis] елітні війська, щоб розширити [GetCountry('TIM').GetFlavorRank] з безжальною ефективністю..."
   rise_of_timur.1.a: "Завойовувати означає жити!"
@@ -121,9 +121,9 @@ l_english:
   rise_of_timur.1030.title.generic: "Опозиція в Анатолії"
   rise_of_timur.1030.desc: "Слава нашої великої [ROOT.GetCountry.GetLongName] незаперечна, і наше право панувати над усіма землями [ShowRegionName('anatolia_region')] має бути беззаперечним. Однак дурні люди [target_country.GetName] чинять опір у своїй боротьбі та своїй необґрунтованій претензії бути найсильнішими [ShowCultureGroupName('turkic_group')] у регіоні. Зрозуміло, що нам доведеться поставити їх на місце і дати їм знати, хто є справжнім [ShowCultureGroupNameWithNoTooltip('turkic_group')]."
   rise_of_timur.1030.a: "Скажіть їм, хто тут головний!"
-  rise_of_timur.1030.a.at: "Ми висуваємо суворі вимоги до [Concept('target_country.GetName], які призведуть до [war', 'CONCEPT_PLACEHOLDER')|e], якщо вони не погодяться\nМи висуваємо такі вимоги до [target_country.GetName]:"
+  rise_of_timur.1030.a.at: "Ми висуваємо суворі вимоги до [target_country.GetName], які призведуть до [Concept('war', 'CONCEPT_PLACEHOLDER')|e], якщо вони не погодяться\nМи висуваємо такі вимоги до [target_country.GetName]:"
   rise_of_timur.1030.b: "[ShowRegionNameWithNoTooltip('anatolia_region')] достатньо велика для нас обох."
-  timurs_demands_at: "Усі [Concept('target_country.GetAdjective] [subjects', 'CONCEPT_PLACEHOLDER')|e] у [ShowRegionName('anatolia_region')] стають [ShowSubjectTypeName('tributary')] [from_country.GetName]"
+  timurs_demands_at: "Усі [target_country.GetAdjective] [Concept('subjects', 'CONCEPT_PLACEHOLDER')|e] у [ShowRegionName('anatolia_region')] стають [ShowSubjectTypeName('tributary')] [from_country.GetName]"
   rise_of_timur.1031.title: "[from_country.GetAdjectiveWithNoTooltip] Загроза"
   rise_of_timur.1031.desc: "Експансія [from_country.GetName] здається нестримною, і тепер вони стукають у наші двері. Їхні амбіції поширюються на весь регіон [ShowRegionName('anatolia_region')], і вони, схоже, не переймаються труднощами, з якими ми самі стикалися, щоб стати найвидатнішою [ShowCultureGroupName('turkic_group')] силою в регіоні, оскільки вони хочуть привласнити цей титул собі. Якщо ми не приєднаємося до них і не поступимося їм своїм місцем, вони, безсумнівно, спробують нав'язати це своєю військовою міццю."
   rise_of_timur.1031.a: "У наших інтересах підкоритися."

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   DISCARD_DISABLED: "Змін для скасування немає"
   DISCARD_SETTINGS_TOOLTIP: "[SelectLocalization(JominiSettingsWindow.HasChanged, '', 'DISCARD_DISABLED')]"
   SAVECLOSE_SETTINGS_BUTTON: "[SelectLocalization(JominiSettingsWindow.HasChanged, 'SAVE_SETTINGS', 'CLOSE_SETTINGS')]"

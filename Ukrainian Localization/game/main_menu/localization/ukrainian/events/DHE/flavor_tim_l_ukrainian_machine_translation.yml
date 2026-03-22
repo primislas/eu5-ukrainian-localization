@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_tim.1.title: "Смерть [target_timur.GetNameWithNoTooltip]"
   flavor_tim.1.desc.common: "Після стрімкого злету та життя, сповненого війн і залізної руки, [target_timur.GetName] нарешті відійшов у вічність. Почавши як незначний член династії [ShowDynastyName('borjigin_dynasty')], [target_timur.GetNameWithNoTooltip] завдяки своїй неперевершеній силі волі та військовій майстерності зумів викувати спадщину, яка дозволила [target_timur.GetHerHim] стояти на одному рівні з $genghis_khan_name$ [GetCharacter('genghis_khan').GetHerselfHimself]."
   flavor_tim.1.desc: "$flavor_tim.1.desc.common$\n\nХоча [target_timur.GetSheHe] більше не веде наші славні армії в бій, [target_timur.GetHerHis] дух і полум'яне серце залишаться серед нас назавжди."

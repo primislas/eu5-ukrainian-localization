@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   imperial_examination_events.1.title: "Призначення нового бюрократа"
   imperial_examination_events.1.desc: "Мало хто може похвалитися такою системою бюрократичного просування, як у нас. Використовуючи адміністративну систему [ShowLawName('imperial_examination_law')], ми з гордістю спостерігаємо за соціальною мобільністю осіб з великими інтелектуальними здібностями.\n\nНайновіший кандидат, який успішно склав іспит, прославлений за [target_character.GetHerHis] знання Чотирьох Книг та П'яти Класиків, а також класичної літератури та поезії, є не хто інший, як [target_character.GetName]."
   imperial_examination_events.1.a: "Ми будемо спостерігати за вашою кар'єрою з великим інтересом, [target_character.GetShortNameWithNoTooltip]!"

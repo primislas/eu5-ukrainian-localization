@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_ayu.1.title: "Заснування $ayutthaya$"
   flavor_ayu.1.desc: "Об'єднавши під [target_ruler.GetHerHis] владою території [GetCountry('LAV').GetName] та [GetCountry('ADH').GetName], [target_ruler.GetName] тепер спрямував [target_ruler.GetHerHis] погляд на більші висоти. Використовуючи [target_ruler.GetHerHis] тісні зв'язки з народом [GetCountry('SPN').GetName], [target_ruler.GetSheHe] висунув пропозицію заснувати нове місто на землях навколо [target_location.GetName], звідки [target_ruler.GetSheHe] прагне правити всіма територіями як єдиною країною. Місто, і ця нова нація, має називатися $ayutthaya$, надаючи їй виразну [ShowCultureName('thai_culture')] ідентичність, відокремлену від старої [ShowLanguageName('sanskrit_language')] [target_location.GetNameWithNoTooltip]."
   flavor_ayu.1.a: "Нове місто та країна піднімуться над усім!"

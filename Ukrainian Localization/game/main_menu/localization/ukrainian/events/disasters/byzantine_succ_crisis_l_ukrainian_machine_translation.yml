@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   byzantine_succ_crisis.1.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] Вимагають компенсації"
   byzantine_succ_crisis.1.desc: "У ці суворі часи стерв'ятники, що називають себе [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], нагадують нам, що [target_character2.GetName] є членом їхнього стану. З туманними погрозами та порожніми словами вони намагаються вимагати грошової винагороди в обмін на свою жалюгідну та слабнучу підтримку."
   byzantine_succ_crisis.1.a: "Гаразд."

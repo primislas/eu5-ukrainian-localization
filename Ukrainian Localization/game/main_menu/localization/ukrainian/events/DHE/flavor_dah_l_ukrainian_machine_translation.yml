@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_dah_released_desc_common: "Народ [ShowCultureName('fon')] в межах [ShowAreaName('gold_coast_area')] організувався під [GetCountry('DAH').GetName], керований [target_character.GetName]. Вони говорять про мілітаристські амбіції, готові до подальшого розширення в [ShowRegionName('guinea_region')]."
   flavor_dah_released_title_common: "Заснування [GetCountry('DAH').GetNameWithNoTooltip]"
   flavor_dah_variable_tt: "[ShowProvinceDefinitionName('fon_province')] була неколонізована"

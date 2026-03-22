@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_brapru.1.title: "Кінець міст-близнюків Берліна та Кельна"
   flavor_brapru.1.desc: "Річка Шпрее слугувала кордоном між Кельном і Берліном з моменту їх заснування, але #italic Mühlendamm#!, гребля, що розділяє Шпрее навпіл, стала зв'язком, який назавжди об'єднав #italic Міста-близнюки#!. Діючи як сіамські близнюки, два міста завжди прикривали одне одному спини і виступали єдиним фронтом, протистоячи владі правителів [ROOT.GetCountry.GetFlavorRank]. Незважаючи на численні спроби правителів нав'язати їм свою владу, вони вперто чинили опір будь-яким спробам підкорити їх. Тепер [target_character.GetName] має засоби, щоб забезпечити цей союз і покласти край свободам двох міст, перетворивши об'єднане місто на справжню столицю нашої нації."
   flavor_brapru.1.a: "Відтепер вони будуть унікальним містом."
@@ -316,7 +316,7 @@ l_english:
   flavor_brapru.1805.title: "[intervening_tag.GetAdjectiveWithNoTooltip] Інтервенція"
   flavor_brapru.1805.desc: "Наші сюзерени в [intervening_tag.GetName] помітили наші проблеми та наше запрошення [proposed_regent.GetName]. Вирішивши, що це їхнє право призначати регента, вони надіслали [proposed_regent_of_poland.GetShortName], якого ми були змушені прийняти як нового [ROOT.GetCountry.GetGovernment.GetRulerTitle] [ROOT.GetCountry.GetLongName]."
   flavor_brapru.1805.a: "Яка катастрофа!"
-  PRU_poland_enforced_regent: "[Concept('intervening_tag.GetName] нав'язав свого регента [pru_from.GetName]. [union', 'CONCEPT_PLACEHOLDER')|e] з [pru_from.GetName] не утвориться."
+  PRU_poland_enforced_regent: "[intervening_tag.GetName] нав'язав свого регента [pru_from.GetName]. [Concept('union', 'CONCEPT_PLACEHOLDER')|e] з [pru_from.GetName] не утвориться."
   flavor_brapru.1806.title: "$flavor_brapru.1805.title$"
   flavor_brapru.1806.desc: "[pru_from.GetAdjective] сюзерени в [intervening_tag.GetName] помітили їхні проблеми та їхнє запрошення [proposed_regent.GetName]. Вирішивши, що це їхнє право призначати регента, вони надіслали [proposed_regent_of_poland.GetShortName], який став новим [pru_from.GetGovernment.GetRulerTitle]. Нам по суті заборонили набувати новий [pru_from.GetFlavorRank] на сході. Вони пізнають наш гнів!"
   flavor_brapru.1806.a: "Їх буде покарано за втручання!"

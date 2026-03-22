@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   muscovite_succession_war.17.title: "Московська війна за спадщину"
   muscovite_succession_war.17.desc: "Під час несподіваної атаки армія, вірна [pretender.GetName], безперешкодно входить у ворота [target_location.GetName] і захоплює контроль над її укріпленнями. Тепер ми стоїмо перед викликом відвоювати її, відбиваючись від подальших повстань, які, безсумнівно, були підбадьорені цією помилкою.\n\n[pretender.GetSheHe|U] оголосив себе [ROOT.GetCountry.GetGovernment.GetRulerTitle] [ROOT.GetCountry.GetName] і стратив усіх нелояльних солдатів, що залишилися в місті."
   muscovite_succession_war.17.a: "Епічна катастрофа!"

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_cas_rio_salado.1.title: "Загроза від [GetCountry('MOR').GetNameWithNoTooltip]"
   flavor_cas_rio_salado.1.desc: "Язичницькі правителі [GetCountry('MOR').GetName] приготувалися вдарити по нас із силами вторгнення на півдні [ShowRegionName('iberia_region')]. Це загрожує нашим безперервним зусиллям очистити півострів від іноземних загарбників та зміцнити [ROOT.GetCountry.GetReligion.GetAdjective] правління над [ShowRegionNameWithNoTooltip('iberia_region')]. Ми повинні закликати наших друзів у [GetCountry('POR').GetName] і підготувати наші армії, щоб назавжди вигнати [GetCountry('MOR').GetAdjectiveWithNoTooltip] загарбників."
   flavor_cas_rio_salado.1.a: "Готуватися до війни."

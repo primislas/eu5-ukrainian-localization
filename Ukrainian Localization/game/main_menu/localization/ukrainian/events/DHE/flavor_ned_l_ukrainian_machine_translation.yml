@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_ned.1.title: "[target_location.GetNameWithNoTooltip] у вогні"
   flavor_ned.1.desc: "Трагедія спіткала [target_location.GetRank.GetName] [target_location.GetName]! Спалахнула велика пожежа, охопивши частини [target_location.GetRank.GetNameWithNoTooltip], такі як #italic Ратуша#! та #italic Архів#! Місцеві жителі намагалися її загасити, але деякі з них потрапили в полум'я і загинули."
   flavor_ned.1.a: "Трагедія для [target_location.GetNameWithNoTooltip]..."
@@ -81,7 +81,7 @@ l_english:
   flavor_ned.18.title: "Жага до прянощів"
   flavor_ned.18.desc: "Оскільки шляхи до $india$ заблоковані [ShowReligionGroupAdjective('muslim')] торговцями, наш народ був позбавлений своїх предметів розкоші. [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] [target_market.GetName] придивляються до нових морських шляхів, щоб знову забезпечити торгівлю прянощами. У будь-якому випадку, [target_character.GetName] потрібно знайти шлях до $india$."
   flavor_ned.18.a: "Відпливімо до Індій."
-  NED_SECURE_SPICE_FOR_BONUSES: "Якщо ми зможемо імпортувати [ShowGoodsName('pepper')] на [Concept('target_market.GetName] [market', 'CONCEPT_PLACEHOLDER')|e], ми отримаємо вигоди."
+  NED_SECURE_SPICE_FOR_BONUSES: "Якщо ми зможемо імпортувати [ShowGoodsName('pepper')] на [target_market.GetName] [Concept('market', 'CONCEPT_PLACEHOLDER')|e], ми отримаємо вигоди."
   flavor_ned.19.title: "Свобода думки"
   flavor_ned.19.desc: "Зі зростанням [ShowReligionAdjective('lutheran')] Реформації, багато нових екстремістських релігійних поглядів виникло в [ShowReligionGroupAdjective('christian')] світі. [ROOT.GetCountry.GetName] проте, просуває все більше гуманістичних ідей, сприяючи свободі думки та ідеалів, доки людина служить нації. [target_character.GetName] взяв це до уваги і тепер планує майбутнє цієї нової хвилі гуманізму."
   flavor_ned.19.a: "Це вільна країна, зрештою."
@@ -117,7 +117,7 @@ l_english:
   flavor_ned.26.desc: "Цей світ наповнений багатьма різними вірами, багатьма різними традиціями та багатьма різними ідеями. Замість того, щоб нав'язувати наші скрізь, куди ми йдемо, ми повинні терпіти такі вірування, доки вони не створюють проблем для [ROOT.GetCountry.GetName]."
   flavor_ned.26.a: "Кожен вільний думати в [ROOT.GetCountry.GetNameWithNoTooltip]."
   flavor_ned.26.b: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] повинні бути задоволені натомість."
-  NED_ALL_NON_TRUE_FAITH_POP_BECOME_HAPPIER: "Усі наші не-[Concept('ROOT.GetCountry.GetReligion.GetAdjective] [pop', 'CONCEPT_PLACEHOLDER')|e] отримають [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%] [Concept('pop_satisfaction', 'CONCEPT_PLACEHOLDER')|e]"
+  NED_ALL_NON_TRUE_FAITH_POP_BECOME_HAPPIER: "Усі наші не-[ROOT.GetCountry.GetReligion.GetAdjective] [Concept('pop', 'CONCEPT_PLACEHOLDER')|e] отримають [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%] [Concept('pop_satisfaction', 'CONCEPT_PLACEHOLDER')|e]"
   NED_ALL_CLERGY_BECOME_HAPPIER: "Усі наші [ROOT.GetCountry.GetReligion.GetAdjective] [ShowPopTypeName('clergy')] [Concept('pop', 'CONCEPT_PLACEHOLDER')|e] отримають [ShowNamedValue('pop_satisfaction_ultimate_bonus')|+=2%] [Concept('pop_satisfaction', 'CONCEPT_PLACEHOLDER')|e]"
   flavor_ned.27.title: "[target_character.GetNameWithNoTooltip]"
   flavor_ned.27.desc: "Народжений у [ShowLocationName('leiden')], [target_character.GetName] виявив неабиякий талант як художник. [target_character.GetHeShe] вже створив незначні твори мистецтва, кожен з яких зображує різний стиль. Можливо, [target_character.GetHeShe] стане чудовим доповненням до нашого [ROOT.GetCountry.GetGovernment.GetCourtTitle]."

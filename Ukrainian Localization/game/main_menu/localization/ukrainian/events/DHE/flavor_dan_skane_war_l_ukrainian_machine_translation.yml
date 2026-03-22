@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_dan_skane_war.1.title: "Повстання [target_character.GetNameWithNoTooltip]"
   flavor_dan_skane_war.1.desc: "[target_character.GetName], один з найшанованіших членів нашого [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], був виявлений у змові проти [GetCountry('SWE').GetAdjective] верховенства [ROOT.GetCountry.GetName]. Його причини невдоволення нашими Сюзеренами небезпідставні, оскільки [target_ruler.GetName] часто нехтує справами нашої держави на користь [GetCountry('SWE').GetCulture.GetNameWithNoTooltip] [GetCountry('SWE').GetGovernment.GetEstateName('nobles_estate')]. З огляду на останні події в [GetCountry('DAN').GetName], нам може бути вигідно знову проголосити свою вірність [GetCountry('DAN').GetAdjectiveWithNoTooltip] державі."
   flavor_dan_skane_war.1.a: "Вислати його до [GetCountry('DAN').GetNameWithNoTooltip]."

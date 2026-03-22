@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   king_in_prussia.1.title: "[target_country.GetAdjectiveWithNoTooltip] Корона"
   king_in_prussia.1.desc: "Коли наша велика нація підноситься до все вищих вершин, [target_character.GetName] оголосив(-ла) про свій намір піднести [target_country.GetName] до рангу [ShowCountryRankName('rank_kingdom')], а [target_character.GetHerselfHimself] — до рангу [target_character.Custom('GetQueenKing')]. Як [target_character.Custom('GetPrincessPrince')] [GetUniqueInternationalOrganization('hre').GetName], було б непристойно, якби ми не проконсультувалися з [emperor_character.Custom('GetEmpressEmperor')] у цій справі, і тому ми написали пропозицію, яку він(-вона) було б мудро ретельно розглянути."
   king_in_prussia.1.desc.emperor: "Наша нація підноситься до все вищих вершин. Хоча імперська милість перебуває на [target_character.GetName], [target_character.GetHerHis] приватна держава [target_country.GetName] досягла нової висоти могутності. Настав час скинути старий, дріб'язковий титул [target_character.Custom('GetPrincessPrince')] і заявити про належний ранг [target_character.Custom('GetQueenKing')]!"

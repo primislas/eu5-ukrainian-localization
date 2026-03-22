@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_zan.1.title: "[ShowBuildingTypeNameWithNoTooltip('husuni_kubwa')]"
   flavor_zan.1.desc: "[GetCharacter('zan_abu_al_mawahib_al_hasan_ibn_suleiman').GetName] спочатку замовив [ROOT.GetCountry.GetGovernment.GetAdjective] резиденцію в серці [target_location.GetName], яка мала стати найвеличнішим палацом. Однак нещастя, перенаправлення коштів та особиста хвороба — усе це прагнуло зупинити та повністю припинити проєкт. Попри ці труднощі, наші архітектори представили оновлений план палацу, доповнений складами та приміщеннями, спеціально призначеними для купецьких обмінів, у супроводі блискучої тронної зали. Їхня єдина перешкода зараз — це монета."
   flavor_zan.1.a: "Замовити будівництво."

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   COLONIAL_CHARTER: "$ADJ$ Колонія [PROVINCE_DEFINITION.GetNameWithNoTooltip]"
   START_COLONY_TT: "Створення колоніальної хартії для [PROVINCE_DEFINITION.GetName|Y] коштуватиме нам $COST$ наперед. Це з часом привабить [Concept('pops', 'CONCEPT_PLACEHOLDER')|e] до [locations|E] у [PROVINCE_DEFINITION.GetName] і зрештою дасть нам право власності на всю територію."
   ABANDON_COLONY_TT: "Відмова від Колоніальної Хартії для [COLONIAL_CHARTER.GetName|Y] коштуватиме нам $COST$ наперед. [Concept('Pops', 'CONCEPT_PLACEHOLDER')|e], що мігрували до [locations|E], якими ми не володіємо, будуть нами покинуті."
@@ -23,5 +23,5 @@ l_english:
   COLONIAL_CHARTER_RELIGION_POPS: "У [PROVINCE_DEFINITION.GetName] є $NUM|Y$ [Concept('pops', 'CONCEPT_PLACEHOLDER')|e] ($PERC|2%$) [RELIGION.GetAdjective]."
   COLONIAL_CHARTER_CULTURE_POPS: "У [PROVINCE_DEFINITION.GetName] є $NUM|Y$ [Concept('pops', 'CONCEPT_PLACEHOLDER')|e] ($PERC|2%$) [Concept('primary_or_accepted_culture', 'CONCEPT_PLACEHOLDER')|e]."
   COLONIAL_MARITIME_IN: "[maritime_presence|E] у [REGION.GetName]: x$VAL|Y2$"
-  COLONIAL_MARITIME_NOT_IN: "[Concept('REGION.GetName] не є [coastal', 'CONCEPT_PLACEHOLDER')|e]: x$VAL|Y2$"
+  COLONIAL_MARITIME_NOT_IN: "[REGION.GetName] не є [Concept('coastal', 'CONCEPT_PLACEHOLDER')|e]: x$VAL|Y2$"
   COLONIAL_DISTANCE: "Відстань від [COUNTRY.GetCapital.GetName]: x$VAL|Y2$"

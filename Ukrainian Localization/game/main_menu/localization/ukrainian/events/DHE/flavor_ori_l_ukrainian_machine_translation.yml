@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_ori.1.title: "[ROOT.GetCountry.GetGovernment.GetRulerTitle] та культ Джаганнатхи"
   flavor_ori.1.desc: "Церемонії у великому храмі в [GetLocationName('puri')] та колода, в якій проявляється Джаганнатха, часом висміювалися та глузувалися іноземними правителями, але в [GetAreaName('orissa_area')] Джаганнатха, «Владика Всесвіту», є безперечно найпопулярнішим божеством.\n\nПідтримка Джаганнатхи та його жерців також була непохитною для [target_character.GetName]. Тепер настав час для династії [target_character.GetDynasty.GetName] відплатити цей борг, ми повинні підтримувати храм у [GetLocationNameWithNoTooltip('puri')] та піднести поклоніння Джаганнатсі як основний культ у нашому [ROOT.GetCountry.GetFlavorRank]."
   flavor_ori.1.a: "Хай буде слава Джаганнатсі!"

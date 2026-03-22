@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   JOMINI_TICKTASK_NAME: "#v $NAME$#!"
   JOMINI_TICKTASK_RATE_TICK: "Щотакту"
   JOMINI_TICKTASK_RATE_DAY: "Раз на день"

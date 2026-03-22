@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   jurchen_confederation_events.1.title: "Часи змінюються"
   jurchen_confederation_events.1.desc: "Не так давно наші пращури та їхні батьки до них полювали та годували наш народ за допомогою коня, билися з ворогами та жили вільним життям. Тепер емісари від [target_jc_leader.GetName] бажають нас каструвати, притупити нашу гостроту та покінчити з нашими гордими традиціями як племінних володарів наших земель. Вони наполягають, що прийняття звичаїв наших південних сусідів – це шлях, що призведе до втрати нашої ідентичності."
   jurchen_confederation_events.1.a: "Злізьте з того високого коня і послухайте, вони мають рацію!"
@@ -48,7 +48,7 @@ l_english:
   jurchen_confederation_events.12.desc: "Не секрет, що наші спроби кодифікувати закони по всій нашій конфедерації породили ворогів і шпигунів у кожному кутку. Будь то узурпатори чи суперники, ті, хто бажає нам зла, змовляються за зачиненими дверима, плануючи нашу загибель. Нещодавно голосна більшість наших радників виступила вперед, висунувши нам ультиматум. Вони вимагають негайного припинення наших спроб централізації, погрожуючи повстанням та нестабільністю, якщо ми продовжимо..."
   jurchen_confederation_events.12.a: "Дуже добре, ми в душі дикі вершники..."
   jurchen_confederation_events.12.b: "Нам не загрожуватиме дріб'язковість!"
-  jurchen_sinicization_tt: "Відтепер, ухвалення будь-якого законодавства в межах нашої #G Конфедерації#! до кінця правління [Concept('target_ruler.GetName] призведе до #R -10#! [stability', 'CONCEPT_PLACEHOLDER')|e] та #R -10#! [Concept('tribal_cohesion', 'CONCEPT_PLACEHOLDER')|e]"
+  jurchen_sinicization_tt: "Відтепер, ухвалення будь-якого законодавства в межах нашої #G Конфедерації#! до кінця правління [target_ruler.GetName] призведе до #R -10#! [Concept('stability', 'CONCEPT_PLACEHOLDER')|e] та #R -10#! [Concept('tribal_cohesion', 'CONCEPT_PLACEHOLDER')|e]"
   jurchen_confederation_events.13.title: "Вивчай Своїх Сусідів"
   jurchen_confederation_events.13.desc: "Не секрет, що наші південні сусіди володіють великими знаннями, прихованими в томах і бібліотеках по всьому їхньому славетному домену. Ідея встановлення зв'язку як засобу вивчення їхніх звичаїв є прибутковою, але дещо суперечливою..."
   jurchen_confederation_events.13.a: "Поширення знань понад усе."
@@ -68,4 +68,4 @@ l_english:
   jurchen_confederation_events.17.title: "Ера Великого Об'єднання"
   jurchen_confederation_events.17.desc: "Багато вождів, що складають нашу конфедерацію, користувалися відносною автономією та значним впливом у своїх відповідних володіннях. Однак, якщо ми хочемо вознестися і кинути виклик тим, хто бажає нашого подальшого підкорення, ми повинні об'єднатися під одним прапором. Сьогоднішній день знаменує собою день, коли ми успішно нав'язали свою волю іншим членам [target_io.GetName]."
   jurchen_confederation_events.17.a: "Наш час настав!"
-  jurchen_confederation_unification_effort_tt: "Членам [Concept('target_io.GetNameWithNoTooltip] буде надано вибір: стати [subject', 'CONCEPT_PLACEHOLDER')|e] під нашим командуванням або ризикнути надати нам [Concept('casus_belli', 'CONCEPT_PLACEHOLDER')|e] проти них"
+  jurchen_confederation_unification_effort_tt: "Членам [target_io.GetNameWithNoTooltip] буде надано вибір: стати [Concept('subject', 'CONCEPT_PLACEHOLDER')|e] під нашим командуванням або ризикнути надати нам [Concept('casus_belli', 'CONCEPT_PLACEHOLDER')|e] проти них"

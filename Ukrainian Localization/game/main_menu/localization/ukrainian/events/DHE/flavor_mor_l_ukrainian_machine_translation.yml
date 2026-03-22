@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_mor.1.title: "[target_character.GetNameWithNoTooltip]"
   flavor_mor.1.desc: "Відомий під багатьма іменами, такими як імам [target_character.GetLastName] або шейх [target_character.GetLastNameWithNoTooltip], [target_character.GetShortNameWithNoTooltip] нещодавно здобув велику популярність завдяки [target_character.GetHerHis] великому прояву благочестя, побожності та знання священних текстів. Заявляючи про статус Шурфа як прямого нащадка Пророка, [target_character.GetSheHe] нещодавно запропонував [target_character.GetHerHis] свої вміння та послуги нам."
   flavor_mor.1.a: "Надати [target_character.GetHerHim] покровительство."
@@ -156,7 +156,7 @@ l_english:
   flavor_mor.1000.a: "Давайте вести переговори."
   flavor_mor.1000.b: "Запрошення чужинців до нашого війська неминуче призведе до лиха."
   mor_they_must_accept_offer_tt: "[target_country.GetName] має прийняти нашу пропозицію, щоб ефекти набули чинності"
-  mor_no_ottoman_mercs_tt: "Ми не будемо просити [Concept('target_country.GetName] про [mercenaries', 'CONCEPT_PLACEHOLDER')|e]"
+  mor_no_ottoman_mercs_tt: "Ми не будемо просити [target_country.GetName] про [Concept('mercenaries', 'CONCEPT_PLACEHOLDER')|e]"
   flavor_mor.1001.title: "$flavor_mor.1000.title$"
   flavor_mor.1001.desc: "[prev_country.GetName] повідомило нам, що частина наших військових бажає приєднатися до них, слугуючи шукачами удачі в їхній армії. Вони не тільки погодилися оплатити їхню службу, але й надати нам додаткове золото, щоб ще більше переконати нас дозволити цим чоловікам вирушити до [prev_country.GetCapital.GetName] як солдатам."
   flavor_mor.1001.a: "Усе для наших союзників!"

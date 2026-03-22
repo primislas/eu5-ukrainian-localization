@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   golden_age_of_piracy.100.title: "Сильний фронт проти піратства"
   golden_age_of_piracy.100.desc: "Дипломат з [actor.GetName] прибув до нашого [ROOT.GetCountry.GetGovernment.GetCourtTitle] і благає нас змінити наш [ShowLawName('piracy_law')] на політику [ShowPolicyName('anti_piracy_policy')], щоб разом з [actor.GetNameWithNoTooltip] та багатьма іншими ми могли боротися з лихом піратства, доки його не буде викорінено з морів."
   golden_age_of_piracy.100.a: "Так, ми змінимо закон."

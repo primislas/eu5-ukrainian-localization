@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   DURING_CONSTRUCTION_DEMAND: "\nПід час [Concept('construction', 'CONCEPT_PLACEHOLDER')|e] вимагатиме доступ до наступних товарів на @market! [MARKET.GetName]:"
   raw_material: "Сировина"
   produced: "Вироблені товари"

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   great_pestilence.1.title: "[ShowSituationNameWithNoTooltip('great_pestilence')]"
   great_pestilence.1.repeatedText: "Хвороба непередбачувана та смертоносна, іноді викликає лихоманку та висип, іноді блювоту чи марення, і майже завжди закінчується смертю."
   great_pestilence.1.desc: "Таємнича чума спустошує наш народ у [diseased_location_scope.GetName]. Вона вражає всіх, незалежно від їхнього класу, благочестя чи духовного захисту. $great_pestilence.1.repeatedText$\n\nУсі відомі ліки виявляються марними проти цієї диявольської недуги, і жодні молитви чи жертви, здається, не спонукають [ROOT.GetCountry.GetReligion.GetGodName] надіслати свій захист на наш народ."

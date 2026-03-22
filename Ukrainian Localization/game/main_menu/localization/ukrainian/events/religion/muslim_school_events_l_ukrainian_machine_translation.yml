@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   muslim_school_events.1.title: "Талановитий суддя"
   muslim_school_events.1.desc: "Здобуття освіти в галузі теології та права часто є тривалим процесом, що включає вивчення класичних праць з права під керівництвом $rank_county_arabic_ruler_male$ різних [ShowBuildingTypeName('madrasa')]. За кожну вивчену працю чи коментар студент отримує сертифікат, «Іджазу». Залежно від того, яка [ShowBuildingTypeNameWithNoTooltip('madrasa')] та який $rank_county_arabic_ruler_male$, цінність «Іджази» може бути не однаковою.\n\n[ShowBuildingTypeNameWithNoTooltip('madrasa')] в [mufti_province.GetName] останнім часом справляє дуже гарне враження по всій країні, безсумнівно, студенти звідти мають велику кар'єру Каді або Муфтія попереду."
   muslim_school_events.1.a: "Нам потрібен новий Каді."

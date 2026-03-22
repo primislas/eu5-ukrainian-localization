@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_ven.1.title: "Еволюція Комуни [ROOT.GetCountry.GetNameWithNoTooltip]"
   flavor_ven.1.desc: "Протягом багатьох століть Комуна [ROOT.GetCountry.GetName] — а з нею і Рада Сорока — служила [ROOT.GetCountry.GetFlavorRank] як верховний орган управління, водночас перетворюючи [ROOT.GetCountry.GetGovernment.GetRulerTitle] дедалі більше на номінального главу нації. Природно, такий розвиток подій суперечив намірам обраних правителів, які прагнули відігравати значну роль у внутрішній політиці держави.\n\nОскільки нові реформи знаходять свій шлях у [ROOT.GetCountry.GetAdjectiveWithNoTooltip] бюрократії, стара Комуна, а також Рада Сорока опинилися в положенні застарілих. Багато обов'язків ради було передано [ROOT.GetCountry.GetGovernment.GetParliament.GetName], а комуна більше не є адекватною для задоволення зростаючих бюрократичних потреб держави. Настав час повністю замінити обидві інституції новим урядовим органом, який також активніше залучає [ROOT.GetCountry.GetGovernment.GetRulerTitle] до внутрішньої політики."
   flavor_ven.1.a: "Створимо Синьйорію [ROOT.GetCountry.GetNameWithNoTooltip]!"

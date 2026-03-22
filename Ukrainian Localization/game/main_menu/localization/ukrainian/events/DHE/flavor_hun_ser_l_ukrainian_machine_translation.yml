@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_hun_ser.1000.title: "Пропозиція щодо [target_location.GetNameWithNoTooltip]"
   flavor_hun_ser.1000.desc: "Протягом століть [target_location.GetName] багато разів переходив з рук в руки. Кілька країн свого часу контролювали цей стратегічно важливий [target_location.GetRank.GetName], що дозволяло їм посилити свій вплив на ширший регіон навколо Дунаю. [ROOT.GetCountry.GetAdjective] контроль над [target_location.GetNameWithNoTooltip] закінчився в 1319 році, коли [target_location.GetRank.GetNameWithNoTooltip] був захоплений [target_country.GetName]. Оскільки ми тепер уклали з ними союз, можливо, ми могли б надіслати [target_country.GetNameWithNoTooltip] пропозицію – золото в обмін на [target_location.GetNameWithNoTooltip]. Багато хто сподівається, що є шанс домовитися про повернення [target_location.GetNameWithNoTooltip], оскільки передача його союзнику не поставить під загрозу безпеку [target_country.GetNameWithNoTooltip]."
   flavor_hun_ser.1000.a: "Нам нічого втрачати."

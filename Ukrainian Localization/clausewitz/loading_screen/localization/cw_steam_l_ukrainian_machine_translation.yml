@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   STEAM_ERESULT_0: "Невірний код результату Steam. (k_EResultInvalid)"
   STEAM_ERESULT_1: "Гаразд. (k_EResultOK)"
   STEAM_ERESULT_2: "Загальний збій. (k_EResultFail)"

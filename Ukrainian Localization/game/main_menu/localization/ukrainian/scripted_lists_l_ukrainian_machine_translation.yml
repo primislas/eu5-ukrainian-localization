@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   ANY_HISTORICAL_RIVAL: "Будь-який Історичний суперник"
   FIRST_ANY_HISTORICAL_RIVAL: "Будь-хто з наших Історичних суперників"
   THIRD_ANY_HISTORICAL_RIVAL: "Будь-хто з Історичних суперників [COUNTRY.GetName]"

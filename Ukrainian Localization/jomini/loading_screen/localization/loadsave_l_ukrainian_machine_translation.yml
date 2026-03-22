@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   JOMINI_LOAD_GAME_FAILED_TITLE: "Невдалося завантажити збережену гру"
   JOMINI_LOAD_GAME_FAILED_DESC: "Збережену гру не вдалося завантажити, це може бути спричинено тим, що:"
   JOMINI_LOAD_INCOMPATIBLE_GAME_TITLE: "#indent_newline:2 • Збережену гру створено несумісною версією гри"

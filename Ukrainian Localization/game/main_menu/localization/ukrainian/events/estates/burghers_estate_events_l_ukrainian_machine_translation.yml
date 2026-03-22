@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   burghers_estate_events.1.title: "Поступ [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')]"
   burghers_estate_events.1.desc: "Становище [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] не ґрунтується на тих самих старих традиціях, що й [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] чи [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]. Натомість їм довелося самотужки здобувати статки, старанно працюючи, а потім ризикуючи своїми прибутками, щоб знову розширити свій бізнес. Однак, як правило, останнім часом це їм дуже добре вдавалося. Хоча й не такий престижний, бізнес багато в чому є основою нашої економіки, і, завдяки контролю над монетою, [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] зуміли збільшити свою владу над нашою країною."
   burghers_estate_events.1.a: "[ROOT.GetCountry.Custom('common_string_ok')]"

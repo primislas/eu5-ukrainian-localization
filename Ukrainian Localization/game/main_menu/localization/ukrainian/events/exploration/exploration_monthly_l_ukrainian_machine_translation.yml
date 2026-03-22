@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   exploration_monthly.1.title: "Випробування в [ROOT.GetExploration.GetArea.GetNameWithNoTooltip]"
   exploration_monthly.1.desc: "Під час нашої місії з пошуку придатних для колонізації провінцій ми натрапили на [ROOT.GetExploration.GetLocation.GetName]. Її тубільці здебільшого ворожі, але земля дуже родюча. Ми б багато виграли від торгівлі з цією провінцією. Хоча, можливо, доведеться підкупити одного-двох вождів..."
   exploration_monthly.1.a: "Укласти з ними чесну угоду."

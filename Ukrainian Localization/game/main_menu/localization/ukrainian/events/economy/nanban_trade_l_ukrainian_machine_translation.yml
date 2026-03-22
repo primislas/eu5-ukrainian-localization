@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   nanban_trade.1.title: "Нанбан Боекі"
   nanban_trade.1.desc: "Чужинці з грубими манерами, що нехтують гігієною та нездатні зрозуміти письмо [ROOT.GetCountry.GetCulture.GetLanguage.GetName], висадилися в землі [ROOT.GetCountry.GetName] з місць, які вони називають такими смішними іменами, як [target_nanban.GetName]. Ці чужинці приносять із собою дослідників, місіонерів та купців, і їхня присутність вже почала впливати на наш народ."
   nanban_trade.1.a: "Вітаємо цих торговців."

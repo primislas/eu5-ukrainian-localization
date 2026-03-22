@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   DATE_AD_YEAR: "$YEAR$ н.е."
   DATE_BC_YEAR: "$YEAR$ до н.е."
   DATE_FORMATTING_LONG: "$DAY$ $MONTH$, $YEAR$"

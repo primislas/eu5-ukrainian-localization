@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_gen.1.title: "[ROOT.GetCountry.GetAdjectiveWithNoTooltip] Купецька Республіка"
   flavor_gen.1.desc: "З моменту державного перевороту Гульєльмо Бокканегри в 1257 році, держава [ROOT.GetCountry.GetName] має #italic Capitano del popolo#! як главу держави. З часом ця посада була розділена на [ShowGovernmentReformName('diarchy_republic')] з родинами [ShowDynastyName('spinola_dynasty')] та [ShowDynastyName('doria_dynasty')], які порівну керували країною.\n\nОднак, #italic Capitano del popolo#! завжди була суперечливою позицією, оскільки багато [ROOT.GetCountry.GetAdjectiveWithNoTooltip] розглядають нинішній уряд як автократію. За загальним визнанням у [GetCurrentYear], правління Діархії може нарешті знайти свій кінець."
   flavor_gen.1.a: "Нехай республіка приведе нас у нову золоту добу!"

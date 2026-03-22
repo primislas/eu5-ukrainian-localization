@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_kbo.2.title: "Заснування [target_location.GetNameWithNoTooltip]"
   flavor_kbo.2.desc: "Хоча [ShowAreaName('bornu_area')] є багатою областю, цілком гідною бути столицею нашого королівства, її захист завжди був проблемою. Зі сходу наші старі вороги [target_country.GetName] часто здійснюють набіги на наші землі, а часті війни за спадщину також підкреслюють потребу в більш укріпленій столиці.\n\nБули розроблені плани щодо створення укріпленого міста за західним берегом озера Чад у [target_location.GetName], щоб забезпечити майбутню безпеку нашої династії."
   flavor_kbo.2.a: "Побудувати [target_location.GetNameWithNoTooltip]."

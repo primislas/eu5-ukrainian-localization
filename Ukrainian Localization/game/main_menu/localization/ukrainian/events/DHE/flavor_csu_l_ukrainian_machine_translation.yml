@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_csu.100.title: "[ShowBuildingTypeNameWithNoTooltip('panaqa_building')] [ROOT.GetCountry.GetNameWithNoTooltip]"
   flavor_csu.100.desc: "Зі смертю нашого останнього великого монарха королівська родина розподілила наші землі між старими [ShowBuildingTypeName('panaqa_building')]. Знову цикл розпочався наново, і нинішній [ROOT.GetCountry.GetGovernment.GetRulerTitle] має встановити [ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis] власну спадщину через завоювання."
   flavor_csu.100.a: "Як це наш звичай."

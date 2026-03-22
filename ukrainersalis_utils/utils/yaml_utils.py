@@ -49,6 +49,32 @@ def load_eu5_yaml(file_path: str) -> dict:
     with open(file_path, "r") as file_handle:
         return yaml.load(file_handle, Loader=yaml.FullLoader)
 
+async def load_eu5_yaml_async(file_path: str) -> dict:
+    async with aiofiles.open(file_path, "r") as file_handle:
+        content_str = await file_handle.read()
+        return yaml.load(content_str, Loader=yaml.FullLoader)
+
+def write_eu5_localization_yaml(data: dict, output_file_path: str) -> int:
+    dumped = yaml.dump(
+        data,
+        Dumper=DoubleQuotedDumper,
+        allow_unicode=True,
+        sort_keys=False,
+        width=float('inf'),
+    )
+    with open(output_file_path, "w", encoding="utf-8-sig") as output_file_handle:
+        return output_file_handle.write(dumped.strip())
+
+async def write_eu5_localization_yaml_async(data: dict, output_file_path: str) -> int:
+    dumped = yaml.dump(
+        data,
+        Dumper=DoubleQuotedDumper,
+        allow_unicode=True,
+        sort_keys=False,
+        width=float('inf'),
+    )
+    async with aiofiles.open(output_file_path, "w", encoding="utf-8-sig") as output_file_handle:
+        return await output_file_handle.write(dumped.strip())
 
 def validate_localization_file(file_path: str, language: str = "english") -> bool:
     """Validate a YAML localization file by parsing it and checking for errors."""
@@ -63,23 +89,6 @@ def validate_localization_file(file_path: str, language: str = "english") -> boo
     except Exception:
         logger.exception(f"Error parsing {file_path}")
         return False
-
-async def async_load_eu5_yaml(file_path: str) -> dict:
-    async with aiofiles.open(file_path, "r") as file_handle:
-        content_str = await file_handle.read()
-        return yaml.load(content_str, Loader=yaml.FullLoader)
-
-async def async_write_eu5_localization_yaml(data: dict, output_file_path: str) -> int:
-    dumped = yaml.dump(
-        data,
-        Dumper=DoubleQuotedDumper,
-        allow_unicode=True,
-        sort_keys=False,
-        width=float('inf'),
-    )
-    async with aiofiles.open(output_file_path, "w", encoding="utf-8-sig") as output_file_handle:
-        return await output_file_handle.write(dumped.strip())
-
 
 def fix_concept_declarations(text: str) -> str:
     """
@@ -108,7 +117,7 @@ def fix_concept_declarations(text: str) -> str:
 if __name__ == "__main__":
     fixed_declaration = 0
     unfixed_dangling_concept = 0
-    for file in list_localization_files("ukrainian_machine_translation"):
+    for file in list_localization_files("ukrainian"):
         content = load_eu5_yaml(file)
         for k, v in content.get("l_english", {}).items():
             fixed = fix_concept_declarations(v)
@@ -117,9 +126,11 @@ if __name__ == "__main__":
                 print(f"\t--- {v}")
                 print(f"\t+++ {fixed}")
                 fixed_declaration += 1
+                content["l_english"][k] = fixed
             else:
-                if re.match(r"\[[a-z_]+', 'CONCEPT_PLACEHOLDER'\)\|[eE]\]", v):
+                if re.match(r"\[[a-z_]+', 'CONCEPT_PLACEHOLDER'\)\|[eE]]", v):
                     print(f"{os.path.basename(file)}: {k}: {v}")
                     print(f"\tFound unfixed dangling concept declaration")
                     unfixed_dangling_concept += 1
+        write_eu5_localization_yaml(content, file)
     print(f"Fixed {fixed_declaration} concept declarations, {unfixed_dangling_concept} unfixed dangling concepts")

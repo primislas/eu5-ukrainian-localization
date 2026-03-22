@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_nov.1.title: "Громадянська війна в [ROOT.GetCountry.GetNameWithNoTooltip]"
   flavor_nov.1.desc: "XIV століття стало свідком початку довгої боротьби [ROOT.GetCountry.GetName] з Москвою за верховенство. Міжусобні суперечки серед лідерів республіки послабили її перед обличчям зростаючої [GetCountry('MOS').GetAdjective] сили. Хоча вона стала васалом [GetCountry('MOS').GetNameWithNoTooltip] після [GetCountry('MOS').GetAdjectiveWithNoTooltip] вторгнень у 1456 та 1470 роках, [ROOT.GetCountry.GetNameWithNoTooltip] було дозволено зберегти самоврядування. Лише у 1478 році вона потрапила під повний контроль Москви і втратила свою свободу. [ROOT.GetCountry.GetNameWithNoTooltip] зберігала своє комерційне становище до будівництва Санкт-Петербурга у 1703 році."
   flavor_nov.1.a: "Підтримати купецьку фракцію"

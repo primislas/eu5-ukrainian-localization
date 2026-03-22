@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_pav.1.title: "Вигнання [expelled_ruler.GetDynasty.GetNameWithNoTooltip]"
   flavor_pav.1.desc: "Місто [ROOT.GetCountry.GetCapital.GetName] охоплене полум'ям, коли спалахує чергове повстання проти [expelled_ruler.GetDynasty.GetName]. Цього разу його очолює харизматичний клірик [pav_iacopo_bussolari_scope.GetName], який об'єднав місто проти його [ROOT.GetCountry.GetGovernment.GetRulerTitle]. Якщо нічого не буде зроблено, [expelled_ruler.GetName] доведеться тікати, можливо, у лещата [ShowDynastyName('visconti_dynasty')]."
   flavor_pav.1.historical_info: "У 1356 році Беккаріа були вигнані з Павії народним повстанням, очолюваним ченцем Якопо Буссоларі, який згодом допоміг врятувати місто від падіння під час облоги, очолюваної Вісконті. Вигнанці об'єдналися б, і місто впало б перед Міланом у 1359 році, після чого Беккаріа відновили деякі привілеї, але місто залишилося під контролем міланців."

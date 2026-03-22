@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_oma.1.title: "Боротьба за владу"
   flavor_oma.1.desc: "Зі зростанням нестабільності в [ROOT.GetCountry.GetName], А'імма вирішили виступити проти нації, сподіваючись відновити старий Імамат та владу [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] над [ROOT.GetCountry.GetGovernment.GetCourtTitle] та простим народом."
   flavor_oma.1.historical_info: "Династія Набханітів тримала владу понад три століття, але в XV столітті її авторитет почали ставити під сумнів обрані А'імма. Ця боротьба тривала, доки династія не втратила контроль над країною."

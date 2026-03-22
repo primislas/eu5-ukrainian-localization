@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   free_cities.1.title: "Вільне [ROOT.GetCountry.GetCapital.GetRank.GetNameWithNoTooltip] [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]"
   free_cities.1.desc: "[ROOT.GetCountry.GetCapital.GetRank.GetNameWithNoTooltip] [ROOT.GetCountry.GetCapital.GetName] отримало імперську безпосередність як [ShowSpecialStatusName('free_city')] [GetUniqueInternationalOrganization('hre').GetName]. Хоча в Імперії є багато важливих самоврядних міст, [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip] тепер має щось більше, ніж своє багатство та розмір, щоб захистити себе – економічні та політичні свободи, вічно гарантовані [GetUniqueInternationalOrganization('hre').GetLeaderTitle] [target_ruler.GetHerselfHimself]."
   free_cities.1.a: "[ROOT.GetCountry.Custom('common_string_positive')]"

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   CLICK_ACTION_LOBBY_SELECT_COUNTRY: "Вибрати [COUNTRY.GetNameWithNoTooltip]"
   CLICK_ACTION_LOCATION_SETUP_EDITOR: "Змінити [LOCATION.GetNameWithNoTooltip]"
   CLICK_ACTION_ADD_LOCATION_CD_POP_EDITOR: "Додати [LOCATION.GetNameWithNoTooltip] до вибору"

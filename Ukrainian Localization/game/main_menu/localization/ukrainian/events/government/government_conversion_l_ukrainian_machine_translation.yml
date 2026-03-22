@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   government_conversion_events.conversion_complete.title: "Піднесення [target_country.GetAdjectiveWithNoTooltip] [target_government_type.GetNameWithNoTooltip]"
   government_conversion_events.conversion_complete.title_fallback: "Реформування уряду"
   government_conversion_events.conversion_complete.desc: "Останні кілька років були періодом турбулентності та заворушень. Хоча в довгостроковій перспективі для [target_country.GetLongName] було б найкраще реформуватися в [target_government_type.GetName], багато старих і занепалих впливових осіб відчайдушно боролися за збереження старого ладу [origin_government_type.GetName]. Попри це, [target_character.GetName] вдалося подолати всі перешкоди та скасувати старі традиції, що стояли на шляху централізації влади новоствореного [target_government_type.GetNameWithNoTooltip]."

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_wittelsbach_house_union.1.title: "Договір у [ShowLocationNameWithNoTooltip('pavia')]"
   flavor_wittelsbach_house_union.1.desc: "Хоча династичний договір, підписаний у 1329 році в [ShowLocationName('pavia')], стабілізував наші династичні відносини, позиція [target_ruler.GetName] з того часу покращилася, і ми тепер можемо спробувати збільшити нашу владу над [target_character.GetName] та [GetCountry('PAL').GetName]. Це зробить нас ненадійним союзником і тиранічним лідером [GetUniqueInternationalOrganization('hre').GetName]. Дотримання договору збереже наш дипломатичний статус і репутацію та дозволить нам мирно об'єднати гілки династії [target_ruler.GetDynasty.GetName] у майбутньому."
   flavor_wittelsbach_house_union.1.a: "Дотриматися Договору!"

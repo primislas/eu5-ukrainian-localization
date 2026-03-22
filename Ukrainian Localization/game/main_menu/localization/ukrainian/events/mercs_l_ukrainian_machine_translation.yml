@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   mercs.1.title: "Невдоволення серед [SCOPE.sMercenary('patriotic_mercs').GetName]"
   mercs.1.desc: "Багато хто з [SCOPE.sMercenary('patriotic_mercs').GetName] розвинули безпідставні сентиментальні почуття до своєї жалюгідної батьківщини [SCOPE.sCountry('merc_home_country').GetName]. Значна частина їхніх людей дезертує, жахаючись думки побачити свої рідні міста у вогні."
   mercs.1.a: "Їхні серця слабкі."

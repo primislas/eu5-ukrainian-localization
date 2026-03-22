@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   character_estates.1.title: "[target_character.GetNameWithNoTooltip] Втрачає статки"
   character_estates.1.desc: "Після низки невдалих інвестицій [target_character.GetName] залишився без гроша. Як член нашого двору, [target_character.GetHeShe] надіслав нам відчайдушне благання, щоб ми надали [target_character.GetHimHer] фінансову допомогу, аби [target_character.GetHimHer] знову став на ноги, інакше [target_character.GetHeShe] проведе [target_character.GetHisHer] дні на вулиці."
   character_estates.1.a: "Приватні статки нас не стосуються."

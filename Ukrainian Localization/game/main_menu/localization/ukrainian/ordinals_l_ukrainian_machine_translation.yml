@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   ordinal_numeral: "$NUM$."
   ordinal_numeral.english_language.1: "$NUM$-й"
   ordinal_numeral.english_language.2: "$NUM$-й"

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   societal_values.100.title: "Втрата стабільності"
   societal_values.100.desc: "Це зміцнення привілеїв [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] сильно обурює [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')]. Це створює заворушення в нашому королівстві і може виявитися катастрофічним у довгостроковій перспективі."
   societal_values.100.a: "Ну, вони ж просто селяни."
@@ -1140,7 +1140,7 @@ l_english:
   scale_with_sinicized_unsinicized_key: "масштабуватиметься на основі наших [ShowSocietyDirectionName('sinicized')] та [ShowSocietyDirectionName('unsinicized')] [Concept('societal_values', 'CONCEPT_PLACEHOLDER')|e]"
   stability_cost_scales_with_sinicized_vs_unsinicized_tt: "[Concept('stability', 'CONCEPT_PLACEHOLDER')|e] $scale_with_sinicized_unsinicized_key$"
   legitimacy_cost_scales_with_sinicized_vs_unsinicized_tt: "[Concept('government_power', 'CONCEPT_PLACEHOLDER')|e] $scale_with_sinicized_unsinicized_key$"
-  between_3_5_become_chinese_tt: "Деякі з наших [Concept('pops', 'CONCEPT_PLACEHOLDER')|e] у [Concept('target_province.GetName] приймуть [target_culture.GetName] [culture', 'CONCEPT_PLACEHOLDER')|e]"
+  between_3_5_become_chinese_tt: "Деякі з наших [Concept('pops', 'CONCEPT_PLACEHOLDER')|e] у [target_province.GetName] приймуть [target_culture.GetName] [Concept('culture', 'CONCEPT_PLACEHOLDER')|e]"
   societal_values.2301.title: "Хвиля китаїзації"
   societal_values.2301.desc: "Наша присутність у сфері впливу [GetInternationalOrganization('middle_kingdom').GetName] — це складні стосунки між [target_character1.GetName] та [target_character2.GetName]. Контакт між нашими двома царствами породив іскри китаїзації. Дійсно, [target_sinicized_pop_scope.GetName] нещодавно почали демонструвати елементи впливу [target_culture.GetName] культури, всупереч нашим нормам."
   societal_values.2301.a: "З цього не може бути нічого поганого."

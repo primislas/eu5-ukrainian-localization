@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   council_of_trent.2.title: "$council_of_trent$ завершується"
   council_of_trent.2.desc: "$council_of_trent$ було скликано в надії примирити різні схизматичні церкви, що виникли після [ShowReligionAdjective('lutheran')] Реформації, але після, здавалося б, нескінченної серії дебатів і переговорів результати виявилися безрезультатними. Нарешті було прийнято рішення розпустити Раду. Нехай Бог змилується над душами тих, хто не повернувся до Церкви."
   council_of_trent.2.a: "Примирення було марною мрією."
@@ -13,7 +13,7 @@ l_english:
   council_of_trent.1000.desc: "Успіхи [ShowReligionAdjective('lutheran')] руху більше не можуть залишатися без відповіді. [target_character.GetHeSheFormal|U] доручив комісії кардиналів вирішити проблеми, що виникли через нього — хоча сама [ShowReligionAdjective('catholic')] віра не повинна бути скомпрометована, [target_character.GetHeSheFormal] та більшість кардиналів готові визнати, що деякі [ShowReligionAdjectiveWithNoTooltip('lutheran')] скарги є обґрунтованими. Наприклад, не можна заперечувати, що часта відсутність єпископів та мирські надмірності духовенства є плямою на репутації Церкви. Тому в Тренті буде скликано Собор для обговорення того, як найкраще реформувати Церкву, щоб відповісти на виклик реформаторів та розпочати процес Контрреформації."
   council_of_trent.1000.a: "Скликати $council_of_trent$"
   council_of_trent.1000.tt: "Запрошення буде надіслано всім [ShowReligionAdjectiveWithNoTooltip('catholic')] [Concept('countries', 'CONCEPT_PLACEHOLDER')|e]"
-  allow_law_changes_tt: "[Concept('laws', 'CONCEPT_PLACEHOLDER')|e] [Concept('THIS.GetInternationalOrganization.GetName] тепер можуть бути змінені, і кожен [member', 'CONCEPT_PLACEHOLDER')|e] може запропонувати [ShowResolutionName('policy_vote')]"
+  allow_law_changes_tt: "[Concept('laws', 'CONCEPT_PLACEHOLDER')|e] [THIS.GetInternationalOrganization.GetName] тепер можуть бути змінені, і кожен [Concept('member', 'CONCEPT_PLACEHOLDER')|e] може запропонувати [ShowResolutionName('policy_vote')]"
   council_of_trent.1001.title: "$council_of_trent$"
   council_of_trent.1001.desc: "[target_character.GetHeSheFormal|U] запросив нас взяти участь у $council_of_trent$, щоб обговорити необхідні реформи для усунення корупції та інших недуг Церкви. Собор обговорить, що становить [ShowReligionAdjective('lutheran')] єресь, і розгляне визначення церковних вчень у сферах Писання та Традиції, Первородного гріха, Виправдання, Таїнств, Євхаристії у Святій Месі та вшанування святих. Він також спробує відповісти на [ShowReligionAdjectiveWithNoTooltip('lutheran')] суперечки, розглядаючи обмеження практик, які стали плямою на репутації Церкви, наприклад, часту відсутність єпископів та різні мирські надмірності духовенства."
   council_of_trent.1001.a: "Ми повинні обміркувати нашу позицію."

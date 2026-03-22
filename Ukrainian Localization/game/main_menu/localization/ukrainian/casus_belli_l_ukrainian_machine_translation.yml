@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   cb_conquer_province: "Претензії на провінцію"
   cb_conquer_province_PROV: "Претензії на [PROVINCE.GetName]"
   cb_parliament_conquer_province: "Парламент затвердив претензії на провінцію"

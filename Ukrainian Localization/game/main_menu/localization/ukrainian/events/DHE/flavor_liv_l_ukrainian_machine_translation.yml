@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_liv.1.title: "[target_government_reform.GetNameWithNoTooltip]"
   flavor_liv.1.desc: "Влада [ROOT.GetCountry.GetGovernment.GetRulerTitle] постійно слабшає, а вплив [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] та підлеглих [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] сильніший, ніж будь-коли раніше. У такому випадку раніше неприйнятна пропозиція тепер стала прийнятним рішенням цієї кризи. [target_government_reform.GetName], як її називають, об'єднала б [ROOT.GetCountry.GetName] та її підданих у конфедерацію, надавши багато повноважень різним земельним єпископам та іншим васальним фігурам, які мали б більше повноважень у [ROOT.GetCountry.GetGovernment.GetParliament.GetName] [ROOT.GetCountry.GetNameWithNoTooltip]."
   flavor_liv.1.historical_info: "Після битви під Укмерге в 1435 році керівництво Лівонського ордену було знищено через нестерпні втрати, зазнані в битві. Незабаром після цього, 4 грудня того ж року, було підписано угоду, що створила Лівонську конфедерацію та надала багато привілеїв різним єпископам та іншим васалам."

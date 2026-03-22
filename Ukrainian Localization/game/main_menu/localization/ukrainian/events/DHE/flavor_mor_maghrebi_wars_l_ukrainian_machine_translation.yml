@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_mor_maghrebi_wars.1000.title: "Амбітний брат"
   flavor_mor_maghrebi_wars.1000.desc: "Після смерті улюбленого [old_ruler.GetName] його син [new_ruler.GetName] зійшов на престол [GetCountry('TUN').GetName] згідно з бажаннями [old_ruler.GetShortNameWithNoTooltip].\n\nЗамість того, щоб шанобливо визнати законне становище нового правителя, його брат [usurper_scope.GetName] здійснив переворот і захопив владу для себе. На жах присутніх [ShowEstateTypeName('nobles_estate')] узурпатор стратив свого брата, усунувши будь-який шанс на відновлення законного [ROOT.GetCountry.GetGovernment.GetRulerTitle].\n\nЄдиний варіант, що залишився для лоялістів, — запросити іноземну державу в країну, щоб допомогти їм усунути узурпатора."
   flavor_mor_maghrebi_wars.1000.historical_info: "Після смерті хафсідського султана Абу Ях'ї Абу Бакра, розпочалася придворна криза з коронацією узурпатора Абу Хафса Умара, який наказав убити всіх своїх братів, забезпечивши собі єдине право на престол."
@@ -24,4 +24,4 @@ l_english:
   flavor_mor_maghrebi_wars.1100.title: "Новий правитель [ShowRegionNameWithNoTooltip('maghreb_region')]"
   flavor_mor_maghrebi_wars.1100.desc: "Ми нарешті об'єднали землі [ShowRegionName('maghreb_region')], як вони колись були під династією Альмохадів. Сахаранська торгівля нарешті під нашим контролем, новий період процвітання настав для нас і всього [religion_scope.GetAdjective] світу."
   flavor_mor_maghrebi_wars.1100.a: "Наші однолітки надсилають свої привітання."
-  flavor_mor_maghrebi_wars.1100.tt: "Усі [Concept('religion_scope.GetAdjectiveWithNoTooltip] країни в нашому [diplomatic_range', 'CONCEPT_PLACEHOLDER')|e] покращують свою думку про нас."
+  flavor_mor_maghrebi_wars.1100.tt: "Усі [religion_scope.GetAdjectiveWithNoTooltip] країни в нашому [Concept('diplomatic_range', 'CONCEPT_PLACEHOLDER')|e] покращують свою думку про нас."

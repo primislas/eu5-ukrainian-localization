@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   pirate_events.1.title: "[target_character.GetNameWithNoTooltip] Пірат"
   pirate_events.1.desc: "[ROOT.GetCountry.GetName], колись серце великої імперії Шрівіджая, довго змагалася за наш регіон із закордонними суперниками. Статус [GetCountry('MAJ').GetLongName] залишив наш [ROOT.GetCountry.GetFlavorRank] вразливим, і десятиліттями він слугував притулком для беззаконних піратів. Однак, течії знову змінилися, оскільки наша морська присутність розширюється. З'явилися нові групи каперів, і серед них постає хитрий і безжальний лідер, [target_character.GetName]. Отримавши посаду в нашому флоті, [target_character.GetSheHe] може виявитися цінним кандидатом на посаду адмірала."
   pirate_events.1.a: "Ми спробуємо щастя у відкритому морі!"

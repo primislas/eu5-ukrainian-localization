@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   conquistador.1.title: "Завоювання [SCOPE.sLocation('target_location').GetNameWithNoTooltip]"
   conquistador.1.desc: "Наш конкістадор прибув до [SCOPE.sLocation('target_location').GetName], готовий поширювати наш вплив."
   conquistador.1.a: "Погляньмо, що ми зможемо знайти!"

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   mysticism_vs_jurisprudence.1.title: "Поширення екстремальних практик у [spread_of_extreme_practices_province.GetNameWithNoTooltip]"
   mysticism_vs_jurisprudence.1.desc: "З'являються кілька нових форм [ShowReligionGroupAdjective('muslim')] містицизму, однією з найсуперечливіших є різновид суфійських дервішів, відомих як «відреченці». Ці люди прагнуть повністю відокремитися від нормального суспільства, голять все волосся на тілі аж до брів і публічно порушують правила $sharia$, щоб продемонструвати свої унікальні стосунки з [ROOT.GetCountry.GetReligion.GetGodName], блукаючи від міста до міста, випрошуючи милостиню. Наші релігійні вчені закликають до їхнього переслідування, стверджуючи, що схильність неосвіченого населення ставитися до них з благоговінням відведе людей від істинної віри."
   mysticism_vs_jurisprudence.1.a: "Вигнати їх з [spread_of_extreme_practices_province.GetNameWithNoTooltip]."

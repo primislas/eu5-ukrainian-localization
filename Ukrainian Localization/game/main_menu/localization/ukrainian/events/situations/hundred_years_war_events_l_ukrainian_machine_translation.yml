@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   hundred_years_war.1.title: "[ShowSituationNameWithNoTooltip('hundred_years_war')]"
   hundred_years_war.1.desc: "У році [GetCurrentYear] напруга між [GetCountry('ENG').GetLongName] та [GetCountry('FRA').GetLongName] досягла критичної точки. Давні суперечки щодо територій та претензії на [GetCountry('FRA').GetAdjectiveWithNoTooltip] престол вибухнули у відкриті бойові дії, що ознаменувало початок [ShowSituationName('hundred_years_war')].\n\nОбидві нації тепер готуються до затяжного конфлікту, який визначить долю [ShowSubContinentName('western_europe')]. Світ спостерігає, як ці дві великі держави готуються до неминучого зіткнення на полі бою."
   hundred_years_war.1.a: "Сподіваюся, це швидко закінчиться."

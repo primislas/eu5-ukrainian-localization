@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   propagate_religion_events.1.title: "[ShowReligionGroupAdjectiveWithNoTooltip('muslim')] Торговці в [target_location.GetNameWithNoTooltip]"
   propagate_religion_events.1.desc: "[target_country.GetAdjective] [ShowReligionGroupAdjective('muslim')] торговці стають все більш поширеним явищем у наших портах, і ми звикли до них та їхньої релігії. Зокрема, в [target_location.GetName] ці купці стали настільки звичними, що вже відчуваються невід'ємною частиною місцевого населення.\n\nНещодавно деякі з цих торговців звернулися до [ROOT.GetCountry.GetGovernment.GetCourtTitle] з проханням дозволити їм побудувати власне поселення, одразу за межами [target_location.GetNameWithNoTooltip]."
   propagate_religion_events.1.a: "З цього може вийти тільки добро."
@@ -7,7 +7,7 @@ l_english:
   propagate_religion_events.2.desc: "Група [target_country.GetReligion.GetAdjective] місіонерів з [target_country.GetName] прибула до нас, бажаючи оселитися в [target_location.GetName], щоб заснувати там нову громаду для себе та своїх навернених. Вони співпрацюють з місцевою владою і не протистоять нашому правлінню, але їхня присутність, ймовірно, призведе до швидшого поширення їхньої релігії на всю територію."
   propagate_religion_events.2.a: "Ми не можемо дозволити владі вислизнути до сторонніх груп, таких як ця."
   propagate_religion_events.2.b: "Вони стануть бажаним доповненням до нашого суспільства."
-  location_pops_convert_to_muslim.tt: "#Y 1%#! [Concept('pops', 'CONCEPT_PLACEHOLDER')|e] в [Concept('target_location.GetName] [convert', 'CONCEPT_PLACEHOLDER')|e] до [target_country.GetReligion.GetName]"
+  location_pops_convert_to_muslim.tt: "#Y 1%#! [Concept('pops', 'CONCEPT_PLACEHOLDER')|e] в [target_location.GetName] [Concept('convert', 'CONCEPT_PLACEHOLDER')|e] до [target_country.GetReligion.GetName]"
   propagate_religion_events.3.title: "[ShowReligionGroupAdjectiveWithNoTooltip('muslim')] Моряки"
   propagate_religion_events.3.desc: "Від найсхідніших морів до тепліших вод, що несуть мусони, безліч кораблів постійно курсують між численними портами, від невеликих дау до великих галер. Разом ця торговельна мережа забезпечує товарами та припасами понад половину населення світу. Багато з цих галер мають спільне те, що ними керують [ShowReligionGroupAdjective('muslim')] моряки з [ShowContinentName('africa')] або [ShowSubContinentName('middle_east')], до яких приєднуються навернені місцеві жителі."
   propagate_religion_events.3.a: "Заохочуймо цих моряків шукати наші порти!"

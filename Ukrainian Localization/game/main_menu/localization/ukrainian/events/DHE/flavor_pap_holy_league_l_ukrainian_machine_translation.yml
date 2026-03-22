@@ -1,8 +1,8 @@
-l_english:
+﻿l_english:
   flavor_pap_holy_league.1.title: "Священна Ліга"
   flavor_pap_holy_league.1.desc: "Падіння [ShowLocationName('constantinople')] та подальша [GetCountry('TUR').GetAdjective] експансія на [ShowRegionName('balkan_region')] стали нищівним ударом для Християнства. Як наслідок, багато хто закликає нас до помсти. Як лідер [GetUniqueInternationalOrganization('catholic_church').GetName], нашим святим обов'язком є зібрати морські держави [ShowRegionName('italy_region')] та Середземномор'я на наш бік і оголосити хрестовий похід, щоб назавжди вигнати невірних з [ShowContinentName('europe')]."
   flavor_pap_holy_league.1.a: "Оголосити хрестовий похід!"
-  flavor_pap_holy_league.1.a.tt: "[Concept('THIS.GetCountry.GetName] буде запрошено до [crusade', 'CONCEPT_PLACEHOLDER')|e]."
+  flavor_pap_holy_league.1.a.tt: "[THIS.GetCountry.GetName] буде запрошено до [Concept('crusade', 'CONCEPT_PLACEHOLDER')|e]."
   flavor_pap_holy_league.1.b: "Ми не можемо протистояти їм..."
   flavor_pap_holy_league.1.historical_info: "Священні Ліги були союзами християнських держав, переважно організованими Папою, для протидії експансії Османської імперії, яка становила значну загрозу для християнських королівств та Католицької Церкви. Ці ліги були вирішальними у сповільненні османського наступу та захисті Європи від подальших турецьких вторгнень."
   flavor_pap_holy_league.2.title: "Заклик до хрестового походу"

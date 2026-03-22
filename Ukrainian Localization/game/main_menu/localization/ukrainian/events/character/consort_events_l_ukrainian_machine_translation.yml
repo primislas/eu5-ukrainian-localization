@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   consort_events.1.title: "Пропозиція шлюбу"
   consort_events.1.desc: "З деяким занепокоєнням могутні родини [ROOT.GetCountry.GetFlavorRank] спостерігали, як [target_ruler.GetName] дозволяв(-ла) рокам минати, не знайшовши собі пари. Ці почуття тепер перетворилися на відкрите розчарування, оскільки, попри відсутність чіткої лінії престолонаслідування у [ROOT.GetCountry.GetFlavorRank], наш(-а) [ROOT.GetCountry.GetGovernment.GetRulerTitle] не має планів знайти собі дружину/чоловіка, а також [target_ruler.GetHeSheFormal] не виявляє особливого інтересу до пропозицій, надісланих [target_ruler.GetHerHim].\n\nТепер дійшло до того, що двір очікує, що [ROOT.GetCountry.GetGovernment.GetRulerTitle] прийме одну з наявних пропозицій. Подальша неспроможність забезпечити спадкоємність ставить під загрозу всю країну. На щастя, одна з найстаріших і найпрестижніших родин з [origin_of_queens_family.GetName], [target_consort.GetDynasty.GetName], запропонувала нам руку однієї зі своїх дочок у шлюбі разом зі щедрим приданим."
   consort_events.1.a: "Прийняти пропозицію."

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   patriarch_events.1.title: "Святі [local_saint_state_province.GetProvince.GetNameWithNoTooltip]"
   patriarch_events.1.desc: "Велика невизначеність панує в єпархії [local_saint_state_province.GetProvince.GetName]. Хоча ми об'єднані у вірі, люди держави, включно з багатьма місцевими священниками, відмовляються брати участь у святах та святкуваннях святих, що є звичними в наших кордонах. Вони стверджують, що ці свята не є канонічними, і що вони дотримуватимуться релігійних звичаїв своїх предків, включно з вшануванням низки підозрілих святих з цієї місцевості."
   patriarch_events.1.a: "Ми мусимо запровадити [ROOT.GetCountry.GetAdjectiveWithNoTooltip] святих та святкування."

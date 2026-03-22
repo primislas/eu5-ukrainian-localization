@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   flavor_mlo.1.title: "Амброзіанська республіка"
   flavor_mlo.1.desc.no_ally: "Місто [ROOT.GetCountry.GetCapital.GetName] охопило сум'яття через раптову смерть [ROOT.GetCountry.GetGovernment.GetRulerTitle] без шанованого дорослого [ROOT.GetCountry.GetGovernment.GetHeirTitle]. Впливові громадяни вважали, що стару республіку, яку колись мала наша країна, можна відновити. Вчені установи, такі як Коледж юриспруденції в [ShowLocationName('pavia')], змальовували часи старої республіки як золоту добу. Купці, бачачи процвітання інших італійських республік, підтримували цю ідею.\n\nТаким чином, було висунуто пропозицію про проголошення республіки, а претендентів на трон мали вигнати з міста. Нова республіка буде названа Золотою Амброзіанською Республікою, на честь єпископа IV століття з [ShowLocationNameWithNoTooltip('milano')]."
   flavor_mlo.1.desc: "$flavor_mlo.1.desc.no_ally$\n\nЗ іншого боку, ми могли б запросити іншу [ROOT.GetCountry.GetGovernment.GetGovernmentType.GetName], союзну нам, щоб вона взяла нас під своє крило і правила нами разом зі своєю країною."

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   adm_score: "Адміністративні"
   dip_score: "Дипломатичні"
   mil_score: "Військові"
@@ -17,8 +17,8 @@ l_english:
   VC_CARD_ENTRY: "$NAME$: $VAL|+=2$"
   VICTORY_CARD_DESC_F: "[COUNTRY.GetAdjectiveWithFlag] контроль над [AREA.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ $SCORE|G$#!"
   VICTORY_CARD_DESC: "[COUNTRY.GetAdjectiveWithFlag] контроль над [AREA.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ $SCORE|V$#!"
-  VICTORY_CARD_DETAIL_F: "[Concept('COUNTRY.GetLongNameWithFlagWithNoTooltip] має [own', 'CONCEPT_PLACEHOLDER')|e], [Concept('control', 'CONCEPT_PLACEHOLDER')|e] та [Concept('cored', 'CONCEPT_PLACEHOLDER')|e] усі $NUM$ провінцій [AREA.GetNameWithNoTooltip], щоб отримувати та зберігати очки. Наразі має $CURRENT|G$."
-  VICTORY_CARD_DETAIL: "[Concept('COUNTRY.GetLongNameWithFlagWithNoTooltip] має [own', 'CONCEPT_PLACEHOLDER')|e], [Concept('control', 'CONCEPT_PLACEHOLDER')|e] та [Concept('cored', 'CONCEPT_PLACEHOLDER')|e] усі $NUM$ провінцій [AREA.GetNameWithNoTooltip], щоб отримувати та зберігати очки. Наразі має $CURRENT|R$."
+  VICTORY_CARD_DETAIL_F: "[COUNTRY.GetLongNameWithFlagWithNoTooltip] має [Concept('own', 'CONCEPT_PLACEHOLDER')|e], [Concept('control', 'CONCEPT_PLACEHOLDER')|e] та [Concept('cored', 'CONCEPT_PLACEHOLDER')|e] усі $NUM$ провінцій [AREA.GetNameWithNoTooltip], щоб отримувати та зберігати очки. Наразі має $CURRENT|G$."
+  VICTORY_CARD_DETAIL: "[COUNTRY.GetLongNameWithFlagWithNoTooltip] має [Concept('own', 'CONCEPT_PLACEHOLDER')|e], [Concept('control', 'CONCEPT_PLACEHOLDER')|e] та [Concept('cored', 'CONCEPT_PLACEHOLDER')|e] усі $NUM$ провінцій [AREA.GetNameWithNoTooltip], щоб отримувати та зберігати очки. Наразі має $CURRENT|R$."
   HOSTILE_VICTORY_CARD_DESC: "[COUNTRY.GetAdjectiveWithFlag] контроль над [AREA.GetName]: $SCORE|+=0$$MAX$"
   HOSTILE_VICTORY_CARD_DESC_FAIL: "[COUNTRY.GetAdjectiveWithFlag] контроль над [AREA.GetName]: $SCORE|-=0$$MAX$"
   VICTORY_CARDS_IN_LOC: "Карти перемоги для [Location.GetArea.GetNameWithNoTooltip]"

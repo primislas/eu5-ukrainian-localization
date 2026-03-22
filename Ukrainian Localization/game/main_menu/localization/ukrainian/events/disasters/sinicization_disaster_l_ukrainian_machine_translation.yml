@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   reverse_key: "Змінимо наш курс."
   nonsense_key: "Нісенітниця!"
   estate_intro_paragraph: "Не дивно, що [target_emperor_scope.GetAdjective] сановники не знайшли прихильності серед впливових осіб у нашій країні. Зовнішні сили, що вторгаються в наш [ROOT.GetCountry.GetFlavorRank], рідко залишалися в добрих стосунках із усталеним порядком речей."
