@@ -1,4 +1,4 @@
-from ukrainersalis_utils.gemini_translation import GeminiTranslator
+from ukrainersalis_utils.gemini_translator import GeminiTranslator
 from google.genai.types import HttpOptions, HttpRetryOptions
 
 def test_gemini_client_retry_config(mocker):

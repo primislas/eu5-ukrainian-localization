@@ -1,53 +1,16 @@
 import asyncio
 import os
 import re
+from typing import Tuple
 
-import aiofiles
-import yaml
+from dotenv import load_dotenv
 
-
-class DoubleQuotedDumper(yaml.SafeDumper):
-    def represent_mapping(self, tag, mapping, flow_style=None):
-        value = []
-        node = yaml.nodes.MappingNode(tag, value, flow_style=flow_style)
-        if self.alias_key is not None:
-            self.represented_objects[self.alias_key] = node
-        best_style = True
-        if hasattr(mapping, 'items'):
-            mapping = list(mapping.items())
-            if self.sort_keys:
-                mapping.sort(key=lambda x: x[0])
-        for item_key, item_value in mapping:
-            node_key = self.represent_data(item_key)
-            # Remove forcing style on keys
-            if isinstance(node_key, yaml.nodes.ScalarNode) and node_key.tag == 'tag:yaml.org,2002:str':
-                node_key.style = None
-            node_value = self.represent_data(item_value)
-            if not (isinstance(node_key, yaml.nodes.ScalarNode) and node_key.style is None):
-                best_style = False
-            if not (isinstance(node_value, yaml.nodes.ScalarNode) and node_value.style is None):
-                best_style = False
-            value.append((node_key, node_value))
-        if flow_style is None:
-            if self.default_flow_style is not None:
-                node.flow_style = self.default_flow_style
-            else:
-                node.flow_style = best_style
-        return node
-
-
-def quoted_str_representer(dumper, data):
-    return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='"')
-
-
-DoubleQuotedDumper.add_representer(str, quoted_str_representer)
-
-from flask.cli import load_dotenv
-
+from ukrainersalis_utils.gemini_translator import GeminiTranslator
 from ukrainersalis_utils.logger import logger
-from ukrainersalis_utils.gemini_translation import GeminiTranslator
 from ukrainersalis_utils.translators.translation_api import Translator
-
+from ukrainersalis_utils.utils.file_utils import list_localization_files
+from ukrainersalis_utils.utils.yaml_utils import async_write_eu5_localization_yaml, async_load_eu5_yaml, \
+    validate_localization_file
 
 _NEWLINE_REPLANCEMENT = "#NL!#"
 
@@ -61,7 +24,7 @@ def expand_concepts(line: str) -> str:
     """Expands concepts in the translated text."""
     # Pattern to match [<concept>|e] where <concept> doesn't contain '(' or '|' to avoid double-processing
     # or nested structures if any.
-    pattern = r"\[([^()|]+)\|[eE]\]"
+    pattern = r"\[([^()\[\]|]+)\|[eE]\]"
     replacement = r"[Concept('\1', 'CONCEPT_PLACEHOLDER')|e]"
 
     return re.sub(pattern, replacement, line)
@@ -113,23 +76,12 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
     try:
         async with semaphore:
             # Read file
-            async with aiofiles.open(input_file_path, "r") as file_handle:
-                content_str = await file_handle.read()
-
-            content = yaml.load(content_str, Loader=yaml.FullLoader)
+            content = await async_load_eu5_yaml(input_file_path)
             l_english = content.get("l_english")
-            if not l_english:
-                logger.info(f"Skipping {file_name} -> {output_file_name} (no l_english key)")
-                return False
-
             lines = "\n".join([translation_preprocessing(l) for l in l_english.values()])
-            logger.info(f"Translating {input_file_path}")
 
-            # Call async translation method if available, otherwise fall back to sync
-            if hasattr(translator, 'translate_async'):
-                translation = await translator.translate_async(lines)
-            else:
-                translation = await asyncio.to_thread(translator.translate, lines)
+            logger.info(f"Translating {input_file_path}")
+            translation = await translator.translate_async(lines)
             translation = translation.splitlines()
 
             for key, value in zip(l_english.keys(), translation):
@@ -141,18 +93,7 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
 
             # Create output directory if needed
             await asyncio.to_thread(os.makedirs, output_dir, exist_ok=True)
-
-            # Write file
-            dumped = yaml.dump(
-                content,
-                Dumper=DoubleQuotedDumper,
-                allow_unicode=True,
-                sort_keys=False,
-                width=float('inf'),
-            )
-            async with aiofiles.open(output_file_path, "w") as output_file_handle:
-                await output_file_handle.write(dumped.strip())
-
+            await async_write_eu5_localization_yaml(content, output_file_path)
             logger.info(f"Translated {file_name} -> {output_file_name}")
             return True
 
@@ -161,60 +102,44 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
         return False
 
 
-def _validate_yaml_file(file_path: str) -> bool:
-    """Validate a YAML file by parsing it and checking for errors."""
-    try:
-        with open(file_path, "r") as file_handle:
-            content = yaml.load(file_handle, Loader=yaml.FullLoader)
-        return "l_english" in content
-    except Exception:
-        logger.exception(f"Error parsing {file_path}")
-        return False
+def _find_untranslated_files(max_translations: int, overwrite_existing_translation: bool = False, source_language = "english") -> list[Tuple[str, str, str]]:
+    files_to_translate: list[Tuple[str, str, str]] = []
+    english_files = list_localization_files(source_language)
+    for input_file_path in english_files:
+        input_dir_path, file_name = os.path.split(input_file_path)
+        output_dir_path = input_dir_path.replace("/english", "/ukrainian")
+        output_file_name = file_name.replace("_l_english.yml", "_l_ukrainian_machine_translation.yml")
+        output_file_path = os.path.join(output_dir_path, output_file_name)
 
+        if os.path.exists(output_file_path) and not overwrite_existing_translation:
+            logger.info(f"Skipping {file_name} -> {output_file_name} (already exists)")
+            continue
+        if not validate_localization_file(input_file_path, source_language):
+            logger.info(f"Skipping {file_name} -> {output_file_name} (invalid localization file)")
+            continue
 
-async def translate_dir_async(dir_path: str, translator: Translator, max_translations: int | None = None,
-                               overwrite_existing_translation: bool = False, max_concurrency: int = 8):
+        files_to_translate.append((input_file_path, output_file_path, output_dir_path))
+        if max_translations and len(files_to_translate) >= max_translations:
+            break
+    logger.info(f"Identified {len(files_to_translate)} files to translate")
+    return files_to_translate
+
+async def translate_dir_async(translator: Translator, max_files_to_translate: int | None = None,
+                              overwrite_existing_translation: bool = False, max_concurrency: int = 8):
     """Translate all English localization files in directory tree asynchronously.
 
     Args:
         dir_path: Root directory to search for translation files
         translator: Translator instance to use
-        max_translations: Maximum number of files to translate (None for unlimited)
+        max_files_to_translate: Maximum number of files to translate (None for unlimited)
         overwrite_existing_translation: Whether to overwrite existing translations
         max_concurrency: Maximum number of concurrent translation tasks
     """
     # Collect all files to translate
-    files_to_translate = []
+    files_to_translate = _find_untranslated_files(max_files_to_translate, overwrite_existing_translation)
 
-    for root, dirs, files in os.walk(dir_path):
-        for file_name in files:
-            if not "_l_english" in file_name or not file_name.endswith(".yml"):
-                continue
-
-            input_file_path = os.path.join(root, file_name)
-            output_dir = root.replace("/english", "/ukrainian")
-            output_file_name = file_name.replace("_l_english.yml", "_l_ukrainian_machine_translation.yml")
-            output_file_path = os.path.join(output_dir, output_file_name)
-
-            if os.path.exists(output_file_path) and not overwrite_existing_translation:
-                logger.info(f"Skipping {file_name} -> {output_file_name} (already exists)")
-                continue
-            if not _validate_yaml_file(input_file_path):
-                logger.info(f"Skipping {file_name} -> {output_file_name} (invalid YAML)")
-                continue
-
-            files_to_translate.append((input_file_path, output_file_path, output_dir))
-            if max_translations and len(files_to_translate) >= max_translations:
-                break
-
-        if max_translations and len(files_to_translate) >= max_translations:
-            break
-    logger.info(f"Identified {len(files_to_translate)} files to translate")
-
-    # Create semaphore to limit concurrency
+    # Setting up concurrency
     semaphore = asyncio.Semaphore(max_concurrency)
-
-    # Create tasks for all files
     tasks = [
         translate_file(input_path, output_path, output_dir, translator, semaphore)
         for input_path, output_path, output_dir in files_to_translate
@@ -228,15 +153,13 @@ async def translate_dir_async(dir_path: str, translator: Translator, max_transla
     logger.info(f"Completed: {successful}/{len(files_to_translate)} files translated successfully")
 
 
-def translate_dir(dir_path: str, translator: Translator, max_translations: int | None = None,
-                  overwrite_existing_translation: bool = False, max_concurrency: int = 5):
+def translate_dir(translator: Translator, max_translations: int | None = None,
+                  overwrite_existing_translation: bool = False, max_concurrency: int = 8):
     """Synchronous wrapper for translate_dir_async."""
-    asyncio.run(translate_dir_async(dir_path, translator, max_translations,
-                                    overwrite_existing_translation, max_concurrency))
+    asyncio.run(translate_dir_async(translator, max_translations, overwrite_existing_translation, max_concurrency))
 
 
 if __name__ == '__main__':
     load_dotenv()
     _translator = GeminiTranslator()
-    _source_dir = "../Ukrainian Localization"
-    translate_dir(_source_dir, _translator, max_translations=1024, overwrite_existing_translation=False)
+    translate_dir(_translator, max_translations=1024, overwrite_existing_translation=False)

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   TRAIT_WHEN_RULER: "[Concept('ruler_trait', 'CONCEPT_PLACEHOLDER')|e]"
   TRAIT_WHEN_GENERAL: "[Concept('general_trait', 'CONCEPT_PLACEHOLDER')|e]"
   TRAIT_WHEN_ADMIRAL: "[Concept('admiral_trait', 'CONCEPT_PLACEHOLDER')|e]"

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   DEBUG_HEADER: "ЛАДКА:#!\n"
   TOOLTIP_DEBUG_GENERIC: "ЛАДКА: $STRING$#!"
   TOOLTIP_DEBUG_KEY: "ЛАДКА: Ключ = $KEY$#!"

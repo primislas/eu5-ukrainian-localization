@@ -7,6 +7,7 @@ from google.genai.types import GenerateContentConfig, HttpOptions, HttpRetryOpti
 
 from ukrainersalis_utils.logger import logger
 from ukrainersalis_utils.translators.translation_api import Translator
+from ukrainersalis_utils.utils.translation_utils import POSTEDIT_TRANSLATION_FAILURE
 
 _DEFAULT_GEMINI_MODEL = "gemini-2.5-flash"
 _DEFAULT_SYSTEM_INSTRUCTION = """Role: You are a professional game localizer for the historical grand strategy game "Europa Universalis V".
@@ -202,12 +203,12 @@ class GeminiTranslator(Translator):
 
         if output_line_count > batch_size:
             logger.warning(
-                f"Input line count ({batch_size}) is less than output line count ({output_line_count}), taking only {batch_size} first lines, records {already_processed}-{already_processed + batch_size}, translation:\n{text}")
-            output_lines = output_lines[:batch_size]
+                f"Input line count ({batch_size}) is less than output line count ({output_line_count}), assuming an error, translation:\n{text}")
+            output_lines = [POSTEDIT_TRANSLATION_FAILURE] * output_line_count
         elif output_line_count < batch_size:
             logger.warning(
-                f"Input line count ({batch_size}) is greater than output line count ({output_line_count}), padding with empty lines, records {already_processed}-{already_processed + batch_size}, translation:\n{text}")
-            output_lines.extend([""] * (batch_size - output_line_count))
+                f"Input line count ({batch_size}) is greater than output line count ({output_line_count}), assuming an error, translation:\n{text}")
+            output_lines = [POSTEDIT_TRANSLATION_FAILURE] * output_line_count
 
         return output_lines
 
@@ -232,7 +233,13 @@ class GeminiTranslator(Translator):
         """Async version of translate with retry for line count mismatch."""
         translation = await self._translate_async(text, expected_output_lines)
         if not translation or len(translation.splitlines()) != expected_output_lines:
+            await asyncio.sleep(5)
             translation = await self._translate_async(text, expected_output_lines)
+            # Occasional Gemini glitch
+            if translation.startswith("Thought") or translation.startswith("THOUGHT") and "The user" in translation:
+                await asyncio.sleep(10)
+                translation = await self._translate_async(text, expected_output_lines)
+
         if not translation:
             translation = "\n".join(["POSTEDIT_FAILED_TRANSLATION"] * expected_output_lines)
 

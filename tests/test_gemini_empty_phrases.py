@@ -1,4 +1,4 @@
-from ukrainersalis_utils.gemini_translation import GeminiTranslator
+from ukrainersalis_utils.gemini_translator import GeminiTranslator
 
 def test_match_empty_phrases_basic():
     # Input batch has leading and trailing empty lines

@@ -11,6 +11,11 @@ def test_expand_concepts_mixed_case():
     expected = "See [Concept('locations', 'CONCEPT_PLACEHOLDER')|e] and [Concept('peace', 'CONCEPT_PLACEHOLDER')|e] for more info."
     assert expand_concepts(input_text) == expected
 
+def test_expand_concepts_with_other_variables():
+    input_text = "Дипломатичний статус [COUNTRY.GetName] НЕ дозволяє створення [alliance|e] з [TARGET_COUNTRY.GetName]."
+    expected = "Дипломатичний статус [COUNTRY.GetName] НЕ дозволяє створення [Concept('alliance', 'CONCEPT_PLACEHOLDER')|e] з [TARGET_COUNTRY.GetName]."
+    assert expand_concepts(input_text) == expected
+
 def test_expand_concepts_multiple():
     input_text = "See [locations|e] and [peace|e] for more info."
     expected = "See [Concept('locations', 'CONCEPT_PLACEHOLDER')|e] and [Concept('peace', 'CONCEPT_PLACEHOLDER')|e] for more info."
