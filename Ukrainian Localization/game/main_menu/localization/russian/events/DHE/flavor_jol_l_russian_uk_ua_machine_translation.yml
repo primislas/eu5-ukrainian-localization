@@ -1,0 +1,6 @@
+﻿l_russian:
+  flavor_jol.1.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] та нова віра"
+  flavor_jol.1.desc: "Ми продовжуємо нарощувати вплив у #TOOLTIP:REGION,guinea_region,X #L Гвінеї#!#!, однак місцеві [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], до чиїх потреб ми непогано адаптувалися, досі значною мірою залишаються чужими як #L #L [ROOT.GetCountry.GetReligion.GetAdjective|l]#!им#!, так і #L [ROOT.GetCountry.GetCulture.GetName|l]им#! цінностям. Можливо, нам варто запустити кампанію, щоб прискорити процес інтеграції."
+  flavor_jol.1.a: "Забезпечимо стабільність у [ROOT.GetCountry.Custom('CL_PP')]!"
+  flavor_jol.1.b: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] не потерплять примусу."
+  jol_convert_nobility_tt: "#Y 15%#! [Concept('pops','населення')|e] зі стану «[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l]» приймуть #L [ROOT.GetCountry.GetCulture.GetName|l]і#! та #L #L [ROOT.GetCountry.GetReligion.GetAdjective|l]#!і#! цінності"

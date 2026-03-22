@@ -502,7 +502,7 @@
  international_organization_MARRIAGE_UNION_COUNTRIES_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,MARRIAGE_UNION_COUNTRIES_iott,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]ой брачной унии#!#!"
  international_organization_MARRIAGE_UNION_DYNASTIES_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,MARRIAGE_UNION_DYNASTIES_iott,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ско-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetDynasty.GetNameWithNoTooltip]ской брачной унии#!#!"
  international_organization_MARRIAGE_UNION_SAME_DYNASTY_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,MARRIAGE_UNION_SAME_DYNASTY_iott,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ской брачной унии#!#!"
- 							
+        
  international_organization_hre_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,hre_iott,X #L Священной Римской Империи#!#!"
  international_organization_catholic_church_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_church_iott,X #L Католической церкви#!#!"
  international_organization_autocephalous_patriarchate_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,autocephalous_patriarchate_iott,X #L Автокефальному патриархату#!#!"
@@ -586,7 +586,7 @@
  international_organization_MARRIAGE_UNION_COUNTRIES_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,MARRIAGE_UNION_COUNTRIES_iott,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]ой брачной унии#!#!"
  international_organization_MARRIAGE_UNION_DYNASTIES_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,MARRIAGE_UNION_DYNASTIES_iott,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ско-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetDynasty.GetNameWithNoTooltip]ской брачной унии#!#!"
  international_organization_MARRIAGE_UNION_SAME_DYNASTY_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,MARRIAGE_UNION_SAME_DYNASTY_iott,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ской брачной унии#!#!"
-							
+       
  international_organization_hre_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,hre_iott,X #L Священную Римскую Империю#!#!"
  international_organization_catholic_church_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_church_iott,X #L Католическую церковь#!#!"
  international_organization_autocephalous_patriarchate_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,autocephalous_patriarchate_iott,X #L Автокефальный патриархат#!#!"
@@ -670,7 +670,7 @@
  international_organization_MARRIAGE_UNION_COUNTRIES_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,MARRIAGE_UNION_COUNTRIES_iott,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]ую брачную унию#!#!"
  international_organization_MARRIAGE_UNION_DYNASTIES_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,MARRIAGE_UNION_DYNASTIES_iott,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ско-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetDynasty.GetNameWithNoTooltip]скую брачную унию#!#!"
  international_organization_MARRIAGE_UNION_SAME_DYNASTY_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,MARRIAGE_UNION_SAME_DYNASTY_iott,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]скую брачную унию#!#!"
-							
+       
  international_organization_hre_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,hre_iott,X #L Священной Римской Империей#!#!"
  international_organization_catholic_church_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_church_iott,X #L Католической церковью#!#!"
  international_organization_autocephalous_patriarchate_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,autocephalous_patriarchate_iott,X #L Автокефальным патриархатом#!#!"
@@ -754,7 +754,7 @@
  international_organization_MARRIAGE_UNION_COUNTRIES_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,MARRIAGE_UNION_COUNTRIES_iott,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]ой брачной унией#!#!"
  international_organization_MARRIAGE_UNION_DYNASTIES_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,MARRIAGE_UNION_DYNASTIES_iott,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ско-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetDynasty.GetNameWithNoTooltip]ской брачной унией#!#!"
  international_organization_MARRIAGE_UNION_SAME_DYNASTY_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,MARRIAGE_UNION_SAME_DYNASTY_iott,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ской брачной унией#!#!"
-							
+       
  hre_iott: "2"
  international_organization_hre_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,hre_iott,X #L Священной Римской Империи#!#!"
  international_organization_catholic_church_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,catholic_church_iott,X #L Католической церкви#!#!"

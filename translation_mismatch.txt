@@ -1,0 +1,6 @@
+2026-03-20 04:02:53,245 [INFO][ukrainersalis_utils][auto_translation.py:139] Translating ../Ukrainian Localization/game/main_menu/localization/english/triggers_l_english.yml
+2026-03-20 04:19:19,796 [WARNING][ukrainersalis_utils][gemini_translation.py:93] Input line count (50) is greater than output line count (45)
+2026-03-20 04:19:19,796 [DEBUG][ukrainersalis_utils][gemini_translation.py:54] Translated 2750/6747 phrases
+
+
+

@@ -1,0 +1,8 @@
+﻿l_russian:
+  SETTING_REFRACTION: "Переломлення"
+  SETTING_REFRACTION_QUALITY: "Якість переломлення"
+  SETTING_MAPOBJECT_QUALITY: "Об'єкти на карті"
+  SETTING_MAP_SSAO: "SSAO для карти"
+  SETTING_DOF: "Глибина поля"
+  SETTING_LENS_FLARE: "Відблиски"
+  SETTING_SECONDARY_LENS_FLARE: "Вторинні відблиски"

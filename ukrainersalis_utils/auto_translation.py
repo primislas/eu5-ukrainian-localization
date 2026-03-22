@@ -5,7 +5,7 @@ from typing import Tuple
 
 from dotenv import load_dotenv
 
-from ukrainersalis_utils.gemini_translator import GeminiTranslator
+from ukrainersalis_utils.gemini_translator import GeminiTranslator, RU_UA_SYSTEM_INSTRUCTION
 from ukrainersalis_utils.logger import logger
 from ukrainersalis_utils.translators.translation_api import Translator
 from ukrainersalis_utils.utils.file_utils import list_localization_files
@@ -163,7 +163,7 @@ async def translate_dir_async(translator: Translator, max_files_to_translate: in
 
 if __name__ == '__main__':
     load_dotenv()
-    _translator = GeminiTranslator()
+    _translator = GeminiTranslator(system_instruction=RU_UA_SYSTEM_INSTRUCTION)
     asyncio.run(translate_dir_async(
-        _translator, max_files_to_translate=1024, overwrite_existing_translation=False,
-        source_language="english", target_language="ukrainian", translation_suffix="machine_translation"))
+        _translator, max_files_to_translate=512, overwrite_existing_translation=False,
+        source_language="russian", target_language="russian", translation_suffix="uk_ua_machine_translation"))

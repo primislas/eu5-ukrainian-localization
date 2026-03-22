@@ -1,0 +1,8 @@
+﻿l_russian:
+  JOMINI_NOTIFICATION_TIMESTAMP_NOW: "Тільки що"
+  JOMINI_NOTIFICATION_TIMESTAMP_MINUTES: "$MINUTES$ хв. тому"
+  JOMINI_NOTIFICATION_TIMESTAMP: "$DATE$"
+  JOMINI_DLC_MANAGER_DISABLED_MODS_CRASH_TITLE: "Модифікації вимкнено"
+  JOMINI_DLC_MANAGER_DISABLED_MODS_CRASH_DESC: "Під час останнього запуску гри виникла проблема, ймовірно, через несумісні модифікації.\nДля забезпечення стабільності всі модифікації тимчасово вимкнено.\nЩоб повторно ввімкнути модифікації, відкрийте «$MESSAGE$», видаліть модифікації, що спричиняють проблеми, та підтвердьте зміни."
+  JOMINI_DLC_MANAGER_OUTDATED_MODS_ALERT_TITLE: "Знайдено непідтримувані модифікації"
+  JOMINI_DLC_MANAGER_OUTDATED_MODS_ALERT_DESC: "Деякі з ваших модифікацій призначені для іншої версії гри $GAME$. Ці модифікації можуть працювати некоректно та спричинити проблеми під час гри. Ми рекомендуємо вимкнути ці модифікації та не підключати їх, доки вони не будуть оновлені.\n\nНе підтримуються такі модифікації:\n$MODS_OUTDATED_LIST$"

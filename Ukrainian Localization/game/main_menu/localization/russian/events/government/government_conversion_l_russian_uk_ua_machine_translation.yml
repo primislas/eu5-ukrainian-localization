@@ -1,0 +1,5 @@
+﻿l_russian:
+  government_conversion_events.conversion_complete.title: "[target_government_type.GetNameWithNoTooltip] зміцнює вплив на території [target_country.Custom('CL_RP')]"
+  government_conversion_events.conversion_complete.title_fallback: "Реформа уряду"
+  government_conversion_events.conversion_complete.desc: "Останні кілька років ознаменувалися нестабільністю та заворушеннями. [target_country.GetLongName] — держава, де [target_government_type.GetName|l] потребує реформи. У довгостроковій перспективі це буде найкращим рішенням, однак багато впливових старців, що загрузли в безчесті, щосили трималися за старі порядки і сподівалися, що [origin_government_type.GetName|l] не зміниться. Попри все, [target_character.GetName] [Select_CString(target_character.IsFemale,'подолала', 'подолав')] усі труднощі і [Select_CString(target_character.IsFemale,'покінчила', 'покінчив')] зі старими традиціями. Тепер [target_government_type.GetNameWithNoTooltip|l] може зосередити владу у своїх руках."
+  government_conversion_events.conversion_complete.a: "Ми більше не [origin_government_type.GetNameWithNoTooltip|l], а [target_government_type.GetNameWithNoTooltip|l]!"

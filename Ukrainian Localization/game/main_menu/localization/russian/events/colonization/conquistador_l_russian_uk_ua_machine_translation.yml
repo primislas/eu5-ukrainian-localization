@@ -1,0 +1,12 @@
+﻿l_russian:
+  conquistador.1.title: "Завоювання [SCOPE.sLocation('target_location').Custom('LR_RP')|l] [SCOPE.sLocation('target_location').GetNameWithNoTooltip]"
+  conquistador.1.desc: "Наш конкістадор прибув у район [SCOPE.sLocation('target_location').GetName], щоб поширити там наш вплив."
+  conquistador.1.a: "Подивимося, чим багаті ці землі!"
+  conquistador.10.title: "Завоювання [ROOT.GetLocation.Custom('LR_RP')|l] [ROOT.GetLocation.GetNameWithNoTooltip]"
+  conquistador.10.desc: "Нам вдалося зайняти ще більше територій і заволодіти багатствами #ONCLICK:COUNTRY,[ROOT.GetLocation.GetOwner.GetDiplomacy.GetOverlord.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetLocation.GetOwner.GetDiplomacy.GetOverlord.Custom('CL_tt')],X [ROOT.GetLocation.GetOwner.GetDiplomacy.GetOverlord.Custom('CL_RP')|L]#!#! в ім'я Господа і держави!"
+  conquistador.10.a: "У світі ще повно незайнятих земель!"
+  conquistador.10.b: "Ми не зможемо керувати всім цим без підтримки."
+  conquistador.11.title: "[conquistador_country.GetGovernment.GetRuler.GetNameWithNoTooltip] і [Select_CString(conquistador_country.GetGovernment.GetRuler.IsFemale,'її', 'його')] колонія"
+  conquistador.11.desc: "[conquistador_country.GetLongName] — ця держава запитує у нас підтримку. Якщо ми погодимося, то станемо їхнім сюзереном!"
+  conquistador.11.a: "Чудова ідея!"
+  conquistador.11.b: "Їхні проблеми нас не стосуються."

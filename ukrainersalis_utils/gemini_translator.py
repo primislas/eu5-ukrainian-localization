@@ -9,8 +9,8 @@ from ukrainersalis_utils.logger import logger
 from ukrainersalis_utils.translators.translation_api import Translator
 from ukrainersalis_utils.utils.translation_utils import POSTEDIT_TRANSLATION_FAILURE
 
-_DEFAULT_GEMINI_MODEL = "gemini-2.5-flash"
-_DEFAULT_SYSTEM_INSTRUCTION = """Role: You are a professional game localizer for the historical grand strategy game "Europa Universalis V".
+DEFAULT_GEMINI_MODEL = "gemini-2.5-flash"
+DEFAULT_SYSTEM_INSTRUCTION = """Role: You are a professional game localizer for the historical grand strategy game "Europa Universalis V".
 Task: Translate English game script lines into Ukrainian.
 
 ### Rules:
@@ -31,10 +31,38 @@ This is a placeholder for the menu.
 Output:
 [PROVINCE.GetName] НЕ має $COMPARATOR$ $NUM|V2$ [rebel|e] прогресу
 Це заповнювач для меню."""
+RU_UA_SYSTEM_INSTRUCTION = """Role: You are a professional game localizer for the historical grand strategy game "Europa Universalis V".
+Task: Translate Ukraine game script lines into Ukrainian.
+
+### Rules:
+1.  One-to-One Mapping: Translate each input line as a strictly independent unit. Every 1 line of input MUST result in exactly 1 line of output. Do not merge or split lines.
+2.  Variable Preservation: Do NOT translate or modify script variables, engine constructs (items in square braces, in-between USD signs, expressions like '#L', '#1', other obvious scripting elements, e.g., '[GetPlayerName]', '[rebel|e]', '$COUNT$'), or escape sequences (e.g., \\n). Keep them exactly as they appear in the source.
+3.  Historical Tone: Use an archaic, flowery or "chronicle" flair for narrative text and event descriptions. Use standard modern technical terms for UI settings, game mechanics.
+4.  Specific Terms:
+    *   "заглушка" -> "заповнювач", when it's the only word in the line, or when it clearly applies to menus and settings.
+    *   Geographic names: Use modern standard Ukrainian names.
+    *   Names and last names: Use modern standard Ukrainian names.
+5.  Low-Confidence Flagging: If you are uncertain about the translation of a proper noun (dynasty, ethnicity, culture), prefix it with 'POSTEDIT_'.
+6.  Translate only Russian text. Do not translate any other language.
+7.  Attempt to keep sentence structure as close to the original as possible.
+8.  Sometimes you'll encounter constructs which signify gender-based endings, such as "ая", "ое", "ии". These are endings, translate them to corresponding Ukrainian endings. For example, "ие" - "і", "ая" - "а", "ое" - "е", "ий" - "ий", "ые" - "і", etc.
+9.  Sometimes you'll encounter adjectives without endings. Translate them to Ukrainian adjectives and also remove endings. For example, "французск" -> "французськ", "немецк" -> "німецьк", etc.
+10.  Keep NBSP symbols, if available in the source text, in-between equivalent words in translated text, if applicable and structure isn't too different.
+11.  Format: Output only the translated plain text. Only the result. No thoughts, no explanation, no LaTeX, and no markdown formatting.
+
+### Example:
+Input:
+[PROVINCE.GetName] отсутствует $COMPARATOR$ $NUM|V2$ [rebel|e] прогрес
+Это заглушка для меню
+[Concept('language','Язык')|e]: #L [CountryCultureLateralView.GetCulture.GetLanguage.GetName|l]ое#!
+Output:
+[PROVINCE.GetName] відсутній $COMPARATOR$ $NUM|V2$ [rebel|e] прогрес
+Це заповнювач для меню.
+[Concept('language','Мова')|e]: #L [CountryCultureLateralView.GetCulture.GetLanguage.GetName|l]е#!"""
 
 
 class GeminiTranslator(Translator):
-    def __init__(self, model: str = _DEFAULT_GEMINI_MODEL, system_instruction: str = _DEFAULT_SYSTEM_INSTRUCTION,
+    def __init__(self, model: str = DEFAULT_GEMINI_MODEL, system_instruction: str = DEFAULT_SYSTEM_INSTRUCTION,
                  batch_size: int = 25, min_last_batch_size: int = 10, max_concurrent_batches: int = 8):
         self.model = model
         self.system_instruction = system_instruction
@@ -116,7 +144,7 @@ class GeminiTranslator(Translator):
             if isinstance(result, Exception):
                 logger.error(f"Batch {batch_idx + 1}/{total_batches} failed: {result}")
                 # Fill with empty strings to maintain line count
-                translations.extend(["POSTEDIT_FAILED_TRANSLATION"] * len(batches[batch_idx]))
+                translations = [POSTEDIT_TRANSLATION_FAILURE] * len(batches[batch_idx])
             else:
                 translations.extend(result)
 
@@ -139,13 +167,8 @@ class GeminiTranslator(Translator):
         """
         async with semaphore:
             batch_text = "\n".join(batch)
-
-            # Use native async API
             translation = await self._translate_to_match_line_count_async(batch_text, len(batch))
-
-            output_lines = self._splitlines_and_pad_to_batch_size(
-                translation, batch, batch_index * self._batch_size
-            )
+            output_lines = self._splitlines_and_pad_to_batch_size(translation, batch)
 
             # Calculate completed phrases
             if batch_index + 1 == total_batches:
@@ -194,7 +217,7 @@ class GeminiTranslator(Translator):
         return batches
 
     @staticmethod
-    def _splitlines_and_pad_to_batch_size(text: str, input_batch: list[str], already_processed: int) -> list[str]:
+    def _splitlines_and_pad_to_batch_size(text: str, input_batch: list[str]) -> list[str]:
         output_lines = text.splitlines()
         batch_size = len(input_batch)
 
@@ -204,11 +227,11 @@ class GeminiTranslator(Translator):
         if output_line_count > batch_size:
             logger.warning(
                 f"Input line count ({batch_size}) is less than output line count ({output_line_count}), assuming an error, translation:\n{text}")
-            output_lines = [POSTEDIT_TRANSLATION_FAILURE] * output_line_count
+            output_lines = [POSTEDIT_TRANSLATION_FAILURE] * batch_size
         elif output_line_count < batch_size:
             logger.warning(
                 f"Input line count ({batch_size}) is greater than output line count ({output_line_count}), assuming an error, translation:\n{text}")
-            output_lines = [POSTEDIT_TRANSLATION_FAILURE] * output_line_count
+            output_lines = [POSTEDIT_TRANSLATION_FAILURE] * batch_size
 
         return output_lines
 

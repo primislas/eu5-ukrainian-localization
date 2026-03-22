@@ -1,0 +1,11 @@
+﻿l_russian:
+  ap_falls_desc_key: "Після складної облоги оборона відважного гарнізону була зламана, і [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetName] пав перед нашими могутніми арміями. Всередині стін міста знаходиться впливова релігійна організація: раніше тут засідали верховні #TOOLTIP:RELIGION,$orthodox_tt$,X #L православні#!#! служителі. Чи варто нам скасувати цей братський інститут або прийняти його під своє заступництво?"
+  autocephalous_patriarchates.1.title: "Автокефальний патріархат пав!"
+  autocephalous_patriarchates.1.desc: "$ap_falls_desc_key$"
+  autocephalous_patriarchates.1.a: "Розпустимо патріархат."
+  autocephalous_patriarchates.1.b: "Збережемо патріархат."
+  autocephalous_patriarchates.2.title: "Автокефальний патріархат пав!"
+  autocephalous_patriarchates.2.desc: "$ap_falls_desc_key$"
+  autocephalous_patriarchates.2.a: "Розпустимо патріархат."
+  autocephalous_patriarchates.2.b: "Збережемо патріархат."
+  every_member_of_scopeloser_ap_loses_opinion_of_scopewinner_tt: "Усі члени патріархату «[target_ap.GetName]» змінять свою думку про нас на [ShowBiasValue('destroyed_my_autocephalous_patriarchate')|-=0]"

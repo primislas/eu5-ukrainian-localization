@@ -1,0 +1,13 @@
+﻿l_russian:
+  legatusnatus.1.title: "Папський легат"
+  legatusnatus.1.desc: "[home_ruler.GetName] давно [Select_CString(emperor_character.IsFemale, 'удостоїлася', 'удостоївся')] честі бути представником папи римського, яким нині є [pope_ruler.GetName], у землях на північ від Альп.\nПочесний титул #TOOLTIP:GOVERNMENT_REFORM,legatus_natus,X #L папського легата#!#! можуть носити лише гідні люди, тому ми зобов'язані підтримувати наш престиж і дбати про те, щоб [GetCountry('PAP').GetGovernment.GetRulerTitle] [GetCountry('PAP').GetGovernment.GetRuler.IsFemale, 'була', 'був'] хорошої про нас думки."
+  legatusnatus.1.a: "Усе в руках Господа."
+  legatusnatus.2.title: "Втрата титулу папського легата"
+  legatusnatus.2.desc: "Останнім часом наше становище в #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священній Римській Імперії#!#! та стосунки з папою римським, яким зараз є [pope_ruler.GetName], суттєво погіршилися. [GetCountry('PAP').GetGovernment.GetRulerTitle], схоже, більше не впевнений у тому, що ми гідні бути #TOOLTIP:GOVERNMENT_REFORM,legatus_natus,X #L папським легатом#!#! в імперії, і, на жаль, вирішив позбавити нас цього титулу."
+  legatusnatus.2.a: "Гадаю, усе було в моїх руках, зрештою…"
+  legatusnatus.3.title: "[GetCountry('PAP').GetGovernment.GetRulerTitle] надсилає звістку"
+  legatusnatus.3.desc: "Добрі новини! [pope_ruler.GetName] вирішив, що [home_ruler.GetName] [Select_CString(home_ruler.IsFemale,'гідна','гідний')] отримати почесний титул #TOOLTIP:GOVERNMENT_REFORM,legatus_natus,X #L папського легата#!#! і виступати в якості представника понтифіка в землях на північ від Альп. Колишній володар цього титулу втратив прихильність Святого Престолу."
+  legatusnatus.3.a: "Невже це промінь світла в царстві мороку?"
+  legatusnatus.4.title: "Титул #TOOLTIP:GOVERNMENT_REFORM,legatus_natus,X #L папського легата#!#! відкликано"
+  legatusnatus.4.desc: "#TOOLTIP:GOVERNMENT_REFORM,legatus_natus,X #L Папський легат#!#! — це почесний титул, яким можуть володіти лише #TOOLTIP:RELIGION,catholic_tt,X #L католицькі#!#! єпископи #ONCLICK:INTERNATIONAL_ORGANIZATION,hre #TOOLTIP:INTERNATIONAL_ORGANIZATION,hre,X #L Священної Римської Імперії#!#!. Оскільки ми більше не відповідаємо цій вимозі, [pope_ruler.GetName] [Select_CString(pope_ruler.IsFemale, 'позбавила', 'позбавив')] нас цього титулу."
+  legatusnatus.4.a: "Прокляття тобі, [GetCountry('PAP').GetGovernment.GetRulerTitle]!"

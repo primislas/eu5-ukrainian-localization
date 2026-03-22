@@ -1,0 +1,9 @@
+﻿l_russian:
+  flavor_zzz.1.title: "Стіни [target_location.GetRank.Custom('LR_RP')|l] [target_location.GetNameWithNoTooltip]"
+  flavor_zzz.1.desc: "Наша войовничість зростає день у день, охоплюючи всю #TOOLTIP:REGION,guinea_region,X #L Гвінею#!#!. [target_location.GetName] сьогодні — не тільки осередок культури: тут також точиться боротьба, і тому [target_character.GetName] збирається звести навколо #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_GEN')|l]#!#! незламні стіни, назвавши їх своїм ім'ям."
+  flavor_zzz.1.a: "Захистимо [target_location.Custom('LR_VP')|l] [target_location.GetNameWithNoTooltip]."
+  flavor_zzz.1.b: "Стіни не потрібні."
+  flavor_zzz.2.title: "[ROOT.GetCountry.GetNameWithNoTooltip] у наступі"
+  flavor_zzz.2.desc: "Міць військ #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_RP')|L]#!#! помітно зросла, і сьогодні [target_character.GetName] та [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] розмірковують, яким саме чином можна зробити нашу державу ще сильнішою. Нам належить обрати один із двох підходів: або перейти в наступ і завоювати сусідів, або піти в оборону та захищати вже завойовані землі."
+  flavor_zzz.2.a: "Вперед до завоювань!"
+  flavor_zzz.2.b: "Варто зміцнитися на вже захоплених землях."
