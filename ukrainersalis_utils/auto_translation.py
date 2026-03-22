@@ -64,7 +64,8 @@ def translation_postprocessing(line: str) -> str:
 
 
 async def translate_file(input_file_path: str, output_file_path: str, output_dir: str,
-                         translator: Translator, semaphore: asyncio.Semaphore) -> bool:
+                         translator: Translator, semaphore: asyncio.Semaphore,
+                         source_language: str = "english") -> bool:
     """Translate a single file asynchronously.
 
     Returns:
@@ -77,19 +78,19 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
         async with semaphore:
             # Read file
             content = await load_eu5_yaml_async(input_file_path)
-            l_english = content.get("l_english")
-            lines = "\n".join([translation_preprocessing(l) for l in l_english.values()])
+            localization = content.get(f"l_{source_language}", {})
+            lines = "\n".join([translation_preprocessing(l) for l in localization.values()])
 
             logger.info(f"Translating {input_file_path}")
             translation = await translator.translate_async(lines)
             translation = translation.splitlines()
 
-            for key, value in zip(l_english.keys(), translation):
+            for key, value in zip(localization.keys(), translation):
                 translated_value = translation_postprocessing(value)
                 if translated_value == "" and value != "":
                     logger.warning(f"Empty translation for {key} in {file_name}, potentially a translation glitch")
                     translated_value = "POSTEDIT_EMPTY_TRANSLATION"
-                l_english[key] = translated_value
+                localization[key] = translated_value
 
             # Create output directory if needed
             await asyncio.to_thread(os.makedirs, output_dir, exist_ok=True)
@@ -102,13 +103,15 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
         return False
 
 
-def _find_untranslated_files(max_translations: int, overwrite_existing_translation: bool = False, source_language = "english") -> list[Tuple[str, str, str]]:
+def _find_untranslated_files(max_translations: int, overwrite_existing_translation: bool = False,
+                             source_language: str = "english", target_language: str = "ukrainian",
+                             translation_suffix: str = "machine_translation") -> list[Tuple[str, str, str]]:
     files_to_translate: list[Tuple[str, str, str]] = []
     english_files = list_localization_files(source_language)
     for input_file_path in english_files:
         input_dir_path, file_name = os.path.split(input_file_path)
-        output_dir_path = input_dir_path.replace("/english", "/ukrainian")
-        output_file_name = file_name.replace("_l_english.yml", "_l_ukrainian_machine_translation.yml")
+        output_dir_path = input_dir_path.replace(f"/{source_language}", f"/{target_language}")
+        output_file_name = file_name.replace(f"_l_{source_language}.yml", f"_l_{target_language}_{translation_suffix}.yml")
         output_file_path = os.path.join(output_dir_path, output_file_name)
 
         if os.path.exists(output_file_path) and not overwrite_existing_translation:
@@ -125,7 +128,9 @@ def _find_untranslated_files(max_translations: int, overwrite_existing_translati
     return files_to_translate
 
 async def translate_dir_async(translator: Translator, max_files_to_translate: int | None = None,
-                              overwrite_existing_translation: bool = False, max_concurrency: int = 8):
+                              overwrite_existing_translation: bool = False, max_concurrency: int = 8,
+                              source_language: str = "english", target_language: str = "ukrainian",
+                              translation_suffix: str = "machine_translation"):
     """Translate all English localization files in directory tree asynchronously.
 
     Args:
@@ -134,14 +139,17 @@ async def translate_dir_async(translator: Translator, max_files_to_translate: in
         max_files_to_translate: Maximum number of files to translate (None for unlimited)
         overwrite_existing_translation: Whether to overwrite existing translations
         max_concurrency: Maximum number of concurrent translation tasks
+        source_language: Source language of the files to translate
+        target_language: Target language for the translations
+        translation_suffix: Suffix to append to the output file names
     """
     # Collect all files to translate
-    files_to_translate = _find_untranslated_files(max_files_to_translate, overwrite_existing_translation)
+    files_to_translate = _find_untranslated_files(max_files_to_translate, overwrite_existing_translation, source_language, target_language, translation_suffix)
 
     # Setting up concurrency
     semaphore = asyncio.Semaphore(max_concurrency)
     tasks = [
-        translate_file(input_path, output_path, output_dir, translator, semaphore)
+        translate_file(input_path, output_path, output_dir, translator, semaphore, source_language=source_language)
         for input_path, output_path, output_dir in files_to_translate
     ]
 
@@ -153,13 +161,9 @@ async def translate_dir_async(translator: Translator, max_files_to_translate: in
     logger.info(f"Completed: {successful}/{len(files_to_translate)} files translated successfully")
 
 
-def translate_dir(translator: Translator, max_translations: int | None = None,
-                  overwrite_existing_translation: bool = False, max_concurrency: int = 8):
-    """Synchronous wrapper for translate_dir_async."""
-    asyncio.run(translate_dir_async(translator, max_translations, overwrite_existing_translation, max_concurrency))
-
-
 if __name__ == '__main__':
     load_dotenv()
     _translator = GeminiTranslator()
-    translate_dir(_translator, max_translations=1024, overwrite_existing_translation=False)
+    asyncio.run(translate_dir_async(
+        _translator, max_files_to_translate=1024, overwrite_existing_translation=False,
+        source_language="english", target_language="ukrainian", translation_suffix="machine_translation"))

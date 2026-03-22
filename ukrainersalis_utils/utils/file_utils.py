@@ -8,12 +8,13 @@ from ukrainersalis_utils.logger import logger
 load_dotenv()
 
 project_dir = Path(__file__).resolve().parent.parent.parent
-mod_dir = project_dir / "Ukrainian Localization"
+translation_dir = project_dir / "Ukrainian Localization"
 game_dir = Path(os.getenv("GAME_DIR"))
+mod_dir = Path(os.getenv("MOD_DIR"))
 _EMPTY_LIST = []
 
 
-def list_localization_files(languages: str | list[str] | None = None, source_dir: Path = mod_dir) -> list[str]:
+def list_localization_files(languages: str | list[str] | None = None, source_dir: Path = translation_dir) -> list[str]:
     def is_matching_file(filename: str) -> bool:
         return (not languages and filename.endswith(".yml")) or any(f"_l_{l}.yml" in filename for l in languages)
 
@@ -33,7 +34,7 @@ def list_localization_files(languages: str | list[str] | None = None, source_dir
 if __name__ == "__main__":
     # _languages = ["ukrainian_machine_translation"]
     _languages = ["english"]
-    _files = list_localization_files(_languages, mod_dir)
+    _files = list_localization_files(_languages, translation_dir)
     logger.info(f"Found {len(_files)} {_languages} localization files")
     for file in _files:
         fdir, fname = os.path.split(file)
