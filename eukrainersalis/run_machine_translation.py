@@ -1,4 +1,5 @@
 import asyncio
+import json
 import os
 import re
 from typing import Tuple
@@ -78,8 +79,9 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
         async with semaphore:
             # Read file
             content = await load_eu5_yaml_async(input_file_path)
-            localization = content.get(f"l_{source_language}", {})
-            lines = "\n".join([translation_preprocessing(l) for l in localization.values()])
+            localization: dict[str, str] = content.get(f"l_{source_language}", {})
+            # lines = "\n".join([translation_preprocessing(l) for l in localization.values()])
+            lines = "\n".join([json.dumps({k: v}, ensure_ascii=False) for k,v in localization.items()])
 
             logger.info(f"Translating {input_file_path}")
             translation = await translator.translate_async(lines)
@@ -165,5 +167,5 @@ if __name__ == '__main__':
     load_dotenv()
     _translator = GeminiTranslator(system_instruction=RU_UA_SYSTEM_INSTRUCTION)
     asyncio.run(translate_dir_async(
-        _translator, max_files_to_translate=512, overwrite_existing_translation=False,
+        _translator, max_files_to_translate=1, overwrite_existing_translation=False,
         source_language="russian", target_language="russian", translation_suffix="uk_ua_machine_translation"))

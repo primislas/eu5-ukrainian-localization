@@ -1,7 +1,8 @@
 import asyncio
+import os
 from typing import override
 
-from flask.cli import load_dotenv
+from dotenv import load_dotenv
 from google import genai
 from google.genai.types import GenerateContentConfig, HttpOptions, HttpRetryOptions
 
@@ -9,7 +10,10 @@ from eukrainersalis.utils.log_utils import logger
 from eukrainersalis.translators.translator_api import Translator
 from eukrainersalis.utils.translation_utils import POSTEDIT_TRANSLATION_FAILURE
 
-DEFAULT_GEMINI_MODEL = "gemini-2.5-flash"
+
+load_dotenv()
+DEFAULT_GEMINI_CONCURRENCY = int(os.getenv("GEMINI_CONCURRENCY", "8"))
+DEFAULT_GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 DEFAULT_SYSTEM_INSTRUCTION = """Role: You are a professional game localizer for the historical grand strategy game "Europa Universalis V".
 Task: Translate English game script lines into Ukrainian.
 
@@ -31,39 +35,43 @@ This is a placeholder for the menu.
 Output:
 [PROVINCE.GetName] НЕ має $COMPARATOR$ $NUM|V2$ [rebel|e] прогресу
 Це заповнювач для меню."""
+
 RU_UA_SYSTEM_INSTRUCTION = """Role: You are a professional game localizer for the historical grand strategy game "Europa Universalis V".
-Task: Translate Ukraine game script lines into Ukrainian.
+Task: Translate Russian game localization into Ukrainian. Each key-value is encoded as jsonl (one line - one json object with one key-value pair)..
 
 ### Rules:
-1.  One-to-One Mapping: Translate each input line as a strictly independent unit. Every 1 line of input MUST result in exactly 1 line of output. Do not merge or split lines.
+1.  Keep JSON keys as is, translate only values.
 2.  Variable Preservation: Do NOT translate or modify script variables, engine constructs (items in square braces, in-between USD signs, expressions like '#L', '#1', other obvious scripting elements, e.g., '[GetPlayerName]', '[rebel|e]', '$COUNT$'), or escape sequences (e.g., \\n). Keep them exactly as they appear in the source.
 3.  Historical Tone: Use an archaic, flowery or "chronicle" flair for narrative text and event descriptions. Use standard modern technical terms for UI settings, game mechanics.
 4.  Specific Terms:
     *   "заглушка" -> "заповнювач", when it's the only word in the line, or when it clearly applies to menus and settings.
     *   Geographic names: Use modern standard Ukrainian names.
     *   Names and last names: Use modern standard Ukrainian names.
+    *   "махараджа" -> "магараджа", "Махараджья" -> "Магараджія", "Кингитанга" -> "Кінгітанга"
 5.  Low-Confidence Flagging: If you are uncertain about the translation of a proper noun (dynasty, ethnicity, culture), prefix it with 'POSTEDIT_'.
 6.  Translate only Russian text. Do not translate any other language.
 7.  Attempt to keep sentence structure as close to the original as possible.
 8.  Sometimes you'll encounter constructs which signify gender-based endings, such as "ая", "ое", "ии". These are endings, translate them to corresponding Ukrainian endings. For example, "ие" - "і", "ая" - "а", "ое" - "е", "ий" - "ий", "ые" - "і", etc.
-9.  Sometimes you'll encounter adjectives without endings. Translate them to Ukrainian adjectives and also remove endings. For example, "французск" -> "французськ", "немецк" -> "німецьк", etc.
+9.  Sometimes you'll encounter adjectives without endings. Translate them to Ukrainian adjectives and also remove endings. For example, "французск" -> "французськ", "немецк" -> "німецьк", "казахск" -> "казахськ", etc. This is a standard case for keys ending with "_ADJ".
 10.  Keep NBSP symbols, if available in the source text, in-between equivalent words in translated text, if applicable and structure isn't too different.
-11.  Format: Output only the translated plain text. Only the result. No thoughts, no explanation, no LaTeX, and no markdown formatting.
+11.  Format: Output only the result. No thoughts, no explanation, no LaTeX, and no markdown formatting. One-to-one mapping is expected - one output line with translated json per one input jsonl.
 
 ### Example:
 Input:
-[PROVINCE.GetName] отсутствует $COMPARATOR$ $NUM|V2$ [rebel|e] прогрес
-Это заглушка для меню
-[Concept('language','Язык')|e]: #L [CountryCultureLateralView.GetCulture.GetLanguage.GetName|l]ое#!
+{"some.event.ley": "[PROVINCE.GetName] отсутствует $COMPARATOR$ $NUM|V2$ [rebel|e] прогрес"}
+{"MENU_ITEM": "Это заглушка для меню"}
+{"culture_languageKEY": "[Concept('language','Язык')|e]: #L [CountryCultureLateralView.GetCulture.GetLanguage.GetName|l]ое#!"}
+{"GLH_horde_ADJ": "Золотоордынск"}
 Output:
-[PROVINCE.GetName] відсутній $COMPARATOR$ $NUM|V2$ [rebel|e] прогрес
-Це заповнювач для меню.
-[Concept('language','Мова')|e]: #L [CountryCultureLateralView.GetCulture.GetLanguage.GetName|l]е#!"""
+{"some.event.ley": "[PROVINCE.GetName] відсутній $COMPARATOR$ $NUM|V2$ [rebel|e] прогрес"}
+{"MENU_ITEM": "Це заповнювач для меню."}
+{"culture_languageKEY": "[Concept('language','Мова')|e]: #L [CountryCultureLateralView.GetCulture.GetLanguage.GetName|l]е#!"}
+{"GLH_horde_ADJ": "Золотоординськ"}"""
 
 
 class GeminiTranslator(Translator):
     def __init__(self, model: str = DEFAULT_GEMINI_MODEL, system_instruction: str = DEFAULT_SYSTEM_INSTRUCTION,
-                 batch_size: int = 25, min_last_batch_size: int = 10, max_concurrent_batches: int = 8):
+                 batch_size: int = 25, min_last_batch_size: int = 10, max_concurrent_batches: int = DEFAULT_GEMINI_CONCURRENCY):
         self.model = model
         self.system_instruction = system_instruction
         self._gemini: genai.Client | None = None
@@ -254,21 +262,21 @@ class GeminiTranslator(Translator):
 
     async def _translate_to_match_line_count_async(self, text: str, expected_output_lines: int) -> str:
         """Async version of translate with retry for line count mismatch."""
-        translation = await self._translate_async(text, expected_output_lines)
+        translation = await self._translate_async(text)
         if not translation or len(translation.splitlines()) != expected_output_lines:
             await asyncio.sleep(5)
-            translation = await self._translate_async(text, expected_output_lines)
+            translation = await self._translate_async(text)
             # Occasional Gemini glitch
             if translation.startswith("Thought") or translation.startswith("THOUGHT") and "The user" in translation:
                 await asyncio.sleep(10)
-                translation = await self._translate_async(text, expected_output_lines)
+                translation = await self._translate_async(text)
 
         if not translation:
             translation = "\n".join(["POSTEDIT_FAILED_TRANSLATION"] * expected_output_lines)
 
         return translation
 
-    async def _translate_async(self, text: str, expected_output_lines: int) -> str:
+    async def _translate_async(self, text: str) -> str:
         """Async translation using native genai async API."""
         response = await self._get_gemini_client().aio.models.generate_content(
             model=self.model,
