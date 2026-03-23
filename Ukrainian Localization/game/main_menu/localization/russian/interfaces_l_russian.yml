@@ -462,7 +462,7 @@
  PROX_SPEED_MODIFIER: "Распространение досягаемости: $VAL|G%2$. Причины:"
  EMBARKING_TO_DIFFERENT_SEA_ZONE: "Погрузка в другой [Concept('seazone', 'акватории')|e] ($FROM_SEAZONE$@button_simple_smaller!$TO_SEAZONE$)"
  LANDING_TO_DIFFERENT_SEA_ZONE: "Высадка в другой [Concept('seazone', 'акватории')|e] ($FROM_SEAZONE$@button_simple_smaller!$TO_SEAZONE$)"
- 0: PROXIMITY_ICON_LAND:	"@inland!"
+ PROXIMITY_ICON_LAND: "@inland!"
  PROXIMITY_ICON_HARBOR: "@port!"
  PROXIMITY_ICON_MARITIME: "@maritime_presence!"
  PROXIMITY_ICON_ROAD_1: "@gravel_road!"

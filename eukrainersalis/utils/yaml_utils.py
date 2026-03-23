@@ -1,11 +1,12 @@
+import asyncio
 import os
+import re
 
 import aiofiles
-import re
 import yaml
 
 from eukrainersalis.utils.log_utils import logger
-from eukrainersalis.utils.file_utils import list_localization_files
+from eukrainersalis.utils.translation_utils import text_is_not_translated, Language
 
 
 class DoubleQuotedDumper(yaml.SafeDumper):
@@ -45,14 +46,33 @@ def quoted_str_representer(dumper, data):
 DoubleQuotedDumper.add_representer(str, quoted_str_representer)
 
 
+# Remove boolean implicit resolvers from DoubleQuotedDumper too
+DoubleQuotedDumper.yaml_implicit_resolvers = {
+    k: [r for r in v if r[0] != 'tag:yaml.org,2002:bool']
+    for k, v in DoubleQuotedDumper.yaml_implicit_resolvers.items()
+}
+
+
+class NoBoolSafeLoader(yaml.SafeLoader):
+    pass
+
+
+# Remove implicit resolvers for booleans
+NoBoolSafeLoader.yaml_implicit_resolvers = {
+    k: [r for r in v if r[0] != 'tag:yaml.org,2002:bool']
+    for k, v in yaml.SafeLoader.yaml_implicit_resolvers.items()
+}
+
+
 def load_eu5_yaml(file_path: str) -> dict:
     with open(file_path, "r") as file_handle:
-        return yaml.load(file_handle, Loader=yaml.FullLoader)
+        return yaml.load(file_handle, Loader=NoBoolSafeLoader)
+
 
 async def load_eu5_yaml_async(file_path: str) -> dict:
     async with aiofiles.open(file_path, "r") as file_handle:
         content_str = await file_handle.read()
-        return yaml.load(content_str, Loader=yaml.FullLoader)
+        return yaml.load(content_str, Loader=NoBoolSafeLoader)
 
 def write_eu5_localization_yaml(data: dict, output_file_path: str) -> int:
     dumped = yaml.dump(
@@ -73,16 +93,16 @@ async def write_eu5_localization_yaml_async(data: dict, output_file_path: str) -
         sort_keys=False,
         width=float('inf'),
     )
+    await asyncio.to_thread(os.makedirs, os.path.dirname(output_file_path), exist_ok=True)
     async with aiofiles.open(output_file_path, "w", encoding="utf-8-sig") as output_file_handle:
         return await output_file_handle.write(dumped.strip())
 
-def validate_localization_file(file_path: str, language: str = "english") -> bool:
+def validate_localization_file(file_path: str, language: Language | str = Language.ENGLISH) -> bool:
     """Validate a YAML localization file by parsing it and checking for errors."""
     try:
-        with open(file_path, "r") as file_handle:
-            content = yaml.load(file_handle, Loader=yaml.FullLoader)
-        content_key = "l_" + language
-        has_english_content = content_key in content and content.get(content_key)
+        content = load_eu5_yaml(file_path)
+        content_key = Language(language).localization_key
+        has_english_content = content_key in content and bool(content.get(content_key))
         if not has_english_content:
             logger.debug(f"{file_path} has no {language} localization")
         return has_english_content
@@ -114,23 +134,27 @@ def fix_concept_declarations(text: str) -> str:
     return re.sub(pattern, replacement, text, flags=re.DOTALL)
 
 
-if __name__ == "__main__":
-    fixed_declaration = 0
-    unfixed_dangling_concept = 0
-    for file in list_localization_files("ukrainian"):
-        content = load_eu5_yaml(file)
-        for k, v in content.get("l_english", {}).items():
-            fixed = fix_concept_declarations(v)
-            if v != fixed:
-                print(f"{os.path.basename(file)} -> {k}:")
-                print(f"\t--- {v}")
-                print(f"\t+++ {fixed}")
-                fixed_declaration += 1
-                content["l_english"][k] = fixed
-            else:
-                if re.match(r"\[[a-z_]+', 'CONCEPT_PLACEHOLDER'\)\|[eE]]", v):
-                    print(f"{os.path.basename(file)}: {k}: {v}")
-                    print(f"\tFound unfixed dangling concept declaration")
-                    unfixed_dangling_concept += 1
-        write_eu5_localization_yaml(content, file)
-    print(f"Fixed {fixed_declaration} concept declarations, {unfixed_dangling_concept} unfixed dangling concepts")
+def file_is_untranslated(file_path, language: Language | str | None = None, language_key: str | None = None) -> bool:
+    """
+    Check if a localization file contains untranslated keys.
+    """
+    localization_key = language_key or Language(language or Language.ENGLISH).localization_key
+    content = load_eu5_yaml(file_path)
+    for k, v in content.get(localization_key, {}).items():
+        if text_is_not_translated(v):
+            return True
+    return False
+
+
+def file_is_translated(file_path, language: Language | str | None = None, language_key: str | None = None) -> bool:
+    return not file_is_untranslated(file_path, language, language_key)
+
+
+async def get_untranslated_keys(file_path, language: Language | str | None = None, language_key: str | None = None) -> dict[str, str]:
+    """
+    Check if a localization file contains untranslated keys.
+    """
+    localization_key = language_key or Language(language or Language.ENGLISH).localization_key
+    content = await load_eu5_yaml_async(file_path)
+    localization: dict[str, str] = content.get(localization_key, {})
+    return {k: v for k, v in localization.items() if text_is_not_translated(v)}

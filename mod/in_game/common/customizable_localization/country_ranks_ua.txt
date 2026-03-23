@@ -1,0 +1,32 @@
+﻿country_flavor_ua = {
+	type = country
+
+	text = {
+		localization_key = rank_county_persian
+		trigger = {
+			OR = {
+				court_language ?= language:persian_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:persian_language
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = rank_county_amazigh
+		trigger = {
+			OR = {
+				court_language ?= language:tamazight_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:tamazight_language
+				}
+			}
+		}
+	}
+
+}

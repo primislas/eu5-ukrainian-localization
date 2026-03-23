@@ -1,0 +1,4 @@
+﻿l_russian:
+  diseases.1.title: "Новий спалах"
+  diseases.1.desc: "Мешканці [location_scope.Custom('LR_GEN')|l] [location_scope.GetName] у відчаї: життя їхніх сусідів та близьких забирає спалах страшної хвороби під назвою [disease.GetName|l], що охопив усю область. Шум радісних голосів стих, і на його місце прийшла тривожна та невпевнена тиша.\n\nНа жаль, ми мало що можемо зробити, щоб не дати епідемії поширитися."
+  diseases.1.a: "[ROOT.GetCountry.Custom('common_string_negative')]"

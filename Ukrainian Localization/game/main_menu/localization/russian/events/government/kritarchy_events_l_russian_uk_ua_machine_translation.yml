@@ -1,0 +1,4 @@
+﻿l_russian:
+  kritarchy_events.1.title: "Нарада суду завершена"
+  kritarchy_events.1.desc: "Верховний суд закінчив нараду, і [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'нова', 'новий')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] нарешті [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'обрана', 'обраний')] — це [successor_character.GetName]. Рада з радістю вшановує нового лідера #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!."
+  kritarchy_events.1.a: "Нехай [Select_CString(successor_character.IsFemale,'вона', 'він')] править мудро."
