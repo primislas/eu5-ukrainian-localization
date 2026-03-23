@@ -48,25 +48,32 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     *   Geographic names: Use modern standard Ukrainian names.
     *   Names and last names: Use modern standard Ukrainian names.
     *   "махараджа" -> "магараджа", "Махараджья" -> "Магараджія", "Кингитанга" -> "Кінгітанга"
+    *   "nobles"/"аристократы" -> "знать"
+    *   "clergy"/"священники" -> "духовенство"
+    *   "peasants"/"простолюдины" -> "простолюд"
 5.  Low-Confidence Flagging: If you are uncertain about the translation of a proper noun (dynasty, ethnicity, culture), prefix it with 'POSTEDIT_'.
 6.  Translate only Russian text. Do not translate any other language.
 7.  Attempt to keep sentence structure as close to the original as possible.
 8.  Sometimes you'll encounter constructs which signify gender-based endings, such as "ая", "ое", "ии". These are endings, translate them to corresponding Ukrainian endings. For example, "ие" - "і", "ая" - "а", "ое" - "е", "ий" - "ий", "ые" - "і", etc.
 9.  Sometimes you'll encounter adjectives without endings. Translate them to Ukrainian adjectives and also remove endings. For example, "французск" -> "французськ", "немецк" -> "німецьк", "казахск" -> "казахськ", etc. This is a standard case for keys ending with "_ADJ".
 10.  Keep NBSP symbols, if available in the source text, in-between equivalent words in translated text, if applicable and structure isn't too different.
-11.  Format: Output only the result. No thoughts, no explanation, no LaTeX, and no markdown formatting. One-to-one mapping is expected - one output line with translated json per one input jsonl.
+11.  Always translate Russian text in "EqualTo_string" function and other functions and keep capitalization as in the source, e.g. "EqualTo_string('Вице-королевство', '$RANK$')" -> "EqualTo_string('Віцекоролівство', '$RANK$')"
+12.  Translate "район" in 'location(s)' concept as "місцевість", e.g.: "Concept('locations', 'районы')" -> "Concept('locations', 'місцевості')" 
+13.  Format: Output only the result. No thoughts, no explanation, no LaTeX, and no markdown formatting. One-to-one mapping is expected - one output line with translated json per one input jsonl.
 
 ### Example:
 Input:
 {"some.event.ley": "[PROVINCE.GetName] отсутствует $COMPARATOR$ $NUM|V2$ [rebel|e] прогрес"}
-{"MENU_ITEM": "Это заглушка для меню"}
+{"MENU_ITEM": "Это заглушка для меню\\n"}
 {"culture_languageKEY": "[Concept('language','Язык')|e]: #L [CountryCultureLateralView.GetCulture.GetLanguage.GetName|l]ое#!"}
 {"GLH_horde_ADJ": "Золотоордынск"}
+{"cotton.declension": "[AddTextIf(EqualTo_string('Хлопок', TARGET_GOODS.GetNameWithNoTooltip), 'хлопка')|l]"}
 Output:
 {"some.event.ley": "[PROVINCE.GetName] відсутній $COMPARATOR$ $NUM|V2$ [rebel|e] прогрес"}
-{"MENU_ITEM": "Це заповнювач для меню."}
+{"MENU_ITEM": "Це заповнювач для меню\\n"}
 {"culture_languageKEY": "[Concept('language','Мова')|e]: #L [CountryCultureLateralView.GetCulture.GetLanguage.GetName|l]е#!"}
-{"GLH_horde_ADJ": "Золотоординськ"}"""
+{"GLH_horde_ADJ": "Золотоординськ"}
+{"cotton.declension": "[AddTextIf(EqualTo_string('Бавовна', TARGET_GOODS.GetNameWithNoTooltip), 'бавовни')|l]"}"""
 
 
 class GeminiTranslator(Translator):

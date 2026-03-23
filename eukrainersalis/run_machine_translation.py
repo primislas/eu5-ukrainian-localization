@@ -1,4 +1,5 @@
 import asyncio
+import copy
 import json
 import os
 import re
@@ -7,17 +8,19 @@ from typing import Tuple
 from dotenv import load_dotenv
 
 from eukrainersalis.translators.gemini_translator import GeminiTranslator, RU_UA_SYSTEM_INSTRUCTION
-from eukrainersalis.utils.log_utils import logger
 from eukrainersalis.translators.translator_api import Translator
 from eukrainersalis.utils.file_utils import list_localization_files
+from eukrainersalis.utils.log_utils import logger
+from eukrainersalis.utils.translation_utils import POSTEDIT_EMPTY_TRANSLATION, PENDING_TRANSLATION, \
+    text_is_untranslated
 from eukrainersalis.utils.yaml_utils import write_eu5_localization_yaml_async, load_eu5_yaml_async, \
-    validate_localization_file
+    validate_localization_file, file_is_untranslated, file_is_translated
 
 _NEWLINE_REPLANCEMENT = "#NL!#"
 
 
 def translation_preprocessing(line: str) -> str:
-    line = line.replace("\n", _NEWLINE_REPLANCEMENT)
+    # line = line.replace("\n", _NEWLINE_REPLANCEMENT)
     return line
 
 
@@ -58,10 +61,23 @@ def expand_adjectives(line: str) -> str:
 
 def translation_postprocessing(line: str) -> str:
     """Postprocesses the translated text by removing unnecessary characters and formatting."""
-    line = expand_concepts(line)
-    line = expand_adjectives(line)
-    line = line.replace(_NEWLINE_REPLANCEMENT, "\n")
+    # line = expand_concepts(line)
+    # line = expand_adjectives(line)
+    # line = line.replace(_NEWLINE_REPLANCEMENT, "\n")
     return line
+
+
+async def create_starting_output_file(content: dict[str, dict], source_language: str, output_file_path: str) -> dict[str, dict[str, str]]:
+    localization_key = f"l_{source_language}"
+    localization: dict[str, str] = copy.copy(content.get(localization_key, {}))
+    for key, value in localization.items():
+        if not (value.isascii() or len(value) == 0):
+            localization[key] = PENDING_TRANSLATION
+    untranslated_content = {localization_key: localization}
+    await write_eu5_localization_yaml_async(untranslated_content, output_file_path)
+    logger.info(f"Created untranslated file: {output_file_path}")
+    return untranslated_content
+
 
 
 async def translate_file(input_file_path: str, output_file_path: str, output_dir: str,
@@ -74,29 +90,52 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
     """
     file_name = os.path.basename(input_file_path)
     output_file_name = os.path.basename(output_file_path)
+    localization_key = f"l_{source_language}"
 
     try:
         async with semaphore:
             # Read file
             content = await load_eu5_yaml_async(input_file_path)
-            localization: dict[str, str] = content.get(f"l_{source_language}", {})
-            # lines = "\n".join([translation_preprocessing(l) for l in localization.values()])
-            lines = "\n".join([json.dumps({k: v}, ensure_ascii=False) for k,v in localization.items()])
+            localization: dict[str, str] = content.get(localization_key, {})
+            if not os.path.exists(output_file_path):
+                untranslated_content = await create_starting_output_file(content, source_language, output_file_path)
+            else:
+                untranslated_content = await load_eu5_yaml_async(output_file_path)
+            untranslated_localization = untranslated_content.get(localization_key, {})
+            untranslated_keys = {k:localization.get(k) for k,v in untranslated_localization.items() if text_is_untranslated(v)}
+            # picking up keys from original localization missing in existing translation
+            for k in set(localization.keys()) - set(untranslated_keys.keys()):
+                untranslated_localization[k] = localization[k]
+            if len(untranslated_keys) == 0:
+                return True
+
+            lines = "\n".join([json.dumps({k: v}, ensure_ascii=False) for k,v in untranslated_keys.items()])
 
             logger.info(f"Translating {input_file_path}")
             translation = await translator.translate_async(lines)
-            translation = translation.splitlines()
+            # translation = translation.splitlines()
 
-            for key, value in zip(localization.keys(), translation):
-                translated_value = translation_postprocessing(value)
-                if translated_value == "" and value != "":
-                    logger.warning(f"Empty translation for {key} in {file_name}, potentially a translation glitch")
-                    translated_value = "POSTEDIT_EMPTY_TRANSLATION"
-                localization[key] = translated_value
+            for line in translation.splitlines():
+                try:
+                    lkv = json.loads(line)
+                    for k, v in lkv.items():
+                        if len(v) == 0 and len(localization.get(k)) > 0:
+                            untranslated_localization[k] = POSTEDIT_EMPTY_TRANSLATION
+                        else:
+                            untranslated_localization[k] = v
+                except Exception:
+                    logger.error(f"Expected a JSON but received: " + line)
+            #
+            #
+            # for key, value in zip(localization.keys(), translation):
+            #     translated_value = translation_postprocessing(value)
+            #     if translated_value == "" and value != "":
+            #         logger.warning(f"Empty translation for {key} in {file_name}, potentially a translation glitch")
+            #         translated_value = POSTEDIT_EMPTY_TRANSLATION
+            #     localization[key] = translated_value
 
             # Create output directory if needed
-            await asyncio.to_thread(os.makedirs, output_dir, exist_ok=True)
-            await write_eu5_localization_yaml_async(content, output_file_path)
+            await write_eu5_localization_yaml_async(untranslated_content, output_file_path)
             logger.info(f"Translated {file_name} -> {output_file_name}")
             return True
 
@@ -109,15 +148,15 @@ def _find_untranslated_files(max_translations: int, overwrite_existing_translati
                              source_language: str = "english", target_language: str = "ukrainian",
                              translation_suffix: str = "machine_translation") -> list[Tuple[str, str, str]]:
     files_to_translate: list[Tuple[str, str, str]] = []
-    english_files = list_localization_files(source_language)
-    for input_file_path in english_files:
+    source_files = list_localization_files(source_language)
+    for input_file_path in source_files:
         input_dir_path, file_name = os.path.split(input_file_path)
         output_dir_path = input_dir_path.replace(f"/{source_language}", f"/{target_language}")
         output_file_name = file_name.replace(f"_l_{source_language}.yml", f"_l_{target_language}_{translation_suffix}.yml")
         output_file_path = os.path.join(output_dir_path, output_file_name)
 
-        if os.path.exists(output_file_path) and not overwrite_existing_translation:
-            logger.info(f"Skipping {file_name} -> {output_file_name} (already exists)")
+        if os.path.exists(output_file_path) and not overwrite_existing_translation and file_is_translated(output_file_path, language=target_language):
+            logger.info(f"Skipping {file_name} -> {output_file_name} (already translated)")
             continue
         if not validate_localization_file(input_file_path, source_language):
             logger.info(f"Skipping {file_name} -> {output_file_name} (invalid localization file)")
@@ -167,5 +206,5 @@ if __name__ == '__main__':
     load_dotenv()
     _translator = GeminiTranslator(system_instruction=RU_UA_SYSTEM_INSTRUCTION)
     asyncio.run(translate_dir_async(
-        _translator, max_files_to_translate=1, overwrite_existing_translation=False,
+        _translator, max_files_to_translate=32, overwrite_existing_translation=False,
         source_language="russian", target_language="russian", translation_suffix="uk_ua_machine_translation"))

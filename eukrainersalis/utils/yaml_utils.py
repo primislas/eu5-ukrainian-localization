@@ -1,11 +1,13 @@
+import asyncio
 import os
+import re
 
 import aiofiles
-import re
 import yaml
 
-from eukrainersalis.utils.log_utils import logger
 from eukrainersalis.utils.file_utils import list_localization_files
+from eukrainersalis.utils.log_utils import logger
+from eukrainersalis.utils.translation_utils import text_is_untranslated
 
 
 class DoubleQuotedDumper(yaml.SafeDumper):
@@ -73,8 +75,9 @@ async def write_eu5_localization_yaml_async(data: dict, output_file_path: str) -
         sort_keys=False,
         width=float('inf'),
     )
+    await asyncio.to_thread(os.makedirs, os.path.dirname(output_file_path), exist_ok=True)
     async with aiofiles.open(output_file_path, "w", encoding="utf-8-sig") as output_file_handle:
-        return await output_file_handle.write(dumped.strip())
+            return await output_file_handle.write(dumped.strip())
 
 def validate_localization_file(file_path: str, language: str = "english") -> bool:
     """Validate a YAML localization file by parsing it and checking for errors."""
@@ -112,6 +115,32 @@ def fix_concept_declarations(text: str) -> str:
         return f"[{inner_text}]{between}[Concept('{dangling_text}', 'CONCEPT_PLACEHOLDER')|e]"
 
     return re.sub(pattern, replacement, text, flags=re.DOTALL)
+
+
+def file_is_untranslated(file_path, language: str | None = None, language_key: str | None = None) -> bool:
+    """
+    Check if a localization file contains untranslated keys.
+    """
+    localization_key = language_key or f"l_{language or 'english'}"
+    content = load_eu5_yaml(file_path)
+    for k, v in content.get(localization_key, {}).items():
+        if text_is_untranslated(v):
+            return True
+    return False
+
+
+def file_is_translated(file_path, language: str | None = None, language_key: str | None = None) -> bool:
+    return not file_is_untranslated(file_path, language, language_key)
+
+
+async def get_untranslated_keys(file_path, language: str | None = None, language_key: str | None = None) -> dict[str, str]:
+    """
+    Check if a localization file contains untranslated keys.
+    """
+    localization_key = language_key or f"l_{language or 'english'}"
+    content = await load_eu5_yaml_async(file_path)
+    localization: dict[str, str] = content.get(localization_key, {})
+    return {k: v for k, v in localization.items() if text_is_untranslated(v)}
 
 
 if __name__ == "__main__":
