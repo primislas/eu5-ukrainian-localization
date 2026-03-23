@@ -1,7 +1,7 @@
 ﻿l_russian:
  faction_guelphs_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,guelphs_io,X #L гвельфов#!#!"
  faction_ghibellines_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ghibellines_io,X #L гибеллинов#!#!"
- GetGAGOwnFaction_DEF: "фракции"
+ GetGAGOwnFaction_GEN: "фракции"
  
  faction_guelphs_no_tt_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,guelphs_io,X #L гвельфов#!#!"
  faction_ghibellines_no_tt_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ghibellines_io,X #L гибеллинов#!#!"
@@ -19,7 +19,7 @@
  order_of_the_swan_policy_GEN: "Ордена Лебедя"
  order_of_the_black_eagle_policy_GEN: "Ордена Чёрного орла"
  order_of_the_white_eagle_policy_GEN: "Ордена Белого орла"
- GetOrderOfChivalry_DEF: "Рыцарского ордена"
+ GetOrderOfChivalry_GEN: "Рыцарского ордена"
  
  dangerous_wild_animal_tiger_GEN: "Тигра"
  dangerous_wild_animal_elephant_GEN: "Слона"
@@ -46,7 +46,7 @@
  family_relations_siblings_GEN: "Сиблингов"
  
  qizilbash_GEN: "Кызылбаши"
- qizilbash_estate_name_GEN: "[ROOT.GetCountry.Custom('ET_GEN')]"
+ qizilbash_estate_name_GEN: "Племён"
  
  seat_of_power_throne_GEN: "Трона"
  seat_of_power_state_GEN: "Государства"
@@ -60,7 +60,7 @@
  #Dat
  faction_guelphs_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,guelphs_io,X #L гвельфам#!#!"
  faction_ghibellines_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ghibellines_io,X #L гибеллинам#!#!"
- GetGAGOwnFaction_DEF: "фракции"
+ GetGAGOwnFaction_DAT: "фракции"
  
  faction_guelphs_no_tt_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,guelphs_io,X #L гвельфам#!#!"
  faction_ghibellines_no_tt_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ghibellines_io,X #L гибеллинам#!#!"
@@ -78,7 +78,7 @@
  order_of_the_swan_policy_DAT: "Ордену Лебедя"
  order_of_the_black_eagle_policy_DAT: "Ордену Чёрного орла"
  order_of_the_white_eagle_policy_DAT: "Ордену Белого орла"
- GetOrderOfChivalry_DEF: "Рыцарскому ордену"
+ GetOrderOfChivalry_DAT: "Рыцарскому ордену"
   
  dangerous_wild_animal_tiger_DAT: "Тигру"
  dangerous_wild_animal_elephant_DAT: "Слону"
@@ -105,7 +105,7 @@
  family_relations_siblings_DAT: "Сиблингам"
  
  qizilbash_DAT: "Кызылбаши"
- qizilbash_estate_name_DAT: "[ROOT.GetCountry.Custom('ET_DAT')]"
+ qizilbash_estate_name_DAT: "Племенам"
  
  seat_of_power_throne_DAT: "Трону"
  seat_of_power_state_DAT: "Государству"
@@ -119,7 +119,7 @@
  #Acc
  faction_guelphs_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,guelphs_io,X #L гвельфов#!#!"
  faction_ghibellines_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ghibellines_io,X #L гибеллинов#!#!"
- GetGAGOwnFaction_DEF: "фракцию"
+ GetGAGOwnFaction_ACC: "фракцию"
  
  faction_guelphs_no_tt_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,guelphs_io,X #L гвельфов#!#!"
  faction_ghibellines_no_tt_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ghibellines_io,X #L гибеллинов#!#!"
@@ -137,7 +137,7 @@
  order_of_the_swan_policy_ACC: "Орден Лебедя"
  order_of_the_black_eagle_policy_ACC: "Орден Чёрного орла"
  order_of_the_white_eagle_policy_ACC: "Орден Белого орла"
- GetOrderOfChivalry_DEF: "Рыцарский орден"
+ GetOrderOfChivalry_ACC: "Рыцарский орден"
   
  dangerous_wild_animal_tiger_ACC: "Тигра"
  dangerous_wild_animal_elephant_ACC: "Слона"
@@ -164,7 +164,7 @@
  family_relations_siblings_ACC: "Сиблингов"
  
  qizilbash_ACC: "Кызылбаши"
- qizilbash_estate_name_ACC: "[ROOT.GetCountry.Custom('ET_ACC')]"
+ qizilbash_estate_name_ACC: "Племена"
  
  seat_of_power_throne_ACC: "Трон"
  seat_of_power_state_ACC: "Государство"
@@ -179,7 +179,7 @@
  #Inst
  faction_guelphs_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,guelphs_io,X #L гвельфами#!#!"
  faction_ghibellines_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ghibellines_io,X #L гибеллинами#!#!"
- GetGAGOwnFaction_DEF: "фракцией"
+ GetGAGOwnFaction_INST: "фракцией"
  
  faction_guelphs_no_tt_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,guelphs_io,X #L гвельфами#!#!"
  faction_ghibellines_no_tt_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ghibellines_io,X #L гибеллинами#!#!"
@@ -197,7 +197,7 @@
  order_of_the_swan_policy_INST: "Орденом Лебедя"
  order_of_the_black_eagle_policy_INST: "Орденом Чёрного орла"
  order_of_the_white_eagle_policy_INST: "Орденом Белого орла"
- GetOrderOfChivalry_DEF: "Рыцарским орденом"
+ GetOrderOfChivalry_INST: "Рыцарским орденом"
   
  dangerous_wild_animal_tiger_INST: "Тигром"
  dangerous_wild_animal_elephant_INST: "Слоном"
@@ -224,7 +224,7 @@
  family_relations_siblings_INST: "Сиблингами"
  
  qizilbash_INST: "Кызылбаши"
- qizilbash_estate_name_INST: "[ROOT.GetCountry.Custom('ET_INST')]"
+ qizilbash_estate_name_INST: "Племенами"
  
  seat_of_power_throne_INST: "Троном"
  seat_of_power_state_INST: "Государством"
@@ -238,7 +238,7 @@
  #Prep
  faction_guelphs_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,guelphs_io,X #L гвельфах#!#!"
  faction_ghibellines_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ghibellines_io,X #L гибеллинах#!#!"
- GetGAGOwnFaction_DEF: "фракции"
+ GetGAGOwnFaction_PREP: "фракции"
  
  faction_guelphs_no_tt_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,guelphs_io,X #L гвельфах#!#!"
  faction_ghibellines_no_tt_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,ghibellines_io,X #L гибеллинах#!#!"
@@ -256,7 +256,7 @@
  order_of_the_swan_policy_PREP: "Ордене Лебедя"
  order_of_the_black_eagle_policy_PREP: "Ордене Чёрного орла"
  order_of_the_white_eagle_policy_PREP: "Ордене Белого орла"
- GetOrderOfChivalry_DEF: "Рыцарском ордене"
+ GetOrderOfChivalry_PREP: "Рыцарском ордене"
   
  dangerous_wild_animal_tiger_PREP: "Тигре"
  dangerous_wild_animal_elephant_PREP: "Слоне"
@@ -283,7 +283,7 @@
  family_relations_siblings_PREP: "Сиблингах"
  
  qizilbash_PREP: "Кызылбаши"
- qizilbash_estate_name_PREP: "[ROOT.GetCountry.Custom('ET_PREP')]"
+ qizilbash_estate_name_PREP: "Племенах"
  
  seat_of_power_throne_PREP: "Троне"
  seat_of_power_state_PREP: "Государстве"

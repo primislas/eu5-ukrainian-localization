@@ -1,8 +1,8 @@
 ﻿l_russian:
- #If you really wanted you could manually write out each ordinal just by omitting the $NUM$
- #ordinal_numeral.english_language.000000001: "First"
- #ordinal_numeral.english_language.000000002: "Second"
- #ordinal_numeral.english_language.000000003: "Third"
+ # If you really wanted you could manually write out each ordinal just by omitting the $NUM$
+ # ordinal_numeral.english_language.000000001: "First"
+ # ordinal_numeral.english_language.000000002: "Second"
+ # ordinal_numeral.english_language.000000003: "Third"
  ordinal_numeral: "$NUM$"
  ordinal_numeral.english_language.1: "$NUM$ˢᵗ"
  ordinal_numeral.english_language.2: "$NUM$ⁿᵈ"
@@ -26,7 +26,7 @@
  ordinal_numeral.occitan_dialect.000000001: "$NUM$ᵉʳ"
  ordinal_numeral.occitan_dialect.000000002: "$NUM$ᵉⁿ"
  ordinal_numeral.occitan_dialect.000000003: "$NUM$ᵉⁿ"
- ordinal_numeral.occitan_dialect: "$NUM$ᵉⁿ" #èn
+ ordinal_numeral.occitan_dialect: "$NUM$ᵉⁿ" # èn
  ordinal_numeral.catalan_dialect.000000001: "$NUM$-й"
  ordinal_numeral.catalan_dialect.000000002: "$NUM$-й"
  ordinal_numeral.catalan_dialect: "$NUM$-й" #è
@@ -48,11 +48,11 @@
  ordinal_numeral.korean_language: "Je $NUM$"
  ordinal_numeral.mongolian_language: "$NUM$-р"
  ordinal_numeral.breton_dialect: "$NUM$ᵛᵉᵗ"
- ordinal_numeral.breton_dialect.01: "$NUM$ᵃⁿ" #añ
+ ordinal_numeral.breton_dialect.01: "$NUM$ᵃⁿ" # añ
  ordinal_numeral.breton_dialect.02: "$NUM$ⁱˡ"
  ordinal_numeral.breton_dialect.03: "$NUM$ᵉ"
  ordinal_numeral.breton_dialect.04: "$NUM$ᵉ"
- ordinal_numeral.welsh_dialect: "$NUM$ᵃⁱⁿ" #Welsh
+ ordinal_numeral.welsh_dialect: "$NUM$ᵃⁱⁿ" # Welsh
  ordinal_numeral.welsh_dialect.00: "$NUM$ᶠᵉᵈ"
  ordinal_numeral.welsh_dialect.01: "$NUM$ᵃᶠ"
  ordinal_numeral.welsh_dialect.02: "$NUM$ⁱˡ"
@@ -127,16 +127,22 @@
  ################ REGNAL NUMBERS FOR RULERS ################
  ordinal_numeral.regnal.male: "$ROMAN$"
  ordinal_numeral.regnal.female: "$ROMAN$"
- ordinal_numeral.regnal.male.french_language.000000001: "$ROMAN$ᵉʳ"
- ordinal_numeral.regnal.female.french_language.000000001: "$ROMAN$ʳᵉ"
+ ordinal_numeral.regnal.male.french_language.000000001: "$ROMAN$"
+ ordinal_numeral.regnal.female.french_language.000000001: "$ROMAN$"
  ordinal_numeral.regnal.male.occitan_dialect.000000001: "$ROMAN$"
  ordinal_numeral.regnal.female.occitan_dialect.000000001: "$ROMAN$"
- ordinal_numeral.regnal.male.turkish_language: "$ROMAN$."
- ordinal_numeral.regnal.female.turkish_language: "$ROMAN$."
- ordinal_numeral.regnal.male.german_language: "$ROMAN$."
- ordinal_numeral.regnal.female.german_language: "$ROMAN$."
- ordinal_numeral.regnal.male.basque_language: "$ROMAN$.a"
- ordinal_numeral.regnal.female.basque_language: "$ROMAN$.a"
+ ordinal_numeral.regnal.male.turkish_language: "$ROMAN$"
+ ordinal_numeral.regnal.female.turkish_language: "$ROMAN$"
+ ordinal_numeral.regnal.male.german_language: "$ROMAN$"
+ ordinal_numeral.regnal.female.german_language: "$ROMAN$"
+ ordinal_numeral.regnal.male.hungarian_language: "$ROMAN$"
+ ordinal_numeral.regnal.female.hungarian_language: "$ROMAN$"
+ ordinal_numeral.regnal.male.croatian_dialect: "$ROMAN$"
+ ordinal_numeral.regnal.female.croatian_dialect: "$ROMAN$"
+ ordinal_numeral.regnal.male.czechslovak_language: "$ROMAN$"
+ ordinal_numeral.regnal.female.czechslovak_language: "$ROMAN$"
+ ordinal_numeral.regnal.male.basque_language: "$ROMAN$"
+ ordinal_numeral.regnal.female.basque_language: "$ROMAN$"
  ordinal_numeral.regnal.male.danish_dialect: "$NUM$"
  ordinal_numeral.regnal.female.danish_dialect: "$NUM$"
  ordinal_numeral.regnal.male.icelandic_dialect: "$NUM$"

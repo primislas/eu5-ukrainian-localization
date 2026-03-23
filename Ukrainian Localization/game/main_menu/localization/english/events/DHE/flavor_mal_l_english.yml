@@ -72,7 +72,7 @@
  flavor_mal.14.title: "[target_subject_country.GetNameWithNoTooltip]'s Bid for Independence"
  flavor_mal.14.desc: "Despite our attempts at improving the lives of all our subjects, there are those among us that wish to see us fall, to eradicate our legacy. They plot in the shadows, daggers at hand, waiting to strike at our moments of weakness...\n\n[target_subject_country.GetName]'s voice of dissent is nothing but a performance of a petulant child that has grown too bold and eager."
  flavor_mal.14.a: "Very well, grant them independence."
- flavor_mal.14.b: "If it's a war they want..."
+ flavor_mal.14.b: "If it is a war they want..."
  flavor_mal.14.b.tt: "We will attempt to rein in [GetCountry('JOL').GetName].\n#italic This might result in a #R War#! between our states!#!"
 
  flavor_mal.15.title: "[target_overlord_country.GetNameWithNoTooltip] Intervenes"

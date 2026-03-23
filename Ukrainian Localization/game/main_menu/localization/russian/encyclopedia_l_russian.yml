@@ -52,7 +52,7 @@
  ENCYCLOPEDIAGE_NEXT_PAGE: "Следующая страница"
  ENCYCLOPEDIAGE_OPEN_PAGE: "Открыть страницу"
  SEARCH_ENCYCLOPEDIA: "Искать"
- SEARCH_ENCYCLOPEDIA_TOOLTIP: "#T $SEARCH_ENCYCLOPEDIA$\n#!«[EncyclopediaPage.GetTitle]»: найти статьи, чьи заголовки совпадают с запросом"
+ SEARCH_ENCYCLOPEDIA_TOOLTIP: "#T $SEARCH_ENCYCLOPEDIA$\n#!«[EncyclopediaPage.GetTitle]»: найти статьи, чьи заголовки совпадают с запросом"
  RESET_SEARCH_ENCYCLOPEDIA_TOOLTIP: "$LIST_CLEAR$"
  ENCYCLOPEDIA_ALL_PAGES: "Все страницы"
  ENCYCLOPEDIA_PREVIOUS_SEARCH_TOOLTIP: "#T Назад по истории поиска#!"

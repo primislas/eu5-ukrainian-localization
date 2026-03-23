@@ -72,8 +72,8 @@
  faction_default: "фракция"
  faction_guelphs: "[GetUniqueInternationalOrganization('guelphs_io').GetName]"
  faction_ghibellines: "[GetUniqueInternationalOrganization('ghibellines_io').GetName]"
- faction_guelphs_no_tt: "[GetUniqueInternationalOrganization('guelphs_io').GetName]"
- faction_ghibellines_no_tt: "[GetUniqueInternationalOrganization('ghibellines_io').GetName]"
+ faction_guelphs_no_tt: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$guelphs_io_tt$,X #L Гвельфы#!#!"
+ faction_ghibellines_no_tt: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$ghibellines_io_tt$,X #L Гибеллины#!#!"
  seat_of_power_throne: "Трон"
  seat_of_power_state: "Государство"
  #Gender specific verbs (female, male, fallback)

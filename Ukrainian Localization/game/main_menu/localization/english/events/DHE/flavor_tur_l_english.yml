@@ -1,7 +1,7 @@
 ﻿l_english:
  flavor_tur.1.title: "The [persia.GetAdjectiveWithNoTooltip] Problem"
  flavor_tur.1.desc: "[persia.GetName] has long been a thorn in our side, a constant threat to our borders. But spies at their [ROOT.GetCountry.GetGovernment.GetCourtTitle] have told us that the [persia.GetAdjectiveWithNoTooltip] government might be willing to sign a long-lasting peace agreement with us. This would secure the war-torn border provinces for the benefit of our [ROOT.GetCountry.GetFlavorRank] as well as theirs. The [ROOT.GetCountry.Custom('GetHeadOfCabinetName')] has already begun drafting a treaty proposal."
- flavor_tur.1.historical_info: "With the rise of the Safavid dynasty in Iran, the Ottomans gained a formidable foe. Just like the Roman empires before them, the Ottomans were drawn into prolonged and destructive wars with Iran. This time, the conflicts were not only over the beleaguered lands of the Middle East - there was an element of religious struggle too, since the Safavid had embraced Shia islam, while the Ottomans saw themselves as the inheritors of the Sunni caliphate."
+ flavor_tur.1.historical_info: "With the rise of the Safavid dynasty in Iran, the Ottomans gained a formidable foe. Just like the Roman empires before them, the Ottomans were drawn into prolonged and destructive wars with Iran. This time, the conflicts were not only over the beleaguered lands of the Middle East - there was an element of religious struggle too, since the Safavid had embraced Shia Islam, while the Ottomans saw themselves as the inheritors of the Sunni caliphate."
  flavor_tur.1.a: "Suggest full reconciliation."
  flavor_tur.1.b: "Suggest a moderate treaty."
  flavor_tur.1.c: "There will be no deal with our archenemies."
@@ -94,7 +94,7 @@
  flavor_tur.16.b: "Accept their demands."
  celali_uprising: "The Celali Uprising"
  celali_uprising_joining: "All [ShowReligionName('shia')] [pops|e] in [ShowRegionName('anatolia_region')] will join [celali_uprising.GetName]"
- celal_available.tt: "[sheikh_celal.GetNameWithNoTooltip] becomes available to serve in the [cabinet|e]."
+ celal_available.tt: "[sheikh_celal.GetName] becomes available to serve in the [cabinet|e]."
 
 
  
@@ -168,7 +168,7 @@
 
  
  flavor_tur.27.title: "The [ShowLocationRankNameWithNoTooltip('city')] of World's Desire"
- flavor_tur.27.desc: "At last, we have conquered [ShowLocationName('constantinople')], where many [ShowReligionGroupName('muslim')] commanders of ages past failed before the might of the [ShowBuildingTypeName('theodosian_walls')]. This great Roman [constantinople_location.GetRank.GetName] would be a fitting capital for our [ROOT.GetCountry.GetFlavorRank], but we might want to take steps to restore its ancient glory, and get [ShowCultureName('turkish_culture')] loyalists to occupy the most important posts. Or we could just plunder whatever we can."
+ flavor_tur.27.desc: "At last, we have conquered [ShowLocationName('constantinople')], where many [ShowReligionGroupAdjective('muslim')] commanders of ages past failed before the might of the [ShowBuildingTypeName('theodosian_walls')]. This great Roman [constantinople_location.GetRank.GetName] would be a fitting capital for our [ROOT.GetCountry.GetFlavorRank], but we might want to take steps to restore its ancient glory, and get [ShowCultureName('turkish_culture')] loyalists to occupy the most important posts. Or we could just plunder whatever we can."
  flavor_tur.27.historical_info: "Though the Ottoman's conquest of Constantinople was seen as a cataclysmic event among Western Christians, it propelled them to glory in the eyes of the Muslim world. After three days of customary looting, Mehmed II ordered that the city's inhabitants should be protected henceforth. The Greeks of Constantinople would later provide many capable advisors for the Ottoman regime."
  flavor_tur.27.a: "It shall be a fitting capital."
  flavor_tur.27.b: "Plunder the riches and declare our victory!"
@@ -190,7 +190,7 @@
 
  flavor_tur.30.title: "Coins in Our Own Name"
  flavor_tur.30.desc: "During the later reign of [GetCharacter('tur_osman').GetShortName], [GetCharacter('tur_osman').GetSheHe] had coins minted in [GetCharacter('tur_osman').GetHerHis] own name, and no longer as a nominal vassal of the moribund Ilkhanids in Iran. This was a big step towards legitimacy as an independent ruler, and with the Ilkhanate now fallen, we have little to lose from continuing this practice. However, the mint in [ShowLocationNameWithNoTooltip('bursa')] claims that they have a shortage of silver and gold, and are asking for a contribution, so they can produce greater quantities of coins with the glorious likeness of [target_character.GetName]."
- flavor_tur.30.a: "The shall have what they need."
+ flavor_tur.30.a: "They shall have what they need."
  flavor_tur.30.b: "A limited production will suffice."
  flavor_tur.30.historical_info: "The ascendant Ottoman state's first mint was located in Bursa. After the capture of the city in 1326, Osman I began to mint coins in his own name, and not as a vassal of the Mongol Ilkhanate, which had up until that point been customary among Anatolian Turkic rulers." 
 
@@ -374,7 +374,7 @@
  flavor_tur.59.historical_info: "Bashi Bazouks were drawn from minority groups, chiefly Albanians and Circassians, and given no pay - instead, the expectation of plunder was what motivated them. This meant that they were very affordable for the Ottoman state, but they soon became infamous for preying on civilians. The word Bashi Bazouk eventually became synonymous with \"bandit\" in many languages."
 
  flavor_tur.60.title: "The Interior Service"
- flavor_tur.60.desc: "Skilled eunuch slaves have long played a limited role in our government, but there is great potential in these castrated men, without ambitions of family and temporal power. As is there in several talented young slave-boys at court. We could tie such capable courtiers closer to the [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName] dynasty, by giving them formal roles in our household, at the expense of the old sycophant [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] who used to vie for such positions." 
+ flavor_tur.60.desc: "Skilled eunuch slaves have long played a limited role in our government, but there is great potential in these castrated men, without ambitions of family and temporal power. As there are several talented young slave-boys at court, we could tie such capable courtiers closer to the [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName] dynasty by giving them formal roles in our household, at the expense of the sycophantic old [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] who used to vie for such positions."
  flavor_tur.60.a: "A court reform is long overdue."
  flavor_tur.60.b: "No, we must continue to rely on the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]."
  flavor_tur.60.historical_info: "#italic Enderûn#!, from a Persian word for #italic inside#!, designated the courtiers closest to the Ottoman sultan. They were contrasted with the #italic Birûn#!, the exterior service, which was the bureaucracy of the empire. The ranks of the Enderûn were chiefly made up of eunuchs and young Christian slaves, whose tasks focused on attending and educating the imperial family, but over time, some of them aquired great political power."
@@ -385,8 +385,8 @@
  flavor_tur.61.b: "Our court is strange enough as it is..."
  flavor_tur.61.historical_info: "The Interior Service featured many unusual characters, and was notable for its employment of Dilsiz, deaf-mutes. It was considered that they could be entrusted with secrets and especially sensitive missions, and accordingly, they often acted as guards, attendants, messengers - and sometimes executioners. Though mute, many of them were literate and used their own sign language."
 
-  flavor_tur.62.title: "The Hidden Language"
- flavor_tur.62.desc: "The deaf-mutes at court have put their clever minds together, and developed a new sign language that allows them to communicate very well, and silently, with each other. Now they propose that [target_ruler.GetName] should practice this language, too, since it would allow for very secret and intimate exchanges of information, whenever [target_ruler.GetHerHis] highness so wishes."
+ flavor_tur.62.title: "The Hidden Language"
+ flavor_tur.62.desc: "The deaf-mutes at court have put their clever minds together and developed a new sign language that allows them to communicate very well — and silently — with each other. Now they propose that [target_ruler.GetName] should also practice this language, since it would allow for very secret and intimate exchanges of information whenever [target_ruler.GetHerHis] highness so wishes."
  flavor_tur.62.a: "Let [target_ruler.GetHerHim] begin to practice."
  flavor_tur.62.b: "Better to focus on martial pursuits."
  flavor_tur.62.tt: "This will give benefits in a few months."
@@ -478,7 +478,7 @@
  tur_abdicate_throne_tt: "$ser_abdicate_throne_tt$"
 
  flavor_tur.76.title: "The Beauties of [beautiful_city.GetNameWithNoTooltip]"
- flavor_tur.76.desc: "A writer native to [beautiful_city.GetName] has composed a long poem about that [beautiful_city.GetRank.GetName], praising its natural, historical, and architectural beauty. But he also describes the beauty of its native young men, in ways some have accused of being salacious. This kind of poetry has become rather common, and loud voices among the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] want it banned. Sufi mystics, meanwhile, claim it's just an innocent expression of the beauty of God's creation."
+ flavor_tur.76.desc: "A writer native to [beautiful_city.GetName] has composed a long poem about that [beautiful_city.GetRank.GetName], praising its natural, historical, and architectural beauty. But he also describes the beauty of its native young men, in ways some have accused of being salacious. This kind of poetry has become rather common, and loud voices among the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] want it banned. Sufi mystics, meanwhile, claim it is just an innocent expression of the beauty of God's creation."
  flavor_tur.76.historical_info: "Shehrengiz, translated as \"city thrillers\", was a genre of Ottoman poetry that described the splendor of particular cities. One such poem was dedicated to Bayezid II when he visited Edirne. But Shehrengiz also prominently included yearning descriptions of the beauty of local young men, an element that has sometimes been interpreted as part of the homoerotic themes in Turco-Persian tradition." 
  flavor_tur.76.a: "All beauty should be treasured."
  flavor_tur.76.b: "We shall have the author executed."
@@ -741,7 +741,7 @@
  opinion_ottoman_capitulation: "Received capitulation"
 
  flavor_tur.111.title: "Shadow Play"
- flavor_tur.111.desc: "A type of puppet theater utilizing shadows projected onto a muslin screen has lately become popular in many cities of the [ROOT.GetCountry.GetFlavorRank]. It features two clownish characters known as Karagöz and Havicat, whose antics draws huge crowds in tea houses and noble homes alike. Some members of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] claim that the plays, which often feature crude and subversive themes, are an affront to [ShowReligionGroupName('muslim')], but to ban them would greatly enrage many urban dwellers."
+ flavor_tur.111.desc: "A type of puppet theater utilizing shadows projected onto a muslin screen has lately become popular in many cities of the [ROOT.GetCountry.GetFlavorRank]. It features two clownish characters known as Karagöz and Hacivat, whose antics draws huge crowds in tea houses and noble homes alike. Some members of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] claim that the plays, which often feature crude and subversive themes, are an affront to [ShowReligionGroupName('muslim')], but to ban them would greatly enrage many urban dwellers."
  flavor_tur.111.historical_info: "The origins of the Karagöz shadow play tradition are uncertain. Some think it arrived with traders from Java, where shadow plays had been performed since the Middle Ages. By the 16th century, these often satirical and irreverent plays were performed in every city of the Ottoman Empire. $common_string_shaikh_al_islam$ Ebüssuûd Efendi issued a famous ruling that the plays were indeed permissible by Islamic law. In later centuries however, they would come to be repressed by the rulers due to their political content."
  flavor_tur.111.a: "Let the people have their fun."
  flavor_tur.111.b: "We will appease the hardliners."
@@ -1003,7 +1003,7 @@
 
  flavor_tur.145.title: "The Ransom from [ShowAreaNameWithNoTooltip('iceland_area')] "
  flavor_tur.145.desc: "A while back, corsairs from the Barbary states raided [raid_location.GetName] on [ShowAreaName('iceland_area')], a desolate island far out in the Atlantic. They returned to the slave markets of [barbary_location.GetName] with many fair-skinned captives. But some of the abductees have managed to raise vast sums of money for a ransom, and the [target_country.GetGovernment.GetRulerTitle] of [target_country.GetName] has also contributed from [iceland_ruler.GetHerHis] personal treasury, asking firmly but politely that we use our influence in [barbary_location.GetNameWithNoTooltip] to free [iceland_ruler.GetHerHis] subjects."
- flavor_tur.145.historical_info: "After the Twelve Year's Truce in 1609, many Spanish, Dutch, and English sailors found new employment with the Barbary pirates, and taught them how to sail the open ocean. The Barbary pirates subsequently raided into the Atlantic, and several times attacked Madeira, Ireland, Iceland, and the Faeroe Islands. But many of the Icelandic captives that were brought to Algiers after large slave raids in 1627 were eventually ransomed. A priest named Ólafur Egilsson was set free by his captors in order to do fundraising for such ransoms, and later on, the Danish king also intervened." 
+ flavor_tur.145.historical_info: "After the Twelve Years' Truce in 1609, many Spanish, Dutch, and English sailors found new employment with the Barbary pirates, and taught them how to sail the open ocean. The Barbary pirates subsequently raided into the Atlantic, and several times attacked Madeira, Ireland, Iceland, and the Faeroe Islands. But many of the Icelandic captives that were brought to Algiers after large slave raids in 1627 were eventually ransomed. A priest named Ólafur Egilsson was set free by his captors in order to do fundraising for such ransoms, and later on, the Danish king also intervened." 
  flavor_tur.145.a: "We will graciously accept."
  flavor_tur.145.b: "We should have more slave raids, not less!"
  slaves_released: "Released slaves unjustly taken."
@@ -1286,7 +1286,7 @@
 
  flavor_tur.182.title: "The Giant"
  flavor_tur.182.desc: "[koca.GetName] is a [koca.GetWomanMan] of many talents, having been both a treasurer, a scholar, a poet, and governor of [ShowRegionName('anatolia_region')]. People call [koca.GetHerHim] Koca, #italic The Giant#!, though whether because of [koca.GetHerHis] size or something else is hard to say. Having tired of [ShowRegionNameWithNoTooltip('anatolia_region')], [koca.GetSheHe] has written an eloquent verse addressed to the Sublime Porte, asking to be allowed to serve as [ROOT.GetCountry.Custom('GetHeadOfCabinetName')] in [target_capital.GetName]. But [koca.GetSheHe] is known to be a lover of peace, something many ambitious [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] are not too fond of."
- flavor_tur.182.historical_info: "Koca Ragıp Pasha was perhaps the most capable grand vizier of the 18th century. The waning fortunes of the empire saw a respite during his tenure, as he both made successful economic and administrative reforms and managed to keep the Ottomans out of the Seven Year's War that was raging in Europe. He was also a scholar and a poet, having frequent exchanges with the celebrated poetess Fıtnat Hanım and other prominent contemporaries."
+ flavor_tur.182.historical_info: "Koca Ragıp Pasha was perhaps the most capable grand vizier of the 18th century. The waning fortunes of the empire saw a respite during his tenure, as he both made successful economic and administrative reforms and managed to keep the Ottomans out of the Seven Years' War that was raging in Europe. He was also a scholar and a poet, having frequent exchanges with the celebrated poetess Fıtnat Hanım and other prominent contemporaries."
  flavor_tur.182.a: "The state sorely needs [koca.GetHerHim]."
  flavor_tur.182.b: "We can find other [koca.GetWomenMen]."
  koca_retires.tt: "[koca.GetNameWithNoTooltip] remains in the provinces."
@@ -1512,7 +1512,7 @@
  flavor_tur.1000.desc: "Despite our control over [ShowProvinceDefinitionName('albania_province')], there have been several rebellious lords within the lands, who may not openly speak about their stance to the [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetCourtTitle], but would surely take action should troubles arise. Rather than sit idly by, there have been suggestions to take hostages from them, specifically members of the [ShowDynastyName('kastrioti_dynasty')] family. Perhaps like that, we can hold leverage over them, using it in case they ever think of rebelling against [target_character.GetName]."
  flavor_tur.1000.a: "Let us demand these hostages."
  flavor_tur.1000.b: "It would be disrespectful towards [target_country.GetNameWithNoTooltip]."
- tur_demand_hostage_from_albanian_country_tt: "We will demand from [target_country.GetName] to give us a [character|e] from the [ShowDynastyName('kastrioti_dynasty')]"
+ tur_demand_hostage_from_albanian_country_tt: "We will demand from [target_country.GetName] to give us a [character|e] from the [target_dynasty.GetName] [dynasty|e]"
 
  flavor_tur.1001.title: "$flavor_tur.1000.title$"
  flavor_tur.1001.desc: "[target_country2.GetName] has demanded that we send them a hostage. Although they are more powerful than us, they need leverage over us in case we seek to fight them in the future. The [ROOT.GetCountry.GetGovernment.GetCourtTitle] suggests we hand them over [target_character2.GetName], a minor noble of these lands, as the hostage. By doing that, however, we solidify our position in this dynamic."

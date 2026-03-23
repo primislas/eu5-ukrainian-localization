@@ -90,7 +90,7 @@
  benin_area: "Бенин"
  cameroon_highlands_area: "Камерунское нагорье"
  cape_verde_area: "Острова Зелёного мыса"
- futa_tooro_area: "Фута Торо"
+ futa_tooro_area: "Фута-Торо"
  gambia_area: "Гамбия"
  gold_coast_area: "Золотой Берег"
  gulf_of_guinea_area: "Гвинейский залив"
@@ -172,7 +172,7 @@
  west_virginia_area: "Западная Виргиния"
  north_carolina_area: "Северная Каролина"
  south_carolina_area: "Южная Каролина"
- georgia_us_area: "Грузия"
+ georgia_us_area: "Джорджия"
  florida_area: "Флорида"
  tennessee_area: "Теннесси"
  kentucky_area: "Кентукки"
@@ -215,7 +215,6 @@
  xilotepec_area: "Хилотепек"
  xalisco_area: "Халиско"
  aridoamerica_sea_zones_area: "Аридоамериканское море"
- janeiro_area: "Жанейро"
  mayaab_area: "Маяаб"
  chilapan_area: "Чилапан"
  puuk_area: "Пуук"
@@ -263,10 +262,10 @@
  paraguay_area: "Парагвай"
  guapore_area: "Гуапоре"
  uruguay_area: "Уругвай"
+ mato_grosso_area: "Мату-Гросу"
  #Colombia Region
  bogota_area: "Богота"
  #Andes Region
- andes_area: "Анды"
  quitu_area: "Киту"
  chala_area: "Чала"
  atacama_area: "Атакама"
@@ -347,7 +346,7 @@
  korea_eastern_coastline: "Восточное побережье Кореи"
  #Manchuria Region
  liaodong_area: "Ляодун" #遼東
- lower_amur_area: "Низовья Амура"
+ lower_amur_area: "Нижний Амур"
  middle_amur_area: "Средний Амур"
  songhua_area: "Сунгари"
  songnen_area: "Суннэнь"
@@ -356,7 +355,7 @@
  #Mongolia Region
  argun_area: "Аргун"
  eastern_gobi_area: "Восточная Гоби"
- lower_selenga_area: "Низовья Селенги"
+ lower_selenga_area: "Нижняя Селенга"
  mongolian_great_lakes_area: "Монгольские Большие озёра"
  shilkari_area: "Шилкари"
  southern_gobi_area: "Южная Гоби"
@@ -470,7 +469,7 @@
  west_stanovoi_area: "Западный Становой хребет"
  amga_area: "Амга"
  yakutia_area: "Якутия"
- lower_lena_area: "Низовья Лены"
+ lower_lena_area: "Нижняя Лена"
  middle_lena_area: "Средняя Лена"
  upper_lena_area: "Верхняя Лена"
  onoid_area: "Ононди"
@@ -523,7 +522,7 @@
  irrawady_delta_area: "Дельта Иравади"
  kachin_area: "Качин"
  khorat_plateau_area: "Плато Корат"
- lower_mekong_area: "Низовья Меконга"
+ lower_mekong_area: "Нижний Меконг"
  malay_peninsula_area: "Малайский полуостров"
  northern_tai_highland_area: "Северно-Таиландское нагорье"
  red_river_delta_area: "Дельта Красной реки"
@@ -612,7 +611,7 @@
  zaporizhzhia_area: "Запорожье"
  pryazovia_area: "Приазовье"
  azov_area: "Азов"
- lower_don_area: "Низовья Дона"
+ lower_don_area: "Нижний Дон"
  astrakhan_area: "Астрахань"
  majar_area: "Маджар"
  lower_yik_area: "Нижний Йик"
@@ -785,7 +784,7 @@
  melanesia_area: "Меланезия"
  solomon_islands_area: "Соломоновы острова"
  solomon_islands_coastal_sea_zones_area: "Прибрежные воды Соломоновых островов"
- bismarck_area: "Бисмарк"
+ bismarck_area: "Новая Британия"
  momase_area: "Момасе"
  kerema_area: "Керема"
  milne_area: "Милн"
@@ -796,7 +795,7 @@
  polynesia_area: "Полинезия"
  #Polynesia
  #New Zealand Region
- rekohu_area: "Рекоху"
+ rekohu_area: "Остров Рекоху"
  lord_howe_area: "Остров Лорд-Хау"
  norfolk_nz_area: "Остров Норфолк"
  motu_maha_area: "Моту-Маха"
@@ -917,7 +916,7 @@
  timor_sea_area: "Тиморское море"
  tristan_da_cunha_area: "Острова Тристан-да-Кунья"
  tristan_da_cunha_sea_zones_area: "Море Тристан-да-Кунья"
- bouvet_area: "Буве"
+ bouvet_area: "Остров Буве"
  #Australians
  western_australia_high_sea_zones_area: "Западно-Австралийское море"
  northern_australia_high_sea_zones_area: "Северно-Австралийское море"
@@ -929,7 +928,7 @@
  australian_yalanji_area: "Яланьи"
  southeastern_australia_area: "Юго-Восточная Австралия"
  south_australia_area: "Южная Австралия"
- #unsorted
+ # unsorted
  bermuda_province: "Бермудские острова"
  bermuda_area: "Бермудские острова"
  gulf_of_mexico_area: "Мексиканский залив"
@@ -947,5 +946,5 @@
  azores_area: "Азорские острова"
  canary_islands_area: "Канарские острова"
  south_macaronesia_area: "Южная Макаронезия"
- #temporary ones
+ # temporary ones
  nw_africa_coast_area: "Побережье Северо-Западной Африки"

@@ -162,7 +162,7 @@
  masonry: "Masonry"
  masonry_desc: "Construction techniques come in all shapes and sizes. The ability to fabricate smaller pieces with a regular size and shape to use in construction greatly increases not only the efficiency in which buildings can be constructed but also their durability once built."
  beeswax: "Beeswax"
- beeswax_desc: "Bees have been friends of humanity since prehistoric times, and their was has been used for many uses. From candles to molds, from polish finisher to tablets for writing, the presence of beeswax in human society is a permanent constant."
+ beeswax_desc: "Bees have been friends of humanity since prehistoric times, and their wax has been used for many purposes. From candles to molds, from polish finisher to tablets for writing, the presence of beeswax in human society is ubiquitous."
  saffron: "Saffron"
  saffron_desc: "Known since ancient times, saffron has been used not only for its culinary applications, but also as a source of traditional medicines and as coloring dye for clothes, despite its high cost."
  pepper: "Pepper"
@@ -203,6 +203,8 @@
  fishing_boat_construction: "Fishing Boat Construction"
  fishing_boat_maintenance: "Fishing Boat Maintenance"
 
+ galley_0_construction: "[ShowShortAgeNameWithNoTooltip('age_1_traditions')] Light Galley Construction"
+ galley_0_maintenance: "[ShowShortAgeNameWithNoTooltip('age_1_traditions')] Light Galley Maintenance"
  galley_1_construction: "[ShowShortAgeNameWithNoTooltip('age_1_traditions')] Galley Construction"
  galley_1_maintenance: "[ShowShortAgeNameWithNoTooltip('age_1_traditions')] Galley Maintenance"
  galley_2_construction: "[ShowShortAgeNameWithNoTooltip('age_2_renaissance')] Galley Construction"
@@ -276,6 +278,8 @@
  cavalry_construction: "Cavalry Construction"
  heavy_cavalry_maintenance: "Heavy Cavalry Maintenance"
  heavy_cavalry_construction: "Heavy Cavalry Construction"
+ expensive_heavy_cavalry_maintenance: "Expensive Heavy Cavalry Maintenance"
+ expensive_heavy_cavalry_construction: "Expensive Heavy Cavalry Construction"
  artillery_maintenance: "Artillery Maintenance"
  artillery_construction: "Artillery Construction"
  auxuliary_maintenance: "Auxiliary Maintenance"
@@ -341,7 +345,8 @@
  fishing_village_maintenance: "Needs of Fishing Villages"
  farming_village_maintenance: "Needs of Farming Villages"
  eng_royal_forest_maintenance: "Needs of Royal Forests"
- forest_village_maintenance: "Needs of Forest Villages"
+ forest_tannery: "Forest Tanneries"
+ hunting_lodges: "Hunting Lodges"
  market_village_slot_0: "Needs"
  market_village_maintenance: "Needs of Market Villages"
  university_maintenance: "University Maintenance"
@@ -383,9 +388,10 @@
  shoen_lumbermills_maintenance: "$shoen$ Lumbermills"
  shoen_fiber_crops_farm_maintenance: "$shoen$ Fibers"
  shoen_ironsand_maintenance: "$shoen$ Ironsand Collector"
+ shoen_masonry_maintenance: "Daiku Artisan"
  tamagahane_blacksmith: "Tamahagane Blacksmith"
  tamagahane_bladesmith: "Tamahagane Bladesmith"
- 
+ japanese_clan_building_construction: "Japanese Clan Building"
  
  guns_workshop_slot_0: "$gun_smith_slot_0$"
  guns_workshop_slot_1: "$gun_smith_slot_1$"
@@ -503,6 +509,7 @@
  
  bronze_tools_guild_maintenance: "Bronze Tool Makers"
  stone_tools_guild_maintenance: "Stone Tool Makers"
+ copper_tools_guild_maintenance: "Copper Tool Makers"
  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
  cloth_manufactory_slot_0: "$wool_cloth_manufactory_maintenance$ Method"
  wool_cloth_manufactory_maintenance: "Wool Clothmakers"
@@ -613,7 +620,7 @@
  silk_weavers_maintenance: "Silk Weavers Guild"
  wool_weavers_maintenance: "Wool Weavers Guild"
  fine_cloth_guild_slot_1: "Enhancements:"
- base_fine_cloth_guild_maintenance: "Dyes"
+ base_fine_cloth_guild_maintenance: "Dye Makers"
  alum_fine_cloth_guild_maintenance: "Dyes with Alum"
  sugar_distillery_maintenance: "Distill Sugar"
  wheat_distillery_maintenance: "Distill Wheat"
@@ -788,6 +795,7 @@
  jewelry_guild_slot_0: "Base [production_methods|e]:"
  gold_base: "Gold Based Jewelry"
  silver_base: "Silver Based Jewelry"
+ copper_base: "Copper Based Jewelry"
  jewelry_guild_slot_1: "Enhancements:"
  gems_enhancement: "Gems Enhancements"
  ivory_enhancement: "Ivory Enhancements"
@@ -900,6 +908,7 @@
  POP_DEMAND_SOLDIERS: "[ShowPopTypeName('soldiers')] [pop_type|e]"
  POP_DEMAND_LABORERS: "[ShowPopTypeName('laborers')] [pop_type|e]"
  POP_DEMAND_PEASANTS: "[ShowPopTypeName('peasants')] [pop_type|e]"
+ POP_DEMAND_PEASANTSNO_WEAPONS: "Disallowed Weapons"
  POP_DEMAND_SLAVES: "[ShowPopTypeName('slaves')] [pop_type|e]"
  POP_DEMAND_ANDEAN_COCA_LEAF: "[ShowCultureGroupName('andean_group')] Coca Leaf Habit"
  POP_DEMAND_ANDEAN_COCA_LEAF_CLERGY: "[ShowReligionGroupName('folk_peruvian_group')] Coca Leaf Rituals"
@@ -958,7 +967,7 @@
  
  
  expensive_capital_administration_maintenance: "Expensive Administration Buildings"
- endrun_academy_maintenance: "$endrun_academy$"
+ endrun_academy_maintenance: "$enderun_academy$"
  moscow_artillery_yard_maintenance: "$moscow_artillery_yard$"
  
  capital_administration_maintenance: "Administration Buildings"
@@ -1040,3 +1049,6 @@
  tur_turkish_delight: "Turkish Delight"
  cahokia_woodhenge_production_method: "$woodhenge_of_cahokia$ Maintenance"
  woodhenge_of_cahokia_construction: "Constructing $woodhenge_of_cahokia$"
+ local_governor_construction: "Building $local_governor$"
+ naval_governor_maintenance: "$naval_governor$ Maintenance"
+ local_governor_maintenance: "$local_governor$ Maintenance"

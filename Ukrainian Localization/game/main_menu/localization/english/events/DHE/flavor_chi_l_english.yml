@@ -178,10 +178,10 @@
  flavor_chi.29.b: "We cannot stand for such a scandal."
 
  flavor_chi.30.title: "Catastrophic Rains in [target_province.GetNameWithNoTooltip]"
- flavor_chi.30.desc: "A series of catastrophic weather events has struck [target_province.GetName], causing widespread devastation and suffering. That alone is a calamity, but the downpour has reached the [ShowModifier('chi_grand_canal')], causing it to fill up and overflow. This unprecedented event has hampered the functioning of the canal, in turn severing the link between the south and the north.\n\nThough this damage can theoretically be repaired, it would come at a significant cost which we cannot possibly bear in our current state. But can [ROOT.GetCountry.GetName] survive without the Grand Canal?"
+ flavor_chi.30.desc: "A series of catastrophic weather events has struck [target_province.GetName], causing widespread devastation and suffering. That alone is a calamity, but the downpour has reached the [ShowScriptedGeographyName('chinese_canal_geography')], causing it to fill up and overflow. This unprecedented event has hampered the functioning of the canal, in turn severing the link between the south and the north.\n\nThough this damage can theoretically be repaired, it would come at a significant cost which we cannot possibly bear in our current state. But can [ROOT.GetCountry.GetName] survive without the Grand Canal?"
  flavor_chi.30.a: "Tragedy has struck our nation."
- destroy_grand_canal_china_tt: "The Grand Canal will be rendered practically unusable, weakening its effects from [ShowModifier('chi_grand_canal')] to [ShowModifier('chi_grand_canal_destruction')]."
- repair_grand_canal_china_tt: "The Grand Canal will be repaired, changing its effects from [ShowModifier('chi_grand_canal_destruction')] to [ShowModifier('chi_grand_canal')]."
+ destroy_grand_canal_china_tt: "The [ShowScriptedGeographyName('chinese_canal_geography')] will be rendered practically unusable, weakening its effects from [ShowModifier('chi_grand_canal')] to [ShowModifier('chi_grand_canal_destruction')]"
+ repair_grand_canal_china_tt: "The [ShowScriptedGeographyName('chinese_canal_geography')] will be repaired, changing its effects from [ShowModifier('chi_grand_canal_destruction')] to [ShowModifier('chi_grand_canal')]"
 
  flavor_chi.32.title: "Capture of [target_location.GetNameWithNoTooltip]"
  flavor_chi.32.desc: "The [target_location.GetRank.GetName] of [target_location.GetName] has finally fallen into our hands. A symbol of the [ShowCultureName('mongolian_culture')] rule, the capture of this [target_location.GetRank.GetNameWithNoTooltip] is a monumental victory for the [ROOT.GetCountry.GetLongName] and it is perhaps the final push necessary to force our foes onto the negotiation table."
@@ -289,6 +289,7 @@
  flavor_chi.53.desc: "The [ROOT.GetCountry.GetGovernment.GetCourtTitle] and the [ROOT.GetCountry.GetGovernment.GetRulerTitle] are in need of a new palace to manage the [ROOT.GetCountry.GetFlavorRank]'s affairs from. After much deliberation, [target_location.GetName] has been chosen to host the new palace as it was deemed a most suitable site for a northern capital and a new seat of power.\n\nAs such, [target_character.GetName] had [target_character.GetHerHis] ministers and architects design a new palace to be placed there. After months of relentless work, their work is finally done and the result is the plan of the [ShowBuildingTypeName('forbidden_city')], a massive complex containing hundreds of buildings and housing thousands of ministers and servants."
  flavor_chi.53.a: "Have it built at once!"
  flavor_chi.53.b: "Could we spare the gold, we would."
+ CHI_event_will_fire_within_10_to_20_years: "The construction finish will be marked by an [event|e] that will fire within 10 to 20 years."
 
  flavor_chi.54.title: "$flavor_chi.53.title$ Built"
  flavor_chi.54.desc: "The construction of the magnificent [ShowBuildingTypeName('forbidden_city')] is finally complete. The complex is now ready for the [ROOT.GetCountry.GetGovernment.GetRulerTitle] to move in and it is certain that the palace will, at the very least, serve as the winter residence for the monarchs. What is certain, however, is that the [target_location.GetRank.GetName] of [target_location.GetName] has become a lot more important for our state."
@@ -621,9 +622,9 @@
  flavor_chi.112.b: "Show leniency towards the rebels."
 
  flavor_chi.113.title: "[target_character.GetNameWithNoTooltip] Flees to [ShowAreaNameWithNoTooltip('taiwan_area')]"
- flavor_chi.113.desc: "[ROOT.GetCountry.GetName] is experiencing a period of unprecedented decline that is of great worry to the [ROOT.GetCountry.GetGovernment.GetCourtTitle]. Believing the fate of the dynasty is sealed, [target_character.GetName], one of our generals, has fled the country to the island of [ShowAreaName('taiwan_area')], establishing [target_character.GetHerselfHimself] as a prince there who will carry on our legacy."
+ flavor_chi.113.desc: "[ROOT.GetCountry.GetName|U] are experiencing a period of unprecedented decline that is of great worry to the [ROOT.GetCountry.GetGovernment.GetCourtTitle]. Believing the fate of the dynasty is sealed, [target_character.GetName], one of our generals, has fled the country to the island of [ShowAreaName('taiwan_area')], establishing [target_character.GetHerselfHimself] as a prince there who will carry on our legacy."
  flavor_chi.113.a: "It cannot be that bad?"
- flavor_chi.113.b: "[ROOT.GetCountry.GetName] is truly lost."
+ flavor_chi.113.b: "[ROOT.GetCountry.GetNameWithNoTooltip] is truly lost."
 
  flavor_chi.114.title: "Personal Recommendation"
  flavor_chi.114.desc: "Since the abolishment of the [ShowLawName('imperial_examination_law')], the [ROOT.GetCountry.GetLongName] has been reliant on personal recommendations to fill the cabinet and other government positions. Well, [recommending_character.GetName] has just made one such recommendation, openly vouching for [target_character.GetName] to be a competent clerk who could help aid the [ROOT.GetCountry.GetGovernment.GetAdjective] matters."

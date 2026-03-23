@@ -255,7 +255,7 @@
 
  flavor_mos.32.title: "The Pozhiloye"
  flavor_mos.32.desc: "The freedom of movement for the [ShowPopTypeName('peasants')] allows for labor shortages to be met and encourages healthy competition between landholders. However, it also adds a certain insecurity to our food production and discourages longevity amongst our workers, and disincentivizes any attempts to make the workforce more productive since the landowner cannot be certain that workers will remain for more than one season. We could introduce a break-away fee that charges anyone who wishes to leave their current landowner, serving as a deterrent to regular workforce migration."
- flavor_mos.32.a: "It's a carrot and stick approach."
+ flavor_mos.32.a: "It is a carrot and stick approach."
  STATIC_MODIFIER_NAME_pozhiloye: "Pozhiloye"
  flavor_mos.32.b: "There is no need for this."
  flavor_mos.32.historical_info: "The Pozhiloye was introduced in 1550 as part of a major reform of the Sudebnik law. It was a step towards strengthening the power of the aristocracy at the expense of the peasants, but the revision also confirmed the right of every worker to leave their employer, as long as the fee could be paid."
@@ -409,7 +409,7 @@
  flavor_mos.49.a: "The lineage is indisputible."
  flavor_mos.49.tt1: "The translation skills of [dmitry_gerasimov.GetName] facilitates the spread of the idea of [target_root_country.GetNameWithNoTooltip ] as the Third Rome"
  flavor_mos.49.b: "Superstitious nonsense."
- flavor_mos.49.c: "Have the tale adorn the walls of the [ShowWorkOfArtName('uspensky_sobor')]."
+ flavor_mos.49.c: "Have the tale adorn the walls of the [ShowWorkOfArtNameWithNoTooltip('uspensky_sobor')]."
  flavor_mos.49.historical_info: "The #italic Tale of the Princes of Vladimir#! was written either by Dmitry Gerasimov or Pachomius the Serb in the early sixteenth century, and was created to provide a background story to be used for the Tsar at the coronation ceremonies. Its primary objective was to establish a historical connection between the principality of Muscovy and the Roman Emperors, particularly Augustus, but it also served as a means to conceive the idea of Muscovy as the Third Rome and natural successor to the Eastern Roman Empire, which has collapsed following the conquest of Constantinople."
 
  flavor_mos.50.title: "[dmitry_gerasimov.GetNameWithNoTooltip]"
@@ -543,7 +543,7 @@
  flavor_mos.64.desc: "With the advancement of artillery technology on the battlefield, it is increasingly crucial to be able to supply the army with an ample supply of munition pieces to sustain the war effort. We should task our engineers with establishing a dedicated facility focused on artillery production, transforming [ShowLocationName('moscow')] into a center for technological innovations and a dependable supplier."
  flavor_mos.64.a: "A dynamite deal."
  flavor_mos.64.b: "Time better spent on military drills."
- flavor_mos.64.historical_info: "The Moscow Artillery Yard was built during the reign of Ivan IV, and played an important role in enhancing Russia's military capabilities. The production of cannons and artillery was crucial for Russia's expanding military influence, and contributed to it's military successes in several conflicts."
+ flavor_mos.64.historical_info: "The Moscow Artillery Yard was built during the reign of Ivan IV, and played an important role in enhancing Russia's military capabilities. The production of cannons and artillery was crucial for Russia's expanding military influence, and contributed to its military successes in several conflicts."
 
  flavor_mos.65.title: "The Baltic Frontier"
  flavor_mos.65.desc: "The [ShowAreaName('baltic_area')] region has long enjoyed a favorable trading position adjacent to the Baltic Sea, the bustling center of commerce for Northern Europe. However, reaping the profits from this trade has proven challenging due to geographical distance. We must press our advantage and seize control of the region, if we aim to funnel some of the wealth back to [target_location.GetName]."
@@ -686,12 +686,12 @@
  flavor_mos.80.historical_info: "The Bolotnikov Rebellion took place from 1606 to 1607 during the Time of Troubles. They were instigated by Cossack Ivan Bolotnikov, who sought to combat social injustices, abuses of power, and economic difficulties. The rebellion received substantial backing from a range of estates, including peasants, Cossacks, and dissatisfied segments of the nobility. At one point, the rebellion controlled over seventy towns in southern Russia, and the Tsar was forced to brutally suppress it in order to regain control."
 
  flavor_mos.81.title: "The Influential Marshal"
- flavor_mos.81.desc: "Governor [alexander_lvov.GetName] of [ShowLocationName('nizhny_novgorod')] has recently returned to court to take on the responsibilities of Okolnichy, a senior role which would allow [alexander_lvov.GetHimHer] to take on additional administrative responsibilities. We could expand this role to also encompass a new prikaz bureau overseeing palace affairs and supervision of monasteries, per the [ShowGovernmentReformName('prikazi_reform')] reform. It would strive towards better management of court expenses and ensure the policies of the [ShowPolicyName('non_possessors')] are fully implemented."
+ flavor_mos.81.desc: "Governor [alexey_lvov.GetName] of [ShowLocationName('nizhny_novgorod')] has recently returned to court to take on the responsibilities of Okolnichy, a senior role which would allow [alexey_lvov.GetHimHer] to take on additional administrative responsibilities. We could expand this role to also encompass a new prikaz bureau overseeing palace affairs and supervision of monasteries, per the [ShowGovernmentReformName('prikazi_reform')] reform. It would strive towards better management of court expenses and ensure the policies of the [ShowPolicyName('non_possessors')] are fully implemented."
  flavor_mos.81.a: "An agreeable solution."
  enable_bolshogo_dvortsa_cabinet_action: "Grants access to the [ShowCabinetActionName('bolshogo_dvortsa')] [cabinet_action|e]"
  flavor_mos.81.b: "No need for additional supervision."
  flavor_mos.81.tt2: "The [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] are overjoyed by the trust placed in them"
- flavor_mos.81.historical_info: "Alexander Lvov was a deputy governor who quickly rose the ranks of the Tsarist government, leading diplomatic delegations and serving as ambassador after being appointed majordomo of the Tsar's court. He served as head of the bureau of palace affairs, a role he would keep until his eventual retirement."
+ flavor_mos.81.historical_info: "Prince Alexey Mikhaylovich Lvov was a deputy governor who quickly rose the ranks of the Tsarist government, leading diplomatic delegations and serving as ambassador after being appointed majordomo of the Tsar's court. He served as head of the bureau of palace affairs, a role he would keep until his eventual retirement."
  
  flavor_mos.82.title: "The Feuds of the Mestnichestvo"
  flavor_mos.82.desc: "The [ShowGovernmentReformName('the_mestnichestvo')] ensures that each boyar is entitled to a government post per their lineage and previously held positions, as well as a seat at the [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s table. The system however encourages infighting amongst the [ShowPopTypeName('nobles')] and it could be argued that it keeps other talents away from the court, which in turn hampers the administrative efficiency of the government.\n\nThe lineage of the noblest of families is traced in the so-called ancient pedigree books, and it would be prudent to have them destroyed if we aim to reform the system and better govern the state."

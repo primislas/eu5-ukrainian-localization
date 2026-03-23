@@ -25,17 +25,17 @@
  common_string_fantastic: "Изумительно!"
  common_string_extraordinary: "Невероятно!"
  common_string_wonder_german: "#italic Fantastisch!#!"
- #OK response
+ # OK response
  common_string_ok: "Хорошо."
  common_string_alright: "Ладно."
  common_string_ok_spanish: "#italic Vale.#!"
- common_string_ok_french: "#italic D'accord.#!"
+ common_string_ok_french: "#italic D’accord.#!"
  common_string_ok_french_2: "#italic Bien.#!"
- common_string_ok_catalan: "#italic D'acord.#!"
+ common_string_ok_catalan: "#italic D’acord.#!"
  common_string_ok_italian: "#italic Va bene.#!"
  #Neutral Response
  common_string_leave_them_be: "Оставим их в покое."
- common_string_let_it_slide: "На это можно и закрыть глаза."
+ common_string_let_it_slide: "На это можно закрыть глаза."
  common_string_let_them_revolt: "Пусть бунтуют."
  common_string_the_end_is_nigh: "Конец близок!"
  common_string_what_can_we_do: "Что мы можем сделать?"
@@ -54,7 +54,7 @@
  common_string_this_is_disappointing: "Вот досада…"
  common_string_how_disappointing: "Как печально…"
  common_string_truly_disappointing: "Крайне прискорбно."
- common_string_this_is_truly_disappointing: "Это весьма досадно."
+ common_string_this_is_truly_disappointing: "Это очень досадно."
  common_string_this_is_rather_disappointing: "Это весьма печально…"
  common_string_rather_disappointing: "Безрадостные известия."
  #Nothing We Can Do Response
@@ -65,7 +65,7 @@
  #We Must Do Something Response
  common_string_we_must_do_something: "Мы должны что-то предпринять!"
  common_string_we_must_do_something_about_it: "Надо что-то делать."
- common_string_we_must_do_something_about_this: "Нужно как-то действовать."
+ common_string_we_must_do_something_about_this: "Мы обязаны действовать."
  #Suprised
  common_string_suprised: "Поразительно!"
  common_string_suprised_german: "#italic Alter Schwede!#!"
@@ -74,13 +74,13 @@
  common_string_it_belongs_in_a_museum: "Этому место в музее!"
  #Utility
  common_string_go_to: "Перейти к"
- common_string_prefix_article: "в"
+ common_string_prefix_article: "$common_string_prefix_article_ru$"
  #Other
  common_string_aum: "Ом."
  common_string_let_them_fend_for_themselves: "Пусть позаботятся о себе сами."
  common_string_rein_them_in: "Усмирим их."
  common_string_we_shall_do_something: "Нужно что-то предпринять!"
  common_string_quran: "Коран"
- common_string_shaikh_al_islam: "Шейх-уль-ислам"
+ common_string_shaikh_al_islam: "Шейх аль-ислам"
  genghis_khan_name: "#TOOLTIP:CHARACTER,[GetCharacter('genghis_khan').GetID],X #L $rank_kingdom_horde_ruler_suffix_male$ [GetCharacter('genghis_khan').GetNicknameWithNoTooltip]#!#!"
  genghis_khan_name_no_tooltip: "$rank_kingdom_horde_ruler_suffix_male$ $name_genghis$"

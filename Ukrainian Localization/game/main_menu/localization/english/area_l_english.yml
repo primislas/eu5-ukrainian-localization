@@ -222,7 +222,6 @@
  xilotepec_area: "Xilotepec"
  xalisco_area: "Xalisco"
  aridoamerica_sea_zones_area: "Aridoamerica Sea"
- janeiro_area: "Janeiro"
  mayaab_area: "Ma'ya'ab"
  chilapan_area: "Chilapan"
  puuk_area: "Pu'uk"
@@ -270,11 +269,11 @@
  paraguay_area: "Paraguay"
  guapore_area: "Guapore"
  uruguay_area: "Uruguay"
+ mato_grosso_area: "Mato Grosso"
 
       #Colombia Region
  bogota_area: "Bogota"
       #Andes Region
- andes_area: "Andes"
  quitu_area: "Quitu"
  chala_area: "Chala"
  atacama_area: "Atacama"
@@ -481,7 +480,7 @@
  yakutia_area: "Yakutia"
  lower_lena_area: "Lower Lena"
  middle_lena_area: "Middle Lena"
- upper_lena_area: "Yupper Lena"
+ upper_lena_area: "Upper Lena"
  onoid_area: "Onoid"
  laptev_coast_area: "Laptev Coast"
  siberian_lakes_area: "Siberian Lakes"
@@ -579,7 +578,7 @@
       #Caucasus Region
  armenia_area: "Armenia"
  georgia_area: "Georgia"
- northern_caucasus_area: "Northern  Caucasus"
+ northern_caucasus_area: "Northern Caucasus"
  shirvan_area: "Shirvan"
       #Poland Region
  central_poland_area: "Central Poland"
@@ -657,7 +656,7 @@
  burgundy_area: "Burgundy"
  burgundy_area_ADJ: "Burgundian"
  champagne_area: "Champagne"
- champagne_area_ADJ: "Champagnois"
+ champagne_area_ADJ: "Champenois"
  franche_comte_area: "Franche-Comté"
  franche_comte_area_ADJ: "Comtois"
  gascony_area: "Gascony"

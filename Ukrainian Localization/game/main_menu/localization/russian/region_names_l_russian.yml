@@ -40,8 +40,8 @@
  north_atlantic_ocean_sub_continent: "Северный Атлантический океан"
  south_atlantic_sub_continent: "Южный Атлантический океан"
  indian_ocean_sub_continent: "Индийский океан"
- north_pacific_ocean_sub_continent: "Северный Тихий океан"
- south_pacific_ocean_sub_continent: "Южный Тихий океан"
+ north_pacific_ocean_sub_continent: "Северная часть Тихого океана"
+ south_pacific_ocean_sub_continent: "Южная часть Тихого океана"
  antarctic_ocean_sub_continent: "Южный Ледовитый океан"
  atlantic_ocean_continent: "Атлантический океан"
  indian_ocean_continent: "Индийский океан"
@@ -120,7 +120,7 @@
  #Europe
  #Eastern Europe
  balkan_region: "Балканы"
- carpathia_region: "Карпатия"
+ carpathia_region: "Карпаты"
  caucasus_region: "Кавказ"
  poland: "Польша"
  baltic_region: "Балтика"
@@ -147,7 +147,7 @@
  melanesia_region: "Меланезия"
  #Ocean Continent
  #Ocean Subcontinent
- ocean_region: "Оушен"
+ ocean_region: "Океан"
  north_atlantic_ocean_region: "Северный Атлантический океан"
  south_atlantic_region: "Южная Атлантика"
  indian_ocean_region: "Индийский океан"

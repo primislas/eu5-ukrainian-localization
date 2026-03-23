@@ -18,6 +18,7 @@
  estate_common_crown_ending: "In general, it is better for the government estate to have more power than the other estates."
  
  
+ crown_estate_holy_order: "Chapter"
  crown_estate_republic: "Republic"
  crown_estate_brethren: "Brethren"
  crown_estate_derbfine: "Derbfine"
@@ -25,6 +26,7 @@
  crown_estate_kronan: "Kronan"
  
  
+ clergy_estate_holy_order: "Fratres"
  clergy_estate_prest: "Prästeståndet"
  clergy_estate_maori: "Tohunga"
  clergy_estate_prelates: "Prelates"
@@ -52,6 +54,7 @@
  clergy_estate_ah_kinoob: "Ah K'ino'ob"
  
  
+ nobles_estate_holy_order: "Milites"
  nobles_estate_adeln: "Adelståndet"
  nobles_estate_maori: "Rangatiras"
  nobles_estate_chieftains: "Chieftains"
@@ -310,7 +313,7 @@
 
  powerful_italian_families: "Powerful [ShowCultureGroupNameWithNoTooltip('italian_group')] Families"
  powerful_italian_families.tt: "Our Capital is NOT in the Region of [ShowRegionNameWithNoTooltip('italy_region')]"
- powerful_italian_families_desc: "The anarchy and disobedience in the city of [ShowLocationName('rome')] and the other [ShowCultureGroupName('italian_group')] estates greatly increased after the [GetCountry('PAP').GetGovernment.GetRulerTitle] moved the court to [ShowLocationName('avignon')]. Now those territories are under the control of powerful Italian families such as the [ShowDynastyName('colonna')] and [ShowDynastyName('orsini')], who are almost completely independent of the [GetCountry('PAP').GetGovernment.GetRulerTitle]."
+ powerful_italian_families_desc: "The anarchy and disobedience in the city of [ShowLocationName('rome')] and the other [ShowCultureGroupName('italian_group')] estates greatly increased after the [GetCountry('PAP').GetGovernment.GetRulerTitle] moved the court to [ShowLocationName('avignon')]. Now those territories are under the control of powerful Italian families such as the Colonna and [ShowDynastyName('orsini_dynasty')], who are almost completely independent of the [GetCountry('PAP').GetGovernment.GetRulerTitle]."
 
  french_cardinals: "[ShowCultureGroupNameWithNoTooltip('french_group')] Cardinals"
  french_cardinals_desc: "Since the death of [GetCharacter('pap_boniface_viii').GetName] and the court's relocation to [ShowLocationName('avignon')], most of the cardinals flocking to it are [ShowCultureGroupName('french_group')] and under the influence of the [GetCountry('FRA').GetGovernment.GetRulerTitle] of [GetCountry('FRA').GetName], whose grip on the [GetCountry('PAP').GetName] will not allow a return to [ShowLocationName('rome')]."
@@ -342,7 +345,7 @@
  clergy_religious_state_desc: "By making matters of religion our foremost priority, we shall forge our nation into a more cohesive whole."
  
  clergy_papal_emissary: "Papal Emissary"
- clergy_papal_emissary_desc: "The legates and other emissaries of the [GetCountry('PAP').GetGovernment.GetRulerTitle] are most welcome in our territory. Moreover, we shall also commit to obeying their judgment, and to never interfere in relations between our local [ShowEstateTypeName('clergy_estate')] and the [GetCountry('PAP').GetGovernment.GetRulerTitleWithNoTooltip]."
+ clergy_papal_emissary_desc: "The legates and other emissaries of the [GetCountry('PAP').GetGovernment.GetRulerTitle] are most welcome in our territory. Moreover, we shall also commit to obeying their judgment, and to never interfere in relations between our local [ShowEstateTypeName('clergy_estate')] and the [GetCountry('PAP').GetGovernment.GetRulerTitle]."
 
  freedom_of_interpretation: "Freedom of Interpretation"
  freedom_of_interpretation_desc: "The many teachings of our faith are like the cool shade underneath a great tree, where all may rest and be refreshed. Under this protective canopy of wisdom, our people are encouraged to think deeply about matters of faith, and to expand and diversify our tenets. This freedom of interpretation will allow our religion to adapt to diverse communities while yet maintaining its core principles."
@@ -595,7 +598,7 @@
  allow_hunting_desc: "Allows the [ShowEstateTypeName('peasants_estate')] to hunt and skin game within the legal and physical boundaries of their lord's or township's domain."
 
  no_labor_sunday: "No Labor on Sunday"
- no_labor_sunday_desc: "It would be wise to follow the teachings of the [ShowReligiousGroupName('christian_group')] Church and decree our serfs and peasants may have respite from their work on Sundays, as a sign of piety and compassion."
+ no_labor_sunday_desc: "It would be wise to follow the teachings of the [ShowReligionGroupAdjective('christian')] Church and decree our serfs and peasants may have respite from their work on Sundays, as a sign of piety and compassion."
 
  communal_lands: "Communal Lands"
  communal_lands_desc: "Despite the inherently disadvantaged position of the common people, we must nevertheless dictate that all members of the [ShowEstateTypeName('peasants_estate')] have the right to establish common flocks of animals and to raise crops in shared fields."
@@ -613,7 +616,7 @@
  ius_teutonicum_desc: "Since the times of the eastern marches of the Carolingian Empire, [ShowCultureGroupName('german_group')] peoples have been expanding and settling further east. Known as #italic Ostsiedlung#!, this influx of [ShowCultureGroupNameWithNoTooltip('german_group')] settlers is often encouraged by local rulers to fill sparsely populated areas. These settlers are subject to a special type of law, the #italic $ius_teutonicum$#!, offering them special privileges like tax exemptions and the right to establish self-governing towns."
 
  kormlenije: "Kormlenije"
- kormlenije_desc: "The Kormlenije System is a mechanism to address the financial and material needs of the [GetCountry('RUS').GetAdjective] [ShowEstateTypeName('nobles_estate')], establishing a financial dependency among the elites. This dependency, in turn, plays a crucial role in securing their unwavering loyalty."
+ kormlenije_desc: "The Kormlenije System is a mechanism to address the financial and material needs of the $RUS_ADJ$ [ShowEstateTypeName('nobles_estate')], establishing a financial dependency among the elites. This dependency, in turn, plays a crucial role in securing their unwavering loyalty."
 
  haudenosaunee_labor_division: "Haudenosaunee Labor Division"
  haudenosaunee_labor_division_desc: "Our people have clearly defined roles within their communities. Tasks are distributed and assigned for the collective benefit of the group, with those sharing the same tasks working together. Men and women fulfill complementary roles through their respective assignments, creating a holistic division of labor."
@@ -648,8 +651,8 @@
 
 #Teutons
  kulm_law: "Kulm Law"
- kulm_law_desc: "A modified version of the Magdeburg Law, the Kulm Law grants all cities in [GetCountry('PRU').GetAdjective] that have secured the mercantile interests of the city merchant guilds the privilege of significant autonomy from their overlords." 
- invite_german_settlers: "Invite [GetCountry('PRU').GetAdjectiveWithNoTooltip] Settlers"
+ kulm_law_desc: "A modified version of the Magdeburg Law, the Kulm Law grants all cities in [ShowAreaName('prussia_area')] that have secured the mercantile interests of the city merchant guilds the privilege of significant autonomy from their overlords." 
+ invite_german_settlers: "Invite [ShowCultureGroupNameWithNoTooltip('german_group')] Settlers"
  invite_german_settlers_desc: "By welcoming migrants into our nation, we will build a strong country that benefits from population growth and shifting regional dynamics."
  invite_german_settlers.tt: "Waves of German migrants will start to regularly arrive in our country"
 
@@ -698,7 +701,6 @@
  libro_d_argento_desc: "Together with the #italic Libro d'Oro#! that list all the noble families of the [GetCountry('VEN').GetLongName], the #italic Libro d'Argento#! contains the names of all the #italic Originarii#! families, who despite being commoners descend from the original inhabitants of the lagoon, and have gained thus the right to trade as citizens of [GetCountry('VEN').GetNameWithNoTooltip] and take jobs in the administration of the [GetCountry('VEN').GetGovernment.GetGovernmentType.GetName]."
  zontas: "Zonta"
  zontas_desc: "The governing councils of the [GetCountry('VEN').GetFlavorRank] of [GetCountry('VEN').GetName] choose their members from among the [ShowEstateTypeName('nobles_estate')]. These elites come together in so-called #italic Zontas#! and have privileges and duties to safeguard the constitution against the accumulation of power by a single ruler."
- zontas_revoke_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] has less than #Y 25.0%#! Power or the [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')] has #Y 50.0%#! or more Power"
  avogadoria_de_comun: "Avogadoria de Comùn"
  avogadoria_de_comun_desc: "The state is in the hands of the noble and wealthy families who occupy key positions in the [GetCountry('VEN').GetAdjective] government. To defend the interests of the state and, by extension, of these families, the Council created the #italic Avogadoria de Comùn#! - the #italic public prosecutors#! - who supervise accounts of high positions, investigate allegations of corruption and prosecute violations of law.\nEven the Doges themselves are not spared by their watchful eyes..."
 

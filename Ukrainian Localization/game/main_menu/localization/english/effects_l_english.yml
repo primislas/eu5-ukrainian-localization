@@ -288,6 +288,11 @@
  PAST_FIRST_GRANT_PARLIAMENT_AGENDA_FOR_ESTATE_EFFECT: "We have granted the [COUNTRY.GetGovernment.GetParliament.GetParliamentAgenda(TARGET_ESTATE_TYPE)] [parliament_agenda|e] of the [TARGET_ESTATE_TYPE.GetName]"
  PAST_THIRD_GRANT_PARLIAMENT_AGENDA_FOR_ESTATE_EFFECT: "[COUNTRY.GetName] has granted the [COUNTRY.GetGovernment.GetParliament.GetParliamentAgenda(TARGET_ESTATE_TYPE)] [parliament_agenda|e] of the [TARGET_ESTATE_TYPE.GetName]"
 
+ UPDATE_LEADERSHIP_EFFECT: "The leadership of [TARGET_INTERNATIONAL_ORGANIZATION.GetName] gets updated"
+ THIRD_UPDATE_LEADERSHIP_EFFECT: "The leadership of [TARGET_INTERNATIONAL_ORGANIZATION.GetName] gets updated"
+ PAST_UPDATE_LEADERSHIP_EFFECT: "The leadership of [TARGET_INTERNATIONAL_ORGANIZATION.GetName] has been updated"
+ PAST_THIRD_UPDATE_LEADERSHIP_EFFECT: "The leadership of [TARGET_INTERNATIONAL_ORGANIZATION.GetName] has been updated"
+
  GRANT_PARLIAMENT_AGENDA_FOR_SPECIAL_STATUS_EFFECT: "Grants the [INTERNATIONAL_ORGANIZATION.GetParliament.GetParliamentAgenda(TARGET_SPECIAL_STATUS)] [parliament_agenda|e] of the [TARGET_SPECIAL_STATUS.GetName]"
  FIRST_GRANT_PARLIAMENT_AGENDA_FOR_SPECIAL_STATUS_EFFECT: "We grant the [INTERNATIONAL_ORGANIZATION.GetParliament.GetParliamentAgenda(TARGET_SPECIAL_STATUS)] [parliament_agenda|e] of the [TARGET_SPECIAL_STATUS.GetName]"
  THIRD_GRANT_PARLIAMENT_AGENDA_FOR_SPECIAL_STATUS_EFFECT: "[INTERNATIONAL_ORGANIZATION.GetName] grants the [INTERNATIONAL_ORGANIZATION.GetParliament.GetParliamentAgenda(TARGET_SPECIAL_STATUS)] [parliament_agenda|e] of the [TARGET_SPECIAL_STATUS.GetName]"
@@ -764,6 +769,13 @@
  PAST_WE_REMOVE_CASUS_BELLI_EFFECT: "We lost the $CASUS_BELLI$ [casus_belli|E] on [TARGET_COUNTRY.GetName]"
  PAST_THIRD_REMOVE_CASUS_BELLI_EFFECT: "[COUNTRY.GetName] lost the $CASUS_BELLI$ [casus_belli|E] on [TARGET_COUNTRY.GetName]"
 
+ REMOVE_ALL_CASUS_BELLI_OF_TYPE_EFFECT: "Lose the [TARGET_CASUS_BELLI.GetName] [casus_belli|E] against ALL countries"
+ WE_REMOVE_ALL_CASUS_BELLI_OF_TYPE_EFFECT: "We lose the [TARGET_CASUS_BELLI.GetName] [casus_belli|E] against ALL countries"
+ THIRD_REMOVE_ALL_CASUS_BELLI_OF_TYPE_EFFECT: "[COUNTRY.GetName] loses the [TARGET_CASUS_BELLI.GetName] [casus_belli|E] against ALL countries"
+ PAST_REMOVE_ALL_CASUS_BELLI_OF_TYPE_EFFECT: "Lost the [TARGET_CASUS_BELLI.GetName] [casus_belli|E] against ALL countries"
+ PAST_WE_REMOVE_ALL_CASUS_BELLI_OF_TYPE_EFFECT: "We lost the [TARGET_CASUS_BELLI.GetName] [casus_belli|E] against ALL countries"
+ PAST_THIRD_REMOVE_ALL_CASUS_BELLI_OF_TYPE_EFFECT: "[COUNTRY.GetName] lost the [TARGET_CASUS_BELLI.GetName] [casus_belli|E] against ALL countries"
+
  ADD_COLONIAL_CHARTER_EFFECT: "Creates a [colonial_charter|E] in [TARGET_PROVINCE_DEFINITION.GetName]"
  WE_ADD_COLONIAL_CHARTER_EFFECT: "We will create a [colonial_charter|E] in [TARGET_PROVINCE_DEFINITION.GetName]"
  THIRD_ADD_COLONIAL_CHARTER_EFFECT: "[COUNTRY.GetName] will create a [colonial_charter|E] in [TARGET_PROVINCE_DEFINITION.GetName]"
@@ -826,12 +838,14 @@
  PAST_CHANGE_COUNTRY_NAME_EFFECT: "Changed name to $NAME|Y$"
  PAST_WE_CHANGE_COUNTRY_NAME_EFFECT: "We changed name to $NAME|Y$"
  PAST_THIRD_CHANGE_COUNTRY_NAME_EFFECT: "[COUNTRY.GetName] changed the name to $NAME|Y$"
- CHANGE_COUNTRY_TAG_EFFECT: "Changes historical tag to $NAME|Y$"
- WE_CHANGE_COUNTRY_TAG_EFFECT: "We change historical tag to $NAME|Y$"
- THIRD_CHANGE_COUNTRY_TAG_EFFECT: "[COUNTRY.GetName] changes historical tag to $NAME|Y$"
- PAST_CHANGE_COUNTRY_TAG_EFFECT: "Changed historical tag to $NAME|Y$"
- PAST_WE_CHANGE_COUNTRY_TAG_EFFECT: "We changed historical tag to $NAME|Y$"
- PAST_THIRD_CHANGE_COUNTRY_TAG_EFFECT: "[COUNTRY.GetName] changed the historical tag to $NAME|Y$"
+ 
+ DEFINE_TAG_EFFECT: "Is created as historical tag $NAME|Y$"
+ WE_DEFINE_TAG_EFFECT: "We are created as historical tag $NAME|Y$"
+ THIRD_DEFINE_TAG_EFFECT: "[COUNTRY.GetName] are created as  historical tag $NAME|Y$"
+ PAST_DEFINE_TAG_EFFECT: "We were created as $NAME|Y$"
+ PAST_WE_DEFINE_TAG_EFFECT: "We weere created as $NAME|Y$"
+ PAST_THIRD_DEFINE_TAG_EFFECT: "[COUNTRY.GetName] were created as $NAME|Y$"
+ 
  CHANGE_COUNTRY_FLAG_EFFECT: "Changes flag to $NAME|Y$"
  WE_CHANGE_COUNTRY_FLAG_EFFECT: "We change flag to $NAME|Y$"
  THIRD_CHANGE_COUNTRY_FLAG_EFFECT: "[COUNTRY.GetName] changes flag to $NAME|Y$"
@@ -918,6 +932,13 @@
  FIRST_PAST_COPY_COUNTRY_COLOR_EFFECT: "We have copied the map color of [TARGET_COUNTRY.GetName]"
  THIRD_PAST_COPY_COUNTRY_COLOR_EFFECT: "[COUNTRY.GetName] has copied the map color of [TARGET_COUNTRY.GetName]"
  
+ TRANSFER_SUBJECT_EFFECT: "Gains [COUNTRY.GetName] as a subject from [COUNTRY.GetDiplomacy.GetOverlord.GetName]"
+ FIRST_TRANSFER_SUBJECT_EFFECT: "We gain [COUNTRY.GetName] as a subject from [COUNTRY.GetDiplomacy.GetOverlord.GetName]"
+ THIRD_TRANSFER_SUBJECT_EFFECT: "[TARGET_COUNTRY.GetName] gains [COUNTRY.GetName] as a subject from [COUNTRY.GetDiplomacy.GetOverlord.GetName]"
+ PAST_TRANSFER_SUBJECT_EFFECT: "Gained [COUNTRY.GetName] as a subject from [COUNTRY.GetDiplomacy.GetOverlord.GetName]"
+ FIRST_PAST_TRANSFER_SUBJECT_EFFECT: "We gained [COUNTRY.GetName] as a subject from [COUNTRY.GetDiplomacy.GetOverlord.GetName]"
+ THIRD_PAST_TRANSFER_SUBJECT_EFFECT: "[TARGET_COUNTRY.GetName] gained [COUNTRY.GetName] as a subject from [COUNTRY.GetDiplomacy.GetOverlord.GetName]"
+ 
  REMOVE_REFORM_EFFECT: "Removes the [TARGET_GOVERNMENT_REFORM.GetName] [government_reform|e]"
  WE_REMOVE_REFORM_EFFECT: "We will remove the [TARGET_GOVERNMENT_REFORM.GetName] [government_reform|e]"
  THIRD_REMOVE_REFORM_EFFECT: "[COUNTRY.GetName] will remove the [TARGET_GOVERNMENT_REFORM.GetName] [government_reform|e]"
@@ -982,14 +1003,20 @@
  PAST_FIRST_LOSE_LIBERTY_DESIRE_EFFECT: "We lost $VALUE|2R$ [liberty_desire|e]"
  PAST_THIRD_LOSE_LIBERTY_DESIRE_EFFECT: "[COUNTRY.GetName] lost $VALUE|2G$ [liberty_desire|e]"
  
- PERFORM_COUNTRY_INTERACTION_EFFECT: "$COUNTRY_INTERACTION$"
- THIRD_PERFORM_COUNTRY_INTERACTION_EFFECT: "$COUNTRY_INTERACTION$"
- WE_PERFORM_COUNTRY_INTERACTION_EFFECT: "$COUNTRY_INTERACTION$"
- PAST_PERFORM_COUNTRY_INTERACTION_EFFECT: "$COUNTRY_INTERACTION_PAST$"
- PAST_THIRD_PERFORM_COUNTRY_INTERACTION_EFFECT: "$COUNTRY_INTERACTION_PAST$"
- PAST_WE_PERFORM_COUNTRY_INTERACTION_EFFECT: "$COUNTRY_INTERACTION_PAST$"
+ PERFORM_COUNTRY_INTERACTION_EFFECT: "Performs #Y $DIPLO_ACTION$#! on [TARGET_COUNTRY.GetName], causing the following effects:\n$COUNTRY_INTERACTION$\n$OUTCOME$"
+ THIRD_PERFORM_COUNTRY_INTERACTION_EFFECT: "[COUNTRY.GetName] performs #Y $DIPLO_ACTION$#! on [TARGET_COUNTRY.GetName], causing the following effects:\n$COUNTRY_INTERACTION$\n$OUTCOME$"
+ WE_PERFORM_COUNTRY_INTERACTION_EFFECT: "We perform #Y $DIPLO_ACTION$#! on [TARGET_COUNTRY.GetName], causing the following effects:\n$COUNTRY_INTERACTION$\n$OUTCOME$"
+ PAST_PERFORM_COUNTRY_INTERACTION_EFFECT: "Has performed #Y $DIPLO_ACTION$#! on [TARGET_COUNTRY.GetName], causing the following effects:\n$COUNTRY_INTERACTION_PAST$\n$PAST_OUTCOME$"
+ PAST_THIRD_PERFORM_COUNTRY_INTERACTION_EFFECT: "[COUNTRY.GetName] has performed #Y $DIPLO_ACTION$#! on [TARGET_COUNTRY.GetName], causing the following effects:\n$COUNTRY_INTERACTION_PAST$\n$PAST_OUTCOME$"
+ PAST_WE_PERFORM_COUNTRY_INTERACTION_EFFECT: "We have performed #Y $DIPLO_ACTION$#! on [TARGET_COUNTRY.GetName], causing the following effects:\n$COUNTRY_INTERACTION_PAST$\n$PAST_OUTCOME$"
  DIPLO_ACTION_IS_PERFORMED: "[COUNTRY.GetName]"
  DIPLO_ACTION_WAS_PERFORMED: ""
+ DIPLO_ACTION_IS_PROPOSAL: "#Y The diplomatic action will be a proposal and can be rejected#!"
+ DIPLO_ACTION_IS_ACCEPTED: "#Y The diplomatic action will be enforced to be accepted#!"
+ DIPLO_ACTION_IS_REJECTED: "#Y The diplomatic action will be automatically rejected#!"
+ DIPLO_ACTION_WAS_PROPOSAL: "#Y The diplomatic action was a proposal and can be rejected#!"
+ DIPLO_ACTION_WAS_ACCEPTED: "#Y The diplomatic action has been enforced to be accepted#!"
+ DIPLO_ACTION_WAS_REJECTED: "#Y The diplomatic action has been automatically rejected#!"
 
  TOGGLE_RELATION_EFFECT: "$EFFECT_PRESENT$"
  THIRD_TOGGLE_RELATION_EFFECT: "$EFFECT_PRESENT$"
@@ -1291,6 +1318,21 @@
  FIRST_TAKE_OVER_ALL_WAR_EFFECT_PAST: "We took leadership of all [wars|e] of [TARGET_COUNTRY.GetName]"
  THIRD_TAKE_OVER_ALL_WAR_EFFECT_PAST: "[COUNTRY.GetName] took over all [wars|e] of [TARGET_COUNTRY.GetName]"
 
+ ANNUL_ALL_TREATIES_WITH_EFFECT: "Annuls all treaties with [TARGET_COUNTRY.GetName] for $DURATION$ ($TREATIES$)"
+ FIRST_ANNUL_ALL_TREATIES_WITH_EFFECT: "We annul all treaties with [TARGET_COUNTRY.GetName] for $DURATION$ ($TREATIES$)"
+ THIRD_ANNUL_ALL_TREATIES_WITH_EFFECT: "[COUNTRY.GetName] annuls all treaties with [TARGET_COUNTRY.GetName] for $DURATION$ ($TREATIES$)"
+ ANNUL_ALL_TREATIES_WITH_EFFECT_PAST: "Has annulled all treaties with [TARGET_COUNTRY.GetName] for $DURATION$ ($TREATIES$)"
+ FIRST_ANNUL_ALL_TREATIES_WITH_EFFECT_PAST: "We have annulled all treaties with [TARGET_COUNTRY.GetName] for $DURATION$ ($TREATIES$)"
+ THIRD_ANNUL_ALL_TREATIES_WITH_EFFECT_PAST: "[COUNTRY.GetName] has annulled all treaties with [TARGET_COUNTRY.GetName] for $DURATION$ ($TREATIES$)"
+
+ LEAVE_ALL_WARS_WITH_EFFECT: "Leaves all [wars|e] with or against [TARGET_COUNTRY.GetName]"
+ FIRST_LEAVE_ALL_WARS_WITH_EFFECT: "We leave all [wars|e] with or against [TARGET_COUNTRY.GetName]"
+ THIRD_LEAVE_ALL_WARS_WITH_EFFECT: "[COUNTRY.GetName] leaves all [wars|e] with or against [TARGET_COUNTRY.GetName]"
+ LEAVE_ALL_WARS_WITH_EFFECT_PAST: "Has left all [wars|e] with or against [TARGET_COUNTRY.GetName]"
+ FIRST_LEAVE_ALL_WARS_WITH_EFFECT_PAST: "We have left all [wars|e] with or against [TARGET_COUNTRY.GetName]"
+ THIRD_LEAVE_ALL_WARS_WITH_EFFECT_PAST: "[COUNTRY.GetName] has left all [wars|e] with or against [TARGET_COUNTRY.GetName]"
+
+
  #
  # Privateer
  ADD_PRIVATEER_POWER_EFFECT: "Gains $VALUE|2%G$ power"
@@ -1586,10 +1628,10 @@
  THIRD_REMOVE_CHARACTER_ALLEGIANCE_EFFECT: "[CHARACTER.GetName] leaves [CHARACTER.GetRebel.GetName]"
  PAST_THIRD_REMOVE_CHARACTER_ALLEGIANCE_EFFECT: "[CHARACTER.GetName] has left [CHARACTER.GetRebel.GetName]"
 
- SET_TO_LIMITED_RANDOM_STAT_EFFECT: "Has their $ABILITY|Y$ set to $VALUE|0Y$ (value between $MIN|$ and $MAX|Y$)"
- PAST_SET_TO_LIMITED_RANDOM_STAT_EFFECT: "Had their $ABILITY|Y$ set to $VALUE|0Y$ (value between $MIN|$ and $MAX|Y$)"
- THIRD_SET_TO_LIMITED_RANDOM_STAT_EFFECT: "[CHARACTER.GetName] has their $ABILITY|Y$ set to $VALUE|0Y$ (value between $MIN|$ and $MAX|Y$)"
- PAST_THIRD_SET_TO_LIMITED_RANDOM_STAT_EFFECT: "[CHARACTER.GetName] had their $ABILITY|Y$ set to $VALUE|0Y$ (value between $MIN|$ and $MAX|Y$)"
+ SET_TO_LIMITED_RANDOM_STAT_EFFECT: "Has their $ABILITY|Y$ set to $VALUE|0Y$ (value between $MIN|Y$ and $MAX|Y$)"
+ PAST_SET_TO_LIMITED_RANDOM_STAT_EFFECT: "Had their $ABILITY|Y$ set to $VALUE|0Y$ (value between $MIN|Y$ and $MAX|Y$)"
+ THIRD_SET_TO_LIMITED_RANDOM_STAT_EFFECT: "[CHARACTER.GetName] has their $ABILITY|Y$ set to $VALUE|0Y$ (value between $MIN|Y$ and $MAX|Y$)"
+ PAST_THIRD_SET_TO_LIMITED_RANDOM_STAT_EFFECT: "[CHARACTER.GetName] had their $ABILITY|Y$ set to $VALUE|0Y$ (value between $MIN|Y$ and $MAX|Y$)"
  
  ADD_CHARACTER_MODIFIER_UNTIL_DEATH: "Gains $MODIFIER|V$ until $END_OF_TIME_LIFE$.$SCALE$$DECAYING$"
  FIRST_ADD_CHARACTER_MODIFIER_UNTIL_DEATH: "The [character|e] gains $MODIFIER|V$ until $END_OF_TIME_LIFE$.$SCALE$$DECAYING$"
@@ -1835,6 +1877,11 @@
  THIRD_LOCATION_OWNER_EFFECT: "[LOCATION.GetName] will be owned by [TARGET_COUNTRY.GetName]"
  PAST_CHANGE_LOCATION_OWNER_EFFECT: "Became owned by [TARGET_COUNTRY.GetName]"
  PAST_THIRD_LOCATION_OWNER_EFFECT: "[LOCATION.GetName] became owned by [TARGET_COUNTRY.GetName]"
+
+ TRANSFER_LOCATION_OCCUPATION_EFFECT: "Will be occupied by [TARGET_COUNTRY.GetName]"
+ THIRD_TRANSFER_LOCATION_OCCUPATION_EFFECT: "[LOCATION.GetName] will be occupied by [TARGET_COUNTRY.GetName]"
+ PAST_TRANSFER_LOCATION_OCCUPATION_EFFECT: "Became occupied by [TARGET_COUNTRY.GetName]"
+ PAST_THIRD_TRANSFER_LOCATION_OCCUPATION_EFFECT: "[LOCATION.GetName] became occupied by [TARGET_COUNTRY.GetName]"
  
  FORM_COUNTRY_FROM_LOCATION_EFFECT: "Forms a new country"
  THIRD_FORM_COUNTRY_FROM_LOCATION_EFFECT: "[LOCATION.GetName] forms a new country"
@@ -1864,6 +1911,13 @@
  PAST_LOOT_LOCATION_EFFECT: "Has looted [TARGET_LOCATION.GetName]"
  PAST_FIRST_LOOT_LOCATION_EFFECT: "We have looted [TARGET_LOCATION.GetName]"
  PAST_THIRD_LOOT_LOCATION_EFFECT: "$WHO$ has looted [TARGET_LOCATION.GetName]"
+
+ CHANGE_MODIFIER_SIZE_EFFECT: "Change the strength of $MODIFIER$ by $VALUE|+=2$, resulting in replacing it with $NEW_MODIFIER$"
+ FIRST_CHANGE_MODIFIER_SIZE_EFFECT: "We change the strength of $MODIFIER$ by $VALUE|+=2$, resulting in replacing it with $NEW_MODIFIER$"
+ THIRD_CHANGE_MODIFIER_SIZE_EFFECT: "$WHO$ changes the strength of $MODIFIER$ by $VALUE|+=2$, resulting in replacing it with $NEW_MODIFIER$"
+ PAST_CHANGE_MODIFIER_SIZE_EFFECT: "Has changed the strength of $MODIFIER$ by $VALUE|+=2$, resulting in replacing it with $NEW_MODIFIER$"
+ PAST_FIRST_CHANGE_MODIFIER_SIZE_EFFECT: "We have changed the strength of $MODIFIER$ by $VALUE|+=2$, resulting in replacing it with $NEW_MODIFIER$"
+ PAST_THIRD_CHANGE_MODIFIER_SIZE_EFFECT: "$WHO$ has changed the strength of $MODIFIER$ by $VALUE|+=2$, resulting in replacing it with $NEW_MODIFIER$"
  
  CONSTRUCT_RGO_UPGRADE_EFFECT: "Starts constructing an [rgo|e] upgrade"
  THIRD_CONSTRUCT_RGO_UPGRADE_EFFECT: "Starts constructing an [rgo|e] upgrade in [LOCATION.GetName]"
@@ -1923,6 +1977,15 @@
  PAST_DISCOVER_LOCATION_EFFECT: "Was [discovered|e] by [TARGET_COUNTRY.GetName]"
  THIRD_DISCOVER_LOCATION_EFFECT: "[LOCATION.GetName] will be [discovered|e] by [TARGET_COUNTRY.GetName]"
  PAST_THIRD_DISCOVER_LOCATION_EFFECT: "[LOCATION.GetName] was [discovered|e] by [TARGET_COUNTRY.GetName]"
+
+ CHANGE_SIEGE_PROGRESS_EFFECT: "Gains $VALUE|0$ [siege|e] Accumulation"
+ PAST_CHANGE_SIEGE_PROGRESS_EFFECT: "Gained $VALUE|0$ [siege|e] Accumulation"
+ THIRD_CHANGE_SIEGE_PROGRESS_EFFECT: "[LOCATION.GetName] gains $VALUE|0$ [siege|e] Accumulation"
+ PAST_THIRD_CHANGE_SIEGE_PROGRESS_EFFECT: "[LOCATION.GetName] gained $VALUE|0$ [siege|e] Accumulation"
+ NEG_CHANGE_SIEGE_PROGRESS_EFFECT: "Loses $VALUE|0$ [siege|e] Accumulation"
+ NEG_PAST_CHANGE_SIEGE_PROGRESS_EFFECT: "Lost $VALUE|0$ [siege|e] Accumulation"
+ NEG_THIRD_CHANGE_SIEGE_PROGRESS_EFFECT: "[LOCATION.GetName] loses $VALUE|0$ [siege|e] Accumulation"
+ NEG_PAST_THIRD_CHANGE_SIEGE_PROGRESS_EFFECT: "[LOCATION.GetName] lost $VALUE|0$ [siege|e] Accumulation"
 
  DESTROY_BUILDING_EFFECT: "[TARGET_BUILDING.GetName] will be destroyed"
  THIRD_DESTROY_BUILDING_EFFECT: "[TARGET_BUILDING.GetName] will be destroyed in [LOCATION.GetName]"
@@ -2675,19 +2738,19 @@
  PAST_THIRD_REMOVE_ACCEPTED_CULTURE_EFFECT: "[COUNTRY.GetName] removed [TARGET_CULTURE.GetName] as an [accepted_culture|e]"
 
 
- ADD_TOLERATED_CULTURE_EFFECT: "Adds [TARGET_CULTURE.GetName] as an [tolerated_culture|e]"
- PAST_ADD_TOLERATED_CULTURE_EFFECT: "Added [TARGET_CULTURE.GetName] as an [tolerated_culture|e]"
- FIRST_ADD_TOLERATED_CULTURE_EFFECT: "We add [TARGET_CULTURE.GetName] as an [tolerated_culture|e]"
- PAST_FIRST_ADD_TOLERATED_CULTURE_EFFECT: "We added [TARGET_CULTURE.GetName] as an [tolerated_culture|e]"
- THIRD_ADD_TOLERATED_CULTURE_EFFECT: "[COUNTRY.GetName] adds [TARGET_CULTURE.GetName] as an [tolerated_culture|e]"
- PAST_THIRD_ADD_TOLERATED_CULTURE_EFFECT: "[COUNTRY.GetName] added [TARGET_CULTURE.GetName] as an [tolerated_culture|e]"
+ ADD_TOLERATED_CULTURE_EFFECT: "Adds [TARGET_CULTURE.GetName] as a [tolerated_culture|e]"
+ PAST_ADD_TOLERATED_CULTURE_EFFECT: "Added [TARGET_CULTURE.GetName] as a [tolerated_culture|e]"
+ FIRST_ADD_TOLERATED_CULTURE_EFFECT: "We add [TARGET_CULTURE.GetName] as a [tolerated_culture|e]"
+ PAST_FIRST_ADD_TOLERATED_CULTURE_EFFECT: "We added [TARGET_CULTURE.GetName] as a [tolerated_culture|e]"
+ THIRD_ADD_TOLERATED_CULTURE_EFFECT: "[COUNTRY.GetName] adds [TARGET_CULTURE.GetName] as a [tolerated_culture|e]"
+ PAST_THIRD_ADD_TOLERATED_CULTURE_EFFECT: "[COUNTRY.GetName] added [TARGET_CULTURE.GetName] as a [tolerated_culture|e]"
 
- REMOVE_TOLERATED_CULTURE_EFFECT: "Removes [TARGET_CULTURE.GetName] as an [tolerated_culture|e]"
- PAST_REMOVE_TOLERATED_CULTURE_EFFECT: "Removed [TARGET_CULTURE.GetName] as an [tolerated_culture|e]"
- FIRST_REMOVE_TOLERATED_CULTURE_EFFECT: "We remove [TARGET_CULTURE.GetName] as an [tolerated_culture|e]"
- PAST_FIRST_REMOVE_TOLERATED_CULTURE_EFFECT: "We removed [TARGET_CULTURE.GetName] as an [tolerated_culture|e]"
- THIRD_REMOVE_TOLERATED_CULTURE_EFFECT: "[COUNTRY.GetName] removes [TARGET_CULTURE.GetName] as an [tolerated_culture|e]"
- PAST_THIRD_REMOVE_TOLERATED_CULTURE_EFFECT: "[COUNTRY.GetName] removed [TARGET_CULTURE.GetName] as an [tolerated_culture|e]"
+ REMOVE_TOLERATED_CULTURE_EFFECT: "Removes [TARGET_CULTURE.GetName] as a [tolerated_culture|e]"
+ PAST_REMOVE_TOLERATED_CULTURE_EFFECT: "Removed [TARGET_CULTURE.GetName] as a [tolerated_culture|e]"
+ FIRST_REMOVE_TOLERATED_CULTURE_EFFECT: "We remove [TARGET_CULTURE.GetName] as a [tolerated_culture|e]"
+ PAST_FIRST_REMOVE_TOLERATED_CULTURE_EFFECT: "We removed [TARGET_CULTURE.GetName] as a [tolerated_culture|e]"
+ THIRD_REMOVE_TOLERATED_CULTURE_EFFECT: "[COUNTRY.GetName] removes [TARGET_CULTURE.GetName] as a [tolerated_culture|e]"
+ PAST_THIRD_REMOVE_TOLERATED_CULTURE_EFFECT: "[COUNTRY.GetName] removed [TARGET_CULTURE.GetName] as a [tolerated_culture|e]"
 
  IMPREGNATE_EFFECT: "Impregnates [TARGET_CHARACTER.GetName]"
  THIRD_IMPREGNATE_EFFECT: "[CHARACTER.GetName] impregnates [TARGET_CHARACTER.GetName]"
@@ -2730,12 +2793,33 @@
  PAST_WHITE_PEACE_EFFECT: "[TARGET_WAR.GetName] ended in a [white_peace|e]"
  PAST_THIRD_WHITE_PEACE_EFFECT: "[TARGET_WAR.GetName] ended in a [white_peace|e]"
 
- ADD_BONUS_WARSCORE_EFFECT: "[TARGET_COUNTRY.GetName] gets a bonus $VALUE|0Y$ War Score in [WAR.GetName]"
- FIRST_ADD_BONUS_WARSCORE_EFFECT: "We get a bonus $VALUE|0Y$ War Score in [WAR.GetName]"
- THIRD_ADD_BONUS_WARSCORE_EFFECT: "[TARGET_COUNTRY.GetName] gets a bonus $VALUE|0Y$ War Score in [WAR.GetName]"
- PAST_ADD_BONUS_WARSCORE_EFFECT: "[TARGET_COUNTRY.GetName] got a bonus $VALUE|0Y$ War Score in [WAR.GetName]"
- PAST_FIRST_ADD_BONUS_WARSCORE_EFFECT: "We got a bonus $VALUE|0Y$ War Score in [WAR.GetName]"
- PAST_THIRD_ADD_BONUS_WARSCORE_EFFECT: "[TARGET_COUNTRY.GetName] got a bonus $VALUE|0Y$ War Score in [WAR.GetName]"
+ ADD_BONUS_WARSCORE_EFFECT: "[TARGET_COUNTRY.GetName] gets a bonus $VALUE|0Y$ War Score in [WAR.GetName], up to a maximum of [GetDefine('NDiplomacy','WARGOAL_MAX_BONUS')|Y0]"
+ FIRST_ADD_BONUS_WARSCORE_EFFECT: "We get a bonus $VALUE|0Y$ War Score in [WAR.GetName], up to a maximum of [GetDefine('NDiplomacy','WARGOAL_MAX_BONUS')|Y0]"
+ THIRD_ADD_BONUS_WARSCORE_EFFECT: "[TARGET_COUNTRY.GetName] gets a bonus $VALUE|0Y$ War Score in [WAR.GetName], up to a maximum of [GetDefine('NDiplomacy','WARGOAL_MAX_BONUS')|Y0]"
+ PAST_ADD_BONUS_WARSCORE_EFFECT: "[TARGET_COUNTRY.GetName] got a bonus $VALUE|0Y$ War Score in [WAR.GetName], up to a maximum of [GetDefine('NDiplomacy','WARGOAL_MAX_BONUS')|Y0]"
+ PAST_FIRST_ADD_BONUS_WARSCORE_EFFECT: "We got a bonus $VALUE|0Y$ War Score in [WAR.GetName], up to a maximum of [GetDefine('NDiplomacy','WARGOAL_MAX_BONUS')|Y0]"
+ PAST_THIRD_ADD_BONUS_WARSCORE_EFFECT: "[TARGET_COUNTRY.GetName] got a bonus $VALUE|0Y$ War Score in [WAR.GetName], up to a maximum of [GetDefine('NDiplomacy','WARGOAL_MAX_BONUS')|Y0]"
+
+# dynasty
+ ADD_DYNASTY_MODIFIER: "Gains $MODIFIER|V$"
+ THIRD_ADD_DYNASTY_MODIFIER: "[DYNASTY.GetName] gains $MODIFIER|V$"
+ PAST_ADD_DYNASTY_MODIFIER: "Gained $MODIFIER|V$"
+ PAST_THIRD_ADD_DYNASTY_MODIFIER: "[DYNASTY.GetName] gained $MODIFIER|V$"
+
+ ADD_DYNASTY_MODIFIER_DURATION: "Gains $MODIFIER|V$ for $DURATION|Y$$SCALE$$DECAYING$"
+ THIRD_ADD_DYNASTY_MODIFIER_DURATION: "[DYNASTY.GetName] gains $MODIFIER|V$ for $DURATION|Y$$SCALE$$DECAYING$"
+ PAST_ADD_DYNASTY_MODIFIER_DURATION: "Gained $MODIFIER|V$ for $DURATION|Y$$SCALE$$DECAYING$"
+ PAST_THIRD_ADD_DYNASTY_MODIFIER_DURATION: "[DYNASTY.GetName] gained $MODIFIER|V$ for $DURATION|Y$$SCALE$$DECAYING$"
+
+ ADD_DYNASTY_MODIFIER_FOREVER: "Gains $MODIFIER|V$ until $END_OF_TIME_DYNASTY$.$SCALE$$DECAYING$"
+ THIRD_ADD_DYNASTY_MODIFIER_FOREVER: "[DYNASTY.GetName] gains $MODIFIER|V$ until $END_OF_TIME_DYNASTY$.$SCALE$$DECAYING$"
+ PAST_ADD_DYNASTY_MODIFIER_FOREVER: "Gained $MODIFIER|V$ until $END_OF_TIME_DYNASTY$.$SCALE$$DECAYING$"
+ PAST_THIRD_ADD_DYNASTY_MODIFIER_FOREVER: "[DYNASTY.GetName] gained $MODIFIER|V$ until $END_OF_TIME_DYNASTY$.$SCALE$$DECAYING$"
+
+ REMOVE_DYNASTY_MODIFIER: "Loses the effect of $MODIFIER|V$"
+ THIRD_REMOVE_DYNASTY_MODIFIER: "[DYNASTY.GetName] loses effect of $MODIFIER|V$"
+ PAST_REMOVE_DYNASTY_MODIFIER: "Lost the effect of $MODIFIER|V$"
+ PAST_THIRD_REMOVE_DYNASTY_MODIFIER: "[DYNASTY.GetName] lost the effect of $MODIFIER|V$"
 
 #colonial charter
  ADD_ADDITIONAL_MIGRATION_EFFECT: "[pops|e] from [TARGET_PROVINCE.GetName] will begin to migrate here"

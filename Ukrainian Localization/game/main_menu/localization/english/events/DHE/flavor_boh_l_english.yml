@@ -170,7 +170,7 @@
  flavor_boh.35.a: "That offer is acceptable."
  flavor_boh.35.b: "Unfortunately, we can not accept it."
 
- flavor_boh.36.title: "The Four Articles of [target_location.GetNameWithNoTooltip]"
+ flavor_boh.36.title: "The Four Articles of [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]"
  flavor_boh.36.desc: "The last few years have been a long struggle to defend our faith as countless of our people perished, our once-gentle folk have turned to savagery and a defensive stance against the world. As the dust settles and we gather our wounded to celebrate our victory and honor our dead, we have come to the negotiating table along with those who once wished to eradicate our faith.\n\nPerhaps God willed it for us to persevere, against the hubris of the [ShowReligionAdjective('catholic')] Church and their feeble transgressions against us. Now, we must decide whether to press our demands against these vultures or decline their pleas for truce and press on against the corruption of their faith."
  flavor_boh.36.a: "Peace in our time?"
  enable_4_articles_prague_reform: "Grants access to the [ShowGovernmentReformName('four_articles')] [government_reform|e]"
@@ -178,7 +178,7 @@
  STATIC_MODIFIER_NAME_bohemian_aggression_modifier: "Bohemian Aggression"
  STATIC_MODIFIER_DESC_bohemian_aggression_modifier: "Our enemies have failed at eradicating our faith and wished for peace. However, now it is our time to renew our aggression and vanquish them once and for all!"
  opinion_hussite_aggression_modifier: "Rejected the Four Articles"
- boh_widespread_condemnation_tt: "Every [ShowReligionAdjective('catholic')] country will lose [ShowBiasValue('opinion_hussite_aggression_modifier')|-=0] opinion towards us"
+ boh_widespread_condemnation_tt: "Every [ShowReligionAdjective('catholic')] country will lose [ShowBiasValue('opinion_hussite_aggression_modifier')|+=0] opinion towards us"
  four_articles: "Four Articles"
  four_articles_desc: "A series of demands set forth by our heads of state and faith against the aggressors of the Papal crusades propped up in a weak attempt to suppress our faith."
  flavor_boh.36.historical_info: "The Four Articles of Prague, also known as the Prague Articles, are a set of demands made by the followers of [GetCharacter('boh_jan_hus').GetName], a Bohemian reformer, during the Council of Basel in the 15th century. These articles would go on to play a significant role in the Hussite movement, which was a precursor to the Protestant Reformation. The articles included clauses such as the freedom to preach the word of god, communion, a general reform of the Church institution, and exclusion of mortal sinners from the Church."

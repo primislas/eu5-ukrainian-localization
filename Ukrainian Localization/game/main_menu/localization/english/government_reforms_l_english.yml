@@ -10,9 +10,9 @@
  landgraviate_desc: "A [ShowGovernmentReformName('landgraviate')], named after a #italic Landgraf#!, acts as an immediate jurisdiction of the [GetInternationalOrganization('hre').GetName] in otherwise fractured counties. The Landgrave is a direct representative of the law of the [GetInternationalOrganization('hre').GetLeaderTitle] in the lands of the [ShowGovernmentReformNameWithNoTooltip('landgraviate')], and the title is comparable to a Duke in power and responsibilities."
  french_feudal_nobility: "[GetCountry('FRA').GetAdjectiveWithNoTooltip] Feudal Nobility"
  french_feudal_nobility_desc: "Feudalism has a tight grip on [GetCountry('FRA').GetAdjective] court affairs. Powerful nobles and autonomous, decentralized subjects have unprecedented amounts of freedom and say in our internal administration."
- fra_removed_when_no_appanages_tt: "This [government_reform|e] will be removed once no [ShowSubjectTypeName('appanage')] exists as our [subject|e]"
+ fra_removed_when_no_appanages_tt: "This [government_reform|e] can only be removed through the $flavor_fra.1103.title$ [dynamic_historical_event|e], which can occur when there are no remaining [ShowSubjectTypeName('appanage')] [subjects|e]."
  french_appanage_reform: "[GetCountry('FRA').GetAdjectiveWithNoTooltip] Appanage"
- french_appanage_reform_desc: "As Princes of the Blood, holders of appanages enjoy a higher standing among the subjects of [GetCountry('FRA').GetName], as well as greater privileges. Furthermore, the [GetCountry('FRA').GetAdjective monarch is expected to pay them adequate respect in exchange for their assistance in diplomatic affairs."
+ french_appanage_reform_desc: "As Princes of the Blood, holders of appanages enjoy a higher standing among the subjects of [GetCountry('FRA').GetName], as well as greater privileges. Furthermore, the [GetCountry('FRA').GetAdjective] monarch is expected to pay them adequate respect in exchange for their assistance in diplomatic affairs."
  french_ducal_vassal_reform: "[GetCountry('FRA').GetAdjectiveWithNoTooltip] Ducal"
  french_ducal_vassal_reform_desc: "While the ducal subjects of [GetCountry('FRA').GetName] lack the autonomy of the appanage domains, they instead enjoy a more cooperative relationship with the Crown."
  member_of_league_of_public_weal: "Member of the League of Public Weal"
@@ -216,6 +216,8 @@
  #
  # Specific ones
  #
+ alsno_stadga: "Alsnö Stadga"
+ alsno_stadga_desc: "This set of rules was set up by [GetCharacter('swe_magnus_ladulas').GetName] in 1280 at Alsnö Hus to regulate and formalize the benefits of the [ShowEstateTypeName('nobles_estate')], while also protecting the [ShowPopTypeName('peasants')] from their exploits. This is why he was nicknamed 'Ladulås', or "Barn-Lock" in English by the commoners."
  papacy_reform: "Holy See"
  papacy_reform_desc: "The Holy See is the jurisdiction of the Bishop of [ShowLocationName('rome')], the #italic Pontifex Maximus#!, head of the [ShowReligionAdjective('catholic')] Church, known as The [GetCountry('PAP').GetGovernment.GetRulerTitle]."
  kingdom_of_god_reform: "Kingdom of God"
@@ -252,7 +254,7 @@
  por_casa_de_india: "Casa da Índia"
  por_casa_de_india_desc: "The Casa da Índia oversees all [GetCountry('POR').GetAdjective] possessions in [ShowContinentName('africa')] and $india$, and controls all the rights to trade there."
  tsardom: "Tsardom"
- tsardom_desc: "Our state upholds the legacy of the Roman Empire, and is a stalwart of our state religion. As Tsar of the entire [ShowRegionName('russia_region')], our ruler is the true overlord of the [ShowCultureGroupName('russian_group')] peoples."
+ tsardom_desc: "Our state upholds the legacy of the Roman Empire, and is a stalwart of our state religion. As Tsar of the entire [ShowRegionName('russian_region')], our ruler is the true overlord of the [ShowCultureGroupName('russian_group')] peoples."
  veche_republic: "Veche Republic"
  veche_republic_desc: "This state is governed by a Veche, a council with the highest legislative and judicial authority consisting of [ShowEstateTypeName('nobles_estate')], [ShowEstateTypeName('burghers_estate')], and even [ShowEstateTypeName('peasants_estate')]."
  sudebnik: "Sudebnik"
@@ -338,7 +340,7 @@
  swe_age_of_freedom_desc: "We have entered an Age of Liberty, in which the [ShowEstateTypeName('crown_estate')] shall no longer hold absolute sway! The government of [GetCountry('SWE').GetName] is now in the hands of the estates, and the monarch may do nothing without first gaining our approval."
  
  ned_shipbuilding_industry: "Dutch Shipbuilding Industry"
- ned_shipbuilding_industry_desc: "With the invention of the #fluyte#!, the Dutch shipbuilding industry has exploded. Domestic and foreign orders are streaming in, and business is booming! Never before have so many Dutch ships sailed the seas, and never before have so many of our people been employed in building them."
+ ned_shipbuilding_industry_desc: "With the invention of the #italic fluyte#!, the Dutch shipbuilding industry has exploded. Domestic and foreign orders are streaming in, and business is booming! Never before have so many Dutch ships sailed the seas, and never before have so many of our people been employed in building them."
 
  geheime_kabinettskanzlei: "Geheime Kabinettskanzlei"
  geheime_kabinettskanzlei_desc: "Established by the state to clandestinely intercept and examine all correspondence, this Black Chamber will provide us with intelligence about the postal activity within our country. Our agents' expertise in stealthily opening, copying, and resealing official documents will become renowned throughout the world."
@@ -353,10 +355,12 @@
  frisian_freedom_reform_desc: "The [ShowCultureName('frisian')] Freedom represents the indomitability of our people and their rejection of feudalism and serfdom. They choose their representatives among the landowners and rule the land autonomously. Should a leader rise among them, he must respect the freedoms of his people or face the same fate as any other enemy, whether from within or from the outside."
  
  dutch_republic_reform: "Dutch Republic"
- dutch_republic_reform_desc: "This is a type of republic where the leader, called the #Stadtholder#!, rules for life. Traditionally, the factions supporting this government have fought over how the Stadtholder's power should be structured. Those called the Statists want to make the Stadtholder more like an #italic Primus inter Pares#!, whereas the Orangists wish to treat the elected leader as some kind of king."
+ dutch_republic_reform_desc: "This is a type of republic where the leader, called the #italic Stadtholder#!, rules for life. Traditionally, the factions supporting this government have fought over how the Stadtholder's power should be structured. Those called the Statists want to make the Stadtholder more like an #italic Primus inter Pares#!, whereas the Orangists wish to treat the elected leader as some kind of king."
 
  ancient_french_taxation: "Ancient [GetCountry('FRA').GetAdjectiveWithNoTooltip] Taxation"
  ancient_french_taxation_desc: "Historically, taxes have been imposed and collected only in times of need, not by a recurrent system."
+ fra_ancient_french_taxation_removal_conditions: "Can be manually removed by reaching #G +50.00#! [ShowSocietyDirectionName('centralization')|l] or through $flavor_fra.1.title$ [dynamic_historical_event|e]."
+
  basic_timariot_system: "Timar System"
  basic_timariot_system_desc: "A system of feudal land holdings focused on building a formidable cavalry force. Our Sipâhi cavalrymen will be assigned land grants and obligated to provide cavalry forces proportional to the size of their holdings."
  expanded_timariot_system: "Expanded Timar System"
@@ -398,7 +402,7 @@
  haudenosaunee_clan_mothers: "Haudenosaunee Clan Mothers"
  haudenosaunee_clan_mothers_desc: "The Clan Mothers of the Haudenosaunee, called #italic Iakoianes#!, hold the major authority within clans. They are responsible for the internal workings of the tribe and for electing their male counterparts, called Royaner, to represent the clan's interests at the council of all the Haudenosaunee tribes."
  andean_monarchy: "Andean Monarchy"
- andean_monarchy_desc: "A government reform common among the people of the [ShowAreaName('andes_area')]. Spiritual beliefs are woven into the succession laws, forcing new rulers to start their reigns owning no worldly possessions whatsoever."
+ andean_monarchy_desc: "A government reform common among the people of the [ShowRegionName('andes_region')]. Spiritual beliefs are woven into the succession laws, forcing new rulers to start their reigns owning no worldly possessions whatsoever."
  tawantinsuyu_monarchy: "Tawantinsuyu Monarchy"
  tawantinsuyu_monarchy_desc: "A government reform of the $INC_ADJ$ Empire, adapted and evolved from its monarchic origins. Religious beliefs are inexorably intertwined with succession laws, which leads to new rulers starting their reigns owning nothing."
  reformed_tawantinsuyu_government: "Reformed Tawantinsuyu Government"
@@ -415,7 +419,7 @@
  representative_parliament_reform: "Representative Parliament"
  representative_parliament_reform_desc: "The introduction of the $representative_parliament_reform$ marks a significant shift in political dynamics, granting the opportunity for individuals from humble backgrounds, such as [ShowPopTypeName('peasants')], to secure a seat in Parliament. This privilege has traditionally been the exclusive domain of the elite and privileged classes."
 
- japanese_imperial_family: "[GetCountry('JAP').GetAdjectiveWithNoTooltip] Imperial Family"
+ japanese_imperial_family: "$JAP_ADJ$ Imperial Family"
  japanese_imperial_family_desc: "Claiming descent from the sun goddess Amaterasu, the [ShowDynastyName('yamato_dynasty')] dynasty has sat upon the Chrysanthemum Throne for centuries."
  japanese_clan: "Japanese Clan"
  japanese_clan_desc: "As a result of the Imperial family's inability to effectively control the countryside, the numerous samurai clans have established their own power bases. The military structure of government under the Shōgun is fertile ground for the constant power struggles between them."
@@ -485,12 +489,12 @@
  livonian_confederation_desc: "The lands of [ShowAreaName('baltic_area')] have long been disunited, splintered into many different subservient bishoprics and vassals. Instead of trying to unite Terra Mariana into a centralized state, we shall embrace this decentralization."
  
 #Jurchen
- haixi_jurchen_reform: "Haixi [ShowCultureNameWithNoTooltip('jurchen_culture')]"
- haixi_jurchen_reform_desc: "The $haixi_jurchen_reform$ are a group of [ShowCultureName('jurchen_culture')] people who are primarily focused on pastoralism rather than agriculture, which differentiates them from $jianzhou_jurchen_reform$. They are also known for their adoption of many [ShowCultureName('mongolian_culture')] traditions."
+ haixi_jurchen_reform: "Haixi [ShowCultureGroupNameWithNoTooltip('jurchen_group')]"
+ haixi_jurchen_reform_desc: "The $haixi_jurchen_reform$ are a group of [ShowCultureGroupName('jurchen_group')] people who are primarily focused on pastoralism rather than agriculture, which differentiates them from $jianzhou_jurchen_reform$. They are also known for their adoption of many [ShowCultureName('mongolian_culture')] traditions."
  jianzhou_jurchen_reform: "Jianzhou Jurchen"
- jianzhou_jurchen_reform_desc: "Being a $jianzhou_jurchen_reform$ means being a highly Sinicized [ShowCultureName('jurchen_culture')] group, highly agricultural and permanently settled. These [ShowCultureNameWithNoTooltip('jurchen_culture')] peoples have intensive trading networks with nearby [ShowCultureGroupName('chinese_group')] cities."
- yeren_jurchen_reform: "Yeren [ShowCultureNameWithNoTooltip('jurchen_culture')]"
- yeren_jurchen_reform_desc: "$yeren_jurchen_reform$ refers to [ShowCultureName('jurchen_culture')] groups who occupy less-settled regions and maintain more traditional ways of life. They rely primarily on hunting and foraging, with less intensive agricultural practice."
+ jianzhou_jurchen_reform_desc: "Being a $jianzhou_jurchen_reform$ means being a highly Sinicized [ShowCultureGroupName('jurchen_group')] group, highly agricultural and permanently settled. These [ShowCultureGroupNameWithNoTooltip('jurchen_group')] peoples have intensive trading networks with nearby [ShowCultureGroupName('chinese_group')] cities."
+ yeren_jurchen_reform: "Yeren [ShowCultureGroupNameWithNoTooltip('jurchen_group')]"
+ yeren_jurchen_reform_desc: "$yeren_jurchen_reform$ refers to [ShowCultureGroupName('jurchen_group')] groups who occupy less-settled regions and maintain more traditional ways of life. They rely primarily on hunting and foraging, with less intensive agricultural practice."
  lifan_yuan: "Lǐfān Yuàn"
  lifan_yuan_desc: "The $lifan_yuan$ is a a department that administers the state's territories and policies in Inner [ShowContinentName('asia')], such as the provinces in [ShowRegionName('mongolia_region')], [ShowRegionName('tibet_region')], and [ShowRegionName('xinjiang_region')]. Should the need ever arise, it will also oversee any holdings further inland."
 
@@ -704,3 +708,7 @@
  #Sikhism
  guru_granth_sahib_reform: "$guru_granth_sahib$"
  guru_granth_sahib_reform_desc: "$guru_granth_sahib_desc$"
+
+#Malacca Formable 
+ shahbandariyya_reform: "Shāhbandariyya"
+ shahbandariyya_reform_desc: "$shahbandar_desc$"
