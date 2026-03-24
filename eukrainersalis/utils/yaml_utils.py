@@ -7,7 +7,7 @@ import yaml
 
 from eukrainersalis.utils.file_utils import list_localization_files
 from eukrainersalis.utils.log_utils import logger
-from eukrainersalis.utils.translation_utils import text_is_untranslated
+from eukrainersalis.utils.translation_utils import text_is_not_translated
 
 
 class DoubleQuotedDumper(yaml.SafeDumper):
@@ -124,7 +124,7 @@ def file_is_untranslated(file_path, language: str | None = None, language_key: s
     localization_key = language_key or f"l_{language or 'english'}"
     content = load_eu5_yaml(file_path)
     for k, v in content.get(localization_key, {}).items():
-        if text_is_untranslated(v):
+        if text_is_not_translated(v):
             return True
     return False
 
@@ -140,7 +140,7 @@ async def get_untranslated_keys(file_path, language: str | None = None, language
     localization_key = language_key or f"l_{language or 'english'}"
     content = await load_eu5_yaml_async(file_path)
     localization: dict[str, str] = content.get(localization_key, {})
-    return {k: v for k, v in localization.items() if text_is_untranslated(v)}
+    return {k: v for k, v in localization.items() if text_is_not_translated(v)}
 
 
 if __name__ == "__main__":
