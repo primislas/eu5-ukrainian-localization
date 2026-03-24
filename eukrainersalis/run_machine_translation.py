@@ -14,7 +14,7 @@ from eukrainersalis.utils.log_utils import logger
 from eukrainersalis.utils.translation_utils import POSTEDIT_EMPTY_TRANSLATION, PENDING_TRANSLATION, \
     text_is_not_translated, translation_is_required, translation_not_required
 from eukrainersalis.utils.yaml_utils import write_eu5_localization_yaml_async, load_eu5_yaml_async, \
-    validate_localization_file, file_is_untranslated, file_is_translated
+    validate_localization_file, file_is_translated
 
 _NEWLINE_REPLANCEMENT = "#NL!#"
 _DEFAULT_SOURCE_LANGUAGE = "english"

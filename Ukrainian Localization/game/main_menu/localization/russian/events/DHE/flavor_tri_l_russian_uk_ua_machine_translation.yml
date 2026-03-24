@@ -1,0 +1,5 @@
+﻿l_russian:
+  flavor_tri.1.title: "#italic Ілюстрована хроніка про імператора Генріха VII#!"
+  flavor_tri.1.desc: "Нам подарували чудову ілюстровану хроніку, де описані справді доленосні події в історії нашого роду, а саме італійський похід, який [Select_CString(GetCharacter('lux_henry_vii_luxembourg').IsFemale, 'здійснила', 'здійснив' )] [GetCharacter('lux_henry_vii_luxembourg').GetName] — перший імператор з нашої династії. У творі особливо підкреслюється високе становище нашої родини та її законні претензії на імперський престол. Хоча ілюстратор побажав залишитися анонімним, його зображення коронації Генріха та колегії виборців напевно зміцнить нашу репутацію в #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священній Римській Імперії#!#!."
+  flavor_tri.1.a: "Ця книга стане справжньою окрасою нашого двору у [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]."
+  flavor_tri.1.b: "Нехай [GetInternationalOrganization('hre').GetLeaderTitle|l] прийме її в дар."
