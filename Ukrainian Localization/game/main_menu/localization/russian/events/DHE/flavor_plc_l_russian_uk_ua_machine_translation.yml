@@ -80,7 +80,7 @@
   flavor_plc.16.desc: "Після того як ми відмовилися виконувати їхні вимоги, бунтівні [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] підняли проти нас збройне повстання, яке [Select_CString(target_character.IsFemale,'очолила', 'очолив')] [target_character.GetName]. Втім, тим гірше для них: їхня жалюгідна [target_rebel.GetName|l] не витримає натиску [ROOT.GetCountry.GetGovernment.GetAdjective|l]их військ!"
   flavor_plc.16.historical_info: "#italic Рокош#! — повстання шляхти в Речі Посполитій, метою якого були захист привілеїв знаті та обмеження абсолютної влади короля."
   flavor_plc.16.a: "Прокляті зрадники!"
-  PLC_our_neighbors_rivals_enemies_have_been_notified: "PENDING_TRANSLATION"
+  PLC_our_neighbors_rivals_enemies_have_been_notified: "Всі наші сусіди, [Concept('rivals', 'суперники')|e] та [Concept('enemies', 'вороги')|e] дізналися про заворушення в нашій державі."
   flavor_plc.17.title: "[target_rebel.GetNameWithNoTooltip]"
   flavor_plc.17.desc: "Непокірні [ROOT.GetCountry.GetGovernment.GetEstateName('cossacks_estate')|l] вирішили підняти повстання проти нашої законної влади. Війська заколотників очолює [target_character.GetName]. Заручившись підтримкою #L [ShowCultureName('crimean')|l]их#! татар, вони прагнуть домогтися незалежності — або, принаймні, нових привілеїв та збільшення реєстру козаків."
   flavor_plc.17.historical_info: "Повстання Хмельницького було одним із багатьох козацьких заколотів у Речі Посполитій, але виявилося одним із найуспішніших. Воно почалося 25 січня 1648 року, коли королівська варта напала на Запорозьку Січ. Бунт тривав 9 років до самої кончини Богдана Хмельницького. Втративши свого лідера, Січ почала переговори з Річчю Посполитою, що увінчалися укладенням Гадяцького договору."
@@ -155,4 +155,3 @@
   flavor_plc.2004.a: "Ми довіримо ці землі #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_DAT')|L]#!#!."
   flavor_plc.2004.b: "Цей договір для нас не має сили."
   STATIC_MODIFIER_NAME_plc_kurland_colonial_ambitions: "Колоніальні амбіції"
-  PLC_our_neighbors_rivals_enemies_have_notified: "Усі наші сусіди, [Concept('rivals', 'суперники')|e] та [Concept('enemies', 'вороги')|e] дізналися про заворушення в нашій державі."
