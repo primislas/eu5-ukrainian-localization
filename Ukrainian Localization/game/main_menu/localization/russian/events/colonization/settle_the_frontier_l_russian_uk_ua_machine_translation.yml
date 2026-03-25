@@ -38,7 +38,7 @@
   settle_the_frontier.100.b.tt: "До [target.Custom('LR_ACC')|l] [target.GetName] приходить [target_country.GetName]"
   settle_the_frontier.100.c: "Що сталося з [target.Custom('LR_INST')|l] [target.GetNameWithNoTooltip]?"
   settle_the_frontier.101.title: "Завершення експансії в [target.Custom('LR_ACC')|l] [target.GetNameWithNoTooltip]"
-  settle_the_frontier.101.desc: "Після того, як [recipient.GetName] раптово [Select_CString(recipient.IsFemale,'скончалася', 'скончався')], віддані [Select_CString(recipient.IsFemale,'їй', 'йому')] поселенці втратили всяку надію на успіх підприємства. Колишня єдність змінилася хаосом, і нечисленні нові поселення спорожніли."
+  settle_the_frontier.101.desc: "Після того, як [recipient.GetName] раптово [Select_CString(recipient.IsFemale,'скінчалася', 'скінчався')], віддані [Select_CString(recipient.IsFemale,'їй', 'йому')] поселенці втратили всяку надію на успіх підприємства. Колишня єдність змінилася хаосом, і нечисленні нові поселення спорожніли."
   settle_the_frontier.101.a: "[actor.Custom('common_string_disappointing')]"
   settle_the_frontier.101.a.tt: "Наші спроби заселити [target.Custom('LR_ACC')|l] [target.GetName] припинилися"
   settle_the_frontier.102.title: "Невдале заселення [target.Custom('LR_GEN')|l] [target.GetNameWithNoTooltip]"

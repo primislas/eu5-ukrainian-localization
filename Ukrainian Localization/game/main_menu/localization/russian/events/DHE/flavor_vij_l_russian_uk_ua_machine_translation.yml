@@ -182,7 +182,7 @@
   flavor_vij.1102.a: "Безпека [ROOT.GetCountry.Custom('CL_GEN')] вимагає жертв."
   VIJ_EVERY_TAMIL_POP_LOSES_10_SATISFACTION: "[Concept('pop_satisfaction', 'Вдоволення')|e] всіх #TOOLTIP:CULTURE,$tamil_tt$,X #L тамільських#!#! [Concept('pops', 'груп населення')|e] знизиться на [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%]."
   flavor_vij.1103.title: "$flavor_vij.1100.title$"
-  flavor_vij.1103.desc: "[target.GetName] [Select_CString(target.IsFemale, 'скончалася', 'скончався' )]. Дізнавшись про це, збунтовані #TOOLTIP:CULTURE,$tamil_tt$,X #L таміли#!#! припинили заколот; залишилися лише невеликі осередки опору. Спроби відокремитися від нашої держави успішно припинено."
+  flavor_vij.1103.desc: "[target.GetName] [Select_CString(target.IsFemale, 'скінчалася', 'скінчався' )]. Дізнавшись про це, збунтовані #TOOLTIP:CULTURE,$tamil_tt$,X #L таміли#!#! припинили заколот; залишилися лише невеликі осередки опору. Спроби відокремитися від нашої держави успішно припинено."
   flavor_vij.1103.a: "[ROOT.GetCountry.GetNameWithNoTooltip] може зітхнути з полегшенням."
   VIJ_EVERY_TAMIL_POP_GAINS_10_SATISFACTION: "[Concept('pop_satisfaction', 'Задоволення')|e] всіх #TOOLTIP:CULTURE,$tamil_tt$,X #L тамільських#!#! [Concept('pops', 'груп населення')|e] підвищиться на [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%]."
   flavor_vij.1200.title: "Заклятий мусульманський ворог"
