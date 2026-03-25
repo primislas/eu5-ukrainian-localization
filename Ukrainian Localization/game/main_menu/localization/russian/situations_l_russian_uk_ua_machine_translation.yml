@@ -221,7 +221,7 @@
   rise_of_the_timur_event_cooldown: "[ROOT.GetVariable('rise_of_the_timur_event_cooldown').GetValue|V0]"
   rise_of_the_timur_unique_event_cooldown: "[ROOT.GetVariable('rise_of_the_timur_unique_event_cooldown').GetValue|V0]"
   LASTS_UNTIL_END_OF_SITUATION_TT: "Триває до закінчення [Concept('situation', 'ситуації')|e]"
-  STRONGEST_BEYLIK_TOOLTIP: "Найсильніший анатолійський бейлік"
+  STRONGEST_BEYLIK_TOOLTIP: "Найсильніший анатолійський бейлик"
   STRONGHOLD_CITY_TOOLTIP: "Важливе місто-оплот"
   strongest_beylik_has_over_75_locations: "#ONCLICK:COUNTRY,[SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('strongest_beylik_variable').GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('strongest_beylik_variable').GetCountry.Custom('CL_tt')],X [SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('strongest_beylik_variable').GetCountry.Custom('CL_DAT')|L]#!#! належить хоча б 500 [Concept('locations', 'місцевостей')|e] (зараз: [SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('strongest_beylik_variable').GetCountry.GetOwnedLocationCount]) та 50 [Concept('towns_or_cities', 'міст')|e] (зараз: [SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('strongest_beylik_variable').GetCountry.GetTownsAndCities])"
   BEYLIK_VICTORY: "Лідер"

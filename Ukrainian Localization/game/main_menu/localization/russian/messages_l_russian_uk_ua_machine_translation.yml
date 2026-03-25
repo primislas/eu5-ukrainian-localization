@@ -2979,7 +2979,7 @@
   WE_PERFORM_offer_diplomatic_protection_ACTION_MAP: ""
   OTHER_PERFORMS_invade_neighbor_beylik_ACTION_SETUP: "Коли одна [Concept('country', 'держава')|e] може напасти на іншу [Concept('country', 'державу')|e]"
   OTHER_PERFORMS_invade_neighbor_beylik_ACTION_HEADER: "$MESSENGER$"
-  OTHER_PERFORMS_invade_neighbor_beylik_ACTION_TITLE: "[SCOPE.sCountry('actor').GetName] замишля[SCOPE.sCountry('actor').Custom('end_etyut')] вторгнення до сусіднього бейліку"
+  OTHER_PERFORMS_invade_neighbor_beylik_ACTION_TITLE: "[SCOPE.sCountry('actor').GetName] замишля[SCOPE.sCountry('actor').Custom('end_etyut')] вторгнення до сусіднього бейлику"
   OTHER_PERFORMS_invade_neighbor_beylik_ACTION_EFFECTS: "$EFFECT$"
   OTHER_PERFORMS_invade_neighbor_beylik_ACTION_LOG: "Приведено в дію плани вторгнення на територію #ONCLICK:COUNTRY,[target.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target.Custom('CL_tt')],X [target.Custom('CL_GEN')|L]#!#!."
   OTHER_PERFORMS_invade_neighbor_beylik_ACTION_BTN1: "Гаразд"
