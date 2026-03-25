@@ -1079,7 +1079,7 @@
   SELECT: "Вибрати"
   BETWEEN_ROAD_LOC: "Між місцевостями"
   HAS_ROAD_IN_BOTH_LOC: "І в обох місцевостях"
-  OK: "OK"
+  OK: "Гаразд"
   PICK: "Вибрати"
   SELECT_TARGET: "Вибрати ціль"
   SELECT_TARGET_NAME: "$NAME$ — вибрати"

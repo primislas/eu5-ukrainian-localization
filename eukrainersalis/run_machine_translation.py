@@ -7,18 +7,18 @@ from typing import Tuple
 
 from dotenv import load_dotenv
 
-from eukrainersalis.translators.gemini_translator import GeminiTranslator, RU_UA_SYSTEM_INSTRUCTION
+from eukrainersalis.translators.gemini_translator import GeminiTranslator
 from eukrainersalis.translators.translator_api import Translator
 from eukrainersalis.utils.file_utils import list_localization_files
 from eukrainersalis.utils.log_utils import logger
 from eukrainersalis.utils.translation_utils import POSTEDIT_EMPTY_TRANSLATION, PENDING_TRANSLATION, \
-    text_is_not_translated, translation_is_required, translation_not_required
+    text_is_not_translated, translation_is_required, translation_not_required, Language, SystemInstruction
 from eukrainersalis.utils.yaml_utils import write_eu5_localization_yaml_async, load_eu5_yaml_async, \
     validate_localization_file, file_is_translated
 
 _NEWLINE_REPLANCEMENT = "#NL!#"
-_DEFAULT_SOURCE_LANGUAGE = "english"
-_DEFAULT_TARGET_LANGUAGE = "english"
+_DEFAULT_SOURCE_LANGUAGE = Language.ENGLISH
+_DEFAULT_TARGET_LANGUAGE = Language.ENGLISH
 _DEFAULT_MACHINE_SUFFIX = "machine_translation"
 
 
@@ -71,9 +71,9 @@ def translation_postprocessing(line: str) -> str:
     return line
 
 
-async def create_starting_output_file(content: dict[str, dict], source_language: str, output_file_path: str) -> dict[
+async def create_starting_output_file(content: dict[str, dict], source_language: Language | str, output_file_path: str) -> dict[
     str, dict[str, str]]:
-    localization_key = f"l_{source_language}"
+    localization_key = Language(source_language).localization_key
     localization: dict[str, str] = copy.copy(content.get(localization_key, {}))
     for key, value in localization.items():
         if translation_is_required(value):
@@ -141,8 +141,8 @@ async def _translate_and_save_batch(
 
 async def translate_file(input_file_path: str, output_file_path: str, output_dir: str,
                          translator: Translator, api_semaphore: asyncio.Semaphore,
-                         batch_size: int = 25, source_language: str = "english",
-                         target_language: str = "english") -> bool:
+                         batch_size: int = 25, source_language: Language | str = Language.ENGLISH,
+                         target_language: Language | str = Language.ENGLISH) -> bool:
     """Translate a single file, writing progress to disk after each batch.
 
     Returns:
@@ -150,8 +150,8 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
     """
     file_name = os.path.basename(input_file_path)
     output_file_name = os.path.basename(output_file_path)
-    localization_key = f"l_{source_language}"
-    target_localization_key = f"l_{target_language}"
+    localization_key = Language(source_language).localization_key
+    target_localization_key = Language(target_language).localization_key
 
     try:
         content = await load_eu5_yaml_async(input_file_path)
@@ -210,7 +210,8 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
 
 
 def _find_untranslated_files(max_translations: int, overwrite_existing_translation: bool = False,
-                             source_language: str = "english", target_language: str = "ukrainian",
+                             source_language: Language | str = Language.ENGLISH,
+                             target_language: Language | str = Language.UKRAINIAN,
                              translation_suffix: str = "machine_translation") -> list[Tuple[str, str, str]]:
     files_to_translate: list[Tuple[str, str, str]] = []
     source_files = list_localization_files(source_language)
@@ -239,8 +240,8 @@ def _find_untranslated_files(max_translations: int, overwrite_existing_translati
 async def translate_dir_async(translator: Translator, max_files_to_translate: int | None = None,
                               overwrite_existing_translation: bool = False, max_concurrency: int = 8,
                               batch_size: int = 25,
-                              source_language: str = _DEFAULT_SOURCE_LANGUAGE,
-                              target_language: str = _DEFAULT_TARGET_LANGUAGE,
+                              source_language: Language | str = _DEFAULT_SOURCE_LANGUAGE,
+                              target_language: Language | str = _DEFAULT_TARGET_LANGUAGE,
                               translation_suffix: str = _DEFAULT_MACHINE_SUFFIX):
     """Translate all localization files in the directory tree.
 
@@ -274,7 +275,7 @@ async def translate_dir_async(translator: Translator, max_files_to_translate: in
 
 if __name__ == '__main__':
     load_dotenv()
-    _translator = GeminiTranslator(system_instruction=RU_UA_SYSTEM_INSTRUCTION)
+    _translator = GeminiTranslator(system_instruction_config=SystemInstruction.RU_UA)
     asyncio.run(translate_dir_async(
         _translator, max_files_to_translate=512, overwrite_existing_translation=False,
-        source_language="russian", target_language="russian", translation_suffix="uk_ua_machine_translation"))
+        source_language=Language.RUSSIAN, target_language=Language.RUSSIAN, translation_suffix="uk_ua_machine_translation"))

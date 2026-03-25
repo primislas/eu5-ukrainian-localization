@@ -64,7 +64,7 @@
   UTILITIES_TAG: "Utilities"
   TOGGLE_OBSERVE_BLOCKING_COUNTRY_TITLE: "Country change is prohibited by game rule"
   TOGGLE_OBSERVE_BLOCKING_COUNTRY_DESC: "The game rule that prohibits changing country is enabled. If you switch to observe mode after the game has started, you will not be able to switch back. Proceed?"
-  TOGGLE_OBSERVE_BLOCKING_COUNTRY_ACCEPT: "OK"
+  TOGGLE_OBSERVE_BLOCKING_COUNTRY_ACCEPT: "Гаразд"
   TOGGLE_OBSERVE_BLOCKING_COUNTRY_DECLINE: "Cancel"
   TOGGLE_OBSERVE_BLOCKING_COUNTRY: "@trigger_no! Country change is prohibited by game rule."
   FAILED_LOADING_SAVEGAME_ERRORS: "Failed to load savegame"

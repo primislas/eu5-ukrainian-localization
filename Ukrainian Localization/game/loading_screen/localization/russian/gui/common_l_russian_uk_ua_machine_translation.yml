@@ -11,7 +11,7 @@
   TOP_BAR_VERSION: "Версія збірки: [GetBuildRevision]\nКонтрольна сума: [GetMPChecksum]\n[GetRandomLogInfo] [GetBuildRevisionTime]\nСервер: [GetServer]"
   TOP_BAR_VERSION_LIVE: "Europa Universalis V: $NUM$($NAME$)\nКонтрольна сума: [GetMPChecksum]"
   SHORT_VERSION_LIVE: "Europa Universalis V $NUM$ ($NAME$)\nКонтрольна сума: [GetMPChecksum]"
-  OK_BUTTON: "OK"
+  OK_BUTTON: "Гаразд"
   CANCEL_BUTTON: "Скасувати"
   FLAG_BUTTONS: "\nЩоб відкрити вікно уряду, клацніть лівою кнопкою. Щоб перейти до столиці, клацніть правою кнопкою. Щоб перейти до столиці та відкрити вікно уряду, клацніть двічі."
   DEFAULT_TEXT: "за замовчуванням"
