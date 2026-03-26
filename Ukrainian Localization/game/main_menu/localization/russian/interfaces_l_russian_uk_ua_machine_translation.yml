@@ -1878,7 +1878,7 @@
   LG_BTN: "Завантажити гру"
   NEXT_BTN: "Далі"
   FRONTEND_LOAD_GAME_TOOLTIP: "Завантажити гру\n[FrontEndSinglePlayerView.CanStartIndexingSavesDesc]"
-  FRONTEND_LOAD_GAME_TOOLTIP_PRELOADING: "#italic Europa Universalis V#! ще завантажується"
+  FRONTEND_LOAD_GAME_TOOLTIP_PRELOADING: "#italic Європа Українерсаліс V#! ще завантажується"
   FRONTEND_UNVIEWED_LEGAL_DOCUMENTS: "Підтвердіть свою згоду з усіма юридичними документами"
   RELIGION_LABEL: "[Concept('religion', 'Релігія')|e]"
   CULTURE_LABEL: "[Concept('culture', 'Культура')|e]"

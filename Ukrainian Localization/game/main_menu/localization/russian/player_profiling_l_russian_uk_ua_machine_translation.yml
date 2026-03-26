@@ -1,5 +1,5 @@
 ﻿l_russian:
-  PLAYER_PROFILING_WELCOME_HEADER: "Ласкаво просимо до #italic Europa Universalis V#!!"
+  PLAYER_PROFILING_WELCOME_HEADER: "Ласкаво просимо до #italic Європи Українерсаліс V#!!"
   PLAYER_PROFILING_WELCOME: "#italic Europa Universalis V#! — це масштабна історична стратегія, що оповідає про долі держав на рубежі Середніх віків та Нового часу. Засобами їхньої боротьби за владу над світом стають війни, дипломатія, колонізація, а також соціальні та економічні реформи.\n\nЯкщо ви раніше не грали в серію #italic Europa Universalis#! і не знайомі з її механіками, найкраще буде обрати одну з #W рекомендованих держав#!.\n\nЯкщо ж ви — досвідчений володар і хочете пропустити навчання, натисніть #W «$PLAYER_PROFILING_START_NEW_GAME_BT$»#!."
   PLAYER_PROFILING_PLAY: "Грати"
   PLAYER_PROFILING_COUNTRY_DESC: "Центр уваги держави"
