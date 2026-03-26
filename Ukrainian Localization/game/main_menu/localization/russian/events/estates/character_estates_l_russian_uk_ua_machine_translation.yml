@@ -12,7 +12,7 @@
   character_estates.3.a: "Надішлемо привітання."
   character_estates.3.b: "Багаті селяни залишаються селянами."
   character_estates.4.title: "Божественний поклик"
-  character_estates.4.desc: "Як і багато правовірних у пошуках духовної гармонії, [Select_CString(target_character.IsFemale,'наша придворна дама', 'наш придворний')] [target_character.GetName] [Select_CString(target_character.IsFemale,'вирішила', 'вирішив')] вступити до #L [ROOT.GetCountry.GetReligion.GetAdjective|l]ого#! релігійного ордену.\n\nЗвісно, [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] будуть тільки раді, що до них приєднається особистість такого політичного масштабу, але ми можемо накласти заборону, якщо це не входить у наші плани."
+  character_estates.4.desc: "Як і багато правовірних у пошуках духовної гармонії, [Select_CString(target_character.IsFemale,'наша придворна дама', 'наш придворний')] [target_character.GetName] [Select_CString(target_character.IsFemale,'вирішила', 'вирішив')] вступити до #L [ROOT.GetCountry.GetReligion.GetAdjective|l]ого#! релігійного ордену.\n\nЗвісно, [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] буде тільки раді, що до них приєднається особистість такого політичного масштабу, але ми можемо накласти заборону, якщо це не входить у наші плани."
   character_estates.4.a: "Дозволимо [Select_CString(target_character.IsFemale,'їй', 'йому')] вступити до ордену."
   character_estates.4.b: "Цьому не бувати."
   character_estates.5.title: "Підвищення на військовій службі"

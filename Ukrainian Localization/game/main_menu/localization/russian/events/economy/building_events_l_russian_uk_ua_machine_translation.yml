@@ -1,6 +1,6 @@
 ﻿l_russian:
   building.1.title: "Університет міста [new_university.GetNameWithNoTooltip]"
-  building.1.desc: "Після палких дебатів, що переросли у масову бійку, багато викладачів та студентів університету в місті [old_university.GetName] були змушені тікати з рідного навчального закладу. Прибувши до міста [new_university.GetName], вони заснували конкуруючий університет.\n\nТак сталося, що багато #L [ROOT.GetCountry.GetAdjective|l]ого#! [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] навчалися в університеті міста [old_university.GetNameWithNoTooltip]. Вони просять, щоб ми негайно покінчили зі студентським бунтом."
+  building.1.desc: "Після палких дебатів, що переросли у масову бійку, багато викладачів та студентів університету в місті [old_university.GetName] були змушені тікати з рідного навчального закладу. Прибувши до міста [new_university.GetName], вони заснували конкуруючий університет.\n\nТак сталося, що багато #L [ROOT.GetCountry.GetAdjective|l]ого#! [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] навчалося в університеті міста [old_university.GetNameWithNoTooltip]. Вони просять, щоб ми негайно покінчили зі студентським бунтом."
   building.1.a: "Ми повинні підтримати цей новий навчальний заклад."
   building.1.b: "Втікачі повинні негайно повернутися до міста [old_university.GetNameWithNoTooltip]."
   building.2.title: "Студенти проти містян"
