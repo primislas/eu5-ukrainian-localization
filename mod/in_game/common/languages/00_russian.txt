@@ -124,8 +124,6 @@ east_slavic_language = {
 		name_yaroslava
 		name_xenia 
 		name_zlata
-		#Unique non dynamic names
-		Gorislava Gradislava Malusha Prebrana Predslava Zabava Zvenislava
 	}
 	dynasty_names = {
 		Rurikovich Shuisky Romanov Sheremetev Golitsyn Naryshkin Khilkov Gorchakov
@@ -220,7 +218,6 @@ ruthenian_language = {
 		name_paul
 		name_peter
 		name_prokop
-		name_putyata
 		name_radomir
 		name_radoslav
 		name_reginald
@@ -238,6 +235,7 @@ ruthenian_language = {
 		name_svetozar
 		name_sviatopolk
 		name_svyatoslav
+		name_taras
 		name_terentius
 		name_theodore
 		name_theodosius
@@ -269,6 +267,7 @@ ruthenian_language = {
 		name_julie name_julianne
 		name_lyubov name_ludmila
 		name_marine name_martha name_mary
+		name_oksana
 		name_olga
 		name_paraskevi name_premyslava
 		name_ragnhild
@@ -278,8 +277,6 @@ ruthenian_language = {
 		name_yaroslava
 		name_xenia 
 		name_zlata
-		#Unique non dynamic names
-		Gorislava Gradislava Malusha Prebrana Predslava Zabava Zvenislava
 	}
 	dynasty_names = {
 		Rurikovich Shuisky Romanov Sheremetev Golitsyn Naryshkin Khilkov Gorchakov
