@@ -47,14 +47,33 @@ def quoted_str_representer(dumper, data):
 DoubleQuotedDumper.add_representer(str, quoted_str_representer)
 
 
+# Remove boolean implicit resolvers from DoubleQuotedDumper too
+DoubleQuotedDumper.yaml_implicit_resolvers = {
+    k: [r for r in v if r[0] != 'tag:yaml.org,2002:bool']
+    for k, v in DoubleQuotedDumper.yaml_implicit_resolvers.items()
+}
+
+
+class NoBoolSafeLoader(yaml.SafeLoader):
+    pass
+
+
+# Remove implicit resolvers for booleans
+NoBoolSafeLoader.yaml_implicit_resolvers = {
+    k: [r for r in v if r[0] != 'tag:yaml.org,2002:bool']
+    for k, v in yaml.SafeLoader.yaml_implicit_resolvers.items()
+}
+
+
 def load_eu5_yaml(file_path: str) -> dict:
     with open(file_path, "r") as file_handle:
-        return yaml.load(file_handle, Loader=yaml.FullLoader)
+        return yaml.load(file_handle, Loader=NoBoolSafeLoader)
+
 
 async def load_eu5_yaml_async(file_path: str) -> dict:
     async with aiofiles.open(file_path, "r") as file_handle:
         content_str = await file_handle.read()
-        return yaml.load(content_str, Loader=yaml.FullLoader)
+        return yaml.load(content_str, Loader=NoBoolSafeLoader)
 
 def write_eu5_localization_yaml(data: dict, output_file_path: str) -> int:
     dumped = yaml.dump(
@@ -82,8 +101,7 @@ async def write_eu5_localization_yaml_async(data: dict, output_file_path: str) -
 def validate_localization_file(file_path: str, language: Language | str = Language.ENGLISH) -> bool:
     """Validate a YAML localization file by parsing it and checking for errors."""
     try:
-        with open(file_path, "r") as file_handle:
-            content = yaml.load(file_handle, Loader=yaml.FullLoader)
+        content = load_eu5_yaml(file_path)
         content_key = Language(language).localization_key
         has_english_content = content_key in content and content.get(content_key)
         if not has_english_content:
@@ -150,8 +168,17 @@ if __name__ == "__main__":
     for file in list_localization_files("russian_uk_ua_machine_translation"):
         _content = load_eu5_yaml(file)
         for k, v in _content.get(_localization_key, {}).items():
-            if v == "OK":
-                _content[_localization_key][k] = "Гаразд"
+            if "Concept('antagonism', 'неприязн" in v:
+                v = v.replace("'antagonism', 'неприязнь'", "'antagonism', 'ворожість'")
+                v = v.replace("'antagonism', 'неприязні'", "'antagonism', 'ворожості'")
+                v = v.replace("'antagonism', 'неприязню'", "'antagonism', 'ворожістю'")
+                _content[_localization_key][k] = v
+                _fixed_declaration += 1
+            if "Concept('antagonism', 'Неприязн" in v:
+                v = v.replace("'antagonism', 'Неприязнь'", "'antagonism', 'Ворожість'")
+                v = v.replace("'antagonism', 'Неприязні'", "'antagonism', 'Ворожості'")
+                v = v.replace("'antagonism', 'Неприязню'", "'antagonism', 'Ворожістю'")
+                _content[_localization_key][k] = v
                 _fixed_declaration += 1
             # fixed = fix_concept_declarations(v)
             # if v != fixed:
@@ -167,4 +194,4 @@ if __name__ == "__main__":
             #         unfixed_dangling_concept += 1
         write_eu5_localization_yaml(_content, file)
     # print(f"Fixed {fixed_declaration} concept declarations, {unfixed_dangling_concept} unfixed dangling concepts")
-    print(f"Fixed {_fixed_declaration} OKs")
+    print(f"Fixed {_fixed_declaration} declarations")

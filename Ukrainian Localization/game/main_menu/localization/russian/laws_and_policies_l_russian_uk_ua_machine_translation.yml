@@ -1046,7 +1046,7 @@
   no_emperor_allegiance_policy_desc: "Вільні міста більше не користуються захистом від честолюбних князів, який зазвичай надає [GetUniqueInternationalOrganization('hre').GetLeaderTitle|l]."
   no_free_cities_policy: "Скасування вільних міст"
   no_free_cities_policy_desc: "Вільні імперські міста скасовано, і тепер [GetUniqueInternationalOrganization('hre').GetLeaderTitle|l] не надає захист жодному поселенню."
-  free_city_subjugation_antagonism_tt: "Кожне #TOOLTIP:SPECIAL_STATUS,free_city,X #L вільне імперське місто#!#! отримує [SCOPE.GetValue('average_free_city_antagonism')|R2] од. [Concept('antagonism', 'неприязні')|e] до #ONCLICK:COUNTRY,[GetUniqueInternationalOrganization('hre').GetLeaderCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetUniqueInternationalOrganization('hre').GetLeaderCountry.Custom('CL_tt')],X [GetUniqueInternationalOrganization('hre').GetLeaderCountry.Custom('CL_DAT')|L]#!#!"
+  free_city_subjugation_antagonism_tt: "Кожне #TOOLTIP:SPECIAL_STATUS,free_city,X #L вільне імперське місто#!#! отримує [SCOPE.GetValue('average_free_city_antagonism')|R2] од. [Concept('antagonism', 'ворожості')|e] до #ONCLICK:COUNTRY,[GetUniqueInternationalOrganization('hre').GetLeaderCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetUniqueInternationalOrganization('hre').GetLeaderCountry.Custom('CL_tt')],X [GetUniqueInternationalOrganization('hre').GetLeaderCountry.Custom('CL_DAT')|L]#!#!"
   free_city_rights_law: "Право на статус вільного міста"
   free_city_rights_law_desc: "Отримати статус #TOOLTIP:SPECIAL_STATUS,free_city,X #L вільного імперського міста#!#! нелегко. Цей почесний статус присуджуватиме особисто [GetUniqueInternationalOrganization('hre').GetLeaderTitle|l]."
   german_free_cities_only_policy: "Тільки німецькі вільні міста"

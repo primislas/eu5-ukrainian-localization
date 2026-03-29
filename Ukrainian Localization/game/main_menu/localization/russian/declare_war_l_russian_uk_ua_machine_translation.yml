@@ -1,6 +1,6 @@
 ﻿l_russian:
   PRICE_ON_WAR_IMPACT_ENTRY: "@trigger_yes!$NAME$: $PRICE$"
-  PRICE_ON_WAR_ANTAGONISM: "Це також спровокує [Concept('antagonism', 'неприязнь')|e] інших [Concept('countries', 'держав')|e] до нас, її кількість залежить від того, наскільки важлива для них ця війна:"
+  PRICE_ON_WAR_ANTAGONISM: "Це також спровокує [Concept('antagonism', 'ворожість')|e] інших [Concept('countries', 'держав')|e] до нас, її кількість залежить від того, наскільки важлива для них ця війна:"
   PRICE_ON_WAR_ANTAGONISM_ENTRY: "$NAME$: $VAL|Y$[antagonism_i] (вихідне значення)"
   PRICE_ON_WAR_KICKED_OUT_OF_IO: "Деякі [Concept('international_organizations', 'міжнародні об’єднання')|e] не схвалюють оголошення війн іншим учасникам:"
   PRICE_ON_WAR_KICKED_OUT_OF_IO_ENTRY: "@trigger_yes!Нас виженуть з об’єднання «[INTERNATIONAL_ORGANIZATION.GetName]»."
