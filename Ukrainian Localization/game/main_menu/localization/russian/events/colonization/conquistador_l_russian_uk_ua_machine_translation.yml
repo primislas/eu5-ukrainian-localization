@@ -7,6 +7,6 @@
   conquistador.10.a: "У світі ще повно незайнятих земель!"
   conquistador.10.b: "Ми не зможемо керувати всім цим без підтримки."
   conquistador.11.title: "[conquistador_country.GetGovernment.GetRuler.GetNameWithNoTooltip] та [Select_CString(conquistador_country.GetGovernment.GetRuler.IsFemale,'її', 'його')] колонія"
-  conquistador.11.desc: "[conquistador_country.GetLongName] — ця держава запитує у нас підтримку. Якщо ми погодимося, то станемо їхнім сюзереном!"
+  conquistador.11.desc: "[conquistador_country.GetLongName] — ця країна запитує у нас підтримку. Якщо ми погодимося, то станемо їхнім сюзереном!"
   conquistador.11.a: "Чудова ідея!"
   conquistador.11.b: "Їхні проблеми нас не стосуються."

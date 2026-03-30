@@ -65,7 +65,7 @@
   CHARACTER_NICKNAME: "[ROOT.GetCharacter.GetNickname]"
   CHARACTER_NICKNAME_WITH_NO_TOOLTIP: "[ROOT.GetCharacter.GetNicknameWithNoTooltip]"
   DEATH_REASON_old_age: "[CHARACTER.GetHeSheFormal|U] [Select_CString(CHARACTER.IsFemale,'померла', 'помер')] від старості."
-  DEATH_REASON_country_annexed: "[CHARACTER.GetHeSheFormal|U] [Select_CString(CHARACTER.IsFemale,'померла', 'помер')] одночасно із загибеллю своєї держави."
+  DEATH_REASON_country_annexed: "[CHARACTER.GetHeSheFormal|U] [Select_CString(CHARACTER.IsFemale,'померла', 'помер')] одночасно із загибеллю своєї країни."
   DEATH_REASON_battle: "[CHARACTER.GetHeSheFormal|U] [Select_CString(CHARACTER.IsFemale,'загинула', 'загинув')], ведучи війська в бій."
   DEATH_REASON_battle_location: "[CHARACTER.GetHeSheFormal|U] [Select_CString(CHARACTER.IsFemale,'загинула', 'загинув')], ведучи війська на битву в [SCOPE.sLocation('location').Custom('LR_PREP')|l] [SCOPE.sLocation('location').GetName]."
   DEATH_REASON_battle_sea: "[CHARACTER.GetHeSheFormal|U] [Select_CString(CHARACTER.IsFemale,'загинула', 'загинув')], ведучи в бій кораблі."

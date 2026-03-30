@@ -1,5 +1,5 @@
 ﻿l_russian:
-  lots_of_sikhs: "Багато [Concept('pops', 'груп населення')|e] в нашій [Concept('country', 'державі')|e] тепер сповідують #TOOLTIP:RELIGION,$sikhism_tt$,X #L сикхізм#!#!."
+  lots_of_sikhs: "Багато [Concept('pops', 'груп населення')|e] в нашій [Concept('country', 'країні')|e] тепер сповідують #TOOLTIP:RELIGION,$sikhism_tt$,X #L сикхізм#!#!."
   sikhism.1.title: "Вчення сикхів"
   sikhism.1.desc: "[target_location.GetRank.GetNameWithNoTooltip] [target_location.GetName] розташований на кордоні між землями, де поширені #TOOLTIP:RELIGION,$hindu_tt$,X #L індуїзм#!#! та #TOOLTIP:RELIGIONGROUP,muslim,X #L іслам#!#!. Саме тут, серед усіх релігійних відмінностей та конфліктів, людина на ім'я [target_character.GetName] почала проповідувати про те, що істина — не в індуїзмі і не в ісламі, а в єдиному Богові, який не належить ні тій, ні іншій вірі.\n\nТака зневага до стародавніх звичаїв розгнівала [target_religion.GetAdjectiveWithNoTooltip|l]их послідовників, проте нове вчення, що заперечує відмінності між релігіями, вкоренилося серед населення. Його послідовники називають себе сикхами і поширюють свою віру по всій території [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip]."
   sikhism.1.a: "[ROOT.GetCountry.GetLongNameWithNoTooltip] — тут такому немає місця."
@@ -10,7 +10,7 @@
   sikhism.2.a: "[ROOT.GetCountry.GetGovernment.GetRulerTitle] продовжує осяювати нас своїм блиском."
   sikhism.2.tt: "[GetUniqueInternationalOrganization('sikhism').GetName] отримує доступ до правила «[ShowLawName('guru_angad_guruship')]»"
   sikhism.3.title: "[target_character.GetNameWithNoTooltip]"
-  sikhism.3.desc: "[previous_guru.GetName] [Select_CString(previous_guru.IsFemale, 'померла', 'помер' )], і тепер новим гуру вважається [Select_CString(previous_guru.IsFemale, 'її вірна прислужниця', 'його вірний прислужник' )] [target_character.GetName] — людина неймовірно скромна, але при цьому старанно дотримується заповітів, які наказує дотримуватися [ROOT.GetCountry.GetReligion.GetName|l], і допомагає закріплювати в державі рівність. Цим [Select_CString(target_character.IsFemale, 'вона заслужила', 'він заслужив' )] повагу серед простого народу. [target_character.GetName] [Select_CString(target_character.IsFemale, 'заснувала', 'заснував' )] посаду «масанд». Ці люди займаються поширенням нашої релігії в краях, про які [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] може тільки мріяти."
+  sikhism.3.desc: "[previous_guru.GetName] [Select_CString(previous_guru.IsFemale, 'померла', 'помер' )], і тепер новим гуру вважається [Select_CString(previous_guru.IsFemale, 'її вірна прислужниця', 'його вірний прислужник' )] [target_character.GetName] — людина неймовірно скромна, але при цьому старанно дотримується заповітів, які наказує дотримуватися [ROOT.GetCountry.GetReligion.GetName|l], і допомагає закріплювати в країні рівність. Цим [Select_CString(target_character.IsFemale, 'вона заслужила', 'він заслужив' )] повагу серед простого народу. [target_character.GetName] [Select_CString(target_character.IsFemale, 'заснувала', 'заснував' )] посаду «масанд». Ці люди займаються поширенням нашої релігії в краях, про які [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] може тільки мріяти."
   sikhism.3.a: "[ROOT.GetCountry.GetGovernment.GetRulerTitle|U] — це сила для слабких і свобода для невільників!"
   sikhism.3.tt: "[GetUniqueInternationalOrganization('sikhism').GetName] отримує доступ до правила «[ShowLawName('guru_amar_das_guruship')]»"
   sikhism.4.title: "[target_character.GetNameWithNoTooltip]"
@@ -53,6 +53,6 @@
   sikhism.12.b: "Ми не терпітимемо такого від язичників!"
   sikhism.12.b.tt: "Усі [Concept('pops', 'групи населення')|e] у [target_location.Custom('LR_PREP')|l] [target_location.GetName], що сповідують #TOOLTIP:RELIGION,$hindu_tt$,X #L індуїзм#!#! та #TOOLTIP:RELIGIONGROUP,muslim,X #L іслам#!#!, втратять [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [Concept('pop_satisfaction', 'задоволення')|e]"
   sikhism.13.title: "$character_title_guru$ зникає"
-  sikhism.13.desc: "#TOOLTIP:RELIGION,$sikhism_tt$,X #L Сикхи#!#! у збентеженні: у чинного гуру не залишилося наступників. Тепер ми як правовірні сикхи зобов'язані відновити спадкоємність у своїй державі. Місцем, де це станеться, стане [target_location.GetName], і тоді [guru_country.GetLongName] знову знайде гуру."
+  sikhism.13.desc: "#TOOLTIP:RELIGION,$sikhism_tt$,X #L Сикхи#!#! у збентеженні: у чинного гуру не залишилося наступників. Тепер ми як правовірні сикхи зобов'язані відновити спадкоємність у своїй країні. Місцем, де це станеться, стане [target_location.GetName], і тоді [guru_country.GetLongName] знову знайде гуру."
   sikhism.13.a: "Сикхські гуру безсмертні."
   sikhism.13.b: "Ми започаткуємо нову епоху."

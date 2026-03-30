@@ -1,7 +1,7 @@
 ﻿l_russian:
   election.1.title: "Вибори на території [ROOT.GetCountry.Custom('CL_GEN')]"
-  election.1.desc: "Термін правління попереднього глави держави добіг кінця, а значить, у державі настав час нових виборів. Влада [ROOT.GetCountry.Custom('rank_ru_GEN')|l] вважає голосування вінцем своєї блискучої величі. Ми пишаємося правилами, прийнятими в нашій системі управління. Одне з цих правил — прозора процедура призначення керівника на основі особистих заслуг."
-  election.1.desc.junior: "Термін правління попереднього глави держави добіг кінця. На жаль, будучи #TOOLTIP:SPECIAL_STATUS,junior_partner,X #L молодшим партнером#!#! в унії «[ROOT.GetCountry.GetDiplomacy.GetUnion.GetName]», ми ніяк не можемо вплинути на вибір нового правителя…"
+  election.1.desc: "Термін правління попереднього глави країни добіг кінця, а значить, у країні настав час нових виборів. Влада [ROOT.GetCountry.Custom('rank_ru_GEN')|l] вважає голосування вінцем своєї блискучої величі. Ми пишаємося правилами, прийнятими в нашій системі управління. Одне з цих правил — прозора процедура призначення керівника на основі особистих заслуг."
+  election.1.desc.junior: "Термін правління попереднього глави країни добіг кінця. На жаль, будучи #TOOLTIP:SPECIAL_STATUS,junior_partner,X #L молодшим партнером#!#! в унії «[ROOT.GetCountry.GetDiplomacy.GetUnion.GetName]», ми ніяк не можемо вплинути на вибір нового правителя…"
   election.1.a: "[candidate_a.GetNameWithNoTooltip] — [Select_CString(candidate_a.IsFemale, 'нова обрана правителька', 'новий обраний правитель')]."
   election.1.b: "[candidate_b.GetNameWithNoTooltip] — [Select_CString(candidate_b.IsFemale, 'нова обрана правителька', 'новий обраний правитель')]."
   election.1.c: "[candidate_c.GetNameWithNoTooltip] — [Select_CString(candidate_c.IsFemale, 'нова обрана правителька', 'новий обраний правитель')]."
@@ -14,7 +14,7 @@
   election.3.title: "Вибори капітана народу"
   election.3.desc: "[Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'Попередня', 'Попередній')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] більше не вправі керувати #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_INST')|L]#!#!. Нам потрібно обрати кандидата, інакше [ROOT.GetCountry.Custom('rank_ru_ACC')|l] чекає хаос безвладдя. Залишилося вирішити, хто це буде?"
   election.4.title: "Співправитель капітана народу"
-  election.4.desc: "Ми обрали основного капітана народу. Але нашій державі [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'потрібна', 'потрібен')] не тільки [ROOT.GetCountry.GetGovernment.GetRulerTitle|l], а й людина, яка буде [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'її', 'його')] контролювати. [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] зібралися обговорити це питання…"
+  election.4.desc: "Ми обрали основного капітана народу. Але нашій країні [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'потрібна', 'потрібен')] не тільки [ROOT.GetCountry.GetGovernment.GetRulerTitle|l], а й людина, яка буде [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'її', 'його')] контролювати. [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] зібралися обговорити це питання…"
   election.4.a: "[candidate_a.GetNameWithNoTooltip] буде [Select_CString(candidate_a.IsFemale,'обрана', 'обраний')] співправителем"
   election.4.b: "[candidate_b.GetNameWithNoTooltip] буде [Select_CString(candidate_b.IsFemale,'обрана', 'обраний')] співправителем"
   election.4.c: "[candidate_c.GetNameWithNoTooltip] буде [Select_CString(candidate_c.IsFemale,'обрана', 'обраний')] співправителем"

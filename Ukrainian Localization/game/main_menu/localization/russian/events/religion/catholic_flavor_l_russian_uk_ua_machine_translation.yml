@@ -79,7 +79,7 @@
   catholic_flavor.101.title: "[GetCountry('PAP').GetGovernment.GetRulerTitle] та [Select_CString(GetCountry('PAP').GetGovernment.GetRuler.IsFemale,'її', 'його')] племінник"
   catholic_flavor.101.desc: "[target_character.GetName] просить нас призначити [Select_CString(target_character.IsFemale,'її', 'його')] родича кардиналом у провінції [cardinal_nephew_province.GetName]. Хоч це й усталена практика, багато хто вважає її кричущим проявом кумівства."
   catholic_flavor.101.a: "Ми виконаємо [Select_CString(target_character.IsFemale,'її', 'його')] прохання."
-  catholic_flavor.101.a.tt: "Кожна держава з [Concept('cardinal', 'кардиналом')|e] змінює своє [Concept('opinion', 'ставлення')|e] щодо #ONCLICK:COUNTRY,[cardinal_nephew_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[cardinal_nephew_country.Custom('CL_tt')],X [cardinal_nephew_country.Custom('CL_GEN')|L]#!#! на [ShowBiasValue('opinion_popes_pet')|+=0]"
+  catholic_flavor.101.a.tt: "Кожна країна з [Concept('cardinal', 'кардиналом')|e] змінює своє [Concept('opinion', 'ставлення')|e] щодо #ONCLICK:COUNTRY,[cardinal_nephew_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[cardinal_nephew_country.Custom('CL_tt')],X [cardinal_nephew_country.Custom('CL_GEN')|L]#!#! на [ShowBiasValue('opinion_popes_pet')|+=0]"
   opinion_popes_pet: "Улюбленець папи"
   catholic_flavor.101.b: "Ми не будемо заохочувати кумівство в церкві."
   catholic_flavor.102.title: "Призначення кардинала-племінника"

@@ -44,7 +44,7 @@
   CLICK_ACTION_UNIT_TRANSPORT: "Перевезти загін до [LOCATION.Custom('LR_ACC')|l] [LOCATION.GetNameWithNoTooltip]"
   CLICK_ACTION_LOCATION_CONTEXT_MENU: "Відкрити меню місцевості"
   CLICK_ACTION_SEAZONE_CONTEXT_MENU: "Відкрити меню акваторії"
-  CLICK_ACTION_COUNTRY_CONTEXT_MENU: "Відкрити меню держави"
+  CLICK_ACTION_COUNTRY_CONTEXT_MENU: "Відкрити меню країни"
   CLICK_ACTION_DISCOVER_CONTEXT_MENU: "Відкрити меню відкриття"
   CLICK_ACTION_MARKET_CONTEXT_MENU: "Відкрити меню ринку"
   CLICK_ACTION_ROAD_BUILDER_BUILD_ROAD_TO_LOCATION: "[ROAD_TYPE.GetName] — прокласти до [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName]"

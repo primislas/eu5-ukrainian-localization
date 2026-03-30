@@ -73,7 +73,7 @@
   faction_guelphs_no_tt: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$guelphs_io_tt$,X #L Гвельфи#!#!"
   faction_ghibellines_no_tt: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$ghibellines_io_tt$,X #L Гібеліни#!#!"
   seat_of_power_throne: "Трон"
-  seat_of_power_state: "Держава"
+  seat_of_power_state: "Країна"
   verb_bore: "народила"
   verb_sired: "зачав"
   verb_conceived: "породили"

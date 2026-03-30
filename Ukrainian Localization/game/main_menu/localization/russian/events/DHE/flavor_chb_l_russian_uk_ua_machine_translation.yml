@@ -5,6 +5,6 @@
   flavor_chb.1.tt: "[target_character.GetName] [Select_CString(target_character.IsFemale, 'оволоділа', 'оволодів' )] територією в околицях [target_location.Custom('LR_GEN')|l] [target_location.GetName]"
   flavor_chb.1.b: "Цікаво, як високо він зуміє злетіти?"
   flavor_chb.2.title: "Спадщина хатун"
-  flavor_chb.2.desc: "Поки [target_khatun.GetName] та [GetCharacter('chb_chupan').GetName] були одружені, вона відігравала не останню роль у політиці #TOOLTIP:INTERNATIONAL_ORGANIZATION,$ilkhanate_tt$,X #L держави Хулагуїдів#!#!. Відчувши можливість зайняти трон, вона вирішила перейти на наш бік і запропонувала свою підтримку. [target_khatun.GetNameWithNoTooltip] має обширні зв'язки, з цієї жінки могла б вийти зручна маріонеткова правителька держави Хулагуїдів — якби не її непомірне честолюбство. Можливо, буде розумніше видати її заміж за більш слухняного кандидата…"
+  flavor_chb.2.desc: "Поки [target_khatun.GetName] та [GetCharacter('chb_chupan').GetName] були одружені, вона відігравала не останню роль у політиці #TOOLTIP:INTERNATIONAL_ORGANIZATION,$ilkhanate_tt$,X #L країни Хулагуїдів#!#!. Відчувши можливість зайняти трон, вона вирішила перейти на наш бік і запропонувала свою підтримку. [target_khatun.GetNameWithNoTooltip] має обширні зв'язки, з цієї жінки могла б вийти зручна маріонеткова правителька країни Хулагуїдів — якби не її непомірне честолюбство. Можливо, буде розумніше видати її заміж за більш слухняного кандидата…"
   flavor_chb.2.a: "Вона стане чудовою хатун."
   flavor_chb.2.b: "Її небезпечно наділяти впливовою посадою."

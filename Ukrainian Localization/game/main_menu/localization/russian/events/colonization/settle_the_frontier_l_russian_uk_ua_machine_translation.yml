@@ -25,7 +25,7 @@
   settle_the_frontier.6.desc: "[recipient.GetName] вже робить успіхи в освоєнні нових земель. Нові #L [actor.GetAdjective|l]і#! села в [target.Custom('LR_PREP')|l] [target.GetName] почали видобувати та використовувати ресурси цього краю. Ми можемо скористатися владою та вимагати віддати нам деякі з цих природних багатств…"
   settle_the_frontier.6.a: "Нам знадобиться такий товар, як [target_goods_0.GetNameWithNoTooltip|l]."
   settle_the_frontier.6.b: "Нашій столиці потрібен такий товар, як [target_goods_1.GetNameWithNoTooltip|l]."
-  settle_the_frontier.6.c: "Державі знадобиться такий товар, як [target_goods_2.GetNameWithNoTooltip|l]."
+  settle_the_frontier.6.c: "Країні знадобиться такий товар, як [target_goods_2.GetNameWithNoTooltip|l]."
   settle_the_frontier.6.d: "Такий товар, як [target_goods_3.GetNameWithNoTooltip], потрібен нам більше, ніж колоністам."
   settle_the_frontier.6.e: "Такий товар, як [target_goods_4.GetNameWithNoTooltip], принесе нам велику користь."
   settle_the_frontier.6.zzz: "Не варто забирати у поселенців цінні матеріали."

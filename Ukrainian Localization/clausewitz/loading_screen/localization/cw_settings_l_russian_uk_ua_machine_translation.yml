@@ -80,7 +80,7 @@
   SETTING_MESH_LOD_BIAS_TOOLTIP: "#T $SETTING_MESH_LOD_BIAS$#!\nЯкість деталізації об'єктів на карті (підрозділи тощо).\n\nЗниження параметра може підвищити продуктивність."
   SETTING_MESH_LOD_FADE_TOOLTIP: "#T $SETTING_MESH_LOD_FADE$\n#!Якщо ввімкнено цей параметр, у тривимірних моделях відбувається плавний перехід між різними рівнями деталізації при зміні масштабу.\n\nВимкнення параметра може підвищити продуктивність."
   SETTING_PROVINCE_NAMES_TOOLTIP: "Спосіб показувати на карті назви міст і провінцій."
-  SETTING_FILL_IN_IMPASSABLE_TERRAIN_TOOLTIP: "Вмикати (чи ні) до кордонів держави на карті непрохідні ділянки."
+  SETTING_FILL_IN_IMPASSABLE_TERRAIN_TOOLTIP: "Вмикати (чи ні) до кордонів країни на карті непрохідні ділянки."
   SETTING_LANGUAGE_TOOLTIP: "#T $SETTING_LANGUAGE$#!\nМова користувацького інтерфейсу."
   SETTING_ACCOUNT_EMAIL_TOOLTIP: "Адреса вашої ел. пошти для облікового запису Paradox"
   SETTING_FRAMERATE_CAP: "Обмеження кількості кадрів"

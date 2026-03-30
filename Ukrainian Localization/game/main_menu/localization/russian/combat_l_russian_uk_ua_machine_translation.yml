@@ -1,8 +1,8 @@
 ﻿l_russian:
-  BECOME_MERCENARIES_FOR_COUNTRY_EFFECT: "Війська ($NUM$) приєднаються до держави $COUNTRY$ як [Concept('mercenaries', 'найманці')|e] за підкуп у розмірі $COST$."
-  THIRD_BECOME_MERCENARIES_FOR_COUNTRY_EFFECT: "Війська ($NUM$) приєднаються до держави $COUNTRY$ як [Concept('mercenaries', 'найманці')|e] за підкуп у розмірі $COST$."
-  PAST_BECOME_MERCENARIES_FOR_COUNTRY_EFFECT: "Війська ($NUM$) приєдналися до держави $COUNTRY$ як [Concept('mercenaries', 'найманці')|e] за підкуп у розмірі $COST$."
-  PAST_THIRD_BECOME_MERCENARIES_FOR_COUNTRY_EFFECT: "Війська ($NUM$) приєдналися до держави $COUNTRY$ як [Concept('mercenaries', 'найманці')|e] за підкуп у розмірі $COST$."
+  BECOME_MERCENARIES_FOR_COUNTRY_EFFECT: "Війська ($NUM$) приєднаються до країни $COUNTRY$ як [Concept('mercenaries', 'найманці')|e] за підкуп у розмірі $COST$."
+  THIRD_BECOME_MERCENARIES_FOR_COUNTRY_EFFECT: "Війська ($NUM$) приєднаються до країни $COUNTRY$ як [Concept('mercenaries', 'найманці')|e] за підкуп у розмірі $COST$."
+  PAST_BECOME_MERCENARIES_FOR_COUNTRY_EFFECT: "Війська ($NUM$) приєдналися до країни $COUNTRY$ як [Concept('mercenaries', 'найманці')|e] за підкуп у розмірі $COST$."
+  PAST_THIRD_BECOME_MERCENARIES_FOR_COUNTRY_EFFECT: "Війська ($NUM$) приєдналися до країни $COUNTRY$ як [Concept('mercenaries', 'найманці')|e] за підкуп у розмірі $COST$."
   RANSOM_PRISONER_EFFECT: "Війська ($NUM$) повернуться до власників за викуп у розмірі $COST$."
   THIRD_RANSOM_PRISONER_EFFECT: "Війська ($NUM$) повернуться до власників за викуп у розмірі $COST$."
   PAST_RANSOM_PRISONER_EFFECT: "Війська ($NUM$) повернулися до власників за викуп у розмірі $COST$."

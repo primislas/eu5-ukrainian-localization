@@ -1,6 +1,6 @@
 ﻿l_russian:
   flavor_lub.1.title: "Ворота до [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
-  flavor_lub.1.desc: "[target_location.GetRank.GetNameWithNoTooltip] [target_location.GetName] повниться найкращими інженерами з усіх куточків нашої держави. Вони вважають, що цей [target_location.GetRank.GetNameWithNoTooltip|l] стане ще кращим, якщо ми збудуємо там #TOOLTIP:BUILDING_TYPE,hsa_burgtor,X #L Бургтор#!#!: нові ворота, які стануть головним в'їздом до нашої столиці.\n\nЦя велична та багато прикрашена конструкція розташовуватиметься в стратегічно вигідному місці та буде оточена вже існуючими укріпленнями, тож варта зможе без зусиль стежити за потоками людей, що відвідують і покидають місто."
+  flavor_lub.1.desc: "[target_location.GetRank.GetNameWithNoTooltip] [target_location.GetName] повниться найкращими інженерами з усіх куточків нашої країни. Вони вважають, що цей [target_location.GetRank.GetNameWithNoTooltip|l] стане ще кращим, якщо ми збудуємо там #TOOLTIP:BUILDING_TYPE,hsa_burgtor,X #L Бургтор#!#!: нові ворота, які стануть головним в'їздом до нашої столиці.\n\nЦя велична та багато прикрашена конструкція розташовуватиметься в стратегічно вигідному місці та буде оточена вже існуючими укріпленнями, тож варта зможе без зусиль стежити за потоками людей, що відвідують і покидають місто."
   flavor_lub.1.a: "Ми виділимо кошти на будівництво!"
   flavor_lub.1.b: "Може, у [target_country.Custom('CL_GEN')] вийде взяти витрати на себе?"
   flavor_lub.1.c: "Нас не цікавлять подібні проєкти."
