@@ -621,7 +621,7 @@
   rank_duchy_frisian_freedom: "Фрідом"
   rank_duchy_frisian_freedom_ruler_male: "Потестат"
   rank_duchy_frisian_freedom_ruler_female: "$rank_duchy_frisian_freedom_ruler_male$"
-  rank_duchy_republic_novgorod: "Господар"
+  rank_duchy_republic_novgorod: "Пан"
   rank_duchy_republic_novgorod_prefix: "$empty_text$"
   rank_duchy_republic_novgorod_ruler_male: "$rank_duchy_russian_prince_ruler_male$"
   rank_duchy_republic_novgorod_ruler_female: "$rank_duchy_russian_prince_ruler_female$"
