@@ -7636,7 +7636,7 @@
   WE_PERFORM_nanbokuchou_declare_neutrality_ACTION_BTN2: "Гаразд"
   WE_PERFORM_nanbokuchou_declare_neutrality_ACTION_BTN3: "$common_string_go_to$"
   WE_PERFORM_nanbokuchou_declare_neutrality_ACTION_MAP: ""
-  OTHER_PERFORMS_nanbokuchou_declare_neutrality_ACTION_SETUP: "Коли інша [Concept('country', 'країна')|e] оголошує нейтралітет у #TOOLTIP:SITUATION,nanbokuchou,X #L період Намбокутё#!#!"
+  OTHER_PERFORMS_nanbokuchou_declare_neutrality_ACTION_SETUP: "Коли інша [Concept('country', 'країна')|e] оголошує нейтралітет у #TOOLTIP:SITUATION,nanbokuchou,X #L період Намбокутьо#!#!"
   OTHER_PERFORMS_nanbokuchou_declare_neutrality_ACTION_HEADER: "$MESSENGER$"
   OTHER_PERFORMS_nanbokuchou_declare_neutrality_ACTION_TITLE: "Зрада!"
   OTHER_PERFORMS_nanbokuchou_declare_neutrality_ACTION_EFFECTS: "[SCOPE.sCountry('actor').GetLongName] вирішу[SCOPE.sCountry('actor').Custom('endlong_etyut')] не підтримувати жодну зі сторін."

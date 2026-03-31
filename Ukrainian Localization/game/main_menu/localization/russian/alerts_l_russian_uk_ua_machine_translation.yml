@@ -326,7 +326,7 @@
   ALERT_HAS_LESS_POWER_IN_UNION_LEFT_CLICK: "Переглянути [Concept('union', 'унію')|e]"
   ALERT_CTA_CYCLE_LOCATIONS_LEFT_CLICK: "Перемкнутися між [Concept('locations', 'районами')|e]"
   ALERT_HAS_DEVASTATED_LOCATIONS: "Спустошені райони"
-  ALERT_HAS_DEVASTATED_LOCATIONS_TEXT: "У цих [Concept('locations', 'районах')|e] ([GetDataModelSize(AlertHasDevastatedLocations.GetDevastatedLocations)|w]) є спустошення:"
+  ALERT_HAS_DEVASTATED_LOCATIONS_TEXT: "У цих [Concept('locations', 'місцевостях')|e] ([GetDataModelSize(AlertHasDevastatedLocations.GetDevastatedLocations)|w]) є спустошення:"
   ALERT_CTA_CYCLE_POLICIES_LEFT_CLICK: "Перемкнутися між [Concept('policies', 'політиками')|e]"
   ALERT_CAN_CODIFY_NEW_POLICIES: "Доступні нові політики"
   ALERT_CAN_CODIFY_NEW_POLICIES_TEXT: "Ці [Concept('laws', 'зводи законів')|e] можна закріпити за допомогою нових [Concept('policies', 'політик')|e]:"
