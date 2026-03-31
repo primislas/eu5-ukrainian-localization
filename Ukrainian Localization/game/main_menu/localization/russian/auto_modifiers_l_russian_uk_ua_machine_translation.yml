@@ -15,7 +15,7 @@
   AUTO_MODIFIER_NAME_prestige: "[Concept('prestige', 'Престиж')|e]"
   AUTO_MODIFIER_NAME_army_tradition: "[Concept('army_tradition', 'Армійські традиції')|e]"
   AUTO_MODIFIER_NAME_navy_tradition: "[Concept('navy_tradition', 'Морські традиції')|e]"
-  AUTO_MODIFIER_NAME_num_non_rural_impact: "Кількість [Concept('towns_and_cities', 'міських районів')|e]"
+  AUTO_MODIFIER_NAME_num_non_rural_impact: "Кількість [Concept('towns_and_cities', 'міських місцевостей')|e]"
   AUTO_MODIFIER_NAME_high_legitimacy: "Висока [Concept('legitimacy', 'легітимність')|e]"
   AUTO_MODIFIER_NAME_low_legitimacy: "Низька [Concept('legitimacy', 'легітимність')|e]"
   AUTO_MODIFIER_NAME_high_republican_tradition: "Міцні [Concept('republican_tradition', 'республіканські традиції')|e]"

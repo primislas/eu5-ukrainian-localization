@@ -225,7 +225,7 @@
   flavor_mam.50.desc: "Після того, як ми оголосили про підготовку нових експедицій, на ринках [ROOT.GetCountry.Custom('rank_ru_GEN')|l] різко зріс попит на суднобудівні матеріали. Купці та ремісники бажають постачати ресурси для будівництва флоту, здатного долати великі відстані та захищати наші торгові інтереси."
   flavor_mam.50.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   flavor_mam.50.b: "Надамо субсидії суднобудівникам та купцям."
-  flavor_mam.50.b.tt: "[Concept('prosperity', 'Процвітання')|e] кожного належного нам району з #TOOLTIP:BUILDING_TYPE,naval_supplies_workshop,X #L майстернею суднобудівних матеріалів#!#! збільшиться на [ShowNamedValue('prosperity_severe_bonus')|+=2%]"
+  flavor_mam.50.b.tt: "[Concept('prosperity', 'Процвітання')|e] кожної належної нам місцевості з #TOOLTIP:BUILDING_TYPE,naval_supplies_workshop,X #L майстернею суднобудівних матеріалів#!#! збільшиться на [ShowNamedValue('prosperity_severe_bonus')|+=2%]"
   flavor_mam.51.title: "Перевага над [GetCountry('POR').Custom('CL_INST')]"
   flavor_mam.51.desc: "Після довгих років суперництва та ворожнечі ми нарешті перевершили #ONCLICK:COUNTRY,[GetCountry('POR').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('POR').Custom('CL_tt')],X [GetCountry('POR').Custom('CL_ACC')|L]#!#! у військово-морській могутності. Зараз наш флот є грізною силою, здатною кинути виклик пануванню європейців у регіоні та, на думку купців, захистити торгові шляхи #TOOLTIP:AREA,red_sea_area,X #L Червоного моря#!#!. Тепер ми почуваємося набагато впевненіше і можемо поборотися за розширення свого впливу та контроль над прибутковими ринками спецій."
   flavor_mam.51.a: "Відсвяткуймо нашу перевагу на морі!"

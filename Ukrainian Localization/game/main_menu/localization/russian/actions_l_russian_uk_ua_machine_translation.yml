@@ -779,7 +779,7 @@
   no_valid_goods: "@trigger_no! Немає відповідних [Concept('goods', 'товарів')|e]."
   no_valid_holy_sites: "@trigger_no! Немає відповідних [Concept('holy_sites', 'святинь')|e]."
   no_valid_rebels: "@trigger_no! Немає відповідних [Concept('rebels', 'бунтівників')|e]."
-  no_valid_town_or_city: "@trigger_no! Немає відповідного [Concept('town_or_city', 'міського району')|e]."
+  no_valid_town_or_city: "@trigger_no! Немає відповідної [Concept('town_or_city', 'міської місцевості')|e]."
   no_valid_religious_school: "@trigger_no! Немає відповідної [Concept('religious_school', 'релігійної школи')|e]."
   no_valid_parliament_issues: "@trigger_no! Немає відповідних доступних [Concept('parliament_issues', 'парламентських питань')|e]."
   no_valid_parliament_agendas: "@trigger_no! Немає відповідних доступних [Concept('parliament_agendas', 'парламентських вимог')|e]."

@@ -52,4 +52,4 @@
   raid_imperial_family_holdings_cta: "Клацніть, щоб розпочати набіги на володіння імператорського дому"
   hussite_tribunal: "Гуситський трибунал"
   hussite_tribunal_desc: "Після переходу території до нас командири влаштують низку польових трибуналів, щоб викорінити #TOOLTIP:RELIGION,$hussite_tt$,X #L гуситську#!#! єресь, що охопила уми місцевих жителів. Усім підозрюваним у єресі буде запропоновано відректися від своїх вірувань, інакше їх покарають на науку іншим. Ті, хто розкаявся, зможуть повернутися до #TOOLTIP:RELIGION,$catholic_tt$,X #L католицтва#!#!, інші ж будуть ув'язнені або страчені. Хай допоможе [GetCountry('PAP').GetReligion.GetGodName] цим заблудлим душам!"
-  controller_is_not_owner_tt: "Ми [Concept('controller', 'контролюємо')|e] цей [Concept('location', 'район')|e], взятий у ході [Concept('siege', 'облоги')|e], але не [Concept('owner', 'володіємо')|e] ним"
+  controller_is_not_owner_tt: "Ми [Concept('controller', 'контролюємо')|e] цю [Concept('location', 'місцевість')|e], взяту в ході [Concept('siege', 'облоги')|e], але не [Concept('owner', 'володіємо')|e] нею"

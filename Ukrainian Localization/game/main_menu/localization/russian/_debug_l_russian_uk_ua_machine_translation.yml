@@ -43,7 +43,7 @@
   show_event_target_building_type: "Ціль події: [Concept('building', 'споруда')|e] «[BUILDING_TYPE.GetName]»"
   show_event_target_unit_type: "Ціль події: [Concept('unit_type', 'тип військ')|e] «[UNIT_TYPE.GetName]»"
   show_event_target_levy_setup: "Ціль події: тип [Concept('levy', 'ополчення')|e] «[LEVY_SETUP.GetName]»"
-  show_event_target_location_rank: "Ціль події: [Concept('location_rank', 'ранг району')|e] «[LOCATION_RANK.GetName]»"
+  show_event_target_location_rank: "Ціль події: [Concept('location_rank', 'ранг місцевості')|e] «[LOCATION_RANK.GetName]»"
   show_event_target_parliament_issue: "Ціль події: [Concept('parliament_issue', 'парламентське питання')|e] «[PARLIAMENT_ISSUE.GetName]»"
   show_event_target_parliament_agenda: "Ціль події: [Concept('parliament_agenda', 'парламентська вимога')|e] «[PARLIAMENT_AGENDA.GetName]»"
   show_event_target_pop_type: "Ціль події: [Concept('pop_type', 'суспільний клас')|e] «[POP_TYPE.GetName]»"
