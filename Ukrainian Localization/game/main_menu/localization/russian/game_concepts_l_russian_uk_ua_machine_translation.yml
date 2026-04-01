@@ -116,7 +116,7 @@
   game_concept_lake_desc: "Озера — це внутрішні водойми, які або не мають виходу до моря, або пов'язані з морями через річки. Через це жоден з більш-менш великих [Concept('ships', 'кораблів')|e] не зможе потрапити в озеро."
   game_concept_seazone: "Акваторія"
   game_concept_seazones: "Акваторії"
-  game_concept_seazone_desc: "Акваторія схожа на [Concept('location', 'місцевість')|e], але складається цілком з води. Ця ділянка карти не перебуває [Concept('owned', 'у володінні')|e] або [Concept('controlled', 'під контролем')|e] якоїсь країни. У прибережних акваторіях є [Concept('maritime_presence', 'морська присутність')|e] прилеглих [Concept('countries', 'країн')|e]."
+  game_concept_seazone_desc: "Акваторія схожа на [Concept('location', 'місцевість')|e], але складається цілком з води. Ця ділянка мапи не перебуває [Concept('owned', 'у володінні')|e] або [Concept('controlled', 'під контролем')|e] якоїсь країни. У прибережних акваторіях є [Concept('maritime_presence', 'морська присутність')|e] прилеглих [Concept('countries', 'країн')|e]."
   game_concept_sea_current: "Морська течія"
   game_concept_sea_currents: "Морські течії"
   game_concept_sea_current_desc: "$game_concept_sea_current$ — особливість певної [Concept('seazones', 'акваторії')|e], що дозволяє [Concept('navies', 'флотам')|e] швидше переміщатися в тому чи іншому напрямку."

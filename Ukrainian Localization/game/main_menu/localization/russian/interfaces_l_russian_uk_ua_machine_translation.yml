@@ -149,7 +149,7 @@
   DIPLOMATIC_COST_BREAKDOWN: "Причини вартості"
   AGE_MERCENARIES_AMOUNT: "Кількість [Concept('mercenaries', 'найманців')|e]: $VAL|+=2%$"
   AGE_BATTLE_WAR_SCORE_IMPACT: "[Concept('war_score', 'Військовий рахунок')|e] за [Concept('battles', 'битви')|e]: $VAL|+=2%$"
-  AGE_EXPLORATION_SPREAD: "Затримка поширення карт після [Concept('explorations', 'експедицій')|e]: $VAL|V$"
+  AGE_EXPLORATION_SPREAD: "Затримка поширення мап після [Concept('explorations', 'експедицій')|e]: $VAL|V$"
   LOCATION_ART_TITLE: "Творіння в [Location.Custom('LR_PREP')|l] [Location.GetNameWithNoTooltip]"
   EXTRA_COUNTRIES_FOR_ORG: "#T Додаткові учасники#!\nВключає наступні країни"
   EXTRA_COUNTRIES_FOR_GP: "#T Додаткові ленники#!\nВключає наступні країни"

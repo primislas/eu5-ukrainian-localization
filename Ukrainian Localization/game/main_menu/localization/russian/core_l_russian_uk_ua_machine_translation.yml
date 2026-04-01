@@ -59,7 +59,7 @@
   BULLET_WITH_TAB: "    • "
   BULLET: "• "
   SCREENSHOT_TAKEN: "Виконується знімок екрана!"
-  MAP_SCREENSHOT_TAKEN: "Виконується знімок карти!"
+  MAP_SCREENSHOT_TAKEN: "Виконується знімок мапи!"
   SCOPE_LOCATION: "[ROOT.GetLocation.GetName]:"
   SCOPE_UNIT: "[ROOT.GetUnit.GetName]:"
   SCOPE_WAR: "[ROOT.GetWar.GetName]:"
