@@ -15,6 +15,9 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     *   "peasants"/"простолюдины" -> "простолюд"
     *   "country"/"держава" -> "країна"
     *   "antagonism"/"неприязнь" -> "ворожість"
+    *   "estate_privilege"/"сословная привилегия" -> "становий привілей"
+    *   "map"/"карта" in a sense of world or an area map -> "мапа"
+    *   "target"/"goal"/"цель" -> "мета"
 5.  Low-Confidence Flagging: If you are uncertain about the translation of a proper noun (dynasty, ethnicity, culture), prefix it with 'POSTEDIT_'.
 6.  Translate only Russian text. Do not translate any other language.
 7.  Attempt to keep the sentence structure as close to the original as possible.
