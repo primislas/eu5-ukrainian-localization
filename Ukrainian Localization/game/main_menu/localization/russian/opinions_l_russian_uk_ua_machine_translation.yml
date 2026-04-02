@@ -494,7 +494,7 @@
   opinion_too_tolerate: "Терпимість до інших вірувань"
   opinion_executed_monarch: "Стратили монарха"
   opinion_friendliness: "Запропонували дружні стосунки"
-  opinion_improve_relations_member: "Покращено відносини між учасниками"
+  opinion_improve_relations_member: "Поліпшено відносини між учасниками"
   opinion_mutual_great_powers: "Суперницька [Concept('great_power', 'велика держава')|e]"
   opinion_hegemons: "[Concept('hegemon', 'Гегемон')|e]"
   opinion_demanded_additional_tribute: "Зажадали додаткову данину"

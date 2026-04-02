@@ -34,7 +34,7 @@
   promote_to_farari_ct: "#TOOLTIP:UNITTYPE,a_mandekalu_infantry,X #L Піхотинці #!#! та #TOOLTIP:UNITTYPE,a_mandekalu_cavalry,X #L вершники мандекалу#!#! перетворилися на #TOOLTIP:UNITTYPE,a_farari_infantry,X #L піхотинців#!#! та #TOOLTIP:UNITTYPE,a_farari_cavalry,X #L вершників фарарі#!#!"
   promote_to_farari_tt: "У нас є #Y 150#! од. сумарного досвіду мандекалу"
   mandekalu_exp: "Сумарний досвід мандекалу"
-  mandekalu_exp_gain_desc: "#italic Може отримувати #Y досвід#!, щоб отримати підвищення до типу «[ShowUnitDefinitionName('a_farari_infantry')]» та «[ShowUnitDefinitionName('a_farari_cavalry')]» після вивчення покращення «[ShowAdvanceName('farari_corps_advance')]». #Y Досвід#! ділиться між усіма #Y мандекалу#!. Перемоги в битвах приносять #G +15#! од., а поразки #G +5#! од. #Y досвіду#! мандекалу, що беруть у них участь.#!"
+  mandekalu_exp_gain_desc: "#italic Може отримувати #Y досвід#!, щоб отримати підвищення до типу «[ShowUnitDefinitionName('a_farari_infantry')]» та «[ShowUnitDefinitionName('a_farari_cavalry')]» після вивчення поступу «[ShowAdvanceName('farari_corps_advance')]». #Y Досвід#! ділиться між усіма #Y мандекалу#!. Перемоги в битвах приносять #G +15#! од., а поразки #G +5#! од. #Y досвіду#! мандекалу, що беруть у них участь.#!"
   absorb_pops: "Асиміляція населення"
   absorb_pops_desc: "За допомогою цього загону можна змусити частину місцевого населення перейти на наш бік."
   absorb_pops_cta: "Клацніть, щоб розпочати поглинання населення."

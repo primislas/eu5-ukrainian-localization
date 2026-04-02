@@ -26,7 +26,7 @@
   NO_VC_HERE: "У цій [Concept('area', 'області')|e] немає [Concept('victory_cards', 'переможних карток')|e]."
   SCORE_GREATPOWER: "[Concept('great_power', 'Велика держава')|e]: $VAL|+=2$"
   ADM_SCORE_TAX_BASE: "[Concept('tax_base', 'Податкова база')|e]: $VAL|+=2$"
-  ADM_SCORE_TECH: "[Concept('advances', 'Покращення')|e]: $VAL|+=2$"
+  ADM_SCORE_TECH: "[Concept('advances', 'Поступ')|e]: $VAL|+=2$"
   ADM_SCORE_OCCUPATION: "[Concept('occupation', 'Окупація')|e]: $VAL|+=2$"
   ADM_SCORE_STABILITY: "[Concept('stability', 'Стабільність')|e]: $VAL|+=2$"
   ADM_SCORE_PRESTIGE: "[Concept('prestige', 'Престиж')|e]: $VAL|+=2$"

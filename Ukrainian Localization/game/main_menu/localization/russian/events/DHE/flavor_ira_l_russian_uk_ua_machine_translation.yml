@@ -136,7 +136,7 @@
   flavor_ira.30.b: "Раз [Select_CString(target_character.IsFemale, 'вона зуміла', 'він зумів')] дістатися до столиці, [Select_CString(target_character.IsFemale, 'вона', 'він')] впорається з книгою без нашої допомоги."
   flavor_ira.31.title: "[target_character.GetNameWithNoTooltip] і [Select_CString(target_character.IsFemale, 'її', 'його')] військові реформи"
   flavor_ira.31.desc: "Незважаючи на колишні перемоги, [target_character.GetName] бачить у нашій армії серйозні вади — проблеми з організацією, нестачу навчання, перебої в логістиці. Щоб їх усунути, [Select_CString(target_character.IsFemale, 'вона має намір', 'він має намір' )] провести масштабні військові реформи.\n\nЯкщо збільшити набір рабів до військ та розширити участь артилерії в битвах та облогах, #L [ROOT.GetCountry.GetAdjective|l]а#! армія знову почне громити ворога."
-  flavor_ira.31.a: "Ми займемося покращенням військової інфраструктури."
+  flavor_ira.31.a: "Ми займемося розвитком військової інфраструктури."
   flavor_ira.31.b: "Ми зосередимося на підвищенні якості військ та їх навчання."
   flavor_ira.31.c: "Потрібно призвати до армії більше солдатів."
   ira_grant_prosperity_to_armory_building_locations: "Кожна [Concept('location', 'місцевість')|e], де є #Y військова#! [Concept('building', 'споруда')|e], отримає [ShowNamedValue('prosperity_mild_bonus')|+=2%] до [Concept('prosperity', 'процвітання')|e]"

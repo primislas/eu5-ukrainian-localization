@@ -100,7 +100,7 @@
   flavor_mam.25.a: "Хто б сумнівався."
   flavor_mam.26.title: "Цитадель [target_location.GetNameWithNoTooltip]"
   flavor_mam.26.title_fallback: "Місто-цитадель [ShowLocationNameWithNoTooltip('cairo')]"
-  flavor_mam.26.desc: "[target_location.GetName] — осередок знань, просвіти та торгівлі між #TOOLTIP:CONTINENT,africa,X #L Африкою#!#! і Середземномор’ям, — недарма називають серцем [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. Ця цитадель тривалий час була надійним оплотом наших найвеличніших правителів. Тепер [ROOT.GetCountry.Custom('GetRulerOrRegentTitle')|l] збирається реалізувати амбітний план з покращення цитаделі, що включає будівництво нової мечеті-медресе, просторого залу для урочистих прийомів, а також центру з виробництва кісви."
+  flavor_mam.26.desc: "[target_location.GetName] — осередок знань, просвіти та торгівлі між #TOOLTIP:CONTINENT,africa,X #L Африкою#!#! і Середземномор’ям, — недарма називають серцем [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. Ця цитадель тривалий час була надійним оплотом наших найвеличніших правителів. Тепер [ROOT.GetCountry.Custom('GetRulerOrRegentTitle')|l] збирається реалізувати амбітний план з вдосконалення цитаделі, що включає будівництво нової мечеті-медресе, просторого залу для урочистих прийомів, а також центру з виробництва кісви."
   flavor_mam.26.a: "Чудово."
   flavor_mam.26.b: "Нам варто поберегти свої кошти."
   unlocked_ablaq_palace_tt: "Ми відкрили цю [Concept('building', 'споруду')|e] в ході [Concept('event', 'події')|e] «$flavor_mam.26.title_fallback$»"

@@ -120,7 +120,7 @@
   flavor_mor.31.desc: "Численні #TOOLTIP:CULTUREGROUP,amazigh_group,X #L амазизькі#!#! племена виявилися надійними союзниками #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Вони допомогли захистити кілька наших поселень від усяких внутрішніх і зовнішніх загроз. Можливо, нам варто створити спеціальні гарнізони для племен Джейш, щоб зміцнити ці рубежі."
   flavor_mor.31.a: "Так і зробимо."
   flavor_mor.31.b: "Не варто довіряти їм таке важливе завдання."
-  flavor_mor.32.title: "Покращення мечеті Ібн Юсуфа"
+  flavor_mor.32.title: "Розбудова мечеті Ібн Юсуфа"
   flavor_mor.32.desc: "$ben_youssef_mosque$, найважливіша мечеть у [target_location.Custom('LR_PREP')|l] [target_location.GetName], занепадає і потребує масштабного ремонту як всередині, так і зовні. [target_character.GetName] подумує оновити її. Реконструкція не тільки врятує будівлю, а й сприятиме процвітанню #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_GEN')|l]#!#!."
   flavor_mor.32.a: "Потрібно оновити мечеть."
   flavor_mor.32.b: "Вона й так у непоганому стані."

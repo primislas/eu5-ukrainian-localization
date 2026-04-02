@@ -44,7 +44,7 @@
   turmoil_in_brandenburg.6.a: "Відкличемо їхні повноваження."
   turmoil_in_brandenburg.6.b: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] — люди, з якими краще не жартувати."
   turmoil_in_brandenburg.7.title: "Місто не платить податки"
-  turmoil_in_brandenburg.7.desc: "[ROOT.GetCountry.GetName|U] — погано придатний для життя край, погано заселений і ще гірше розвинений. Практично всі покращення [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]их інститутів оплачуються за рахунок податків, які сплачують міста. Однак [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] заявили, що відмовляються платити свою частку, оскільки не бачать причин визнавати, що $bra_wittelsbach_hyperlink$ — їхній законний правитель."
+  turmoil_in_brandenburg.7.desc: "[ROOT.GetCountry.GetName|U] — погано придатний для життя край, погано заселений і ще гірше розвинений. Практично вся [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]а адміністрація оплачуються за рахунок податків, які сплачують міста. Однак [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] заявили, що відмовляються платити свою частку, оскільки не бачать причин визнавати, що $bra_wittelsbach_hyperlink$ — їхній законний правитель."
   turmoil_in_brandenburg.7.a: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] бунтують? Ми знайдемо на них управу."
   turmoil_in_brandenburg.7.b: "$common_string_leave_them_be$"
   turmoil_in_brandenburg.8.title: "[target_character.GetShortNameWithNoTooltip] претендує на самовладдя"

@@ -114,7 +114,7 @@
   nahuatl_events.29.desc: "Головний столичний храм є символом нашої влади та зв'язку з такими божествами, як [ROOT.GetCountry.GetReligion.GetGodName]. Саме тут приносяться головні жертви в дні численних свят, саме сюди прагнуть проникнути загарбники. [ROOT.GetCountry.GetGovernment.GetRulerTitle] несе обов'язок з підтримки та розширення цього храму."
   nahuatl_events.29.a: "Розпочнемо грандіозний проєкт розширення Піраміди."
   nahuatl_events.29.b: "Надбудуємо ще один ярус Піраміди."
-  nahuatl_events.29.c: "Ми можемо дозволити собі лише скромні покращення."
+  nahuatl_events.29.c: "Ми можемо дозволити собі лише скромні поліпшення."
   nahuatl_events.29.d: "Цього разу ми не можемо дозволити собі надто багато."
   religious_focus_gain_tt: "Поки діє модифікатор «[ShowModifier('nahuatl_temple_expansion_modifier')]», ми будемо отримувати #G +0,2#! до щомісячного прогресу [Concept('religious_focuses', 'релігійних цілей')|e]"
   nahuatl_events.30.title: "Паломництво до [ShowLocationNameWithNoTooltip('cholollan')]"

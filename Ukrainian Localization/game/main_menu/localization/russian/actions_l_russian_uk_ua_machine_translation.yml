@@ -144,7 +144,7 @@
   hire_artist: "Запрошення митця"
   hire_artist_desc: "Запросіть нового [Concept('artist', 'митця')|e] до нашого двору за дукати."
   hire_artist_effect: "Новий [Concept('artist', 'митець')|e] найнятий і прибув до нашої країни."
-  improve_our_cultural_view: "Покращення нашої думки про культуру"
+  improve_our_cultural_view: "Поліпшення нашої думки про культуру"
   improve_our_cultural_view_desc: "Спробуйте покращити думку нашої [Concept('culture', 'культури')|e] про іншу культуру."
   improve_our_cultural_view_effect: "[SCOPE.sCountry('actor').GetName] покращив[SCOPE.sCountry('actor').Custom('end_fem')] думку своєї [Concept('culture', 'культури')|e] [SCOPE.sCountry('target').Custom('predlog_obo')] #ONCLICK:COUNTRY,[SCOPE.sCulture('target').Custom('CL_tt')] #TOOLTIP:COUNTRY,[SCOPE.sCulture('target').Custom('CL_tt')],X [SCOPE.sCulture('target').Custom('CL_PREP')|L]#!#!."
   improve_our_cultural_view_choose_culture: "Оберіть [Concept('culture', 'культуру')|e], думку про яку бажаєте покращити:"

@@ -147,7 +147,7 @@
   SETTING_Ambient_TOOLTIP: "#T Звуковий супровід\n#!Задає гучність звукового супроводу."
   SETTING_SFX_TOOLTIP: "#T Звукові ефекти\n#!Задає рівень гучності звукових ефектів (бою тощо)."
   SETTING_UI_TOOLTIP: "#T Інтерфейс\n#!Задає рівень гучності звуків інтерфейсу."
-  SETTING_AUDIO_DEBUG_LOG_LEVEL: "Налагодження журналу рівнів"
+  SETTING_AUDIO_DEBUG_LOG_LEVEL: "Налагодження рівнів логування"
   SETTING_AUDIO_DEVICE_PROFILE: "Аудіопрофіль"
   SETTING_AUDIO_DEVICE_PROFILE_TOOLTIP: "#T $SETTING_AUDIO_DEVICE_PROFILE$\n#!Виберіть аудіопрофіль під свої пристрої."
   SETTING_AUDIO_OPTION_SPEAKERS: "Колонки"

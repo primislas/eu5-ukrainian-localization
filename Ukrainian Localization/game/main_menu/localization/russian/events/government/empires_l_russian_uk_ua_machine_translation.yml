@@ -15,7 +15,7 @@
   empires.4.desc: "[target_location.GetRank.GetNameWithNoTooltip] [target_location.GetName] відомий процвітаючою економікою та творчими успіхами нашої країни. Художники, філософи та поети стікаються до [target_location.Custom('LR_ACC')|l] [target_location.GetNameWithNoTooltip], а успішна економіка дозволяє виділяти багато грошей на розвиток творчості. Ми звели тут кілька чудових будівель і розбили красиві сади, щоб показати багатство нашої країни. Багато представників нової інтелектуальної еліти висувають пропозиції, як покращити різні регіони нашої країни."
   empires.4.a: "Інвестуємо в розвиток міської інфраструктури."
   empires.4.b: "Інвестуємо в розвиток сільської інфраструктури."
-  empires.4.c: "Інвестуємо в покращення методів виробництва."
+  empires.4.c: "Інвестуємо в удосконалення методів виробництва."
   empires.5.title: "[target_character.GetNameWithNoTooltip]: мудре правління"
   empires.5.desc: "[target_country.GetLongName] — країна, якою править [target_character.GetName], тому в країні настав золотий вік. [Select_CString(target_character.IsFemale,'Її', 'Його')] таланти виявилися більш ніж чудовими, і країна [target_country.GetNameWithNoTooltip] переживає епоху стабільності, престижу та безпеки. Економіка розвивається, а [target_country.GetGovernment.GetCourtTitle|l] гаряче цікавиться #L [target_country.GetCulture.GetName|l]ою#! культурою та мистецтвом.\n\n[target_character.GetShortNameWithNoTooltip] [Select_CString(scope.IsFemale,'отримала', 'отримав')] прізвисько «$nick_the_great$», і наш народ звів статуї на честь [Select_CString(scope.IsFemale,'її', 'його')] правління."
   empires.5.a: "Хай славиться [target_character.GetShortNameWithNoTooltip] $nick_the_great$!"

@@ -5,7 +5,7 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
 1.  Keep JSON keys as is, translate only values.
 2.  Variable Preservation: Do NOT translate or modify script variables, engine constructs (items in square braces, in-between USD signs, expressions like '#L', '#1', other obvious scripting elements, e.g., '[GetPlayerName]', '[rebel|e]', '$COUNT$'), or escape sequences (e.g., \n). Keep them exactly as they appear in the source.
 3.  Historical Tone: Use an archaic, flowery or "chronicle" flair for narrative text and event descriptions. Use standard modern technical terms for UI settings, game mechanics.
-4.  Specific Terms:
+4.  Specific Terms (you can rely on and treat English text as primary source and deduce context from Russian-English interplay):
     *   "заглушка" -> "заповнювач", when it's the only word in the line, or when it clearly applies to menus and settings.
     *   Geographic names: Use modern standard Ukrainian names.
     *   Names and last names: Use modern standard Ukrainian names.
@@ -17,7 +17,8 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     *   "antagonism"/"неприязнь" -> "ворожість"
     *   "estate_privilege"/"сословная привилегия" -> "становий привілей"
     *   "map"/"карта" in a sense of world or an area map -> "мапа"
-    *   "target"/"goal"/"цель" -> "мета"
+    *   "advance"/"улучшение" -> "поступ"
+    *   "upgrade"/"improvement"/"улучшение" -> depending on context whichever fits best from "удосконалення", "розвиток", "розбудова", "реформа"
 5.  Low-Confidence Flagging: If you are uncertain about the translation of a proper noun (dynasty, ethnicity, culture), prefix it with 'POSTEDIT_'.
 6.  Translate only Russian text. Do not translate any other language.
 7.  Attempt to keep the sentence structure as close to the original as possible.

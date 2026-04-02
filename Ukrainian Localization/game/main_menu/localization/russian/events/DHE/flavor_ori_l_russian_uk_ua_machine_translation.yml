@@ -49,7 +49,7 @@
   flavor_ori.11.b: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] нам цього не пробачать."
   flavor_ori.11.c: "Ми можемо підсолодити пігулку…"
   flavor_ori.12.title: "Полювання на слонів"
-  flavor_ori.12.desc: "У зв'язку з надлишком #TOOLTIP:GOODS,elephants,X #L слонів#!#!! в [ROOT.GetCountry.Custom('CL_PREP')] багато хто став замислюватися про збільшення кількості полків, укомплектованих цими могутніми тваринами. Однак у наших #TOOLTIP:BUILDING_TYPE,elephant_hunting_grounds,X #L місцях полювання на слонів#!#! не вистачає ресурсів для відлову більшої кількості звірів та виробництва необхідного спорядження. Можливо, настав час привести ці угіддя до ладу. [target_character.GetName] та [ROOT.GetCountry.GetGovernment.GetCourtTitle] навіть готові вкласти в такі покращення свої особисті кошти."
+  flavor_ori.12.desc: "У зв'язку з надлишком #TOOLTIP:GOODS,elephants,X #L слонів#!#!! в [ROOT.GetCountry.Custom('CL_PREP')] багато хто став замислюватися про збільшення кількості полків, укомплектованих цими могутніми тваринами. Однак у наших #TOOLTIP:BUILDING_TYPE,elephant_hunting_grounds,X #L місцях полювання на слонів#!#! не вистачає ресурсів для відлову більшої кількості звірів та виробництва необхідного спорядження. Можливо, настав час привести ці угіддя до ладу. [target_character.GetName] та [ROOT.GetCountry.GetGovernment.GetCourtTitle] навіть готові вкласти в це свої особисті кошти."
   flavor_ori.12.a: "Ми профінансуємо цей проєкт."
   flavor_ori.12.b: "Тільки даремно гроші витратимо."
   ori_double_elephant_hunting_ground_level_tt: "Максимальний рівень [Concept('building', 'споруд)|e] типу #TOOLTIP:BUILDING_TYPE,elephant_hunting_grounds,X #L «місця полювання на слонів»#!#! підвищиться на #G 2#!."
