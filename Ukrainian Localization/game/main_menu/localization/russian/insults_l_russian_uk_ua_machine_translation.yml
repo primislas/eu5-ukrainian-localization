@@ -39,7 +39,7 @@
   insult_marprelate2: "[TARGET_COUNTRY.GetGovernment.GetRulerTitle] вашої країни — нелегітимний, протиприродний, фальшивий, огидний церковний намісник, посланець Сатани, Антихрист, чорт у плоті, підлий боягуз і брехун."
   insult_against_saxony: "Буде прикро, якщо ваша майсенська порцеляна раптом розіб'ється…"
   insult_fort: "Ваші стіни впадуть під нашими ядрами, немов замок із піску — під набіглою хвилею."
-  insult_revolutionary: "Шлях до прогресу почнеться з твого трупа, [TARGET_COUNTRY.GetGovernment.GetRuler.GetName]!"
+  insult_revolutionary: "Поступ почнеться з твого трупа, [TARGET_COUNTRY.GetGovernment.GetRuler.GetName]!"
   insult_monarchy_rank: "Ось це непорозуміння на вашій голові — корона? [TARGET_COUNTRY.GetName] — воістину дивна країна."
   insult_low_adm: "У мене в запасі ще безліч образ, проте навряд чи ви зумієте їх прочитати."
   insult_against_gbr: "Сонцю над Британською імперією час хилитися до заходу."

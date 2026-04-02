@@ -30,7 +30,7 @@
   conquest_mission_events.6.desc: "Війна триває, і нам доводиться пристосовуватися до її умов. І вороги, і союзники нашої країни в цьому затяжному зіткненні мають у своєму розпорядженні різні цікаві винаходи — від облогових машин до бойових тактик, і наші солдати та інженери зараз ретельно переймають і вивчають побачене та захоплене.\n\nТакий обмін знаннями не тільки зробив нашу армію сильнішою, а й підстебнув технічний прогрес [ROOT.GetCountry.Custom('rank_ru_GEN')|l]."
   conquest_mission_events.6.a: "Потрібно як слід вивчити досвід цієї війни."
   conquest_mission_events.6.b: "Зосередимося на розвитку цивільних технологій."
-  research_gained_scales_with_monthly_towards_innovative_tt: "[Concept('research_progress', 'Прогрес дослідження')|e] зростає залежно від зміни нашого показника «[ShowModifierTypeName('monthly_towards_innovative')]»"
+  research_gained_scales_with_monthly_towards_innovative_tt: "[Concept('research_progress', 'Дослідницькі напрацювання')|e] зростають залежно від зміни нашого показника «[ShowModifierTypeName('monthly_towards_innovative')]»"
   conquest_mission_events.7.title: "Інтеграція провінції [target_province.GetNameWithNoTooltip]"
   conquest_mission_events.7.desc: "Включення провінції [target_province.GetName] до складу країни йде впевнено. Населення [target_location.Custom('LR_GEN')|l] [target_location.GetName] починає поступово переймати наші закони та звичаї.\n\nОдин за одним відкриваються ринки, на вулицях все частіше звучить наша мова, а опір мовчки змирився зі своєю долею. І хоча місцеві жителі ще тримаються за деякі свої традиції, регіон все-таки поступово стає частиною [ROOT.GetCountry.Custom('rank_ru_GEN')|l]."
   conquest_mission_events.7.a: "Прискорити процес інтеграції."

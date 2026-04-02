@@ -715,7 +715,7 @@
   steal_technology: "Крадіжка технології"
   dip_steal_technology_CATEGORY: "CATEGORY_COVERT_ACTIONS"
   steal_technology_act: "Крадіжка технології у країни [SCOPE.sCountry('recipient').GetName]"
-  steal_technology_desc: "Ця дія трохи прискорить [Concept('research_progress', 'прогрес дослідження')|e] у нас і суттєво сповільнить у них."
+  steal_technology_desc: "Ця дія трохи прискорить [Concept('research_progress', 'дослідницькі напрацювання')|e] у нас і суттєво сповільнить у них."
   steal_technology_effect_text: "[SCOPE.sCountry('actor').GetName] крад[SCOPE.sCountry('actor').Custom('end_etut')] технологію у #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').Custom('CL_tt')] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').Custom('CL_tt')],X [SCOPE.sCountry('recipient').Custom('CL_GEN')|L]#!#!."
   steal_technology_effect_text_past: "[SCOPE.sCountry('actor').GetName] вкрав[SCOPE.sCountry('actor').Custom('end_fem')] технологію у #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').Custom('CL_tt')] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').Custom('CL_tt')],X [SCOPE.sCountry('recipient').Custom('CL_GEN')|L]#!#!."
   PROPOSE_steal_technology: "Ви бажаєте вкрасти технологію у країни $RECIPIENT$?\n$INFO$"

@@ -571,7 +571,7 @@
   styria_noble_rebels: "Заколот у Штирії"
   styria_noble_rebels_joining: "Усі [Concept('pops', 'групи населення')|e] зі стану #TOOLTIP:POPTYPE,nobles,X #L аристократів#!#! в #TOOLTIP:AREA,austria_area,X #L Австрії#!#! втрачають [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction', 'задоволення')|e] та приєднуються до фракції «[target_styria_noble_rebels.GetName]»."
   flavor_hab.1500.title: "[target_artist.GetNameWithNoTooltip]"
-  flavor_hab.1500.desc: "Талановитий астроном [target_artist.GetName] закінчив навчання у #TOOLTIP:LOCATION,vienna,X #L Відні#!#! та шукає покровителя для продовження наукових досліджень. Профінансувавши його роботу у Віденському #TOOLTIP:BUILDING_TYPE,university,X #L університеті#!#!, ми досягнемо значного прогресу."
+  flavor_hab.1500.desc: "Талановитий астроном [target_artist.GetName] закінчив навчання у #TOOLTIP:LOCATION,vienna,X #L Відні#!#! та шукає покровителя для продовження наукових досліджень. Профінансувавши його роботу у Віденському #TOOLTIP:BUILDING_TYPE,university,X #L університеті#!#!, ми зробимо значний поступ."
   flavor_hab.1500.a: "Найняти його!"
   flavor_hab.1500.b: "Ми не потребуємо його послуг."
   flavor_hab.1501.title: "[target_artist.GetNameWithNoTooltip] публікує свій труд"

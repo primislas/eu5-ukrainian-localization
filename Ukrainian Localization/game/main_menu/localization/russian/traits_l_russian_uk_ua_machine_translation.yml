@@ -214,7 +214,7 @@
   midas_touched_die_desc: "Завдяки [Select_CString(CHARACTER.IsFemale 'її', 'його')] здатності робити гроші з повітря наша країна стала багатшою."
   incorruptible_die_desc: "[Select_CString(CHARACTER.IsFemale,'Вона боролася', 'Він боровся')] з несправедливістю і [Select_CString(CHARACTER.IsFemale,'зробила','зробив')] все, щоб зменшити нерівність."
   architectural_visionary_die_desc: "У спадок [Select_CString(CHARACTER.IsFemale,'вона залишила', 'він залишив')] нам безліч прекрасних будівель."
-  scholar_die_desc: "[Select_CString(CHARACTER.IsFemale,'Її', 'Його')] любов до науки прискорила прогрес і прославила нашу країну на весь світ."
+  scholar_die_desc: "[Select_CString(CHARACTER.IsFemale,'Її', 'Його')] любов до науки прискорила поступ і прославила нашу країну на весь світ."
   entrepreneur_die_desc: "[Select_CString(CHARACTER.IsFemale,'Її', 'Його')] правління зміцнило економіку країни."
   industrious_die_desc: "Навряд чи наступний правитель приділятиме стільки уваги розвитку економіки."
   expansionist_die_desc: "Наші колоністи будуть несамовиті від горя, дізнавшись про кончину їх [Select_CString(CHARACTER.IsFemale,'великої благодійниці', 'великого благодійника')]."

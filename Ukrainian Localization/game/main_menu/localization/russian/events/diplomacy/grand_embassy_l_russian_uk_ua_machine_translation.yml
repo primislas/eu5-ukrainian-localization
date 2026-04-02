@@ -11,7 +11,7 @@
   rejected_grand_embassy: "Велике посольство відправлено геть"
   grand_embassy.2.c: "Проженемо [Select_CString(from.GetGovernment.GetRuler.IsFemale,'її', 'його')] геть!"
   grand_embassy.3.title: "Велике посольство в місті [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]"
-  grand_embassy.3.desc: "[from.GetGovernment.GetRuler.GetName], [Select_CString(from.GetGovernment.GetRuler.IsFemale,'втішена', 'втішений')] нашим теплим прийомом, бажає продовжити своє перебування в місті [ROOT.GetCountry.GetCapital.GetName]. [Select_CString(from.GetGovernment.GetRuler.IsFemale,'Її', 'Його')] особливо цікавить можливість вивчити технологічні нововведення #TOOLTIP:SUB_CONTINENT,western_europe,X #L Західної Європи#!#!. [from.GetLongName] — країна, яка зуміє домогтися швидкого прогресу завдяки всім досягненням. У це щиро вірить її [from.GetGovernment.GetRulerTitle|l]."
+  grand_embassy.3.desc: "[from.GetGovernment.GetRuler.GetName], [Select_CString(from.GetGovernment.GetRuler.IsFemale,'втішена', 'втішений')] нашим теплим прийомом, бажає продовжити своє перебування в місті [ROOT.GetCountry.GetCapital.GetName]. [Select_CString(from.GetGovernment.GetRuler.IsFemale,'Її', 'Його')] особливо цікавить можливість вивчити технологічні нововведення #TOOLTIP:SUB_CONTINENT,western_europe,X #L Західної Європи#!#!. [from.GetLongName] — країна, яка зуміє домогтися стрімкого поступу завдяки всім досягненням. У це щиро вірить її [from.GetGovernment.GetRulerTitle|l]."
   grand_embassy.3.a: "Дозволимо [Select_CString(from.GetGovernment.GetRuler.IsFemale,'їй', 'йому')] вивчити наші державні інститути."
   grand_embassy.3.a.tt: "[from.GetGovernment.GetRuler.GetName] багато дізнається про наші державні інститути"
   invited_to_study_institutions: "Запрошення вивчити інститути"
