@@ -320,7 +320,7 @@
   VOTE_FOR_POLICY: "Голосування за політику «[InteractionTarget.GetPolicy.GetNameWithContext(SelectInteractionTargetGlue.GetParent.GetCurrentParams.GetRecipient.GetInternationalOrganization)]»"
   ENACT_POLICY: "Ухвалення політики «[InteractionTarget.GetPolicy.GetNameWithContext(SelectInteractionTargetGlue.GetParent.GetCurrentParams.GetRecipient.GetInternationalOrganization)]»"
   VOTE_AGAINST_POLICY: "Ми цього не хочемо!"
-  REPEAL_POLICY: "Скасувати правило"
+  REPEAL_POLICY: "Скасувати політику"
   VOTE_AGAINST_POLICY_DESC: "Тут можна проголосувати проти будь-якої політики."
   SORT_TEXT_PRICE_NAME: "[ROOT.GetPrice.GetNameWithNoTooltip]"
   SORT_TEXT_SITUATION_NAME: "[ROOT.GetSituation.GetNameWithNoTooltip]"

@@ -738,7 +738,7 @@
   WAR_OF_RELIGIONS_CATHOLIC_LEAGUE_LEADER_ALLY: "[Concept('ally', 'Союзник')|e] країни $WAR_OF_RELIGIONS_CATHOLIC_LEAGUE_LEADER$"
   WAR_OF_RELIGIONS_PROTESTANT_UNION_TITLE: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$protestant_union_tt$,X #L Євангелічна унія#!#!"
   WAR_OF_RELIGIONS_CATHOLIC_LEAGUE_TITLE: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$catholic_league_tt$,X #L Католицька ліга#!#!"
-  WAR_OF_RELIGIONS_NO_LAW_IN_DEBATE: "Жодні [Concept('law', 'правила')|e] не обговорюються"
+  WAR_OF_RELIGIONS_NO_LAW_IN_DEBATE: "Жодні [Concept('law', 'закони')|e] не обговорюються"
   WAR_OF_RELIGIONS_FAVOR_WAR: "[GetDataModelSize(GetGlobalList('war_of_religions_wants_war_list'))] за продовження війни"
   WAR_OF_RELIGIONS_REJECT_WAR: "[GetDataModelSize(GetGlobalList('war_of_religions_wants_peace_list'))] за закінчення війни"
   WAR_OF_RELIGIONS_CURRENT_WAR: "Поточна [Concept('war', 'війна')|e]: [SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('war_of_religion_current_war').GetWar.GetName]"
