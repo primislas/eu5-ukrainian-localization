@@ -70,4 +70,4 @@
   flavor_tim_governor.14.title: "Зміцнення [ROOT.GetCountry.Custom('rank_ru_GEN')|l] [target_location.GetNameWithNoTooltip]"
   flavor_tim_governor.14.desc: "На посаді [Select_CString(target_character.IsFemale,'намісниці', 'намісника')] області [ROOT.GetCountry.GetCapital.GetArea.GetName] [target_character.GetName] не гає часу дарма. Зокрема, зараз [Select_CString(target_character.IsFemale,'вона зайнята', 'він зайнятий')] збором коштів та підготовкою креслень для будівництва #TOOLTIP:BUILDING_TYPE,castle,X #L замку#!#! в [target_location.Custom('LR_PREP')|l] [target_location.GetName]. Ми можемо підтримати цю ініціативу, щоб захистити наші кордони, або направити кошти на зміцнення наших військ."
   flavor_tim_governor.14.a: "Замок тут не буде зайвим."
-  flavor_tim_governor.14.b: "Краще буде посилити армію."
+  flavor_tim_governor.14.b: "Краще буде посилити військо."

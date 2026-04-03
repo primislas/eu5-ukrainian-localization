@@ -154,7 +154,7 @@
   flavor_mor.1000.title: "[target_country.GetAdjectiveWithNoTooltip]і найманці"
   flavor_mor.1000.desc: "Наші союзники в #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_PREP')|L]#!#! давно процвітають, ставши великою державою на світовій арені. Тепер багато їхніх солдатів хочуть поповнити наші лави. Однак це можливо тільки за двох умов — ми будемо платити їм, а їхній [target_country.GetGovernment.GetRulerTitle|l] надасть нам підтримку."
   flavor_mor.1000.a: "Давайте обговоримо це."
-  flavor_mor.1000.b: "Чужоземці в нашій армії — вірний шлях до катастрофи."
+  flavor_mor.1000.b: "Чужоземці в нашому війську — вірний шлях до катастрофи."
   mor_they_must_accept_offer_tt: "Ефекти не діятимуть, доки [target_country.GetName] не погодиться на нашу пропозицію"
   mor_no_ottoman_mercs_tt: "Ми не проситимемо #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_ACC')|L]#!#! про [Concept('mercenaries', 'найманців')|e]"
   flavor_mor.1001.title: "$flavor_mor.1000.title$"

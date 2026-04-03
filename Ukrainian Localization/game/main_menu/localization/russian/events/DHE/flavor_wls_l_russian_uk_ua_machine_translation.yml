@@ -43,7 +43,7 @@
   flavor_wls.15.d: "Звільніть його."
   flavor_wls.15.tt6: "[edmund_mortimer.GetNameWithNoTooltip] буде звільнений"
   flavor_wls.16.title: "Доповідь голови шпигунів"
-  flavor_wls.16.desc_england_success: "Рід [dishonorable_dynasty.GetName] виголошує хвалебні промови, заявляючи, що [GetCountry('ENG').GetGovernment.GetRuler.GetName] — найщедріша людина. Заколотники погодилися скласти зброю і, за донесеннями наших шпигунів, почали розпускати свої армії."
+  flavor_wls.16.desc_england_success: "Рід [dishonorable_dynasty.GetName] виголошує хвалебні промови, заявляючи, що [GetCountry('ENG').GetGovernment.GetRuler.GetName] — найщедріша людина. Заколотники погодилися скласти зброю і, за донесеннями наших шпигунів, почали розпускати свої війська."
   flavor_wls.16.desc_england_failure: "Рід [dishonorable_dynasty.GetName] відмовився приймати хабар, який їм [Select_CString(GetCountry('ENG').GetGovernment.GetRuler.IsFemale, 'запропонувала', 'запропонував' )] [GetCountry('ENG').GetGovernment.GetRuler.GetName]. Схоже, кровопролиття не уникнути."
   flavor_wls.16.desc: "Наші шпигуни повідомили, що [GetCountry('ENG').GetGovernment.GetRulerTitle|l] [GetCountry('ENG').Custom('CL_GEN')] [Select_CString(GetCountry('ENG').GetGovernment.GetRuler.IsFemale, 'уклала', 'уклав' )] договір з родом [dishonorable_dynasty.GetName], який погодився скласти зброю. Нам радять не зволікати і діяти швидко."
   flavor_wls.16.a: "Віроломні пси."

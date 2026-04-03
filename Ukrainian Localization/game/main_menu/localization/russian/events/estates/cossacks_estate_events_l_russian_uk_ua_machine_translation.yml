@@ -11,7 +11,7 @@
   cossack_estate_events.3.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
   cossack_estate_events.4.title: "Прохання про привілеї"
   cossack_estate_events.4.desc: "Не всі [ROOT.GetCountry.GetGovernment.GetEstateName('cossacks_estate')|l] отримують однакові привілеї від країни. Зазвичай особливих прав удостоюються окремі [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('cossacks_estate')|l], готові віддано служити країні у воєнний час. Оскільки ці права не передаються після смерті, з часом [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('cossacks_estate')|l] можуть помітно набирати або втрачати вплив. [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('cossacks_estate')] просять нас дати їм більше привілеїв, якщо ми хочемо збільшити чисельність своїх військ. На їхню думку, зараз для цього саме час."
-  cossack_estate_events.4.a: "Нам знадобляться [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('cossacks_estate')|l] в армії!"
+  cossack_estate_events.4.a: "Нам знадобляться [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('cossacks_estate')|l] в війська!"
   cossack_estate_events.4.b: "Реєстрові [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('cossacks_estate')|l] нам точно знадобляться!"
   cossack_estate_events.4.c: "Нехай кочують у своїх степах."
   cossack_estate_events.5.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('cossacks_estate')] потребують припасів"

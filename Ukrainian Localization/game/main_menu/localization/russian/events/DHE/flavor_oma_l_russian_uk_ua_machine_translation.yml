@@ -40,7 +40,7 @@
   flavor_oma.8.title: "Посилення [ROOT.GetCountry.GetAdjectiveWithNoTooltip]ого флоту"
   flavor_oma.8.desc: "Дедалі більше країн вступає в боротьбу за [ShowRegionName('indian_ocean_region')] та його жваві торговельні маршрути, і ми не повинні залишатися осторонь, якщо не хочемо, щоб спритні конкуренти захопили наші порти. [target_location.GetName] має чудовий #TOOLTIP:BUILDING_TYPE,dock,X #L док#!#!. Насамперед нам варто його розширити. Потім [target_character2.GetName] прибуде на місце, щоб розробити план будівництва флоту, який підкорить моря."
   flavor_oma.8.a: "Підняти вітрила, відважні [ROOT.GetCountry.GetAdjectiveWithNoTooltip]і моряки!"
-  flavor_oma.8.b: "Потрібно посилити [ROOT.GetCountry.GetAdjectiveWithNoTooltip]у армію, а не флот."
+  flavor_oma.8.b: "Потрібно посилити [ROOT.GetCountry.GetAdjectiveWithNoTooltip]е військо, а не флот."
   flavor_oma_falaj_historical_info: "Словом «фаладж» (частіше — «кванат» (перс.)) називають підземну систему акведуків, в основному використовувану на Середньому Сході та в Північній Африці, яка доставляє воду на поверхню. За допомогою такої системи оманці перекачували воду з Ізки до Нізви, забезпечуючи місту процвітання."
   flavor_oma.9.title: "[target_location.GetNameWithNoTooltip] та водопостачання"
   flavor_oma.9.desc: "Місцевість [target_location.GetName] відчуває проблеми з водопостачанням. Вона знаходиться далеко від узбережжя, тому, щоб допомогти місцевому населенню, нам доведеться розширити [ShowBuildingTypeName('oma_falaj')] — стару мережу підземних акведуків."

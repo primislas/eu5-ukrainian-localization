@@ -1,5 +1,5 @@
 ﻿l_russian:
-  ap_falls_desc_key: "Після складної облоги оборона відважного гарнізону була зламана, і [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetName] пав перед нашими могутніми арміями. Всередині стін міста знаходиться впливова релігійна організація: раніше тут засідали верховні #TOOLTIP:RELIGION,$orthodox_tt$,X #L православні#!#! служителі. Чи варто нам скасувати цей братський інститут або прийняти його під своє покровительство?"
+  ap_falls_desc_key: "Після складної облоги оборона відважного гарнізону була зламана, і [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetName] пав перед нашими могутніми військами. Всередині стін міста знаходиться впливова релігійна організація: раніше тут засідали верховні #TOOLTIP:RELIGION,$orthodox_tt$,X #L православні#!#! служителі. Чи варто нам скасувати цей братський інститут або прийняти його під своє покровительство?"
   autocephalous_patriarchates.1.title: "Автокефальний патріархат пав!"
   autocephalous_patriarchates.1.desc: "$ap_falls_desc_key$"
   autocephalous_patriarchates.1.a: "Розпустимо патріархат."

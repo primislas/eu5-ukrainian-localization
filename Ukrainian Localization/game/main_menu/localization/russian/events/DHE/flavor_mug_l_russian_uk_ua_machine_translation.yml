@@ -29,7 +29,7 @@
   flavor_mug.6.a: "[target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale,'пішла', 'пішов')] у світ інший, але пам'ять про [Select_CString(target_character.IsFemale,'неї', 'нього')] житиме вічно!"
   flavor_mug.6.b: "[target_character.GetNameWithNoTooltip] і без того залишиться в нашій пам'яті."
   flavor_mug.7.title: "Поява мансабдарів"
-  flavor_mug.7.desc: "В армії #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! довгий час цінувалися не заслуги, а кількість земель у власності. Щоб зробити цю систему більш справедливою, потрібно дарувати землі та багатства залежно від посади та досягнень. Безумовно, це порушить баланс влади в ROOT.GetCountry.Custom('rank_ru_PREP')|l], але зате значно покращить наші сухопутні війська."
+  flavor_mug.7.desc: "В війську #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! довгий час цінувалися не заслуги, а кількість земель у власності. Щоб зробити цю систему більш справедливою, потрібно дарувати землі та багатства залежно від посади та досягнень. Безумовно, це порушить баланс влади в ROOT.GetCountry.Custom('rank_ru_PREP')|l], але зате значно покращить наші сухопутні війська."
   flavor_mug.7.a: "Впровадимо нову систему."
   flavor_mug.7.b: "Не будемо змінювати нинішнє військове керівництво."
   flavor_mug.8.title: "$peacock_throne$"

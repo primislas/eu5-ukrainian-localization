@@ -123,7 +123,7 @@
   eth_make_all_jewish_pops_happier_tt: "[Concept('pop_satisfaction', 'Задоволення')|e] всіх #TOOLTIP:RELIGION,$judaism_tt$,X #L юдейських#!#! [Concept('pops', 'груп населення')|e] підвищиться на [ShowNamedValue('pop_satisfaction_mild_bonus')|-=2%]"
   beta_israel: "Бета Ізраїль"
   flavor_eth.157.title: "Мандрівний двір"
-  flavor_eth.157.desc: "Хоча столиця #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! кілька разів переносилася через військові потреби, в цій країні не було звичаю, за яким монарх наказував би своїм придворним переїжджати з міста в місто. Однак зараз [target_character.GetName] вважає такий звичай розумним: завдяки йому [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] зможе перебувати ближче до армій, сприяти розвитку окремих міст і дбати про країну в цілому. Можливо, ця практика і справді буде корисною для [ROOT.GetCountry.Custom('CL_GEN')]."
+  flavor_eth.157.desc: "Хоча столиця #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! кілька разів переносилася через військові потреби, в цій країні не було звичаю, за яким монарх наказував би своїм придворним переїжджати з міста в місто. Однак зараз [target_character.GetName] вважає такий звичай розумним: завдяки йому [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] зможе перебувати ближче до військ, сприяти розвитку окремих міст і дбати про країну в цілому. Можливо, ця практика і справді буде корисною для [ROOT.GetCountry.Custom('CL_GEN')]."
   flavor_eth.157.a: "Так і вчинимо."
   flavor_eth.157.b: "Постійна столиця краще."
   flavor_eth.160.title: "$book_of_light$"
