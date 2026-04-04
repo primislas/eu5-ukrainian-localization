@@ -267,7 +267,7 @@
   SCOPE_DEBUG_CLIMATE: "Клімат «$NAME$» ($ID$)"
   SCOPE_DEBUG_VEGETATION: "Флора «$NAME$» ($ID$)"
   SCOPE_DEBUG_TOPOGRAPHY: "Рельєф «$NAME$» ($ID$)"
-  SCOPE_DEBUG_AGE: "Епоха «$NAME$» ($ID$)"
+  SCOPE_DEBUG_AGE: "Доба «$NAME$» ($ID$)"
   SCOPE_DEBUG_EMPLOYMENT_SYSTEM: "Система найму «$NAME$» ($ID$)"
   SCOPE_DEBUG_SUBJECT_MILITARY_STANCE: "Військова позиція ленника «$NAME$» ($ID$)"
   SCOPE_DEBUG_SCRIPTABLE_HINT_DEFINITION: "Визначення скриптової поради «$NAME$» ($ID$)"

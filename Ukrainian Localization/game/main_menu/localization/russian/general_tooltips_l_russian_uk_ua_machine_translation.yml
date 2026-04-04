@@ -439,7 +439,7 @@
   LOCATION_CLICK_GOOD_FILTERED_LATERALVIEW: "У [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName] немає жодного [Concept('goods', 'товару')|e] з цього списку."
   LOCATION_CLICK_FOREIGN_LOCATION_LATERALVIEW: "[LOCATION.GetRank.GetNameWithNoTooltip] [LOCATION.GetName] не є частиною #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!."
   OPEN_WORKS_OF_ART_TAB: "Показати витвори мистецтва"
-  OPEN_ADVANCES_AGES_TAB: "Показати епохи"
+  OPEN_ADVANCES_AGES_TAB: "Показати доби"
   OPEN_KNOWN_COUNTRIES_TAB: "Відкрити відомі країни"
   LOCATION_CLICK_IMPORT_EXPORT_LATERALVIEW: "Щоб вибрати цей [Concept('market', 'ринок')|e] і розпочати дію «$IMPORT$», клацніть лівою кнопкою миші"
   LOCATION_CLICK_RECRUIT_LATERALVIEW: "Щоб вибрати цю [Concept('location', 'місцевість')|e] для набору до війська, клацніть лівою кнопкою миші\nЩоб завершити набір у вибраній [Concept('location', 'місцевості')|e], клацніть правою кнопкою миші"

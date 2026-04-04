@@ -329,7 +329,7 @@
   random_event.79.desc: "Своїм чудовим управлінням [target_ruler.GetName] [Select_CString(target_ruler.IsFemale, 'добилася', 'добився')] зниження інфляції минулого року."
   random_event.79.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   random_event.80.title: "Золотий вік нашої культури!"
-  random_event.80.desc: "Наша країна насолоджується миром. Великі музиканти, художники та поети радіють новій можливості догодити своїм багатим патронам. Ця епоха культурного розквіту позитивно впливає і на загальні настрої в #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#!."
+  random_event.80.desc: "Наша країна насолоджується миром. Великі музиканти, художники та поети радіють новій можливості догодити своїм багатим патронам. Ця доба культурного розквіту позитивно впливає і на загальні настрої в #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#!."
   random_event.80.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   random_event.81.title: "Воїни не читають книг"
   random_event.81.desc: "Війна займає уми всіх дієздатних і працюючих підданих країни, тому інтерес до музикантів і поетів сильно впав. А в бою навіть найгеніальніший з поетів не кращий за простого хлібороба."

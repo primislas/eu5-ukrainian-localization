@@ -996,7 +996,7 @@
   buddha_avatar: "Будда"
   buddha_avatar_desc: "Сіддхартха Гаутама — #TOOLTIP:RELIGION,$hindu_tt$,X #L індуїстський#!#! Будда і дев'ятий [Concept('avatar', 'аватар')|e] бога #TOOLTIP:GOD,vishnu_god,X #L Вішну#!#!. Він перехитрив асурів і змусив їх зійти зі шляху дхарми, тим самим забезпечивши перемогу девів."
   kalki_avatar: "Калкі"
-  kalki_avatar_desc: "Калкі — десятий і останній [Concept('avatar', 'аватар')|e] бога #TOOLTIP:GOD,vishnu_god,X #L Вішну#!#!. Він має з'явитися наприкінці Калі-юги, щоб закінчити епоху злонрав'я та започаткувати Сатья-югу — епоху чистоти та праведності."
+  kalki_avatar_desc: "Калкі — десятий і останній [Concept('avatar', 'аватар')|e] бога #TOOLTIP:GOD,vishnu_god,X #L Вішну#!#!. Він має з'явитися наприкінці Калі-юги, щоб закінчити добу злонрав'я та започаткувати Сатья-югу — добу чистоти та праведності."
   shakti_common_desc: "одна з головних [Concept('goddess', 'богинь')|e] в #TOOLTIP:RELIGION,$hindu_tt$,X #L індуїзмі#!#!, іпостась Деві або #TOOLTIP:GOD,shakti_god,X #L Шакті#!#! в #TOOLTIP:POLICY,shaktism,X #L шактизмі#!#!. Вона представляє"
   durga_avatar: "Дурга"
   durga_avatar_desc: "Дурга — $shakti_common_desc$ материнство та захист, але водночас проявляє себе як сила руйнування та війни."

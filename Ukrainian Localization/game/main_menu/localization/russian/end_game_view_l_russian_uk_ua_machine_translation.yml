@@ -4,7 +4,7 @@
   END_GAME_VIEW_SURVIVING_TITLE: "Скромна роль в історії"
   END_GAME_VIEW_SURVIVING_TEXT: "Наша горда нація пережила століття труднощів, війн та негод. На жаль, народ #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! так і не зміг похвалитися великими досягненнями. Ми лише пішаки у світі, де сильні гравці борються за землі та вплив."
   END_GAME_VIEW_GREAT_POWER_TITLE: "Велика держава"
-  END_GAME_VIEW_GREAT_TEXT: "#ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! вдалося стати великою світовою країною. Це велике досягнення! Вона входить до числа найбагатших і найпрестижніших країн цієї епохи. Вітаємо, саме ваше правління привело її до процвітання."
+  END_GAME_VIEW_GREAT_TEXT: "#ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! вдалося стати великою світовою країною. Це велике досягнення! Вона входить до числа найбагатших і найпрестижніших країн цієї доби. Вітаємо, саме ваше правління привело її до процвітання."
   CONTINUE_PAST_END_DATE: "Продовжити гру"
   CONTINUE_PAST_END_DATE_TOOLTIP: "Ви можете продовжити гру.\nУсі досягнення буде вимкнено."
   END_GAME_VIEW_QUIT_TOOLTIP: "Закінчіть гру та поверніться до головного меню."

@@ -108,7 +108,7 @@
   setting_black_death_date_historical: "1346 рік"
   setting_black_death_date_historical_desc: "#TOOLTIP:DISEASE,bubonic_plague,X #L Бубонна чума#!#! спалахне в 1346 році. Ця страшна [Concept('disease', 'епідемія')|e] спричинить [Concept('situation', 'ситуацію')|e] #TOOLTIP:SITUATION,black_death,X #L «Чорна смерть»#!#!."
   setting_black_death_date_random: "Випадковий рік"
-  setting_black_death_date_random_desc: "#TOOLTIP:DISEASE,bubonic_plague,X #L Бубонна чума#!#! спалахне в епоху #TOOLTIP:AGE,age_2_renaissance,X #L Відродження#!#! та епоху #TOOLTIP:AGE,age_3_discovery,X #L Відкриттів#!#!. Ця страшна [Concept('disease', 'епідемія')|e] спричинить [Concept('situation', 'ситуацію')|e] #TOOLTIP:SITUATION,black_death,X #L «Чорна смерть»#!#!."
+  setting_black_death_date_random_desc: "#TOOLTIP:DISEASE,bubonic_plague,X #L Бубонна чума#!#! спалахне в добу #TOOLTIP:AGE,age_2_renaissance,X #L Відродження#!#! та добу #TOOLTIP:AGE,age_3_discovery,X #L Відкриттів#!#!. Ця страшна [Concept('disease', 'епідемія')|e] спричинить [Concept('situation', 'ситуацію')|e] #TOOLTIP:SITUATION,black_death,X #L «Чорна смерть»#!#!."
   setting_black_death_date_off: "Вимкнено"
   setting_black_death_date_off_desc: "[Concept('disease', 'Хвороба')|e] #TOOLTIP:DISEASE,bubonic_plague,X #L «Бубонна чума»#!#! та [Concept('situation', 'ситуація')|e] #TOOLTIP:SITUATION,black_death,X #L «Чорна смерть»#!#! вимкнені."
   rule_black_death_origin_rule: "Джерело Чорної смерті"

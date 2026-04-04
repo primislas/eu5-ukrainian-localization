@@ -108,7 +108,7 @@
   cb_crush_hussitism: "Розтрощення гуситства"
   cb_crush_hussitism_desc: "У саду нашої віри проросли бур'яни нового напряму, що стрімко набирає силу. Не можна втрачати ні секунди: віряни потребують захисту."
   cb_nanbokuchou: "$nanbokuchou$"
-  cb_nanbokuchou_desc: "$nanbokuchou$ — це епоха нескінченних конфліктів. З цього навіть можна отримати певну користь."
+  cb_nanbokuchou_desc: "$nanbokuchou$ — це доба нескінченних конфліктів. З цього навіть можна отримати певну користь."
   not_same_side_in_nanbokucho_tt: "Вони підтримують протилежну сторону в ситуації «[ShowSituationName('nanbokuchou')]»"
   cb_destroyed_building: "Знищення споруд"
   cb_destroyed_building_desc: "Вони зруйнували наші споруди і поплатяться за це!"

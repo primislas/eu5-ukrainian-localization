@@ -34,6 +34,8 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     * "на корню" -> "у/в зародку"
     * "ухвалювати/схвалювати закони"
     * "положение" -> "становище", when appropriate
+    * "epoch"/"эпоха" -> "доба"
+    * "стартовый" -> "початковий"
 5.  Low-Confidence Flagging: If you are uncertain about the translation of a proper noun (dynasty, ethnicity, culture), prefix it with 'POSTEDIT_'.
 6.  Translate only Russian text. Do not translate any other language.
 7.  Attempt to keep the sentence structure as close to the original as possible.

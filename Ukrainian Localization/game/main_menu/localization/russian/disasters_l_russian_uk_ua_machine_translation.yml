@@ -105,7 +105,7 @@
   fire_event_4_tt: "Може статися [Concept('event', 'подія')|e], внаслідок якої [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] відмовляться сплачувати податки"
   fire_event_5_tt: "Може статися [Concept('event', 'подія')|e], пов'язана з падінням [Concept('prosperity', 'процвітання')|e] в наших [Concept('provinces', 'провінціях')|e]"
   decline_of_majapahit: "Занепад Маджапахіту"
-  decline_of_majapahit_desc: "Епоха процвітання [GetCountry('MAJ').Custom('rank_ru_GEN')|l] залишилася в минулому. Нас розриває династичний конфлікт, і численні суперники чекають нагоди перетнути наші кордони. А в світлі поширення #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламу#!#! в #TOOLTIP:REGION,indonesia_region,X #L Індонезії#!#! ми ризикуємо втратити залишки впливу та зникнути, подібно до інших колись великих імперій…"
+  decline_of_majapahit_desc: "Доба процвітання [GetCountry('MAJ').Custom('rank_ru_GEN')|l] залишилася в минулому. Нас розриває династичний конфлікт, і численні суперники чекають нагоди перетнути наші кордони. А в світлі поширення #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламу#!#! в #TOOLTIP:REGION,indonesia_region,X #L Індонезії#!#! ми ризикуємо втратити залишки впливу та зникнути, подібно до інших колись великих імперій…"
   demak_progress: "[ShowReligionAdjectiveWithNoTooltip('sunni')]е панування"
   SUNNI_POPS: "Сунітські групи населення"
   HINDU_POPS: "Індуїстські групи населення"

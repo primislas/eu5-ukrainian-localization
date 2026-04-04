@@ -78,7 +78,7 @@
   flavor_hun.280.a.tt: "Багато з [ShowCultureName('hungarian')|l]их [ShowReligionAdjective('catholic')|l]их [Concept('pops', 'груп населення')|e] в нашій країні перейдуть у #TOOLTIP:RELIGION,$lutheran_tt$,X #L лютеранську#!#! віру"
   flavor_hun.280.b: "Так йому й треба."
   flavor_hun.290.title: "[target_artist.GetNameWithNoTooltip]"
-  flavor_hun.290.desc: "[target_artist.GetName], з дитячих років [Select_CString(target_artist.IsFemale,'отримувала', 'отримував')] всебічну освіту в найкращих традиціях Відродження, має широкі зв'язки та значну бібліотеку. В [Select_CString(target_artist.IsFemale,'її', 'його')] особі [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] Угорщини отримає провідника ідей гуманізму та інших цінностей нової епохи.\n\nЧи варто нам найняти [Select_CString(target_artist.IsFemale,'її', 'його')]?"
+  flavor_hun.290.desc: "[target_artist.GetName], з дитячих років [Select_CString(target_artist.IsFemale,'отримувала', 'отримував')] всебічну освіту в найкращих традиціях Відродження, має широкі зв'язки та значну бібліотеку. В [Select_CString(target_artist.IsFemale,'її', 'його')] особі [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] Угорщини отримає провідника ідей гуманізму та інших цінностей нової доби.\n\nЧи варто нам найняти [Select_CString(target_artist.IsFemale,'її', 'його')]?"
   flavor_hun.290.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   flavor_hun.290.b: "Досить з нас шарлатанів."
   flavor_hun.300.title: "Міські союзи Верхньої Угорщини"

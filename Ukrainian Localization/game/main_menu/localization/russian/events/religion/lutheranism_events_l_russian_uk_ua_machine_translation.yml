@@ -1,6 +1,6 @@
 ﻿l_russian:
   lutheranism_events.1.title: "Реформатор шукає притулку"
-  lutheranism_events.1.desc: "[reformer.GetName], один із найвидатніших теологів нашої епохи, був змушений тікати з #ONCLICK:COUNTRY,[reformer_fleeing_from_here.Custom('CL_tt')] #TOOLTIP:COUNTRY,[reformer_fleeing_from_here.Custom('CL_tt')],X [reformer_fleeing_from_here.Custom('CL_GEN')|L]#!#! у зв'язку із загрозою його життю. Будучи #TOOLTIP:RELIGION,$lutheran_tt$,X #L лютеранською#!#! країною, ми просто зобов'язані надати йому притулок. Це, безсумнівно, зміцнить позиції нашої державної церкви — за умови, що новоприбулий реформатор підтримуватиме її догмати."
+  lutheranism_events.1.desc: "[reformer.GetName], один із найвидатніших теологів нашої доби, був змушений тікати з #ONCLICK:COUNTRY,[reformer_fleeing_from_here.Custom('CL_tt')] #TOOLTIP:COUNTRY,[reformer_fleeing_from_here.Custom('CL_tt')],X [reformer_fleeing_from_here.Custom('CL_GEN')|L]#!#! у зв'язку із загрозою його життю. Будучи #TOOLTIP:RELIGION,$lutheran_tt$,X #L лютеранською#!#! країною, ми просто зобов'язані надати йому притулок. Це, безсумнівно, зміцнить позиції нашої державної церкви — за умови, що новоприбулий реформатор підтримуватиме її догмати."
   lutheranism_events.1.a: "Ми повинні впустити цю велику людину!"
   lutheranism_events.1.a.tt: "Оселившись у нас, цей реформатор зможе як підтримати догмати нашої державної церкви, так і оскаржити їх."
   protected_reformer: "Ви впустили реформатора"

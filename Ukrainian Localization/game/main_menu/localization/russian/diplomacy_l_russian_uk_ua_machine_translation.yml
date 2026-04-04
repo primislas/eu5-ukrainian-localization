@@ -99,7 +99,7 @@
   GP_SORTED_BY_ENTRY_cultural_influence: "[COUNTRY.GetLongNameWithFlag]: $VAL|2$"
   GP_SORTED_BY_HEADER_diplomatic_reputation: "Великі держави за величиною [Concept('diplomatic_reputation', 'дипломатичної репутації')|e]"
   GP_SORTED_BY_ENTRY_diplomatic_reputation: "[COUNTRY.GetLongNameWithFlag]: $VAL|2$"
-  HEGEMONS_REQUIRE_AGE: "@trigger_no! Потрібна [AGE.GetName|l] або пізніша [Concept('age', 'епоха')|e]."
+  HEGEMONS_REQUIRE_AGE: "@trigger_no! Потрібна [AGE.GetName|l] або пізніша [Concept('age', 'доба')|e]."
   SCRIPTED_RELATION_CASH: "$EFFECT_LIST_BULLET$[COUNTRY.GetName] виплачуватиме #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#! $VAL|2$[gold_i] на місяць."
   SCRIPTED_RELATION_DIP_CAP: "$EFFECT_LIST_BULLET$[COUNTRY.GetName] витратить на це $VAL|2$ од. [Concept('diplomatic_capacity', 'дипломатичного потенціалу')|e]."
   SCRIPTED_RELATION_TRADE_IMPACT_G: "$EFFECT_LIST_BULLET$[COUNTRY.GetName] отримує $VAL|+=2%$ од. [Concept('market_attraction', 'ринкової привабливості')|e] у #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_PREP')|L]#!#!."

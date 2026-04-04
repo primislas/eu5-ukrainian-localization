@@ -10,6 +10,6 @@
   revolution_disaster.3.title: "Кінець [ROOT.GetCountry.GetAdjectiveWithNoTooltip|U]ої революції"
   revolution_disaster.3.desc: "Ми придушили цих поганих революціонерів! Ніхто більше не посміє сумніватися, що [target_character.GetName] — законний правитель. Усіх заколотників було віддано мечу: [ROOT.GetCountry.GetLongName] не любить зрадників."
   revolution_disaster.3.a: "Порядок відновлено."
-  revolution_disaster.4.title: "Епоха [ROOT.GetCountry.GetAdjectiveWithNoTooltip]ої революційної країни"
+  revolution_disaster.4.title: "Доба [ROOT.GetCountry.GetAdjectiveWithNoTooltip]ої революційної країни"
   revolution_disaster.4.desc: "Після того як революційні сили здобули перемогу, старий уряд упав. Разом з ним остаточно впала і вся подоба єдності, і тим більше захищеності — в пам'яті #L [ROOT.GetCountry.GetAdjective|l]ого#! народу залишилися тільки жахи відверто невмілого режиму.\n\nАле [ROOT.GetCountry.GetLongNameWithNoTooltip] ще неодмінно пізнає, що таке процвітання: [target_character.GetName] розіб'є стародавні кайдани, якими [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] прикуті до своїх господарів, і тоді старий світовий порядок здригнеться!"
   revolution_disaster.4.a: "Хай живе революція!"

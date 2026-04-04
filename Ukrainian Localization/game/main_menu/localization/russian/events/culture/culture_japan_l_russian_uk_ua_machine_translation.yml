@@ -86,7 +86,7 @@
   culture_japan.20.a: "Звісно, ми так і вчинимо."
   culture_japan.20.b: "[target_country.GetLongNameWithNoTooltip] — слабка і слабовільна країна."
   culture_japan.21.title: "Сходження нової династії"
-  culture_japan.21.desc: "Династія [old_ruler.GetDynasty.GetName] поступово втрачає свій вплив. Владу переймає [new_ruler.GetName|l]. Для [ROOT.GetCountry.Custom('rank_ru_GEN')|l] починається нова епоха, в якій саме наше ім'я викликатиме питання. І справді, хіба гідні ми називатися «[ROOT.GetCountry.GetLongName]», якщо династія [old_ruler.GetDynasty.GetNameWithNoTooltip] впаде?"
+  culture_japan.21.desc: "Династія [old_ruler.GetDynasty.GetName] поступово втрачає свій вплив. Владу переймає [new_ruler.GetName|l]. Для [ROOT.GetCountry.Custom('rank_ru_GEN')|l] починається нова доба, в якій саме наше ім'я викликатиме питання. І справді, хіба гідні ми називатися «[ROOT.GetCountry.GetLongName]», якщо династія [old_ruler.GetDynasty.GetNameWithNoTooltip] впаде?"
   culture_japan.21.a: "[ROOT.GetCountry.Custom('rank_ru_ACC')|l] чекає новий розквіт."
   culture_japan.21.b: "[old_ruler.GetShortNameWithNoTooltip] [Select_CString(old_ruler.IsFemale, 'залишила', 'залишив')] заповіт, згідно з яким [new_ruler.GetShortNameWithNoTooltip|l] — [Select_CString(old_ruler.IsFemale, 'її', 'його')] законна дитина."
   culture_japan.22.title: "Стрімголов"

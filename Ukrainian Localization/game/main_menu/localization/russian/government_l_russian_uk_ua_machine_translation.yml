@@ -303,7 +303,7 @@
   ADD_REFORM_TT_UNIQUE: "Унікальна [Concept('government_reform', 'державна реформа')|e] для країни [Player.GetName]"
   ADD_REFORM_MAJOR: "@trigger_no! У нас вже є [Concept('major_reform', 'провідний принцип')|e] — «[GOVERNMENT_REFORM.GetName]»."
   ADD_REFORM_ALREADY: "@trigger_no! У нас вже є державний принцип «[GOVERNMENT_REFORM.GetName]»."
-  ADD_REFORM_AGE_NOT_YET: "@trigger_no! Державний принцип «[GOVERNMENT_REFORM.GetName]» занадто складний для цієї епохи. Необхідно дочекатися, поки настане [AGE.GetName|l]."
+  ADD_REFORM_AGE_NOT_YET: "@trigger_no! Державний принцип «[GOVERNMENT_REFORM.GetName]» занадто складний для цієї доби. Необхідно дочекатися, поки настане [AGE.GetName|l]."
   ADD_REFORM_WRONG_TYPE: "@trigger_no! Лише [GOVTYPE.GetName|l] може прийняти державний принцип «[GOVERNMENT_REFORM.GetName]»."
   ADD_REFORM_LACK_SOCIETAL_VALUE: "@trigger_no! Для прийняття державного принципу «[GOVERNMENT_REFORM.GetName]» потрібно щонайменше $VAL|G$ од. прогресу $SOCIETALVALUE_NAME_GEN$."
   ADD_REFORM_TRIGGER_NO: "Державний принцип «[GOVERNMENT_REFORM.GetName]» не можна прийняти. Причини:\n$WHY$"

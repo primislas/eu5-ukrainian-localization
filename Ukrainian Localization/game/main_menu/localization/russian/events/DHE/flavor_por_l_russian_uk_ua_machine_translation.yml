@@ -222,7 +222,7 @@
   flavor_por.49.a: "Призначити [Select_CString(target_character.IsFemale,'її головною літописицею', 'його головним літописцем')]."
   flavor_por.49.b: "Не надто вражає."
   flavor_por.50.title: "Підкорення орденів"
-  flavor_por.50.desc: "Епоха #L [target_religion.GetAdjective|l]их#! #TOOLTIP:GOVERNMENT_REFORM,military_order_reform,X #L лицарських орденів#!#! наближається до завершення. Їхня чисельність стрімко скорочується, а участь у подібних організаціях вже не вважається чимось престижним. Виходячи з цього [GetCountry('PAP').GetGovernment.GetRulerTitle|l] [Select_CString(GetCountry('PAP').GetGovernment.GetRuler.IsFemale,'дала', 'дав')] згоду на те, щоб [target_character.GetName] [Select_CString(target_character.IsFemale,'стала', 'став')] великим магістром низки духовних орденів, і тепер ми маємо над ними повний контроль."
+  flavor_por.50.desc: "Доба #L [target_religion.GetAdjective|l]их#! #TOOLTIP:GOVERNMENT_REFORM,military_order_reform,X #L лицарських орденів#!#! наближається до завершення. Їхня чисельність стрімко скорочується, а участь у подібних організаціях вже не вважається чимось престижним. Виходячи з цього [GetCountry('PAP').GetGovernment.GetRulerTitle|l] [Select_CString(GetCountry('PAP').GetGovernment.GetRuler.IsFemale,'дала', 'дав')] згоду на те, щоб [target_character.GetName] [Select_CString(target_character.IsFemale,'стала', 'став')] великим магістром низки духовних орденів, і тепер ми маємо над ними повний контроль."
   flavor_por.50.a: "Будемо керувати ними безпосередньо."
   flavor_por.50.b: "Розпустити ордени!"
   flavor_por.51.title: "Сан-Жоржи-да-Міна"

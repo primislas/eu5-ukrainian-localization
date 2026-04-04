@@ -51,7 +51,7 @@
   industrialization_events.13.b: "[urbanization_province.GetNameWithNoTooltip] всіх не вмістить."
   industrialization_events.14.title: "[iron_province.GetNameWithNoTooltip]: металоконструкції"
   industrialization_events.14.desc: "Економіка провінції [iron_province.GetName] пішла в ріст завдяки впровадженню сучасного промислового обладнання, такого як коксові печі, паротяги та насоси. Місцеві заводи металоконструкцій тепер вважаються одними з найкращих у регіоні. Стає все більше охочих переїхати сюди, щоб особисто оцінити велич нашої промисловості."
-  industrialization_events.14.a: "Починається нова епоха."
+  industrialization_events.14.a: "Починається нова доба."
   industrialization_events.14.b: "Промисловість — це добре, але хтось повинен працювати й в інших галузях."
   industrialization_events.15.title: "[textile_province.GetNameWithNoTooltip]: текстильні мануфактури"
   industrialization_events.15.desc: "Завдяки постійно зростаючому попиту на текстиль та впровадженню нових методів і обладнання текстильна промисловість провінції [textile_province.GetName] стабільно розвивається. Разом з нею розвивається й економіка всього регіону, через що жителі сільської місцевості прагнуть переїхати сюди, щоб влаштуватися на роботу на фабриках."
