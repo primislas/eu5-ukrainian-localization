@@ -81,7 +81,7 @@
   flavor_mor.21.a: "Нам доведеться змиритися…"
   flavor_mor.21.b: "Ні за що!"
   flavor_mor.22.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] та їхня економіка"
-  flavor_mor.22.desc: "[target_character.GetName] формально панує, але реальний вплив мають [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], що діють у [Select_CString(target_character.IsFemale,'неї', 'нього')] за спиною. Вони забирають частку з усіх податків, і це вже стало свого роду звичаєм. Нещодавно [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] вкотре вирішили посягнути на дохід, який з таким трудом отримує [ROOT.GetCountry.GetFlavorRank|l], і домоглися чергового зниження податків для себе та своїх покровителів."
+  flavor_mor.22.desc: "[target_character.GetName] формально панує, але реальний вплив мають [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], що діють у [Select_CString(target_character.IsFemale,'неї', 'нього')] за спиною. Вони забирають частку з усіх податків, і це вже стало свого роду звичаєм. Нещодавно [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] вкотре вирішили зазіхнути на дохід, який з таким трудом отримує [ROOT.GetCountry.GetFlavorRank|l], і домоглися чергового зниження податків для себе та своїх покровителів."
   flavor_mor.22.a: "Вони ж заробили ці гроші?"
   flavor_mor.22.b: "Вони забули, кому служать!"
   flavor_mor.22.c: "Задобримо їх пожертвою…"

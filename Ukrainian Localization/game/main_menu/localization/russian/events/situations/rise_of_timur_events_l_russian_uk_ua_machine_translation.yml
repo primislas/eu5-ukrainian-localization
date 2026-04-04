@@ -73,7 +73,7 @@
   rise_of_timur.101.c: "Нехай процвітає наша культура."
   rise_of_timur.102.title: "Наплив рекрутів до [target_character.GetShortNameWithNoTooltip|l]ої війська"
   rise_of_timur.102.title.generic: "Наплив рекрутів до війська"
-  rise_of_timur.102.desc: "Кількість охочих взяти участь у військових кампаніях #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! та розжитися трофеями неухильно зростає. Цього року [target_character.GetName] набирає до війська безліч представників найрізноманітніших верств суспільства."
+  rise_of_timur.102.desc: "Кількість охочих взяти участь у воєнних кампаніях #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! та розжитися трофеями неухильно зростає. Цього року [target_character.GetName] набирає до війська безліч представників найрізноманітніших верств суспільства."
   rise_of_timur.102.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   rise_of_timur.1000.title: "[target_country.GetAdjectiveWithNoTooltip|U]о-[from_country.GetAdjectiveWithNoTooltip|l]ий союз"
   rise_of_timur.1000.title.generic: "Союз орд"
