@@ -141,4 +141,4 @@
   flavor_eng_diplomacy.1601.tt2: "Давши [Select_CString(robert_shirley.IsFemale,'їй', 'йому')] посаду в [Concept('cabinet', 'раді')|e], ви отримаєте додаткові переваги"
   flavor_eng_diplomacy.1601.tt3: "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] не зрадіють єретикам при дворі"
   flavor_eng_diplomacy.1601.b: "Ми не потребуємо непроханих порад."
-  enable_european_militia_reform: "Відкриває [Concept('government_reform', 'державний принцип')|e] #TOOLTIP:GOVERNMENT_REFORM,european_militia_reform,X #L «Ополчення Ширлі»#!#!"
+  enable_european_militia_reform: "Відкриває [Concept('government_reform', 'державну реформу')|e] #TOOLTIP:GOVERNMENT_REFORM,european_militia_reform,X #L «Ополчення Ширлі»#!#!"

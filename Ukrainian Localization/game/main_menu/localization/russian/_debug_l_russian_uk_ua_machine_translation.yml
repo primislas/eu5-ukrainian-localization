@@ -30,7 +30,7 @@
   debug.0002.e: "Нехай буде сюрприз"
   CHANGING_RELATIONS_WITH: "Зміна відносин:"
   show_event_target_advance_type: "Ціль події: [Concept('advance', 'поступ')|e] «[ADVANCE_DEFINITION.GetName]»"
-  show_event_target_government_reform: "Ціль події: [Concept('government_reform', 'державний принцип')|e] «[GOVERNMENT_REFORM.GetName]»"
+  show_event_target_government_reform: "Ціль події: [Concept('government_reform', 'державна реформа')|e] «[GOVERNMENT_REFORM.GetName]»"
   show_event_target_estate_privilege: "Ціль події: [Concept('estate_privilege', 'становий привілей')|e] «[ESTATE_PRIVILEGE.GetName]»"
   show_event_target_heir_selection: "Ціль події: [Concept('heir_selection', 'закони престолонаслідування')|e] «[HEIR_SELECTION.GetName]»"
   show_event_target_law: "Ціль події: [Concept('law', 'закон')|e] «[LAW.GetName]»"

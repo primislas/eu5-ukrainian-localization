@@ -231,7 +231,7 @@
   ESTATE_PRIVILEGE_SORT_BY_POWER: "Сортувати за [Concept('estate_power', 'становою владою')|e]"
   CABINET_ACTION_SORT_BY_POWER: "Сортувати за [Concept('location', 'місцевістю')|e]"
   CABINET_ACTION_SORT_BY_NAME: "Сортувати за назвою [Concept('cabinet_action', 'дії ради')|e]"
-  GOVERNMENT_REFORM_SORT_BY_NAME: "Сортувати за назвою [Concept('government_reform', 'державного принципу')|e]"
+  GOVERNMENT_REFORM_SORT_BY_NAME: "Сортувати за назвою [Concept('government_reform', 'державної реформи')|e]"
   CABINET_SORT_BY_NAME: "Сортувати за назвою [Concept('cabinet', 'ради')|e]"
   EXPAND_RAW_GOODS_SORT_BY_NAME: "Сортувати за назвою [Concept('good', 'товару')|e]"
   EXPAND_RAW_GOODS_SORT_BY_PROFIT: "Сортувати за загальним багатством за рівень від [Concept('rgo', 'видобутку ресурсів')|e]"

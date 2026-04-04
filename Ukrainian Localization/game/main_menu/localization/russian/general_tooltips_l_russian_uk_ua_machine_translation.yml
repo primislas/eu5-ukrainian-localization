@@ -511,7 +511,7 @@
   SCRIPTED_RELATION_TYPE_NOT_ADVANCE: "@trigger_no! Для відносин типу «[SCRIPTED_RELATION_TYPE.GetName]» потрібно дослідити поступи: $ADVANCE_LIST$"
   ARMY_LEVY_NOT_ADVANCE: "@trigger_no! Щоб зібрати [Concept('army_levy', 'військове ополчення')|e] типу «[LEVY_SETUP.GetName]», потрібно дослідити [Concept('advance', 'поступи')|e]: $ADVANCE_LIST$"
   NAVY_LEVY_NOT_ADVANCE: "@trigger_no! Щоб зібрати [Concept('navy_levy', 'флотське ополчення')|e] типу «[LEVY_SETUP.GetName]», потрібно дослідити [Concept('advance', 'поступи')|e]: $ADVANCE_LIST$"
-  GOVERNMENT_REFORM_NOT_ADVANCE: "@trigger_no! Щоб застосувати [Concept('government_reform', 'державний принцип')|e] «[GOVERNMENT_REFORM.GetName]», потрібно дослідити [Concept('advance', 'поступи')|e]: $ADVANCE_LIST$"
+  GOVERNMENT_REFORM_NOT_ADVANCE: "@trigger_no! Щоб застосувати [Concept('government_reform', 'державну реформу')|e] «[GOVERNMENT_REFORM.GetName]», потрібно дослідити [Concept('advance', 'поступи')|e]: $ADVANCE_LIST$"
   HEIR_SELECTION_NOT_ADVANCE: "@trigger_no! Щоб обрати правило престолонаслідування «[HEIR_SELECTION.GetName]», потрібно дослідити [Concept('advance', 'поступи')|e]: $ADVANCE_LIST$"
   CASUS_BELLI_NOT_ADVANCE: "@trigger_no! Щоб створити [Concept('casus_belli', 'привід для війни')|e] «[CASUS_BELLI.GetName]», потрібно дослідити поступи: $ADVANCE_LIST$"
   SUBJECT_TYPE_NOT_ADVANCE: "@trigger_no! Щоб створити [Concept('subject_type', 'тип ленника')|e] «[SUBJECT_TYPE.GetName]», потрібно дослідити поступи: $ADVANCE_LIST$"

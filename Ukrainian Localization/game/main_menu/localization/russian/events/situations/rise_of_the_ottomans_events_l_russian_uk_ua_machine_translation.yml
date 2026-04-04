@@ -19,7 +19,7 @@
   rise_of_the_ottomans.6.desc: "Ми подолали безліч небезпек і загроз, що походили від наших сусідів, і в підсумку змогли значно зміцнити свій політичний і військовий вплив в #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#!. Могутність нашої країни не знає меж, ми здатні поставити на коліна навіть найгрізніших ворогів!"
   rise_of_the_ottomans.6.a: "Не можна упускати такі можливості!"
   rise_of_the_ottomans.6.b: "Потрібно вичекати потрібний момент…"
-  tur_choose_reform_later_tt: "[Concept('government_reform', 'Державний принцип')|e] буде доступний, доки ми зберігаємо лідерство під час [Concept('situation', 'ситуації')|e] #TOOLTIP:SITUATION,rise_of_the_ottomans,X #L «Сходження турків»#!#!"
+  tur_choose_reform_later_tt: "[Concept('government_reform', 'Державна реформа')|e] буде доступна, доки ми зберігаємо лідерство під час [Concept('situation', 'ситуації')|e] #TOOLTIP:SITUATION,rise_of_the_ottomans,X #L «Сходження турків»#!#!"
   rise_of_the_ottomans.100.title: "Похід проти [target_country.Custom('CL_GEN')]"
   rise_of_the_ottomans.100.desc: "Переможні #L [ROOT.GetCountry.GetAdjective|l]і#! прапори майорять на вітрі, а [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] вже обмірковує наступний крок свого великого плану. Схоже, на цьому етапі [ROOT.GetCountry.GetFlavorRank|l] може без зусиль завоювати більшість сусідніх територій.\n\nЯкщо ми включимо провінцію [target.GetProvince.GetName] до складу нашої країни, то зможемо посилити свій контроль над областю [target.GetArea.GetName], і тоді наш вплив у регіоні помітно розшириться. Настав час розпочати нову військову кампанію!"
   rise_of_the_ottomans.100.a: "Скоро [target.GetNameWithNoTooltip] перейде у володіння нового господаря!"

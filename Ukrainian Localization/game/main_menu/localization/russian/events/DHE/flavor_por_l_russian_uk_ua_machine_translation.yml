@@ -17,7 +17,7 @@
   flavor_por.4.title: "Каза да Індія"
   flavor_por.4.desc: "Нам необхідно організувати ефективне управління #L [ROOT.GetCountry.GetAdjective|l]ими#! володіннями в #TOOLTIP:SUB_CONTINENT,india,X #L Індії#!#! та #TOOLTIP:CONTINENT,africa,X #L Африці#!#!. Радники пропонують створити для цього спеціальну установу, яка забезпечуватиме наш контроль над торгівлею в цих регіонах, підпорядковуючись при цьому безпосередньо [ROOT.GetCountry.GetGovernment.GetAdjective|l]ому казначейству."
   flavor_por.4.a: "Цікавий план."
-  flavor_por.4.a.tt: "Відкриває доступ до [Concept('government_reform', 'державного принципу')|e] «[ShowGovernmentReformName('por_casa_de_india')]»"
+  flavor_por.4.a.tt: "Відкриває доступ до [Concept('government_reform', 'державної реформи')|e] «[ShowGovernmentReformName('por_casa_de_india')]»"
   flavor_por.5.title: "Торре-ді-Белен"
   flavor_por.5.desc: "В останні десятиліття порт #TOOLTIP:LOCATION,lisbon,X #L Лісабона#!#! набуває все більшого торговельного значення, і у зв'язку з цим наших укріплень в гирлі річки Тежу явно стає недостатньо. Нещодавно до нас звернувся один #L [ROOT.GetCountry.GetAdjective|l]ий#! архітектор, який пропонує взяти на себе завдання зі будівництва нового прибережного форту для захисту міста від нападів з моря."
   flavor_por.5.a: "Ми повинні її побудувати"

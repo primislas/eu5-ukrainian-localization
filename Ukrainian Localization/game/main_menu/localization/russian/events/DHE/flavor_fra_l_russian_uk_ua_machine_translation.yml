@@ -988,7 +988,7 @@
   marcel_loses_support_for_murder: "Через вбивство знаті Марсель втратив не тільки підтримку духовенства та знаті, а й більшу частину свого політичного впливу."
   routiers_can_raid_nearby_locations: "Рутьєри можуть почати влаштовувати набіги на сусідні провінції!"
   fra_annexing_appanages_moves_towards_centralize: "За кожен приєднаний [Concept('subject', 'апанаж')|e] наші [Concept('societal_values', 'суспільні цінності')|e] зрушать на 5 од. у бік централізації, але апанажі, що залишилися, знизять свою [Concept('opinion', 'думку')|e] про нас на 25 од."
-  fra_how_to_remove_feudal_nobility_info: "Якщо у нас не залишиться [Concept('subjects', 'апанажів')|e], [Concept('government_reform', 'державний принцип')|e] «Французькі феодали» буде видалено."
+  fra_how_to_remove_feudal_nobility_info: "Якщо у нас не залишиться [Concept('subjects', 'апанажів')|e], [Concept('government_reform', 'державну реформу')|e] «Французькі феодали» буде видалено."
   fra_aggression_towards_burgundy: "Влада [GetCountry('BUR').Custom('CL_GEN')] набула достатньо територій та впливу, щоб їхня країна вважалася незалежною, однак в очах наших ленників це, як і раніше, французький васал. Якщо ми будемо проявляти агресію проти [GetCountry('BUR').Custom('CL_GEN')], відносини всіх ленників з нами погіршаться на 33 од."
   fra_neutrality_towards_burgundy: "Влада [GetCountry('BUR').Custom('CL_GEN')] набула достатніх територій та впливу, щоб їхня країна вважалася незалежною від [GetCountry('FRA').Custom('CL_GEN')]."
   appanages_can_now_take_public_weal_reform: "Тепер апанажі можуть прийняти принцип «Член Ліги суспільного блага». Непокірні апанажі більш схильні приєднатися до Ліги."

@@ -46,7 +46,7 @@
   flavor_ned.10.desc: "Офіційно нашими землями править [target_character.GetName], проте між провінціями накопичилася маса суперечностей, і представники #TOOLTIP:BUILDING_TYPE,admiralty,X #L адміралтейств#!#! не можуть знайти спільної мови. Поки [ShowLocationName('groningen')], [ShowLocationName('hoorn')], [ShowLocationName('rotterdam')], [ShowLocationName('middelburg')] та [ShowLocationName('amsterdam')] продовжують ворогувати, наш флот так і залишиться розрізненим. Однак, дозволивши військовим діяти незалежно, ми можемо домогтися від них більшої лояльності центральній владі."
   flavor_ned.10.a: "Нехай усе залишається як є."
   flavor_ned.10.b: "Ми об'єднаємо адміралтейства."
-  NED_UNLOCKS_UNIFIED_ADMIRALTIES_GOV_REFORM: "Відкриває [Concept('government_reform', 'державний принцип')|e] «[ShowGovernmentReformName('unified_admiralty_reform')]»."
+  NED_UNLOCKS_UNIFIED_ADMIRALTIES_GOV_REFORM: "Відкриває [Concept('government_reform', 'державну реформу')|e] «[ShowGovernmentReformName('unified_admiralty_reform')]»."
   flavor_ned.11.title: "Заселення Тайваню"
   flavor_ned.11.desc: "Коли наші дослідники та поселенці дісталися до #TOOLTIP:SUB_CONTINENT,china,X #L Китаю#!#!, вони захопили та колонізували [ShowAreaName('taiwan_area')]. Однак ця область поки що не перебуває під #L [ROOT.GetCountry.GetCulture.GetName]им#! впливом. Можливо, нам варто переселити сюди людей із міста [ROOT.GetCountry.GetCapital.GetName]."
   flavor_ned.11.a: "[ROOT.GetCountry.GetCulture.GetNameWithNoTooltip|L]а культура має стати головною культурою Тайваню."
