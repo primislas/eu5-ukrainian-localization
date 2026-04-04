@@ -152,7 +152,7 @@
   flavor_nap.102.title: "Вільневський договір"
   flavor_nap.102.desc: "[ROOT.GetCountry.GetGovernment.GetRulerTitle|L] приймає у себе посланця, якого відправив [target_pope.GetName]. [ROOT.GetCountry.GetName] та [GetCountry('SIC').GetLongName] давно не ладнають, однак затяжному конфлікту прийде кінець, якщо [target_ruler.GetName] та [target_sicily_ruler.GetName] укладуть угоду."
   flavor_nap.102.a: "[target_sicily_ruler.GetNameWithNoTooltip] може забрати собі [GetCountry('SIC').Custom('CL_ACC')], а взамін щорічно виплачувати нам данину."
-  flavor_nap.102.a.tt1: "[GetCountry('SIC').GetName] відповість на пропозицію в рамках події. Вони вирішать, чи платити нам щорічну данину, у випадку якщо ми не почнемо війну один проти одного, чи стати васалами."
+  flavor_nap.102.a.tt1: "[GetCountry('SIC').GetName] відповість на пропозицію в межах події. Вони вирішать, чи платити нам щорічну данину, у випадку якщо ми не почнемо війну один проти одного, чи стати васалами."
   flavor_nap.102.a.tt2: "Ми втратимо всі [Concept('cores', 'національні місцевості')|e] в #TOOLTIP:AREA,sicily_area,X #L Сицилії#!#!."
   flavor_nap.102.b: "Ні за що! [ShowAreaNameWithNoTooltip('sicily_area')] належить нам!"
   flavor_nap.103.title: "$flavor_nap.102.title$"

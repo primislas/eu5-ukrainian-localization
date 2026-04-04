@@ -75,7 +75,7 @@
   flavor_mor.20.desc: "Відтоді, як [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] захопили владу, кількість титулів і посад, що передаються між ними, все зростає. Влада переходить з рук у руки, і [target_character2.GetName] не в силах протистояти зростаючим апетитам цих впливових людей. На подібну образу влади не можна заплющувати очі.\n\n[target_character.GetName] — [Select_CString(target_character.IsFemale,'чергова', 'черговий')] [target_character.Custom('GetCharacterCabinetTitle')|l], [Select_CString(target_character.IsFemale,'яка намагається', 'який намагається')] їм протистояти. [Select_CString(target_character.IsFemale,'Вона', 'Він')] виявляє катастрофічні проблеми, створені [Select_CString(target_character.IsFemale,'її', 'його')] оточенням."
   flavor_mor.20.a: "Подумаєш, ще одна посада…"
   flavor_mor.20.b: "Вони забули, де їхнє місце!"
-  easier_to_repeal_viziership_tt: "Скасування принципу «[ShowGovernmentReformName('powerful_vizierships_reform')]» вимагатиме менше [Concept('crown_power', 'влади правителя')|e]"
+  easier_to_repeal_viziership_tt: "Скасування реформи «[ShowGovernmentReformName('powerful_vizierships_reform')]» вимагатиме менше [Concept('crown_power', 'влади правителя')|e]"
   flavor_mor.21.title: "Вимоги привілейованих станів"
   flavor_mor.21.desc: "Всім відомо, що [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] мають велику могутність при дворі, де вони представлені в достатку. [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] платять своїм ставленикам, щоб за їхньою допомогою вимагати нові привілеї та зміцнювати вплив у країні."
   flavor_mor.21.a: "Нам доведеться змиритися…"

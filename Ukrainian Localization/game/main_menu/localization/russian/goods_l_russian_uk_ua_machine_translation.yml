@@ -631,7 +631,7 @@
   create_supply_depot: "Створення продовольчих складів"
   create_sea_exploration: "Підготовка до морської експедиції"
   create_land_exploration: "Підготовка до наземної експедиції"
-  remove_government_reform: "Скасування державних принципів"
+  remove_government_reform: "Скасування державної реформи"
   set_cabinet_action: "Призначення завдань раді"
   set_cabinet_member: "Додавання члена ради"
   capital_movement_demand: "Переміщення столиць"

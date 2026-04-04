@@ -27,6 +27,7 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     * "[religious] conversion"/"обращение" -> "навернення"
     * "[culture] conversion" -> "асиміляція"
     * "[government] reform"/"принцип" -> "реформа"
+    * "major reform" / "ведущий принцип" -> "засаднича реформа"
     * "смутьян" -> "баламут"
     * "посягнуть" -> "зазіхнути", unless the subject is power, rulers or something sacred, in which case keep "посягнути"
     * "воєнні кампанії", not "військові кампанії"
@@ -34,8 +35,9 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     * "на корню" -> "у/в зародку"
     * "ухвалювати/схвалювати закони"
     * "положение" -> "становище", when appropriate
-    * "epoch"/"эпоха" -> "доба"
+    * "age"/"epoch"/"эпоха" -> "доба"
     * "стартовый" -> "початковий"
+    * use "в межах", а не "в рамках"
 5.  Low-Confidence Flagging: If you are uncertain about the translation of a proper noun (dynasty, ethnicity, culture), prefix it with 'POSTEDIT_'.
 6.  Translate only Russian text. Do not translate any other language.
 7.  Attempt to keep the sentence structure as close to the original as possible.

@@ -1085,7 +1085,7 @@
   NAVY_IN_PROGRESS_LIST_EMPTY: "Немає формуваних [Concept('navies', 'флотів')|e]."
   ARTISTS_SCROLL_LIST_EMPTY: "Немає доступних творців."
   LAWS_SCROLL_LIST_EMPTY: "Немає доступних зводів правил."
-  CABINETS_SCROLL_LIST_EMPTY: "Немає доступних комірок ради."
+  CABINETS_SCROLL_LIST_EMPTY: "Немає доступних посад в раді."
   BUILDINGS_SCROLL_LIST_EMPTY: "Не знайдено споруд за цими критеріями."
   LOCATIONS_SCROLL_LIST_EMPTY: "Не знайдено [Concept('location', 'місцевостей')|e] за цими критеріями."
   EXPAND_RAW_GOODS_SCROLL_LIST_EMPTY: "Не знайдено [Concept('goods', 'товарів')|e] за цими критеріями."
