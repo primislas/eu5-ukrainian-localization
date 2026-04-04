@@ -1471,7 +1471,7 @@
   SEAZONE_TAB_TT_TEXT: "На цій вкладці перелічені [Concept('countries', 'країни')|e] з [Concept('maritime_presence', 'морською присутністю')|e] в цій [Concept('seazone', 'акваторії')|e], а також діючі в цій області [Concept('pirates', 'пірати')|e]."
   GOOD_OVERVIEW_SUBTAB_TT_TEXT: "На цій вкладці перелічені можливі джерела та способи застосування цього [Concept('good', 'товару')|e]."
   GOOD_SOURCES_SUBTAB_TT_TEXT: "На цій вкладці перелічені всі [Concept('locations', 'місцевості')|e], де виробляється цей [Concept('good', 'товар')|e]."
-  GOOD_MARKETS_SUBTAB_TT_TEXT: "На цій вкладці вказано положення цього [Concept('good', 'товару')|e] на всіх відомих [Concept('markets', 'ринках')|e]."
+  GOOD_MARKETS_SUBTAB_TT_TEXT: "На цій вкладці вказано становище цього [Concept('good', 'товару')|e] на всіх відомих [Concept('markets', 'ринках')|e]."
   REBEL_POPS_TAB_NAME: "Групи населення, що підтримують"
   REBEL_POPS_TAB_TT_TEXT: "На цій вкладці перелічені всі [Concept('pops', 'групи населення')|e], що підтримують цю фракцію [Concept('rebel', 'повстанців')|e]."
   REBEL_LOCATIONS_TAB_TT_TEXT: "На цій вкладці перелічені всі [Concept('locations', 'місцевості')|e] вашої [Concept('country', 'країни')|e], де є [Concept('pops', 'групи населення')|e], що приєдналися до цієї фракції [Concept('rebel', 'повстанців')|e]."

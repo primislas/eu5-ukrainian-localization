@@ -227,7 +227,7 @@
   flavor_jap.160.b: "Тосіма не потребує цієї місцевості."
   flavor_jap.161.title: "Кінтю нарабіні куґе сьохатто"
   flavor_jap.161.desc: "Щоб обмежити владу родини [ShowDynastyName('yamato_dynasty')] на території [ROOT.GetCountry.Custom('rank_ru_GEN')|l], [our_ruler.GetName] [Select_CString(our_ruler.IsFemale, 'має намір', 'має намір')] видати особливий закон, згідно з яким [ymt_ruler.GetName] втратить більшу частину своїх повноважень і втратить вплив при дворі. Відтепер [Select_CString(ymt_ruler.IsFemale, 'їй', 'йому')] слід присвятити життя навчанню та поезії."
-  flavor_jap.161.a: "Приймемо закон, що обмежує владу імператорської родини."
+  flavor_jap.161.a: "Ухвалимо закон, що обмежує владу імператорської родини."
   flavor_jap.161.b: "Немає потреби послаблювати імператорську родину."
   flavor_jap.162.title: "Будівництво замку в Осаці"
   flavor_jap.162.desc: "[our_ruler.GetName] хоче побудувати в #TOOLTIP:LOCATION,osaka,X #L Осаці#!#! замок, який затьмарить найпотужніші фортеці #TOOLTIP:REGION,japan_region,X #L Японії#!#! і стане гідним пам'ятником [Select_CString(our_ruler.IsFemale, 'її', 'його' )] правлінню. Завдяки п'яти вежам та укріпленому рову твердиня в Осаці буде практично неприступною."
