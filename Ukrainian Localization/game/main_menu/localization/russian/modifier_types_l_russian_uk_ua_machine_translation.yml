@@ -3899,7 +3899,7 @@
   MODIFIER_TYPE_DESC_forbid_multiple_policies_vote: "[Concept('international_organization', 'Міжнародне об’єднання')|e] зможе #TOOLTIP:RESOLUTION,policy_vote,X #L обговорювати правила#!#! лише розглядуваних та чинних [Concept('policies', 'політик')|e]."
   MODIFIER_TYPE_NAME_change_government_type_price_cost_modifier: "Модифікатор витрат на зміну форми правління"
   MODIFIER_TYPE_DESC_change_government_type_price_cost_modifier: "Впливає на [Concept('costs', 'вартість')|e] [Concept('actions', 'дій')|e] при зміні [Concept('government_type', 'форми правління')|e] на панелі створення нової країни."
-  MODIFIER_TYPE_NAME_union_allowed_enforce_peace: "Дозволено примус до миру в рамках унії"
+  MODIFIER_TYPE_NAME_union_allowed_enforce_peace: "Дозволено примус до миру в межах унії"
   MODIFIER_TYPE_DESC_union_allowed_enforce_peace: "Дозволяє #TOOLTIP:SPECIAL_STATUS,senior_partner,X #L старшому партнеру#!#! використовувати [Concept('diplomatic_action', 'дипломатичну дію')|e] «#TOOLTIP:COUNTRY_INTERACTION,subject_enforce_peace,X #L Примус до миру#!#!» на #TOOLTIP:SPECIAL_STATUS,junior_partner,X #L молодших партнерів#!#!."
   MODIFIER_TYPE_NAME_union_unlock_rein_in_junior_diplomacy: "Розблокування дії «$rein_in_junior_diplomacy$»"
   MODIFIER_TYPE_DESC_union_unlock_rein_in_junior_diplomacy: "Дозволяє #TOOLTIP:SPECIAL_STATUS,senior_partner,X #L старшому партнеру#!#! встановити [Concept('relation_type', 'тип відносин')|e] «[ShowRelationTypeName('rein_in_junior_diplomacy')]» зі своїм #TOOLTIP:SPECIAL_STATUS,junior_partner,X #L молодшим партнером#!#!."

@@ -4,7 +4,7 @@
   flavor_sale_of_lusatia.1000.a: "Відправимо до [GetCountry('MEI').Custom('CL_ACC')] посла з пропозицією!"
   flavor_sale_of_lusatia.1000.a.tt: "[GetCountry('MEI').GetName] отримає можливість придбати [GetCountry('SOR').Custom('CL_ACC')] і зробити її своїм [Concept('subject', 'ленником')|e] на 10 років. При цьому фактичним [Concept('ruler', 'правителем')|e] Лужиці залишиться [target_ruler.GetName]."
   flavor_sale_of_lusatia.1000.b: "Ми не можемо розлучитися з цією землею — навіть на час."
-  flavor_sale_of_lusatia.1000.historical_info: "Маркграфство Лужиця було передано в заставу маркграфству Мейсен у 1353 році в рамках продовження старого договору 1323 року. Протягом наступних 10 років весь дохід від Лужиці отримував Мейсен, хоча її номінальними правителями залишалися Віттельсбахи."
+  flavor_sale_of_lusatia.1000.historical_info: "Маркграфство Лужиця було передано в заставу маркграфству Мейсен у 1353 році в межах продовження старого договору 1323 року. Протягом наступних 10 років весь дохід від Лужиці отримував Мейсен, хоча її номінальними правителями залишалися Віттельсбахи."
   flavor_sale_of_lusatia.1001.desc: "[GetCountry('BRA').GetLongName] пропонує нам продовжити угоду про заставу #ONCLICK:COUNTRY,[GetCountry('SOR').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SOR').Custom('CL_tt')],X [GetCountry('SOR').Custom('CL_GEN')|L]#!#! на десять років. Хоча ціна питання досить велика, для нас це чудова можливість знову зміцнити свій вплив на землях, які колись належали династії [target_ruler_meissen.GetDynasty.GetName]."
   flavor_sale_of_lusatia.1001.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   flavor_sale_of_lusatia.1001.b: "Нам ні до чого ця земля."

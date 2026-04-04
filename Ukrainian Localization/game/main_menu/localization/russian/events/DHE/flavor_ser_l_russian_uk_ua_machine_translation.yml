@@ -156,7 +156,7 @@
   flavor_ser.210.historical_info: "Ново-Брдоський законник, прийнятий Стефаном Лазаревичем у 1412 році, являв собою всеосяжний звід правил, що регламентують усі аспекти гірничорудної справи — від організації гірничого видобутку до облаштування шахтарських міст. Законник регулював права власності, заходи безпеки та економічну діяльність, сприяючи розвитку та процвітанню шахтарських спільнот."
   STATIC_MODIFIER_NAME_ser_novo_brdo_code: "Ново-Брдоський законник"
   flavor_ser.210.tt: "Відкриває правило #TOOLTIP:POLICY,novo_brdo_mining_law,X #L «Ново-Брдоський законник»#!#! у сфері гірничого права."
-  has_unlocked_novo_brdo_tt: "Правило відкрито в рамках [Concept('event', 'події')|e] #Y  «Ново-Брдоський законник»#!"
+  has_unlocked_novo_brdo_tt: "Правило відкрито в межах [Concept('event', 'події')|e] #Y  «Ново-Брдоський законник»#!"
   flavor_ser.220.title: "[target_character.GetNameWithNoTooltip]"
   flavor_ser.220.desc: "[target_character.GetName] і [Select_CString(target_character.IsFemale,'її', 'його')] Алеманнська гвардія — добірний загін німецьких солдатів, — відіграють найважливішу роль у захисті [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. [GetCharacter('ser_stefan_dusan').GetName] довіряє [Select_CString(target_character.IsFemale,'їй', 'йому')] як [Select_CString(GetCharacter('ser_stefan_dusan').IsFemale,'самій', 'самому')] собі. Алеманнська гвардія прославилася своєю дисципліною, вірністю та відвагою, у ці неспокійні часи вона залишається прикладом надійності та сили."
   flavor_ser.220.a: "Ми перед [Select_CString(target_character.IsFemale,'нею', 'ним')] у боргу!"
