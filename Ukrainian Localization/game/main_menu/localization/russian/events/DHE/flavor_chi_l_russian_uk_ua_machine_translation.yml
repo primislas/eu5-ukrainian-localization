@@ -596,7 +596,7 @@
   flavor_chi.1102.title: "Суперечка західних варварів через китайські традиції"
   flavor_chi.1102.desc: "$flavor_chi.1101_1102_common$ Зараз вони домовилися виявити «поблажливість» до стародавніх китайських звичаїв. Чи не забагато на себе беруть ці варвари?"
   flavor_chi.1102.a: "$flavor_chi.1101.a$"
-  flavor_chi.1102.a.tt: "Звернення в християнство в Китаї припиняється"
+  flavor_chi.1102.a.tt: "Навернення в християнство в Китаї припиняється"
   flavor_chi.1102.b: "$flavor_chi.1101.b$"
   flavor_chi_pap.1.title: "Делегація з [target_country.Custom('CL_GEN')]"
   flavor_chi_pap.1.desc: "До міста [ROOT.GetCountry.GetCapital.GetName] прибув посланець з #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!. Він повідомляє, що [target_pop_cath.GetName|l] Китаю залишилися без духовного наставника і благають надіслати їм священників до [target_location.Custom('LR_ACC')|l] [target_location.GetName].\n\nЦе саме те, чого потребує [target_building.GetName|l]."

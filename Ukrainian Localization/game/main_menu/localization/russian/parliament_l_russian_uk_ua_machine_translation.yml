@@ -167,7 +167,7 @@
   expand_diplomatic_corps_generic_desc: "Не всі питання можна вирішити силою меча. Куди вигідніше дозволити перу підтримати меч і тим самим досягти видатних звершень."
   expand_diplomatic_corps_minors: "Зміцнення зв'язків із сусідами"
   expand_diplomatic_corps_minors_desc: "$expand_diplomatic_corps_generic_desc$ Головною нашою турботою мають стати навколишні невеликі держави."
-  expand_diplomatic_corps_religion: "Звернення до віри"
+  expand_diplomatic_corps_religion: "Навернення до віри"
   expand_diplomatic_corps_religion_desc: "$expand_diplomatic_corps_generic_desc$ Для нас життєво необхідно покращити відносини з нашими братами по вірі."
   expand_diplomatic_corps_majors: "Відносини з великими державами"
   expand_diplomatic_corps_majors_desc: "$expand_diplomatic_corps_generic_desc$ Нам необхідно зміцнити відносини з великими державами світу."

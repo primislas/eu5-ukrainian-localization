@@ -34,7 +34,7 @@
   flavor_son.7.a: "Усі жителі [ROOT.GetCountry.Custom('CL_GEN')] повинні дотримуватися мусульманських законів."
   flavor_son.7.b: "Будемо поважати закони невірних."
   son_all_non_muslim_pops_gain_satisfaction_tt: "Усі [Concept('pop', 'групи населення')|e], які не сповідують #TOOLTIP:RELIGIONGROUP,muslim,X #L іслам#!#!, отримають [ShowNamedValue('pop_satisfaction_ultimate_bonus')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e]"
-  flavor_son.8.title: "Звернення африканських країн"
+  flavor_son.8.title: "Навернення африканських країн"
   flavor_son.8.desc: "Хоча ми і є найсильнішою країною #TOOLTIP:REGION,guinea_region,X #L Гвінеї#!#!, в регіоні ще залишилися народи, які досі не прийняли #TOOLTIP:RELIGIONGROUP,muslim,X #L іслам#!#!. Звісно, ми могли б навернути їх силою, але [target_character.GetName] вважає, що краще використовувати дипломатію, щоб не викликати гнів місцевого населення."
   flavor_son.8.a: "Це звучить розумно."
   flavor_son.8.b: "Краще застосувати силу."

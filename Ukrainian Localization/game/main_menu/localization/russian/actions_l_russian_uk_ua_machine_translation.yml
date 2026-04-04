@@ -943,7 +943,7 @@
   unban_conversion_of_adipatis_desc: "Заборона на навернення в #TOOLTIP:RELIGIONGROUP,muslim,X #L іслам#!#! створила занадто багато проблем і призвела до заворушень. Скасувавши її, ми покращимо відносини зі своїми підданими."
   control_the_bhres: "Контроль над Бхре"
   control_the_bhres_desc: "Багато князів та їхніх придворних поступово приймають #TOOLTIP:RELIGIONGROUP,muslim,X #L іслам#!#!. Зазвичай ми не звертаємо уваги на таке, але зараз їхня вірність у довгостроковій перспективі опиняється під питанням."
-  maj_convert_to_islam: "Звернення в іслам"
+  maj_convert_to_islam: "Навернення в іслам"
   maj_convert_to_islam_desc: "#TOOLTIP:RELIGION,$sunni_tt$,X #L Сунітський#!#! #TOOLTIP:RELIGIONGROUP,muslim,X #L іслам#!#! стрімко поширюється в наших землях, і багато губернаторів вже прийняли цю релігію. Можливо, настав час відкинути гордість і навернутися слідом за ними, хоч це сильно вдарить по нашому престижу."
   maj_consequences_of_conversion: "При наверненні в #TOOLTIP:RELIGION,$sunni_tt$,X #L сунізм#!#! всі [Concept('subject', 'ленники')|e], [Concept('liberty_desire', 'бажання свободи')|e] яких нижче #y 10,0%#!, стануть незалежними, а також відбудеться наступне:"
   MAJ_reduce_sunni_dominance: "$demak_progress$ знижується на #g 10%#!"

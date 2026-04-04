@@ -548,7 +548,7 @@
   rtr_demand_annexation_price: "Вартість вимоги приєднання"
   change_employment_system_price: "Вартість вибору системи найму"
   restrict_peranakan_trading_rights_price: "Вартість обмеження торгових прав перанакан"
-  ban_conversion_of_adipatis_price: "Вартість заборони на звернення адіпаті"
+  ban_conversion_of_adipatis_price: "Вартість заборони на навернення адіпаті"
   control_the_bhres_price: "Вартість контролю над Бхре"
   rot_select_core_region_price: "Вартість дії «$rot_select_core_region$»"
   rot_reform_into_monarchy_price: "Вартість дії «$rot_reform_into_monarchy$»"
