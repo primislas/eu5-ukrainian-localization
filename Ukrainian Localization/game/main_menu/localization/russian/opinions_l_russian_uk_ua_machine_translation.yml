@@ -25,7 +25,7 @@
   OPINION_BASE_FROM_ANTAGONISM: "#T Вплив ворожості#!\nКожна окрема ворожість дає $EACH|+=$ од. до [Concept('opinion', 'думки')|e]\nВід базового значення [Concept('antagonism', 'ворожості')|e] $BASE|R0$: $VAL|+$"
   OPINION_MODIFIED_BY_TITLE: "Потім показник змінюється знову (до мінімального значення в 5%):"
   OPINION_MODIFIED_BY_NEIGHBOUR: "Сусід: $VAL|-%$"
-  OPINION_MODIFIED_BY_OUT_OF_RANGE: "Поза [Concept('diplomatic_range', 'дипломатичною дистанцією')|e]: $VAL|-%$"
+  OPINION_MODIFIED_BY_OUT_OF_RANGE: "Поза [Concept('diplomatic_range', 'дипломатичною відстанню')|e]: $VAL|-%$"
   OPINION_MODIFIED_BY_SPY_NETWORK: "[Concept('spy_network', 'Шпигунська мережа')|e] на території [COUNTRY.Custom('CL_GEN')]: $VAL|-%$"
   OPINION_MODIFIED_BY_DEPENDENCY: "[Concept('subject', 'Ленник')|e]: $VAL|-%$"
   OPINION_MODIFIED_BY_UNION: "[Concept('union', 'Унія')|e]: $VAL|-%$"

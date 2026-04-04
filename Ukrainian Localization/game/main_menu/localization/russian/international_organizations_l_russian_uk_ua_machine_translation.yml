@@ -382,7 +382,7 @@
   EXPEDITIONS_INFO: "На кожну експедицію буде призначено [Concept('character', 'персонажа')|e] та виділено певну суму [Concept('gold', 'дукатів')|e]. Зібрана експедиція вирушить до вказаної [Concept('location', 'місцевості')|e], взаємодіючи по дорозі з різними країнами.\nПозитивні результати проявляться лише після повернення експедиції.\nЕкспедиція також може [Concept('discover', 'відкривати')|e] нові місцевості."
   POOR_RELATIONS: "Погані відносини"
   EMPEROR_DIP_REPUTATION: "Дипломатична репутація Китаю"
-  OUTSIDE_OF_DIP_RANGE: "За межами [Concept('diplomatic_range', 'дипломатичної дистанції')|e]"
+  OUTSIDE_OF_DIP_RANGE: "За межами [Concept('diplomatic_range', 'дипломатичної відстані')|e]"
   DISTANCE_FROM_CHINA: "Відстань до кордону"
   ECONOMIC_SIZE: "Розмір економіки"
   NOT_SUBJECT_OF_EMPEROR: "Не є ленником країни $CHI$"

@@ -24,4 +24,4 @@
   flavor_mor_maghrebi_wars.1100.title: "Новий правитель Магрибу"
   flavor_mor_maghrebi_wars.1100.desc: "Ми нарешті об'єднали землі #TOOLTIP:REGION,maghreb_region,X #L Магрибу#!#!, як за часів панування династії Альмохадів. Тепер ми контролюємо торгівлю в Сахарі, а отже, нас і весь #L [religion_scope.GetAdjective|l]ий#! світ чекає ера процвітання."
   flavor_mor_maghrebi_wars.1100.a: "Брати по вірі вітають нас."
-  flavor_mor_maghrebi_wars.1100.tt: "Усі [religion_scope.GetAdjectiveWithNoTooltip|l]і країни в межах нашої [Concept('diplomatic_range', 'дипломатичної дистанції')|e] покращують думку про нас."
+  flavor_mor_maghrebi_wars.1100.tt: "Усі [religion_scope.GetAdjectiveWithNoTooltip|l]і країни в межах нашої [Concept('diplomatic_range', 'дипломатичної відстані')|e] покращують думку про нас."

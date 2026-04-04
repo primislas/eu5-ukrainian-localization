@@ -76,7 +76,7 @@
   flavor_geo.16.a: "Просто продовжимо дружнє спілкування…"
   flavor_geo.16.b: "Це вже переходить усі межі!"
   flavor_geo.16.c: "Може, в цій пропозиції є сенс?"
-  suffer_20_opinion_with_every_catholic_in_range_tt: "[Concept('opinion', 'Думка')|e] про нас кожної католицької [Concept('country', 'країни')|e] в межах нашої [Concept('diplomatic_range', 'дипломатичної дистанції')|e] зміниться на [ShowBiasValue('opinion_demolished_catholic_embassies')|-=0] од."
+  suffer_20_opinion_with_every_catholic_in_range_tt: "[Concept('opinion', 'Думка')|e] про нас кожної католицької [Concept('country', 'країни')|e] в межах нашої [Concept('diplomatic_range', 'дипломатичної відстані')|e] зміниться на [ShowBiasValue('opinion_demolished_catholic_embassies')|-=0] од."
   flavor_geo.17.title: "Посланець із [target_country.Custom('CL_GEN')]"
   flavor_geo.17.desc_common: "[target_character.GetName] проникається до нас симпатією після того, як ми створили #TOOLTIP:BUILDING_TYPE,missionary_building,X #L місію#!#! у [target_location1.Custom('LR_PREP')|l] [target_location1.GetName]."
   flavor_geo.17.desc: "$flavor_geo.17.desc_common$ Одначе за останні роки [target_country.GetLongName] стає дедалі небезпечнішим місцем: по всій країні зносять належні нам споруди…"

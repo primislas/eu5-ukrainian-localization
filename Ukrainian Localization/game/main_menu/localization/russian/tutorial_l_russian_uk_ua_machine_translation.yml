@@ -281,7 +281,7 @@
   lesson_diplomacy_13_desc: "Далі давайте подивимося, про які [Concept('countries_with_icon', 'країни')|e] вам відомо."
   lesson_diplomacy_open_known_countries: "Відкрийте розділ відомих країн"
   lesson_diplomacy_14: "[country_icon] Відомі країни"
-  lesson_diplomacy_14_desc: "У цьому #high розділі#! ви знайдете всі [Concept('countries_with_icon', 'країни')|e], які [Concept('discovered_with_icon', 'відкрили')|e]. За замовчуванням у ньому встановлено фільтр, щоб ви бачили лише країни в межах своєї [Concept('diplomatic_range_with_icon', 'дипломатичної дистанції')|e].\n\nТут також зручно відстежувати ваш [Concept('great_power_score_with_icon', 'рахунок великої держави')|e]. Якщо за цим рахунком ви посідаєте одне з провідних місць у світі, то вважаєтеся [Concept('great_power_with_icon', 'великою державою')|e], що дозволить чинити більше впливу на сусідів."
+  lesson_diplomacy_14_desc: "У цьому #high розділі#! ви знайдете всі [Concept('countries_with_icon', 'країни')|e], які [Concept('discovered_with_icon', 'відкрили')|e]. За замовчуванням у ньому встановлено фільтр, щоб ви бачили лише країни в межах своєї [Concept('diplomatic_range_with_icon', 'дипломатичної відстані')|e].\n\nТут також зручно відстежувати ваш [Concept('great_power_score_with_icon', 'рахунок великої держави')|e]. Якщо за цим рахунком ви посідаєте одне з провідних місць у світі, то вважаєтеся [Concept('great_power_with_icon', 'великою державою')|e], що дозволить чинити більше впливу на сусідів."
   lesson_diplomacy_15: "[international_organizations_icon] Об'єднання"
   lesson_diplomacy_15_desc: "Давайте розглянемо [Concept('international_organizations_with_icon', 'міжнародні об'єднання')|e]!"
   lesson_diplomacy_open_known_orgs: "Відкрийте розділ об'єднань"

@@ -1062,7 +1062,7 @@
   tordesillas_claim_area: "Претензія на область"
   tordesillas_claim_area_desc: "Розширте наші колоніальні домагання на сусідню [Concept('area', 'область')|e]."
   tordesillas_free_claim_area: "Претензія на незайняту область"
-  tordesillas_free_claim_area_desc: "Створіть колоніальні претензії на будь-яку [Concept('area', 'область')|e] в межах нашої колонізаційної дистанції."
+  tordesillas_free_claim_area_desc: "Створіть колоніальні претензії на будь-яку [Concept('area', 'область')|e] в межах нашої колонізаційної відстані."
   tordesillas_claim_conflicting_area: "Претензія на спірну область"
   tordesillas_claim_conflicting_area_desc: "Ми скористаємося своїм впливом на [GetCountry('PAP').Custom('longname_ru_GEN')], щоб створити колоніальну претензію на [Concept('area', 'область')|e], в якій і ми, і наш суперник володіємо землями."
   tordesillas_push_to_settle_treaty: "Вимога укласти договір"
