@@ -61,7 +61,7 @@
   random_event.15.title: "Купці незадоволені"
   random_event.15.desc: "Протести та скарги купців на податки, портові збори, привласнення суден на користь флоту, а також на торгові та митні закони стають все гучнішими і погано позначаються на нашій економіці."
   random_event.15.a: "Скоротимо контроль над торгівлею та вкладення в неї."
-  random_event.15.b: "Позбудемося смутьянів."
+  random_event.15.b: "Позбудьмося баламутів."
   random_event.16.title: "Політична криза"
   random_event.16.desc: "Час від часу в [ROOT.GetCountry.Custom('rank_ru_PREP')|l] трапляються політичні кризи. Зачасту внаслідок цього [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] висловлюють своє невдоволення, і виникають конфлікти інтересів, в яких стикаються [target_ruler.GetName] та [ROOT.GetCountry.GetGovernment.GetParliament.GetName|l], або [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l], [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] та [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l]. Одна з таких криз нещодавно підірвала суспільну довіру до наших державних інститутів."
   random_event.16.a: "З часом все владнається само собою."
