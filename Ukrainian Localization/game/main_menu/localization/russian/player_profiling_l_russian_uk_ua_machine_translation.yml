@@ -24,7 +24,7 @@
   PLAYER_PLAYSTYLE_MILITARY: "Експансія"
   PLAYER_PLAYSTYLE_MILITARY_LONG: "Дерева завдань: експансія"
   PLAYER_PLAYSTYLE_MILITARY_SHORT: "Експ."
-  PLAYER_PLAYSTYLE_MILITARY_DESC: "Зосередьтеся на армії та флоті. Перемагайте ворогів та завойовуйте сусідні землі силою. Розширюйте флот та пануйте на морях, зміцнюючи морську присутність."
+  PLAYER_PLAYSTYLE_MILITARY_DESC: "Зосередьтеся на війську та флоті. Перемагайте ворогів та завойовуйте сусідні землі силою. Розширюйте флот та пануйте на морях, зміцнюючи морську присутність."
   PLAYER_PLAYSTYLE_MILITARY_TL: "#T $PLAYER_PLAYSTYLE_MILITARY$ #!\n$PLAYER_PLAYSTYLE_MILITARY_DESC$"
   PLAYER_PLAYSTYLE_TOOLTIP_TITLE: "Оберіть стиль гри"
   PLAYER_PLAYSTYLE_PICK_TL: "Оберіть стиль гри, щоб керувати переліченими системами вручну."

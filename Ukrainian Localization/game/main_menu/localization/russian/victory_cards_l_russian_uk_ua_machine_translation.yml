@@ -39,7 +39,7 @@
   DIP_SCORE_FLEET: "[Concept('navy', 'Флот')|e]: $VAL|+=2$"
   DIP_SCORE_SUBJECTS: "[Concept('subjects', 'Васали')|e]: $VAL|+=2$"
   DIP_SCORE_ALLIES: "[Concept('allies', 'Союзники')|e]: $VAL|+=2$"
-  MIL_SCORE_ARMY: "Регулярна [Concept('army', 'армія')|E]: $VAL|+=2$"
+  MIL_SCORE_ARMY: "Регулярне [Concept('army', 'військо')|E]: $VAL|+=2$"
   MIL_SCORE_LEVY: "[Concept('levies', 'Ополчення')|e]: $VAL|+=2$"
   MIL_SCORE_DISCIPLINE: "[Concept('discipline', 'Дисципліна')|e]: $VAL|+=2$"
   MIL_SCORE_MIL_TACTICS: "[Concept('military_tactics', 'Військова тактика')|e]: $VAL|+=2$"

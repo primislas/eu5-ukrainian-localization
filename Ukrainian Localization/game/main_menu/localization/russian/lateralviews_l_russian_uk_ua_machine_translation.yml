@@ -17,7 +17,7 @@
   lateralview_location_entry_name: "Місцевість: [LOCATION.GetNameWithNoTooltip|L]"
   lateralview_seazone_entry_name: "Акваторія: [LOCATION.GetNameWithNoTooltip|L]"
   lateralview_situation_entry_name: "Ситуація: [SITUATION.GetNameWithNoTooltip|L]"
-  lateralview_army_entry_name: "Панель армії"
+  lateralview_army_entry_name: "Панель війська"
   lateralview_navy_entry_name: "Панель флоту"
   lateralview_military_objectives_entry_name: "Панель цілей"
   lateralview_military_objective_entry_name: "Панель цілі"

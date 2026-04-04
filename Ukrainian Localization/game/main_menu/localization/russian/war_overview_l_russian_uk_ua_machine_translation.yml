@@ -78,7 +78,7 @@
   WAR_EXHAUSTION_TT: "[Concept('war_exhaustion', 'Втома від війни')|e] у жителів #ONCLICK:COUNTRY,[WarLateralViewParticipant.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[WarLateralViewParticipant.GetCountry.Custom('CL_tt')],X [WarLateralViewParticipant.GetCountry.Custom('CL_GEN')|L]#!#!: [WarLateralViewParticipant.GetCountry.GetFixedPointCurrencyValue('war_exhaustion')|+]\nМаксимум: [WarLateralViewParticipant.GetCountry.GetModifierValue('max_war_exhaustion')]"
   WAR_BLOCKADE_TT: "У блокаді [WarLateralViewParticipant.GetCountry.GetBlockadedPercent|2%] з [WarLateralViewParticipant.GetCountry.GetAdjectiveWithNoTooltip] портів"
   WAR_PARTICIPATION_TT: "[Concept('war_participation', 'Участь')|e] #ONCLICK:COUNTRY,[WarLateralViewParticipant.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[WarLateralViewParticipant.GetCountry.Custom('CL_tt')],X [WarLateralViewParticipant.GetCountry.Custom('CL_GEN')|L]#!#! у війні: [WarLateralViewParticipant.GetWarParticipation|0%]"
-  WAR_ARMY_LOSSES_TT: "Втрати армії"
+  WAR_ARMY_LOSSES_TT: "Втрати війська"
   WAR_NAVAL_LOSSES_TT: "Втрати флоту"
   WAR_PARTICIPATION_LABEL: "[Concept('war_participation', 'Участь у війні')|e]"
   WAR_SELECT_COUNTRY: "Оберіть країну, якій бажаєте запропонувати мир.\nЯкщо ви оберете лідера війни, пропозиція також буде зроблена всім його союзникам."
