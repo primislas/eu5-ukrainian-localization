@@ -360,7 +360,7 @@
   betray_our_allegiance_desc: "У війні назріває перелом. Колись ми пообіцяли свій меч і свою підтримку нашим союзникам у поточному конфлікті, але настав час прийняти реальність і переглянути дипломатичні відносини, щоб уберегти наш народ від жахів війни та уникнути підкорення."
   eng_leads_one_side_france_another_tt: "Одну сторону [Concept('war', 'війни')|e] очолю[GetCountry('ENG').Custom('end_etyut')] [GetCountry('ENG').GetName], а другу — [GetCountry('FRA').GetName]"
   choose_war_tt: "Вибір [Concept('war', 'війни')|e]"
-  war_goal_owned_by_us_tt: "[Concept('war_goal', 'Ціль війни')|e] — НЕ належний нам [Concept('location', 'місцевість')|e] або [Concept('province', 'провінція')|e]"
+  war_goal_owned_by_us_tt: "[Concept('war_goal', 'Ціль війни')|e] — НЕ належна нам [Concept('location', 'місцевість')|e] або [Concept('province', 'провінція')|e]"
   procure_core_claim: "Отримання претензій на корінні землі"
   procure_core_claim_desc: "Ми більше не можемо мовчати про свої законні претензії на ці землі. Проголосивши право на те, що по справедливості належить нам, ми створимо основу для війни за втрачені території."
   request_war_entry: "Прохання про вступ у війну"

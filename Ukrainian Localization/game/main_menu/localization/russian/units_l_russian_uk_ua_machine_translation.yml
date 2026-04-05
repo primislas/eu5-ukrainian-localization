@@ -1391,7 +1391,7 @@
   UNIT_LOSING_FOOD: "@trigger_no! Цього місяця [Concept('army', 'військо')|e] витратить $VAL|R2$ од. [Concept('food', 'їжі')|e] зі своїх запасів. Причини: $WHY$."
   UNIT_GATHERING_FOOD: "Цього місяця [Concept('army', 'військо')|e] збере $VAL|G2$ од. [Concept('food', 'їжі')|e]. Причини:\n$WHY$"
   UNIT_LOSING_MIGHT_LOSE_FOOD: "Якщо загін не матиме доступу до місцевої їжі, він споживатиме по $VAL|Y2$ од. [Concept('food', 'їжі')|e] на місяць."
-  WILL_LOSE_TROOPS_TO_ATTRITION: "#R  Щомісяця солдати помиратимуть через суворий [Concept('climate', 'клімат')|e], нестачу [Concept('food', 'їжі')|e] та інші негативні фактори!#!"
+  WILL_LOSE_TROOPS_TO_ATTRITION: "#R  Щомісяця солдати помиратимуть через суворий [Concept('climate', 'клімат')|e], нестачу [Concept('food', 'їжі')|e] та інші негативні чинники!#!"
   WILL_GAIN_FOOD: "Це [Concept('army', 'військо')|e] знаходиться в провінції [LOCATION.GetProvince.GetName], де контролює поставки [Concept('food', 'їжі')|e]."
   FOOD_LAST_MONTH: "$SOURCE$: $VAL|=+2$@food!"
   DISTRIBUTED_FOOD_NAVY: "\nЦей [Concept('navy', 'флот')|e] [Concept('distributing_food', 'розподіляє їжу')|e] між нужденними [Concept('armies', 'військами')|e] поблизу. Минулого місяця він розподілив $VAL|-=2$ од. їжі."

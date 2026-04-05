@@ -286,7 +286,7 @@
   MODIFIER_TYPE_NAME_global_monthly_food_modifier: "Виробництво їжі в %"
   MODIFIER_TYPE_DESC_global_monthly_food_modifier: "Впливає на те, скільки [Concept('food', 'їжі')|e] виробляється в усіх [Concept('locations', 'місцевостях')|e] [Concept('country', 'країни')|e]."
   MODIFIER_TYPE_NAME_hostile_food_multiplier: "Загальний множник їжі"
-  MODIFIER_TYPE_DESC_hostile_food_multiplier: "Впливає на те, скільки [Concept('food', 'їжі')|e] виробляється в [Concept('location', 'місцевості')|e] після врахування всіх інших факторів."
+  MODIFIER_TYPE_DESC_hostile_food_multiplier: "Впливає на те, скільки [Concept('food', 'їжі')|e] виробляється в [Concept('location', 'місцевості')|e] після врахування всіх інших чинників."
   MODIFIER_TYPE_NAME_local_navy_attrition: "Виснаження флоту"
   MODIFIER_TYPE_DESC_local_navy_attrition: "Впливає на [Concept('attrition', 'виснаження')|e] [Concept('navies', 'флотів')|e] в [Concept('seazone', 'акваторії')|e]."
   MODIFIER_TYPE_NAME_local_army_attrition: "Виснаження війська"
