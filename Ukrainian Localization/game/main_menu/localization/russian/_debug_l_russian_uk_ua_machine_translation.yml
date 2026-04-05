@@ -39,7 +39,7 @@
   show_event_target_country_interaction: "Ціль події: [Concept('country_interaction', 'взаємодія з країною')|e] «[COUNTRY_INTERACTION.GetName]»"
   show_event_target_country_rank: "Ціль події: [Concept('country_rank', 'ранг країни')|e] «[COUNTRY_RANK.GetName]»"
   show_event_target_generic_action: "Ціль події: [Concept('action', 'дія')|e] «[GENERIC_ACTION.GetName]»"
-  show_event_target_cabinet_action: "Ціль події: [Concept('cabinet_action', 'дія ради')|e] «[CABINET_ACTION.GetName]»"
+  show_event_target_cabinet_action: "Ціль події: [Concept('cabinet_action', 'доручення')|e] «[CABINET_ACTION.GetName]»"
   show_event_target_building_type: "Ціль події: [Concept('building', 'споруда')|e] «[BUILDING_TYPE.GetName]»"
   show_event_target_unit_type: "Ціль події: [Concept('unit_type', 'тип військ')|e] «[UNIT_TYPE.GetName]»"
   show_event_target_levy_setup: "Ціль події: тип [Concept('levy', 'ополчення')|e] «[LEVY_SETUP.GetName]»"

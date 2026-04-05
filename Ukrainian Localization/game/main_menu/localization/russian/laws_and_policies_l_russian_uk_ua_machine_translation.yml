@@ -1349,7 +1349,7 @@
   zongdu_policy_scaling: "Обсяг #TOOLTIP:GOODS,silver,X #L срібла#!#!, видобутого в [Concept('country', 'країні')|e]"
   introduce_gaituguiliu_policy: "Гайтугуйлю"
   introduce_gaituguiliu_policy_desc: "[ShowSubjectTypeName('tusi')] — вожді племен у віддалених префектурах — є спадковими правителями місцевих етнічних меншин. Вони можуть бути корисні завдяки своєму зв'язку з народом, але в довгостроковій перспективі часто загрожують регіональній стабільності. Якщо поступово замінювати їх чиновниками, яких призначає центральний уряд, то підтримувати порядок у регіонах стане простіше."
-  unlock_gaituguiliu_tt: "Відкриває [Concept('cabinet_action', 'дію ради')|e] «[ShowCabinetActionName('gaituguiliu_policy')]» для лідера #TOOLTIP:INTERNATIONAL_ORGANIZATION,$middle_kingdom_tt$,X #L Серединного царства#!#!"
+  unlock_gaituguiliu_tt: "Відкриває [Concept('cabinet_action', 'доручення')|e] «[ShowCabinetActionName('gaituguiliu_policy')]» для лідера #TOOLTIP:INTERNATIONAL_ORGANIZATION,$middle_kingdom_tt$,X #L Серединного царства#!#!"
   lifan_yuan_policy: "Ліфаньюань"
   lifan_yuan_policy_desc: "Міністерства церемоній більше недостатньо для ефективного управління численними підданими та ленниками з віддалених регіонів усередині та за межами імперського кордону. Ми створимо відомство, яке займатиметься лише ними."
   cefeng_tizhi: "Цефен Тичжи"

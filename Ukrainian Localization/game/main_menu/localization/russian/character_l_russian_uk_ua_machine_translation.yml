@@ -32,7 +32,7 @@
   explorer_button_concept: "[Concept('explorer', 'Дослідник')|e]"
   appoint_cabinet: "Призначити радником"
   advisor_button_concept: "[Concept('cabinet', 'Кабінет міністрів')|e]"
-  appoint_cabinet_role: "Змінити дію ради"
+  appoint_cabinet_role: "Змінити доручення"
   appoint_commander_empty_army: "@trigger_no! Немає військ, якими можна командувати."
   change_army_empty_army: "@trigger_no! Немає військ, які можна вибрати."
   appoint_commander_empty_navy: "@trigger_no! Немає флотів, якими можна командувати."

@@ -132,7 +132,7 @@
   LEADERSHIP_RIVAL_OF_ENEMY: "[Concept('rival', 'Суперник')|e] [Concept('enemy', 'ворога')|e]"
   LEADERSHIP_ENEMY_OF_RIVAL: "[Concept('enemy', 'Ворог')|e] [Concept('rival', 'суперника')|e]"
   LEADERSHIP_ENEMY_OF_ENEMY: "[Concept('enemy', 'Ворог')|e] [Concept('enemy', 'ворога')|e]"
-  FROM_DEDICATED_CABINET_ACTION: "Від [Concept('cabinet_action', 'дії ради')|e]"
+  FROM_DEDICATED_CABINET_ACTION: "Від [Concept('cabinet_action', 'доручення')|e]"
   MODIFIER_MEMBER_OF_IO: "Учасник об'єднання «$IO$»"
   MODIFIER_SPECIAL_STATUS_COUNTRY_OF_IO: "$STATUS$ в об'єднанні «$IO$»"
   MODIFIER_SPECIAL_STATUS_LEADER_OF_IO: "[Concept('countries', 'Країни')|e] зі статусом «$STATUS$» в об'єднанні «$IO$»"

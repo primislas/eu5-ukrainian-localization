@@ -56,7 +56,7 @@
   UNLOCKS_CASUS_BELLI: "@casus_belli! Відкриває: [Concept('casus_belli', 'привід для війни')|e] «[CASUS_BELLI.GetName]»"
   UNLOCKS_CASUS_BELLI_NO_TT: "@casus_belli! Відкриває привід для війни «[CASUS_BELLI.GetNameWithNoTooltip]»"
   UNLOCKS_CABINET_ACTION_SHORT: "«[CABINET_ACTION.GetName]»"
-  UNLOCKS_CABINET_ACTION: "@cabinet_action! Відкриває: [Concept('cabinet_action', 'дію ради')|e] «[CABINET_ACTION.GetName]»"
+  UNLOCKS_CABINET_ACTION: "@cabinet_action! Відкриває: [Concept('cabinet_action', 'доручення')|e] «[CABINET_ACTION.GetName]»"
   UNLOCKS_CABINET_ACTION_NO_TT: "@cabinet_action! Відкриває дію «[CABINET_ACTION.GetNameWithNoTooltip]»"
   UNLOCKS_SUBJECT_TYPE_SHORT: "[SUBJECT_TYPE.GetName]"
   UNLOCKS_SUBJECT_TYPE: "$ICON$ Відкриває: [Concept('subject_type', 'тип ленника')|e] «[SUBJECT_TYPE.GetName]»"

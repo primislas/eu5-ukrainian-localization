@@ -179,7 +179,7 @@
   SCOPE_DEBUG_ESTATE_PRIVILEGE: "Становий привілей «$NAME$» ($ID$)"
   SCOPE_DEBUG_ESTATE_TYPE: "Тип стану «$NAME$» ($ID$)"
   SCOPE_DEBUG_GOVERNMENT_REFORM: "Державна реформа «$NAME$» ($ID$)"
-  SCOPE_DEBUG_CABINET_ACTION: "Дія ради «$NAME$» ($ID$)"
+  SCOPE_DEBUG_CABINET_ACTION: "Доручення «$NAME$» ($ID$)"
   SCOPE_DEBUG_GOVERNMENT_TYPE: "Форма правління «$NAME$» ($ID$)"
   SCOPE_DEBUG_INTERNATIONAL_ORGANIZATION: "Міжнародне об'єднання «$NAME$» ($ID$)"
   SCOPE_DEBUG_INTERNATIONAL_ORGANIZATION_TYPE: "Тип міжнародного об'єднання «$NAME$» ($ID$)"
