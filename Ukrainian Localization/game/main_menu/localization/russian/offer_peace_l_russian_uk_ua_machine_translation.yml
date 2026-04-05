@@ -48,7 +48,7 @@
   LOCATION_CATEGORY: "Договори про місцевості"
   CANCEL_SUBJECT: "Скасування статусу ленника"
   COUNTRY_CATEGORY: "Договори про країни"
-  CORES_CATEGORY: "Договори про національні місцевості"
+  CORES_CATEGORY: "Договори про корінні місцевості"
   MISC_CATEGORY: "Інші договори"
   BECOME_SUBJECT: "Отримання ленного статусу"
   PEACE_OFFER_DESC: "Дозволяє надіслати #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#! пропозицію про мир."

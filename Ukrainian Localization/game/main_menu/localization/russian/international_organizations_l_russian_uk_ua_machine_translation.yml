@@ -486,7 +486,7 @@
   middle_kingdom_tribute_price_modifier: "З урахуванням загального доходу від торгівлі та податків усіх учасників"
   celestial_governor: "Небесний губернатор"
   celestial_governor_plural: "Небесні губернатори"
-  celestial_governor_desc: "Небесний губернатор виражає волю правителя. [GetUniqueInternationalOrganization('middle_kingdom').GetLeaderTitle|U] наділив його владою над землями, що не входять до національної місцевості Китаю."
+  celestial_governor_desc: "Небесний губернатор виражає волю правителя. [GetUniqueInternationalOrganization('middle_kingdom').GetLeaderTitle|U] наділив його владою над землями, що не входять до корінної місцевості Китаю."
   celestial_authority: "Небесний авторитет"
   celestial_authority_desc: "Показник влади, якою користується [GetInternationalOrganizationType('middle_kingdom').GetName]."
   celestial_authority_DISPLAY: "$VAL|0$"

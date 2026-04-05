@@ -7,4 +7,4 @@
   colonial_federation_events.1001.desc: "Голосування завершилося, і наш народ виявив свою волю. Старий союз «[target_io.GetName]» буде об'єднаний в єдину країну, а її главою стане [target_character.GetName]."
   colonial_federation_events.1001.a: "Хай живе наша нова країна!"
   colonial_federation_events.1001.b: "Більше ми ні перед ким не схилимося!"
-  colonial_federation_break_away_tt: "Всі належні нам місцевості, що є [Concept('core', 'національними')|e] територіями #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!, відділяться від нас"
+  colonial_federation_break_away_tt: "Всі належні нам місцевості, що є [Concept('core', 'корінними')|e] територіями #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!, відділяться від нас"

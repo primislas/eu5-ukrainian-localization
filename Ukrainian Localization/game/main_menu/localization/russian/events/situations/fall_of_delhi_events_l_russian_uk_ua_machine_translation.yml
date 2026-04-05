@@ -73,7 +73,7 @@
   delhi_situation.16.a: "У нас немає вибору…"
   delhi_situation.16.b: "Все ще може змінитися на краще!"
   end_situation_badly_tt: "[Concept('situation', 'Ситуація')|e] #TOOLTIP:SITUATION,fall_of_delhi,X #L «Падіння Делі»#!#! завершилася"
-  we_will_lose_all_cores_tt: "Ми відмовимося від усіх [Concept('cores', 'національних місцевостей')|e] в Індії, які не належать нам безпосередньо"
+  we_will_lose_all_cores_tt: "Ми відмовимося від усіх [Concept('cores', 'корінних місцевостей')|e] в Індії, які не належать нам безпосередньо"
   gain_10_progress_for_claimants_tt: "У ході [Concept('situation', 'ситуації')|e] «[GetSituationByKey('fall_of_delhi').GetName]» #Y  частка влади#! наших противників збільшиться на #R  10%#!"
   powerful_warlords_will_rise_tt: "Могутні [Concept('countries', 'країни')|e] заповнять порожнечу в Індії, що утворилася після нашого падіння"
   delhi_situation.17.title: "Роботи з орошення на Ямуні"

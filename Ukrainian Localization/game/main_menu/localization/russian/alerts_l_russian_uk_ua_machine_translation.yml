@@ -124,7 +124,7 @@
   ALERT_POSSIBLE_LAWS: "Доступні для кодифікації [Concept('laws', 'закони')|e]:"
   ALERT_LAW_ENTRY: "$BULLET_WITH_TAB$[LAW.GetName]"
   ALERT_POSSIBLE_GOV_ACTION_TITLE: "Можливі доручення"
-  ALERT_POSSIBLE_GOV_ACTION: "Ми можемо доручити своїй [Concept('cabinet', 'раді')|e] більше певних [Concept('cabinet_actions', 'дій')|e]."
+  ALERT_POSSIBLE_GOV_ACTION: "Ми можемо доручити своїй [Concept('cabinet', 'раді')|e] додаткові [Concept('cabinet_actions', 'завдання')|e]."
   ALERT_MAX_DIPLOMATS_AVAILABLE_TITLE: "Можливі дипломатичні дії"
   ALERT_MAX_DIPLOMATS_AVAILABLE: "Ми вже задіяли всіх [Concept('diplomats', 'дипломатів')|e], яким можемо доручити [Concept('diplomatic_actions', 'відповідні дії')|e]."
   ALERT_RELIGIOUS_ASPECT_AVAILABLE_TITLE: "Можлива релігійна особливість"

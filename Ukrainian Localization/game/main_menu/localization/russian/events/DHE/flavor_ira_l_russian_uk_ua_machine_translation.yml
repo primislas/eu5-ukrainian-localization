@@ -205,7 +205,7 @@
   flavor_ira.47.title: "Сходження Сефевідів"
   flavor_ira.47.desc: "У [target_location.Custom('LR_PREP')|l] [target_location.GetName] оселився орден #TOOLTIP:RELIGIOUS_SCHOOL,safavid_school,X #L сефевіє#!#!, який очолює [target_character.GetName]. Його члени — ревно віруючі #TOOLTIP:RELIGION,$shia_tt$,X #L шиїти#!#!, вони активно поширюють вчення дванадцяти імамів на навколишні землі. Їхні вірування близькі до наших, а присутність ордену на #L [ROOT.GetCountry.GetAdjective|l]ій#! землі відкриває певні можливості. Ми могли б передати їм у володіння область [target_area.GetName], зробивши їх нашими ленниками. Це дасть нам можливість контролювати орден."
   flavor_ira.47.a: "Ми передамо землі дому [ShowDynastyNameWithNoTooltip('safavid_dynasty')]."
-  flavor_ira.47.a.tt: "[target_character.GetName] стане на чолі нашого #TOOLTIP:SUBJECT_TYPE,vassal,X #L васала#!#! в області [target_area.GetName] під назвою [GetCountry('ABL').GetLongName]. Ми передамо ордену володіння цією областю та свої національні місцевості на її території"
+  flavor_ira.47.a.tt: "[target_character.GetName] стане на чолі нашого #TOOLTIP:SUBJECT_TYPE,vassal,X #L васала#!#! в області [target_area.GetName] під назвою [GetCountry('ABL').GetLongName]. Ми передамо ордену володіння цією областю та свої корінні місцевості на її території"
   flavor_ira.47.b: "Вони не отримають нашу землю."
   flavor_ira.47.c: "Цей орден сефевіє становить великий інтерес…"
   flavor_ira.48.title: "Мілітаризм [ROOT.GetCountry.Custom('CL_GEN')]"
