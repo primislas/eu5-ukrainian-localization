@@ -4,7 +4,7 @@
   LOAD_INGAME_BUTTON_DISABLED: "@trigger_no! У мережевій грі не можна завантажити гру."
   LOAD_INGAME_BUTTON_IRONMAN: "@trigger_no! У режимі «Залізна воля» завантаження недоступне."
   HOST_GAME_BUTTON_DISABLED: "Ви зараз у мережевій грі"
-  GAME_NOT_PAUSED: "#X  Гра НЕ призупинена#!"
+  GAME_NOT_PAUSED: "#X  Гру НЕ призупинено#!"
   PAUSE_MENU_GAME_RULES_TOOLTIP: "Перегляньте поточну конфігурацію правил гри"
   PAUSE_MENU_SETTINGS_TOOLTIP: "Перегляньте поточні параметри"
   PAUSE_MENU_AI_SETTINGS_TOOLTIP: "Перегляньте параметри комп'ютерного керування\nЦі налаштування визначають, як комп'ютер керує країною, доки ви не підключені"

@@ -4,7 +4,7 @@
   JOMINI_LOAD_INCOMPATIBLE_GAME_TITLE: "Збереження може бути несумісним"
   JOMINI_LOAD_INCOMPATIBLE_GAME_DESC: "Збереження неможливо завантажити, причина:\n\n$REASON$\n\nПродовжити завантаження?"
   JOMINI_DELETE_PLAYTHROUGH_CONFIRMATION_TITLE: "Видалення гри"
-  JOMINI_DELETE_PLAYTHROUGH_CONFIRMATION_DESC: "Гра ($NAME$) та всі її збереження буде видалено.\n\n Ви впевнені?"
+  JOMINI_DELETE_PLAYTHROUGH_CONFIRMATION_DESC: "Гру ($NAME$) та всі її збереження буде видалено.\n\n Ви впевнені?"
   JOMINI_DELETE_SAVEGAME_CONFIRMATION_TITLE: "Видалення збереження"
   JOMINI_DELETE_SAVEGAME_CONFIRMATION_DESC: "Збереження ($NAME$) буде видалено.\n\n Ви впевнені?"
   JOMINI_OVERWRITE_SAVEGAME_CONFIRMATION_TITLE: "Перезаписати збереження"
