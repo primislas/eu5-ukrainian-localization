@@ -109,7 +109,7 @@
   flavor_jap.114.desc: "[ROOT.GetCountry.GetLongName] — у відповідь на тутешнє зростання злочинності [our_ruler.GetName] [Select_CString(our_ruler.IsFemale, 'ухвалила', 'ухвалив' )] рішення зміцнити інститут #italic Самурай-докоро#! та значно розширити його повноваження по всій #TOOLTIP:REGION,japan_region,X #L Японії#!#!. На жаль, при дворі немає єдиної думки щодо того, хто повинен контролювати верховний орган кримінального правосуддя в країні — [GetCountry('IMG').GetName] чи [replacement_clan.GetName]."
   flavor_jap.114.a: "[GetCountry('IMG').GetLongNameWithNoTooltip] — володар посади."
   flavor_jap.114.b: "[replacement_clan.GetNameWithNoTooltip] краще впорається з цим завданням."
-  flavor_jap.115.title: "Зближення членів ради канрея"
+  flavor_jap.115.title: "Зближення радників канрея"
   flavor_jap.115.desc: "Рада канрея перетворилася на арену політичного суперництва між кланами, але водночас допомогла їм згуртуватися та знайти спільну мову. Це зближення сприяло зміцненню [ROOT.GetCountry.GetGovernment.GetAdjective|l]ої влади, і тепер [our_ruler.GetName] може розраховувати на абсолютну відданість багатьох кланів."
   flavor_jap.115.a: "Рада виявилася ефективним адміністративним органом."
   flavor_jap.120.title: "[GetCountry('SBA').GetNameWithNoTooltip] в опалі"

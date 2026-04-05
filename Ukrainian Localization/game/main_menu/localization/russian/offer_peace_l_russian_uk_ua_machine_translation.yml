@@ -312,7 +312,7 @@
   dissolve_coalition: "Розпуск коаліції"
   dissolve_coalition_entry: "Заборонити членам коаліції створювати нову протягом наступних 15 років."
   dissolve_coalition_entry_short: "$dissolve_coalition$"
-  AI_DESIRE_CABINET: "Немає вільних членів ради"
+  AI_DESIRE_CABINET: "Немає вільних радників"
   AI_DESIRE_REACH: "Немає доступу"
   AI_DESIRE_BORDERGORE: "Призведе до створення хаотичних кордонів"
   AI_DESIRE_WARSCORE_USED: "Витрата військового рахунку"

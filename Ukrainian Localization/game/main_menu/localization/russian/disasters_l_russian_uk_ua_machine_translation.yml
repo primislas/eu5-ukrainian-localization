@@ -175,7 +175,7 @@
   cd_inspect_area: "Інспекція області"
   cd_inspect_area_desc: "Спочиваючи на лаврах, ми дозволили собі розслабитися, і незабаром наша гординя принесла свої гіркі плоди. Настав час придушити бунтівні настрої підданих [actor.Custom('rank_ru_GEN')|l] і нагадати їм, що ми, як і раніше, твердо контролюємо свої землі."
   selected_area_inspected_tt: "В обраній [Concept('area', 'області')|e] буде проведена інспекція. Це знизить [Concept('pop_satisfaction', 'задоволення')|e] та зменшить [Concept('complacency', 'самовдоволення')|e] населення, але підвищить наш [Concept('control', 'контроль')|e] над ключовими [Concept('provinces', 'провінціями')|e] цієї області.\n#italic Ефективність інспекції головним чином залежить від [Concept('population', 'населення')|e] [Concept('area', 'області')|e] та нашої #TOOLTIP:MODIFIER_TYPE,legislative_efficiency,X #L законодавчої ефективності#!#!#!"
-  cd_purge_cabinet_member: "Вигнання члена ради"
+  cd_purge_cabinet_member: "Вигнання радника"
   cd_purge_cabinet_member_desc: "Повнота влади повністю розбещує людей, і члени нашої ради — не виняток. Ми повинні покласти край цьому моральному розкладанню, і для цього нам необхідно провести чистку в уряді."
   selected_character_banned_or_executed_tt: "Обраний [Concept('character', 'персонаж')|e] буде виключений з [Concept('cabinet', 'ради')|e] будь-яким доступним способом"
   decline_of_mali: "Занепад Малі"

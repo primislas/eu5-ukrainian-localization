@@ -633,7 +633,7 @@
   create_land_exploration: "Підготовка до наземної експедиції"
   remove_government_reform: "Скасування державної реформи"
   set_cabinet_action: "Призначення завдань раді"
-  set_cabinet_member: "Додавання члена ради"
+  set_cabinet_member: "Додавання радника"
   capital_movement_demand: "Переміщення столиць"
   market_create_demand: "Створення ринків"
   market_destroy_demand: "Знищення ринків"

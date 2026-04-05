@@ -137,7 +137,7 @@
   ALERT_INTERVENE_RIVAL_WAR_AVAILABLE_TITLE: "Втручання у війну суперника"
   ALERT_INTERVENE_RIVAL_WAR_AVAILABLE: "Ми можемо втрутитися у війну проти одного з наших [Concept('rivals', 'суперників')|e]."
   ALERT_INTERVENE_RIVAL_WAR_ENTRY: "[WAR.GetName]: втручання проти #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
-  ALERT_ACTION_LACK_CHAR_TITLE: "Брак члена ради"
+  ALERT_ACTION_LACK_CHAR_TITLE: "Брак радника"
   ALERT_ACTION_LACK_CHAR: "Для виконання цих [Concept('cabinet_actions', 'дій ради')|e] бракує [Concept('character', 'персонажа')|e]:"
   ALERT_CABINET_ENTRY: "$BULLET_WITH_TAB$[CABINET.GetName]"
   ALERT_NO_CURRENT_RESEARCH_TITLE: "Дослідження не проводяться"

@@ -36,7 +36,7 @@
   flavor_geo.7.a: "Хай почнеться війна."
   flavor_geo.7.b: "Відкрита ворожнеча нам ні до чого."
   flavor_geo.8.title: "[target_character2.GetNameWithNoTooltip] — наша надія"
-  flavor_geo.8.desc: "Далеко-далеко на заході знаходиться [target_country2.GetGovernment.GetCourtTitle|l] з благородними лицарями та незліченними багатствами. І хоча нас розділяє чимала відстань, у нас є спільна справа.\n\n[target_location.GetName] знову в лапах язичника, і ми повинні захистити [target_location.Custom('LR_ACC')|l] за будь-яку ціну. Багато членів ради прагнуть постійного діалогу з #ONCLICK:COUNTRY,[target_country2.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country2.Custom('CL_tt')],X [target_country2.Custom('CL_INST')|L]#!#! і просять допомогти нам у хрестовому поході…"
+  flavor_geo.8.desc: "Далеко-далеко на заході знаходиться [target_country2.GetGovernment.GetCourtTitle|l] з благородними лицарями та незліченними багатствами. І хоча нас розділяє чимала відстань, у нас є спільна справа.\n\n[target_location.GetName] знову в лапах язичника, і ми повинні захистити [target_location.Custom('LR_ACC')|l] за будь-яку ціну. Багато радників прагнуть постійного діалогу з #ONCLICK:COUNTRY,[target_country2.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country2.Custom('CL_tt')],X [target_country2.Custom('CL_INST')|L]#!#! і просять допомогти нам у хрестовому поході…"
   flavor_geo.8.a: "Відправимо листа з проханням про допомогу."
   flavor_geo.8.b: "У нас немає на це часу!"
   flavor_geo.9.title: "Християнство на Сході"
