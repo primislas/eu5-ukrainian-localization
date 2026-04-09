@@ -8,9 +8,10 @@ if __name__ == "__main__":
     tr_root_dirs = os.listdir(translation_dir)
     moved_file_count = 0
     for tr_dir in tr_root_dirs:
-        source_dir_path = Path(os.path.join(translation_dir, tr_dir)).resolve()
+        source_dir_path = Path(os.path.join(str(translation_dir), tr_dir)).resolve()
         machine_translations = list_localization_files("russian_uk_ua_machine_translation", source_dir=source_dir_path)
-        for mt_file in machine_translations:
+        post_edited_translations = list_localization_files("russian_uk_ua_post_edited", source_dir=source_dir_path)
+        for mt_file in post_edited_translations + machine_translations:
             # post_edited_file = mt_file.replace("_uk_ua_machine_translation", "ukrainian")
             moved_file = mt_file
             # if os.path.exists(post_edited_file):

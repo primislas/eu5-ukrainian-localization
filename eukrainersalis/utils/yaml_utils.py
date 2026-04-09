@@ -5,7 +5,6 @@ import re
 import aiofiles
 import yaml
 
-from eukrainersalis.utils.file_utils import list_localization_files
 from eukrainersalis.utils.log_utils import logger
 from eukrainersalis.utils.translation_utils import text_is_not_translated, Language
 
@@ -96,14 +95,14 @@ async def write_eu5_localization_yaml_async(data: dict, output_file_path: str) -
     )
     await asyncio.to_thread(os.makedirs, os.path.dirname(output_file_path), exist_ok=True)
     async with aiofiles.open(output_file_path, "w", encoding="utf-8-sig") as output_file_handle:
-            return await output_file_handle.write(dumped.strip())
+        return await output_file_handle.write(dumped.strip())
 
 def validate_localization_file(file_path: str, language: Language | str = Language.ENGLISH) -> bool:
     """Validate a YAML localization file by parsing it and checking for errors."""
     try:
         content = load_eu5_yaml(file_path)
         content_key = Language(language).localization_key
-        has_english_content = content_key in content and content.get(content_key)
+        has_english_content = content_key in content and bool(content.get(content_key))
         if not has_english_content:
             logger.debug(f"{file_path} has no {language} localization")
         return has_english_content
@@ -159,39 +158,3 @@ async def get_untranslated_keys(file_path, language: Language | str | None = Non
     content = await load_eu5_yaml_async(file_path)
     localization: dict[str, str] = content.get(localization_key, {})
     return {k: v for k, v in localization.items() if text_is_not_translated(v)}
-
-
-if __name__ == "__main__":
-    _fixed_declaration = 0
-    _unfixed_dangling_concept = 0
-    _localization_key = Language.RUSSIAN.localization_key
-    for file in list_localization_files("russian_uk_ua_machine_translation"):
-        _content = load_eu5_yaml(file)
-        for k, v in _content.get(_localization_key, {}).items():
-            if "Concept('antagonism', 'неприязн" in v:
-                v = v.replace("'antagonism', 'неприязнь'", "'antagonism', 'ворожість'")
-                v = v.replace("'antagonism', 'неприязні'", "'antagonism', 'ворожості'")
-                v = v.replace("'antagonism', 'неприязню'", "'antagonism', 'ворожістю'")
-                _content[_localization_key][k] = v
-                _fixed_declaration += 1
-            if "Concept('antagonism', 'Неприязн" in v:
-                v = v.replace("'antagonism', 'Неприязнь'", "'antagonism', 'Ворожість'")
-                v = v.replace("'antagonism', 'Неприязні'", "'antagonism', 'Ворожості'")
-                v = v.replace("'antagonism', 'Неприязню'", "'antagonism', 'Ворожістю'")
-                _content[_localization_key][k] = v
-                _fixed_declaration += 1
-            # fixed = fix_concept_declarations(v)
-            # if v != fixed:
-            #     print(f"{os.path.basename(file)} -> {k}:")
-            #     print(f"\t--- {v}")
-            #     print(f"\t+++ {fixed}")
-            #     fixed_declaration += 1
-            #     content[localization_key][k] = fixed
-            # else:
-            #     if re.match(r"\[[a-z_]+', 'CONCEPT_PLACEHOLDER'\)\|[eE]]", v):
-            #         print(f"{os.path.basename(file)}: {k}: {v}")
-            #         print(f"\tFound unfixed dangling concept declaration")
-            #         unfixed_dangling_concept += 1
-        write_eu5_localization_yaml(_content, file)
-    # print(f"Fixed {fixed_declaration} concept declarations, {unfixed_dangling_concept} unfixed dangling concepts")
-    print(f"Fixed {_fixed_declaration} declarations")

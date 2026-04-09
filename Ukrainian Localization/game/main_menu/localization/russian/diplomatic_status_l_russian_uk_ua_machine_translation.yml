@@ -44,7 +44,7 @@
   diplomatic_status_guaranteed_name: "Отримана гарантія"
   diplomatic_status_guaranteed_tooltip: "#T Отримана гарантія#!\nУсі країни, які [Concept('guaranteeing', 'дали гарантію')|e] країні, вступлять в оборонну [Concept('war', 'війну')|e], якщо країна зазнає нападу."
   diplomatic_status_truce_name: "Перемир'я"
-  diplomatic_status_truce_tooltip: "#T Перемир'я#!\nКраїна уклала [Concept('truce', 'перемир'я')|e] з цими [Concept('countries', 'країнами')|e]."
+  diplomatic_status_truce_tooltip: "#T Перемир'я#!\nКраїна уклала [Concept('truce', 'перемир’я')|e] з цими [Concept('countries', 'країнами')|e]."
   diplomatic_status_annul_treaties_name: "Розірвання договорів"
   diplomatic_status_annul_treaties_tooltip: "#T Розірвання договорів#!\nКраїна була змушена розірвати всі договори з цими [Concept('countries', 'країнами')|e], тому вона не може мати з ними жодних відносин або підкорити їх дипломатичним шляхом."
   diplomatic_status_warning_name: "Попередження"

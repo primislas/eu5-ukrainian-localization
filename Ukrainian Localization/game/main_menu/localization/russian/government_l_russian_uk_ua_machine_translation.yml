@@ -697,7 +697,7 @@
   integrate_area_action_progress: "[Cabinet.GetActionNumProgress|%]"
   integrate_area_action_progress_wordier: "[Concept('integration', 'Інтеграція')|e] завершиться [SCOPE.sArea('target').FindFirstNonIntegrated(SCOPE.sCountry('actor').Self).GetIntegrationETA]"
   integrate_area_action_progress_long_wordier: "@province_integration_speed! [SCOPE.sArea('target').FindFirstNonIntegrated(SCOPE.sCountry('actor').Self).GetIntegrationETA] \n\n@province_integration_speed!#W [Cabinet.GetActionProgress]#!"
-  integrate_area_action_progress_tooltip: "[Concept('integration', 'Інтеграція')|e] завершена на #W [Cabinet.GetActionNumProgress|%]#!\n[SCOPE.sArea('target').FindFirstNonIntegrated(SCOPE.sCountry('actor').Self).GetIntegrationFinishedInfo]"
+  integrate_area_action_progress_tooltip: "[Concept('integration', 'Інтеграція')|e] завершена на #W [SCOPE.sCabinet('cabinet').GetActionNumProgress|%]#!\n[SCOPE.sArea('target').FindFirstNonIntegrated(SCOPE.sCountry('actor').Self).GetIntegrationFinishedInfo]"
   develop_province: "Розвиток провінції"
   develop_province_desc: "Це найкращий спосіб підвищити [Concept('development', 'розвиток')|e] у вибраній [Concept('province', 'провінції')|e]. Швидше за все, ви захочете зробити саме це за відсутності більш термінових справ."
   develop_province_action: "Підвищити розвиток у провінції [SCOPE.sProvince('target').GetNameWithNoTooltip]"

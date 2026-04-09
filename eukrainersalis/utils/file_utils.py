@@ -10,8 +10,8 @@ load_dotenv()
 
 project_dir = Path(__file__).resolve().parent.parent.parent
 translation_dir = project_dir / "Ukrainian Localization"
-game_dir = Path(os.getenv("GAME_DIR"))
-mod_dir = Path(os.getenv("MOD_DIR"))
+game_dir = Path(os.getenv("GAME_DIR", "./"))
+mod_dir = Path(os.getenv("MOD_DIR", "./"))
 _EMPTY_LIST = []
 
 
@@ -30,6 +30,11 @@ def list_localization_files(languages: Language | str | list[Language | str] | N
                 localization_files.append(os.path.join(root, file))
 
     return localization_files
+
+
+def list_translation_files(languages: Language | str | list[Language | str] | None = None, source_dir: Path = translation_dir) -> list[str]:
+    
+    return list_localization_files(languages, source_dir)
 
 
 if __name__ == "__main__":
