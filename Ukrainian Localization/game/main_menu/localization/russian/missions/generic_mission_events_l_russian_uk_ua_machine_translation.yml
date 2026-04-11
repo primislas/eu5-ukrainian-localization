@@ -58,7 +58,7 @@
   generic_mission_events.15.title: "Ігнорування сільських місцевостей"
   generic_mission_events.15.desc: "Жителі провінції [target_province.GetName] та її головної [target_location.Custom('LR_GEN')|l] під назвою [target_location.GetName] все частіше починають висловлювати невдоволення: їм не подобається, що ми приділяємо всю увагу розвитку великих міст і центральній владі, в той час як села залишаємо осторонь. Ці люди одностайні у своїх вимогах: призупинити перетворення та згадати про забуту сільську місцевість, адже саме на хліборобах тримається [ROOT.GetCountry.GetFlavorRank|l]."
   generic_mission_events.15.a: "Їхнє невдоволення не вплине на наші рішення."
-  generic_mission_events.15.b: "Турботи простолюду нас не хвилюють."
+  generic_mission_events.15.b: "Турботи селян нас не хвилюють."
   generic_mission_events.15.c: "Можливо, нам допоможе [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l]."
   progress_towards_centralization_will_not_be_hindered_tt: "Просування до [Concept('societal_value', 'суспільної цінності')|e] #TOOLTIP:SOCIETAL_VALUE,centralization_vs_decentralization,X #L «Централізація»#!#! не сповільниться"
   generic_mission_events.16.title: "[target_character.GetNameWithNoTooltip] та [Select_CString(target_character.IsFemale, 'її', 'його')] податкові реформи"

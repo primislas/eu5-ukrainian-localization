@@ -1,5 +1,5 @@
 ﻿l_russian:
   flavor_dit.1.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')|U] [ROOT.GetCountry.Custom('CL_GEN')]"
-  flavor_dit.1.desc: "Зовнішній світ давним-давно перестав цікавитися справами #L [ROOT.GetCountry.GetAdjective|l]их#! #TOOLTIP:POPTYPE,peasants,X #L простолюду#!#!. Нині країна управляється регіональними громадами, у #TOOLTIP:POPTYPE,nobles,X #L знаті#!#! немає жодної влади. Чи не час остаточно порвати з феодальним суспільством #TOOLTIP:CONTINENT,europe,X #L Європи#!#! та офіційно проголосити себе #TOOLTIP:GOVERNMENT_REFORM,peasant_republic_reform,X #L селянською республікою#!#!, якою ми фактично і є протягом століть?"
+  flavor_dit.1.desc: "Зовнішній світ давним-давно перестав цікавитися справами #L [ROOT.GetCountry.GetAdjective|l]их#! #TOOLTIP:POPTYPE,peasants,X #L селян#!#!. Нині країна управляється регіональними громадами, у #TOOLTIP:POPTYPE,nobles,X #L знаті#!#! немає жодної влади. Чи не час остаточно порвати з феодальним суспільством #TOOLTIP:CONTINENT,europe,X #L Європи#!#! та офіційно проголосити себе #TOOLTIP:GOVERNMENT_REFORM,peasant_republic_reform,X #L селянською республікою#!#!, якою ми фактично і є протягом століть?"
   flavor_dit.1.a: "Мир хатинам! Війна палацам!"
   flavor_dit.1.b: "Мабуть, це вже занадто."

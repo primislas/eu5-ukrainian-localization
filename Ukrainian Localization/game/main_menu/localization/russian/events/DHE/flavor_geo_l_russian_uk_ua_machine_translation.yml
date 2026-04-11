@@ -44,7 +44,7 @@
   flavor_geo.9.a: "Допоможемо їм грошима!"
   flavor_geo.9.b: "Наші лицарі прийдуть на допомогу!"
   flavor_geo.9.c: "Нас не цікавлять порожні обіцянки…"
-  up_to_x_commoners_will_migrate_tt: "Частина #TOOLTIP:POPTYPE,peasants,X #L простолюду#!#! зі [Concept('capital', 'столичної')|e] [Concept('province_definition', 'провінції')|e] перебереться до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_ACC')|L]#!#"
+  up_to_x_commoners_will_migrate_tt: "Частина #TOOLTIP:POPTYPE,peasants,X #L селян#!#! зі [Concept('capital', 'столичної')|e] [Concept('province_definition', 'провінції')|e] перебереться до #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_ACC')|L]#!#"
   flavor_geo.10.title: "[target_country2.GetGovernment.GetRulerTitle] [target_country2.Custom('CL_GEN')] дає відповідь"
   flavor_geo.10.desc: "Наші дипломати повернулися додому після довгої та виснажливої подорожі на Захід. Що ж [Select_CString(target_country2.GetGovernment.GetRuler.IsFemale, 'відповіла', 'відповів')] [target_country2.GetGovernment.GetRulerTitle|l]? Нам би дуже знадобилася допомога #ONCLICK:COUNTRY,[target_country2.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country2.Custom('CL_tt')],X [target_country2.Custom('CL_GEN')|L]#!#!.\n\nІ ось печатка зламана… У повітрі повисла напружена тиша…"
   flavor_geo.10.a: "Радійте! Вони погодилися допомогти!"

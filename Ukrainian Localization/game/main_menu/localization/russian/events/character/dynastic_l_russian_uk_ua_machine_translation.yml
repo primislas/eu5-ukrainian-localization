@@ -64,7 +64,7 @@
   opinion_dynastic_helper: "Допомогли нашій правлячій династії"
   dynastic.13.b: "Обійдеться без допомоги — досить бездумних витрат."
   dynastic.14.title: "Потрясіння в династії [ruler_char.GetDynasty.GetNameWithNoTooltip]"
-  dynastic.14.desc: "[ruler_char.GetName] дізнається неприємний факт [Select_CString(disputee_char.IsFemale, 'про свою бабусю', 'про свого дідуся')]: виявляється, що [disputee_char.GetName] [Select_CString(disputee_char.IsFemale, 'походила', 'походив')] від простого простолюдина з міста [ROOT.GetCountry.GetCapital.GetName]."
+  dynastic.14.desc: "[ruler_char.GetName] дізнається неприємний факт [Select_CString(disputee_char.IsFemale, 'про свою бабусю', 'про свого дідуся')]: виявляється, що [disputee_char.GetName] [Select_CString(disputee_char.IsFemale, 'походила', 'походив')] від пересічного селянина з міста [ROOT.GetCountry.GetCapital.GetName]."
   dynastic.14.a: "Всяко це заперечуємо."
   dynastic.14.a.nickname: "[Select_CString(CHARACTER.IsFemale, 'Сумнівна', 'Сумнівний')]"
   dynastic.14.b: "На жаль, це правда."

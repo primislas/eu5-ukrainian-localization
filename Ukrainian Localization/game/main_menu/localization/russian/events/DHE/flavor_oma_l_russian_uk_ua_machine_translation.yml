@@ -1,6 +1,6 @@
 ﻿l_russian:
   flavor_oma.1.title: "Боротьба за владу"
-  flavor_oma.1.desc: "Користуючись нестабільною ситуацією [ROOT.GetCountry.Custom('predlog_vvo')] [ROOT.GetCountry.Custom('CL_PREP')], колишня правляча верхівка вирішує виступити проти народу та відновити старий імамат, де всі ключові рішення приймає [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l], а [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] і простолюд по суті позбавлені права голосу."
+  flavor_oma.1.desc: "Користуючись нестабільною ситуацією [ROOT.GetCountry.Custom('predlog_vvo')] [ROOT.GetCountry.Custom('CL_PREP')], колишня правляча верхівка вирішує виступити проти народу та відновити старий імамат, де всі ключові рішення приймає [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l], а [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] і простолюд по суті позбавлений права голосу."
   flavor_oma.1.historical_info: "Члени династії Набханідів правили Оманом понад три століття, проте у XV столітті обрані імами почали сумніватися в законності їхньої влади. В результаті тривалої боротьби Набханіди втратили контроль над країною."
   flavor_oma.1.a: "Ми не станемо цьому перешкоджати."
   flavor_oma.1.b: "Оманом правитиме [ROOT.GetCountry.GetGovernment.GetRulerTitle]!"

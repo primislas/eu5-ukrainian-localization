@@ -79,7 +79,7 @@
   flavor_sco.16.b: "Вона трощитиме стіни інших замків."
   flavor_sco.16.c: "Відправити її на переплавку."
   flavor_sco.17.title: "[burns.GetNameWithNoTooltip]"
-  flavor_sco.17.desc: "Бідний простолюд на ім'я [burns.GetName] прибув до [destination.Custom('LR_ACC')|l] [destination.GetName], щоб продавати тут свої збірки віршів про тяготи та радощі селянського життя.\n\nБувши великим любителем пригод (а також жіночої уваги), він сподівається накопичити достатньо грошей і вирушити в подорож до Вест-Індії."
+  flavor_sco.17.desc: "Бідний селянин на ім'я [burns.GetName] прибув до [destination.Custom('LR_ACC')|l] [destination.GetName], щоб продавати тут свої збірки віршів про тяготи та радощі селянського життя.\n\nБувши великим любителем пригод (а також жіночої уваги), він сподівається накопичити достатньо грошей і вирушити в подорож до Вест-Індії."
   flavor_sco.17.a: "Дивовижна людина."
   flavor_sco.17.b: "Замовимо йому ще кілька книг!"
   flavor_sco.18.title: "Вовк із [target_location.Custom('LR_GEN')|l] [wolf_origin.GetNameWithNoTooltip]"

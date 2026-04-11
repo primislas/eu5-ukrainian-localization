@@ -1024,7 +1024,7 @@
   rein_in_clergy: "Упокорення вірян"
   rein_in_clergy_desc: "$rein_estate_loc_key$"
   impose_restrictions_on_clergy_through_event_tt: "$restrictions_loc_key$ стан «[SCOPE.sCountry('actor').GetGovernment.GetEstateName('clergy_estate')|l]» за допомогою [Concept('event', 'події')|e]"
-  rein_in_peasants: "Упокорення простолюду"
+  rein_in_peasants: "Упокорення селян"
   rein_in_peasants_desc: "$rein_estate_loc_key$"
   impose_restrictions_on_peasants_through_event_tt: "$restrictions_loc_key$ стану «[SCOPE.sCountry('actor').GetGovernment.GetEstateName('peasants_estate')|l]» за допомогою [Concept('event', 'події')|e]"
   this_will_end_the_disaster_tt: "Це завершить [Concept('disaster', 'лихо')|e] «[ShowDisasterName('aspiration_for_liberty')]»\n"
