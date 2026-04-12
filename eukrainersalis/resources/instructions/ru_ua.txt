@@ -12,7 +12,7 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     * "махараджа" -> "магараджа", "Махараджья" -> "Магараджія", "Кингитанга" -> "Кінгітанга"
     * "nobles"/"аристократы" -> "знать"
     * "clergy"/"священники" -> "духовенство"
-    * "peasants"/"простолюдины" -> "простолюд"
+    * "peasants" -> "селяни", але "peasant_estate", "commoners", "common people/folk" -> "простолюд"
     * "country"/"держава" -> "країна"
     * "antagonism"/"неприязнь" -> "ворожість"
     * "estate_privilege"/"сословная привилегия" -> "становий привілей"

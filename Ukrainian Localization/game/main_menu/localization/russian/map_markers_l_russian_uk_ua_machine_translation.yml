@@ -4,7 +4,7 @@
   CLICK_TO_SELECT: "Клацніть, щоб вибрати"
   NAVY_STACK_IN_PROVINCE: "#T Флоти: $VAL$#!"
   ARMY_STACK_IN_PROVINCE: "#T Війська: $VAL$#!"
-  PORT_STACK_HEADER: "#T Фло́ти в порту: $VAL$#!"
+  PORT_STACK_HEADER: "#T Флоти в порту: $VAL$#!"
   PORT_NO_VISIBILITY: "Ми не знаємо, чи стоять кораблі в цьому [Concept('port', 'порту')|e]."
   ARMY_STACK_MORE: "…та $MEN|V$ [manpower_i] з ряду інших [Concept('armies', 'військ')|e] ($VAL$)"
   NAVY_STACK_MORE: "…та $SHIP|V$ @navy_generic! з ряду інших [Concept('navies', 'флотів')|e] ($VAL$)"

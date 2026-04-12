@@ -362,7 +362,7 @@
   CIVILWAR_FACTION_slave_NAME: "Повстання $ADJ$их рабів"
   CIVILWAR_FACTION_pretender_NAME: "$ADJ$і претенденти"
   CIVILWAR_FACTION_religious_NAME: "$ADJ$ий заколот"
-  CIVILWAR_FACTION_nobles_estate_NAME: "$ADJ$і аристократи"
+  CIVILWAR_FACTION_nobles_estate_NAME: "$ADJ$а знать"
   CIVILWAR_FACTION_clergy_estate_NAME: "$ADJ$е духовенство"
   CIVILWAR_FACTION_burghers_estate_NAME: "$ADJ$і міщани"
   CIVILWAR_FACTION_peasants_estate_NAME: "$ADJ$ий простолюд"

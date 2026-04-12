@@ -1235,7 +1235,7 @@
   burghers_controlled_amber_gathering: "[GetEstateNameWithNoTooltip('burghers_estate')] як розпорядники бурштину"
   burghers_controlled_amber_gathering_desc: "Мабуть, найкраще, щоб #TOOLTIP:GOODS,amber,X #L бурштином#!#! безпосередньо розпоряджалися ті, хто ним торгує. Усунувши посередників, ми значно збільшимо наші загальні доходи."
   peasant_controlled_amber_gathering: "Видобутком займаються [GetEstateNameWithNoTooltip('peasants_estate')|l]"
-  peasant_controlled_amber_gathering_desc: "#TOOLTIP:GOODS,amber,X Бурштином#! повинні розпоряджатися ті, хто його видобуває. Контролювати його видобуток будуть #TOOLTIP:ESTATE_TYPE,peasants_estate,X #L простолюдини#!#!."
+  peasant_controlled_amber_gathering_desc: "#TOOLTIP:GOODS,amber,X Бурштином#! повинні розпоряджатися ті, хто його видобуває. Контролювати його видобуток буде #TOOLTIP:ESTATE_TYPE,peasants_estate,X #L простолюд#!#!."
   jap_sakoku_law: "Взаємодія із заморськими країнами"
   jap_sakoku_law_desc: "$japan_region$ завжди мала перевагу, оскільки була відокремлена морем від інших країн. Ця віддаленість дозволяє легко закрити кордони нашої країни для зовнішнього світу."
   sakoku_enabled: "Сакоку"

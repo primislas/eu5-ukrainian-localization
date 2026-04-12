@@ -139,7 +139,7 @@
   support_clergy_cabinet_desc: "$support_cabinet_generic_desc$. Найрозумнішим рішенням буде звернутися до наших найбільш відданих прихильників — нам допоможуть священники."
   support_burgher_cabinet: "Підтримка ради, складеної з купців"
   support_burgher_cabinet_desc: "$support_cabinet_generic_desc$, якщо її профінансують найбагатші члени суспільства."
-  support_peasant_cabinet: "Підтримка ради, складеної з простолюдинів"
+  support_peasant_cabinet: "Підтримка ради, складеної з простолюду"
   support_peasant_cabinet_desc: "$support_cabinet_generic_desc$, якщо її підтримає народ."
   balance_the_budget: "Балансування бюджету"
   balance_the_budget_desc: "Фінансова криза, що нависла над нашим народом, є невідкладною проблемою, яку необхідно терміново вирішити."
