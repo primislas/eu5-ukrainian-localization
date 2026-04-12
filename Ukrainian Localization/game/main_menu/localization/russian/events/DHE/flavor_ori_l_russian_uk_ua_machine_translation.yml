@@ -9,7 +9,7 @@
   flavor_ori.2.a: "Ми й без податку на сіль проживемо."
   flavor_ori.2.b: "Ми не підемо на поводу в народу."
   flavor_ori.3.title: "Зародження літератури мовою орія"
-  flavor_ori.3.desc: "Ще зовсім недавно #TOOLTIP:LANGUAGE,sanskrit_language,X #L санскрит#!#! повсюдно використовувався в літературі [ROOT.GetCountry.Custom('CL_GEN')], тоді як #TOOLTIP:LANGUAGE,oriya_language,X #L орія#!#!, якою володіли [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] та люди з нижчих каст, залишався суто розмовним. Ситуація змінилася, коли відставний солдат [sarala_dasa.GetName], який не отримав належної освіти, переклав мовою орія епос «[ShowAdvanceName('mahabarata')]». Власні твори [sarala_dasa.GetNameWithNoTooltip] теж писав виключно орійською, і інші поети почали наслідувати його приклад."
+  flavor_ori.3.desc: "Ще зовсім недавно #TOOLTIP:LANGUAGE,sanskrit_language,X #L санскрит#!#! повсюдно використовувався в літературі [ROOT.GetCountry.Custom('CL_GEN')], тоді як #TOOLTIP:LANGUAGE,oriya_language,X #L орія#!#!, якою володіли [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] та люди з нижчих каст, залишався суто розмовним. Ситуація змінилася, коли відставний вояк [sarala_dasa.GetName], який не отримав належної освіти, переклав мовою орія епос «[ShowAdvanceName('mahabarata')]». Власні твори [sarala_dasa.GetNameWithNoTooltip] теж писав виключно орійською, і інші поети почали наслідувати його приклад."
   flavor_ori.3.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
   flavor_ori.3.b: "[ROOT.GetCountry.GetGovernment.GetCourtTitle] почне використовувати цю мову."
   flavor_ori.4.title: "[achyutananda.GetNameWithNoTooltip]"

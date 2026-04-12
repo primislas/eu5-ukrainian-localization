@@ -410,7 +410,7 @@
   the_strict: "[Select_CString(Character.IsFemale, 'Сувора', 'Суворий' )]"
   nick_the_great: "[Select_CString(Character.IsFemale, 'Велика', 'Великий' )]"
   nick_the_greek: "[Select_CString(Character.IsFemale, 'Грекиня', 'Грек' )]"
-  nick_the_soldier_king: "король-солдат"
+  nick_the_soldier_king: "король-вояк"
   nick_the_great_elector: "великий курфюрст"
   nick_boru: "Бору"
   nick_the_fowler: "[Select_CString(Character.IsFemale, 'Птахоловка', 'Птахолов' )]"

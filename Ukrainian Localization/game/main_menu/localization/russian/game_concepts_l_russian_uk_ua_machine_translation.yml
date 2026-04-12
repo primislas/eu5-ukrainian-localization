@@ -273,7 +273,7 @@
   game_concept_assault_desc: "Штурм — це спроба [Concept('siege', 'сторони, що облягає')|e] взяти приступом [Concept('fortification', 'укріплення')|e], щоб якнайшвидше захопити його. Це дуже дорогий крок — атакуюча сторона зазнає великих втрат."
   game_concept_garrison: "Гарнізон"
   game_concept_garrisons: "Гарнізони"
-  game_concept_garrison_desc: "Це солдати, які захищають [Concept('fortifications', 'укріплення')|e] [Concept('location', 'місцевості')|e]. Якщо всі вони загинуть або втратять [Concept('morale', 'бойовий дух')|e], сторона, що обороняється, програє [Concept('siege', 'облогу')|e].\n\nЩоб [Concept('siege', 'облога')|e] могла тривати, чисельність війська, що облягає, повинна бути не меншою за чисельність [Concept('garrison', 'гарнізону')|e], що обороняється. Для облоги [Concept('location', 'місцевості')|e] без [Concept('fortifications', 'укріплень')|e] потрібно не менше #V 100#! солдатів."
+  game_concept_garrison_desc: "Це вояки, які захищають [Concept('fortifications', 'укріплення')|e] [Concept('location', 'місцевості')|e]. Якщо всі вони загинуть або втратять [Concept('morale', 'бойовий дух')|e], сторона, що обороняється, програє [Concept('siege', 'облогу')|e].\n\nЩоб [Concept('siege', 'облога')|e] могла тривати, чисельність війська, що облягає, повинна бути не меншою за чисельність [Concept('garrison', 'гарнізону')|e], що обороняється. Для облоги [Concept('location', 'місцевості')|e] без [Concept('fortifications', 'укріплень')|e] потрібно не менше #V 100#! вояків."
   game_concept_combat: "Бій"
   game_concept_battle: "Битва"
   game_concept_battles: "Битви"

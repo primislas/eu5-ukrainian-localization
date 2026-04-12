@@ -1,6 +1,6 @@
 ﻿l_russian:
   rise_of_timur.1.title: "Сходження Тимура"
-  rise_of_timur.1.desc: "[GetCountry('MGE').GetLongName] — відроджений халіфат, що перевершує всі попередні… З мрією про це [target_character.GetName] з жменькою вірних солдатів створює нову країну — [GetCountry('TIM').GetLongName]. На перший погляд це незначна подія, але вона, схоже, матиме серйозні наслідки: [GetCountry('TIM').GetGovernment.GetRulerTitle|l] вважається природженим полководцем, і [Select_CString(target_character.IsFemale,'її', 'його')] найелітніші війська не збираються зупинятися на досягнутому. Вони зроблять усе, щоб розширити свої території…"
+  rise_of_timur.1.desc: "[GetCountry('MGE').GetLongName] — відроджений халіфат, що перевершує всі попередні… З мрією про це [target_character.GetName] з жменькою вірних вояків створює нову країну — [GetCountry('TIM').GetLongName]. На перший погляд це незначна подія, але вона, схоже, матиме серйозні наслідки: [GetCountry('TIM').GetGovernment.GetRulerTitle|l] вважається природженим полководцем, і [Select_CString(target_character.IsFemale,'її', 'його')] найелітніші війська не збираються зупинятися на досягнутому. Вони зроблять усе, щоб розширити свої території…"
   rise_of_timur.1.a: "Завоювання — це життя!"
   rise_of_timur.2.title: "[ShowSituationNameWithNoTooltip('rise_of_timur')]"
   rise_of_timur.2.a: "Їх потрібно зупинити!"
@@ -62,7 +62,7 @@
   rise_of_timur.15.a: "Анатолія схилиться перед нами."
   rise_of_timur.100.title: "Набіги на [target_country.Custom('CL_ACC')]"
   rise_of_timur.100.title.generic: "Набіги на чужі землі"
-  rise_of_timur.100.desc: "Люди рвуться в бій. [target_character.GetName] завершив свою останню кампанію більше року тому, і #L [root_country.GetAdjective|l]і#! воїни прагнуть нової битви. Не знаючи, як ще себе розважити, ці солдати здійснюють набіги на села #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!. Незважаючи на те, що вони проявили самовілля, їхні дії пішли нам на користь: тепер ми знаємо, що [target_country.GetAdjectiveWithNoTooltip|l]і землі погано захищені, а #L [target_country.GetCulture.GetName|l]ий#! народ слабкий. Ми без труднощів переможемо його і заволодіємо його багатствами!"
+  rise_of_timur.100.desc: "Люди рвуться в бій. [target_character.GetName] завершив свою останню кампанію більше року тому, і #L [root_country.GetAdjective|l]і#! воїни прагнуть нової битви. Не знаючи, як ще себе розважити, ці вояки здійснюють набіги на села #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!. Незважаючи на те, що вони проявили самовілля, їхні дії пішли нам на користь: тепер ми знаємо, що [target_country.GetAdjectiveWithNoTooltip|l]і землі погано захищені, а #L [target_country.GetCulture.GetName|l]ий#! народ слабкий. Ми без труднощів переможемо його і заволодіємо його багатствами!"
   rise_of_timur.100.a: "Влада [target_country.Custom('CL_GEN')] впаде!"
   rise_of_timur.100.b: "Ми поки не можемо напасти на [target_country.Custom('CL_ACC')]."
   rise_of_timur.101.title: "Культурний розвиток [target_country.Custom('CL_GEN')]"

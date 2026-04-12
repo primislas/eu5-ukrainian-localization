@@ -27,7 +27,7 @@
   clergy_pop_percentage_impact: "Відносне число #TOOLTIP:POPTYPE,clergy,X #L духовенства#!#!"
   burghers_pop_percentage_impact: "Відносне число #TOOLTIP:POPTYPE,burghers,X #L містян#!#!"
   laborers_pop_percentage_impact: "Відносне число #TOOLTIP:POPTYPE,laborers,X #L робітників#!#!"
-  soldiers_pop_percentage_impact: "Відносне число #TOOLTIP:POPTYPE,soldiers,X #L солдатів#!#!"
+  soldiers_pop_percentage_impact: "Відносне число #TOOLTIP:POPTYPE,soldiers,X #L вояків#!#!"
   peasants_pop_percentage_impact: "Відносне число #TOOLTIP:POPTYPE,peasants,X #L селян#!#!"
   slaves_pop_percentage_impact: "Відносне число #TOOLTIP:POPTYPE,slaves,X #L рабів#!#!"
   tribesmen_pop_percentage_impact: "Відносне число #TOOLTIP:POPTYPE,tribesmen,X #L соплемінників#!#!"

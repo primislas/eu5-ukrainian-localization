@@ -202,7 +202,7 @@
   flavor_dan_teu.2.desc: "Бунтівні #TOOLTIP:CULTURE,$estonian_tt$,X #L ести#!#!, що повстали в #L [TEU_denmark_from.GetAdjective]ій#! #TOOLTIP:PROVINCE_DEFINITION,estonia_province,X #L Естляндії#!#!, вже загрожують нашим #L [GetCountry('LIV').GetAdjective|l]им#! підданим. $flavor_dan_teu.2.attack$"
   flavor_dan_teu.2.a: "Ми дамо їм урок."
   flavor_dan_teu.3.title: "Доля гнобителів"
-  flavor_dan_teu.3.desc: "Нещодавно збройний загін придушив протести в провінції [target_province.GetName]. Розлючені солдати без розбору вбивали #TOOLTIP:CULTURE,$german_baltic_tt$,X #L балтійських німців#!#! за їхню прихильність #TOOLTIP:RELIGION,$catholic_tt$,X #L католицькій#!#! вірі."
+  flavor_dan_teu.3.desc: "Нещодавно збройний загін придушив протести в провінції [target_province.GetName]. Розлючені вояки без розбору вбивали #TOOLTIP:CULTURE,$german_baltic_tt$,X #L балтійських німців#!#! за їхню прихильність #TOOLTIP:RELIGION,$catholic_tt$,X #L католицькій#!#! вірі."
   flavor_dan_teu.3.a: "Закриємо на це очі."
   flavor_dan_teu.3.b: "Зараз не час для зведення рахунків."
   flavor_dan_teu.4.title: "Масові вбивства в провінції [target_province.GetNameWithNoTooltip]"

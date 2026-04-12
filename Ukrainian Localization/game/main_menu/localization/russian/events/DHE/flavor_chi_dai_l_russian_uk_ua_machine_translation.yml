@@ -42,6 +42,6 @@
   flavor_chi_dai.10.a: "Оголошуємо війну!"
   flavor_chi_dai.10.b: "У нас і так вистачає справ."
   flavor_chi_dai.11.title: "Приборкання в'єтнамців"
-  flavor_chi_dai.11.desc: "До наших військ у #TOOLTIP:AREA,red_river_delta_area,X #L дельті Червоної річки#!#! дійшов новий указ, який [Select_CString(target_character.IsFemale,'видала', 'видав')] [target_character.GetName]. Згідно з ним, воїни повинні знайти і спалити всі #L [ShowCultureName('vietnamese_culture')|l]і#! тексти, за винятком #L [ShowReligionGroupAdjective('buddhist')|l]их#! і даоських. Незважаючи на суворі вказівки, деякі солдати з цікавості дозволяють собі ознайомитися з текстами, перш ніж кидати їх у багаття…"
+  flavor_chi_dai.11.desc: "До наших військ у #TOOLTIP:AREA,red_river_delta_area,X #L дельті Червоної річки#!#! дійшов новий указ, який [Select_CString(target_character.IsFemale,'видала', 'видав')] [target_character.GetName]. Згідно з ним, воїни повинні знайти і спалити всі #L [ShowCultureName('vietnamese_culture')|l]і#! тексти, за винятком #L [ShowReligionGroupAdjective('buddhist')|l]их#! і даоських. Незважаючи на суворі вказівки, деякі вояки з цікавості дозволяють собі ознайомитися з текстами, перш ніж кидати їх у багаття…"
   flavor_chi_dai.11.a: "Потрібно зміцнити дисципліну!"
   flavor_chi_dai.11.b: "Скасувати указ!"

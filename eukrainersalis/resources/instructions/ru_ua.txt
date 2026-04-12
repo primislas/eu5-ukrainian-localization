@@ -42,6 +42,7 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     * "cabinet action" / "действие совета" -> "доручення"
     * "core location / region", "национальний район, регион" -> "корінна місцевість, регіон"
     * "фактор" -> "чинник"
+    * "soldier", "солдат" -> "вояк" та "вояцтво", але допускається "воїн" в урочистому тексті та "солдат", коли явно йдеться про більш пізні європейські війська
 5.  Low-Confidence Flagging: If you are uncertain about the translation of a proper noun (dynasty, ethnicity, culture), prefix it with 'POSTEDIT_'.
 6.  Translate only Russian text. Do not translate any other language.
 7.  Attempt to keep the sentence structure as close to the original as possible.

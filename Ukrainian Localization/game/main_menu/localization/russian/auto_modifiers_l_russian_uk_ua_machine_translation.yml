@@ -48,7 +48,7 @@
   AUTO_MODIFIER_NAME_country_control_scaled_population: "[Concept('population', 'Населення')|e], що залежить від [Concept('control', 'контролю')|e]"
   AUTO_MODIFIER_NAME_state_religion_clergy_ratio: "Частка духовенства [Concept('state_religion', 'основної релігії')|e]"
   AUTO_MODIFIER_NAME_proper_culture_nobles_ratio: "Частка #TOOLTIP:POPTYPE,nobles,X #L знаті#!#!, що належить до [Concept('primary_or_accepted_culture', 'основної або визнаної культури')|e]"
-  AUTO_MODIFIER_NAME_soldier_percentage_in_country: "Відсоток #TOOLTIP:POPTYPE,soldiers,X #L солдатів#!#!"
+  AUTO_MODIFIER_NAME_soldier_percentage_in_country: "Відсоток #TOOLTIP:POPTYPE,soldiers,X #L вояків#!#!"
   AUTO_MODIFIER_NAME_burghers_percentage_in_country: "Відсоток #TOOLTIP:POPTYPE,burghers,X #L містян#!#!"
   AUTO_MODIFIER_NAME_peasants_percentage_in_country: "Відсоток #TOOLTIP:POPTYPE,peasants,X #L селян#!#!"
   AUTO_MODIFIER_NAME_larger_than_expected_army: "Більше за очікуване військо"

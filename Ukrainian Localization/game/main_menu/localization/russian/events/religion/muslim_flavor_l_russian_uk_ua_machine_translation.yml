@@ -69,7 +69,7 @@
   muslim_flavor.16.a: "Забезпечимо суворе дотримання законів шаріату."
   muslim_flavor.16.b: "Допустимо відступи від законів шаріату."
   muslim_flavor.17.title: "$a_ghilman$"
-  muslim_flavor.17.desc: "Ці колишні раби з #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! були навернені в #TOOLTIP:RELIGIONGROUP,muslim,X #L іслам#!#! і пройшли навчання за рахунок своїх панів. Більшість із них служила солдатами, але деякі займали й адміністративні посади. Тепер деякі гулями, що залишилися в [ROOT.GetCountry.Custom('CL_PREP')] без господаря, намагаються надати своєму життю нового сенсу. Вони навіть прислали свого представника до двору з питанням, чи зможе [target_ruler.GetName] взяти їх на службу на благо [ROOT.GetCountry.Custom('rank_ru_GEN')|l]."
+  muslim_flavor.17.desc: "Ці колишні раби з #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! були навернені в #TOOLTIP:RELIGIONGROUP,muslim,X #L іслам#!#! і пройшли навчання за рахунок своїх панів. Більшість із них служила вояками, але деякі займали й адміністративні посади. Тепер деякі гулями, що залишилися в [ROOT.GetCountry.Custom('CL_PREP')] без господаря, намагаються надати своєму життю нового сенсу. Вони навіть прислали свого представника до двору з питанням, чи зможе [target_ruler.GetName] взяти їх на службу на благо [ROOT.GetCountry.Custom('rank_ru_GEN')|l]."
   muslim_flavor.17.a: "Дамо їм адміністративні посади."
   muslim_flavor.17.b: "Приймемо їх до війська."
   muslim_flavor.17.c: "Направимо їх до дипломатичного корпусу."
