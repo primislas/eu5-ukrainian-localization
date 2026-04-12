@@ -132,7 +132,7 @@
   disfavoured_god_tt: "Це [Concept('god', 'божество')|e] пригнічується"
   remove_ruler_traits_tt: "[THIS.GetCharacter.GetName] втрачає ВСІ [Concept('traits', 'властивості')|e] [Concept('ruler', 'правителя')|e]"
   remove_general_traits_tt: "[THIS.GetCharacter.GetName] втрачає ВСІ [Concept('traits', 'властивості')|e] [Concept('general', 'полководця')|e]"
-  remove_admiral_traits_tt: "[THIS.GetCharacter.GetName] втрачає ВСІ [Concept('traits', 'властивості')|e] [Concept('admiral', 'адмірала')|e]"
+  remove_admiral_traits_tt: "[THIS.GetCharacter.GetName] втрачає ВСІ [Concept('traits', 'властивості')|e] [Concept('admiral', 'флотоводця')|e]"
   remove_artist_traits_tt: "[THIS.GetCharacter.GetName] втрачає ВСІ [Concept('traits', 'властивості')|e] [Concept('artist', 'митця')|e]"
   remove_explorer_traits_tt: "[THIS.GetCharacter.GetName] втрачає ВСІ [Concept('traits', 'властивості')|e] [Concept('explorer', 'дослідника')|e]"
   remove_child_traits_tt: "[THIS.GetCharacter.GetName] втрачає ВСІ [Concept('traits', 'властивості')|e] дитини"
