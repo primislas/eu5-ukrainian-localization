@@ -883,7 +883,7 @@
   flavor_eng.140.tt2: "Якщо відправити його в експедицію до Нового Світу, він зможе постачати колонії в #TOOLTIP:AREA,southern_new_england_area,X #L Південній Новій Англії#!#!"
   flavor_eng.140.b: "Ірландії бракує твердої руки."
   flavor_eng.140.custom: "Кожна належна або підвладна нам [Concept('location', 'місцевість')|e] в #TOOLTIP:REGION,ireland_region,X #L Ірландії#!#! отримує модифікатор #TOOLTIP:STATIC_MODIFIER,raleigh_firm_hand,X #V #L «Тверда рука Релі»#!#!"
-  flavor_eng.140.tt3: "З'явиться [Concept('general', 'генерал')|e] [walter_raleigh.GetNameWithNoTooltip]"
+  flavor_eng.140.tt3: "З'явиться [Concept('general', 'полководець')|e] [walter_raleigh.GetNameWithNoTooltip]"
   flavor_eng.140.tt4: "Ймовірність нових заколотів в #TOOLTIP:REGION,ireland_region,X #L Ірландії#!#! знизиться через репутацію Релі"
   STATIC_MODIFIER_NAME_raleigh_firm_hand: "Тверда рука Релі"
   flavor_eng.140.c: "Він добре проявить себе в державних справах."

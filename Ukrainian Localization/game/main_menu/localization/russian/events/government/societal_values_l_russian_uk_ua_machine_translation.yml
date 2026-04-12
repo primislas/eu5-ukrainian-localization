@@ -1177,7 +1177,7 @@
   societal_values.2310.a: "Жодні [target_estate.GetNameWithNoTooltip|l] не мають права визначати нашу політику!"
   societal_values.2310.b: "Прислухаємося до побоювань стану."
   societal_values.2311.title: "Мілітаризація двору"
-  societal_values.2311.desc: "Голоси прихильників самобутності [ROOT.GetCountry.Custom('rank_ru_GEN')|l] лунають дедалі голосніше. [ROOT.GetCountry.GetGovernment.GetCourtTitle|U] сьогодні не в рівновазі: цивільні чиновники виявляються не при справах — на перший план виходять генерали та войовничо налаштовані міністри, що закликають нас поводитися агресивніше на державному рівні."
+  societal_values.2311.desc: "Голоси прихильників самобутності [ROOT.GetCountry.Custom('rank_ru_GEN')|l] лунають дедалі голосніше. [ROOT.GetCountry.GetGovernment.GetCourtTitle|U] сьогодні не в рівновазі: цивільні чиновники виявляються не при справах — на перший план виходять полководці та войовничо налаштовані міністри, що закликають нас поводитися агресивніше на державному рівні."
   societal_values.2311.a: "Дати військовим кермо влади."
   societal_values.2311.b: "Нехай [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] і далі керується цивільними чиновниками."
   societal_values.2312.title: "Реформи в галузі бюрократії"

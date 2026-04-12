@@ -197,7 +197,7 @@
   owns_capital_market_center_tt: "Нам належить [Concept('market_center', 'ринковий центр')|e], де знаходиться наше [Concept('capital', 'столичне')|e] місто [ROOT.GetCountry.GetCapital.GetName]"
   mission_will_be_bypassed_tt: "Цей [Concept('task', 'етап')|e] буде пропущено"
   goal_of_campaign_key: "Мета нашої воєнної кампанії:"
-  a_decent_general_appears_tt: "З'являється вправний [Concept('character', 'персонаж')|e]-[Concept('general', 'генерал')|e]"
+  a_decent_general_appears_tt: "З'являється вправний [Concept('character', 'персонаж')|e]-[Concept('general', 'полководець')|e]"
   plan_campaign_against_target_conquest_province_1_tt: "$goal_of_campaign_key$ [target_conquest_province_1.GetName]"
   plan_campaign_against_target_conquest_province_2_tt: "$goal_of_campaign_key$ [target_conquest_province_2.GetName]"
   plan_campaign_against_target_conquest_province_3_tt: "$goal_of_campaign_key$ [target_conquest_province_3.GetName]"

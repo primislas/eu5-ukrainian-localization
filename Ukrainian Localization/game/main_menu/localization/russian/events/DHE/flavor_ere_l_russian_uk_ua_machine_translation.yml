@@ -18,7 +18,7 @@
   flavor_ere.4.desc: "На полі битви швидкість і рішучість можуть відділяти славну перемогу від трагічної поразки. [target_character.GetName] вміє приймати складні рішення та зберігати тактичну перевагу, але це не єдині [Select_CString(target_character.IsFemale, 'її', 'його' )] чесноти. Піднявшись з лав простої піхоти, [Select_CString(target_character.IsFemale, 'ця героїня', 'цей герой' )] численних битв [Select_CString(target_character.IsFemale, 'готова', 'готовий' )] очолити наші війська."
   flavor_ere.4.a: "Призначимо [Select_CString(target_character.IsFemale, 'її', 'його' )] командиром війська."
   flavor_ere.4.b: "У нашій еліті немає місця селянам!"
-  target_character_will_make_fine_general_tt: "[target_character.GetShortNameWithNoTooltip] зможе служити генералом"
+  target_character_will_make_fine_general_tt: "[target_character.GetShortNameWithNoTooltip] зможе служити полководцем"
   flavor_ere.5.title: "[target_character2.GetNameWithNoTooltip] вимагає корону"
   flavor_ere.5.desc: "[target_character2.GetName] багато років вірно служив під нашими прапорами, проте у світлі останніх віянь у зовнішній та внутрішній політиці він перетворився на нашу найбільшу невдачу. [target_character2.GetShortNameWithNoTooltip] уявив себе більш гідним правителем, ніж [target_character.GetName], і збирається взяти владу силою зброї.\n\nЙого нічим не обґрунтовані заяви про відродження нашого народу та відновлення його колишньої могутності знаходять відгук у серцях багатьох підданих, віщуючи великі лиха…"
   flavor_ere.5.a: "Цей дурень погубить наш народ!"

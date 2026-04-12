@@ -202,7 +202,7 @@
   flavor_byz.46.a: "Це піде на користь нашим сухопутним силам."
   flavor_byz.46.b: "Краще б вони допомогли нашому флоту."
   flavor_byz.47.title: "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] будує підступи проти військових"
-  flavor_byz_47_desc_common: "Поки наші воїни захищають кордони країни, [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] будує підступи проти видатних командирів та генералів. Придворні вбачають у бойових офіцерах загрозу для [ROOT.GetCountry.Custom('rank_ru_GEN')|l] — якщо нічого не вжити, стверджують вони, [target_character.GetName] втратить владу, а країною керуватимуть військові."
+  flavor_byz_47_desc_common: "Поки наші воїни захищають кордони країни, [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] будує підступи проти видатних командирів та стратигів. Придворні вбачають у бойових офіцерах загрозу для [ROOT.GetCountry.Custom('rank_ru_GEN')|l] — якщо нічого не вжити, стверджують вони, [target_character.GetName] втратить владу, а країною керуватимуть військові."
   flavor_byz.47.desc.a: "$flavor_byz_47_desc_common$ Щоб послабити впливових командирів, [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] пропонує змістити пріоритети в бік #TOOLTIP:SOCIETAL_VALUE,quality_vs_quantity,X #L збільшення чисельності#!#! військ."
   flavor_byz.47.desc.b: "$flavor_byz_47_desc_common$ Щоб послабити впливових командирів, [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] пропонує змістити пріоритети в бік #TOOLTIP:SOCIETAL_VALUE,quality_vs_quantity,X #L підвищення якості#!#! військ."
   flavor_byz.47.desc.c: "$flavor_byz_47_desc_common$ Щоб послабити впливових командирів, [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] пропонує змістити пріоритети на користь #TOOLTIP:SOCIETAL_VALUE,land_vs_naval,X #L наземних сил#!#!."
