@@ -364,7 +364,7 @@
   max_winter_level_Count: "Кількість рівнів"
   CLIMATE_TT_WINTER: "[Concept('winter_level_max', 'Максимальний рівень зими')|e]: [ShowModifier('winter_$MAX$')|l]"
   MARITIME_LOC_TT_TITLE: "Морська присутність у [Location.Custom('LR_PREP')|l] [Location.GetNameWithNoTooltip]: $MAP_TT_OWNER_SUFFIX$"
-  MARITIME_PRESENCE_INLAND_TXT: "Немає морської присутності\n$BULLET_WITH_TAB$Це наземна місцевість"
+  MARITIME_PRESENCE_INLAND_TXT: "Немає морської присутності\n$BULLET_WITH_TAB$Це суходільна місцевість"
   MARITIME_PRESENCE_SEA_NONE_HERE: "Немає морської присутності\n$BULLET_WITH_TAB$Тут, у відкритому морі, її немає."
   MARITIME_PRESENCE_SEA_NONE_PORT_HERE: "Немає морської присутності\n$BULLET_WITH_TAB$Тут, у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName], її немає."
   MARITIME_PRESENCE_SEA_HEADR_LABEL: "Наступні країни мають [Concept('maritime_presence', 'морську присутність')] у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetNameWithNoTooltip]"

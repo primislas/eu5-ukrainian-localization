@@ -2075,7 +2075,7 @@
   war_goal_take_capital_colony_war_desc: "$generic_war_goal_take_capital_desc$"
   war_goal_take_capital_coalition_desc: "$generic_war_goal_take_capital_desc$"
   war_goal_take_capital_prevent_annexation_desc: "$generic_war_goal_take_capital_desc$"
-  war_goal_superiority_horde_desc: "[Concept('war_goal', 'Мета війни')|e] — показати військову перевагу. Ви отримуєте надбавку до [Concept('war_score', 'військового рахунку')|e] за перемоги в наземних битвах."
+  war_goal_superiority_horde_desc: "[Concept('war_goal', 'Мета війни')|e] — показати військову перевагу. Ви отримуєте надбавку до [Concept('war_score', 'військового рахунку')|e] за перемоги в польових битвах."
   war_goal_humiliate_desc: "[Concept('war_goal', 'Мета війни')|e] — принизити суперника. Ви отримуєте [Concept('war_score', 'військовий рахунок')|e] за перемоги в битвах та окупацію ворожої території."
   war_goal_conquer_province: "Захоплення провінції [PROVINCE.GetNameWithNoTooltip]"
   war_goal_conquer_province_desc: "[Concept('war_goal', 'Мета війни')|e] — захопити провінцію [PROVINCE.GetNameWithNoTooltip]."

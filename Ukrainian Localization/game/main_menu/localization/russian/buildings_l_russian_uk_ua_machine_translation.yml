@@ -561,7 +561,7 @@
   clan_family_shrine_desc: "Храм, споруджений на честь нашої родини, не тільки стане оплотом віри для нашого клану та його наближених, але й символом нашої влади, що викликає трепет і благоговіння у простого народу."
   korean_gunnery: "Корейські гармати"
   korean_gunnery_desc: "$korean_gunnery$ — це оборонна модифікація, яка покращує укріплення та підвищує його ефективність у битвах проти нападників із землі або моря."
-  korean_gunnery_land_defense: "Наземна артилерія"
+  korean_gunnery_land_defense: "Польова артилерія"
   korean_gunnery_land_defense_desc: "$korean_gunnery_desc$\n#Y Несумісна зі спорудою «[ShowBuildingTypeName('korean_gunnery_coastal_defense')]».#!"
   korean_gunnery_coastal_defense: "Берегова артилерія"
   korean_gunnery_coastal_defense_desc: "$korean_gunnery_desc$\n#Y Несумісна зі спорудою «[ShowBuildingTypeName('korean_gunnery_land_defense')]».#!"
