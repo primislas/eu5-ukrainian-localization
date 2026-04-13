@@ -52,7 +52,7 @@
   sinicization_disaster.100.f: "Ми заслужили лише короткої згадки у великій історії чужої країни…"
   sinicization_disaster.100.g: "Ми змогли пережити чергове випробування!"
   this_may_lead_to_war_tt: "Цей результат розгніває [target_emperor_scope.Custom('CL_ACC')] і може призвести до війни"
-  make_us_tributary_tt: "[target_emperor_scope.GetLongNameWithNoTooltip] — країна, яка зробить нас своїм #Y [Concept('subject', 'ленником')|e]#!"
+  make_us_tributary_tt: "[target_emperor_scope.GetLongNameWithNoTooltip] — країна, яка зробить нас своїм #Y [Concept('subject', 'васалом')|e]#!"
   gains_cultural_bonuses_tt: "Цей результат піде на користь #L [target_emperor_scope.GetCulture.GetName|l]ій#! культурі"
   sinicization_disaster.101.title: "Новини з [target_sinicized_country.Custom('CL_GEN')]"
   sinicization_disaster.101.desc: "Наші посланці при #L [target_sinicized_country.GetAdjective|l]ому#! дворі повернулися додому з новинами. Вони доносять, що останнім часом наш зростаючий вплив серйозно дестабілізував територію під назвою [target_sinicized_country.GetLongNameWithNoTooltip]. Країні загрожує смута, і ми можемо скористатися ситуацією у своїх інтересах…"

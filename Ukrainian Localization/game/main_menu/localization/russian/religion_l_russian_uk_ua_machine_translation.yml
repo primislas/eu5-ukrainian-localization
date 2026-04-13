@@ -565,7 +565,7 @@
   RESEARCHING_RELIGIOUS_FOCUS: "Прогрес дослідження цілі «RELIGIOUS_FOCUS»"
   SCOPE_NOBLE_ESTATE_SATISFACTION: "[Concept('estate_satisfaction', 'Задоволення стану')|e] «[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l]»"
   SCOPE_CLERGY_ESTATE_SATISFACTION: "[Concept('estate_satisfaction', 'Задоволення стану')|e] «[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l]»"
-  NUMBER_OF_SUBJECTS: "Кількість [Concept('subjects', 'ленників')|e]"
+  NUMBER_OF_SUBJECTS: "Кількість [Concept('subjects', 'васалів')|e]"
   FOCUS_SPEED_ENTRY_FORMAT: "$KEY$: $VALUE|+=2$"
   WARRIOR_PROPORTION: "Кількість воїнів-орлів/воїнів-ягуарів"
   flower_wars_tt: "Ця релігійна мета дозволить розпочинати квіткові війни."

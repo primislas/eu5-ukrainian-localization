@@ -25,4 +25,4 @@
   flavor_mol.1004.a: "Наші землі мають бути єдині!"
   flavor_mol.1004.b: "Ми не можемо відвернутися від [target_country.Custom('CL_GEN')]."
   opinion_hun_moldavian_push: "Молдавський натиск"
-  become_moldavia_tt: "Заснування #Y Молдавії#! та створення #TOOLTIP:SUBJECT_TYPE,march,X #L марки#!#! на становищі [Concept('subject', 'ленника')|e] #ONCLICK:COUNTRY,[root_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[root_country.Custom('CL_tt')],X [root_country.Custom('CL_GEN')|L]#!#!"
+  become_moldavia_tt: "Заснування #Y Молдавії#! та створення #TOOLTIP:SUBJECT_TYPE,march,X #L марки#!#! на становищі [Concept('subject', 'васала')|e] #ONCLICK:COUNTRY,[root_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[root_country.Custom('CL_tt')],X [root_country.Custom('CL_GEN')|L]#!#!"

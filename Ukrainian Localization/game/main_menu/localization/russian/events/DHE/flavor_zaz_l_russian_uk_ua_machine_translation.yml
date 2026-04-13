@@ -27,5 +27,5 @@
   zaz_no_request_from_overlord_tt: "Ми не будемо ні про що просити #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_ACC')|L]#!#!"
   flavor_zaz.1101.title: "$flavor_zaz.1100.title$"
   flavor_zaz.1101.desc: "[target_country2.GetName] — перебуває в підпорядкуванні у нашої країни, і [ROOT.GetCountry.GetGovernment.GetRulerOrRegent.GetName] високо цінує військове мистецтво, яким славляться [target_country2.GetGovernment.GetEstateName('cossacks_estate')|l], що служать у нашому війську. Однак самі вони вважають, що ми недостатньо заохочуємо їхні зусилля, і попросили нагородити цвіт їхнього суспільства регаліями на знак влади над іншими. Ми можемо піти назустріч і надати їм ці регалії, але не всі згодні на поступки: багато хто заявляє, що гроші з нашої скарбниці #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! не слід витрачати на подібну дурницю. Замість цього їх краще вкласти в розвиток [ROOT.GetCountry.Custom('rank_ru_GEN')|l]."
-  flavor_zaz.1101.a: "Давайте умиротворимо нашого ленника."
+  flavor_zaz.1101.a: "Давайте умиротворимо нашого васала."
   flavor_zaz.1101.b: "Ми не можемо собі дозволити виконати це прохання."

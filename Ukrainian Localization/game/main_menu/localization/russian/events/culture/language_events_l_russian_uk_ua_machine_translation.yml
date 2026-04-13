@@ -2,7 +2,7 @@
   language.1.title: "Мова ворога"
   language.1.desc: "Оскільки [enemy_country.GetLongName] — наш військовий ворог, використання #L [enemy_dialect.GetLanguage.GetName|l]ої#! мови при дворі викликає у декого подив. Радники пропонують якнайшвидше вирішити це питання."
   language.1.a: "Затвердимо нашу рідну мову як офіційну."
-  language.1.a.subject: "Наші [Concept('subjects', 'ленники')|e] можуть наслідувати наш приклад."
+  language.1.a.subject: "Наші [Concept('subjects', 'васали')|e] можуть наслідувати наш приклад."
   language.1.b: "Будемо користуватися нашою літургійною мовою."
   language.1.c: "[ROOT.GetCountry.GetGovernment.GetRuler.GetNameWithNoTooltip] говорить [ruler_language.GetNameWithNoTooltip|l]ою мовою — нехай вона і буде офіційною."
   language.1.d: "Ми говорили [enemy_dialect.GetNameWithNoTooltip|l]ою ще задовго до війни."

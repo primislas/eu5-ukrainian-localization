@@ -1814,7 +1814,7 @@
   UPGRADE_FLEET_BETTER_SHIP_TYPE_ELSEWHERE: "@trigger_pass! В іншому місці корабель «[SUBUNIT.GetName]» може бути вдосконалити до типу «$NAME$»."
   UPGRADE_FLEET_NO_UNITS: "@trigger_no! У цьому [Concept('navy', 'флоті')|e] немає [Concept('ships', 'кораблів')|e], які можна було б вдосконалити."
   UPGRADE_FLEET_MOTHBALLED: "[Concept('navy', 'Флот')|e] законсервований і не може бути вдосконаленим."
-  UPGRADE_FLEET_NOT_IN_OWNED_PORT: "Флот, що вдосконалюється, повинен стояти в порту, яким володіємо ми або наші ленники."
+  UPGRADE_FLEET_NOT_IN_OWNED_PORT: "Флот, що вдосконалюється, повинен стояти в порту, яким володіємо ми або наші васали."
   UPGRADE_FLEET_UNIT_TYPE_LIMIT_REACHED: "@trigger_fail! Досягнуто межі кількості для підрозділу «[SUBUNIT.GetTypeName]»."
   UPGRADE_FLEET_LEVIES_ARE_RUBBISH: "@trigger_no! [Concept('levies', 'Ополчення')|e] не можна вдосконалити."
   UPGRADE_ARMY: "Вдосконалити військо"

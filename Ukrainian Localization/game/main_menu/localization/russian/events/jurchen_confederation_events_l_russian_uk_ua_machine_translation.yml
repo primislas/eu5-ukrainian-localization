@@ -68,4 +68,4 @@
   jurchen_confederation_events.17.title: "Доба великого об'єднання"
   jurchen_confederation_events.17.desc: "Багато вождів, що входять до нашої конфедерації, користувалися відносною автономією та значним впливом у своїх володіннях. Однак щоб піднестися та кинути виклик тим, хто бажає нашого подальшого поневолення, ми повинні об'єднатися під одним прапором. Сьогодні настав день, коли нам вдалося нав'язати свою волю іншим членам об'єднання [target_io.GetName]."
   jurchen_confederation_events.17.a: "Наш час настав!"
-  jurchen_confederation_unification_effort_tt: "Члени об'єднання [target_io.GetNameWithNoTooltip] будуть поставлені перед вибором: або стати [Concept('subject', 'ленниками')|e] під нашим началом, або дати нам [Concept('casus_belli', 'привід для війни')|e]."
+  jurchen_confederation_unification_effort_tt: "Члени об'єднання [target_io.GetNameWithNoTooltip] будуть поставлені перед вибором: або стати [Concept('subject', 'васалами')|e] під нашим началом, або дати нам [Concept('casus_belli', 'привід для війни')|e]."
