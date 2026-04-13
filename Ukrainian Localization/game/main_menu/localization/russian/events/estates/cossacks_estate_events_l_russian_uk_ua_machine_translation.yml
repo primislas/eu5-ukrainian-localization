@@ -31,7 +31,7 @@
   cossack_estate_events.8.a: "Залишимо їх у спокої — з часом стосунки покращаться."
   cossack_estate_events.8.b: "Це розкол — їх потрібно розгромити."
   cossack_estate_events.9.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('cossacks_estate')] заселяють [target_location.Custom('LR_ACC')|l] [target_location.GetNameWithNoTooltip]"
-  cossack_estate_events.9.desc: "Кордони нерідко існують лише на картах — особливо в диких землях. Схоже, [ROOT.GetCountry.GetGovernment.GetEstateName('cossacks_estate')|l] швидко заселили [target_location.Custom('LR_ACC')|l] [target_location.GetName], і тепер їхня влада користується там більшою повагою, ніж наша. Можна спробувати завадити такому розвитку подій, але [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('cossacks_estate')|l] навряд чи будуть раді покинути землі, де вони з таким трудом облаштувалися."
+  cossack_estate_events.9.desc: "Кордони нерідко існують лише на мапах — особливо в диких землях. Схоже, [ROOT.GetCountry.GetGovernment.GetEstateName('cossacks_estate')|l] швидко заселили [target_location.Custom('LR_ACC')|l] [target_location.GetName], і тепер їхня влада користується там більшою повагою, ніж наша. Можна спробувати завадити такому розвитку подій, але [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('cossacks_estate')|l] навряд чи будуть раді покинути землі, де вони з таким трудом облаштувалися."
   cossack_estate_events.9.a: "Змиримося з новим станом справ."
   cossack_estate_events.9.b: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('cossacks_estate')] повинні повернути ці землі."
   cossack_estate_events.10.title: "Вимога розширених привілеїв"

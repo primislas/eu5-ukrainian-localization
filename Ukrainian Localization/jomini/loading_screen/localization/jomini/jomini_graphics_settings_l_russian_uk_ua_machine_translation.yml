@@ -1,7 +1,7 @@
 ﻿l_russian:
   SETTING_REFRACTION: "Заломлення"
   SETTING_REFRACTION_QUALITY: "Якість заломлення"
-  SETTING_MAPOBJECT_QUALITY: "Об'єкти на карті"
+  SETTING_MAPOBJECT_QUALITY: "Об'єкти на мапі"
   SETTING_MAP_SSAO: "SSAO для карти"
   SETTING_DOF: "Глибина різкості"
   SETTING_LENS_FLARE: "Бліки"

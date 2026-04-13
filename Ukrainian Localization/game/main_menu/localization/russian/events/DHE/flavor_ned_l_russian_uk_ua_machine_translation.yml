@@ -131,7 +131,7 @@
   flavor_ned.28.b: "Захист [ROOT.GetCountry.Custom('CL_GEN')] — наше першочергове завдання."
   flavor_ned.28.c: "Ми проігноруємо його пропозиції."
   flavor_ned.29.title: "[target_character.GetNameWithNoTooltip]"
-  flavor_ned.29.desc: "Багато мандрівників і картографів мріяли скласти повну карту Арктики. Не став винятком і [target_character.GetName] — дослідник родом із села у складі міста [ShowLocationName('harlingen')]. [ROOT.GetCountry.GetGovernment.GetCourtTitle|L] отримує від нього пропозицію щодо організації експедиції. Північний морський шлях зараз скутий льодом, що заважає нам доплисти до #TOOLTIP:SUB_CONTINENT,china,X #L Китаю#!#!, проте опівнічне сонце його підтопить, і у нас з'явиться порівняно безпечний маршрут."
+  flavor_ned.29.desc: "Багато мандрівників і картографів мріяли скласти повну мапу Арктики. Не став винятком і [target_character.GetName] — дослідник родом із села у складі міста [ShowLocationName('harlingen')]. [ROOT.GetCountry.GetGovernment.GetCourtTitle|L] отримує від нього пропозицію щодо організації експедиції. Північний морський шлях зараз скутий льодом, що заважає нам доплисти до #TOOLTIP:SUB_CONTINENT,china,X #L Китаю#!#!, проте опівнічне сонце його підтопить, і у нас з'явиться порівняно безпечний маршрут."
   flavor_ned.29.a: "Ми візьмемо його на службу."
   flavor_ned.29.b: "Ми проженемо цього безумця."
   flavor_ned.30.title: "Підвищення обороноздатності"

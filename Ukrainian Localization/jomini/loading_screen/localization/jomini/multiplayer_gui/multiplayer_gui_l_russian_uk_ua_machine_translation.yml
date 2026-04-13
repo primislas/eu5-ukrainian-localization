@@ -14,7 +14,7 @@
   JOMINI_MULTIPLAYER_GUI_UNREADY: "Неготовність"
   JOMINI_MULTIPLAYER_GUI_ALREADY_READY: "Вже відмічена готовність"
   JOMINI_MULTIPLAYER_GUI_START_NOT_HOST: "Розпочати гру може лише хост"
-  JOMINI_MULTIPLAYER_GUI_SELECT_PLAYABLE: "Клацніть по карті, щоб вибрати, за кого грати"
+  JOMINI_MULTIPLAYER_GUI_SELECT_PLAYABLE: "Клацніть по мапі, щоб вибрати, за кого грати"
   JOMINI_MULTIPLAYER_GUI_WAIT_HOST_START: "Розпочати гру може лише хост"
   JOMINI_MULTIPLAYER_GUI_START: "Розпочати"
   JOMINI_MULTIPLAYER_GUI_NOT_IN_PREPARATION_LOBBY: "Не в підготовчому лобі"
