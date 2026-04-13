@@ -175,7 +175,7 @@
   appease_nobles_estate_from_shogun_court: "Уступити елітам."
   appease_nobles_estate_from_shogun_court_desc: "Керуючи судом сьоґунату, ми зможемо контролювати, як поводяться [SCOPE.sCountry('actor').GetGovernment.GetEstateName('nobles_estate')|l]."
   increase_levies_from_shogun_court: "Розширення ополчення"
-  increase_levies_from_shogun_court_desc: "Через суд сьоґунату ми можемо вимагати, щоб [SCOPE.sCountry('actor').GetGovernment.GetEstateName('nobles_estate')|l] надіслали більше людей для [Concept('army_levies', 'військового')|e] та [Concept('navy_levies', 'флотського')|e] ополчення."
+  increase_levies_from_shogun_court_desc: "Через суд сьоґунату ми можемо вимагати, щоб [SCOPE.sCountry('actor').GetGovernment.GetEstateName('nobles_estate')|l] надіслали більше людей для [Concept('army_levies', 'військового')|e] та [Concept('navy_levies', 'морського')|e] ополчення."
   increase_tax_income_from_shogun_court: "Підвищення податків"
   increase_tax_income_from_shogun_court_desc: "Через суд сьогунату ми можемо вимагати, щоб [SCOPE.sCountry('actor').GetGovernment.GetEstateName('nobles_estate')|l] платили більше [Concept('taxes', 'податків')|e]."
   demand_extra_payment_from_shogun_court: "Вимога додаткових виплат"

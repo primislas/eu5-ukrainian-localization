@@ -121,5 +121,5 @@
   dynastic.29.a: "Добре. Отже, будемо включати."
   dynastic.29.b: "Не будемо поспішати."
   dynastic.30.title: "[target_ruler.GetNameWithNoTooltip] підноситься"
-  dynastic.30.desc: "Наш сюзерен — [target_overlord.GetLongName] — невимовно нас порадував. [target_ruler.GetName] [Select_CString(target_ruler.IsFemale, 'очолила', 'очолив' )] цю країну. Положення нашого #TOOLTIP:SUBJECT_TYPE,appanage,X #L апанажу#!#! сміливо дозволяє заявити, що інтеграція [ROOT.GetCountry.Custom('rank_ru_GEN')|l], де ми правимо, пройде дипломатичним шляхом."
+  dynastic.30.desc: "Наш сюзерен — [target_overlord.GetLongName] — невимовно нас потішив. [target_ruler.GetName] [Select_CString(target_ruler.IsFemale, 'очолила', 'очолив' )] цю країну. Положення нашого #TOOLTIP:SUBJECT_TYPE,appanage,X #L апанажу#!#! сміливо дозволяє заявити, що інтеграція [ROOT.GetCountry.Custom('rank_ru_GEN')|l], де ми правимо, пройде дипломатичним шляхом."
   dynastic.30.a: "До нових вершин!"

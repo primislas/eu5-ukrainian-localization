@@ -144,7 +144,7 @@
   JOMINI_MULTIPLAYER_GUI_MULTIPLAYER_PERMISSION_MISSING: "Щоб грати по мережі, необхідно увійти в профіль користувача з правами доступу до мережевих ігор."
   JOMINI_MULTIPLAYER_GUI_SERVER_FILTER_LABEL_CROSSPLAY_ENABLED: "Кросплатформна гра"
   JOMINI_MULTIPLAYER_GUI_MISMATCHING_PLATFORMS: "Ваші налаштування кросплатформної гри не дозволяють приєднатися до цієї сесії"
-  JOMINI_MULTIPLAYER_GUI_UGC_PERMISSION_MISSING: "Щоб грати по мережі, необхідно увійти в профіль користувача з правами доступу до користувацького контенту."
+  JOMINI_MULTIPLAYER_GUI_UGC_PERMISSION_MISSING: "Щоб грати по мережі, необхідно увійти в профіль користувача з правами доступу до користувацького наповнення."
   JOMINI_MULTIPLAYER_GUI_CLEAR_SELECTION: "Очистити вибір гравців"
   JOMINI_MULTIPLAYER_GUI_OTHER_PLAYERS_COUNT: "Інші гравці: [LobbyView.GetOtherPlayersCount]"
   JOMINI_MULTIPLAYER_GUI_OTHER_PLAYERS_NONE: "Немає інших гравців"

@@ -490,7 +490,7 @@
   STATIC_MODIFIER_NAME_hre_unlawful_territory: "Незаконне володіння"
   STATIC_MODIFIER_DESC_hre_unlawful_territory: "Ця [Concept('province', 'провінція')|e] залишається в незаконному володінні всупереч вимозі [Concept('hre_emperor', 'імператора')|e] повернути її первісному власнику."
   STATIC_MODIFIER_NAME_student_protests: "Студентські протести"
-  STATIC_MODIFIER_NAME_increased_levies_from_shogun_court: "$shogunate_court$: більше військового та флотського ополчення"
+  STATIC_MODIFIER_NAME_increased_levies_from_shogun_court: "$shogunate_court$: більше військового та морського ополчення"
   STATIC_MODIFIER_NAME_increased_tax_income_from_shogun_court: "$shogunate_court$: підвищені податкові доходи"
   STATIC_MODIFIER_NAME_increased_literacy_from_religious_sects: "$religious_sects$: підвищений рівень грамотності"
   STATIC_MODIFIER_NAME_limited_indulgences_religion: "Продаж індульгенцій"
