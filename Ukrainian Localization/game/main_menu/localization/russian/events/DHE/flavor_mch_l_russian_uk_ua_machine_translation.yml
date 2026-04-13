@@ -11,7 +11,7 @@
   flavor_mch.3.a: "Реформуємо військо. Стара китайська модель нікуди не годиться."
   flavor_mch.3.b: "Дурниці! Чого варвари можуть навчити народ Сунь-цзи?"
   flavor_mch.4.title: "[target_character.GetShortNameWithNoTooltip] і [Select_CString(target_character.IsFemale,'її', 'його')] нова посада"
-  flavor_mch.4.desc: "Нещодавно нашу увагу привернув багатообіцяючий міністр на ім'я [target_character.GetShortName]. Кажуть, [Select_CString(target_character.IsFemale,'вона обізнана', 'він обізнаний')] у питаннях дипломатії та управління.\n\nОднак ходять чутки, що [Select_CString(target_character.IsFemale,'вона', 'він')] вкрай [Select_CString(target_character.IsFemale,'корумпована', 'корумпований')] і [Select_CString(target_character.IsFemale,'відома', 'відомий')] своєю жадібністю та любов'ю до хабарів. Чи варто нам призначати [Select_CString(target_character.IsFemale,'її', 'його')] головним міністром?"
+  flavor_mch.4.desc: "Нещодавно нашу увагу привернув багатообіцяючий радник на ім'я [target_character.GetShortName]. Кажуть, [Select_CString(target_character.IsFemale,'вона обізнана', 'він обізнаний')] у питаннях дипломатії та управління.\n\nОднак ходять чутки, що [Select_CString(target_character.IsFemale,'вона', 'він')] вкрай [Select_CString(target_character.IsFemale,'корумпована', 'корумпований')] і [Select_CString(target_character.IsFemale,'відома', 'відомий')] своєю жадібністю та любов'ю до хабарів. Чи варто нам призначати [Select_CString(target_character.IsFemale,'її', 'його')] головним радником?"
   flavor_mch.4.a: "Призначити [Select_CString(target_character.IsFemale,'її', 'його')], незважаючи на недоліки!"
   flavor_mch.4.b: "Ні, корупція призведе нашу країну до занепаду!"
   flavor_mch.5.title: "Пізня Цзінь"

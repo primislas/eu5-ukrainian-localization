@@ -41,7 +41,7 @@
   jurchen_confederation_events.10.a: "Це ознака слабкого керівництва, на жаль…"
   jurchen_confederation_events.10.b: "Ми відшкодуємо збитки. Це була приголомшлива демонстрація сили!"
   jurchen_confederation_events.11.title: "Наступні покоління"
-  jurchen_confederation_events.11.desc: "Наші вчені та радники ретельно продумали плани для наступного покоління воїнів та чиновників нашої великої держави. У той час як рада та міністри підтримують процвітання нашої культури, [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] рішуче відстоюють ідею вдосконалення війська."
+  jurchen_confederation_events.11.desc: "Наші вчені та радники ретельно продумали плани для наступного покоління воїнів та чиновників нашої великої держави. У той час як рада підтримує процвітання нашої культури, [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] рішуче відстоюють ідею вдосконалення війська."
   jurchen_confederation_events.11.a: "Ми підтримуватимемо нашу культуру."
   jurchen_confederation_events.11.b: "Що це за народ без гідного війська?"
   jurchen_confederation_events.12.title: "Боротьба з новими порядками"

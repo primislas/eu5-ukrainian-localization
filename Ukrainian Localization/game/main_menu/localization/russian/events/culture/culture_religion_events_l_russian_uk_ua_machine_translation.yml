@@ -43,7 +43,7 @@
   culture_religion_events.11.title: "Підтримка #L [minister.GetCulture.GetName|l]ого#! населення"
   culture_religion_events.11.desc: "Як [Select_CString(minister.IsFemale,'головна представниця', 'головний представник')] #L [minister.GetCulture.GetName|l]ої#! громади [minister.GetName] має безліч зв'язків, і [Select_CString(minister.IsFemale,'її', 'його')] вплив не обмежується стінами ради. На щастя, [Select_CString(minister.IsFemale,'вона', 'він')] використовує ці важелі в інтересах нашої країни та #L [ROOT.GetCountry.GetCulture.GetName|l]ої#! культури загалом."
   culture_religion_events.11.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
-  culture_religion_events.12.title: "Міністр [minister.GetReligion.GetAdjectiveWithNoTooltip|l]ої віри"
+  culture_religion_events.12.title: "Радник [minister.GetReligion.GetAdjectiveWithNoTooltip|l]ої віри"
   culture_religion_events.12.desc: "Прихильники #L [minister.GetReligion.GetAdjective|l]ої#! віри з цікавістю стежили, як [minister.GetName] піднімається кар'єрними сходами. Багато хто з них бачить у цій людині живий доказ того, що [ROOT.GetCountry.GetName] — одна з тих країн, де для досягнення успіху не обов'язково сповідувати державну релігію."
   culture_religion_events.12.a: "Одного дня ви всі зможете обійняти високу посаду, як [Select_CString(minister.IsFemale,'вона', 'він')]!"
   culture_religion_events.12.a.tt: "[Concept('pop_satisfaction', 'Задоволення')|e] [Concept('pops', 'груп населення')|e], що сповідують [minister.GetReligion.GetAdjectiveWithNoTooltip|l]у [Concept('religion', 'віру')|e], підвищиться на [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%]"

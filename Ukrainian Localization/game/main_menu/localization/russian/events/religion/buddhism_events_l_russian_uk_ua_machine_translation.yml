@@ -1,5 +1,5 @@
 ﻿l_russian:
-  buddhism_events.1.title: "Міністр залишає посаду"
+  buddhism_events.1.title: "Радник залишає посаду"
   buddhism_events.1.desc: "[target_minister.GetName] публічно [Select_CString(SCOPE.sCharacter('target_minister').IsFemale, 'засудила', 'засудив')] політику, яку проводять [target_ruler.GetName] та [target_ruler.GetHerHis] уряд. [target_minister.GetSheHe|U] заявляє, що [ROOT.GetCountry.GetGovernment.GetRulerTitle|l], [Select_CString(SCOPE.sCharacter('target_ruler').IsFemale, 'нездатна', 'нездатний')] забезпечити верховенство закону, незмінно збере навколо себе в уряді лише шахраїв та донощиків і що якщо ми не виправимося найближчим часом, то [target_minister.GetSheHe] не бажає мати з нами нічого спільного."
   buddhism_events.1.a: "Скатертиною дорога!"
   buddhism_events.1.b: "Скористаємося [target_minister.GetHerHis] порадами, щоб наша [ROOT.GetCountry.GetFlavorRank|l] стала кращою."
@@ -17,7 +17,7 @@
   buddhism_events.4.a: "Не можна забувати про поміркованість."
   buddhism_events.4.b: "Вимагатимемо, щоб монастирі видали нам цих «ченців»."
   buddhism_events.5.title: "Багатий урожай"
-  buddhism_events.5.desc: "Урожай цього року видався особливо багатим. Ми могли б витратити це несподіване багатство на будівництво запланованих культових споруд. Хтось запропонував новий податок, який допоможе перетворити надлишки зерна у селян на дохід скарбниці. Однак стародавні #L [ROOT.GetCountry.GetReligion.GetAdjective|l]і#! тексти забороняють нам своїми діями утискати населення, деякі з наших міністрів не хочуть обтяжувати народ зайвими податками."
+  buddhism_events.5.desc: "Урожай цього року видався особливо багатим. Ми могли б витратити це несподіване багатство на будівництво запланованих культових споруд. Хтось запропонував новий податок, який допоможе перетворити надлишки зерна у селян на дохід скарбниці. Однак стародавні #L [ROOT.GetCountry.GetReligion.GetAdjective|l]і#! тексти забороняють нам своїми діями утискати населення, деякі з наших радників не хочуть обтяжувати народ зайвими податками."
   buddhism_events.5.a: "Введемо податок."
   buddhism_events.5.b: "Ми не станемо відбирати у них плоди їхньої праці."
   buddhism_events.6.title: "Дана"
