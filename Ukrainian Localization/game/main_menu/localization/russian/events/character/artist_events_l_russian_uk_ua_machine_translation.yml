@@ -103,7 +103,7 @@
   artist_events.25.title: "Мати навчання"
   artist_events.25.desc: "[target_character.GetName] не гасить світло у своїй майстерні цілодобово. [Select_CString(target_character.IsFemale, 'Вона', 'Він')] невпинно вдосконалюється та вносить незліченні корективи у свої роботи. [target_character.GetName] не з числа найздібніших архітекторів, проте можна не сумніватися: з часом [Select_CString(target_character.IsFemale,'вона', 'він')] розвине свої навички."
   artist_events.25.a: "[Select_CString(target_character.IsFemale, 'Її', 'Його')] старанність має слугувати нам прикладом!"
-  country_events.25.tt: "[target_character.GetName] може отримати нову #G позитивну#! [Concept('trait', 'властивість')|e]"
+  country_events.25.tt: "[target_character.GetName] може отримати нову #G позитивну#! [Concept('trait', 'рису')|e]"
   artist_events.26.title: "Гарячі суперечки"
   artist_events.26.desc: "Наші придворні нерідко переходять на підвищені тони та влаштовують гучні перепалки. Це не дивно: тут зустрічаються найрізноманітніші діячі культури та науки, а між інтелектуалами неминучі тертя. [target_character.GetName] після недавніх дебатів про природу, виховання та людський розум немов [Select_CString(target_character.IsFemale,'зірвалася', 'зірвався')] з ланцюга. Тепер [Select_CString(target_character.IsFemale,'вона', 'він')] тиняється палацовими садами, тикає пальцем у служниць та прохачів і ставить їм провокаційні питання, намагаючись втягнути в полеміку."
   artist_events.26.a: "Ми маємо бути вищими за це."

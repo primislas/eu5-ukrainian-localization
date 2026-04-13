@@ -87,7 +87,7 @@
   show_event_target_religious_aspect: "Ціль події: [Concept('religious_aspect', 'релігійна особливість')|e] «[RELIGIOUS_ASPECT.GetName]»"
   show_event_target_resolution: "Ціль події: [Concept('resolution', 'резолюція')|e] «[RESOLUTION.GetName]»"
   show_event_target_religious_focus: "Ціль події: [Concept('religious_focus', 'релігійна мета')|e] «[RELIGIOUS_FOCUS.GetName]»"
-  show_event_target_trait: "Ціль події: [Concept('trait', 'властивість')|e] «[TRAIT.GetName]»"
+  show_event_target_trait: "Ціль події: [Concept('trait', 'риса')|e] «[TRAIT.GetName]»"
   show_event_target_climate: "Ціль події: [Concept('climate', 'клімат')|e] «[CLIMATE.GetName]»"
   show_event_target_vegetation: "Ціль події: [Concept('vegetation', 'флора')|e] «[VEGETATION.GetName]»"
   show_event_target_topography: "Ціль події: [Concept('topography', 'рельєф')|e] «[TOPOGRAPHY.GetName]»"
