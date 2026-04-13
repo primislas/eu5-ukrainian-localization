@@ -194,7 +194,7 @@
   SCOPE_DEBUG_MARKET: "Ринок «$NAME$» ($ID$)"
   SCOPE_DEBUG_REBEL: "Бунтівник «$NAME$» ($ID$)"
   SCOPE_DEBUG_TRADE: "Торгівля «$NAME$» ($ID$)"
-  SCOPE_DEBUG_WORK_OF_ART: "Витворіння «$NAME$» ($ID$)"
+  SCOPE_DEBUG_WORK_OF_ART: "Витвір «$NAME$» ($ID$)"
   SCOPE_DEBUG_LOAN: "Позика «$NAME$» ($ID$)"
   SCOPE_DEBUG_BUILDING: "Споруда «$NAME$» ($ID$)"
   SCOPE_DEBUG_PROVINCE_DEFINITION: "Розділена провінція $NAME$ ($ID$)"

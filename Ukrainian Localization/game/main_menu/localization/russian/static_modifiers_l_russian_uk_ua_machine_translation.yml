@@ -33,7 +33,7 @@
   STATIC_MODIFIER_NAME_imprisoned: "У неволі"
   STATIC_MODIFIER_NAME_paranoid_regent: "Параноїдальний регент"
   STATIC_MODIFIER_NAME_investigating_regent: "Насторожений регент"
-  STATIC_MODIFIER_NAME_country_art: "Наші [Concept('works_of_art', 'творіння')|e]"
+  STATIC_MODIFIER_NAME_country_art: "Наші [Concept('works_of_art', 'витвори мистецтва')|e]"
   STATIC_MODIFIER_NAME_num_of_market_centers_in_country: "Кількість [Concept('market_centers', 'ринкових центрів')|e]"
   STATIC_MODIFIER_NAME_country_coastal_population: "Прибережне населення"
   STATIC_MODIFIER_NAME_current_army_size: "Розмір війська"

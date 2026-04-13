@@ -36,7 +36,7 @@
   laws.0010.a: "Тримайте свої скелети в шафі!"
   laws.0010.b: "Може, це варто було б оприлюднити…"
   laws.0011.t: "Страта митця"
-  laws.0011.desc: "Сьогодні [dead_artist.GetName] [Select_CString(dead_artist.IsFemale,'була страчена', 'був страчений')]. [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] звинуватили [Select_CString(dead_artist.IsFemale,'її', 'його')] в єретичних висловлюваннях та створенні творінь, що порушують закони про цензуру. Намагаючись зберегти стабільність та чистоту моралі, [ROOT.GetCountry.GetFlavorRank|l] втрачає талановитих підданих."
+  laws.0011.desc: "Сьогодні [dead_artist.GetName] [Select_CString(dead_artist.IsFemale,'була страчена', 'був страчений')]. [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] звинуватили [Select_CString(dead_artist.IsFemale,'її', 'його')] в єретичних висловлюваннях та створенні робіт, що порушують закони про цензуру. Намагаючись зберегти стабільність та чистоту моралі, [ROOT.GetCountry.GetFlavorRank|l] втрачає талановитих підданих."
   laws.0011.a: "Як би там не було, така втрата жахлива."
   laws.0012.t: "Контроль інформації"
   laws.0012.desc: "Наші суворі закони про цензуру не дозволяють поганим та шкідливим думкам поширюватися між поселеннями. Ось чому [ROOT.GetCountry.GetFlavorRank|l] є обителлю спокою. Невеликий скандал не виходить за межі його прямих учасників, а вільнодумство не отруює розум тих, хто раніше перебував у блаженному невіданні."

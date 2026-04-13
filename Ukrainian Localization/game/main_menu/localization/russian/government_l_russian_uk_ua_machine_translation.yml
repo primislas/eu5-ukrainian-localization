@@ -255,7 +255,7 @@
   ESTATE_OPINION_TARGET_T_ESTATE_POWER: "[Concept('estate_power', 'Станова влада')|e] #TOOLTIP:ESTATE_TYPE,tribes_estate,X #L племен#!#! [target.Custom('predlog_vvo')] [target.Custom('CL_PREP')]"
   ESTATE_OPINION_HIGHER_CULTURE_INF: "Сильніший [Concept('cultural_influence', 'культурний вплив')|e]"
   ESTATE_OPINION_HIGHER_MIL_POWER: "Сильніше військо"
-  ESTATE_OPINION_LOWER_ART: "Менше [Concept('works_of_art', 'творів')|e]"
+  ESTATE_OPINION_LOWER_ART: "Менше [Concept('works_of_art', 'витворів')|e]"
   ESTATE_OPINION_NEIGHBOR: "Спільний кордон"
   ESTATE_OPINION_PRESTIGE: "Різниця в [Concept('prestige', 'престижі')|e]"
   ESTATE_OPINION_POWER_PROJECTION: "[Concept('power_projection', 'Дипломатична вага')|e]"

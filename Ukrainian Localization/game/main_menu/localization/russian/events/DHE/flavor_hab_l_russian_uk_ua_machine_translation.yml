@@ -452,7 +452,7 @@
   flavor_hab.100.b: "[Select_CString(target_character.IsFemale, 'Її', 'Його' )] послуги обійдуться нам занадто дорого."
   flavor_hab.100.historical_info: "Йоганн Лукас фон Гільдебрандт — видатний архітектор австрійського бароко. Автор багатьох шедеврів архітектури, серед яких палац Бельведер у Відні, побудований для принца Євгена Савойського, а також палац Шенборн у Геллерсдорфі."
   flavor_hab.101.title: "[ShowBuildingTypeNameWithNoTooltip('belvedere_palace')]"
-  flavor_hab.101.desc: "Безмежно [Select_CString(target_character.IsFemale, 'талановита', 'талановитий' )] [target_character.GetName] пропонує амбітний план щодо підвищення престижу #TOOLTIP:LOCATION,vienna,X #L Відня#!#!: будівництво чудового #TOOLTIP:BUILDING_TYPE,belvedere_palace,X #L палацу Бельведер#!#!, який вразить усіх своїми розмірами та красою і стане символом могутності та величі [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. Крім того, в його просторих залах можна розмістити колекцію видатних творінь майстрів [ROOT.GetCountry.Custom('rank_ru_GEN')|l]."
+  flavor_hab.101.desc: "Безмежно [Select_CString(target_character.IsFemale, 'талановита', 'талановитий' )] [target_character.GetName] пропонує амбітний план щодо підвищення престижу #TOOLTIP:LOCATION,vienna,X #L Відня#!#!: будівництво чудового #TOOLTIP:BUILDING_TYPE,belvedere_palace,X #L палацу Бельведер#!#!, який вразить усіх своїми розмірами та красою і стане символом могутності та величі [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. Крім того, в його просторих залах можна розмістити колекцію видатних витворів майстрів [ROOT.GetCountry.Custom('rank_ru_GEN')|l]."
   flavor_hab.101.a: "Приступимо до будівництва!"
   flavor_hab.101.b: "Занадто дорогий проєкт."
   flavor_hab.102.title: "Створення гімну Австрійської імперії"

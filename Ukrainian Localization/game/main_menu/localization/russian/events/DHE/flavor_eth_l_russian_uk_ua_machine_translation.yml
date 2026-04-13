@@ -200,7 +200,7 @@
   can_revoke_double_sabbath_tt: "Духовенство має вдвічі більшу владу, ніж простолюд, або станова влада простолюду становить менше 10%"
   flavor_eth_250_shared: "Прохання про ремісників"
   flavor_eth.250.title: "$flavor_eth_250_shared$"
-  flavor_eth.250.desc: "Хоча #L [ROOT.GetCountry.GetCulture.GetName|l]а#! культура подарувала #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_DAT')|L]#!#! чимало великих творінь, час від часу нам буває корисна й допомога чужинців. Ось і зараз придворні пропонують запросити вправних ремісників з #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!."
+  flavor_eth.250.desc: "Хоча #L [ROOT.GetCountry.GetCulture.GetName|l]а#! культура подарувала #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_DAT')|L]#!#! чимало великих витворів, час від часу нам буває корисна й допомога чужинців. Ось і зараз придворні пропонують запросити вправних ремісників з #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!."
   flavor_eth.250.a: "Поступ важливіший, навіть якщо він зашкодить [ROOT.GetCountry.GetCulture.GetNameWithNoTooltip|l]ій культурі."
   flavor_eth.250.b: "Обійдемося без чужинців."
   eth_target_country_must_accept_tt: "Щоб ефекти подіяли, #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_DAT')|L]#!#! потрібно погодитися"

@@ -450,7 +450,7 @@
   MODIFIER_TYPE_NAME_artist_impact: "Вплив творів"
   MODIFIER_TYPE_DESC_artist_impact: "Впливає на те, скільки [Concept('cultural_influence', 'культурного впливу')|e] отримує [Concept('country', 'країна')|e], коли [Concept('artist', 'митець')|e] створює новий [Concept('work_of_art', 'шедевр')|e]."
   MODIFIER_TYPE_NAME_work_of_art_quality_modifier: "Якість творів"
-  MODIFIER_TYPE_DESC_work_of_art_quality_modifier: "Впливає на [Concept('art_quality', 'якість шедевра')|e], створеного [Concept('artist', 'митцем')|e]."
+  MODIFIER_TYPE_DESC_work_of_art_quality_modifier: "Впливає на [Concept('art_quality', 'майстерність витвору')|e] [Concept('artist', 'митця')|e]."
   MODIFIER_TYPE_NAME_artist_skill_level_gain: "Розвиток таланту митця"
   MODIFIER_TYPE_DESC_artist_skill_level_gain: "Впливає на зростання [Concept('artistic_skill', 'хисту')|e] [Concept('artist', 'митця')|e]."
   MODIFIER_TYPE_NAME_global_monthly_art_start_chance: "Шанс розпочати роботу над новим твором"

@@ -23,7 +23,7 @@
   sc_ask_help_from_the_burghers: "Запитати допомоги у містян"
   sc_ask_help_from_the_burghers_desc: "Багатіїв, що володіють величезним впливом, потрібно закликати на підтримку війська, якщо претенденти на трон втягнуть [actor.Custom('rank_ru_ACC')|l] у громадянську війну. Станься таке, ми із задоволенням скористаємося їхньою туго набитою мошною…"
   choose_writer: "Вибір: [ShowArtistTypeNameWithNoTooltip('writer')]"
-  selected_writer_will_compile_and_grant_legitimacy_based_on_woa_quality_tt: "Обраний [ShowArtistTypeName('writer')] напише #TOOLTIP:WORK_OF_ART_TYPE,chronicle,X #L хроніку#!#! [Concept('dynasty', 'династії')|e] [actor.GetGovernment.GetRulerOrRegent.GetDynasty.GetName]. Ми отримаємо [Concept('legitimacy', 'легітимність')|e], обсяг якої сильно залежатиме від якості цього [Concept('work_of_art', 'творіння')|e]."
+  selected_writer_will_compile_and_grant_legitimacy_based_on_woa_quality_tt: "Обраний [ShowArtistTypeName('writer')] напише #TOOLTIP:WORK_OF_ART_TYPE,chronicle,X #L хроніку#!#! [Concept('dynasty', 'династії')|e] [actor.GetGovernment.GetRulerOrRegent.GetDynasty.GetName]. Ми отримаємо [Concept('legitimacy', 'легітимність')|e], обсяг якої сильно залежатиме від майстерності цього [Concept('work_of_art', 'твору')|e]."
   target_character_will_compile_a_history_of_our_dynasty_tt: "[target_character.GetName] буде обрано, щоб написати #TOOLTIP:WORK_OF_ART_TYPE,chronicle,X #L хроніку#!#! [Concept('dynasty', 'династії')|e] [actor GetGovernment.GetRulerOrRegent.GetDynasty.GetName]."
   DISASTERS_MODIFIERS_TT: "Модифікатори лих"
   ambrosian_republic_disaster: "Золота Амброзіанська республіка"
