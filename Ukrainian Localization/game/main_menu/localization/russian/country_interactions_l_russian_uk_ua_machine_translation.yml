@@ -425,7 +425,7 @@
   formalize_relations_effect_text: "[SCOPE.sCountry('actor').GetName] та [SCOPE.sCountry('recipient').GetName] формалізують відносини, що сприяє взаємній симпатії та довірі."
   formalize_relations_effect_text_past: "[SCOPE.sCountry('actor').GetName] формалізував[SCOPE.sCountry('actor').Custom('end_fem')] відносини з #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').Custom('CL_tt')] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').Custom('CL_tt')],X [SCOPE.sCountry('recipient').Custom('CL_INST')|L]#!#!, що посприяло взаємній симпатії та довірі."
   PROPOSE_formalize_relations: "Формалізувати дипломатичні відносини з країною $RECIPIENT$?\n$INFO$"
-  formalize_relations_select_artist: "Оберіть [Concept('artist', 'творця')|e], якого бажаєте запросити"
+  formalize_relations_select_artist: "Оберіть [Concept('artist', 'митця')|e], якого бажаєте запросити"
   form_closer_bond_iroquois: "Встановлення тісних зв'язків"
   dip_form_closer_bond_iroquois_CATEGORY: "CATEGORY_FRIENDLY_ACTIONS"
   form_closer_bond_iroquois_act: "Встановлення тісних зв'язків [SCOPE.sCountry('recipient').Custom('endlong_predlog_sso')] #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').Custom('CL_tt')] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').Custom('CL_tt')],X [SCOPE.sCountry('recipient').Custom('CL_INST')|L]#!#!"

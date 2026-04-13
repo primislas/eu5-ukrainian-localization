@@ -539,7 +539,7 @@
   flavor_hab.1300.a.tt: "Це наблизить досягнення культурних цілей нашої країни."
   flavor_hab.1300.b: "Марна трата грошей."
   flavor_hab.1301.title: "[target_character.GetNameWithNoTooltip] пропонує заснувати Колегіум поетів"
-  flavor_hab.1301.desc: "[Select_CString(target_character.IsFemale,'Відома поетеса', 'Відомий поет')] [target_character.GetName] [Select_CString(target_character.IsFemale,'запропонувала', 'запропонував')] розширити #TOOLTIP:BUILDING_TYPE,university,X #L університет#!#!, заснувавши в ньому окрему колегію для гуманістичних студій. Якщо [target_ruler.GetName|l] прийме цю пропозицію, ми залучимо на територію #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! більше творців і підкреслимо свою вірність ідеям гуманізму."
+  flavor_hab.1301.desc: "[Select_CString(target_character.IsFemale,'Відома поетеса', 'Відомий поет')] [target_character.GetName] [Select_CString(target_character.IsFemale,'запропонувала', 'запропонував')] розширити #TOOLTIP:BUILDING_TYPE,university,X #L університет#!#!, заснувавши в ньому окрему колегію для гуманістичних студій. Якщо [target_ruler.GetName|l] прийме цю пропозицію, ми залучимо на територію #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! більше митців і підкреслимо свою вірність ідеям гуманізму."
   flavor_hab.1301.a: "Чудовий план!"
   flavor_hab.1301.b: "Яка дурна ідея!"
   flavor_hab.1302.title: "[target_ruler.GetNameWithNoTooltip] публікує «Тойерданк»"

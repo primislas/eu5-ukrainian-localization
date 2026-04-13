@@ -148,7 +148,7 @@
   CHAR_WORK_OF_ART_HEADER_S: "Створено витвір під назвою"
   CHAR_WORK_OF_ART_HEADER_P: "Створено такі витвори"
   CHAR_WORK_OF_ART_ENTRY: "• [WORK_OF_ART.GetName]"
-  UNKNOWN_ARTIST: "Невідомий творець"
+  UNKNOWN_ARTIST: "Невідомий митець"
   ART_PRE_BC: "$VAL$ р. до н. е."
   ART_CREATE_TYPE_NAME: "$TYPE$"
   ART_CREATION_DATE_TT: "Створено $DATE$ р."

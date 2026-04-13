@@ -58,7 +58,7 @@
   hint_cultural_capacity_hint_text_2: "#T Рекомендації#!\n@arrow_bonus_tier_3! Щоб скоротити витрати, понизьте статус культури, менш важливої в стратегічному відношенні.\n@arrow_bonus_tier_2! На #TOOLTIP:MODIFIER_TYPE,cultures_capacity,X #P #V межу культур#!#!#! найчастіше впливають [Concept('government_reforms', 'державні реформи')|e] та [Concept('advances', 'поступ')|e]."
   hint_cultural_capacity_hint_text_3: "#T Додаткові поради#!\n@hint! Зменшити кількість культур у країні також можна за допомогою [Concept('assimilation', 'асиміляції')|e]."
   hint_cultural_capacity_military: "«Від культур потрібно отримувати якомога більше віддачі: вони допомагають нам створювати культурні традиції та вплив — це незамінний інструмент, який дасть нам перевагу в разі культурного конфлікту. А якщо ми дамо чужим культурам більше прав, країна отримає додаткових ополченців і вояків»."
-  hint_cultural_capacity_administrative: "«Культурним вираженням займаються зокрема творці нашої країни, що створюють чудові шедеври. Адже чим ще виміряти велич країни, якщо не її впливом на світ?»"
+  hint_cultural_capacity_administrative: "«Культурним вираженням займаються зокрема митці нашої країни, що створюють чудові шедеври. Адже чим ще виміряти велич країни, якщо не її впливом на світ?»"
   hint_cultural_capacity_diplomatic: "«З часом чужі культури можуть асимілюватися та наблизитися до основної культури [GetPlayer.Custom('CL_GEN')]. Хіба є щось краще за [GetPlayer.GetCulture.GetNameWithNoTooltip|l]у культуру?»"
   hint_unhappy_estates: "Невдоволені стани"
   hint_unhappy_estates_hint_text: "$hint_unhappy_estates_hint_text_1$\n\n$hint_unhappy_estates_hint_text_2$\n\n$hint_unhappy_estates_hint_text_3$"

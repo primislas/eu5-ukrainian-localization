@@ -41,7 +41,7 @@
   institution_events.30.a: "Нехай [ROOT.GetCountry.GetGovernment.GetHeirTitle|l] набирається мудрості."
   institution_events.30.b: "З цим завданням впорається і звичайний наставник."
   institution_events.31.title: "Культурний вплив доби Відродження"
-  institution_events.31.desc: "З відродженням інтересу до мистецтва класичної доби багато наших творців і вчених зайнялися створенням нових творів мистецтва і науки, взявши за основу давньогрецьку та давньоримську літературу. Ці роботи, зрозуміло, не тільки надають значний престиж, але й додають новий аспект до того, що означає бути представником #L [ROOT.GetCountry.GetCulture.GetName|l]ої#! культури."
+  institution_events.31.desc: "З відродженням інтересу до класичної доби багато наших митців і вчених зайнялися створенням нових творів мистецтва і науки, взявши за основу давньогрецьку та давньоримську літературу. Ці роботи, зрозуміло, не тільки надають значний престиж, але й додають новий аспект до того, що означає бути представником #L [ROOT.GetCountry.GetCulture.GetName|l]ої#! культури."
   institution_events.31.a: "[ShowInstitutionNameWithNoTooltip('renaissance')] є невід'ємною частиною [ROOT.GetCountry.GetCulture.GetNameWithNoTooltip|l]их традицій."
   institution_events.31.b: "Ці давні ідеї збільшать [ROOT.GetCountry.GetCulture.GetNameWithNoTooltip|l]ий вплив."
   institution_events.40.title: "Поширення лихварства"

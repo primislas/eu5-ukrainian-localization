@@ -377,7 +377,7 @@
   flavor_rus.52.tt3: "На «#TOOLTIP:LOCATION,moscow,X #L Московські#!#! відомості» підпишеться ще більше людей, оскільки читачам подобаються колонки Шувалова"
   flavor_rus.52.b: "Погодимося, але задумаємо дещо інше."
   flavor_rus.52.tt4: "На церемонії посвячення [ivan_shuvalov.GetNameWithNoTooltip] виставить #ONCLICK:COUNTRY,[target_root_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_root_country.Custom('CL_tt')],X [target_root_country.Custom('CL_ACC')|L]#!#! оплотом просвіти"
-  flavor_rus.52.historical_info: "«Член Лондонського королівського товариства» — почесне звання, що присуджується видатним вченим та дослідникам. У 1758 році цього звання удостоївся Іван Шувалов — творець першого в Росії університету та академії мистецтв."
+  flavor_rus.52.historical_info: "«Член Лондонського королівського товариства» — почесне звання, що присуджується видатним вченим та дослідникам. У 1758 році цього звання удостоївся Іван Шувалов — засновник першого в Росії університету та академії мистецтв."
   flavor_rus.53.title: "Виховний дім"
   flavor_rus.53.desc_ivan_betskoy_sole_contributor: "Радник [ivan_betskoy.GetName] подав нам цікаву ідею про те, що $flavor_rus.53.desc$"
   flavor_rus.53.desc_common_initiative: "[target_character.GetName] та радник [ivan_betskoy.GetName] подали нам привабливу своєю великодушністю ідею про те, що $flavor_rus.53.desc$"

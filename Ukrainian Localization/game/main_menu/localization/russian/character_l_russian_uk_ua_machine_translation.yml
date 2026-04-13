@@ -50,7 +50,7 @@
   CHARACTER_ROLE_GENERAL: "[Concept('general', 'Полководець')|e]"
   CHARACTER_ROLE_ADMIRAL: "[Concept('admiral', 'Флотоводець')|e]"
   CHARACTER_ROLE_EXPLORER: "[Concept('explorer', 'Дослідник')|e]"
-  CHARACTER_ROLE_ARTIST: "[Concept('artist', 'Творець')|e]"
+  CHARACTER_ROLE_ARTIST: "[Concept('artist', 'Митець')|e]"
   CHARACTER_ROLE_RELIGIOUS_FIGURE: "[Concept('religious_figure', 'Релігійний діяч')|e]"
   CHARACTER_ROLE_REBEL: "[Concept('rebel', 'Бунтівник')|e]"
   CHARACTER_ROLE_INFANT: "[Concept('infant', 'Немовля')|e]"
