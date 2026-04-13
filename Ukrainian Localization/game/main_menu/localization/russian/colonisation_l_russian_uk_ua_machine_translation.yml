@@ -9,7 +9,7 @@
   NO_COLONIAL_CHARTER_RELIGION: "$NAME|Y$ — причина, через яку лише країна [COUNTRY.GetName] може колонізувати цю територію, тоді як іншим #L [COUNTRY.GetReligion.GetAdjective|l]им#! країнам заборонено це."
   treaty_of_noteborg: "За #Y Оріхівським#! миром Новгород і Швеція владнали територіальні суперечки у Фінляндії та Карелії"
   COLONIAL_PROGRESS_POT_HEADER: "Колоніальний прогрес"
-  COLONIAL_MIGRATION_HEADER_TT: "Міграція за місяць до колоніального поселення [ColonialCharter.GetNameWithNoTooltip]"
+  COLONIAL_MIGRATION_HEADER_TT: "Міграція на місяць до колоніального поселення [ColonialCharter.GetNameWithNoTooltip]"
   COLONIAL_CHARTER_TOTAL_MIGRATION: "Загальна [Concept('migration', 'міграція')|e] [Concept('pops', 'груп населення')|e] — $VAL|y$ на місяць."
   COLONIAL_CHARTER_FROM_CHARTER: "Від [Concept('colonial_charter', 'колоніального поселення')|e]:"
   COLONIAL_CHARTER_FROM_CABINET: "Від наших [Concept('cabinet_actions', 'дій ради')|e]:"

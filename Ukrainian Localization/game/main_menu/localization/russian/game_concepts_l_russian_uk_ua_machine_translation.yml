@@ -1036,7 +1036,7 @@
   game_concept_market_balance_short: "Баланс"
   game_concept_market_balance_desc: "$game_concept_market_balance$ — це різниця між [Concept('supply_with_icon', 'пропозицією')|e] та [Concept('demand_with_icon', 'попитом')|e] на [Concept('good', 'товар')] на конкретному [Concept('market_with_icon', 'ринку')|e]."
   game_concept_market_value: "Оборот ринку"
-  game_concept_market_value_desc: "Цей показник відображає сукупну вартість усіх угод на [Concept('market', 'ринку')|e] за місяць і слугує для оцінки його загального добробуту."
+  game_concept_market_value_desc: "Цей показник відображає сукупну вартість усіх угод на [Concept('market', 'ринку')|e] на місяць і слугує для оцінки його загального добробуту."
   game_concept_price_impact: "Вплив ціни"
   game_concept_price_impact_desc: "[Concept('market_price', 'Ринкова ціна')|e] [Concept('goods', 'товарів')|e], що покривають [Concept('pop_needs', 'потреби')|e] певної [Concept('pop', 'групи населення')|e], безпосередньо впливає на [Concept('pop_satisfaction', 'задоволення')|e] цієї групи."
   game_concept_price_stability: "Цінова стійкість"

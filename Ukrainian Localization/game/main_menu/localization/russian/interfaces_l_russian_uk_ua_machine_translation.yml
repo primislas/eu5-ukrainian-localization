@@ -1794,7 +1794,7 @@
   NO_PRIVATEER_ENABLED: "@trigger_no! Щоб найняти каперів, потрібно дослідити [Concept('advance', 'поступ')|e] «[ADVANCE_DEFINITION.GetName]»!"
   PRIV_POWER_NO_SAILOR: "$COST$ — це занадто дорого: $VAL|+=%$"
   PRIV_POWER_HARASSMENT: "Від турбуючих дій [Concept('navies', 'флотів')|e] поблизу: $VAL|+=%$"
-  PRIVATEER_POWER_CHANGE: "#T Зміна сили за місяць#!"
+  PRIVATEER_POWER_CHANGE: "#T Зміна сили на місяць#!"
   NO_PRIVATEER_ALREADY: "@trigger_no! Ми вже підтримуємо [Concept('privateers', 'каперів')|e] в області [AREA.GetName]."
   DISM_PRIVATEER_NONE: "@trigger_no! Ми не підтримуємо [Concept('privateers', 'каперів')|e] в області [AREA.GetName]."
   DISMiSS_PRIVATEER: "Звільнення [Concept('privateers', 'каперів')|e] в області [AREA.GetName] змусить їх миттєво зникнути. Це може стати нам у пригоді для поліпшення відносин із зачепленими [Concept('countries', 'країнами')|e]."
