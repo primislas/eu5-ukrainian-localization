@@ -237,7 +237,7 @@
   flavor_mos.33.a: "Передбачений союз!"
   flavor_mos.33.tt1: "З'явиться [Concept('character', 'персонаж')|e] [sophia_palaiologina.GetNameWithNoTooltip]"
   enable_byzantine_court_ceremonies_reform: "Відкриває [Concept('government_reform', 'державну реформу')|e] #TOOLTIP:GOVERNMENT_REFORM,byzantine_court_ceremonies_reform,X #L «Візантійські придворні церемонії»#!#!"
-  flavor_mos.33.tt2: "[Select_CString(sophia_palaiologina.IsFemale,'Її', 'Його')] неприязнь до деяких дипломатів зіпсує дипломатичні відносини між #ONCLICK:COUNTRY,[target_root_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_root_country.Custom('CL_tt')],X [target_root_country.Custom('CL_INST')|L]#!#! та сусідами-[Concept('heathen', 'язичниками')|e]"
+  flavor_mos.33.tt2: "[Select_CString(sophia_palaiologina.IsFemale,'Її', 'Його')] неприязнь до деяких послів зіпсує дипломатичні відносини між #ONCLICK:COUNTRY,[target_root_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_root_country.Custom('CL_tt')],X [target_root_country.Custom('CL_INST')|L]#!#! та сусідами-[Concept('heathen', 'чужовірцями')|e]"
   STATIC_MODIFIER_NAME_mongol_intolerance: "Нетерпимість до монголів"
   flavor_mos.33.b: "Цей шлюб не дає жодних переваг."
   flavor_mos.33.historical_info: "Після одруження Івана III із Софією Палеолог при великокнязівському дворі увійшов у вжиток складний візантійський придворний церемоніал. Це допомогло зміцнити претензії Москви на символічний статус Третього Риму. Софія народила одинадцять дітей і була бабусею сумнозвісного Івана Грозного. Її нетерпимість до монгольського впливу спричинила кілька дипломатичних інцидентів і сприяла остаточному розриву Москви із Золотою Ордою 1480 року."

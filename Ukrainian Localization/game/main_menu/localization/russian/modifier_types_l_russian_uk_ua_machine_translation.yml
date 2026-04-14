@@ -667,7 +667,7 @@
   MODIFIER_TYPE_DESC_tolerance_own: "Впливає на [Concept('tolerance', 'терпимість')|e] до [Concept('state_religion', 'основної релігії')|e]."
   MODIFIER_TYPE_NAME_tolerance_heretic: "Терпимість до єретичних вірувань"
   MODIFIER_TYPE_DESC_tolerance_heretic: "Впливає на [Concept('tolerance', 'терпимість')|e] до [Concept('religions', 'релігій')|e] з тієї ж [Concept('religion_group', 'групи')|e], що й [Concept('state_religion', 'основна релігія')|e]."
-  MODIFIER_TYPE_NAME_tolerance_heathen: "Терпимість до язичницьких вірувань"
+  MODIFIER_TYPE_NAME_tolerance_heathen: "Терпимість до іновірців"
   MODIFIER_TYPE_DESC_tolerance_heathen: "Впливає на [Concept('tolerance', 'терпимість')|e] до [Concept('religions', 'релігій')|e] не з тієї ж [Concept('religion_group', 'групи')|e], що й [Concept('state_religion', 'основна релігія')|e]."
   MODIFIER_TYPE_NAME_monthly_rebel_growth: "Приріст повстанців за місяць"
   MODIFIER_TYPE_DESC_monthly_rebel_growth: "Впливає на те, як швидко [Concept('rebels', 'повстанці')|e] розпалюють [Concept('revolt', 'повстання')|e] або [Concept('civil_war', 'громадянську війну')|e]."
