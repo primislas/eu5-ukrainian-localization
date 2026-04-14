@@ -1211,7 +1211,7 @@
   UNIT_BREAKDOWN_OWN_COAST: "$MODIFIER_TYPE_NAME_own_coast_naval_combat_bonus$\n$VAL|+=%$. Причини:"
   VISUAL_STRENGTH_WITH_ICON: "$MEN$ @army_strength! у полку"
   VISUAL_STRENGTH_WITH_ICON_SHIP: "Стан [Concept('ship', 'корабля')|e] — $PERC|2%$"
-  CT_IMPACT_ON_COMBAT_POWER: "$VAL|+=%$ від [Concept('combat_power', 'бойової потужності')|e] підрозділу «[SUBUNIT.GetDefinition.GetName]»: $DAMAGE$"
+  CT_IMPACT_ON_COMBAT_POWER: "$VAL|+=%$ від [Concept('combat_power', 'бойової міці')|e] підрозділу «[SUBUNIT.GetDefinition.GetName]»: $DAMAGE$"
   CT_IMPACT_ON_FLANKING_ABILITY: "$VAL|+=%$ від [Concept('flanking_ability', 'навичок фланкування')|e] підрозділу «[SUBUNIT.GetDefinition.GetName]»: $DAMAGE$"
   CT_IMPACT_ON_LEVY_VS_REGULAR: "$VAL|+=%$ від битви [Concept('levy', 'ополчення')|e] проти [Concept('regulars', 'регулярних військ')|e]: $DAMAGE$"
   CT_IMPACT_ON_EXPERIENCE: "$VAL|+=%$ від [Concept('experience', 'досвіду')|e] підрозділу «[TARGET_SUBUNIT.GetName]»: $DAMAGE$"

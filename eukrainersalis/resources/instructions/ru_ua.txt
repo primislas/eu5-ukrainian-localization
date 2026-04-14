@@ -61,6 +61,7 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     * capital_economy, капитализм -> підприємництво;
     * traditional_economy, традиционная єкономика -> традиційне господарство;
     * economy, економіка -> господарство, господарчий, etc.
+    * combat power, боевая мощь/мощность -> бойова міць
 5.  Low-Confidence Flagging: If you are uncertain about the translation of a proper noun (dynasty, ethnicity, culture), prefix it with 'POSTEDIT_'.
 6.  Translate only Russian text. Do not translate any other language.
 7.  Attempt to keep the sentence structure as close to the original as possible.
