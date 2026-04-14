@@ -74,7 +74,7 @@
   show_event_target_government_type: "Ціль події: [Concept('government_type', 'форма правління')|e] «[GOVERNMENT_TYPE.GetName]»"
   show_event_target_hegemony: "Ціль події: [Concept('hegemony', 'гегемонія')|e] «[HEGEMONY.GetName]»"
   show_event_target_institution: "Ціль події: [Concept('institution', 'інститут')|e] «[INSTITUTION.GetName]»"
-  show_event_target_international_organization: "Ціль події: [Concept('international_organization', 'міжнародне об'єднання')|e] «[INTERNATIONAL_ORGANIZATION.GetName]»"
+  show_event_target_international_organization: "Ціль події: [Concept('international_organization', 'міжнародне об’єднання')|e] «[INTERNATIONAL_ORGANIZATION.GetName]»"
   show_event_target_disease: "Ціль події: [Concept('disease', 'епідемія')|e] «[DISEASE.GetName]»"
   show_event_target_god: "Ціль події: [Concept('god', 'божество')|e] [GOD.GetName]"
   show_event_target_avatar: "Ціль події: [Concept('avatar', 'аватар')|e] «[AVATAR.GetName]»"

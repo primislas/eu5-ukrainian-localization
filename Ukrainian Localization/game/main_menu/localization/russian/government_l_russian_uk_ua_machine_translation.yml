@@ -370,7 +370,7 @@
   MODIFIER_LOCATION_TITLE: "По кожній [Concept('location', 'місцевості')|e]:"
   MODIFIER_PROVINCE_TITLE: "По кожній [Concept('province', 'провінції')|e]:"
   MODIFIER_COUNTRY_TITLE: "По кожній [Concept('country', 'країні')|e]:"
-  MODIFIER_INTERNATIONAL_ORGANIZATION_TITLE: "По кожному [Concept('international_organization', 'міжнародному об'єднанню')|e]:"
+  MODIFIER_INTERNATIONAL_ORGANIZATION_TITLE: "По кожному [Concept('international_organization', 'міжнародному об’єднанню')|e]:"
   MODIFIER_REBEL_TITLE: "Для [Concept('rebels', 'повстанців')|e]:"
   MODIFIER_WHILE_RESEARCHING: "Під час дослідження:"
   SET_LAW_ACTION: "Систематизація політики «[POLICY.GetName]» для закону «[LAW.GetName]» обійдеться нам у $COST$"

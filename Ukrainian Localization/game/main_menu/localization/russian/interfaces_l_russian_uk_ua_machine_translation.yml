@@ -5448,7 +5448,7 @@
   mapmode_literacy_name: "Грамотність"
   MAPMODE_LITERACY: "#T $mapmode_literacy_name$#!\n$mapmode_common_start$ середньої [Concept('literacy', 'грамотності')|e]."
   mapmode_international_organization_name: "Міжнародне об'єднання"
-  MAPMODE_INTERNATIONAL_ORGANIZATION: "#T $mapmode_international_organization_name$#!\nЗабарвлює територію обраного [Concept('international_organization', 'міжнародного об'єднання')|e]. Забарвлення змінюється залежно від типу організації."
+  MAPMODE_INTERNATIONAL_ORGANIZATION: "#T $mapmode_international_organization_name$#!\nЗабарвлює територію обраного [Concept('international_organization', 'міжнародного об’єднання')|e]. Забарвлення змінюється залежно від типу організації."
   mapmode_privateering_name: "Каперство"
   MAPMODE_PRIVATEERING: "#T $mapmode_privateering_name$#!\n$mapmode_common_start$ наявності чи відсутності там [Concept('privateer', 'капера')|e]."
   mapmode_road_builder_name: "Конструктор доріг"

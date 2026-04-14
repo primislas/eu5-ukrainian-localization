@@ -406,4 +406,4 @@
   NAME_TEST_NUM_WITH_SPACE: "$NUM$"
   NAME_TEST_NUM_WITHOUT_SPACE: "$NUM$"
   DB_PARLIAMENT_TYPES_COUNTRY_HEADER: "Доступні [Concept('parliament_types', 'типи парламенту')|e] для [Concept('countries', 'країн')|e]:"
-  DB_PARLIAMENT_TYPES_IO_HEADER: "Доступні [Concept('parliament_types', 'типи парламенту')|e] для [Concept('international_organizations', 'міжнародних об'єднань')|e]:"
+  DB_PARLIAMENT_TYPES_IO_HEADER: "Доступні [Concept('parliament_types', 'типи парламенту')|e] для [Concept('international_organizations', 'міжнародних об’єднань')|e]:"

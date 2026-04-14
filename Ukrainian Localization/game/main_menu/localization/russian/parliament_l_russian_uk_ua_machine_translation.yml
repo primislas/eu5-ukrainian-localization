@@ -32,7 +32,7 @@
   ACCEPT_AGENDA_TT: "Прийняти вимогу «$NAME$»"
   ACCEPT_AGENDA_EFFECT: "Надає підтримку в [Concept('parliament', 'парламенті')|e] у розмірі $VAL|2+=%$"
   IO_PARLIAMENT_TITLE: "Парламент об'єднання «[InternationalOrganizationsView.GetInternationalOrganization.GetNameWithNoTooltip]»"
-  IO_PARLIAMENT_TOOLTIP: "Деякі політичні рішення в об'єднанні «[InternationalOrganizationsView.GetInternationalOrganization.GetName]» мають обговорюватися в [Concept('parliament', 'парламенті')|e]. Провідна країна об'єднання має право ставити такі [Concept('parliament_issues', 'парламентські питання')|e] на обговорення, однак прийняті вони будуть лише після схвалення більшістю учасників [Concept('international_organization', 'міжнародного об'єднання')|e]."
+  IO_PARLIAMENT_TOOLTIP: "Деякі політичні рішення в об'єднанні «[InternationalOrganizationsView.GetInternationalOrganization.GetName]» мають обговорюватися в [Concept('parliament', 'парламенті')|e]. Провідна країна об'єднання має право ставити такі [Concept('parliament_issues', 'парламентські питання')|e] на обговорення, однак прийняті вони будуть лише після схвалення більшістю учасників [Concept('international_organization', 'міжнародного об’єднання')|e]."
   IO_PARLIAMENT_NON_VOTERS: "Ще не голосували"
   IO_PARLIAMENT_OPPOSERS: "Противники"
   IO_PARLIAMENT_VOTERS: "Прихильники"
