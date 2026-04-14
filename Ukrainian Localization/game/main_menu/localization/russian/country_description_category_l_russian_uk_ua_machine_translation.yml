@@ -1,8 +1,8 @@
 ﻿l_russian:
   COUNTRY_DESCRIPTION_CATEGORY_LABEL: "Категорія"
   COUNTRY_DESCRIPTION_CATEGORY_DESC: "Підхід країни"
-  country_description_category_name_administrative: "Економіка"
-  country_description_category_desc_administrative: "Ця [Concept('country', 'країна')|e] зосереджена на зростанні та розвитку економіки."
+  country_description_category_name_administrative: "Господарство"
+  country_description_category_desc_administrative: "Ця [Concept('country', 'країна')|e] зосереджена на зростанні та розвитку господарства."
   country_description_category_name_diplomatic: "Політика"
   country_description_category_desc_diplomatic: "Ця [Concept('country', 'країна')|e] зосереджена на внутрішніх справах та міжнародній [Concept('diplomacy', 'дипломатії')|e]."
   country_description_category_name_military: "Експансія"

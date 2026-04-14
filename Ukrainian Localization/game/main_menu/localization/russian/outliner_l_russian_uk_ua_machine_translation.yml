@@ -111,7 +111,7 @@
   OUTLINER_TYPE_MILITARY_SUB_UNIT_TOOLTIP: "Показати або приховати всі війська: $ARMY_TYPE$"
   OUTLINER_ITEM_MILITARY_ARMY_TOOLTIP: "Щоб перейти до військ, клацніть лівою кнопкою миші, а щоб скасувати набір — правою"
   OUTLINER_ITEM_MILITARY_NAVY_TOOLTIP: "Щоб перейти до флотів, клацніть лівою кнопкою миші, а щоб скасувати набір — правою"
-  OUTLINER_CATEGORY_ECONOMY_NAME: "Категорія «Економіка»"
+  OUTLINER_CATEGORY_ECONOMY_NAME: "Категорія «Господарство»"
   OUTLINER_CATEGORY_ECONOMY_TRADES: "Поточні торгові угоди"
   OUTLINER_TYPE_ECONOMY_TRADES: "[Concept('trades', 'Торгових угод')|e] на ринку #L #TOOLTIP:LOCATIONRANK,[MARKET.GetCenterLocation.Custom('LR_tt')],X [MARKET.GetCenterLocation.Custom('LR_GEN')|l]#!#! [MARKET.GetShortName]: $AMOUNT$, загальний прибуток: $PROFIT|2$@gold!"
   OUTLINER_TYPE_ECONOMY_TRADES_TOOLTIP: "Показати або приховати всі [Concept('trades', 'торгові угоди')|e] на ринку #L #TOOLTIP:LOCATIONRANK,[MARKET.GetCenterLocation.Custom('LR_tt')],X [MARKET.GetCenterLocation.Custom('LR_GEN')|l]#!#! [MARKET.GetShortName]"

@@ -384,7 +384,7 @@
   EMPEROR_DIP_REPUTATION: "Дипломатична репутація Китаю"
   OUTSIDE_OF_DIP_RANGE: "За межами [Concept('diplomatic_range', 'дипломатичної відстані')|e]"
   DISTANCE_FROM_CHINA: "Відстань до кордону"
-  ECONOMIC_SIZE: "Розмір економіки"
+  ECONOMIC_SIZE: "Розмір господарства"
   NOT_SUBJECT_OF_EMPEROR: "Не є васалом країни $CHI$"
   WE_EXPERIENCE_BANKRUPTCY: "$CHI$ — [Concept('bankrupt', 'банкрут')|e]"
   CURRENT_CELESTIAL_AUTHORITY: "$celestial_authority$ (поточний)"
