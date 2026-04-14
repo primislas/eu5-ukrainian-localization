@@ -940,7 +940,7 @@
   bribe_voter_for_policy_reject_effect_text_past: "$generic_reject_offer_effect_string_past$"
   select_bribing_amount: "Оберіть суму підкупу:"
   negotiate_succession_law: "Обговорення правила престолонаслідування"
-  negotiate_succession_law_desc: "Престолонаслідування в цій країні мінливе і веде до розірвання унії. Необхідно переконати правлячий клас прийняти наш звід правил, щоб гарантувати передачу влади."
+  negotiate_succession_law_desc: "Престолонаслідування в цій країні мінливе і веде до розірвання унії. Необхідно переконати правлячий клас прийняти наш звід законів, щоб гарантувати передачу влади."
   negotiate_succession_law_at: "[succession_law|e] у #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').Custom('CL_tt')] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').Custom('CL_tt')],X [SCOPE.sCountry('recipient').Custom('CL_GEN')|L]#!#! — не «[SCOPE.sCountry('actor').GetGovernment.GetHeirSelection.GetName]», і країна може його змінити"
   negotiate_succession_law_ct: "[policy|e] #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').Custom('CL_tt')] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').Custom('CL_tt')],X [SCOPE.sCountry('recipient').Custom('CL_GEN')|L]#!#! в межах закону «[ShowLawName('heir_religion_law')]» не дозволяє мати #L [SCOPE.sCountry('actor').GetReligion.GetAdjective|l]ого#! [Concept('heir', 'спадкоємця')|e] престолу, і країна може її змінити"
   negotiate_succession_law_tt: "Змінити [Concept('heir_selection', 'правило престолонаслідування')|e] обраної [Concept('country', 'країни')|e] на «[SCOPE.sCountry('actor').GetGovernment.GetHeirSelection.GetName]»"
