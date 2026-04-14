@@ -1301,7 +1301,7 @@
   any_cabinet_character_percent: "$PARAMETERS$ з наших радників"
   any_cabinet_action: "Будь-яке [Concept('cabinet_action', 'доручення')|e]"
   any_cabinet_action_all: "Усі [Concept('cabinet_actions', 'доручення')|e]"
-  any_cabinet_action_count: "$PARAMETERS$ з [Concept('cabinet_actions', 'дій ради')|e]"
+  any_cabinet_action_count: "$PARAMETERS$ з [Concept('cabinet_actions', 'доручень')|e]"
   any_cabinet: "Будь-яка посада в [Concept('cabinet', 'раді')|e]"
   any_cabinet_all: "Усі посади в [Concept('cabinet', 'раді')|e]"
   any_cabinet_count: "$PARAMETERS$ з посад у [Concept('cabinet', 'раді')|e]"

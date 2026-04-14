@@ -12,7 +12,7 @@
   COLONIAL_MIGRATION_HEADER_TT: "Міграція на місяць до колоніального поселення [ColonialCharter.GetNameWithNoTooltip]"
   COLONIAL_CHARTER_TOTAL_MIGRATION: "Загальна [Concept('migration', 'міграція')|e] [Concept('pops', 'груп населення')|e] — $VAL|y$ на місяць."
   COLONIAL_CHARTER_FROM_CHARTER: "Від [Concept('colonial_charter', 'колоніального поселення')|e]:"
-  COLONIAL_CHARTER_FROM_CABINET: "Від наших [Concept('cabinet_actions', 'дій ради')|e]:"
+  COLONIAL_CHARTER_FROM_CABINET: "Від наших [Concept('cabinet_actions', 'доручень')|e]:"
   COLONIAL_CHARTER_FROM_CABINET_SPECIFIC_ENTRY: "Від провінції [PROVINCE.GetName]:"
   COLONIAL_CHARTER_NO_SOURCE: "Міграція неможлива, оскільки у вашій країні немає місцевостей для імміграції, де проживає понад 1000 [Concept('pops', 'населення')|e] вашої [Concept('culture', 'культури')|e] та [Concept('religion', 'релігії')|e]."
   COLONIAL_CHARTER_CURRENT: "Щомісяця $VAL|Y$ [Concept('pops', 'гр. населення')|e] переїжджатиме з [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName], щоб колонізувати [TARGET_LOCATION.Custom('LR_ACC')|l] [TARGET_LOCATION.GetName]."

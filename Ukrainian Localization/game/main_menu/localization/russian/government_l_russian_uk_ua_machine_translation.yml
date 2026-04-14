@@ -1082,7 +1082,7 @@
   SUBTAB_GOVERNMENT_PARLIAMENT_TT_TEXT: "У цьому вікні можна залучити наші [Concept('estates', 'стани')|e] до [Concept('parliament', 'парламенту')|e]."
   SUBTAB_GOVERNMENT_PARLIAMENT_TT_FLAVOR_TEXT: "«Третій стан — це наше все»"
   SUBTAB_GOVERNMENT_CABINET: "$game_concept_cabinet$"
-  SUBTAB_GOVERNMENT_CABINET_TT_TEXT: "Це вікно управління [Concept('cabinet', 'радою')|e]. Тут можна призначити [Concept('characters', 'персонажа')|e] на [Concept('role', 'роль')|e] [Concept('cabinet_member', 'радника')|e] та доручити йому певні [Concept('cabinet_actions', 'завдання')|e]."
+  SUBTAB_GOVERNMENT_CABINET_TT_TEXT: "Це вікно управління [Concept('cabinet', 'радою')|e]. Тут можна призначити [Concept('characters', 'персонажа')|e] на [Concept('role', 'роль')|e] [Concept('cabinet_member', 'радника')|e] та доручити йому певні [Concept('cabinet_actions', 'доручення')|e]."
   SUBTAB_GOVERNMENT_CABINET_TT_FLAVOR_TEXT: "«Хто встереже самих сторожів?»"
   SUBTAB_GOVERNMENT_POLITICS: "$game_concept_laws$"
   SUBTAB_GOVERNMENT_POLITICS_TT_TEXT: "У цьому вікні можна змінювати [Concept('laws', 'закони')|e] та [Concept('policies', 'політики')|e] нашої [Concept('country', 'країни')|e]."
