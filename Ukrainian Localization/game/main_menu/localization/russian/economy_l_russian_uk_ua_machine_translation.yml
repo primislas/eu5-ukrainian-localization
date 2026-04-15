@@ -578,7 +578,7 @@
   AUTOMATE_TEXT: "Автоматизація"
   FINANCES_TEXT: "Фінанси"
   AUTOMATE_FINANCES_TEXT_JOIN: "Автоматичне фінансування"
-  BALANCE_TEXT: "Баланс"
+  BALANCE_TEXT: "Скарбниця"
   BALANCE_BREAKDOWN_TEXT: "Розбивка балансу"
   CURRENT_LOANS_PLUS_NUMBER: "Сума поточних [Concept('loans', 'позик')|e]: [Player.GetEconomy.GetNumberOfLoans]"
   AUTOMATE_FINANCES_TOOLTIP: "Автоматизація фінансів"

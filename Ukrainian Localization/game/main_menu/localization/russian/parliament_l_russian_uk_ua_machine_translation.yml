@@ -223,7 +223,7 @@
   VIJ_ALL_NON_HINDU_POPS_GAIN_SATISFACTION: "Усі наші [Concept('heretics', 'єретичні')|e] та [Concept('heathen', 'чужовірні')|e] [Concept('pops', 'групи населення')|e] отримають [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e]."
   increase_non_hindu_control: "Контроль над іновірцями"
   increase_non_hindu_control_desc: "Не можна дозволити, щоб у нашій країні було багато різних вірувань. Щоб уникнути заворушень, треба контролювати чужовірців."
-  VIJ_ALL_NON_HINDU_POPS_LOCATIONS_GAIN_CONTROL: "Усі наші [Concept('locations', 'місцевості')|e], де живе не менше #Y 5%#! [Concept('heretics', 'єретичних')|e] та [Concept('heathen', 'чужовірних')|e] [Concept('pops', 'груп населення')|e], отримають [ShowNamedValue('control_mild_bonus')|+=2%] [Concept('control', 'контролю')|e]."
+  VIJ_ALL_NON_HINDU_POPS_LOCATIONS_GAIN_CONTROL: "Усі наші [Concept('locations', 'місцевості')|e], де живе не менше #Y 5%#! [Concept('heretics', 'єретичних')|e] та [Concept('heathen', 'іновірних')|e] [Concept('pops', 'груп населення')|e], отримають [ShowNamedValue('control_mild_bonus')|+=2%] [Concept('control', 'контролю')|e]."
   dlh_famine_reductions: "Боротьба з голодом"
   dlh_famine_reductions_desc: "Наші піддані не повинні помирати від голоду — ми надамо допомогу всім місцевостям, що страждають від нестачі припасів."
   new_model_army_pi: "Армія нового зразка"
