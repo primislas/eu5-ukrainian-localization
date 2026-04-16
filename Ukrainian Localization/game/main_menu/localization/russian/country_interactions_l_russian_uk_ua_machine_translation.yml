@@ -777,7 +777,7 @@
   take_over_loan: "Відбирання прав позикодавця"
   dip_take_over_loan_CATEGORY: "CATEGORY_ECONOMY_ACTIONS"
   take_over_loan_act: "Відбирання прав позикодавця у країни [SCOPE.sCountry('recipient').GetName]"
-  take_over_loan_desc: "Ми відправимо [Concept('diplomat', 'дипломата')|e] до цієї [Concept('country', 'країни')|e], щоб забрати права [Concept('lender', 'позикодавця')|e] за однією з її [Concept('loans', 'позик')|e] та отримувати [Concept('interest', 'відсоток')|e]."
+  take_over_loan_desc: "Ми відправимо [Concept('diplomat', 'посла')|e] до цієї [Concept('country', 'країни')|e], щоб забрати права [Concept('lender', 'позикодавця')|e] за однією з її [Concept('loans', 'позик')|e] та отримувати [Concept('interest', 'відсоток')|e]."
   take_over_loan_effect_text: "[SCOPE.sCountry('actor').GetName] забира[SCOPE.sCountry('actor').Custom('end_etyut')] права позикодавця у #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').Custom('CL_tt')] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').Custom('CL_tt')],X [SCOPE.sCountry('recipient').Custom('CL_GEN')|L]#!#!."
   take_over_loan_effect_text_past: "[SCOPE.sCountry('actor').GetName] забрав[SCOPE.sCountry('actor').Custom('end_fem')] права позикодавця у #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').Custom('CL_tt')] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').Custom('CL_tt')],X [SCOPE.sCountry('recipient').Custom('CL_GEN')|L]#!#!."
   PROPOSE_take_over_loan: "$INFO$"

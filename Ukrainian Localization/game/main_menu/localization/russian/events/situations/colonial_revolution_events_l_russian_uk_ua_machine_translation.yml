@@ -73,7 +73,7 @@
   colonial_revolution.1001.a: "Усе що завгодно, аби ослабити суперника."
   colonial_revolution.1001.b: "Ні, ми не хочемо, щоб і нас заразили їхні уявлення про свободу."
   colonial_revolution.1002.title: "Відповідь [target_rival.Custom('CL_GEN')]"
-  colonial_revolution.1002.desc.common: "Дипломати з [target_rival.Custom('CL_GEN')] відповіли на наше прохання про допомогу."
+  colonial_revolution.1002.desc.common: "Посли з [target_rival.Custom('CL_GEN')] відповіли на наше прохання про допомогу."
   colonial_revolution.1002.accepted.desc: "$colonial_revolution.1002.desc.common$ Нам пообіцяли, що в боротьбі проти #ONCLICK:COUNTRY,[target_overlord.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_overlord.Custom('CL_tt')],X [target_overlord.Custom('CL_GEN')|L]#!#! ми стоятимемо пліч-о-пліч і разом розіб'ємо кайдани, що приковують нас до сюзерена."
   colonial_revolution.1002.desc: "$colonial_revolution.1002.desc.common$ Ці боягузливі негідники відмовилися підтримати нас. Тепер у боротьбі з #L [target_overlord.GetAdjective|l]ими#! тиранами ми можемо розраховувати тільки на себе."
   colonial_revolution.1002.a: "Такий союзник вельми цінний."

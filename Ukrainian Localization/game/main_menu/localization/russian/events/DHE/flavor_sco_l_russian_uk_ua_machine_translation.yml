@@ -5,7 +5,7 @@
   flavor_sco.1.a: "Відберемо у них землі та знищимо всі їхні замки!"
   flavor_sco.1.b: "Настав час укласти з ними мир."
   flavor_sco.2.title: "Старий союз"
-  flavor_sco.2.desc: "У 1295 році [old_sco_ruler.GetName] та [old_fra_ruler.GetName] уклали Старий союз, спрямований на стримування #L [GetCountry('ENG').GetAdjective|l]ої#! експансії. Тепер у #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! знову настав мир, і #L [GetCountry('FRA').GetAdjective|l]і#! дипломати прибули до міста [ROOT.GetCountry.GetCapital.GetName], щоб обговорити поновлення союзу перед обличчям наростаючої загрози з боку [GetCountry('ENG').Custom('CL_GEN')]."
+  flavor_sco.2.desc: "У 1295 році [old_sco_ruler.GetName] та [old_fra_ruler.GetName] уклали Старий союз, спрямований на стримування #L [GetCountry('ENG').GetAdjective|l]ої#! експансії. Тепер у #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! знову настав мир, і #L [GetCountry('FRA').GetAdjective|l]і#! посли прибули до міста [ROOT.GetCountry.GetCapital.GetName], щоб обговорити поновлення союзу перед обличчям наростаючої загрози з боку [GetCountry('ENG').Custom('CL_GEN')]."
   flavor_sco.2.a: "Зміцнення відносин з [GetCountry('FRA').Custom('CL_INST')] зіграє нам на руку."
   flavor_sco.2.b: "Нам не потрібні такі союзники."
   flavor_sco.3.title: "Кардинал [target_character.GetNameWithNoTooltip]"

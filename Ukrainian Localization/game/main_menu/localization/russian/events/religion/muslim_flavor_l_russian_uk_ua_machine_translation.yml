@@ -107,7 +107,7 @@
   muslim_flavor.26.a: "[target_ruler.GetNameWithNoTooltip] визнає [Select_CString(mahdi.IsFemale, 'її', 'його' )] передбаченим оновлювачем ісламу."
   muslim_flavor.26.b: "Ми виженемо [Select_CString(mahdi.IsFemale, 'її', 'його' )] та звинуватимо в обмані."
   muslim_flavor.27.title: "Шиїзм та суніти"
-  muslim_flavor_27.common: "Протиріччя між сунітами та шиїтами в #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! з роками лише продовжують розгоратися, і тільки зусилля дипломатів не дають їм перерости в справжню війну."
+  muslim_flavor_27.common: "Протиріччя між сунітами та шиїтами в #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! з роками лише продовжують розгоратися, і тільки зусилля послів не дають їм перерости в справжню війну."
   muslim_flavor.27.desc: "Кожен істинний #TOOLTIP:RELIGION,$shia_tt$,X #L шиїт#!#! знає, що лише нащадки четвертого халіфа Алі — законні спадкоємці пророка Мухаммеда, мир йому. #TOOLTIP:RELIGION,$sunni_tt$,X #L Суніти#!#! ж визнають нащадків усіх чотирьох халіфів, яким Мухаммед колись заповів правити #TOOLTIP:RELIGIONGROUP,muslim,X #L мусульманським#!#! світом. Нам же, втім, чудово відомо одне: у нас не було законного релігійного лідера з часів дванадцятого імама, який зник у 941 році.\n\n$muslim_flavor_27.common$"
   muslim_flavor.27.a: "Проігноруємо проблему."
   muslim_flavor.27.b: "Знайдемо спосіб згладити напругу."

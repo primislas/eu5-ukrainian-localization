@@ -1855,7 +1855,7 @@
   STATIC_MODIFIER_NAME_paranoid_recruitment: "Надмірно обережний набір"
   STATIC_MODIFIER_NAME_foreign_guild_infiltrated: "Проникнення в іноземну гільдію"
   STATIC_MODIFIER_NAME_guilds_compromised: "Підрив діяльності гільдій"
-  STATIC_MODIFIER_NAME_suspended_diplomat: "Відсторонення дипломатів"
+  STATIC_MODIFIER_NAME_suspended_diplomat: "Відсторонення послів"
   STATIC_MODIFIER_NAME_trade_with_neighbor: "Торгівля із сусідом"
   STATIC_MODIFIER_NAME_guilds_cooperating: "Співпраця гільдій"
   STATIC_MODIFIER_NAME_traders_look_abroad: "Купці поглядають на закордон"

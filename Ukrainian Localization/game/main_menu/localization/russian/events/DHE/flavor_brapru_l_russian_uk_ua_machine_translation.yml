@@ -93,7 +93,7 @@
   flavor_brapru.21.a: "Ах, романи — це так радісно!"
   flavor_brapru.21.b: "Ця трагедія така романтична!"
   flavor_brapru.22.title: "[target_artist.GetNameWithNoTooltip] хоче провести реформу освіти"
-  flavor_brapru.22.desc: "Визнаний мовознавець і мислитель [target_artist.GetName] настільки пригнічений якістю освіти в нашій столиці, що запропонував нам свою допомогу в проведенні реформ: він хоче перетворити не тільки столицю, а й усю країну на місце, де можливо все. [target_artist.GetName] вивчав #TOOLTIP:LANGUAGE,basque_language,X #L баскську#!#! мову і служив дипломатом при [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]их посольствах в інших країнах, тому знання його про різні предмети широкі, а вміння керувати викликає захоплення."
+  flavor_brapru.22.desc: "Визнаний мовознавець і мислитель [target_artist.GetName] настільки пригнічений якістю освіти в нашій столиці, що запропонував нам свою допомогу в проведенні реформ: він хоче перетворити не тільки столицю, а й усю країну на місце, де можливо все. [target_artist.GetName] вивчав #TOOLTIP:LANGUAGE,basque_language,X #L баскську#!#! мову і служив послом при [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]их посольствах в інших країнах, тому знання його про різні предмети широкі, а вміння керувати викликає захоплення."
   flavor_brapru.22.a: "Видати йому гроші!"
   flavor_brapru.22.b: "Нічого цінного він не може запропонувати."
   flavor_brapru.23.title: "[target_artist.GetNameWithNoTooltip] видає п'єсу #italic «Натан Мудрий»#!"

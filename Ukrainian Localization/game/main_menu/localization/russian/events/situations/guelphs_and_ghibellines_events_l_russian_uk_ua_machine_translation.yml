@@ -34,7 +34,7 @@
   guelphs_and_ghibellines.8.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
   guelphs_and_ghibellines.8.tt: "Кожен учасник #TOOLTIP:INTERNATIONAL_ORGANIZATION,$guelphs_io_tt$,X #L гвельфів#!#! зі столицею в #TOOLTIP:REGION,italy_region,X #L Італії#!#!, покине #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священну Римську Імперію#!#! та виведе звідти всі належні їй [Concept('locations', 'місцевості')|e]."
   guelphs_and_ghibellines.9.title: "Тиск ситуації"
-  guelphs_and_ghibellines.9.desc: "Досі нам вдавалося зберігати нейтралітет у поточному конфлікті, але, можливо, скоро нам доведеться здатися під натиском дипломатів і нарешті обрати, кого ми підтримуватимемо: #TOOLTIP:INTERNATIONAL_ORGANIZATION,$guelphs_io_tt$,X #L гвельфів#!#! чи #TOOLTIP:INTERNATIONAL_ORGANIZATION,$ghibellines_io_tt$,X #L гібелінів#!#!."
+  guelphs_and_ghibellines.9.desc: "Досі нам вдавалося зберігати нейтралітет у поточному конфлікті, але, можливо, скоро нам доведеться здатися під натиском послів і нарешті обрати, кого ми підтримуватимемо: #TOOLTIP:INTERNATIONAL_ORGANIZATION,$guelphs_io_tt$,X #L гвельфів#!#! чи #TOOLTIP:INTERNATIONAL_ORGANIZATION,$ghibellines_io_tt$,X #L гібелінів#!#!."
   guelphs_and_ghibellines.9.a: "Заявимо, що праві гібеліни."
   guelphs_and_ghibellines.9.a.tt: "Ми приєднаємося до #TOOLTIP:INTERNATIONAL_ORGANIZATION,$ghibellines_io_tt$,X #L гібелінів#!#!"
   guelphs_and_ghibellines.9.b: "Заявимо, що праві гвельфи."

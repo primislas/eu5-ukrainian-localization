@@ -126,7 +126,7 @@
   ALERT_POSSIBLE_GOV_ACTION_TITLE: "Можливі доручення"
   ALERT_POSSIBLE_GOV_ACTION: "Ми можемо доручити своїй [Concept('cabinet', 'раді')|e] додаткові [Concept('cabinet_actions', 'завдання')|e]."
   ALERT_MAX_DIPLOMATS_AVAILABLE_TITLE: "Можливі дипломатичні дії"
-  ALERT_MAX_DIPLOMATS_AVAILABLE: "Ми вже задіяли всіх [Concept('diplomats', 'дипломатів')|e], яким можемо доручити [Concept('diplomatic_actions', 'відповідні дії')|e]."
+  ALERT_MAX_DIPLOMATS_AVAILABLE: "Ми вже задіяли всіх [Concept('diplomats', 'послів')|e], яким можемо доручити [Concept('diplomatic_actions', 'відповідні дії')|e]."
   ALERT_RELIGIOUS_ASPECT_AVAILABLE_TITLE: "Можлива релігійна особливість"
   ALERT_RELIGIOUS_ASPECT_AVAILABLE: "Ми можемо прийняти нову [Concept('religious_aspect', 'релігійну особливість')|e]."
   ALERT_RELIGIOUS_FOCUS_AVAILABLE_TITLE: "Можлива релігійна мета"

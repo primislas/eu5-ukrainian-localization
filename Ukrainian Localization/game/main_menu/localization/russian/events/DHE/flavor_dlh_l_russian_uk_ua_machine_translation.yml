@@ -53,7 +53,7 @@
   flavor_dlh.10.a: "Вперед, на [target_location.Custom('LR_ACC')|l] [target_location.GetNameWithNoTooltip]!"
   flavor_dlh.10.b: "Це цілковите божевілля!"
   flavor_dlh.11.title: "Божевільний похід [target_country2.Custom('CL_GEN')]"
-  flavor_dlh.11.desc: "Дипломати надіслали тривожні звістки з #ONCLICK:COUNTRY,[target_country2.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country2.Custom('CL_tt')],X [target_country2.Custom('CL_GEN')|L]#!#!. [target_character2.GetName] планує напасти на #TOOLTIP:INTERNATIONAL_ORGANIZATION,$middle_kingdom_tt$,X #L Серединну Країну#!#!, захопити [target_location.Custom('LR_ACC')|l] [target_location.GetName] і покінчити з нашим пануванням над #TOOLTIP:SUB_CONTINENT,china,X #L Китаєм#!#!."
+  flavor_dlh.11.desc: "Посли надсилають тривожні звістки з #ONCLICK:COUNTRY,[target_country2.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country2.Custom('CL_tt')],X [target_country2.Custom('CL_GEN')|L]#!#!. [target_character2.GetName] планує напасти на #TOOLTIP:INTERNATIONAL_ORGANIZATION,$middle_kingdom_tt$,X #L Серединну Країну#!#!, захопити [target_location.Custom('LR_ACC')|l] [target_location.GetName] і покінчити з нашим пануванням над #TOOLTIP:SUB_CONTINENT,china,X #L Китаєм#!#!."
   flavor_dlh.11.a: "Вони збожеволіли…"
   flavor_dlh.12.title: "Племена [GetDynasty('lodi_dynasty').GetNameWithNoTooltip]"
   flavor_dlh.12.desc: "Впливове #TOOLTIP:CULTURE,$afghan_culture_tt$,X #L афганське#!#! плем’я [GetDynasty('lodi_dynasty').GetName] непогано зарекомендувало себе, керуючи невеликими поселеннями в провінції [target_province.GetName]. Оцінивши їхні старання, [target_character2.GetName] подумує передати під початок цієї династії всю провінцію — за умови, що вони й надалі дотримуватимуться вказівок зі столиці."

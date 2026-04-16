@@ -750,7 +750,7 @@
   chk_raided_our_city: "Наліт на Кахокію"
   antagonism_chk_raiding_neighbors_for_food: "Нальоти на сусідів заради їжі"
   ayd_byz_cooperation: "Співпраця проти [GetCountry('TUR').Custom('CL_GEN')]"
-  ira_rejected_persian_diplomats: "Відмова прийняти дипломатів"
+  ira_rejected_persian_diplomats: "Відмова прийняти послів"
   ira_visited_capital: "Візит до столиці"
   ira_increased_ties: "Розширені зв'язки"
   lit_encouraged_migrants: "Підтримка імміграції"
