@@ -918,7 +918,7 @@
   cmd_negotiate_with_rebels: "Переговори з бунтівниками"
   cmd_negotiate_with_rebels_desc: "Настав час прислухатися до благань народу і зробити все можливе для відновлення стабільності країни, інакше ми ризикуємо втратити все, що колись було основою нашої величі."
   cmd_negotiate_with_rebels_tt: "Після витрати #R 3#! од. [Concept('celestial_authority_gc', 'небесного авторитету')|e], залежно від #italic чисельності#! та підтримки [Concept('rebellion', 'заколоту')|e], може статися щось із переліченого:"
-  cmd_negotiate_nationalist: "#Y $REBELS_CATEGORY_nationalist$#! вимагатимуть знизити [Concept('control', 'контроль')|e] над їхніми землями та підштовхнуть нас у бік #TOOLTIP:SOCIETAL_VALUE,serfdom_vs_free_subjects,X #L особистої свободи#!#!»"
+  cmd_negotiate_nationalist: "#Y $REBELS_CATEGORY_nationalist$#! вимагатимуть знизити [Concept('control', 'контроль')|e] над їхніми землями та підштовхнуть нас у бік #TOOLTIP:SOCIETAL_VALUE,serfdom_vs_free_subjects,X #L вольностей#!#!»"
   cmd_negotiate_estate: "#Y $REBELS_CATEGORY_estate$#! вимагатимуть зниження [Concept('tax', 'податків')|e] та розширення [Concept('privileges', 'привілеїв')|e]"
   cmd_negotiate_religious: "#Y $REBELS_CATEGORY_religious$#! вимагатимуть #TOOLTIP:STATIC_MODIFIER,religious_concessions_modifier,X #V #L релігійних поступок#!#! та підштовхнуть нас у бік #TOOLTIP:SOCIETAL_VALUE,spiritualist_vs_humanist,X #L гуманізму#!#!"
   cmd_reform_the_cabinet: "Реформа ради"

@@ -72,6 +72,7 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     ** only chance, единственнй шанс -> єдина надія
     ** increase chances, повысить шансы -> підвищити ймовірність, сподівання, надію
     ** second chance, второй шанс -> повторна нагода, ще одна нагода
+    * free subjects, личная свобода -> вольності, a fixed expression for high degree of "free subjects" is "широкі вольності"
 5.  Low-Confidence Flagging: If you are uncertain about the translation of a proper noun (dynasty, ethnicity, culture), prefix it with 'POSTEDIT_'.
 6.  Translate only Russian text. Do not translate any other language.
 7.  Attempt to keep the sentence structure as close to the original as possible.

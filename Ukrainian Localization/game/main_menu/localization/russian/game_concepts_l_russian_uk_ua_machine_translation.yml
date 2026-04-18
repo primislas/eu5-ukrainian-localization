@@ -652,7 +652,7 @@
   game_concept_available_population: "Незайняте населення"
   game_concept_unemploy_desc: "[Concept('pops', 'Групи населення')|e] можна [Concept('employed', 'наймати')|e] на роботу в [Concept('building', 'споруді')|e] або на [Concept('rgo', 'видобуток ресурсів')|e]. Населення, не залучене до роботи, вважається доступним для наймання, тобто незайнятим."
   game_concept_peasant_enfranchisement: "$MODIFIER_TYPE_NAME_global_peasant_enfranchisment$"
-  game_concept_peasant_enfranchisement_desc: "$MODIFIER_TYPE_DESC_global_peasant_enfranchisment$\n\nСвобода і рівень прав здебільшого залежить від [Concept('societal_value_with_icon', 'суспільної цінності')|e] #TOOLTIP:SOCIETAL_VALUE,serfdom_vs_free_subjects,X #L «Свобода»#!#!. Як правило, у [Concept('towns_and_cities', 'міських місцевостях')|e] значення цього показника вище, ніж у [Concept('rural_locations', 'сільських')|e], проте на нього також впливають деякі [Concept('buildings', 'споруди')|e]."
+  game_concept_peasant_enfranchisement_desc: "$MODIFIER_TYPE_DESC_global_peasant_enfranchisment$\n\nСвобода і рівень прав здебільшого залежить від [Concept('societal_value_with_icon', 'суспільної цінності')|e] #TOOLTIP:SOCIETAL_VALUE,serfdom_vs_free_subjects,X #L «Вольності»#!#!. Як правило, у [Concept('towns_and_cities', 'міських місцевостях')|e] значення цього показника вище, ніж у [Concept('rural_locations', 'сільських')|e], проте на нього також впливають деякі [Concept('buildings', 'споруди')|e]."
   game_concept_foreign: "Чужа місцевість"
   game_concept_foreign_desc: "Цією [Concept('location', 'місцевістю')|e] володіє [Concept('country', 'країна')|e], за яку граєте не ви."
   game_concept_estate: "Стан"
