@@ -50,7 +50,7 @@
   flavor_bav.11.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   flavor_bav.11.b: "Це марна трата грошей!"
   flavor_bav.20.title: "[ShowPolicyNameWithNoTooltip('bav_codex_bavarica')]"
-  flavor_bav.20.desc: "[previous_ruler.GetName] нас [Select_CString(previous_ruler.IsFemale, 'покинула', 'покинув' )], але справа [Select_CString(previous_ruler.IsFemale, 'її', 'його' )] живе. Вивчивши правові традиції сусідніх регіонів, [target_ruler.GetName] пропонує створити єдиний звід #L [target_country.GetAdjective|l]их#! законів, що сприятиме посиленню [target_country.GetGovernment.GetAdjective|l]ої влади. [ShowPolicyName('bav_codex_bavarica')] безсумнівно полегшить управління #L [target_country.GetAdjective]ою#! країною. Чи готові ми взяти на себе працю з її #TOOLTIP:SOCIETAL_VALUE,centralization_vs_decentralization,X #L централізації#!#?"
+  flavor_bav.20.desc: "[previous_ruler.GetName] нас [Select_CString(previous_ruler.IsFemale, 'покинула', 'покинув' )], але справа [Select_CString(previous_ruler.IsFemale, 'її', 'його' )] живе. Вивчивши правові традиції сусідніх регіонів, [target_ruler.GetName] пропонує створити єдиний звід #L [target_country.GetAdjective|l]их#! законів, що сприятиме посиленню [target_country.GetGovernment.GetAdjective|l]ої влади. [ShowPolicyName('bav_codex_bavarica')] безсумнівно полегшить управління #L [target_country.GetAdjective]ою#! країною. Чи готові ми взяти на себе працю з утвердження #TOOLTIP:SOCIETAL_VALUE,centralization_vs_decentralization,X #L самовладдя#!#?"
   flavor_bav.20.a: "[ShowPolicyNameWithNoTooltip('bav_codex_bavarica')] буде складено!"
   flavor_bav.20.b: "Час для подібних реформ ще не настав."
   flavor_bav.23.title: "Заснування [target_country.GetAdjectiveWithNoTooltip]ої академії наук"
