@@ -337,7 +337,7 @@
   request_papal_delegates_desc: "Війна затягнулася і перетворилася на безглузду бійню. Щоб домогтися миру, нам варто звернутися до посередника."
   pap_will_be_asked_to_enforce_wp_tt: "Країну [GetCountry('PAP').GetLongName] попросять нав'язати [Concept('white_peace', 'мир на умовах «статус-кво»')|e] між #ONCLICK:COUNTRY,[GetCountry('FRA').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('FRA').Custom('CL_tt')],X [GetCountry('FRA').Custom('CL_INST')|L]#!#! та #ONCLICK:COUNTRY,[GetCountry('ENG').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('ENG').Custom('CL_tt')],X [GetCountry('ENG').Custom('CL_INST')|L]#!#!"
   fra_diplomacy_with_subjects: "Присвоєння титулів васалам"
-  fra_diplomacy_with_subjects_desc: "Дарувавши титули найсильнішим з наших васалів, ми підвищимо шанси зберегти їхню підтримку та вберегти від [GetCountry('ENG').GetAdjectiveWithNoTooltip|l]ого впливу. В іншому випадку є ризик, що вони звернуться проти нас!"
+  fra_diplomacy_with_subjects_desc: "Дарувавши титули найсильнішим з наших васалів, ми підвищимо ймовірність збереження їхньої підтримки та вбережемося від [GetCountry('ENG').GetAdjectiveWithNoTooltip|l]ого впливу. В іншому випадку є ризик, що вони звернуться проти нас!"
   demand_autonomy: "Потребувати автономії від [GetCountry('FRA').Custom('longname_ru_wntt_GEN')]"
   demand_autonomy_desc: "Ми повинні посилити свій вплив, щоб натиснути на сюзерена та отримати особливі привілеї, що ведуть до нашого процвітання."
   influence_french_subject: "Вплинути на [GetCountry('FRA').GetAdjectiveWithNoTooltip|l]ого васала"

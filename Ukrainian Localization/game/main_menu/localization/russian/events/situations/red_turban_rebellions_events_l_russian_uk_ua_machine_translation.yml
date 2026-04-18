@@ -137,7 +137,7 @@
   red_turban_rebellions.1000.a.at: "Ми оголосимо незалежність від #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!."
   red_turban_rebellions.1000.a.bt: "#R [target_country.GetName] мо[target_country.Custom('end_gegu')]ть вважати, що ми оголосили їм війну за [ShowCasusBelliName('cb_independence_war')|l]!#!"
   red_turban_rebellions.1000.b: "Зараз не слід так ризикувати."
-  red_turban_rebellions.1001.desc: "Віроломні жителі регіону [target_region.GetName] відчули нашу тимчасову слабкість і побачили в ній свій шанс. Від нашого впливу на півострові залишилася лише тінь колишньої слави, а #L [root_country.GetCulture.GetName|l]ий#! народ фактично заявляє про свою незалежність від #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!."
+  red_turban_rebellions.1001.desc: "Віроломні жителі регіону [target_region.GetName] відчули нашу тимчасову слабкість і побачили в ній свою нагоду. Від нашого впливу на півострові залишилася лише тінь колишньої слави, а #L [root_country.GetCulture.GetName|l]ий#! народ фактично заявляє про свою незалежність від #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!."
   red_turban_rebellions.1001.a: "Ми поки не можемо дозволити собі ще одну війну."
   red_turban_rebellions.1001.b: "Коли ми покінчимо з бунтівниками, прикрасимо їхніми головами свої списи…"
   rtr_yuan_allegiance: "Відданість династії Юань"

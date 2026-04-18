@@ -10,7 +10,7 @@
   STATIC_MODIFIER_NAME_DESC_sicily_in_safe_hands: "Завдяки безпосередньому контролю над Сицилією ми можемо вкладати більше коштів у розвиток та добробут острова."
   flavor_gra.3.title: "Допомога [GetCountry('TUR').Custom('CL_GEN')]"
   flavor_gra.3.desc: "Війна проти #ONCLICK:COUNTRY,[GetCountry('CAS').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('CAS').Custom('CL_tt')],X [GetCountry('CAS').Custom('CL_GEN')|L]#!#! може обернутися для нас катастрофою, тому має сенс попросити підтримки у наших братів по вірі. Можливо, династія [GetCountry('TUR').GetGovernment.GetRuler.GetDynasty.GetName] відповість на наш заклик, якщо ми поступимося своєю гордістю та звернемося до них за допомогою…"
-  flavor_gra.3.a: "Це наш єдиний шанс!"
+  flavor_gra.3.a: "Це наша єдина надія!"
   flavor_gra.3.tt: "[GetCountry('TUR').GetNameWithNoTooltip] може захистити нас від [GetCountry('CAS').Custom('CL_GEN')]"
   flavor_gra.3.b: "Ми впораємося самі."
   flavor_gra.3.historical_info: "Насрідські правителі Гранади відправили послів до османів та мамлюків, щоб попросити їхньої підтримки в боротьбі проти Кастилії. У той час османи саме розширювали свою присутність у західному Середземномор'ї, тому влада Гранади розраховувала, що вони погодяться відправити 200 000 турецьких вояків до Валенсії для відбиття християнської загрози."

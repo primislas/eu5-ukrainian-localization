@@ -17,7 +17,7 @@
   war_of_the_aragonese_union_disaster.3.desc.c: "Дипломатія перемогла. Всупереч усім очікуванням нашому володарю вдалося покласти край повстанню #italic Арагонської унії#!, не поступаючись заколотникам жодними правами. Усі повсталі угруповання та претенденти залишилися задоволені; громадянська війна нам більше не загрожує."
   war_of_the_aragonese_union_disaster.3.a: "Важкі часи починаються для [GetCountry('ARA').Custom('rank_ru_GEN')|l]."
   war_of_the_aragonese_union_disaster.3.b: "Хай живе [GetCountry('ARA').GetGovernment.GetRulerTitle|l]!"
-  war_of_the_aragonese_union_disaster.4.title: "Шанс укласти мир"
+  war_of_the_aragonese_union_disaster.4.title: "Нагода укласти мир"
   war_of_the_aragonese_union_disaster.4.desc: "Від імені #italic Арагонської унії#! до наших воріт прибув посол. Він повідомляє, що, поки ще не надто пізно, заколотники готові на переговори та обговорення всіх образ і невдоволень — за умови, що [GetCountry('ARA').GetGovernment.GetRulerTitle|l] запросить їх до двору та забезпечить безпеку на час переговорів."
   war_of_the_aragonese_union_disaster.4.a: "Нехай приходять з миром. Ми готові говорити."
   war_of_the_aragonese_union_disaster.4.b: "Викинемо його звідси. Говоритиме наша зброя."

@@ -4,7 +4,7 @@
   regency_estate_events.1.a: "Приймемо зміну панування."
   regency_estate_events.1.b: "Підтримаємо регента."
   regency_estate_events.3.title: "Регент-самодур"
-  regency_estate_events.3.desc: "Кровна ворожнеча може зруйнувати країну, але цей звичай так само старий, як і саме людство. [Select_CString(target_regent.IsFemale,'Наша', 'Наш')] [ROOT.GetCountry.GetGovernment.GetActiveRegentTitle] [target_regent.GetName] не упускає шансу скористатися владою, щоб усувати політичних суперників.\n\nКористуючись своїм впливом регента, [Select_CString(target_regent.IsFemale,'вона', 'він')] переслідує всіх, кого вважає незгодними або просто недолюблює.\n\nОчевидно, що інші фракції, не дуже задоволені таким перебігом подій, можуть почати мститися. Ми на роздоріжжі, і пора вирішити: чи варто втручатися?"
+  regency_estate_events.3.desc: "Кровна ворожнеча може зруйнувати країну, але цей звичай так само старий, як і саме людство. [Select_CString(target_regent.IsFemale,'Наша', 'Наш')] [ROOT.GetCountry.GetGovernment.GetActiveRegentTitle] [target_regent.GetName] не проминає нагоди скористатися владою, щоб усувати політичних суперників.\n\nКористуючись своїм впливом регента, [Select_CString(target_regent.IsFemale,'вона', 'він')] переслідує всіх, кого вважає незгодними або просто недолюблює.\n\nОчевидно, що інші фракції, не дуже задоволені таким перебігом подій, можуть почати мститися. Ми на роздоріжжі, і пора вирішити: чи варто втручатися?"
   regency_estate_events.3.a: "[ROOT.GetCountry.GetGovernment.GetActiveRegent.GetShortNameWithNoTooltip|U] заслуговує нашої довіри."
   regency_estate_events.3.b: "Доведеться змиритися з тиранією."
   regency_estate_events.5.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] завдають клопоту"

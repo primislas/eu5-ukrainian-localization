@@ -57,12 +57,21 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     * damage done, наносить урон -> "завдавати втрат" when subject is armies and regiments, "завдавати ушкоджень" when its about navies and ships
     * damage taken, получать урон -> зазнавати втрат when subject is armies and regiments, "зазнавати ушкоджень" when its about navies and ships
     * if translation contains "задіювати" and its forms, replace it with "залучати", "користуватись", "використати", "застосовувати", "послуговуватись", whichever fits best depending on context
-    * смещение -> рух;
-    * capital_economy, капитализм -> підприємництво;
-    * traditional_economy, традиционная єкономика -> традиційне господарство;
+    * смещение -> рух
+    * capital_economy, капитализм -> підприємництво
+    * traditional_economy, традиционная єкономика -> традиційне господарство
     * economy, економіка -> господарство, господарчий, etc.
     * combat power, боевая мощь/мощность -> бойова міць
     * diplomat, дипломат -> посол, translate "diplomatic" as "посольський" wherever appropriate (primarily when talking about diplomats)
+    * chance, шанс -> depending on context "нагода", "змога", "можливість" (only when clearly the most appropriate option), "ймовірність" (when talking about percentages and probabilities); fixed expressions:
+    ** все шансы -> depending on context "чудова нагода" or "виключна нагода" (without "всі"), "всі підстави"
+    ** (not) miss the chance, opportunity, (не) упустить шанс -> (не) проминути нагоди
+    ** появился шанс, выпал шанс, выпала возможность -> випала нагода, трапилася нагода
+    ** small chance, маленький шанс, маленькие шансы -> мала надія, сподівання
+    ** no chance, ни единого шанса, не оставляет шансов -> жодних сподівань, позбавити сподівань, покласти край всім сподіванням
+    ** only chance, единственнй шанс -> єдина надія
+    ** increase chances, повысить шансы -> підвищити ймовірність, сподівання, надію
+    ** second chance, второй шанс -> повторна нагода, ще одна нагода
 5.  Low-Confidence Flagging: If you are uncertain about the translation of a proper noun (dynasty, ethnicity, culture), prefix it with 'POSTEDIT_'.
 6.  Translate only Russian text. Do not translate any other language.
 7.  Attempt to keep the sentence structure as close to the original as possible.

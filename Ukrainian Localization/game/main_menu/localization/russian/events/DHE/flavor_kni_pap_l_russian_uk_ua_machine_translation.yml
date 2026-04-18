@@ -16,7 +16,7 @@
   flavor_kni_pap.3.historical_info: "$flavor_kni_pap.1.historical_info$"
   flavor_kni_pap.3.a: "Нам потрібно більше кораблів для набігів!"
   flavor_kni_pap.4.title: "Уступка [target_country.Custom('CL_DAT')]"
-  flavor_kni_pap.4.desc: "Під час останнього хрестового походу наші доблесні лицарі захопили безліч земель у #TOOLTIP:AREA,west_anatolia_area,X #L Західній Анатолії#!#!, однак шанси утримати ці території в нас, м'яко кажучи, сумнівні. [target_country.GetLongName] — можливо, краще передати їх цій країні."
+  flavor_kni_pap.4.desc: "Під час останнього хрестового походу наші доблесні лицарі захопили безліч земель у #TOOLTIP:AREA,west_anatolia_area,X #L Західній Анатолії#!#!, однак наші сподівання утримати ці території, м'яко кажучи, хиткі. [target_country.GetLongName] — можливо, краще передати їх цій країні."
   flavor_kni_pap.4.a: "Ми віддамо ці землі."
   flavor_kni_pap.4.b: "Ми проливали кров за ці території."
   STATIC_MODIFIER_NAME_kni_cession_of_anatolia_to_holy_order: "Передача духовно-лицарському ордену"

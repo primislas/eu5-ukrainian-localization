@@ -45,7 +45,7 @@
   time_of_troubles.9.a: "Виділити [Select_CString(target_character_3.IsFemale, 'їй', 'йому' )] усі необхідні кошти!"
   time_of_troubles.9.b: "Так, ми можемо дати трохи грошей."
   time_of_troubles.9.c: "Переговори з бунтівниками нижче нашої гідності."
-  tot_we_may_not_get_another_chance_tt: "Іншого шансу підтримати це починання може не бути"
+  tot_we_may_not_get_another_chance_tt: "Іншої нагоди підтримати це починання може не трапитись"
   time_of_troubles.10.title: "Криза в [target_country.Custom('CL_PREP')]"
   time_of_troubles.10.desc: "У #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_PREP')|L]#!#! настало [ShowDisasterName('time_of_troubles')]. Військо країни ослабло, кордони її вразливі. [target_country.GetFlavorRank|U] занурюється в хаос. Провінція [target_province.GetName], розташована біля наших кордонів і має велике стратегічне значення, тепер абсолютно не захищена. Якщо ми висунемо претензії прямо зараз, [ROOT.GetCountry.GetFlavorRank|l] поповниться новими територіями, а ми забезпечимо собі більш надійну позицію. З іншого боку, якщо наш ворог оговтається від смути, він неодмінно розлютиться."
   time_of_troubles.10.a: "Криза — це нові можливості!"

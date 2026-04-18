@@ -69,7 +69,7 @@
   flavor_dlh.14.title: "Падіння династії [GetDynasty('lodi_dynasty').GetNameWithNoTooltip]"
   flavor_dlh.14.desc: "Перемігши сімейство [GetDynasty('lodi_dynasty').GetName] та відібравши його володіння, [target_character.GetName] [Select_CString(target_character.IsFemale, 'показала', 'показав' )], що, як і раніше, є [Select_CString(target_character.IsFemale, 'самовладною правителькою', 'самовладним правителем' )] #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, а не безпорадною маріонеткою в руках впливових династій."
   flavor_dlh.14.a: "[target_character.GetNameWithNoTooltip] заслуговує всіляких почестей."
-  flavor_dlh.14.b: "Це наш шанс посилити централізацію країни."
+  flavor_dlh.14.b: "Це наша нагода посилити централізацію країни."
   dlh_all_afghan_locations_gain_prosperity_tt: "Усі [Concept('location', 'місцевості')|e] з #TOOLTIP:CULTURE,$afghan_culture_tt$,X #L афганськими#!#! [Concept('pops', 'групами населення')|e] отримають [ShowNamedValue('prosperity_mild_bonus')|+=2%] до [Concept('prosperity', 'процвітання')|e]"
   flavor_dlh.15.title: "Влада династії [GetDynasty('lodi_dynasty').GetNameWithNoTooltip]"
   flavor_dlh.15.desc: "Династія [GetDynasty('lodi_dynasty').GetName] досить ефективно править #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_INST')|L]#!#!, але вона вкрай непопулярна серед населення. В очах незадоволених підданих [target_character.GetName] не має прав на престол — [Select_CString(target_character.IsFemale, 'вона', 'він' )] просто узурпатор і переслідує лише власні інтереси."

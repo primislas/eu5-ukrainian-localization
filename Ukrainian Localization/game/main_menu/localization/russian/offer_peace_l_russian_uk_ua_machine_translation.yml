@@ -226,7 +226,7 @@
   peace_seize_opposition_leadership: "Захоплення влади над суперником"
   peace_seize_opposition_leadership_entry: "$peace_seize_opposition_leadership$"
   peace_seize_opposition_leadership_entry_short: "$peace_seize_opposition_leadership$"
-  peace_seize_opposition_leadership_desc: "Країна [TARGET_COUNTRY.GetName] занадто слабка, щоб встояти перед впливом країни [GetCountry('DLH').GetNameWithNoTooltip] у такій [Concept('situation', 'ситуації')|e], як [GetSituationByKey('fall_of_delhi').GetName]. Тому ми зобов'язані скористатися цим шансом і знешкодити ще одного потенційного завойовника."
+  peace_seize_opposition_leadership_desc: "Країна [TARGET_COUNTRY.GetName] занадто слабка, щоб встояти перед впливом країни [GetCountry('DLH').GetNameWithNoTooltip] у такій [Concept('situation', 'ситуації')|e], як [GetSituationByKey('fall_of_delhi').GetName]. Тому ми зобов'язані скористатися з цієї нагоди і знешкодити ще одного потенційного завойовника."
   rtr_rein_in_rebellion: "Усмирення повстання"
   rtr_rein_in_rebellion_entry: "$rtr_rein_in_rebellion$"
   rtr_rein_in_rebellion_entry_short: "$rtr_rein_in_rebellion$"
