@@ -84,7 +84,7 @@
   flavor_geo.18.desc: "$flavor_geo.17.desc_common$ З волі долі [target_character1.GetShortNameWithNoTooltip] погоджується прийняти #TOOLTIP:RELIGION,$catholic_tt$,X #L католицтво#!#!. Тепер на [ShowRegionNameWithNoTooltip('caucasus_region')] проллється світло істинної віри."
   flavor_geo.18.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   flavor_geo.19.title: "Поширення католицтва"
-  flavor_geo.19.desc: "Відтоді, як #TOOLTIP:RELIGION,$catholic_tt$,X #L католицтво#!#! проникло в нашу країну, у нього з'явилося чимало прихильників, які залучали до своїх лав усе нових прибічників. І ось уже [target_character.GetName] приймає католицтво, значно підвищуючи статус цієї віри. Деякі гаряче підтримують цей крок, сподіваючись на зближення із Заходом. Інші ж бояться, що ми втратимо свою віру й традиції…"
+  flavor_geo.19.desc: "Відтоді, як #TOOLTIP:RELIGION,$catholic_tt$,X #L католицтво#!#! проникло в нашу країну, у нього з'явилося чимало прихильників, які залучали до своїх лав усе нових прибічників. І ось уже [target_character.GetName] приймає католицтво, значно підвищуючи статус цієї віри. Деякі гаряче підтримують цей крок, сподіваючись на зближення із Заходом. Інші ж бояться, що ми втратимо свою віру й звичаї…"
   flavor_geo.19.a: "Потрібно це припинити!"
   flavor_geo.19.b: "Попросимо про нові місії."
   flavor_geo.20.title: "[target_country.GetLongNameWithNoTooltip] і католицтво"

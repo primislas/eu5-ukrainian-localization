@@ -114,7 +114,7 @@
   flavor_ned.25.a: "Вони отримають необхідні кошти."
   flavor_ned.25.b: "Нам нічим їм платити."
   flavor_ned.26.title: "[ROOT.GetCountry.GetAdjectiveWithNoTooltip|L]ий гуманізм"
-  flavor_ned.26.desc: "У світі безліч різних релігій, традицій та ідеалів. Наше завдання — не нав'язувати власне сприйняття всюди, де б ми не опинилися, а навчитися терпимо ставитися до чужих поглядів та уподобань, якщо, звичайно, вони не становлять загрози для [ROOT.GetCountry.Custom('CL_GEN')]."
+  flavor_ned.26.desc: "У світі безліч різних вірувань, звичаїв та ідеалів. Наше завдання — не нав'язувати власне сприйняття всюди, де б ми не опинилися, а навчитися терпимо ставитися до чужих поглядів та укладу, якщо, звичайно, вони не становлять загрози для [ROOT.GetCountry.Custom('CL_GEN')]."
   flavor_ned.26.a: "[ROOT.GetCountry.GetNameWithNoTooltip] підтримує вільнодумство."
   flavor_ned.26.b: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|L] — ось на кого ми повинні орієнтуватися."
   NED_ALL_NON_TRUE_FAITH_POP_BECOME_HAPPIER: "Усі [Concept('pop', 'групи населення')|e], що не поділяють #L [ROOT.GetCountry.GetReligion.GetAdjective]их#! цінностей, отримають [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e]."

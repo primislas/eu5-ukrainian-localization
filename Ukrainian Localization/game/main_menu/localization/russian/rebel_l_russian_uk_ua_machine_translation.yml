@@ -19,7 +19,7 @@
   REBEL_PROGRESS_ESTATE: "[Concept('estate_power', 'Станова влада')|e]: $VAL|2-=%$"
   REBEL_PROGRESS_POPULATION: "Підтримка від $POP|V$@population!: $VAL|2-=%$"
   REBEL_NATIONALISM_SOURCE: "Націоналізм\nБазовий націоналізм: $VAL|2=-%$"
-  REBEL_NATIONALISM_CULTURE_WAR: "#L [CULTURE.GetName]е#! [Concept('cultural_influence', 'культурний вплив')|e] проти #L [TARGET_CULTURE.GetName|l]их#! [Concept('cultural_tradition', 'культурних традицій')|e]: $VAL|-=2%$"
+  REBEL_NATIONALISM_CULTURE_WAR: "#L [CULTURE.GetName]е#! [Concept('cultural_influence', 'культурний вплив')|e] проти #L [TARGET_CULTURE.GetName|l]ої#! [Concept('cultural_tradition', 'культурної спадщини')|e]: $VAL|-=2%$"
   REBEL_LACK_OF_INTEGRATION: "Нестача [Concept('integration', 'інтеграції')|E]: $VAL|2=-%$"
   RSI_HEADER: "Причини, через які [Concept('pops', 'групи населення')|e] підтримують цих повстанців."
   RSI_ESTATE: "$BULLET$[Concept('estate', 'Станові')|E] інтереси $ESTATE_GetNameWithNoTooltip_RU_GEN_lower$"

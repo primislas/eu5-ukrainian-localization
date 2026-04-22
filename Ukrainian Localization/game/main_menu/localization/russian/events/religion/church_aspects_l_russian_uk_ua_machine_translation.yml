@@ -55,7 +55,7 @@
   church_aspects.14.a: "Це все заради спільного блага."
   church_aspects.14.b: "Ми створимо суспільство, відкрите для всіх."
   church_aspects.15.title: "Занепад продуктивності"
-  church_aspects.15.desc: "Прийняття адамітських громад на території #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! призвело до уповільнення економіки в столиці та вкорінення традиційних методів виробництва."
+  church_aspects.15.desc: "Прийняття адамітських громад на території #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! призвело до застою господарства в столиці та вкорінення дідівських методів виробництва."
   church_aspects.15.a: "Треба з цим змиритися."
   church_aspects.15.b: "Будемо боротися з цією тенденцією."
   church_aspects.16.title: "Адаміти порушують хлібопереломлення"

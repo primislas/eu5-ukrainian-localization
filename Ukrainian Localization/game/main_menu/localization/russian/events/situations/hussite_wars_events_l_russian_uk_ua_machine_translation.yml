@@ -16,7 +16,7 @@
   boh_hw_tt: "Це [GetCountry('BOH').GetLongName] — захисники #TOOLTIP:RELIGION,$hussite_tt$,X #L гуситства#!#!!"
   recent_tribunal_tt: "За останні #Y 5#! років тут було здійснено дію «[ShowUnitAbilityName('hussite_tribunal')]»"
   convert_heretics_hw_action: "Примусові навернення"
-  convert_heretics_hw_action_desc: "Досить терпіти тиск з боку єретиків! Час стати на захист #TOOLTIP:RELIGION,$hussite_tt$,X #L гуситських#!#! традицій та вірувань. Для цього нам знадобиться сувора дисципліна, зокрема в обрядах, що здійснюються в [actor.Custom('rank_ru_PREP')|l]."
+  convert_heretics_hw_action_desc: "Досить терпіти тиск з боку єретиків! Час стати на захист #TOOLTIP:RELIGION,$hussite_tt$,X #L гуситських#!#! звичаїв та вірувань. Для цього нам знадобиться сувора дисципліна, зокрема в обрядах, що здійснюються в [actor.Custom('rank_ru_PREP')|l]."
   demand_donation_key: "Нас чекають сутички та війни, але без них неможливо забезпечити мир та захистити кордони. Ми вимагатимемо, щоб кошти на це нам надали найвпливовіші"
   demand_noble_donations_hw_action: "Вимагати пожертв від знаті"
   demand_noble_donations_hw_action_desc: "$demand_donation_key$ знатні."

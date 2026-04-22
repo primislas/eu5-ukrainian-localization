@@ -93,7 +93,7 @@
   artist_events.22.desc: "Нові величні споруди красуються в багатьох центрах нашої країни, і [target_location.GetName] — не виняток. [target_character.GetName] працює тут віднедавна, тож це місце стало особливо привабливим для мандрівників. Завдяки проєктам цього талановитого архітектора [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetNameWithNoTooltip] тепер виглядає куди краще, ніж раніше."
   artist_events.22.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   artist_events.23.title: "Розквіт мистецтва [ShowInstitutionNameWithNoTooltip('renaissance')|U]"
-  artist_events.23.desc: "Завдяки обміну ідеями та інноваціями в нашому суспільстві з'являються нові стилі мистецтва, напрямки архітектури та культурні феномени. Один із наших архітекторів на ім'я [target_blooming_artist.GetName] просить розглянути можливість фінансування нового архітектурного стилю, зразками якого стали споруди, нещодавно збудовані в місті [ROOT.GetCountry.GetCapital.GetName]."
+  artist_events.23.desc: "Завдяки обміну ідеями та новаціями в нашому суспільстві з'являються нові стилі мистецтва, напрямки архітектури та культурні феномени. Один із наших архітекторів на ім'я [target_blooming_artist.GetName] просить розглянути можливість фінансування нового архітектурного стилю, зразками якого стали споруди, нещодавно збудовані в місті [ROOT.GetCountry.GetCapital.GetName]."
   artist_events.23.a: "Це чудова ідея."
   artist_events.23.b: "Наша відповідь — ні."
   artist_events.24.title: "Помилка в розрахунках"

@@ -24,7 +24,7 @@
   ibn_battuta_events.3.a: "Нехай присутній на наших церемоніях та культурних дійствах."
   ibn_battuta_events.3.b: "Дозволимо [Select_CString(target_character.IsFemale, 'їй', 'йому' )] спостерігати за роботою наших правознавців та вивчати її."
   ibn_battuta_events.3.c: "Подумаєш, черговий гість. Нехай не чекає особливого ставлення!"
-  ibn_battuta_observes_customs_tt: "У місті [ROOT.GetCountry.GetCapital.GetName] [target_character.GetLastName] буде описувати та вивчати місцеві звичаї. На подальші зупинки позитивно вплинуть бонуси від [Concept('cultural_influence', 'культурного впливу')|e] та [Concept('cultural_tradition', 'культурних традицій')|e]"
+  ibn_battuta_observes_customs_tt: "У місті [ROOT.GetCountry.GetCapital.GetName] [target_character.GetLastName] буде описувати та вивчати місцеві звичаї. На подальші зупинки позитивно вплинуть бонуси від [Concept('cultural_influence', 'культурного впливу')|e] та [Concept('cultural_tradition', 'культурної спадщини')|e]"
   ibn_battuta_observes_chinese_laws_tt: "У місті [ROOT.GetCountry.GetCapital.GetName] [target_character.GetLastName] буде описувати та вивчати наші закони. На подальші зупинки позитивно вплинуть бонуси, що стосуються [Select_CString(target_character.IsFemale, 'її', 'його' )] [Concept('cabinet', 'ради')|e]"
   when_ibn_battuta_drafts_rihla_he_will_remember_capital_region_tt: "$survive_string$ [ROOT.GetCountry.GetCapital.GetRegion.GetName]"
   ibn_battuta_will_simply_observe_while_hes_here_tt: "У місті [ROOT.GetCountry.GetCapital.GetName] [target_character.GetLastName] буде просто блукати ринками та визначними місцями. [Concept('countries', 'Країни')|e], які вирішать [Select_CString(target_character.IsFemale, 'її', 'його' )] прийняти, не отримають жодних бонусів"

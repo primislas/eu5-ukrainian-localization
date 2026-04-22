@@ -50,7 +50,7 @@
   COUNTRIES_WITH_CULTURE: "[Concept('primary_culture', 'Основна культура')|e] наступних [Concept('countries', 'країн')|e]:"
   NO_COUNTRIES_WITH_CULTURE: "Ця культура не є [Concept('primary_culture', 'основною')|e] в жодній [Concept('countries', 'країні')|e]."
   COUNTRY_WITH_DOMINANT: "[Country.GetLongNameWithFlag] — ([Concept('dominant_country_dominant', 'домінуюча країна')|e])"
-  CULTURAL_TRADITION_LABEL_COV: "Традиції: [CountryCultureLateralView.GetCulture.GetNameWithNoTooltip|l]і"
+  CULTURAL_TRADITION_LABEL_COV: "Спадщина: [CountryCultureLateralView.GetCulture.GetNameWithNoTooltip|l]і"
   CULTURAL_INFLUENCE_LABEL_COV: "Вплив: [CountryCultureLateralView.GetCulture.GetNameWithNoTooltip|l]ий"
   CULTURAL_LANGUAGE_LINE: "[Concept('language', 'Мова')|e]: #L [CountryCultureLateralView.GetCulture.GetLanguage.GetName|l]а#!"
   TRADITION_LOCATIONS: "З [Concept('locations', 'місцевостей')|e]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+=2$#!"

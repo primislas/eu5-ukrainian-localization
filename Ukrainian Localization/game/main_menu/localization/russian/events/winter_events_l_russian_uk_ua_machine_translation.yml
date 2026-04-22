@@ -47,7 +47,7 @@
   winter_events.11.desc: "[target_peasants.GetName|U] прийняли на себе важкий удар природи: суворі зими, зливи з градом і нескінченні морози останнім часом стали звичним явищем. У таких гнітючих умовах напруга доходить до межі, і люди часто намагаються знайти цапа-відбувайла, щоб вимістити злість і звалювати на когось провину за своє скрутне становище.\n\n[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')], на відміну від учених, не стали шукати розумну причину й припустили, що ці природні катаклізми — не що інше, як ворожба божевільних відьом, що наслали прокляття на [target_location.Custom('LR_ACC')|l] [target_location.GetName]!"
   winter_events.11.a: "Спалити книги!"
   winter_events.11.b: "Невже холоди позбавили нас залишків здорового глузду?"
-  based_on_traditionalist_vs_innovative_tt: "З урахуванням поточної спрямованості нашого суспільства між #TOOLTIP:SOCIETAL_VALUE,traditionalist_vs_innovative,X #L традиціями#!#! та #TOOLTIP:SOCIETAL_VALUE,traditionalist_vs_innovative,X #L інноваціями#!#:"
+  based_on_traditionalist_vs_innovative_tt: "З урахуванням поточної спрямованості нашого суспільства між #TOOLTIP:SOCIETAL_VALUE,traditionalist_vs_innovative,X #L стариною#!#! та #TOOLTIP:SOCIETAL_VALUE,traditionalist_vs_innovative,X #L новиною#!#:"
   burn_witches_tt: "Спалимо кілька відьом — припустімо, #R [ROOT.GetVariable('display_burned_witches_variable').GetValue]#!!"
   cc_stance_on_witchcraft_tt: "Через погляди #TOOLTIP:INTERNATIONAL_ORGANIZATION,$catholic_church_tt$,X #L католицької церкви#!#! на чаклунство:"
   winter_events.12.title: "Спустілі келихи"

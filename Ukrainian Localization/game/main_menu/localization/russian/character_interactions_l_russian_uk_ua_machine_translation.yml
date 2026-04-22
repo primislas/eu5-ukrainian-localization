@@ -242,7 +242,7 @@
   tur_appoint_dragoman: "Призначення драгоманом"
   tur_appoint_dragoman_concept: "[Concept('character', 'персонаж')|e]"
   tur_appoint_dragoman_act: "$tur_appoint_dragoman$"
-  tur_appoint_dragoman_desc: "Ми призначимо [Concept('character', 'персонажа')|e] на посаду драгомана. Це зміцнить [Concept('cultural_influence', 'вплив')|e] та [Concept('cultural_tradition', 'традиції')|e] його культури, а також дасть нам такі ефекти:\n[ShowModifierEffect('head_of_the_cabinet_modifier')]"
+  tur_appoint_dragoman_desc: "Ми призначимо [Concept('character', 'персонажа')|e] на посаду драгомана. Це зміцнить [Concept('cultural_influence', 'вплив')|e] та [Concept('cultural_tradition', 'спадщину')|e] його культури, а також дасть нам такі ефекти:\n[ShowModifierEffect('head_of_the_cabinet_modifier')]"
   tur_appoint_dragoman_desc_specific: "Ми призначимо [Concept('character', 'персонажа')|e] на посаду драгомана, який отримає #TOOLTIP:STATIC_MODIFIER,dragoman_modifier,X #V #L однойменний#!#! [Concept('modifier', 'модифікатор')|e]."
   tur_appoint_dragoman_past: "[SCOPE.sCharacter('recipient').GetName] [Select_CString(SCOPE.sCharacter('recipient').IsFemale,'була призначена', 'був призначений')] #TOOLTIP:STATIC_MODIFIER,dragoman_modifier,X #V #L драгоманом#!#!#!"
   tur_appoint_dragoman_act_past: "[SCOPE.sCharacter('recipient').GetName] [Select_CString(SCOPE.sCharacter('recipient').IsFemale,'була призначена', 'був призначений')] #TOOLTIP:STATIC_MODIFIER,dragoman_modifier,X #V #L драгоманом#!#!#!, що зміцнило становище #L [SCOPE.sCharacter('recipient').GetCulture.GetName|l]ого#! народу."

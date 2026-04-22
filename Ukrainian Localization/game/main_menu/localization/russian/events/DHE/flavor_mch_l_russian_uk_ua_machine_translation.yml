@@ -78,4 +78,4 @@
   flavor_mch.19.title: "Нова самобутність"
   flavor_mch.19.desc: "Багато хто з нас пишається #TOOLTIP:CULTUREGROUP,jurchen_group,X #L чжурчженським#!#! минулим. Однак для створення #L [ROOT.GetCountry.GetAdjective|l]ої#! #TOOLTIP:INTERNATIONAL_ORGANIZATION,$middle_kingdom_tt$,X #L Серединної Країни#!#! той факт, що ми колись були #TOOLTIP:CULTUREGROUP,chinese_group,X #L китайськими#!#! підданими, є скоріше принизливим. Тому нам пропонують забути про минуле і оголосити себе Маньчжурією."
   flavor_mch.19.a: "[ShowCultureNameWithNoTooltip('jurchen_culture')]е минуле підриває нашу легітимність."
-  flavor_mch.19.b: "Ми не будемо соромитися своїх традицій."
+  flavor_mch.19.b: "Ми не будемо цуратися своєї спадщини."
