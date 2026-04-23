@@ -41,7 +41,7 @@
   flavor_mug.9.a: "Настав час впровадити подібну систему."
   flavor_mug.9.b: "Реформувати працюючий уряд немає потреби."
   flavor_mug.10.title: "Ібадат-хана в [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
-  flavor_mug.10.desc: "В #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! панує доктрина «[ShowReligiousSchoolName('din_i_ilahi_school')|l]», і багато хто пропонує створити молитовний дім для роздумів про різні вірування. Це місце під назвою [ShowBuildingTypeName('ibadat_khana')] має об'єднати народ [ROOT.GetCountry.Custom('CL_GEN')] за допомогою віри та стати істинним втіленням #TOOLTIP:SOCIETAL_VALUE,spiritualist_vs_humanist,X #L гуманізму#!#! ROOT.GetCountry.Custom('rank_ru_GEN')|l]."
+  flavor_mug.10.desc: "В #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! панує доктрина «[ShowReligiousSchoolName('din_i_ilahi_school')|l]», і багато хто пропонує створити молитовний дім для роздумів про різні вірування. Це місце під назвою [ShowBuildingTypeName('ibadat_khana')] має об'єднати народ [ROOT.GetCountry.Custom('CL_GEN')] за допомогою віри та стати істинним втіленням #TOOLTIP:SOCIETAL_VALUE,spiritualist_vs_humanist,X #L терпимости#!#! ROOT.GetCountry.Custom('rank_ru_GEN')|l]."
   flavor_mug.10.a: "Давайте побудуємо такий дім знань."
   flavor_mug.10.b: "Не потрібно підривати [ROOT.GetCountry.GetReligion.GetGroup.GetAdjectiveWithNoTooltip|l]ий вплив."
   flavor_mug.11.title: "Червоний форт у [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"

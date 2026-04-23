@@ -920,7 +920,7 @@
   cmd_negotiate_with_rebels_tt: "Після витрати #R 3#! од. [Concept('celestial_authority_gc', 'небесного авторитету')|e], залежно від #italic чисельності#! та підтримки [Concept('rebellion', 'заколоту')|e], може статися щось із переліченого:"
   cmd_negotiate_nationalist: "#Y $REBELS_CATEGORY_nationalist$#! вимагатимуть знизити [Concept('control', 'контроль')|e] над їхніми землями та підштовхнуть нас у бік #TOOLTIP:SOCIETAL_VALUE,serfdom_vs_free_subjects,X #L вольностей#!#!»"
   cmd_negotiate_estate: "#Y $REBELS_CATEGORY_estate$#! вимагатимуть зниження [Concept('tax', 'податків')|e] та розширення [Concept('privileges', 'привілеїв')|e]"
-  cmd_negotiate_religious: "#Y $REBELS_CATEGORY_religious$#! вимагатимуть #TOOLTIP:STATIC_MODIFIER,religious_concessions_modifier,X #V #L релігійних поступок#!#! та підштовхнуть нас у бік #TOOLTIP:SOCIETAL_VALUE,spiritualist_vs_humanist,X #L гуманізму#!#!"
+  cmd_negotiate_religious: "#Y $REBELS_CATEGORY_religious$#! вимагатимуть #TOOLTIP:STATIC_MODIFIER,religious_concessions_modifier,X #V #L релігійних поступок#!#! та підштовхнуть нас у бік #TOOLTIP:SOCIETAL_VALUE,spiritualist_vs_humanist,X #L терпимости#!#!"
   cmd_reform_the_cabinet: "Реформа ради"
   cmd_reform_the_cabinet_desc: "[ROOT.GetCountry.GetGovernment.GetCabinetTitle] і ті, хто там засідав раніше, понад усе ставили потреби нашого народу. Однак в останні роки занепадництво в цьому середовищі досягло небачених масштабів. Радники, і без того обдаровані привілеями, вимагають собі посади і не виконують обов'язків. Це потрібно змінити, нехай навіть ціною втрати їхньої прихильності."
   cmd_revise_the_tax_code: "Перегляд податкового кодексу"
