@@ -704,7 +704,7 @@
   antagonism_heretic_segregation: "Ізоляція єретиків"
   antagonism_declaring_independence: "Оголошення незалежності"
   antagonism_forcing_ourselves_on_brittany: "Силоміць передали нашій [Concept('dynasty', 'династії')|e] [GetCountry('BRI').Custom('CL_ACC')]"
-  antagonism_more_absolutism: "Наростаючий абсолютизм"
+  antagonism_more_absolutism: "Посилення самовладдя"
   antagonism_pressed_claim: "Наполягли на претензіях"
   antagonism_renounced_claim: "Відмовилися від претензій"
   antagonism_looting: "Грабіж"

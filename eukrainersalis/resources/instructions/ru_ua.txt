@@ -83,6 +83,8 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     ** традиционный -> звичаєвий (звичаєве право), узвичаєний, звичний, звичайний, загальноприйнятий, усталений, питомий, прадавній, споконвічний, старовинний, старосвітський (одяг), і т.п.
     ** традиционно -> зазвичай, за звичаєм, з давніх-давен, споконвіку, тощо
     * individualism (индивидуализм) and communalism (общинность) societal values -> особистість, спільність
+    * absolutism, абсолютимз -> "самовладдя", "деспотизм" for clearly negative connotations, "одноосібна влада", "аболютизм" or "абсолютистський" when "самовладдя" is clearly inappropriate
+    * lieralism, либерализм -> "представництво" when meant as a societal value, "самоврядність", "свобода" depending on context, "лібералізм" and "ліберальний" if other alternatives do not fit well
 5.  Low-Confidence Flagging: If you are uncertain about the translation of a proper noun (dynasty, ethnicity, culture), prefix it with 'POSTEDIT_'.
 6.  Translate only Russian text. Do not translate any other language.
 7.  Attempt to keep the sentence structure as close to the original as possible.
