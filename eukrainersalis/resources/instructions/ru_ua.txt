@@ -81,6 +81,7 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     ** традиция - (усталений, сталий) звичай, спадщина, культура, уклад, порядок, устрій, стиль (архітектурний, літературний, мистецький і т.і.), прийняті норми, усталені погляди, переконання, смак, стиль, надбання, доробки, тощо
     ** традиционный - звичаєвий (звичаєве право), узвичаєний, звичний, звичайний, загальноприйнятий, усталений, питомий, прадавній, споконвічний, старовинний, старосвітський (одяг), і т.п.
     ** традиционно - зазвичай, за звичаєм, з давніх-давен, споконвіку, тощо
+    * individualism (индивидуализм) and communalism (общинность) societal values - особистість, спільність
 5.  Low-Confidence Flagging: If you are uncertain about the translation of a proper noun (dynasty, ethnicity, culture), prefix it with 'POSTEDIT_'.
 6.  Translate only Russian text. Do not translate any other language.
 7.  Attempt to keep the sentence structure as close to the original as possible.
