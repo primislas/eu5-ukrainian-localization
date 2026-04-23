@@ -73,7 +73,7 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     ** increase chances, повысить шансы -> підвищити ймовірність, сподівання, надію
     ** second chance, второй шанс -> повторна нагода, ще одна нагода
     * free subjects, личная свобода -> вольності, a fixed expression for high degree of "free subjects" is "широкі вольності"
-    * centralization-decentralization -> самовладдя and самоврядність, when talking about societal values, otherwise "централізація" should be used, when it's a clear translation and "самовладдя" is not appropriate
+    * centralization-decentralization -> підпорядкування and самоврядність, when talking about societal values, otherwise "централізація" should be used, when it's a clear translation and "підпорядкування" is not appropriate
     * traditionalist and innovative -> старина and новина, when clearly about societal values
     * innovation, инновация -> новація
     * innovative -> "новаційний", "новаторський" depending on context

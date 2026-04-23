@@ -324,7 +324,7 @@
   dutch_republic_reform_desc: "Це республіка, правитель якої (#italic штатгальтер#!) служить усе життя. Зазвичай фракції, які підтримують таку форму правління, сперечаються про структуру влади штатгальтера. Патріоти хочуть, щоб штатгальтер правив як #italic Primus inter Pares#! (лат. «перший серед рівних»), тоді як оранжисти бажають бачити в обраному правителі подобу монарха."
   ancient_french_taxation: "Давня [GetCountry('FRA').GetAdjectiveWithNoTooltip|l]а система оподаткування"
   ancient_french_taxation_desc: "Історично податки безсистемно вводилися та збиралися лише в часи потреби, а не на постійній основі."
-  fra_ancient_french_taxation_removal_conditions: "Можна видалити вручну, досягнувши рівня #TOOLTIP:SOCIETAL_VALUE,centralization_vs_decentralization,X #L самовладдя#!#! в #G +50.00#!, або за допомогою [Concept('dynamic_historical_event', 'динамічної історичної події')|e] «$flavor_fra.1.title$»."
+  fra_ancient_french_taxation_removal_conditions: "Можна видалити вручну, досягнувши рівня #TOOLTIP:SOCIETAL_VALUE,centralization_vs_decentralization,X #L підпорядкування#!#! в #G +50.00#!, або за допомогою [Concept('dynamic_historical_event', 'динамічної історичної події')|e] «$flavor_fra.1.title$»."
   basic_timariot_system: "Тимарна система"
   basic_timariot_system_desc: "Система феодальних землеволодінь, спрямована на створення сильної кавалерії. Наші вершники-сипахи отримають земельні наділи та зобов'язуються виставляти кавалерійські сили, співмірні величині їхніх володінь."
   expanded_timariot_system: "Вдосконалена тимарна система"

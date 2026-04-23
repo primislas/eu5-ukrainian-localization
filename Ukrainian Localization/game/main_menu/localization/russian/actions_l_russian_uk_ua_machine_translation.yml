@@ -478,7 +478,7 @@
   UNION_NOBLES_OPINION_OF_SENIOR_PARTNER: "Думка знаті [senior_partner_scope.Custom('predlog_obo')] #ONCLICK:COUNTRY,[senior_partner_scope.Custom('CL_tt')] #TOOLTIP:COUNTRY,[senior_partner_scope.Custom('CL_tt')],X [senior_partner_scope.Custom('CL_PREP')|L]#!#!"
   UNION_BURGHERS_OPINION_OF_SENIOR_PARTNER: "Думка містян [senior_partner_scope.Custom('predlog_obo')] #ONCLICK:COUNTRY,[senior_partner_scope.Custom('CL_tt')] #TOOLTIP:COUNTRY,[senior_partner_scope.Custom('CL_tt')],X [senior_partner_scope.Custom('CL_PREP')|L]#!#!"
   UNION_CLERGY_OPINION_OF_SENIOR_PARTNER: "Думка духовенства [senior_partner_scope.Custom('end_predlog_obo')] #ONCLICK:COUNTRY,[senior_partner_scope.Custom('CL_tt')] #TOOLTIP:COUNTRY,[senior_partner_scope.Custom('CL_tt')],X [senior_partner_scope.Custom('CL_PREP')|L]#!#!"
-  UNION_CURRENT_CENTRALIZATION_LEVEL: "Поточний рівень самовладдя"
+  UNION_CURRENT_CENTRALIZATION_LEVEL: "Поточний рівень підпорядкування"
   VOTE_BASE_VALUE: "Базове значення"
   VOTE_CONSERVATIVE_CLIMATE: "Консервативні настрої в об'єднанні «[SCOPE.sInternationalOrganization('recipient').GetName]»"
   VOTE_IS_SENIOR_PARTNER: "[ShowSpecialStatusName('senior_partner')] в об'єднанні «[SCOPE.sInternationalOrganization('recipient').GetName]»"
