@@ -199,7 +199,7 @@
   REBELS_SORT_BY_PROGRESS: "Сортувати за поточною готовністю"
   REBELS_SORT_BY_MONTHLY: "Сортувати за щомісячною зміною"
   LOANS_SORT_BY_DATE: "Сортувати за кількістю місяців, що залишилися"
-  LOANS_SORT_BY_INTEREST: "Сортувати за відсотками"
+  LOANS_SORT_BY_INTEREST: "Сортувати за лихвою"
   LOANS_SORT_BY_REMAINING_DEBT: "Сортувати за залишком боргу"
   LOANS_SORT_BY_BORROWER: "Сортувати за позичальниками"
   LOANS_SORT_BY_LENDER: "Сортувати за позикодавцями"
