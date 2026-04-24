@@ -326,7 +326,7 @@
   AI_DESIRE_SCRIPT_REASONS: "Додаткові причини"
   AI_DESIRE_DOES_NOT_WANT: "Не хоче цей тип договору"
   AI_DESIRE_TAKER_WAR_LEADER: "Загарбник не є лідером війни"
-  AI_DESIRE_SUBJECT_TYPE: "Васала не можна приєднати"
+  AI_DESIRE_SUBJECT_TYPE: "Васала не можна поглинути"
   AI_DESIRE_ALLY_IN_WAR: "Загарбник не є отримувачем"
   AI_DESIRE_DIFFERENT_CULTURE: "Інша культура"
   AI_DESIRE_DIFFERENT_RELIGION: "Інша релігія"

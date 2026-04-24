@@ -255,7 +255,7 @@
   hre_force_emperor_to_abdicate: "Примушення імператора до відмови від влади"
   hre_force_emperor_to_abdicate_desc: "#TOOLTIP:SPECIAL_STATUS,elector,X #L Князі-виборці#!#! визнали, що [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetLongName] не справля[GetUniqueInternationalOrganization('hre').GetLeaderCountry.Custom('endlong_etyut')]ся з управлінням #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священною Римською Імперією#!#!. Вони скликають рейхстаг, щоб обговорити зміну влади та визначити майбутнє імперії."
   union_enforce_law_implementation: "Забезпечення виконання законів"
-  union_enforce_law_implementation_desc: "Деякі учасники #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,union,X #L унії#!#! або вступили до неї нещодавно, або активно чинять опір нашим спробам централізувати владу. Щоб домогтися приєднання країн-учасниць унії, потрібно забезпечити виконання на їхніх територіях ухвалених нами законів."
+  union_enforce_law_implementation_desc: "Деякі учасники #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,union,X #L унії#!#! або вступили до неї нещодавно, або активно чинять опір нашим спробам централізувати владу. Щоб домогтися поглинання країн-учасниць унії, потрібно забезпечити виконання на їхніх територіях ухвалених нами законів."
   union_enforce_law_implementation_at: "[Concept('union_integration_level_member', 'Рівень інтеграції')|e] всіх [Concept('member', 'учасників')|e] міжнародної організації «[THIS.GetInternationalOrganization.GetName]» зміниться на «[THIS.GetInternationalOrganization.GetModifierValueString('union_integration_level')]»"
   pa_add_privilege: "Надання привілею"
   pa_add_privilege_simple: "Підкуп стану"

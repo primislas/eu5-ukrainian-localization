@@ -5,7 +5,7 @@
   WAR_LATERALVIEW_SUBJECT: "@trigger_no![Concept('subject', 'Васалу')|e] військового лідера не можна просити про [Concept('peace', 'мир')|e]."
   WARGOAL_IS_CONQUEST: "#T Мета війни захоплена#!\n"
   WARGOAL_IS_SAFE: "#T Мета війни захищена#!\n"
-  WAR_LATERALVIEW_ANNEX_REVOLTER: "Приєднати бунтівні території"
+  WAR_LATERALVIEW_ANNEX_REVOLTER: "Підкорити бунтівні території"
   WAR_LATERALVIEW_GRANT_INDEPENDENCE: "Надати незалежність"
   WARGOAL_IS_CONTESTED: "@trigger_no! Боротьба за мету війни ще не закінчена."
   WARGOAL_NOT_MAX_TICKED_ENOUGH_DAYS_PEACE: "Через $NEED|Y$ д. без боротьби за мету війни можна укласти мир на умовах «статус-кво», за якого країна $WHO|Y$ збереже за собою територію $NAME|Y$!\nПоки минуло $DAYS|G$ д."

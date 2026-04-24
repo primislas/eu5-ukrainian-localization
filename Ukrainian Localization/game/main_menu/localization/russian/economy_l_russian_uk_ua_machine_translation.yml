@@ -545,7 +545,7 @@
   rtr_negotiate_with_rebels_price: "Вартість дії «$rtr_negotiate_with_rebels$»"
   rtr_appease_the_court_price: "Вартість дії «$rtr_appease_the_court$»"
   rtr_rein_in_area_price: "Вартість дії «$rtr_rein_in_area$»"
-  rtr_demand_annexation_price: "Вартість вимоги приєднання"
+  rtr_demand_annexation_price: "Вартість вимоги поглинання"
   change_employment_system_price: "Вартість вибору системи найму"
   restrict_peranakan_trading_rights_price: "Вартість обмеження торгових прав перанакан"
   ban_conversion_of_adipatis_price: "Вартість заборони на навернення адіпаті"

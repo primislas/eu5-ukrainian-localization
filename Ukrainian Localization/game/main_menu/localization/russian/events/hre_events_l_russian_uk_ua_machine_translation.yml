@@ -50,7 +50,7 @@
   hre.904.desc: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священна Римська Імперія#!#! відбила напад загарбників з #ONCLICK:COUNTRY,[loser.Custom('CL_tt')] #TOOLTIP:COUNTRY,[loser.Custom('CL_tt')],X [loser.Custom('CL_GEN')|L]#!#!!"
   hre.904.a: "Ми це передбачали…"
   hre.905.title: "Загибель князівства"
-  hre.905.desc: "[annexed.GetName], князівство #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!, приєднано іноземною країною!"
+  hre.905.desc: "[annexed.GetName], князівство #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!, завойоване іноземною країною!"
   hre.905.a: "На жаль!"
   hre.907.title: "Визволення князівства"
   hre.907.desc: "[released_country.GetName], князівство #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!, звільнилося від іноземного ярма!"

@@ -1143,7 +1143,7 @@
   diplomatic_status_receiving_military_access_tooltip: "#T Користується правом на прохід військ#!\nЦя країна має [Concept('military_access', 'право на прохід військ')|e] в наступних [Concept('countries', 'країнах')|e]."
   receiving_military_access_list_who_tt: "Країна $WHO$ має [Concept('military_access', 'право на прохід військ')|e] в наступних країнах: $LIST$"
   guarantee_vassal_independence_relation: "Гарантувати васальну незалежність"
-  guarantee_vassal_independence_relation_desc: "Влада [Concept('country', 'країни')|e] надасть гарантію незалежності [Concept('subject', 'васалу')|e] іншої країни, що дасть їй [Concept('casus_belli', 'привід для війни')|e] у випадку [Concept('annexed', 'приєднання')|e]."
+  guarantee_vassal_independence_relation_desc: "Влада [Concept('country', 'країни')|e] надасть гарантію незалежності [Concept('subject', 'васалу')|e] іншої країни, що дасть їй [Concept('casus_belli', 'привід для війни')|e] у випадку [Concept('annexed', 'поглинання')|e]."
   offer_guarantee_vassal_independence: "Гарантувати васальну незалежність"
   offer_guarantee_vassal_independence_CATEGORY: "CATEGORY_HOSTILE_ACTIONS"
   offer_guarantee_vassal_independence_cta: "Гарантуйте незалежність васалів #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!"
