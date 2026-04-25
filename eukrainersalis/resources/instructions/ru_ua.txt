@@ -91,6 +91,7 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     * credit, кредит -> позика
     * дольщик -> пайовик
     * annex, аннексия, присоединение -> prefer "поглинання", prefer "приєднання" over "анексія" when forms of "поглинання" are a bad fit
+    * heir selection or succession law(s), правила престолонаследования -> порядок престолонаслідування
 4.2.  Уникай русизмів та кальки з російської, зокрема:
     * заново -> наново
     * без труда -> без (великих) зусиль, or rarely when appropriate by tone - "не доклавши рук", "не вмившись потом"
