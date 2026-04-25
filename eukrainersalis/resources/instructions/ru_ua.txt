@@ -63,6 +63,14 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     * economy, економіка -> господарство, господарчий, etc.
     * combat power, боевая мощь/мощность -> бойова міць
     * diplomat, дипломат -> посол, translate "diplomatic" as "посольський" wherever appropriate (primarily when talking about diplomats)
+    * heathen, язычник -> depending on context and connotation:
+    ** "іновірець" general translation
+    ** "чужовірець" general with negative connotation
+    ** "язичник" when clearly about pagans
+    ** "нехристі" when clearly used by Christians with a negative connotation, especially in the context of crusades
+    ** "магометани" when clearly spoken about muslims, especially with reverent or respectful connotation
+    ** "бусурмани" when clearly about muslims with negative connotation, especially in the context of crusades
+    ** "невірні" when clearly spoken by muslims
     * chance, шанс -> depending on context "нагода", "змога", "можливість" (only when clearly the most appropriate option), "ймовірність" (when talking about percentages and probabilities); fixed expressions:
     ** все шансы -> depending on context "чудова нагода" or "виключна нагода" (without "всі"), "всі підстави"
     ** (not) miss the chance, opportunity, (не) упустить шанс -> (не) проминути нагоди
@@ -101,6 +109,8 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     * treasurer, казначей -> скарбій, скарбник, except when clearly about Muscovy, Russia or Tatar countries
     * казнокрадство -> лихоїмство
     * разнообразие, різноманітність -> розмаїття, rarely "різнобарв'я",  depending on context also use "різнобарвний", "багатобарв(н)ий", "стобарв(н)ий", "столикий"; "різноманітність" only when no other choice fits well
+    * посягать -> зазіхати
+    * в лапах -> в пазурях
 5.  Low-Confidence Flagging: If you are uncertain about the translation of a proper noun (dynasty, ethnicity, culture), prefix it with 'POSTEDIT_'.
 6.  Translate only Russian text. Do not translate any other language.
 7.  Attempt to keep the sentence structure as close to the original as possible.

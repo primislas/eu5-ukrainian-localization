@@ -52,7 +52,7 @@
   culture_religion_events.13.a: "Нехай [minister.GetNameWithNoTooltip] складе з себе повноваження."
   culture_religion_events.13.b: "Ми не будемо потурати цим дурням."
   culture_religion_events.13.b.tt: "Всі [Concept('countries', 'країни')|e] нашої релігійної групи змінять свою [Concept('opinion', 'думку')|e] про нас на [ShowBiasValue('entertaining_heathens')|+=]."
-  entertaining_heathens: "Схильність до язичництва"
+  entertaining_heathens: "Прихильність до іновірців"
   culture_religion_events.14.title: "[ROOT.GetCountry.GetGovernment.GetCabinetTitle|U] під [minister.GetReligion.GetAdjectiveWithNoTooltip|U]им впливом"
   culture_religion_events.14.desc: "Багато прихильників #L [ROOT.GetCountry.GetReligion.GetAdjective|l]ої#! віри вважають, що [minister.GetName] становить загрозу для #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Вони побоюються, що під [Select_CString(minister.IsFemale,'її', 'його')] впливом [target_ruler.GetName] спочатку почне підтримувати #L [minister.GetReligion.GetAdjective|l]у#! релігію, а потім і зовсім відійде від істинної віри."
   culture_religion_events.14.a: "Нехай [minister.GetNameWithNoTooltip] складе з себе повноваження."

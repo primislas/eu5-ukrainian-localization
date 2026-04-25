@@ -33,7 +33,7 @@
   devotion_events.8.ct: "Підробку можуть розкрити…"
   devotion_events.8.b: "Цій мерзоті не місце в наших архівах!"
   devotion_events.9.title: "Підроблені документи"
-  devotion_events.9.desc: "Як ми не намагалися приховати підробку документів, наш задум розкрили. Але ми діяли зі шляхетних спонукань, намагаючись захистити [ROOT.GetCountry.Custom('rank_ru_ACC')|l] від посягань на наші провінції."
+  devotion_events.9.desc: "Як ми не намагалися приховати підробку документів, наш задум розкрили. Але ми діяли зі шляхетних спонукань, намагаючись захистити [ROOT.GetCountry.Custom('rank_ru_ACC')|l] від зазіхань на наші провінції."
   devotion_events.9.a: "Підкуповувати, шантажувати та бити всіх, хто видасть цю таємницю!"
   devotion_events.10.title: "Місцева шляхетна особа"
   devotion_events.10.desc: "[ROOT.GetCountry.GetLongName] — це країна, в якій довіру та прихильність народу швидко [Select_CString(target_heir.IsFemale,'завоювала', 'завоював')] [target_heir.GetName]. Особливою підтримкою [ROOT.GetCountry.GetGovernment.GetHeirTitle|l] та [Select_CString(target_heir.IsFemale, 'майбутня', 'майбутній' )] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] користується серед місцевої знаті, до якої [Select_CString(target_heir.IsFemale, 'вона раніше належала', 'він раніше належав' )]. Це допомогло нам знову зміцнити владу, і наше становище стало ще міцнішим, ніж раніше."

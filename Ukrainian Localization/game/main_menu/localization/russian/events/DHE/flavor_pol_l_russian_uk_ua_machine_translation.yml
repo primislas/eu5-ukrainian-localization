@@ -193,7 +193,7 @@
   flavor_pol.38.a: "Вони отримають усе, що просять."
   flavor_pol.38.b: "Ми не збираємося догоджати примхам дрібних дворян."
   flavor_pol.39.title: "Боротьба за владу"
-  flavor_pol.39.desc: "Нам стало відомо, що [target_character.GetName] у жалюгідній спробі стати нашим сувереном [Select_CString(target_character.IsFemale,'вдалася', 'вдався')] до абсолютно недипломатичних і незаконних методів, таємно пообіцявши, що [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] отримають певні привілеї. Такий вчинок не просто зухвалість — це пряме посягання на наш суверенітет!"
+  flavor_pol.39.desc: "Нам стало відомо, що [target_character.GetName] у жалюгідній спробі стати нашим сувереном [Select_CString(target_character.IsFemale,'вдалася', 'вдався')] до абсолютно недипломатичних і незаконних методів, таємно пообіцявши, що [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] отримають певні привілеї. Такий вчинок не просто зухвалість — це пряме зазіхання на наш суверенітет!"
   flavor_pol.39.a: "Неймовірна нахабність!"
   flavor_pol.40.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] [ROOT.GetCountry.Custom('CL_GEN')]"
   flavor_pol.40.desc: "Управління великою державою та підтримання в ній порядку — непросте завдання. Попри наші старання, народ починає сумніватися у владі та її легітимності — причому часто відкрито.\n\nУ відповідь на ситуацію, що склалася (і в спробі запобігти її погіршенню), деякі [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] виступили з цікавою пропозицією: в обмін на певні привілеї вони доноситимуть до народу наші слова та вершитимуть порядок від нашого імені."

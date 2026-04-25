@@ -2474,7 +2474,7 @@
   DIPLOREASON_WOULD_FRACTURE_RECIPIENT_TOO_MUCH: "Призведе до розколу країни"
   DIPLOREASON_PEACEOFFER_WOULD_FRACTURE_RECIPIENT_TOO_MUCH: "Призведе до розколу країни"
   DIPLOREASON_HERETICAL_SPOUSE: "[Concept('spouse', 'Шлюб')|e] з єретиком"
-  DIPLOREASON_HEATHEN_SPOUSE: "[Concept('spouse', 'Шлюб')|e] з язичником"
+  DIPLOREASON_HEATHEN_SPOUSE: "[Concept('spouse', 'Шлюб')|e] з іновірцем"
   DIPLOREASON_PROMISED_LAND: "Обіцяні землі"
   DIPLOREASON_BELONGS_TO_INTERNATIONAL_ORGANIZATION: "Походить від [Concept('international_organization', 'міжнародного об’єднання')|e]"
   DIPLOREASON_BELONGS_TO_HIGH_KINGSHIP: "Частина #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,high_kingship,X #L верховного королівства#!#!"
