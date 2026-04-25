@@ -1029,7 +1029,7 @@
   impose_restrictions_on_peasants_through_event_tt: "$restrictions_loc_key$ стану «[SCOPE.sCountry('actor').GetGovernment.GetEstateName('peasants_estate')|l]» за допомогою [Concept('event', 'події')|e]"
   this_will_end_the_disaster_tt: "Це завершить [Concept('disaster', 'лихо')|e] «[ShowDisasterName('aspiration_for_liberty')]»\n"
   move_nw_good_to_new_location: "Поширення товару з Нового Світу"
-  move_nw_good_to_new_location_desc: "Ми можемо поширити один товар, що походить з #TOOLTIP:CONTINENT,america,X #L Америки#!#!, у будь-якій зі своїх [Concept('locations', 'місцевостей')|e] на невдоволення місцевих жителів. Нам також доведеться заново розвивати [Concept('rgo', 'видобуток ресурсів')|e] у місцевості."
+  move_nw_good_to_new_location_desc: "Ми можемо поширити один товар, що походить з #TOOLTIP:CONTINENT,america,X #L Америки#!#!, у будь-якій зі своїх [Concept('locations', 'місцевостей')|e] на невдоволення місцевих жителів. Нам також доведеться наново розвивати [Concept('rgo', 'видобуток ресурсів')|e] у місцевості."
   move_nw_good_to_new_location_no_available_good: "@trigger_no! У вас немає жодної [Concept('location', 'місцевості')|e], що тяжіє до ринку, де продається або виробляється цей [Concept('good', 'товар')]"
   move_nw_good_to_new_location_no_available_location: "@trigger_no! У вас немає жодної [Concept('location', 'місцевості')|e], де можна налагодити [Concept('rgo', 'видобуток')|e] [Concept('good', 'ресурсу')] з Нового Світу"
   move_ow_good_to_new_location_no_available_location: "@trigger_no! У вас немає жодної [Concept('location', 'місцевості')|e], де можна налагодити [Concept('rgo', 'видобуток')|e] [Concept('good', 'ресурсів')] зі Старого Світу."

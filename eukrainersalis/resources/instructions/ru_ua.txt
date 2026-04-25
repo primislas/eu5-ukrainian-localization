@@ -91,6 +91,15 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     * credit, кредит -> позика
     * дольщик -> пайовик
     * annex, аннексия, присоединение -> prefer "поглинання", prefer "приєднання" over "анексія" when forms of "поглинання" are a bad fit
+4.2.  Уникай русизмів та кальки з російської, зокрема:
+    * заново -> наново
+    * без труда -> без (великих) зусиль, or rarely when appropriate by tone - "не доклавши рук", "не вмившись потом"
+    * (в поисках) лучшей жизни, кращого життя -> кращої долі
+    * ропот -> ремство
+    * treasury, казна -> скарбниця, except when clearly about Muscovy, Russia or Tatar countries
+    * treasurer, казначей -> скарбій, скарбник, except when clearly about Muscovy, Russia or Tatar countries
+    * казнокрадство -> лихоїмство
+    * разнообразие, різноманітність -> розмаїття, rarely "різнобарв'я",  depending on context also use "різнобарвний", "багатобарв(н)ий", "стобарв(н)ий", "столикий"; "різноманітність" only when no other choice fits well
 5.  Low-Confidence Flagging: If you are uncertain about the translation of a proper noun (dynasty, ethnicity, culture), prefix it with 'POSTEDIT_'.
 6.  Translate only Russian text. Do not translate any other language.
 7.  Attempt to keep the sentence structure as close to the original as possible.

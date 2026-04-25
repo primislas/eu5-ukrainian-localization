@@ -90,4 +90,4 @@
   flavor_son.1006.a: "Подивимося, що залишилося від каравану…"
   son_show_hajj_money_tt: "Кількість [Concept('gold', 'золота')|e] у #Y каравані#!: @gold!#G [THIS.GetVariable('hajj_money').GetValue]#!"
   son_continue_hajj_tt: "Ми продовжимо #Y хадж#!"
-  son_all_remaining_gold_will_return_to_treasury_tt: "Усе [Concept('gold', 'золото')|e], що залишилося після #Y хаджу#!, буде повернено до нашої [Concept('treasury', 'казни')|e]"
+  son_all_remaining_gold_will_return_to_treasury_tt: "Усе [Concept('gold', 'золото')|e], що залишилося після #Y хаджу#!, буде повернено до нашої [Concept('treasury', 'скарбниці')|e]"

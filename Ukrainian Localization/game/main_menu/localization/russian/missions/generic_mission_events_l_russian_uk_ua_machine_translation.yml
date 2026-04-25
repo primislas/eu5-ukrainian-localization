@@ -27,7 +27,7 @@
   generic_mission_events.8.b: "Не будемо квапити події."
   generic_mission_events.9.title: "Дипломатичний інцидент"
   generic_mission_events.9.desc: "Інтеграція пов'язана з безліччю труднощів. Зокрема, спроби об'єднати дві різні правові системи нерідко призводять до дипломатичних труднощів. Нещодавно саме стався один такий випадок, який може негативно вплинути на процес приєднання нових територій."
-  generic_mission_events.9.a: "[target_character1.GetShortNameWithNoTooltip] зможе заново домовитися про що завгодно."
+  generic_mission_events.9.a: "[target_character1.GetShortNameWithNoTooltip] зможе наново домовитися про що завгодно."
   generic_mission_events.9.b: "Це безумовно підірве наші зусилля…"
   generic_mission_events.9.c: "Продовжувати приєднання, незважаючи на затримки."
   diplomatic_abilities_of_target_character_prevent_any_negative_incident: "Завдяки своїй [Concept('dip', 'дипломатичній навичці')|e] [target_character1.GetName] не дозволить тому, що сталося, завадити приєднанню"

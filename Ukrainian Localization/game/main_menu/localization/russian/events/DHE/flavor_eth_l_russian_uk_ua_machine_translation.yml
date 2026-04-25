@@ -145,7 +145,7 @@
   flavor_eth.164.a: "Так, це гідна ідея."
   flavor_eth.164.b: "При дворі повинна панувати [ROOT.GetCountry.GetCulture.GetNameWithNoTooltip|l]а культура."
   flavor_eth.165.title: "$confession_of_faith$"
-  flavor_eth.165.desc: "[target_character.GetName] хоче написати трактат на захист #TOOLTIP:RELIGION,$miaphysite_tt$,X #L міафізитського#!#! віровчення під назвою «$confession_of_faith$». [Select_CString(target_character.IsFemale, 'Вона', 'Він' )] вважає, що це закріпить догмати, яким і без того слідують усі віряни: наприклад, дотримання суботи та заборона на свинину. Така книга може бути корисною, але її написання обійдеться казні [ROOT.GetCountry.Custom('CL_GEN')] досить дорого."
+  flavor_eth.165.desc: "[target_character.GetName] хоче написати трактат на захист #TOOLTIP:RELIGION,$miaphysite_tt$,X #L міафізитського#!#! віровчення під назвою «$confession_of_faith$». [Select_CString(target_character.IsFemale, 'Вона', 'Він' )] вважає, що це закріпить догмати, яким і без того слідують усі віряни: наприклад, дотримання суботи та заборона на свинину. Така книга може бути корисною, але її написання обійдеться скарбниці [ROOT.GetCountry.Custom('CL_GEN')] досить дорого."
   flavor_eth.165.a: "Наша віра варта будь-яких витрат."
   flavor_eth.165.b: "Релігійні дебати для нас залишилися в минулому."
   flavor_eth.200.title: "Монах [ewostatewos.GetNameWithNoTooltip]"
