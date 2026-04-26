@@ -188,7 +188,7 @@
   hook_and_cod_wars.1402.desc: "Союзники відгукнулися на наше прохання про допомогу! #Y [ROOT.GetCountry.Custom('GetHaCWFaction')]#! щойно отримала велике пожертвування від імені #L [faction_ally_country.GetAdjective|l]ського#! народу!"
   hook_and_cod_wars.1402.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   hook_and_cod_wars.1403.title: "Влада [faction_ally_country.Custom('CL_GEN')] нас підводить"
-  hook_and_cod_wars.1403.desc: "[faction_ally_country.GetLongName] не з числа наших помічників. Вислухавши наше прохання, віроломна [faction_ally_country.GetAdjectiveWithNoTooltip|l] влада відмовилася виділяти додаткові кошти. Схоже, тепер #Y [ROOT.GetCountry.Custom('GetHaCWFaction')|l]#! залишається сама по собі…"
+  hook_and_cod_wars.1403.desc: "[faction_ally_country.GetLongName] не з числа наших помічників. Вислухавши наше прохання, віроломна [faction_ally_country.GetAdjectiveWithNoTooltip|l] влада відмовилася виділяти додаткові кошти. Схоже, тепер #Y [ROOT.GetCountry.Custom('GetHaCWFaction')|l]#! залишається сама собою…"
   hook_and_cod_wars.1403.a: "Впораємося і без них."
   hook_and_cod_wars.1404.title: "[ROOT.GetCountry.Custom('GetHaCWEnemyFaction')] отримує підтримку"
   hook_and_cod_wars.1404.desc: "#TOOLTIP:DISASTER_TYPE,hook_and_cod_wars,X #L Боротьба «тріски» та «гачків»#!#! на території #ONCLICK:COUNTRY,[holland.Custom('CL_tt')] #TOOLTIP:COUNTRY,[holland.Custom('CL_tt')],X [holland.Custom('CL_GEN')|L]#!#! йде повним ходом, жодна зі сторін не бажає поступатися. Наші суперники, #Y [ROOT.GetCountry.Custom('GetHaCWEnemyFaction')|l]#!, щойно отримали велику суму золота. Ми поки не знаємо, хто надає їм допомогу, але противник стає сильнішим, а #Y [ROOT.GetCountry.Custom('GetHaCWFaction')|l]#! слабшає з кожним днем."

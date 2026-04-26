@@ -39,7 +39,7 @@
   nahuatl_events.9.a: "[ROOT.GetCountry.GetReligion.GetGodName] у гніві на [Select_CString(target_character.IsFemale, 'неї', 'нього' )]. [Select_CString(target_character.IsFemale, 'Вона повинна', 'Він повинен' )] померти."
   nahuatl_events.9.b: "[Select_CString(target_character.IsFemale, 'Її', 'Його' )] праця занадто важлива для нас, щоб карати [Select_CString(target_character.IsFemale, 'її', 'його' )] смертю."
   nahuatl_events.10.title: "Подія в період Немонтемі"
-  nahuatl_events.10.desc: "На жаль, наші [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] не завжди бездоганні: сьогодні [Select_CString(target_char.IsFemale, 'дочка', 'син' )] однієї з найзнатніших родин нашої країни [Select_CString(target_char.IsFemale, 'була помічена п'яною', 'був помічений п'яним' )] на вулиці. Це саме по собі злочин, за який велено згори карати удушенням, але найгірше, що це сталося в дні Немонтемі, коли будь-які порушення порядку суворо заборонені."
+  nahuatl_events.10.desc: "На жаль, наші [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] не завжди бездоганні: сьогодні [Select_CString(target_char.IsFemale, 'дочка', 'син' )] однієї з найзнатніших родин нашої країни [Select_CString(target_char.IsFemale, 'була помічена п'яною', 'був помічений п'яним' )] на вулиці. Це саме собою злочин, за який велено згори карати удушенням, але найгірше, що це сталося в дні Немонтемі, коли будь-які порушення порядку суворо заборонені."
   nahuatl_events.10.a: "[Select_CString(target_char.IsFemale, 'Вона повинна', 'Він повинен' )] померти."
   nahuatl_events.10.b: "[Select_CString(target_char.IsFemale, 'Вона', 'Він' )] занадто [Select_CString(target_char.IsFemale, 'потрібна', 'потрібен' )] нам."
   nahuatl_events.11.title: "Мандрівний чаклун"

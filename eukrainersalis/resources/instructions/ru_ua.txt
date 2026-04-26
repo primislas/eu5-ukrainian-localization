@@ -112,6 +112,7 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     * посягнуть -> "зазіхнути", unless the subject is power, rulers or something sacred, in which case keep "посягнути"
     * в лапах -> в пазурях
     * дольщик -> пайовик
+    * сам по себе -> сам собою
 5.  Low-Confidence Flagging: If you are uncertain about the translation of a proper noun (dynasty, ethnicity, culture), prefix it with 'POSTEDIT_'.
 6.  Translate only Russian text. Do not translate any other language.
 7.  Attempt to keep the sentence structure as close to the original as possible.

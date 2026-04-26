@@ -72,7 +72,7 @@
   castilian_civil_war.410.a: "Саме час висунути наші претензії!"
   castilian_civil_war.410.a.at: "Ми можемо вимагати, щоб [target_winner.GetName] [Select_CString(target_winner.IsFemale,'виконала', 'виконав')] свою частину домовленостей. Якщо [from_country.GetName] прийме наші вимоги, станеться наступне:"
   castilian_civil_war.410.a.bt: "Якщо [from_country.GetName] відмовиться виконувати наші вимоги, тоді станеться наступне:"
-  castilian_civil_war.410.b: "Для нас [Select_CString(target_winner.IsFemale,'її', 'його')] перемога — сама по собі гідна нагорода."
+  castilian_civil_war.410.b: "Для нас [Select_CString(target_winner.IsFemale,'її', 'його')] перемога — сама собою гідна нагорода."
   castilian_civil_war.411.title: "[target_country.GetNameWithNoTooltip] відмовляється від своїх вимог"
   castilian_civil_war.411.desc.common: "[target_country.GetLongName] — це країна, без якої [target_winner.GetName] ніколи б не [Select_CString(target_winner.IsFemale,'змогла', 'зміг')] здобути перемогу в громадянській війні. В обмін на [target_country.GetAdjectiveWithNoTooltip|l]у підтримку [Select_CString(target_winner.IsFemale,'їй', 'йому')] довелося пообіцяти низку поступок."
   castilian_civil_war.411.desc: "$castilian_civil_war.411.desc.common$ На щастя, [target_ruler.GetName] [Select_CString(target_ruler.IsFemale,'проявила', 'проявив')] рідкісну великодушність і не [Select_CString(target_ruler.IsFemale,'наполягала', 'наполягав')] на виконанні умов їхньої угоди."

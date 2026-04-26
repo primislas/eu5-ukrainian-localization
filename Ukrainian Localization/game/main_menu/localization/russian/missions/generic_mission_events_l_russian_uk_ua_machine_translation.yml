@@ -36,7 +36,7 @@
   generic_mission_events.10.a: "Сяй, зірко [target_culture.GetNameWithNoTooltip|l]ої культури!"
   generic_mission_events.10.b: "Ми можемо залучити до себе найвидатніших діячів з їхнього народу."
   generic_mission_events.11.title: "#L [target_culture.GetNameWithNoTooltip]а#! культура проти #L [target_culture2.GetNameWithNoTooltip|l]ої#!"
-  generic_mission_events.11.desc: "Наші країни незабаром об'єднаються на політичному рівні, але культурні розбіжності все ще досить сильні. #L [target_culture.GetNameWithNoTooltip|U]і#! жителі сваряться з #L [target_culture2.GetNameWithNoTooltip|l]ими#! через звичаї, мову і навіть уявні образи.\n\nДеякі наші радники вважають, що для примирення цих людей слід знайти цапа-відбувайла. Інші ж просто вважають, що злиття двох країн — носіїв настільки різних культур вже незвичайне саме по собі."
+  generic_mission_events.11.desc: "Наші країни незабаром об'єднаються на політичному рівні, але культурні розбіжності все ще досить сильні. #L [target_culture.GetNameWithNoTooltip|U]і#! жителі сваряться з #L [target_culture2.GetNameWithNoTooltip|l]ими#! через звичаї, мову і навіть уявні образи.\n\nДеякі наші радники вважають, що для примирення цих людей слід знайти цапа-відбувайла. Інші ж просто вважають, що злиття двох країн — носіїв настільки різних культур вже незвичайне саме собою."
   generic_mission_events.11.a: "Ця ситуація загрожує нам дипломатичними проблемами…"
   generic_mission_events.11.b: "[target_scapegoat_character.GetNameWithNoTooltip] стане цапом-відбувайлом!"
   generic_mission_events.12.title: "Дипломатичні зв'язки з владою [target_overlord.Custom('CL_GEN')]"

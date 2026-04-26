@@ -11,7 +11,7 @@
   military_order_events.2.title_fallback: "Лист зі священного ордену"
   military_order_events.2.desc: "Ми отримуємо вісті з #ONCLICK:COUNTRY,[target_order.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_order.Custom('CL_tt')],X [target_order.Custom('CL_GEN')|L]#!#! про те, що ця країна стає оплотом нашої віри та блискучим втіленням сили #L [ShowReligionAdjective('catholic')|l]ої#! віри. Вони попросили нас допомогти грошима, щоб захистити віруючих."
   military_order_events.2.a: "Погодимося."
-  military_order_events.2.b: "Вони самі по собі…"
+  military_order_events.2.b: "Вони самі собою…"
   military_order_events.3.title: "[GetCountry('PAP').GetGovernment.GetRulerTitle] погоджується на наше прохання"
   military_order_events.3.desc: "[GetCountry('PAP').GetGovernment.GetRulerTitle] відправляє листа нашим радникам. Його Святість вважає, що наша праведна боротьба демонструє гідну захоплення стійкість народу. Він погодився виділити кошти на наші благі починання!"
   military_order_events.3.a: "Возрадуємося!"

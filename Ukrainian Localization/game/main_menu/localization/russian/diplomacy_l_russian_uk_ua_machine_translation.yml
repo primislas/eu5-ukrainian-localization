@@ -388,7 +388,7 @@
   CALL_ALLY: "Закликати #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_ACC')|L]#!#!"
   CB_ON_COUNTRY_ENTRY: "• $CASUS_BELLI$ #Y до#! $DATE|Y$"
   CB_ON_COUNTRY_ENTRY_NO_EXPIRE: "• $CASUS_BELLI$"
-  NO_DECAY_IN_OFF_WAR: "@trigger_no! Наше поточне #Y агресивне розширення#! не зменшується саме по собі — ми агресори у [Concept('war', 'війні')|e]."
+  NO_DECAY_IN_OFF_WAR: "@trigger_no! Наше поточне #Y агресивне розширення#! не зменшується саме собою — ми агресори у [Concept('war', 'війні')|e]."
   CHANGE_DIP_STANCE_TT: "#T Зміна позиції#!\n$WHY$"
   CHANGE_DIP_STANCE: "Зміна позиції на «$NAME|Y$» коштуватиме $COST$ і викликає такі ефекти:\n$EFFECT$"
   DIP_STANCE_FULL_TOOLTIP: "#T $NAME$#!\n$EFFECT$\n\n#F $DESC$#!"
