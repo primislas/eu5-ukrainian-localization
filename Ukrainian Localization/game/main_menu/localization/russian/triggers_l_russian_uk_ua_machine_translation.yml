@@ -1445,7 +1445,7 @@
   any_present_religion_in_country_count: "$PARAMETERS$ з [Concept('religions', 'релігій')|e], присутніх на території #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
   any_present_religion_in_country_percent: "$PARAMETERS$ з [Concept('religions', 'релігій')|e], присутніх на території #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
   estate_type_equal: "Це [Concept('estate', 'Стан')|e] «[TARGET_ESTATE_TYPE.GetName]»"
-  estate_privilege_estate_type_equal: "[Concept('estate_privilege', 'Станова привілегія')|e] належить [Concept('estate', 'стану')|e] «[TARGET_ESTATE_TYPE.GetName]»"
+  estate_privilege_estate_type_equal: "[Concept('estate_privilege', 'Становий привілей')|e] належить [Concept('estate', 'стану')|e] «[TARGET_ESTATE_TYPE.GetName]»"
   any_connected_location: "Будь-яка [Concept('location', 'місцевість')|e] в тій самій [Concept('country', 'країні')|e], пов'язана суходолом або через протоку"
   any_connected_location_all: "Усі [Concept('locations', 'місцевості')|e] в тій самій [Concept('country', 'країні')|e], пов'язані суходолом або через протоку"
   any_connected_location_count: "$PARAMETERS$ з [Concept('location', 'місцевостей')|e] в тій самій [Concept('country', 'країні')|e], пов'язаних суходолом або через протоку"

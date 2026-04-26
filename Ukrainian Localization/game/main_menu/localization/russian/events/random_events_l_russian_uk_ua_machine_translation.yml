@@ -285,7 +285,7 @@
   random_event.68.a: "Треба з цим змиритися."
   random_event.68.a.tt: "Через це наше [Concept('pop', 'населення')|e] в [starting_location.Custom('LR_PREP')|l] [starting_location.GetName] втратить [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [Concept('pop_satisfaction', 'задоволення')|e]."
   random_event.68.b: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')|U] повинні жити на своїй землі."
-  following_happens_because_of_peasants_free_peasantry_tt: "#Y Якщо наші [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] отримають [Concept('estate_privilege', 'станову привілегію')|e] «[ShowEstatePrivilegeName('peasants_free_peasantry')]», це призведе до таких наслідків:#!"
+  following_happens_because_of_peasants_free_peasantry_tt: "#Y Якщо наші [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] отримають [Concept('estate_privilege', 'становий привілей')|e] «[ShowEstatePrivilegeName('peasants_free_peasantry')]», це призведе до таких наслідків:#!"
   random_event.69.title: "Репутація правителя зганьблена!"
   random_event.69.desc: "[ROOT.GetCountry.GetGovernment.GetCourtTitle] обговорює пропагандистський пасквіль, в якому [target_ruler.GetName] виставляється як [Select_CString(target_ruler.IsFemale,'безжальна розпалювачка війн', 'безжальний розпалювач війн')]. Це може зіпсувати нам відносини з підданими та іншими країнами."
   random_event.69.a: "Вжитися в цю роль!"

@@ -14,7 +14,7 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     * "peasants" -> "селяни", але "peasant_estate", "commoners", "common people/folk" -> "простолюд"
     * "country", "держава" -> "країна"
     * "antagonism", "неприязнь" -> "ворожість"
-    * "estate_privilege", "сословная привилегия" -> "становий привілей"
+    * "estate_privilege", "сословная привилегия", "станова привілея" -> "становий привілей"
     * "map", "карта" in a sense of world or an area map -> "мапа"
     * "advance", "улучшение" -> "поступ"
     * "upgrade", "improvement", "улучшение" -> depending on context whichever fits best from "удосконалення", "розвиток", "розбудова", "реформа"
