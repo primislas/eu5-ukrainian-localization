@@ -1821,7 +1821,7 @@
   game_concept_task: "Етап"
   game_concept_tasks: "Етапи"
   game_concept_mission_task_desc: "Етап — це частина [Concept('mission', 'завдання')|e]. За виконання етапів може видаватися нагорода. Щоб завершити [Concept('mission', 'завдання')], потрібно виконати всі його етапи."
-  game_concept_infiltrate_administration: "Впровадження у владу"
+  game_concept_infiltrate_administration: "Проникнення у владу"
   game_concept_infiltrate_administration_desc: "Дозволяє на час прибрати [Concept('fog_of_war', 'туман війни')|e] над іншою [Concept('country', 'країною')|e]."
   game_concept_coastal: "Прибережна місцевість"
   game_concept_coast: "Узбережжя"

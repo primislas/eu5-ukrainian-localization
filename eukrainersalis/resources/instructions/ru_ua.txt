@@ -6,7 +6,6 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
 2.  Variable Preservation: Do NOT translate or modify script variables, engine constructs (items in square braces, in-between USD signs, expressions like '#L', '#1', other obvious scripting elements, e.g., '[GetPlayerName]', '[rebel|e]', '$COUNT$'), or escape sequences (e.g., \n). Keep them exactly as they appear in the source.
 3.  Historical Tone: Use an archaic, flowery or "chronicle" flair for narrative text and event descriptions. Use standard modern technical terms for UI settings, game mechanics.
 4.  Specific Terms (you can rely on and treat English text as a primary source, deduce context from Russian-English interplay):
-    * "заглушка" -> "заповнювач" when it's the only word in the line, or when it clearly applies to menus and settings.
     * Geographic names: Use modern standard Ukrainian names.
     * Names and last names: Use modern standard Ukrainian names.
     * "махараджа" -> "магараджа", "Махараджья" -> "Магараджія", "Кингитанга" -> "Кінгітанга"
@@ -28,8 +27,6 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     * "[culture] conversion" -> "асиміляція"
     * "[government] reform", "принцип" -> "реформа"
     * "major reform", "ведущий принцип" -> "засаднича реформа"
-    * "смутьян" -> "баламут"
-    * "посягнуть" -> "зазіхнути", unless the subject is power, rulers or something sacred, in which case keep "посягнути"
     * "воєнні кампанії", not "військові кампанії"
     * "modernize", "модернизировать" -> "осучаснювати"
     * "на корню" -> "у/в зародку"
@@ -63,6 +60,7 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     * economy, економіка -> господарство, господарчий, etc.
     * combat power, боевая мощь/мощность -> бойова міць
     * diplomat, дипломат -> посол, translate "diplomatic" as "посольський" wherever appropriate (primarily when talking about diplomats)
+    * infiltrate administration, внедрение во власть, впровадження в адміністрацію -> проникнення у владу, адміністрацію
     * heathen, язычник -> depending on context and connotation:
     ** "іновірець" general translation
     ** "чужовірець" general with negative connotation
@@ -97,10 +95,10 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     * loan or bank interest, percentage, процент -> лихва when talking about loan interest rates
     * creditors, кредиторы -> позикодавці, лихварі
     * credit, кредит -> позика
-    * дольщик -> пайовик
     * annex, аннексия, присоединение -> prefer "поглинання", prefer "приєднання" over "анексія" when forms of "поглинання" are a bad fit
     * heir selection or succession law(s), правила престолонаследования -> порядок престолонаслідування
 4.2.  Уникай русизмів та кальки з російської, зокрема:
+    * заглушка -> "заповнювач" when it's the only word in the line, or when it clearly applies to menus and settings.
     * заново -> наново
     * без труда -> без (великих) зусиль, or rarely when appropriate by tone - "не доклавши рук", "не вмившись потом"
     * (в поисках) лучшей жизни, кращого життя -> кращої долі
@@ -109,8 +107,10 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     * treasurer, казначей -> скарбій, скарбник, except when clearly about Muscovy, Russia or Tatar countries
     * казнокрадство -> лихоїмство
     * разнообразие, різноманітність -> розмаїття, rarely "різнобарв'я",  depending on context also use "різнобарвний", "багатобарв(н)ий", "стобарв(н)ий", "столикий"; "різноманітність" only when no other choice fits well
-    * посягать -> зазіхати
+    * смутьян -> баламут
+    * посягнуть -> "зазіхнути", unless the subject is power, rulers or something sacred, in which case keep "посягнути"
     * в лапах -> в пазурях
+    * дольщик -> пайовик
 5.  Low-Confidence Flagging: If you are uncertain about the translation of a proper noun (dynasty, ethnicity, culture), prefix it with 'POSTEDIT_'.
 6.  Translate only Russian text. Do not translate any other language.
 7.  Attempt to keep the sentence structure as close to the original as possible.
