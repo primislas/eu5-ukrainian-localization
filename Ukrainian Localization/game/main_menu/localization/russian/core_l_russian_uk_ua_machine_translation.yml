@@ -265,7 +265,7 @@
   SCOPE_DEBUG_RELIGIOUS_FOCUS: "Релігійна мета «$NAME$» ($ID$)"
   SCOPE_DEBUG_RELIGIOUS_FIGURE: "Релігійний діяч «$NAME$» ($ID$)"
   SCOPE_DEBUG_CLIMATE: "Клімат «$NAME$» ($ID$)"
-  SCOPE_DEBUG_VEGETATION: "Флора «$NAME$» ($ID$)"
+  SCOPE_DEBUG_VEGETATION: "Рослинність «$NAME$» ($ID$)"
   SCOPE_DEBUG_TOPOGRAPHY: "Рельєф «$NAME$» ($ID$)"
   SCOPE_DEBUG_AGE: "Доба «$NAME$» ($ID$)"
   SCOPE_DEBUG_EMPLOYMENT_SYSTEM: "Система найму «$NAME$» ($ID$)"

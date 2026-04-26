@@ -89,7 +89,7 @@
   show_event_target_religious_focus: "Ціль події: [Concept('religious_focus', 'релігійна мета')|e] «[RELIGIOUS_FOCUS.GetName]»"
   show_event_target_trait: "Ціль події: [Concept('trait', 'риса')|e] «[TRAIT.GetName]»"
   show_event_target_climate: "Ціль події: [Concept('climate', 'клімат')|e] «[CLIMATE.GetName]»"
-  show_event_target_vegetation: "Ціль події: [Concept('vegetation', 'флора')|e] «[VEGETATION.GetName]»"
+  show_event_target_vegetation: "Ціль події: [Concept('vegetation', 'рослинність')|e] «[VEGETATION.GetName]»"
   show_event_target_topography: "Ціль події: [Concept('topography', 'рельєф')|e] «[TOPOGRAPHY.GetName]»"
   angry.peasants.test.title: "Мої селяни розгнівані"
   angry.peasants.test.desc: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"

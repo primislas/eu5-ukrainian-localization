@@ -45,7 +45,7 @@
   TERRAIN_BLOCKS_IN_WINTER: "[Concept('armies', 'Війська')|e] не можуть заходити під час звичайної або суворої зими."
   TERRAIN_COLONIAL_MIGRATION: "[Concept('colonial_migration', 'Колоніальна міграція')|E]: $VALUE|+=%$"
   COLO_CLIMATE_IMP: "[Concept('locations', 'Місцевості')|e], в яких [CLIMATE.GetName|l] ($NUM|V$): $VAL|+=%$"
-  COLO_VEGETATION_IMP: "[Concept('locations', 'Місцевості')|e] з флорою «[VEGETATION.GetName]» ($NUM|V$): $VAL|+=%$"
+  COLO_VEGETATION_IMP: "[Concept('locations', 'Місцевості')|e] з рослинністю «[VEGETATION.GetName]» ($NUM|V$): $VAL|+=%$"
   COLO_TOPOGRAPHY_IMP: "[Concept('locations', 'Місцевості')|e] з рельєфом «[TOPOGRAPHY.GetName]» ($NUM|V$): $VAL|+=%$"
   flatland_desc: "Рівнина не має особливих перепадів рельєфу, тому ніщо не перешкоджає руху [Concept('army', 'війська')|e] або будівництву [Concept('building', 'споруд')|e]."
   mountains_desc: "Гори тут мають велику висоту, їх круті схили та нестача рівних ділянок перешкоджають руху [Concept('armies', 'військ')|e], ускладнюють бої та розвиток."

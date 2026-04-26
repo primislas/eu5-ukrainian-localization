@@ -610,7 +610,7 @@
   STATIC_MODIFIER_NAME_location_size_impact: "[Concept('location_size', 'Розмір місцевості')|e]"
   STATIC_MODIFIER_NAME_location_closeness_to_equator_impact: "Близькість до екватора"
   STATIC_MODIFIER_NAME_movement_cost: "Вартість пересування"
-  STATIC_MODIFIER_DESC_movement_cost: "#TOOLTIP:STATIC_MODIFIER,movement_cost,X #V #L Вартість пересування#!#! у [Concept('location', 'місцевості')|e]. Залежить в основному від [Concept('topography', 'рельєфу')|e] та [Concept('vegetation', 'флори')|e]."
+  STATIC_MODIFIER_DESC_movement_cost: "#TOOLTIP:STATIC_MODIFIER,movement_cost,X #V #L Вартість пересування#!#! у [Concept('location', 'місцевості')|e]. Залежить в основному від [Concept('topography', 'рельєфу')|e] та [Concept('vegetation', 'рослинності')|e]."
   STATIC_MODIFIER_NAME_nobles_estate_less_tax_burden: "Податкові послаблення для знаті"
   STATIC_MODIFIER_NAME_dhimmi_estate_less_tax_burden: "Податкові послаблення для зиммі"
   STATIC_MODIFIER_NAME_clergy_estate_less_tax_burden: "Податкові послаблення для духовенства"
