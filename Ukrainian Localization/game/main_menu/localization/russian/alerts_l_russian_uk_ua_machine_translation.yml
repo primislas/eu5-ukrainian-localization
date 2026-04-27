@@ -13,7 +13,7 @@
   ALERT_TRIGGER_YES: "@trigger_yes!"
   ALERT_TRIGGER_NO: "@trigger_no!"
   ALERT_WAR_EXHAUSTION_TITLE: "Висока втома від війни"
-  ALERT_WAR_EXHAUSTION: "Наша [Concept('war_exhaustion', 'втома від війни')|e] становить $VAL|2R$ од., що сильно вплине на нашу здатність [Concept('wars', 'воювати')|e]. Якщо ця втома досягне [COUNTRY.GetModifierValue('max_war_exhaustion')] од., ми втратимо весь накопичений [Concept('war_score', 'військовий рахунок')|e] і будемо змушені капітулювати."
+  ALERT_WAR_EXHAUSTION: "Наша [Concept('war_exhaustion', 'втома від війни')|e] становить $VAL|2R$ од., що сильно вплине на нашу здатність [Concept('wars', 'воювати')|e]. Якщо ця втома досягне [COUNTRY.GetModifierValue('max_war_exhaustion')] од., ми втратимо весь накопичений [Concept('war_score', 'воєнний рахунок')|e] і будемо змушені капітулювати."
   ALERT_DOOM_TITLE: "Висока приреченість"
   ALERT_DOOM: "Наша [Concept('doom', 'приреченість')|e] становить $VAL|2R$. Якщо вона досягне 100 од., наслідки для країни та правлячої родини будуть катастрофічними."
   ALERT_HAS_DOOM_TITLE: "Приреченість"

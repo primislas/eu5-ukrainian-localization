@@ -42,7 +42,7 @@
   GOOD_SORT_BY_PRICE: "Сортувати за ціною товару"
   PEACE_TREATY_SORT_BY_NAME: "Сортувати за назвою [Concept('peace_treaty', 'мирного договору')|e]"
   PEACE_TREATY_SORT_BY_ANTAGONISM: "Сортувати за [Concept('antagonism', 'ворожістю')|e]"
-  PEACE_TREATY_SORT_BY_WAR_SCORE: "Сортувати за [Concept('war_score', 'військовим рахунком')|e]"
+  PEACE_TREATY_SORT_BY_WAR_SCORE: "Сортувати за [Concept('war_score', 'воєнним рахунком')|e]"
   PEACE_TREATY_SORT_BY_REWARDED_COUNTRY: "Сортувати за назвою нагородженої [Concept('country', 'країни')|e]"
   COUNTRY_SORT_BY_NAME: "Сортувати за назвою [Concept('country', 'країни')|e]"
   COUNTRY_SORT_BY_OPINION: "Сортувати за їхньою [Concept('opinion', 'думкою')|e] про нас"
