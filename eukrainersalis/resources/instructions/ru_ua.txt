@@ -65,6 +65,7 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     * vegetation, флора -> рослинність
     * war score, военный счёт -> воєнний рахунок
     * estate enrichment, богатство стана -> збагачення стану
+    * (mysticism vs) jurisprudence, правовая система -> (містицизм та) ісламське право; in this context "легализм" -> "правництво"
     * heathen, язычник -> depending on context and connotation:
     ** "іновірець" general translation
     ** "чужовірець" general with negative connotation
