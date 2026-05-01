@@ -265,7 +265,7 @@
   withdraw_from_organization_treasury_desc: "Візьміть кошти зі [Concept('treasury', 'скарбниці')|E] [Concept('international_organization', 'міжнародного об’єднання')|E] для потреб нашої країни."
   withdraw_from_organization_treasury_select_gold_amount: "Оберіть, скільки [Concept('gold', 'дукатів')|e] бажаєте взяти:"
   overrule_imperial_diet: "Скасувати рішення райхстагу"
-  overrule_imperial_diet_desc: "Імперський райхстаг має значну політичну вагу, але [GetUniqueInternationalOrganization('hre').GetLeaderTitle|l] володіє привілеєм скасувати рішення райхстагу, щоб змінити правило."
+  overrule_imperial_diet_desc: "Імперський райхстаг має значну політичну вагу, але [GetUniqueInternationalOrganization('hre').GetLeaderTitle|l] володіє привілеєм скасувати рішення райхстагу, щоб змінити закон."
   overrule_imperial_diet_at: "Резолюція «[ShowResolutionName('policy_vote')]» успішно завершується, припиняючи будь-які дебати в [Concept('parliament', 'Райхстагу')|e] об'єднання «[SCOPE.sInternationalOrganization('recipient').GetName]»"
   overrule_imperial_diet_ct: "Кожен учасник об'єднання «[SCOPE.sInternationalOrganization('recipient').GetName]» втратить [ShowBiasValue('opinion_overruled_imperial_diet')|+=0] од. думки [SCOPE.sCountry('actor').Custom('predlog_obo')] #ONCLICK:COUNTRY,[SCOPE.sCountry('actor').Custom('CL_tt')] #TOOLTIP:COUNTRY,[SCOPE.sCountry('actor').Custom('CL_tt')],X [SCOPE.sCountry('actor').Custom('CL_PREP')|L]#!#!"
   hire_cabinet_character_from_member: "Запрошення радника"

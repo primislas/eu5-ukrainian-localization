@@ -124,7 +124,7 @@
   union_of_crowns_succession_desc: "Цей порядок [Concept('heir_selection', 'престолонаслідування')|e] характерний для #TOOLTIP:GOVTYPE,monarchy,X #L монархії#!#!, яка уклала особливу угоду з іншою країною. У разі смерті одного з правителів будь-якої з країн і за відсутності законного [Concept('heir', 'спадкоємця')|e] чоловічої статі трон померлого перейде до іншого правителя."
   union_of_crowns_succession_tt: "Укласти [Concept('union', 'унію')|e], якщо наш наступник не є спадкоємцем чоловічої статі попереднього правителя"
   austrian_cognatic_primogeniture: "Династична когнатична примогенітура"
-  austrian_cognatic_primogeniture_desc: "$cognatic_primogeniture_desc$ Цей порядок успадкування стає доступним після введення реформи [ShowGovernmentReformName('libertas_affectandi')]. На додаток до правил когнатичної примогенітури правляча династія має переважне право щодо прямої чоловічої лінії."
+  austrian_cognatic_primogeniture_desc: "$cognatic_primogeniture_desc$ Цей порядок успадкування стає доступним після введення реформи [ShowGovernmentReformName('libertas_affectandi')]. На додаток до законів когнатичної примогенітури правляча династія має переважне право щодо прямої чоловічої лінії."
   matrilineal_salic_law: "Матрилінійний салічний закон"
   matrilineal_salic_law_desc: "$semi_salic_law_desc$ Дітям жінок, що входять до правлячої династії, віддається більша перевага, ніж дітям з інших сімей."
   favorite_son_elective_succession: "Успадкування улюбленим сином"

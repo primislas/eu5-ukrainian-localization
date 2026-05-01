@@ -503,7 +503,7 @@
   BUILDING_TYPE_NOT_ADVANCE: "@trigger_no! Щоб побудувати споруду «[BUILDING_TYPE.GetName]», потрібно дослідити [Concept('advance', 'поступи')|e]: $ADVANCE_LIST$"
   ROAD_TYPE_NOT_ADVANCE: "@trigger_no! [ROAD_TYPE.GetName] — щоб її прокласти, потрібно дослідити [Concept('advance', 'поступи')|e]: $ADVANCE_LIST$"
   EMPLOYMENT_SYSTEM_NOT_ADVANCE: "@trigger_no! Щоб створити систему найму «[EMPLOYMENT_SYSTEM.GetName]», потрібно дослідити [Concept('advance', 'поступи')|e]: $ADVANCE_LIST$"
-  LAW_NOT_ADVANCE: "@trigger_no! Щоб запровадити правило «[LAW.GetName]», потрібно дослідити [Concept('advance', 'поступи')|e]: $ADVANCE_LIST$"
+  LAW_NOT_ADVANCE: "@trigger_no! Щоб запровадити закон «[LAW.GetName]», потрібно дослідити [Concept('advance', 'поступи')|e]: $ADVANCE_LIST$"
   POLICY_NOT_ADVANCE: "@trigger_no! Щоб обрати політику «[POLICY.GetName]», потрібно дослідити [Concept('advance', 'поступи')|e]: $ADVANCE_LIST$"
   DIPLOMACY_NOT_ADVANCE: "@trigger_no! Щоб виконати дію «$ACTION$», потрібно дослідити [Concept('advance', 'поступи')|e] «[ADVANCE_DEFINITION.GetName]»."
   COUNTRY_INTERACTION_NOT_ADVANCE: "@trigger_no! Для взаємодії «[COUNTRY_INTERACTION.GetName]» потрібно дослідити поступи: $ADVANCE_LIST$"

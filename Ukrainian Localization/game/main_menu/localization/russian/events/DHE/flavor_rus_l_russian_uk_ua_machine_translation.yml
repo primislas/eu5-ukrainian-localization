@@ -152,7 +152,7 @@
   flavor_rus.22.desc: "Стало абсолютно очевидно, що управління #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_INST')|L]#!#! вимагає іншого, сучасного підходу. Час позбутися застарілих звичаїв та марних методів. Якщо [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] матиме потужну законодавчу владу, а [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'її', 'його')] укази негайно виконуватимуться єдиною установою, то жодне хабарництво та жодні скарги не зможуть перешкодити перетворенням у країні."
   flavor_rus.22.a: "Це стане новою віхою в історії країни."
   enable_russian_absolutism_reform: "Відкриває [Concept('government_reform', 'державну реформу')|e] #TOOLTIP:GOVERNMENT_REFORM,russian_absolutism,X #L «Самовладдя»#!#!"
-  flavor_rus.22.tt1: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] у люті від зневаги їхніми правилами та привілеями"
+  flavor_rus.22.tt1: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] у люті від зневаги їхніми правами та привілеями"
   flavor_rus.22.b: "Старі порядки були кращі!"
   flavor_rus.22.historical_info: "Застарілі середньовічні методи державного управління Пьотр I замінив дієвою автократією: так, у 1711 році він скасував Боярську думу та заснував замість неї Сенат — вищий орган державної влади, що відповідав за управління країною, надходження коштів до казни та складання законів. У Сенаті було встановлено сувору військову дисципліну: за засіданнями наглядали штаб-офіцери гвардії."
   flavor_rus.23.title: "Урядовий нагляд"

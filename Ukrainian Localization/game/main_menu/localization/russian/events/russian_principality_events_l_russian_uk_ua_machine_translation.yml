@@ -20,7 +20,7 @@
   russian_principality_events.7.title: "Юріїв день"
   russian_principality_events.7.desc: "За звичаєм в Юріїв день селяни можуть переїжджати з однієї області в іншу відповідно до встановлених правил. Це дає їм певну свободу переміщення і дозволяє зберегти врожай.\nОднак останнім часом багато землевласників скаржаться, що селяни зловживають цим привілеєм і все частіше вирушають на пошуки кращої долі. Сьогодні землевласники попросили у вас аудієнції. Вони благають позбавити селян цього права і стверджують, що в протилежному випадку не зможуть нести військову службу."
   russian_principality_events.7.a: "Обмежимо пересування селян."
-  russian_principality_events.7.b: "Ми не станемо змінювати наші правила."
+  russian_principality_events.7.b: "Ми не станемо змінювати наші закони."
   russian_principality_events.8.title: "Смерть правителя удільного князівства"
   russian_principality_events.8.desc: "Правитель #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! помер і [ROOT.GetCountry.GetGovernment.GetRuler.GetName] оплакує кончину свого брата. Як [ROOT.GetCountry.GetGovernment.GetRulerTitle|l], ви повинні перерозподілити удільні землі покійного. Ваші живі брати розраховують отримати свою частку, але ви могли б скористатися ситуацією і забрати ці землі собі…"
   russian_principality_events.8.a: "Конфіскуємо землі на свою користь."

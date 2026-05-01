@@ -2,7 +2,7 @@
   flavor_vij.1.title: "Управління країною"
   flavor_vij.1.desc: "[ROOT.GetCountry.GetGovernment.GetRuler.GetName] уміло править нашим народом. Під [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'її', 'його' )] мудрим керівництвом ми приєднали до себе південців #TOOLTIP:SUB_CONTINENT,india,X #L Індії#!#! — [ShowCultureName('telugu')|l] та #TOOLTIP:CULTURE,$tamil_tt$,X #L тамілів#!#!, і тепер ці народи з їхніми дивовижними мовами підкоряються нам. Втім, вони поки що не влилися повноцінно до складу нашого суспільства. Щоб у [ROOT.GetCountry.Custom('rank_ru_PREP')|l] не було хвилювань, слід допомогти їм це зробити. Для початку можна дозволити їм молитися власними мовами, нехай навіть при дворі заведено користуватися #TOOLTIP:CULTURE,$kannadiga_tt$,X #L каннадською#!#!."
   flavor_vij.1.a: "Дарувати їм права."
-  unlock_vij_language_rights.tt: "Відкриває правило «[ShowLawName('language_of_pleading')]» незалежно від нашої [Concept('court_language', 'придворної мови')|e] та політику «[ShowPolicyName('multi_lingual_court')]»"
+  unlock_vij_language_rights.tt: "Відкриває закон «[ShowLawName('language_of_pleading')]» незалежно від нашої [Concept('court_language', 'придворної мови')|e] та політику «[ShowPolicyName('multi_lingual_court')]»"
   flavor_vij.1.b: "Не давати їм нічого!"
   flavor_vij.2.title: "Канака Даса"
   flavor_vij.2.desc: "Представники руху харідаса з півдня #TOOLTIP:SUB_CONTINENT,india,X #L Індії#!#! щедро обсипали нас подарунками — музичними творами та філософськими працями. Сьогодні ж у всіх на слуху ім'я людини, здатної на століття вперед визначити розвиток культури в нашій країні. Його слід підтримати (зокрема грошима), щоб він зміг досягти всього, на що здатен."

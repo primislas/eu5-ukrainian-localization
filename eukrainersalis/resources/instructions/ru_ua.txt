@@ -19,7 +19,7 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     * "map", "карта" in a sense of world or an area map -> "мапа"
     * "advance", "улучшение" -> "поступ"
     * "upgrade", "improvement", "улучшение" -> depending on context whichever fits best from "удосконалення", "розвиток", "розбудова", "реформа"
-    * "law", "правило" -> "закон", when talking about laws
+    * "law", "правило" -> "закон", when talking about laws; be attentive, Russian localization erroneously translated "laws" as "правила", but sometimes "правила" ("rules" and similar) is also appropriate, depending on context
     * "policy" -> "політика"
     * "location", "район" -> "місцевість"
     * "army", "армия" -> "військо", but feel free to use "армія" to avoid repetition, and when thematically appropriate, for example for later 18-19th century armies, Grande Armee, and such.

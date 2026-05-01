@@ -3896,7 +3896,7 @@
   MODIFIER_TYPE_NAME_lordship_of_ireland_form_kingdom_cost_modifier: "Вартість проголошення королівства манором Ірландія"
   MODIFIER_TYPE_DESC_lordship_of_ireland_form_kingdom_cost_modifier: "Впливає на те, скільки [Concept('costs', 'коштує')|e] #TOOLTIP:GENERIC_ACTION,lordship_of_ireland_form_kingdom,X #L проголошення королівства#!#! в #TOOLTIP:INTERNATIONAL_ORGANIZATION,$lordship_of_ireland_tt$,X #L манорі Ірландія#!#!."
   MODIFIER_TYPE_NAME_forbid_multiple_policies_vote: "Заборонено голосувати за кілька політик одразу"
-  MODIFIER_TYPE_DESC_forbid_multiple_policies_vote: "[Concept('international_organization', 'Міжнародне об’єднання')|e] зможе #TOOLTIP:RESOLUTION,policy_vote,X #L обговорювати правила#!#! лише розглядуваних та чинних [Concept('policies', 'політик')|e]."
+  MODIFIER_TYPE_DESC_forbid_multiple_policies_vote: "[Concept('international_organization', 'Міжнародне об’єднання')|e] зможе #TOOLTIP:RESOLUTION,policy_vote,X #L обговорювати закони#!#! лише розглядуваних та чинних [Concept('policies', 'політик')|e]."
   MODIFIER_TYPE_NAME_change_government_type_price_cost_modifier: "Модифікатор витрат на зміну форми правління"
   MODIFIER_TYPE_DESC_change_government_type_price_cost_modifier: "Впливає на [Concept('costs', 'вартість')|e] [Concept('actions', 'дій')|e] при зміні [Concept('government_type', 'форми правління')|e] на панелі створення нової країни."
   MODIFIER_TYPE_NAME_union_allowed_enforce_peace: "Дозволено примус до миру в межах унії"
