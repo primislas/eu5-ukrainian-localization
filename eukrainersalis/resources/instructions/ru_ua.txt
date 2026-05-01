@@ -112,6 +112,7 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     ** parliament seat, место в парламенте - осідок зборів
     ** house of parliament, здание парламента - палац зборів
     ** рейхстаг - райхстаг
+    * governor, губернатор - намісник, except when clearly talking about English, German or Scandinavian governors, or "генерал-губернатор(ство)"
 4.2.  Уникай русизмів та кальки з російської, зокрема:
     * заглушка -> "заповнювач" when it's the only word in the line, or when it clearly applies to menus and settings.
     * заново -> наново

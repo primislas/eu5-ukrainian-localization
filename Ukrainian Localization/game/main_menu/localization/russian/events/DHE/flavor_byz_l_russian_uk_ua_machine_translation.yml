@@ -194,7 +194,7 @@
   flavor_byz.44.a: "Треба запросити цього майстра до двору та надати йому покровительство."
   flavor_byz.44.b: "У нас і без того достатньо художників."
   flavor_byz.45.title: "Реформа системи проній"
-  flavor_byz.45.desc: "#TOOLTIP:POLICY,pronoia_system,X #L Система проній#!#! довгий час служила нам вірою і правдою, але наразі адміністративні посади фактично перетворилися на феодальні володіння. [ROOT.GetCountry.GetGovernment.GetRulerTitle|U] більше не призначає губернаторів — їхні пости давно передаються у спадок. [target_character.GetName] рішуче [Select_CString(target_character.IsFemale,'налаштована', 'налаштований')] реформувати цю порочну систему і повернути собі повноправний контроль над #L [ROOT.GetCountry.GetAdjective|l]ими#! провінціями."
+  flavor_byz.45.desc: "#TOOLTIP:POLICY,pronoia_system,X #L Система проній#!#! довгий час служила нам вірою і правдою, але наразі адміністративні посади фактично перетворилися на феодальні володіння. [ROOT.GetCountry.GetGovernment.GetRulerTitle|U] більше не призначає намісників — їхні пости давно передаються у спадок. [target_character.GetName] рішуче [Select_CString(target_character.IsFemale,'налаштована', 'налаштований')] реформувати цю порочну систему і повернути собі повноправний контроль над #L [ROOT.GetCountry.GetAdjective|l]ими#! провінціями."
   flavor_byz.45.a: "Час позбутися старої системи."
   flavor_byz.45.b: "Система не позбавлена недоліків, але її реформа ні до чого доброго не призведе."
   flavor_byz.46.title: "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] пропонує допомогу у військових питаннях"
