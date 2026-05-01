@@ -103,6 +103,15 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     * credit, кредит -> позика
     * annex, аннексия, присоединение -> prefer "поглинання", prefer "приєднання" over "анексія" when forms of "поглинання" are a bad fit
     * heir selection or succession law(s), правила престолонаследования -> порядок престолонаслідування
+    * parliament, парламент - збори, except when clearly talking about Western, Central or Northern European nations where "парламент" is appropriate
+    ** збори скликаються, радяться, обговорюють питання, засідають, тощо, use the most appropriate forms freely
+    ** parliament issue, парламентский вопрос - питання, but depending on context you can elaborate it as "питання зборів", "питання для зборів", "ухвала", "рішення", etc.; питання розглядаються, подаються (на розгляд) зборам, схвалюються, тощо, adapt to context to sound as natural as possible;
+    ** parliament agenda, парламентское требование - вимога; depending on context you can enhance it, for example, "вимога на зборах", "вимога стану", "порядок денний", whatever fits best
+    ** parliament_support, парламентская поддержка - підтримка зборів
+    ** parliament type, тип парламента - вид зборів
+    ** parliament seat, место в парламенте - осідок зборів
+    ** house of parliament, здание парламента - палац зборів
+    ** рейхстаг - райхстаг
 4.2.  Уникай русизмів та кальки з російської, зокрема:
     * заглушка -> "заповнювач" when it's the only word in the line, or when it clearly applies to menus and settings.
     * заново -> наново

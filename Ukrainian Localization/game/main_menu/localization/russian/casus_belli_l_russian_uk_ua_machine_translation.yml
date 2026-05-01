@@ -1,7 +1,7 @@
 ﻿l_russian:
   cb_conquer_province: "Претензії на провінцію"
   cb_conquer_province_PROV: "Претензії на провінцію [PROVINCE.GetName]"
-  cb_parliament_conquer_province: "Парламент підтримав претензії на провінцію"
+  cb_parliament_conquer_province: "Збори підтримали претензії на провінцію"
   cb_parliament_conquer_province_PROV: "Схвалені претензії на провінцію [PROVINCE.GetName]"
   cb_fabricated_conquer_province: "Сумнівні претензії на провінцію"
   cb_fabricated_conquer_province_desc: "Землі, що перебувають під юрисдикцією сусідніх країн, по праву повинні належати нам. Наша претензія серйозна і законна!"
@@ -9,7 +9,7 @@
   cb_crusade: "Хрестовий похід"
   cb_jihad: "Джихад"
   cb_jihad_PROV: "$cb_jihad$ проти провінції [PROVINCE.GetName]"
-  cb_deus_vult: "Релігійна війна"
+  cb_deus_vult: "Війна за віру"
   cb_deus_vult_PROV: "$cb_deus_vult$ проти провінції [PROVINCE.GetName]"
   cb_subject_broke_free: "Васал, що звільнився"
   cb_insulted_us: "Нанесена образа"
