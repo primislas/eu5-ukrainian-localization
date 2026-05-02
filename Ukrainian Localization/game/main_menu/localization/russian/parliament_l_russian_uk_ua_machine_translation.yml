@@ -511,7 +511,7 @@
   pa_lessen_levy_obligations_for_peasants: "$lessen_levy_obligations$"
   pa_lessen_levy_obligations_for_peasants_simple: "$lessen_levy_obligations_simple$"
   pa_lessen_levy_obligations_for_peasants_desc: "$lessen_levy_obligations_desc$"
-  pa_resist_institution_desc: "Це [Concept('estate', 'становище')|e] бажає, аби ми виступили проти поширення"
+  pa_resist_institution_desc: "Цей [Concept('estate', 'стан')|e] бажає, аби ми виступили проти поширення"
   pa_rest_institution_end_desc: "в нашій країні."
   pa_resist_feudalism: "Опір феодалізму"
   pa_resist_feudalism_desc: "$pa_resist_institution_desc$ феодалізму $pa_rest_institution_end_desc$"
