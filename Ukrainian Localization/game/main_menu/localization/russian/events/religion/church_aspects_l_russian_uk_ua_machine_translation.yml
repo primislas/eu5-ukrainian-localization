@@ -27,7 +27,7 @@
   church_aspects.7.a: "Місту не завадить новий університет."
   church_aspects.7.b: "[ROOT.GetCountry.GetReligion.GetGodName] зрадіє, дивлячись на новий кафедральний собор."
   church_aspects.8.title: "Жебручі проповідники"
-  church_aspects.8.desc: "Відтоді, як наші [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] почали масово практикувати #TOOLTIP:RELIGIOUS_ASPECT,clerical_poverty,X #L жебруче духовенство#!#!, нашим проповідникам стало простіше доносити своє слово до простого народу в наших землях. Життя в злиднях зробило наших священників ближчими до народу, і піддані охочіше їх слухають."
+  church_aspects.8.desc: "Відтоді, як наші [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] почали масово практикувати #TOOLTIP:RELIGIOUS_ASPECT,clerical_poverty,X #L жебруче духовенство#!#!, нашим проповідникам стало простіше доносити своє слово до простого люду в наших землях. Життя в злиднях зробило наших священників ближчими до народу, і піддані охочіше їх слухають."
   church_aspects.8.a: "Ми всі рівні перед Богом."
   church_aspects.8.b: "Похвалимо проповідників за їхні старання."
   church_aspects.9.title: "Рівне покарання"
