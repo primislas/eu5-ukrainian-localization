@@ -742,7 +742,7 @@
   STATIC_MODIFIER_NAME_golden_age_florence_balanced_modifier: "Різнобічна увага"
   STATIC_MODIFIER_NAME_hussite_heresy_modifier: "Гуситська єресь"
   STATIC_MODIFIER_DESC_hussite_heresy_modifier: "#TOOLTIP:RELIGION,$hussite_tt$,X #L Гуситство#!#! поширюється все ширше. Послідовники цього руху закликають до реформи #TOOLTIP:RELIGION,$catholic_tt$,X #L католицької#!#! церкви."
-  STATIC_MODIFIER_NAME_expanded_mines_modifier: "Розширені шахти"
+  STATIC_MODIFIER_NAME_expanded_mines_modifier: "Розширені копальні"
   STATIC_MODIFIER_NAME_good_omen_modifier: "Добрі знамення"
   STATIC_MODIFIER_DESC_good_omen_modifier: "Час оновлення, сприятлива погода та велика кількість їжі — все це добрі знаки, послані богами."
   STATIC_MODIFIER_NAME_coins_in_our_name_modifier: "Наші монети"

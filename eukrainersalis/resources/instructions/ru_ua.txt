@@ -16,7 +16,7 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     * "antagonism", "неприязнь" -> "ворожість"
     * "estate_privilege", "сословная привилегия", "станова привілея" -> "становий привілей"
     * self_control, самоконтроль -> стриманість
-    * "map", "карта" in a sense of world or an area map -> "мапа"
+    * "map", "карта" in the sense of a world or area map -> "мапа"
     * "advance", "улучшение" -> "поступ"
     * "upgrade", "improvement", "улучшение" -> depending on context whichever fits best from "удосконалення", "розвиток", "розбудова", "реформа"
     * "law", "правило" -> "закон", when talking about laws; be attentive, Russian localization erroneously translated "laws" as "правила", but sometimes "правила" ("rules" and similar) is also appropriate, depending on context
@@ -114,6 +114,13 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     ** рейхстаг - райхстаг
     * governor, губернатор - намісник, except when clearly talking about English, German or Scandinavian governors, or "генерал-губернатор(ство)"
     * commoners, common people, простой народ - простий люд or простолюд (prefer the latter when clearly talking about an estate)
+    * mine, шахта - копальня
+    ** never use "шахта" чи "шахтар"
+    ** "рудник" is a preferable alternative, when clearly talking about metal and ore mining, or deposits, e.g. "ці рудники вельми багаті золотом"
+    ** "рудня" is an acceptable informal alternative, when clearly talking about metals and ores, especially when talking about extraction in general (e.g. "ці рудні - головне джерело срібла"), also could be used to avoid tautologies
+    ** prefer "штольня" whenever appropriate (especially when clearly talking about tunnels from technical perspective)
+    * miner, шахтер, старатель - "гірник", "рудокоп" if clearly talking about metal extraction, never use "шахтар" or "старатель"
+    ** use adjective "гірничий" for mining-related affairs, e.g. "гірничі промисли", "гірничі містечка", "гірничі закони"; but in more informal text feel free to use alternative to avoid tautologies, such as "містечка рудокопів", "закони щодо копалень" тощо
 4.2.  Уникай русизмів та кальки з російської, зокрема:
     * заглушка -> "заповнювач" when it's the only word in the line, or when it clearly applies to menus and settings.
     * заново -> наново

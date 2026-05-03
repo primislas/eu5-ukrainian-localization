@@ -1339,7 +1339,7 @@
   MODIFIER_TYPE_NAME_change_heir_selection_cost_modifier: "Вартість зміни процедури обрання спадкоємця"
   MODIFIER_TYPE_DESC_change_heir_selection_cost_modifier: "Впливає на те, скільки [Concept('costs', 'коштує')|e] зміна [Concept('heir_selection', 'порядку престолонаслідування')|e]."
   MODIFIER_TYPE_NAME_expand_rgo_mining_cost_modifier: "Вартість розширення гірничих робіт"
-  MODIFIER_TYPE_DESC_expand_rgo_mining_cost_modifier: "Впливає на те, скільки [Concept('costs', 'коштує')|e] збільшити кількість [Concept('pops', 'груп населення')|e], що видобувають [Concept('raw_materials', 'ресурси')|e] на рудниках та в шахтах.\n#V Гірничі роботи#! дають такі #V ресурси#!: [GetListOfGoodsUsingMethod('mining')]."
+  MODIFIER_TYPE_DESC_expand_rgo_mining_cost_modifier: "Впливає на те, скільки [Concept('costs', 'коштує')|e] збільшити кількість [Concept('pops', 'груп населення')|e], що видобувають [Concept('raw_materials', 'сировину')|e] на рудниках та в копальнях.\n#V Гірничі роботи#! дають такі #V ресурси#!: [GetListOfGoodsUsingMethod('mining')]."
   MODIFIER_TYPE_NAME_expand_rgo_farming_cost_modifier: "Вартість розширення сільськогосподарських робіт"
   MODIFIER_TYPE_DESC_expand_rgo_farming_cost_modifier: "Впливає на те, скільки [Concept('costs', 'коштує')|e] збільшити кількість [Concept('pops', 'груп населення')|e], що видобувають [Concept('raw_materials', 'ресурси')|e] на фермах.\n#V Сільське господарство#! дає такі #V ресурси#!: [GetListOfGoodsUsingMethod('farming')]."
   MODIFIER_TYPE_NAME_expand_rgo_hunting_cost_modifier: "Вартість розширення місць полювання"
