@@ -2,7 +2,7 @@
   flavor_mei.1.title: "Срібна лихоманка у Фрайберзі"
   flavor_mei.1.desc: "Нещодавно виявлені #TOOLTIP:GOODS,silver,X #L срібні#!#! родовища викликали справжній ажіотаж — натовпи людей линули до #TOOLTIP:LOCATION,freiberg,X #L Фрайберга#!#!, сподіваючись розбагатіти на стрімко зростаючих гірничих промислах в #TOOLTIP:PROVINCE_DEFINITION,erzgebirge_province,X #L Рудних горах#!#!. Цей сплеск інтересу до гірничих міст обіцяє нам чималі вигоди."
   flavor_mei.1.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
-  flavor_mei.1.a.tt: "Кожна [Concept('location', 'місцевість')|e], де видобуваються корисні [Concept('raw_material', 'ресурси')|e], отримує модифікатор «[ShowModifier('freiberger_berggeschrey')]»."
+  flavor_mei.1.a.tt: "Кожна [Concept('location', 'місцевість')|e], де видобувається корисна [Concept('raw_material', 'сировина')|e], отримує модифікатор «[ShowModifier('freiberger_berggeschrey')]»."
   STATIC_MODIFIER_NAME_freiberger_berggeschrey: "Фрайберзька срібна лихоманка"
   flavor_mei.2.title: "[target_character.GetNameWithNoTooltip]"
   flavor_mei.2.desc: "[Select_CString(target_character.IsFemale, 'Талановита драматургиня та поетеса', 'Талановитий драматург та поет')] [target_character.GetName] [Select_CString(target_character.IsFemale, 'обрала', 'обрав')] нашу країну своїм новим прихистком, щоб продовжити творчу діяльність на наших землях. [Select_CString(target_character.IsFemale, 'Вона вже здобула', 'Він вже здобув')] собі славу визнаного літератора, але явно не збирається зупинятися на досягнутому."

@@ -282,7 +282,7 @@
   LOCATION_TOOLTIP: "#T [LOCATION.GetName]#!"
   LOCATION_TOOLTIP_BREAKDOWN: "[Location.GetTooltipBreakdownProperties]"
   LOCATION_TOOLTIP_BREAKDOWN_POPULATION: "[Concept('population', 'Населення')|e]: #subtle_name [Location.GetTotalPopulationWithBreakDown]#!"
-  LOCATION_TOOLTIP_BREAKDOWN_RAW_MATERIAL: "[Concept('raw_material', 'Ресурси')|e]: #subtle_name [Location.GetRawMaterial.GetNameNoUnderline]#! [Location.GetRawMaterial.GetIcon]"
+  LOCATION_TOOLTIP_BREAKDOWN_RAW_MATERIAL: "[Concept('raw_material', 'Сировина')|e]: #subtle_name [Location.GetRawMaterial.GetNameNoUnderline]#! [Location.GetRawMaterial.GetIcon]"
   LOCATION_TOOLTIP_BREAKDOWN_DOMINANT_RELIGION: "[Concept('dominant_religion', 'Домінуюча релігія')|e]: #subtle_name [Location.GetDominantReligion.GetNameNoUnderline] [Location.GetDominantReligion.GetIcon]#!"
   LOCATION_TOOLTIP_BREAKDOWN_DOMINANT_CULTURE: "[Concept('dominant_culture', 'Домінуюча культура')|e]: #L [Location.GetDominantCulture.GetName|l]а#!"
   LOCATION_TOOLTIP_BREAKDOWN_TAX: "[Concept('tax_base', 'Податкова база')|e]: [Location.GetTaxBaseLabel]"

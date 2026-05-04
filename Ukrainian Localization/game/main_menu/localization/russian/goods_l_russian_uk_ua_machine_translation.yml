@@ -1,6 +1,6 @@
 ﻿l_russian:
   DURING_CONSTRUCTION_DEMAND: "\n@market! На ринку #L #TOOLTIP:LOCATIONRANK,[MARKET.GetCenterLocation.Custom('LR_tt')],X [MARKET.GetCenterLocation.Custom('LR_GEN')|l]#!#! [MARKET.GetShortName] у ході [Concept('construction', 'будівництва')|e] потрібен доступ до таких товарів:"
-  raw_material: "Ресурси"
+  raw_material: "Сировина"
   produced: "Вироблені товари"
   food: "Їжа"
   expand_rgo_mining: "Розширення копалень"

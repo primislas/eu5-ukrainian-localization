@@ -121,6 +121,9 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     ** prefer "штольня" whenever appropriate (especially when clearly talking about tunnels from technical perspective)
     * miner, шахтер, старатель - "гірник", "рудокоп" if clearly talking about metal extraction, never use "шахтар" or "старатель"
     ** use adjective "гірничий" for mining-related affairs, e.g. "гірничі промисли", "гірничі містечка", "гірничі закони"; but in more informal text feel free to use alternative to avoid tautologies, such as "містечка рудокопів", "закони щодо копалень" тощо
+    * raw material(s), ресурс(ы) - сировина; сировину видобувають, but depending on context you can use "вирощують", "збирають", "виробляють", etc. if appropriate
+    * food raw materials, ресурсы для производства еды - "харчова сировина", "харчові товари", "продовольство", pick depending on context
+    * ресурсний - сировинний
 4.2.  Уникай русизмів та кальки з російської, зокрема:
     * заглушка -> "заповнювач" when it's the only word in the line, or when it clearly applies to menus and settings.
     * заново -> наново

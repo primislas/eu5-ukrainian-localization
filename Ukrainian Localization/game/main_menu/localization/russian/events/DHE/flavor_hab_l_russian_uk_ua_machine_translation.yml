@@ -530,7 +530,7 @@
   flavor_hab.1202.title: "Новий гірничий статут [ROOT.GetCountry.Custom('CL_GEN')]"
   flavor_hab.1202.desc: "Наша гірнича індустрія процвітає, залучаючи до рудників мальовничих долин все більше і більше людей. Щоб спрямувати їхні зусилля в правильне русло і не втратити контроль над ситуацією, нам слід удосконалити закони: у нинішньому вигляді #TOOLTIP:POLICY,german_mining_law,X #L Гірничий статут#!#! містить занадто багато двозначностей і невизначеностей. На щастя, у нас при дворі є такі люди, як [target_character.GetName], який вже продемонстрував видатні адміністративні здібності в місті #TOOLTIP:LOCATION,schladming,X #L Шладмінг#!#!. Він цілком міг би впоратися з контролем над рудниками."
   flavor_hab.1202.a: "Негайно послати за ним!"
-  flavor_hab.1202.a.tt: "Кожна [Concept('location', 'місцевість')|e], де видобуваються корисні [Concept('raw_material', 'ресурси')|e], отримує модифікатор «[ShowModifier('schladming_bergordnung')]»."
+  flavor_hab.1202.a.tt: "Кожна [Concept('location', 'місцевість')|e], де видобувається корисна [Concept('raw_material', 'сировина')|e], отримує модифікатор «[ShowModifier('schladming_bergordnung')]»."
   STATIC_MODIFIER_NAME_schladming_bergordnung: "Шладмінгський гірничий статут"
   flavor_hab.1202.b: "Обійдемося без його допомоги."
   flavor_hab.1300.title: "[target_ruler.GetNameWithNoTooltip] — діяч доби Відродження"

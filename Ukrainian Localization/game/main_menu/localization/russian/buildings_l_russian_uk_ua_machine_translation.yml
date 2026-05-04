@@ -17,7 +17,7 @@
   naval_category: "Морські військові споруди"
   naval_category_desc: "Ці споруди призначені для будівництва кораблів та підвищення [Concept('natural_harbor_suitability', 'придатності гавані')|e]."
   rgo_building_category: "Виробництво ресурсів"
-  rgo_building_category_desc: "За допомогою цих [Concept('buildings', 'споруд')|e] ми можемо видобувати різні [Concept('raw_materials', 'ресурси')|e]."
+  rgo_building_category_desc: "За допомогою цих [Concept('buildings', 'споруд')|e] ми можемо видобувати різну [Concept('raw_materials', 'сировину')|e]."
   trade_company_building: "Споруда торговельної компанії"
   satellite_trade_building: "Торговельна споруда залежної країни"
   free_village: "Вільне село"
