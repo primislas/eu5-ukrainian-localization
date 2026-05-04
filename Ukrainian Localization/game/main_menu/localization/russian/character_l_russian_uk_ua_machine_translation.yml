@@ -93,7 +93,7 @@
   DEATH_REASON_sudden_illness: "[Select_CString(CHARACTER.IsFemale,'Її', 'Його')] передчасно забрала від нас хвороба."
   DEATH_REASON_food_poisoning: "[CHARACTER.GetHeSheFormal|U] раптово [Select_CString(CHARACTER.IsFemale,'померла', 'помер')] від харчового отруєння."
   DEATH_REASON_hunting_accident: "[CHARACTER.GetHeSheFormal|U] [Select_CString(CHARACTER.IsFemale,'стала', 'став')] жертвою дивного нещасного випадку на полюванні."
-  DEATH_REASON_farming_accident: "[CHARACTER.GetHeSheFormal|U] [Select_CString(CHARACTER.IsFemale,'стала', 'став')] жертвою дивного нещасного випадку на фермі."
+  DEATH_REASON_farming_accident: "[CHARACTER.GetHeSheFormal|U] [Select_CString(CHARACTER.IsFemale,'стала', 'став')] жертвою дивного нещасного випадку в угіддях."
   DEATH_REASON_mining_accident: "[CHARACTER.GetHeSheFormal|U] [Select_CString(CHARACTER.IsFemale,'стала', 'став')] жертвою дивного нещасного випадку в копальні."
   DEATH_REASON_heart_failure: "[CHARACTER.GetHeSheFormal|U] [Select_CString(CHARACTER.IsFemale,'померла', 'помер')] від серцевого нападу."
   DEATH_REASON_fever: "[CHARACTER.GetHeSheFormal|U] [Select_CString(CHARACTER.IsFemale,'померла', 'помер')] від лихоманки."

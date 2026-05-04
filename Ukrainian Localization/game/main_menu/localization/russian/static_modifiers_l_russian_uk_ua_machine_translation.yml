@@ -1541,7 +1541,7 @@
   STATIC_MODIFIER_NAME_horde_show_of_strength: "Демонстрація сили"
   STATIC_MODIFIER_NAME_horde_battle_plans: "Плани битв"
   STATIC_MODIFIER_NAME_increased_incense_production: "Розширення виробництва пахощів"
-  STATIC_MODIFIER_DESC_increased_incense_production: "Ферми цієї [Concept('location', 'місцевості')|e], де вирощуються #TOOLTIP:GOODS,incense,X #L пахощі#!#!, — одні з найприбутковіших у всій #TOOLTIP:REGION,arabia_region,X #L Аравії#!#!."
+  STATIC_MODIFIER_DESC_increased_incense_production: "Ниви цієї [Concept('location', 'місцевості')|e], де вирощуються #TOOLTIP:GOODS,incense,X #L пахощі#!#!, — одні з найприбутковіших у всій #TOOLTIP:REGION,arabia_region,X #L Аравії#!#!."
   STATIC_MODIFIER_NAME_bolstering_hormuz_island: "Допомога населенню Ормуза"
   STATIC_MODIFIER_DESC_bolstering_hormuz_island: "Ми надаємо допомогу цій [Concept('location', 'місцевості')|e] і поступово перетворюємо її на важливий торговий вузол у #TOOLTIP:REGION,persia_region,X #L Персії#!#!."
   STATIC_MODIFIER_NAME_ira_city_builder: "Будівничий міст Персії"

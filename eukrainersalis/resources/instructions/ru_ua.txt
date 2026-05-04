@@ -124,6 +124,9 @@ Task: Translate Russian game localization into Ukrainian. Each key-value is enco
     * raw material(s), ресурс(ы) - сировина; сировину видобувають, but depending on context you can use "вирощують", "збирають", "виробляють", etc. if appropriate
     * food raw materials, ресурсы для производства еды - "харчова сировина", "харчові товари", "продовольство", pick depending on context
     * ресурсний - сировинний
+    * farm, ферма - avoid translating it as "ферма", unless it's clearly about Anglosphere, prefer the following options instead: угіддя - a general translation, нива - when clearly about agriculture, стадниця - when clearly about horses, пасовище - when clearly about animal husbandry, плантації - when clearly fits, etc.
+    * farmer, фермер - avoid translating it as "фермер", unless it's clearly about Anglosphere, prefer the following options instead: селянин - a general translation, землероб - when clearly about agriculture, стадник - when clearly about horses, пастух - when clearly about animal husbandry, плантатор - when clearly about plantations, etc.
+    * farming, фермерство - "сільське господарство" in general, "землеробство" when clearly about agriculture, "тваринництво" when clearly about animal husbandry, "розведення коней" when clearly about horses, "скотарство" when clearly about cows, etc.
 4.2.  Уникай русизмів та кальки з російської, зокрема:
     * заглушка -> "заповнювач" when it's the only word in the line, or when it clearly applies to menus and settings.
     * заново -> наново
