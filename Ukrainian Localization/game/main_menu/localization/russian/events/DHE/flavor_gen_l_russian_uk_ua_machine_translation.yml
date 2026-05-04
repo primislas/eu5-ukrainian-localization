@@ -133,7 +133,7 @@
   flavor_gen.28.a: "Нам це анітрохи не заважає."
   flavor_gen.28.b: "Це наші території!"
   flavor_gen.29.title: "Успіхи банку Святого Георгія"
-  flavor_gen.29.desc: "Останнім часом [target_country.GetLongName] значно збільшил[target_country.Custom('endlong_fem')] свої доходи, завдяки чому економіка [ROOT.GetCountry.Custom('longname_ru_GEN')] почала процвітати."
+  flavor_gen.29.desc: "Останнім часом [target_country.GetLongName] значно збільши[target_country.Custom('endlong_v_la')] свої доходи, завдяки чому економіка [ROOT.GetCountry.Custom('longname_ru_GEN')] почала процвітати."
   flavor_gen.29.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   flavor_gen.30.title: "Фінансові проблеми банку Святого Георгія"
   flavor_gen.30.desc: "Економіка [target_country.Custom('longname_ru_GEN')] страждає, оскільки [ROOT.GetCountry.GetLongName] пережива[ROOT.GetCountry.Custom('endlong_etyut')] важкі часи."

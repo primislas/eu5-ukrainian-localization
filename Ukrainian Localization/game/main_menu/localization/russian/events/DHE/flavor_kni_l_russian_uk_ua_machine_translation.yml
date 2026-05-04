@@ -17,7 +17,7 @@
   flavor_kni.100.b: "Не будемо нічого давати."
   spa_refused_ceding_malta: "Ми відмовилися подарувати Мальту лицарям"
   flavor_kni.7.title: "Переклад хроніки"
-  flavor_kni.7.desc: "#italic Морейська хроніка#! описує, як [ShowScriptedGeographyName('greece_geography')] пережила встановлення #italic франкократії#!, і охоплює події XIII століття після Четвертого хрестового походу. Колись [GetCountry('LAT').GetLongName] пал[GetCountry('LAT').Custom('endlong_fem')] під натиском сусідів зі сходу, проте [GetCountry('BYZ').GetLongName] не зумів[GetCountry('BYZ').Custom('endlong_fem')] підкорити безліч інших країн, зокрема #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_ACC')|L]#!#!. Ми можемо не лише перекласти літопис, а й доповнити його новітньою історією нашої країни."
+  flavor_kni.7.desc: "#italic Морейська хроніка#! описує, як [ShowScriptedGeographyName('greece_geography')] пережила встановлення #italic франкократії#!, і охоплює події XIII століття після Четвертого хрестового походу. Колись [GetCountry('LAT').GetLongName] па[GetCountry('LAT').Custom('endlong_v_la')] під натиском сусідів зі сходу, проте [GetCountry('BYZ').GetLongName] не зумі[GetCountry('BYZ').Custom('endlong_v_la')] підкорити безліч інших країн, зокрема #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_ACC')|L]#!#!. Ми можемо не лише перекласти літопис, а й доповнити його новітньою історією нашої країни."
   flavor_kni.7.a: "Ми перекладемо хроніку."
   flavor_kni.7.b: "Нам це ні до чого."
   flavor_kni.8.title: "Церква Святої Трійці"

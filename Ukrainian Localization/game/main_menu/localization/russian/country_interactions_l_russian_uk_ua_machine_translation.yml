@@ -838,7 +838,7 @@
   INCOMING_OFFER_request_loan: "Країна $ACTOR$ просить нас надати їй позику. Ми згодні?\n\n$INFO$"
   request_loan_act: "Прохання про позику у [SCOPE.sCountry('recipient').Custom('longname_ru_wntt_GEN')]"
   request_loan_effect_text: "[SCOPE.sCountry('recipient').GetLongNameWithNoTooltip] да[SCOPE.sCountry('recipient').Custom('endlong_etyut')] [SCOPE.sCountry('actor').Custom('longname_ru_wntt_DAT')] золото в позику."
-  request_loan_effect_text_past: "[SCOPE.sCountry('recipient').GetLongNameWithNoTooltip] дал[SCOPE.sCountry('recipient').Custom('endlong_fem')] [SCOPE.sCountry('actor').Custom('longname_ru_wntt_DAT')] золото в позику."
+  request_loan_effect_text_past: "[SCOPE.sCountry('recipient').GetLongNameWithNoTooltip] да[SCOPE.sCountry('recipient').Custom('endlong_v_la')] [SCOPE.sCountry('actor').Custom('longname_ru_wntt_DAT')] золото в позику."
   request_loan_reject_effect_text: "$generic_reject_request_effect_string$"
   request_loan_reject_effect_text_past: "$generic_reject_request_effect_string_past$"
   place_interdict: "Накладення інтердикту"
