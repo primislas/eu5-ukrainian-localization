@@ -331,7 +331,7 @@
   PDX_TOOLTIP_SHORTCUT: "[MakeShortcutIcon('$SHORTCUT$')]"
   PDX_TOOLTIP_INPUT_ACTION: "[MakeShortcutIcons('$BOUND_INPUT_1$', '$BOUND_INPUT_2$')]"
   PDX_TOOLTIP_DOUBLE_INPUT_ACTION_FORMAT: "$BOUND_INPUT_1$ / $BOUND_INPUT_2$"
-  LOCATION_SPECIFIC_LOBBY_DESCRIPTION: "[COUNTRY.GetName] також отриму[COUNTRY.Custom('end_etyut')] наступні унікальні споруди та ополчення: $BONUSES$"
+  LOCATION_SPECIFIC_LOBBY_DESCRIPTION: "[COUNTRY.GetName] також отриму[COUNTRY.Custom('end_yeyut')] наступні унікальні споруди та ополчення: $BONUSES$"
   COUNTRY_SUMMARY_SPECIFIC_LOBBY_DESCRIPTION_TT: "Огляд країни"
   COUNTRY_EVENTS_SPECIFIC_LOBBY_DESCRIPTION_TT: "Події країни"
   COUNTRY_SPECIFIC_LOBBY_DESCRIPTION: "Ви, як [COUNTRY.GetName], отримуєте доступ до таких унікальних поступів, законів, реформ та загонів: $BONUSES$"

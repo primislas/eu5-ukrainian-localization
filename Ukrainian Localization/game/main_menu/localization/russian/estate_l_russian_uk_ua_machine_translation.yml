@@ -543,7 +543,7 @@
   great_offices_of_the_crown_of_france: "Вищі коронні чини [GetCountry('FRA').Custom('preposition_uv')] [GetCountry('FRA').Custom('CL_PREP')]"
   great_offices_of_the_crown_of_france_desc: "Це найважливіші пости в центральній адміністрації, доступні лише #TOOLTIP:ESTATE_TYPE,nobles_estate,X #L аристократам#!#! нашої країни."
   fra_marcel_great_ordinance: "Великий ордонанс"
-  fra_marcel_great_ordinance_desc: "Внаслідок зусиль Етьєна Марселя [GetCountry('FRA').GetName] нині існу[GetCountry('FRA').Custom('end_etyut')] за статтями Великого ордонансу. В обмін на розширення власного впливу Генеральні штати надали країні право збирати більше податків."
+  fra_marcel_great_ordinance_desc: "Внаслідок зусиль Етьєна Марселя [GetCountry('FRA').GetName] нині існу[GetCountry('FRA').Custom('end_yeyut')] за статтями Великого ордонансу. В обмін на розширення власного впливу Генеральні штати надали країні право збирати більше податків."
   fra_leadership_of_marcel: "Під керівництвом Етьєна Марселя"
   fra_leadership_of_marcel_desc: "Внаслідок зусиль Етьєна Марселя #TOOLTIP:ESTATE_TYPE,burghers_estate,X #L міщани#!#! стали серйозною силою в Генеральних штатах."
   fra_marcel_compromise_ordinance: "Компромісний Великий ордонанс"

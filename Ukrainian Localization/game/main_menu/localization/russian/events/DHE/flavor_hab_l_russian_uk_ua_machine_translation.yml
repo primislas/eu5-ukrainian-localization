@@ -687,7 +687,7 @@
   flavor_hab.2000.b: "Поточна ситуація нас цілком влаштовує."
   hab_diplomatic_revolution: "Дипломатичне зближення"
   flavor_hab.2001.title: "Перегляд відносин з [GetCountry('HAB').Custom('CL_INST')]"
-  flavor_hab.2001.desc: "[GetCountry('HAB').GetName] пропону[GetCountry('HAB').Custom('end_etyut')] припинити ворожнечу. Це може стати чудовою нагодою для перегляду дипломатичних відносин та початку дружби з [GetCountry('HAB').Custom('CL_INST')]."
+  flavor_hab.2001.desc: "[GetCountry('HAB').GetName] пропону[GetCountry('HAB').Custom('end_yeyut')] припинити ворожнечу. Це може стати чудовою нагодою для перегляду дипломатичних відносин та початку дружби з [GetCountry('HAB').Custom('CL_INST')]."
   flavor_hab.2001.a: "Ми приймемо цю пропозицію."
   flavor_hab.2001.b: "Ні, у нашої ворожнечі є серйозні причини!"
   flavor_hab.2100.title: "[target_ruler.GetNameWithNoTooltip] проводить реформи"

@@ -111,7 +111,7 @@
   turmoil_in_brandenburg.1001.a: "Ми допоможемо їм в обмін на золото."
   turmoil_in_brandenburg.1001.a.tt: "Ми отримаємо [ROOT.GetVariable('bra_gold_tooltip_var').GetValue|+=2] од. [Concept('gold', 'золота')|e] від #ONCLICK:COUNTRY,[bra_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[bra_country.Custom('CL_tt')],X [bra_country.Custom('CL_GEN')|L]#!#! через #Y 1 рік#!"
   turmoil_in_brandenburg.1001.b: "Рука руку миє. Допоможемо їм!"
-  turmoil_in_brandenburg.1001.b.tt: "[bra_country.GetName] проголосу[bra_country.Custom('end_etyut')] за нас через #Y 1 рік#!"
+  turmoil_in_brandenburg.1001.b.tt: "[bra_country.GetName] проголосу[bra_country.Custom('end_yeyut')] за нас через #Y 1 рік#!"
   turmoil_in_brandenburg.1001.c: "Ми допоможемо Віттельсбахам в обмін на політичну підтримку."
   turmoil_in_brandenburg.1001.c.tt: "[Concept('opinion', 'Думка')|e] про нас усіх [Concept('countries', 'країн')|e], де править [Concept('dynasty', 'династія')|e] #TOOLTIP:DYNASTY,$wittelsbach_tt$,X #L Віттельсбахів#!#!, на #Y 1 рік#! зміниться на [ShowBiasValue('opinion_supported_the_wittelsbacher')|+=0]"
   turmoil_in_brandenburg.1001.d: "Ми підтримаємо Віттельсбахів."
