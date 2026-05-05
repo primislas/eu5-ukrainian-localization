@@ -11,6 +11,7 @@ ending_mappings = {
     "'endlong_enna'": "'endlong_clean'",
     "'end_enna'": "'end_clean'",
     "'predlog_sso'": "'preposition_zzi'",
+    "'predlog_kko'": "'REPLACE_WITH_STATIC_до'",
 }
 
 if __name__ == "__main__":
