@@ -57,7 +57,7 @@
   flavor_eng_diplomacy.1001.e: "Дівчинка залишиться у нас."
   flavor_eng_diplomacy.1001.tt: "Договір Медіна-дель-Кампо оголошено недійсним"
   flavor_eng_diplomacy.1100.title: "Договір Медіна-дель-Кампо"
-  flavor_eng_diplomacy.1100.desc: "Ми отримали дипломатичну нагоду забезпечити тривалий мир та отримати потенційного союзника в майбутньому. [overlord.GetName], стомлен[overlord.Custom('end_gegu')] від ворожості з боку #ONCLICK:COUNTRY,[GetCountry('FRA').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('FRA').Custom('CL_tt')],X [GetCountry('FRA').Custom('CL_GEN')|L]#!#!, мо[overlord.Custom('end_gegu')] погодитися підписати договір, що об'єднує наші династії."
+  flavor_eng_diplomacy.1100.desc: "Ми отримали дипломатичну нагоду забезпечити тривалий мир та отримати потенційного союзника в майбутньому. [overlord.GetName], стомлен[overlord.Custom('end_eut')] від ворожості з боку #ONCLICK:COUNTRY,[GetCountry('FRA').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('FRA').Custom('CL_tt')],X [GetCountry('FRA').Custom('CL_GEN')|L]#!#!, мож[overlord.Custom('end_eut')] погодитися підписати договір, що об'єднує наші династії."
   flavor_eng_diplomacy.1100.a: "Запропонуємо договір."
   flavor_eng_diplomacy.1100.b: "Нам це ні до чого."
   flavor_eng_diplomacy.1100.tt1: "Влада [overlord.Custom('CL_GEN')] розгляне запропонований нами Договір Медіна-дель-Кампо"

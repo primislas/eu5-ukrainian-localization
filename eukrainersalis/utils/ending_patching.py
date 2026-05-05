@@ -6,6 +6,8 @@ ending_mappings = {
     "'endlong_fem'": "'endlong_v_la'",
     "'endlong_etut'": "'endlong_eut'",
     "'endlong_etyut'": "'endlong_yeyut'",
+    "'endlong_gegu'": "'endlong_eut'",
+    "'end_gegu'": "'end_eut'",
 }
 
 if __name__ == "__main__":

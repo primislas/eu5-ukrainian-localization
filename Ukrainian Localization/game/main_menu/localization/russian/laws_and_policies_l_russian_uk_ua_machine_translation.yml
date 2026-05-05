@@ -193,7 +193,7 @@
   edict_of_nantes: "Нантський едикт"
   edict_of_nantes_desc: "$edict_of_nantes$ значно розширює права релігійних меншин [GetCountry('FRA').Custom('predlog_vvo')] #ONCLICK:COUNTRY,[GetCountry('FRA').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('FRA').Custom('CL_tt')],X [GetCountry('FRA').Custom('CL_PREP')|L]#!#!, фактично прирівнюючи їх до послідовників #L [ShowReligionAdjective('catholic')|l]ої#! віри. Крім того, цей закон покликаний припинити переслідування гугенотів та покласти край релігійним чварам усередині країни."
   french_colonial_ambition_focus: "Мрії про колонії"
-  french_colonial_ambition_focus_desc: "Буря минула, і [GetCountry('FRA').GetName] нарешті мо[GetCountry('FRA').Custom('end_gegu')]же фінансувати морські експедиції. Двір ефективніше проводитиме колоніальну експансію, дотримуючись нової колоніальної політики."
+  french_colonial_ambition_focus_desc: "Буря минула, і [GetCountry('FRA').GetName] нарешті мож[GetCountry('FRA').Custom('end_eut')] фінансувати морські експедиції. Двір ефективніше проводитиме колоніальну експансію, дотримуючись нової колоніальної політики."
   french_mercantile_colonies: "Поселення Нового Світу"
   french_mercantile_colonies_desc: "Ми й раніше намагалися заснувати колонії в Новому Світі, але щоразу стикалися з серйозними проблемами. Однак тепер країна відновила фінансову підтримку переселенців, тому створювати поселення в Новому Світі буде значно простіше та вигідніше."
   french_far_east_ambitions: "Амбіції на Далекому Сході"
