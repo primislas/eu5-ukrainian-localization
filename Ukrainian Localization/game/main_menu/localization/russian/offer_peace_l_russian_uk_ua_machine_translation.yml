@@ -128,7 +128,7 @@
   peace_expand_clan_influence: "Розширення впливу клану"
   peace_expand_clan_influence_entry: "Розширення впливу нашого клану на #ONCLICK:COUNTRY,[target.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target.Custom('CL_tt')],X [target.Custom('CL_ACC')|L]#!#!"
   peace_expand_clan_influence_entry_short: "Розширення впливу нашого клану на [target.Custom('CL_ACC')]"
-  expand_clan_influence_other.tt: "Ми отримаємо володіння #ONCLICK:COUNTRY,[loser.Custom('CL_tt')] #TOOLTIP:COUNTRY,[loser.Custom('CL_tt')],X [loser.Custom('CL_GEN')|L]#!#! [target.Custom('predlog_vvo')] #ONCLICK:COUNTRY,[target.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target.Custom('CL_tt')],X [target.Custom('CL_PREP')|L]#!#!"
+  expand_clan_influence_other.tt: "Ми отримаємо володіння #ONCLICK:COUNTRY,[loser.Custom('CL_tt')] #TOOLTIP:COUNTRY,[loser.Custom('CL_tt')],X [loser.Custom('CL_GEN')|L]#!#! [target.Custom('preposition_uv')] #ONCLICK:COUNTRY,[target.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target.Custom('CL_tt')],X [target.Custom('CL_PREP')|L]#!#!"
   peace_revoke_clan_autonomy: "Зниження автономії клану"
   peace_revoke_clan_autonomy_entry: "Зниження автономії @[TARGET_COUNTRY.GetFlag]!#ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! та повернення статусу [Concept('extraterritorial_country', 'екстериторіальної країни')|e]"
   peace_revoke_clan_autonomy_entry_short: "Зниження автономії @[TARGET_COUNTRY.GetFlag]! [TARGET_COUNTRY.Custom('CL_GEN')]"

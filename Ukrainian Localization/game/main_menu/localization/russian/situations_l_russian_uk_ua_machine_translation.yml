@@ -682,7 +682,7 @@
   estate_satisfaction_gain_scales_with_estate_power_tt: "Ці ефекти масштабуються залежно від [Concept('estate_power', 'влади')|e] кожного [Concept('estate', 'стану')|e]:"
   spread_revolutionary_sentiment: "Поширення революційних настроїв"
   spread_revolutionary_sentiment_desc: "Боротьба простолюду, якому нічого втрачати, крім власних кайданів, є справою довгою і важкою. Часто ми змушені шукати підтримки за кордоном, переконуючи чужоземні країни прийняти наші ідеали. Шлях цей нелегкий, але ми працюємо в ім'я вищої мети!"
-  revolution_in_selected_country_tt: "[target_country.Custom('predlog_vvo')|U] #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_PREP')|L]#!#! виникне [Concept('rebel', 'бунтівний')|e] революційний рух. Якщо ж такий уже існує, ми зміцнимо його та прискоримо його прогрес"
+  revolution_in_selected_country_tt: "[target_country.Custom('preposition_uv')|U] #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_PREP')|L]#!#! виникне [Concept('rebel', 'бунтівний')|e] революційний рух. Якщо ж такий уже існує, ми зміцнимо його та прискоримо його прогрес"
   revolution_in_country_tt: "В обраній [Concept('country', 'країні')|e] виникне [Concept('rebel', 'бунтівний')|e] революційний рух. Якщо ж такий уже існує, ми зміцнимо його та прискоримо його прогрес"
   LEADER_OF_THE_REVOLUTION_TOOLTIP: "Це [Concept('revolutionary_target', 'ціль-революціонер')|e]"
   WRESTLING_WITH_THE_REVOLUTION_TOOLTIP: "У цій [Concept('country', 'країні')|e] нині відбувається [Concept('disaster', 'лихо')|e] #TOOLTIP:DISASTER_TYPE,revolution_disaster,X #L «Революція»#!#!"

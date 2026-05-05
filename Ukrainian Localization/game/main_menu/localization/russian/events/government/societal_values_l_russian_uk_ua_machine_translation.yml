@@ -998,7 +998,7 @@
   societal_values.2034.a: "Віра непохитна!"
   societal_values.2034.b: "[ROOT.GetCountry.GetReligion.GetGodName] — ось хто дає нам усе, що потрібно!"
   societal_values.2032.t: "Піднесення паломництва"
-  societal_values.2032.desc: "Під впливом віри наші люди цілком присвятили себе паломництву. Вони не задовольняються простим відвідуванням наших великих місць поклоніння, а віддають перевагу далекій подорожі та бажанню побачити місця паломництва [pilgrimage_target.Custom('predlog_vvo')] #ONCLICK:COUNTRY,[pilgrimage_target.Custom('CL_tt')] #TOOLTIP:COUNTRY,[pilgrimage_target.Custom('CL_tt')],X [pilgrimage_target.Custom('CL_PREP')|L]#!#!.\n\nОскільки безліч наших людей вирушило в паломництво по [pilgrimage_target.Custom('CL_DAT')], наші відносини з цією країною покращилися."
+  societal_values.2032.desc: "Під впливом віри наші люди цілком присвятили себе паломництву. Вони не задовольняються простим відвідуванням наших великих місць поклоніння, а віддають перевагу далекій подорожі та бажанню побачити місця паломництва [pilgrimage_target.Custom('preposition_uv')] #ONCLICK:COUNTRY,[pilgrimage_target.Custom('CL_tt')] #TOOLTIP:COUNTRY,[pilgrimage_target.Custom('CL_tt')],X [pilgrimage_target.Custom('CL_PREP')|L]#!#!.\n\nОскільки безліч наших людей вирушило в паломництво по [pilgrimage_target.Custom('CL_DAT')], наші відносини з цією країною покращилися."
   societal_values.2032.a: "Спільна віра нас об'єднує!"
   societal_values.2032.b: "Немає потреби їхати за кордон, у нас є свої святині!"
   societal_values.2034.knights: "$societal_values.2034.t$"

@@ -7,7 +7,7 @@
   lutheranism_events.1.b: "Нехай іде геть."
   did_not_protect_reformer: "Ви відмовили реформатору в притулку"
   lutheranism_events.2.title: "[from.GetLongNameWithNoTooltip] — реформатор шукає притулку тут"
-  lutheranism_events.2.desc: "[reformer.GetName], один із найвідоміших прихильників Реформації в нашій країні, втік [from.Custom('end_predlog_vvo')] #ONCLICK:COUNTRY,[from.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from.Custom('CL_tt')],X [from.Custom('CL_ACC')|L]#!#!, заявивши, що він побоюється переслідування з боку наших #TOOLTIP:RELIGION,$catholic_tt$,X #L католицьких#!#! властей. Тепер ця людина критикує у своїх памфлетах не тільки католицьку церкву, а й свою батьківщину."
+  lutheranism_events.2.desc: "[reformer.GetName], один із найвідоміших прихильників Реформації в нашій країні, втік [from.Custom('preposition_uv')] #ONCLICK:COUNTRY,[from.Custom('CL_tt')] #TOOLTIP:COUNTRY,[from.Custom('CL_tt')],X [from.Custom('CL_ACC')|L]#!#!, заявивши, що він побоюється переслідування з боку наших #TOOLTIP:RELIGION,$catholic_tt$,X #L католицьких#!#! властей. Тепер ця людина критикує у своїх памфлетах не тільки католицьку церкву, а й свою батьківщину."
   lutheranism_events.2.a: "Це обурливо!"
   lutheranism_events.3.title: "[reformer.GetNameWithNoTooltip] критикує державну церкву"
   lutheranism_events.3.desc: "Реформатор [reformer.GetName] відомий своїм непростим характером. Засудивши та відкинувши свою батьківщину, тепер він почав критикувати й наші власні порядки."

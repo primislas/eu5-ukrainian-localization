@@ -18,7 +18,7 @@
   death_of_hayan_wuruk.5.title: "[target_subject.GetNameWithNoTooltip] демонструє вірність"
   death_of_hayan_wuruk.5.desc: "Наші посли в [target_location.Custom('LR_PREP')|l] [target_location.GetName] майстерно домоглися того, щоб лідери [target_subject.Custom('CL_GEN')] схилилися перед нами та визнали наше панування над ними."
   death_of_hayan_wuruk.5.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
-  death_of_hayan_wuruk.6.title: "Поширення ісламу [GetCountry('MAJ').Custom('end_predlog_vvo')] [GetCountry('MAJ').Custom('CL_PREP')]"
+  death_of_hayan_wuruk.6.title: "Поширення ісламу [GetCountry('MAJ').Custom('preposition_uv')] [GetCountry('MAJ').Custom('CL_PREP')]"
   death_of_hayan_wuruk.6.desc: "Торговці з далеких земель та ослаблення нашої центральної влади призвели до того, що наші піддані в провінції [target_province.GetName] почали приймати #TOOLTIP:RELIGION,$sunni_tt$,X #L сунізм#!#!. Поширення різних вчень ніколи не було для нас проблемою. Але вкорінення чужих релігій, несумісних з нашою, у такий важкий і нестабільний час — це небезпечний прецедент."
   death_of_hayan_wuruk.6.a: "Цікавий підсумок."
   death_of_hayan_wuruk.7.title: "Криза в країні [GetCountry('MAJ').GetLongNameWithNoTooltip] закінчилася"

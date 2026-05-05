@@ -11,6 +11,9 @@ ending_mappings = {
     "'endlong_enna'": "'endlong_clean'",
     "'end_enna'": "'end_clean'",
     "'predlog_sso'": "'preposition_zzi'",
+    "'predlog_vvo'": "'preposition_uv'",
+    "'endlong_predlog_vvo'": "'preposition_uv'", # seems to be a bug in original localization
+    "'end_predlog_vvo'": "'preposition_uv'", # seems to be a bug in original localization
     "'predlog_kko'": "'REPLACE_WITH_STATIC_до'",
     "'predlog_obo'": "'REPLACE_WITH_STATIC_про'",
 }

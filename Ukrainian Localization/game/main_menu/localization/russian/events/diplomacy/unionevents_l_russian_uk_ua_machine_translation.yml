@@ -34,6 +34,6 @@
   unionevents.98.a: "Буде обрано [target_character.GetShortNameWithNoTooltip]!"
   unionevents.98.b: "Настав час вийти з об'єднання «[ROOT.GetCountry.GetDiplomacy.GetUnion.GetNameWithNoTooltip]»."
   unionevents.98.c: "[ROOT.GetCountry.GetLongNameWithNoTooltip] — назавжди!"
-  unionevents.100.title: "[breakaway_ruler.GetShortNameWithNoTooltip] приходить до влади [root_country.Custom('predlog_vvo')] [root_country.Custom('CL_PREP')]"
-  unionevents.100.desc: "З незалежних від нас обставин [breakaway_ruler.GetName] [breakaway_ruler.IsFemale, 'зуміла', 'зумів' )] захопити владу [root_country.Custom('predlog_vvo')] #ONCLICK:COUNTRY,[root_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[root_country.Custom('CL_tt')],X [root_country.Custom('CL_PREP')|L]#!#!. Як наслідок, наша унія з цією країною втратила чинність, оскільки нашими країнами керують різні правителі…"
+  unionevents.100.title: "[breakaway_ruler.GetShortNameWithNoTooltip] приходить до влади [root_country.Custom('preposition_uv')] [root_country.Custom('CL_PREP')]"
+  unionevents.100.desc: "З незалежних від нас обставин [breakaway_ruler.GetName] [breakaway_ruler.IsFemale, 'зуміла', 'зумів' )] захопити владу [root_country.Custom('preposition_uv')] #ONCLICK:COUNTRY,[root_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[root_country.Custom('CL_tt')],X [root_country.Custom('CL_PREP')|L]#!#!. Як наслідок, наша унія з цією країною втратила чинність, оскільки нашими країнами керують різні правителі…"
   unionevents.100.a: "Ну й нехай! Ми чудово впораємося і без [breakaway_ruler.IsFemale( 'неї', 'нього' )]."

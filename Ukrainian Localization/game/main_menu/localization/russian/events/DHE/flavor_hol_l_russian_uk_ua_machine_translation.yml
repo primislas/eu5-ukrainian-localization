@@ -158,7 +158,7 @@
   flavor_hol.31.a: "Якщо їм потрібні гроші, вони їх отримають."
   flavor_hol.31.b: "Для нас важливіші сухопутні справи."
   flavor_hol.32.title: "[ROOT.GetCountry.GetAdjectiveWithNoTooltip]ий гульден"
-  flavor_hol.32.desc: "Коли флорин став відомий [ROOT.GetCountry.Custom('predlog_vvo')] #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#!, багато купців запропонували випускати подібну монету нашого власного карбування, назвавши її #italic гульденом#!. Вони сподіваються, що грошова цінність нової монети буде вищою, ніж у попередньої."
+  flavor_hol.32.desc: "Коли флорин став відомий [ROOT.GetCountry.Custom('preposition_uv')] #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#!, багато купців запропонували випускати подібну монету нашого власного карбування, назвавши її #italic гульденом#!. Вони сподіваються, що грошова цінність нової монети буде вищою, ніж у попередньої."
   flavor_hol.32.a: "Давайте карбувати нову монету."
   flavor_hol.32.b: "Грошові реформи нам ні до чого."
   flavor_hol.32.historical_info: "Герцог Філіп «Добрий» Бургундський надихався італійським флорином, французьким лівром та англійським фунтом. Його творіння, що отримало назву «гульден», швидко поширилося по всіх Нижніх землях і залишалося головною місцевою валютою протягом кількох століть."
