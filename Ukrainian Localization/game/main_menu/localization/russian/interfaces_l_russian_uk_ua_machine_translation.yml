@@ -3839,7 +3839,7 @@
   CCI_WASTELAND: "@trigger_no! Провінцію [PROVINCE_DEFINITION.GetName] не можна колонізувати, оскільки вона непрохідна."
   CCI_OWNS: "@trigger_no![LOCATION.Custom('LR_ACC')] [LOCATION.GetName] не можна колонізувати, оскільки ця місцевість вже належить нам."
   CCI_BIG_POP: "@trigger_no![LOCATION.Custom('LR_ACC')] [LOCATION.GetName] не можна колонізувати: чисельність нашого населення вже перевищила $VAL$."
-  CCI_TRUCE: "@trigger_no![LOCATION.Custom('LR_ACC')] [LOCATION.GetName] не можна колонізувати, оскільки у нас [Concept('truce', 'перемир’я')|e] [COUNTRY.Custom('endlong_predlog_sso')] @[COUNTRY.GetFlag]! [COUNTRY.Custom('longname_ru_INST')]."
+  CCI_TRUCE: "@trigger_no![LOCATION.Custom('LR_ACC')] [LOCATION.GetName] не можна колонізувати, оскільки у нас [Concept('truce', 'перемир’я')|e] [COUNTRY.Custom('preposition_zzi')] @[COUNTRY.GetFlag]! [COUNTRY.Custom('longname_ru_INST')]."
   CCI_HAS_OWNER: "@trigger_no![LOCATION.Custom('LR_ACC')] [LOCATION.GetName] не можна колонізувати, оскільки ця місцевість належить @[COUNTRY.GetFlag]! [COUNTRY.Custom('longname_ru_DAT')]."
   CCI_TOOLOW_PP: "@trigger_no!Ми не можемо колонізувати місцевість [LOCATION.GetName], оскільки [COUNTRY.GetLongNameWithFlag] має надто великий [Concept('power_projection', 'дипломатичний вплив')|e]."
   CCI_SAME_RG: "@trigger_no!Ми не можемо колонізувати [LOCATION.Custom('LR_ACC')|l] [LOCATION.GetName], оскільки його жителі також сповідують #L [LOCATION.GetDominantReligion.GetGroup.GetAdjective|l]у#! віру."

@@ -57,7 +57,7 @@
   delhi_situation.13.a: "Ми підемо на поступки."
   delhi_situation.13.b: "Вони забули, хто їхній володар!"
   delhi_situation.14.title: "Посли [target_country.Custom('CL_GEN')]"
-  delhi_situation.14.desc: "Поведінка #L [target_country.GetAdjective|l]их#! послів остаточно вийшла за рамки пристойності. Від образ придворних і релігійних традицій вони перейшли до прямих погроз. Чи варто говорити, що наші відносини [target_country.Custom('endlong_predlog_sso')] [target_country.Custom('longname_ru_nott_INST')] досягли рекордно низького рівня, оскільки посли цієї країни заявили, що всіляко заважатимуть нам контролювати свої обширні території."
+  delhi_situation.14.desc: "Поведінка #L [target_country.GetAdjective|l]их#! послів остаточно вийшла за рамки пристойності. Від образ придворних і релігійних традицій вони перейшли до прямих погроз. Чи варто говорити, що наші відносини [target_country.Custom('preposition_zzi')] [target_country.Custom('longname_ru_nott_INST')] досягли рекордно низького рівня, оскільки посли цієї країни заявили, що всіляко заважатимуть нам контролювати свої обширні території."
   delhi_situation.14.a: "Негайно вимагати офіційних вибачень!"
   delhi_situation.14.b: "Доведеться потерпіти…"
   potential_ramifications_tt: "#R Це може вплинути на дипломатичні відносини з іншими ворожими нам країнами#!"

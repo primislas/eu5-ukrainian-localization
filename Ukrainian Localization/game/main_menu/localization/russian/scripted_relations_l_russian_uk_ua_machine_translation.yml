@@ -1200,7 +1200,7 @@
   break_anti_piracy_agreement_desc_to_unknown: "Це дозволить нам знову посилати [Concept('privateers', 'каперів')|e] у її води."
   break_anti_piracy_agreement_happened_title: "Договір про боротьбу з піратством розірвано!"
   break_anti_piracy_agreement_happened_desc: "Ми розірвали договір з владою #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! про боротьбу з піратством."
-  break_anti_piracy_agreement_proposal_question: "Розірвати договір [TARGET_COUNTRY.Custom('endlong_predlog_sso')] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_INST')|L]#!#! про боротьбу з піратством?\n$INFO$"
+  break_anti_piracy_agreement_proposal_question: "Розірвати договір [TARGET_COUNTRY.Custom('preposition_zzi')] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_INST')|L]#!#! про боротьбу з піратством?\n$INFO$"
   anti_piracy_agreement_effect_text: "[TARGET_COUNTRY.GetName] погоджу[TARGET_COUNTRY.Custom('end_yeyu')]ться не посилати [Concept('privateers', 'каперів')|e] у води #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
   anti_piracy_agreement_effect_text_past: "[TARGET_COUNTRY.GetName] погод[TARGET_COUNTRY.Custom('end_assya')]ся не посилати [Concept('privateers', 'каперів')|e] у води #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
   diplomatic_status_giving_anti_piracy_agreement_name: "$anti_piracy_agreement_relation$"

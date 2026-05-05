@@ -637,7 +637,7 @@
   rot_plan_invasion: "Планування нападу"
   rot_plan_invasion_desc: "Оберіть, на яку [Concept('country', 'країну')|e] напасти."
   rot_plan_invasion_select_country: "Оберіть країну для вторгнення"
-  rot_plan_invasion_no_countries: "@trigger_no! Поруч немає [Concept('countries', 'країн')|e], які не в [Concept('allies', 'союзі')|e] або не в стані [Concept('truce', 'перемир’я')|e] [actor.Custom('endlong_predlog_sso')] #ONCLICK:COUNTRY,[actor.Custom('CL_tt')] #TOOLTIP:COUNTRY,[actor.Custom('CL_tt')],X [actor.Custom('CL_INST')|L]#!#!."
+  rot_plan_invasion_no_countries: "@trigger_no! Поруч немає [Concept('countries', 'країн')|e], які не в [Concept('allies', 'союзі')|e] або не в стані [Concept('truce', 'перемир’я')|e] [actor.Custom('preposition_zzi')] #ONCLICK:COUNTRY,[actor.Custom('CL_tt')] #TOOLTIP:COUNTRY,[actor.Custom('CL_tt')],X [actor.Custom('CL_INST')|L]#!#!."
   rot_plan_invasion_tt: "Ми отримуємо [Concept('casus_belli', 'привід')|e] #TOOLTIP:CASUS_BELLI,cb_timurs_conquests,X #L «Завоювання Тимура»#!#! для війни з обраною [Concept('country', 'країною')|e]"
   rot_plan_invasion_at: "Якщо обрана країна знаходиться в одному регіоні з нашою [Concept('capital', 'столицею')|e], то замість цього ми оголосимо їй [Concept('war', 'війну')|e] з приводом #TOOLTIP:CASUS_BELLI,cb_timurs_conquests,X #L «Завоювання Тимура»#!#!"
   rot_plan_invasion_bt: "Якщо обрана країна знаходиться в регіоні, який є нашою #Y метою завоювання#! або місцем розташування нашої [Concept('capital', 'столиці')|e] ([recipient.MakeScope.GetVariable('rot_conquest_ambition').GetRegion.GetName]), то замість цього ми оголосимо їй [Concept('war', 'війну')|e] з приводом #TOOLTIP:CASUS_BELLI,cb_timurs_conquests,X #L «Завоювання Тимура»#!#!"
