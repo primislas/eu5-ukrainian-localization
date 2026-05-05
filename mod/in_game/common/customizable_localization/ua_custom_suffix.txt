@@ -3827,10 +3827,10 @@ endlong_v_la = {
 	suffix = "_endlong_v_la"
 	if_invalid_loc = return_empty
 }
-endlong_enna = {
+endlong_clean = {
 	log_loc_errors = no
 	parent = country_ua_flavor
-	suffix = "_endlong_enna"
+	suffix = "_endlong_clean"
 	if_invalid_loc = return_empty
 }
 endlong_etut = {
@@ -3881,10 +3881,10 @@ endrank_fem = {
 	suffix = "_endrank_fem"
 	if_invalid_loc = return_empty
 }
-endrank_enna = {
+endrank_clean = {
 	log_loc_errors = no
 	parent = country_ua_flavor
-	suffix = "_endrank_enna"
+	suffix = "_endrank_clean"
 	if_invalid_loc = return_empty
 }
 endrank_etut = {

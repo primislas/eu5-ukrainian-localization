@@ -29,11 +29,4 @@
 		}
 	}
 
-	text = {
-		localization_key = rank_duchy_orthodox
-		trigger = {
-		    religion = religion:orthodox
-		}
-	}
-
 }

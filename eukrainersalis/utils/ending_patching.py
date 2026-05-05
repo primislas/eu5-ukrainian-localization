@@ -8,6 +8,8 @@ ending_mappings = {
     "'endlong_etyut'": "'endlong_yeyut'",
     "'endlong_gegu'": "'endlong_eut'",
     "'end_gegu'": "'end_eut'",
+    "'endlong_enna'": "'endlong_clean'",
+    "'end_enna'": "'end_clean'",
 }
 
 if __name__ == "__main__":
