@@ -293,7 +293,7 @@
   MAX_CONTROL_TT_TEXT: "Причини макс. контролю:"
   ABOVE_MAX_CONTROL: "Зараз знижується, оскільки поточний [Concept('control', 'контроль')|e] вищий за [Concept('max_control', 'максимальний')|e]."
   TARGET_SATISFACTION_HEADER: "[Concept('estate_satisfaction', 'Задоволення')|e] $ESTATE_GetName_RU_GEN_lower$ наближається до $VALUE|2V%$. Причини:"
-  OPINION_ITEM_TOOLTIP: "Думка $ESTATE_GetName_RU_GEN_lower$ [COUNTRY.Custom('predlog_obo')] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_PREP')|L]#!#!: $OPINION$"
+  OPINION_ITEM_TOOLTIP: "Думка $ESTATE_GetName_RU_GEN_lower$ про #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_PREP')|L]#!#!: $OPINION$"
   ESTATE_TYPE_POLITICAL_POWER: "$BULLET_WITH_TAB$Кожна #G 1000#! [Concept('pops', 'груп населення')|e] дає стану $VAL|+=2$ од. [Concept('estate_power', 'станової влади')|e]"
   ESTATE_TYPE_TAX_SPLIT: "$BULLET_WITH_TAB$Кожна #G 1000#! [Concept('pops', 'груп населення')|e] дає стану +$VAL|+=2$ до часток [Concept('tax_base', 'податкової бази')|e]"
   ESTATE_TYPE_POPTYPE: "$BULLET_WITH_TAB$[Concept('pops', 'Група населення')|e] з класу «[POP_TYPE.GetName]» може належати до цього [Concept('estate', 'стану')|e]"

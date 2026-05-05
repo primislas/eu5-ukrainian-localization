@@ -129,7 +129,7 @@
   PROPOSE_break_subject_union: "Примусити країну $RECIPIENT$ вийти з унії?\n$INFO$."
   break_subject_union_SELECT_TITLE: "Оберіть [Concept('character', 'персонажа')|e], якого бажаєте призначити:"
   break_subject_union_no_characters: "$no_valid_characters$"
-  break_subject_union_tt: "Кожен учасник унії «[recipient.GetDiplomacy.GetUnion.GetName]» втрачає [ShowBiasValue('opinion_removed_member_from_union')|+=0] думки [actor.Custom('predlog_obo')] #ONCLICK:COUNTRY,[actor.Custom('CL_tt')] #TOOLTIP:COUNTRY,[actor.Custom('CL_tt')],X [actor.Custom('CL_PREP')|L]#!#!"
+  break_subject_union_tt: "Кожен учасник унії «[recipient.GetDiplomacy.GetUnion.GetName]» втрачає [ShowBiasValue('opinion_removed_member_from_union')|+=0] думки про #ONCLICK:COUNTRY,[actor.Custom('CL_tt')] #TOOLTIP:COUNTRY,[actor.Custom('CL_tt')],X [actor.Custom('CL_PREP')|L]#!#!"
   break_subject_union_at: "[ShowSpecialStatusName('senior_partner')] унії «[recipient.GetDiplomacy.GetUnion.GetName]» отримує [Concept('casus_belli', 'привід для війни')|e] «[ShowCasusBelliName('cb_claim_throne')]» проти #ONCLICK:COUNTRY,[recipient.Custom('CL_tt')] #TOOLTIP:COUNTRY,[recipient.Custom('CL_tt')],X [recipient.Custom('CL_GEN')|L]#!#!"
   break_subject_union_bt: "Усі учасники унії «[recipient.GetDiplomacy.GetUnion.GetName]» отримують [Concept('casus_belli', 'привід для війни')|e] «[ShowCasusBelliName('cb_claim_throne')]» проти #ONCLICK:COUNTRY,[recipient.Custom('CL_tt')] #TOOLTIP:COUNTRY,[recipient.Custom('CL_tt')],X [recipient.Custom('CL_GEN')|L]#!#!"
   change_ruler: "Призначення нового правителя"

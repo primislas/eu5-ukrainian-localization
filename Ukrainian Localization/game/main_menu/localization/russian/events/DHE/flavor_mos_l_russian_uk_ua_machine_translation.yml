@@ -26,7 +26,7 @@
   flavor_mos.4.a.custom2: "Кожен сусідній [Concept('subject', 'васал')|e] отримує [ShowBiasValue('safe_haven_during_raids')|+=0] од. до [Concept('opinion', 'думки')|e] про #ONCLICK:COUNTRY,[target_root_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_root_country.Custom('CL_tt')],X [target_root_country.Custom('CL_PREP')|L]#!#!"
   flavor_mos.4.b: "Ми не станемо провокувати сусідів."
   flavor_mos.4.b.custom1: "Кожна сусідня країна отримає #G 3 од.#! [Concept('trust', 'довіри')|и] до #ONCLICK:COUNTRY,[target_root_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_root_country.Custom('CL_tt')],X [target_root_country.Custom('CL_DAT')|L]#!#!"
-  flavor_mos.4.b.custom2: "Кожен сусідній [Concept('subject', 'васал')|e] отримує [ShowBiasValue('lack_of_protection')|+=0] до [Concept('opinion', 'думки')|и] [target_root_country.Custom('predlog_obo')] #ONCLICK:COUNTRY,[target_root_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_root_country.Custom('CL_tt')],X [target_root_country.Custom('CL_PREP')|L]#!#!"
+  flavor_mos.4.b.custom2: "Кожен сусідній [Concept('subject', 'васал')|e] отримує [ShowBiasValue('lack_of_protection')|+=0] до [Concept('opinion', 'думки')|e] про #ONCLICK:COUNTRY,[target_root_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_root_country.Custom('CL_tt')],X [target_root_country.Custom('CL_PREP')|L]#!#!"
   lack_of_protection: "Недостатній захист"
   mos_kremlin_construction: "Будівництво Кремля"
   flavor_mos.4.c: "Розберемо замок васала на будматеріали."
