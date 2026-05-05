@@ -109,7 +109,7 @@
   pap_reassign_cleric_desc_specific: "Оскільки всі #TOOLTIP:RELIGION,$catholic_tt$,X #L католицькі#!#! священники підкоряються нам, [recipient.GetName] покине #ONCLICK:COUNTRY,[recipient.GetCourtCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[recipient.GetCourtCountry.Custom('CL_tt')],X [recipient.GetCourtCountry.Custom('CL_ACC')|L]#!#! і відправиться служити в іншу [Concept('country', 'країну')|e]. Вартість залежатиме від [Select_CString(SCOPE.sCharacter('recipient').IsFemale,'її', 'його')] [Concept('total_ability', 'суми навичок')|e]. У нас також з'явиться [Concept('spy_network', 'шпигунська мережа')|e] в новій [Concept('country', 'країні')|e], співмірна [Select_CString(SCOPE.sCharacter('recipient').IsFemale,'її', 'його')] [Concept('mil', 'військовому навику')|e]."
   pap_reassign_cleric_desc: "[Concept('character', 'Персонаж')|e] покине нашу [Concept('country', 'країну')|e] і відправиться служити в іншу. [Concept('total_ability', 'Сума навичок')|e] персонажа впливає на вартість, а його [Concept('mil', 'військовий навик')|e] — на розгалуженість [Concept('spy_network', 'шпигунської мережі')|e]."
   pap_reassign_cleric_past: "[recipient.GetNameWithNoTooltip] отримує нове призначення"
-  pap_reassign_cleric_act_past: "[actor.GetLongName] перепризнача[actor.Custom('endlong_etyut')] священника на ім'я [recipient.GetName]."
+  pap_reassign_cleric_act_past: "[actor.GetLongName] перепризнача[actor.Custom('endlong_yeyut')] священника на ім'я [recipient.GetName]."
   pap_reassign_cleric_select_title: "Оберіть [Concept('country', 'країну')|e] для служби"
   commission_art: "Замовлення витвору мистецтва"
   commission_art_concept: "[Concept('work_of_art', 'Витвір')|e]"

@@ -271,7 +271,7 @@
   STATIC_MODIFIER_NAME_PRU_crime_ridden: "Наводнена злочинцями місцевість"
   TEU_rejected_sale: "Відхилили пропозицію про купівлю"
   flavor_brapru_teu.2.title: "$flavor_brapru_teu.1.title$"
-  flavor_brapru_teu.2.desc: "[teu_from.GetLongName] безперечно не в силах розібратися зі свавіллям баронів-розбійників у східній провінції #TOOLTIP:PROVINCE_DEFINITION,neumark_province,X #L Ноймарк#!#!, а тому в спробі уникнути відповідальності пропону[teu_from.Custom('endlong_etyut')] нам перекупити цю провінцію за солідну суму в золоті."
+  flavor_brapru_teu.2.desc: "[teu_from.GetLongName] безперечно не в силах розібратися зі свавіллям баронів-розбійників у східній провінції #TOOLTIP:PROVINCE_DEFINITION,neumark_province,X #L Ноймарк#!#!, а тому в спробі уникнути відповідальності пропону[teu_from.Custom('endlong_yeyut')] нам перекупити цю провінцію за солідну суму в золоті."
   flavor_brapru_teu.2.historical_info: "$flavor_brapru_teu.1.historical_info$"
   flavor_brapru_teu.2.a: "Ми згодні."
   flavor_brapru_teu.2.b: "Ми не будемо брати на себе їхні турботи."

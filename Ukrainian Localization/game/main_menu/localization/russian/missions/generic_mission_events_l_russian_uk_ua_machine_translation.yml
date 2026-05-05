@@ -40,7 +40,7 @@
   generic_mission_events.11.a: "Ця ситуація загрожує нам дипломатичними проблемами…"
   generic_mission_events.11.b: "[target_scapegoat_character.GetNameWithNoTooltip] стане цапом-відбувайлом!"
   generic_mission_events.12.title: "Дипломатичні зв'язки з владою [target_overlord.Custom('CL_GEN')]"
-  generic_mission_events.12.desc: "[target_overlord.GetName] намагає[target_overlord.Custom('end_etyut')]ся зміцнити відносини, що пов'язують наші країни. Зі стратегічного інтересу чи зі щирих спонукань — невідомо, але не звернути увагу на такі кроки неможливо.\n\nТільки час покаже, чи стоїть за цими жестами якийсь умисел. Поки що ми будемо зберігати пильність і спостерігати."
+  generic_mission_events.12.desc: "[target_overlord.GetName] намага[target_overlord.Custom('end_yeyu')]ться зміцнити відносини, що пов'язують наші країни. Зі стратегічного інтересу чи зі щирих спонукань — невідомо, але не звернути увагу на такі кроки неможливо.\n\nТільки час покаже, чи стоїть за цими жестами якийсь умисел. Поки що ми будемо зберігати пильність і спостерігати."
   generic_mission_events.12.a: "Будемо спостерігати за [Select_CString(target_overlord.IsFemale,'її', 'його')] подальшими діями."
   overlord_info_generic_vassal_mission_pack_tt: "[target_overlord.GetName] зараз виконує[target_overlord.Custom('end_etyut')] [Concept('mission', 'завдання')|e] #TOOLTIP:MISSION,generic_vassal_ties,x #L «Васальні зв'язки»#!#! щодо нас"
   generic_mission_events.13.title: "Розвиток [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip]"

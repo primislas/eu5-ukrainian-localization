@@ -4,6 +4,8 @@ from eukrainersalis.utils.yaml_utils import write_eu5_localization_yaml, load_eu
 
 ending_mappings = {
     "'endlong_fem'": "'endlong_v_la'",
+    "'endlong_etut'": "'endlong_eut'",
+    "'endlong_etyut'": "'endlong_yeyut'",
 }
 
 if __name__ == "__main__":

@@ -14,5 +14,5 @@
   valid_female_of_ruler_dynasty: "Відповідний жіночий [Concept('character', 'персонаж')|e] своєї [Concept('dynasty', 'династії')|e]"
   noble_marriage.4.title: "Тісні зв'язки з династією [male_target.GetDynasty.GetNameWithNoTooltip]"
   noble_marriage.4.desc: "[male_target.GetDynasty.GetDynastyHead.GetName] прагне пов'язати свою родину з династією [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName], тому запитує у нас, чи може [female_target.GetName] стати його дружиною."
-  noble_marriage.4.a: "[ROOT.GetCountry.GetLongNameWithNoTooltip] від цього лише вигра[ROOT.GetCountry.Custom('endlong_etyut')]!"
+  noble_marriage.4.a: "[ROOT.GetCountry.GetLongNameWithNoTooltip] від цього лише вигра[ROOT.GetCountry.Custom('endlong_yeyut')]!"
   noble_marriage.4.b: "Цьому не бувати!"

@@ -35,7 +35,7 @@
   rise_of_the_ottomans.103.title: "[target_country.GetAdjectiveWithNoTooltip]а відповідь"
   rise_of_the_ottomans.103.desc: "Наш посланець привіз із міста [target_country.GetCapital.GetName] славні вісті. [target_country.GetLongName] — ця країна погоджується визнати нашу владу і стати #TOOLTIP:SUBJECT_TYPE,vassal,X #L васалом#!#!. До цього [target_country.GetAdjectiveWithNoTooltip|l]их правителів підштовхнув не лише страх перед загрозами, що нависли над їхніми головами, а й усвідомлення переваги [ROOT.GetCountry.Custom('rank_ru_GEN')|l] над їхньою країною. Саме тому вони прийняли єдине розумне рішення присягнути нам на вірність в обмін на захист.\n\nЗдобувши нового васала, ми зробили ще один крок до об'єднання роздроблених бейликів #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#! під своїм прапором. Наш вплив зростає, а разом з ним зростає розуміння, що нам долею призначено стати найсильнішою країною регіону."
   rise_of_the_ottomans.103.a: "Рано чи пізно всі схиляться перед нами!"
-  rise_of_the_ottomans.104.title: "[target_country.GetLongNameWithNoTooltip] відмовля[target_country.Custom('endlong_etyut')]ся підкорятися!"
+  rise_of_the_ottomans.104.title: "[target_country.GetLongNameWithNoTooltip] відмовля[target_country.Custom('endlong_yeyu')]ться підкорятися!"
   rise_of_the_ottomans.104.desc: "Ми завжди знали, що негідники з міста [target_country.GetCapital.GetName] геть позбавлені далекоглядності. Ми не пішли на них війною лише з милосердя, але вони відмовилися від такої великодушної пропозиції!"
   rise_of_the_ottomans.104.a: "Ми зустрінемося з ними на полі бою!"
   rise_of_the_ottomans.105.title: "Інтеграція провінції [target_province.GetNameWithNoTooltip]"

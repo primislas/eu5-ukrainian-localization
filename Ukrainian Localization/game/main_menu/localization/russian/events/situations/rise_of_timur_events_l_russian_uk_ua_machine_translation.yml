@@ -15,7 +15,7 @@
   rise_of_timur.4.desc.alive_timur: "$rise_of_timur.3.desc.alive_timur$"
   rise_of_timur.4.desc: "$rise_of_timur.3.desc$"
   rise_of_timur.4.a: "Сподіваємося, що з [target_country.Custom('CL_GEN')] не зроблять нове джерело проблем…"
-  remove_all_timmy_cbs_tt: "[GetCountry('TIM').GetName] позбавля[GetCountry('TIM').Custom('end_etyut')]ся [Concept('casus_belli', 'приводу для війни')|e] #TOOLTIP:CASUS_BELLI,cb_timurs_conquests,X #L «Завоювання Тимура»#!#!"
+  remove_all_timmy_cbs_tt: "[GetCountry('TIM').GetName] позбавля[GetCountry('TIM').Custom('end_yeyu')]ться [Concept('casus_belli', 'приводу для війни')|e] #TOOLTIP:CASUS_BELLI,cb_timurs_conquests,X #L «Завоювання Тимура»#!#!"
   rise_of_timur.5.title: "Підкорення [GetCountry('TIM').Custom('CL_GEN')]"
   rise_of_timur.5.desc.dead_timur: "$rise_of_timur.5.desc$ Після того, як [target_character.GetName] безвременно [Select_CString(target_character.IsFemale,'покинула', 'покинув')] цей світ, [Select_CString(target_character.IsFemale,'її', 'його')] спадкоємці не змогли протистояти численним ворогам, нажитим у ході нестримної експансії. $rise_of_timur.5.desc.end$"
   rise_of_timur.5.desc.alive_timur: "$rise_of_timur.5.desc$ Вороги, нажиті під час [Select_CString(target_character.IsFemale,'її', 'його')] кривавих кампаній, виявилися занадто сильними, і жодна тактика не допомогла з ними впоратися. Зрештою [ROOT.GetCountry.Custom('CL_DAT')] вдалося підкорити собі [ROOT.GetCountry.Custom('rank_ru_ACC')|l], а [target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale,'загинула', 'загинув')] під час однієї з битв.$rise_of_timur.5.desc.end$"

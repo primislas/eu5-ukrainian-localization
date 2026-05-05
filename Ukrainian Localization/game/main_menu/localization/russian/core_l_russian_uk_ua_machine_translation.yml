@@ -340,7 +340,7 @@
   CULTURE_SPECIFIC_LOBBY_DESCRIPTION_TT: "Бонуси культури"
   CULTURE_GROUP_SPECIFIC_LOBBY_DESCRIPTION: "#L [ROOT.GetCultureGroup.GetName]а#! [Concept('culture_group', 'культурна група')|e] відкриває таке: $BONUSES$"
   CULTURE_GROUP_SPECIFIC_LOBBY_DESCRIPTION_TT: "Бонуси культурної групи"
-  RELIGION_SPECIFIC_LOBBY_DESCRIPTION: "[COUNTRY.GetName] дотриму[COUNTRY.Custom('end_etyut')]ся #L [ROOT.GetReligion.GetAdjective|l]ої#! віри, що дає їй таке: $BONUSES$"
+  RELIGION_SPECIFIC_LOBBY_DESCRIPTION: "[COUNTRY.GetName] дотриму[COUNTRY.Custom('end_yeyu')]ться #L [ROOT.GetReligion.GetAdjective|l]ої#! віри, що дає їй таке: $BONUSES$"
   RELIGION_SPECIFIC_LOBBY_DESCRIPTION_TT: "Бонуси релігії"
   RELIGION_GROUP_SPECIFIC_LOBBY_DESCRIPTION: "[COUNTRY.GetName] перебува[COUNTRY.Custom('end_ityat')] в #L [ROOT.GetReligionGroup.GetAdjective|l]ій#! [Concept('religion_group', 'релігійній групі')|e], що відкриває: $BONUSES$"
   RELIGION_GROUP_SPECIFIC_LOBBY_DESCRIPTION_TT: "Бонуси релігійної групи"

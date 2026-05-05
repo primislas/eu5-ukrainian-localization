@@ -42,7 +42,7 @@
   flavor_boh.10.title: "Влада [GetCountry('PAP').Custom('longname_ru_wntt_GEN')] заявляє: «[target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale, 'винна', 'винен' )]»"
   flavor_boh.10.desc: "[GetCountry('PAP').GetLongName] стверджує, що [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] нашої країни [Select_CString(target_character.IsFemale, 'винна', 'винен' )] у розповсюдженні #TOOLTIP:RELIGION,$hussite_tt$,X #L гуситської#!#! єресі."
   flavor_boh.10.a: "Я не відречуся від свого народу!"
-  flavor_boh.11.title: "[GetCountry('PAP').GetLongNameWithNoTooltip] поступа[GetCountry('PAP').Custom('endlong_etyut')]"
+  flavor_boh.11.title: "[GetCountry('PAP').GetLongNameWithNoTooltip] поступа[GetCountry('PAP').Custom('endlong_yeyut')]"
   flavor_boh.11.desc: "Нам повідомили, що [GetCountry('PAP').GetLongName] відмовляється від своїх звинувачень, хоча [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] відкрито виступає на підтримку #TOOLTIP:RELIGION,$hussite_tt$,X #L гуситського#!#! руху."
   flavor_boh.11.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   flavor_boh.13.title: "Розбрат у церкві"

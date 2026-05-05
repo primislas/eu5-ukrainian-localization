@@ -160,7 +160,7 @@
   culture_japan.1204.a: "Приймемо дар і надішлемо допомогу."
   culture_japan.1204.b: "Це неприйнятно."
   culture_japan.1205.title: "[target_shogunate.GetFlavorRank] надсилає погрозу"
-  culture_japan.1205.desc: "[target_shogunate.GetLongNameWithNoTooltip] у своїй зарозумілості смі[target_shogunate.Custom('endlong_etyut')] погрожувати нам: або ми виконаємо свій обов'язок, або на нас розгніваються. Якщо ми й далі виявлятимемо непослух, нас можуть оголосити зрадниками."
+  culture_japan.1205.desc: "[target_shogunate.GetLongNameWithNoTooltip] у своїй зарозумілості смі[target_shogunate.Custom('endlong_yeyut')] погрожувати нам: або ми виконаємо свій обов'язок, або на нас розгніваються. Якщо ми й далі виявлятимемо непослух, нас можуть оголосити зрадниками."
   culture_japan.1205.a: "Ну добре. Ми надішлемо їм підмогу."
   culture_japan.1205.b: "Ми не потерпимо такого приниження!"
   culture_japan.1206.title: "[target_shogunate.GetFlavorRank] відступає"
