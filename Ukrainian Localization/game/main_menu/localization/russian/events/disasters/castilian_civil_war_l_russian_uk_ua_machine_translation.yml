@@ -58,7 +58,7 @@
   castilian_civil_war.301.desc.mercs: "$castilian_civil_war.301.desc$ Вони направили великий загін найманців битися на боці заколотників!"
   castilian_civil_war.301.desc.gold: "$castilian_civil_war.301.desc$ Вони надіслали значну суму золота, яке допоможе заколотникам оплатити їхні військові витрати!"
   castilian_civil_war.301.a: "Прокляті заколотники!"
-  ccw_hire_mercs_tt: "[THIS.GetCountry.GetName] призвал[THIS.GetCountry.Custom('end_fem')] [Concept('mercenaries', 'найманців')|e] з #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!"
+  ccw_hire_mercs_tt: "[THIS.GetCountry.GetName] заклика[THIS.GetCountry.Custom('end_vlaloly')] [Concept('mercenaries', 'найманців')|e] з #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!"
   castilian_civil_war.302.title: "[target_country.GetAdjectiveWithNoTooltip]ий нейтралітет"
   castilian_civil_war.302.desc: "$castilian_civil_war.201.desc.common$ Як з'ясувалося, [target_pretender.GetName] та [Select_CString(target_pretender.IsFemale,'її', 'його')] претензії на #L [from_country.GetAdjective|l]ий#! престол зовсім не цікавлять [target_country.GetAdjectiveWithNoTooltip|l]их підданих. [target_country.GetNameWithNoTooltip] не бажає втручатися в конфлікт."
   castilian_civil_war.302.a: "Який приємний сюрприз!"

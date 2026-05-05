@@ -3,7 +3,8 @@ from eukrainersalis.utils.translation_utils import Language
 from eukrainersalis.utils.yaml_utils import write_eu5_localization_yaml, load_eu5_yaml
 
 ending_mappings = {
-    "'endlong_fem'": "'endlong_v_la'",
+    "'endlong_fem'": "'endlong_vlaloly'",
+    "'end_fem'": "'end_vlaloly'",
     "'endlong_etut'": "'endlong_eut'",
     "'endlong_etyut'": "'endlong_yeyut'",
     "'endlong_gegu'": "'endlong_eut'",
@@ -18,6 +19,7 @@ ending_mappings = {
     "'end_predlog_vvo'": "'preposition_uv'", # seems to be a bug in original localization
     "'predlog_kko'": "'REPLACE_WITH_STATIC_до'",
     "'predlog_obo'": "'REPLACE_WITH_STATIC_про'",
+    # TODO: end_a?
 }
 
 if __name__ == "__main__":

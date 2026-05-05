@@ -103,7 +103,7 @@
   DIPLOMACY_JOIN_WAR: "Може вступити у війну.\n"
   DIPLOMACY_CHANCE_JOIN_WAR: "Ймовірність вступу у війну: $VAL$.\n"
   JOIN_WAR_REASON_Instigator: "Агресор"
-  JOIN_WAR_REASON_DESC_Instigator: "[COUNTRY.GetName] розпочал[COUNTRY.Custom('end_fem')] [Concept('war', 'війну')|e]"
+  JOIN_WAR_REASON_DESC_Instigator: "[COUNTRY.GetName] розпоча[COUNTRY.Custom('end_vlaloly')] [Concept('war', 'війну')|e]"
   JOIN_WAR_REASON_Target: "Початкова ціль"
   JOIN_WAR_REASON_DESC_Target: "#ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_DAT')|L]#!#! була оголошена [Concept('war', 'війна')|e]."
   JOIN_WAR_REASON_CoBelligerent: "Співвоююча сторона"

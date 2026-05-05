@@ -90,7 +90,7 @@
   catholic_flavor.103.desc: "[ROOT.GetCountry.GetGovernment.GetRulerTitle] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'висунула', 'висунув')] свого племінника на посаду кардинала в провінції [cardinal_nephew_province.GetName], однак уряд #ONCLICK:COUNTRY,[cardinal_nephew_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[cardinal_nephew_country.Custom('CL_tt')],X [cardinal_nephew_country.Custom('CL_GEN')|L]#!#! відхилив [Select_CString((ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'її', 'його')] прохання."
   catholic_flavor.103.a: "[ROOT.GetCountry.Custom('common_string_disappointing')]"
   catholic_flavor.1000.title: "Кафедра кардинала для [SCOPE.sCountry('actor').Custom('CL_GEN')]"
-  catholic_flavor.1000.desc: "[SCOPE.sCountry('actor').GetName] попросил[SCOPE.sCountry('actor').Custom('end_fem')] нас надати їм нову #TOOLTIP:BUILDING_TYPE,seat_of_cardinal,X #L кафедру кардинала#!#!. Якщо ми погодимося, кардинал засідатиме в [target_location.Custom('LR_PREP')|l] [target_location.GetName]."
+  catholic_flavor.1000.desc: "[SCOPE.sCountry('actor').GetName] попроси[SCOPE.sCountry('actor').Custom('end_vlaloly')] нас надати їм нову #TOOLTIP:BUILDING_TYPE,seat_of_cardinal,X #L кафедру кардинала#!#!. Якщо ми погодимося, кардинал засідатиме в [target_location.Custom('LR_PREP')|l] [target_location.GetName]."
   catholic_flavor.1000.a: "Виконаємо їхнє прохання."
   catholic_flavor.1000.b: "Ми змушені їм відмовити."
   catholic_flavor.1001.desc: "[GetInternationalOrganization('catholic_church').GetLeaderTitle|U] милостиво відповідає нам згодою, а отже, в [target_location.Custom('LR_PREP')|l] [target_location.GetName] з'явиться новий кардинал. Ми вже приступили до спорудження житла, гідного людини такого високого становища."

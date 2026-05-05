@@ -3815,16 +3815,10 @@ GetContemporaryStringedINSTrumentPlural_PREP = {
 	suffix = "_PREP"
 	if_invalid_loc = return_empty
 }
-endlong_fem = {
+endlong_vlaloly = {
 	log_loc_errors = no
 	parent = country_ua_flavor
-	suffix = "_endlong_fem"
-	if_invalid_loc = return_empty
-}
-endlong_v_la = {
-	log_loc_errors = no
-	parent = country_ua_flavor
-	suffix = "_endlong_v_la"
+	suffix = "_endlong_vlaloly"
 	if_invalid_loc = return_empty
 }
 endlong_clean = {
