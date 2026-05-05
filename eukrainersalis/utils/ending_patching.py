@@ -10,6 +10,7 @@ ending_mappings = {
     "'end_gegu'": "'end_eut'",
     "'endlong_enna'": "'endlong_clean'",
     "'end_enna'": "'end_clean'",
+    "'predlog_sso'": "'preposition_zzi'",
 }
 
 if __name__ == "__main__":

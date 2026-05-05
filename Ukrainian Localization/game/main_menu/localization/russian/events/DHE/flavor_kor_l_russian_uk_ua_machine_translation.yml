@@ -119,7 +119,7 @@
   flavor_kor.23.a: "Назавжди переїдемо до південної столиці."
   flavor_kor.23.b: "[current_capital.GetNameWithNoTooltip] — наш дім."
   flavor_kor.24.title: "Похід проти [target_country.Custom('CL_GEN')]"
-  flavor_kor.24.desc: "Після падіння Пархе багато споконвічно #TOOLTIP:CULTURE,$korean_culture_tt$,X #L корейських#!#! територій на півночі були захоплені #TOOLTIP:CULTUREGROUP,mongolian_group,X #L монгольськими#!#! та #TOOLTIP:CULTUREGROUP,jurchen_group,X #L чжурчженськими#!#! племенами. Тепер ми вільні від кайданів і хочемо розширити свої володіння. Заради цього ми вступили в конфлікт [target_country.Custom('predlog_sso')] #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_INST')|L], чия провінція [target_province.GetName] лежить на шляху до північного хребта."
+  flavor_kor.24.desc: "Після падіння Пархе багато споконвічно #TOOLTIP:CULTURE,$korean_culture_tt$,X #L корейських#!#! територій на півночі були захоплені #TOOLTIP:CULTUREGROUP,mongolian_group,X #L монгольськими#!#! та #TOOLTIP:CULTUREGROUP,jurchen_group,X #L чжурчженськими#!#! племенами. Тепер ми вільні від кайданів і хочемо розширити свої володіння. Заради цього ми вступили в конфлікт [target_country.Custom('preposition_zzi')] #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_INST')|L], чия провінція [target_province.GetName] лежить на шляху до північного хребта."
   flavor_kor.24.a: "Проженемо їх геть!"
   flavor_kor.24.b: "Ця війна лише зруйнує життя селян."
   flavor_kor.25.title: "[target_character.GetNameWithNoTooltip]"
