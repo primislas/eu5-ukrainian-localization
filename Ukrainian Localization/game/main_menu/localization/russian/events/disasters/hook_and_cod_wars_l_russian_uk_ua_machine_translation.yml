@@ -170,7 +170,7 @@
   hook_and_cod_wars.1303.desc: "До нас дійшли вісті з #L [neighbor_country.GetAdjective|l]ого#! двору! Наші вороги, #Y [holland.Custom('GetHaCWEnemyFaction')|l]#!, отримають підтримку від [neighbor_country.Custom('CL_GEN')]!"
   hook_and_cod_wars.1303.a: "Повсюди [holland.Custom('GetHaCWEnemyFactionShort')|l]…"
   hook_and_cod_wars.1304.title: "[neighbor_country.GetNameWithNoTooltip] зберігає нейтралітет"
-  hook_and_cod_wars.1304.desc: "#L [neighbor_country.GetAdjective]і#! посли запевнили нас, що #TOOLTIP:DISASTER_TYPE,hook_and_cod_wars,X #L боротьба «тріски» та «гачків»#!#! не цікавить їхню країну. [neighbor_country.GetName] не стан[neighbor_country.Custom('end_etut')] підтримувати жодну з протиборчих сторін."
+  hook_and_cod_wars.1304.desc: "#L [neighbor_country.GetAdjective]і#! посли запевнили нас, що #TOOLTIP:DISASTER_TYPE,hook_and_cod_wars,X #L боротьба «тріски» та «гачків»#!#! не цікавить їхню країну. [neighbor_country.GetName] не стан[neighbor_country.Custom('end_eut')] підтримувати жодну з протиборчих сторін."
   hook_and_cod_wars.1304.a: "Принаймні, від них не буде проблем."
   hook_and_cod_wars.1400.title: "Підтримка союзника"
   hook_and_cod_wars.1400.desc: "#Y  [ROOT.GetCountry.Custom('GetHaCWEnemyFaction')]#! стає все сильнішою, наші союзники потребують додаткової допомоги. На щастя, #Y  [ROOT.GetCountry.Custom('GetHaCWFaction')|l]#! може розраховувати не лише на нашу підтримку — #L [faction_ally_country.GetAdjective|l]а#! влада також обіцяла їм допомогу. Час би натякнути нашим друзям, що обіцянки слід виконувати…"

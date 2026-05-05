@@ -114,7 +114,7 @@
   flavor_eng_diplomacy.1401.tt1: "#L [target_root_country.GetAdjective]і#! купці відкриють кілька торгових контор у #TOOLTIP:AREA,holland_area,X #L Голландії#!#!"
   flavor_eng_diplomacy.1401.b: "Це не в наших інтересах."
   flavor_eng_diplomacy.1500.title: "Тагільдський договір"
-  flavor_eng_diplomacy.1500.desc: "Ми отримали дипломатичну нагоду укласти довгостроковий мир, здатний у майбутньому перетворитися на союз. [GetCountry('POR').GetName], втомившись від прикордонних сутичок з #L [GetCountry('CAS').GetAdjective|l]ими#! сусідами, охоче підпиш[GetCountry('POR').Custom('end_etut')] з нами договір, якщо ми визнаємо незалежність цієї країни від [GetCountry('CAS').Custom('CL_GEN')]."
+  flavor_eng_diplomacy.1500.desc: "Ми отримали дипломатичну нагоду укласти довгостроковий мир, здатний у майбутньому перетворитися на союз. [GetCountry('POR').GetName], втомившись від прикордонних сутичок з #L [GetCountry('CAS').GetAdjective|l]ими#! сусідами, охоче підпиш[GetCountry('POR').Custom('end_eut')] з нами договір, якщо ми визнаємо незалежність цієї країни від [GetCountry('CAS').Custom('CL_GEN')]."
   flavor_eng_diplomacy.1500.a: "Підпишемо та відправимо."
   flavor_eng_diplomacy.1500.tt: "Запропоновано договір"
   signed_tagilde_treaty: "Підписано Тагільдський договір"

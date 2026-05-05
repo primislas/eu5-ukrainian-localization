@@ -181,7 +181,7 @@
   flavor_mam.42.title: "Підкорення Кіпру"
   flavor_mam.42.desc: "З часів захоплення #TOOLTIP:PROVINCE_DEFINITION,cyprus_province,X #L Кіпру#!#! хрестоносцями під час Третього хрестового походу острів слугував плацдармом для набігів і військових дій у #TOOLTIP:AREA,levant_area,X #L Леванті#!#! та #TOOLTIP:REGION,egypt_region,X #L Єгипті#!#!. Кіпр, розташований у Середземному морі, завжди був більмом на нашому оці, оскільки хрестоносці прагнули підірвати наш вплив у регіоні. Через роки Кіпр нарешті перейшов під #L [ROOT.GetCountry.GetAdjective|l]ий#! контроль."
   flavor_mam.42.a: "Відновимо автономне правління."
-  flavor_mam.42.a.tt: "[GetCountry('CYP').GetName] стан[GetCountry('CYP').Custom('end_etut')] нашими #TOOLTIP:SUBJECT_TYPE,vassal,X #L васалами#!#! на #TOOLTIP:PROVINCE_DEFINITION,cyprus_province,X #L Кіпрі#!#!. Ми передамо їм сам острів і всі наші [Concept('cores', 'корінні місцевості')|e]"
+  flavor_mam.42.a.tt: "[GetCountry('CYP').GetName] стан[GetCountry('CYP').Custom('end_eut')] нашими #TOOLTIP:SUBJECT_TYPE,vassal,X #L васалами#!#! на #TOOLTIP:PROVINCE_DEFINITION,cyprus_province,X #L Кіпрі#!#!. Ми передамо їм сам острів і всі наші [Concept('cores', 'корінні місцевості')|e]"
   flavor_mam.42.b: "Острів належить нам!"
   flavor_mam.42.historical_info: "У 1426 році мамлюки розпочали вирішальну воєнну кампанію проти Кіпру, яка завершилася битвою при Хірокітії. Перемога мамлюків стала поворотною точкою в тривалому конфлікті між мамлюками та Кіпрським королівством. Мамлюки захопили в полон кіпрського короля Януса. В результаті Кіпр опинився у васальній залежності від Мамлюцького султанату."
   flavor_mam.43.title: "Викорінення левантійських невірних"

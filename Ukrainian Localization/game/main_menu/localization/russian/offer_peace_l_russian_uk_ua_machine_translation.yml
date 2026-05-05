@@ -132,7 +132,7 @@
   peace_revoke_clan_autonomy: "Зниження автономії клану"
   peace_revoke_clan_autonomy_entry: "Зниження автономії @[TARGET_COUNTRY.GetFlag]!#ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! та повернення статусу [Concept('extraterritorial_country', 'екстериторіальної країни')|e]"
   peace_revoke_clan_autonomy_entry_short: "Зниження автономії @[TARGET_COUNTRY.GetFlag]! [TARGET_COUNTRY.Custom('CL_GEN')]"
-  turn_japanese_clan_into_building_based.tt: "[loser.GetName] передасть [loser.Custom('end_etut')] всі свої території #ONCLICK:COUNTRY,[winner.Custom('CL_tt')] #TOOLTIP:COUNTRY,[winner.Custom('CL_tt')],X [winner.Custom('CL_DAT')|L]#!#!, і їхня країна стане знову [Concept('extraterritorial_country', 'екстериторіальною')|e]"
+  turn_japanese_clan_into_building_based.tt: "[loser.GetName] переда[loser.Custom('end_yeyut')] всі свої території #ONCLICK:COUNTRY,[winner.Custom('CL_tt')] #TOOLTIP:COUNTRY,[winner.Custom('CL_tt')],X [winner.Custom('CL_DAT')|L]#!#!, і їхня країна стане знову [Concept('extraterritorial_country', 'екстериторіальною')|e]"
   peace_nanbokuchou_force_imperial_abdication: "Примус імператора до зречення"
   peace_nanbokuchou_force_imperial_abdication_entry: "Примус імператорської династії до зречення"
   peace_nanbokuchou_force_imperial_abdication_entry_short: "$peace_nanbokuchou_force_imperial_abdication_entry$"

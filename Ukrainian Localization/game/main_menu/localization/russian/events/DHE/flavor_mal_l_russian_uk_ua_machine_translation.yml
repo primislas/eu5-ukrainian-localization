@@ -57,7 +57,7 @@
   flavor_mal.13.a: "Це велике надбання нашого народу!"
   flavor_mal.13.b: "Ми захоплюємося медресе, але більше не можемо його фінансувати…"
   flavor_mal.14.title: "[target_subject_country.GetNameWithNoTooltip] і боротьба за незалежність"
-  flavor_mal.14.desc: "Попри те, що ми щосили намагаємося змінити життя наших васалів на краще, деякі з них бажають знищити нас і нашу спадщину. Вони плетуть таємні інтриги, чекаючи слушного моменту для удару… \n\n[target_subject_country.GetName] вед[target_subject_country.Custom('end_etut')] себе як примхливі діти, які остаточно відбилися від рук."
+  flavor_mal.14.desc: "Попри те, що ми щосили намагаємося змінити життя наших васалів на краще, деякі з них бажають знищити нас і нашу спадщину. Вони плетуть таємні інтриги, чекаючи слушного моменту для удару… \n\n[target_subject_country.GetName] вед[target_subject_country.Custom('end_eut')] себе як примхливі діти, які остаточно відбилися від рук."
   flavor_mal.14.a: "Чудово. Надайте їм незалежність…"
   flavor_mal.14.b: "Ну, якщо вони хочуть війни…"
   flavor_mal.14.b.tt: "Ми спробуємо втихомирити #ONCLICK:COUNTRY,[GetCountry('JOL').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('JOL').Custom('CL_tt')],X [GetCountry('JOL').Custom('CL_ACC')|L]#!#!.\n#italic Це може призвести до #R війни#! між нашими країнами!#!"
