@@ -2378,7 +2378,7 @@
  
  default_RU_culture: "#L [Culture.Custom('Culture_adj')]ск#!"
  default_RU_culture_wntt: "[Culture.Custom('Culture_adj_wntt')]ск"
-  swedish_cadj_wntt: "Шведск"
+ swedish_cadj_wntt: "Шведск"
  danish_cadj_wntt: "Датск"
  finnish_cadj_wntt: "Финск"
  karelian_cadj_wntt: "Карельск"
@@ -4472,7 +4472,7 @@
  ghari_culture_cadj_wntt: "Гарийск"
  gela_culture_cadj_wntt: "Геланск"
  arosi_culture_cadj_wntt: "Аросийск"
- mu_ngava_culture_cadj_wntt: "Му-нгавск"			
+ mu_ngava_culture_cadj_wntt: "Му-нгавск"
  swedish_cadj: "#TOOLTIP:CULTURE,$swedish_tt$, #L Шведск#!#!"
  danish_cadj: "#TOOLTIP:CULTURE,$danish_tt$, #L Датск#!#!"
  finnish_cadj: "#TOOLTIP:CULTURE,$finnish_tt$, #L Финск#!#!"

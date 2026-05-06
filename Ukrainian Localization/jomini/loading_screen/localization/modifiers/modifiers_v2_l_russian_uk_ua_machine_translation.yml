@@ -1,0 +1,12 @@
+﻿l_russian:
+  MODIFIER_TRUE_GOOD: "Так"
+  MODIFIER_TRUE_NEUTRAL: "Так"
+  MODIFIER_TRUE_BAD: "Так"
+  MODIFIER_FALSE_GOOD: "Ні"
+  MODIFIER_FALSE_NEUTRAL: "Ні"
+  MODIFIER_FALSE_BAD: "Ні"
+  MODIFIER_NAME_VALUE_SEPARATOR: ": "
+  MODIFIER_VALUE_NAME_SEPARATOR: " "
+  MODIFIER_UNKNOWN_SOURCE: "Невідоме джерело"
+  MODIFIER_COLLECTION_INSTANCES_HEADER: "Прямі джерела"
+  MODIFIER_COLLECTION_COLLECTIONS_HEADER: "Успадковані значення"

@@ -4,21 +4,22 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 from eukrainersalis.utils.log_utils import logger
+from eukrainersalis.utils.translation_utils import Language
 
 load_dotenv()
 
 project_dir = Path(__file__).resolve().parent.parent.parent
 translation_dir = project_dir / "Ukrainian Localization"
-game_dir = Path(os.getenv("GAME_DIR"))
-mod_dir = Path(os.getenv("MOD_DIR"))
+game_dir = Path(os.getenv("GAME_DIR", "./"))
+mod_dir = Path(os.getenv("MOD_DIR", "./"))
 _EMPTY_LIST = []
 
 
-def list_localization_files(languages: str | list[str] | None = None, source_dir: Path = translation_dir) -> list[str]:
+def list_localization_files(languages: Language | str | list[Language | str] | None = None, source_dir: Path = translation_dir) -> list[str]:
     def is_matching_file(filename: str) -> bool:
         return (not languages and filename.endswith(".yml")) or any(f"_l_{l}.yml" in filename for l in languages)
 
-    if type(languages) == str:
+    if isinstance(languages, (str, Language)):
         languages = [languages]
     localization_files = []
 
@@ -31,9 +32,14 @@ def list_localization_files(languages: str | list[str] | None = None, source_dir
     return localization_files
 
 
+def list_translation_files(languages: Language | str | list[Language | str] | None = None, source_dir: Path = translation_dir) -> list[str]:
+    
+    return list_localization_files(languages, source_dir)
+
+
 if __name__ == "__main__":
     # _languages = ["ukrainian_machine_translation"]
-    _languages = ["english"]
+    _languages = [Language.ENGLISH]
     _files = list_localization_files(_languages, translation_dir)
     logger.info(f"Found {len(_files)} {_languages} localization files")
     for file in _files:

@@ -502,7 +502,7 @@
  international_organization_MARRIAGE_UNION_COUNTRIES_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$MARRIAGE_UNION_COUNTRIES_tt$,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]ой брачной унии#!#!"
  international_organization_MARRIAGE_UNION_DYNASTIES_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$MARRIAGE_UNION_DYNASTIES_tt$,X #L Брачной унии [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetDynasty.GetNameWithNoTooltip]#!#!"
  international_organization_MARRIAGE_UNION_SAME_DYNASTY_GEN: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$MARRIAGE_UNION_SAME_DYNASTY_tt$,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ской брачной унии#!#!"
- 							
+ 
  international_organization_hre_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священной Римской Империи#!#!"
  international_organization_catholic_church_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$catholic_church_tt$,X #L Католической церкви#!#!"
  international_organization_autocephalous_patriarchate_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$autocephalous_patriarchate_tt$,X #L Автокефальному патриархату#!#!"
@@ -586,7 +586,7 @@
  international_organization_MARRIAGE_UNION_COUNTRIES_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$MARRIAGE_UNION_COUNTRIES_tt$,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]ой брачной унии#!#!"
  international_organization_MARRIAGE_UNION_DYNASTIES_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$MARRIAGE_UNION_DYNASTIES_tt$,X #L Брачной унии [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetDynasty.GetNameWithNoTooltip]#!#!"
  international_organization_MARRIAGE_UNION_SAME_DYNASTY_DAT: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$MARRIAGE_UNION_SAME_DYNASTY_tt$,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ской брачной унии#!#!"
-							
+
  international_organization_hre_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священную Римскую Империю#!#!"
  international_organization_catholic_church_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$catholic_church_tt$,X #L Католическую церковь#!#!"
  international_organization_autocephalous_patriarchate_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$autocephalous_patriarchate_tt$,X #L Автокефальный патриархат#!#!"
@@ -670,7 +670,7 @@
  international_organization_MARRIAGE_UNION_COUNTRIES_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$MARRIAGE_UNION_COUNTRIES_tt$,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]ую брачную унию#!#!"
  international_organization_MARRIAGE_UNION_DYNASTIES_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$MARRIAGE_UNION_DYNASTIES_tt$,X #L Брачную унию [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetDynasty.GetNameWithNoTooltip]#!#!"
  international_organization_MARRIAGE_UNION_SAME_DYNASTY_ACC: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$MARRIAGE_UNION_SAME_DYNASTY_tt$,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]скую брачную унию#!#!"
-							
+
  international_organization_hre_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священной Римской Империей#!#!"
  international_organization_catholic_church_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$catholic_church_tt$,X #L Католической церковью#!#!"
  international_organization_autocephalous_patriarchate_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$autocephalous_patriarchate_tt$,X #L Автокефальным патриархатом#!#!"
@@ -754,7 +754,7 @@
  international_organization_MARRIAGE_UNION_COUNTRIES_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$MARRIAGE_UNION_COUNTRIES_tt$,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]ой брачной унией#!#!"
  international_organization_MARRIAGE_UNION_DYNASTIES_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$MARRIAGE_UNION_DYNASTIES_tt$,X #L Брачной унией [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetDynasty.GetNameWithNoTooltip]#!#!"
  international_organization_MARRIAGE_UNION_SAME_DYNASTY_INST: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$MARRIAGE_UNION_SAME_DYNASTY_tt$,X #L [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ской брачной унией#!#!"
-				
+
  international_organization_hre_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священной Римской Империи#!#!"
  international_organization_catholic_church_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$catholic_church_tt$,X #L Католической церкви#!#!"
  international_organization_autocephalous_patriarchate_PREP: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$autocephalous_patriarchate_tt$,X #L Автокефальном патриархате#!#!"
@@ -842,90 +842,7 @@
  
  
  
- international_organization_hre_GEN_wntt: "Священной Римской Империи" #True
- international_organization_catholic_church_GEN_wntt: "Католической церкви" #True
- international_organization_autocephalous_patriarchate_GEN_wntt: "Автокефального патриархата" #True
- international_organization_coalition_GEN_wntt: "Коалиции" #True
- international_organization_colonial_federation_GEN_wntt: "Колониальной федерации" #True
- international_organization_crusade_GEN_wntt: "Крестового похода" #True
- international_organization_defensive_league_GEN_wntt: "Оборонительной лиги" #True
- international_organization_foreign_league_france_GEN_wntt: "Французской лиги" #True
- international_organization_foreign_league_hre_GEN_wntt: "Имперской лиги" #True
- international_organization_foreign_league_iberia_GEN_wntt: "Иберийской лиги" #True
- international_organization_guelphs_io_GEN_wntt: "Гвельфов" #True
- international_organization_ghibellines_io_GEN_wntt: "Гибеллинов" #True
- international_organization_high_kingship_GEN_wntt: "Верховного королевства" #True
- international_organization_hindu_branch_GEN_wntt: "Ответвления индуизма" #True
- international_organization_ilkhanate_GEN_wntt: "Государства Хулагуидов" #True
- international_organization_independence_movement_GEN_wntt: "Движения за независимость" #True
- international_organization_italian_league_1_GEN_wntt: "Первой итальянской лиги" #True
- international_organization_italian_league_2_GEN_wntt: "Второй итальянской лиги" #True
- international_organization_italian_league_3_GEN_wntt: "Третьей итальянской лиги" #True
- international_organization_japanese_shogunate_GEN_wntt: "Японского сёгуната" #True
- international_organization_jihad_GEN_wntt: "Джихада" #True
- international_organization_jurchen_confederation_GEN_wntt: "Конфедерации чжурчжэней" #True
- international_organization_lordship_of_ireland_GEN_wntt: "Манора Ирландии" #True
- international_organization_marriage_union_GEN_wntt: "Брачной унии" #True
- international_organization_middle_kingdom_GEN_wntt: "Срединного государства" #True
- international_organization_red_turban_rebels_GEN_wntt: "«Красных повязок»" #True
- international_organization_protestant_union_GEN_wntt: "Евангелической унии" #True
- international_organization_catholic_league_GEN_wntt: "Католической лиги" #True
- international_organization_sect_GEN_wntt: "Направления" #True
- international_organization_shinto_GEN_wntt: "Синтоизма" #True
- international_organization_sikhism_GEN_wntt: "Сикхизма" #True
- international_organization_swiss_confederation_GEN_wntt: "Швейцарской Конфедерации" #True
- international_organization_tatar_yoke_GEN_wntt: "Татарского ига" #True
- international_organization_tribal_confederation_GEN_wntt: "Племенной конфедерации" #True
- international_organization_union_GEN_wntt: "Унии" #True
- international_organization_CATHOLIC_PATRIARCHATE_NAME_GEN_wntt: "Католического патриархата [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]" #True
- international_organization_ECUMENICAL_PATRIARCHATE_NAME_GEN_wntt: "Вселенского патриархата [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]" #True
- international_organization_AUTOCEPHALOUS_PATRIARCHATE_SEAT_NAME_GEN_wntt: "Автокефального патриархата [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]" #True
- international_organization_SECT_CONFUCIANISM_NAME_GEN_wntt: "Конфуцианства" #True
- international_organization_SECT_DAOISM_NAME_GEN_wntt: "Даосизма" #True
- international_organization_SECT_JOUDO_SHINSHUU_GEN_wntt: "Дзёдо-синсю" #True
- international_organization_SECT_PURE_LAND_SCHOOL_NAME_GEN_wntt: "Буддизма Чистой земли" #True
- international_organization_SECT_TENDAI_NAME_GEN_wntt: "Тэндая" #True
- international_organization_SECT_NICHIREN_NAME_GEN_wntt: "Нитирэна" #True
- international_organization_SECT_TIANTAI_NAME_GEN_wntt: "Тяньтая" #True
- international_organization_SECT_DHARMA_SCHOOL_NAME_GEN_wntt: "Школы дхармов" #True
- international_organization_SECT_FLOWER_GARLAND_SCHOOL_NAME_GEN_wntt: "Школы цветочной гирляндов" #True
- international_organization_SECT_MEDITATION_SCHOOL_NAME_GEN_wntt: "Школы медитации" #True
- international_organization_SECT_MANTRA_SCHOOL_NAME_GEN_wntt: "Школы мантров" #True
- international_organization_SECT_SHUGENDO_NAME_GEN_wntt: "Сюгэндо" #True
- international_organization_SECT_AZHALIISM_NAME_GEN_wntt: "Ачжализма" #True
- international_organization_SECT_MUSOK_NAME_GEN_wntt: "Мусока" #True
- international_organization_SECT_NYIGMA_NAME_GEN_wntt: "Школы Ньингма" #True
- international_organization_SECT_KADAM_NAME_GEN_wntt: "Школы Кадам" #True
- international_organization_SECT_KAGYU_NAME_GEN_wntt: "Школы Кагью" #True
- international_organization_SECT_SAKYA_NAME_GEN_wntt: "Школы Сакья" #True
- international_organization_SECT_JONANG_NAME_GEN_wntt: "Школы Джонанг" #True
- international_organization_SECT_MULASARVASTIVADA_NAME_GEN_wntt: "Муласарвастивады" #True
- international_organization_SECT_MAHAVIHARA_NAME_GEN_wntt: "Махавихары" #True
- international_organization_SECT_BURMESE_BUDDHISM_NAME_GEN_wntt: "Бирманского буддизма" #True
- international_organization_SECT_LANKAVONG_NAME_GEN_wntt: "Ланкавонга" #True
- international_organization_SECT_KHMER_BUDDHISM_NAME_GEN_wntt: "Кхмерского буддизма" #True
- international_organization_vaishnavism_GEN_wntt: "Вишнуизма" #True
- international_organization_shaivism_GEN_wntt: "Шиваизма" #True
- international_organization_shaktism_GEN_wntt: "Шактизма" #True
- international_organization_smartism_GEN_wntt: "Смартизма" #True
- international_organization_haudenosaunee_tribal_confederation_GEN_wntt: "Конфедерации хауденосауни" #True
- international_organization_colonial_federation_usa_GEN_wntt: "Северо-Американских Соединённых Штатов" #True
- international_organization_jianzhou_jurchen_confederation_GEN_wntt: "Конфедерации Цзяньчжоу" #True
- international_organization_hulun_jurchen_confederation_GEN_wntt: "Конфедерации Хулунь" #True
- international_organization_changbaishan_jurchen_confederation_GEN_wntt: "Конфедерации Чанбайшань" #True
- international_organization_PAPAL_HOLY_LEAGUE_NAME_GEN_wntt: "Священной лиги" #True
- international_organization_LITHUANIAN_POLISH_COMMONWEALTH_NAME_GEN_wntt: "Литовской Речи Посполитой" #True
- international_organization_POLISH_LITHUANIAN_COMMONWEALTH_NAME_GEN_wntt: "Речи Посполитой" #True
- international_organization_KALMAR_UNION_NAME_GEN_wntt: "Кальмарской унии" #True
- international_organization_UNION_OF_THE_CROWNS_NAME_GEN_wntt: "Унии корон" #True
- international_organization_IBERIAN_UNION_NAME_GEN_wntt: "Иберийской унии" #True
- international_organization_HABSBURG_UNION_NAME_GEN_wntt: "Габсбургской унии" #True
- international_organization_PERSONALIZED_UNION_NAME_GEN_wntt: "[ROOT.GetInternationalOrganization.GetCountryWithHighestGreatPowerScoreWithSpecialStatus('senior_partner').GetAdjectiveWithNoTooltip]ой унии"
- international_organization_DOUBLE_UNION_NAME_GEN_wntt: "[ROOT.GetInternationalOrganization.GetCountryOrderedByGreatPowerScore('(int32)0').GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetCountryOrderedByGreatPowerScore('(int32)1').GetAdjectiveWithNoTooltip]ой унии"
- international_organization_MARRIAGE_UNION_COUNTRIES_GEN_wntt: "[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]о-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetCourtCountry.GetAdjectiveWithNoTooltip]ой брачной унии"
- international_organization_MARRIAGE_UNION_DYNASTIES_GEN_wntt: "Брачной унии [ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]-[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)1').GetCharacter.GetDynasty.GetNameWithNoTooltip]"
- international_organization_MARRIAGE_UNION_SAME_DYNASTY_GEN_wntt: "[ROOT.GetInternationalOrganization.GetLeaderScopeObjectAtIndex('(int32)0').GetCharacter.GetDynasty.GetNameWithNoTooltip]ской брачной унии"
- 
+
  hre_tt: "0" #True
  catholic_church_tt: "1" #True
  guelphs_io_tt: "7" #True

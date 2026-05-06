@@ -1,0 +1,10 @@
+﻿l_russian:
+  flavor_cas_por.1.title: "Королівська п'ята"
+  flavor_cas_por.1.desc_common: "Як [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'суверенна правителька', 'суверенний правитель' )] #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] володіє всіма багатствами країни. Усі природні ресурси, що видобуваються [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ими підданими, по праву належать [Select_CString(target_character.IsFemale, 'їй', 'йому' )]. Втім, якби кожна людина була зобов'язана віддавати країні все цінне, у людей відпало б будь-яке бажання займатися продуктивною працею. Ось чому ми вирішили стягувати з них лише частину здобутих ресурсів — #TOOLTIP:POLICY,royal_fifth_law,X #L «королівську п'яту»#!#!."
+  flavor_cas_por.1.desc: "$flavor_cas_por.1.desc_common$\n\nГоловне джерело багатства [target_location.Custom('LR_GEN')|l] [target_location.GetName] — це [target_goods.GetName|l]. Останнім часом видобуток цього ресурсу різко зріс, у зв'язку з чим питання оподаткування знову вийшло на перший план. Місцеві віцекоролі не хочуть стягувати [ROOT.GetCountry.GetGovernment.GetAdjective|l]ий податок, побоюючись завдати шкоди виробництву."
+  flavor_cas_por.1.a: "«Королівську п'яту» доведеться стягувати, подобається це комусь чи ні."
+  flavor_cas_por.1.b: "Не будемо заважати прибутковому видобутку."
+  flavor_cas_por.2.title: "$flavor_cas_por.1.title$"
+  flavor_cas_por.2.desc: "$flavor_cas_por.1.desc_common$\n\nНещодавно в [target_location.Custom('LR_PREP')|l] [target_location.GetName] зробили цінну знахідку — там є [target_goods.GetName|l]! У зв'язку з цим знову постає питання про доцільність стягнення податку. Місцевий віцекороль вимагає від керуючих копальні виплачувати «королівську п'яту» в повному обсязі, однак придворні радники побоюються, що це негативно позначиться на видобутку."
+  flavor_cas_por.2.a: "$flavor_cas_por.1.a$"
+  flavor_cas_por.2.b: "Залишимо їх у спокої до пори до часу."

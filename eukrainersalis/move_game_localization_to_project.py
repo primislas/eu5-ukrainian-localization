@@ -3,6 +3,7 @@ import shutil
 from pathlib import Path
 
 from eukrainersalis.utils.file_utils import game_dir, translation_dir, list_localization_files
+from eukrainersalis.utils.translation_utils import Language
 
 
 def copy_localizations(source_dir: Path, target_dir: Path, languages: list[str]):
@@ -18,5 +19,5 @@ def copy_localizations(source_dir: Path, target_dir: Path, languages: list[str])
 
 
 if __name__ == "__main__":
-    _languages = ["english", "russian"]
+    _languages = [Language.ENGLISH, Language.RUSSIAN]
     copy_localizations(game_dir, translation_dir, _languages)

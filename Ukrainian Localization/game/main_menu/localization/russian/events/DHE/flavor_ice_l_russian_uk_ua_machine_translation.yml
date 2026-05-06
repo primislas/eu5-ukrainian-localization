@@ -1,0 +1,11 @@
+﻿l_russian:
+  flavor_ice.10.title: "Єпархії [ROOT.GetCountry.Custom('CL_GEN')]"
+  flavor_ice.10.desc: "#L [ROOT.GetCountry.GetReligion.GetAdjective]а#! віра споконвіку залишається важливою складовою #L [ROOT.GetCountry.GetAdjective|l]ого#! життя. При цьому на острові одночасно існують дві дуже різні єпархії: [target_location.GetName] та [skalholt.GetName].\n\nЄпархія [target_location.GetNameWithNoTooltip] у провінції [target_location.GetProvince.GetName] вважається більш незалежною та самодостатньою, а [skalholt.GetNameWithNoTooltip] у провінції [skalholt.GetProvince.GetName], навпаки, відрізняється тісними зв’язками з такою силою, як [overlord.GetLongName].\n\nЗ розвитком [ROOT.GetCountry.Custom('CL_GEN')] унікальні особливості кожної єпархії набувають все більшої важливості для нас."
+  flavor_ice.10.a: "Підтримаємо незалежну єпархію [target_location.GetNameWithNoTooltip]."
+  flavor_ice.10.b: "Спробуємо здобути прихильність [overlord.GetAdjectiveWithNoTooltip|l]ого єпископа."
+  opinion_opposed_our_bishop: "Протистояння з нашим єпископом"
+  opinion_supported_our_bishop: "Підтримка нашого єпископа"
+  flavor_ice.11.title: "Хюльдуфолк"
+  flavor_ice.11.desc: "Серед #L [ROOT.GetCountry.GetCulture.GetName|l]ого#! народу споконвіку ходять легенди про «хюльдуфолк» — таємничих і невловимих ельфів, що живуть у горах Ісландії.\n\nНещодавно ми вирішили побудувати #L [ROOT.GetCountry.GetReligion.GetAdjective|l]у#! церкву в [target_location.Custom('LR_PREP')|l] [target_location.GetName], але виявилося, що обрана для будівництва скеля вважається такою, що належить хюльдуфолку.\n\n[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] бояться, що сварка з чарівним народом накличе на них незліченні лиха, а [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] заперечують саме існування цих надприродних створінь. Вирішувати цю богословську суперечку та долю будівництва, звісно ж, доведеться короні."
+  flavor_ice.11.a: "Підемо назустріч місцевим жителям і відмовимося від будівництва."
+  flavor_ice.11.b: "Побудуємо церкву, не звертаючи уваги на забобони."
