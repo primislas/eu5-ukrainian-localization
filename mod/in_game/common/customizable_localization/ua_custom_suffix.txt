@@ -3851,10 +3851,22 @@ endlong_yeyut = {
 	suffix = "_endlong_yeyut"
 	if_invalid_loc = return_empty
 }
-endlong_itat = {
+endlong_ytyat = {
 	log_loc_errors = no
 	parent = country_ua_flavor
-	suffix = "_endlong_itat"
+	suffix = "_endlong_ytyat"
+	if_invalid_loc = return_empty
+}
+endlong_ytat = {
+	log_loc_errors = no
+	parent = country_ua_flavor
+	suffix = "_endlong_ytat"
+	if_invalid_loc = return_empty
+}
+endlong_ytlyat = {
+	log_loc_errors = no
+	parent = country_ua_flavor
+	suffix = "_endlong_ytlyat"
 	if_invalid_loc = return_empty
 }
 endlong_ityat = {

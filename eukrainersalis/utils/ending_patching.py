@@ -13,6 +13,8 @@ ending_mappings = {
     "'end_gegu'": "'end_eut'",
     "'endlong_enna'": "'endlong_clean'",
     "'end_enna'": "'end_clean'",
+    "'endlong_itat'": "'endlong_ytyat'",
+    "'end_itat'": "'end_ytyat'",
     "'predlog_sso'": "'preposition_zzi'",
     "'endlong_predlog_sso'": "'preposition_zzi'",
     "'end_predlog_sso'": "'preposition_zzi'",

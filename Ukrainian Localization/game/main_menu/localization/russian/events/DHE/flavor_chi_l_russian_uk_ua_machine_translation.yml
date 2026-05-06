@@ -354,7 +354,7 @@
   flavor_chi.80.b: "Краще витратимо ресурси на щось інше."
   flavor_chi.81.title: "Прибуття [expedition_country.GetAdjectiveWithNoTooltip|l]ої експедиції"
   flavor_chi.81.desc: "До наших земель прибула експедиція з #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Загін чужинців очолює [Select_CString(target_character.IsFemale, 'якась', 'якийсь' )] [target_character.GetName]; [Select_CString(target_character.IsFemale, 'вона', 'він' )] вимагає, щоб [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] негайно [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'прийняла', 'прийняв' )] [Select_CString(target_character.IsFemale, 'її', 'його' )]. Ми вважаємо, що непрохані гості сподіваються зробити нас своїми #TOOLTIP:SUBJECT_TYPE,tributary,X #L данниками#!#!. Чи варто вислухати їхню пропозицію?"
-  flavor_chi.81.a: "Послухаємо, що запропон[expedition_country.Custom('endlong_itat')] [expedition_country.GetLongNameWithNoTooltip]."
+  flavor_chi.81.a: "Послухаємо, що запропону[expedition_country.Custom('end_yeyut')] [expedition_country.GetLongNameWithNoTooltip]."
   flavor_chi.81.b: "Ми нікому не підкоримося!"
   flavor_chi.82.title: "Нурганська військова комісія"
   flavor_chi.82.desc: "Наша експедиція досягла гирла річки Амур і зупинилася в [target_location.Custom('LR_PREP')|l] [target_location.GetName]. Посланцям #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! вдалося досягти взаєморозуміння з місцевим вождем, але вони потребують фінансової підтримки та військової допомоги, щоб утримати в покорі підкорені племена."

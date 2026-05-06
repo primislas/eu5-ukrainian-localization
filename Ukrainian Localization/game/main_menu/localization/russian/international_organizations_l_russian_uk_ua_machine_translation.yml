@@ -420,7 +420,7 @@
   CATHOLIC_CHURCH_LEADER_MALE: "$catholic_pope$"
   CATHOLIC_CHURCH_LEADER_FEMALE: "$catholic_pope$"
   CATHOLIC_CHURCH_CURIA_AND_CARDINAL: "#L [Localize('game_concept_curia')]#! ([MemberTypeItem.GetMembersAmount]) та #L [Localize('game_concept_cardinals')|l]#! ([GetDataModelSize(InternationalOrganizationsView.GetInternationalOrganization.GetReligion.GetCardinals)|l])"
-  CATHOLIC_CHURCH_CURIA_MEMBER: "[Country.GetName] вход[Country.Custom('end_itat')] до [Concept('curia', 'курії')|e] та володіє кількома [Concept('cardinal_s', 'кардиналами')|e] ([GetDataModelSize(Country.GetCardinals)])"
+  CATHOLIC_CHURCH_CURIA_MEMBER: "[Country.GetName] вход[Country.Custom('end_ytyat')] до [Concept('curia', 'курії')|e] та володіє кількома [Concept('cardinal_s', 'кардиналами')|e] ([GetDataModelSize(Country.GetCardinals)])"
   CURIA_BREAKDOWN_TOOLTIP: "#T [Localize('game_concept_curia')] в об'єднанні «[InternationalOrganization.GetNameWithNoTooltip]»#!\nДо об'єднання «[InternationalOrganization.GetName]» входять наступні учасники [Concept('curia', 'курії')|e]:\n[Concept('member', 'Учасники')|e]: [Concept('cardinals', 'кардинали')|e]"
   CURIA_BREAKDOWN_TOOLTIP_ENTRY: "@[COUNTRY.GetFlag]! [COUNTRY.GetLongName|Y]: #TOOLTIP:$BREAKDOWN_TAG$ $NUMBER|L$#!"
   CURIA_HEADER: "@[COUNTRY.GetFlag]! [COUNTRY.GetLongName|Y] — кафедри [Concept('cardinals', 'кардиналів')|e]:"

@@ -70,4 +70,4 @@
   flavor_bng.1001.desc: "З #ONCLICK:COUNTRY,[target_country2.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country2.Custom('CL_tt')],X [target_country2.Custom('CL_GEN')|L]#!#! до [ROOT.GetCountry.GetCapital.Custom('LR_ACC')|l] [ROOT.GetCountry.GetCapital.GetName] прибули посли. За їхніми словами, вони сподіваються встановити між нашими країнами добрі відносини і, можливо, пізнати наше мистецтво державного управління. Завдяки цьому ми можемо спробувати збільшити свій вплив, однак, можливо, було б не надто розумно розкривати чужоземцям особливості нашого укладу."
   flavor_bng.1001.a: "Люб'язно приймемо їх!"
   flavor_bng.1001.b: "Їм тут не місце."
-  bng_rejected_agreement_tt: "[target_country2.GetName] не отрим[target_country2.Custom('end_itat')] жодних бонусів"
+  bng_rejected_agreement_tt: "[target_country2.GetName] не отрима[target_country2.Custom('end_yeyut')] жодних бонусів"

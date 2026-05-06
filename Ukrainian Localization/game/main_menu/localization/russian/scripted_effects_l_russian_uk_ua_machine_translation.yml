@@ -523,7 +523,7 @@
   THIRD_BLOCK_DISASTER_EFFECT_EFFECT: "[COUNTRY.GetName] не дозволя[COUNTRY.Custom('end_yeyut')] [Concept('disaster', 'лиху')|e] «[DISASTER_TYPE.GetName]» повторитися"
   PAST_BLOCK_DISASTER_EFFECT_EFFECT: "[Concept('disaster', 'Лихо')|e] «[DISASTER_TYPE.GetName]» більше не може повторитися"
   PAST_WE_BLOCK_DISASTER_EFFECT_EFFECT: "Ми не дозволимо [Concept('disaster', 'лиху')|e] «[DISASTER_TYPE.GetName]» повторитися"
-  PAST_THIRD_BLOCK_DISASTER_EFFECT_EFFECT: "[COUNTRY.GetName] більше не дозвол[COUNTRY.Custom('end_itat')] [Concept('disaster', 'лиху')|e] «[DISASTER_TYPE.GetName]» повторитися"
+  PAST_THIRD_BLOCK_DISASTER_EFFECT_EFFECT: "[COUNTRY.GetName] більше не дозвол[COUNTRY.Custom('end_ytyat')] [Concept('disaster', 'лиху')|e] «[DISASTER_TYPE.GetName]» повторитися"
   BLOCK_DISASTER_TEMPORARILY_EFFECT: "[Concept('disaster', 'Лихо')|e] «[DISASTER_TYPE.GetName]» не може статися протягом кількох років ($VALUE|0Y$)"
   WE_BLOCK_DISASTER_TEMPORARILY_EFFECT: "Ми не дозволяємо [Concept('disaster', 'лиху')|e] «[DISASTER_TYPE.GetName]» статися протягом кількох років ($VALUE|0Y$)"
   THIRD_BLOCK_DISASTER_TEMPORARILY_EFFECT: "[COUNTRY.GetName] не дозволя[COUNTRY.Custom('end_yeyut')] [Concept('disaster', 'лиху')|e] «[DISASTER_TYPE.GetName]» статися протягом кількох років ($VALUE|0Y$)"

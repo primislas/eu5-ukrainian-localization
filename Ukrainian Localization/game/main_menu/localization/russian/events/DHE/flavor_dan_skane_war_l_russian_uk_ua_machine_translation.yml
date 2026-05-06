@@ -22,7 +22,7 @@
   flavor_dan_skane_war.5.a.tt: "Як плату за [GetCountry('SKE').Custom('CL_ACC')] ми запропонуємо наш шестимісячний дохід. Якщо влада #ONCLICK:COUNTRY,[GetCountry('SWE').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SWE').Custom('CL_tt')],X [GetCountry('SWE').Custom('CL_GEN')|L]#!#! погодиться, Сканія стане нашим васалом"
   flavor_dan_skane_war.5.b: "Нас це більше не цікавить."
   flavor_dan_skane_war.6.title: "Влада [GetCountry('DAN').Custom('CL_GEN')] пропонує купити [GetCountry('SKE').Custom('CL_ACC')]"
-  flavor_dan_skane_war.6.desc: "[GetCountry('DAN').GetName] хот[GetCountry('DAN').Custom('end_itat')] купити у нас права на володіння #ONCLICK:COUNTRY,[GetCountry('SKE').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SKE').Custom('CL_tt')],X [GetCountry('SKE').Custom('CL_INST')|L]#!#!. Якщо ми приймемо цю пропозицію, то отримаємо багато золота, яке зможемо витратити на свої потреби, але втратимо безпосередній вихід до #TOOLTIP:LOCATION,oresund,X #L Ересунну#!#!."
+  flavor_dan_skane_war.6.desc: "[GetCountry('DAN').GetName] хоч[GetCountry('DAN').Custom('end_eut')] купити у нас права на володіння #ONCLICK:COUNTRY,[GetCountry('SKE').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SKE').Custom('CL_tt')],X [GetCountry('SKE').Custom('CL_INST')|L]#!#!. Якщо ми приймемо цю пропозицію, то отримаємо багато золота, яке зможемо витратити на свої потреби, але втратимо безпосередній вихід до #TOOLTIP:LOCATION,oresund,X #L Ересунну#!#!."
   flavor_dan_skane_war.6.a: "Ми приймаємо пропозицію!"
   flavor_dan_skane_war.6.b: "Відхилимо пропозицію!"
   flavor_dan_skane_war.7.title: "Влада [GetCountry('SWE').Custom('CL_GEN')] приймає нашу пропозицію"
