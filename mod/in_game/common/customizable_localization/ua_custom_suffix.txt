@@ -3875,10 +3875,10 @@ endlong_yityat = {
 	suffix = "_endlong_yityat"
 	if_invalid_loc = return_empty
 }
-endrank_fem = {
+endrank_vlaloly = {
 	log_loc_errors = no
 	parent = country_ua_flavor
-	suffix = "_endrank_fem"
+	suffix = "_endrank_vlaloly"
 	if_invalid_loc = return_empty
 }
 endrank_clean = {
@@ -3887,40 +3887,40 @@ endrank_clean = {
 	suffix = "_endrank_clean"
 	if_invalid_loc = return_empty
 }
-endrank_etut = {
+endrank_eut = {
 	log_loc_errors = no
 	parent = country_ua_flavor
-	suffix = "_endrank_etut"
+	suffix = "_endrank_eut"
 	if_invalid_loc = return_empty
 }
-endrank_etyut = {
+endrank_yeyut = {
 	log_loc_errors = no
 	parent = country_ua_flavor
-	suffix = "_endrank_etyut"
+	suffix = "_endrank_yeyut"
 	if_invalid_loc = return_empty
 }
-endrank_gegu = {
+endrank_ytyat = {
 	log_loc_errors = no
 	parent = country_ua_flavor
-	suffix = "_endrank_gegu"
+	suffix = "_endrank_ytyat"
 	if_invalid_loc = return_empty
 }
-endrank_itat = {
+endrank_ytat = {
 	log_loc_errors = no
 	parent = country_ua_flavor
-	suffix = "_endrank_itat"
+	suffix = "_endrank_ytat"
 	if_invalid_loc = return_empty
 }
-endrank_ityat = {
+endrank_ytlyat = {
 	log_loc_errors = no
 	parent = country_ua_flavor
-	suffix = "_endrank_ityat"
+	suffix = "_endrank_ytlyat"
 	if_invalid_loc = return_empty
 }
-endrank_assya = {
+endrank_yityat = {
 	log_loc_errors = no
 	parent = country_ua_flavor
-	suffix = "_endrank_assya"
+	suffix = "_endrank_yityat"
 	if_invalid_loc = return_empty
 }
 rank_ua_GEN = {
