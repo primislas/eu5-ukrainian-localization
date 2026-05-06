@@ -324,7 +324,7 @@
   flavor_byz.1301.historical_info: "$flavor_byz_1300_historical_info_shared$"
   flavor_byz.1301.b: "Нам ні до чого чужа земля, у нас є [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]."
   flavor_byz.1302.title: "$flavor_byz.1300.title$"
-  flavor_byz.1302.desc: "[target_country2.GetName] відкликав[target_country2.Custom('end_assya')] на нашу пропозицію. #TOOLTIP:POPTYPE,burghers,X #L Міщани#!#! з [target_location2.Custom('LR_GEN')|l] [target_location2.GetName] готові оселитися в спорожнілих місцевостях [target_location.Custom('LR_GEN')|l] [target_location.GetName]."
+  flavor_byz.1302.desc: "[target_country2.GetName] відгукну[target_country2.Custom('end_vlaloly')]ся на нашу пропозицію. #TOOLTIP:POPTYPE,burghers,X #L Міщани#!#! з [target_location2.Custom('LR_GEN')|l] [target_location2.GetName] готові оселитися в спорожнілих місцевостях [target_location.Custom('LR_GEN')|l] [target_location.GetName]."
   flavor_byz.1302.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   flavor_byz.1303.title: "$flavor_byz.1300_title_key$"
   flavor_byz.1303.desc: "[target_country2.GetName] не прийня[target_country2.Custom('end_vlaloly')] нашу пропозицію. Там вважають, що їхні #TOOLTIP:POPTYPE,burghers,X #L міщани#!#! потрібніші в себе вдома."

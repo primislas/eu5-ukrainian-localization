@@ -164,7 +164,7 @@
   flavor_vij.1002.desc: "Прикро, але цілком очікувано: [target_country.GetName] відмовляється нам підкоритися."
   flavor_vij.1002.a: "Готуйте військо!"
   flavor_vij.1003.title: "[target_country.GetNameWithNoTooltip] здається"
-  flavor_vij.1003.desc: "[target_country.GetName] погод[target_country.Custom('end_assya')] підкоритися нам. Тепер ця країна — наш васал."
+  flavor_vij.1003.desc: "[target_country.GetName] погоди[target_country.Custom('end_vlaloly')]ся підкоритися нам. Тепер ця країна — наш васал."
   flavor_vij.1003.a: "Приємна несподіванка"
   flavor_vij.1100.title: "Чутки про повстання тамілів"
   flavor_vij.1100.desc: "Аж ніяк не всі підкорені нами #TOOLTIP:CULTURE,$tamil_tt$,X #L таміли#!#! раді новій владі. Ходять чутки, що [target_character2.GetName] збирається очолити велике повстання і занурити #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_ACC')|L]#!#! у вир громадянської війни. Радники благають нас вигнати [Select_CString(target_character2.IsFemale, 'її', 'його' )] з країни, але якщо ми так і вчинимо, #TOOLTIP:CULTURE,$tamil_tt$,X #L тамільське#!#! населення напевно образиться."

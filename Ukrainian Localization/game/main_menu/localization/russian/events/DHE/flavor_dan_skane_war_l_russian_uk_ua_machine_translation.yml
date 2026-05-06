@@ -26,5 +26,5 @@
   flavor_dan_skane_war.6.a: "Ми приймаємо пропозицію!"
   flavor_dan_skane_war.6.b: "Відхилимо пропозицію!"
   flavor_dan_skane_war.7.title: "Влада [GetCountry('SWE').Custom('CL_GEN')] приймає нашу пропозицію"
-  flavor_dan_skane_war.7.desc: "[GetCountry('SWE').GetName] погодил[GetCountry('SWE').Custom('end_assya')] продати нам права на володіння #ONCLICK:COUNTRY,[GetCountry('SKE').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SKE').Custom('CL_tt')],X [GetCountry('SKE').Custom('CL_INST')|L]#!#!. Хоча низка формальностей поки не виконана, договір вже ратифікований і набув чинності."
+  flavor_dan_skane_war.7.desc: "[GetCountry('SWE').GetName] погоди[GetCountry('SWE').Custom('end_vlaloly')]ся продати нам права на володіння #ONCLICK:COUNTRY,[GetCountry('SKE').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SKE').Custom('CL_tt')],X [GetCountry('SKE').Custom('CL_INST')|L]#!#!. Хоча низка формальностей поки не виконана, договір вже ратифікований і набув чинності."
   flavor_dan_skane_war.7.a: "[ROOT.GetCountry.Custom('common_string_positive')]"

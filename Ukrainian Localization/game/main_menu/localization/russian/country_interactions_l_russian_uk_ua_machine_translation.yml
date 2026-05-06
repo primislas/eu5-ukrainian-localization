@@ -440,7 +440,7 @@
   merge_tribe_iroquois_effect_text: "[SCOPE.sCountry('actor').GetName] та [SCOPE.sCountry('recipient').GetName] об'єднують племена."
   merge_tribe_iroquois_effect_text_past: "[SCOPE.sCountry('actor').GetName] та [SCOPE.sCountry('recipient').GetName] об'єднали племена у складі [Concept('country', 'країни')|e]."
   merge_tribe_iroquois_reject_effect_text: "[SCOPE.sCountry('actor').GetName] відмовля[SCOPE.sCountry('actor').('end_yeyu')]ться об'єднуватися з племенем [SCOPE.sCountry('recipient').GetName]."
-  merge_tribe_iroquois_reject_effect_text_past: "[SCOPE.sCountry('actor').GetName] відмовив[SCOPE.sCountry('actor').Custom('end_assya')]ся об'єднуватися [SCOPE.sCountry('recipient').Custom('preposition_zzi')] #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').Custom('CL_tt')] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').Custom('CL_tt')],X [SCOPE.sCountry('recipient').Custom('CL_INST')|L]#!#!."
+  merge_tribe_iroquois_reject_effect_text_past: "[SCOPE.sCountry('actor').GetName] відмови[SCOPE.sCountry('actor').Custom('end_vlaloly')]ся об'єднуватися [SCOPE.sCountry('recipient').Custom('preposition_zzi')] #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').Custom('CL_tt')] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').Custom('CL_tt')],X [SCOPE.sCountry('recipient').Custom('CL_INST')|L]#!#!."
   PROPOSE_merge_tribe_iroquois: "Об'єднати наше плем'я з племенем $RECIPIENT$?\n$INFO$."
   INCOMING_OFFER_merge_tribe_iroquois: "Країна $ACTOR$ попросила нас об'єднати нашу [Concept('country', 'країну')|e] з її племенем. Ми згодні? (Це призведе до закінчення гри)\n\n$INFO$"
   assassinate_character: "Вбивство персонажа"

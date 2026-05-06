@@ -119,7 +119,7 @@
   opinion_bowed_to_papal_demand_advisor: "Виконали вимоги папи"
   court_flavor_events.40.b: "Ми не будемо підкорятися папським вимогам."
   opinion_rejected_papal_demand_advisor: "Прихистили єретика"
-  court_flavor_events.41.title: "[heathen_advisor_country.GetLongNameWithNoTooltip] підкорил[heathen_advisor_country.Custom('endlong_assya')]ся"
+  court_flavor_events.41.title: "[heathen_advisor_country.GetLongNameWithNoTooltip] підкори[heathen_advisor_country.Custom('endlong_vlaloly')]ся"
   court_flavor_events.41.desc: "[heathen_advisor_country.GetLongName] і [heathen_advisor_country.GetGovernment.GetRulerTitle|l] цієї країни приносять вибачення. Єретика закують у ланцюги і доставлять до нас, щоб припинити поширення шкідливих вчень."
   court_flavor_events.41.a: "$common_string_good$"
   court_flavor_events.42.title: "[heathen_advisor_country.GetLongNameWithNoTooltip] чинить опір"

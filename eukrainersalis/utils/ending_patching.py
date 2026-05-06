@@ -5,6 +5,8 @@ from eukrainersalis.utils.yaml_utils import write_eu5_localization_yaml, load_eu
 ending_mappings = {
     "'endlong_fem'": "'endlong_vlaloly'",
     "'end_fem'": "'end_vlaloly'",
+    "'endlong_assya'": "'endlong_vlaloly'",
+    "'end_assya'": "'end_vlaloly'",
     "'endlong_etut'": "'endlong_eut'",
     "'end_etut'": "'end_eut'",
     "'endlong_etyut'": "'endlong_yeyut'",

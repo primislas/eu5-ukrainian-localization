@@ -3869,16 +3869,10 @@ endlong_ytlyat = {
 	suffix = "_endlong_ytlyat"
 	if_invalid_loc = return_empty
 }
-endlong_ityat = {
+endlong_yityat = {
 	log_loc_errors = no
 	parent = country_ua_flavor
-	suffix = "_endlong_ityat"
-	if_invalid_loc = return_empty
-}
-endlong_assya = {
-	log_loc_errors = no
-	parent = country_ua_flavor
-	suffix = "_endlong_assya"
+	suffix = "_endlong_yityat"
 	if_invalid_loc = return_empty
 }
 endrank_fem = {
