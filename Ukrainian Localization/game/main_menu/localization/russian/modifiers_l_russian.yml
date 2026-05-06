@@ -1,8 +1,6 @@
 ﻿l_russian:
- # Types
  MODIFIER_NONE: "Нет"
  MODIFIER_ABSTAIN: "Неучастие"
- # Generic
  less_left_than_right: "менее $LEFT|Y$, чем $RIGHT|Y$"
  no_more_left_than_right: "не более $LEFT|Y$, чем $RIGHT|Y$"
  more_left_than_right: "более $LEFT|Y$, чем $RIGHT|Y$"

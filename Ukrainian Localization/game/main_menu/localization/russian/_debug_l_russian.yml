@@ -10,6 +10,7 @@
  TOOLTIP_DEBUG_DYNASTY_LANGUAGE: "#D debug: language = $LANGUAGE$#!"
  TOOLTIP_DEBUG_ADVANCE_SPECIAL_IS_HIDDEN: "#D debug: скрыть особые = $BOOL$#!"
  TOOLTIP_DEBUG_DYNASTY_ID: "#D debug: ID: $ID$#!"
+ TOOLTIP_DEBUG_CONTENT_PRIORITY: "Приоритет контент: $PRIORITY$"
  TOOLTIP_DEBUG_SUBUNIT_UNIFORMITY: "#D debug: однородность = $SUBUNIT_UNIFORMITY$#!"
  johan.1.title: "название события"
  johan.1.desc: "[ShowSpecialStatusName('archbishop_elector')] [ShowPaymentName('imperial_contribution')] [ShowParliamentTypeName('estate_parliament')]"

@@ -10,7 +10,7 @@
  JOMINI_TICKTASK_PRIO_LATE: "Запоздало"
  JOMINI_TICKTASK_PERSISTED: "Переходит в сохранение"
  JOMINI_TICKTASK_SHOW_DETAILS: "Щёлкните, чтобы посмотреть подробности"
- JOMINI_TICKTASK_GRAPH_ITEM_TOOLTIP: "#header $NAME$#!\nКаталог: #v $INDEX$#!\n\nПерешло: #v $PERSISTED$#!\nПриоритет: #v $PRIORITY$#!\nПериодичность: #v $RATE$#!\n\nИсполняется после: #v $AFTER$#!\nИсполняется до: #v $BEFORE$#!\nЗависит от: $DEPENDENCIES$\nОпределяет: $DEPENDENTS$\n\n$JOMINI_TICKTASK_SHOW_DETAILS$" #v $INDEX$#!\n\nPersisted: #v $PERSISTED$#!\nPriority: #v $PRIORITY$#!\nRate: #v $RATE$#!\n\nExecutes after: #v $AFTER$#!\nExecutes before: #v $BEFORE$#!\nDepends on: $DEPENDENCIES$\nDependents: $DEPENDENTS$\n\n$JOMINI_TICKTASK_SHOW_DETAILS$"
+ JOMINI_TICKTASK_GRAPH_ITEM_TOOLTIP: "#header $NAME$#!\nКаталог: #v $INDEX$#!\n\nПерешло: #v $PERSISTED$#!\nПриоритет: #v $PRIORITY$#!\nПериодичность: #v $RATE$#!\n\nИсполняется после: #v $AFTER$#!\nИсполняется до: #v $BEFORE$#!\nЗависит от: $DEPENDENCIES$\nОпределяет: $DEPENDENTS$\n\n$JOMINI_TICKTASK_SHOW_DETAILS$"
  JOMINI_TICKTASK_INDEX_HEADER: "Каталог"
  JOMINI_TICKTASK_INDEX_TOOLTIP: "Порядок исполнения задач"
  JOMINI_TICKTASK_NAME_HEADER: "Название"

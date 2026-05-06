@@ -79,3 +79,5 @@
  DEFAULT_PLAYSET_TEXT: "Default playset (not editable)"
  INITIAL_PLAYSET_TEXT: "Initial playset"
  ACTIVE_PLAYSET_TEXT: "(Active)"
+ DLC_INGAME_PURCHASE_NOTIFICATION_TITLE: "Приобретённые дополнения"
+ DLC_INGAME_PURCHASE_NOTIFICATION_DESC: "Купленные вами дополнения загрузятся при возвращении в главное меню."

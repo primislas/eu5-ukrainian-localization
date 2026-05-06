@@ -6,6 +6,18 @@ from eukrainersalis.utils.file_utils import game_dir, translation_dir, list_loca
 from eukrainersalis.utils.translation_utils import Language
 
 
+def remove_deleted_localizations(source_dir: Path, target_dir: Path, languages: list[str]):
+    localization_files = list_localization_files(languages, target_dir)
+    print(f"Identified {len(localization_files)} localization files")
+    localization_files.sort()
+    for file in localization_files:
+        rel = Path(file).relative_to(target_dir)
+        source_file = source_dir / rel
+        if not os.path.exists(source_file):
+            print(f"Deleting {rel}")
+            os.remove(file)
+
+
 def copy_localizations(source_dir: Path, target_dir: Path, languages: list[str]):
     localization_files = list_localization_files(languages, source_dir)
     print(f"Identified {len(localization_files)} localization files")
@@ -21,3 +33,4 @@ def copy_localizations(source_dir: Path, target_dir: Path, languages: list[str])
 if __name__ == "__main__":
     _languages = [Language.ENGLISH, Language.RUSSIAN]
     copy_localizations(game_dir, translation_dir, _languages)
+    remove_deleted_localizations(game_dir, translation_dir, _languages)

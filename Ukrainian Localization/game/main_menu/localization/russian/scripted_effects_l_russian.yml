@@ -1,6 +1,5 @@
 ﻿l_russian:
  until_end_of_disaster_tt: "до окончания нынешнего [Concept('disaster', 'бедствия')|e]"
- #HRE
  hre_bind_voting_to_religion_tt: "Теперь стать [Concept('hre_emperor', 'императором')|e] может только держава с [Concept('imperial_religion_imperial', 'имперской')|e] [Concept('religion', 'религией')|e]."
  hre_bind_voting_to_religion_group_tt: "Теперь стать [Concept('hre_emperor', 'императором')|e] может только держава с религией из [Concept('imperial_religion_imperial', 'имперской')|e] [Concept('religion_group', 'религиозной группы')|e]."
  hre_unbind_voting_from_religion_tt: "[Concept('imperial_religion', 'Имперская религия')|e] больше не будет влиять на [Concept('voting', 'голосование')|e] за следующего [Concept('hre_emperor', 'императора')|e]"
@@ -45,7 +44,6 @@
  hre_repeal_fixed_succession_tt: "[Concept('hre_emperor', 'Император')|e] больше не останется у власти в #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священной Римской Империи#!#!"
  hre_has_fixed_succession_tt: "Порядок наследования в #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священной Римской Империи#!#! привязан к [Concept('hre_emperor', 'императору')|e]"
  hre_has_not_fixed_succession_tt: "Порядок наследования в #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священной Римской Империи#!#! не привязан к [Concept('hre_emperor', 'императору')|e]"
- #Papal Authority
  papal_authority_very_weak_bonus_tt: "Получает #G 3#! ед. папского авторитета"
  papal_authority_weak_bonus_tt: "Получает #G 5#! ед. папского авторитета"
  papal_authority_mild_bonus_tt: "Получает #G 10#! ед. папского авторитета"
@@ -60,13 +58,12 @@
  papal_authority_very_strong_penalty_tt: "Теряет #R 20#! ед. папского авторитета"
  papal_authority_extreme_penalty_tt: "Теряет #R 25#! ед. папского авторитета"
  papal_authority_unique_penalty_tt: "Теряет #R 50#! ед. папского авторитета"
- is_independent_or_autonomous_subject_tt: "Это #Y независимый#! или #Y самостоятельный ленник#!"
+ is_independent_or_autonomous_subject_tt: "Это #Y независимый#! или #Y самостоятельный субъект#!"
  is_not_an_autonomous_subject_tt: "Это #Y независимый#! [Concept('subject', 'ленник')|e]"
  is_elector_tt: "Это [Concept('elector', 'выборщик')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священной Римской Империи#!#!"
  move_building_tt: "Перемещает [Concept('building', 'сооружение')|e] в [THIS.GetLocation.Custom('LR_ACC')|l] [THIS.GetLocation.GetName]"
  owner_owns_no_copies_of_building_tt: "У владельца больше НЕТ других [Concept('location', 'районов')|e] с этим сооружением"
- erratic_tooltip: "Пока действует этот [Concept('modifier', 'модификатор')|e], [THIS.GetCharacter.GetName] будет время от времени вести себя иначе…"
- #General scripted effects
+ erratic_tooltip: "Пока действует этот [Concept('modifier', 'модификатор')|e], [THIS.GetCharacter.GetName] будет время от времени вести себя иначе..."
  lock_current_government_reforms_tt: "Закрепляет текущие [Concept('government_reforms', 'государственные принципы')|e], не позволяя вручную заменить их другими"
  lock_current_policy_tt: "Закрепляет текущую [Concept('policy', 'политику')|e], не позволяя вручную заменить её другой"
  lock_current_heir_selection_tt: "Закрепляет текущее [Concept('heir_selection', 'правило престолонаследия')|e], не позволяя вручную заменить его другим"
@@ -77,7 +74,6 @@
  unlock_current_heir_selection_tt: "Разблокирует текущее [Concept('heir_selection', 'правило престолонаследия')|e], позволяя вручную заменить его другим"
  unlock_current_law_tt: "Разблокирует текущее [Concept('law', 'правило')|e], позволяя вручную заменить его другим"
  unlock_current_subject_type_tt: "Разблокирует текущий [Concept('subject_type', 'тип ленника')|e], позволяя вручную заменить его другим"
- #General scripted triggers
  is_legally_male: "Это #Y мужчина#! или [Concept('legally_male', 'мужчина по закону')|e] в силу модификатора, дающего эффект «[ShowModifierEffect('prefection_modifier')]»"
  is_locked_government_reform_tt: "[Concept('government_reform', 'Государственный принцип')|e] #Y закреплён#! и не может быть отменён вручную"
  is_locked_policy_tt: "[Concept('policy', 'Политика')|e] #Y закреплена#! и не может быть отменена вручную"
@@ -119,23 +115,18 @@
  hre_country_fulfills_imperial_religion_requirement_tt: "[Concept('religion', 'Религия')|e] державы и [Concept('imperial_religion', 'имперская религия')|e] совпадают"
  hre_character_fulfills_imperial_religion_requirement_tt: "[Concept('religion', 'Религия')|e] персонажа и [Concept('imperial_religion', 'имперская религия')|e] совпадают"
  hre_is_perpetual_diet_location_tt: "Здесь заседает #Y Постоянный рейхстаг#!"
- #Celestial Authority
  decree_monthly_celestial_authority_loss_tt: "Принятие этого #Y указа#! будет ежемесячно уменьшать наш небесный авторитет на #R −0,1#!, пока указ не будет отменён [Concept('action', 'действием')|e] «[ShowGenericActionName('reshape_bureaucracy')]»"
  end_decree_monthly_celestial_authority_loss_tt: "Принятые #Y указы#! больше не будут ежемесячно уменьшать наш небесный авторитет"
- #Heir Succession Triggers
  HEIR_SUCCESSION_CANNOT_BE_RULER_ALREADY: "При #TOOLTIP:GOVTYPE,theocracy,X #L теократии#!#! не может быть [Concept('heir', 'наследника')|e], уже [Concept('ruler', 'правящего')|e] другой державой."
  HEIR_SUCCESSION_ALL_RELIGION_ELIGIBLE: "[Concept('heir', 'Наследник')|e] может исповедовать любую [Concept('religion', 'религию')|e]."
  HEIR_SUCCESSION_SAME_RELIGION_GROUP_ELIGIBLE: "[Concept('heir', 'Наследник')|e] должен исповедовать религию из [Concept('religion_group', 'группы')|e] «[target_country.GetReligion.GetGroup.GetName]»."
  HEIR_SUCCESSION_SAME_RELIGION_ELIGIBLE: "[Concept('heir', 'Наследник')|e] должен исповедовать [Concept('religion', 'религию')|e] «[target_country.GetReligion.GetName]»."
  HEIR_SUCCESSION_OTHER_RELIGION_ELIGIBLE: "[Concept('heir', 'Наследник')|e] НЕ должен исповедовать [Concept('religion', 'религию')|e] «[target_country.GetReligion.GetName]»."
  HEIR_SUCCESSION_OTHER_RELIGION_GROUP_ELIGIBLE: "[Concept('heir', 'Наследник')|e] НЕ должен исповедовать религию из [Concept('religion_group', 'группы')|e] «[target_country.GetReligion.GetGroup.GetName]»."
- #Isolationism versus Openness
  isolationism_tt: "Наше общество станет более изолированным, а [Concept('societal_values', 'общественные ценности')|e] по возможности будут смещаться к #TOOLTIP:SOCIETAL_VALUE,traditionalist_vs_innovative,X #L традициям#!#!, #TOOLTIP:SOCIETAL_VALUE,individualism_vs_communalism,X #L общинности#!#! и #TOOLTIP:SOCIETAL_VALUE,outward_vs_inward,X #L закрытости#!#!."
  openness_tt: "Наше общество станет более открытым, а [Concept('societal_values', 'общественные ценности')|e] по возможности будут смещаться к #TOOLTIP:SOCIETAL_VALUE,traditionalist_vs_innovative,X #L новшествам#!#!, #TOOLTIP:SOCIETAL_VALUE,individualism_vs_communalism,X #L индивидуализму#!#! и #TOOLTIP:SOCIETAL_VALUE,outward_vs_inward,X #L открытости#!#!."
- #Harmony
  harmony_mild_towards_equilibrium_tt: "Смещается на #G 10#! ед. к равновесной [Concept('harmony', 'гармонии')|e]"
  harmony_weak_towards_equilibrium_tt: "Смещается на #G 5#! ед. к равновесной [Concept('harmony', 'гармонии')|e]"
- #Hinduism
  is_peacetime_shakti_avatar_tt: "Это мирный [Concept('avatar', 'аватар')|e] #TOOLTIP:GOD,shakti_god,X #L Шакти#!#!"
  is_wartime_shakti_avatar_tt: "Это воинственный [Concept('avatar', 'аватар')|e] #TOOLTIP:GOD,shakti_god,X #L Шакти#!#!"
  disfavoured_god_tt: "Это [Concept('god', 'божество')|e] угнетается"
@@ -147,8 +138,6 @@
  remove_child_traits_tt: "[THIS.GetCharacter.GetName] теряет ВСЕ [Concept('traits', 'свойства')|e] ребёнка"
  is_religion_pagan_tt: "Религия — народное верование"
  is_culture_native_american_tt: "Культура — индейская"
- #DYNAMIC LOCALIZATION#
- ###SCRIPTED EFFECTS###
  ADD_ALL_ESTATE_SATISFACTION_EFFECT: "Все [Concept('estates', 'сословия')|e] получают $VALUE|2%+G$ к [Concept('estate_satisfaction', 'довольству')|e]"
  NEG_ADD_ALL_ESTATE_SATISFACTION_EFFECT: "Все [Concept('estates', 'сословия')|e] теряют $VALUE|2%-R$ [Concept('estate_satisfaction', 'довольства')|e]"
  WE_ADD_ALL_ESTATE_SATISFACTION_EFFECT: "Все наши [Concept('estates', 'сословия')|e] получают $VALUE|2%+G$ к [Concept('estate_satisfaction', 'довольству')|e]"
@@ -534,7 +523,7 @@
  THIRD_BLOCK_DISASTER_EFFECT_EFFECT: "[COUNTRY.GetName] не позволя[COUNTRY.Custom('end_etyut')] [Concept('disaster', 'бедствию')|e] «[DISASTER_TYPE.GetName]» повториться"
  PAST_BLOCK_DISASTER_EFFECT_EFFECT: "[Concept('disaster', 'Бедствие')|e] «[DISASTER_TYPE.GetName]» больше не может повториться"
  PAST_WE_BLOCK_DISASTER_EFFECT_EFFECT: "Мы не позволим [Concept('disaster', 'бедствию')|e] «[DISASTER_TYPE.GetName]» повториться"
- PAST_THIRD_BLOCK_DISASTER_EFFECT_EFFECT: "[COUNTRY.GetName] больше не позвол[COUNTRY.Custom('end_itat')] [Concept('disaster', 'бедствию')|e] «[DISASTER_TYPE.GetName]» повториться"
+ PAST_THIRD_BLOCK_DISASTER_EFFECT_EFFECT: "[COUNTRY.GetName] больше не позвол[COUNTRY.Custom('end_ityat')] [Concept('disaster', 'бедствию')|e] «[DISASTER_TYPE.GetName]» повториться"
  BLOCK_DISASTER_TEMPORARILY_EFFECT: "[Concept('disaster', 'Бедствие')|e] «[DISASTER_TYPE.GetName]» не может произойти в течение нескольких лет ($VALUE|0Y$)"
  WE_BLOCK_DISASTER_TEMPORARILY_EFFECT: "Мы не позволяем [Concept('disaster', 'бедствию')|e] «[DISASTER_TYPE.GetName]» произойти в течение нескольких лет ($VALUE|0Y$)"
  THIRD_BLOCK_DISASTER_TEMPORARILY_EFFECT: "[COUNTRY.GetName] не позволя[COUNTRY.Custom('end_etyut')] [Concept('disaster', 'бедствию')|e] «[DISASTER_TYPE.GetName]» произойти в течение нескольких лет ($VALUE|0Y$)"
@@ -749,6 +738,18 @@
  PAST_SUBTRACT_CELESTIAL_AUTHORITY: "Потеряно $VALUE|-$ ед. #Y небесного авторитета#!"
  FIRST_PAST_SUBTRACT_CELESTIAL_AUTHORITY: "[Concept('international_organization', 'Международное объединение')|e] потеряло $VALUE|-$ ед. #Y небесного авторитета#!"
  THIRD_PAST_SUBTRACT_CELESTIAL_AUTHORITY: "Объединение «[INTERNATIONAL_ORGANIZATION.GetName]» потеряло $VALUE|-$ ед. #Y небесного авторитета#!"
+ ADD_PAPAL_AUTHORITY: "Получает $VALUE|+$ ед. #Y папского авторитета#!"
+ FIRST_ADD_PAPAL_AUTHORITY: "[Concept('international_organization', 'Международное объединение')|e] получает $VALUE|+$ ед. #Y папского авторитета#!"
+ THIRD_ADD_PAPAL_AUTHORITY: "Объединение «[INTERNATIONAL_ORGANIZATION.GetName]» получает $VALUE|+$ ед. #Y папского авторитета#!"
+ PAST_ADD_PAPAL_AUTHORITY: "Получено $VALUE|+$ ед. #Y папского авторитета#!"
+ FIRST_PAST_ADD_PAPAL_AUTHORITY: "[Concept('international_organization', 'Международное объединение')|e] получило $VALUE|+$ ед. #Y папского авторитета#!"
+ THIRD_PAST_ADD_PAPAL_AUTHORITY: "Объединение «[INTERNATIONAL_ORGANIZATION.GetName]» получило $VALUE|+$ ед. #Y папского авторитета#!"
+ SUBTRACT_PAPAL_AUTHORITY: "Теряет $VALUE|-$ ед. #Y папского авторитета#!"
+ FIRST_SUBTRACT_PAPAL_AUTHORITY: "[Concept('international_organization', 'Международное объединение')|e] теряет $VALUE|-$ ед. #Y папского авторитета#!"
+ THIRD_SUBTRACT_PAPAL_AUTHORITY: "Объединение «[INTERNATIONAL_ORGANIZATION.GetName]» теряет $VALUE|-$ ед. #Y папского авторитета#!"
+ PAST_SUBTRACT_PAPAL_AUTHORITY: "Потеряно $VALUE|-$ ед. #Y папского авторитета#!"
+ FIRST_PAST_SUBTRACT_PAPAL_AUTHORITY: "[Concept('international_organization', 'Международное объединение')|e] потеряло $VALUE|-$ ед. #Y папского авторитета#!"
+ THIRD_PAST_SUBTRACT_PAPAL_AUTHORITY: "Объединение «[INTERNATIONAL_ORGANIZATION.GetName]» потеряло $VALUE|-$ ед. #Y папского авторитета#!"
  TRANSFER_YEARLY_GOLD_FROM_ALL_MEMBERS: "Все [Concept('members', 'участники')|e] передают [Concept('gold', 'дукаты')|e] ($VALUE|2%$ годового дохода) #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#!"
  THIRD_TRANSFER_YEARLY_GOLD_FROM_ALL_MEMBERS: "Все [Concept('members', 'участники')|e] международного объединения «[INTERNATIONAL_ORGANIZATION.GetName]» передают [Concept('gold', 'дукаты')|e] ($VALUE|2%$ годового дохода) #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#!"
  PAST_TRANSFER_YEARLY_GOLD_FROM_ALL_MEMBERS: "Все [Concept('members', 'участники')|e] передали [Concept('gold', 'дукаты')|e] ($VALUE|2%$ годового дохода) #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#!"
@@ -850,16 +851,9 @@
  PAST_SET_NEW_RULER_WITH_UNION: "[TARGET_CHARACTER.GetName] [Select_CString(TARGET_CHARACTER.IsFemale,'стала новой', 'стал новым')] [Concept('ruler', 'Select_CString(TARGET_CHARACTER.IsFemale,'правительницей', 'правителем')')|e] унии «[COUNTRY.GetDiplomacy.GetUnion.GetName]»"
  FIRST_PAST_SET_NEW_RULER_WITH_UNION: "[TARGET_CHARACTER.GetName] [Select_CString(TARGET_CHARACTER.IsFemale,'стала нашей новой', 'стал нашим новым')] [Concept('ruler', 'Select_CString(TARGET_CHARACTER.IsFemale,'правительницей', 'правителем')')|e] унии «[COUNTRY.GetDiplomacy.GetUnion.GetName]»"
  THIRD_PAST_SET_NEW_RULER_WITH_UNION: "[TARGET_CHARACTER.GetName] [Select_CString(TARGET_CHARACTER.IsFemale,'стала новой', 'стал новым')] [Concept('ruler', 'Select_CString(TARGET_CHARACTER.IsFemale,'правительницей', 'правителем')')|e] унии «[COUNTRY.GetDiplomacy.GetUnion.GetName]» #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
- ####SCRIPTED LISTS####
- # ally: "Any [ally|e]"
- # ally_count: "$PARAMETERS$ [allies|e]"
- # ally_percent: "$PARAMETERS$ [allies|e]"
- # ally_all: "All [allies|e]"
- ###SCRIPT VALUES DESCRIPTION###
  script_value_base: "Основа"
  script_value_scaling_with_character_admin: "Административный [Concept('ability', 'навык')|e] [Concept('character', 'персонажа')|e]"
  script_value_scaling_with_fort_assumed_efficiency_character: "#Y $fort_assumed_efficiency_character$#! [Concept('character', 'персонажа')|e]"
- ####
  add_random_dip_ruler_trait_tt: "Наш [Concept('ruler', 'правитель')|e] получит случайное [Concept('trait', 'свойство')|e], связанное с [Concept('diplomacy', 'дипломатией')|e]"
  add_random_dip_regent_trait_tt: "Наш [Concept('regent', 'регент')|e] получит случайное [Concept('trait', 'свойство')|e], связанное с [Concept('diplomacy', 'дипломатией')|e]"
  new_child_for_ruler: "[ROOT.GetCountry.GetGovernment.GetRulerTitle] заводит нового ребёнка"

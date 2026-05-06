@@ -1,0 +1,11 @@
+﻿{
+	"name":	"Ukrainian Localization (Early Access)",
+	"id":	"localization.ukrainian",
+	"version":	"0.1",
+	"supported_game_version":	"1.2.*",
+	"short_description":	"Brings Ukrainian localization to EU5 T.",
+	"tags":	["User Interface"],
+	"relationships":	[],
+	"game_custom_data":	{
+    }
+}

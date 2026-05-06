@@ -4,14 +4,14 @@
  beeskow.sorbian_dialect: "Безков"
  belzig.sorbian_dialect: "Бельско"
  berlin.sorbian_dialect: "Барлинь"
- brandenburg.sorbian_dialect: "Браниборь" #or Bramborska?
- burg.sorbian_dialect: "Бор" #or Bórkowy?
+ brandenburg.sorbian_dialect: "Браниборь"
+ burg.sorbian_dialect: "Бор"
  calau.sorbian_dialect: "Калава"
  chemnitz.sorbian_dialect: "Камьеница"
  cottbus.sorbian_dialect: "Хочебуж"
  delitzsch.sorbian_dialect: "Делизьищо"
  dresden.sorbian_dialect: "Дрьежджаны"
- glauchau.sorbian_dialect: "Глухов" #or Hłuchow?
+ glauchau.sorbian_dialect: "Глухов"
  gorlitz.sorbian_dialect: "Зхорьельц"
  grimma.sorbian_dialect: "Грима"
  guben.sorbian_dialect: "Губин"
@@ -31,7 +31,7 @@
  pirna.sorbian_dialect: "Перно"
  plauen.sorbian_dialect: "Плавно"
  potsdam.sorbian_dialect: "Подступим"
- rochlitz.sorbian_dialect: "Рохелице" #or Rochlica
+ rochlitz.sorbian_dialect: "Рохелице"
  rothenburg_oberlausitz.sorbian_dialect: "Розборк"
  sayda.sorbian_dialect: "Завидове"
  schweinitz.sorbian_dialect: "Свиница"

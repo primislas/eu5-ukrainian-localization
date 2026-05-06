@@ -1,47 +1,34 @@
 ﻿l_russian:
- #Africa
- #Central Africa
- #Kongo Region
  ngono_area: "Нгоно"
- #East Africa
- #Great Lakes Region
  egaso_ngiro_area: "Эвасо-Нгиро"
  igombe_area: "Игомбе"
  malawi_area: "Малавийский рифт"
  rift_valley_area: "Рифтовая долина"
  victoria_area: "Озеро Виктория"
- #Ethiopia Region
  central_ethiopia_area: "Центральная Эфиопия"
  northern_ethiopia_area: "Северная Эфиопия"
  southern_ethiopia_area: "Южная Эфиопия"
- #Nubia Region
  butana_area: "Бутана"
  darfur_area: "Кордофан"
  equatoria_area: "Экватория"
  nubia_proper_area: "Нубия"
- #Somalia Region
  inner_somalia_area: "Внутреннее Сомали"
  northern_somalia_area: "Северное Сомали"
  southern_somalia_area: "Южное Сомали"
- #Madagascar Region
  east_african_island_area: "Восточно-Африканские острова"
  east_madagascar_area: "Восточный Мадагаскар"
  malagasy_highlands_area: "Малагасийское нагорье"
  north_madagascar_area: "Северный Мадагаскар"
  west_madagascar_area: "Западный Мадагаскар"
- #Swahili Coast Region
  mozambique_area: "Мозамбик"
  rufiji_area: "Руфиджи"
  ruvuma_lurio_area: "Рувума-Лурио"
  tana_area: "Тана"
  wami_area: "Вами"
- #North Africa
- #Egypt Region
  lower_egypt_area: "Нижний Египет"
  upper_egypt_area: "Верхний Египет"
  sinai_area: "Синай"
  cyrenaica_area: "Киренаика"
- #Maghreb Region
  algiers_area: "Аль-Магриб аль-Авсат"
  atlas_high_plateau: "Атласское высокое плато"
  desert_area: "Сахарские оазисы"
@@ -51,8 +38,6 @@
  sus_area: "$sus_province$"
  tripolitania_area: "Триполи"
  tunis_area: "Аль-Магриб аль-Адна"
- #South Africa
- #South Africa Region
  southern_africa_islands_area: "Южно-Африканские острова"
  goringhaikona_area: "Горингайкона"
  umgungundlovu_area: "Умгунгундлову"
@@ -63,12 +48,9 @@
  okavango_area: "Окаванго"
  namib_area: "Намиб"
  cape_area: "Мыс Доброй Надежды"
- #Zimbabwe Region
  limpopo_area: "Лимпопо"
  zambezi_area: "Замбези"
  save_area: "Саве"
- #West Africa
- #Sahel Region
  adamawa_area: "Адамава"
  air_area: "Аир"
  bornu_area: "Борну"
@@ -85,7 +67,6 @@
  west_mossi_area: "Западное Мосси"
  western_sahara_area: "Западная Сахара"
  zarma_area: "Зарма"
- #West Africa Region
  akan_area: "Акан"
  benin_area: "Бенин"
  cameroon_highlands_area: "Камерунское нагорье"
@@ -103,7 +84,6 @@
  upper_guinea_area: "Верхняя Гвинея"
  west_africa_coastline: "Побережье Западной Африки"
  yoruba_area: "Йоруба"
- #Central Africa Region
  north_gabun_area: "Северный Габон"
  south_gabun_area: "Южный Габон"
  west_kongo_area: "Западное Конго"
@@ -117,9 +97,6 @@
  kasongo_area: "Касонго"
  east_kongo_area: "Восточное Конго"
  central_africa_area: "Центральная Африка"
- #America
- #North America
- #Canada Region
  greenland_area: "Гренландия"
  greenland_sea_area: "Гренландское море"
  icelandic_coast_area: "Исландское побережье"
@@ -150,13 +127,10 @@
  hudson_bay_sea_zones_area: "Гудзонов залив"
  lousiana_sea_zones_area: "Луизианское море"
  great_lakes_sea_zones_area: "Великие озёра"
- #Caribbean Region
  cuba_area: "Куба"
- hispaniola_area: "Испаньола" #Quisqueya
+ hispaniola_area: "Испаньола"
  lesser_antilles_area: "Малые Антильские острова"
- #Central America Region
  panama_area: "Панама"
- #East Coast Region
  massachusetts_area: "Массачусетс"
  southern_new_england_area: "Южная Новая Англия"
  vermont_area: "Вермонт"
@@ -183,7 +157,6 @@
  wisconsin_area: "Висконсин"
  alabama_area: "Алабама"
  mississippi_area: "Миссисипи"
- #Louisiana Region
  louisiana_area: "Луизиана"
  arkansas_area: "Арканзас"
  missouri_area: "Миссури"
@@ -202,7 +175,6 @@
  keewatin_n_area: "Северный Киватин"
  red_river_area: "Красная река"
  mascarene_islands_area: "Маскаренские острова"
- #Mesoamerica
  mexihko_area: "Мешико"
  tlaxcala_area: "Тласкала"
  puebla_area: "Пуэбла"
@@ -226,7 +198,6 @@
  kuskatan_area: "Кускатан"
  imabite_area: "Имабите"
  nekokiaw_area: "Некокиав"
- #Arido America
  zacatecas_area: "Тлакуитлапан"
  baja_area: "Нижняя Калифорния"
  tahejoc_area: "Ге-Каачк-Баашо"
@@ -235,7 +206,6 @@
  guachichil_area: "Гуачичиль"
  texas_area: "Техас"
  shiewhibak_area: "Али-Шон"
- #West Coast Region
  northwest_coast_area: "Северо-западное побережье"
  western_arctic_area: "Западная Арктика"
  alaxsxaq_area: "Алахсхах"
@@ -249,8 +219,6 @@
  hawaii_sea_area: "Гавайское море"
  cascadia_area: "Каскадия"
  cascadia_sea_zones_area: "Западное побережье Америки"
- #South America
- #Brazil Region
  amazon_area: "Амазонка"
  tocantins_area: "Токантинс"
  mearim_area: "Меарин"
@@ -263,9 +231,7 @@
  guapore_area: "Гуапоре"
  uruguay_area: "Уругвай"
  mato_grosso_area: "Мату-Гросу"
- #Colombia Region
  bogota_area: "Богота"
- #Andes Region
  quitu_area: "Киту"
  chala_area: "Чала"
  atacama_area: "Атакама"
@@ -278,7 +244,6 @@
  rupa_rupa_area: "Рупа-Рупа"
  galapagos_area: "Галапагосы"
  andes_sea_zones_area: "Андское море"
- #Chaco Region
  chaco_area: "Чако"
  la_plata_area: "Ла-Плата"
  ngulumapu_area: "Нгулумапу"
@@ -293,9 +258,6 @@
  falklands_area: "Фолкленды"
  south_georgia_area: "Южная Георгия"
  rapa_nui_area: "Рапануи"
- #Asia
- #Central Asia
- #Khorasan Region
  badakhshan_area: "Бадахшан"
  desht_kipchak_area: "Дешт-и-Кипчак"
  eastern_khorasan_area: "Восточный Хорасан"
@@ -304,36 +266,32 @@
  western_khorasan_area: "Западный Хорасан"
  zhetysu_area: "Жетысу"
  caspian_sea_area: "Каспийское море"
- #East Asia
- #East China Region
- fujian_area: "Фуцзянь" #福建
- hunan_area: "Хунань" #湖南
- wuling_area: "Улин" #武陵
- hubei_area: "Хубэй" #湖北
- jiangxi_area: "Цзянси" #江西
- jiangnan_area: "Цзяннань" #江南
- huaidong_area: "Хуайдун" #淮东
- huaixi_area: "Хуайси" #淮西
- taiwan_area: "Тайвань" #台灣
- zhejiang_area: "Чжэцзян" #浙江
+ fujian_area: "Фуцзянь"
+ hunan_area: "Хунань"
+ wuling_area: "Улин"
+ hubei_area: "Хубэй"
+ jiangxi_area: "Цзянси"
+ jiangnan_area: "Цзяннань"
+ huaidong_area: "Хуайдун"
+ huaixi_area: "Хуайси"
+ taiwan_area: "Тайвань"
+ zhejiang_area: "Чжэцзян"
  east_china_coastline: "Восточное побережье Китая"
- #Japan Region
- ezo_area: "Эдзо" #蝦夷
- hokurikudou_area: "Хокурикудо" #北陸道
- kinai_area: "Кинай" #畿内
- nankaidou_area: "Нанкайдо" #南海道
- saikaidou_area: "Сайкайдо" #西海道
- sanindou_area: "Санъиндо" #山陰道
- sanyoudou_area: "Санъёдо" #山陽道
- ou_area: "Оу" #奥羽
- toukaidou_area: "Токайдо" #東海道
- tousandou_area: "Тосандо" #東山道
- ryuukyuu_area: "Рюкю" #琉球
+ ezo_area: "Эдзо"
+ hokurikudou_area: "Хокурикудо"
+ kinai_area: "Кинай"
+ nankaidou_area: "Нанкайдо"
+ saikaidou_area: "Сайкайдо"
+ sanindou_area: "Санъиндо"
+ sanyoudou_area: "Санъёдо"
+ ou_area: "Оу"
+ toukaidou_area: "Токайдо"
+ tousandou_area: "Тосандо"
+ ryuukyuu_area: "Рюкю"
  japan_coastline: "Побережье Японии"
  sea_of_japan_area: "Японское море"
  ryuukyuu_sea_area: "Рюкюское море"
  ezo_sea: "Эдзийское море"
- #Korea Region
  gwanseo_area: "Квансо"
  gwandong_area: "Квандон"
  yeongnam_area: "Йоннам"
@@ -344,15 +302,13 @@
  gwanbuk_area: "Кванбук"
  korea_western_coastline: "Западное побережье Кореи"
  korea_eastern_coastline: "Восточное побережье Кореи"
- #Manchuria Region
- liaodong_area: "Ляодун" #遼東
+ liaodong_area: "Ляодун"
  lower_amur_area: "Нижний Амур"
  middle_amur_area: "Средний Амур"
  songhua_area: "Сунгари"
  songnen_area: "Суннэнь"
  ussuri_area: "Уссури"
  manchuria_coastline: "Побережье Маньчжурии"
- #Mongolia Region
  argun_area: "Аргун"
  eastern_gobi_area: "Восточная Гоби"
  lower_selenga_area: "Нижняя Селенга"
@@ -362,46 +318,39 @@
  tuva_area: "Тува"
  upper_selenga_area: "Верхняя Селенга"
  western_gobi_area: "Западная Гоби"
- #North China Region
- beiping_area: "Бэйпин" #北平
- yannan_area: "Яньнань" #燕南
- yanbei_area: "Яньбэй" #燕北
- hebei_area: "Хэбэй" #河北
- henan_area: "Хэнань" #河南
- haiyou_area: "Хайю" #海右
- shandong_area: "Шаньдун" #山東
+ beiping_area: "Бэйпин"
+ yannan_area: "Яньнань"
+ yanbei_area: "Яньбэй"
+ hebei_area: "Хэбэй"
+ henan_area: "Хэнань"
+ haiyou_area: "Хайю"
+ shandong_area: "Шаньдун"
  datong_area: "Датун"
- shanxi_area: "Шаньси" #山西
+ shanxi_area: "Шаньси"
  north_china_coastline: "Северное побережье Китая"
- #South China Region
- haibei_hainan_area: "Хайбэй-Хайнань" #海北海南
- guangdong_area: "Гуандун" #廣東
- liangjiang_area: "Лянцзян" #两江
- guangxi_area: "Гуанси" #廣西
- guizhou_area: "Гуйчжоу" #貴州
- dali_area: "Дали" #大理
- yunnan_area: "Юньнань" #雲南
+ haibei_hainan_area: "Хайбэй-Хайнань"
+ guangdong_area: "Гуандун"
+ liangjiang_area: "Лянцзян"
+ guangxi_area: "Гуанси"
+ guizhou_area: "Гуйчжоу"
+ dali_area: "Дали"
+ yunnan_area: "Юньнань"
  south_china_coastline: "Южное побережье Китая"
- #Tibet Region
  amdo_area: "Амдо"
  changtang_area: "Чангтанг"
  kham_area: "Кхам"
  ngari_area: "Нгари"
  tsang_area: "Цанг"
  u_area: "У"
- #West China Region
- gansu_area: "Ганьсу" #甘肃/甘肅
- hexi_area: "Хэси" #河西
- longyou_area: "Лунъю" #陇右
- shaanxi_area: "Шэньси" #陕西/陝西
- chuandong_area: "Чуаньдун" #川东
- chuannan_area: "Чуаньнань" #川南
- chuanxi_area: "Чуаньси" #川西
- #xinjiang Region
+ gansu_area: "Ганьсу"
+ hexi_area: "Хэси"
+ longyou_area: "Лунъю"
+ shaanxi_area: "Шэньси"
+ chuandong_area: "Чуаньдун"
+ chuannan_area: "Чуаньнань"
+ chuanxi_area: "Чуаньси"
  dzungaria_area: "Джунгария"
  tarim_area: "Тарим"
- #Middle East
- #Anatolia Region
  armenian_highlands_area: "Армянское нагорье"
  cappadocia_area: "Каппадокия"
  central_anatolia_area: "Центральная Анатолия"
@@ -409,7 +358,6 @@
  marmara_area: "Мармара"
  pontus_area: "Понт"
  west_anatolia_area: "Западная Анатолия"
- #Arabia Region
  bahrein_area: "Бахрейн"
  hedjaz_area: "Хиджаз"
  najd_area: "Неджд"
@@ -419,11 +367,9 @@
  south_yemen_area: "Южный Йемен"
  arabian_area: "Аравийское море"
  red_sea_area: "Красное море"
- #Crescent Region
  iraq_arabi_area: "Арабский Ирак"
  jazira_area: "Джазира"
  levant_area: "Левант"
- #Persia Region
  azerbaijan_area: "Азербайджан"
  baluchistan_area: "Белуджистан"
  fars_area: "Фарс"
@@ -438,8 +384,6 @@
  bengal_sea_zones_area: "Бенгальское море"
  western_india_sea_zones_area: "Западно-Индийское море"
  deccan_sea_zones_area: "Деканское море"
- #North Asia
- #West Siberia Region
  chimgi_tura_area: "Чинги-Тура"
  qashliq_area: "Кашлык"
  irkutsk_area: "Иркутск"
@@ -456,7 +400,6 @@
  vitim_area: "Витим"
  anabyr_area: "Анабыр"
  yenisei_area: "Енисей"
- #East Siberia Region
  chukchee_area: "Чукотка"
  anadyr_area: "Анадырь"
  kamchatka_area: "Камчатка"
@@ -476,9 +419,6 @@
  laptev_coast_area: "Побережье Сибирского моря"
  siberian_lakes_area: "Сибирские озёра"
  yakutsk_sea_area: "Якутское море"
- #West Siberia Region
- #South Asia
- #Bengal Region
  assam_area: "Ассам"
  bengal_area: "Бенгалия"
  hill_area: "Горы Зо"
@@ -488,7 +428,6 @@
  nepal_area: "Непал"
  chota_nagpur_area: "Чхота-Нагпур"
  orissa_area: "Орисса"
- #Deccan Region
  andhra_area: "Андхра"
  awadh_area: "Ауд"
  bhojpur_area: "Бходжпур"
@@ -503,18 +442,14 @@
  telingana_area: "Телингана"
  vidarbha_area: "Видарбха"
  maldives_area: "Мальдивы"
- #Western India Region
  gujarat_area: "Гуджарат"
  malwa_area: "Малва"
  rajputana_area: "Раджпутана"
  saurashtra_area: "Саураштра"
- #Hindustan Region
  upper_indus_area: "Верхний Инд"
  sindh_area: "Синд"
  doab_area: "Доаб"
  punjab_area: "Пенджаб"
- #Southeast Asia
- #Indochina Region
  arakhan_area: "Аракан"
  champa_area: "Чампа"
  chao_phraya_area: "Чаупхрая"
@@ -528,7 +463,6 @@
  red_river_delta_area: "Дельта Красной реки"
  shan_highland_area: "Шанское нагорье"
  southeast_asian_coasts_area: "Юго-восточноазиатское побережье"
- #Indonesia Region
  north_borneo_area: "Северное Борнео"
  south_borneo_area: "Южное Борнео"
  celebes_area: "Целебес"
@@ -541,9 +475,6 @@
  north_sumatra_area: "Северная Суматра"
  south_sumatra_area: "Южная Суматра"
  indonesia_coasts_area: "Побережье Индонезии"
- #Europe
- #Eastern Europe
- #Balkan Region
  aegean_archipelago_area: "Эгейские острова"
  bosnia_area: "Босния"
  bulgaria_area: "Болгария"
@@ -556,7 +487,6 @@
  slavonia_area: "Славония"
  slovenia_area: "Крайна"
  thrace_area: "Фракия"
- #Carpathia Region
  north_alfold_area: "Северный Альфёльд"
  south_alfold_area: "Южный Альфёльд"
  transdanubia_area: "Задунайский край"
@@ -564,12 +494,10 @@
  slovakia_area: "Словакия"
  transylvania_area: "Трансильвания"
  wallachia_area: "Валахия"
- #Caucasus Region
  armenia_area: "Армения"
  georgia_area: "Грузия"
  northern_caucasus_area: "Северный Кавказ"
  shirvan_area: "Ширван"
- #Poland Region
  central_poland_area: "Центральная Польша"
  greater_poland_area: "Великая Польша"
  lesser_poland_area: "Малая Польша"
@@ -577,7 +505,6 @@
  mazovia_area: "Мазовия"
  prussia_area: "Пруссия"
  samogitia_area: "Самогития"
- #Russia Region
  moscow_area: "Москва"
  smolensk_area: "Смоленск"
  oka_area: "Ока"
@@ -594,7 +521,6 @@
  yaroslavl_area: "Ярославль"
  beloozero_area: "Белоозеро"
  totma_area: "Тотьма"
- #Ruthenia Region
  black_ruthenia_area: "Чёрная Русь"
  left_bank_ukraine_area: "Левобережная Украина"
  podolia_area: "Подолье"
@@ -604,7 +530,6 @@
  severia_area: "Северщина"
  volhynia_area: "Волынь"
  white_ruthenia_area: "Белая Русь"
- #Steppes Region
  crimea_area: "Крым"
  matrega_area: "Матрега"
  yedisan_area: "Едисан"
@@ -617,7 +542,6 @@
  lower_yik_area: "Нижний Йик"
  samar_area: "Самар"
  kursk_area: "Курщина"
- #Ural Region
  kazan_area: "Казань"
  vyatka_area: "Вятка"
  bolghar_area: "Булгар"
@@ -627,14 +551,11 @@
  ust_sysola_area: "Усть-Сысола"
  vorkuta_area: "Воркута"
  ural_area: "Урал"
- #White Sea Region
  pomorye_area: "Поморье"
  arkhangelsk_area: "Архангельск"
  karelia_area: "Карелия"
  kola_area: "Кола"
  russian_coastline: "Русское побережье"
- #Western Europe
- #France Region
  alsace_area: "Эльзас"
  alsace_area_ADJ: "Эльзасск"
  anjou_area: "Анжу"
@@ -671,7 +592,6 @@
  savoy_area_ADJ: "Савойск"
  languedoc_area: "Лангедок"
  languedoc_area_ADJ: "Лангедокск"
- #Great Britain Region
  east_anglia_area: "Восточная Англия"
  home_counties_area: "Центральные графства"
  midlands_area: "Мерсия"
@@ -683,7 +603,6 @@
  wales_area: "Уэльс"
  northern_isles_area: "Северные острова"
  west_country_area: "Уэст-Кантри"
- #Iberia Region
  andalusia_area: "Андалусия"
  andalusia_area_ADJ: "Андалусск"
  aragon_area: "Арагон"
@@ -713,12 +632,10 @@
  toledo_area_ADJ: "Толедск"
  valencia_area: "Валенсия"
  valencia_area_ADJ: "Валенсийск"
- #Ireland Region
  connaught_area: "Коннахт"
  leinster_area: "Ленстер"
  munster_area: "Манстер"
  ulster_area: "Ольстер"
- #Italy Region
  abruzzo_area: "Абруцци"
  apulia_area: "Апулия"
  basilicata_area: "Базиликата и Калабрия"
@@ -733,7 +650,6 @@
  sicily_area: "Сицилия"
  tuscany_area: "Тоскана"
  veneto_area: "Венето и Фриули"
- #Scandinavia Region
  denmark_area: "Дания"
  gotaland_area: "Гёталанд"
  iceland_area: "Исландия"
@@ -742,7 +658,6 @@
  svealand_area: "Свеаланд"
  syd_norge_area: "Южная Норвегия"
  scandinavian_sea_zones_area: "Скандинавское побережье"
- #North Germany Region
  brabant_area: "Брабант"
  flanders_area: "Фландрия"
  friesland_area: "Фрисландия"
@@ -750,7 +665,6 @@
  wallonia_area: "Валлония"
  brandenburg_area: "Бранденбург"
  mecklenburg_area: "Мекленбург"
- #South Germany Region
  austria_area: "Нижняя Австрия"
  rhineland_area: "Рейнская область"
  hesse_area: "Гессен"
@@ -774,11 +688,7 @@
  bavaria_area: "Бавария"
  franconia_area: "Франкония"
  tirol_area: "Тироль и Трентино"
- #Oceania
- #Australia
- #Australia Region
  eastern_australia_area: "Восточная Австралия"
- #Papua
  eastern_australia_sea_zones_area: "Восточно-Австралийское море"
  micronesia_area: "Микронезия"
  melanesia_area: "Меланезия"
@@ -793,8 +703,6 @@
  anim_ha_area: "Аним-Ха"
  papua_sea_zones_area: "Папуанское море"
  polynesia_area: "Полинезия"
- #Polynesia
- #New Zealand Region
  rekohu_area: "Остров Рекоху"
  lord_howe_area: "Остров Лорд-Хау"
  norfolk_nz_area: "Остров Норфолк"
@@ -859,9 +767,6 @@
  kanaky_sea_zones_area: "Канакское море"
  nauru_area: "Науру"
  nauru_sea_zones_area: "Науруанское море"
- #Ocean Continent
- #Ocean Subcontinent
- #Ocean Region
  atlantic_canada_area: "Атлантическая Канада"
  black_sea_area: "Чёрное море"
  caribbean_sea_area: "Карибское море"
@@ -917,7 +822,6 @@
  tristan_da_cunha_area: "Острова Тристан-да-Кунья"
  tristan_da_cunha_sea_zones_area: "Море Тристан-да-Кунья"
  bouvet_area: "Остров Буве"
- #Australians
  western_australia_high_sea_zones_area: "Западно-Австралийское море"
  northern_australia_high_sea_zones_area: "Северно-Австралийское море"
  eastern_australia_high_sea_zones_area: "Восточно-Австралийское море"
@@ -928,7 +832,6 @@
  australian_yalanji_area: "Яланьи"
  southeastern_australia_area: "Юго-Восточная Австралия"
  south_australia_area: "Южная Австралия"
- # unsorted
  bermuda_province: "Бермудские острова"
  bermuda_area: "Бермудские острова"
  gulf_of_mexico_area: "Мексиканский залив"
@@ -946,5 +849,4 @@
  azores_area: "Азорские острова"
  canary_islands_area: "Канарские острова"
  south_macaronesia_area: "Южная Макаронезия"
- # temporary ones
  nw_africa_coast_area: "Побережье Северо-Западной Африки"

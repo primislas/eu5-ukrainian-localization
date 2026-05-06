@@ -389,7 +389,7 @@
  donji_kraji_province: "Нижние края"
  hum_province: "Хум"
  podrinje_province: "Подринье"
- una_sana_province: "Краина"
+ una_sana_province: "Сана"
  usora_and_soli_province: "Посавина"
  branicevo_province: "Браничево"
  kosovo_province: "Косово"
@@ -797,84 +797,84 @@
  samara_province: "Самара"
  kurmysh_province: "Курмыш"
  yakutsk_province: "Якутск"
- oshima_province: "Осима" #渡島
- shiribeshi_province: "Сирибэси" #後志
- iburi_province: "Ибури" #胆振
- ishikari_province: "Исикари" #石狩
- hidaka_province: "Хидака" #日高
- tokachi_province: "Токати" #十勝
- kushiro_province: "Кусиро" #釧路
- nemuro_province: "Нэмуро" #根室
- kitami_province: "Китами" #北見
- teshio_province: "Тесио" #天塩
- chishima_province: "Тисима" #千島
- rikuou_province: "Рикуо" #陸奥
- rikuchuu_province: "Рикутю" #陸中
- rikuzen_province: "Рикудзэн" #陸前
- ugo_province: "Уго" #羽後
- uzen_province: "Удзэн" #羽前
- iwaki_province: "Иваки" #岩城
- iwase_province: "Ивасэ" #岩背
- echigo_province: "Этиго" #越後
- sado_province: "Садо" #佐渡
- ecchuu_province: "Эттю" #越中
- noto_japan_province: "Ното" #能登
- kaga_province: "Кага" #加賀
- echizen_province: "Этидзэн" #越前
- shimotsuke_province: "Симоцукэ" #下野
- kouzuke_province: "Кодзукэ" #上野
- shinano_province: "Синано" #信濃
- hida_province: "Хида" #飛騨
- mino_province: "Мино" #美濃
- oumi_province: "Оми" #近江
- hitachi_province: "Хитати" #常陸
- shimousa_province: "Симоса" #下総
- kazusa_province: "Кадзуса" #上総
- musashi_province: "Мусаси" #武蔵
- sagami_province: "Сагами" #相模
- kai_province: "Каи" #甲斐
- izu_province: "Идзу" #伊豆
- suruga_province: "Суруга" #駿河
- tootoumi_province: "Тотоми" #遠江
- mikawa_province: "Микава" #三河
- owari_province: "Овари" #尾張
- ise_province: "Исэ" #伊勢
- shima_province: "Сима" #志摩
- yamato_province: "Ямато" #大和
- yamashiro_province: "Ямасиро" #山城
- settsu_province: "Сэтцу" #摂津
- tanba_province: "Тамба" #丹波
- tango_province: "Танго" #丹後
- tajima_province: "Тадзима" #但馬
- inaba_province: "Инаба" #因幡
- houki_province: "Хоки" #伯耆
- izumo_province: "Идзумо" #出雲
- iwami_province: "Ивами" #石見
- harima_province: "Харима" #播磨
- bizen_province: "Бидзэн" #備前
- mimasaka_province: "Мимасака" #美作
- bicchuu_province: "Биттю" #備中
- bingo_province: "Бинго" #備後
- aki_province: "Аки" #安芸
- suou_province: "Суо" #周防
- nagato_province: "Нагато" #長門
- kii_province: "Кии" #紀伊
- sanuki_province: "Сануки" #讃岐
- awa_province: "Ава" #阿波
- iyo_province: "Иё" #伊予
- tosa_province: "Тоса" #土佐
- tsushima_province: "Цусима" #対馬
- chikuzen_province: "Тикудзэн" #筑前
- hizen_province: "Хидзэн" #肥前
- chikugo_province: "Тикуго" #筑後
- buzen_province: "Будзэн" #豊前
- bungo_province: "Бунго" #豊後
- higo_province: "Хиго" #肥後
- hyuuga_province: "Хюга" #日向
- oosumi_province: "Осуми" #大隅
- satsuma_province: "Сацума" #薩摩
- ryuukyuu_province: "Рюкю" #琉球
- satsunan_islands_province: "Острова Сацунан" #薩南諸島
+ oshima_province: "Осима"
+ shiribeshi_province: "Сирибэси"
+ iburi_province: "Ибури"
+ ishikari_province: "Исикари"
+ hidaka_province: "Хидака"
+ tokachi_province: "Токати"
+ kushiro_province: "Кусиро"
+ nemuro_province: "Нэмуро"
+ kitami_province: "Китами"
+ teshio_province: "Тесио"
+ chishima_province: "Тисима"
+ rikuou_province: "Рикуо"
+ rikuchuu_province: "Рикутю"
+ rikuzen_province: "Рикудзэн"
+ ugo_province: "Уго"
+ uzen_province: "Удзэн"
+ iwaki_province: "Иваки"
+ iwase_province: "Ивасэ"
+ echigo_province: "Этиго"
+ sado_province: "Садо"
+ ecchuu_province: "Эттю"
+ noto_japan_province: "Ното"
+ kaga_province: "Кага"
+ echizen_province: "Этидзэн"
+ shimotsuke_province: "Симоцукэ"
+ kouzuke_province: "Кодзукэ"
+ shinano_province: "Синано"
+ hida_province: "Хида"
+ mino_province: "Мино"
+ oumi_province: "Оми"
+ hitachi_province: "Хитати"
+ shimousa_province: "Симоса"
+ kazusa_province: "Кадзуса"
+ musashi_province: "Мусаси"
+ sagami_province: "Сагами"
+ kai_province: "Каи"
+ izu_province: "Идзу"
+ suruga_province: "Суруга"
+ tootoumi_province: "Тотоми"
+ mikawa_province: "Микава"
+ owari_province: "Овари"
+ ise_province: "Исэ"
+ shima_province: "Сима"
+ yamato_province: "Ямато"
+ yamashiro_province: "Ямасиро"
+ settsu_province: "Сэтцу"
+ tanba_province: "Тамба"
+ tango_province: "Танго"
+ tajima_province: "Тадзима"
+ inaba_province: "Инаба"
+ houki_province: "Хоки"
+ izumo_province: "Идзумо"
+ iwami_province: "Ивами"
+ harima_province: "Харима"
+ bizen_province: "Бидзэн"
+ mimasaka_province: "Мимасака"
+ bicchuu_province: "Биттю"
+ bingo_province: "Бинго"
+ aki_province: "Аки"
+ suou_province: "Суо"
+ nagato_province: "Нагато"
+ kii_province: "Кии"
+ sanuki_province: "Сануки"
+ awa_province: "Ава"
+ iyo_province: "Иё"
+ tosa_province: "Тоса"
+ tsushima_province: "Цусима"
+ chikuzen_province: "Тикудзэн"
+ hizen_province: "Хидзэн"
+ chikugo_province: "Тикуго"
+ buzen_province: "Будзэн"
+ bungo_province: "Бунго"
+ higo_province: "Хиго"
+ hyuuga_province: "Хюга"
+ oosumi_province: "Осуми"
+ satsuma_province: "Сацума"
+ ryuukyuu_province: "Рюкю"
+ satsunan_islands_province: "Острова Сацунан"
  sakishima_islands_province: "Острова Сакисима"
  sakishima_islands: "Острова Сакисима"
  okinawa_islands: "Окинавские острова"
@@ -991,7 +991,6 @@
  ngono_province: "Нгоно"
  west_cuba_province: "Западная Куба"
  panama_province: "Панама"
- #Mexico
  tetzcoco_province: "Тецкоко"
  anahuac_province: "Анауак"
  oaxaca_province: "Оахака"
@@ -1098,7 +1097,6 @@
  zacatecas_province: "Тлакуитлапан"
  pacific_aridoamerica_sea_zones_province: "Тихоокеанское побережье"
  atlantic_aridoamerica_sea_zones_province: "Побережье Мексиканского залива"
- #Central America
  zinacantan_province: "Синакантан"
  zaklohpakab_province: "Саклопакаб"
  otolum_province: "Отолум"
@@ -1420,7 +1418,6 @@
  haida_sound_province: "Хайда-Гуай"
  hawaii_coast_province: "Побережье Гаваев"
  hawaii_coast_sea_zones_province: "Гавайское море"
- #Canada
  gaspe_province: "Гаспе"
  rimouski_province: "Римуски"
  kikonteku_province: "Киконтеку"
@@ -1532,7 +1529,6 @@
  vestribygd: "Западное поселение"
  eiriksfjord_p: "Эйриксфьорд"
  la_plata_province: "Ла-Плата"
- #brazil
  amazon_province: "Амазонка"
  manaos_province: "Манаус"
  marajoara_province: "Маражоара"
@@ -1586,7 +1582,6 @@
  jaguaribe_coastal_sea_zones_province: "Прибрежные воды Жагуариби"
  sao_francisco_coastal_sea_zones_province: "Прибрежные воды Сан-Франсишку"
  tupiniquim_coastal_sea_zones_province: "Прибрежные воды Тупиникина"
- #Andes
  guancavilca_province: "Гуанкавилька"
  atacames_province: "Атакамес"
  quitu_province: "Киту"
@@ -2440,17 +2435,10 @@
  itanagar_province: "Итанагар"
  sikkim_province: "Сикким"
  western_bhutan_province: "Западный Бутан"
- #Europe
- #Western Europe
- #Scandinavia Region
- #Scandinavian Coastline
  greenland_sea_province: "Гренландское море"
  icelandic_coast_province: "Исландское побережье"
  finnmark_coast_province: "Финнмаркское море"
  skagerrak_province: "Скагеррак"
- #Eastern Europe
- #Caucasus Region
- #Caucasus Area
  abkhazia_province: "Абхазия"
  alania_province: "Алания"
  ani_province: "Ани"
@@ -2474,14 +2462,8 @@
  tarki_province: "Тарки"
  tashir_province: "Ташир"
  yerevan_province: "Эривань"
- #Russia Region
- #Russian Coastline
  barents_sea_province: "Баренцево море"
  white_sea_province: "Белое море"
- #Asia
- #Centrak Asia
- #Khorasan Region
- #Badakhshan Area
  badakhshan_province: "Бадахшан"
  darvaz_province: "Дарваз"
  hissar_province: "Хиссар"
@@ -2489,7 +2471,6 @@
  qarategin_province: "Каратегин"
  sighnan_province: "Шугнан"
  wakhan_province: "Вахан"
- #Desht-i Kipchak
  bakanas_province: "Баканас"
  baytak_province: "Байтак"
  irgiz_province: "Иргиз"
@@ -2508,7 +2489,6 @@
  upper_emba_province: "Верхняя Эмба"
  ural_province: "Урал"
  zhamshy_province: "Жамшы"
- #Eastern Khorasan Area
  badhghis_province: "Бадгис"
  balkh_province: "Балх"
  bamyan_province: "Бамиан"
@@ -2516,14 +2496,12 @@
  kunduz_province: "Кундуз"
  maymana_province: "Меймене"
  merv_province: "Мерв"
- #Khwarezm Area
  kath_province: "Кят"
  khiva_province: "Хива"
  mangistau_province: "Мангистау"
  mangyshlak_province: "Мангышлак"
  ust_yurt_province: "Устюрт"
  uzboy_province: "Узбой"
- #Transoxiana Area
  akhsikath_province: "Ахсикет"
  amol_province: "Амол"
  andijan_province: "Андижан"
@@ -2541,7 +2519,6 @@
  sighnaq_province: "Сыгнак"
  turkestan_province: "Туркестан"
  yangikent_province: "Янгикент"
- #Western Khorasan Area
  bojnurd_province: "Боджнурд"
  esfarayen_province: "Эсферайен"
  faraveh_province: "Фараве"
@@ -2551,7 +2528,6 @@
  sabzevar_province: "Себзевар"
  tejend_province: "Тедженд"
  torbat_e_jam_province: "Торбете-Джам"
- #Zhetysu Area
  akkol_province: "Акколь"
  almaliq_province: "Тункет"
  almaty_province: "Алмату"
@@ -2563,133 +2539,119 @@
  kuragharty_province: "Курагаты"
  sozak_province: "Сузак"
  talas_province: "Талас"
- #Fujian Area
- funing_province: "Фунин" #福宁/福寧
- fuzhou_province: "Фучжоу" #福州
- jianning_province: "Цзяньнин" #建寧
- quanzhou_province: "Цюаньчжоу" #泉州
- shaowu_province: "Шаоу" #邵武
- tingzhou_province: "Тинчжоу" #汀州
- xinghua_province: "Синхуа" #興化
- yanping_province: "Яньпин" #延平
- zhangzhou_province: "Чжанчжоу" #漳州
- #Huguang Area
- anlu_province: "Аньлу" #安陆/安陸
- baoqing_province: "Баоцин" #寶慶
- changde_province: "Чандэ" #常德
- changsha_province: "Чанша" #长沙/長沙
- chen_province: "Чэнь" #郴
- chenzhou_province: "Чэньчжоу" #辰州
- dean_province: "Дэань" #德安/德安
- daozhou_province: "Даочжоу" #道州/道州
- fangzhou_province: "Фанчжоу" #房州/房州
- guiyang_province: "Гуйян" #桂阳/桂陽
- guizhou_huguang_province: "Гуйчжоу" #归州/歸州
- hanyang_province: "Ханьян" #汉阳/漢陽
- hengzhou_province: "Хэнчжоу" #衡州
- huangzhou_province: "Хуанчжоу" #黄州/黃州
- jing_province: "Цзин" #靖/靖
- jingmen_province: "Цзинмэнь" #荆门/荊門
- jingzhou_province: "Цзинчжоу" #荆州/荊州
- junzhou_province: "Цзюньчжоу" #均州/均州
- lizhou_province: "Личжоу" #澧州/澧州
- mianyang_province: "Мяньян" #沔阳/沔陽
- shizhou_province: "Шичжоу" #施州
- suizhou_province: "Суйчжоу" #随州/隨州
- wuchang_province: "Учан" #武昌
- wugang_province: "Уган" #武冈/武岡
- xiangxiang_province: "Сянсян" #湘乡/湘鄉
- xiangyang_province: "Сянъян" #襄阳/襄陽
- xingguo_province: "Синго" #兴国/興國
- yiling_province: "Илин" #夷陵/夷陵
- yongshun_province: "Юншунь" #永顺/永順
- yongzhou_province: "Юнчжоу" #永州
- youzhou_province: "Ючжоу" #攸州/攸州
- yuanzhou_huguang_province: "Юаньчжоу" #沅州/沅州
- yuezhou_province: "Юэчжоу" #岳州
- #Jiangxi Area
- dingnan_province: "Диннань" #定南/定南
- fuzhou_jiangxi_province: "Фучжоу" #抚州/撫州
- ganzhou_province: "Ганьчжоу" #赣州
- guangxin_province: "Гуансинь" #广信/廣信
- jian_province: "Цзиань" #吉安
- jianchang_province: "Цзяньчан" #建昌
- jiujiang_province: "Цзюцзян" #九江
- linjiang_province: "Линьцзян" #臨江
- nanan_province: "Наньань" #南安
- nanchang_province: "Наньчан" #南昌
- nankang_province: "Нанькан" #南康
- ningdu_province: "Нинду" #宁都/寧都
- ningzhou_province: "Нинчжоу" #宁州/寧州
- raozhou_province: "Жаочжоу" #饶州/饒州
- ruizhou_province: "Жуйчжоу" #瑞州
- taihe_province: "Тайхэ" #太和/太和
- yuanzhou_province: "Юаньчжоу" #袁州
- #Nanzhili Area
- anqing_province: "Аньцин" #安慶
- bozhou_nanzhili_province: "Бочжоу" #亳州/亳州
- changzhou_province: "Чанчжоу" #常州
- chizhou_province: "Чичжоу" #池州
- chuzhou_province: "Чучжоу" #滁州
- fengyang_province: "Фэнъян" #凤阳/鳳陽
- gaoyou_province: "Гаою" #高邮/高郵
- guangde_province: "Гуандэ" #广德/廣德
- haizhou_province: "Хайчжоу" #海州/海州
- he_province: "Хэ" #和縣
- huaian_province: "Хуайань" #淮安
- huizhou_province: "Хуэйчжоу" #徽州
- luan_nanzhili_province: "Луань" #六安
- luzhou_province: "Лучжоу" #瀘州
- ningguo_province: "Нинго" #宁国/寧國
- pizhou_province: "Пичжоу" #邳州
- songjiang_province: "Сунцзян" #松江
- shouzhou_province: "Шоучжоу" #寿州/壽州
- sizhou_province: "Сычжоу" #泗州
- suzhou_province: "Сучжоу" #苏州/蘇州
- suzhou_north_province: "Сучжоу" #宿州/宿州
- taiping_province: "Тайпин" #太平
- taizhou_nanzhili_province: "Тайчжоу" #泰州/泰州
- tongzhou_province: "Тунчжоу" #通州/通州
- xuzhou_province: "Сюйчжоу" #徐州
- yangzhou_province: "Янчжоу" #扬州/揚州
- yingtian_province: "Интянь" #應天
- yingzhou_province: "Инчжоу" #颍州
- zhenjiang_province: "Чжэньцзян" #镇江/鎮江
- #Taiwan Area
+ funing_province: "Фунин"
+ fuzhou_province: "Фучжоу"
+ jianning_province: "Цзяньнин"
+ quanzhou_province: "Цюаньчжоу"
+ shaowu_province: "Шаоу"
+ tingzhou_province: "Тинчжоу"
+ xinghua_province: "Синхуа"
+ yanping_province: "Яньпин"
+ zhangzhou_province: "Чжанчжоу"
+ anlu_province: "Аньлу"
+ baoqing_province: "Баоцин"
+ changde_province: "Чандэ"
+ changsha_province: "Чанша"
+ chen_province: "Чэнь"
+ chenzhou_province: "Чэньчжоу"
+ dean_province: "Дэань"
+ daozhou_province: "Даочжоу"
+ fangzhou_province: "Фанчжоу"
+ guiyang_province: "Гуйян"
+ guizhou_huguang_province: "Гуйчжоу"
+ hanyang_province: "Ханьян"
+ hengzhou_province: "Хэнчжоу"
+ huangzhou_province: "Хуанчжоу"
+ jing_province: "Цзин"
+ jingmen_province: "Цзинмэнь"
+ jingzhou_province: "Цзинчжоу"
+ junzhou_province: "Цзюньчжоу"
+ lizhou_province: "Личжоу"
+ mianyang_province: "Мяньян"
+ shizhou_province: "Шичжоу"
+ suizhou_province: "Суйчжоу"
+ wuchang_province: "Учан"
+ wugang_province: "Уган"
+ xiangxiang_province: "Сянсян"
+ xiangyang_province: "Сянъян"
+ xingguo_province: "Синго"
+ yiling_province: "Илин"
+ yongshun_province: "Юншунь"
+ yongzhou_province: "Юнчжоу"
+ youzhou_province: "Ючжоу"
+ yuanzhou_huguang_province: "Юаньчжоу"
+ yuezhou_province: "Юэчжоу"
+ dingnan_province: "Диннань"
+ fuzhou_jiangxi_province: "Фучжоу"
+ ganzhou_province: "Ганьчжоу"
+ guangxin_province: "Гуансинь"
+ jian_province: "Цзиань"
+ jianchang_province: "Цзяньчан"
+ jiujiang_province: "Цзюцзян"
+ linjiang_province: "Линьцзян"
+ nanan_province: "Наньань"
+ nanchang_province: "Наньчан"
+ nankang_province: "Нанькан"
+ ningdu_province: "Нинду"
+ ningzhou_province: "Нинчжоу"
+ raozhou_province: "Жаочжоу"
+ ruizhou_province: "Жуйчжоу"
+ taihe_province: "Тайхэ"
+ yuanzhou_province: "Юаньчжоу"
+ anqing_province: "Аньцин"
+ bozhou_nanzhili_province: "Бочжоу"
+ changzhou_province: "Чанчжоу"
+ chizhou_province: "Чичжоу"
+ chuzhou_province: "Чучжоу"
+ fengyang_province: "Фэнъян"
+ gaoyou_province: "Гаою"
+ guangde_province: "Гуандэ"
+ haizhou_province: "Хайчжоу"
+ he_province: "Хэ"
+ huaian_province: "Хуайань"
+ huizhou_province: "Хуэйчжоу"
+ luan_nanzhili_province: "Луань"
+ luzhou_province: "Лучжоу"
+ ningguo_province: "Нинго"
+ pizhou_province: "Пичжоу"
+ songjiang_province: "Сунцзян"
+ shouzhou_province: "Шоучжоу"
+ sizhou_province: "Сычжоу"
+ suzhou_province: "Сучжоу"
+ suzhou_north_province: "Сучжоу"
+ taiping_province: "Тайпин"
+ taizhou_nanzhili_province: "Тайчжоу"
+ tongzhou_province: "Тунчжоу"
+ xuzhou_province: "Сюйчжоу"
+ yangzhou_province: "Янчжоу"
+ yingtian_province: "Интянь"
+ yingzhou_province: "Инчжоу"
+ zhenjiang_province: "Чжэньцзян"
  east_taiwan_province: "Восточный Тайвань"
  north_taiwan_province: "Северный Тайвань"
  south_taiwan_province: "Южный Тайвань"
  west_taiwan_province: "Западный Тайвань"
- #Zhejiang Area
- chuzhou_zhejiang_province: "Чучжоу" #处州/處州
- hangzhou_province: "Ханчжоу" #杭州
- huzhou_province: "Хучжоу" #湖州
- jiaxing_province: "Цзясин" #嘉興
- jinhua_province: "Цзиньхуа" #金华/金華
- ningbo_province: "Нинбо" #寧波
- quzhou_province: "Цюйчжоу" #衢州
- shaoxing_province: "Шаосин" #紹興
- taizhou_province: "Тайчжоу" #台州
- wenzhou_province: "Вэньчжоу" #溫州
- yanzhou_province: "Яньчжоу" #嚴州
- #East China Coastline
+ chuzhou_zhejiang_province: "Чучжоу"
+ hangzhou_province: "Ханчжоу"
+ huzhou_province: "Хучжоу"
+ jiaxing_province: "Цзясин"
+ jinhua_province: "Цзиньхуа"
+ ningbo_province: "Нинбо"
+ quzhou_province: "Цюйчжоу"
+ shaoxing_province: "Шаосин"
+ taizhou_province: "Тайчжоу"
+ wenzhou_province: "Вэньчжоу"
+ yanzhou_province: "Яньчжоу"
  east_china_sea_province: "Восточно-Китайское море"
  taiwan_coast_province: "Побережье Тайваня"
  taiwan_strait_province: "Тайваньский пролив"
  yellow_sea_province: "Жёлтое море"
- #Japan Region
- #Ezo Area
- #Korea Region
- #Bukgye Area
- #Manchuria Region
- #Liaodong Area
- dingliao_province: "Динлянь" #頂寮
+ dingliao_province: "Динлянь"
  gaizhou_province: "Гайчжоу"
  guangning_province: "Гуаннин"
  jinzhou_province: "Цзиньчжоу"
  liaoyang_province: "Ляоян"
  yizhou_liaodong_province: "Ичжоу"
- #Lower Amur Area
  amgun_province: "Амгун"
  amur_estuary_province: "Эстуарий Амура"
  bolon_province: "Болон"
@@ -2698,7 +2660,6 @@
  southern_sakhalin_province: "Южный Сахалин"
  tumnin_province: "Тумнин"
  tunguska_province: "Тунгуска"
- #Middle Amur Area
  amur_province: "Амур"
  gilyuy_province: "Гилюй"
  humar_province: "Хумар"
@@ -2707,290 +2668,262 @@
  selemdzha_province: "Селемджа"
  upper_bureya_province: "Верхняя Бурея"
  upper_zeya_province: "Верхняя Зея"
- #Songhua Area
  hulan_province: "Хулань"
  lalin_province: "Лалинь"
  middle_songhua_province: "Средняя Сунгари"
  mudan_province: "Мудань"
  tangwang_province: "Танван"
  upper_songhua_province: "Верхняя Сунгари"
- #Songnen Area
  chol_province: "Чол"
  lower_non_province: "Нижний Нон"
  nuomin_province: "Номинь"
  taoer_province: "Таоэр"
  upper_non_province: "Верхний Нон"
  xiliao_province: "Силяо"
- #Ussuri Area
  greater_ussuri_province: "Большое Уссури"
  muling_province: "Мулин"
  smaller_ussuri_province: "Малое Уссури"
  sanjiang_province: "Санцзян"
  suifun_province: "Хэтао"
  tumen_province: "Тумэнь"
- #Manchuria Coastline
  manchurian_coast_province: "Маньчжурское побережье"
  sea_okhotsk_province: "Охотское море"
  tartar_strait_province: "Татарский пролив"
- #Mongolia Region
- #Argun Area
  buir_nuur_province: "Буйр-Нуур"
  dalai_nuur_province: "Далай-Нуур"
  hailar_province: "Хайлар"
  kerulen_province: "Керулэн"
  lower_argun_province: "Нижний Аргун"
  upper_argun_province: "Верхний Аргун"
- #Eastern Gobi Area
  dariganga_province: "Дариганга"
  dorbod_province: "Дурбэд"
  eastern_gobi_province: "Восточная Гоби"
  erenkhot_province: "Эрэн-Хото"
  sharangad_province: "Шарангад"
  shilingol_province: "Шилин-Гол"
- #Lower Selenga Area
  chkoy_province: "Чикой"
  dzhida_province: "Джида"
  kharaa_province: "Хараа-Гол"
  khilok_province: "Хилок"
  uda_province: "Уда"
- #Mongolian Great Lakes Area
  khovd_province: "Ховд"
  khyargas_province: "Хяргас"
  tes_province: "Тэс"
  zavkhan_province: "Завхан"
- #Shilkari Area
  ingoda_province: "Ингода"
  lower_onon_province: "Нижний Онон"
  shilka_province: "Шилка"
  torey_province: "Торей"
  upper_onon_province: "Верхний Онон"
- #Southern Gobi Area
  alasha_province: "Алаша"
  hetao_province: "Хэтао"
  khara_khoto_province: "Хара-Хото"
  ordos_province: "Ордос"
  western_gobi_province: "Западная Гоби"
- #Tuva Area
  greater_yenisei_province: "Большой Енисей"
  smaller_yenisei_province: "Малый Енисей"
  upper_yenisei_province: "Верхний Енисей"
- #Upper Selenga Area
  egiin_province: "Эгийн-Гол"
  orkhon_province: "Орхон"
  selenga_province: "Селенга"
  tuul_province: "Туул"
  upper_selenga_province: "Верхняя Селенга"
- #Western Gobi Area
  barkul_province: "Баркёль"
  choyr_province: "Чойр"
  gobi_altai_province: "Говь-Алтай"
  ongiin_province: "Онгийн"
  ulaan_province: "Улаан"
  valley_of_the_lakes_province: "Долина Озёр"
- #North China Region
- #Beizili Area
- anzhou_province: "Аньчжоу" #安州/安州
- baoan_province: "Баоань" #保安/保安
- baoding_province: "Баодин" #保定/保定
- bazhou_province: "Бачжоу" #霸州/霸州
- cangzhou_province: "Цанчжоу" #沧州/滄州
- changping_province: "Чанпин" #昌平/昌平
- chaoyang_province: "Чаоян" #朝阳/朝陽
- daming_province: "Дамин" #大名/大名
- daning_province: "Данин" #大宁/大寧
- dingzhou_province: "Динчжоу" #定州/定州
- guangping_province: "Гуанпин" #广平/廣平
- hejian_province: "Хэцзянь" #河间/河間
- jingzhou_beizhili_province: "Цзинчжоу" #景州/景州
- jizhou_province: "Цзичжоу" #蓟州/薊州
- jizhou_zhending_province: "Цзичжоу" #冀州/冀州
- kaizhou_province: "Кайчжоу" #开州/開州
- luanzhou_province: "Луаньчжоу" #滦州/灤州
- quanning_province: "Цюаньнин" #全宁/全寧
- qingzhou_beizhili_province: "Цинчжоу" #清州/清州
- qizhou_province: "Цичжоу" #祁州/祁州
- shangdu_province: "Шанду" #上都/上都
- shenzhou_province: "Шэньчжоу" #深州/深州
- shunde_province: "Шуньдэ" #顺德/順德
- shuntian_province: "Шуньтянь" #順天
- tongzhou_beizhili_province: "Тунчжоу" #通州/通州
- wanquan_province: "Ваньцюань" #万全/萬全
- xinghe_province: "Синхэ" #兴和/興和
- xingzhou_province: "Синчжоу" #兴州/興州
- yizhou_province: "Ичжоу" #易州/易州
- yongping_province: "Юнпин" #永平/永平
- zhaozhou_province: "Чжаочжоу" #赵州/趙州
- zhending_province: "Чжэньдин" #真定/真定
- #Henan Area
- chenzhou_henan_province: "Чэньчжоу" #陈州/陈州
- cizhou_province: "Цычжоу" #磁州/磁州
- dengzhou_henan_province: "Дэнчжоу" #邓州/鄧州
- henan_province: "Хэнань" #河南
- guangzhou_henan_province: "Гуанчжоу" #光州/光州
- guide_province: "Гуйдэ" #归德/歸德
- huaiqing_province: "Хуайцин" #怀庆/懷慶
- kaifeng_province: "Кайфэн" #开封/開封
- nanyang_province: "Наньян" #南阳/南陽
- runing_province: "Жунин" #汝宁/汝寧
- ruzhou_province: "Жучжоу" #汝州/汝州
- shanzhou_province: "Шаньчжоу" #陕州/陝州
- songzhou_province: "Сунчжоу" #嵩州/嵩州
- suizhou_henan_province: "Суйчжоу" #睢州/睢州
- weihui_province: "Вэйхуэй" #卫辉/衛輝
- xinyang_province: "Синьян" #信阳/信陽
- xuzhou_henan_province: "Сюйчжоу" #许州/許州
- yuzhou_province: "Юйчжоу" #裕州/裕州
- zhangde_province: "Чжандэ" #彰德/彰德
- zhengzhou_province: "Чжэнчжоу" #郑州/鄭州
- #Shandong Area
- binzhou_province: "Биньчжоу" #滨州/濱州
- caozhou_province: "Цаочжоу" #曹州/曹州
- dezhou_province: "Дэчжоу" #德州/德州
- dengzhou_province: "Дэнчжоу" #登州/登州
- dongchang_province: "Дунчан" #东昌/東昌
- dongping_province: "Дунпин" #东平/東平
- gaotang_province: "Гаотан" #高唐/高唐
- jiaozhou_province: "Цзяочжоу" #胶州/膠州
- jinan_province: "Цзинань" #济南/濟南
- jining_province: "Цзинин" #济宁/濟寧
- juzhou_province: "Цзюйчжоу" #莒州/莒州
- laizhou_province: "Лайчжоу" #莱州/萊州
- linqing_province: "Линьцин" #临清/臨清
- mizhou_province: "Мичжоу" #密州/密州
- ninghai_province: "Нинхай" #宁海/寧海
- puzhou_province: "Пучжоу" #濮州/濮州
- qingzhou_province: "Цинчжоу" #青州/青州
- shanzhou_shandong_province: "Шаньчжоу" #单州/單州
- taian_province: "Тайань" #泰安/泰安
- tengzhou_province: "Тэнчжоу" #滕州/滕州
- wuding_shandong_province: "Удин" #武定/武定
- yanzhou_shandong_province: "Яньчжоу" #兖州/兗州
- yizhou_shandong_province: "Ичжоу" #沂州/沂州
- #Shanxi Area
- baode_province: "Баодэ" #保德/保德
- daizhou_province: "Дайчжоу" #代州/代州
- datong_province: "Датун" #大同/大同
- fenzhou_province: "Фэньчжоу" #汾州/汾州
- qingcheng_province: "Цинчэн" #青城/青城
- huozhou_province: "Хочжоу" #霍州/霍州
- jiangzhou_province: "Цзянчжоу" #绛州/絳州
- jining_shanxi_province: "Цзинин" #济宁/濟寧
- kelan_province: "Кэлань" #岢岚/岢嵐
- liaozhou_province: "Ляочжоу" #辽州/遼州
- luan_province: "Луань" #潞安/潞安蒲州
- pingding_province: "Пиндин" #平定/平定
- pingyang_province: "Пинъян" #平阳/平陽
- puzhou_shanxi_province: "Пучжоу" #蒲州/蒲州
- qinzhou_province: "Циньчжоу" #沁州/沁州
- shizhou_shanxi_province: "Шичжоу" #石州/石州
- taiyuan_province: "Тайюань" #太原/太原
- xiezhou_province: "Сечжоу" #解州/解州
- xinzhou_province: "Синьчжоу" #忻州/忻州
- xizhou_province: "Сичжоу" #隰州/隰州
- yingzhou_shanxi_province: "Инчжоу" #应州/應州
- yuzhou_shanxi_province: "Юйчжоу" #盂州/盂州
- zezhou_province: "Цзэчжоу" #泽州/澤州
- #North China Coastline
+ anzhou_province: "Аньчжоу"
+ baoan_province: "Баоань"
+ baoding_province: "Баодин"
+ bazhou_province: "Бачжоу"
+ cangzhou_province: "Цанчжоу"
+ changping_province: "Чанпин"
+ chaoyang_province: "Чаоян"
+ daming_province: "Дамин"
+ daning_province: "Данин"
+ dingzhou_province: "Динчжоу"
+ guangping_province: "Гуанпин"
+ hejian_province: "Хэцзянь"
+ jingzhou_beizhili_province: "Цзинчжоу"
+ jizhou_province: "Цзичжоу"
+ jizhou_zhending_province: "Цзичжоу"
+ kaizhou_province: "Кайчжоу"
+ luanzhou_province: "Луаньчжоу"
+ quanning_province: "Цюаньнин"
+ qingzhou_beizhili_province: "Цинчжоу"
+ qizhou_province: "Цичжоу"
+ shangdu_province: "Шанду"
+ shenzhou_province: "Шэньчжоу"
+ shunde_province: "Шуньдэ"
+ shuntian_province: "Шуньтянь"
+ tongzhou_beizhili_province: "Тунчжоу"
+ wanquan_province: "Ваньцюань"
+ xinghe_province: "Синхэ"
+ xingzhou_province: "Синчжоу"
+ yizhou_province: "Ичжоу"
+ yongping_province: "Юнпин"
+ zhaozhou_province: "Чжаочжоу"
+ zhending_province: "Чжэньдин"
+ chenzhou_henan_province: "Чэньчжоу"
+ cizhou_province: "Цычжоу"
+ dengzhou_henan_province: "Дэнчжоу"
+ henan_province: "Хэнань"
+ guangzhou_henan_province: "Гуанчжоу"
+ guide_province: "Гуйдэ"
+ huaiqing_province: "Хуайцин"
+ kaifeng_province: "Кайфэн"
+ nanyang_province: "Наньян"
+ runing_province: "Жунин"
+ ruzhou_province: "Жучжоу"
+ shanzhou_province: "Шаньчжоу"
+ songzhou_province: "Сунчжоу"
+ suizhou_henan_province: "Суйчжоу"
+ weihui_province: "Вэйхуэй"
+ xinyang_province: "Синьян"
+ xuzhou_henan_province: "Сюйчжоу"
+ yuzhou_province: "Юйчжоу"
+ zhangde_province: "Чжандэ"
+ zhengzhou_province: "Чжэнчжоу"
+ binzhou_province: "Биньчжоу"
+ caozhou_province: "Цаочжоу"
+ dezhou_province: "Дэчжоу"
+ dengzhou_province: "Дэнчжоу"
+ dongchang_province: "Дунчан"
+ dongping_province: "Дунпин"
+ gaotang_province: "Гаотан"
+ jiaozhou_province: "Цзяочжоу"
+ jinan_province: "Цзинань"
+ jining_province: "Цзинин"
+ juzhou_province: "Цзюйчжоу"
+ laizhou_province: "Лайчжоу"
+ linqing_province: "Линьцин"
+ mizhou_province: "Мичжоу"
+ ninghai_province: "Нинхай"
+ puzhou_province: "Пучжоу"
+ qingzhou_province: "Цинчжоу"
+ shanzhou_shandong_province: "Шаньчжоу"
+ taian_province: "Тайань"
+ tengzhou_province: "Тэнчжоу"
+ wuding_shandong_province: "Удин"
+ yanzhou_shandong_province: "Яньчжоу"
+ yizhou_shandong_province: "Ичжоу"
+ baode_province: "Баодэ"
+ daizhou_province: "Дайчжоу"
+ datong_province: "Датун"
+ fenzhou_province: "Фэньчжоу"
+ qingcheng_province: "Цинчэн"
+ huozhou_province: "Хочжоу"
+ jiangzhou_province: "Цзянчжоу"
+ jining_shanxi_province: "Цзинин"
+ kelan_province: "Кэлань"
+ liaozhou_province: "Ляочжоу"
+ luan_province: "Луань"
+ pingding_province: "Пиндин"
+ pingyang_province: "Пинъян"
+ puzhou_shanxi_province: "Пучжоу"
+ qinzhou_province: "Циньчжоу"
+ shizhou_shanxi_province: "Шичжоу"
+ taiyuan_province: "Тайюань"
+ xiezhou_province: "Сечжоу"
+ xinzhou_province: "Синьчжоу"
+ xizhou_province: "Сичжоу"
+ yingzhou_shanxi_province: "Инчжоу"
+ yuzhou_shanxi_province: "Юйчжоу"
+ zezhou_province: "Цзэчжоу"
  bohai_sea_province: "Бохайское море"
  bohai_strait_province: "Бохайский пролив"
  liaodong_bay_province: "Ляодунский залив"
- #South China Region
- #Guangdong Area
- chaozhou_province: "Чаочжоу" #潮州
- deqing_province: "Дэцин" #德庆/德慶
- dongguan_province: "Дунгуань" #东筦/東筦
- gaozhou_province: "Гаочжоу" #高州
- guangzhou_province: "Гуанчжоу" #廣州/廣州
- heyuan_province: "Хэюань" #河源
- huazhou_province: "Хуачжоу" #化州/化州
- huizhou_guangdong_province: "Хуэйчжоу" #惠州
- leizhou_province: "Лэйчжоу" #雷州/雷州
- lianzhou_province: "Ляньчжоу" #廉州/廉州
- lianzhou_guangdong_province: "Ляньчжоу" #连州/連州
- nanen_province: "Наньэнь" #南恩/南恩
- nanningjun_province: "Наньнинцзюнь" #南宁军/南寧軍
- nanxiong_province: "Наньсюн" #南雄
- panyu_province: "Паньюй" #番禺
- qiongzhou_province: "Цюнчжоу" #瓊州
- shaozhou_province: "Шаочжоу" #邵州
- wananjun_province: "Ваньаньцзюнь" #万安军/萬安軍
- xinhui_province: "Синьхуэй" #新惠
- xunzhou_guangdong_province: "Сюньчжоу" #循州
- yingde_province: "Индэ" #英德
- zhaoqing_province: "Чжаоцин" #肇庆/肇慶
- #Guangxi Area
- baishan_province: "Байшань" #白山
- binzhou_guangxi_province: "Биньчжоу" #宾州/賓州
- guilin_province: "Гуйлинь" #桂林
- guishun_province: "Гуйшуньчжоу" #歸順州/歸順州
- hezhou_guangxi_province: "Хэчжоу" #贺州/賀州
- hengzhou_guangxi_province: "Хэнчжоу" #横州/橫州
- xilong_province: "Силун" #西隆/西隆
- liuzhou_province: "Лючжоу" #柳州
- luorong_province: "Ложун" #洛容/洛容
- nandan_province: "Наньдань" #南丹/南丹
- nanning_province: "Наньнин" #南宁/南寧
- pingle_province: "Пинлэ" #平樂
- qingyuan_province: "Цинъюань" #庆远/慶遠
- quanzhou_guangxi_province: "Цюаньчжоу" #全州/全州
- rongzhou_province: "Жунчжоу" #融州
- rongzhou_wuzhou_province: "Жунчжоу" #容州
- sicheng_province: "Сычэн" #思城/思城
- siming_province: "Сыминчжоу" #思明州/思明州
- taiping_guangxi_province: "Тайпин" #太平
- tengzhou_guangxi_province: "Тэнчжоу" #藤州
- tianzhou_province: "Тяньчжоу" #田州
- wuzhou_province: "Учжоу" #梧州
- xunzhou_province: "Сюньчжоу" #浔州/潯州
- yulin_guangxi_province: "Юйлинь" #郁林/鬱林
- #Guizhou Area
- annan_guizhou_province: "Аньнань" #安南
- anshun_province: "Аньшунь" #安顺
- duyun_province: "Дуюнь" #都匀/都勻
- guizhou_province: "Гуйчжоу" #贵州/貴州
- liping_province: "Липин" #黎平
- pingyue_province: "Пинъюэ" #平越
- puan_province: "Пуань" #普安
- sinan_province: "Сынань" #思南
- sizhou_guizhou_province: "Сычжоу" #思州
- shunyuan_province: "Шуньюань" #順元
- tongren_province: "Тунжэнь" #铜仁/銅仁
- wusawei_province: "Усавэй" #乌撒卫/烏撒衛
- #Yunnan Area
- beisheng_province: "Бэйшэн" #北胜/北勝
- cheli_province: "Чэли" #車里/車裡
- chengjiang_province: "Чэнцзян" #澂江
- chuxiong_province: "Чусюн" #楚雄
- dali_province: "Дали" #大理
- lanzhou_province: "Ланьчжоу" #兰州/蘭州
- guangnan_province: "Гуаннань" #广南/廣南
- guanxi_province: "Гуанси" #广西/廣西
- heni_province: "Хэни" #和泥
- heqing_province: "Хэцин" #鹤庆/鶴慶
- jindong_province: "Цзиндун" #景东/景東
- jinning_province: "Цзиньнин" #晋宁/晉寧
- lijiang_province: "Лицзян" #丽江/麗江
- linan_province: "Линьань" #臨安
- malongtalang_province: "Малунталан" #馬龍他郎/馬龍他郎
- mangshi_province: "Манши" #芒市
- mengding_province: "Мэндин" #孟定
- menglian_province: "Мэнлянь" #孟连/孟連
- mengzi_province: "Мэнцзы" #蒙自
- qujing_province: "Цюйцзин" #曲靖
- shunning_province: "Шуньнин" #顺宁/順寧
- simao_province: "Сымао" #思茅
- tengchong_province: "Тэнчун" #腾冲/騰沖
- yaoan_province: "Яоань" #姚安
- yongchang_province: "Юнчан" #永昌
- yuanjiang_province: "Юаньцзян" #元江
- yunnan_province: "Юньнань" #云南/雲南
- weiyuan_province: "Вэйюань" #威遠/威遠
- wuding_province: "Удин" #武定
- #South China Coastline
+ chaozhou_province: "Чаочжоу"
+ deqing_province: "Дэцин"
+ dongguan_province: "Дунгуань"
+ gaozhou_province: "Гаочжоу"
+ guangzhou_province: "Гуанчжоу"
+ heyuan_province: "Хэюань"
+ huazhou_province: "Хуачжоу"
+ huizhou_guangdong_province: "Хуэйчжоу"
+ leizhou_province: "Лэйчжоу"
+ lianzhou_province: "Ляньчжоу"
+ lianzhou_guangdong_province: "Ляньчжоу"
+ nanen_province: "Наньэнь"
+ nanningjun_province: "Наньнинцзюнь"
+ nanxiong_province: "Наньсюн"
+ panyu_province: "Паньюй"
+ qiongzhou_province: "Цюнчжоу"
+ shaozhou_province: "Шаочжоу"
+ wananjun_province: "Ваньаньцзюнь"
+ xinhui_province: "Синьхуэй"
+ xunzhou_guangdong_province: "Сюньчжоу"
+ yingde_province: "Индэ"
+ zhaoqing_province: "Чжаоцин"
+ baishan_province: "Байшань"
+ binzhou_guangxi_province: "Биньчжоу"
+ guilin_province: "Гуйлинь"
+ guishun_province: "Гуйшуньчжоу"
+ hezhou_guangxi_province: "Хэчжоу"
+ hengzhou_guangxi_province: "Хэнчжоу"
+ xilong_province: "Силун"
+ liuzhou_province: "Лючжоу"
+ luorong_province: "Ложун"
+ nandan_province: "Наньдань"
+ nanning_province: "Наньнин"
+ pingle_province: "Пинлэ"
+ qingyuan_province: "Цинъюань"
+ quanzhou_guangxi_province: "Цюаньчжоу"
+ rongzhou_province: "Жунчжоу"
+ rongzhou_wuzhou_province: "Жунчжоу"
+ sicheng_province: "Сычэн"
+ siming_province: "Сыминчжоу"
+ taiping_guangxi_province: "Тайпин"
+ tengzhou_guangxi_province: "Тэнчжоу"
+ tianzhou_province: "Тяньчжоу"
+ wuzhou_province: "Учжоу"
+ xunzhou_province: "Сюньчжоу"
+ yulin_guangxi_province: "Юйлинь"
+ annan_guizhou_province: "Аньнань"
+ anshun_province: "Аньшунь"
+ duyun_province: "Дуюнь"
+ guizhou_province: "Гуйчжоу"
+ liping_province: "Липин"
+ pingyue_province: "Пинъюэ"
+ puan_province: "Пуань"
+ sinan_province: "Сынань"
+ sizhou_guizhou_province: "Сычжоу"
+ shunyuan_province: "Шуньюань"
+ tongren_province: "Тунжэнь"
+ wusawei_province: "Усавэй"
+ beisheng_province: "Бэйшэн"
+ cheli_province: "Чэли"
+ chengjiang_province: "Чэнцзян"
+ chuxiong_province: "Чусюн"
+ dali_province: "Дали"
+ lanzhou_province: "Ланьчжоу"
+ guangnan_province: "Гуаннань"
+ guanxi_province: "Гуанси"
+ heni_province: "Хэни"
+ heqing_province: "Хэцин"
+ jindong_province: "Цзиндун"
+ jinning_province: "Цзиньнин"
+ lijiang_province: "Лицзян"
+ linan_province: "Линьань"
+ malongtalang_province: "Малунталан"
+ mangshi_province: "Манши"
+ mengding_province: "Мэндин"
+ menglian_province: "Мэнлянь"
+ mengzi_province: "Мэнцзы"
+ qujing_province: "Цюйцзин"
+ shunning_province: "Шуньнин"
+ simao_province: "Сымао"
+ tengchong_province: "Тэнчун"
+ yaoan_province: "Яоань"
+ yongchang_province: "Юнчан"
+ yuanjiang_province: "Юаньцзян"
+ yunnan_province: "Юньнань"
+ weiyuan_province: "Вэйюань"
+ wuding_province: "Удин"
  south_china_sea_province: "Южно-Китайское море"
  tonkin_gulf_province: "Тонкинский залив"
- #Tibet Region
- #Amdo Area
  amdo_province: "Амдо"
  golog_province: "Голог"
  gyahor_province: "Гьяхор"
@@ -2998,11 +2931,9 @@
  ngapa_province: "Нгапа"
  tsaidam_province: "Цайдам"
  zekog_province: "Дзеког"
- #Changtang Area
  changtang_province: "Чангтанг"
  naktsang_province: "Накцанг"
  namru_province: "Намру"
- #Kham Area
  chamdo_province: "Чамдо"
  dartsedo_province: "Дарцедо"
  derge_province: "Деге"
@@ -3022,7 +2953,6 @@
  tsawarong_province: "Цаваронг"
  yushu_province: "Юшу"
  zayul_province: "Заюл"
- #Ngari Area
  balti_province: "Балти"
  guge_province: "Гуге"
  ladakh_province: "Ладакх"
@@ -3032,104 +2962,96 @@
  rutok_province: "Руток"
  spiti_province: "Спити"
  zangskar_province: "Занскар"
- #Tsang Area
  dingri_province: "Дингри"
  lhato_province: "Лхатё"
  nyang_province: "Ньянг"
  tsang_province: "Цанг"
- #U Area
  kongpo_province: "Конкпо"
  lhokha_province: "Лхокха"
  pemako_province: "Пемако"
  u_province: "У"
  yarlung_province: "Ярлунг"
- #West China Region
- #Gansu Area
- ganzhou_gansu_province: "Ганьчжоу" #甘州/甘州
- hami_province: "Хами" #哈密/哈密
- shazhou_province: "Шачжоу" #沙州/沙州
- suzhou_gansu_province: "Сучжоу" #肃州/肅州
- xining_province: "Синин" #西宁/西寧
- yongchang_gansu_province: "Юнчан" #永昌/永昌
- #Shaanxi Area
- binzhou_shaanxi_province: "Биньчжоу" #邠州/邠州
- fengxiang_province: "Фэнсян" #凤翔/鳳翔
- fengzhou_province: "Фэнчжоу" #凤州/鳳州
- fuzhou_shaanxi_province: "Фучжоу" #鄜州/鄜州
- gongchang_province: "Гунчан" #巩昌/鞏昌
- guyuan_province: "Гуюань" #固原/固原
- hanzhong_province: "Ханьчжун" #汉中/漢中
- hezhou_province: "Хэчжоу" #河州/河州
- huazhou_shaanxi_province: "Хуачжоу" #华州/華州
- huizhou_shaanxi_province: "Хуэйчжоу" #徽州/徽州
- jiazhou_province: "Цзячжоу" #葭州/葭州
- jiezhou_province: "Цзечжоу" #阶州/階州
- jingning_province: "Цзиннин" #静宁/靜寧
- jingzhou_shaanxi_province: "Цзинчжоу" #泾州/涇州
- lintao_province: "Линьтао" #临洮/臨洮
- lingzhou_province: "Линчжоу" #灵州/靈州
- minzhou_province: "Миньчжоу" #岷州/岷州
- ningxia_province: "Нинся" #宁夏/寧夏
- pingliang_province: "Пинлян" #平凉/平凉
- qianzhou_province: "Цяньчжоу" #乾州/乾州
- qingyang_province: "Цинъян" #庆阳/慶陽
- qinzhou_shaanxi_province: "Циньчжоу" #秦州/秦州
- shangzhou_province: "Шанчжоу" #商州/商州
- suide_province: "Суйдэ" #绥德/綏德
- taozhou_province: "Таочжоу" #洮州/洮州
- tongzhou_shaanxi_province: "Тунчжоу" #同州/同州
- xian_province: "Сиань" #西安
- xingan_province: "Синъань" #兴安/興安
- yanan_province: "Яньань" #延安/延安
- yangzhou_shaanxi_province: "Янчжоу" #洋州/洋州
- yaozhou_province: "Яочжоу" #耀州/耀州
- yulin_province: "Юйлинь" #玉林/玉林
- #Sichuan Area
- baixing_province: "Байсин" #柏兴/柏興
- baoning_province: "Баонин" #保宁/保寧
- bazhou_sichuan_province: "Бачжоу" #巴州/巴州
- bozhou_province: "Бочжоу" #播州/播州
- changning_province: "Чаннин" #长宁/長寧
- changzhou_sichuan_province: "Чанчжоу" #昌州/昌州
- chengdu_province: "Чэнду" #成都
- chongqing_province: "Чунцин" #重庆/重慶
- dazhou_province: "Дачжоу" #达州/達州
- dechang_province: "Дэчан" #德昌/德昌
- dongchuan_province: "Дунчуань" #东川/東川
- fuzhou_sichuan_province: "Фучжоу" #涪州/涪州
- guangan_province: "Гуанъань" #广安/廣安
- guangyuan_province: "Гуанъюань" #广元/廣元
- hanzhou_province: "Ханьчжоу" #汉州/漢州
- hezhou_sichuan_province: "Хэчжоу" #合州/合州
- jiading_province: "Цзядин" #嘉定
- jianzhou_province: "Цзяньчжоу" #剑州/劍州
- jianzhou_west_province: "Цзяньчжоу" #简州/簡州
- kuizhou_province: "Куйчжоу" #夔州/夔州
- lizhou_sichuan_province: "Личжоу" #黎州/黎州
- longan_province: "Лунъань" #龙安/龍安
- luzhou_sichuan_province: "Лучжоу" #泸州/瀘州
- mahu_province: "Маху" #马湖/馬湖
- maozhou_province: "Маочжоу" #茂州/茂州
- meizhou_province: "Мэйчжоу" #眉州/眉州
- muli_province: "Мули" #木里
- pengzhou_province: "Пэнчжоу" #彭州/彭州
- qiongzhou_sichuan_province: "Цюнчжоу" #邛州/邛州
- shunqing_province: "Шуньцин" #顺庆/順慶
- sichuan_province: "Сычуань" #四川
- songpan_province: "Сунпань" #松潘
- suining_province: "Суйнин" #遂宁/遂寧
- tongchuan_province: "Тунчуань" #潼川
- wumeng_province: "Умэн" #乌蒙/烏蒙
- wusa_province: "Уса" #乌撒/烏撒
- xinzhou_sichuan_province: "Синьчжоу" #新州/新州
- xuzhou_sichuan_province: "Сюйчжоу" #叙州/敘州
- yazhou_province: "Ячжоу" #雅州/雅州
- yongning_province: "Юннин" #永宁/永寧
- youyang_province: "Юян" #酉阳/酉陽
- zhenan_province: "Чжэнань" #真安/真安
- zhongzhou_province: "Чжунчжоу" #忠州/忠州
- #Xinjiang Region
- #Dzungaria Area
+ ganzhou_gansu_province: "Ганьчжоу"
+ hami_province: "Хами"
+ shazhou_province: "Шачжоу"
+ suzhou_gansu_province: "Сучжоу"
+ xining_province: "Синин"
+ yongchang_gansu_province: "Юнчан"
+ binzhou_shaanxi_province: "Биньчжоу"
+ fengxiang_province: "Фэнсян"
+ fengzhou_province: "Фэнчжоу"
+ fuzhou_shaanxi_province: "Фучжоу"
+ gongchang_province: "Гунчан"
+ guyuan_province: "Гуюань"
+ hanzhong_province: "Ханьчжун"
+ hezhou_province: "Хэчжоу"
+ huazhou_shaanxi_province: "Хуачжоу"
+ huizhou_shaanxi_province: "Хуэйчжоу"
+ jiazhou_province: "Цзячжоу"
+ jiezhou_province: "Цзечжоу"
+ jingning_province: "Цзиннин"
+ jingzhou_shaanxi_province: "Цзинчжоу"
+ lintao_province: "Линьтао"
+ lingzhou_province: "Линчжоу"
+ minzhou_province: "Миньчжоу"
+ ningxia_province: "Нинся"
+ pingliang_province: "Пинлян"
+ qianzhou_province: "Цяньчжоу"
+ qingyang_province: "Цинъян"
+ qinzhou_shaanxi_province: "Циньчжоу"
+ shangzhou_province: "Шанчжоу"
+ suide_province: "Суйдэ"
+ taozhou_province: "Таочжоу"
+ tongzhou_shaanxi_province: "Тунчжоу"
+ xian_province: "Сиань"
+ xingan_province: "Синъань"
+ yanan_province: "Яньань"
+ yangzhou_shaanxi_province: "Янчжоу"
+ yaozhou_province: "Яочжоу"
+ yulin_province: "Юйлинь"
+ baixing_province: "Байсин"
+ baoning_province: "Баонин"
+ bazhou_sichuan_province: "Бачжоу"
+ bozhou_province: "Бочжоу"
+ changning_province: "Чаннин"
+ changzhou_sichuan_province: "Чанчжоу"
+ chengdu_province: "Чэнду"
+ chongqing_province: "Чунцин"
+ dazhou_province: "Дачжоу"
+ dechang_province: "Дэчан"
+ dongchuan_province: "Дунчуань"
+ fuzhou_sichuan_province: "Фучжоу"
+ guangan_province: "Гуанъань"
+ guangyuan_province: "Гуанъюань"
+ hanzhou_province: "Ханьчжоу"
+ hezhou_sichuan_province: "Хэчжоу"
+ jiading_province: "Цзядин"
+ jianzhou_province: "Цзяньчжоу"
+ jianzhou_west_province: "Цзяньчжоу"
+ kuizhou_province: "Куйчжоу"
+ lizhou_sichuan_province: "Личжоу"
+ longan_province: "Лунъань"
+ luzhou_sichuan_province: "Лучжоу"
+ mahu_province: "Маху"
+ maozhou_province: "Маочжоу"
+ meizhou_province: "Мэйчжоу"
+ muli_province: "Мули"
+ pengzhou_province: "Пэнчжоу"
+ qiongzhou_sichuan_province: "Цюнчжоу"
+ shunqing_province: "Шуньцин"
+ sichuan_province: "Сычуань"
+ songpan_province: "Сунпань"
+ suining_province: "Суйнин"
+ tongchuan_province: "Тунчуань"
+ wumeng_province: "Умэн"
+ wusa_province: "Уса"
+ xinzhou_sichuan_province: "Синьчжоу"
+ xuzhou_sichuan_province: "Сюйчжоу"
+ yazhou_province: "Ячжоу"
+ yongning_province: "Юннин"
+ youyang_province: "Юян"
+ zhenan_province: "Чжэнань"
+ zhongzhou_province: "Чжунчжоу"
  altay_province: "Алтай"
  beshbalik_province: "Бешбалык"
  bortala_province: "Боро-Тала"
@@ -3137,7 +3059,6 @@
  karakoram_province: "Каракорум"
  turpan_province: "Турфан"
  yangjibaliq_province: "Янгджибалык"
- #Tarim Area
  aksu_province: "Аксу"
  charchan_province: "Черчен"
  karasahr_province: "Карашар"
@@ -3149,15 +3070,11 @@
  taklamakan_province: "Такламакан"
  sarikol_province: "Сарыколь"
  yarkand_province: "Яркенд"
- #South Asia (INDIA)
- #Bengal Region
- #Assam
  meghalaya_province: "Мегхалая"
  ahom_province: "Ахом"
  baro_bhuyan_province: "Баро-Бхуян"
  chutia_province: "Чутия"
  kachari_province: "Качари"
- #Bengal
  bishnupur_province: "Вишнупур"
  bogra_province: "Богра"
  devkot_province: "Девкот"
@@ -3171,22 +3088,18 @@
  sonargaon_province: "Сонаргаон"
  sylhet_province: "Силхет"
  tripura_province: "Трипура"
- #Hill Area
  chin_province: "Чхин"
  kuki_province: "Куки"
  manipur_province: "Манипур"
  naga_province: "Нага"
- #Jharkhand
  hazaribagh_province: "Хазарибагх"
  palamau_province: "Паламау"
  ranchi_province: "Ранчи"
- #Mithila
  bhagalpur_province: "Бхагалпур"
  darbhanga_province: "Дарбханга"
  dumka_province: "Думка"
  patna_province: "Патна"
  purnia_province: "Пурния"
- #Nepal
  bheri_province: "Бхери"
  east_gandak_province: "Восточный Гандак"
  garhwal_province: "Гархвал"
@@ -3196,31 +3109,23 @@
  upper_ghaghara_province: "Верхняя Гхагхара"
  upper_kosi_province: "Верхняя Коси"
  west_gandak_province: "Западный Гандак"
- #Deccan Region
- #Awadh
  awadh_province: "Ауд"
  bahraich_province: "Бахрайч"
  khairabad_province: "Хайрабад"
  lucknow_province: "Лакхнау"
  manikpur_province: "Маникпур"
- #Bhojpur
  arrah_province: "Аррах"
  azamgarh_province: "Азамгарх"
  bettiah_province: "Беттиах"
  gorakhpur_province: "Горакхпур"
  varanasi_province: "Варанаси"
- #Rokhilkhand
  bareilly_province: "Барели"
  budaun_province: "Бадаюн"
  rampur_rokhilkhand_province: "Рампур"
  maldives_province: "Мальдивы"
- #South East Asia
- #Indochina Region
- #Arakhan
  chittagong_province: "Читтагонг"
  northern_arakhan_province: "Северный Арахан"
  southern_arakhan_province: "Южный Арахан"
- #Champa
  hue_province: "Хюэ"
  indrapura_province: "Индрапура"
  kauthara_province: "Каутхара"
@@ -3228,7 +3133,6 @@
  panduranga_province: "Пандуранга"
  southern_highland_province: "Южное нагорье"
  vijaya_province: "Виджая"
- #Chao Phraya
  ayutthaya_province: "Аюттхая"
  phetchaburi_province: "Пхетбури"
  phraek_province: "Пхрэк"
@@ -3237,7 +3141,6 @@
  sukhothai_province: "Сукхотаи"
  suphanburi_province: "Супханбури"
  tak_province: "Тхак"
- #Irrawady
  kale_province: "Кале"
  pagan_province: "Паган"
  pinya_province: "Пинья"
@@ -3245,20 +3148,17 @@
  sagaing_province: "Сикайн"
  salin_province: "Салин"
  taungoo_province: "Таунгу"
- #Irrawady Delta
  martaban_province: "Мартабан"
  myaungmya_province: "Мьяунгмья"
  pathein_province: "Патхейн"
  pegu_province: "Пегу"
  tenasserim_province: "Тенассерим"
  thaton_province: "Татхоун"
- #Kachin
  hkamti_province: "Кхамти"
  htamanthi_province: "Тхамантхи"
  mongkawng_province: "Могаун"
  putao_province: "Путао"
  wuntho_province: "Вунто"
- #Khorat Plateau
  buriram_province: "Бурирам"
  chaiyaphum_province: "Чайяпхум"
  champasak_province: "Тямпасак"
@@ -3271,7 +3171,6 @@
  savannakhet_province: "Саваннакхет"
  thakhek_proivnce: "Тхакхэк"
  vientiane_province: "Вьентьян"
- #Lower Mekong
  angkor_province: "Ангкор"
  battambang_province: "Баттамбанг"
  indrapura_khmer_province: "Индрапура"
@@ -3282,7 +3181,6 @@
  prey_nokor_province: "Прейнокор"
  stung_treng_province: "Стынгтраенг"
  vyadhapura_province: "Вьядхапура"
- #Malay Peninsula
  east_kra_province: "Восточная Кра"
  johor_province: "Джохор"
  kedah_province: "Кедах"
@@ -3292,7 +3190,6 @@
  thammarat_province: "Тхаммарат"
  trengganu_province: "Тренгану"
  west_kra_province: "Западная Кра"
- #Northern Tai Highland
  chiang_mai_province: "Чиангмай"
  chiang_rai_province: "Чианграй"
  muang_sing_province: "Муангсинг"
@@ -3300,7 +3197,6 @@
  muang_yuam_province: "Мыангъюам"
  phrae_province: "Пхрэ"
  xam_neua_province: "Самныа"
- #Red River Delta
  dien_chau_province: "Дьентяу"
  hai_dong_province: "Хайдонг"
  hoan_chau_province: "Хоантяу"
@@ -3315,7 +3211,6 @@
  thien_truong_province: "Тхьенчыонг"
  tuyen_hoa_province: "Туенхоа"
  tru_vien_province: "Чувьен"
- #Shan Highland
  hsenwi_province: "Схенви"
  hsipaw_province: "Схипо"
  kengtung_province: "Чёнгтун"
@@ -3323,12 +3218,9 @@
  mongnai_province: "Монгнай"
  mongpai_province: "Монгпай"
  monghsu_province: "Монсху"
- #Southeast Asian Coasts
  myanmar_coast_province: "Побережье Бирмы"
  vietnam_coast_province: "Побережье Вьетнама"
  thailand_coast_province: "Побережье Таиланда"
- #Indonesia Region
- #Borneo
  banjar_province: "Банджар"
  baram_province: "Барам"
  berau_province: "Берау"
@@ -3355,7 +3247,6 @@
  upper_mahakam_province: "Верхний Махакам"
  upper_rajang_province: "Верхний Раджанг"
  borneo_impassable_jungle_province: "Борнейские джунгли"
- #Celebes
  banggai_province: "Бангай"
  bone_province: "Боне"
  bungku_province: "Бунгку"
@@ -3366,7 +3257,6 @@
  mamudju_province: "Мамуджу"
  manado_province: "Манадо"
  palopo_province: "Палопо"
- #Java
  banten_province: "Бантен"
  cirebon_province: "Чиребон"
  demak_province: "Демак"
@@ -3375,19 +3265,16 @@
  pajang_province: "Паджанг"
  surabaya_province: "Сурабая"
  trowulan_province: "Тровулан"
- #Lesser Sunda
  bali_province: "Бали"
  barat_daya_province: "Барат-Дая"
- flores_province: "Флорес" #Nipa in native
+ flores_province: "Флорес"
  sumbawa_province: "Сумбава"
  timor_province: "Тимор"
- #Moluccas
  aru_province: "Ару"
  buru_province: "Буру"
  seram_province: "Серам"
  ternate_province: "Тернате"
  tidore_province: "Тидоре"
- #Philippines
  agus_province: "Агус"
  agusan_province: "Агусан"
  buglas_province: "Буглас"
@@ -3409,7 +3296,6 @@
  tandaya_province: "Тандая"
  upper_cagayan_province: "Верхний Кагаян"
  zamboanga_province: "Замбоанга"
- #Sumatra
  andaman_province: "Андаман"
  bangka_province: "Банка"
  barus_province: "Барус"
@@ -3432,14 +3318,12 @@
  tulangbawang_province: "Тулангбаванг"
  upper_jambi_province: "Верхнее Джамби"
  upper_musi_province: "Верхнее Муси"
- #indonesia Coasts
  borneo_coast_province: "Побережье Борнео"
  java_coast_province: "Побережье Явы"
  lesser_sunda_coast_province: "Побережье Малой Сунды"
  moluccas_coast_province: "Побережье Молуккских островов"
  philippines_coast_province: "Побережье Филиппин"
  sumatra_coast_province: "Побережье Суматры"
- #Central Africa
  ogoowe_benje_province: "Огове-Бендже"
  nyanga_province: "Ньянга"
  moyen_ogoowe_province: "Среднее Огове"
@@ -3508,15 +3392,11 @@
  lomami_province: "Ломами"
  lukenie_province: "Лукение"
  bena_province: "Бена"
- #Middle East
- #Arabia Region
- #Bahrein Area
  al_ahsa_province: "Аль-Ахса"
  batin_province: "Вади-аль-Батин"
  nita_province: "Нита"
  qatar_province: "Катар"
  yabrin_province: "Ябрин"
- #Hedjaz Area
  dhalam_province: "Далам"
  duba_province: "Дуба"
  hinakiyah_province: "Аль-Хинакия"
@@ -3530,7 +3410,6 @@
  taif_province: "Ат-Таиф"
  umluj_province: "Умлудж"
  yanbu_province: "Янбу"
- #Najd Area
  afif_province: "Афиф"
  al_hisu_province: "Аль-Хису"
  ar_rayn_province: "Ар-Райн"
@@ -3544,18 +3423,15 @@
  yamama_province: "Аль-Ямама"
  washm_province: "Аль-Вашм"
  west_qassim_province: "Западный Аль-Касим"
- #Oman Area
  batina_province: "Аль-Батина"
  julfar_province: "Джульфар"
  masqat_province: "Маскат"
  nizwa_province: "Назва"
- #Shammar Area
  hail_province: "Хаиль"
  jawf_province: "Аль-Гауф"
  sirhan_province: "Вади-ас-Сирхан"
  nafud_province: "Нефуд"
  zubala_province: "Зубала"
- #Yemen Area
  abha_province: "Абха"
  aden_province: "Аден"
  birali_province: "Бир-Али"
@@ -3575,20 +3451,15 @@
  tathlith_province: "Татлит"
  turbah_province: "Турба"
  zabid_province: "Забид"
- #Arabian Sea Area
  arabian_sea_province: "Аравийское море"
  gulf_aden_province: "Аденский залив"
- #Red Sea Area
  red_sea_province: "Красное море"
- #Persia Region
- #Azerbaijan Area
  ardabil_province: "Ардебиль"
  barza_province: "Барза"
  khoy_province: "Хой"
  miyaneh_province: "Мияне"
  tabriz_province: "Тебриз"
  urmia_province: "Орумие"
- #Baluchistan Area
  bampur_province: "Бемпур"
  bannajbur_province: "Баннаджбур"
  bela_province: "Бела"
@@ -3599,7 +3470,6 @@
  quetta_province: "Кветта"
  qusdar_province: "Хуздар"
  tiz_province: "Аль-Тиз"
- #Fars Area
  abarkuh_province: "Эберку"
  behbahan_province: "Бехбехан"
  darab_province: "Дараб"
@@ -3615,7 +3485,6 @@
  shiraz_province: "Шираз"
  siraf_province: "Сиреф"
  yazd_province: "Йезд"
- #Iraq Ajam Area
  ardestan_province: "Эрдестан"
  golpayegan_province: "Гольпайеган"
  hamadan_province: "Хамадан"
@@ -3625,7 +3494,6 @@
  qumisha_province: "Кумиша"
  rey_province: "Рей"
  zanjan_province: "Зенджан"
- #Kerman Area
  bam_province: "Бам"
  jiroft_province: "Джирофт"
  kahnuj_province: "Кехнудж"
@@ -3634,7 +3502,6 @@
  rafsanjan_province: "Рефсенджан"
  sirjan_province: "Сирджан"
  zarand_province: "Зеренд"
- #Khuzestan & Lurestan Area
  ahvaz_province: "Ахваз"
  borujerd_province: "Боруджерд"
  deh_kord_province: "Дехи-Курд"
@@ -3642,12 +3509,10 @@
  izeh_province: "Изе"
  khorramabad_province: "Хорремабад"
  ramhormoz_province: "Рамхормоз"
- #Kordestan  Area
  bijar_province: "Биджар"
  kermanshah_province: "Керманшах"
  nahavand_province: "Нехавенд"
  sahrazur_province: "Шехрезур"
- #Mazandaran Area
  damghan_province: "Дамган"
  daylam_province: "Дейлем"
  gilan_province: "Гилян"
@@ -3655,13 +3520,11 @@
  rustamdar_province: "Рустамдар"
  tabaristan_province: "Табаристан"
  talish_province: "Талыш"
- #Quhestan Area
  birjand_province: "Бирдженд"
  gonabad_province: "Гонабад"
  qaen_province: "Кайен"
  tabas_al_tamr_province: "Табас-аль-Тамр"
  turaythith_province: "Турайтит"
- #Sistan Area
  adraskan_province: "Адраскан"
  bost_province: "Бост"
  farah_province: "Фарах"
@@ -3692,7 +3555,6 @@
  maldives_high_sea_zones_province: "Мальдивские открытые воды"
  konkan_coastal_sea_zones_province: "Побережье Конкана"
  konkan_high_sea_zones_province: "Открытые воды Конкана"
- #Eastcoast
  massachusetts_province: "Массачусетс"
  nauset_province: "Наусет"
  agawam_province: "Агавам"
@@ -3844,7 +3706,6 @@
  new_england_coast_province: "Побережье Новой Англии"
  eastern_gulf_coast_province: "Восточное побережье Мексиканского залива"
  west_florida_coast_province: "Западное побережье Флориды"
- #Central North America
  bulbancha_province: "Бульбанча"
  chawasha_province: "Чаваша"
  ciwat_province: "Чиват"
@@ -3963,7 +3824,6 @@
  thaolintoa_province: "Таолинтоа"
  jazz_coast: "Побережье Луизианы"
  yukon_coast: "Побережье Манитобы"
- #Papua
  eastern_australia_sea_zones_province: "Восточно-Австралийское море"
  tinputz_province: "Тинпуц"
  solomon_islands_coastal_sea_zones_province: "Прибрежные воды Соломоновых островов"
@@ -4187,7 +4047,6 @@
  manus_coastal_sea_zones_province: "Прибрежные воды Мануса"
  kuot_coastal_sea_zones_province: "Прибрежные воды Куота"
  ndom_coastal_sea_zones_province: "Прибрежные воды Ндома"
- #World Seas
  atlantic_west_spitzbergen_province: "Атлантическое Западно-Шпицбергенское течение"
  atlantic_irminger_province: "Течение Ирмингера"
  atlantic_labrador_province: "Лабрадорское течение"
@@ -4238,7 +4097,6 @@
  swahili_coast_sea_zones_area: "Суахильское побережье"
  southern_africa_coast_area: "Побережье Южной Африки"
  zimbabwe_sea_zones_area: "Побережье Зимбабве"
- #Australian Aquatic Coastals
  australia_high_seas_province: "Австралийские открытые воды"
  yinggarda_thalanyji_province_coast: "Побережье Йингката-Таланьтьи"
  jaburrara_kundal_province_coast: "Побережье Тяпуррара-Кунтал"
@@ -4261,7 +4119,6 @@
  wardandi_yoberrore_province_coast: "Побережье Ватанти-Йоперроре"
  mandurah_badimaya_province_coast: "Побережье Мантурах-Патимая"
  christmas_island_coast_province: "Побережье острова Рождества"
- #Australian Lands
  christmas_island_province: "Остров Рождества"
  wardandi_province: "Ватанти"
  yoberrore_province: "Йоперроре"
@@ -4318,7 +4175,6 @@
  kooapudna_province: "Куапутна"
  nawu_province: "Наву"
  tidni_province: "Титни"
- #Urals and Siberia
  kazan_province: "Казань"
  yaransk_province: "Яранск"
  sarapul_province: "Сарапул"

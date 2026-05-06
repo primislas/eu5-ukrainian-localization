@@ -1,9 +1,9 @@
 ﻿l_russian:
- ainsa.basque_language: "Айнса" #From Etimology
+ ainsa.basque_language: "Айнса"
  aire.basque_language: "Атура"
  almudevar.basque_language: "Бортина"
  anso.basque_language: "Берари"
- ariza.basque_language: "Арица" #From Etimology
+ ariza.basque_language: "Арица"
  arnedo.basque_language: "Ареаца"
  auch.basque_language: "Ириберри-Аучоа"
  barcelona.basque_language: "Барцелона"
@@ -15,11 +15,11 @@
  bruges.basque_language: "Брухас"
  cadiz.basque_language: "Карисе"
  calahorra.basque_language: "Калагорри"
- carinena.basque_language: "Кариньена" #Basque spelling
+ carinena.basque_language: "Кариньена"
  carcassonne.basque_language: "Каркасона"
  castelnau_de_medoc.basque_language: "Гастелуменди-Медока"
  condom.basque_language: "Гондона"
- daroca.basque_language: "Дарока" #From Etimology
+ daroca.basque_language: "Дарока"
  dax.basque_language: "Акисе"
  ejea_de_los_caballeros.basque_language: "Сетия-Эшеа"
  estella.basque_language: "Лисарра"
@@ -29,7 +29,7 @@
  la_rochelle.basque_language: "Эррошела"
  labrit.basque_language: "Альбарета"
  laguardia.basque_language: "Гуардия"
- laredo.basque_language: "Сандойна" #Santoña
+ laredo.basque_language: "Сандойна"
  lesparre_medoc.basque_language: "Леспаррен-Медока"
  libourne.basque_language: "Либурна"
  logrono.basque_language: "Логроньо"

@@ -9,10 +9,9 @@
  mission_task_no_goods: "$no_valid_goods$"
  mission_task_select_town_or_city: "Выберите [Concept('urban_location', 'городской район')|e] для этого [Concept('task', 'этапа')]"
  mission_task_no_town_or_city: "$no_valid_town_or_city$"
- #generic_conquer_province
  generic_conquer_province: "Региональная экспансия"
  generic_conquer_province_DESCRIPTION: "Вперёд к славе!"
- generic_conquer_province_CRITERIA_DESCRIPTION: "Территории [ROOT.GetCountry.Custom('rank_ru_GEN')|l] расширились."
+ generic_conquer_province_CRITERIA_DESCRIPTION: "Территории [ROOT.GetCountry.Custom('rank_ua_GEN')|l] расширились."
  generic_conquer_province_BUTTON_TOOLTIP: "Чтобы предотвратить экспансию со стороны враждебных соседей, нам необходимо самим вести наступательные действия."
  generic_conquer_province_BUTTON_DETAILS: "Нас окружает множество держав, которые стремятся положить конец нашему правлению. Чтобы не стать жертвой экспансии недружественных стран, мы должны первыми начать наступление."
  has_cb_that_allows_conquest_on_neighbor_country_tt: "У нас есть [Concept('casus_belli', 'повод для войны')|e] против соседней [Concept('country', 'державы')|e], позволяющий завоёвывать [Concept('locations', 'районы')|e]"
@@ -66,7 +65,7 @@
  mission_surpass_enemy: "Превосходство на море"
  mission_surpass_enemy_desc: "Война, которая ведётся сейчас, показала, что наш флот сильно уступает вражескому. Чтобы сохранить превосходство на море, нам придётся построить флот помощнее."
  mission_armory: "Создание арсеналов"
- mission_armory_desc: "Поскольку [ROOT.GetCountry.Custom('rank_ru_DAT')] под нашей властью удаётся стать всё более деятельным игроком в регионе, нам нужна постоянная армия, а ей требуются участки, где будет проходить набор на службу. Города же должны заняться строительством #TOOLTIP:BUILDING_TYPE,armory,X #L арсеналов#!#!."
+ mission_armory_desc: "Поскольку [ROOT.GetCountry.Custom('rank_ua_DAT')] под нашей властью удаётся стать всё более деятельным игроком в регионе, нам нужна постоянная армия, а ей требуются участки, где будет проходить набор на службу. Города же должны заняться строительством #TOOLTIP:BUILDING_TYPE,armory,X #L арсеналов#!#!."
  mission_manpower: "Приток рекрутов"
  mission_manpower_desc: "Для укрепления армии нужен постоянный приток рекрутов. Нам следует выстроить грамотную систему пополнения войск!"
  mission_reduce_antagonism: "Снижение неприязни"
@@ -76,7 +75,6 @@
  mission_restore_province_tip: "@arrow_bonus_tier_3! [Concept('war_with_icon', 'Война')|e] зачастую приносит с собой падение [Concept('prosperity_with_icon', 'процветания')|e] [Concept('locations_with_icon', 'районов')|e]. Со временем оно восстановится, однако этот процесс можно ускорить с помощью соответствующего [Concept('cabinet_action_with_icon', 'действия совета')|e].\n\n@arrow_bonus_tier_2! Перейдите на [Link('government', 'tabcontent = cabinet_with_icon', 'Панель правительства > Совет')], чтобы увидеть ваш [Concept('cabinet_with_icon', 'совет')|e].\n\n@arrow_bonus_tier_1! Поручите [Concept('cabinet_member_with_icon', 'члену совета')|e] [Concept('cabinet_action', 'задание')|e] по #TOOLTIP:CABINET_ACTION,recovery_effort,X #L восстановлению земель#!#!."
  non_scope_every_pop_conquest_location_var_province_10_sat_tt: "[Concept('pop_satisfaction', 'Довольство')|e] наших [Concept('pops', 'групп населения')|e] в обозначенной [Concept('province', 'провинции')|e] повысится на [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%]"
  every_pop_conquest_location_var_province_10_sat_tt: "[Concept('pop_satisfaction', 'Довольство')|e] наших [Concept('pops', 'групп населения')|e] в провинции [conquest_province.GetName] повысится на [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%]"
- #generic_vassal_ties
  generic_vassal_ties: "Вассальные связи"
  generic_vassal_ties_DESCRIPTION: "Нельзя, чтобы нашим отношениям с вассалом что-то угрожало!"
  generic_vassal_ties_CRITERIA_DESCRIPTION: "Наши отношения с вассалом прочнее обычного."
@@ -106,7 +104,6 @@
  mission_joint_military_development_desc: "Военное сотрудничество с нашим вассалом имеет важнейшее значение для защиты державы."
  mission_joint_military_development_tip: "@arrow_bonus_tier_3! Перейдите на [Link('diplomacy', 'relations_tab = current_relations_with_icon', 'Панель дипломатии > Текущие отношения')] и щёлкните по кнопке #V Управление ленниками#!, чтобы увидеть ваших [Concept('subjects_with_icon', 'ленников')|e].\n\n@arrow_bonus_tier_2! Щёлкните по названию [Concept('subject', 'ленника')], чтобы открыть список [Concept('diplomatic_actions', 'дипломатических действий')|e].\n\n@arrow_bonus_tier_1! Выберите #V $offer_support_military$#!."
  mission_target_subject_will_lose_lib_desire_gain_center_of_urbanization_modifier_capital_tt: "[Concept('liberty_desire', 'Желание свободы')|e] выбранного [Concept('subject', 'ленника')|e] сократится, а его [Concept('capital', 'столица')|e] получит [Concept('modifier', 'модификатор')|e] «[ShowModifier('center_of_urbanization_modifier')]»"
- #generic_humiliate_rival
  generic_humiliate_rival: "Унижение соперника"
  generic_humiliate_rival_DESCRIPTION: "Мы должны поставить на место тех, кто сомневается в нашем превосходстве!"
  generic_humiliate_rival_CRITERIA_DESCRIPTION: "Мы унизили соперника и доказали своё превосходство."
@@ -135,7 +132,6 @@
  mission_task_select_rival: "Выберите [Concept('rival', 'соперника')|e] для предстоящих [Concept('mission_tasks', 'этапов задания')|e]"
  mission_task_no_rival: "@trigger_no! Нет доступных [Concept('rival', 'соперников')|e]."
  impacted_by_foreign_destabilization_efforts_modifier_tt: "В рамках [Concept('event', 'события')|e] на них подействует [Concept('modifier', 'модификатор')|e] #TOOLTIP:STATIC_MODIFIER,foreign_destabilization_efforts_modifier,X #V #L «Попытки дестабилизации из-за границы»#!#!"
- #generic_trade
  generic_trade: "Развитие торговли"
  generic_trade_DESCRIPTION: "Чтобы обеспечить державе процветание, необходимо уделять больше внимания развитию торговли."
  generic_trade_CRITERIA_DESCRIPTION: "Мы выработали грамотную торговую политику и улучшили экономическую инфраструктуру."
@@ -175,7 +171,6 @@
  mission_marketplace_of_capital_tip: "@arrow_bonus_tier_3! Перейдите на [Link('production', '', '@production_panel! Панель производства > Сооружения')], чтобы увидеть список ваших [Concept('buildings_with_icon', 'сооружений')|e].\n\n@arrow_bonus_tier_2! Отфильтруйте [Concept('buildings', 'сооружения')], в которых работают @burghers!#TOOLTIP:POPTYPE,burghers,X #L горожане#!#!, и выберите #TOOLTIP:BUILDING_TYPE,marketplace,X #L рынок#!#!.\n\n@arrow_bonus_tier_1! Постройте необходимое количество рынков, щёлкая по списку сооружений, либо по карте."
  designate_urban_location_for_next_task_tt: "Мы сможем выбрать [Concept('urban_location', 'городской район')|e] для следующих [Concept('mission_tasks', 'этапов задания')|e]"
  designate_rural_location_for_next_task_tt: "Мы сможем выбрать [Concept('rural_location', 'сельский район')|e] для следующих [Concept('mission_tasks', 'этапов задания')|e]"
- #Tooltips
  select_urban_location_tt: "Мы сможем назначить #Y один#! [Concept('urban_location', 'городской район')|e] для следующих [Concept('mission_tasks', 'этапов задания')|e] и [Concept('events', 'событий')|e]."
  should_we_have_non_rural_fund_construction_projects_tt: "Если мы завершим этот [Concept('mission_task', 'этап задания')|e], владея хотя бы #G одним#! [Concept('urban_location', 'городским районом')|e], то самый развитый район получит бонус к [Concept('development', 'развитию')|e]."
  mission_starting_requirements_title: "#V Условия начала#!:"
@@ -209,7 +204,7 @@
  plan_campaign_against_target_conquest_province_4_tt: "$goal_of_campaign_key$ [target_conquest_province_4.GetName]"
  plan_campaign_against_target_conquest_province_5_tt: "$goal_of_campaign_key$ [target_conquest_province_5.GetName]"
  clergy_pops_of_prim_culture_gain_pop_satisfaction_tt: "Католические [Concept('pop_satisfaction', 'группы населения')|e], принадлежащие к сословию «[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l]» и #L [ROOT.GetCountry.GetCulture.GetName|l]ой#! [Concept('culture', 'культуре')|e], получат [ShowNamedValue('pop_satisfaction_weak_bonus')|+=2%] к [Concept('pop_satisfaction', 'довольству')|e]"
- discount_on_parliament_action_tt: "[Concept('parliament', 'Парламентский')|e] запрос #TOOLTIP:GENERIC_ACTION,prepare_for_war,X #L «Подготовка к войне»#!#! от членов [ROOT.GetCountry.Custom('parliament_ru_GEN')|l] будет менее затратным во время этого [Concept('mission_task', 'этапа задания')|e]"
+ discount_on_parliament_action_tt: "[Concept('parliament', 'Парламентский')|e] запрос #TOOLTIP:GENERIC_ACTION,prepare_for_war,X #L «Подготовка к войне»#!#! от членов [ROOT.GetCountry.Custom('parliament_ua_GEN')|l] будет менее затратным во время этого [Concept('mission_task', 'этапа задания')|e]"
  looting_will_be_lessened_in_target_province_tt: "Наши солдаты награбят меньше [Concept('gold', 'дукатов')|e] в провинции [target_loot_province.GetNameWithNoTooltip]"
  has_enabled_parliament_grant_levies_tt: "Благодаря [Concept('parliament_requests', 'просьбе к парламенту')|e] получен модификатор #TOOLTIP:STATIC_MODIFIER,parliament_approved_extra_levies,X #V #L «Парламент одобрил сбор ополчения»#!#!"
  monthly_events_about_clergy_mobilizing_tt: "Пока длится это [Concept('mission', 'задание')|e], каждый месяц могут происходить [Concept('events', 'события')|e], связанные с сословием «[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l]»"
@@ -224,7 +219,6 @@
  mission_trade_capacity: "Торговый потенциал"
  mission_trade_capacity_desc: "Наши купцы постепенно осваивают новые рынки. Их работа тяжела и опасна: они путешествуют в далёкие земли и привозят оттуда экзотические товары, идеи и технологии. Мы должны помогать им расширять свою деятельность, чтобы в дальнейшем они приносили в казну ещё больше прибыли."
  mission_trade_capacity_tip: "@arrow_bonus_tier_3! Перейдите на [Link('production', '', '@production_panel! Панель производства > Сооружения')], чтобы увидеть список ваших [Concept('buildings_with_icon', 'сооружений')|e].\n\n@arrow_bonus_tier_2! Отфильтруйте [Concept('buildings', 'сооружения')], в которых работают @burghers!#TOOLTIP:POPTYPE,burghers,X #L горожане#!#!, и выберите #TOOLTIP:BUILDING_TYPE,marketplace,X #L рынок#!#!.\n\n@arrow_bonus_tier_1! Постройте необходимое количество рынков, щёлкая по списку сооружений, либо по карте."
- #Generic Capital Economy
  generic_capital_economy: "Развитие капиталистической экономики"
  generic_capital_economy_DESCRIPTION: "Жадность — это хорошо!"
  generic_capital_economy_CRITERIA_DESCRIPTION: "Мы заложили основу новой экономической системы, ориентированной на создание капитала посредством производства, торговли и выдачи займов."
@@ -278,7 +272,7 @@
  mission_get_into_profitable_export_desc: "Перепродажа импортных товаров — простой, но эффективный способ заработка. Создав экспортные маршруты, мы обеспечим себе хорошую прибыль."
  mission_get_into_profitable_export_tip: "@arrow_bonus_tier_3! Перейдите на [Link('trade', '', '@economy_panel! Панель экономики > Торговля')], чтобы увидеть вашу [Concept('trade_with_icon', 'торговлю')|e].\n\n@arrow_bonus_tier_2! Выберите одну из предложенных [Concept('trades', 'сделок')] и подождите месяц, чтобы увидеть, как она пройдёт.\n\n@arrow_bonus_tier_1! Вместо этого вы можете автоматизировать все сделки, нажав на @automation!#V шестерёнку#!.\n\n#italic Подробнее об этом можно почитать [Link('hints', 'selected_hint = hint_trade_with_icon', 'здесь')]."
  mission_get_into_profitable_import: "Роскошь для народа"
- mission_get_into_profitable_import_desc: "Народу хочется экзотических товаров, и мы будем реализовывать их на внутреннем рынке… по ценам, которые считаем справедливыми."
+ mission_get_into_profitable_import_desc: "Народу хочется экзотических товаров, и мы будем реализовывать их на внутреннем рынке... по ценам, которые считаем справедливыми."
  mission_get_into_profitable_import_tip: "@arrow_bonus_tier_3! Перейдите на [Link('trade', '', '@economy_panel! Панель экономики > Торговля')], чтобы увидеть вашу [Concept('trade_with_icon', 'торговлю')|e].\n\n@arrow_bonus_tier_2! Выберите одну из предложенных [Concept('trades', 'сделок')] и подождите месяц, чтобы увидеть, как она пройдёт.\n\n@arrow_bonus_tier_1! Вместо этого вы можете автоматизировать все сделки, нажав на @automation!#V шестерёнку#!.\n\n#italic Подробнее об этом можно почитать [Link('hints', 'selected_hint = hint_trade_with_icon', 'здесь')]."
  mission_improve_market_worth: "[SCOPE.sMarket('mission_target_market').GetNameWithNoTooltip] и богатство"
  mission_improve_market_worth_desc: "Благополучие державы напрямую зависит от богатства внутреннего рынка. А значит, мы должны делать всё возможное, чтобы его развивать."
@@ -292,7 +286,6 @@
  mission_embrace_capital_economy_trade_focus: "Купеческое богатство"
  mission_embrace_capital_economy_trade_focus_desc: "Играя роль посредников в торговле различных товаров, мы можем накопить поистине огромные богатства!"
  requirements_for_this_task_arent_available_yet_tt: "Условия этого [Concept('task', 'этапа')|e] будут доступны только после начала соответствующего [Concept('mission', 'задания')|e]"
- #capable_cabinet
  capable_cabinet: "Опытные советники"
  capable_cabinet_DESCRIPTION: "Мудрые члены совета помогут нам эффективнее управлять державой и вести её к процветанию."
  capable_cabinet_CRITERIA_DESCRIPTION: "Наш совет состоит из талантливых людей, которые хорошо знают своё дело."
@@ -319,7 +312,6 @@
  high_era_of_countryname: "Великая эпоха [ROOT.GetCountry.Custom('CL_GEN')]"
  high_era_of_countryname_desc: "Грамотное управление, чуткие чиновники и счастливый народ — вот те столпы, на которых зиждется развитие и процветание нашей страны."
  high_era_of_countryname_tip: "@arrow_bonus_tier_3! Откройте [Link('economy', 'tabcontent = balance_with_icon', 'Экономика > Баланс')] и вложитесь в [Concept('stability_with_icon', 'стабильность')|e].\n\n@arrow_bonus_tier_2! Поручите [Concept('cabinet', 'совету')|e] #TOOLTIP:CABINET_ACTION,stabilize_country,X #L повысить стабильность в державе#!#!.\n\n@arrow_bonus_tier_1! Увеличьте число #L [GetPlayer.GetReligion.GetAdjective|l]их#! #TOOLTIP:POPTYPE,clergy,X #L священников#!#! путём строительства [Concept('buildings_with_icon', 'сооружений')|e], с которыми связаны #TOOLTIP:POPTYPE,clergy,X #L священники#!#!. \n\n#italic Узнать больше об этом можно здесь: «[Link('hints', 'selected_hint = hint_low_stability', '$hint_low_stability$')]».#!"
- #development_of_infrastructure
  development_of_infrastructure: "Развитие инфраструктуры"
  development_of_infrastructure_DESCRIPTION: "Наличие развитой инфраструктуры имеет огромное значение для процветания столицы."
  development_of_infrastructure_CRITERIA_DESCRIPTION: "Мы обеспечили столице необходимую инфраструктуру."
@@ -327,7 +319,7 @@
  development_of_infrastructure_BUTTON_DETAILS: "$development_of_infrastructure_BUTTON_TOOLTIP$"
  mission_assembly_halls: "Залы заседаний"
  mission_assembly_halls_desc: "Чтобы наиболее эффективно управлять нашими владениями, необходимо организовать в столице площадку, где правительство сможет обсуждать важные вопросы."
- mission_assembly_halls_tip: "@arrow_bonus_tier_3! Перейдите к месту, где находится ваша [Concept('capital_with_icon', 'столица')|e], @location![Player.GetCapital.GetName].\n\n@arrow_bonus_tier_2! Щёлкните по кнопке @nobles! [ShowPopTypeName('nobles')] слева от панели, чтобы просмотреть список [Concept('buildings_with_icon', 'сооружений')|e], которые вы можете построить для этого [Concept('pop_type', 'общественного класса')|e].\n\n@arrow_bonus_tier_1! Начните [Concept('construction_with_icon', 'строительство')|e] требуемого [Concept('building', 'сооружения')]."
+ mission_assembly_halls_tip: "@arrow_bonus_tier_3! Перейдите к месту, где находится ваша [Concept('capital_with_icon', 'столица')|e], @location![Player.GetCapital.GetName].\n\n@arrow_bonus_tier_2! Щёлкните по кнопке @nobles!#TOOLTIP:POPTYPE,burghers,X #L Горожане#!#! слева от панели, чтобы просмотреть список [Concept('buildings_with_icon', 'сооружений')|e], которые вы можете построить для этого [Concept('pop_type', 'общественного класса')|e].\n\n@arrow_bonus_tier_1! Начните [Concept('construction_with_icon', 'строительство')|e] требуемого [Concept('building', 'сооружения')]."
  mission_capital_province_prosperity: "Процветание столицы"
  mission_capital_province_prosperity_desc: "Развитие столичной провинции поспособствует её процветанию, а также усилит её политическое и экономическое влияние в регионе."
  a_great_capital: "Великая столица"
@@ -364,7 +356,6 @@
  mission_push_for_centralization_desc: "Полная централизация власти является радикальной, но необходимой мерой, без которой дальнейшее распространение нашего влияния невозможно. Нам необходимо устранить все препятствия на пути к централизации во имя процветания державы и благополучия наших верных подданных."
  mission_push_for_centralization_tip: "$change_societal_value_tip$"
  monthly_events_about_centralization_tt: "Пока длится этот [Concept('mission_task', 'этап задания')|e], каждый месяц могут происходить [Concept('events', 'события')|e], связанные с попытками централизации"
- #progress_and_literacy
  progress_and_literacy: "Прогресс и грамотность"
  progress_and_literacy_DESCRIPTION: "Повышение грамотности населения имеет первостепенное значение для развития страны."
  progress_and_literacy_CRITERIA_DESCRIPTION: "Наши люди стали гораздо более грамотными и образованными."
@@ -401,7 +392,6 @@
  scales_with_number_of_libraries: "Зависит от количества заполненных [Concept('buildings', 'сооружений')|e] типа #TOOLTIP:BUILDING_TYPE,library,X #L «Библиотека»#!#!"
  every_location_with_theater_pops_gain_10_satisfaction_tt: "[Concept('pop_satisfaction', 'Довольство')|e] [Concept('pops', 'групп населения')|e] в [Concept('locations', 'районах')|e], где есть #TOOLTIP:BUILDING_TYPE,theater,X #L театр#!#!, повысится на [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%]"
  monthly_events_about_research_and_thought_tt: "Пока длится этот [Concept('mission_task', 'этап задания')|e], каждый месяц могут происходить [Concept('events', 'события')|e], связанные с попытками внедрения новшеств и прогресса"
- #estate_cooperation
  estate_cooperation: "Сотрудничество с сословиями"
  estate_cooperation_DESCRIPTION: "С нашей стороны будет разумно выстроить доверительные отношения с влиятельными сословиями державы."
  estate_cooperation_CRITERIA_DESCRIPTION: "Нам удалось улучшить отношения с одним из сословий."
@@ -419,7 +409,7 @@
  mission_capital_influence_tip: "@arrow_bonus_tier_3! Перейдите к месту, где находится ваша [Concept('capital_with_icon', 'столица')|e], @location![Player.GetCapital.GetName], чтобы увидеть, какие в ней есть [Concept('buildings_with_icon', 'сооружения')|e].\n\n@arrow_bonus_tier_2! Убедитесь, что во всех этих [Concept('buildings', 'сооружениях')] нет незанятых [Concept('employed', 'рабочих мест')|e].\n\n@arrow_bonus_tier_1! Вы можете увеличить [Concept('stability_with_icon', 'стабильность')|e], чтобы #TOOLTIP:MODIFIER_TYPE,local_pop_promotion_speed,X #P #V ускорить повышение населения#!#!.\n\n #italic Узнать больше об этом можно [Link('hints', 'selected_hint = hint_lack_pop_promotion_to_fill_buildings_with_icon', 'здесь')]."
  mission_fund_construction_projects: "Финансирование строительных работ"
  mission_fund_construction_projects_desc: "Чтобы показать нашу готовность сотрудничать с [Concept('estate', 'сословием')|e], мы профинансируем строительство сооружений, тем самым повышая развитие и улучшая объекты этого сословия."
- mission_fund_construction_projects_tip: "@arrow_bonus_tier_3! Перейдите к своей [Concept('capital_with_icon', 'столице')|e], @location![Player.GetCapital.GetName].\n\n@arrow_bonus_tier_2! Щёлкните по кнопке нужного [Concept('pop_type_with_icon', 'общественного класса')|e] в левой части панели, чтобы увидеть, какие [Concept('buildings_with_icon', 'сооружения')|e] можно возвести для этого [Concept('pop_type', 'класса')|e].\n\n@arrow_bonus_tier_1! Начните [Concept('construction_with_icon', 'строительство')|e] запрошенного [Concept('buildings', 'сооружения')]."
+ mission_fund_construction_projects_tip: "@arrow_bonus_tier_3! Перейдите к своей [Concept('capital_with_icon', 'столице')|e], @location![Player.GetCapital.GetName].\n\n@arrow_bonus_tier_2! Щёлкните по кнопке нужного [Concept('pop_type_with_icon', 'общественного класса')|e] в левой части панели, чтобы увидеть, какие [Concept('buildings_with_icon', 'сооружения')|e] можно возвести для этого [Concept('pop_type_with_icon', 'класса')|e].\n\n@arrow_bonus_tier_1! Начните [Concept('construction_with_icon', 'строительство')|e] запрошенного [Concept('buildings', 'сооружения')]."
  mission_estate_satisfaction: "[mission_target_estate.GetName] и их благосклонность"
  mission_estate_satisfaction_desc: "В интересах внутренней политики нам следует заручиться поддержкой влиятельного [Concept('estate', 'сословия')|e] на будущее."
  mission_estate_satisfaction_tip: "@arrow_bonus_tier_3! Перейдите на [Link('government', 'tabcontent = estates_with_icon', 'Панель правительства > Сословия')], чтобы увидеть ваши [Concept('estates_with_icon', 'сословия')|e].\n\n@arrow_bonus_tier_2! $increase_estate_satisfaction_tip$"
@@ -432,7 +422,6 @@
  target_mission_pop_gets_20_satisfaction_tt: "[Concept('pops', 'Группы населения')|e] в нашей [Concept('capital', 'столице')|e], принадлежащие к сословию «[mission_target_estate.GetNameWithNoTooltip|l]», получат [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%] к [Concept('pop_satisfaction', 'довольству')|e]"
  every_pop_of_estate_10_satisfaction_tt: "[Concept('pops', 'Группы населения')|e] #italic в нашей державе#!, принадлежащие к сословию «[mission_target_estate.GetNameWithNoTooltip|l]», а также к нашей [Concept('culture', 'культуре')|e] и [Concept('religion', 'религии')|e], получат [ShowNamedValue('pop_satisfaction_weak_bonus')|+=2%] к [Concept('pop_satisfaction', 'довольству')|e]"
  every_pop_of_no_estate_10_satisfaction_tt: "[Concept('pops', 'Группы населения')|e] #italic в нашей державе#!, принадлежащие к выбранному сословию, а также к нашей [Concept('culture', 'культуре')|e] и [Concept('religion', 'религии')|e], получат [ShowNamedValue('pop_satisfaction_weak_bonus')|+=2%] к [Concept('pop_satisfaction', 'довольству')|e]"
- #traditional economy
  generic_traditional_economy: "Традиционная экономика"
  generic_traditional_economy_DESCRIPTION: "Сила нашей державы заключается в отлаженной системе управления экономикой, которая обеспечивает потребности людей на протяжении многих поколений."
  generic_traditional_economy_CRITERIA_DESCRIPTION: "Мы приняли систему более стабильной традиционной экономики."

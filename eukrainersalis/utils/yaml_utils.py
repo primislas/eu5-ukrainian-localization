@@ -10,6 +10,12 @@ from eukrainersalis.utils.translation_utils import text_is_not_translated, Langu
 
 
 class DoubleQuotedDumper(yaml.SafeDumper):
+    def __init__(self, *args, **kwargs):
+        indent = kwargs.get('indent')
+        super().__init__(*args, **kwargs)
+        if indent is not None and indent >= 1:
+            self.best_indent = indent
+
     def represent_mapping(self, tag, mapping, flow_style=None):
         value = []
         node = yaml.nodes.MappingNode(tag, value, flow_style=flow_style)
@@ -74,24 +80,26 @@ async def load_eu5_yaml_async(file_path: str) -> dict:
         content_str = await file_handle.read()
         return yaml.load(content_str, Loader=NoBoolSafeLoader)
 
-def write_eu5_localization_yaml(data: dict, output_file_path: str) -> int:
+def write_eu5_localization_yaml(data: dict, output_file_path: str, indent: int = 2) -> int:
     dumped = yaml.dump(
         data,
         Dumper=DoubleQuotedDumper,
         allow_unicode=True,
         sort_keys=False,
         width=float('inf'),
+        indent=indent,
     )
     with open(output_file_path, "w", encoding="utf-8-sig") as output_file_handle:
         return output_file_handle.write(dumped.strip())
 
-async def write_eu5_localization_yaml_async(data: dict, output_file_path: str) -> int:
+async def write_eu5_localization_yaml_async(data: dict, output_file_path: str, indent: int = 2) -> int:
     dumped = yaml.dump(
         data,
         Dumper=DoubleQuotedDumper,
         allow_unicode=True,
         sort_keys=False,
         width=float('inf'),
+        indent=indent,
     )
     await asyncio.to_thread(os.makedirs, os.path.dirname(output_file_path), exist_ok=True)
     async with aiofiles.open(output_file_path, "w", encoding="utf-8-sig") as output_file_handle:
@@ -134,20 +142,28 @@ def fix_concept_declarations(text: str) -> str:
     return re.sub(pattern, replacement, text, flags=re.DOTALL)
 
 
-def file_is_untranslated(file_path, language: Language | str | None = None, language_key: str | None = None) -> bool:
+def file_is_untranslated(input_file_path, output_file_path, language: Language | str | None = None, language_key: str | None = None) -> bool:
     """
     Check if a localization file contains untranslated keys.
     """
     localization_key = language_key or Language(language or Language.ENGLISH).localization_key
-    content = load_eu5_yaml(file_path)
-    for k, v in content.get(localization_key, {}).items():
+    input_content = load_eu5_yaml(input_file_path)
+    input_localization: dict[str, str] = input_content.get(localization_key, {})
+    output_content = load_eu5_yaml(output_file_path)
+    output_localization: dict[str, str] = output_content.get(localization_key, {})
+
+    # Key mismatch - re-translation is required
+    if input_localization.keys() != output_localization.keys():
+        return True
+
+    for k, v in output_localization.items():
         if text_is_not_translated(v):
             return True
     return False
 
 
-def file_is_translated(file_path, language: Language | str | None = None, language_key: str | None = None) -> bool:
-    return not file_is_untranslated(file_path, language, language_key)
+def file_is_translated(input_file_path, output_file_path, language: Language | str | None = None, language_key: str | None = None) -> bool:
+    return not file_is_untranslated(input_file_path, output_file_path, language, language_key)
 
 
 async def get_untranslated_keys(file_path, language: Language | str | None = None, language_key: str | None = None) -> dict[str, str]:

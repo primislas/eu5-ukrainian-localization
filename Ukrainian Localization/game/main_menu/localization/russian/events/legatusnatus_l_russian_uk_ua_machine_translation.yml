@@ -1,5 +1,6 @@
 ﻿l_russian:
   legatusnatus.1.title: "Папський легат"
+  legatusnatus.1.entry: "$legatusnatus.1.title$"
   legatusnatus.1.desc: "[home_ruler.GetName] давно [Select_CString(emperor_character.IsFemale, 'удостоїлася', 'удостоївся')] честі бути представником папи римського, яким нині є [pope_ruler.GetName], у землях на північ від Альп.\nПочесний титул #TOOLTIP:GOVERNMENT_REFORM,legatus_natus,X #L папського легата#!#! можуть носити лише гідні люди, тому ми зобов'язані підтримувати наш престиж і дбати про те, щоб [GetCountry('PAP').GetGovernment.GetRulerTitle|l] [GetCountry('PAP').GetGovernment.GetRuler.IsFemale, 'була', 'був'] доброї про нас думки."
   legatusnatus.1.a: "Усе в руках Господа."
   legatusnatus.2.title: "Втрата титулу папського легата"

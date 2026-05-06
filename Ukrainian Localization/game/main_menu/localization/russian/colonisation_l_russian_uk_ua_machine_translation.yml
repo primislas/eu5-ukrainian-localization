@@ -46,7 +46,7 @@
   COLONY_POP_TARGET_PP_COUNTRY: "[Concept('power_projection', 'Дипломатична вага')|e] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!: $VAL$"
   COLONY_POP_TARGET_PP_EXISTS: "[Concept('power_projection', 'Дипломатична вага')|e] у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName]: $VAL$"
   COLONY_POP_TARGET_MIN_POPS: "Необхідний мінімум [Concept('pops', 'груп населення')|e] у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName] (без урахування [Concept('population', 'населення')|e]): $VAL$"
-  COLONY_POP_TARGET_MAX_POPS: "Необхідний мінімум [Concept('pops', 'груп населення')|e] у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName] (без урахування [Concept('population', 'населення')|e]): $VAL$"
+  COLONY_POP_TARGET_MAX_POPS: "Необхідний максимум [Concept('pops', 'груп населення')|E] у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName] (без урахування [Concept('population', 'населення')|E]): $VAL$"
   COLONY_POP_TARGET_LOCATION_POPULATION: "Якщо додати [Concept('population', 'населення')|e] [Concept('location', 'місцевості')|e] ($POPULATION$), то ми отримаємо цільовий показник $NEED$"
   COLONIAL_CHARTER_LABEL: "[Concept('colonial_charter', 'Колоніальне поселення')|e] у провінції [PROVINCE_DEFINITION.GetName] на $PERC|2V%$ [Concept('fully_settled', 'повністю заселено')|e]"
   COLONIAL_CHARTER_FULLY_OURS: "[LOCATION.GetName]: $PERC|G0%$"

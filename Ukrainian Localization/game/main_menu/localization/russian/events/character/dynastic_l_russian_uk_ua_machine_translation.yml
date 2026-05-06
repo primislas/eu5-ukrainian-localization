@@ -37,6 +37,7 @@
   dynastic.7.a: "Пошлемо по досвідченого лікаря."
   dynastic.7.b: "Запросимо лікаря з училища [target_location.Custom('LR_GEN')|l] [target_location.GetName]."
   dynastic.7.c: "Помолимося за [Select_CString(target_child.IsFemale,'її', 'його')] здоров'я."
+  dynastic.7.d: "[target_child.GetVariable('talisman_giver_variable').GetShortNameWithNoTooltip] — талісман цього персонажа врятує [Select_CString(target_child.IsFemale,'дівчинку', 'хлопчика')]"
   dynastic.8.title: "Немовля серед очерету"
   dynastic.8.desc: "Тварина здригається і тікає, перш ніж [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] встигає вистрілити. Озирнувшись, [Select_CString(ruler_char.IsFemale, 'вона', 'він')] помічає неподалік маленький струмок, поруч з яким колишеться очерет. Раптом звідти лунає сміх, і стає зрозуміло, що саме завадило влучити в ціль: серед заростей плаває колиска, а в ній лежить немовля. Судячи з його посмішки, він зовсім не наляканий."
   dynastic.8.a: "Усиновимо його."

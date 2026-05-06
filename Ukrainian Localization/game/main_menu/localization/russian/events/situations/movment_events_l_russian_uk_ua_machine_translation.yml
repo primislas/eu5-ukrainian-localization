@@ -1,0 +1,11 @@
+﻿l_russian:
+  movements.10.title: "Латинство"
+  movements.10.desc: "#TOOLTIP:LANGUAGE_FAMILY,romance_language_family,X #L Романські#!#! жителі [target_location.Custom('LR_GEN')|l] [target_location.GetName], нещодавно повернені в лоно великої Римської Імперії, відчувають зростаючий інтерес до #TOOLTIP:LANGUAGE,latin_language,X #L латини#!#! та античної культури #TOOLTIP:CULTURE,$roman_culture_tt$,X #L Риму#!#!.\n\nЦі нові римляни прагнуть відродити колишню велич імперії. Вони пишаються своєю спадщиною та прагнуть поширити римську культуру та вплив по всьому світу."
+  movements.10.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
+  movements.10.b: "Ми теж римляни!"
+  movements.10.tt: "У [target_location.Custom('LR_PREP')|l] [target_location.GetName] виникає [ShowMovementDefinitionName('roman_culture_movement')|l]"
+  movements.20.title: "Створення Єдиного"
+  movements.20.desc: "Послідовники релігійного руху, відомого як [ShowMovementDefinitionName('hellenism_religion_movement')|l], почали проповідувати вчення про те, що абсолютна істина приховується не в писаннях, а в судженнях. Вони вважають, що все суще є проявом божественного інтелекту, який походить від вищого Єдиного.\n\nЧерпаючи натхнення з праць Платона, Прокла та Плотіна, ці мислителі також відзначають схожість своїх ідей з #TOOLTIP:RELIGIONGROUP,christian,X #L християнством#!#!. За їхніми словами, Єдине мало чим відрізняється від Бога: воно теж незбагненне і має вічну природу, і при цьому є джерелом всього буття.\n\nЗ цілком зрозумілих причин [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] з настороженістю ставляться до нового вчення, презирливо називаючи його #TOOLTIP:RELIGION,$hellenism_religion_tt$,X #L елліністським#!#! язичницьким культом. Чи варто нам придушити цей рух у зародку, чи краще офіційно дозволити його, щоб тим самим посприяти відродженню філософської та релігійної думки в нашій країні?"
+  movements.20.a: "Пошуки Єдиного приведуть нас до істини."
+  movements.20.b: "Це вчення лише вводить людей в оману."
+  movements.20.tt: "[ShowMovementDefinitionName('hellenism_religion_movement')] пошириться в [ROOT.GetCountry.GetCapital.Custom('LR_PREP')|l] [ROOT.GetCountry.GetCapital.GetName]"

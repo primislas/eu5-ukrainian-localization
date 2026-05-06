@@ -1,0 +1,13 @@
+﻿l_russian:
+  maintain_bureaucracy_price: "Вартість утримання установи"
+  MODIFIER_TYPE_NAME_maintain_bureaucracy_price_cost_modifier: "Модифікатор «$maintain_bureaucracy_price$»"
+  MODIFIER_TYPE_DESC_maintain_bureaucracy_price_cost_modifier: "Впливає на [Concept('costs', 'вартість')|e] утримання нашої [Concept('bureaucracy', 'установи')|e]."
+  remove_bureaucracy_price: "Вартість відмови від установи"
+  MODIFIER_TYPE_NAME_remove_bureaucracy_price_cost_modifier: "Модифікатор «$remove_bureaucracy_price$»"
+  MODIFIER_TYPE_DESC_remove_bureaucracy_price_cost_modifier: "Впливає на [Concept('costs', 'вартість')|e] відмови від [Concept('bureaucracy', 'установи')|e]."
+  implement_bureaucracy_price: "Вартість впровадження установи"
+  MODIFIER_TYPE_NAME_implement_bureaucracy_price_cost_modifier: "Модифікатор «$implement_bureaucracy_price$»"
+  MODIFIER_TYPE_DESC_implement_bureaucracy_price_cost_modifier: "Впливає на [Concept('costs', 'вартість')|e] впровадження [Concept('bureaucracy', 'установи')|e]."
+  positive_modifier_effects_TT: "Позитивні ефекти:"
+  neutral_modifier_effects_TT: "Постійні ефекти:"
+  negative_modifier_effects_TT: "Негативні ефекти:"

@@ -1,11 +1,9 @@
 ﻿l_russian:
- # Topography
  flatland: "Равнина"
  mountains: "Горы"
  hills: "Холмы"
  plateau: "Плато"
  wetlands: "Болота"
- # Vegetation
  desert: "Пустыня"
  sparse: "Редколесье"
  grasslands: "Луга"
@@ -13,7 +11,6 @@
  woods: "Рощи"
  forest: "Лес"
  jungle: "Джунгли"
- # Climate
  arctic: "Арктический климат"
  continental: "Континентальный климат"
  mediterranean: "Средиземноморский климат"
@@ -22,7 +19,6 @@
  cold_arid: "Холодный засушливый климат"
  oceanic: "Океанический климат"
  subtropical: "Субтропический климат"
- # Water & Wastelands
  ocean: "Океан"
  deep_ocean: "Глубокий океан"
  coastal_ocean: "Прибрежный океан"
@@ -41,7 +37,6 @@
  flatland_wasteland: "Равнинная пустошь"
  mesa_wasteland: "Меза-пустошь"
  atoll: "Атолл"
- # Misc
  TERRAIN_MOVEMENT_COST: "Стоимость передвижения [Concept('units', 'отрядов')|e]: $VALUE|-=%V$"
  TERRAIN_PROXIMITY_COST: "Влияние распространения досягаемости: $VALUE|+=%$"
  TERRAIN_ATTACKER_PENALTY: "Штраф для атакующей стороны во время [Concept('combat', 'сражения')|e]: $VALUE|-=$"

@@ -99,12 +99,10 @@
  barysaw.belarusian_dialect: "Борисов"
  lukolm.belarusian_dialect: "Лукомль"
  begoml.belarusian_dialect: "Бегомль"
- # Polish
  mielnik.belarusian_dialect: "Мельник"
  drohiczyn.belarusian_dialect: "Дрогичин"
  bielsk_podlaski.belarusian_dialect: "Бельск-Подляски"
  suraz.belarusian_dialect: "Сураж"
- # Lithuanian
  merkine.belarusian_dialect: "Меречь"
  punia.belarusian_dialect: "Пуни"
  medininkai_vilna.belarusian_dialect: "Медники"
@@ -115,7 +113,6 @@
  kedainiai.belarusian_dialect: "Кейданы"
  vilkmerge.belarusian_dialect: "Вилькомир"
  utena.belarusian_dialect: "Утена"
- # Russian
  nevel.belarusian_dialect: "Невель"
  sebech.belarusian_dialect: "Себеж"
  velizh.belarusian_dialect: "Велиж"

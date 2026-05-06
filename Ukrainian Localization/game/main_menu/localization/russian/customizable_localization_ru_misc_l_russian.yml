@@ -22,4 +22,4 @@
  default_LR_ACC: "Район"
  default_LR_INST: "Районом"
  default_LR_PREP: "Районе"
- socialvalue_RU_GEN: "[AddTextIf(EqualTo_string('Крепостничество', ShowSocietyDirectionName('free_subjects')), 'крепостничества')]"
+ socialvalue_UA_GEN: "[AddTextIf(EqualTo_string('Крепостничество', ShowSocietyDirectionName('free_subjects')), 'крепостничества')]"
