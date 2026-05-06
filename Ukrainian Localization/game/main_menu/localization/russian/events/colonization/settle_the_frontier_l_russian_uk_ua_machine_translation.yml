@@ -1,6 +1,6 @@
 ﻿l_russian:
   settle_the_frontier.1.title: "Експансія в [target.Custom('LR_ACC')|l] [target.GetNameWithNoTooltip]"
-  settle_the_frontier.1.desc: "[recipient.GetName], [Select_CString(recipient.IsFemale,'хоробрий муж', 'хоробрий муж')], чия батьківщина [ROOT.GetCountry.GetLongName], [Select_CString(recipient.IsFemale,'зібрала', 'зібрав')] команду добровольців та [Select_CString(recipient.IsFemale,'вирушила', 'вирушив')] у нікому не належні землі [target.Custom('LR_GEN')|l] [target.GetName]. Разом зі своїми прибічниками [Select_CString(recipient.IsFemale,'вона', 'він')] збирається розширити територію [ROOT.GetCountry.Custom('rank_ru_GEN')|l]."
+  settle_the_frontier.1.desc: "[recipient.GetName], [Select_CString(recipient.IsFemale,'хоробрий муж', 'хоробрий муж')], чия батьківщина [ROOT.GetCountry.GetLongName], [Select_CString(recipient.IsFemale,'зібрала', 'зібрав')] команду добровольців та [Select_CString(recipient.IsFemale,'вирушила', 'вирушив')] у нікому не належні землі [target.Custom('LR_GEN')|l] [target.GetName]. Разом зі своїми прибічниками [Select_CString(recipient.IsFemale,'вона', 'він')] збирається розширити територію [ROOT.GetCountry.Custom('rank_ua_GEN')|l]."
   settle_the_frontier.1.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
   settle_the_frontier.1.a.tt: "[recipient.GetName] спробує оселитися в [target.Custom('LR_PREP')|l] [target.GetName]. На це може піти до #Y 10 років#!"
   settle_the_frontier.2.title: "Подорож до [target.Custom('LR_ACC')|l] [target.GetNameWithNoTooltip]"

@@ -22,4 +22,4 @@
   default_LR_ACC: "Місцевість"
   default_LR_INST: "Місцевістю"
   default_LR_PREP: "Місцевості"
-  socialvalue_RU_GEN: "[AddTextIf(EqualTo_string('Кріпацтво', ShowSocietyDirectionName('free_subjects')), 'кріпацтва')]"
+  socialvalue_UA_GEN: "[AddTextIf(EqualTo_string('Кріпацтво', ShowSocietyDirectionName('free_subjects')), 'кріпацтва')]"

@@ -1,6 +1,6 @@
 ﻿l_russian:
   flavor_ori.1.title: "[ROOT.GetCountry.GetGovernment.GetRulerTitle|L] та культ Джаганнатхи"
-  flavor_ori.1.desc: "Ми проводимо пишні обряди у великому храмі міста [ShowLocationName('puri')], поклоняючись божеству, яке спілкується з нами через дерев'яну статую. Іноземні правителі не раз висміювали наші практики, однак у штаті #TOOLTIP:AREA,orissa_area,X #L Орісса#!#! владика всесвіту Джаганнатха користується величезною популярністю.\n\n[target_character.GetName] [Select_CString(target_character.IsFemale,'благоволила', 'благоволив')] жерцям Джаганнатхи, і династія [target_character.GetDynasty.GetName] повинна продовжити цей звичай. Нам варто взяти під своє покровительство храм у [ShowLocationNameWithNoTooltip('puri')] та зробити культ Джаганнатхи провідним [ROOT.GetCountry.Custom('endrank_predlog_vvo')] [ROOT.GetCountry.Custom('rank_ru_PREP')|l]."
+  flavor_ori.1.desc: "Ми проводимо пишні обряди у великому храмі міста [ShowLocationName('puri')], поклоняючись божеству, яке спілкується з нами через дерев'яну статую. Іноземні правителі не раз висміювали наші практики, однак у штаті #TOOLTIP:AREA,orissa_area,X #L Орісса#!#! владика всесвіту Джаганнатха користується величезною популярністю.\n\n[target_character.GetName] [Select_CString(target_character.IsFemale,'благоволила', 'благоволив')] жерцям Джаганнатхи, і династія [target_character.GetDynasty.GetName] повинна продовжити цей звичай. Нам варто взяти під своє покровительство храм у [ShowLocationNameWithNoTooltip('puri')] та зробити культ Джаганнатхи провідним [ROOT.GetCountry.Custom('endrank_predlog_vvo')] [ROOT.GetCountry.Custom('rank_ua_PREP')|l]."
   flavor_ori.1.a: "Слава Джаганнатхі!"
   flavor_ori.1.b: "Не варто класти всі яйця в один кошик."
   flavor_ori.2.title: "Ціна війни"
@@ -13,7 +13,7 @@
   flavor_ori.3.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
   flavor_ori.3.b: "[ROOT.GetCountry.GetGovernment.GetCourtTitle] почне використовувати цю мову."
   flavor_ori.4.title: "[achyutananda.GetNameWithNoTooltip]"
-  flavor_ori.4.desc: "[achyutananda.GetName] — плідний письменник, поет і провидець, який сповідує [ShowPolicyName('vaishnavism')]. Останнім часом у [ROOT.GetCountry.Custom('rank_ru_PREP')] його шанують як святого. Ця людина, за чутками, здатна бачити майбутнє, а єдина мова, якою він пише, — [ShowLanguageName('oriya_language')], мова простих людей."
+  flavor_ori.4.desc: "[achyutananda.GetName] — плідний письменник, поет і провидець, який сповідує [ShowPolicyName('vaishnavism')]. Останнім часом у [ROOT.GetCountry.Custom('rank_ua_PREP')] його шанують як святого. Ця людина, за чутками, здатна бачити майбутнє, а єдина мова, якою він пише, — [ShowLanguageName('oriya_language')], мова простих людей."
   flavor_ori.4.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
   flavor_ori.4.b: "Ми підтримаємо його творчість."
   flavor_ori.5.title: "[target_character.GetNameWithNoTooltip] піднімається по службі"

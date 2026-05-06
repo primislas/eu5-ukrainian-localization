@@ -95,7 +95,7 @@
   winter_events.17.b: "Виділимо кошти на термінову доставку припасів з [target_province.Custom('LR_GEN')|l] [target_province.GetNameWithNoTooltip]!"
   target_province_loses_10_prosperity_tt: "Усі належні нам [Concept('location', 'місцевості')|e] у [target_province.Custom('LR_PREP')|l] [target_province.GetName] отримають [ShowNamedValue('prosperity_weak_penalty')|+=2%] до [Concept('prosperity', 'процвітання')|e]"
   winter_events.18.title: "[ShowGoodsNameWithNoTooltip('lumber')|U] закінчуються"
-  winter_events.18.desc: "Остання зима вдарила по нашому народу. Добувати [ShowGoodsNameWithNoTooltip('lumber')|l] у [ROOT.GetCountry.Custom('rank_ru_PREP')|l] стає все складніше. Через сильний мороз ланцюжки поставок скоротилися, а нещасні випадки трапляються частіше.\n\nНа жаль, з районів, де зима ще суворіша, приходять трагічні звістки про загибель робітників через занадто важкі умови."
+  winter_events.18.desc: "Остання зима вдарила по нашому народу. Добувати [ShowGoodsNameWithNoTooltip('lumber')|l] у [ROOT.GetCountry.Custom('rank_ua_PREP')|l] стає все складніше. Через сильний мороз ланцюжки поставок скоротилися, а нещасні випадки трапляються частіше.\n\nНа жаль, з районів, де зима ще суворіша, приходять трагічні звістки про загибель робітників через занадто важкі умови."
   winter_events.18.a: "Це тривожні звістки."
   workers_may_quit_or_have_accidents_here_tt: "Робітники, зайняті в [Concept('rgo', 'видобутку')|e] лісоматеріалів у зазначених [Concept('locations', 'місцевостях')|e], можуть стати жертвами нещасних випадків або змінити рід занять"
   winter_events.103.title: "Холодний і безрадісний край"

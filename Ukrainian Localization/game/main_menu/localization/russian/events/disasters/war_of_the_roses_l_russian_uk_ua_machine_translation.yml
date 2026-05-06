@@ -63,7 +63,7 @@
   war_of_the_roses.17.desc: "[ROOT.GetCountry.GetFlavorRank] стогне під тяжким тягарем громадянської війни. Так, у [target_siege.Custom('LR_PREP')|l] [target_siege.GetNameWithNoTooltip] голод і смерть давно спустошили вулиці. Після обережних переговорів уцілілі вояки міського гарнізону погодилися покинути фортецю, здавши її нашому війську без опору."
   war_of_the_roses.17.a: "Ще один крок уперед."
   war_of_the_roses.18.title: "[ShowDisasterNameWithNoTooltip('war_of_the_roses')]"
-  war_of_the_roses.18.desc: "Претенденти на престол вичікують, накопичуючи сили в бунтівних провінціях #TOOLTIP:COUNTRY_RANK,[ROOT.GetCountry.Custom('rank_ru_tt')],X [ROOT.GetCountry.Custom('rank_ru_GEN')|l]#!#!. Вони відкрито повстали проти нашої влади, заявивши, що [target_character.GetName] та династія [target_dynasty.GetName] не мають права на трон."
+  war_of_the_roses.18.desc: "Претенденти на престол вичікують, накопичуючи сили в бунтівних провінціях #TOOLTIP:COUNTRY_RANK,[ROOT.GetCountry.Custom('rank_ua_tt')],X [ROOT.GetCountry.Custom('rank_ua_GEN')|l]#!#!. Вони відкрито повстали проти нашої влади, заявивши, що [target_character.GetName] та династія [target_dynasty.GetName] не мають права на трон."
   war_of_the_roses.18.a: "Знищити їх!"
   wotr_explain_action_tt: "Коли [ShowDisasterName('war_of_the_roses')] перейде у фазу [Concept('civil_war', 'громадянської війни')|e], ми отримаємо доступ до [Concept('action', 'дії')|e] [Concept('disaster', 'лиха')|e] «[ShowGenericActionName('wotr_bribe_garrison')]»"
   war_of_the_roses.100.title: "Закінчення війни Червоної та Білої троянди"

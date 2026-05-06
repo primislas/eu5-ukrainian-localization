@@ -46,7 +46,7 @@
   industrialization_events.12.desc: "У провінції [industrialization_province.GetName] давно існує місцеве виробництво вальдгласу, однак після появи в #TOOLTIP:GOODS,glass,X #L скляній#!#! промисловості нових винаходів ця місцевість стала привертати увагу підприємців. У спробі осідлати вітер змін вони почали засновувати тут підприємства з випуску скла."
   industrialization_events.12.a: "Перспективи ясні та чисті, як кришталь."
   industrialization_events.13.title: "Промислова урбанізація"
-  industrialization_events.13.desc: "Зміни в методах і технологіях виробництва призвели до того, що провінція [urbanization_province.GetName] стала економічно привабливою місцевістю. У пошуках роботи сюди сьогодні з’їжджаються жителі з усіх куточків [ROOT.GetCountry.Custom('rank_ru_GEN')|l]. Люди залишають сільську місцевість, оскільки [urbanization_province.GetRank.GetName|l] [urbanization_province.GetNameWithNoTooltip] для них набагато привабливіша."
+  industrialization_events.13.desc: "Зміни в методах і технологіях виробництва призвели до того, що провінція [urbanization_province.GetName] стала економічно привабливою місцевістю. У пошуках роботи сюди сьогодні з’їжджаються жителі з усіх куточків [ROOT.GetCountry.Custom('rank_ua_GEN')|l]. Люди залишають сільську місцевість, оскільки [urbanization_province.GetRank.GetName|l] [urbanization_province.GetNameWithNoTooltip] для них набагато привабливіша."
   industrialization_events.13.a: "Всі сюди!"
   industrialization_events.13.b: "[urbanization_province.GetNameWithNoTooltip] всіх не вмістить."
   industrialization_events.14.title: "[iron_province.GetNameWithNoTooltip]: металоконструкції"

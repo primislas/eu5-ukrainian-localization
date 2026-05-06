@@ -43,7 +43,7 @@
   sengoku.11.desc: "Нахаби з #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! зухвало відмовилися поступатися нам землею, мотивуючи це тим, що вона належить їм по праву. Таку явну зневагу [ROOT.GetCountry.GetGovernment.GetAdjective|l]ою владою не можна залишати без уваги."
   sengoku.11.a: "Доведеться поставити їх на місце."
   sengoku.12.title: "[actor.GetLongNameWithNoTooltip]: вимога підкоритися"
-  sengoku.12.desc: "[actor.GetLongNameWithNoTooltip] — ця країна звернулася до нас із неймовірно зухвалою вимогою. Її влада вважає, що ми зобов'язані відмовитися від своєї автономії та перетворитися на їхніх намісників, передавши свої землі під їхнє пряме управління. Це стане кінцем [ROOT.GetCountry.Custom('rank_ru_GEN')|l] як незалежної країни, але посприяє миру та стабільності в регіоні."
+  sengoku.12.desc: "[actor.GetLongNameWithNoTooltip] — ця країна звернулася до нас із неймовірно зухвалою вимогою. Її влада вважає, що ми зобов'язані відмовитися від своєї автономії та перетворитися на їхніх намісників, передавши свої землі під їхнє пряме управління. Це стане кінцем [ROOT.GetCountry.Custom('rank_ua_GEN')|l] як незалежної країни, але посприяє миру та стабільності в регіоні."
   sengoku.12.a: "$sengoku.9.a$"
   sengoku.12.b: "$sengoku.9.b$"
   sengoku.13.title: "Пропозиція заручника"

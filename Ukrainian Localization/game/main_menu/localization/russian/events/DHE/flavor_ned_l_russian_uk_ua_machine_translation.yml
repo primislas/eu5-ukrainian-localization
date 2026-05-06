@@ -101,7 +101,7 @@
   flavor_ned.22.b: "[ROOT.GetCountry.GetNameWithNoTooltip] потребує захисту на землі, а для цього потрібне сильне військо."
   flavor_ned.22.c: "Одними порадами не обійтися. [target_character2.GetNameWithNoTooltip] отримає у нас постійну посаду."
   flavor_ned.23.title: "Свобода на морі"
-  flavor_ned.23.desc: "Хоча концепція #TOOLTIP:SOCIETAL_VALUE,mercantilism_vs_free_trade,X #L вільної торгівлі#!#! для [ROOT.GetCountry.Custom('CL_GEN')] вже не в дивину, суперечки між прихильниками цієї ідеї та протекціоністами розгораються все сильніше. Філософ [target_character.GetName], один з активних учасників таких дискусій, займався торговельними зв'язками з [ROOT.GetCountry.Custom('rank_ru_INST')]. Він вже розпочав написання нового трактату, який, можливо, схилить шальки терезів на користь нових віянь."
+  flavor_ned.23.desc: "Хоча концепція #TOOLTIP:SOCIETAL_VALUE,mercantilism_vs_free_trade,X #L вільної торгівлі#!#! для [ROOT.GetCountry.Custom('CL_GEN')] вже не в дивину, суперечки між прихильниками цієї ідеї та протекціоністами розгораються все сильніше. Філософ [target_character.GetName], один з активних учасників таких дискусій, займався торговельними зв'язками з [ROOT.GetCountry.Custom('rank_ua_INST')]. Він вже розпочав написання нового трактату, який, можливо, схилить шальки терезів на користь нових віянь."
   flavor_ned.23.a: "Ми підтримуємо вільну торгівлю і дамо йому закінчити працю."
   flavor_ned.23.b: "У [ROOT.GetCountry.Custom('CL_PREP')] йому не раді."
   flavor_ned_paper_industry_title: "[target_location.GetNameWithNoTooltip] і паперова промисловість"

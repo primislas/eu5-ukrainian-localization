@@ -48,7 +48,7 @@
   revolutionary_chaos.9.a: "$STATIC_MODIFIER_NAME_the_counter_revolution$, очевидно, нас підвела."
   revolutionary_chaos.9.b: "Поки живі революційні пориви, $STATIC_MODIFIER_NAME_the_counter_revolution$ триватиме!"
   revolutionary_chaos.101.title: "Зрада революції"
-  revolutionary_chaos.101.desc: "[target_character.GetName] — найнадійніший радник [ROOT.GetCountry.Custom('rank_ru_GEN')|l] — часто критикує терор, який обрушили на країну [target_robespierre.GetName] разом з революційним урядом. В очах Комітету громадського порятунку [target_character.GetName] — реакціонер і ворог народу, настільки небезпечний, що [Select_CString(target_character.IsFemale, 'її', 'його' )] не можна залишати в живих."
+  revolutionary_chaos.101.desc: "[target_character.GetName] — найнадійніший радник [ROOT.GetCountry.Custom('rank_ua_GEN')|l] — часто критикує терор, який обрушили на країну [target_robespierre.GetName] разом з революційним урядом. В очах Комітету громадського порятунку [target_character.GetName] — реакціонер і ворог народу, настільки небезпечний, що [Select_CString(target_character.IsFemale, 'її', 'його' )] не можна залишати в живих."
   revolutionary_chaos.101.a: "Гільйотина вимагає крові."
   revolutionary_chaos.101.b: "Ми пощадимо [Select_CString(target_character.IsFemale, 'її', 'його' )]."
   revolutionary_chaos.102.title: "Вороги в провінції [target_province.GetNameWithNoTooltip]"

@@ -1,6 +1,6 @@
 ﻿l_russian:
   flavor_mch.1.title: "[target_character.GetShortNameWithNoTooltip] і [Select_CString(target_character.IsFemale,'її', 'його')] реформи"
-  flavor_mch.1.desc: "[target_character.GetShortName] пропонує провести [ROOT.GetCountry.Custom('preposition_uv')] [ROOT.GetCountry.Custom('longname_ru_PREP')] масштабні реформи, щоб перетворити уряд і судову владу за китайською моделлю."
+  flavor_mch.1.desc: "[target_character.GetShortName] пропонує провести [ROOT.GetCountry.Custom('preposition_uv')] [ROOT.GetCountry.Custom('longname_ua_PREP')] масштабні реформи, щоб перетворити уряд і судову владу за китайською моделлю."
   flavor_mch.1.a: "Ми обираємо передові реформи."
   flavor_mch.1.b: "Нам більше до вподоби консервативні реформи."
   flavor_mch.2.title: "Сім великих образ"
@@ -51,7 +51,7 @@
   flavor_mch.12.a: "Чудова пропозиція!"
   flavor_mch.12.b: "Ми не можемо дозволити собі такі витрати."
   flavor_mch.13.title: "[target_location.GetNameWithNoTooltip] розвивається"
-  flavor_mch.13.desc: "[target_character.GetName] мріє завоювати саме серце #TOOLTIP:INTERNATIONAL_ORGANIZATION,$middle_kingdom_tt$,X #L Срединної Країни#!#!, але поки думати про це рано: на даний момент [ROOT.GetCountry.GetName] не в змозі захопити #TOOLTIP:SUB_CONTINENT,china,X #L Китай#!#!. Зараз найрозумніше рішення — посилити [ROOT.GetCountry.Custom('rank_ru_ACC')], побудувавши нове місто в місцевості [target_location.GetName]."
+  flavor_mch.13.desc: "[target_character.GetName] мріє завоювати саме серце #TOOLTIP:INTERNATIONAL_ORGANIZATION,$middle_kingdom_tt$,X #L Срединної Країни#!#!, але поки думати про це рано: на даний момент [ROOT.GetCountry.GetName] не в змозі захопити #TOOLTIP:SUB_CONTINENT,china,X #L Китай#!#!. Зараз найрозумніше рішення — посилити [ROOT.GetCountry.Custom('rank_ua_ACC')], побудувавши нове місто в місцевості [target_location.GetName]."
   flavor_mch.13.a: "Приступимо до будівництва."
   flavor_mch.13.b: "Воно того не варте."
   flavor_mch.14.title: "Столиця, гідна #TOOLTIP:INTERNATIONAL_ORGANIZATION,$middle_kingdom_tt$,X #L Серединної Країни#!#!"

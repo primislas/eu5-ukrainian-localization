@@ -8,7 +8,7 @@
   flavor_chi_mon.2.title: "[ROOT.GetCountry.GetGovernment.GetRulerTitle] у полоні!"
   flavor_chi_mon.2.desc: "Битва біля [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip] обернулася для нас нищівною поразкою. Що ще жахливіше, під час відступу [Select_CString(captured_emperor.IsFemale,'наша дорога', 'наш дорогий')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] [captured_emperor.GetName] [Select_CString(captured_emperor.IsFemale,'потрапила', 'потрапив')] у полон. Уряд у паніці, оскільки тепер #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,middle_kingdom,X #L Серединна країна#!#! залишилася без правителя."
   flavor_chi_mon.2.a: "Залишимо все як є."
-  flavor_chi_mon.2.b: "Нехай [Select_CString(captured_emperor.IsFemale,'її', 'його')] [Select_CString(sibling_candidate.IsFemale,'сестра', 'брат')] стане на чолі [ROOT.GetCountry.Custom('rank_ru_GEN')]."
+  flavor_chi_mon.2.b: "Нехай [Select_CString(captured_emperor.IsFemale,'її', 'його')] [Select_CString(sibling_candidate.IsFemale,'сестра', 'брат')] стане на чолі [ROOT.GetCountry.Custom('rank_ua_GEN')]."
   flavor_chi_mon.2.c: "[Select_CString(captured_emperor.IsFemale,'Її', 'Його')] дитина може стати законним правителем."
   flavor_chi_mon.2.d: "Країною [Select_CString(dynasty_candidate.IsFemale,'повинна', 'повинен')] правити [dynasty_candidate.GetNameWithNoTooltip]."
   chi_recapture_emperor_tt: "Щоб [captured_emperor.GetName] [Select_CString(captured_emperor.IsFemale,'повернулася', 'повернувся')] з полону, необхідно укласти [Concept('peace_treaty', 'мирний договір')|e] «[ShowPeaceTreatyTypeName('chi_recapture_emperor')]». Якщо [captured_emperor.GetName] загине в полоні, ми отримаємо такі штрафи:"
