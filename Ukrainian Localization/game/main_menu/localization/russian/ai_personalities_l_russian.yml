@@ -1,0 +1,80 @@
+﻿l_russian:
+ # AI Personality names (used as PdxDataLocalize(GetKey()) in CAiPersonality::GetName)
+ ai_aggressive: "Агрессия"
+ ai_expansionist: "Экспансионизм"
+ ai_defensive: "Оборона"
+ ai_cautious: "Осторожность"
+ ai_opportunistic: "Оппортунизм"
+ ai_isolationist: "Изоляционизм"
+ ai_friendly: "Дружелюбие"
+ # AI Personality descriptions (key + "_desc")
+ ai_aggressive_desc: "Эта держава стремится к власти силовыми методами. Она охотно начинает войны, выдвигает жёсткие условия мира и считает соседние державы препятствиями на пути к цели, а не партнёрами для выгодного сотрудничества."
+ ai_expansionist_desc: "Эта держава стремится к расширению своих границ и влияния. Она предпочитает территориальную экспансию, активно создаёт претензии и по возможности старается подчинять, а не присоединять соседей."
+ ai_defensive_desc: "Эта держава в первую очередь озабочена сохранением уже имеющегося. Она предпочитает избегать ненужных конфликтов, укреплять свои земли и скорее отвечать на угрозы, чем создавать новые."
+ ai_cautious_desc: "Эта держава терпелива и избегает рисков. Она в первую очередь ищет дипломатические решения, избегает затяжных войн и предпочитает стабильность авантюрам."
+ ai_opportunistic_desc: "Эта держава расчётлива и прагматична. Она ищет слабину и умеет воспользоваться случаем, но избегает участия в конфликтах с неопределённым исходом."
+ ai_isolationist_desc: "Эта держава замкнулась в себе, предпочитает внутреннее развитие и избегает участия в делах соседей. Она придерживается нейтралитета и с подозрением относится к дипломатическим обязательствам."
+ ai_friendly_desc: "Эта держава ценит союзников, доброжелательность и честные сделки. Она тратит много сил на дипломатию, принимает разумные условия мира и обычно со временем обзаводится надёжными партнёрами."
+ # Diplomacy filter category header
+ CUSTOM_SEARCH_FILTER_AI_PERSONALITY_CATEGORY_NAME: "Менталитет державы"
+ # Tooltip section header
+ AI_PERSONALITY_MODIFIERS: "Модификаторы поведения"
+ # AI disposition labels (how this country sees the player)
+ AI_DISPOSITION_ALARMED: "Тревога"
+ AI_DISPOSITION_WARY: "Беспокойство"
+ AI_DISPOSITION_PLANNING_WAR: "Планирование войны"
+ AI_DISPOSITION_COVETS: "Желание ваших земель"
+ AI_DISPOSITION_RIVALS: "Соперничество"
+ AI_DISPOSITION_INDIFFERENT: "Безразличие"
+ # AI disposition descriptions (tooltip body for each disposition)
+ AI_DISPOSITION_ALARMED_DESC: "Этот [Concept('country_disposition', 'настрой')|e] означает, что держава видит в вас экзистенциальную угрозу и постарается обзавестись оборонительными союзами или нанести по вам превентивный удар."
+ AI_DISPOSITION_WARY_DESC: "Этот [Concept('country_disposition', 'настрой')|e] означает, что держава относится к вам настороженно, неохотно пойдёт на уступки и вряд ли ослабит бдительность."
+ AI_DISPOSITION_PLANNING_WAR_DESC: "Этот [Concept('country_disposition', 'настрой')|e] означает, что у державы есть претензии или обиды, и она готовится силой навязать их вам."
+ AI_DISPOSITION_COVETS_DESC: "Этот [Concept('country_disposition', 'настрой')|e] означает, что держава считает ваши земли привлекательной целью и может попытаться завоевать или подчинить вас, если подвернётся такая возможность."
+ AI_DISPOSITION_RIVALS_DESC: "Этот [Concept('country_disposition', 'настрой')|e] означает, что держава считает вас соперником и будет по возможности противодействовать вашим интересам, в том числе поддерживая ваших врагов."
+ AI_DISPOSITION_INDIFFERENT_DESC: "Этот [Concept('country_disposition', 'настрой')|e] означает, что держава в данный момент безразлична к вам."
+ # Country tooltip row labels
+ AI_ATTITUDE_TOOLTIP_TITLE: "Отношение и настрой"
+ AI_SEES_YOU_AS: "Считает, что вы:"
+ # Objectives display text (shown in country tooltip)
+ OBJECTIVES_HEADER: "Цели:"
+ OBJECTIVES_SPY_NETWORK_REQUIRED: "Нарастите [Concept('spy_network','шпионскую сеть')|e] свыше #G 25#!, чтобы узнать стратегические цели державы."
+ OBJECTIVE_EXPAND_AGAINST: "• Стремится завоевать [COUNTRY.Custom('longname_ru_ACC')]"
+ OBJECTIVE_EXPAND_AGAINST_CB: "• Стремится завоевать [COUNTRY.Custom('longname_ru_ACC')] и имеет [Concept('casus_belli', 'повод для войны')|e]"
+ OBJECTIVE_SUBJUGATE_TARGET: "• Стремится сделать [COUNTRY.Custom('longname_ru_ACC')] вассалом"
+ OBJECTIVE_DEFEND_AGAINST: "• Стремится сдержать [COUNTRY.Custom('longname_ru_ACC')]"
+ OBJECTIVE_BUILD_OPINION: "• Выстраивает дружеские отношения с [COUNTRY.Custom('longname_ru_INST')]"
+ CURRENTLY_NO_DIPLOMATIC_OBJECTIVES: "Сейчас у державы нет дипломатических целей."
+ # EAiDisposition enum token localization (used in trigger description tooltips)
+ alarmed: "Тревога"
+ wary: "Беспокойство"
+ planning_war: "Планирование войны"
+ covets: "Алчность"
+ rivals: "Соперничество"
+ indifferent: "Безразличие"
+ # Personality mapmode tooltip title ("[Country] is [Personality]")
+ AI_PERSONALITY_MAPMODE_TITLE: "[COUNTRY.GetLongNameWithNoTooltip]: $PERSONALITY$"
+ # Disposition mapmode tooltip titles (per disposition, for country hover while in ai_disposition_mapmode)
+ AI_DISPOSITION_ALARMED_MAPMODE_TITLE: "[COUNTRY.GetName] испытыва[COUNTRY.Custom('end_etyut')] тревогу"
+ AI_DISPOSITION_WARY_MAPMODE_TITLE: "[COUNTRY.GetName] испытыва[COUNTRY.Custom('end_etyut')] беспокойство"
+ AI_DISPOSITION_PLANNING_WAR_MAPMODE_TITLE: "[COUNTRY.GetName] планиру[COUNTRY.Custom('end_etyut')] войну"
+ AI_DISPOSITION_COVETS_MAPMODE_TITLE: "[COUNTRY.GetName] жела[COUNTRY.Custom('end_etyut')] ваши земли"
+ AI_DISPOSITION_RIVALS_MAPMODE_TITLE: "[COUNTRY.GetName] счита[COUNTRY.Custom('end_etyut')] вас соперником"
+ AI_DISPOSITION_INDIFFERENT_MAPMODE_TITLE: "[COUNTRY.GetName] испытыва[COUNTRY.Custom('end_etyut')] к вам безразличие"
+ # Disposition reason text (dynamic "why" lines appended to _DESC in GetDispositionToPlayerDesc)
+ AI_DISPOSITION_REASON_ECO: "Вы обладаете значительным превосходством в экономике."
+ AI_DISPOSITION_REASON_MILITARY: "Вы обладаете значительным перевесом в войсках."
+ AI_DISPOSITION_REASON_COVETS_COUNT: "Держава хочет заполучить ваши территории ($COUNT|Y$)."
+ AI_DISPOSITION_REASON_RIVALS_FORMAL: "Вас официально объявили соперником."
+ AI_DISPOSITION_REASON_RIVALS_CB: "У державе есть повод для войны с вами."
+ AI_DISPOSITION_REASON_RIVALS_ANTAGONISM: "Ваши державы испытывают сильную неприязнь друг к другу."
+ # Conquer desire location tooltip strings
+ AI_CONQUER_DESIRE_NO_SELECTION: "Выберите державу, чтобы увидеть её стратегические устремления."
+ AI_CONQUER_DESIRE_LOCATION_OWNED: "[COUNTRY.GetLongName] уже владе[COUNTRY.Custom('end_etyut')] этим районом."
+ AI_CONQUER_DESIRE_LOCATION_NONE: "[COUNTRY.GetLongName] не испытыва[COUNTRY.Custom('end_etyut')] интереса к завоеванию этого района."
+ AI_CONQUER_DESIRE_LOCATION_SCORE: "[COUNTRY.GetLongName] жела[COUNTRY.Custom('end_etyut')] этот район на $SCORE|2/%G$!"
+ # Map mode names and descriptions
+ ai_personality_mapmode: "Менталитет держав"
+ ai_personality_mapmode_desc: "Окрашивает каждую державу в зависимости от её менталитета — основополагающего свойства, определяющего дипломатическое и военное поведение."
+ ai_disposition_mapmode: "Настрой державы"
+ ai_disposition_mapmode_desc: "Окрашивает каждую державу в зависимости от её отношения к вам, от тревоги и опасения до желания захватить ваши земли или активного планирования войны."

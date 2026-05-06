@@ -1,4 +1,5 @@
 ﻿l_russian:
+ # Non-Italian trade cities #
  acre.north_italian_language: "Сан-Джованни-д’Акри"
  amasra.north_italian_language: "Амастрис"
  ayas.north_italian_language: "Лаяццо"
@@ -18,9 +19,7 @@
  edremit.north_italian_language: "Адрамиттио"
  eregli.north_italian_language: "Пендеракья"
  famagusta.north_italian_language: "Фамагоста"
- florence.north_italian_language: "Флоренция"
  foca.north_italian_language: "Фочеа"
- genoa.north_italian_language: "Генуя"
  kaffa.north_italian_language: "Каффа"
  kavaje.north_italian_language: "Кавалли"
  khadjibey.north_italian_language: "Джинестра"
@@ -31,20 +30,15 @@
  lezha.north_italian_language: "Алессио"
  limassol.north_italian_language: "Лимиссо"
  makarska.north_italian_language: "Макарска"
- mantova.north_italian_language: "Мантуя"
- milano.north_italian_language: "Милано"
  morphou.north_italian_language: "Оморфо"
- naples.north_italian_language: "Наполи"
  novigrad.north_italian_language: "Новегради"
  otocac.north_italian_language: "Отточо"
  pag.north_italian_language: "Паго"
  paphos.north_italian_language: "Пафо"
  pazin.north_italian_language: "Пизино"
  pola.north_italian_language: "Пола"
- pontikokastro.north_italian_language: "Бельведер"
  rethymno.north_italian_language: "Ретимо"
  rijeka.north_italian_language: "Фиуме"
- rome.north_italian_language: "Рома"
  rovinj.north_italian_language: "Ровиньо"
  samsun.north_italian_language: "Симиссо"
  senj.north_italian_language: "Сенья"
@@ -52,15 +46,252 @@
  sibenik.north_italian_language: "Себенико"
  sinj.north_italian_language: "Синьо"
  sinop.north_italian_language: "Синопе"
- syracuse.north_italian_language: "Сиракуза"
  siteia.north_italian_language: "Сития"
- slano.north_italian_language: "Слано"
+ slano.north_italian_language: "Станьо"
  smyrna.north_italian_language: "Змирна"
  split.north_italian_language: "Спалато"
  sterzing.north_italian_language: "Випитено"
  theodoro.north_italian_language: "Тедоро"
  trebizond.north_italian_language: "Требизонда"
- trento.north_italian_language: "Тренто"
- turin.north_italian_language: "Торино"
- venice.north_italian_language: "Венеция"
  zadar.north_italian_language: "Зара"
+ ### Region 'italy_region' (Italy) ###
+ ## Area 'abruzzo_area' (Abruzzo) ##
+ # All Abruzzo locations: north_italian_language = south_italian_language
+ ## Area 'molise_area' (Molise) ##
+ # All Molise locations: north_italian_language = south_italian_language
+ ## Area 'apulia_area' (Apulia) ##
+ # All Apulia locations: north_italian_language = south_italian_language
+ ## Area 'basilicata_area' (Basilicata) ##
+ # All Basilicata locations: north_italian_language = south_italian_language
+ ## Area 'calabria_area' (Calabria) ##
+ # All Calabria locations: north_italian_language = south_italian_language
+ ## Area 'campania_area' (Campania) ##
+ # All Campania locations: north_italian_language = south_italian_language
+ ## Area 'lazio_area' (Lazio) ##
+ # All Lazio locations: north_italian_language = south_italian_language
+ ## Area 'marche_area' (Marche) ##
+ # All Marche locations: north_italian_language = south_italian_language
+ ## Area 'tuscany_area' (Tuscany) ##
+ # Province 'florence_province' (Florence) #
+ florence.north_italian_language: "Флоренция"
+ # All other Tuscany locations: north_italian_language = south_italian_language
+ ## Area 'umbria_area' (Umbria) ##
+ # All Umbria locations: north_italian_language = south_italian_language
+ ## Area 'sardinia_area' (Sardinia) ##
+ # All Sardinia locations: north_italian_language = south_italian_language
+ ## Area 'sicily_area' (Sicily) ##
+ # All Sicily locations: north_italian_language = south_italian_language
+ ## Area 'emilia_area' (Emilia and Romagna) ##
+ # Province 'bologna_province' (Bologna) #
+ bologna.north_italian_language: "Буланья"
+ # bologna.emilian_dialect: "Bulagna"  # = north_italian_language
+ # Province 'ferrara_province' (Ferrara) #
+ ferrara.north_italian_language: "Фрара"
+ # ferrara.emilian_dialect: "Fràra"  # = north_italian_language
+ # Province 'modena_province' (Modena) #
+ modena.north_italian_language: "Модна"
+ # modena.emilian_dialect: "Mòdna"  # = north_italian_language
+ # Province 'piacenza_province' (Piacenza) #
+ piacenza.north_italian_language: "Пьязейнса"
+ # piacenza.emilian_dialect: "Piaṡeinsa"  # = north_italian_language
+ # Province 'reggioem_province' (Reggio di Lombardia) #
+ reggioem.north_italian_language: "Рез"
+ # reggioem.emilian_dialect: "Rèz"  # = north_italian_language
+ # Province 'romagna_province' (Romagna) #
+ rimini.north_italian_language: "Ремин"
+ # rimini.emilian_dialect: "Rémin"  # = north_italian_language
+ ravenna.north_italian_language: "Равена"
+ # ravenna.emilian_dialect: "Ravèna"  # = north_italian_language
+ # Province 'parma_province' (Parma) #
+ parma.north_italian_language: "Перма"
+ # parma.emilian_dialect: "Pärma"  # = north_italian_language
+ # Province 'imola_province' (Imola) #
+ imola.north_italian_language: "Имола"
+ # imola.emilian_dialect: "Imòla"  # = north_italian_language
+ # Province 'casalmaggiore_province' (Casalmaggiore) #
+ casalmaggiore.north_italian_language: "Казальмаюр"
+ # casalmaggiore.emilian_dialect: "Casalmajùr"  # = north_italian_language
+ # Province 'guastalla_province' (Guastalla) #
+ guastalla.north_italian_language: "Гастала"
+ # guastalla.emilian_dialect: "Gastàla"  # = north_italian_language
+ # Province 'mirandola_province' (Mirandola) #
+ mirandola.north_italian_language: "Мирандла"
+ # mirandola.emilian_dialect: "Miràndla"  # = north_italian_language
+ # argenta.north_italian_language: "Argenta"  # = south_italian_language
+ # comacchio.north_italian_language: "Comacchio"  # = south_italian_language
+ # fiorenzuola.north_italian_language: "Fiorenzuola"  # = south_italian_language
+ # medicina.north_italian_language: "Medicina"  # = south_italian_language
+ # nonantola.north_italian_language: "Nonantola"  # = south_italian_language
+ ## Area 'liguria_area' (Liguria and Corsica) ##
+ # Province 'levante_province' (Levante) #
+ genoa.north_italian_language: "Зенова"
+ genoa.ligurian_dialect: "Дзена"
+ # lavagna.north_italian_language: "Lavagna"  # = south_italian_language
+ lavagna.ligurian_dialect: "Лаванья"
+ # Province 'punente_province' (Punente) #
+ # ventimiglia.north_italian_language: "Ventimiglia"  # = south_italian_language
+ ventimiglia.ligurian_dialect: "Винтимиджа"
+ # albenga.north_italian_language: "Albenga"  # = south_italian_language
+ albenga.ligurian_dialect: "Арбенга"
+ # cairo_montenotte.north_italian_language: "Cairo Montenotte"  # = south_italian_language
+ cairo_montenotte.ligurian_dialect: "Кайру"
+ # ceva.north_italian_language: "Ceva"  # = south_italian_language
+ ceva.ligurian_dialect: "Сева"
+ # finalborgo.north_italian_language: "Finalborgo"  # = south_italian_language
+ finalborgo.ligurian_dialect: "О-Фина"
+ # savona.north_italian_language: "Savona"  # = south_italian_language
+ savona.ligurian_dialect: "Санн-а"
+ # Province 'corsica_province' (Corsica) #
+ # All Corsica locations: north_italian_language = south_italian_language
+ ## Area 'lombardy_area' (Lombardy) ##
+ # Province 'milan_province' (Milan) #
+ milan.north_italian_language: "Милан"
+ # Province 'bergamo_province' (Bergamo) #
+ bergamo.north_italian_language: "Бергем"
+ # Province 'bobbio_province' (Bobbio) #
+ bobbio.north_italian_language: "Боби"
+ # Province 'brescia_province' (Brescia) #
+ brescia.north_italian_language: "Бреза"
+ # Province 'casale_province' (Casale Monferrato) #
+ casale.north_italian_language: "Казаль"
+ # Province 'como_province' (Como) #
+ como.north_italian_language: "Комм"
+ # Province 'cremona_province' (Cremona) #
+ cremona.north_italian_language: "Кремуна"
+ # Province 'lecco_province' (Lecco) #
+ lecco.north_italian_language: "Лекк"
+ # Province 'lodi_province' (Lodi) #
+ lodi.north_italian_language: "Лод"
+ # Province 'mantua_province' (Mantua) #
+ mantova.north_italian_language: "Мантва"
+ # Province 'monza_province' (Monza) #
+ monza.north_italian_language: "Монса"
+ # Province 'pavia_province' (Pavia) #
+ # pavia.north_italian_language: "Pavia"  # = south_italian_language
+ # Province 'arona_province' (Arona) #
+ arona.north_italian_language: "Аруна"
+ # Province 'soncino_province' (Soncino) #
+ soncino.north_italian_language: "Сунси"
+ # Province 'voghera_province' (Voghera) #
+ voghera.north_italian_language: "Вёгера"
+ # Province 'valtellina_province' (Valtellina) #
+ # tresivio.north_italian_language: "Tresivio"  # = south_italian_language
+ tresivio.rhaetian_dialect: "Трезиви"
+ bormio.north_italian_language: "Борми"
+ bormio.rhaetian_dialect: "Бюрм"
+ # chiavenna.north_italian_language: "Chiavenna"  # = south_italian_language
+ chiavenna.rhaetian_dialect: "Чавена"
+ ## Area 'piemonte_area' (Piedmont) ##
+ # Province 'turin_province' (Turin) #
+ turin.north_italian_language: "Турин"
+ # turin.piedmontese_dialect: "Turin"  # = north_italian_language
+ # Province 'acqui_province' (Acqui) #
+ # acqui.north_italian_language: "Acqui"  # = south_italian_language
+ acqui.piedmontese_dialect: "Айк"
+ # Province 'alba_province' (Alba) #
+ # alba.north_italian_language: "Alba"  # = south_italian_language
+ alba.piedmontese_dialect: "Арба"
+ # Province 'alessandria_province' (Alessandria) #
+ alessandria.north_italian_language: "Лиссандрия"
+ # alessandria.piedmontese_dialect: "Lissandria"  # = north_italian_language
+ # Province 'aosta_province' (Aosta) #
+ # aosta.north_italian_language: "Aosta"  # = south_italian_language
+ aosta.piedmontese_dialect: "Аоуста"
+ # Province 'asti_province' / 'monferrato_province' (Asti / Monferrato) #
+ asti.north_italian_language: "Аст"
+ # asti.piedmontese_dialect: "Ast"  # = north_italian_language
+ # Province 'biella_province' (Biella) #
+ # biella.north_italian_language: "Biella"  # = south_italian_language
+ biella.piedmontese_dialect: "Бьела"
+ # Province 'carmagnola_province' (Carmagnola) #
+ # carmagnola.north_italian_language: "Carmagnola"  # = south_italian_language
+ carmagnola.piedmontese_dialect: "Карманьола"
+ # Province 'chieri_province' (Chieri) #
+ # chieri.north_italian_language: "Chieri"  # = south_italian_language
+ chieri.piedmontese_dialect: "Кер"
+ # Province 'cuneo_province' / 'saluzzo_province' (Cuneo / Saluzzo) #
+ cuneo.north_italian_language: "Кони"
+ # cuneo.piedmontese_dialect: "Coni"  # = north_italian_language
+ # saluzzo.north_italian_language: "Saluzzo"  # = south_italian_language
+ saluzzo.piedmontese_dialect: "Салюссе"
+ # Province 'ivrea_province' (Ivrea) #
+ # ivrea.north_italian_language: "Ivrea"  # = south_italian_language
+ ivrea.piedmontese_dialect: "Иврейя"
+ # Province 'mondovi_province' (Mondovì) #
+ # mondovi.north_italian_language: "Mondovì"  # = south_italian_language
+ mondovi.piedmontese_dialect: "Мундви"
+ # Province 'novara_province' (Novara) #
+ # novara.north_italian_language: "Novara"  # = south_italian_language
+ novara.piedmontese_dialect: "Нюара"
+ # Province 'pinerolo_province' (Pinerolo) #
+ # pinerolo.north_italian_language: "Pinerolo"  # = south_italian_language
+ pinerolo.piedmontese_dialect: "Пинарёль"
+ # Province 'vercelli_province' (Vercelli) #
+ # vercelli.north_italian_language: "Vercelli"  # = south_italian_language
+ vercelli.piedmontese_dialect: "Версей"
+ ## Area 'veneto_area' (Veneto and Friuli) ##
+ # Province 'aquileia_province' (Aquileia) #
+ # aquileia.north_italian_language: "Aquileia"  # = south_italian_language
+ aquileia.venetian_dialect: "Акиейя"
+ # Province 'bassano_province' (Bassano) #
+ # bassano.north_italian_language: "Bassano"  # = south_italian_language
+ bassano.venetian_dialect: "Бассан"
+ # Province 'belluno_province' (Belluno) #
+ # belluno.north_italian_language: "Belluno"  # = south_italian_language
+ belluno.venetian_dialect: "Белон"
+ # Province 'ceneda_province' (Ceneda) #
+ # ceneda.north_italian_language: "Ceneda"  # = south_italian_language
+ # ceneda.venetian_dialect: "Ceneda"  # = north_italian_language
+ # Province 'chioggia_province' (Chioggia) #
+ # chioggia.north_italian_language: "Chioggia"  # = south_italian_language
+ chioggia.venetian_dialect: "Чоза"
+ # Province 'este_province' (Este) #
+ # este.north_italian_language: "Este"  # = south_italian_language
+ # este.venetian_dialect: "Este"  # = north_italian_language
+ # Province 'feltre_province' (Feltre) #
+ # feltre.north_italian_language: "Feltre"  # = south_italian_language
+ feltre.venetian_dialect: "Фельтре"
+ # Province 'friuli_province' (Friuli) #
+ # cividale.north_italian_language: "Cividale"  # = south_italian_language
+ cividale.venetian_dialect: "Чивидат"
+ # udine.north_italian_language: "Udine"  # = south_italian_language
+ udine.venetian_dialect: "Удин"
+ # Province 'legnago_province' (Legnago) #
+ legnago.north_italian_language: "Леньяк"
+ legnago.venetian_dialect: "Леньяго"
+ # Province 'mestre_province' (Mestre) #
+ # mestre.north_italian_language: "Mestre"  # = south_italian_language
+ mestre.venetian_dialect: "Месте"
+ # Province 'padua_province' (Padua) #
+ # padova.north_italian_language: "Padova"  # = south_italian_language
+ padova.venetian_dialect: "Падоа"
+ # Province 'peschiera_province' (Peschiera) #
+ # peschiera.north_italian_language: "Peschiera"  # = south_italian_language
+ peschiera.venetian_dialect: "Пискера"
+ # Province 'pordenone_province' (Pordenone) #
+ # pordenone.north_italian_language: "Pordenone"  # = south_italian_language
+ pordenone.venetian_dialect: "Порденон"
+ # Province 'rovigo_province' (Rovigo) #
+ rovigo.north_italian_language: "Рувиг"
+ rovigo.venetian_dialect: "Рувиго"
+ # Province 'schio_province' (Schio) #
+ # schio.north_italian_language: "Schio"  # = south_italian_language
+ # schio.venetian_dialect: "Schio"  # = north_italian_language
+ # Province 'spilimbergo_province' (Spilimbergo) #
+ # spilimbergo.north_italian_language: "Spilimbergo"  # = south_italian_language
+ spilimbergo.venetian_dialect: "Спилимберк"
+ # Province 'tolmezzo_province' (Tolmezzo) #
+ # tolmezzo.north_italian_language: "Tolmezzo"  # = south_italian_language
+ tolmezzo.venetian_dialect: "Тумьеч"
+ # Province 'treviso_province' (Treviso) #
+ # treviso.north_italian_language: "Treviso"  # = south_italian_language
+ treviso.venetian_dialect: "Тревизо"
+ # Province 'venice_province' (Venice) #
+ # venice.north_italian_language: "Venezia"  # = south_italian_language
+ venice.venetian_dialect: "Венезия"
+ # Province 'verona_province' (Verona) #
+ verona.north_italian_language: "Веруна"
+ verona.venetian_dialect: "Верона"
+ # Province 'vicenza_province' (Vicenza) #
+ # vicenza.north_italian_language: "Vicenza"  # = south_italian_language
+ vicenza.venetian_dialect: "Виченса"

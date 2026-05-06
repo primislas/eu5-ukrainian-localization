@@ -1978,7 +1978,7 @@
  rank_county_nahua_longnameACC: "#L #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('rank_ru_ACC')] [ROOT.GetCountry.GetNameWithNoTooltip]#!#!#!"
  rank_county_barangay_longnameACC: "#L #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('rank_ru_ACC')] [ROOT.GetCountry.GetNameWithNoTooltip]#!#!#!"
  rank_county_thai_longnameACC: "#L #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('rank_ru_ACC')] [ROOT.GetCountry.GetNameWithNoTooltip]#!#!#!"
-
+	
  country_rank_league_longnameINST: "#L #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.GetAdjectiveWithNoTooltip]ой [ROOT.GetCountry.Custom('rank_ru_INST')]#!#!#!"
  country_rank_people_longnameINST: "#L #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.GetAdjectiveWithNoTooltip]им [ROOT.GetCountry.Custom('rank_ru_INST')]#!#!#!"
  country_rank_colony_viceroyalty_longnameINST: "#L #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('rank_ru_INST')] [ROOT.GetCountry.GetNameWithNoTooltip]#!#!#!"

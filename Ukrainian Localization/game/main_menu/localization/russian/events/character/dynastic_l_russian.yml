@@ -37,6 +37,7 @@
  dynastic.7.a: "Пошлём за опытным врачом."
  dynastic.7.b: "Пригласим врача из училища [target_location.Custom('LR_GEN')|l] [target_location.GetName]."
  dynastic.7.c: "Помолимся за [Select_CString(target_child.IsFemale,'её', 'его')] здоровье."
+ dynastic.7.d: "[target_child.GetVariable('talisman_giver_variable').GetShortNameWithNoTooltip] — талисман этого персонажа спасёт [Select_CString(target_child.IsFemale,'девочку', 'мальчика')]"
  dynastic.8.title: "Младенец среди тростника"
  dynastic.8.desc: "Животное вздрагивает и убегает, прежде чем [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] успевает выстрелить. Оглянувшись, [Select_CString(ruler_char.IsFemale, 'она', 'он')] замечает неподалёку маленький ручей, рядом с которым колышется тростник. Вдруг оттуда раздаётся смех, и становится понятно, что именно помешало попасть в цель: среди зарослей плавает колыбелька, а в ней лежит младенец. Судя по его улыбке, он совершенно не напуган."
  dynastic.8.a: "Усыновим его."

@@ -115,6 +115,7 @@
  CLOCK_TYPE_12H_SHORT_SUFFIX_AFTERNOON: "после полудня"
  AGENDA_SKIP_AGENDA_SETTING: "Позволяет не отображать исторический обзор в начале игры."
  AGENDA_HISTORICAL_CONTEXT: "Историческая справка"
+ AGENDA_COUNTRY_CONTENT: "#L [Country.GetAdjective]ий#! контент"
  AGENDA_WALKTHROUGH_DISABLED_MISSIONS: "@trigger_no! Вы не сможете запустить обучающее прохождение с отключёнными заданиями. Включите их в разделе «Правила игры» в главном меню."
  AGENDA_WALKTHROUGH_IS_RUNNING: "@trigger_no! Идёт демонстрация."
  # Map
@@ -133,9 +134,13 @@
  SETTINGS_WEATHER_GRAPHIC_EFFECTS_TOOLTIP: "#T Эффекты погоды #! Показывает или скрывает эффекты погоды. Влияет на быстродействие игры"
  SETTINGS_SINGLE_UNIT_ARMIES: "Упрощённый вид армий"
  SETTINGS_SINGLE_UNIT_ARMIES_TOOLTIP: "#T Упрощённый вид армий#! Армии будут отображаться на карте в виде одного воина вместо целого отряда"
+ SETTING_SHOW_COMBAT_FLOATING_LOSSES: "Показать боевые потери во всплывающем окне"
+ SETTING_SHOW_COMBAT_FLOATING_LOSSES_TOOLTIP: "#T Показать боевые потери во всплывающем окне#! Если включить, то в ходе ваших наземных сражений над армиями будут появляться числовые значения потерь."
  SETTINGS_GRID_TILE_SIZE_TEXT: "Размер городских сооружений"
  SETTINGS_GRID_TILE_SIZE_TEXT_TOOLTIP: "Этот параметр определяет размер городских сооружений на трёхмерной карте."
  # Categories
+ SETTING_MAP_MODE_SELECTOR_FAVORITES_VISIBLE: "Закрепить открытую панель избранных режимов карты"
+ SETTING_MAP_MODE_SELECTOR_FAVORITES_VISIBLE_TOOLTIP: "#T Закрепить открытую панель избранных режимов карты#!\nЕсли включить, то панель избранных режимов карты внизу не свернётся, пока вы не переключите режим."
  SETTINGS_CATEGORY_INTERFACE: "Интерфейс"
  SETTINGS_CATEGORY_MULTIPLAYER: "Сетевая игра"
  SETTINGS_CATEGORY_MAP: "Карта"

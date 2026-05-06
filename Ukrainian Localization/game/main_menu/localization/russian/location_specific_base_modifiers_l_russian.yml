@@ -65,3 +65,5 @@
  STATIC_MODIFIER_DESC_amber_coast_base: "На местном побережье много залежей янтаря."
  STATIC_MODIFIER_NAME_sicily_sulfur_mines: "Серный рудник Сицилии"
  STATIC_MODIFIER_DESC_sicily_sulfur_mines: "Серные шахты Сицилии полны веществом, необходимым для производства пороха."
+ STATIC_MODIFIER_NAME_damascus_base: "Традиции дамасских оружейников"
+ STATIC_MODIFIER_DESC_damascus_base: "Дамаск с давних времён славится своими великолепными мечами. Местные кузнецы хранят традиции производства оружия непревзойдённого качества."

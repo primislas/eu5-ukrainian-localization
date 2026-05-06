@@ -28,6 +28,7 @@
  wokou_events.100.b: "Вот бы и нам так."
  wokou_warning_tt: "[ROOT.GetCountry.Custom('GetWokouName')|U] установили [Concept('government_reform', 'государственный принцип')|e] «[ShowGovernmentReformName('pirate_brethren_reform')]» [government_reform|e]. Они находятся недалеко от нас, что приведёт к неблагоприятным [Concept('events', 'событиям')|e]."
  wokou_events.101.title: "Строгая политика «хайцзинь»"
+ wokou_events.101.entry: "Строгая политика «хайцзинь»"
  wokou_events.101.desc: "Политика «[ShowPolicyName('haijin_policy')]» формально действует в нашей державе уже много лет, но лишь теперь, когда у власти находится [target_character.GetShortName], она стала строго соблюдаться. После недавнего указа мы стали тщательно следить за порядком на побережьях #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, лишая жизни многих контрабандистов и отступников. Будем надеяться, что остальные извлекут из этого урок и не станут нарушать #L [ROOT.GetCountry.GetAdjective|l]ие#! правила."
  wokou_events.101.a: "Надеемся, что это не приведёт к печальным последствиям."
  later_era_of_wokou_tt: "Новые [ROOT.GetCountry.Custom('GetWokouName')|l] появляются на #TOOLTIP:AREA,taiwan_area,X #L Тайване#!#!, северной части #TOOLTIP:AREA,luzon_area,X #L Лузона#!#! и #TOOLTIP:AREA,ryuukyuu_area,X #L Рюкю#!#!."

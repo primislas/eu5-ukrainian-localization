@@ -1,0 +1,10 @@
+﻿l_russian:
+ opinion_dignitaries_of_hermes: "Посланники Гермеса"
+ dignitaries_of_hermes_antagonism: "$opinion_dignitaries_of_hermes$"
+ trust_lent_icon: "Одолжили икону"
+ trust_returned_icon: "Вернули икону"
+ trust_refused_icon_return: "Отказались возвращать икону"
+ opinion_lent_icon: "Одолжили икону"
+ opinion_refused_icon: "Отказались от иконы"
+ opinion_returned_icon: "Вернули икону"
+ opinion_refused_icon_return: "Отказались возвращать икону"

@@ -80,7 +80,7 @@
  muslim_school_events.22.title: "[ShowReligiousSchoolNameWithNoTooltip('wahhabi_school')]"
  muslim_school_events.22.desc: "[ROOT.GetCountry.GetLongName] — [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] ханбалитской школы из этой державы всё громче призывают к возрождению веры в её изначальном виде. Они категорически осуждают любые новшества, которых не было в обычаях пророков и письменных источниках исламского права, в том числе все формы суфизма, почитание святых и обычаи неисламских народов. Тем, кто примет их учение, они обещают построить праведное общество, приближенное к идеалам веры."
  muslim_school_events.22.a: "Любопытно."
- muslim_school_events.22.a.tt: "Доступна [Concept('religious_school', 'религиозная школа')|e] #TOOLTIP:RELIGIOUS_SCHOOL,wahhabi_school,X #L «Ваххабитский мазхаб»#!#!"
+ muslim_school_events.22.a.tt: "Доступна [Concept('religious_school', 'религиозная школа')|e] «[ShowReligiousSchoolName('wahhabi_school')]»"
  muslim_school_events.22.b: "Они правы."
  muslim_school_events.23.title: "Гробницы суфиев"
  muslim_school_events.23.desc: "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] уже давно осуждают практику почитания гробниц знаменитых суфиев и строительства связанных с ними святилищ. С приходом к власти более консервативного поколения они стали давить на правителя с требованием искоренить этот обычай."

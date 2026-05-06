@@ -55,7 +55,7 @@
  guelphs_and_ghibellines.1000.desc: "К нам обратились послы #ONCLICK:COUNTRY,[actor.Custom('CL_tt')] #TOOLTIP:COUNTRY,[actor.Custom('CL_tt')],X [actor.Custom('CL_GEN')|L]#!#!. Они говорят, что поддержать их страну в текущем конфликте «[target.GetName]» — долг любого участника фракции «[target_1.Custom('GetGAGOwnFaction')]»."
  guelphs_and_ghibellines.1000.a: "Разумеется, мы им поможем."
  guelphs_and_ghibellines.1000.b: "От участия в этом конфликте мы ничего не выиграем."
- guelphs_and_ghibellines.1001.title: "[target_1.GetNameWithNoTooltip] переход[target_1.Custom('end_itat')] на нашу сторону!"
+ guelphs_and_ghibellines.1001.title: "Власти [target_1.Custom('CL_GEN')] переходят на нашу сторону!"
  guelphs_and_ghibellines.1001.desc: "Послы принесли нам благую весть. Войска #ONCLICK:COUNTRY,[target_1.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_1.Custom('CL_tt')],X [target_1.Custom('CL_GEN')|L]#!#! сразится за нас в конфликте «[target.GetName]»!"
  guelphs_and_ghibellines.1001.a: "Защитим фракцию [target_1.Custom('GetGAGOwnFactionWithNoTooltip')]!"
  guelphs_and_ghibellines.1002.title: "Власти [target_1.Custom('CL_GEN')] отказываются присоединиться к нам"

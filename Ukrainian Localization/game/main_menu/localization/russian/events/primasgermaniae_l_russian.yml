@@ -1,5 +1,6 @@
 ﻿l_russian:
  primasgermaniae.1.title: "Примас Германии"
+ primasgermaniae.1.entry: "$primasgermaniae.1.title$"
  primasgermaniae.1.desc: "Начиная с X века [target_country.GetGovernment.GetRulerTitle|l] #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! носит почётный титул #TOOLTIP:GOVERNMENT_REFORM,primas_germaniae,X #L примаса Германии#!#! — то есть это главный #TOOLTIP:RELIGION,$catholic_tt$,X #L католический#!#! [target_country.GetGovernment.GetRulerTitle|l] во всей #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священной Римской Империи#!#!.\n\nОбладание столь высоким званием, разумеется, вызывает зависть со стороны прочих князей империи… [Select_CString(home_ruler.IsFemale, 'Наша правительница', 'Наш правитель')], [home_ruler.GetName], [Select_CString(home_ruler.IsFemale, 'должна быть внимательна и осторожна', 'должен быть внимателен и осторожен')], а также не растерять весь престиж, иначе титул выскользнет у нас из рук!"
  primasgermaniae.1.a: "Ясно…"
  primasgermaniae.2.title: "Спор о титуле примаса Германии"

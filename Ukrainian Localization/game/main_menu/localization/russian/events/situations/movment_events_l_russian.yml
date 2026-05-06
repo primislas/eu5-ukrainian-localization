@@ -1,0 +1,11 @@
+﻿l_russian:
+ movements.10.title: "Латинство"
+ movements.10.desc: "#TOOLTIP:LANGUAGE_FAMILY,romance_language_family,X #L Романские#!#! жители [target_location.Custom('LR_GEN')|l] [target_location.GetName], недавно возвращённые в лоно великой Римской Империи, испытывают растущий интерес к #TOOLTIP:LANGUAGE,latin_language,X #L латыни#!#! и античной культуре #TOOLTIP:CULTURE,$roman_culture_tt$,X #L Рима#!#!.\n\nЭти новые римляне жаждут возродить былое величие империи. Они гордятся своим наследием и жаждут распространить римскую культуру и влияние по всему миру."
+ movements.10.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
+ movements.10.b: "Мы тоже римляне!"
+ movements.10.tt: "В [target_location.Custom('LR_PREP')|l] [target_location.GetName] возникает [ShowMovementDefinitionName('roman_culture_movement')|l]"
+ movements.20.title: "Сотворение Единого"
+ movements.20.desc: "Последователи религиозного движения, известного как [ShowMovementDefinitionName('hellenism_religion_movement')|l], начали проповедовать учение о том, что абсолютная истина скрывается не в писаниях, а в суждениях. Они считают, что всё сущее есть проявление божественного интеллекта, который исходит от высшего Единого.\n\nЧерпая вдохновение из трудов Платона, Прокла и Плотина, эти мыслители также отмечают сходства своих идей с #TOOLTIP:RELIGIONGROUP,christian,X #L христианством#!#!. По их словам, Единое мало чем отличается от Бога: оно тоже непостижимо и имеет вечную природу, и при этом является источником всего бытия.\n\nПо вполне понятным причинам [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] с насторожённостью относятся к новому учению, презрительно нарекая его #TOOLTIP:RELIGION,$hellenism_religion_tt$,X #L эллинистским#!#! языческим культом. Стоит ли нам подавить это движение в зародыше, или лучше официально разрешить его, чтобы тем самым поспособствовать возрождению философской и религиозной мысли в нашей державе?"
+ movements.20.a: "Поиски Единого приведут нас к истине."
+ movements.20.b: "Это учение лишь вводит людей в заблуждение."
+ movements.20.tt: "[ShowMovementDefinitionName('hellenism_religion_movement')] распространится в [ROOT.GetCountry.GetCapital.Custom('LR_PREP')|l] [ROOT.GetCountry.GetCapital.GetName]"
