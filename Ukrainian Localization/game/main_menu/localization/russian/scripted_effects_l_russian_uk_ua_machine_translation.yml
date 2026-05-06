@@ -268,7 +268,7 @@
   PAST_THIRD_CREATE_UNION_OF_LEVEL_EFFECT: "[COUNTRY.GetName] створи[COUNTRY.Custom('end_vlaloly')] [Concept('union', 'унію')|e] $VALUE|0Y$-го рівня інтеграції [TARGET_COUNTRY.Custom('preposition_zzi')] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_INST')|L]#!#!"
   SET_SENIOR_PARTNER_EFFECT: "Стає #TOOLTIP:SPECIAL_STATUS,senior_partner,X #L старшим партнером#!#! в унії «[COUNTRY.GetDiplomacy.GetUnion.GetName]»"
   WE_SET_SENIOR_PARTNER_EFFECT: "Ми стаємо #TOOLTIP:SPECIAL_STATUS,senior_partner,X #L старшим партнером#!#! в унії «[COUNTRY.GetDiplomacy.GetUnion.GetName]»"
-  THIRD_SET_SENIOR_PARTNER_EFFECT: "[COUNTRY.GetName] ста[COUNTRY.Custom('end_ityat')] #TOOLTIP:SPECIAL_STATUS,senior_partner,X #L старшим партнером#!#! в унії «[COUNTRY.GetDiplomacy.GetUnion.GetName]»"
+  THIRD_SET_SENIOR_PARTNER_EFFECT: "[COUNTRY.GetName] ста[COUNTRY.Custom('end_yeyut')] #TOOLTIP:SPECIAL_STATUS,senior_partner,X #L старшим партнером#!#! в унії «[COUNTRY.GetDiplomacy.GetUnion.GetName]»"
   PAST_SET_SENIOR_PARTNER_EFFECT: "Тепер є #TOOLTIP:SPECIAL_STATUS,senior_partner,X #L старшим партнером#!#! в унії «[COUNTRY.GetUnion.GetName]»"
   PAST_WE_SET_SENIOR_PARTNER_EFFECT: "Ми стали #TOOLTIP:SPECIAL_STATUS,senior_partner,X #L старшим партнером#!#! в унії «[COUNTRY.GetUnion.GetName]»"
   PAST_THIRD_SET_SENIOR_PARTNER_EFFECT: "[COUNTRY.GetName] ста[COUNTRY.Custom('end_vlaloly')] #TOOLTIP:SPECIAL_STATUS,senior_partner,X #L старшим партнером#!#! в унії «[COUNTRY.GetDiplomacy.GetUnion.GetName]»"

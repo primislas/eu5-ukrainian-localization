@@ -4733,7 +4733,7 @@
   TRADE_PATH_NOT_DISCOVERED: "@trigger_no! Ми ще не відкрили [LOCATION.Custom('LR_ACC')|l] [LOCATION.GetName]."
   TRADE_PATH_ENEMY: "@trigger_no! [COUNTRY.GetName] вважа[COUNTRY.Custom('end_yeyut')] нас ворогом."
   TRADE_PATH_EMBARGOED: "@trigger_no! Ми перебуваємо під ембарго #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!."
-  TRADE_PATH_ISOLATION: "@trigger_no! [COUNTRY.GetName] перебува[COUNTRY.Custom('end_ityat')]є в [Concept('isolation', 'ізоляції')|e], з якої у нас немає винятку."
+  TRADE_PATH_ISOLATION: "@trigger_no! [COUNTRY.GetName] перебува[COUNTRY.Custom('end_yeyut')] в [Concept('isolation', 'ізоляції')|e], з якої у нас немає винятку."
   TOTAL_POTENTIAL_PROFIT: "[Concept('profit', 'Прибуток')|E]"
   PROFIT_TRADE_PREFIX_TT: "Прибуток на одиницю [Concept('merchant_capacity', 'торгового потенціалу')|e]"
   PROFIT_POSSIBLE_TRADE_TT: "$PROFIT_TRADE_PREFIX_TT$: [PossibleTrade.GetMerchantCapacityProfit|+=2]@gold!"

@@ -149,7 +149,7 @@
   culture_japan.1202.title: "[target_clan.GetLongNameWithNoTooltip] підтрима[target_clan.Custom('endlong_vlaloly')] нас"
   culture_japan.1202.desc: "[target_clan.GetLongName] — ця країна з почуття обов'язку простягає нам руку допомоги. Завдяки цьому наша влада дещо зміцнилася, а інші клани тепер напевно ставитимуться до нас шанобливіше."
   culture_japan.1202.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
-  culture_japan.1203.title: "[target_clan.GetLongNameWithNoTooltip] прос[target_clan.Custom('endlong_ityat')] про винагороду"
+  culture_japan.1203.title: "[target_clan.GetLongNameWithNoTooltip] прос[target_clan.Custom('endlong_ytyat')] про винагороду"
   culture_japan.1203.desc: "[target_clan.GetName] — збіговисько негідників! Ці люди насмілилися просити винагороди за виконання свого обов'язку. Так, нам важко буде обійтися без їхньої допомоги, однак допомагати безоплатно — їхній прямий обов'язок. Можливо, ми зможемо розплатитися з ними землею в [target_location.Custom('LR_PREP')|l] [target_location.GetName]…"
   culture_japan.1203.a: "Пообіцяємо їм права на [target_location.Custom('LR_ACC')|l] [target_location.GetNameWithNoTooltip]."
   culture_japan.1203.tt: "Якщо вони погодяться, ми побудуємо їм #TOOLTIP:BUILDING_TYPE,yamashiro,X #L ямасіро#!#! в [target_location.Custom('LR_PREP')|l] [target_location.GetName]"

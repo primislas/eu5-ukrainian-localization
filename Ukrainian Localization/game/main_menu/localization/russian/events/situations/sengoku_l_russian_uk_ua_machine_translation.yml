@@ -22,7 +22,7 @@
   sengoku.5.desc: "[target_enemy.GetLongName] — невичерпне джерело неприємностей. Настав час розібратися з цим ворогом і прибрати до рук його території. У період $sengoku$ сильні пожирають слабких. Щоб вижити, ми повинні перемогти всіх, і слабкі — наші перші жертви. Ми будемо вистежувати їх і нещадно вбивати."
   sengoku.5.a: "Ми переможемо їх."
   sengoku.5.b: "Ми нічого не виграємо, якщо нападемо на них."
-  sengoku.6.title: "[actor.GetLongNameWithNoTooltip] прос[actor.Custom('endlong_ityat')]ть про мир"
+  sengoku.6.title: "[actor.GetLongNameWithNoTooltip] прос[actor.Custom('endlong_ytyat')] про мир"
   sengoku.6.desc: "Такий конфлікт, як [target_war.GetName], не міг залишитися непоміченим для центрального уряду. [actor.GetGovernment.GetRulerTitle] з [actor.GetCapital.Custom('LR_GEN')|l] [actor.GetCapital.GetName] офіційно закликає нас припинити бойові дії заради миру та стабільності. Зрозуміло, ми не сумніваємося в авторитеті верховної влади, проте з цього конфлікту ми могли б отримати чималу вигоду."
   sengoku.6.a: "Ми змушені підкоритися."
   sengoku.6.b: "Передайте їм, що нам треба подумати."

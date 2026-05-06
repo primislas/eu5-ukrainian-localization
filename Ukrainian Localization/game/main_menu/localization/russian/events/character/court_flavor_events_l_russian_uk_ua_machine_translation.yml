@@ -5,7 +5,7 @@
   court_flavor_events.1.a: "Чудовий план."
   court_flavor_events.1.A.tooltip: "[advisor_liaisons_target_country.GetLongName] та [advisor.GetName] зв'яжуться для поліпшення дипломатичних відносин."
   court_flavor_events.1.b: "Нам нема чого перед ними запобігати."
-  court_flavor_events.2.title: "[from.GetLongNameWithNoTooltip] прагн[from.Custom('endlong_ityat')]е до зближення"
+  court_flavor_events.2.title: "[from.GetLongNameWithNoTooltip] прагн[from.Custom('endlong_eut')] до зближення"
   court_flavor_events.2.desc: "[Select_CString(advisor.IsFemale,'Талановита', 'Талановитий')] [from.GetGovernment.GetCabinetMemberTitle|l] [advisor.GetName], [Select_CString(advisor.IsFemale,'яка працює', 'який працює')] при #L [from.GetAdjective|l]ому#! дворі, [Select_CString(advisor.IsFemale,'звернулася', 'звернувся')] до колишніх колег у нашій країні, запевняючи, що знає, як [from.GetLongNameWithNoTooltip] та [ROOT.GetCountry.GetLongName] можуть налагодити дипломатичні відносини. У підсумку [ROOT.GetCountry.GetGovernment.GetRuler.GetName|l] отримує [from.GetAdjectiveWithNoTooltip]е послання, де йдеться про бажання зміцнити дружбу між нашими народами."
   court_flavor_events.2.a: "Добрі відносини підуть нам на користь."
   opinion_court_events_accept: "Зближення"
