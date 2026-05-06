@@ -1,5 +1,6 @@
 ﻿l_russian:
  flavor_pap_holy_league.1.title: "Священная лига"
+ flavor_pap_holy_league.1.entry: "$flavor_pap_holy_league.1.title$"
  flavor_pap_holy_league.1.desc: "Падение #TOOLTIP:LOCATION,constantinople,X #L Константинополя#!#! и последующее завоевание #TOOLTIP:REGION,balkan_region,X #L Балкан#!#! #L [GetCountry('TUR').GetAdjective]ой#! армией стали большим потрясением для христианского мира, и люди ждут от нас ответной реакции. Мы лидеры #TOOLTIP:INTERNATIONAL_ORGANIZATION,$catholic_church_tt$,X #L католической церкви#!#!, поэтому наш святой долг — собрать флоты в #TOOLTIP:REGION,italy_region,X #L Италии#!#! и Средиземноморья, организовать крестовый поход и навсегда изгнать неверных из #TOOLTIP:CONTINENT,europe,X #L Европы#!#!."
  flavor_pap_holy_league.1.a: "Мы объявим крестовый поход!"
  flavor_pap_holy_league.1.a.tt: "[THIS.GetCountry.GetName] получит предложение присоединиться к [Concept('crusade', 'крестовому походу')|e]."

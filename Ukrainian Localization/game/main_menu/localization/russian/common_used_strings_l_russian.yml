@@ -29,9 +29,9 @@
  common_string_ok: "Хорошо."
  common_string_alright: "Ладно."
  common_string_ok_spanish: "#italic Vale.#!"
- common_string_ok_french: "#italic D’accord.#!"
+ common_string_ok_french: "#italic D'accord.#!"
  common_string_ok_french_2: "#italic Bien.#!"
- common_string_ok_catalan: "#italic D’acord.#!"
+ common_string_ok_catalan: "#italic D'acord.#!"
  common_string_ok_italian: "#italic Va bene.#!"
  #Neutral Response
  common_string_leave_them_be: "Оставим их в покое."
@@ -84,3 +84,6 @@
  common_string_shaikh_al_islam: "Шейх аль-ислам"
  genghis_khan_name: "#TOOLTIP:CHARACTER,[GetCharacter('genghis_khan').GetID],X #L $rank_kingdom_horde_ruler_suffix_male$ [GetCharacter('genghis_khan').GetNicknameWithNoTooltip]#!#!"
  genghis_khan_name_no_tooltip: "$rank_kingdom_horde_ruler_suffix_male$ $name_genghis$"
+ AREA_PREFERENCES_INFO_TITLE: "Приоритетные области ИИ:"
+ AREA_PREFERENCE_TYPE_EXPLORATION: "Стремится [Concept('explore', 'отправить экспедицию')|e] и [Concept('colonize', 'колонизировать')|e] территорию $SCOPE$."
+ AREA_PREFERENCE_TYPE_CONQUEST: "Стремится [Concept('conquer', 'завоевать')|e] территорию $SCOPE$."

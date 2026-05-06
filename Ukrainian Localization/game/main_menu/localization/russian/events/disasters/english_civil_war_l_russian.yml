@@ -1,6 +1,7 @@
 ﻿l_russian:
  #English Civil War related Events
  english_civil_war.250.title: "[target_character.GetNameWithNoTooltip]"
+ english_civil_war.250.entry: "Выбранный персонаж"
  english_civil_war.250.desc: "Недавняя смена власти в державе [ROOT.GetCountry.GetLongName] дала дорогу наверх многим новым людям, которые готовы взять в свои руки предводительство своими сословиями. [Select_CString(target_character.IsFemale, 'Одна', 'Один' )] из таких людей, [target_character.GetName], недавно [Select_CString(target_character.IsFemale, 'приобрела', 'приобрёл' )] большой вес и влияние в [target_location.Custom('LR_PREP')|l] [target_location.GetName].\n\n[Select_CString(target_character.IsFemale, 'Полная', 'Полный' )] амбиций и убеждённости в своей вере, [Select_CString(target_character.IsFemale, 'она', 'он' )] и [Select_CString(target_character.IsFemale, 'её', 'его' )] сподвижники, вне сомнения, изменят будущее нашего народа — к добру или худу."
  english_civil_war.250.a: "Любопытно."
  more_likely_to_fire_disaster_tt: "[ShowDisasterName('english_civil_war')] случится #R с большей вероятностью#!. Если [Concept('disaster', 'катастрофа')|e] начнётся, когда [target_character.GetName] будет [Select_CString(target_character.IsFemale, 'жива, она', 'жив, он' )] встанет во главе одной из сторон"

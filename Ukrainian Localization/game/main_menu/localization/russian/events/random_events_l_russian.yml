@@ -454,4 +454,4 @@
  random_event.112.desc: "Недовольные [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] обратились к нам с официальной жалобой. Они утверждают, что некие известные [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l], ведущие свои дела в [target_location.Custom('LR_PREP')|l] [target_location.GetName] обманывают их, продавая настолько плохую медь, что её практически невозможно использовать в хозяйстве.\n\n [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')|U], в свою очередь, настаивают, что качество металла полностью соответствует обещанному. Скандал, охвативший рынок, заставляет и других покупателей сомневаться в честности жителей [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]."
  random_event.112.a: "Пусть эти [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')|l] берут товар или убираются!"
  random_event.112.b: "Виноваты [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')|l]."
- random_event.112.c: "Мелочные дрязги…"
+ random_event.112.c: "Мелочные дрязги..."

@@ -108,6 +108,7 @@
  horde_civil_war: "Гражданская война в орде"
  horde_civil_war_desc: "Власть нашего правителя снова в опасности! Честолюбивый военачальник угрожает развязать гражданскую войну и силой захватить трон. Теперь воинам орды предстоит сражаться с собственными мятежными братьями…"
  horde_civil_war_end_trigger_no_rebels: "Никто из [Concept('rebel', 'мятежников')|e] не является #Y претендентом#!"
+ horde_civil_war_capital_has_neighbor_province_tt: "У столицы есть доступ к соседней провинции"
  horde_civil_war_crown_supporters: "Верные воины орды"
  horde_civil_war_pretender_supporters: "Мятежные воины орды"
  GUI_REBEL_OWNED_LOCATIONS: "[Concept('locations', 'Районы')|e], занятые [Concept('rebels', 'мятежниками')|e]: [DisasterView.GetDisaster.GetOwner.MakeScope.GetVariable('GUI_pretender_rebel_character').GetCharacter.GetCourtCountry.GetOwnedLocationCount]"
@@ -130,8 +131,8 @@
  #Disaster
  sinicization_disaster: "Китайское влияние"
  sinicization_disaster_desc: "Влияние #ONCLICK:COUNTRY,[GetCountry('CHI').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('CHI').Custom('CL_tt')],X [GetCountry('CHI').Custom('CL_GEN')|L]#!#! принесло нашему народу немалые блага. К несчастью, оно также вызвало разложение традиционного жизненного уклада, а теперь и вовсе угрожает независимости державы. Если мы хотим сохранить самобытную культуру, необходимо положить конец разрушительному воздействию чужеземных соблазнов. Вместе с тем, более тесные связи могут оказаться полезными…"
- has_opted_to_side_with_china_in_events_tt: "Успешное #G продвижение#! #L [GetCountry('CHI').GetAdjective|l]ого#! влияния при нашем дворе в ходе [Concept('events', 'событий')|e]"
- has_opted_to_stay_sovereign_from_china_in_events_tt: "Успешное #G ограничение#! #L [GetCountry('CHI').GetAdjective|l]ого#! влияния при нашем дворе в ходе [Concept('events', 'событий')|e]"
+ has_opted_to_side_with_china_in_events_tt: "Успешное #G продвижение#! [GetCountry('CHI').GetAdjective|l]ого влияния при нашем дворе в ходе [Concept('events', 'событий')|e] ([THIS.GetVariable('china_side').GetValue] из 30)"
+ has_opted_to_stay_sovereign_from_china_in_events_tt: "Успешное #G ограничение#! [GetCountry('CHI').GetAdjective|l]ого влияния при нашем дворе в ходе [Concept('events', 'событий')|e] ([THIS.GetVariable('sovereign_side').GetValue] из 30)"
  #Crisis of the Chinese Dynasty
  #Disaster
  crisis_of_the_chinese_dynasty: "Кризис в [GetCountry('CHI').Custom('longname_ru_wntt_PREP')]"
@@ -253,6 +254,7 @@
  coup_attempt_desc: "Зловещие тени кружат над нами, как стервятники, выжидающие подходящего момента для нападения! Это тени приближённых, жаждущих избавиться от нашего правителя и посадить на трон свою марионетку."
  recently_had_coup_attempt_inconclusive_tt: "За последние #Y 5#! лет здесь не было ни провальных, ни удачных попыток переворота."
  conspirators_murdered_ruler_tt: "Заговорщикам удалось убить нашего правителя"
+ any_conspirator_became_ruler_tt: "[Concept('ruler', 'Правитель')|e] на троне входит в число заговорщиков"
  #Byzantine Civil War
  #Disaster
  byzantine_succession_crisis: "[GetCountry('BYZ').GetAdjectiveWithNoTooltip]ий кризис наследования"

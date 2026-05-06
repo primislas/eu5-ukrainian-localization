@@ -41,3 +41,4 @@
  decline_of_majapahit.102.desc: "#L [ShowReligionGroupAdjective('muslim')]ие#! общины в нашей державе становятся всё более независимыми, а недавно они объединились под знаменем мятежного принца по имени [target_character.GetName], который якобы является дальним родственником представителей правящей династии. [target_character.GetNameWithNoTooltip] не только провозгласил независимость #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!, но и заявил о своих претензиях на #L [ROOT.GetCountry.GetAdjective|l]ий#! престол. К сожалению, сейчас у нас много других проблем и просто нет возможности помешать ему накапливать силы."
  decline_of_majapahit.102.a: "Предатели! Сразимся с ними на поле боя!"
  decline_of_majapahit.102.b: "Позже мы вернём себе эти земли."
+ demak_progress_less_than_50: "#W $demak_progress$#! составляет менее #W 50,0%#!"
