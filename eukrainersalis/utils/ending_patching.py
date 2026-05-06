@@ -33,13 +33,15 @@ ending_mappings = {
     "'predlog_vvo'": "'preposition_uv'",
     "'endlong_predlog_vvo'": "'preposition_uv'", # seems to be a bug in original localization
     "'end_predlog_vvo'": "'preposition_uv'", # seems to be a bug in original localization
+    "'endrank_predlog_vvo'": "'preposition_uv'", # seems to be a bug in original localization
     "'predlog_kko'": "'REPLACE_WITH_STATIC_до'",
     "'endlong_predlog_kko'": "'REPLACE_WITH_STATIC_до'",
     "'end_predlog_kko'": "'REPLACE_WITH_STATIC_до'",
+    "'endrank_predlog_kko'": "'REPLACE_WITH_STATIC_до'",
     "'predlog_obo'": "'REPLACE_WITH_STATIC_про'",
     "'endlong_predlog_obo'": "'REPLACE_WITH_STATIC_про'",
     "'end_predlog_obo'": "'REPLACE_WITH_STATIC_про'",
-    # TODO: end_a?
+    # TODO: end_a? looks like a bug in original localization, look for it in new releases
 }
 
 if __name__ == "__main__":

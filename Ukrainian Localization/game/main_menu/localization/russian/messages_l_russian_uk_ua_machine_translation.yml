@@ -5971,7 +5971,7 @@
   WE_PERFORM_support_heir_interaction_ACTION_HEADER: "$MESSENGER$"
   WE_PERFORM_support_heir_interaction_ACTION_TITLE: "[SCOPE.sCharacter('target').GetName] отримує підтримку!"
   WE_PERFORM_support_heir_interaction_ACTION_EFFECTS: "Ми відправили персонажа [SCOPE.sCharacter('target').GetName] [SCOPE.sCountry('recipient').Custom('preposition_uv')] #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').Custom('CL_tt')] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').Custom('CL_tt')],X [SCOPE.sCountry('recipient').Custom('CL_ACC')|L]#!#!."
-  WE_PERFORM_support_heir_interaction_ACTION_FLAVOR: "Сподіваємося, [SCOPE.sCountry('recipient').GetFlavorRank|l] розгляд[SCOPE.sCountry('recipient').Custom('endrank_ityat')] у [Select_CString(SCOPE.sCharacter('target').IsFemale,'ній', 'ньому')] потенціал."
+  WE_PERFORM_support_heir_interaction_ACTION_FLAVOR: "Сподіваємося, [SCOPE.sCountry('recipient').GetFlavorRank|l] поміт[SCOPE.sCountry('recipient').Custom('endrank_ytyat')] у [Select_CString(SCOPE.sCharacter('target').IsFemale,'ній', 'ньому')] потенціал."
   WE_PERFORM_support_heir_interaction_ACTION_LOG: "Ми відправили персонажа [SCOPE.sCharacter('target').GetName] до [SCOPE.sCountry('recipient').Custom('CL_ACC')], щоб допомогти [Select_CString(SCOPE.sCharacter('target').IsFemale,'їй', 'йому')] стати [Select_CString(SCOPE.sCharacter('target').IsFemale,'новою правителькою', 'новим правителем')]."
   WE_PERFORM_support_heir_interaction_ACTION_BTN1: "Гаразд"
   WE_PERFORM_support_heir_interaction_ACTION_BTN2: "Гаразд"

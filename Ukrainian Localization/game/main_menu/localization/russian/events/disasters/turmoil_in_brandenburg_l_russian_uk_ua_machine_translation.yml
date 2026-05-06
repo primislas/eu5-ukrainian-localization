@@ -242,7 +242,7 @@
   bra_quitzow_revolt: "Заколот Квітцових"
   turmoil_in_brandenburg.1303.title: "Кінець влади баронів-розбійників"
   turmoil_in_brandenburg.1303.desc: "Нам довелося витратити чимало років та сил, аби втихомирити бунтівних #TOOLTIP:ESTATE_TYPE,nobles_estate,X #L аристократів#!#!, однак усе це було недарма: жодні барони-розбійники більше не зазіхають на торговельні шляхи нашої країни, тому прості люди можуть спати спокійно, забувши про ті дні, коли будь-який без винятку селянин змушений був платити аристократам за захист."
-  turmoil_in_brandenburg.1303.a: "[ROOT.GetCountry.Custom('endrank_predlog_vvo')] [ROOT.GetCountry.Custom('rank_ua_PREP')|l] знову запанував спокій."
+  turmoil_in_brandenburg.1303.a: "[ROOT.GetCountry.Custom('preposition_uv')] [ROOT.GetCountry.Custom('rank_ua_PREP')|l] знову запанував спокій."
   STATIC_MODIFIER_NAME_PRU_end_of_robber_barons: "Кінець доби баронів-розбійників"
   turmoil_in_brandenburg.1304.title: "Кара для баронів-розбійників"
   turmoil_in_brandenburg.1304.desc: "Бунтівні #TOOLTIP:ESTATE_TYPE,nobles_estate,X #L аристократи#!#! зазнали поразки, але [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] щиро сумнівається, що одна лише наша перемога забезпечить сталий мир. Дехто вважає, що [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'повинна', 'повинен' )] покарати бунтарів за зраду. Є, втім, й інша думка: не варто псувати стосунки ще сильніше, адже ми вже відновили законну владу."
