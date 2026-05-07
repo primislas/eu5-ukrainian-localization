@@ -9,7 +9,7 @@ from google.genai.types import GenerateContentConfig, HttpOptions, HttpRetryOpti
 
 from eukrainersalis.utils.log_utils import logger
 from eukrainersalis.translators.translator_api import Translator
-from eukrainersalis.utils.translation_utils import POSTEDIT_TRANSLATION_FAILURE, SystemInstruction
+from eukrainersalis.utils.translation_utils import POSTEDIT_TRANSLATION_FAILURE, SystemInstruction, is_valid_json_object
 
 load_dotenv()
 DEFAULT_GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
@@ -83,11 +83,11 @@ class GeminiTranslator(Translator):
         output_line_count = len(output_lines)
 
         if output_line_count != batch_size:
+            output_lines = [l for l in output_lines if is_valid_json_object(l)]
             logger.warning(
                 f"Input line count ({batch_size}) != output line count ({output_line_count}), "
-                f"marking batch as failed:\n{text}"
+                f"pruned to {len(output_lines)} valid jsons:\n{text}"
             )
-            output_lines = [POSTEDIT_TRANSLATION_FAILURE] * batch_size
 
         return output_lines
 
@@ -102,8 +102,8 @@ class GeminiTranslator(Translator):
                 await asyncio.sleep(10)
                 translation = await self._translate_async(text)
 
-        if not translation:
-            translation = "\n".join([POSTEDIT_TRANSLATION_FAILURE] * expected_output_lines)
+        # if not translation:
+        #     translation = "\n".join([POSTEDIT_TRANSLATION_FAILURE] * expected_output_lines)
 
         return translation
 

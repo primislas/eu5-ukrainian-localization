@@ -1,4 +1,6 @@
+from dataclasses import dataclass, field
 from enum import StrEnum
+from pathlib import Path
 
 
 class Language(StrEnum):
@@ -18,9 +20,38 @@ class SystemInstruction(StrEnum):
     RU_UA = "ru_ua"
 
 
+@dataclass
+class TranslationResult:
+    total_records: int = 0
+    submitted_records: int = 0
+    translated_records: int = 0
+    errors: list[Exception] = field(default_factory=list)
+    file_path: Path | str | None = None
+
+    def is_success(self) -> bool:
+        return self.translated_records == self.submitted_records and not self.errors
+
+    @property
+    def untranslated_records(self) -> int:
+        return self.submitted_records - self.translated_records
+
+    def add_error(self, error: Exception) -> "TranslationResult":
+        self.errors.append(error)
+        return self
+
+    def add(self, another: "TranslationResult") -> "TranslationResult":
+        self.total_records += another.total_records
+        self.submitted_records += another.submitted_records
+        self.translated_records += another.translated_records
+        self.errors.extend(another.errors)
+        return self
+
+
 PENDING_TRANSLATION = "PENDING_TRANSLATION"
 POSTEDIT_TRANSLATION_FAILURE = "POSTEDIT_TRANSLATION_FAILURE"
 POSTEDIT_EMPTY_TRANSLATION = "POSTEDIT_EMPTY_TRANSLATION"
+POSTEDIT_MINOR_CHANGE = "POSTEDIT_MINOR_CHANGE"
+MIN_LEVENSHTEIN_MIGRATION_DISTANCE = 5
 
 _UNTRUNSLATED_VALUES = [PENDING_TRANSLATION, POSTEDIT_TRANSLATION_FAILURE, POSTEDIT_EMPTY_TRANSLATION]
 
