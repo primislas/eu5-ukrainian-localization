@@ -19,7 +19,7 @@
  flavor_kie.3.title: "[target_character.GetNameWithNoTooltip]"
  flavor_kie.3.entry: "Митрополит Гедеон Четвертинский"
  flavor_kie.3.desc_common: "Стремясь усилить контроль над [target_location.Custom('LR_INST')|l] [target_location.GetName], власти пытаются найти нового митрополита, которому можно было бы доверить управление этим районом. Наиболее подходящим кандидатом на эту роль является [target_character.GetName], [Select_CString(target_character.IsFemale,'которая выросла', 'который вырос')] в этих землях."
- flavor_kie.3.desc_RUS: "$flavor_kie.3.desc_common$ Многие жители [ROOT.GetCountry.Custom('rank_ru_GEN')|l] считают, что его назначение подорвёт наше влияние на [target_location.Custom('LR_ACC')|l] [target_location.GetNameWithNoTooltip]. Вот почему его активно продвигают на эту должность."
+ flavor_kie.3.desc_RUS: "$flavor_kie.3.desc_common$ Многие жители [ROOT.GetCountry.Custom('rank_ua_GEN')|l] считают, что его назначение подорвёт наше влияние на [target_location.Custom('LR_ACC')|l] [target_location.GetNameWithNoTooltip]. Вот почему его активно продвигают на эту должность."
  flavor_kie.3.desc_ZAZ: "$flavor_kie.3.desc_common$ При этом известно, что [target_character2.GetName] также проявляет к [Select_CString(target_character.IsFemale,'ней', 'нему')] благосклонность. Столь [Select_CString(target_character.IsFemale,'верная подданная', 'верный подданный')] наверняка станет отличным митрополитом и поможет нам укрепить влияние над городом."
  flavor_kie.3.desc: "$flavor_kie.3.desc_common$ Придворные также считают, что он мог бы сослужить нам хорошую службу в совете, однако для оплаты его услуг сразу на двух должностях потребуется немало средств."
  flavor_kie.3.a: "Наймём этого человека."

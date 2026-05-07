@@ -2,13 +2,13 @@
  country_name_construction_name: "$NAME$"
  country_name_construction_name_map: "$NAME$"
  country_name_construction_name_with_article: "$ARTICLE$$NAME$"
- country_name_construction_prefix_rank_of_name_but_map_is_just_prefix_rank: "$RU_rank_name_3_full$"
+ country_name_construction_prefix_rank_of_name_but_map_is_just_prefix_rank: "$UA_rankname_3_full$"
  country_name_construction_prefix_rank_of_name_but_map_is_just_prefix_rank_map: "$PREFIX$ $RANK$"
  country_name_construction_prefix_name_rank: "$PREFIX$ $RANK$ $NAME$"
  country_name_construction_prefix_name_rank_map: "$PREFIX$ $RANK$ $NAME$"
- country_name_construction_prefix_adjective_rank: "$RU_rank_name_78_full$"
- country_name_construction_prefix_adjective_rank_map: "$RU_rank_name_78_full$"
- country_name_construction_prefix_rank_of_name: "$RU_rank_name_9_full$"
+ country_name_construction_prefix_adjective_rank: "$UA_rankname_78_full$"
+ country_name_construction_prefix_adjective_rank_map: "$UA_rankname_78_full$"
+ country_name_construction_prefix_rank_of_name: "$UA_rankname_9_full$"
  country_name_construction_prefix_rank_of_name_map: "$NAME$"
  country_name_construction_prefix_name: "$PREFIX$ $NAME$"
  country_name_construction_prefix_name_map: "$PREFIX$ $NAME$"
@@ -22,7 +22,6 @@
  country_name_construction_ROM_republic_map: "$ROM_republic_long$"
  country_name_construction_BYZ_greek: "$BYZ_greek_long$"
  country_name_construction_BYZ_greek_map: "$BYZ_greek_long$"
- # Do not remove any construction as they might be used in different languages
  COUNTRY_NAME_ABBREVIATION: "$NAME$."
  revolutionary_prefix: "Революционная"
  revolutionary_ADJ: "революционерск"
@@ -222,7 +221,6 @@
  country_rank_governor_ruler_female: "Наместница"
  country_rank_governor_ruler_male.short: "Губ."
  country_rank_governor_ruler_female.short: "Губ."
- ##############################################################
  rank_kingdom_bank_prefix: "Великий"
  rank_kingdom_bank: "Банк"
  rank_kingdom_bank_ruler_male: "Король-председатель"
@@ -495,7 +493,6 @@
  rank_kingdom_bulgarian: "Царство"
  rank_kingdom_bulgarian_ruler_male: "Крал"
  rank_kingdom_bulgarian_ruler_female: "Кралица"
- ##############################################################
  rank_kingdom_grand_duchy_LIT: "Великое Княжество"
  rank_kingdom_grand_duchy_LIT_ADJ: "великокняжеск"
  rank_kingdom_grand_duchy_LIT_ruler_male: "Великий князь"
@@ -689,7 +686,6 @@
  rank_duchy_thai: "Княжество"
  rank_duchy_thai_ruler_male: "Чао"
  rank_duchy_thai_ruler_female: "Чао"
- ##############################################################
  rank_county: "Графство"
  rank_county_ADJ: "графск"
  rank_county_ruler_male: "Граф"
@@ -953,8 +949,6 @@
  rank_victual_brothers: "Виталийские братья"
  country_rank_empire_cossacks_reform: "Большое Гетманство"
  country_rank_empire_cossacks_reform_ruler: "Большой гетман"
- ##############################################################
- # Long Country Name
  pop_country: "$ADJ$ий народ"
  republic_rank_county_trade_company_full: "Торговая компания «$NAME$»"
  republic_rank_duchy_trade_company_full: "Торговая компания «$NAME$»"
@@ -968,7 +962,6 @@
  steppe_horde: "Кочевая орда"
  republic: "Республика"
  theocracy: "Теократия"
- # Ranks
  country_rank_effects_list_title: "[CountryRank.GetNameWithNoTooltip] обладает следующими эффектами:"
  rank_empire_desc: "Это наивысший [Concept('country_rank', 'ранг')|e], которым обладают наиболее престижные или могущественные [Concept('countries', 'державы')|e] мира."
  rank_kingdom_desc: "Этим [Concept('country_rank', 'рангом')|e] обладают более крупные [Concept('countries', 'державы')|e]. Они владеют несколькими [Concept('provinces', 'провинциями')|e] и могут продемонстрировать силу."
@@ -986,10 +979,8 @@
  steppe_horde_desc: "Кочевая орда — это [Concept('government_type', 'форма правления')|e], основанная на военной силе [Concept('ruler', 'правителя')|e]. Родственники действующего правителя имеют больше шансов стать [Concept('heir', 'наследниками')|e], но старшинство и личные [Concept('abilities', 'навыки')|e] также играют большую роль.\n\nПравители принадлежат к высшему сословию. Верность орде обеспечивается их способностью подчинять, грабить и разорять соседние [Concept('countries', 'державы')|e]. В связи с этим смена власти является знаковым событием для кочевой орды и может даже привести к коллапсу, если новый правитель не сумеет продемонстрировать свою силу."
  tribe_desc: "Племя — это [Concept('government_type', 'форма правления')|e], при которой политический вес в первую очередь опирается на родство, будь то по крови или через мифологических предков.\n\n[Concept('dynasties', 'Династии')|e] и семейные узы играют главную роль при выборе [Concept('heir', 'наследника')|e], который всегда принадлежит к высшему сословию. Старшинство, личные [Concept('abilities', 'навыки')|e] и воинская доблесть также играют важную роль."
  estate_privilege_description_tt: "Нельзя отозвать. Причины:\n[UIAction.GetDescription]"
- #Types & Titles
  monarchy_consort_male: "Принц-консорт"
  monarchy_consort_female: "Принцесса-консорт"
- # special subject
  monarchy_male_colonial_nation: "Губернатор"
  monarchy_female_colonial_nation: "Губернатор"
  republic_male_VEN_rank_empire: "Великий дож"

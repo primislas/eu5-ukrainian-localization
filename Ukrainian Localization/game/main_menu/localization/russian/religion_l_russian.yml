@@ -5,7 +5,7 @@
  religious_influence_lutheran: "Церковная власть"
  religious_influence_anglican: "Церковная власть"
  rite_power: "Сила обрядов"
- GODS_OF_THE_COUNTRY: "Боги [Player.Custom('longname_ru_nott_GEN')]"
+ GODS_OF_THE_COUNTRY: "Боги [Player.Custom('longname_ua_nott_GEN')]"
  CORE_TENETS_OF: "$NAME$ — основные догматы"
  RELIGIOUS_UNITY_EFFECT: "Среднее религиозное единство в #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_PREP')|L]#!#! составляет $VAL|%2Y$, что оказывает следующий эффект:\n\n$EFFECT$"
  PROPOSE: "Предложить"
@@ -318,7 +318,6 @@
  nahuatl_ADJ: "Науаск"
  protestant: "Протестант"
  church_aspects: "может обладать церковными особенностями"
- #--
  mayan: "Майя"
  mayan_ADJ: "Майянск"
  mayan_desc: "Майянский ритуализм $common_folk_religion_desc$"
@@ -389,11 +388,11 @@
  zoroastrian_ADJ: "Зороастрийск"
  manichaeism: "Манихейство"
  manichaeism_ADJ: "Манихейск"
- iroquoian_totemism: "Орендизм" #Iroquoian Totemism
+ iroquoian_totemism: "Орендизм"
  iroquoian_totemism_ADJ: "Орендистск"
- mississippian_ceremonial: "Церемониализм" #Mississippian Ceremonialism
+ mississippian_ceremonial: "Церемониализм"
  mississippian_ceremonial_ADJ: "Церемониалистск"
- paiute_shamanism: "Пухагимизм" #Great Basin Shamanism
+ paiute_shamanism: "Пухагимизм"
  paiute_shamanism_ADJ: "Пухагимистск"
  pomo_shamanism: "Шаманизм куксу"
  pomo_shamanism_ADJ: "Куксу-шаманистск"
@@ -401,11 +400,11 @@
  salishan_totemism_ADJ: "Салишско-тотемистск"
  dene_totemism: "Тотемизм дене"
  dene_totemism_ADJ: "Дене-тотемистск"
- dene_shamanism: "Атабасканизм" #Dene Shamanism
+ dene_shamanism: "Атабасканизм"
  dene_shamanism_ADJ: "Атабасканистск"
  yupik_shamanism: "Юпикский шаманизм"
  yupik_shamanism_ADJ: "Юпикско-шаманистск"
- great_plains_shamanism: "Ваканизм" #Great Plains Shamanism
+ great_plains_shamanism: "Ваканизм"
  great_plains_shamanism_ADJ: "Ваканистск"
  chukchi_shamanism: "Чукотский шаманизм"
  chukchi_shamanism_ADJ: "Чукотско-шаманистск"
@@ -413,19 +412,19 @@
  yukaghir_shamanism_ADJ: "Юкагирско-шаманистск"
  tungusic_shamanism: "Тунгусский шаманизм"
  tungusic_shamanism_ADJ: "Тунгусско-шаманистск"
- bimoism: "Бимоизм" #Traditional Religion of Yi People
+ bimoism: "Бимоизм"
  bimoism_ADJ: "Бимоистск"
- hmongism: "Кев Даб Куас" #Traditional Religion of Hmong/Miao People
+ hmongism: "Кев Даб Куас"
  hmongism_ADJ: "Кев-даб-куасск"
- moism: "Моизм" #Traditional Religion of Zhuang People
+ moism: "Моизм"
  moism_ADJ: "Моистск"
- rmaism: "Рмаизм" #Traditional Religion of Qiang People
+ rmaism: "Рмаизм"
  rmaism_ADJ: "Рмаистск"
- sanamahism: "Санамахизм" #Traditional Religion of Meitei People
+ sanamahism: "Санамахизм"
  sanamahism_ADJ: "Санамахистск"
- satsana_phi: "Сатсана Пхи" #Traditional Religion of Tai People (several groups)
+ satsana_phi: "Сатсана Пхи"
  satsana_phi_ADJ: "Сатсана-пхийск"
- khabzeism: "Хабзэизм" #Traditional Religion of Circassian People
+ khabzeism: "Хабзэизм"
  khabzeism_ADJ: "Хабзэистск"
  vainakh_paganism: "Вайнахское язычество"
  vainakh_paganism_ADJ: "Вайнахско-языческ"
@@ -532,7 +531,6 @@
  religious_sects_desc: "Испокон веков люди по-разному следовали пути Будды, и даже истории о ками стали меняться под влиянием разных религиозных течений. Представители разных сект всегда будет пытаться убедить других следовать их учению, но в конечном итоге все они могут принести пользу обществу."
  kirishitan_monks: "Монахи-кириситан"
  kirishitan_monks_desc: "Западные путешественники привезли с собой новое духовное учение, в котором почитается некий Будда по имени Иисус. Чтобы поддерживать с ними общение и торговые связи, следует терпимо относиться к их вере. Возможно, в итоге мы даже почерпнём из неё что-нибудь полезное."
- ### New culture and religion window
  TRUE_FAITH_TOLERANCE: "Терпимость к истинной вере"
  HERETIC_TOLERANCE: "Терпимость к ереси"
  HEATHENRY_TOLERANCE: "Терпимость к язычеству"
@@ -702,7 +700,6 @@
  reform_society_action_desc: "Обществу нужны коренные преобразования, иначе мы попросту не сможем защищаться от врагов. Надо отказаться от устаревших верований и порядков, чтобы пройти через этот непростой период и обеспечить державе светлое будущее."
  commence_reform_society_disaster_tt: "#R Начнётся#! [Concept('disaster', 'бедствие')|e] #TOOLTIP:DISASTER_TYPE,reform_society,X #L «Общественная реформа»#!#!. #Y В случае успеха может произойти следующее:#!"
  eligible_for_reform_society_disaster_tt: "Мы применили [Concept('action', 'действие')|e] «[ShowGenericActionName('reform_society_action')]»"
- #Inti
  inti_ceremonial_festivals: "Провести церемонию"
  inti_ceremonial_festivals_desc: "Мы каждый месяц устраиваем праздники, посвящённые разным темам. В этот раз правительство желает организовать гораздо более пышное торжество, чем обычно."
  zamay_quilla_tt: "В первый месяц, замай, праздник посвящён плодородию и выращиванию кукурузы."
@@ -739,7 +736,6 @@
  uinal_pax_tt: "В месяц паш правители и жрецы из мелких деревень съезжаются в столицу, чтобы вместе почтить богов."
  uinal_kayab_tt: "В месяцы кайяб и кумху каждая деревня отмечает собственный праздник, готовясь к последним пяти несчастливым дням года, называемым вайеб."
  uinal_uayeb_tt: "В последние пять дней года, известные как вайеб, не проводится никаких мероприятий, поскольку они неминуемо закончатся трагедией."
- #(Semi) Generic Aspects
  adoptionism: "Адопционизм"
  adoptionism_desc: "Мы твёрдо верим, что Иисус Христос не имел божественной природы от рождения, и стал сыном Божьим лишь при крещении или после воскрешения."
  adult_baptism: "Крещение взрослых"
@@ -786,21 +782,18 @@
  usury_allowed_desc: "Денежные займы с процентами, на которых обогащаются заимодавцы, больше не будут считаться греховными и будут разрешены."
  war_sermons: "Проповеди военного времени"
  war_sermons_desc: "Во время войны вера помогает народу сохранить надежду. Сейчас наши священники должны особенно активно проповедовать, чтобы поддержать население."
- #Bogomilism
  five_doors: "Пять дверей"
  five_doors_desc: "Некоторые верующие практикуют стиль медитации, при котором закрывают все двери в доме и открывают #italic пять дверей восприятия#!. Нам стоит внедрить эту практику во всех общинах."
  holy_cooperation: "Священное соучастие"
  holy_cooperation_desc: "Надо поощрять активное участие людей в производстве. Подобная этика, вдохновлённая коллективным трудом в раннехристианских общинах, положительно скажется на продуктивности сельскохозяйственных регионов."
  twelve_emissaries: "Двенадцать представителей"
  twelve_emissaries_desc: "Вдохновившись устройством некоторых общин, мы решили избрать из числа наших старейшин и праведников двенадцать мудрецов, которые образуют верховный совет, лишённый внутренней иерархии."
- #Catharism
  consolamentum: "Consolamentum"
  consolamentum_desc: "С возрастом мы неизбежно начинаем сожалеть о своих грехах, и тогда нам необходимо #italic consolamentum#! — утешение, чтобы вознестись на Небеса с чистой совестью. Принимая это таинство перед смертью, наши люди освобождаются от грехов и приближаются к Богу."
  pescatarianism: "Пескетарианство"
  pescatarianism_desc: "У животных есть душа, поэтому есть их аморально. Рыбы же, напротив, лишены души, а значит, не считаются животными и пригодны для еды."
  the_perfects: "Совершенные"
  the_perfects_desc: "Те из нас, кто особенно преданно служит Богу и исполняет Его заповеди, называются совершенными. Этот статус они получают лишь после того, как примут таинство #italic consolamentum#! и докажут непоколебимость своей веры. В отличие от остальных людей, совершенные принимают #italic consolamentum#! дважды: в первый раз при подтверждении веры, а во второй — перед смертью."
- #Paulicianism
  baptism_by_fire: "Крещение огнём"
  baptism_by_fire_desc: "Мы верим, что крещения водой недостаточно, и это признавал сам Иоанн Креститель. Чтобы совершить истинное крещение на всю жизнь, нужно прикоснуться горящей свечой к голове человека с четырёх сторон."
  name_change: "Смена имени"
@@ -809,7 +802,6 @@
  paulician_canon_desc: "Наш народ отвергает Ветхий Завет и его пророков, а также не признаёт посланий Святого Петра. Нашего внимания заслуживают лишь письма Святого Павла."
  punishment_by_stoning: "Побиение камнями"
  punishment_by_stoning_desc: "Забивание камнями — распространённый вид наказания еретиков в наших общинах, чего нельзя сказать о наших соседях. Вероятно, этой традицией мы обязаны своим анатолийским корням."
- #Calvinism
  arminianism: "Арминианство"
  arminianism_desc: "Арминианство основано на идеях гуманизма и терпимости, которые проповедовал нидерландский протестантский богослов Якоб Арминий."
  gomarism: "Гомаризм"
@@ -818,20 +810,16 @@
  instituionalized_arminianism_desc: "$arminianism_desc$ Ныне это религиозное течение официально признано в нашей державе."
  instituionalized_gomarism: "Официальный гомаризм"
  instituionalized_gomarism_desc: "$gomarism_desc$ Ныне это религиозное течение официально признано в нашей державе."
- #Hussite
  adamite_services: "Адамитские службы"
  adamite_services_desc: "Адамиты настаивают на проведении церковных служб в нагом виде. Снимая с себя все элементы статуса, мы предстаём перед Богом абсолютно равными, а также возвращаемся к своей изначальной невинной природе, какую имели до грехопадения."
  punishment_of_sin: "Наказание за грехи"
  punishment_of_sin_desc: "Все грешники, вне зависимости от социального статуса, одинаково заслуживают наказания. Хотя дворяне имеют власть, они не должны быть выше законов Божьих."
- #Lutheranism
  justified_conflicts: "Оправданные конфликты"
  justified_conflicts_desc: "Новая вера нашей державы подвергается нападкам со стороны язычников и еретиков. Когда речь идёт о защите церкви, любые меры оправданы."
  pietism: "Пиетизм"
  pietism_desc: "Это движение придаёт особое значение личному благочестию верующих и выступает за внутреннее преображение, ведущее к праведной христианской жизни."
- #Anglican
  prima_scriptura: "Prima Scriptura"
  prima_scriptura_desc: "Хотя Священное Писание — главный текст нашей веры, мы не должны отвергать другие источники божественного откровения."
- #Miaphysite
  ritual_purification: "Ритуальное очищение"
  ritual_purification_desc: "Чтобы верные могли приблизиться к Богу, их тела и души должны быть чисты и свободны от скверны."
  specialized_canon: "Особый канон"
@@ -859,7 +847,6 @@
  invite_foreign_cleric_desc: "К нам направят опытного священника из другой страны. Местные [actor.GetGovernment.GetEstateName('clergy_estate')|l] будут недовольны, однако знания чужеземца могут оказаться бесценными."
  invite_foreign_cleric_tt: "В нашу [Concept('country', 'страну')|e] прибудет [Concept('character', 'персонаж')|e]-иностранец #L [actor.GetReligion.GetAdjective|l]ой#! веры из сословия #TOOLTIP:ESTATE_TYPE,clergy_estate,X #L священников#!#!. У него высокий [Concept('adm', 'административный навык')|e], средний [Concept('dip', 'дипломатический навык')|e] и низкий [Concept('mil', 'военный навык')|e]."
  invite_foreign_cleric_no_countries_tt: "Другая #L [recipient.GetAdjective|l]ая#! [Concept('country', 'держава')|e] в пределах [Concept('diplomatic_range', 'дипломатической дистанции')|e]"
- #Catholic Church Laws and Policies
  anti_reformation: "Отвержение Реформации"
  anti_reformation_severe: "Всеобъемлющее противодействие Реформации"
  harsh_policy: "Жёсткое обращение с протестантами"
@@ -924,10 +911,8 @@
  priest_marriage_partially_allowed_desc: "Священнослужители могут вступить в брак, но в таком случае им будет запрещено занимать какие-либо должности в курии."
  priest_marriage_allowed: "Qualis est Pastor"
  priest_marriage_allowed_desc: "Все священнослужители нашей церкви могут вступать в брак."
- #Catholic Church Resolutions
  enact_papal_bull: "Стоимость принятия папской буллы"
  revoke_papal_bull: "Стоимость отказа от папской буллы"
- #gods
  CHRISTIAN_GOD: "Бог"
  JUDAISM_GOD: "Яхве"
  MUSLIM_GOD: "Аллах"
@@ -972,23 +957,22 @@
  mama_cocha_desc: "[ShowGodName('mama_cocha')] почитается среди народов #TOOLTIP:REGION,andes_region,X #L Анд#!#! как богиня моря."
  urpihuachac_god: "Урпайуачак"
  urpihuachac_god_desc: "[ShowGodName('urpihuachac_god')] почитается среди народов #TOOLTIP:REGION,andes_region,X #L Анд#!#! как богиня птиц и рыб."
- # Hellenistic
  zeus_god: "Зевс"
  zeus_god.latin_language: "Юпитер"
  zeus_god_desc: "[ShowGodNameWithNoTooltip('zeus_god')] — верховный бог Олимпа. Повелевает небесами, управляет громом и молниями, а также отвечает за закон и космический порядок."
- zeus_god_omen: "Воздух стал густым и тяжёлым, из-за горизонта доносятся раскаты далёкого грома. Птицы чертят в небе странные круги, словно бы ожидая приказа с небес. Мир замер в тишине. [ShowGodName('zeus_god')] обратил на нас свой взор…"
+ zeus_god_omen: "Воздух стал густым и тяжёлым, из-за горизонта доносятся раскаты далёкого грома. Птицы чертят в небе странные круги, словно бы ожидая приказа с небес. Мир замер в тишине. [ShowGodName('zeus_god')] обратил на нас свой взор..."
  aphrodite_god: "Афродита"
  aphrodite_god.latin_language: "Венера"
  aphrodite_god_desc: "[ShowGodNameWithNoTooltip('aphrodite_god')] — богиня любви, красоты, страсти и гармонии в человеческих взаимоотношениях."
- aphrodite_god_omen: "Улицы наполнились дыханием нежного и тёплого ветра. Слова любви звучат смелее, старые обиды забываются, а розы расцветают там, где раньше не росли. Даже самые бессердечные люди чувствуют, что нас почтила присутствием сама [ShowGodName('aphrodite_god')]…"
+ aphrodite_god_omen: "Улицы наполнились дыханием нежного и тёплого ветра. Слова любви звучат смелее, старые обиды забываются, а розы расцветают там, где раньше не росли. Даже самые бессердечные люди чувствуют, что нас почтила присутствием сама [ShowGodName('aphrodite_god')]..."
  poseidon_god: "Посейдон"
  poseidon_god.latin_language: "Нептун"
  poseidon_god_desc: "[ShowGodNameWithNoTooltip('poseidon_god')] повелевает морями, землетрясениями и неукротимыми силами природы."
- poseidon_god_omen: "Морские течения меняются, заставляя корабли скрипеть под гнётом незримых сил. Суеверные моряки шепчутся о попутных ветрах, а в ударах волн о прибрежные скалы слышатся далёкие аплодисменты. Похоже, наши молитвы услышал сам [ShowGodName('poseidon_god')]…"
+ poseidon_god_omen: "Морские течения меняются, заставляя корабли скрипеть под гнётом незримых сил. Суеверные моряки шепчутся о попутных ветрах, а в ударах волн о прибрежные скалы слышатся далёкие аплодисменты. Похоже, наши молитвы услышал сам [ShowGodName('poseidon_god')]..."
  hermes_god: "Гермес"
  hermes_god.latin_language: "Меркурий"
  hermes_god_desc: "[ShowGodNameWithNoTooltip('hermes_god')] — посланник богов, покровитель торговцев, путников и плутов."
- hermes_god_omen: "Наши соседи шлют дружеские послания, монеты легко переходят из рук в руки, а все дороги так легки, будто идут под гору. [ShowGodName('hermes_god')] снова ходит среди нас…"
+ hermes_god_omen: "Наши соседи шлют дружеские послания, монеты легко переходят из рук в руки, а все дороги так легки, будто идут под гору. [ShowGodName('hermes_god')] снова ходит среди нас..."
  ares_god: "Арес"
  ares_god.latin_language: "Марс"
  ares_god_desc: "[ShowGodNameWithNoTooltip('ares_god')] олицетворяет жестокую и разрушительную сторону войны."
@@ -997,8 +981,6 @@
  athena_god.latin_language: "Минерва"
  athena_god_desc: "[ShowGodNameWithNoTooltip('athena_god')] — богиня мудрости, планирования и военной стратегии."
  athena_god_omen: "Разум советников и полководцев внезапно прояснился, как если бы сама мудрость заняла место за их столом. Планы складываются сами собой, ссоры утихают, а крики совы в ночной тишине полны необычайной уверенности. Очевидно, что [ShowGodName('athena_god')] даровала нам свою милость."
- # Norse
- #aesirs
  odin_god: "Один"
  odin_god_desc: "$odin_god$ — предводитель асов, пожертвовавший глазом ради обретения мудрости. Он провисел на мировом древе девять дней и девять ночей, прежде чем ему открылось знание рун."
  worship_odin_god: "$odin_god$ — $worship_title1$ $worship_title2$"
@@ -1011,7 +993,6 @@
  tyr_god_desc: "$tyr_god$ — один из асов, известный своей любовью к сражениям и волкам."
  worship_tyr_god: "$tyr_god$ — $worship_title1$ $worship_title2$"
  worship_tyr_god_desc: "$worship_desc1$ #TOOLTIP:GOD,tyr_god,X #L Тюр#!#! $worship_desc2$"
- #vanirs
  njord_god: "Ньёрд"
  njord_god_desc: "$njord_god$ — один из ванов, отец Фрейра и Фрейи. Он покровительствует морякам и рыболовам."
  worship_njord_god: "$njord_god$ — $worship_title1$ $worship_title2$"
@@ -1024,13 +1005,10 @@
  freya_god_desc: "$freya_god$ происходит из рода ванов. Это богиня любви, красоты, плодородия и сейда — разновидности скандинавской магии."
  worship_freya_god: "$freya_god$ — $worship_title1$ $worship_title2$"
  worship_freya_god_desc: "$worship_desc1$ [ShowGodName('freya_god')] $worship_desc2$"
- #chanka_culture
  uscovilca_god: "Усковилка"
  uscovilca_god_desc: "[ShowGodName('uscovilca_god')] почитается #TOOLTIP:CULTURE,$chanka_culture_tt$,X #L чанка#!#! как творец народа."
- #chincha_culture
  chinchaycamac_god: "Чинчай Камай"
  chinchaycamac_god_desc: "[ShowGodName('chinchaycamac_god')] почитается народом #TOOLTIP:CULTURE,$chincha_culture_tt$,X #L чинча#!#! как главное божество."
- #Aztec
  tlaloc_god: "Тлалок"
  dzahui_god: "Цауи"
  chaac_god: "Чак"
@@ -1048,7 +1026,6 @@
  xiuhtecuhtli_god_desc: "[ShowGodName('xiuhtecuhtli_god')] почитается в мезоамериканском пантеоне как бог огня."
  coatlicue_god: "Коатликуэ"
  coatlicue_god_desc: "[ShowGodName('coatlicue_god')] почитается в мезоамериканском пантеоне как богиня плодородия."
- #Hindu
  ganesha_god: "Ганеша"
  ganesha_god_desc: "Ганеша — один из главных [Concept('god', 'богов')|e] в #TOOLTIP:RELIGION,$hindu_tt$,X #L индуизме#!#!. Обычно его изображают с головой слона и связывают с благополучием, удачей и мудростью."
  shiva_god: "Шива"
@@ -1071,7 +1048,6 @@
  mimamsa_school_desc: "Миманса — философская школа, главной целью которой является исследование и толкование священных текстов. По сравнению с другими школами, она гораздо больше связана с филологией и лингвистическим анализом."
  vedanta_school: "Веданта"
  vedanta_school_desc: "Веданта — крайне влиятельная философская школа, которая занимается изучением Вед. Сторонники школы рассматривают эти тексты как основной источник знаний и считают, что духовный мир невозможно постичь посредством рациональных умозаключений."
- #avatars
  matsya_avatar: "Матшья"
  matsya_avatar_desc: "Матшья — первый [Concept('avatar', 'аватар')|e] бога #TOOLTIP:GOD,vishnu_god,X #L Вишну#!#! в виде рыбы. Считается, что он защищает людей от наводнений и морских животных."
  kurma_avatar: "Курма"
@@ -1128,7 +1104,6 @@
  dummy_3: "Заглушка 3"
  dummy_4: "Заглушка 4"
  dummy_5: "Заглушка 5"
- #Jainism
  mula_sangh_school: "Мула Сангха"
  mula_sangh_school_desc: "Направление в секте дигамбаров, основанное на ранних практиках #TOOLTIP:RELIGION,$jain_tt$,X #L джайнизма#!#! и доработанное Кундакундой — монахом, написавшим во II веке множество работ по философии джайнизма, которые легли в основу учения дигамбаров."
  balatkara_gana_school: "Балаткара Гана"
@@ -1165,7 +1140,6 @@
  worship_urpihuachac_desc: "$worship_desc1$[ShowGodName('urpihuachac_god')]$worship_desc2$"
  worship_chinchaycamac: "$uscovilca_god$ — $worship_title1$ $worship_title2$"
  worship_chinchaycamac_desc: "$worship_desc1$[ShowGodName('uscovilca_god')]$worship_desc2$"
- #Mesoamerican
  worship_tlaloc_god: "$tlaloc_god$ — $worship_title1$ $worship_title2$"
  worship_tlaloc_god_desc: "$worship_desc1$[ShowGodName('tlaloc_god')]$worship_desc2$"
  worship_huitzilopochtli_god: "$huitzilopochtli_god$ — $worship_title1$ $worship_title2$"
@@ -1190,7 +1164,6 @@
  worship_kukulkan_god_desc: "$worship_desc1$[ShowGodName('quetzalcoatl_god')]$worship_desc2$"
  worship_kawiil_god: "$kawiil_god$ — $worship_title1$ $worship_title2$"
  worship_kawiil_god_desc: "$worship_desc1$[ShowGodName('xiuhtecuhtli_god')]$worship_desc2$"
- #Folk Asian
  worship_u_blei_nong_thaw_god: "$u_blei_nong_thaw_god$ — $worship_title1$ $worship_title2$"
  worship_u_blei_nong_thaw_god_desc: "$worship_desc1$[ShowGodName('u_blei_nong_thaw_god')]$worship_desc2$"
  worship_ulei_muluk_god: "$ulei_muluk_god$ — $worship_title1$ $worship_title2$"
@@ -1257,7 +1230,6 @@
  worship_pu_vana_god_desc: "$worship_desc1$[ShowGodName('pu_vana_god')]$worship_desc2$"
  worship_sakhua_god: "$sakhua_god$ — $worship_title1$ $worship_title2$"
  worship_sakhua_god_desc: "$worship_desc1$[ShowGodName('sakhua_god')]$worship_desc2$"
- #Folk African
  worship_nyambe_god: "$nyambe_god$ — $worship_title1$ $worship_title2$"
  worship_nyambe_god_desc: "$worship_desc1$[ShowGodName('nyambe_god')]$worship_desc2$"
  worship_nhialic_god: "$nhialic_god$ — $worship_title1$ $worship_title2$"
@@ -2188,7 +2160,7 @@
  kachina_religion: "Качина"
  kachina_religion_ADJ: "Качинск"
  kachina_religion_desc: "$kachina_religion$ $common_folk_religion_desc$"
- midewiwin_religion: "Мидевивин" #Algonquian Totemism
+ midewiwin_religion: "Мидевивин"
  midewiwin_religion_ADJ: "Мидевск"
  midewiwin_religion_desc: "$midewiwin_religion$ $common_folk_religion_desc$"
  mesoamerican: "Тональ"
@@ -2223,7 +2195,6 @@
  mandean_group_desc: "$mandean_group$ — вера, объединяющая все этнорелигиозные общины последователей этой гностической монотеистической религии."
  druze_group_desc: "$druze_group$ — группа религий, объединяющая все попадающие в эту категорию верования."
  yazidi_group_desc: "$yazidi_group$ — верования этнорелигиозной группы езидов."
- #Folk Religions
  common_folk_religion_group_desc: "многочисленные верования, мифологии и обряды, совершаемые и распространяемые обитателями"
  folk_african_group_desc: "$folk_african_group$ — $common_folk_religion_group_desc$ Африки."
  folk_argentinian_group_desc: "$folk_argentinian_group$ — $common_folk_religion_group_desc$ Аргентины."

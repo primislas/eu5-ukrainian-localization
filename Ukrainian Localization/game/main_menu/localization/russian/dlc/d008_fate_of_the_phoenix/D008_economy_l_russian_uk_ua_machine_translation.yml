@@ -1,0 +1,12 @@
+﻿l_russian:
+  subject_pays_pronoia: "$pronoia$ платить сюзерену"
+  select_orthodox_education: "Вибір патріархальної освіти"
+  deselect_orthodox_education: "Припинення патріархальної освіти"
+  loan_icon_price: "Ціна позичання ікони"
+  mend_schism_price: "Ціна подолання розколу"
+  restore_rome_primacy_price: "Ціна повернення столиці до Риму"
+  reestablish_hellenism_price: "Ціна відродження еллінізму"
+  assign_despot_price: "Ціна призначення деспота"
+  compose_strategikon_price: "Ціна написання «Стратегікону»"
+  castrate_character_price: "Ціна оскоплення персонажа"
+  blind_character_price: "Ціна засліплення персонажа"

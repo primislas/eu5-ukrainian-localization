@@ -1,7 +1,9 @@
 ﻿l_russian:
   flavor_dan_skane_war.1.title: "[target_character.GetNameWithNoTooltip] підіймає заколот"
+  flavor_dan_skane_war.1.entry: "Повстання Югана Оффессона"
   flavor_dan_skane_war.1.desc: "[target_character.GetName] — досточтимий муж, якого поважає вся [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] — виявився замішаним у змові проти нашого #L [GetCountry('SWE').GetAdjective|l]ого#! сюзерена. Причини його невдоволення зрозумілі: [target_ruler.GetName|l] частенько нехтує інтересами #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. [GetCountry('SWE').GetCulture.GetNameWithNoTooltip]а знать для [Select_CString(target_ruler.IsFemale,'неї', 'нього')] важливіша за всіх. Останні вісті з #ONCLICK:COUNTRY,[GetCountry('DAN').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('DAN').Custom('CL_tt')],X [GetCountry('DAN').Custom('CL_GEN')|L]#!#! грають нам на руку. Можливо, настав час заявити про нашу вірність #L [GetCountry('DAN').GetAdjective|l]ій#! країні?"
   flavor_dan_skane_war.1.a: "Виженемо його на територію [GetCountry('DAN').Custom('CL_GEN')]."
+  flavor_dan_skane_war.1.a.entry: "Проженемо його до Данії."
   flavor_dan_skane_war.1.b: "Підтримаємо його заколот."
   flavor_dan_skane_war.1.b.tt: "За цим може послідувати приєднання нашої країни до #ONCLICK:COUNTRY,[GetCountry('DAN').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('DAN').Custom('CL_tt')],X [GetCountry('DAN').Custom('CL_DAT')|L]#!#!."
   flavor_dan_skane_war.2.title: "[target_character.GetNameWithNoTooltip] пропонує свої послуги"

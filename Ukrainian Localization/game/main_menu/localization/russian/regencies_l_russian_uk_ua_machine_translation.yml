@@ -1,6 +1,7 @@
 ﻿l_russian:
   REGENCY_NO_REGENT: "@trigger_no! Зараз немає чинного регента!"
   REGENT_IMPACT: "$TITLE$ $NAME$"
+  cabinet_head_regency: "Регентство голови ради"
   consort_regency: "Регентство консорта"
   overlord_regency: "Регентство сюзерена"
   lordship_of_ireland_regency: "Регентство манора"
@@ -24,6 +25,7 @@
   fratricide_succesion_regency_tt3: "Престол миттєво успадкує єдиний здібний син колишнього правителя."
   fratricide_succesion_regency_tt4: "Питання престолонаслідування вирішуватиметься, коли сини виростуть."
   republican_election_regency_desc: "Якщо у республіки немає [Concept('ruler', 'правителя')|e], до проведення офіційних [Concept('election', 'виборів')|e] нею тимчасово правитиме [Concept('regent', 'регент')|e]."
+  cabinet_head_regency_desc: "Коли в [Concept('country', 'країні')|e] немає [Concept('ruler', 'правителя')|e], [Concept('head_of_the_cabinet', 'голова ради')|e] посідає місце [Concept('regent', 'регента')|e]."
   consort_regency_desc: "Якщо під час смерті [Concept('ruler', 'правителя')|e] монархічної [Concept('country', 'країни')|e] його [Concept('heir', 'спадкоємець')|e] ще [Concept('child', 'дитина')|e], країною на посаді [Concept('regent', 'регента')|e] може правити [Concept('consort', 'консорт')|e]."
   nobles_estate_regency_desc: "Якщо в [Concept('country', 'країні')|e] немає [Concept('ruler', 'правителя')|e], країною на посаді [Concept('regent', 'регента')|e] може представник знаті."
   clergy_estate_regency_desc: "Якщо в [Concept('country', 'країні')|e] немає [Concept('ruler', 'правителя')|e], країною на посаді [Concept('regent', 'регента')|e] може представник духовенства."

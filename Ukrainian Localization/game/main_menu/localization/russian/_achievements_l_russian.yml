@@ -26,7 +26,6 @@
  ACHIEVEMENTS_EXPLANATION: "#indent_newline:2 Достижения доступны при следующих условиях:\n$EFFECT_LIST_BULLET$Вы играете в одиночном режиме.\n$EFFECT_LIST_BULLET$Включён режим «Железная воля».\n$EFFECT_LIST_BULLET$Не достигнута финальная дата игры.\n$EFFECT_LIST_BULLET$Вы не используете файл сохранения другого игрока.\n$EFFECT_LIST_BULLET$Файлы игры, влияющие на игровой процесс, не изменены, и вы не используете никаких особых параметров запуска (т. е. контрольная сумма не изменилась)."
  ACHIEVEMENT_GROUP_TITLE_CAESAR: "[Group.GetName]"
  ACHIEVEMENT_GROUP_AMOUNT_CAESAR: "[Group.CalcNumberOfUnlockedVisibleAchievements] из [Group.GetNumberOfVisibleAchievements]"
- # Achievements Very Easy
  ACHIEVEMENT_until_death_do_us_apart: "Пока смерть не разлучит нас"
  ACHIEVEMENT_DESC_until_death_do_us_apart: "Заключите династический брак с другой державой."
  until_death_do_us_apart_tt: "У нас есть [Concept('royal_marriage', 'династический брак')|e]"
@@ -59,7 +58,6 @@
  ACHIEVEMENT_for_the_glory: "Великолепная работа!"
  ACHIEVEMENT_DESC_for_the_glory: "Добейтесь присоединения ленника дипломатическим путём."
  for_the_glory_tt: "Мы присоединили [Concept('subject', 'ленника')|e]"
- # Achievements Easy
  ACHIEVEMENT_a_pile_of_gold: "Груда золота"
  ACHIEVEMENT_DESC_a_pile_of_gold: "Завладейте 35 районами, которые производят золото или серебро."
  ACHIEVEMENT_at_every_continent: "Глобальный охват"
@@ -82,12 +80,11 @@
  ACHIEVEMENT_DESC_rule_britannia: "Начав игру за Англию, создайте Великобританию и станьте морским гегемоном."
  ACHIEVEMENT_plus_ultra: "Дальше предела"
  ACHIEVEMENT_DESC_plus_ultra: "Играя за Кастилию или Испанию, завладейте территориями в Иберии, Магрибе, Мезоамерике, Перу и на Карибах."
- # Achievements Medium
  ACHIEVEMENT_here_i_stand: "На сём стою"
  ACHIEVEMENT_DESC_here_i_stand: "Обратитесь в лютеранство и откройте три религиозных особенности."
- ACHIEVEMENT_just_a_little_bit_more_patience: "Нужно лишь немного терпения…"
+ ACHIEVEMENT_just_a_little_bit_more_patience: "Нужно лишь немного терпения..."
  ACHIEVEMENT_DESC_just_a_little_bit_more_patience: "Сыграйте полную кампанию с 1337 по 1836 год."
- ACHIEVEMENT_potato_potato: "Зачем жрать капусту…"
+ ACHIEVEMENT_potato_potato: "Зачем жрать капусту..."
  ACHIEVEMENT_DESC_potato_potato: "Начав игру за европейскую державу, организуйте выращивание картофеля."
  ACHIEVEMENT_the_spice_must_flow: "Пряности должны течь рекой"
  ACHIEVEMENT_DESC_the_spice_must_flow: "Начав игру за европейскую державу, организуйте поставки гвоздики по торговому маршруту."
@@ -122,7 +119,6 @@
  ACHIEVEMENT_crusader_kings: "Короли-крестоносцы"
  ACHIEVEMENT_DESC_crusader_kings: "Одержите победу в крестовом походе или джихаде."
  crusader_kings_tt: "Мы победили в [Concept('war', 'войне')|e] с [Concept('casus_belli', 'поводом')|e] «[ShowCasusBelliName('cb_crusade')]» или «[ShowCasusBelliName('cb_jihad')]»."
- # Achievements Hard
  ACHIEVEMENT_respected: "Признание"
  ACHIEVEMENT_DESC_respected: "Достигните одновременно 100 ед. престижа, 100 ед. легитимности и 100 ед. стабильности."
  ACHIEVEMENT_letat_cest_moi: "Государство — это я!"
@@ -159,12 +155,6 @@
  ill_be_wittelsback_tt: "Наш показатель «Вложения Виттельбахов» достиг #Y 100#!"
  ACHIEVEMENT_reformatio_imperii: "Reformatio Imperii"
  ACHIEVEMENT_DESC_reformatio_imperii: "Возглавляя Священную Римскую империю, введите политики «Постоянный рейхстаг», «Вечный Земский мир» и «Прямое налогообложение»."
- # Achievements Very Hard
- # Template
- # ACHIEVEMENT_name: ""
- # ACHIEVEMENT_DESC_name: ""
- #Achievement Groups
- # D008 DLC Achievements
  ACHIEVEMENT_nut_allergy: "Аллергия на орехи"
  ACHIEVEMENT_DESC_nut_allergy: "Наберите в совет 6 членов со свойством «Евнух»."
  ACHIEVEMENT_reborn_from_the_ashes: "Возрождение из пепла"
@@ -178,7 +168,6 @@
  ACHIEVEMENT_DESC_mare_nostrum: "Управляя Римской империей, завладейте всеми районами средиземноморского побережья и достигните 100 ед. общественной ценности «Латинство»."
  ACHIEVEMENT_belisars_legacy: "Наследие Велизария"
  ACHIEVEMENT_DESC_belisars_legacy: "Управляя Византией, восстановите границы времён Юстиниана и устраните раскол."
- # Byzantine/Balkans Standard Achievements
  ACHIEVEMENT_stefans_dream: "Мечта Стефана"
  ACHIEVEMENT_DESC_stefans_dream: "Играя за Сербию, покорите Константинополь, получите статус империи и контролируйте царство Стефана Душана."
  ACHIEVEMENT_the_empire_strikes_back: "Империя наносит ответный удар"
@@ -198,7 +187,6 @@
  ACHIEVEMENT_GROUP_very_hard_achievements: "Очень высокий"
  PLAY_BUTTON_IRONMAN_MODE_TOOLTIP: "Железная воля\n[SelectLocalization(GameIsIronman, 'IRONMAN_ENABLED_NO_HEADER', 'IRONMAN_DISABLED_NO_HEADER')]"
  PLAY_BUTTON_ACHIEVEMENTS_TOOLTIP: "Достижения [SelectLocalization(CanGetAchievements, 'ACHIEVEMENTS_ENABLED_NO_HEADER', 'ACHIEVEMENTS_DISABLED_NO_HEADER_PLAY_BUTTON')]"
- #Tooltips
  has_emerged_victorious_during_rise_of_ottomans_situation_tt: "В ходе [Concept('situation', 'ситуации')|e] #TOOLTIP:SITUATION,rise_of_the_ottomans,X #L «Восхождение турок»#!#! мы одержали победу и проявили себя сильнейшим бейликом."
  had_timur_as_past_ruler_tt: "Одним из наших предыдущих [Concept('rulers', 'правителей')|e] был [GetCharacter('chg_timur_lame_borjigin').GetName]"
  hussites_won_hussite_wars_situation_tt: "#TOOLTIP:RELIGION,$hussite_tt$,X #L Гуситы#!#! одержали победу в [Concept('situation', 'ситуации')|e] #TOOLTIP:SITUATION,hussite_wars,X #L Гуситские войны#!#!"

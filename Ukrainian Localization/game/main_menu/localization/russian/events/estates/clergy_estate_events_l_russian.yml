@@ -1,5 +1,5 @@
 ﻿l_russian:
- clergy_events_common: "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] издавна являются одним из столпов [ROOT.GetCountry.Custom('longname_ru_GEN')]. Они наставляют общество на путь истинный, к тому же [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] получает себе на службу управленцев, правоведов и дипломатов из этого сословия."
+ clergy_events_common: "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] издавна являются одним из столпов [ROOT.GetCountry.Custom('longname_ua_GEN')]. Они наставляют общество на путь истинный, к тому же [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] получает себе на службу управленцев, правоведов и дипломатов из этого сословия."
  clergy_estate_common_ending: "Однако настали непростые времена, и державе нужно покрывать увеличивающиеся расходы. [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] могли бы оказать добровольную помощь, но это предложение не встретило воодушевления."
  clergy_estate_events.1.title: "Libertas Ecclesiae"
  clergy_estate_events.1.desc: "$clergy_events_common$ Взамен церковные поместья, монастыри и другие владения не платят налоги державе; кроме того, [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] решают свои внутренние дела без вмешательства светских властей.\n\n$clergy_estate_common_ending$"

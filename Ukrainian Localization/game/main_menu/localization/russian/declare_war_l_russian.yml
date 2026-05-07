@@ -12,7 +12,7 @@
  DECLARE_WAR_ENEMY_ALLY_JOIN: "Держава @[COUNTRY.GetFlag]! [COUNTRY.GetLongName|Y] присоединится к [Concept('war', 'войне')|e], поскольку по договору обязалась защищать @[DEFENDER.GetFlag]!#ONCLICK:COUNTRY,[DEFENDER.Custom('CL_tt')] #TOOLTIP:COUNTRY,[DEFENDER.Custom('CL_tt')],X [DEFENDER.Custom('CL_ACC')|LY]#!#!."
  DECLARE_WAR_ENEMY_TAKE_OVER_WAR_LEADER: "И эта держава станет лидером [Concept('war', 'войны')|e], поскольку считает, что она сильнее @[DEFENDER.GetFlag]!#ONCLICK:COUNTRY,[DEFENDER.Custom('CL_tt')] #TOOLTIP:COUNTRY,[DEFENDER.Custom('CL_tt')],X [DEFENDER.Custom('CL_GEN')|LY]#!#!."
  DECLARE_WAR_ENEMY_TAKE_OVER_WAR_LEADER_ALLIES: "Возможные защитники державы @[COUNTRY.GetFlag]! [COUNTRY.GetLongName|Y]:"
- DECLARE_WAR_ENEMY_TAKE_OVER_WAR_LEADER_NO_ALLIES: "@trigger_no!@[COUNTRY.GetFlag]! Больше нет защитников, готовых поддержать [COUNTRY.Custom('longname_ru_ACC')|Y]."
+ DECLARE_WAR_ENEMY_TAKE_OVER_WAR_LEADER_NO_ALLIES: "@trigger_no!@[COUNTRY.GetFlag]! Больше нет защитников, готовых поддержать [COUNTRY.Custom('longname_ua_ACC')|Y]."
  DECLARE_WAR_ENEMY_TAKE_OVER_WAR_LEADER_ALLY: "@[COUNTRY.GetFlag]! [COUNTRY.GetLongName|Y]"
  DECLARE_WAR_OVERLORD_PROTECT: "@[COUNTRY.GetFlag]! [COUNTRY.GetLongName|Y] защитит @[DEFENDER.GetFlag]!#ONCLICK:COUNTRY,[DEFENDER.Custom('CL_tt')] #TOOLTIP:COUNTRY,[DEFENDER.Custom('CL_tt')],X [DEFENDER.Custom('CL_ACC')|LY]#!#!, ведь это её [SUBJECT_TYPE.GetName|l]."
  DECLARE_WAR_DEFENSIVE_SUPPORT: "Держава @[COUNTRY.GetFlag]! [COUNTRY.GetLongName|Y] обещала защитить @[DEFENDER.GetFlag]!#ONCLICK:COUNTRY,[DEFENDER.Custom('CL_tt')] #TOOLTIP:COUNTRY,[DEFENDER.Custom('CL_tt')],X [DEFENDER.Custom('CL_ACC')|LY]#!#! и будет [Concept('war', 'воевать')|e] на стороне этой державы, поскольку их объединяет $SCRIPTED_RELATIONS$."

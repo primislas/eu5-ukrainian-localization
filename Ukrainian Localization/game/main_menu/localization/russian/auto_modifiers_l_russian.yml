@@ -26,7 +26,7 @@
  AUTO_MODIFIER_NAME_low_horde_unity: "Низкая [Concept('horde_unity', 'сплочённость орды')|e]"
  AUTO_MODIFIER_NAME_high_tribal_cohesion: "Крепкое [Concept('tribal_cohesion', 'племенное единство')|e]"
  AUTO_MODIFIER_NAME_low_tribal_cohesion: "Слабое [Concept('tribal_cohesion', 'племенное единство')|e]"
- AUTO_MODIFIER_NAME_high_honor: "Высокая [Concept('honor','честь')|e]"
+ AUTO_MODIFIER_NAME_high_honor: "Высокая [Concept('honor', 'честь')|e]"
  AUTO_MODIFIER_NAME_low_honor: "Низкая [Concept('honor', 'честь')|e]"
  AUTO_MODIFIER_NAME_neutral_karma: "Нейтральная карма"
  AUTO_MODIFIER_NAME_high_karma: "Хорошая карма"

@@ -5,7 +5,7 @@
  legatusnatus.1.a: "Всё в руках Господа."
  legatusnatus.2.title: "Утрата титула папского легата"
  legatusnatus.2.desc: "В последнее время наше положение в #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священной Римской Империи#!#! и отношения с папой римским, которым сейчас является [pope_ruler.GetName], существенно ухудшились. [GetCountry('PAP').GetGovernment.GetRulerTitle], похоже, больше не уверен в том, что мы достойны быть #TOOLTIP:GOVERNMENT_REFORM,legatus_natus,X #L папским легатом#!#! в империи, и, к сожалению, решил лишить нас этого титула."
- legatusnatus.2.a: "Полагаю, всё было в моих руках, в конце концов…"
+ legatusnatus.2.a: "Полагаю, всё было в моих руках, в конце концов..."
  legatusnatus.3.title: "[GetCountry('PAP').GetGovernment.GetRulerTitle] присылает весть"
  legatusnatus.3.desc: "Хорошие новости! [pope_ruler.GetName] решил, что [home_ruler.GetName] [Select_CString(home_ruler.IsFemale,'достойна', 'достоин')] получить почётный титул #TOOLTIP:GOVERNMENT_REFORM,legatus_natus,X #L папского легата#!#! и выступать в качестве представителя понтифика в землях к северу от Альп. Прежний обладатель этого титула лишился расположения Святого Престола."
  legatusnatus.3.a: "Неужели это луч света в царстве мрака?"

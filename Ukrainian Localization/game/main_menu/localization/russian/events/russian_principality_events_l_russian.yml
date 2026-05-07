@@ -22,7 +22,7 @@
  russian_principality_events.7.a: "Ограничим передвижение крестьян."
  russian_principality_events.7.b: "Мы не станем менять наши правила."
  russian_principality_events.8.title: "Смерть правителя удельного княжества"
- russian_principality_events.8.desc: "Правитель #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! умер и [ROOT.GetCountry.GetGovernment.GetRuler.GetName] оплакивает кончину своего брата. Как [ROOT.GetCountry.GetGovernment.GetRulerTitle|l], вы должны перераспределить удельные земли покойного. Ваши живые братья рассчитывают получить свою долю, но вы могли бы воспользоваться ситуацией и забрать эти земли себе…"
+ russian_principality_events.8.desc: "Правитель #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! умер и [ROOT.GetCountry.GetGovernment.GetRuler.GetName] оплакивает кончину своего брата. Как [ROOT.GetCountry.GetGovernment.GetRulerTitle|l], вы должны перераспределить удельные земли покойного. Ваши живые братья рассчитывают получить свою долю, но вы могли бы воспользоваться ситуацией и забрать эти земли себе..."
  russian_principality_events.8.a: "Конфискуем земли в свою пользу."
  russian_principality_events.8.b: "Лучше заручимся поддержкой братьев."
  russian_principality_events.9.title: "Татарские феодалы"

@@ -134,7 +134,7 @@
  peace_revoke_clan_autonomy: "Снижение автономии клана"
  peace_revoke_clan_autonomy_entry: "Снижение автономии @[TARGET_COUNTRY.GetFlag]!#ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! и возвращение статуса [Concept('extraterritorial_country', 'экстерриториальной державы')|e]"
  peace_revoke_clan_autonomy_entry_short: "Снижение автономии @[TARGET_COUNTRY.GetFlag]! [TARGET_COUNTRY.Custom('CL_GEN')]"
- turn_japanese_clan_into_building_based.tt: "[loser.GetName] передад[loser.Custom('etut')] все свои территории #ONCLICK:COUNTRY,[winner.Custom('CL_tt')] #TOOLTIP:COUNTRY,[winner.Custom('CL_tt')],X [winner.Custom('CL_DAT')|L]#!#!, и их держава станет вновь [Concept('extraterritorial_country', 'экстерриториальной')|e]"
+ turn_japanese_clan_into_building_based.tt: "[loser.GetName] передад[loser.Custom('end_etut')] все свои территории #ONCLICK:COUNTRY,[winner.Custom('CL_tt')] #TOOLTIP:COUNTRY,[winner.Custom('CL_tt')],X [winner.Custom('CL_DAT')|L]#!#!, и их держава станет вновь [Concept('extraterritorial_country', 'экстерриториальной')|e]"
  peace_nanbokuchou_force_imperial_abdication: "Принуждение императора к отречению"
  peace_nanbokuchou_force_imperial_abdication_entry: "Принуждение императорской династии к отречению"
  peace_nanbokuchou_force_imperial_abdication_entry_short: "$peace_nanbokuchou_force_imperial_abdication_entry$"
@@ -200,7 +200,7 @@
  FAVORS_GAIN_FROM_LAND_NOT_PROMISED: "[COUNTRY.GetName] получа[COUNTRY.Custom('end_etyut')] землю, хотя этой державе ничего подобного не обещали. С учётом её $CONT|%Y$-го вклада в войну, передав $PERC|%Y$ от предложения, вы получите $AMT|Y$ ед. [Concept('favors', 'благосклонности')|e] со стороны этой державы."
  FAVORS_GAIN_FROM_LAND: "#ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_DAT')|L]#!#! передаётся больше земель, чем предполагает вклад этой державы в войну ($CONT|%Y$). Вы получите $AMT|Y$ ед. [Concept('favors', 'благосклонности')|e] со стороны этой державы."
  TRUST_HIT_FROM_NO_LAND: "#ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_DAT')|L]#!#! передаётся меньше земель, чем предполагает вклад этой державы в войну, составляющий $CONT|%Y$. Вы потеряете $AMT|-$ ед. [Concept('trust', 'доверия')|e] и $OPINION|+$ ед. [Concept('opinion', 'мнения')|e] со стороны этой державы."
- EXPECTS_BIGGER_DEAL: "[COUNTRY.GetName] счита[COUNTRY.Custom('etyut')], что мы можем надавить и получить более выгодный договор."
+ EXPECTS_BIGGER_DEAL: "[COUNTRY.GetName] счита[COUNTRY.Custom('end_etyut')], что мы можем надавить и получить более выгодный договор."
  AI_WANTS_PROVINCES: "#ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_DAT')|L]#!#! интересны следующие районы: $LIST$"
  PEACE_OFFER_SEND_OFFER: "Отправка предложения"
  PEACE_OFFER_SEND_DEMAND: "Отправка требования"
@@ -237,12 +237,10 @@
  PEACE_OFFER_AI_DESIRE_ACCEPTABLE: "Они не нуждаются в этом мирном договоре, но примут его. \n[PeaceTreaty.GetDebugAiDesireInfo]"
  PEACE_OFFER_AI_DESIRE_INDIFFERENT: "Им безразличен этот договор. Они предпочли бы что-то иное. \n[PeaceTreaty.GetDebugAiDesireInfo]"
  PEACE_OFFER_AI_DESIRE_DONT_WANT: "Они не примут этот договор сам по себе или в составе текущей комбинации договоров. \n[PeaceTreaty.GetDebugAiDesireInfo]"
- #Delhi Situation
  peace_seize_opposition_leadership: "Захват власти над соперником"
  peace_seize_opposition_leadership_entry: "$peace_seize_opposition_leadership$"
  peace_seize_opposition_leadership_entry_short: "$peace_seize_opposition_leadership$"
  peace_seize_opposition_leadership_desc: "Держава [TARGET_COUNTRY.GetName] слишком слаба, чтобы устоять перед влиянием державы [GetCountry('DLH').GetNameWithNoTooltip] в такой [Concept('situation', 'ситуации')|e], как [GetSituationByKey('fall_of_delhi').GetName]. Поэтому мы обязаны воспользоваться этим шансом и обезвредить ещё одного потенциального завоевателя."
- #Red Turban Rebellions
  rtr_rein_in_rebellion: "Усмирение восстания"
  rtr_rein_in_rebellion_entry: "$rtr_rein_in_rebellion$"
  rtr_rein_in_rebellion_entry_short: "$rtr_rein_in_rebellion$"
@@ -267,7 +265,6 @@
  peace_mandate_of_heaven_entry: "$peace_mandate_of_heaven$"
  peace_mandate_of_heaven_entry_short: "$peace_mandate_of_heaven$"
  peace_mandate_of_heaven_desc: "Захват лидерства в #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,middle_kingdom,X #L Срединном государстве#!#!."
- #China
  chi_recapture_emperor: "Возвращение императорского титула"
  chi_recapture_emperor_entry: "$chi_recapture_emperor$"
  chi_recapture_emperor_entry_short: "$chi_recapture_emperor$"
@@ -275,12 +272,10 @@
  punish_chinese_expedition_foes_entry: "$punish_chinese_expedition_foes$"
  punish_chinese_expedition_foes_entry_short: "$punish_chinese_expedition_foes_entry$"
  punish_chinese_expedition_foes_entry_desc: "#L [TARGET_COUNTRY.GetAdjective]ие#! мерзавцы открыто сопротивляются влиянию наших правителей и препятствуют миссии золотого флота. Пришло время поставить их на место."
- #GaG Situation
  peace_gag_force_faction_change: "Принуждение к смене фракции"
  peace_gag_force_faction_change_entry: "Принуждение к смене фракции"
  peace_gag_force_faction_change_entry_short: "$peace_gag_force_faction_change$"
  peace_gag_force_faction_change_desc: "Держава [TARGET_COUNTRY.GetName] изменяет своё отношение к фракции [COUNTRY.Custom('GetGAGOwnFaction')] и переходит на нашу сторону."
- #Natives
  subjugate_neighbor_native: "Подчинение соседних аборигенов"
  subjugate_neighbor_native_entry: "$subjugate_neighbor_native$"
  subjugate_neighbor_native_entry_short: "$subjugate_neighbor_native$"
@@ -289,7 +284,6 @@
  force_tributary_entry: "$force_tributary$"
  force_tributary_entry_short: "$force_tributary$"
  force_tributary_desc: "$cb_make_tributary_desc$"
- #PU
  break_from_union: "Выход из унии"
  break_from_union_entry: "Выход из унии «[TARGET_COUNTRY.GetDiplomacy.GetUnion.GetName]»"
  break_from_union_entry_short: "$break_from_union$"
@@ -298,7 +292,6 @@
  assume_union_senority_entry: "Принятие главенства в унии «[TARGET_COUNTRY.GetDiplomacy.GetUnion.GetName]»"
  assume_union_senority_entry_short: "$assume_union_senority$"
  assume_union_senority_desc: "Объединению «[TARGET_COUNTRY.GetDiplomacy.GetUnion.GetName]» нужны более достойные лидеры, чем [TARGET_COUNTRY.GetName]! Нам пора взять это бремя на себя. #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,union,X #L Уния#!#! теперь будет под нашим старшинством."
- #The Revolution
  reinstate_the_monarchy: "Восстановление монархии"
  reinstate_the_monarchy_entry: "Восстановление монархии на территории @[TARGET_COUNTRY.GetFlag]!#ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!"
  reinstate_the_monarchy_entry_short: "$reinstate_the_monarchy_entry$"
@@ -310,27 +303,23 @@
  crush_the_revolution_cb_desc: "Если этот кошмарный поток гибельных идей хлынет через границу, мы рискуем лишиться короны."
  spread_the_revolution_cb: "Распространение революции"
  spread_the_revolution_cb_desc: "Мы зажжём пламя революции в других странах и принесём их народам свободу. Им нечего терять, кроме своих цепей!"
- #War of Religions
  religious_supremacy: "Религиозное превосходство"
  religious_supremacy_entry: "Религиозное превосходство в #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священной Римской Империи#!#!"
  religious_supremacy_entry_short: "$religious_supremacy$"
  religious_supremacy_desc: "Навязать господство нашей #Y религиозной лиги#! в #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священной Римской Империи#!#!!"
- #Delhi
  peace_claim_delhi: "Претензия на #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_ACC')|L]#!#!"
  peace_claim_delhi_entry: "$peace_claim_delhi$"
  peace_claim_delhi_entry_short: "$peace_claim_delhi$"
- peace_claim_delhi_desc: "Захватим [TARGET_COUNTRY.Custom('rank_ru_ACC')|l] [TARGET_COUNTRY.GetName] во славу династии [COUNTRY.GetGovernment.GetRuler.GetDynasty]!"
+ peace_claim_delhi_desc: "Захватим [TARGET_COUNTRY.Custom('rank_ua_ACC')|l] [TARGET_COUNTRY.GetName] во славу династии [COUNTRY.GetGovernment.GetRuler.GetDynasty]!"
  peace_reintegrate_revolter: "Подавление #L [TARGET_COUNTRY.GetAdjective|l]ого#! мятежа"
  peace_reintegrate_revolter_entry: "$peace_reintegrate_revolter$"
  peace_reintegrate_revolter_entry_short: "$peace_reintegrate_revolter$"
  peace_reintegrate_revolter_desc: "Вспыхнувший мятеж подавлен. Пришло время принудить смутьянов к порядку!"
- #Hussite Wars
  supress_hussite_faith: "Подавление #TOOLTIP:RELIGION,$hussite_tt$,X #L гуситства#!#!"
  supress_hussite_faith_entry: "$supress_hussite_faith$"
  supress_hussite_faith_entry_short: "$supress_hussite_faith$"
  enforce_conversion_hussite_wars_tt: "Большое число #TOOLTIP:RELIGION,$hussite_tt$,X #L гуситских#!#! последователей в державе [loser.GetLongName] будет насильно обращено в #TOOLTIP:RELIGION,$catholic_tt$,X #L католичество#!#!. Это на шаг приблизит нас к искоренению их ереси и разрешению [Concept('situation', 'ситуации')|e] с #TOOLTIP:SITUATION,hussite_wars,X #L Гуситскими войнами#!#!."
  hussite_pop_numbers_tt: "Доля [Concept('population', 'населения')|e] #ONCLICK:COUNTRY,[GetCountry('BOH').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('BOH').Custom('CL_tt')],X [GetCountry('BOH').Custom('CL_GEN')|L]#!#!, поддерживающего #TOOLTIP:RELIGION,$hussite_tt$,X #L гуситское#!#! движение."
- #Tatar Yoke
  break_from_tatar_yoke: "Освобождение от татарского ига"
  break_from_tatar_yoke_entry: "Освобождение от #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,tatar_yoke,X #L татарского ига#!#!."
  break_from_tatar_yoke_entry_short: "$break_from_tatar_yoke$"
@@ -369,7 +358,6 @@
  AI_DESIRE_NO_PORTS: "Нет портов"
  AI_DESIRE_GOLD_VALUE: "Ценность золота"
  AI_DESIRE_TREATY_TOOLTIP: "Желание получателя: $AMOUNT$\n$REASON$"
- #Descriptions
  abandon_colonial_claim_desc: "Мы заставим наших врагов отказаться от необоснованных притязаний на колониальные владения и забыть о своих заморских амбициях."
  abandon_colonies_desc: "Наши враги должны покинуть свои удалённые колонии. Либо эти земли будет населять наш народ, либо они будут пустовать."
  abandon_piracy_desc: "Эпохе налётов и грабежей настал конец. Наши враги должны раз и навсегда отказаться от пиратства и прочих преступлений на море."

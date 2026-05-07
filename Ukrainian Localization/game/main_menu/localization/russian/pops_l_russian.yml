@@ -31,7 +31,7 @@
  peasants_pop_percentage_impact: "Относительное число #TOOLTIP:POPTYPE,peasants,X #L крестьян#!#!"
  slaves_pop_percentage_impact: "Относительное число #TOOLTIP:POPTYPE,slaves,X #L рабов#!#!"
  tribesmen_pop_percentage_impact: "Относительное число #TOOLTIP:POPTYPE,tribesmen,X #L соплеменников#!#!"
- POP_TYPE_BELONGS_TO: "Принадлежит к [Concept('estate', 'сословию')|e] $ESTATE_GetName_RU_GEN_lower$"
+ POP_TYPE_BELONGS_TO: "Принадлежит к [Concept('estate', 'сословию')|e] $ESTATE_GetName_UA_GEN_lower$"
  POP_TYPE_FOOD: "Каждая #Y 1000#! [Concept('pops', 'групп населения')|e] ежемесячно потребляет $VAL|2Y$ ед. [Concept('food', 'пищи')|e]."
  POP_TYPE_UPPER_CLASS: "Принадлежит к [Concept('upper_class', 'высшему обществу')|e]"
  POP_TYPE_LOWER_CLASS: "Принадлежит к [Concept('lower_class', 'низшему обществу')|e]"

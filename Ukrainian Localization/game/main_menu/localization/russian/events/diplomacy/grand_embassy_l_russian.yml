@@ -19,7 +19,7 @@
  grand_embassy.3.b.tt: "[from.GetGovernment.GetRuler.GetName] многое узнает об устройстве нашей армии"
  grand_embassy.3.c: "Позволим [Select_CString(from.GetGovernment.GetRuler.IsFemale,'ей', 'ему')] изучить наш флот."
  grand_embassy.3.c.tt: "[from.GetGovernment.GetRuler.GetName] многое узнает об устройстве нашего флота"
- grand_embassy.3.d: "[Select_CString(from.GetGovernment.GetRuler.IsFemale,'Ей', 'Ему')] давно пора отправляться куда подальше…"
+ grand_embassy.3.d: "[Select_CString(from.GetGovernment.GetRuler.IsFemale,'Ей', 'Ему')] давно пора отправляться куда подальше..."
  grand_embassy.4.title: "Разрешение остаться"
  grand_embassy.4.desc: "Узнав, что [ROOT.GetCountry.GetGovernment.GetRuler.GetName|l] с большим интересом относится к #L [embassy_country.GetAdjective|l]им#! техническим достижениям, власти #ONCLICK:COUNTRY,[embassy_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[embassy_country.Custom('CL_tt')],X [embassy_country.Custom('CL_GEN')|L]#!#! великодушно позволили нашему посольству задержаться в [embassy_country.GetCapital.Custom('LR_PREP')|l] [embassy_country.GetCapital.GetName]. [ROOT.GetCountry.GetLongName] — этой державе благодаря такой возможности с высокой вероятностью удастся провести быструю модернизацию."
  grand_embassy.4.a: "[target_institution.GetNameWithNoTooltip|U] — вот что нужно изучить в первую очередь."

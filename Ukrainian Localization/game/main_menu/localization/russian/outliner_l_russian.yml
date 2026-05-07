@@ -69,7 +69,7 @@
  OUTLINER_ITEM_DIPLOMACY_IMPROVE_OPINION: "Улучшение [Concept('opinion', 'мнения')|e]"
  OUTLINER_ITEM_DIPLOMACY_IMPROVE_OPINION_COUNTRY: "Улучшение мнения"
  OUTLINER_ITEM_DIPLOMACY_IMPROVE_OPINION_TOOLTIP: "Чтобы перейти к дипломатическим действиям, щёлкните левой кнопкой мыши, а чтобы отменить улучшение мнения — правой"
- OUTLINER_ITEM_DIPLOMACY_CASUS_BELLI_CREATION: "Создание [Concept('casus_belli','повода для войны')|e] «[CASUS_BELLI.GetName]»"
+ OUTLINER_ITEM_DIPLOMACY_CASUS_BELLI_CREATION: "Создание [Concept('casus_belli', 'повода для войны')|e] «[CASUS_BELLI.GetName]»"
  OUTLINER_ITEM_DIPLOMACY_CASUS_BELLI_CREATION_COUNTRY: "[CASUS_BELLI.GetNameWithNoTooltip]"
  OUTLINER_ITEM_DIPLOMACY_CASUS_BELLI_CREATION_TOOLTIP: "Чтобы перейти к дипломатическим действиям, щёлкните левой кнопкой мыши, а чтобы отменить создание повода для войны — правой"
  OUTLINER_ITEM_DIPLOMACY_SPY_NETWORK: "Создание [Concept('spy_network', 'шпионской сети')|e]"
@@ -196,9 +196,7 @@
  OUTLINER_AGENDA_RED_ALERTS: "У вас есть красные уведомления ([GetAlertOfTypeShowingCount('ALERT_PRIORITY_RED')]), которым нужно уделить внимание."
  OUTLINER_AGENDA_NO_RED_ALERTS: "Нет красных уведомлений."
  OUTLINER_AGENDA_ALERTS: "Уведомления"
- #Law tooltip
  OUTLINER_LAW_SIDEMENU: "Щёлкните, чтобы выбрать [Concept('policy', 'политику')|e]"
- # Construction names.. map tooltips and on c
  UNIT_RECRUIT_SHORT: "Набор"
  UNIT_RECRUIT: "[SUBUNITDEFINITION.GetNameWithNoTooltip] — набор в [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetNameWithNoTooltip]"
  UNIT_BUILD_SHORT: "Сооружение"

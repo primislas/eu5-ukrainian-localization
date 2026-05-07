@@ -1,5 +1,6 @@
 ﻿l_russian:
   english_civil_war.250.title: "[target_character.GetNameWithNoTooltip]"
+  english_civil_war.250.entry: "Обраний персонаж"
   english_civil_war.250.desc: "Нещодавня зміна влади в країні [ROOT.GetCountry.GetLongName] дала дорогу нагору багатьом новим людям, які готові взяти в свої руки провідництво своїми станами. [Select_CString(target_character.IsFemale, 'Одна', 'Один' )] з таких людей, [target_character.GetName], нещодавно [Select_CString(target_character.IsFemale, 'набула', 'набув' )] великої ваги та впливу в [target_location.Custom('LR_PREP')|l] [target_location.GetName].\n\n[Select_CString(target_character.IsFemale, 'Повна', 'Повний' )] амбіцій та переконаності у своїй вірі, [Select_CString(target_character.IsFemale, 'вона', 'він' )] та [Select_CString(target_character.IsFemale, 'її', 'його' )] сподвижники, поза сумнівом, змінять майбутнє нашого народу — на добро чи на зло."
   english_civil_war.250.a: "Цікаво."
   more_likely_to_fire_disaster_tt: "[ShowDisasterName('english_civil_war')] трапиться #R з більшою ймовірністю#!. Якщо [Concept('disaster', 'катастрофа')|e] почнеться, коли [target_character.GetName] буде [Select_CString(target_character.IsFemale, 'жива, вона', 'живий, він' )] стане на чолі однієї зі сторін"

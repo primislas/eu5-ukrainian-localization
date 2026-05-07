@@ -4483,8 +4483,8 @@
  gela_culture_cadj_wntt: "Геланск"
  arosi_culture_cadj_wntt: "Аросийск"
  mu_ngava_culture_cadj_wntt: "Му-нгавск"
- 
-  swedish_cadj: "#TOOLTIP:CULTURE,$swedish_tt$, #L Шведск#!#!"
+
+ swedish_cadj: "#TOOLTIP:CULTURE,$swedish_tt$, #L Шведск#!#!"
  danish_cadj: "#TOOLTIP:CULTURE,$danish_tt$, #L Датск#!#!"
  finnish_cadj: "#TOOLTIP:CULTURE,$finnish_tt$, #L Финск#!#!"
  karelian_cadj: "#TOOLTIP:CULTURE,$karelian_tt$, #L Карельск#!#!"

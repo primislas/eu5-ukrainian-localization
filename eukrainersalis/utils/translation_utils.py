@@ -1,3 +1,4 @@
+import json
 from dataclasses import dataclass, field
 from enum import StrEnum
 from pathlib import Path
@@ -70,3 +71,12 @@ def translation_not_required(text: str) -> bool:
 
 def translation_is_required(text: str) -> bool:
     return not translation_not_required(text)
+
+
+def is_valid_json_object(value: str) -> bool:
+    try:
+        parsed = json.loads(value)
+    except json.JSONDecodeError:
+        return False
+
+    return isinstance(parsed, dict)

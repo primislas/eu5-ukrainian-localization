@@ -16,6 +16,6 @@
  flavor_hun_ser.1002.a: "Чудесно!"
  flavor_hun_ser.1003.title: "Власти [target_country.Custom('CL_GEN')] отказываются вернуть [target_location.Custom('LR_ACC')|l] [target_location.GetNameWithNoTooltip]."
  flavor_hun_ser.1003.desc: "$flavor_hun_ser_response_common$ Увы, наши #L [target_country.GetAdjective|l]ие#! союзники не приняли предложение, так что [target_location.GetNameWithNoTooltip] по-прежнему под их контролем."
- flavor_hun_ser.1003.a: "Ну, мы хотя бы попытались…"
+ flavor_hun_ser.1003.a: "Ну, мы хотя бы попытались..."
  flavor_hun_ser.1003.b: "Значит, мы вернём [target_location.Custom('LR_ACC')|l] [target_location.GetNameWithNoTooltip] силой!"
  flavor_hun_ser.1003.b.entry: "Мы захватим район силой!"

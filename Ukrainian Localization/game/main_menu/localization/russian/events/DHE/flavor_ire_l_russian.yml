@@ -22,7 +22,7 @@
  ireland.30.b: "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|U] должны посвящать всё своё время молитвам."
  ireland.30.b.entry: "Священники должны посвящать всё своё время молитвам."
  ireland.40.title: "Свои среди чужих"
- ireland.40.desc: "Жизнь среди #L [native_culture.GetName|l]ого#! народа меняла нас из поколения в поколение. Дошло до того, что представители #L [judgmental_culture.GetName|l]ой#! культуры уже не считают нас своими, а [native_culture.GetNameWithNoTooltip|l]ие люди, напротив, больше не видят в нас чужаков…"
+ ireland.40.desc: "Жизнь среди #L [native_culture.GetName|l]ого#! народа меняла нас из поколения в поколение. Дошло до того, что представители #L [judgmental_culture.GetName|l]ой#! культуры уже не считают нас своими, а [native_culture.GetNameWithNoTooltip|l]ие люди, напротив, больше не видят в нас чужаков..."
  ireland.40.a: "В нас теперь больше [native_culture.GetNameWithNoTooltip|l]ого, чем в местном населении!"
  ireland.40.a.entry: "Мы превзошли их в плане культуры!"
  ireland.40.b: "Мы не должны забывать о своих корнях в этих диких землях!"
