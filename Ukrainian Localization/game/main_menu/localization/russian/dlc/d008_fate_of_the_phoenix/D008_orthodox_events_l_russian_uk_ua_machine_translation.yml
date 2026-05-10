@@ -4,7 +4,7 @@
   d008_orthodox_events.1.a: "Звісно, ми погодимося."
   d008_orthodox_events.1.b: "Скажіть їм, що в нас уже достатньо."
   d008_orthodox_events.2.title: "Пропозицію прийнято"
-  d008_orthodox_events.2.desc: "[target_country.GetLongName] погод[target_country.Custom('endlong_assya')] на нашу щедру пропозицію та вже надісла[target_country.Custom('endlong_vlaloly')] грошову компенсацію за те, що ми на певний час позичимо їм ікону. Без сумніву, цей крок зміцнить відносини між нашими країнами. [target.GetName] — сподіватимемося, що до обумовленої дати вона повернеться додому..."
+  d008_orthodox_events.2.desc: "[target_country.GetLongName] погоди[target_country.Custom('endlong_vlaloly')]ся на нашу щедру пропозицію та вже надісла[target_country.Custom('endlong_vlaloly')] грошову компенсацію за те, що ми на певний час позичимо їм ікону. Без сумніву, цей крок зміцнить відносини між нашими країнами. [target.GetName] — сподіватимемося, що до обумовленої дати вона повернеться додому..."
   d008_orthodox_events.2.a: "Подбайте про цей витвір як слід."
   d008_orthodox_events.3.title: "Пропозицію відхилено"
   d008_orthodox_events.3.desc: "Безбожні безумці з #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! відхилили нашу пропозицію! Ми щиро бажали на певний час позичити їм святу #TOOLTIP:WORK_OF_ART_TYPE,icon,X #L ікону#!#!, і їхня відмова свідчить лише про те, що в них не залишилося ні благочестя, ні богобоязливості. [target.GetName] — той, хто відкидає її, є ворогом #L [ROOT.GetCountry.GetReligion.GetAdjective|l]ої#! віри!"

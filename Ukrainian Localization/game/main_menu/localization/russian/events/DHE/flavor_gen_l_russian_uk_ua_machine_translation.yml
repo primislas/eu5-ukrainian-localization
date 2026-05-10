@@ -274,5 +274,5 @@
   flavor_gen.50.a: "$flavor_gen.48.a$"
   flavor_gen.50.b: "$flavor_gen.48.b$"
   flavor_gen.51.title: "Генуезці захоплюють #TOOLTIP:LOCATION,chios,X #L Хіос#!#!"
-  flavor_gen.51.desc: "[GetCountry('GEN').GetLongName] скориста[GetCountry('GEN').Custom('endlong_assya')] нерозберіхою, спричиненою нашою кризою престолонаслідування, щоб захопити острів #TOOLTIP:LOCATION,chios,X #L Хіос#!#!. Маона Хіоса та Фокеї повертає території, які вважає своїми по праву, і #TOOLTIP:LOCATION,chios,X #L Хіос#!#! знову переходить під контроль Генуї."
+  flavor_gen.51.desc: "[GetCountry('GEN').GetLongName] скориста[GetCountry('GEN').Custom('endlong_vlaloly')]ся безладдям, спричиненим нашою кризою престолонаслідування, щоб захопити острів #TOOLTIP:LOCATION,chios,X #L Хіос#!#!. Маона Хіоса та Фокеї повертає території, які вважає своїми по праву, і #TOOLTIP:LOCATION,chios,X #L Хіос#!#! знову переходить під контроль Генуї."
   flavor_gen.51.a: "Це жахлива втрата."

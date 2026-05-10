@@ -71,7 +71,7 @@
   LAT_REDUCED_REQUIREMENTS_f: "$LAT_f$"
   LAT_REDUCED_REQUIREMENTS_f_desc: "$LAT_f_desc$"
   THE_f: "Фессалоніки"
-  THE_f_desc: "Таку назву носи[GetCountry('THE').Custom('endrank_vlaloly')] [GetCountry('THE').GetFlavorRank|l] хрестоносців на території, яку нині займає [ShowScriptedGeographyName('greece_geography')]. Ця держава була заснована після Четвертого хрестового походу, і навіть [GetCountry('LAT').GetLongName] дослухав[GetCountry('LAT').Custom('endlong_assya')]ся до думки її правителів. Щоправда, 1224 року її [Select_CString(GetCharacter('the_theodoros_komnenos_doukas').IsFemale, 'знищила', 'знищив' )] [GetCharacter('the_theodoros_komnenos_doukas').GetName]. Знову зібравши ці землі воєдино, ми значно посилимо свій вплив у Греції."
+  THE_f_desc: "Таку назву носи[GetCountry('THE').Custom('endrank_vlaloly')] [GetCountry('THE').GetFlavorRank|l] хрестоносців на території, яку нині займає [ShowScriptedGeographyName('greece_geography')]. Ця держава була заснована після Четвертого хрестового походу, і навіть [GetCountry('LAT').GetLongName] дослуха[GetCountry('LAT').Custom('endlong_vlaloly')]ся до думки її правителів. Щоправда, 1224 року її [Select_CString(GetCharacter('the_theodoros_komnenos_doukas').IsFemale, 'знищила', 'знищив' )] [GetCharacter('the_theodoros_komnenos_doukas').GetName]. Знову зібравши ці землі воєдино, ми значно посилимо свій вплив у Греції."
   THE_REDUCED_REQUIREMENTS_f: "$THE_f$"
   THE_REDUCED_REQUIREMENTS_f_desc: "$THE_f_desc$"
   SAR_f: "Сардинія"
