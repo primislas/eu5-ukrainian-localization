@@ -558,7 +558,7 @@
   SAME_UNION_AS_LEADER_COUNTRY: "В [Concept('union', 'унії')|e] з #ONCLICK:COUNTRY,[SCOPE.sInternationalOrganization('recipient').GetLeaderCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[SCOPE.sInternationalOrganization('recipient').GetLeaderCountry.Custom('CL_tt')],X [SCOPE.sInternationalOrganization('recipient').GetLeaderCountry.Custom('CL_INST')|L]#!#!"
   INT_SENIOR_PARTNER_TITLE: "Старшинство"
   CONQUER_DESIRE: "Бажання завоювати ціль"
-  OPINION_OF_ACTOR: "[Concept('opinion', 'Думка')|e] [target.Custom('predlog_obo')] #ONCLICK:COUNTRY,[SCOPE.sCountry('actor').Custom('CL_tt')] #TOOLTIP:COUNTRY,[SCOPE.sCountry('actor').Custom('CL_tt')],X [SCOPE.sCountry('actor').Custom('CL_PREP')|L]#!#!"
+  OPINION_OF_ACTOR: "[Concept('opinion', 'Думка')|e] про #ONCLICK:COUNTRY,[SCOPE.sCountry('actor').Custom('CL_tt')] #TOOLTIP:COUNTRY,[SCOPE.sCountry('actor').Custom('CL_tt')],X [SCOPE.sCountry('actor').Custom('CL_PREP')|L]#!#!"
   INTERNATIONAL_ORGANIZATION_FLAVOR: "#F $TEXT$#!"
   ORGITEM_HEADER: "#T $NAME$#!"
   IO_DISBAND_REASON_OPINION_THRESHOLD: "Низька думка #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! про владу #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! (зараз $VALUE|Y$ од., потрібно $REQUIRED|Y$ од.) призвела до розпаду об'єднання!"

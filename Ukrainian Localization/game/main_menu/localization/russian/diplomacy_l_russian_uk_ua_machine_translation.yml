@@ -267,7 +267,7 @@
   COALITION_AGAINST_US_DESC: "[Country.GetName] у [Concept('coalition', 'коаліції')|e] проти нас."
   WAR_WITH_COUNTRY_DESC: "[Country.GetName] вед[Country.Custom('end_eut')] війну з #ONCLICK:COUNTRY,[GetPlayer.Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetPlayer.Custom('CL_tt')],X [GetPlayer.Custom('CL_INST')|L]#!#!."
   POSITIVE_OPINION_WITH_TITLE: "Позитивна [Concept('opinion', 'думка')] [Country.Custom('CL_GEN')]"
-  POSITIVE_OPINION_WITH_DESC: "[Country.GetName] має позитивну [Concept('opinion', 'думку')] [GetPlayer.Custom('predlog_obo')] #ONCLICK:COUNTRY,[GetPlayer.Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetPlayer.Custom('CL_tt')],X [GetPlayer.Custom('CL_PREP')|L]#!#!."
+  POSITIVE_OPINION_WITH_DESC: "[Country.GetName] має позитивну [Concept('opinion', 'думку')] про #ONCLICK:COUNTRY,[GetPlayer.Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetPlayer.Custom('CL_tt')],X [GetPlayer.Custom('CL_PREP')|L]#!#!."
   COALITION_AGAINST_COUNTRY_TITLE: "[Country.GetAdjectiveWithNoTooltip]а коаліція"
   COALITION_AGAINST_COUNTRY_DESC: "[Country.GetName] перебуває в коаліції проти #ONCLICK:COUNTRY,[GetPlayer.Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetPlayer.Custom('CL_tt')],X [GetPlayer.Custom('CL_GEN')|L]#!#!."
   ANNUL_TREATIES_WITH_COUNTRY_TITTLE: "Розірвано договори з [Country.Custom('CL_INST')]"
