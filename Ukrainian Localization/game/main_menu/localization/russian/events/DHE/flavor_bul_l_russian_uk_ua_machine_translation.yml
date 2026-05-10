@@ -29,7 +29,7 @@
   flavor_bul.4.historical_info: "«Четвероєвангеліє царя Івана Александра» є, мабуть, найзначнішим із пам'яток Другого Болгарського царства, що дійшли до нас, і одним із найяскравіших творів так званого «другого золотого віку». Рукопис містить повний текст Євангелій, ілюстрований 366 чудовими мініатюрами."
   flavor_bul.5.title: "[ROOT.GetCountry.GetAdjectiveWithNoTooltip]о-[GetCountry('TUR').GetAdjectiveWithNoTooltip|l]і війни"
   flavor_bul.5.entry: "Болгарсько-османські війни"
-  flavor_bul.5.desc_common: "У [target_location.Custom('LR_GEN')|l] [target_location.GetName] наші війська вперше в історії зійшлися в бою [GetCountry('TUR').Custom('end_predlog_sso')] #L [GetCountry('TUR').GetAdjective|l]им#! військом."
+  flavor_bul.5.desc_common: "У [target_location.Custom('LR_GEN')|l] [target_location.GetName] наші війська вперше в історії зійшлися в бою [GetCountry('TUR').Custom('preposition_zzi')] #L [GetCountry('TUR').GetAdjective|l]им#! військом."
   flavor_bul.5.desc_victory: "$flavor_bul.5.desc_common$ Нам вдалося взяти гору, проте мало хто з командирів всерйоз вірить, що на цьому все закінчиться. [GetCountry('TUR').GetNameWithNoTooltip] — грізний противник, який здобув чимало перемог і рветься до нових завоювань. Скоріше за все, сьогоднішня битва стане лише першою в низці битв..."
   flavor_bul.5.desc_defeat: "$flavor_bul.5.desc_common$ Сумний результат цієї битви показав, що нам протистоїть завзятий і дисциплінований ворог. Якщо ми хочемо зберегти [ROOT.GetCountry.Custom('rank_ua_ACC')|l], потрібно готуватися до довгої та відчайдушної боротьби з могутнім і амбітним противником."
   flavor_bul.5.a: "Насувається буря, і ми повинні бути готові."

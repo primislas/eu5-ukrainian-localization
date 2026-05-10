@@ -4751,7 +4751,7 @@
   PROVINCE_NAME_WITH_COUNTRY: "$ADJ$а провінція $PROVINCE$"
   CURRENT_ATTIRION: "Поточне виснаження в цій [Concept('location', 'місцевості')|e]: #R $VALUE|2$%#!. Причини:\n"
   COST_MODIFIER_THROUGH_POWER_PROJECTION: "[Concept('power_projection', 'Дипломатична вага')|e]: $VAL|0%-=$"
-  COST_MODIFIER_THROUGH_POWER_PROJECTION_RELATIVE_TO: "[Concept('power_projection', 'Дипломатична вага')|e] у порівнянні [COUNTRY.Custom('end_predlog_sso')] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_INST')|L]#!#!: $VAL|0%-=$"
+  COST_MODIFIER_THROUGH_POWER_PROJECTION_RELATIVE_TO: "[Concept('power_projection', 'Дипломатична вага')|e] у порівнянні [COUNTRY.Custom('preposition_zzi')] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_INST')|L]#!#!: $VAL|0%-=$"
   COST_MODIFIER_THROUGH_IO: "[INTERNATIONAL_ORGANIZATION.GetName]: $VAL|0%-=$"
   WE_DO_NOT_PRODUCE: "#T Виробництво товару «[GOODS.GetNameWithNoTooltip]»#!\n@trigger_no! Немає виробництва!\nНа території нашої [Concept('country', 'країни')|e] не виробляється товар «[GOODS.GetNameWithNoTooltip]»."
   GOODS_PRODUCED_ENTRY: "$WHERE$: $VAL|+=2$"

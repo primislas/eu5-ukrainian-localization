@@ -1323,4 +1323,4 @@
   break_curb_pronoia_military_action_desc_to_unknown: "Це дозволить державі знову безперешкодно оголошувати війни."
   break_curb_pronoia_military_action_happened_title: "Обмеження воєнної активності розірвано!"
   break_curb_pronoia_military_action_happened_desc: "Ми розірвали договір з владою #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L] про обмеження воєнної активності."
-  break_curb_pronoia_military_action_proposal_question: "Розірвати договір [TARGET_COUNTRY.Custom('endlong_predlog_sso')] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_INST')|L] про обмеження воєнної активності?\n$INFO$"
+  break_curb_pronoia_military_action_proposal_question: "Розірвати договір [TARGET_COUNTRY.Custom('preposition_zzi')] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_INST')|L] про обмеження воєнної активності?\n$INFO$"
