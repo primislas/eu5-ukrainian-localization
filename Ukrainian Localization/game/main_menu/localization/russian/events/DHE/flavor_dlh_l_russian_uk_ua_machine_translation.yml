@@ -293,7 +293,7 @@
   dlh_afghan_control_tt: "Ми втратимо [ShowNamedValue('control_extreme_penalty')|+=2%] [Concept('control', 'контролю')|e] над усіма належними нам [Concept('locations', 'місцевостями')|e] в області [target_area.GetName]."
   flavor_dlh.48.title: "[target_character.GetNameWithNoTooltip]"
   flavor_dlh.48.entry: "Намісник Саїд Хизр-Хан"
-  flavor_dlh.48.desc: "[target_country.GetName] трима[target_country.Custom('end_itat')] #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_ACC')|L]#!#! мертвою хваткою, а в [ROOT.GetCountry.GetCapital.Custom('LR_ACC')|l] [ROOT.GetCountry.GetCapital.GetName] раз у раз призначаються нові намісники. Це місце зараз займає [target_character.GetName], виходець із династії [GetDynasty('sayyid_dynasty').GetName], який стверджує, що він — нащадок самого Мухаммеда, великого #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламського#!#! пророка."
+  flavor_dlh.48.desc: "[target_country.GetName] трима[target_country.Custom('end_yeyut')] #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_ACC')|L]#!#! мертвою хваткою, а в [ROOT.GetCountry.GetCapital.Custom('LR_ACC')|l] [ROOT.GetCountry.GetCapital.GetName] раз у раз призначаються нові намісники. Це місце зараз займає [target_character.GetName], виходець із династії [GetDynasty('sayyid_dynasty').GetName], який стверджує, що він — нащадок самого Мухаммеда, великого #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламського#!#! пророка."
   flavor_dlh.48.a: "[target_character.GetNameWithNoTooltip] отримає намісництво."
   flavor_dlh.48.a.entry: "Цей чоловік отримає намісництво."
   flavor_dlh.48.b: "Він напевно бреше."

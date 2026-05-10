@@ -1,7 +1,7 @@
 ﻿l_russian:
   PERFORM_request_papal_donation_ACTION_SETUP: "Коли [Concept('country', 'країна')|e] запитує пожертвування у [GetCountry('PAP').Custom('longname_ua_wntt_GEN')]"
   PERFORM_request_papal_donation_ACTION_HEADER: "$MESSENGER$"
-  PERFORM_request_papal_donation_ACTION_TITLE: "[SCOPE.sCountry('actor').GetName] прос[SCOPE.sCountry('actor').Custom('end_ityat')] грошової допомоги у [GetCountry('PAP').Custom('longname_ua_wntt_GEN')]"
+  PERFORM_request_papal_donation_ACTION_TITLE: "[SCOPE.sCountry('actor').GetName] прос[SCOPE.sCountry('actor').Custom('end_ytyat')] грошової допомоги у [GetCountry('PAP').Custom('longname_ua_wntt_GEN')]"
   PERFORM_request_papal_donation_ACTION_EFFECTS: "$EFFECT$"
   PERFORM_request_papal_donation_ACTION_LOG: "$PERFORM_request_papal_donation_ACTION_TITLE$"
   PERFORM_request_papal_donation_ACTION_BTN1: "Гаразд"
