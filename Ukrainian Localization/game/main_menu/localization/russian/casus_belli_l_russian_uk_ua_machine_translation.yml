@@ -191,7 +191,7 @@
   cb_sco_invade_england_desc: "Наші #L [GetCountry('FRA').GetAdjective|l]і#! союзники просять, щоб ми виконали умови Старого союзу і розпочали вторгнення в #ONCLICK:COUNTRY,[GetCountry('ENG').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('ENG').Custom('CL_tt')],X [GetCountry('ENG').Custom('CL_ACC')|L]#!#!. Оскільки [GetCountry('ENG').GetNameWithNoTooltip] вже зайнята війною з [GetCountry('FRA').Custom('CL_INST')], ми можемо швидко захопити її прикордонні провінції."
   cb_lat_reconquest: "Латинська реконкіста"
   cb_lat_reconquest_desc: "Настав час повернути собі втрачені землі [GetCountry('LAT').Custom('longname_ru_wntt_GEN')]!\n\n[Concept('casus_belli', 'Привід для війни')|e] «[ShowCasusBelliNameWithNoTooltip('cb_lat_reconquest')]» обмежує завоювання земель за межами країни [ShowScriptedGeographyName('frankokratia_geography')]."
-  cb_lat_reconquest_valid_locations: "[target.GetName] волод[target.Custom('end_etyut')] [Concept('location', 'місцевістю')|e] в країні [ShowScriptedGeographyName('frankokratia_geography')]"
+  cb_lat_reconquest_valid_locations: "[target.GetName] володі[target.Custom('end_yeyut')] [Concept('location', 'місцевістю')|e] в країні [ShowScriptedGeographyName('frankokratia_geography')]"
   cb_raiding_retaliation: "Реакція на напад"
   cb_raiding_retaliation_desc: "Ми помстимося ворогам, які напали на жителів нашої країни."
   cb_chinese_unification: "Єдиний Китай"

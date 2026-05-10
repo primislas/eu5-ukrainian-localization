@@ -1210,7 +1210,7 @@
   break_guarantee_vassal_independence_cta_to_unknown: "Відмовтеся від гарантії незалежності васалів [Concept('country', 'країни')|e]"
   break_guarantee_vassal_independence_desc_to_unknown: "[Concept('country', 'Країна')|e] більше не буде захищати ваших васалів у разі приєднання."
   break_guarantee_vassal_independence_happened_title: "Гарантія васальної незалежності більше не діє!"
-  break_guarantee_vassal_independence_happened_desc: "[TARGET_COUNTRY.GetName] відмовля[TARGET_COUNTRY.Custom('end_etyut')]ся від [Concept('guarantee', 'гарантії')|e], яку [COUNTRY.GetName] да[COUNTRY.Custom('end_vlaloly')] васалам цієї країни."
+  break_guarantee_vassal_independence_happened_desc: "[TARGET_COUNTRY.GetName] відмовля[TARGET_COUNTRY.Custom('end_yeyu')]ться від [Concept('guarantee', 'гарантії')|e], яку [COUNTRY.GetName] да[COUNTRY.Custom('end_vlaloly')] васалам цієї країни."
   break_guarantee_vassal_independence_proposal_question: "Відмовитися від [Concept('guarantee', 'гарантії')|e], яку [COUNTRY.GetName] да[COUNTRY.Custom('end_vlaloly')] вашим васалам?\n$INFO$"
   guarantee_vassal_independence_effect_text: "[TARGET_COUNTRY.GetName] гаранту[TARGET_COUNTRY.Custom('end_yeyut')] незалежність васалів #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
   guarantee_vassal_independence_effect_text_past: "[TARGET_COUNTRY.GetName] гарантува[TARGET_COUNTRY.Custom('end_vlaloly')] незалежність васалів #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"

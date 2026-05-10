@@ -197,7 +197,7 @@
   dissolve_hanseatic_league_peace_deal: "Розпуск Ганзейського союзу"
   dissolve_hanseatic_league_peace_deal_entry: "Розпуск Ганзейського союзу"
   dissolve_hanseatic_league_peace_deal_entry_short: "Розпуск Ганзейського союзу"
-  FAVORS_GAIN_FROM_LAND_NOT_PROMISED: "[COUNTRY.GetName] отриму[COUNTRY.Custom('end_etyut')] землю, хоча цій країні нічого подібного не обіцяли. З урахуванням її $CONT|%Y$-го внеску у війну, передавши $PERC|%Y$ від пропозиції, ви отримаєте $AMT|Y$ од. [Concept('favors', 'прихильності')|e] з боку цієї країни."
+  FAVORS_GAIN_FROM_LAND_NOT_PROMISED: "[COUNTRY.GetName] отриму[COUNTRY.Custom('end_yeyut')] землю, хоча цій країні нічого подібного не обіцяли. З урахуванням її $CONT|%Y$-го внеску у війну, передавши $PERC|%Y$ від пропозиції, ви отримаєте $AMT|Y$ од. [Concept('favors', 'прихильності')|e] з боку цієї країни."
   FAVORS_GAIN_FROM_LAND: "#ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_DAT')|L]#!#! передається більше земель, ніж передбачає внесок цієї країни у війну ($CONT|%Y$). Ви отримаєте $AMT|Y$ од. [Concept('favors', 'благосклонності')|e] з боку цієї країни."
   TRUST_HIT_FROM_NO_LAND: "#ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_DAT')|L]#!#! передається менше земель, ніж передбачає внесок цієї країни у війну, що становить $CONT|%Y$. Ви втратите $AMT|-$ од. [Concept('trust', 'довіри')|e] та $OPINION|+$ од. [Concept('opinion', 'думки')|e] з боку цієї країни."
   EXPECTS_BIGGER_DEAL: "[COUNTRY.GetName] вважа[COUNTRY.Custom('end_yeyut')], що ми можемо натиснути й отримати вигідніший договір."

@@ -20,7 +20,7 @@
   LOAN_NAME_pawning_of_crown_jewels_B: "$pawning_of_crown_jewels$"
   flavor_byz_ven.3.title: "Позику виплачено"
   flavor_byz_ven.3.entry: "$flavor_byz_ven.3.title$"
-  flavor_byz_ven.3.desc: "Позику щойно було виплачено. Витвір «[target_woa.GetName]» має бути повернено, цього вимага[origin_country.Custom('endlong_etyut')] [origin_country.GetLongName]. За умовами угоди ми зобов'язані це зробити, однак при цьому ми позбудемося останнього важеля тиску на них.\n\nЗрештою, якщо ми не повернемо коштовності, навряд чи станеться щось по-справжньому серйозне..."
+  flavor_byz_ven.3.desc: "Позику щойно було виплачено. Витвір «[target_woa.GetName]» має бути повернено, цього вимага[origin_country.Custom('endlong_yeyut')] [origin_country.GetLongName]. За умовами угоди ми зобов'язані це зробити, однак при цьому ми позбудемося останнього важеля тиску на них.\n\nЗрештою, якщо ми не повернемо коштовності, навряд чи станеться щось по-справжньому серйозне..."
   flavor_byz_ven.3.a: "Ми не можемо ризикувати репутацією."
   flavor_byz_ven.3.b: "А з іншого боку — чому б і ні? Чому б і не залишити собі ці коштовності?"
   flavor_byz_ven.4.title: "Регалії повернено"

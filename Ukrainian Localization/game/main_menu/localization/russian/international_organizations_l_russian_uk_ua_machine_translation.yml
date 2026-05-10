@@ -951,7 +951,7 @@
   PA_GALLICANISM: "Ідеологія галліканства"
   PA_CONCILIARISM: "Ідеологія конциліаризму"
   PA_INVISIBLE_CHURCH: "Ідеологія Невидимої церкви"
-  PA_CONTROLS_ROME: "[GetCountry('PAP').GetName] пану[GetCountry('PAP').Custom('end_etyut')] над Римом"
+  PA_CONTROLS_ROME: "[GetCountry('PAP').GetName] пану[GetCountry('PAP').Custom('end_yeyut')] над Римом"
   PA_CARDINALS: "Мережа [Concept('cardinal', 'кардиналів')|e]"
   PA_EXCOMMUNICATED_RULERS: "Відлучені [Concept('rulers', 'правителі')|e] на троні"
   PA_CAN_IGNORE_BULLS: "Учасники, що ігнорують [Concept('papal_bull', 'папську буллу')|e]"

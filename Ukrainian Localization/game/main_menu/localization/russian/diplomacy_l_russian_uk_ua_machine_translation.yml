@@ -2002,7 +2002,7 @@
   BREAK_pronoia_DESC: "Ми припинимо бути пронією."
   OFFER_pronoia_REQTITLE: "Пропозиція зробити нас пронією"
   REQUEST_pronoia_REQTITLE: "Пропозиція стати нашою пронією"
-  OFFER_pronoia_REQDESC: "[COUNTRY.GetName] пропону[COUNTRY.Custom('end_etyut')] нам стати $SUBJECT_TYPE_SINGLE_INST_lower$"
+  OFFER_pronoia_REQDESC: "[COUNTRY.GetName] пропону[COUNTRY.Custom('end_yeyut')] нам стати $SUBJECT_TYPE_SINGLE_INST_lower$"
   REQUEST_pronoia_REQDESC: "[COUNTRY.GetName] пропону[COUNTRY.Custom('end_etyat')] стати $SUBJECT_TYPE_SINGLE_INST_lower$"
   CANCEL_pronoia_REQDESC: "$MONARCHTITLE$"
   BREAK_pronoia_REQDESC: "$MONARCHTITLE$"

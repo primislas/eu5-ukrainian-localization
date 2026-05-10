@@ -8,7 +8,7 @@
   flavor_dlh.1.b: "Поступимося їхнім вимогам."
   flavor_dlh.2.title: "Намісник [target_location.Custom('LR_GEN')] [target_location.GetNameWithNoTooltip] проголошує незалежність!"
   flavor_dlh.2.entry: "Намісник проголошує незалежність!"
-  flavor_dlh.2.desc: "[ROOT.GetCountry.GetFlavorRank] пережива[ROOT.GetCountry.Custom('endrank_etyut')] важкі часи. Роки нестабільності призвели до гнітючих наслідків: жадібні гієни, які до цього облизувалися на наші володіння, вирішили оголосити нам тотальну війну...\n\nНамісник [target_location.Custom('LR_GEN')|l] [target_location.GetName] [target_character.GetName] прямо заявив про нашу слабкість та узурпував наші землі. Така нахабність не може залишитися безкарною. Крім того, по двору поповзли чутки, що [target_character2.GetShortName] не справляється зі своїми обов’язками в ці похмурі часи..."
+  flavor_dlh.2.desc: "[ROOT.GetCountry.GetFlavorRank] пережива[ROOT.GetCountry.Custom('endrank_yeyut')] важкі часи. Роки нестабільності призвели до гнітючих наслідків: жадібні гієни, які до цього облизувалися на наші володіння, вирішили оголосити нам тотальну війну...\n\nНамісник [target_location.Custom('LR_GEN')|l] [target_location.GetName] [target_character.GetName] прямо заявив про нашу слабкість та узурпував наші землі. Така нахабність не може залишитися безкарною. Крім того, по двору поповзли чутки, що [target_character2.GetShortName] не справляється зі своїми обов’язками в ці похмурі часи..."
   flavor_dlh.2.a: "Ми знесемо йому голову з пліч!"
   flavor_dlh.2.b: "Краще розрядити обстановку…"
   flavor_dlh.2.c: "$play_as_revolter$"
