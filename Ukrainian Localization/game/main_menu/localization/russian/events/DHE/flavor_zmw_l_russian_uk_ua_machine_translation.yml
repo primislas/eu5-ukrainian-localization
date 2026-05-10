@@ -1,7 +1,7 @@
 ﻿l_russian:
   flavor_zmw.1.title: "$MTP$ іде до величі"
   flavor_zmw.1.entry: "$flavor_zmw.1.title$"
-  flavor_zmw.1.desc: "Захоплене нами #TOOLTIP:PROVINCE_DEFINITION,upper_mazowe_province,X #L Верхнє Мазое#!#!, яким сьогодні володіє [target_character.GetName], забезпечує суттєвий внесок у господарство країни. Ця провінція повільно, але впевнено приносить прибуток, тому [target_character.GetName] збирається за допомогою цих коштів отримати ще більше влади [ROOT.GetCountry.Custom('predlog_vvo')] #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! та оголосити себе «підкорювачем людей»."
+  flavor_zmw.1.desc: "Захоплене нами #TOOLTIP:PROVINCE_DEFINITION,upper_mazowe_province,X #L Верхнє Мазое#!#!, яким сьогодні володіє [target_character.GetName], забезпечує суттєвий внесок у господарство країни. Ця провінція повільно, але впевнено приносить прибуток, тому [target_character.GetName] збирається за допомогою цих коштів отримати ще більше влади [ROOT.GetCountry.Custom('preposition_uv')] #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! та оголосити себе «підкорювачем людей»."
   flavor_zmw.1.a: "[target_character.GetNameWithNoTooltip] очолить нас."
   flavor_zmw.1.a.entry: "Цей персонаж очолить нас."
   flavor_zmw.1.b: "Його жалюгідний заколот приречений."

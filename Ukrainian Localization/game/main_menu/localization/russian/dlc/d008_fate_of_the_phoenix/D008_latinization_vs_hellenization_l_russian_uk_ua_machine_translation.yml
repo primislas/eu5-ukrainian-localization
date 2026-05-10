@@ -121,7 +121,7 @@
   latinization_vs_hellenization.24.a: "Добре, [target_character.GetShortNameWithNoTooltip] може залишитися."
   latinization_vs_hellenization.24.b: "Подумаєш! [target_character.GetSheHe|U] лише ще одна цеглина в стіні."
   latinization_vs_hellenization.25.title: "Культурний спад"
-  latinization_vs_hellenization.25.desc: "Літописці скаржаться на спад культурного життя [ROOT.GetCountry.Custom('end_predlog_vvo')] #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#!. Меценатство виходить з моди, традиції забуваються, а твори, що колись надихали людей, припадають пилом у бібліотеках та архівах. Невже ми втратили зв'язок із великою культурою своїх предків?"
+  latinization_vs_hellenization.25.desc: "Літописці скаржаться на спад культурного життя [ROOT.GetCountry.Custom('preposition_uv')] #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#!. Меценатство виходить з моди, традиції забуваються, а твори, що колись надихали людей, припадають пилом у бібліотеках та архівах. Невже ми втратили зв'язок із великою культурою своїх предків?"
   latinization_vs_hellenization.25.a: "Ми повинні змиритися з тим, що наша спадщина згасає."
   latinization_vs_hellenization.25.b: "Ні! Всі інші неправі!"
   latinization_vs_hellenization.26.title: "[ROOT.GetCountry.GetGovernment.GetCourtTitle] та східна мода"

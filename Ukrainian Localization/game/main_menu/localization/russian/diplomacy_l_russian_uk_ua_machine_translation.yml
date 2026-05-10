@@ -2600,7 +2600,7 @@
   CONNECTIVITY_SEA_PATH_TOLERANCE: "Оскільки [COUNTRY.GetName] — [SUBJECT_TYPE.GetName|l], прийнятність відстані становить $TOLERANCE|+=2%$"
   CONNECTIVITY_SEA_OVERLORD_PORT: "[Concept('port', 'Порт')|e] сюзерена [LOCATION.GetName] з $MARITIME|%$ [Concept('maritime', 'присутности')|e]: $CONTRIB|+=2%$"
   CONNECTIVITY_LAND_BORDER: "Середній показник [Concept('control', 'контролю')|e] на безпосередньому кордоні: $CONTROL|%$"
-  CONNECTIVITY_VIA_STEP: "Через середній показник [Concept('control', 'контролю')|e] [COUNTRY.Custom('predlog_vvo')] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_PREP')|L]#!#!: $CONTROL|%$"
+  CONNECTIVITY_VIA_STEP: "Через середній показник [Concept('control', 'контролю')|e] [COUNTRY.Custom('preposition_uv')] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_PREP')|L]#!#!: $CONTROL|%$"
   CONNECTIVITY_OVERLORD_BORDER: "Середній показник [Concept('control', 'контролю')|e] сюзерена: $CONTROL|%$"
   CONNECTIVITY_SCORE: "[subject_territory_connectivity|e] становить $SCORE|%V2$, причини:"
   CONNECTIVITY_LOYALTY_CONTRIBUTION: "Внесок #TOOLTIP:MODIFIER_TYPE,loyalty_to_overlord,X #P #V лояльности до сюзерена#!#!#!: $VALUE|+=2$[subject_loyalty_icon]"

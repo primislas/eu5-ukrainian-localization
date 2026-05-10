@@ -11592,7 +11592,7 @@
   ACTION_request_crown_character_PERFORMED_ON_US_SETUP: "Коли учасник унії запитує у нас [Concept('character', 'персонажа')|e] з-поміж #TOOLTIP:ESTATE_TYPE,crown_estate,X #L правителів#!#!"
   ACTION_request_crown_character_PERFORMED_ON_US_HEADER: "$MESSENGER$"
   ACTION_request_crown_character_PERFORMED_ON_US_TITLE: "Персонаж з-поміж правителів переїхав"
-  ACTION_request_crown_character_PERFORMED_ON_US_EFFECTS: "[SCOPE.sCharacter('target').GetName] прибуває [SCOPE.sCountry('actor').Custom('end_predlog_vvo')] #ONCLICK:COUNTRY,[SCOPE.sCountry('actor').Custom('CL_tt')] #TOOLTIP:COUNTRY,[SCOPE.sCountry('actor').Custom('CL_tt')],X [SCOPE.sCountry('actor').Custom('CL_ACC')|L]#!#!."
+  ACTION_request_crown_character_PERFORMED_ON_US_EFFECTS: "[SCOPE.sCharacter('target').GetName] прибуває до #ONCLICK:COUNTRY,[SCOPE.sCountry('actor').Custom('CL_tt')] #TOOLTIP:COUNTRY,[SCOPE.sCountry('actor').Custom('CL_tt')],X [SCOPE.sCountry('actor').Custom('CL_GEN')|L]#!#!."
   ACTION_request_crown_character_PERFORMED_ON_US_LOG: "[SCOPE.sCountry('actor').GetName] викона[SCOPE.sCountry('actor').Custom('end_vlaloly')] дію «$ACTION$»."
   ACTION_request_crown_character_PERFORMED_ON_US_BTN1: "Гаразд"
   ACTION_request_crown_character_PERFORMED_ON_US_BTN2: "Гаразд"

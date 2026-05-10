@@ -62,7 +62,7 @@
   flavor_teu.12.c.entry: "Нехай цим сировиною торгують простолюди."
   flavor_teu.13.title: "[target_character.GetNameWithNoTooltip]"
   flavor_teu.13.entry: "Пустельниця Доротея з Монтау"
-  flavor_teu.13.desc: "Останнім часом серед жителів [ROOT.GetCountry.Custom('rank_ua_GEN')|l] стала популярною пустельниця на ім’я [target_character.GetName], відома своїм пророчим даром. [ROOT.GetCountry.Custom('endlong_predlog_vvo')|U] [ROOT.GetCountry.Custom('longname_ua_PREP')] повсюди обговорюють численні видіння цієї жінки. Одні вважають її одкровення вигадкою, інші вірять у їхню достовірність, а треті взагалі воліли б спалити пустельницю на вогнищі.\n\nОдного разу [target_character.GetNameWithNoTooltip] вже звинувачували в чаклунстві й виправдали, але це не заважає її ворогам вимагати нового суду."
+  flavor_teu.13.desc: "Останнім часом серед жителів [ROOT.GetCountry.Custom('rank_ua_GEN')|l] стала популярною пустельниця на ім’я [target_character.GetName], відома своїм пророчим даром. [ROOT.GetCountry.Custom('preposition_uv')|U] [ROOT.GetCountry.Custom('longname_ua_PREP')] повсюди обговорюють численні видіння цієї жінки. Одні вважають її одкровення вигадкою, інші вірять у їхню достовірність, а треті взагалі воліли б спалити пустельницю на вогнищі.\n\nОдного разу [target_character.GetNameWithNoTooltip] вже звинувачували в чаклунстві й виправдали, але це не заважає її ворогам вимагати нового суду."
   flavor_teu.13.a: "Її видіння справді чудесні."
   flavor_teu.13.b: "Нам варто прислухатися до її недоброзичливців."
   flavor_teu.14.title: "[target_character.GetNameWithNoTooltip]"

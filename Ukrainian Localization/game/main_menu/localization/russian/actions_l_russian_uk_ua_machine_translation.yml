@@ -572,7 +572,7 @@
   create_colonial_charter_desc: "Ми відправимо [Concept('pops', 'групи населення')|e] з провінції [SCOPE.sProvince('source').GetName] до провінції [SCOPE.sProvinceDefinition('target').GetName], щоб заснувати [Concept('colonial_charter', 'колоніальне поселення')|e].\n\n[GetMonthlyMaintenanceInfoForCountry(SCOPE.sCountry('actor'),SCOPE.sProvinceDefinition('target'),SCOPE.sProvince('source').GetCapital)]"
   create_colonial_charter_prov_desc_t: "Ми відправимо [Concept('pops', 'групи населення')|e] з провінції [Province.GetName] до [Concept('colonial_charter', 'колоніального поселення')]."
   create_colonial_charter_select_province: "Оберіть, звідки відправити [Concept('pops', 'групи населення')|e]:"
-  can_use_agenda_bribe_tt: "Ми можемо використати для підкупу будь-яку [Concept('parliament_agenda', 'вимогу')|e] стану «[ESTATE_TYPE.GetName]» [TARGET_COUNTRY.Custom('predlog_vvo')] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_PREP')|L]#!#!"
+  can_use_agenda_bribe_tt: "Ми можемо використати для підкупу будь-яку [Concept('parliament_agenda', 'вимогу')|e] стану «[ESTATE_TYPE.GetName]» [TARGET_COUNTRY.Custom('preposition_uv')] #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_PREP')|L]#!#!"
   abandon_colonial_charter_desc: "У покинуте колоніальне поселення більше не мігруватимуть люди. [Concept('pops', 'Групи населення')|e], які переїхали до [Concept('locations', 'місцевостей')|e] на чужій території, залишаться без нашої допомоги."
   abandon_colonial_charter_select_colonial_charter: "Оберіть, яке колоніальне поселення залишити:"
   conduct_keju_examination: "Провести іспити Кецзюй"

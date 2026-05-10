@@ -1608,7 +1608,7 @@
   sco_limited_colonial_ventures_desc: "Колоніальні підприємства дозволені країною. Вигода від них перевищує потенційні економічні ризики."
   sco_colonial_administration: "Досвідчена колоніальна адміністрація"
   sco_colonial_administration_desc: "Завдяки зусиллям дослідників та інвесторів [GetCountry('SCO').GetName] стала справжньою колоніальною країною і тепер може отримувати солідний дохід за рахунок своїх заморських володінь."
-  lat_orthodox_status_with_the_empire: "Статус православ’я [GetCountry('LAT').Custom('endlong_predlog_vvo')] [GetCountry('LAT').Custom('longname_ua_wntt_PREP')]"
+  lat_orthodox_status_with_the_empire: "Статус православ’я [GetCountry('LAT').Custom('preposition_uv')] [GetCountry('LAT').Custom('longname_ua_wntt_PREP')]"
   lat_orthodox_status_with_the_empire_desc: "[GetCountry('PAP').GetLongName] обіця[GetCountry('PAP').Custom('endlong_yeyut')] [GetCountry('LAT').Custom('longname_ua_DAT')] допомогти з відновленням, а натомість [GetCountry('LAT').GetLongName] зобов’язу[GetCountry('LAT').Custom('endlong_yeyut')]ся закріпити привілейований статус місцевих #TOOLTIP:RELIGION,$catholic_tt$,X #L католиків#!#! щодо #TOOLTIP:RELIGION,$orthodox_tt$,X #L православних#!#!."
   lat_tolerance_orthodox_faith: "Терпимість до православ’я"
   lat_tolerance_orthodox_faith_desc: "Ми здебільшого проігнорували політику насадження віри, яку просува[GetCountry('PAP').Custom('endlong_yeyut')] [GetCountry('PAP').GetLongName], і віддали перевагу мирному співіснуванню з місцевими #TOOLTIP:RELIGION,$orthodox_tt$,X #L православними#!#!."
