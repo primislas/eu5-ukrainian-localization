@@ -1992,7 +1992,7 @@
   REQUEST_pronoia_CATEGORY: "CATEGORY_SUBJECT_ACTIONS"
   CANCEL_pronoia_CATEGORY: "CATEGORY_SUBJECT_ACTIONS"
   BREAK_pronoia_CATEGORY: "CATEGORY_SUBJECT_ACTIONS"
-  OFFER_pronoia_NEWDESC: "Вимагати, щоб [COUNTRY.GetName] стал[COUNTRY.Custom('end_fem')] нашою пронією?"
+  OFFER_pronoia_NEWDESC: "Вимагати, щоб [COUNTRY.GetName] ста[COUNTRY.Custom('end_vlaloly')] нашою пронією?"
   REQUEST_pronoia_NEWDESC: "Попросити #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_ACC')|L]#!#! зробити нас своєю пронією?"
   CANCEL_pronoia_NEWDESC: "Скасувати статус пронії #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!?"
   BREAK_pronoia_NEWDESC: "Припинити бути пронією #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!?\nТакий крок зіпсує відносини та дасть цій країні [Concept('casus_belli', 'привід для війни')|e] з нами!"

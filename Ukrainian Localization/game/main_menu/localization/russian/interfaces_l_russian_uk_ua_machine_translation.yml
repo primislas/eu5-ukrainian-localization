@@ -5,7 +5,7 @@
   BALANCE_IN_MARKET: "[Goods.GetName] на ринку [Market.GetName]"
   ARMY_MAINT_INFO_DETAILZ: "Ефективність утримання війська\nВиплачується $VAL|V2%$ [Concept('army_maintenance', 'утримання війська')|e], причини: [COUNTRY.GetModifierValue('army_maintenance_efficiency')]"
   NAVY_MAINT_INFO_DETAILZ: "Ефективність утримання флоту\nВиплачується $VAL|V2%$ [Concept('navy_maintenance', 'утримання флоту')|e], причини: [COUNTRY.GetModifierValue('navy_maintenance_efficiency')]"
-  BUILDINGS_WERE_DESTROYED: "[COUNTRY.GetNameWithNoTooltip] отрима[COUNTRY.Custom('end_fem')] $VAL|2+=$@gold! за пожежі та грабунки, вчинені тут: $LIST$."
+  BUILDINGS_WERE_DESTROYED: "[COUNTRY.GetNameWithNoTooltip] отрима[COUNTRY.Custom('end_vlaloly')] $VAL|2+=$@gold! за пожежі та грабунки, вчинені тут: $LIST$."
   CLOSEST_DISTANCE_IS_FROM: "Відстань. [TARGET_AREA.GetName] найближча до області [AREA.GetName]. Відстань: $VAL|0V$"
   DIPLO_RANGE_NEIGHBOR: "Є спільний кордон"
   DIPLO_RANGE_DEPENDENCY: "Країни перебувають у відносинах типу «васал — сюзерен»"

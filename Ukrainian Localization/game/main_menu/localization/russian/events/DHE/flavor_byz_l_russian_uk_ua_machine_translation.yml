@@ -358,7 +358,7 @@
   flavor_byz.63.entry: "Смерть Никифора Григори"
   flavor_byz.63.desc_neutral: "[target_character.GetName], [Select_CString(target_character.IsFemale, 'одна', 'один')] з найвидатніших істориків нашої країни, [Select_CString(target_character.IsFemale, 'знайшла', 'знайшов')] вічний спокій. Багато років [target_character.GetSheHe] вірою і правдою [Select_CString(target_character.IsFemale, 'служила', 'служив')] [ROOT.GetCountry.Custom('longname_ua_DAT')], а [target_character.GetHerHis] найвеличніший витвір — [target_woa.GetDefinition.GetName|l] під назвою «[target_woa.GetName]» — назавжди увійде до скарбниці [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ої цивілізації."
   flavor_byz.63.desc_nikephoros_is_hated: "$flavor_byz.63.desc_neutral$ Прикро, що останні роки життя [target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale, 'відстоювала', 'відстоював')] єресь ісихазму."
-  flavor_byz.63.a: "З [target_character.GetHerHis] відходом [ROOT.GetCountry.GetLongNameWithNoTooltip] багато втратив[ROOT.GetCountry.Custom('end_fem')]."
+  flavor_byz.63.a: "З [target_character.GetHerHis] відходом [ROOT.GetCountry.GetLongNameWithNoTooltip] багато втрати[ROOT.GetCountry.Custom('end_vlaloly')]."
   woa_was_created_here: "[THIS.GetWorkOfArt.GetLocation.GetName] — це [THIS.GetWorkOfArt.GetLocation.GetRank.GetNameWithNoTooltip|l], де [THIS.GetWorkOfArt.GetCreator.GetName] [Select_CString(THIS.GetWorkOfArt.GetCreator.IsFemale, 'створила', 'створив')] такий видатний витвір, як [THIS.GetWorkOfArt.GetDefinition.GetName|l] [THIS.GetWorkOfArt.GetName]"
   flavor_byz.64.title: "Пелопоннеська кампанія"
   flavor_byz.64.entry: "$flavor_byz.64.title$"
