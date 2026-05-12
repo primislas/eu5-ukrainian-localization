@@ -159,7 +159,7 @@
   ALERT_PARLIAMENT_IN_SESSION_TITLE: "Триває засідання зборів"
   ALERT_PARLIAMENT_IN_SESSION: "Ваші [Concept('parliament', 'збори')|e] скликані, вони радитимуться ще [COUNTRY.GetGovernment.GetParliament.GetRemainingParliamentDuration] д."
   ALERT_IMPERIAL_DIET_IN_SESSION_TITLE: "Триває засідання райхстагу"
-  ALERT_IMPERIAL_DIET_IN_SESSION: "Зараз обговорюється питання «[INTERNATIONAL_ORGANIZATION.GetParliament.GetCurrentDebateName]». Нас підтримує [INTERNATIONAL_ORGANIZATION.GetParliament.GetParliamentIssueSupport|2%G] членів [INTERNATIONAL_ORGANIZATION.Custom('parliament_ru_GEN')|l]."
+  ALERT_IMPERIAL_DIET_IN_SESSION: "Зараз обговорюється питання «[INTERNATIONAL_ORGANIZATION.GetParliament.GetCurrentDebateName]». Нас підтримує [INTERNATIONAL_ORGANIZATION.GetParliament.GetParliamentIssueSupport|2%G] членів [INTERNATIONAL_ORGANIZATION.Custom('parliament_ua_GEN')|l]."
   ALERT_PARLIAMENT_ISSUE: "Зараз на обговоренні [COUNTRY.GetGovernment.GetParliament.GetCurrentDebateName|l]. Рівень підтримки: [COUNTRY.GetGovernment.GetParliament.GetParliamentIssueSupport|%Y]."
   ALERT_PARLIAMENT_NO_ISSUE: "Зараз обговорень не ведеться."
   ALERT_UNPROFITABLE_BUILDINGS: "Невигідні споруди"
