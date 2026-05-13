@@ -16,12 +16,11 @@ _EMPTY_LIST = []
 
 
 def list_localization_files(languages: Language | str | list[Language | str] | None = None, source_dir: Path = translation_dir) -> list[str]:
-    def is_matching_file(filename: str) -> bool:
-        return (not languages and filename.endswith(".yml")) or any(f"_l_{l}.yml" in filename for l in languages)
-
     if isinstance(languages, (str, Language)):
         languages = [languages]
     localization_files = []
+    def is_matching_file(filename: str) -> bool:
+        return (not languages and filename.endswith(".yml")) or any(f"_l_{l}.yml" in filename for l in languages)
 
     # Walking depth-first
     for root, dirs, files in os.walk(source_dir):

@@ -85,7 +85,7 @@ Historical Tone:
     * "art_quality", "качество" (произведений искусства) -> "майстерність"
     * "skill", "талант", "таланты" -> "хист"
     * "trait", "свойство" -> "риса"
-    * "vassal", "subject", "ленник" -> "васал"
+    * "vassal", "subject", "ленник" -> "васал"; never use "ленник", always prefer "васал"
     * damage done, наносить урон -> "завдавати втрат" when subject is armies and regiments, "завдавати ушкоджень" when its about navies and ships
     * damage taken, получать урон -> зазнавати втрат when subject is armies and regiments, "зазнавати ушкоджень" when its about navies and ships
     * смещение -> рух
@@ -221,7 +221,8 @@ Historical Tone:
     * пауза - павза
     * жарче, жалкіше - палкіше
     * безвременно - передчасно
-    * прозябати - животіти
+    * прозябать, прозябати - животіти
+    * неразбериха, нерозберіха - безлад
 
 # Examples
 
