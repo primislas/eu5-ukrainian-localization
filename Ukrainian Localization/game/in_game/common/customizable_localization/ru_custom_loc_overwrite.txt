@@ -1,0 +1,72 @@
+﻿LR_tt = {
+	type = location
+	log_loc_errors = no
+	text = { localization_key = rural_settlement_tt_LR trigger = { location_rank = location_rank:rural_settlement } }
+	text = { localization_key = town_tt_LR trigger = { location_rank = location_rank:town } }
+	text = { localization_key = city_tt_LR trigger = { location_rank = location_rank:city } }
+}
+LR_GEN = {
+	type = location
+	log_loc_errors = no
+	text = { localization_key = rural_settlement_GEN trigger = { location_rank = location_rank:rural_settlement } }
+	text = { localization_key = town_GEN trigger = { location_rank = location_rank:town } }
+	text = { localization_key = city_GEN trigger = { location_rank = location_rank:city } }
+}
+LR_DAT = {
+	type = location
+	log_loc_errors = no
+	text = { localization_key = rural_settlement_DAT trigger = { location_rank = location_rank:rural_settlement } }
+	text = { localization_key = town_DAT trigger = { location_rank = location_rank:town } }
+	text = { localization_key = city_DAT trigger = { location_rank = location_rank:city } }
+}
+LR_ACC = {
+	type = location
+	log_loc_errors = no
+	text = { localization_key = rural_settlement_ACC trigger = { location_rank = location_rank:rural_settlement } }
+	text = { localization_key = town_ACC trigger = { location_rank = location_rank:town } }
+	text = { localization_key = city_ACC trigger = { location_rank = location_rank:city } }
+}
+LR_INST = {
+	type = location
+	log_loc_errors = no
+	text = { localization_key = rural_settlement_INST trigger = { location_rank = location_rank:rural_settlement } }
+	text = { localization_key = town_INST trigger = { location_rank = location_rank:town } }
+	text = { localization_key = city_INST trigger = { location_rank = location_rank:city } }
+}
+LR_PREP = {
+	type = location
+	log_loc_errors = no
+	text = { localization_key = rural_settlement_PREP trigger = { location_rank = location_rank:rural_settlement } }
+	text = { localization_key = town_PREP trigger = { location_rank = location_rank:town } }
+	text = { localization_key = city_PREP trigger = { location_rank = location_rank:city } }
+}
+IO_wntt_GEN = {
+	log_loc_errors = no
+	parent = IO_GEN
+	suffix = "_wntt"
+	if_invalid_loc = return_empty
+}
+IO_wntt_DAT = {
+	log_loc_errors = no
+	parent = IO_DAT
+	suffix = "_wntt"
+	if_invalid_loc = return_empty
+}
+IO_wntt_ACC = {
+	log_loc_errors = no
+	parent = IO_ACC
+	suffix = "_wntt"
+	if_invalid_loc = return_empty
+}
+IO_wntt_INST = {
+	log_loc_errors = no
+	parent = IO_INST
+	suffix = "_wntt"
+	if_invalid_loc = return_empty
+}
+IO_wntt_PREP = {
+	log_loc_errors = no
+	parent = IO_PREP
+	suffix = "_wntt"
+	if_invalid_loc = return_empty
+}
