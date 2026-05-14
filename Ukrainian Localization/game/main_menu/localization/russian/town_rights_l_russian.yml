@@ -2,16 +2,10 @@
  revoke_town_rights: "Отзыв городских прав"
  revoke_town_rights_desc: ""
  REVOKE_TOWN_RIGHTS_FROM: "Отзыв [Concept('town_rights', 'городских прав')|e] у района [TownRightsItem.GetFirstLocationName]"
- #######################################
- #   Non-production Rights    ##########
- #######################################
  staple_port: "Штапельный порт"
  staple_port_desc: "Этому [Concept('location', 'району')|e] дарованы привилегии, которые расширяют права #TOOLTIP:ESTATE_TYPE,burghers_estate,X #L горожан#!#! в сфере местной [Concept('trade', 'торговли')|e]."
  granary_town: "Зерновой центр"
  granary_town_desc: "Этому [Concept('location', 'району')|e] дарованы привилегии и правила, которые позволяют увеличить там производство и хранение [Concept('food', 'пищи')|e]."
- #######################################
- #   Production Rights    ##############
- #######################################
  royal_tooling_rights: "Права на производство инструментов"
  royal_tooling_rights_desc: "Этому [Concept('location', 'району')|e] дарованы права на производство и продажу #TOOLTIP:GOODS,tools,X #L инструментов#!#!, благодаря чему он получает существенное конкурентное преимущество."
  royal_jewelry_rights: "Права на ювелирное производство"
@@ -31,9 +25,6 @@
  not_forcefully_revoked_last_10_years_tt: "За последние 10 лет городские права ни разу не были насильственно отменены."
  royal_masonry_rights: "Права на каменные и стекольные работы"
  royal_masonry_rights_desc: "Этому [Concept('location', 'району')|e] дарованы права на возведение #TOOLTIP:GOODS,masonry,X #L каменной кладки#!#!, а также на производство и продажу #TOOLTIP:GOODS,glass,X #L стекла#!#!, благодаря чему он получает существенное конкурентное преимущество."
- #######################################
- #   Historic Rights    ################
- #######################################
  magdeburg_rights_town_rights: "$magdeburg_rights$"
  magdeburg_rights_town_rights_desc: "$magdeburg_rights_desc$"
  unlock_mageburg_town_rights_tt: "Открывает [Concept('town_rights', 'городские права')|e]: [ShowTownRightsName('magdeburg_rights_town_rights')|l] и [ShowTownRightsName('nuremberg_rights_town_rights')|l]"
@@ -88,9 +79,6 @@
  unlock_ville_franche_town_rights_tt: "Открывает [Concept('town_rights', 'городские права')|e]: [ShowTownRightsName('ville_franche_town_rights')|l]"
  borgo_franco_town_rights: "Боргофранкское право"
  borgo_franco_town_rights_desc: "Распространение коммун по всей Италии — новая реальность, которая определяет развитие этого региона. Их часто называют #italic «Борго Франко»#! (вольными городами), и по сравнению с сёлами они обладают рядом особых привилегий."
- #######################################
- #   Scandinavian Rights    ############
- #######################################
  scandinavian_fishing_privileges: "Рыболовные привилегии"
  scandinavian_fishing_privileges_desc: "Этому [Concept('location', 'району')|e] дарованы исключительные права на близлежащие рыбные угодья, а также торговлю сушёной и солёной рыбой. Приморские города Норвегии воспользовались этими привилегиями, чтобы организовать торговлю #TOOLTIP:GOODS,fish,X #L рыбой#!#! по всей Северной Европе."
  scandinavian_bergslag_privileges: "Горнорудные привилегии"
@@ -99,7 +87,6 @@
  scandinavian_tar_privileges_desc: "Этому [Concept('location', 'району')|e] дарованы права на производство и экспорт #TOOLTIP:GOODS,tar,X #L дёгтя#!#! и #TOOLTIP:GOODS,naval_supplies,X #L судостроительных материалов#!#! из лесов, принадлежащих короне. Эти лесные промыслы составляют основу для всего судостроения на побережье Балтийского моря."
  scandinavian_thing_rights: "Тингсретт"
  scandinavian_thing_rights_desc: "Этому [Concept('location', 'району')|e] дарованы официальные права на проведение собраний, или «тингсретт». Его жители получили признаваемый государством орган самоуправления и правосудия. Власть короны при этом лишается определённых полномочий, а взамен приобретает более дисциплинированное и лояльное население."
- #Byzantine / Greek / Roman
  imperial_breadbasket_rights: "Имперская житница"
  imperial_breadbasket_rights_granary_tt: "Has a [ShowBuildingTypeName('granary')] at maximum level."
  imperial_breadbasket_rights_desc: "Этому [Concept('location', 'району')|e] власти поручили снабжать провизией всё королевство, и чтобы удовлетворить эти амбициозные планы, мы расширили его зернохранилища. Зерно поступает сюда в огромных количествах, а затем под имперским надзором доставляется местным жителям и воинам."

@@ -256,7 +256,7 @@
  STATIC_MODIFIER_NAME_birth_of_a_new_city_mil: "Возникновение производственного центра"
  STATIC_MODIFIER_DESC_birth_of_a_new_city_mil: "Желая начать жизнь с чистого листа, люди массово перебираются в этот город."
  STATIC_MODIFIER_NAME_the_great_ruler_modifier: "Великий правитель"
- STATIC_MODIFIER_DESC_the_great_ruler_modifier: "За свои выдающиеся достижения в управлении державой этот персонаж получил прозвище «[Select_CString(CHARACTER.IsFemale, 'Великая', 'Великий' )]» и теперь пользуется любовью своего народа, гарантирующей стабильную власть."
+ STATIC_MODIFIER_DESC_the_great_ruler_modifier: "За свои выдающиеся достижения в управлении державой этот персонаж получил прозвище «[Select_CString(CHARACTER.IsFemale, 'Великая', 'Великий')]» и теперь пользуется любовью своего народа, гарантирующей стабильную власть."
  STATIC_MODIFIER_NAME_difficulty_player_very_easy: "Очень низкий"
  STATIC_MODIFIER_NAME_difficulty_player_easy: "Низкий"
  STATIC_MODIFIER_NAME_difficulty_player_normal: "Средний"

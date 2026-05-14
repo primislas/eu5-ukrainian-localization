@@ -1,8 +1,4 @@
 ﻿l_russian:
- 
-
-#### TRACK NAMES AND FLAVOUR TEXT ####
-
  MusicPlayer_01_Overture_I_Genesis: "01 - Overture I Genesis"
  MusicPlayer_01_Overture_I_Genesis_flavour: "'Мир пробуждается, солнечный свет постепенно открывает его лик, кусочек за кусочком.'"
  MusicPlayer_02_Overture_II_The_Odyssey: "02 - Overture II Odyssey"
@@ -168,11 +164,7 @@
  MusicPlayer_sol_syrian_Semai_Nahawand_flavour: "Рохи Аль‑Хаммаш — иракский музыкант и композитор, сыгравший важную роль в сохранении иракской музыкальной традиции."
  MusicPlayer_sol_syrian_Syrian_hymn_from_Syrian_orthodox_church: "Syrian - Syrian Hymn from Syrian Orthodox Church"
  MusicPlayer_sol_syrian_Syrian_hymn_from_Syrian_orthodox_church_flavour: "$Qanun_facts$"
-
-
- #### CONTRIBUTING COMPOSERS, PERFORMERS AND SOLOISTS ####
  Mattias_Henndlund: "Mattias Henndlund"
-
  Hakan_Glante: "Håkan Glänte"
  Hakan_Glante_and_Bach: "Håkan Glänte, J.S. Bach"
  Norrkoping_Symphony_Orchestra: "Norrköping Symphony Orchestra"
@@ -185,7 +177,6 @@
  Qanun_facts: "Канун (канун) — струнный инструмент семейства цитр, возможно, происходящий из древней Месопотамии, хотя его происхождение точно не установлено."
  Ilona_Danho: "Ilona Danho (vocals)"
  Feras_Charestan_and_Ilona_Danho: "$Feras_Charestan$, $Ilona_Danho$"
-
  Dan_Cecil_Hill: "Dan Cecil Hill (flutes)"
  Dan_Cecil_Hill_facts: "Дэн Сесил Хилл (народ кайюга, клан Цапли) — художник и музыкант народа хауденосауни (ирокезов), специализирующийся на традиционном изготовлении серебряных изделий и изготовлении флейт. Будучи художником, исполнителем и культурным деятелем на протяжении большей части своей жизни, он работал над сохранением и распространением всех аспектов истории своего народа, восходящей к доколониальным временам в США и более ранним периодам."
  Pierre_Harmon: "Pierre Harmon"
@@ -198,14 +189,10 @@
  Rohan_Pillai: "Rohan Pillai (veena)"
  Pancham_Upadhyay: "Pancham Upadhyay (mridangam)"
  Rohan_Pillai_and_Pancham_Upadhay: "$Rohan_Pillai$, $Pancham_Upadhyay$"
-
- 
  traditional: "Традиционные"
  improvisational: "Импровизация"
-
  Jacob_Regnart: "Jacob Regnart (1540‑е–1599)"
  Jacob_Regnart_facts: "Регнарт — фламандский композитор эпохи Возрождения, родился в Дуэ и писал как духовную, так и светскую музыку. На протяжении жизни он работал в Австрии и Богемии, в том числе в должности капельмейстера при эрцгерцоге Фердинанде в Инсбруке в 1580‑х годах."
-
  Martin_Rinckart: "Martin Rinckart (1586–1649)"
  Martin_Rinckart_facts: "Мартин Ринкарт — лютеранский священнослужитель и автор гимнов, служил архидиаконом в Айленбурге в Северной Саксонии, где он родился и умер."
  Joachim_Neander: "Joachim Neander (1650–1680)"
@@ -214,9 +201,6 @@
  Dietrich_Buxtehude_facts: "Дидрих Буксенхуде (при рождении Дидрих Хансен Буксенхуде) родился в Хельсингборге, провинция Сконе, в 1637 году. Буксенхуде считается одним из важнейших композиторов XVII века и оказал большое влияние на более поздних композиторов, таких как Бах и Гендель."
  Gabriel_Asaad: "Gabriel Asaad (1907–1997)"
  Rohi_al_Khammash: "Rohi al‑Khammash (1923–1998)"
-
-
-#### SOLOISTS ####
  Thomas_Bodin: "Thomas Bodin (oboe)"
  Emelie_Roos_and_Daniel_Burstedt: "Emelie Roos (recorder), Daniel Burstedt (English horn)"
  Lars_Paulsson: "Lars Paulsson (clarinet)"
@@ -228,13 +212,10 @@
  Emelie_Roos: "Emelie Roos (recorder)"
  Dohyo_Sol: "Dohyo Sol (lute)"
  Bjorn_Bjerknaes_Jacobsen: "Bjørn Bjerknæs‑Jacobsen (flugelhorn)"
- 
- 
  Rublev: "Рублёв"
  Ruffo: "Руффо"
  Army: "Армия"
  integrated: "интегрировано"
-
  MUSIC_PLAYER_NEXT: "Следующий трек"
  MUSIC_PLAYER_OPEN_SETTINGS: "Открыть настройки музыки"
  OPEN_MUSIC_PLAYER: "Открыть музыкальный плеер"

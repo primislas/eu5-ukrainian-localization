@@ -13,7 +13,6 @@
  PAUSE_MENU_ACHIEVEMENTS_TOOLTIP: "Откройте список достижений"
  PAUSE_MENU_EXIT_TOOLTIP: "Прервите текущую игру, чтобы выйти в систему или вернуться в главное меню"
  PAUSE_MENU_SWITCH_COUNTRY: "Карта мира"
- #Multiplayer Lobby
  FRONTEND_GOTO_LOBBY: "Окно выбора державы для сетевой игры"
  BACK_LOBBY: "Вернуться к окну выбора державы"
  LOBBY_UNAVAILABLE_IRONMAN: "@trigger_no! В режиме «Железная воля» карта мира недоступна."

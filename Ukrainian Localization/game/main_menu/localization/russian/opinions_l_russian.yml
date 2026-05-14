@@ -49,7 +49,7 @@
  OPINION_RELIGIOUS_TOLERANCE_ENTRY: "#T Причины терпимости#!\n#L [COUNTRY.GetAdjective]ая#! [Concept('tolerance', 'терпимость')|e] к религии «[TARGET_RELIGION.GetName]»: $VAL|0=+$\n"
  OPINION_RELIGION_GENERAL_VIEW_ENTRY: "#L [RELIGION.GetAdjective]ое#! мнение о религии «[TARGET_RELIGION.GetName]»: $VAL|0=+$\n"
  OPINION_RELIGION_ENTRY: "#L [RELIGION.GetAdjective]ое#! мнение о державах #L [TARGET_RELIGION.GetAdjective|l]ого#! толка: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|L0=+$#!\n"
- OPINION_EXCOMMUNICATED: "[CHARACTER.GetName] [Select_CString(CHARACTER.IsFemale, 'отлучена', 'отлучён' )] от церкви"
+ OPINION_EXCOMMUNICATED: "[CHARACTER.GetName] [Select_CString(CHARACTER.IsFemale, 'отлучена', 'отлучён')] от церкви"
  CULTURE_BREAKDOWN_TOOLTIP: "#T Распределение [CULTURE.GetNameWithNoTooltip|l]ой культуры#!\n[Concept('pops', 'Группы населения')|e] #L [CULTURE.GetName|l]ой#! культуры проживают в следующих [Concept('provinces', 'провинциях')|e]:"
  CULTURE_BREAKDOWN_TOOLTIP_ENTRY: "@province! [PROVINCE.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ $POP_SIZE|L$#!"
  ICI_HEADER: "[CULTURE.GetNameWithNoTooltip]ая культура в провинции [PROVINCE.GetNameWithNoTooltip]"
@@ -248,7 +248,6 @@
  opinion_jubilee_good: "Папа одобряет юбилей"
  stolen_jewels: "Украденные драгоценности"
  BYZ_latin_emperor_opinion: "Номинальный латинский император"
- #Western Schism
  western_schism_opposing_side: "Противник в Великом западном расколе"
  western_schism_rethinking_our_approach: "Пересматривают наш подход"
  declared_oboedientia: "Выразили преданность"
@@ -530,7 +529,6 @@
  opinion_enforced_culture: "Навязали нам свою культуру"
  opinion_tried_enforced_religion: "Пытались навязать нам свою религию"
  opinion_tried_enforced_culture: "Пытались навязать нам свою культуру"
- #Italian Wars
  member_same_league: "Участник той же лиги"
  opinion_weakened_our_league: "Ослабили нашу лигу"
  opinion_strengthened_our_league: "Усилили нашу лигу"
@@ -550,7 +548,6 @@
  opinion_ghibellines_sanction_pope: "Враждебно отнеслись к папству"
  opinion_guelphs_support_imperial_rivals: "Сторонники гвельфов"
  opinion_ghibellines_refuses_to_support_us: "Отказываются поддержать нас"
- #Rise of the Ottomans
  opinion_death_of_yakub_i: "Смерть Якуба I"
  opinion_professed_mutual_loyalty: "Пообещали взаимную верность"
  opinion_alliance_against_pope: "Союз против папы"
@@ -563,44 +560,32 @@
  opinion_did_not_claim_throne: "Уважение к претензиям"
  opinion_appeased_english_in_parliament: "Умилостивили англичан в парламенте"
  opinion_hyw_enemies: "$hundred_years_war$"
- #Persia
  opinion_did_not_support_rebels: "Не поддержали мятежников"
  opinion_crushed_shiite_revolt: "Сокрушили шиитских кызылбаши"
  opinion_attempts_of_reconciliation: "Попытка примирения"
- #Vijayanagar
  opinion_northern_nemesis: "Заклятые враги — мусульмане"
- #Cossacks
  opinion_cossack_raids: "Казачьи набеги"
- #Lithuania
  religious_friction_modifier: "Религиозные разногласия"
  opinion_dynastic_ties: "Династические узы"
  recently_embraced_catholicism: "Недавно обратились в католичество"
  opinion_diplomatic_gifts: "Дипломатические дары"
  opinion_order_of_the_holy_spirit: "Основали Орден Святого Духа"
- #Georgia
  opinion_demolished_catholic_embassies: "Разрушили католические посольства"
  opinion_catholic_presence_in_georgia: "Присутствие католиков в Грузии"
  opinion_royal_line_embraced_catholicism: "Королевский род обратился в католичество"
  opinion_refused_to_help_christian_minorities: "Отказались помочь христианским меньшинствам"
  opinion_protected_christian_minorities: "Защитили христианские меньшинства"
  opinion_embraced_true_faith: "Приняли истинную веру"
- #Tenets
  theological_difference_nature_of_christ: "Богословские споры о природе Христа"
- #Kilwa
  opinion_shirazi_islam: "Мусульмане-ширази"
  opinion_adopted_our_religious_views: "Приняли наши религиозные взгляды"
  opinion_peaceful_trade_relations: "Мирные торговые отношения"
- #Dai Viet
  opinion_mending_relations: "Налаживание отношений"
- #Majapahit
  opinion_death_of_hayan_wuruk: "[GetCharacter('maj_hayam_wuruk').GetNameWithNoTooltip] [Select_CString(GetCharacter('maj_hayam_wuruk').IsFemale,'мертва', 'мёртв')]"
  maj_diplomatic_oath: "Дипломатическая цель"
  maj_mutual_trust_malacca: "Взаимовыгодное сотрудничество"
- #Generic Missions
  trust_mission_trusted_ties: "Доверенные узы"
- #Jurchens/Manchu:
  mch_seven_grievances: "Семь больших обид"
- #Japan
  opinion_pirate_supporters: "Поддерживают пиратство"
  opinion_pirate_fighting: "Боролись против пиратства"
  opinion_allowed_cadastral_survey: "Разрешены кадастровые исследования"
@@ -624,52 +609,37 @@
  jap_kyushu_tandai: "Местный тандай"
  jap_new_relations_with_china: "Возобновление отношений с Китаем"
  jap_rejected_relations_with_china: "Отказ возобновить отношения с Китаем"
- # Iroquois
  trust_form_closer_bond_iro: "Установлены тесные связи"
- #American Revolution
  opinion_agitated_colony: "Взволнованная колония"
  opinion_given_support: "Оказана поддержка"
- #Songhai
  opinion_diplomatic_hajj: "Дипломатический хадж"
- #Golden Age of Piracy
  opinion_refused_prosecute_pirates: "Отказались судить пиратов"
  opinion_accepted_prosecute_pirates: "Согласились судить пиратов"
  opinion_confiscated_food_stockpiles: "Конфисковали запасы пищи"
- #Holy League
  pap_joined_the_holy_league: "Вступили в Священную лигу"
  pap_refused_the_holy_league: "Отказались вступить в Священную лигу"
- #Papal State
  opinion_tur_betrayed_the_true_faith: "Предали истинную веру"
  opinion_tur_embraced_the_true_faith: "Приняли истинную веру"
  opinion_pap_compromising_legitimacy: "Подорвали легитимность"
- #Ethiopia
  eth_rejected_artisans: "Отвергли ремесленников"
  eth_rejected_selling_secrets: "Отказались продавать секрет нафты"
- #Crisis of the <Emperor> Dynasty (China)
  opinion_internal_crisis: "Внутренний кризис"
- #China
  chi_intervention_in_vietnam: "Вторжение в Дайвьет"
  chi_reduced_tributary_size: "Уменьшен размер данника"
  chi_acceptance_of_dynasty: "Признание новой династии"
- #Columbian Exchange
  trust_learn_from_foreigners: "Изучают их обычаи"
  trust_absorb_institutions: "Принимают иностранные институты"
- #Orissa
  ori_friendly_portuguese_ties: "Дружественные узы"
  ori_hostility_against_por: "Нарастающая вражда"
  ori_rejected_investment_plan: "Отказались от вложений"
- #Bengal
  bng_chinese_ties: "Дипломатия в Китае"
- #Propagate Religion Events
  opinion_discriminated_our_countrymen: "Ущемили наших сограждан"
  opinion_adopted_islamic_titles: "Приняли исламские титулы"
  opinion_converted_to_islam: "Вступили в общину верующих"
- #Institution Events
  opinion_rejects_army_support: "Отказываются поддерживать нашу армию"
  opinion_went_on_grand_tour: "В большом путешествии"
  opinion_traders_in_x: "Приняли торговцев"
  opinion_refused_traders_in_x: "Отвергли торговцев"
- #Austria
  hab_austro_burgundian_friendship: "Австро-бургундская дружба"
  hab_austro_burgundian_friendship_refused: "Отказались устроить династический брак"
  hab_austro_bohemian_friendship: "Австро-богемская дружба"
@@ -681,15 +651,12 @@
  hab_austro_spanish_friendship: "Австро-испанская дружба"
  hab_austro_spanish_friendship_refused: "Отказались устроить династический брак"
  hab_proclaimed_austrian_empire: "Провозгласили Австрийскую Империю"
- #Castile
  CAS_claimed_portuguese_throne: "Выдвинули притязания на португальский престол"
  CAS_respected_portuguese_claims: "Почтили португальские претензии"
  CAS_rejected_royal_marriage: "Отклонили династический брак"
  bah_rejected_giving_up_throne: "Отклонили предложение перемирия"
- #Timurids
  tim_governor_welcomed_exiled_character: "Приняли изгнанников"
  tim_governor_executed_traitor: "Казнили предателя"
- #Delhi
  dlh_looted_capital: "Разграбили столицу"
  travels_of_ibn_battuta_modifier: "Путешествия Ибн Баттуты"
  antagonism_threatened_war: "Пригрозили войной"
@@ -779,43 +746,31 @@
  antagonism_maritime_aggression: "Морская агрессия"
  antagonism_seized_papal_capital: "Захват папской столицы"
  antagonism_infidel_holds_rome: "Иноверец удерживает Рим"
- # Athens
  antagonism_ach_byzantine_civil_war_intervention: "Посеян хаос в Византии"
- #Portugal
  por_shared_letters_with_persian_shah: "Обменялись письмами"
  por_converted_to_true_faith: "Обратились в истинную веру"
  por_rejected_jesus: "Насмехались над нами"
  por_rejected_nanban_trade_port: "Отказались от прав на торговый порт"
- #Morocco
  mor_rejected_turkish_mercenaries: "Отказались от турецких наёмников"
  mor_rejected_iberia_invasion: "Отказались от захватнического союза"
  mor_rejected_slave_force: "Отрицают работорговлю"
- #Bavaria
  bav_awarded_with_electorship: "Получили от императора статус выборщика"
  bav_refused_electorship: "Император отказался дать нам статус выборщика"
- #Hussite Wars
  opinion_religious_outreach_during_the_hussite_wars_modifier: "Религиозная пропаганда во время Гуситских войн"
  opinion_religious_radicalism_during_the_hussite_wars: "Религиозный радикализм во время Гуситских войн"
- #Pirates
  opinion_defected_fleet: "Дезертировавший флот"
- #Republic Factions
  goods_crossing_borders: "Перемещение товаров через границу"
- #HYW
  accepted_demands_modifier: "Согласились на наши требования"
  declined_demands_modifier: "Не согласились на наши требования"
  recent_appanage_opinion: "Недавно стали #TOOLTIP:SUBJECT_TYPE,appanage,X #L апанажем#!#!"
- #Fall of Delhi
  opinion_fall_of_delhi_delegates: "[GetCountry('DLH').GetAdjectiveWithNoTooltip]ие делегаты"
  fall_of_delhi_approached_by_delhi_opinion: "Власти [GetCountry('DLH').Custom('CL_GEN')] попытались сблизиться"
  fall_of_delhi_scorned_by_delhi_opinion: "Презрительное отношение со стороны [GetCountry('DLH').Custom('CL_GEN')]"
- #Tatar Yoke
  opinion_tax_collector_granted: "Получили более высокую должность"
  opinion_tax_collector_revoked: "Лишились более высокой должности"
  opinion_tax_collector_rejected: "Отказались от более высокой должности"
- #Cahokia
  chk_raided_our_city: "Налёт на Кахокию"
  antagonism_chk_raiding_neighbors_for_food: "Налёты на соседей ради пищи"
- #Frankokratia
  ach_nap_court_ties: "Связи с неаполитанским двором"
  ach_nap_court_ties_monetary: "Финансовые связи с Неаполем"
  ach_epirus_support_rebel_victory: "Поддержка восстания Орсини"
@@ -833,7 +788,6 @@
  ath_claimed_thessalonica: "Захват Фессалоник"
  ath_proclaimed_rival_thessalonica_kingdom: "Создание соперничающего королевства в Фессалониках"
  lat_patriarchate_of_constantinople_restored: "Восстановление латинского патриархата в Константинополе"
- #Misc
  burned_venice: "Сожжена Венеция"
  ayd_byz_cooperation: "Сотрудничество против [GetCountry('TUR').Custom('CL_GEN')]"
  prevented_ship_building_technology_from_spreading: "Запрет на обмен кораблестроительными технологиями"
@@ -863,37 +817,26 @@
  opinion_joined_war_against_revolution_modifier: "Война против революции"
  opinion_forced_to_contribute_modifier: "Принуждение к сотрудничеству"
  opinion_rtr_loyal_subject: "Верный ленник"
- # Iroquois
  iro_walking_sale: "Прогулочная покупка"
  refused_iro_walking_sale: "Отказ от Прогулочной покупки"
  trading_in_furs_iro: "Торговля мехом"
- #Brandenburg
  opinion_bra_changing_allegiances_negative: "Смена союзников"
  opinion_bra_changing_allegiances_positive: "Смена союзников"
- # Novgorod
  nov_seized_control_of_peterhof: "Захват контроля над Немецким двором"
  nov_friendly_hanseatic_relations: "Дружеские отношения с Ганзой"
- #Denmark
  dan_banned_lutheran_bible: "Запрет лютеранской Библии"
- #Fate of the Phoenix
  opinion_catholic_delegation: "Католическая делегация"
- #Orthodoxy
  opinion_invited_patriarch_delegation: "Пригласили делегацию патриарха"
  orthodox_synod_diplomatic_embassy_modifier: "Дипломатическое посольство"
- #Greek Generic
  alliance_with_lutherans: "Враг моего врага"
  mocked_nation: "Высмеяли нашу державу"
- #Bosnia
  opinion_bos_aspirations_of_liberty: "Мечты о свободе"
  opinion_bos_proclaimed_kingdom_of_bosnia: "Провозгласили Королевство Босния"
  opinion_bos_diplomatic_restraint: "Дипломатическая сдержанность"
  opinion_bos_became_catholic: "Обратились в католичество"
  opinion_bos_became_orthodox: "Обратились в православие"
- #Ragusa
  opinion_rag_ottoman_partnership: "Сотрудничество с османами"
- #Bulgaria
  opinion_bul_proclaimed_an_empire: "Провозгласили империю"
- #Croatia
  cro_approved_the_merge: "Одобрили объединение Хорватии и Славонии"
  cro_rejected_the_merge: "Отклонили объединение Хорватии и Славонии"
  cro_dismissal_of_nelipic: "Отказ принять претензию Нелипича"

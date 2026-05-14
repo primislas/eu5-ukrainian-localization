@@ -1,8 +1,4 @@
 ﻿l_russian:
- # If you really wanted you could manually write out each ordinal just by omitting the $NUM$
- # ordinal_numeral.english_language.000000001: "First"
- # ordinal_numeral.english_language.000000002: "Second"
- # ordinal_numeral.english_language.000000003: "Third"
  ordinal_numeral: "$NUM$"
  ordinal_numeral.english_language.1: "$NUM$ˢᵗ"
  ordinal_numeral.english_language.2: "$NUM$ⁿᵈ"
@@ -26,16 +22,13 @@
  ordinal_numeral.occitan_dialect.000000001: "$NUM$ᵉʳ"
  ordinal_numeral.occitan_dialect.000000002: "$NUM$ᵉⁿ"
  ordinal_numeral.occitan_dialect.000000003: "$NUM$ᵉⁿ"
- ordinal_numeral.occitan_dialect: "$NUM$ᵉⁿ" # èn
+ ordinal_numeral.occitan_dialect: "$NUM$ᵉⁿ"
  ordinal_numeral.catalan_dialect.000000001: "$NUM$-й"
  ordinal_numeral.catalan_dialect.000000002: "$NUM$-й"
- ordinal_numeral.catalan_dialect: "$NUM$-й" #è
+ ordinal_numeral.catalan_dialect: "$NUM$-й"
  ordinal_numeral.portuguese_language: "$NUM$º"
  ordinal_numeral.greek_language: "$NUM$o"
  ordinal_numeral.swedish_dialect: "$NUM$:e"
- # Unit-type-specific ordinals. Each prefix selects the correct grammatical gender for that word.
- # Regiment names are almost universally masculine so they fall through to the base ordinals.
- # Ordinal resolution order: dialect > language > base, so dialect entries shadow language entries.
  ordinal_numeral.unit_army.swedish_dialect: "$NUM$:a"
  ordinal_numeral.unit_navy.swedish_dialect: "$NUM$:a"
  ordinal_numeral.unit_army.scandinavian_language: "$NUM$:e"
@@ -75,11 +68,11 @@
  ordinal_numeral.korean_language: "Je $NUM$"
  ordinal_numeral.mongolian_language: "$NUM$-р"
  ordinal_numeral.breton_dialect: "$NUM$ᵛᵉᵗ"
- ordinal_numeral.breton_dialect.01: "$NUM$ᵃⁿ" # añ
+ ordinal_numeral.breton_dialect.01: "$NUM$ᵃⁿ"
  ordinal_numeral.breton_dialect.02: "$NUM$ⁱˡ"
  ordinal_numeral.breton_dialect.03: "$NUM$ᵉ"
  ordinal_numeral.breton_dialect.04: "$NUM$ᵉ"
- ordinal_numeral.welsh_dialect: "$NUM$ᵃⁱⁿ" # Welsh
+ ordinal_numeral.welsh_dialect: "$NUM$ᵃⁱⁿ"
  ordinal_numeral.welsh_dialect.00: "$NUM$ᶠᵉᵈ"
  ordinal_numeral.welsh_dialect.01: "$NUM$ᵃᶠ"
  ordinal_numeral.welsh_dialect.02: "$NUM$ⁱˡ"
@@ -151,7 +144,6 @@
  ordinal_numeral.welsh_dialect.97: "$NUM$ᵃⁱⁿ"
  ordinal_numeral.welsh_dialect.98: "$NUM$ᵃⁱⁿ"
  ordinal_numeral.welsh_dialect.99: "$NUM$ᵃⁱⁿ"
- ################ REGNAL NUMBERS FOR RULERS ################
  ordinal_numeral.regnal.male: "$ROMAN$"
  ordinal_numeral.regnal.female: "$ROMAN$"
  ordinal_numeral.regnal.male.french_language.000000001: "$ROMAN$"

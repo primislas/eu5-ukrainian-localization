@@ -398,7 +398,7 @@
  MOVEMENT_PRESENCE_POP_TOOLTIP: "[MOVEMENT.GetName] в группе населения «[POP.GetName]»: $AFFECTED$ из $TOTAL$ [Concept('pops', 'групп населения')|e] — последователи этого движения"
  PROVINCE_DEFINITION_TOOLTIP: "Число [Concept('locations', 'районов')|e]: [PROVINCE_DEFINITION.GetNumLocations]\n[Concept('area', 'Область')|e]: [PROVINCE_DEFINITION.GetArea.GetName]"
  PROV_DEF_MEMBERS_HEADER: "[Concept('locations', 'Районы')|e] провинции [PROVINCE_DEFINITION.GetNameWithNoTooltip]"
- PROV_DEF_MEMBERS_ENTRY: "[LOCATION.GetRank.GetIcon] [LOCATION.GetName] [LOCATION.GetOwner.GetFlagIcon] [SelectLocalization( LOCATION.IsProvinceCapital , 'PROVINCE_CAPITAL_TOOLTIP', '' )]: [LOCATION.GetTotalPopulationWithBreakDown] [population_icon]"
+ PROV_DEF_MEMBERS_ENTRY: "[LOCATION.GetRank.GetIcon] [LOCATION.GetName] [LOCATION.GetOwner.GetFlagIcon] [SelectLocalization( LOCATION.IsProvinceCapital , 'PROVINCE_CAPITAL_TOOLTIP', '')]: [LOCATION.GetTotalPopulationWithBreakDown] [population_icon]"
  PROV_DEF_MEMBERS_IMPENTRY: "[LOCATION.GetName]: [Concept('impassable', 'непроходимая территория')|e]"
  PROV_DEF_MEMBERS_LAKEENTRY: "[Concept('lake', 'Озеро')|e]: [LOCATION.GetName]"
  PROV_DEF_MEMBERS_SEAENTRY: "[Concept('seazone', 'Акватория')|e]: [LOCATION.GetName]"

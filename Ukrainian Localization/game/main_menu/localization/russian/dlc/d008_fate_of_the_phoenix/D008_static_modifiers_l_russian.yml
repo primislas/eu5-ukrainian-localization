@@ -1,5 +1,4 @@
 ﻿l_russian:
- #Fate of the Phoenix DLC
  STATIC_MODIFIER_NAME_roman_styled_architecture_modifier: "Архитектура в римском стиле"
  STATIC_MODIFIER_NAME_roman_style_infrastructure_and_water_works_modifier: "Римские инфраструктура и водные сооружения"
  STATIC_MODIFIER_NAME_roman_administrative_center_modifier: "Римский административный центр"
@@ -54,11 +53,9 @@
  STATIC_MODIFIER_NAME_strategikon_pezikou_modifier: "«Стратегикон пезику»"
  STATIC_MODIFIER_NAME_strategikon_thalassas_modifier: "«Стратегикон фалассас»"
  STATIC_MODIFIER_NAME_strategikon_ippikou_modifier: "«Стратегикон гиппику»"
- #Trebizond
  STATIC_MODIFIER_NAME_legacy_of_alexis_modifier: "$rank_empire_byzantine_ruler_male$ и его наследие"
  honored_trade_agreements: "Соблюдены торговые соглашения"
  STATIC_MODIFIER_NAME_mines_of_tzantzakon_modifier: "Тзанаконские рудники"
- #Pentarchy
  STATIC_MODIFIER_NAME_pentarch_constantinople: "Константинопольский патриарх"
  STATIC_MODIFIER_NAME_pentarch_rome: "Римский патриарх"
  STATIC_MODIFIER_NAME_pentarch_jerusalem: "Иерусалимский патриарх"
@@ -70,7 +67,6 @@
  STATIC_MODIFIER_NAME_pentarch_antioch_upgraded: "$STATIC_MODIFIER_NAME_pentarch_antioch$"
  STATIC_MODIFIER_NAME_pentarch_alexandria_upgraded: "$STATIC_MODIFIER_NAME_pentarch_alexandria$"
  STATIC_MODIFIER_NAME_mended_schism: "Преодолён раскол"
- #Fate of the Phoenix
  STATIC_MODIFIER_NAME_port_of_smyrna_modifier: "Порт Смирны"
  STATIC_MODIFIER_NAME_markets_of_smyrna_modifier: "Рынки Смирны"
  STATIC_MODIFIER_NAME_restored_the_imperial_capital_modifier: "Восстановлена старая столица"

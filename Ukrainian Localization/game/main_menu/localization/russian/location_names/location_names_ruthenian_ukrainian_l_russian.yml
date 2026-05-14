@@ -1,5 +1,4 @@
 ﻿l_russian:
- # ukrainian
  adalaga.ruthenian_language: "Водолага"
  buzhskyi.ruthenian_language: "Буск"
  chelm.ruthenian_language: "Холм"
@@ -18,7 +17,6 @@
  tereshkovichy.ruthenian_language: "Терешковичи"
  vithold_hammami.ruthenian_language: "Виноградная Криница"
  yaroslav_poland.ruthenian_language: "Ярослав"
- # Ukraine
  balikley.ruthenian_language: "Веселиново"
  ingul.ruthenian_language: "Ингульская Слобода"
  argamakli_sarai.ruthenian_language: "Андреев"
@@ -39,7 +37,6 @@
  kaffa.ruthenian_language: "Кафа"
  soldaia.ruthenian_language: "Судак"
  vosporo.ruthenian_language: "Корчев"
- # Moldova
  iagorlic.ruthenian_language: "Ягорлык"
  chisinau.ruthenian_language: "Кишинёв"
  hotin.ruthenian_language: "Хотин"
@@ -52,7 +49,6 @@
  cetatea_alba.ruthenian_language: "Белгород-Днестровский"
  chilia.ruthenian_language: "Килия"
  mezhorje.ruthenian_language: "Межигорье"
- # Russia
  klintsy.ruthenian_language: "Клинцы"
  rakitnoye.ruthenian_language: "Ракитное"
  belgorod.ruthenian_language: "Белгород"
@@ -120,7 +116,6 @@
  zimnyatsky.ruthenian_language: "Зимняцкая"
  malodelskaya.ruthenian_language: "Малодельская"
  popowa_gora.ruthenian_language: "Попова Гора"
- # Belarus
  gomel.ruthenian_language: "Гомель"
  slawharad.ruthenian_language: "Славгород"
  volosovichy.ruthenian_language: "Волосовичи"

@@ -1,8 +1,7 @@
 ﻿l_russian:
- #Fate of the Phoenix Actions
- PERFORM_request_papal_donation_ACTION_SETUP: "Когда [Concept('country', 'держава')|e] запрашивает пожертвование у [GetCountry('PAP').Custom('longname_ru_wntt_GEN')]"
+ PERFORM_request_papal_donation_ACTION_SETUP: "Когда [Concept('country', 'держава')|e] запрашивает пожертвование у [GetCountry('PAP').Custom('longname_ua_wntt_GEN')]"
  PERFORM_request_papal_donation_ACTION_HEADER: "$MESSENGER$"
- PERFORM_request_papal_donation_ACTION_TITLE: "[SCOPE.sCountry('actor').GetName] прос[SCOPE.sCountry('actor').Custom('end_ityat')] денежной помощи у [GetCountry('PAP').Custom('longname_ru_wntt_GEN')]"
+ PERFORM_request_papal_donation_ACTION_TITLE: "[SCOPE.sCountry('actor').GetName] прос[SCOPE.sCountry('actor').Custom('end_ityat')] денежной помощи у [GetCountry('PAP').Custom('longname_ua_wntt_GEN')]"
  PERFORM_request_papal_donation_ACTION_EFFECTS: "$EFFECT$"
  PERFORM_request_papal_donation_ACTION_LOG: "$PERFORM_request_papal_donation_ACTION_TITLE$"
  PERFORM_request_papal_donation_ACTION_BTN1: "OK"
@@ -117,7 +116,6 @@
  PERFORM_greek_festivals_ACTION_BTN2: "OK"
  PERFORM_greek_festivals_ACTION_BTN3: "$common_string_go_to$"
  PERFORM_greek_festivals_ACTION_MAP: ""
- #Orthodox
  WE_PERFORM_loan_icon_ACTION_SETUP: "Когда мы предлагаем заём в виде иконы"
  WE_PERFORM_loan_icon_ACTION_HEADER: "$MESSENGER$"
  WE_PERFORM_loan_icon_ACTION_TITLE: "Предложение займа в виде иконы!"

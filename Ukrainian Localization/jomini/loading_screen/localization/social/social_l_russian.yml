@@ -1,6 +1,6 @@
 ﻿l_russian:
  CREATE_SOCIAL_PROFILE_WINDOW_TITLE: "Создать профиль для соцсетей"
- CREATE_SOCIAL_PROFILE_WINDOW_DESCRIPTION: "Чтобы пользоваться социальными сервисами, необходимо создать профиль для соцсетей. Придумайте и введите имя для профиля." #TODO: Add more descriptive text
+ CREATE_SOCIAL_PROFILE_WINDOW_DESCRIPTION: "Чтобы пользоваться социальными сервисами, необходимо создать профиль для соцсетей. Придумайте и введите имя для профиля."
  FRIEND_LIST_TITLE: "Друзья"
  ADD_FRIEND_WINDOW_TITLE: "Добавить друга"
  ADD_NEW_FRIEND: "Добавить друга"

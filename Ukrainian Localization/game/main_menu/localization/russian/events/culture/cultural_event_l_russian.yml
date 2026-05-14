@@ -47,7 +47,7 @@
  cultural_event.12.a: "Мы поддержим это направление философии."
  cultural_event.12.b: "У нас хватает других забот."
  cultural_event.13.title: "Народная легенда"
- cultural_event.13.desc: "В народе ходят разные легенды и истории о человеке по имени [SCOPE.sCharacter('target_character').GetName]. Говорят, когда на территории #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! наступят тяжёлые времена, [Select_CString(SCOPE.sCharacter('target_character').IsFemale, 'она', 'он' )] вернётся и избавит державу от зла. Каким бы правдивым или нелепым ни был этот миф, его можно взять себе на вооружение, чтобы вселить народу надежду и заодно укрепить собственную легитимность."
+ cultural_event.13.desc: "В народе ходят разные легенды и истории о человеке по имени [SCOPE.sCharacter('target_character').GetName]. Говорят, когда на территории #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! наступят тяжёлые времена, [Select_CString(SCOPE.sCharacter('target_character').IsFemale, 'она', 'он')] вернётся и избавит державу от зла. Каким бы правдивым или нелепым ни был этот миф, его можно взять себе на вооружение, чтобы вселить народу надежду и заодно укрепить собственную легитимность."
  cultural_event.13.a: "Да, народу бывает нужна хорошая байка."
  cultural_event.13.b: "Не стоит отвлекать людей разными сказками."
  cultural_event.14.t: "Растущий университет [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip]"

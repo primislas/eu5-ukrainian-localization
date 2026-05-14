@@ -1,5 +1,4 @@
 ﻿l_russian:
- # Settings GUI
  DISCARD_DISABLED: "Нечего отменять"
  DISCARD_SETTINGS_TOOLTIP: "[SelectLocalization(JominiSettingsWindow.HasChanged, '', 'DISCARD_DISABLED')]"
  SAVECLOSE_SETTINGS_BUTTON: "[SelectLocalization(JominiSettingsWindow.HasChanged, 'SAVE_SETTINGS', 'CLOSE_SETTINGS')]"
@@ -11,22 +10,16 @@
  APPLIES_ON_SAVE: "Применяется при сохранении"
  APPLIES_IMMEDIATLY: "Применяется сразу же"
  CHANGE_PROFILE_NAME: "Изменить имя профиля"
- # General
  SETTING_VALUE_INT: "$VALUE|0$"
- # Graphics
  SETTING_TRIPLANAR_UV_QUALITY: "Трёхпланарное качество развёртки"
  SETTING_TRIPLANAR_UV_QUALITY_TOOLTIP: "#T $SETTING_TRIPLANAR_UV_QUALITY$#!\nВлияет на качество текстур отвесного ландшафта."
  OPTION_VERY_LOW: "Очень низкое"
  SETTING_UNIT_COA_RESOLUTION: "Разрешение гербов у отрядов"
  SETTING_UNIT_COA_RESOLUTION_TOOLTIP: "#T $SETTING_UNIT_COA_RESOLUTION$#!\nВлияет на разрешение гербов, которые отображаются на униформе отрядов."
- # System
  SETTING_EDITOR_TOOLTIP: "#T Редактор #! Текстовый редактор для открытия файла игры"
  SETTING_HIDE_GAMECONTROLLER_CURSOR: "Скрыть указатель геймпада"
  SETTING_HIDE_GAMECONTROLLER_CURSOR_TOOLTIP: "#T $SETTING_HIDE_GAMECONTROLLER_CURSOR$#!\nСкрывает курсор при использовании геймпада вместо мыши."
- # Editor
- # Override
  CAMERA_TABLETOP: "Вид сверху"
- # Audio Volume Settings
  SETTING_Master: "Общая громкость"
  SETTING_Music: "@setting_immediatly!Музыка"
  SETTING_UI: "@setting_immediatly!Интерфейс"
@@ -48,8 +41,6 @@
  SETTING_Ambient_Objects_TOOLTIP: "#T Звуковое сопровождение объектов на карте\n#!Задаёт громкость всех звуков, исходящих от объектов на карте, таких как поселения и животные."
  SETTING_Ambient_Panel_TOOLTIP: "#T Звуковое сопровождение иллюстраций\n#!Задаёт громкость звукового сопровождения, связанного с панелями и иллюстрациями."
  SETTING_MUSIC_CATEGORY: "Музыка"
- # Audio Profiles Settings
- #SETTING_AUDIO_DEBUG_LOG_LEVEL: "Debug Log Level"
  SETTING_AUDIO_DEVICE_PROFILE: "Профиль звука"
  SETTING_AUDIO_DEVICE_PROFILE_TOOLTIP: "#T $SETTING_AUDIO_DEVICE_PROFILE$\n#!Выберите профиль звука, соответствующий вашей конфигурации или предпочтениям с точки зрения динамики звука и микширования. Эта настройка не влияет на маршрутизацию каналов."
  SETTING_AUDIO_OPTION_OFF: "Выкл."
@@ -64,7 +55,6 @@
  SETTING_AUDIO_OPTION_TV_TOOLTIP: "#T $SETTING_AUDIO_OPTION_TV$\n#!Профиль звука: $SETTING_AUDIO_OPTION_TV$ и маленькие динамики. Помогает контролировать низкие частоты, которые могут подавляться встроенными динамиками, а также повышает чёткость звучания на высоких частотах."
  SETTING_AUDIO_OPTION_NIGHTMODE: "Ночной режим"
  SETTING_AUDIO_OPTION_NIGHTMODE_TOOLTIP: "#T $SETTING_AUDIO_OPTION_NIGHTMODE$\n#!Профиль, смягчающий звук для воспроизведения в ночное время. Сужает динамический диапазон на всех частотах для улучшения чёткости звучания на небольшой громкости и слегка приглушает низкие частоты для минимизации помех."
- # Audio Music Settings
  SETTING_Music_Density: "Насыщенность музыки"
  SETTING_Music_Density_TOOLTIP: "#T Регулировка насыщенности музыки\n#!Задает длительность пауз между музыкальными композициями: от длинных до практически непрерывного воспроизведения. Значение по умолчанию — 20."
  SETTING_Music_Intensity: "Интенсивность музыки"
@@ -83,16 +73,12 @@
  SETTING_MUSIC_SYSTEM_TYPE_STATIC_CULTURAL_TOOLTIP: "#T $SETTING_MUSIC_SYSTEM_TYPE_STATIC_CULTURAL$\n#!Позволяет использовать более статическую систему подбора музыки с уклоном в сторону культурного контекста."
  SETTING_MUSIC_SYSTEM_TYPE_NOMUSIC: "Без музыки"
  SETTING_MUSIC_SYSTEM_TYPE_NOMUSIC_TOOLTIP: "#T $SETTING_MUSIC_SYSTEM_TYPE_NOMUSIC$\n#!Позволяет отключить систему подбора музыки."
- # Game
  SETTING_DEBUG_SAVES: "Число автосохранений"
  SETTING_DEBUG_SAVES_TOOLTIP: "#T $SETTING_DEBUG_SAVES$#!\nЗадаёт максимальное число возможных сохранений."
  IRONMAN_BLOCKS_THIS: "@trigger_fail! Недоступно в режиме «Железная воля»."
- # Multiplayer
  SETTING_MAX_TICKS_AHEAD: "Предельное опережение по тактам"
  SETTING_MAX_TICKS_AHEAD_TOOLTIP: "#T $SETTING_MAX_TICKS_AHEAD$#!\nЗадаёт максимальное число тактов до ожидания подключения клиентов, если вы организатор."
- # Override
  SETTINGS_FILE_TRANSFER_SPEED_TOOLTIP: "#T $SETTINGS_FILE_TRANSFER_SPEED$#!\nЗадаёт максимальную скорость передачи игровых сохранений в меню выбора державы в совместной игре.\n\nНизкие значения могут повысить стабильность подключения к сетевой игре, но увеличивают время загрузки такой игры."
- # Accessibility
  RELEVANT_HINTS: "Значимые советы"
  SETTING_HINTS: "Подсказки"
  SETTING_SHOW_HINTS: "Показывать подсказки"
@@ -118,7 +104,6 @@
  AGENDA_COUNTRY_CONTENT: "#L [Country.GetAdjective]ий#! контент"
  AGENDA_WALKTHROUGH_DISABLED_MISSIONS: "@trigger_no! Вы не сможете запустить обучающее прохождение с отключёнными заданиями. Включите их в разделе «Правила игры» в главном меню."
  AGENDA_WALKTHROUGH_IS_RUNNING: "@trigger_no! Идёт демонстрация."
- # Map
  SETTING_DRAW_TERRAIN: "Отображать ландшафт"
  SETTING_DRAW_WATER: "Отображать воду"
  SETTING_DRAW_BORDERS: "Отображать границы"
@@ -138,7 +123,6 @@
  SETTING_SHOW_COMBAT_FLOATING_LOSSES_TOOLTIP: "#T Показать боевые потери во всплывающем окне#! Если включить, то в ходе ваших наземных сражений над армиями будут появляться числовые значения потерь."
  SETTINGS_GRID_TILE_SIZE_TEXT: "Размер городских сооружений"
  SETTINGS_GRID_TILE_SIZE_TEXT_TOOLTIP: "Этот параметр определяет размер городских сооружений на трёхмерной карте."
- # Categories
  SETTING_MAP_MODE_SELECTOR_FAVORITES_VISIBLE: "Закрепить открытую панель избранных режимов карты"
  SETTING_MAP_MODE_SELECTOR_FAVORITES_VISIBLE_TOOLTIP: "#T Закрепить открытую панель избранных режимов карты#!\nЕсли включить, то панель избранных режимов карты внизу не свернётся, пока вы не переключите режим."
  SETTINGS_CATEGORY_INTERFACE: "Интерфейс"
@@ -150,7 +134,6 @@
  SETTINGS_CATEGORY_INPUT_LOCK: "Настройки блока ввода"
  SETTINGS_CATEGORY_DYNAMIC_NAMES: "Динамические названия"
  SETTINGS_CATEGORY_PLAYSETS: "Наборы"
- # Hotkeys
  SETTING_INPUT_CONTEXT_COMMON: "Обычные"
  SETTING_INPUT_CONTEXT_COMMON_TOOLTIP: "#T Обычные #! Привязки клавиш для частых действий"
  SETTING_INPUT_CONTEXT_WINDOW_TAB: "Окна"
@@ -254,7 +237,6 @@
  SETTING_INPUT_ACTION_CONTROL_GROUP_8: "Контрольная группа 8"
  SETTING_INPUT_ACTION_CONTROL_GROUP_9: "Контрольная группа 9"
  SETTING_INPUT_ACTION_MAPMODE_MENU: "Вкл./Выкл. меню режима карты"
- # Tooltips
  SETTING_TOOLTIP_MODE: "Режим подсказок"
  SETTING_TOOLTIP_MODE_TOOLTIP: "#T $SETTING_TOOLTIP_MODE$#!\nОпределяет тип закрепления подсказок."
  SETTING_TOOLTIP_MODE_NO_LOCK: "Не закреплять"
@@ -274,7 +256,6 @@
  SETTING_TOOLTIP_SHOW_EXTRA_INFO_DELAY_TIME_TOOLTIP: "#T $SETTING_TOOLTIP_SHOW_EXTRA_INFO_DELAY_TIME$#!\nЗадаёт время задержки перед отображением дополнительных сведений."
  SETTING_TOOLTIP_OPEN_TIME_WHEN_ANOTHER_LOCKED: "Задержка закрепления при открытой подсказке"
  SETTING_TOOLTIP_OPEN_TIME_WHEN_ANOTHER_LOCKED_TOOLTIP: "#T $SETTING_TOOLTIP_OPEN_TIME_WHEN_ANOTHER_LOCKED$#!\nЗадаёт время задержки перед отображением подсказок, если другая подсказка уже открыта."
- #Map tooltips
  SETTING_MAP_TOOLTIPS_ENABLE: "Подсказки на карте"
  SETTING_MAP_TOOLTIPS_ENABLE_TOOLTIP: "#T $SETTING_MAP_TOOLTIPS_ENABLE$#!\nПозволяет отображать подсказки при наведении курсора на карту."
  SETTING_MAP_TOOLTIPS_DELAY: "Задержка подсказок на карте"
@@ -282,7 +263,6 @@
  SETTING_MAP_TOOLTIPS_ENABLE_DISABLED: "Откл."
  SETTING_MAP_TOOLTIPS_ENABLE_NO_SEAZONES: "Нет акваторий"
  SETTING_MAP_TOOLTIPS_ENABLE_ENABLED: "Вкл."
- #Player Proficiency
  SETTING_PLAYER_PROFICIENCY: "Уровень мастерства игрока"
  SETTING_PLAYER_PROFICIENCY_TOOLTIP: "#T $SETTING_PLAYER_PROFICIENCY$#!\nОпределяет степень содействия игроку."
  SETTING_PLAYER_PROFICIENCY_UNKNOWN: "Не выбрано"
@@ -293,20 +273,16 @@
  SETTING_SKIP_WELCOME_NEW_GAME: "Пропуск приветствия в начале новой игры"
  SETTING_SKIP_WELCOME_NEW_GAME_TOOLTIP: "#T $SETTING_SKIP_WELCOME_NEW_GAME$#!\n$SETTING_SKIP_WELCOME_NEW_GAME_POPUP$"
  SETTING_SKIP_WELCOME_NEW_GAME_POPUP: "Пропускать приветствие и вместо этого открывать карту мира."
- #MP Chat Position
  SETTING_MP_CHAT_POSITION: "Расположение сетевого чата в игре"
  SETTING_MP_CHAT_POSITION_LOBBY: "Расположение сетевого чата в окне выбора державы"
- # Confirm
  SETTING_CONFIRM_MODE: "Подтверждение"
  SETTING_CONFIRM_MODE_HOLD: "Удержание"
  SETTING_CONFIRM_MODE_DIALOG: "Диалог"
  SETTING_CONFIRM_MODE_TOOLTIP: "#T $SETTING_CONFIRM_MODE$#!\nОпределяет тип подтверждения действий."
- #Dismiss
  SETTING_EVENT_WINDOW_INPUT_LOCK_TIME: "Блок ввода в окне событий"
  SETTING_EVENT_WINDOW_INPUT_LOCK_TIME_TOOLTIP: "#T $SETTING_EVENT_WINDOW_INPUT_LOCK_TIME$#!\nЗакрепляет кнопки в окнах событий на выбранное время."
  SETTING_POPUP_MESSAGE_INPUT_LOCK_TIME: "Блок ввода во всплывающих сообщениях"
  SETTING_POPUP_MESSAGE_INPUT_LOCK_TIME_TOOLTIP: "#T $SETTING_POPUP_MESSAGE_INPUT_LOCK_TIME$#!\nЗакрепляет кнопки во всплывающих окнах на выбранное время."
- #Graphics
  SETTING_SSR_QUALITY: "Отражения"
  SETTING_SSR_QUALITY_TOOLTIP: "#T $SETTING_SSR_QUALITY$#!\nНизкое качество может повысить частоту кадров."
  SETTING_BLUR_QUALITY: "Качество размытия фона интерфейса"
@@ -386,5 +362,4 @@
  SETTING_ENABLE_PARTICLES_TOOLTIP: "#T $SETTING_ENABLE_PARTICLES$\n#!Позволяет отключить эффекты частиц в игре, чтобы повысить быстродействие."
  SETTING_GUI_TEXTURE_STREAMING: "Потоковая передача текстур интерфейса"
  SETTING_GUI_TEXTURE_STREAMING_TOOLTIP: "#T $SETTING_GUI_TEXTURE_STREAMING$#!\nПозволяет включить потоковую передачу элементов графического интерфейса\nВключение этого параметра сократит использование видеопамяти, но при этом в интерфейсе могут временно отображаться текстуры более низкого качества."
- #Playsets
  SETTING_WARNING_PLAYSET: "Показывать предупреждение об ошибках в наборе"

@@ -57,4 +57,4 @@
  EFFECT_LIST_BULLET: "• "
  TRIGGER_AND: "Всё из перечисленного:"
  TRIGGER_OR: "Хотя бы одно из перечисленного:"
- SUPPRESS: "" #empty
+ SUPPRESS: ""

@@ -2,7 +2,7 @@
  MODIFIER_TYPE_NAME_fate_of_phoenix_actions_price_cost_modifier: "Модификатор затрат на действия «$D008_fate_of_the_phoenix$»"
  MODIFIER_TYPE_DESC_fate_of_phoenix_actions_price_cost_modifier: "Влияет на [Concept('costs', 'стоимость')|e] [Concept('actions', 'действий')|e] во время [Concept('disaster', 'бедствия')|e] #TOOLTIP:DISASTER_TYPE,D008_fate_of_the_phoenix,X #L «Судьба феникса»#!#!."
  MODIFIER_TYPE_NAME_subject_pays_pronoia_cost_modifier: "Доход от проний"
- MODIFIER_TYPE_DESC_subject_pays_pronoia_cost_modifier: "Влияет на то, сколько #TOOLTIP:SUBJECT_TYPE,pronoia,X прония#! ежемесячно платит своему [Concept('overlord','сюзерену')|e]."
+ MODIFIER_TYPE_DESC_subject_pays_pronoia_cost_modifier: "Влияет на то, сколько #TOOLTIP:SUBJECT_TYPE,pronoia,X прония#! ежемесячно платит своему [Concept('overlord', 'сюзерену')|e]."
  MODIFIER_TYPE_NAME_enable_pronoia_subject: "Разрешение на владение прониями"
  MODIFIER_TYPE_DESC_enable_pronoia_subject: "Позволяет владеть [Concept('subject_type', 'ленником типа')|e] #TOOLTIP:SUBJECT_TYPE,D008_pronoia,X #L «Прония»#!#!."
  MODIFIER_TYPE_NAME_select_orthodox_education_cost_modifier: "Выбор патриархального образования"

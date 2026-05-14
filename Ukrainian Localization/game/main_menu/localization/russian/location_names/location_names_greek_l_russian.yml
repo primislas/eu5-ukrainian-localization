@@ -5,10 +5,10 @@
  adana.greek_language: "Адана"
  adranos.greek_language: "Адрианы"
  afrin.greek_language: "Инопар"
- afsin.greek_language: "Эфес" #Arábissos
+ afsin.greek_language: "Эфес"
  ahlat.greek_language: "Катала"
  ahtopol.greek_language: "Агафополь"
- ajdabiya.greek_language: "Кератофила" #Corniclanum is the latin name of the place which translates to Horn tribe i hellenized it a bit
+ ajdabiya.greek_language: "Кератофила"
  akcasehir.greek_language: "Диосполь"
  akdagmadeni.greek_language: "Аргирий"
  akhisar.greek_language: "Фиатира"
@@ -17,12 +17,12 @@
  aksaray.greek_language: "Колония"
  aksehir.greek_language: "Филомелий"
  akyazi.greek_language: "Деметрий"
- al_bab.greek_language: "Батны" #no idea about the accent or if it has a better name
+ al_bab.greek_language: "Батны"
  al_bayda.greek_language: "Балагра"
  alaiye.greek_language: "Коракесий"
  alasehir.greek_language: "Филадельфия"
  aleppo.greek_language: "Верия Сирийская"
- alexandria.greek_language: "Александрия Египетская" # kat' Aígypton
+ alexandria.greek_language: "Александрия Египетская"
  altamura.greek_language: "Альтилия"
  altinekin.greek_language: "Конгуст"
  altintas.greek_language: "Соа"
@@ -46,7 +46,7 @@
  arguvan.greek_language: "Аргаунт"
  ariano.greek_language: "Ариано"
  arsuz.greek_language: "Рос"
- artah.greek_language: "Имма" #no idea where to put the accent
+ artah.greek_language: "Имма"
  artanuji.greek_language: "Артанисса"
  ashmunayn.greek_language: "Гермополь Великий"
  aslanapa.greek_language: "Эзианы"
@@ -102,7 +102,7 @@
  beysehir.greek_language: "Мисфия"
  biga.greek_language: "Пеги"
  bigadic.greek_language: "Пигадия"
- bihac.greek_language: "Ретиний" #roman/latin
+ bihac.greek_language: "Ретиний"
  bilbeis.greek_language: "Фелб"
  bilecik.greek_language: "Белокома"
  bingol.greek_language: "Романополь"
@@ -114,13 +114,13 @@
  bogazliyan.greek_language: "Кимбалей"
  bojano.greek_language: "Буианон"
  bologna.greek_language: "Бонония"
- bolu.greek_language: "Вифиний" #alt. Klavdioúpolis, even Hadriana or Hadrianopolis all 4 names were used to refer to it
+ bolu.greek_language: "Вифиний"
  bolvadin.greek_language: "Полиботон"
  bor.greek_language: "Фиана"
- borac.greek_language: "Кастра" #latin/roman is Castra, Hellenized it by using K
+ borac.greek_language: "Кастра"
  boruy.greek_language: "Иринополь"
  bosra.greek_language: "Восра"
- bovino.greek_language: "Вибинум" #latin/roman
+ bovino.greek_language: "Вибинум"
  boyabat.greek_language: "Амния"
  bozan.greek_language: "Потам"
  bozok.greek_language: "Тавия"
@@ -132,7 +132,7 @@
  bursa.greek_language: "Пруса"
  busir_quridis.greek_language: "Бусирис"
  butrint.greek_language: "Бутротон"
- buzet.greek_language: "Пиквент" #latin/roman name
+ buzet.greek_language: "Пиквент"
  cairo.greek_language: "Гелиополь"
  can.greek_language: "Палескепсис"
  canakkale.greek_language: "Абидос"
@@ -166,7 +166,7 @@
  corycus.greek_language: "Корик"
  cosenza.greek_language: "Козенция"
  cotrone.greek_language: "Кротон"
- crikvenica.greek_language: "Ад Туррес" #latin/roman
+ crikvenica.greek_language: "Ад Туррес"
  cubuk.greek_language: "Икотарий"
  cumra.greek_language: "Корна"
  dabiq.greek_language: "Минника"
@@ -194,8 +194,8 @@
  domanic.greek_language: "Доманитида"
  dospat.greek_language: "Деспати"
  drastar.greek_language: "Дуросторон"
- drijeva.greek_language: "Наренти" #latin/roman
- dubica.greek_language: "Ад Преториум" #latin/roman
+ drijeva.greek_language: "Наренти"
+ dubica.greek_language: "Ад Преториум"
  dubrovnik.greek_language: "Равсин"
  dupnitsa.greek_language: "Тобиница"
  durres.greek_language: "Диррахий"
@@ -247,28 +247,28 @@
  gaeta.greek_language: "Кайета"
  gallipoli.greek_language: "Каллиполь"
  gallipoliita.greek_language: "Каллиполь Апулийский"
- gaza.greek_language: "Селевкия" #Gaza, kadytis, Seleucia
+ gaza.greek_language: "Селевкия"
  gediz.greek_language: "Кады"
  gemerek.greek_language: "Армакса"
  gerace.greek_language: "Геракион"
  gerede.greek_language: "Кратея"
  gerger.greek_language: "Арсамея"
  gerze.greek_language: "Каруса"
- gigen.greek_language: "Иск" #Oescus in roman/latin
+ gigen.greek_language: "Иск"
  giresun.greek_language: "Керасунт"
  giza.greek_language: "Филака"
  gjakova.greek_language: "Цакобица"
- glamoc.greek_language: "Сальвий" #roman/latin
+ glamoc.greek_language: "Сальвий"
  gokabat.greek_language: "Идима"
  goksun.greek_language: "Кукусос"
  golhisar.greek_language: "Кивира"
  gonen.greek_language: "Артемида Фермийская"
  gordes.greek_language: "Гордос"
  gorele.greek_language: "Коралла"
- gorizia.greek_language: "Гориция" #hellenized
+ gorizia.greek_language: "Гориция"
  goynuk.greek_language: "Кинон Галликанон"
- gradina.greek_language: "Алата" #seems like a greek locations near the area
- gradiski_brod.greek_language: "Сервитий" #roman/latin
+ gradina.greek_language: "Алата"
+ gradiski_brod.greek_language: "Сервитий"
  guastalla.greek_language: "Брикселл"
  gubbio.greek_language: "Игувий"
  gumus.greek_language: "Диакопа"
@@ -282,7 +282,7 @@
  hargan.greek_language: "Кабасс"
  harmancik.greek_language: "Кивели"
  harput.greek_language: "Каркафиокерта"
- harsova.greek_language: "Карсий" #roman/latin
+ harsova.greek_language: "Карсий"
  haskovo.greek_language: "Марса"
  hatunsaray.greek_language: "Листра"
  hayrabolu.greek_language: "Хариополь"
@@ -294,17 +294,17 @@
  honaz.greek_language: "Хоны"
  huseyinabad.greek_language: "Митридатий"
  huwwarin.greek_language: "Евария"
- idlib.greek_language: "Серемин" #couldn't find any more info than this name could be wrong about it
+ idlib.greek_language: "Серемин"
  ilgin.greek_language: "Тирей"
  ilic.greek_language: "Аналиба"
  ilirska_bistrica.greek_language: "Бистрика Иллирийская"
- ilok.greek_language: "Коккий" # Cuccium
- imola.greek_language: "Корнелий Агора" #Hellenized the roman name Forum Cornelii
+ ilok.greek_language: "Коккий"
+ imola.greek_language: "Корнелий Агора"
  inebolu.greek_language: "Ионополь"
  inonu.greek_language: "Базилика"
  insuyu.greek_language: "Пиллитокоми"
  irbid.greek_language: "Арбела"
- isaccea.greek_language: "Новиодун" #roman/latin
+ isaccea.greek_language: "Новиодун"
  isernia.greek_language: "Эсерния"
  iskenderun.greek_language: "Александретта"
  iskilip.greek_language: "Асклепион"
@@ -316,8 +316,8 @@
  iznik.greek_language: "Никея"
  jabbul.greek_language: "Габула"
  jableh.greek_language: "Габалы"
- jagodina.greek_language: "Ад Октавум" #roman/latin
- jajce.greek_language: "Апева" #roman/latin
+ jagodina.greek_language: "Ад Октавум"
+ jajce.greek_language: "Апева"
  jayrud.greek_language: "Герода"
  jerusalem.greek_language: "Гиеросолима"
  kafartab.greek_language: "Кафарда"
@@ -330,11 +330,11 @@
  karak.greek_language: "Харах"
  karakecili.greek_language: "Аспона"
  karapinar.greek_language: "Фиваса"
- karlovac.greek_language: "Каролополь" #Hellenized, not official
+ karlovac.greek_language: "Каролополь"
  kars_armenia.greek_language: "Флавиополь"
  karvuna.greek_language: "Дионисополь"
  kas.greek_language: "Антифелл"
- kaseg.greek_language: "Анк" #might be roman/latin
+ kaseg.greek_language: "Анк"
  kastamonu.greek_language: "Кастамон"
  kavaje.greek_language: "Кабагия"
  kaymaz.greek_language: "Тронка"
@@ -347,26 +347,26 @@
  kharga.greek_language: "Оазис Внутренний"
  kharibta.greek_language: "Архандрополь"
  khujand.greek_language: "Александрия Эсхата"
- khupati.greek_language: "Кисса" #alt. Chópa
+ khupati.greek_language: "Кисса"
  kibrus.greek_language: "Кибера"
  kicevo.greek_language: "Кицабий"
- kilis.greek_language: "Килиза" #don't know where to put the accent
+ kilis.greek_language: "Килиза"
  kirklareli.greek_language: "Саранта Экклесиес"
  kirsehir.greek_language: "Юстинианополь"
  kiyikoy.greek_language: "Мидия"
  kizilca.greek_language: "Коккинофермы"
- kljuc.greek_language: "Клиуц" #hellenized
- knin.greek_language: "Бурнум" #latin/roman
+ kljuc.greek_language: "Клиуц"
+ knin.greek_language: "Бурнум"
  kocani.greek_language: "Коцана"
  kochisar.greek_language: "Парнас"
  koman.greek_language: "Комани"
- konrapa.greek_language: "Пруса у Иппоса" #alt. Prusias, Proúsa Yppíou
+ konrapa.greek_language: "Пруса у Иппоса"
  konya.greek_language: "Иконий"
- koprivnica.greek_language: "Коприбница" #just hellenized, not official
- kotor.greek_language: "Декатера" #Ascrivium in latin
+ koprivnica.greek_language: "Коприбница"
+ kotor.greek_language: "Декатера"
  koyulhisar.greek_language: "Никополь Армянский"
  kran.greek_language: "Севтополь"
- kranj.greek_language: "Крании" #cranium
+ kranj.greek_language: "Крании"
  kratovo.greek_language: "Транатура"
  krk.greek_language: "Кирикон"
  kruje.greek_language: "Кроя"
@@ -378,12 +378,12 @@
  kursunlu.greek_language: "Анадината"
  kutahya.greek_language: "Котиайон"
  kutina.greek_language: "Варианий"
- kutlovitsa.greek_language: "Кастра ад Монтанезиум" #latin/roman
+ kutlovitsa.greek_language: "Кастра ад Монтанезиум"
  kyrenia.greek_language: "Керинея"
  ladik.greek_language: "Клавдиолаодикея"
  ladik_pontus.greek_language: "Лаодикея Понтийская"
  lagonegro.greek_language: "Скидрос"
- lanciano.greek_language: "Анксанум" #latin/roman
+ lanciano.greek_language: "Анксанум"
  lapseki.greek_language: "Лампсак"
  lardeja.greek_language: "Ладрея"
  larende.greek_language: "Ларанда"
@@ -394,15 +394,15 @@
  lecce.greek_language: "Лупия"
  lezha.greek_language: "Лисс"
  limassol.greek_language: "Лемесос"
- livno.greek_language: "Баридум" #roman/latin
+ livno.greek_language: "Баридум"
  ljubljana.greek_language: "Эмона"
  lom.greek_language: "Артан"
- lovech.greek_language: "Ксисария" #possibly roman/latin
+ lovech.greek_language: "Ксисария"
  lucera.greek_language: "Лукерия"
  luleburgaz.greek_language: "Аркадиополь"
  maan.greek_language: "Аммата"
  majdal.greek_language: "Аскалон"
- makarska.greek_language: "Муккурум" #latin/roman
+ makarska.greek_language: "Муккурум"
  malatya.greek_language: "Мелитена"
  malazgirt.greek_language: "Мадзиерти"
  manavgat.greek_language: "Сида"
@@ -422,7 +422,7 @@
  matruh.greek_language: "Аммония"
  mazara.greek_language: "Селинунта"
  medicina.greek_language: "Клатерна"
- medveda.greek_language: "Идим" #roman/latin
+ medveda.greek_language: "Идим"
  megri.greek_language: "Макра"
  melfi.greek_language: "Венусия"
  melnik.greek_language: "Меленико"
@@ -470,15 +470,15 @@
  nuweiba.greek_language: "Нубимба"
  obruk.greek_language: "Петра"
  ohrid.greek_language: "Охрида"
- olovo.greek_language: "Плюмбум" #latin/roman
- onogost.greek_language: "Андерба" #latin/roman
+ olovo.greek_language: "Плюмбум"
+ onogost.greek_language: "Андерба"
  orte.greek_language: "Окриколон"
  orvietano.greek_language: "Вольсинии"
- oryahovo.greek_language: "Вариана" #latin/roman
+ oryahovo.greek_language: "Вариана"
  osijek.greek_language: "Мурса"
- otocac.greek_language: "Арупий" #latin/roman
+ otocac.greek_language: "Арупий"
  ovech.greek_language: "Проват"
- pakrac.greek_language: "Пакрац" #hellenized, not official
+ pakrac.greek_language: "Пакрац"
  palestrina.greek_language: "Пренесте"
  palmira.greek_language: "Метавр"
  palu.greek_language: "Палий"
@@ -487,7 +487,7 @@
  paphos.greek_language: "Пафос"
  parma.greek_language: "Парма"
  pazin.greek_language: "Петина"
- peja.greek_language: "Сипарант" #latin/roman
+ peja.greek_language: "Сипарант"
  perperek.greek_language: "Перперикон"
  pertek.greek_language: "Анзита"
  pesaro.greek_language: "Пизавр"
@@ -496,25 +496,25 @@
  piacenza.greek_language: "Плацентия"
  piedimonte.greek_language: "Аллифа"
  pirloganda.greek_language: "Астра"
- pirot.greek_language: "Туррес" #roman/latin
- pleven.greek_language: "Сторгосия" #roman/latin
- pljevlja.greek_language: "Комини" #roman/latin, unsure
+ pirot.greek_language: "Туррес"
+ pleven.greek_language: "Сторгосия"
+ pljevlja.greek_language: "Комини"
  plovdiv.greek_language: "Филиппополь"
  podgorica.greek_language: "Диоклея"
  pola.greek_language: "Пола"
  polatli.greek_language: "Гордий"
  postojna.greek_language: "Постония"
  potenza.greek_language: "Потентия"
- pozega.greek_language: "Поссега" #latin/roman
- pristina.greek_language: "Ульпиана" #latin/roman
- prizren.greek_language: "Феранда" #latin/roman
+ pozega.greek_language: "Поссега"
+ pristina.greek_language: "Ульпиана"
+ prizren.greek_language: "Феранда"
  prokuplje.greek_language: "Компл"
  prosek.greek_language: "Стены"
  ptuj.greek_language: "Петовий"
  qalyub.greek_language: "Каллиопа"
  qaryatayn.greek_language: "Назала"
  qasr_farafra.greek_language: "Фарафра"
- qastal.greek_language: "Кастелл" #latin/roman
+ qastal.greek_language: "Кастелл"
  qatya.greek_language: "Геррон"
  qena.greek_language: "Хенобоский"
  qus.greek_language: "Аполлония Малая"
@@ -535,7 +535,7 @@
  rossano.greek_language: "Русиан"
  rovigo.greek_language: "Адрия"
  rovinj.greek_language: "Рубиний"
- ruse.greek_language: "Сексагинта Приста" #latin/roman
+ ruse.greek_language: "Сексагинта Приста"
  sabanozu.greek_language: "Клоссама"
  sabina.greek_language: "Номент"
  safaga.greek_language: "Филотера"
@@ -553,7 +553,7 @@
  samsat.greek_language: "Самосата"
  samsun.greek_language: "Амис"
  sandikli.greek_language: "Гиераполь"
- sansevero.greek_language: "Каструм Дрионис" #latin/roman
+ sansevero.greek_language: "Каструм Дрионис"
  santangelo.greek_language: "Компса"
  santarcangelo.greek_language: "Гераклея"
  sariyahsi.greek_language: "Нисса"
@@ -563,7 +563,7 @@
  sebinkarahisar.greek_language: "Колония"
  selinti.greek_language: "Селинунт"
  semdinli.greek_language: "Семзинан"
- senj.greek_language: "Афинит" #don't see an accent, ancient greek
+ senj.greek_language: "Афинит"
  seydisehir.greek_language: "Амблада"
  seyhli.greek_language: "Дионисиополь"
  seyitgazi.greek_language: "Наколея"
@@ -577,7 +577,7 @@
  silivri.greek_language: "Силимврия"
  silli.greek_language: "Хелета"
  simav.greek_language: "Синай"
- sinj.greek_language: "Эквум" #latin/roman
+ sinj.greek_language: "Эквум"
  sinjar.greek_language: "Сингара"
  sinop.greek_language: "Синопа"
  siran.greek_language: "Хериана"
@@ -591,7 +591,7 @@
  skopje.greek_language: "Скупи"
  sliven.greek_language: "Селимн"
  slovenj_gradec.greek_language: "Колатий"
- slunj.greek_language: "Слобин" #hellenized, not official
+ slunj.greek_language: "Слобин"
  smederevo.greek_language: "Семендрия"
  smyrna.greek_language: "Смирна"
  sogut.greek_language: "Фебасий"
@@ -601,7 +601,7 @@
  sorgun.greek_language: "Евагина"
  sozopol.greek_language: "Аполлония Понтийская"
  split.greek_language: "Аспалат"
- srebrenica.greek_language: "Аргентария" #roman/latin
+ srebrenica.greek_language: "Аргентария"
  sredets.greek_language: "Сердонополь"
  sremska_mitrovica.greek_language: "Сирмий"
  stanimaka.greek_language: "Стенимах"
@@ -622,7 +622,7 @@
  tadmur.greek_language: "Пальмира"
  tahna.greek_language: "Акорий"
  taranto.greek_language: "Тарант"
- tarsus.greek_language: "Антиохия Киликийская" #alt. Antiócheia Kýdnoy , Tarsós
+ tarsus.greek_language: "Антиохия Киликийская"
  tartus.greek_language: "Антиарад"
  taskopru.greek_language: "Помпейополь"
  tatvan.greek_language: "Дизанант"
@@ -645,17 +645,17 @@
  tokat.greek_language: "Евдоксия"
  tomarza.greek_language: "Томарза"
  tosya.greek_language: "Феодосия Пафлагонская"
- trapessac.greek_language: "Ксаракс Мелеагра" #Meleagrum
+ trapessac.greek_language: "Ксаракс Мелеагра"
  trebinje.greek_language: "Тербуния"
  trebizond.greek_language: "Трапезунт"
  trieste.greek_language: "Тергеста"
  tripoli_syria.greek_language: "Триполис"
- trivento.greek_language: "Тервент" #latin/roman
- tsaribrod.greek_language: "Транслитий" #roman/latin
+ trivento.greek_language: "Тервент"
+ tsaribrod.greek_language: "Транслитий"
  tsepina.greek_language: "Цепена"
  tulcea.greek_language: "Эгис"
  turgut.greek_language: "Кланий"
- tutrakan.greek_language: "Трансмариска" #roman/latin
+ tutrakan.greek_language: "Трансмариска"
  ulnia.greek_language: "Ульния"
  uluborlu.greek_language: "Созополь"
  ulus.greek_language: "Олунт"
@@ -665,20 +665,20 @@
  urla.greek_language: "Клазомены"
  usak.greek_language: "Тименофира"
  uskudar.greek_language: "Халкидон"
- uzice.greek_language: "Капедун" #roman/latin
+ uzice.greek_language: "Капедун"
  vallo.greek_language: "Элея"
  van.greek_language: "Ева"
- varazdin.greek_language: "Вараздин" #hellenized it, not official
+ varazdin.greek_language: "Вараздин"
  varna.greek_language: "Павталия"
- vaska.greek_language: "Баска" #hellenized, not official
- vasto.greek_language: "Гистоний" #roman/latin
+ vaska.greek_language: "Баска"
+ vasto.greek_language: "Гистоний"
  velbuzd.greek_language: "Одессос"
  veles.greek_language: "Велеса"
  veliki_preslav.greek_language: "Никополь на Истре"
  velletri.greek_language: "Велитры"
  venafro.greek_language: "Венафр"
  vidin.greek_language: "Видина"
- virovitica.greek_language: "Биробитица" #hellenized it, not official
+ virovitica.greek_language: "Биробитица"
  viterbo.greek_language: "Экс"
  vize.greek_language: "Бизий"
  vrhbosna.greek_language: "Катера"
@@ -692,21 +692,6 @@
  zagreb.greek_language: "Андавтоний"
  zakho.greek_language: "Ксасания"
  zara.greek_language: "Зара"
- zardana.greek_language: "Зардания" #hellenized it, not official
- zenica.greek_language: "Бистуа Нова" #roman/latin
+ zardana.greek_language: "Зардания"
+ zenica.greek_language: "Бистуа Нова"
  zile.greek_language: "Зела"
- #  cheatsheet for letters that aren't in english keyboards:
- #  ô = ώ
- #  ō = ω
- #  ē = η
- #  ê = ή
- # Sources:
- #   Wikipedia
- #   ToposText (Greek Foundation)
- #   Digital Atlas of the Roman Empire (University of Gothenburg, Sweden)
- # More info on some cases that i couldn't find a name from sources:
- #   1. For some slavic cases if the location uses novi or grad in the name then i used semi-greek translation, novi = new = nea / grad = city = polis, ad = in = kata/ eis tên
- #   2. If it did not use some word i could translate, then i would put it on translate and listen the location name, then try to do 1 to 1 sound to text naming
- #   3. Used Roman/latin naming for locations that greek did not exit but Roman did
- #   4. For some cases that both Byzantine names and Greek names existsed, since we cannot separate them, i favored the greek version for some of the names
- #   5. Sometimes they stay as they are because i have no other option

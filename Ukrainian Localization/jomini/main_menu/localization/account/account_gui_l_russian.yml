@@ -52,12 +52,10 @@
  POPS_existing-steam-to-account-connection: "Учетная запись уже подключена к учетной записи Steam"
  POPS_third-party-exception: "Время ожидания выполнения запроса истекло"
  POPS_not-authorized: "Введенные вами адрес электронной почты и пароль не совпадают"
- #These should "never" happen, we should have validated before we sent the data
  POPS_missing-required-account-details-keys: "Вы не указали обязательную информацию"
  POPS_invalid-country-code: "Код страны недействителен"
  POPS_invalid-language-code: "Код языка недействителен"
  POPS_invalid-ISO-8601-format: "Формат даты недействителен"
- #These should also not happen, but are not related to validating our form
  POPS_parse-failure: "Ошибка клиента (парсинг)"
  POPS_unsupported-account-details-keys: "Ошибка клиента (неподдерживаемые ключи)"
  POPS_invalid-script-code: "Ошибка клиента (неправильный скрипт)"

@@ -46,13 +46,11 @@
  trade_category_desc: "Эти сооружения улучшают нашу национальную торговлю, позволяя купцам эффективнее торговать или действовать на новых рынках."
  village_category: "Деревни"
  village_category_desc: "Эти деревни можно построить в сельской местности."
- # Common Buildings
  irrigation_systems: "Ирригация"
  bridge_infrastructure: "Мост"
  mason: "Здание каменщиков"
  construction_center: "Строительный центр"
  construction_center_desc: "Позволяет возводить в [Concept('town_or_city', 'городском районе')|e] несколько сооружений одновременно."
- # Foreign Buildings
  trade_office: "Торговая контора"
  embassy: "Посольство"
  black_market: "Чёрный рынок"
@@ -76,7 +74,6 @@
  trade_company_foreign_influence_desc: "Это колониальное сооружение #TOOLTIP:SUBJECT_TYPE,trade_company,X #L торговой компании#!#! открывает возможности для иноземных групп населения."
  trade_company_governance: "Правление компании"
  trade_company_governance_desc: "Местное военное сооружение #TOOLTIP:SUBJECT_TYPE,trade_company,X #L торговой компании#!#!, где идёт набор и обучение войск, которые будут отстаивать интересы компании."
- # Rural Buildings
  settlement_building: "Поселение"
  bailiff: "Бейлиф"
  training_fields: "Учебный полигон"
@@ -103,7 +100,6 @@
  bog_iron_smelter_desc: "Железо — основа всей металлургии. В идеале лучше всего располагать полноценными, крупными залежами, но за их неимением можно добыть немного металла там, где он скапливается у воды."
  protected_harbor: "Защищённая гавань"
  protected_harbor_desc: "Некоторые места по природе своей особенно хорошо подходят под гавани, но подходящей инфраструктурой можно улучшить что угодно."
- # City Buildings
  temple: "Храм"
  cathedral: "Кафедральный собор"
  counting_house: "Контора"
@@ -143,13 +139,11 @@
  aqueduct_system_desc: "Аккуратно проложенные каменные каналы, по которым под действием силы тяжести перемещается чистая вода, — это простое, но очень важное сооружение. Акведук — первый шаг к организованному водоснабжению городов."
  hippodrome: "Ипподром"
  hippodrome_desc: "Ипподром — это подлинное сердце #TOOLTIP:LOCATION,constantinople,X #L Константинополя#!#!: под зорким взглядом правителя здесь соревнуются всадники, проходят имперские торжества и выражает свою волю простой народ. И зрители, и участники состязаний стремятся не просто искупаться в лучах славы — их влечёт желание лично повлиять на судьбу державы. Нельзя не восхититься выставленными здесь памятниками, которые собраны по всему Средиземноморью и олицетворяют имперское могущество. Однако на арену приходят не только ради зрелищ, здесь рождается общественное мнение. Благословение народа — залог долгого царствования."
- # Cultural Buildings
  university: "Университет"
  library: "Библиотека"
  opera_house: "Оперный театр"
  theater: "Театр"
  jesuit_college: "Иезуитский колледж"
- #Estate Buildings
  parish_church: "Приходская церковь"
  monastery: "Монастырь"
  order_stronghold: "Крепость ордена"
@@ -160,17 +154,12 @@
  madrasa: "Медресе"
  sufi_lodge: "Суфийская обитель"
  sufi_lodge_desc: "$sufi_lodge$, также известная под такими названиями, как ханака, завия, рибат, дарга, такья — место для духовных суфийских практик и занятий по религиозному мистицизму. Её сооружение и содержание расцениваются как акт благочестия и доказательство приверженности суфийским традициям и укреплению #TOOLTIP:RELIGIONGROUP,muslim,X #L ислама#!#!."
- #confucian_school_chinese: "Guānxué" #http://www.chinaknowledge.de/History/Terms/schools.html
- #confucian_school_korean: "Hyanggyo"
  confucian_school: "Конфуцианская школа"
- #confucian_academy_chinese: "Shūyuàn"
- #confucian_academy_korean: "Seowon"
  confucian_academy: "Конфуцианская академия"
  nobility_fortifications: "Укрепления знати"
  pirate_haven: "Пиратский схрон"
  rotten_borough: "Гнилое местечко"
  noble_villa: "Вилла аристократов"
- #noble_villa_german: "Rittergut"
  local_noble_delegation: "Делегация местной знати"
  nobles_recruitment_center: "Место набора знати"
  local_shrine: "Местное святилище"
@@ -210,7 +199,6 @@
  wheat_liquor_guild: "Пшеничная винокурня"
  scriptorium: "Скрипторий"
  brewery: "Пивоварня"
- #Guilds
  saltpeter_guild: "Гильдия селитряников"
  paper_guild: "Гильдия бумажников"
  cloth_guild: "Гильдия прядильщиков"
@@ -226,7 +214,6 @@
  cannon_maker: "Здание пушкарей"
  distillers_guild: "Гильдия винокуров"
  dyes_guild: "Красильня"
- # workshops
  pottery_workshop: "Гончарная мастерская"
  pottery_workshop_desc: "Гончары нужны везде, они изготавливают самые разные сосуды, от простых горшков для хранения, до ваз для украшения. Наладив производство посуды в специальных мастерских, можно удовлетворить потребность народа."
  tools_workshop: "Инструментальная мастерская"
@@ -237,7 +224,6 @@
  dyesworks_desc: "Создание специальных мастерских и расширение производства красителей позволят нашему населению использовать любые пигменты и краски."
  dyes_mill: "Красильная фабрика"
  dyes_mill_desc: "Только крупные мануфактуры по производству различных красителей смогут удовлетворить растущую потребность населения в пигментах и необычных цветах."
- #Manufactories
  cloth_manufactory: "Текстильная мануфактура"
  fine_cloth_manufactory: "Мануфактура тонкого сукна"
  naval_supplies_manufactory: "Мануфактура судостроительных материалов"
@@ -253,7 +239,6 @@
  lacquerware_manufactory: "Мануфактура лаковых изделий"
  brewery_manufactory: "Крупный пивзавод"
  iron_foundry: "Чугунолитейный цех"
- #Mills
  fine_cotton_cloth_mill: "Фабрика тонкого текстиля"
  textile_mill: "Текстильная фабрика"
  iron_mill: "Металлургический завод"
@@ -329,16 +314,13 @@
  mercury_patio_desc: "$mercury_patio$ — это комплекс зданий, где методом амальгамации из низкокачественных руд извлекаются золото и серебро, что делает добычу таких руд рентабельной."
  firearms_factory: "Оружейная фабрика"
  cannons_factory: "Пушколитейная фабрика"
- # Shipyard
  dock: "Док"
  dry_dock: "Сухой док"
  shipyard: "Судоверфь"
  grand_shipyard: "Большая судоверфь"
  naval_base: "Морская база"
- # Coastal Forts
  coastal_fort: "Береговая крепость"
  naval_battery: "Береговая батарея"
- # Forts
  castle: "Замок"
  bastion: "Бастион"
  star_fort: "Штерншанц"
@@ -346,20 +328,16 @@
  stockade: "Укрепление"
  city_walls: "Городские стены"
  city_walls_desc: "Эти внушительные укрепления окружают весь город, защищают его от захватчиков и вселяют жителям чувство безопасности."
- # Manpower Buildings
  armory: "Арсенал"
  barracks: "Казармы"
  regimental_camp: "Полковой гарнизон"
  conscription_center: "Призывной пункт"
- # Colonial Buildings
  missionary_building: "Миссия"
  slave_center: "Центр работорговли"
  overseas_trading_post: "Заморская фактория"
- # Plantations
  sugar_plantation: "Плантация сахарного тростника"
  cotton_plantation: "Хлопковая плантация"
  tobacco_plantation: "Табачная плантация"
- # Capital Buildings
  royal_court: "Монарший двор"
  admiralty: "Адмиралтейство"
  war_college: "Военный колледж"
@@ -377,20 +355,17 @@
  royal_garden_desc: "Обширный королевский сад — это островок рая на Земле. Здесь аристократы могут отдохнуть и предаться праздным развлечениям, любуясь величественными рукотворными пейзажами."
  pirate_stronghold: "Пиратская крепость"
  pirate_stronghold_desc: "Логово отбросов общества и самых отчаянных каперов, презирающих законы. Это сооружение — сердце пиратской республики."
- # HRE Buildings
  hre_imperial_armory: "Имперская оружейная"
  hre_imperial_armory_foreign: "$hre_imperial_armory$ (внешняя)"
  hre_imperial_armory_foreign_desc: "Оружейная поставляет императору рекрутов для службы в армии.\n\n#Y Превращается в сооружение «[ShowBuildingTypeName('hre_imperial_armory_own')]», если владельцем [Concept('location', 'района')|e] становится #TOOLTIP:SPECIAL_STATUS,emperor,X #L император#!#!.#!"
  hre_imperial_armory_own: "$hre_imperial_armory$ (внутренняя)"
  hre_imperial_armory_own_desc: "Оружейная поставляет императору рекрутов для службы в армии.\n\n#Y Превращается в сооружение «[ShowBuildingTypeName('hre_imperial_armory_foreign')]», если #TOOLTIP:SPECIAL_STATUS,emperor,X #L император#!#! перестаёт владеть [Concept('location', 'районом')|e].#!"
- # Market Center
  entrepot: "Пакгауз"
  trading_hub: "Торговый узел"
  customs_house: "Таможня"
  stock_exchange: "Биржа"
  clearing_house: "Расчётная палата"
  market_warehouse: "Рыночный склад"
- # Event Buildings
  cantonments: "Кантонмент"
  grand_palace: "Большой дворец"
  great_madrasa: "Большое медресе"
@@ -488,7 +463,6 @@
  sco_palace_of_holyroodhouse_desc: "Будучи ярким примером #TOOLTIP:CULTURE,$scottish_tt$,X #L шотландской#!#! архитектуры эпохи Возрождения, Холирудский дворец также является главной резиденцией [GetCountry('SCO').GetGovernment.GetAdjective|l]ой семьи."
  fra_louvre_museum: "Музей Лувра"
  fra_louvre_museum_desc: "Луврский дворец, который $french_group$ числит символом своей аристократии, преобразован в публичный музей, где выставляются лучшие произведения искусства государства [GetCountry('FRA').GetNameWithNoTooltip]."
- # Unique Buildings
  ablaq_palace: "Дворец в стиле аблак"
  ablaq_palace_desc: "Эта роскошная резиденция египетских правителей украшена кладкой под названием «аблак». В священных залах дворца вышивают шёлковое покрывало кисву, которой покрывается $kaaba$."
  mamluk_barracks: "Казармы мамлюков"
@@ -726,11 +700,11 @@
  fortress_desc: "$fortress$ — самое передовое оборонительное сооружение, созданное военными инженерами для защиты от самой мощной артиллерии. Это сложная система взаимосвязанных бастионов и казематов, позволяющая максимально эффективно вести ответный огонь по нападающим."
  sergeantry_desc: "$sergeantry$ — сооружение, где живут и тренируются сержанты. Слово «сержанты» происходит от латинского #italic  serviens#! — «слуги». Эти вооружённые солдаты, чьей силой пользуются монархи в феодальных системах, составляют ядро профессиональной армии."
  warrior_temple_desc: "$warrior_temple$ — сооружение, где можно взять на службу элитных #TOOLTIP:RELIGION,$nahuatl_tt$,X #L науаских#!#! #TOOLTIP:UNITTYPE,a_jaguar_warrior,X #L воинов-ягуаров#!#! или #TOOLTIP:UNITTYPE,a_eagle_warrior,X #L воинов-орлов#!#!."
- armory_desc: "#TOOLTIP:INSTITUTION,professional_armies,X #L Профессиональные армии#!#! развиваются, что вынуждает нас искать новые способы увеличения [Concept('manpower', 'числа рекрутов')|e] для наших [Concept('armies', 'армий')|e]. С этой целью в [Concept('towns_and_cities', 'городах')|e] можно строить арсеналы." #Renaissance #Urban
- training_fields_desc: "$training_fields$ можно построить в [Concept('rural_location', 'сельском районе')|e]. Это ещё один источник [Concept('manpower', 'рекрутов')|e] для наших [Concept('armies', 'армий')|e]." #Discovery #Rural
- barracks_desc: "$barracks$ — более эффективный способ увеличить [Concept('manpower', 'число рекрутов')|e] для наших [Concept('armies', 'армий')|e]. Они заменяют арсеналы в [Concept('towns_and_cities', 'городах')|e]." #Reformation #Urban
- regimental_camp_desc: "$regimental_camp$ — более эффективный способ увеличить [Concept('manpower', 'число рекрутов')|e] для наших [Concept('armies', 'армий')|e]. Он заменяет учебный полигон в любом [Concept('rural_location', 'сельском районе')|e]." #Absolutism #Rural
- conscription_center_desc: "$conscription_center$ — самый эффективный способ увеличить [Concept('manpower', 'число рекрутов')|e] для наших [Concept('armies', 'армий')|e]. Он заменяет казармы в [Concept('towns_and_cities', 'городах')|e] и полковой гарнизон в любом [Concept('rural_location', 'сельском районе')|e]." #Revolutions #Urban & Rural
+ armory_desc: "#TOOLTIP:INSTITUTION,professional_armies,X #L Профессиональные армии#!#! развиваются, что вынуждает нас искать новые способы увеличения [Concept('manpower', 'числа рекрутов')|e] для наших [Concept('armies', 'армий')|e]. С этой целью в [Concept('towns_and_cities', 'городах')|e] можно строить арсеналы."
+ training_fields_desc: "$training_fields$ можно построить в [Concept('rural_location', 'сельском районе')|e]. Это ещё один источник [Concept('manpower', 'рекрутов')|e] для наших [Concept('armies', 'армий')|e]."
+ barracks_desc: "$barracks$ — более эффективный способ увеличить [Concept('manpower', 'число рекрутов')|e] для наших [Concept('armies', 'армий')|e]. Они заменяют арсеналы в [Concept('towns_and_cities', 'городах')|e]."
+ regimental_camp_desc: "$regimental_camp$ — более эффективный способ увеличить [Concept('manpower', 'число рекрутов')|e] для наших [Concept('armies', 'армий')|e]. Он заменяет учебный полигон в любом [Concept('rural_location', 'сельском районе')|e]."
+ conscription_center_desc: "$conscription_center$ — самый эффективный способ увеличить [Concept('manpower', 'число рекрутов')|e] для наших [Concept('armies', 'армий')|e]. Он заменяет казармы в [Concept('towns_and_cities', 'городах')|e] и полковой гарнизон в любом [Concept('rural_location', 'сельском районе')|e]."
  salt_collector: "Сборщик соли"
  salt_collector_desc: "Соль ценилась на вес золота с тех пор, как люди придумали добавлять её в пищу. К счастью, соль легко выпарить из морской воды: нужно лишь набрать её и оставить на солнце. Кроме того, соль можно добыть со дна высохших озёр и рек."
  windmill: "Ветряная мельница"
@@ -946,7 +920,6 @@
  wat_chaiwatthanaram_temple_building_desc: "Этот храм обслуживает нужды нашего правителя. Здесь проходят государственные религиозные церемонии, а также похороны правителей и членов их семей."
  khmer_baray: "Барай"
  khmer_baray_desc: "Такие сооружения образуют большой рукотворный водоём, способствуют развитию сельского хозяйства и обеспечивают наше население пищей. Бараи быстро приходят в негодность, поэтому требуют пристального наблюдения и регулярного обслуживания."
- # Bavaria
  herrenchiemsee_abbey_potential: "Аббатство Херренкимзе можно построить только на острове Кимзе. При этом он должен находиться под контролем Баварии."
  herrenchiemsee_abbey: "Аббатство Херренкимзе"
  herrenchiemsee_abbey_desc: "Великолепный монастырь в стиле барокко, расположенный на острове Кимзе. Он не только имеет огромное культурное значение, но и способствует повышению грамотности и сохранению баварских традиций."
@@ -959,7 +932,6 @@
  munich_residenz_baroque_expansion: "Мюнхенская резиденция в стиле барокко"
  munich_residenz_baroque_expansion_desc: "Обновление #TOOLTIP:LOCATION,munich,X #L Мюнхенской#!#! резиденции в стиле барокко отражает архитектурные веяния эпохи Просвещения. Пышные сады, величественные залы и сложные элементы оформления подчёркивают богатство династии Виттельсбахов, укрепляя её влияние в Баварии и за её пределами."
  munich_residenz_baroque_expansion_potential: "Можно построить только после начала события «Расширение резиденции в эпоху барокко» и при наличии Мюнхенской резиденции эпохи Возрождения."
- #Majapahit
  bajang_ratu: "Баджанг Рату"
  bajang_ratu_desc: "$bajang_ratu$ — величественные церемониальные #italic  чанди-бентары#!, или расколотые врата. Это прочное сооружение из красного кирпича наверняка станет одним из самых высоких в $MAJ_ADJ$ом регионе. Врата выполняют важную функцию: они используются для крупных религиозных и политических церемоний."
  bubu_building: "Бубу"
@@ -968,16 +940,13 @@
  sufi_mosque_desc: "Это сооружение возводится местными жителями, недавно принявшими #TOOLTIP:RELIGIONGROUP,muslim,X #L ислам#!#!, и отражает более синкретический подход к вере."
  wali_songo_shrine: "Святилище вали"
  wali_songo_shrine_desc: "Это святилище посвящено #TOOLTIP:RELIGIONGROUP,muslim,X #L исламскому#!#! святому, сыгравшему большую роль в распространении ислама в этих землях."
- #Mali
  fulani_cattle_rearing_pen: "Загон для крупного рогатого скота"
  fulani_cattle_rearing_pen_desc: "Загоны для крупного скота, размещённые в этом [Concept('location', 'районе')|e], поспособствуют дальнейшему развитию скотоводства среди #TOOLTIP:CULTURE,$fulbe_tt$,X #L фульбского#!#! народа."
  trans_saharan_trade_outposts: "Торговый аванпост в Сахаре"
  trans_saharan_trade_outposts_desc: "На этих торговых аванпостах останавливаются караваны, пересекающие пустыню Сахару. Строя такие объекты, мы усиливаем своё влияние в регионе."
  son_unlocked_trans_saharan_outposts_tt: "Открыто [Concept('building', 'сооружение')|e] «[ShowBuildingTypeName('trans_saharan_trade_outposts')]»"
- #Ethiopia
  debere_meshwae: "Дебере Мешвар"
  debere_meshwae_desc: "Крупный #TOOLTIP:BUILDING_TYPE,miaphysite_monastery,X #L миафизитский монастырь#!#! Дебере Мешвар упрочил власть #TOOLTIP:ESTATE_TYPE,clergy_estate,X #L священников#!#! над этими землями и улучшил условия жизни местного населения."
- #West Africa
  walls_of_benin: "Стены Бенина"
  walls_of_benin_desc: "Эти стены оберегают #TOOLTIP:LOCATION,benin,X #L Benin#!#! от завоевателей и обеспечивают его процветание."
  zazzau_walls: "Стены Заззау"
@@ -986,28 +955,22 @@
  eghabho_nore_mansion_desc: "Это дом городского начальника, который руководит местными землями от имени правителя."
  ribat: "Рибат"
  ribat_desc: "Небольшое укрепление, предназначенное главным образом для защиты караванов или небольших областей от набегов."
- #Delhi
  delhi_tomb: "Индийская гробница"
  delhi_tomb_desc: "Эта гробница великого деятеля Индии служит важным символом культуры и достопримечательностью города."
- #Orissa
  ori_portuguese_quarters: "Португальское подворье"
  ori_portuguese_quarters_desc: "Эти покои служат резиденцией и местом отдыха богатых иностранных купцов, прибывших в Индию."
  mahmud_gawan_madrasa: "Медресе Махмуда Гавана"
  mahmud_gawan_madrasa_desc: "Это медресе возведено, чтобы учёные со всего мира смогли познакомиться с нашей культурой. Оно считается одним из величайших религиозных учебных заведений #TOOLTIP:REGION,deccan_region,X #L Декана#!#!."
- #Portugal
  por_feitoria: "Фейтория"
  por_feitoria_desc: "Оборудованная пушками и береговыми батареями фейтория укрепляет наше влияние в районе и облегчает торговлю для наших купцов."
  rahdar: "Радар"
  rahdar_desc: "Для защиты торговых путей #TOOLTIP:REGION,hindustan_region,X #L Индостана#!#! необходимо создать радар — дорожный патруль, который будет обеспечивать безопасную торговлю в этом районе."
  red_fort: "Красный форт"
  red_fort_desc: "[ShowBuildingTypeName('red_fort')] не только отражает престиж своего владельца, но и позволяет усилить контроль над местными землями и обеспечить их защиту от нападений."
- #Morocco
  guich_garrison: "Амазигский гарнизон"
  guich_garrison_desc: "Гарнизон, где располагаются и отдыхают #L [ShowCultureGroupName('amazigh_group')|l]ие#! воины. Позволяет более эффективно защищать территорию."
- #Sikhism
  gurgaddi: "Гуру Гадди"
  gurgaddi_desc: "Гуру Гадди, что означает «место гуру», — это резиденция духовных лидеров #TOOLTIP:RELIGION,$sikhism_tt$,X #L сикхов#!#!."
- #USA
  usa_academy_of_arts_and_sciences: "Американская академия искусств и наук"
  usa_academy_of_arts_and_sciences_desc: "$usa_academy_of_arts_and_sciences$ будет способствовать всестороннему развитию державы и позволит привести её к процветанию, которого заслуживает наш свободный и благочестивый народ."
  usa_academy_of_arts_and_sciences_why: "Американскую академию искусств и наук можно построить только в ходе события."
@@ -1020,10 +983,8 @@
  usa_national_mint: "Монетный двор США"
  usa_national_mint_desc: "$usa_national_mint$ будет отвечать за чеканку монет, регулируя и развивая этот процесс."
  usa_national_mint_why: "Монетный двор США можно построить только в ходе события."
- #Middle kingdom
  zhixian: "Чжисянь"
  zhixian_desc: "Это учреждение местного магистрата следит за управлением окрестными землями. Чиновники там — императорские назначенцы, представляющие власть Трона Дракона в провинциях."
- #Anatolia
  seljuk_mint: "Сельджукский монетный двор"
  seljuk_mint_desc: "$seljuk_mint$ — функционирующее охраняемое учреждение для чеканки монет. Оно символизирует политическую власть и финансовую стабильность."
  tur_kodjabashi_office: "Управление коджабаши"
@@ -1040,17 +1001,13 @@
  jewish_district_desc: "Это район для проживания местных #TOOLTIP:RELIGION,$judaism_tt$,X #L иудеев#!#!."
  darussifa: "Дарюшифа"
  darussifa_desc: "Больница, построенная ещё при Ильханате. Одна из самых передовых лечебниц в мире и центр прикладной медицины."
- #Cahokia
  woodhenge_of_cahokia: "Кахокийский Вудхендж"
  woodhenge_of_cahokia_desc: "$woodhenge_of_cahokia$ — это древний календарь, представляющий собой воткнутые в землю жерди, указывающие точное положение восходящего солнца в дни зимнего и летнего солнцестояния, а также весеннего и осеннего равноденствия."
  cahokia_woodhenge_why: "$woodhenge_of_cahokia$ можно построить только в ходе события."
- #Prussia
  charite_of_berlin: "Шарите"
  charite_of_berlin_desc: "$charite_of_berlin$ — это карантинная зона, расположенная за стенами Берлина, которая помогает бороться с эпидемиями."
- #Tlemcen
  qalat_al_mashwar: "Калат-аль-Мешоуар"
  qalat_al_mashwar_desc: "В самом сердце Тлемсена находится укреплённый дворцовый комплекс невероятной красоты, который не только олицетворяет власть и процветание, но также является административным центром правящей династии. Кроме того, этот роскошный дворец — ещё и надёжная крепость, защищающая от вражеских вторжений."
- #Germany
  german_river_toll_castle: "Таможенный замок у реки"
  german_river_toll_castle_desc: "Небольшой замок, возведённый у реки, позволяет контролировать местный торговый путь, а значит — пополнять казну частью доходов от торговли."
  german_mountain_toll_castle: "Таможенный замок в горах"

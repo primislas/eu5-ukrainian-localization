@@ -258,7 +258,7 @@
  AMH_ADJ: "Ардмайрск"
  TRY: "Тирконнелл"
  TRY_ADJ: "Тирконнелльск"
- KEE: "Кинах" # Cianachta
+ KEE: "Кинах"
  KEE_ADJ: "Кинахск"
  GLS_THE: "$common_string_prefix_article$"
  GLS: "Гленс"
@@ -1498,7 +1498,7 @@
  TMN_ADJ: "Тамнинск"
  SSG: "Сансон"
  SSG_ADJ: "Сансонск"
- SYG: "Шэньян" #沈阳
+ SYG: "Шэньян"
  SYG_ADJ: "Шэньянск"
  JAP: "Япония"
  JAP_ADJ: "Японск"
@@ -2011,8 +2011,8 @@
  ANS_ADJ: "Ансбахск"
  ULM: "Ульм"
  ULM_ADJ: "Ульмск"
- GRF: "Графенау" #Grafenau
- GRF_ADJ: "Графенауск" #Grafenauer
+ GRF: "Графенау"
+ GRF_ADJ: "Графенауск"
  PAL: "Пфальц"
  PAL_ADJ: "Пфальцск"
  PAL_THE: "$common_string_prefix_article$"
@@ -2766,7 +2766,6 @@
  TPX_ADJ: "Тепехикск"
  ZCZ: "Сакасонапан"
  ZCZ_ADJ: "Сакасонапанск"
- #Yucatan
  ITZ: "Ица"
  ITZ_ADJ: "Ицанск"
  COC: "Коком"
@@ -3031,207 +3030,207 @@
  YNJ_ADJ: "Юаньцзянск"
  NWU: "Нюу"
  NWU_ADJ: "Нюуск"
- NYZ: "Нинъюаньчжоу" #宁远州
+ NYZ: "Нинъюаньчжоу"
  NYZ_ADJ: "Нинъюаньчжоуск"
  NLU: "Налоу"
  NLU_ADJ: "Налоуск"
  YJI: "Яньцзин"
  YJI_ADJ: "Яньцзинск"
- BZH: "Бэйшэн" #北胜
+ BZH: "Бэйшэн"
  BZH_ADJ: "Бэйшэнск"
- YAN: "Яоань" #姚安
+ YAN: "Яоань"
  YAN_ADJ: "Яоаньск"
- HQG: "Хэцин" #鹤庆
+ HQG: "Хэцин"
  HQG_ADJ: "Хэцинск"
- NNN: "Аньнань" #安南
+ NNN: "Аньнань"
  NNN_ADJ: "Аньнаньск"
- AGN: "Аньин" #阿宁
+ AGN: "Аньин"
  AGN_ADJ: "Аньинск"
- MLE: "Милэ" #弥勒
+ MLE: "Милэ"
  MLE_ADJ: "Милэск"
- JSI: "Цзяньшуй" #建水
+ JSI: "Цзяньшуй"
  JSI_ADJ: "Цзяньшуйск"
- SPG: "Шипин" #石屏
+ SPG: "Шипин"
  SPG_ADJ: "Шипинск"
- NGZ: "Нинчжоу" #宁州
+ NGZ: "Нинчжоу"
  NGZ_ADJ: "Нинчжоуск"
- LLS: "Лолосы" #罗罗司
+ LLS: "Лолосы"
  LLS_ADJ: "Лолосыйск"
- CGZ: "Чанчжоу" #昌州
+ CGZ: "Чанчжоу"
  CGZ_ADJ: "Чанчжоуск"
  XLG: "Сяньлун"
  XLG_ADJ: "Сяньлунск"
- WDG: "Удин" #武定
+ WDG: "Удин"
  WDG_ADJ: "Удинск"
- RND: "Жэньдэ" #仁德
+ RND: "Жэньдэ"
  RND_ADJ: "Жэньдэск"
- DCN: "Дунчуань" #東川
+ DCN: "Дунчуань"
  DCN_ADJ: "Дунчуаньск"
- WNG: "Умэн" #乌蒙/烏蒙
+ WNG: "Умэн"
  WNG_ADJ: "Умэнск"
- MHU: "Маху" #马湖/馬湖
+ MHU: "Маху"
  MHU_ADJ: "Махуск"
- LBO: "Лэйбо" #雷波
+ LBO: "Лэйбо"
  LBO_ADJ: "Лэйбоск"
- YNL: "Юньлянь" #筠连/筠連
+ YNL: "Юньлянь"
  YNL_ADJ: "Юньляньск"
- ZNX: "Чжэньсюн" #镇雄
+ ZNX: "Чжэньсюн"
  ZNX_ADJ: "Чжэньсюнск"
- WSA: "Уса" #乌撒
+ WSA: "Уса"
  WSA_ADJ: "Усаск"
- ZYI: "Чжаньи" #沾益
+ ZYI: "Чжаньи"
  ZYI_ADJ: "Чжаньиск"
- QJG: "Цюйцзин" #曲靖
+ QJG: "Цюйцзин"
  QJG_ADJ: "Цюйцзинск"
- YZO: "Ицзо" #亦佐
+ YZO: "Ицзо"
  YZO_ADJ: "Ицзоск"
- MLG: "Малун" #马龙
+ MLG: "Малун"
  MLG_ADJ: "Малунск"
- LLN: "Лулян" #陆良
+ LLN: "Лулян"
  LLN_ADJ: "Лулянск"
- LXG: "Лосюн" #罗雄
+ LXG: "Лосюн"
  LXG_ADJ: "Лосюнск"
- GGX: "Гуанси" #广西
+ GGX: "Гуанси"
  GGX_ADJ: "Гуансийск"
- SZG: "Шицзун" #师宗
+ SZG: "Шицзун"
  SZG_ADJ: "Шицзунск"
- SXI: "Шуйси" #水西
+ SXI: "Шуйси"
  SXI_ADJ: "Шуйсийск"
- CLE: "Чэлэй" #车勒
+ CLE: "Чэлэй"
  CLE_ADJ: "Чэлэйск"
- BZU: "Бочжоу" #播州
+ BZU: "Бочжоу"
  BZU_ADJ: "Бочжоуск"
- NPG: "Цицзян" #綦江 Technically it's Nanping until 1363, but clashes with CNP so used the later name
+ NPG: "Цицзян"
  NPG_ADJ: "Цицзянск"
- RNG: "Жун" #戎
+ RNG: "Жун"
  RNG_ADJ: "Жунск"
- GNG: "Гун" #珙
+ GNG: "Гун"
  GNG_ADJ: "Гунск"
- ZNZ: "Чжэньчжоу" #真州
+ ZNZ: "Чжэньчжоу"
  ZNZ_ADJ: "Чжэньчжоуск"
- SZU: "Шичжу" #石柱
+ SZU: "Шичжу"
  SZU_ADJ: "Шичжуск"
- ZGL: "Чжунлу" #忠路
+ ZGL: "Чжунлу"
  ZGL_ADJ: "Чжунлуск"
- TGY: "Танъя" #唐崖
+ TGY: "Танъя"
  TGY_ADJ: "Танъяск"
- GLU: "Гаоло" #高羅
+ GLU: "Гаоло"
  GLU_ADJ: "Гаолоск"
- RGM: "Жунмэй" #容美
+ RGM: "Жунмэй"
  RGM_ADJ: "Жунмэйск"
- TNP: "Тяньпин" #添平
+ TNP: "Тяньпин"
  TNP_ADJ: "Тяньпинск"
- SGZ: "Санчжи" #桑植
+ SGZ: "Санчжи"
  SGZ_ADJ: "Санчжийск"
- DWG: "Даван" #大王
+ DWG: "Даван"
  DWG_ADJ: "Даванск"
- YGS: "Юншунь" #永顺
+ YGS: "Юншунь"
  YGS_ADJ: "Юншуньск"
- BJG: "Баоцзин" #保靖
+ BJG: "Баоцзин"
  BJG_ADJ: "Баоцзинск"
- YYG: "Юян" #酉阳
+ YYG: "Юян"
  YYG_ADJ: "Юянск"
- PCD: "Пинчадун" #平茶洞
+ PCD: "Пинчадун"
  PCD_ADJ: "Пинчадунск"
- SZH: "Сычжоу" #思州
+ SZH: "Сычжоу"
  SZH_ADJ: "Сычжоуск"
- YNH: "Яньхэ" #沿河
+ YNH: "Яньхэ"
  YNH_ADJ: "Яньхэск"
- TXI: "Тиси" #提溪
+ TXI: "Тиси"
  TXI_ADJ: "Тисийск"
- TGR: "Тунжэнь" #铜仁
+ TGR: "Тунжэнь"
  TGR_ADJ: "Тунжэньск"
- QGS: "Цюншуй" #邛水
+ QGS: "Цюншуй"
  QGS_ADJ: "Цюншуйск"
- WZH: "Учжай" #五寨
+ WZH: "Учжай"
  WZH_ADJ: "Учжайск"
- PTZ: "Пинтоучжэкэ" #平头著可
+ PTZ: "Пинтоучжэкэ"
  PTZ_ADJ: "Пинтоучжэкэск"
- LGQ: "Лунцюань" #龙泉
+ LGQ: "Лунцюань"
  LGQ_ADJ: "Лунцюаньск"
- RGS: "Жуншань" #Unknown characters so unknown pinyin
+ RGS: "Жуншань"
  RGS_ADJ: "Жуншаньск"
- BNI: "Байни" #白泥
+ BNI: "Байни"
  BNI_ADJ: "Байнийск"
- COG: "Цаотан" #草塘
+ COG: "Цаотан"
  COG_ADJ: "Цаотанск"
- XNL: "Синьлун" #Unknown characters so unknown pinyin
+ XNL: "Синьлун"
  XNL_ADJ: "Синьлунск"
- ALI: "Кайли" #凯里
+ ALI: "Кайли"
  ALI_ADJ: "Кайлийск"
- SDG: "Шуйдун" #水东
+ SDG: "Шуйдун"
  SDG_ADJ: "Шуйдунск"
- PYE: "Пинъюэ" #平越
+ PYE: "Пинъюэ"
  PYE_ADJ: "Пинъюэск"
- DZH: "Дичжай" #底寨
+ DZH: "Дичжай"
  DZH_ADJ: "Дичжайск"
- XNG: "Сяньнин" #Unknown characters so unknown pinyin
+ XNG: "Сяньнин"
  XNG_ADJ: "Сяньнинск"
- PDG: "Пиндин" #平定
+ PDG: "Пиндин"
  PDG_ADJ: "Пиндинск"
- PDN: "Пудин" #普定
+ PDN: "Пудин"
  PDN_ADJ: "Пудинск"
- PGB: "Пинба" #平坝
+ PGB: "Пинба"
  PGB_ADJ: "Пинбаск"
- PAN: "Пуань" #普安
+ PAN: "Пуань"
  PAN_ADJ: "Пуаньск"
- YNN: "Юннин" #Unknown characters so unknown pinyin
+ YNN: "Юннин"
  YNN_ADJ: "Юннинск"
- LIN: "Лайань" #Unknown characters so unknown pinyin
+ LIN: "Лайань"
  LIN_ADJ: "Лайаньск"
- NLG: "Аньлун" #安龙
+ NLG: "Аньлун"
  NLG_ADJ: "Аньлунск"
- SHG: "Шанлинь" #Unknown characters so unknown pinyin
+ SHG: "Шанлинь"
  SHG_ADJ: "Шанлиньск"
- QYN: "Цинъюань" #庆远
+ QYN: "Цинъюань"
  QYN_ADJ: "Цинъюаньск"
- NDN: "Наньдань" #南丹
+ NDN: "Наньдань"
  NDN_ADJ: "Наньданьск"
- DLN: "Дунлань" #东兰
+ DLN: "Дунлань"
  DLN_ADJ: "Дунланьск"
- XCG: "Синьчэн" #忻城
+ XCG: "Синьчэн"
  XCG_ADJ: "Синьчэнск"
- YSN: "Юншунь-Чжуан" #永顺 had to add Zhuang culture to it to distinguish it from YGS
+ YSN: "Юншунь-Чжуан"
  YSN_ADJ: "Юншуньск"
- TNZ: "Тяньчжоу" #田州
+ TNZ: "Тяньчжоу"
  TNZ_ADJ: "Тяньчжоуск"
- ADG: "Аньдин" #安定
+ ADG: "Аньдин"
  ADG_ADJ: "Аньдинск"
- DYG: "Дуян" #都阳
+ DYG: "Дуян"
  DYG_ADJ: "Дуянск"
- ZNN: "Чжэньань" #镇安
+ ZNN: "Чжэньань"
  ZNN_ADJ: "Чжэньаньск"
- TPG: "Тайпин" #太平
+ TPG: "Тайпин"
  TPG_ADJ: "Тайпинск"
- SMG: "Сымин" #思明
+ SMG: "Сымин"
  SMG_ADJ: "Сыминск"
- SGS: "Шансы" #上思
+ SGS: "Шансы"
  SGS_ADJ: "Шансыйск"
- GNN: "Гуаннань" #广南
+ GNN: "Гуаннань"
  GNN_ADJ: "Гуаннаньск"
- LZO: "Лоцзо" #罗佐
+ LZO: "Лоцзо"
  LZO_ADJ: "Лоцзоск"
- FZH: "Фучжоу" #富州
+ FZH: "Фучжоу"
  FZH_ADJ: "Фучжоуск"
- LZI: "Лянчжай" #Unknown characters so unknown pinyin
+ LZI: "Лянчжай"
  LZI_ADJ: "Лянчжайск"
- SZI: "Шэцзы" #Unknown characters so unknown pinyin
+ SZI: "Шэцзы"
  SZI_ADJ: "Шэцзыйск"
- DYN: "Дуюнь" #都匀
+ DYN: "Дуюнь"
  DYN_ADJ: "Дуюньск"
- LTU: "Ланьту" #爛土
+ LTU: "Ланьту"
  LTU_ADJ: "Ланьтуск"
- GZH: "Гучжоу" #古州
+ GZH: "Гучжоу"
  GZH_ADJ: "Гучжоуск"
- LPG: "Липин" #黎平
+ LPG: "Липин"
  LPG_ADJ: "Липинск"
- ZLD: "Чжунлиньдун" #Unknown characters so unknown pinyin
+ ZLD: "Чжунлиньдун"
  ZLD_ADJ: "Чжунлиньдунск"
- HZH: "Хунчжоу" #洪州
+ HZH: "Хунчжоу"
  HZH_ADJ: "Хунчжоуск"
- XSY: "Сишаньян" #西山阳
+ XSY: "Сишаньян"
  XSY_ADJ: "Сишаньянск"
- LNG: "Лян" #梁
+ LNG: "Лян"
  LNG_ADJ: "Лянск"
  CDL: "Дали"
  CDL_ADJ: "Далийск"
@@ -3351,7 +3350,7 @@
  NYA_ADJ: "Ньяронгск"
  GYT: "Гьелтханг"
  GYT_ADJ: "Гьелтхангск"
- YNG: "Юннин" #永宁
+ YNG: "Юннин"
  YNG_ADJ: "Юннинск"
  TNQ: "Тяньцюань"
  TNQ_ADJ: "Тяньцюаньск"
@@ -4058,7 +4057,6 @@
  SML_ADJ: "Санмаланск"
  ILC: "Илокос"
  ILC_ADJ: "Илокосск"
- #Kongo Region
  VUN: "Вунгу"
  VUN_ADJ: "Вунгуск"
  NSU: "Нсуди"
@@ -4570,22 +4568,12 @@
  SHM_ADJ: "Шаммарск"
  ANZ: "Аназа"
  ANZ_ADJ: "Аназск"
- #SKH: "Sakher"
- #SKH_ADJ: "Sakher"
- #HWT: "Al-Ḥuwayṭāt"
- #HWT_ADJ: "Al-Ḥuwayṭāt"
- #DFR: "Al-Dhafeer"
- #DFR_ADJ: "Al-Dhafeer"
- #AWZ: "Al-Awazem"
- #AWZ_ADJ: "Al-Awazem"
  HUT: "Хутайм"
  HUT_ADJ: "Хутаймск"
  HRB: "Харб"
  HRB_ADJ: "Харбск"
  MUT: "Мутайр"
  MUT_ADJ: "Мутайрск"
- #JUH: "Juhaynah"
- #JUH_ADJ: "Juhani"
  UTB: "Отайба"
  UTB_ADJ: "Отайбск"
  DWS: "Давасир"
@@ -4600,10 +4588,6 @@
  YAM_ADJ: "Ямск"
  YAS: "Яс"
  YAS_ADJ: "Ясск"
- #GMD: "Ghamd"
- #GMD_ADJ: "Ghamd"
- #ZHR: "Zahran"
- #ZHR_ADJ: "Zahranī"
  MDA: "Медина"
  MDA_ADJ: "Мединск"
  KLB: "Килаб"

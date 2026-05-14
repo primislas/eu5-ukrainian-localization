@@ -1,7 +1,5 @@
 ﻿l_russian:
- #Tags
  cannot_be_enforced_peace_on: "Навязанный мир не остановит войну"
- #CBs
  cb_conquer_province: "Претензии на провинцию"
  cb_conquer_province_PROV: "Претензии на провинцию [PROVINCE.GetName]"
  cb_parliament_conquer_province: "Парламент поддержал претензии на провинцию"
@@ -192,7 +190,7 @@
  cb_sco_invade_england: "Набег на [GetCountry('ENG').Custom('CL_ACC')]"
  cb_sco_invade_england_desc: "Наши #L [GetCountry('FRA').GetAdjective|l]ие#! союзники просят, чтобы мы выполнили условия Старого союза и начали вторжение в #ONCLICK:COUNTRY,[GetCountry('ENG').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('ENG').Custom('CL_tt')],X [GetCountry('ENG').Custom('CL_ACC')|L]#!#!. Поскольку [GetCountry('ENG').GetNameWithNoTooltip] уже занята войной с [GetCountry('FRA').Custom('CL_INST')], мы можем быстро захватить её приграничные провинции."
  cb_lat_reconquest: "Латинская реконкиста"
- cb_lat_reconquest_desc: "Пришло время вернуть себе утраченные земли [GetCountry('LAT').Custom('longname_ru_wntt_GEN')]!\n\n[Concept('casus_belli', 'Повод для войны')|e] «[ShowCasusBelliNameWithNoTooltip('cb_lat_reconquest')]» ограничивает завоевание земель за пределами державы [ShowScriptedGeographyName('frankokratia_geography')]."
+ cb_lat_reconquest_desc: "Пришло время вернуть себе утраченные земли [GetCountry('LAT').Custom('longname_ua_wntt_GEN')]!\n\n[Concept('casus_belli', 'Повод для войны')|e] «[ShowCasusBelliNameWithNoTooltip('cb_lat_reconquest')]» ограничивает завоевание земель за пределами державы [ShowScriptedGeographyName('frankokratia_geography')]."
  cb_lat_reconquest_valid_locations: "[target.GetName] владе[target.Custom('end_etyut')] [Concept('location', 'районом')|e] в державе [ShowScriptedGeographyName('frankokratia_geography')]"
  cb_raiding_retaliation: "Реакция на нападение"
  cb_raiding_retaliation_desc: "Мы отомстим врагам, которые напали на жителей нашей державы."

@@ -13,7 +13,6 @@
  ACCOUNT_UNLINK_SUCCESS: "Вы отвязали учётную запись Paradox и [PdxAccount.GetThirdPartyProviderLocalizedName]."
  ACCOUNT_THIRD_PARTY_AUTO_LOGIN_TITLE: "Вход в учётную запись"
  ACCOUNT_THIRD_PARTY_AUTO_LOGIN_PROMPT: "Вы хотите использовать [PdxAccount.GetThirdPartyProviderLocalizedName] для автоматического входа?"
- #These will be returned by [PdxAccount.GetThirdPartyProviderLocalizedName]
  THIRD_PARTY_PROVIDER_STEAM: "учётную запись Steam"
  THIRD_PARTY_PROVIDER_SCARLETT: "учётную запись Microsoft"
  THIRD_PARTY_PROVIDER_PROSPERO: "учётную запись PlayStation™Network"

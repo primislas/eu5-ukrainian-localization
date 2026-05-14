@@ -1,4 +1,4 @@
-﻿l_russian: 
+﻿l_russian:
  dakelh_culture_tt: "0"
  wetsuweten_culture_tt: "1"
  sekani_culture_tt: "2"
@@ -2085,7 +2085,6 @@
  silesian_tt: "2083"
  slovak_tt: "2084"
  sorbian_tt: "2085"
- #религии
  bon_tt: "0"
  mahayana_tt: "1"
  shinto_tt: "2"
@@ -2379,9 +2378,8 @@
  chichimecah_religion_tt: "290"
  yazidism_tt: "291"
  zoroastrian_tt: "292"
- 
- default_RU_culture: "#L [Culture.Custom('Culture_adj')]ск#!"
- default_RU_culture_wntt: "[Culture.Custom('Culture_adj_wntt')]ск"
+ default_UA_culture: "#L [Culture.Custom('Culture_adj')]ск#!"
+ default_UA_culture_wntt: "[Culture.Custom('Culture_adj_wntt')]ск"
  swedish_cadj_wntt: "Шведск"
  danish_cadj_wntt: "Датск"
  finnish_cadj_wntt: "Финск"
@@ -2882,67 +2880,67 @@
  guachichil_culture_cadj_wntt: "Куачичитльск"
  iztachichimecah_culture_cadj_wntt: "Истачичимекск"
  hui_muslim_culture_cadj_wntt: "Хуэйск"
- yan_culture_cadj_wntt: "Яньск" #燕
- jilu_culture_cadj_wntt: "Цзилуск" #冀魯
- jiaodong_culture_cadj_wntt: "Цзяодунск" #胶东
- liaodong_culture_cadj_wntt: "Ляодунск" #辽东
- zhongyuan_culture_cadj_wntt: "Чжунъюаньск" #中原
- liang_culture_cadj_wntt: "Лянск" #涼
- huaihai_culture_cadj_wntt: "Хуайхайск" #淮海
- qin_culture_cadj_wntt: "Циньск" #秦
- jianghuai_culture_cadj_wntt: "Цзянхуайск" #江淮
- tongtai_culture_cadj_wntt: "Тунтайск" #通泰
- chu_culture_cadj_wntt: "Чуск" #楚
- changde_culture_cadj_wntt: "Чандэск" #常德
- shu_culture_cadj_wntt: "Шуск" #蜀
- jin_culture_cadj_wntt: "Цзиньск" #晋
- wu_culture_cadj_wntt: "Уск" #吳
- yue_wu_culture_cadj_wntt: "Юэск" #越
- xuanzhou_culture_cadj_wntt: "Сюаньчжоуск" #宣州
- wuzhou_culture_cadj_wntt: "Учжоуск" #婺州
- quzhou_culture_cadj_wntt: "Цюйчжоуск" #衢州
- chuzhou_culture_cadj_wntt: "Чучжоуск" #滁州
- jiangshan_culture_cadj_wntt: "Цзяншаньск" #江山
- taizhou_wu_culture_cadj_wntt: "Тайчжоуск" #台州
- ouhai_culture_cadj_wntt: "Оухайск" #瓯海
- tunxi_culture_cadj_wntt: "Туньсийск" #屯溪
- jixi_culture_cadj_wntt: "Цзисийск" #绩溪
- qiwu_culture_cadj_wntt: "Циуск" #祁婺
- xinxiang_culture_cadj_wntt: "Синьсянск" #新湘
- laoxiang_culture_cadj_wntt: "Лаосянск" #老湘
- xianxi_culture_cadj_wntt: "Сянсийск" #湘西
- yongzhou_culture_cadj_wntt: "Юнчжоуск" #永州
- hengzhou_culture_cadj_wntt: "Хэнчжоуск" #衡州
- waxiang_culture_cadj_wntt: "Васянск" #瓦乡
- gan_culture_cadj_wntt: "Ганьск" #贛
- kejia_culture_cadj_wntt: "Кэцзяск" #客家
- huizhou_hakka_culture_cadj_wntt: "Хуэйчжоуск" #惠州
- dongjiang_culture_cadj_wntt: "Дунцзянск" #東江
- fuzhou_culture_cadj_wntt: "Фучжоуск" #福州
- funing_culture_cadj_wntt: "Фунинск" #福宁
- manjiang_culture_cadj_wntt: "Маньцзянск" #蛮讲
- xinghua_culture_cadj_wntt: "Синхуаск" #兴化
- minnan_culture_cadj_wntt: "Миньнаньск" #闽南
- chaozhou_culture_cadj_wntt: "Чаочжоуск" #潮州
- fulao_culture_cadj_wntt: "Фулаоск" #福佬
- leizhou_culture_cadj_wntt: "Лэйчжоуск" #雷州
- qiong_culture_cadj_wntt: "Цюнск" #琼
- cunhua_culture_cadj_wntt: "Цуньхуаск" #村话
- jianning_culture_cadj_wntt: "Цзяньнинск" #建宁
- yuehai_culture_cadj_wntt: "Юэхайск" #粵海
- xinhui_culture_cadj_wntt: "Синьхуэйск" #新会
- malao_culture_cadj_wntt: "Малаоск" #麻佬
- huazhou_culture_cadj_wntt: "Хуачжоуск" #化州
- gaozhou_culture_cadj_wntt: "Гаочжоуск" #高州
- wuchuan_culture_cadj_wntt: "Учуаньск" #吴川
- yangjiang_culture_cadj_wntt: "Янцзянск" #阳江
- guangxin_culture_cadj_wntt: "Гуансиньск" #广信
- tubai_culture_cadj_wntt: "Тубайск" #土白
- yulin_culture_cadj_wntt: "Юйлиньск" #郁林
- danzhou_culture_cadj_wntt: "Даньчжоуск" #儋州
- mai_culture_culture_cadj_wntt: "Майск" #迈
- guibei_culture_cadj_wntt: "Гуйбэйск" #桂北
- guinan_culture_cadj_wntt: "Гуйнаньск" #桂南
+ yan_culture_cadj_wntt: "Яньск"
+ jilu_culture_cadj_wntt: "Цзилуск"
+ jiaodong_culture_cadj_wntt: "Цзяодунск"
+ liaodong_culture_cadj_wntt: "Ляодунск"
+ zhongyuan_culture_cadj_wntt: "Чжунъюаньск"
+ liang_culture_cadj_wntt: "Лянск"
+ huaihai_culture_cadj_wntt: "Хуайхайск"
+ qin_culture_cadj_wntt: "Циньск"
+ jianghuai_culture_cadj_wntt: "Цзянхуайск"
+ tongtai_culture_cadj_wntt: "Тунтайск"
+ chu_culture_cadj_wntt: "Чуск"
+ changde_culture_cadj_wntt: "Чандэск"
+ shu_culture_cadj_wntt: "Шуск"
+ jin_culture_cadj_wntt: "Цзиньск"
+ wu_culture_cadj_wntt: "Уск"
+ yue_wu_culture_cadj_wntt: "Юэск"
+ xuanzhou_culture_cadj_wntt: "Сюаньчжоуск"
+ wuzhou_culture_cadj_wntt: "Учжоуск"
+ quzhou_culture_cadj_wntt: "Цюйчжоуск"
+ chuzhou_culture_cadj_wntt: "Чучжоуск"
+ jiangshan_culture_cadj_wntt: "Цзяншаньск"
+ taizhou_wu_culture_cadj_wntt: "Тайчжоуск"
+ ouhai_culture_cadj_wntt: "Оухайск"
+ tunxi_culture_cadj_wntt: "Туньсийск"
+ jixi_culture_cadj_wntt: "Цзисийск"
+ qiwu_culture_cadj_wntt: "Циуск"
+ xinxiang_culture_cadj_wntt: "Синьсянск"
+ laoxiang_culture_cadj_wntt: "Лаосянск"
+ xianxi_culture_cadj_wntt: "Сянсийск"
+ yongzhou_culture_cadj_wntt: "Юнчжоуск"
+ hengzhou_culture_cadj_wntt: "Хэнчжоуск"
+ waxiang_culture_cadj_wntt: "Васянск"
+ gan_culture_cadj_wntt: "Ганьск"
+ kejia_culture_cadj_wntt: "Кэцзяск"
+ huizhou_hakka_culture_cadj_wntt: "Хуэйчжоуск"
+ dongjiang_culture_cadj_wntt: "Дунцзянск"
+ fuzhou_culture_cadj_wntt: "Фучжоуск"
+ funing_culture_cadj_wntt: "Фунинск"
+ manjiang_culture_cadj_wntt: "Маньцзянск"
+ xinghua_culture_cadj_wntt: "Синхуаск"
+ minnan_culture_cadj_wntt: "Миньнаньск"
+ chaozhou_culture_cadj_wntt: "Чаочжоуск"
+ fulao_culture_cadj_wntt: "Фулаоск"
+ leizhou_culture_cadj_wntt: "Лэйчжоуск"
+ qiong_culture_cadj_wntt: "Цюнск"
+ cunhua_culture_cadj_wntt: "Цуньхуаск"
+ jianning_culture_cadj_wntt: "Цзяньнинск"
+ yuehai_culture_cadj_wntt: "Юэхайск"
+ xinhui_culture_cadj_wntt: "Синьхуэйск"
+ malao_culture_cadj_wntt: "Малаоск"
+ huazhou_culture_cadj_wntt: "Хуачжоуск"
+ gaozhou_culture_cadj_wntt: "Гаочжоуск"
+ wuchuan_culture_cadj_wntt: "Учуаньск"
+ yangjiang_culture_cadj_wntt: "Янцзянск"
+ guangxin_culture_cadj_wntt: "Гуансиньск"
+ tubai_culture_cadj_wntt: "Тубайск"
+ yulin_culture_cadj_wntt: "Юйлиньск"
+ danzhou_culture_cadj_wntt: "Даньчжоуск"
+ mai_culture_culture_cadj_wntt: "Майск"
+ guibei_culture_cadj_wntt: "Гуйбэйск"
+ guinan_culture_cadj_wntt: "Гуйнаньск"
  mongolian_culture_cadj_wntt: "Монгольск"
  formosan_culture_cadj_wntt: "Формозск"
  zhuang_culture_cadj_wntt: "Чжуанск"
@@ -4483,7 +4481,6 @@
  gela_culture_cadj_wntt: "Геланск"
  arosi_culture_cadj_wntt: "Аросийск"
  mu_ngava_culture_cadj_wntt: "Му-нгавск"
-
  swedish_cadj: "#TOOLTIP:CULTURE,$swedish_tt$, #L Шведск#!#!"
  danish_cadj: "#TOOLTIP:CULTURE,$danish_tt$, #L Датск#!#!"
  finnish_cadj: "#TOOLTIP:CULTURE,$finnish_tt$, #L Финск#!#!"
@@ -6585,7 +6582,6 @@
  gela_culture_cadj: "#TOOLTIP:CULTURE,$gela_culture_tt$, #L Геланск#!#!"
  arosi_culture_cadj: "#TOOLTIP:CULTURE,$arosi_culture_tt$, #L Аросийск#!#!"
  mu_ngava_culture_cadj: "#TOOLTIP:CULTURE,$mu_ngava_culture_tt$, #L Му-нгавск#!#!"
-
  andean_group_cadj: "#TOOLTIP:CULTUREGROUP,andean_group, #L Андск#!#!"
  arabian_group_cadj: "#TOOLTIP:CULTUREGROUP,arabian_group, #L Аравийск#!#!"
  arabic_group_cadj: "#TOOLTIP:CULTUREGROUP,arabic_group, #L Арабск#!#!"
@@ -6767,7 +6763,6 @@
  yutonahua_group_cadj: "#TOOLTIP:CULTUREGROUP,yutonahua_group, #L Ютонауаск#!#!"
  zamuco_group_cadj: "#TOOLTIP:CULTUREGROUP,zamuco_group, #L Самукоанск#!#!"
  zuni_group_cadj: "#TOOLTIP:CULTUREGROUP,zuni_group, #L Зунийск#!#!"
-
  andean_group_cadj_wntt: "Андск"
  arabian_group_cadj_wntt: "Аравийск"
  arabic_group_cadj_wntt: "Арабск"

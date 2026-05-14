@@ -1,6 +1,5 @@
 ﻿l_russian:
- # Cultural Templates
- NEW_CULTURE_NAME_ADJ_OLD_CULTURE: "$COUNTRY_ADJ$ $OLD_CULTURE_NAME$" #for naming possible new cultures. COUNTRY_NAME is also available
+ NEW_CULTURE_NAME_ADJ_OLD_CULTURE: "$COUNTRY_ADJ$ $OLD_CULTURE_NAME$"
  swedish: "Шведск"
  danish: "Датск"
  finnish: "Финск"
@@ -469,7 +468,6 @@
  tubalar_culture: "Тубаларск"
  shor_culture: "Шорск"
  yerle_qaliq_culture: "Ерле-калыкск"
- # Langauge Families
  celtic_language_family: "Кельтск"
  romance_language_family: "Романск"
  germanic_language_family: "Германск"
@@ -526,7 +524,6 @@
  vanuatu_language_family: "Вануатск"
  micronesian_language_family: "Микронезийск"
  solomonic_language_family: "Соломонск"
- # Languages
  scandinavian_language: "Скандинавск"
  swedish_dialect: "Шведск"
  danish_dialect: "Датск"
@@ -788,79 +785,79 @@
  mandarin_language_desc: "Мандарин — это крупнейший из китайских языков, распространённый на большей части Китая"
  northern_mandarin_dialect: "Северномандаринск"
  southern_mandarin_dialect: "Южномандаринск"
- shu_language: "Шуск" #蜀
- xiang_language: "Сянск" #新湘
- gan_language: "Ганьск" #贛
- ping_language: "Пинск" #平
- yue_language: "Юэск" #粵
- min_language: "Миньск" #闽
- wu_language: "Уск" #吳
- huizhou_language: "Хуэйчжоуск" #徽州
- kejia_language: "Кэцзяск" #客家
- jin_language: "Цзиньск" #晋
+ shu_language: "Шуск"
+ xiang_language: "Сянск"
+ gan_language: "Ганьск"
+ ping_language: "Пинск"
+ yue_language: "Юэск"
+ min_language: "Миньск"
+ wu_language: "Уск"
+ huizhou_language: "Хуэйчжоуск"
+ kejia_language: "Кэцзяск"
+ jin_language: "Цзиньск"
  classical_chinese_language: "Классическо-китайск"
  hui_muslim_culture: "Хуэйск"
- yan_culture: "Яньск" #燕
- jilu_culture: "Цзилуск" #冀魯
- jiaodong_culture: "Цзяодунск" #胶东
- liaodong_culture: "Ляодунск" #辽东
- zhongyuan_culture: "Чжунъюаньск" #中原
- liang_culture: "Лянск" #涼
- huaihai_culture: "Хуайхайск" #淮海
- qin_culture: "Циньск" #秦
- jianghuai_culture: "Цзянхуайск" #江淮
- tongtai_culture: "Тунтайск" #通泰
- chu_culture: "Чуск" #楚
- changde_culture: "Чандэск" #常德
- shu_culture: "Шуск" #蜀
- jin_culture: "Цзиньск" #晋
- wu_culture: "Уск" #吳
- yue_wu_culture: "Юэск" #越
- xuanzhou_culture: "Сюаньчжоуск" #宣州
- wuzhou_culture: "Учжоуск" #婺州
- quzhou_culture: "Цюйчжоуск" #衢州
- chuzhou_culture: "Чучжоуск" #滁州
- jiangshan_culture: "Цзяншаньск" #江山
- taizhou_wu_culture: "Тайчжоуск" #台州
- ouhai_culture: "Оухайск" #瓯海
- tunxi_culture: "Туньсийск" #屯溪
- jixi_culture: "Цзисийск" #绩溪
- qiwu_culture: "Циуск" #祁婺
- xinxiang_culture: "Синьсянск" #新湘
- laoxiang_culture: "Лаосянск" #老湘
- xianxi_culture: "Сянсийск" #湘西
- yongzhou_culture: "Юнчжоуск" #永州
- hengzhou_culture: "Хэнчжоуск" #衡州
- waxiang_culture: "Васянск" #瓦乡
- gan_culture: "Ганьск" #贛
- kejia_culture: "Кэцзяск" #客家
- huizhou_hakka_culture: "Хуэйчжоуск" #惠州
- dongjiang_culture: "Дунцзянск" #東江
- fuzhou_culture: "Фучжоуск" #福州
- funing_culture: "Фунинск" #福宁
- manjiang_culture: "Маньцзянск" #蛮讲
- xinghua_culture: "Синхуаск" #兴化
- minnan_culture: "Миньнаньск" #闽南
- chaozhou_culture: "Чаочжоуск" #潮州
- fulao_culture: "Фулаоск" #福佬
- leizhou_culture: "Лэйчжоуск" #雷州
- qiong_culture: "Цюнск" #琼
- cunhua_culture: "Цуньхуаск" #村话
- jianning_culture: "Цзяньнинск" #建宁
- yuehai_culture: "Юэхайск" #粵海
- xinhui_culture: "Синьхуэйск" #新会
- malao_culture: "Малаоск" #麻佬
- huazhou_culture: "Хуачжоуск" #化州
- gaozhou_culture: "Гаочжоуск" #高州
- wuchuan_culture: "Учуаньск" #吴川
- yangjiang_culture: "Янцзянск" #阳江
- guangxin_culture: "Гуансиньск" #广信
- tubai_culture: "Тубайск" #土白
- yulin_culture: "Юйлиньск" #郁林
- danzhou_culture: "Даньчжоуск" #儋州
- mai_culture_culture: "Майск" #迈
- guibei_culture: "Гуйбэйск" #桂北
- guinan_culture: "Гуйнаньск" #桂南
+ yan_culture: "Яньск"
+ jilu_culture: "Цзилуск"
+ jiaodong_culture: "Цзяодунск"
+ liaodong_culture: "Ляодунск"
+ zhongyuan_culture: "Чжунъюаньск"
+ liang_culture: "Лянск"
+ huaihai_culture: "Хуайхайск"
+ qin_culture: "Циньск"
+ jianghuai_culture: "Цзянхуайск"
+ tongtai_culture: "Тунтайск"
+ chu_culture: "Чуск"
+ changde_culture: "Чандэск"
+ shu_culture: "Шуск"
+ jin_culture: "Цзиньск"
+ wu_culture: "Уск"
+ yue_wu_culture: "Юэск"
+ xuanzhou_culture: "Сюаньчжоуск"
+ wuzhou_culture: "Учжоуск"
+ quzhou_culture: "Цюйчжоуск"
+ chuzhou_culture: "Чучжоуск"
+ jiangshan_culture: "Цзяншаньск"
+ taizhou_wu_culture: "Тайчжоуск"
+ ouhai_culture: "Оухайск"
+ tunxi_culture: "Туньсийск"
+ jixi_culture: "Цзисийск"
+ qiwu_culture: "Циуск"
+ xinxiang_culture: "Синьсянск"
+ laoxiang_culture: "Лаосянск"
+ xianxi_culture: "Сянсийск"
+ yongzhou_culture: "Юнчжоуск"
+ hengzhou_culture: "Хэнчжоуск"
+ waxiang_culture: "Васянск"
+ gan_culture: "Ганьск"
+ kejia_culture: "Кэцзяск"
+ huizhou_hakka_culture: "Хуэйчжоуск"
+ dongjiang_culture: "Дунцзянск"
+ fuzhou_culture: "Фучжоуск"
+ funing_culture: "Фунинск"
+ manjiang_culture: "Маньцзянск"
+ xinghua_culture: "Синхуаск"
+ minnan_culture: "Миньнаньск"
+ chaozhou_culture: "Чаочжоуск"
+ fulao_culture: "Фулаоск"
+ leizhou_culture: "Лэйчжоуск"
+ qiong_culture: "Цюнск"
+ cunhua_culture: "Цуньхуаск"
+ jianning_culture: "Цзяньнинск"
+ yuehai_culture: "Юэхайск"
+ xinhui_culture: "Синьхуэйск"
+ malao_culture: "Малаоск"
+ huazhou_culture: "Хуачжоуск"
+ gaozhou_culture: "Гаочжоуск"
+ wuchuan_culture: "Учуаньск"
+ yangjiang_culture: "Янцзянск"
+ guangxin_culture: "Гуансиньск"
+ tubai_culture: "Тубайск"
+ yulin_culture: "Юйлиньск"
+ danzhou_culture: "Даньчжоуск"
+ mai_culture_culture: "Майск"
+ guibei_culture: "Гуйбэйск"
+ guinan_culture: "Гуйнаньск"
  mongolian_culture: "Монгольск"
  mongolian_language: "Монгольск"
  formosan_language: "Формозск"
@@ -2421,8 +2418,6 @@
  seeptsa_language: "Сеэптсанск"
  uru_language: "Уруанск"
  oghuric_language: "Огурск"
- ### Cultural and religion - society window
- ###AUSTRALIAN CULTURES AND LANGUAGES###
  noongar_culture: "Нунгарск"
  nhanta_culture: "Нантанск"
  malkana_culture: "Малкананск"

@@ -5318,7 +5318,7 @@
  MARRIAGE_NO_SLOTS: "@trigger_no! [CHARACTER.GetName] не может иметь супругов."
  MARRIAGE_FIND_BLOCKED_FROM_MARRIAGE: "@trigger_no![CHARACTER.GetName] не может заключать брак."
  MARRIAGE_FIND_NOT_DYNASTY: "@trigger_no![CHARACTER.GetName] не принадлежит к правящей [Concept('dynasty', 'династии')|e]."
- MARRIAGE_FIND_NOT_CLOSE_ENOUGH: "@trigger_no![CHARACTER.GetName] — недостаточно [Select_CString(CHARACTER.IsFemale, 'близкая родственница', 'близкий родственник' )] [Concept('ruler', 'правителя')|e]."
+ MARRIAGE_FIND_NOT_CLOSE_ENOUGH: "@trigger_no![CHARACTER.GetName] — недостаточно [Select_CString(CHARACTER.IsFemale, 'близкая родственница', 'близкий родственник')] [Concept('ruler', 'правителя')|e]."
  MARRIAGE_FIND_NOT_ESTATE: "@trigger_no! [ESTATE_TYPE.GetName] не могут вступать в брак."
  MARRIAGE_FIND_NO_POSSIBLE: "@trigger_no! [CHARACTER.GetName] — нет подходящей пары для этого персонажа."
  MARRIAGE_FINDER_SELECT_TITLE: "Выбор [Concept('country', 'державы')|e] для заключения [Concept('royal_marriage', 'династического брака')|e]"

@@ -30,7 +30,6 @@
  fannichs: "Горы Фаннихс"
  ben_klibreck: "Гора Бен-Клибрек"
  lampedusa: "Лампедуза"
- #Italian Wasteland locations
  ligurian_alps: "Лигурийские Альпы"
  cottian_alps2: "Котские Альпы"
  cottian_alps3: "Котские Альпы"
@@ -464,18 +463,18 @@
  borneo_jungle12: "Джунгли Борнео"
  borneo_jungle13: "Джунгли Борнео"
  borneo_jungle14: "Джунгли Борнео"
- izu_islands: "Острова Идзу" #伊豆諸島
- makanru: "Маканру" #磨勘留
- shasukotan: "Сасукотан" #捨子古丹
- rasshua: "Расшуа" #羅処和
+ izu_islands: "Острова Идзу"
+ makanru: "Маканру"
+ shasukotan: "Сасукотан"
+ rasshua: "Расшуа"
  repunmoshiri: "Репунмосири"
- kumejima: "Кумедзима" #久米島
- yonaguni: "Йонагуни" #与那国
- tarama: "Тарама" #多良間
- habomai: "Хабомаи" #歯舞
- mishima_island: "Мисима" #見島
- koshikishima: "Косикисима" #甑島
- satsunan_islands: "Острова Сацунан" #薩南諸島
+ kumejima: "Кумедзима"
+ yonaguni: "Йонагуни"
+ tarama: "Тарама"
+ habomai: "Хабомаи"
+ mishima_island: "Мисима"
+ koshikishima: "Косикисима"
+ satsunan_islands: "Острова Сацунан"
  ishikari_mountains: "Горы Исикари"
  hidaka_mountains: "Горы Хидака"
  asama_mountains: "Горы Асама"
@@ -518,7 +517,6 @@
  guinea_gulf: "Гвинейский залив"
  indian_capricorn_tropic: "Индийский тропик Козерога"
  forest_of_dang: "Дангский лес"
- #Currents
  west_spitzbergen_current3: "Западное Шпицбергенское течение"
  west_spitzbergen_current4: "Западное Шпицбергенское течение"
  west_spitzbergen_current5: "Западное Шпицбергенское течение"
@@ -542,7 +540,7 @@
  atlantic_irminger_current14: "Течение Ирмингера"
  atlantic_irminger_current15: "Течение Ирмингера"
  atlantic_irminger_current16: "Течение Ирмингера"
- atlantic_irminger_current17: "Хай-Бразил" # https://en.wikipedia.org/wiki/Brasil_(mythical_island)
+ atlantic_irminger_current17: "Хай-Бразил"
  atlantic_west_spitzbergen_current1: "Атлантическое Западно-Шпицбергенское течение"
  atlantic_west_spitzbergen_current2: "Атлантическое Западно-Шпицбергенское течение"
  atlantic_west_spitzbergen_current3: "Атлантическое Западно-Шпицбергенское течение"
@@ -1302,7 +1300,6 @@
  south_atlantic_countercurrent: "Южно-Атлантическое противотечение"
  atlantic_capricorn_tropic: "Атлантический тропик Козерога"
  tasman_sea: "Тасманово море"
- #Corridors
  sahel_corridor01: "Тенере"
  sahel_corridor02: "Зарга"
  sahel_corridor03: "Тумма"
