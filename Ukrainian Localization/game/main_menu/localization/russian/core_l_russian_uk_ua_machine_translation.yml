@@ -315,7 +315,7 @@
   GENERATING_BOOKMARK_PROGRESS: "Виконується генерація світу з історії"
   LOADING_SAVEGAME_PROGRESS: "Завантажується збереження — $PROGRESS|0%$"
   LOADING_BOOKMARK_PROGRESS: "Створення нової гри — $PROGRESS|0%$"
-  RECALCULATING_CACHE_DATA: "Перерахувати дані з кешу заново"
+  RECALCULATING_CACHE_DATA: "Перерахувати дані з кешу наново"
   DELAYED_GAME_START: "Господар розпочав гру\nПерерахунок даних перед початком гри"
   PLAYER_JOINING: "Підключаються гравці"
   SERVER_NAME: "Гра «$NAME$»"

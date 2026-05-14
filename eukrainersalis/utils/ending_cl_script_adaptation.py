@@ -2,11 +2,9 @@ import re
 from pathlib import Path
 
 from eukrainersalis.utils.ending_adaptation import ending_configs
-from eukrainersalis.utils.file_utils import translation_dir
+from eukrainersalis.utils.file_utils import custom_localization_dir_path, project_mod_dir, \
+    custom_localization_mod_dir_path
 from eukrainersalis.utils.log_utils import logger
-
-
-custom_localization_dir_path = translation_dir / "game" / "in_game" / "common" / "customizable_localization"
 
 
 def _read_declarations(fpath: Path) -> dict[str, list[str]]:
@@ -67,7 +65,7 @@ def adapt_ru_custom_suffix():
     custom_suffix_file_path = custom_localization_dir_path / "ru_custom_suffix.txt"
     declarations = _read_declarations(custom_suffix_file_path)
 
-    output_file_path = custom_localization_dir_path / "ru_custom_suffix_overwrite.txt"
+    output_file_path = custom_localization_mod_dir_path / "ru_custom_suffix.txt"
     with output_file_path.open("w", encoding="utf-8-sig") as f:
         for dec, lines in declarations.items():
             if dec.startswith("endlong") or dec.startswith("endrank"):
@@ -108,7 +106,7 @@ def adapt_ru_custom_loc():
             continue
 
         migrated_lines = [adapt_ru_to_ua(l) for l in lines]
-        fpath = custom_localization_dir_path / f"ua_custom_loc_{k}.txt"
+        fpath = custom_localization_mod_dir_path / f"ua_custom_loc_{k}.txt"
         write_lines_to_file(fpath, migrated_lines)
 
     for ec in ending_configs:
@@ -116,16 +114,18 @@ def adapt_ru_custom_loc():
         template = declarations["end_fem"] if not to.startswith("pre") else declarations["predlog_kko"]
         migrated_lines = [adapt_ru_to_ua(l).replace("_fem", f"_{to}").replace("predlog_kko", to) for l in template]
         fname = f"ua_custom_loc_end_{to}.txt" if not to.startswith("pre") else f"ua_custom_loc_{to}.txt"
-        fpath = custom_localization_dir_path / fname
+        fpath = custom_localization_mod_dir_path / fname
         write_lines_to_file(fpath, migrated_lines)
 
     if key_overwrites:
-        fpath = custom_localization_dir_path / f"ru_custom_loc_overwrite.txt"
+        fpath = custom_localization_mod_dir_path / f"ru_custom_loc.txt"
         with fpath.open("w", encoding="utf-8-sig") as cl_overwrite_f:
             for k in key_overwrites:
                 migrated_lines = [adapt_ru_to_ua(l) for l in declarations[k]]
                 write_lines_to_fpointer(cl_overwrite_f, migrated_lines)
 
+
+# TODO: ru_custom_suffix
 
 
 if __name__ == "__main__":

@@ -9,7 +9,11 @@ from eukrainersalis.utils.translation_utils import Language
 load_dotenv()
 
 project_dir = Path(__file__).resolve().parent.parent.parent
+project_mod_dir = project_dir / "mod"
 translation_dir = project_dir / "Ukrainian Localization"
+custom_localization_dir_path = translation_dir / "game" / "in_game" / "common" / "customizable_localization"
+custom_localization_mod_dir_path = project_mod_dir / "in_game" / "common" / "customizable_localization"
+
 game_dir = Path(os.getenv("GAME_DIR", "./"))
 mod_dir = Path(os.getenv("MOD_DIR", "./"))
 _EMPTY_LIST = []
