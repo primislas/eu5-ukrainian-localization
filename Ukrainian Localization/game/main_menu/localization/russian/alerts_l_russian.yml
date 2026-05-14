@@ -262,8 +262,6 @@
  ALERT_BEING_ANNEXED_DISLOYAL: "#T  Нас присоединяют#!\nНаш [Concept('overlord', 'сюзерен')|e] $OVERLORD$ начинает [Concept('annex', 'присоединение')|e] нашей державы.\n\nПоскольку мы [Concept('disloyal_subject', 'нелояльный ленник')|e], этот процесс не получит развития. Если нас [Concept('annex', 'присоединят')|e], на этом для нас всё закончится!\n\nМы можем объявить сюзерену [Concept('war', 'войну')|e], [Concept('casus_belli', 'поводом')|e] для которой будет «#TOOLTIP:CASUS_BELLI,cb_resist_annexation,X #L Сопротивление присоединению#!#!»!\n\n"
  ALERT_ANNEXING_DISLOYAL_SUBJECT_TITLE: "Присоединение нелояльного ленника"
  ALERT_ANNEXING_DISLOYAL_SUBJECT: "Мы пытаемся [Concept('annex', 'присоединить')|e] [Concept('subject', 'ленника')|e], но он остаётся [Concept('disloyal_subject', 'нелояльным')|e] и процесс не движется. Мы лишь попусту тратим ресурсы.\n$SUBJECTS$\n\n"
- ALERT_ANNEXING_STALLED_LOW_OPINION_TITLE: "Задержка присоединения: низкое мнение"
- ALERT_ANNEXING_STALLED_LOW_OPINION: "[Concept('opinion', 'Мнение')|e] следующих [Concept('subjects', 'ленников')|e] слишком низкое, чтобы можно было продолжать их [Concept('annexation', 'присоединение')|e]:\n$SUBJECTS$\n\n"
  ALERT_HAS_BAD_ACTORS_TITLE: "Злоумышленники"
  ALERT_HAS_BAD_ACTORS: "Кто-то ведёт против нас злонамеренные действия. Выявить виновника поможет контрразведка!\n$INFO$\n\n"
  ALERT_HAS_BAD_ACTORS_ENTRY: "$WHAT|Y$: число злоумышленников — $HOW_MANY|Y$"

@@ -40,7 +40,7 @@
  flavor_ira.6.a: "[Select_CString(target_character.IsFemale, 'Ей', 'Ему' )] найдётся место в совете."
  flavor_ira.6.b: "Нам нечем [Select_CString(target_character.IsFemale,'ей', 'ему')] платить."
  flavor_ira.7.title: "Тарих-и алам ара-йи Аббаси"
- flavor_ira.7.entry: "Tārīkh-e 'Ālam-ārā-ye Ruler"
+ flavor_ira.7.entry: "Tārīkh-e 'Ālam-ārā-ye"
  flavor_ira.7.desc: "После долгих лет службы в [target_country.GetGovernment.GetAdjective|l]ом чиновничьем аппарате [target_character.GetName] [Select_CString(target_character.IsFemale,'написала', 'написал')] грандиозную хронику нашей державы. Начав с первых дней основания [target_country.Custom('rank_ru_GEN')|l], [target_character.GetLastName] [Select_CString(target_character.IsFemale,'рассказала', 'рассказал')] о жизни всех наших правителей, причём [target_ruler.GetName|l] [Select_CString(target_ruler.IsFemale,'удостоилась', 'удостоился')] в [Select_CString(target_character.IsFemale,'её', 'его')] труде особого внимания. Заключительную часть хроники [target_character.GetLastNameWithNoTooltip] [Select_CString(target_character.IsFemale,'писала', 'писал')] уже по собственному опыту службы при дворе шаха."
  flavor_ira.7.a: "Какое замечательное повествование!"
  flavor_ira.8.title: "Аль-Наджаф аль-Ашраф"
