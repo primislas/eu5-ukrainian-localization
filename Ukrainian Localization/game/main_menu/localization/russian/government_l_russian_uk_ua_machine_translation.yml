@@ -242,7 +242,7 @@
   CHANGE_COUNTRY_RANK_NO_DOWNGRADE: "@trigger_no! Не можна понизити ранг. [COUNTRY_RANK.GetName] — вищий ранг, ніж [COUNTRY.GetRank.GetName|l]."
   CHANGE_COUNTRY_RANK_SUBJECT_RESTRICTED: "@trigger_no! [SUBJECT_TYPE.GetName] не може змінювати ранги."
   ESTATE_OPINION_ENTRY_FORMAT: "$KEY$: $VALUE|+=2$"
-  ESTATE_OPINION_OF: "Думка $GOODS_GetNameWithNoTooltip_UA_ACC_lower$ про країну [TARGET_COUNTRY.GetNameWithNoTooltip]: $VAL$"
+  ESTATE_OPINION_OF: "Думка $ESTATE_GetNameWithNoTooltip_UA_ACC_lower$ про країну [TARGET_COUNTRY.GetNameWithNoTooltip]: $VAL$"
   GRANT_PRIVILEDGE_ALREADY: "@trigger_no! Ми вже надали привілей «[ESTATE_PRIVILEGE.GetName]» $ESTATE_GetName_UA_DAT_lower$"
   GRANT_PRIVILEDGE_TT: "Надання привілею $ESTATE_GetName_UA_DAT_lower$ за $COST$ дає:\n[ESTATE_PRIVILEGE.GetEffectText]\n\nЦя дія також вплине на [Concept('estate_satisfaction', 'задоволення стану')|e]:\n[ESTATE.GetName]: $IMPACT$\n$OTHER$"
   ANNOY_OTHER_ESTATE: "[ESTATE.GetName]: $VAL|+=2%$ ([ESTATE.GetSatisfaction|%]@satisfaction!)"

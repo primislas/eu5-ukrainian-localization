@@ -23,7 +23,7 @@ if __name__ == "__main__":
             output_path = os.path.join(mod_dir, relative_path)
             output_dir, output_fname = os.path.split(output_path)
             # output_dir = os.path.join(output_dir, "eukrainersalis").replace("ukrainian", "english")
-            output_dir = output_dir.replace("/russian", "/english/replace")
+            output_dir = output_dir.replace("/russian", "/english")
             output_dir = output_dir.replace("/game/", "/")
             output_fname = output_fname.replace("_uk_ua_machine_translation", "")
             output_fname = output_fname.replace("_l_russian", "_l_english")
