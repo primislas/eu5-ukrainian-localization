@@ -62,7 +62,7 @@ _KEYS_MAPPING = {
 _EXCLUDED_FILES = [
     "customizable_localization_end_l_russian.yml",
     "character_names_dynamic_l_russian.yml",
-    "customizable_localization_ru_constructionname_l_russian_uk_ua_machine_translation.yml",
+    "customizable_localization_ru_constructionname_l_russian.yml",
 ]
 
 _migration_manager = MigrationManager("from-1.2.0")

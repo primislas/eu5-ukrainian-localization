@@ -47,22 +47,4 @@ if __name__ == "__main__":
             moved_file_count += 1
             print(f"Moved {from_file}\n   -> {to_file}")
 
-    # mod_custom_localization_dir_path = Path(mod_dir).joinpath(custom_localization_dir_path.relative_to(translation_dir / "game"))
-    # os.makedirs(mod_custom_localization_dir_path, exist_ok=True)
-    # for root, dirs, files in os.walk(custom_localization_dir_path):
-    #     for file in files:
-    #         from_file = os.path.join(root, file)
-    #         to_file = os.path.join(mod_custom_localization_dir_path, file)
-    #         if file.startswith("ua_"):
-    #             shutil.copy(os.path.join(root, file), os.path.join(mod_custom_localization_dir_path, file))
-    #             print(f"Moved {from_file}\n   -> {to_file}")
-    #             moved_file_count += 1
-    #             continue
-    #         if "_overwrite" in file:
-    #             to_file = to_file.replace("_overwrite", "")
-    #             shutil.copy(os.path.join(root, file), to_file)
-    #             print(f"Moved {from_file}\n   -> {to_file}")
-    #             moved_file_count += 1
-    #             continue
-
     print(f"Moved {moved_file_count} files")

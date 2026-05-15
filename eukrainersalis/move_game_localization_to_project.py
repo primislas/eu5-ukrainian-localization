@@ -6,6 +6,7 @@ from eukrainersalis.run_machine_translation import key_preprocessing, migrated_t
 from eukrainersalis.utils.file_utils import game_dir, translation_dir, list_localization_files, \
     custom_localization_game_dir_path, custom_localization_translation_dir_path
 from eukrainersalis.utils.log_utils import logger
+from eukrainersalis.utils.migration_utils import normalize_double_quotes
 from eukrainersalis.utils.translation_utils import Language
 from eukrainersalis.utils.yaml_utils import load_eu5_yaml, write_eu5_localization_yaml
 
@@ -62,7 +63,7 @@ def remove_deleted_localizations(source_dir: Path, target_dir: Path, languages: 
             os.remove(file)
 
 
-def validate_and_fix_localization_file(file_path: Path):
+def validate_and_fix_localization_file(file_path: Path, fix_double_quotes: bool = False):
     in_declaration = False
     indent = -1
     is_patched = False
@@ -71,6 +72,7 @@ def validate_and_fix_localization_file(file_path: Path):
     removed_versioning = 0
     removed_tab_symbols = 0
     adjusted_indent = 0
+    escaped_double_quotes = 0
     for line in file_path.read_text(encoding="utf-8-sig").splitlines():
         line_no += 1
 
@@ -101,6 +103,12 @@ def validate_and_fix_localization_file(file_path: Path):
             is_patched = True
 
         if not lstrip.startswith("#"):
+            if fix_double_quotes:
+                orig_len = len(lstrip)
+                lstrip = normalize_double_quotes(lstrip)
+                if len(lstrip) != orig_len:
+                    escaped_double_quotes += 1
+
             if not in_declaration:
                 in_declaration = True
                 validated_lines.append(lstrip)
@@ -119,14 +127,14 @@ def validate_and_fix_localization_file(file_path: Path):
             validated_lines.append(line)
 
     if removed_tab_symbols > 0:
-        is_patched = True
         logger.debug(f"Removed tab symbols from {removed_tab_symbols} lines at {file_path}")
     if removed_versioning > 0:
-        is_patched = True
         logger.debug(f"Removed versioning from {removed_versioning} lines at {file_path}")
     if adjusted_indent > 0:
-        is_patched = True
         logger.debug(f"Fixed invalid indentation in {file_path}")
+    if escaped_double_quotes > 0:
+        logger.debug(f"Escaped double quotes in {escaped_double_quotes} lines at {file_path}")
+    is_patched = is_patched or adjusted_indent > 0 or removed_tab_symbols > 0 or removed_versioning > 0 or escaped_double_quotes > 0
 
     if is_patched and validated_lines:
         with open(file_path, "w", encoding="utf-8-sig") as f:
@@ -143,7 +151,7 @@ def normalize_localization_files(source_dir: Path):
             continue
         try:
             # Only making them parsearble, no other preprocessing
-            validate_and_fix_localization_file(Path(file))
+            validate_and_fix_localization_file(Path(file), fix_double_quotes=True)
         except Exception as e:
             print(f"Error processing {file}: {e}")
 
@@ -162,8 +170,8 @@ def normalize_localization_files(source_dir: Path):
 
 
 if __name__ == "__main__":
-    # _languages = [Language.ENGLISH, Language.RUSSIAN]
-    # copy_localizations(game_dir, translation_dir, _languages)
-    # remove_deleted_localizations(game_dir, translation_dir, _languages)
-    # normalize_localization_files(translation_dir)
+    _languages = [Language.ENGLISH, Language.RUSSIAN]
+    copy_localizations(game_dir, translation_dir, _languages)
+    remove_deleted_localizations(game_dir, translation_dir, _languages)
+    normalize_localization_files(translation_dir)
     copy_custom_loc()

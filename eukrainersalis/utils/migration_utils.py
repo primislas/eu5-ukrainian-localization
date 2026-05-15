@@ -1,4 +1,5 @@
 import os.path
+import re
 import threading
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -71,3 +72,67 @@ class MigrationManager:
         with self._lock:
             self._processed_files.clear()
             self._store_processed_files()
+
+
+def normalize_double_quotes(line: str) -> str:
+    """Escape unescaped double quotes inside a YAML localization value, and add a closing quote if absent.
+
+    For example:
+      ` some_yaml_key: "lorem "impsum" lorem" ipsum" # ignore quotes " in comments`
+    becomes:
+      ` some_yaml_key: "lorem \"impsum\" lorem\" ipsum" # ignore quotes " in comments`
+
+    Comment detection (by `#`) has priority over closing-quote detection.  The
+    algorithm scans `#` positions from right to left and takes the rightmost one
+    where the text before it ends with an unescaped `"` optionally followed by
+    whitespace — that `"` is treated as the closing quote and everything from it
+    to end-of-line becomes the comment part.  This ensures that `"` characters
+    inside a comment are never mistaken for the closing quote of the value.
+
+    If no `#` yields a valid split, the closing quote is the rightmost unescaped
+    `"` followed only by optional whitespace (no comment present).
+
+    If no closing quote is found at all, one is appended.
+    """
+    match = re.match(r'^(\s*\S+:\s*)"(.*)', line)
+    if not match:
+        return line
+
+    prefix = match.group(1)
+    rest = match.group(2)
+
+    # Step 1: find comment boundary via rightmost '#', scanning right-to-left.
+    # Accept the first '#' (rightmost) where the text before it contains a valid
+    # closing '"': an unescaped '"' followed only by optional whitespace.
+    closing_pos = None
+    comment_part = ""
+    for hash_pos in (i for i in range(len(rest) - 1, -1, -1) if rest[i] == '#'):
+        before_hash = rest[:hash_pos]
+        for i in range(len(before_hash) - 1, -1, -1):
+            if before_hash[i] == '"' and (i == 0 or before_hash[i - 1] != '\\'):
+                if re.match(r'^\s*$', before_hash[i + 1:]):
+                    closing_pos = i
+                    comment_part = rest[i + 1:]
+                    break
+        if closing_pos is not None:
+            break
+
+    # Step 2: if no '#'-anchored comment found, look for a bare closing '"'
+    # (rightmost unescaped '"' followed only by optional whitespace).
+    if closing_pos is None:
+        for i in range(len(rest) - 1, -1, -1):
+            if rest[i] == '"' and (i == 0 or rest[i - 1] != '\\'):
+                if re.match(r'^\s*$', rest[i + 1:]):
+                    closing_pos = i
+                    comment_part = rest[i + 1:]
+                    break
+
+    if closing_pos is not None:
+        value_content = rest[:closing_pos]
+    else:
+        value_content = rest
+        comment_part = ""
+
+    escaped_content = re.sub(r'(?<!\\)"', '\\"', value_content)
+
+    return f'{prefix}"{escaped_content}"{comment_part}'
