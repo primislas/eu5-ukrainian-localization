@@ -1,6 +1,6 @@
 ﻿l_russian:
   border_friction.1.title: "Прикордонна суперечка"
-  border_friction.1.desc: "[border_claim_country.GetLongName] і ми уклали союз, цим у нас в країні задоволені не всі. Деякі впливові [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] вимагають розірвати укладену угоду. Каменем спотикання стала провінція [border_claim_province.GetName] — зараз вона належить [border_claim_country.Custom('CL_DAT')], але багато хто вважає її нашими споконвічними землями. Скориставшись ситуацією, противники союзу зуміли розгойдати народне обурення."
+  border_friction.1.desc: "[border_claim_country.GetLongName] і ми уклали союз, цим у нас в країні задоволені не всі. Деяк[ROOT.GetCountry.Custom('nobles_yiaei')] впливов[ROOT.GetCountry.Custom('nobles_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] вимага[ROOT.GetCountry.Custom('nobles_yeyut')] розірвати укладену угоду. Каменем спотикання стала провінція [border_claim_province.GetName] — зараз вона належить [border_claim_country.Custom('CL_DAT')], але багато хто вважає її нашими споконвічними землями. Скориставшись ситуацією, противники союзу зуміли розгойдати народне обурення."
   border_friction.1.a: "Можливо, час змінити пріоритети…"
   border_friction_from_event: "Невдоволення претензіями"
   border_friction.1.b: "Треба представити все в найкращому вигляді!"

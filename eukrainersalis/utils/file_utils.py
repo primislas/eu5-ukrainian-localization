@@ -14,6 +14,8 @@ translation_dir = project_dir / "Ukrainian Localization"
 custom_localization_translation_dir_path = translation_dir / "game" / "in_game" / "common" / "customizable_localization"
 custom_localization_mod_dir_path = project_mod_dir / "in_game" / "common" / "customizable_localization"
 
+estate_ending_file_path = custom_localization_mod_dir_path / "380_ua_custom_loc_estates_end.txt"
+
 game_dir = Path(os.getenv("GAME_DIR", "./"))
 mod_dir = Path(os.getenv("MOD_DIR", "./"))
 

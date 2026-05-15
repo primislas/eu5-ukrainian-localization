@@ -85,7 +85,7 @@
   devotion_events.24.desc: "Натхненні нашою благою метою, на допомогу прибули добровольці — послідовники #L [ROOT.GetCountry.GetReligion.GetAdjective|l]ого#! вчення. Вони хочуть битися з безбожниками в ім'я істинної віри!"
   devotion_events.24.a: "Чудова ініціатива!"
   devotion_events.100.title: "[target_location.GetRank.GetNameWithNoTooltip|U] та [ROOT.GetCountry.GetFlavorRank] ворогують"
-  devotion_events.100.desc: "[ROOT.GetCountry.GetFlavorRank|U] та [target_location.GetRank.GetName] [target_location.GetName] вже багато років не ладнають, і наші стосунки залишають бажати кращого. Жителі [target_location.Custom('LR_GEN')|l] хочуть, щоб [target_ruler.GetName] не [Select_CString(target_ruler.IsFemale, 'панувала', 'панував' )] над ними. Ні [ROOT.GetCountry.GetGovernment.GetRulerTitle|l], ні [Select_CString(target_ruler.IsFemale, 'її', 'його' )] попередники не зможуть отримати тут притулок у неспокійні часи."
+  devotion_events.100.desc: "[ROOT.GetCountry.GetFlavorRank|U] та [target_location.GetRank.GetName] [target_location.GetName] вже багато років не ладнають, і наші стосунки маловтішні. Жителі [target_location.Custom('LR_GEN')|l] хочуть, щоб [target_ruler.GetName] не [Select_CString(target_ruler.IsFemale, 'панувала', 'панував' )] над ними. Ні [ROOT.GetCountry.GetGovernment.GetRulerTitle|l], ні [Select_CString(target_ruler.IsFemale, 'її', 'його' )] попередники не зможуть отримати тут притулок у неспокійні часи."
   devotion_events.100.a: "Рано чи пізно вони порозумнішають."
   devotion_events.100.b: "Покажемо, що ми тут влада!"
   devotion_events.101.title: "Лампада світла"

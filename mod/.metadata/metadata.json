@@ -1,10 +1,10 @@
 ﻿{
-	"name":	"Ukrainian Localization (Early Access)",
-	"id":	"localization.ukrainian",
+	"name":	"Європа УкраЇнерсаліс V (Ранній Доступ)",
+	"id":	"europa.ukrainersalis.v",
 	"version":	"0.1",
 	"supported_game_version":	"1.2.*",
-	"short_description":	"Brings Ukrainian localization to EU5 T.",
-	"tags":	["User Interface"],
+	"short_description":	"Brings Ukrainian localization to EU5.",
+	"tags":	["User Interface", "Translation"],
 	"relationships":	[],
 	"game_custom_data":	{
     }

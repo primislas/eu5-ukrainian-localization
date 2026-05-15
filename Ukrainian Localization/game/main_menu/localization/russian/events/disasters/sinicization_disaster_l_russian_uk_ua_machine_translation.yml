@@ -17,7 +17,7 @@
   sinicization_disaster.3.desc: "$estate_intro_paragraph$\n\nНе стали винятком і наше духовенство. $continuation_key$"
   sinicization_disaster.3.a: "$reverse_key$"
   sinicization_disaster.3.b: "$nonsense_key$"
-  sinicization_disaster.4.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] чинить опір [target_emperor_scope.GetAdjectiveWithNoTooltip|l]ому впливу"
+  sinicization_disaster.4.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] чин[ROOT.GetCountry.Custom('nobles_ytyat')] опір [target_emperor_scope.GetAdjectiveWithNoTooltip|l]ому впливу"
   sinicization_disaster.4.desc: "$estate_intro_paragraph$\n\nНе стала винятком і наша знать. $continuation_key$"
   sinicization_disaster.4.a: "$reverse_key$"
   sinicization_disaster.4.b: "$nonsense_key$"

@@ -1,7 +1,7 @@
 ﻿l_russian:
   flavor_hab_tir.1.title: "[GetCountry('BOH').GetAdjectiveWithNoTooltip]ий вплив"
   flavor_hab_tir.1.entry: "Непростий шлюб Тиролю"
-  flavor_hab_tir.1.desc: "Молодий [target_spouse.GetName], за якого вийшла заміж [target_ruler.GetName|l], приніс із собою відчутний #L [GetCountry('BOH').GetAdjective|l]ий#! вплив. Мало того, що його власні манери виглядають чужими при нашому дворі, ще й #L [GetCountry('BOH').GetAdjective|l]а#! [GetCountry('BOH').GetGovernment.GetEstateName('nobles_estate')|l] з його почту набуває все більшої ваги в #L [ROOT.GetCountry.GetAdjective|l]их#! землях. Наша власна [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] занепокоєна тим, що буде з [ROOT.GetCountry.Custom('rank_ua_INST')|l] після народження спадкоємця династії [target_spouse.GetDynasty.GetName]."
+  flavor_hab_tir.1.desc: "Молодий [target_spouse.GetName], за якого вийшла заміж [target_ruler.GetName|l], приніс із собою відчутний #L [GetCountry('BOH').GetAdjective|l]ий#! вплив. Мало того, що його власні манери виглядають чужими при нашому дворі, ще й #L [GetCountry('BOH').GetAdjective|l][GetCountry('BOH').Custom('nobles_yiaei')]#! [GetCountry('BOH').GetGovernment.GetEstateName('nobles_estate')|l] з його почту набуває все більшої ваги в #L [ROOT.GetCountry.GetAdjective|l]их#! землях. Наша власна [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] занепокоєн[ROOT.GetCountry.Custom('nobles_yiaei')] тим, що буде з [ROOT.GetCountry.Custom('rank_ua_INST')|l] після народження спадкоємця династії [target_spouse.GetDynasty.GetName]."
   flavor_hab_tir.1.a: "Нам слід обмежити його вплив."
   flavor_hab_tir.1.b: "Не будемо йому заважати."
   flavor_hab_tir.2.title: "[target_ruler.GetShortNameWithNoTooltip] у пошуках нареченого"

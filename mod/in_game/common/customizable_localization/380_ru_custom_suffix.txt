@@ -3957,7 +3957,7 @@ parliament_ua_PREP = {
 	suffix = "_PREP"
 	if_invalid_loc = return_empty
 }
-international_organization_flavor_parliament_ru = {
+international_organization_flavor_parliament_ua = {
 	type = international_organization
 
 	text = {
@@ -4002,61 +4002,61 @@ international_organization_flavor_parliament_ru = {
 }
 parliament_io_ua_GEN = {
 	log_loc_errors = no
-	parent = international_organization_flavor_parliament_ru
+	parent = international_organization_flavor_parliament_ua
 	suffix = "_GEN"
 	if_invalid_loc = return_empty
 }
 parliament_io_ua_DAT = {
 	log_loc_errors = no
-	parent = international_organization_flavor_parliament_ru
+	parent = international_organization_flavor_parliament_ua
 	suffix = "_DAT"
 	if_invalid_loc = return_empty
 }
 parliament_io_ua_ACC = {
 	log_loc_errors = no
-	parent = international_organization_flavor_parliament_ru
+	parent = international_organization_flavor_parliament_ua
 	suffix = "_ACC"
 	if_invalid_loc = return_empty
 }
 parliament_io_ua_INST = {
 	log_loc_errors = no
-	parent = international_organization_flavor_parliament_ru
+	parent = international_organization_flavor_parliament_ua
 	suffix = "_INST"
 	if_invalid_loc = return_empty
 }
 parliament_io_ua_PREP = {
 	log_loc_errors = no
-	parent = international_organization_flavor_parliament_ru
+	parent = international_organization_flavor_parliament_ua
 	suffix = "_PREP"
 	if_invalid_loc = return_empty
 }
 parliament_io_ua_wntt_GEN = {
 	log_loc_errors = no
-	parent = international_organization_flavor_parliament_ru
+	parent = international_organization_flavor_parliament_ua
 	suffix = "_wntt_GEN"
 	if_invalid_loc = return_empty
 }
 parliament_io_ua_wntt_DAT = {
 	log_loc_errors = no
-	parent = international_organization_flavor_parliament_ru
+	parent = international_organization_flavor_parliament_ua
 	suffix = "_wntt_DAT"
 	if_invalid_loc = return_empty
 }
 parliament_io_ua_wntt_ACC = {
 	log_loc_errors = no
-	parent = international_organization_flavor_parliament_ru
+	parent = international_organization_flavor_parliament_ua
 	suffix = "_wntt_ACC"
 	if_invalid_loc = return_empty
 }
 parliament_io_ua_wntt_INST = {
 	log_loc_errors = no
-	parent = international_organization_flavor_parliament_ru
+	parent = international_organization_flavor_parliament_ua
 	suffix = "_wntt_INST"
 	if_invalid_loc = return_empty
 }
 parliament_io_ua_wntt_PREP = {
 	log_loc_errors = no
-	parent = international_organization_flavor_parliament_ru
+	parent = international_organization_flavor_parliament_ua
 	suffix = "_wntt_PREP"
 	if_invalid_loc = return_empty
 }

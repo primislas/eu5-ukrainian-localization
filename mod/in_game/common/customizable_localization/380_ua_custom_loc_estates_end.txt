@@ -1,0 +1,798 @@
+﻿crown_yeyut = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_yeyut"
+  if_invalid_loc = return_empty
+}
+crown_vlaloly = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_vlaloly"
+  if_invalid_loc = return_empty
+}
+crown_yiaei = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_yiaei"
+  if_invalid_loc = return_empty
+}
+crown_eut = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_eut"
+  if_invalid_loc = return_empty
+}
+crown_aei = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_aei"
+  if_invalid_loc = return_empty
+}
+crown_ytyat = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_ytyat"
+  if_invalid_loc = return_empty
+}
+crown_ytat = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_ytat"
+  if_invalid_loc = return_empty
+}
+crown_ytlyat = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_ytlyat"
+  if_invalid_loc = return_empty
+}
+crown_yityat = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_yityat"
+  if_invalid_loc = return_empty
+}
+crown_yetsayutsa = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_yetsayutsa"
+  if_invalid_loc = return_empty
+}
+crown_etsautsa = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_etsautsa"
+  if_invalid_loc = return_empty
+}
+crown_ihohlaloly = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_ihohlaloly"
+  if_invalid_loc = return_empty
+}
+crown_ohooyiyh = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_ohooyiyh"
+  if_invalid_loc = return_empty
+}
+crown_iyyayei = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_iyyayei"
+  if_invalid_loc = return_empty
+}
+crown_essyasesi = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_essyasesi"
+  if_invalid_loc = return_empty
+}
+crown_eyyaei = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_eyyaei"
+  if_invalid_loc = return_empty
+}
+crown_ymoyuymy = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_ymoyuymy"
+  if_invalid_loc = return_empty
+}
+crown_ovlaloly = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_ovlaloly"
+  if_invalid_loc = return_empty
+}
+crown_ennanoni = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_ennanoni"
+  if_invalid_loc = return_empty
+}
+clergy_yeyut = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_yeyut"
+  if_invalid_loc = return_empty
+}
+clergy_vlaloly = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_vlaloly"
+  if_invalid_loc = return_empty
+}
+clergy_yiaei = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_yiaei"
+  if_invalid_loc = return_empty
+}
+clergy_eut = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_eut"
+  if_invalid_loc = return_empty
+}
+clergy_aei = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_aei"
+  if_invalid_loc = return_empty
+}
+clergy_ytyat = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_ytyat"
+  if_invalid_loc = return_empty
+}
+clergy_ytat = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_ytat"
+  if_invalid_loc = return_empty
+}
+clergy_ytlyat = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_ytlyat"
+  if_invalid_loc = return_empty
+}
+clergy_yityat = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_yityat"
+  if_invalid_loc = return_empty
+}
+clergy_yetsayutsa = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_yetsayutsa"
+  if_invalid_loc = return_empty
+}
+clergy_etsautsa = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_etsautsa"
+  if_invalid_loc = return_empty
+}
+clergy_ihohlaloly = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_ihohlaloly"
+  if_invalid_loc = return_empty
+}
+clergy_ohooyiyh = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_ohooyiyh"
+  if_invalid_loc = return_empty
+}
+clergy_iyyayei = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_iyyayei"
+  if_invalid_loc = return_empty
+}
+clergy_essyasesi = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_essyasesi"
+  if_invalid_loc = return_empty
+}
+clergy_eyyaei = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_eyyaei"
+  if_invalid_loc = return_empty
+}
+clergy_ymoyuymy = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_ymoyuymy"
+  if_invalid_loc = return_empty
+}
+clergy_ovlaloly = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_ovlaloly"
+  if_invalid_loc = return_empty
+}
+clergy_ennanoni = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_ennanoni"
+  if_invalid_loc = return_empty
+}
+nobles_yeyut = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_yeyut"
+  if_invalid_loc = return_empty
+}
+nobles_vlaloly = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_vlaloly"
+  if_invalid_loc = return_empty
+}
+nobles_yiaei = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_yiaei"
+  if_invalid_loc = return_empty
+}
+nobles_eut = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_eut"
+  if_invalid_loc = return_empty
+}
+nobles_aei = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_aei"
+  if_invalid_loc = return_empty
+}
+nobles_ytyat = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_ytyat"
+  if_invalid_loc = return_empty
+}
+nobles_ytat = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_ytat"
+  if_invalid_loc = return_empty
+}
+nobles_ytlyat = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_ytlyat"
+  if_invalid_loc = return_empty
+}
+nobles_yityat = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_yityat"
+  if_invalid_loc = return_empty
+}
+nobles_yetsayutsa = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_yetsayutsa"
+  if_invalid_loc = return_empty
+}
+nobles_etsautsa = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_etsautsa"
+  if_invalid_loc = return_empty
+}
+nobles_ihohlaloly = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_ihohlaloly"
+  if_invalid_loc = return_empty
+}
+nobles_ohooyiyh = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_ohooyiyh"
+  if_invalid_loc = return_empty
+}
+nobles_iyyayei = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_iyyayei"
+  if_invalid_loc = return_empty
+}
+nobles_essyasesi = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_essyasesi"
+  if_invalid_loc = return_empty
+}
+nobles_eyyaei = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_eyyaei"
+  if_invalid_loc = return_empty
+}
+nobles_ymoyuymy = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_ymoyuymy"
+  if_invalid_loc = return_empty
+}
+nobles_ovlaloly = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_ovlaloly"
+  if_invalid_loc = return_empty
+}
+nobles_ennanoni = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_ennanoni"
+  if_invalid_loc = return_empty
+}
+burghers_yeyut = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_yeyut"
+  if_invalid_loc = return_empty
+}
+burghers_vlaloly = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_vlaloly"
+  if_invalid_loc = return_empty
+}
+burghers_yiaei = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_yiaei"
+  if_invalid_loc = return_empty
+}
+burghers_eut = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_eut"
+  if_invalid_loc = return_empty
+}
+burghers_aei = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_aei"
+  if_invalid_loc = return_empty
+}
+burghers_ytyat = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_ytyat"
+  if_invalid_loc = return_empty
+}
+burghers_ytat = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_ytat"
+  if_invalid_loc = return_empty
+}
+burghers_ytlyat = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_ytlyat"
+  if_invalid_loc = return_empty
+}
+burghers_yityat = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_yityat"
+  if_invalid_loc = return_empty
+}
+burghers_yetsayutsa = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_yetsayutsa"
+  if_invalid_loc = return_empty
+}
+burghers_etsautsa = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_etsautsa"
+  if_invalid_loc = return_empty
+}
+burghers_ihohlaloly = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_ihohlaloly"
+  if_invalid_loc = return_empty
+}
+burghers_ohooyiyh = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_ohooyiyh"
+  if_invalid_loc = return_empty
+}
+burghers_iyyayei = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_iyyayei"
+  if_invalid_loc = return_empty
+}
+burghers_essyasesi = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_essyasesi"
+  if_invalid_loc = return_empty
+}
+burghers_eyyaei = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_eyyaei"
+  if_invalid_loc = return_empty
+}
+burghers_ymoyuymy = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_ymoyuymy"
+  if_invalid_loc = return_empty
+}
+burghers_ovlaloly = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_ovlaloly"
+  if_invalid_loc = return_empty
+}
+burghers_ennanoni = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_ennanoni"
+  if_invalid_loc = return_empty
+}
+peasants_yeyut = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_yeyut"
+  if_invalid_loc = return_empty
+}
+peasants_vlaloly = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_vlaloly"
+  if_invalid_loc = return_empty
+}
+peasants_yiaei = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_yiaei"
+  if_invalid_loc = return_empty
+}
+peasants_eut = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_eut"
+  if_invalid_loc = return_empty
+}
+peasants_aei = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_aei"
+  if_invalid_loc = return_empty
+}
+peasants_ytyat = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_ytyat"
+  if_invalid_loc = return_empty
+}
+peasants_ytat = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_ytat"
+  if_invalid_loc = return_empty
+}
+peasants_ytlyat = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_ytlyat"
+  if_invalid_loc = return_empty
+}
+peasants_yityat = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_yityat"
+  if_invalid_loc = return_empty
+}
+peasants_yetsayutsa = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_yetsayutsa"
+  if_invalid_loc = return_empty
+}
+peasants_etsautsa = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_etsautsa"
+  if_invalid_loc = return_empty
+}
+peasants_ihohlaloly = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_ihohlaloly"
+  if_invalid_loc = return_empty
+}
+peasants_ohooyiyh = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_ohooyiyh"
+  if_invalid_loc = return_empty
+}
+peasants_iyyayei = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_iyyayei"
+  if_invalid_loc = return_empty
+}
+peasants_essyasesi = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_essyasesi"
+  if_invalid_loc = return_empty
+}
+peasants_eyyaei = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_eyyaei"
+  if_invalid_loc = return_empty
+}
+peasants_ymoyuymy = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_ymoyuymy"
+  if_invalid_loc = return_empty
+}
+peasants_ovlaloly = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_ovlaloly"
+  if_invalid_loc = return_empty
+}
+peasants_ennanoni = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_ennanoni"
+  if_invalid_loc = return_empty
+}
+tribes_yeyut = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_yeyut"
+  if_invalid_loc = return_empty
+}
+tribes_vlaloly = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_vlaloly"
+  if_invalid_loc = return_empty
+}
+tribes_yiaei = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_yiaei"
+  if_invalid_loc = return_empty
+}
+tribes_eut = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_eut"
+  if_invalid_loc = return_empty
+}
+tribes_aei = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_aei"
+  if_invalid_loc = return_empty
+}
+tribes_ytyat = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_ytyat"
+  if_invalid_loc = return_empty
+}
+tribes_ytat = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_ytat"
+  if_invalid_loc = return_empty
+}
+tribes_ytlyat = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_ytlyat"
+  if_invalid_loc = return_empty
+}
+tribes_yityat = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_yityat"
+  if_invalid_loc = return_empty
+}
+tribes_yetsayutsa = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_yetsayutsa"
+  if_invalid_loc = return_empty
+}
+tribes_etsautsa = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_etsautsa"
+  if_invalid_loc = return_empty
+}
+tribes_ihohlaloly = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_ihohlaloly"
+  if_invalid_loc = return_empty
+}
+tribes_ohooyiyh = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_ohooyiyh"
+  if_invalid_loc = return_empty
+}
+tribes_iyyayei = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_iyyayei"
+  if_invalid_loc = return_empty
+}
+tribes_essyasesi = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_essyasesi"
+  if_invalid_loc = return_empty
+}
+tribes_eyyaei = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_eyyaei"
+  if_invalid_loc = return_empty
+}
+tribes_ymoyuymy = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_ymoyuymy"
+  if_invalid_loc = return_empty
+}
+tribes_ovlaloly = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_ovlaloly"
+  if_invalid_loc = return_empty
+}
+tribes_ennanoni = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_ennanoni"
+  if_invalid_loc = return_empty
+}
+cossacks_yeyut = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_yeyut"
+  if_invalid_loc = return_empty
+}
+cossacks_vlaloly = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_vlaloly"
+  if_invalid_loc = return_empty
+}
+cossacks_yiaei = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_yiaei"
+  if_invalid_loc = return_empty
+}
+cossacks_eut = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_eut"
+  if_invalid_loc = return_empty
+}
+cossacks_aei = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_aei"
+  if_invalid_loc = return_empty
+}
+cossacks_ytyat = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_ytyat"
+  if_invalid_loc = return_empty
+}
+cossacks_ytat = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_ytat"
+  if_invalid_loc = return_empty
+}
+cossacks_ytlyat = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_ytlyat"
+  if_invalid_loc = return_empty
+}
+cossacks_yityat = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_yityat"
+  if_invalid_loc = return_empty
+}
+cossacks_yetsayutsa = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_yetsayutsa"
+  if_invalid_loc = return_empty
+}
+cossacks_etsautsa = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_etsautsa"
+  if_invalid_loc = return_empty
+}
+cossacks_ihohlaloly = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_ihohlaloly"
+  if_invalid_loc = return_empty
+}
+cossacks_ohooyiyh = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_ohooyiyh"
+  if_invalid_loc = return_empty
+}
+cossacks_iyyayei = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_iyyayei"
+  if_invalid_loc = return_empty
+}
+cossacks_essyasesi = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_essyasesi"
+  if_invalid_loc = return_empty
+}
+cossacks_eyyaei = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_eyyaei"
+  if_invalid_loc = return_empty
+}
+cossacks_ymoyuymy = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_ymoyuymy"
+  if_invalid_loc = return_empty
+}
+cossacks_ovlaloly = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_ovlaloly"
+  if_invalid_loc = return_empty
+}
+cossacks_ennanoni = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_ennanoni"
+  if_invalid_loc = return_empty
+}

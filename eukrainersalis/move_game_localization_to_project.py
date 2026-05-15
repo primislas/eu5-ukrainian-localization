@@ -58,7 +58,15 @@ def remove_deleted_localizations(source_dir: Path, target_dir: Path, languages: 
     for file in localization_files:
         rel = Path(file).relative_to(target_dir)
         source_file = source_dir / rel
-        if not os.path.exists(source_file):
+        if "machine_translation" in file:
+            if "_ua_end_" in file:
+                # Keeping ending files close to source because it's just more convenient to manage
+                continue
+            mtr_source_file = str(source_file).replace("_l_russian_uk_ua_machine_translation", "_l_russian")
+            if not os.path.exists(mtr_source_file):
+                print(f"Deleting {rel}")
+                os.remove(file)
+        elif not os.path.exists(source_file):
             print(f"Deleting {rel}")
             os.remove(file)
 
@@ -172,6 +180,6 @@ def normalize_localization_files(source_dir: Path):
 if __name__ == "__main__":
     _languages = [Language.ENGLISH, Language.RUSSIAN]
     copy_localizations(game_dir, translation_dir, _languages)
-    remove_deleted_localizations(game_dir, translation_dir, _languages)
+    remove_deleted_localizations(game_dir, translation_dir, _languages + [Language.UK_UA_MACHINE_TRANSLATION])
     normalize_localization_files(translation_dir)
     copy_custom_loc()

@@ -73,7 +73,7 @@
   flavor_mug.12.b: "У нас є важливіші справи."
   flavor_mug.13.title: "Поширення мови раджастхані"
   flavor_mug.13.entry: "Поширення раджастханської мови"
-  flavor_mug.13.desc: "Мова #TOOLTIP:LANGUAGE,rajasthani_language,X #L раджастхані#!#! доволі популярна при #L [ROOT.GetCountry.GetAdjective|l]ому#! дворі, однак [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] потребує тих, хто обізнаний у військовій справі. Ми могли б дарувати таким людям вище становище в [ROOT.GetCountry.Custom('rank_ua_PREP')|l], але високопоставлена [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], що давно користується впливом, буде обурена."
+  flavor_mug.13.desc: "Мова #TOOLTIP:LANGUAGE,rajasthani_language,X #L раджастхані#!#! доволі популярна при #L [ROOT.GetCountry.GetAdjective|l]ому#! дворі, однак [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] потребує тих, хто обізнаний у військовій справі. Ми могли б дарувати таким людям вище становище в [ROOT.GetCountry.Custom('rank_ua_PREP')|l], але високопоставлен[ROOT.GetCountry.Custom('nobles_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], що давно користується впливом, буде обурен[ROOT.GetCountry.Custom('nobles_yiaei')]."
   flavor_mug.13.a: "Надамо їм підтримку."
   flavor_mug.13.b: "Навіщо потурати меншинам?"
   mug_all_rajput_pops_lose_satisfaction_tt: "Усі [Concept('pops', 'групи населення')|e], що говорять [Concept('language', 'мовою')|e] #TOOLTIP:LANGUAGE,rajasthani_language,X #L раджастхані#!#!, втратять [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [Concept('pop_satisfaction', 'задоволення')|e]"

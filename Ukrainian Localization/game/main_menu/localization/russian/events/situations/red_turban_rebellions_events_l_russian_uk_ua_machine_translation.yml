@@ -52,7 +52,7 @@
   red_turban_rebellions.20.a: "Ми не можемо допомогти їм."
   red_turban_rebellions.20.b: "Надамо їм фінансову підтримку."
   red_turban_rebellions.21.title: "Оскарження мандату"
-  red_turban_rebellions.21.desc: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] спостерігають за занепадом нашої країни. [ROOT.GetCountry.Custom('GetRulerOrRegentTitle')] стрімко втрачає їхню довіру, а найамбітніші мріють про небесний мандат…"
+  red_turban_rebellions.21.desc: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] спостеріга[ROOT.GetCountry.Custom('nobles_yeyut')] за занепадом нашої країни. [ROOT.GetCountry.Custom('GetRulerOrRegentTitle')] стрімко втрачає їхню довіру, а найамбітніші мріють про небесний мандат…"
   red_turban_rebellions.21.a: "Ми розтрощимо їх!"
   noble_enemies_to_the_mandate: "Еліта проти престолу"
   red_turban_rebellions.21.b: "Можливо, вони заспокояться, якщо ми дамо їм привілеї."

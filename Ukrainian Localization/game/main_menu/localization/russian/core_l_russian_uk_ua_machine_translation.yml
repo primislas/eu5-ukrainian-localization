@@ -355,7 +355,7 @@
   COUNTRY_SUMMARY_SPECIFIC_LOBBY_DESCRIPTION_TT: "Огляд країни"
   COUNTRY_EVENTS_SPECIFIC_LOBBY_DESCRIPTION_TT: "Події країни"
   COUNTRY_SPECIFIC_LOBBY_DESCRIPTION: "Ви, як [COUNTRY.GetName], отримуєте доступ до таких унікальних поступів, законів, реформ та загонів: $BONUSES$"
-  COUNTRY_SPECIFIC_LOBBY_DESCRIPTION_TT: "Бонуси країни"
+  COUNTRY_SPECIFIC_LOBBY_DESCRIPTION_TT: "Особливості країни"
   CULTURE_SPECIFIC_LOBBY_DESCRIPTION: "#L [ROOT.GetCulture.GetName]а#! [Concept('culture', 'культура')|e] відкриває таке: $BONUSES$"
   CULTURE_SPECIFIC_LOBBY_DESCRIPTION_TT: "Бонуси культури"
   CULTURE_GROUP_SPECIFIC_LOBBY_DESCRIPTION: "#L [ROOT.GetCultureGroup.GetName]а#! [Concept('culture_group', 'культурна група')|e] відкриває таке: $BONUSES$"

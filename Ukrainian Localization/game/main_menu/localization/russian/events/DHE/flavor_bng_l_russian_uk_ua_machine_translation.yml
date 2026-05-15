@@ -12,7 +12,7 @@
   flavor_bng.2.b: "Не варто витрачати гроші на це."
   flavor_bng.3.title: "[target_character.GetNameWithNoTooltip] та місто мечетей"
   flavor_bng.3.entry: "Хан Джахан Алі — Халіфатабад"
-  flavor_bng.3.desc: "[target_character.GetName], [Select_CString(target_character.IsFemale, 'яку', 'якого' )] виховали місцеві [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], [Select_CString(target_character.IsFemale, 'перетворила', 'перетворив' )] околиці #TOOLTIP:LOCATION,khalifatabad,X #L Халіфатабада#!#! на прекрасне місто, забудоване мечетями та мостами. Завдання це виявилося не з легких, оскільки Халіфатабад розташований у дельті річки Ганг, проте вмілим людям до снаги навіть неможливе. Сьогодні місто бурхливо розвивається і незабаром може стати головним серед усіх інших міст, де карбують монети."
+  flavor_bng.3.desc: "[target_character.GetName], [Select_CString(target_character.IsFemale, 'яку', 'якого' )] вихова[ROOT.GetCountry.Custom('nobles_vlaloly')] місцев[ROOT.GetCountry.Custom('nobles_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], [Select_CString(target_character.IsFemale, 'перетворила', 'перетворив' )] околиці #TOOLTIP:LOCATION,khalifatabad,X #L Халіфатабада#!#! на прекрасне місто, забудоване мечетями та мостами. Завдання це виявилося не з легких, оскільки Халіфатабад розташований у дельті річки Ганг, проте вмілим людям до снаги навіть неможливе. Сьогодні місто бурхливо розвивається і незабаром може стати головним серед усіх інших міст, де карбують монети."
   flavor_bng.3.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   flavor_bng.3.a.entry: "$common_string_brilliant$"
   flavor_bng.4.title: "Монетні міста Бенгалії процвітають"

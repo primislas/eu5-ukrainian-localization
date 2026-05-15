@@ -15,7 +15,7 @@
   flavor_pue.103.a: "Подібне розташування нам вкрай вигідне."
   flavor_pue.104.title: "Обитель предків"
   flavor_pue.104.entry: "$flavor_pue.104.title$"
-  flavor_pue.104.desc: "Ставши на чолі одразу кількох племен #TOOLTIP:CULTUREGROUP,puebloan_group,X #L пуебло#!#!, [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] [our_ruler.GetName] та [Select_CString(our_ruler.IsFemale,'її', 'його')] найближчі прихильники звернулися до одноплемінників із пропозицією знову заселити покинуте місто #TOOLTIP:LOCATION,tse_bitai,X #L Це-Бітаї#!#!. Колись давно наші предки покинули це місце через надто суворі умови, що призвело до розділення народу на кілька племен. Однак [our_ruler.GetNameWithNoTooltip] вважає, що якщо ми об'єднаємо зусилля, то у нас будуть усі нагоди подарувати цьому поселенню нове життя, незважаючи на труднощі."
+  flavor_pue.104.desc: "Ставши на чолі одразу кількох племен #TOOLTIP:CULTUREGROUP,puebloan_group,X #L пуебло#!#!, [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] [our_ruler.GetName] та [Select_CString(our_ruler.IsFemale,'її', 'його')] найближчі прихильники звернулися до одноплеменців із пропозицією знову заселити покинуте місто #TOOLTIP:LOCATION,tse_bitai,X #L Це-Бітаї#!#!. Колись давно наші предки покинули це місце через надто суворі умови, що призвело до розділення народу на кілька племен. Однак [our_ruler.GetNameWithNoTooltip] вважає, що якщо ми об'єднаємо зусилля, то у нас будуть усі нагоди подарувати цьому поселенню нове життя, незважаючи на труднощі."
   flavor_pue.104.a: "Ми повернемося в обитель наших предків."
   flavor_pue.104.b: "Не варто повертатися на шлях, яким ішли предки."
   flavor_pue.105.title: "Заселення Тсе Бітаї"

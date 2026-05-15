@@ -38,7 +38,7 @@
   king_of_all_omen: "Володар світу"
   king_of_all_omen_desc: "#TOOLTIP:GOD,zeus_god,X #L Зевс#!#! повеліває богами, як правитель повеліває народом."
   immortal_omen: "Безсмертя"
-  immortal_omen_desc: "PENDING_TRANSLATION"
+  immortal_omen_desc: "Боги безсмертні, а наші війська непереможні під покровительством #TOOLTIP:GOD,zeus_god,X #L Зевса#!#!."
   splendor_omen: "Лазурове небо"
   splendor_omen_desc: "Ясне небо — символ незаперечної влади #TOOLTIP:GOD,zeus_god,X #L Зевса#!#!. Його покровительство обіцяє нам світову славу."
   mother_of_love_omen: "Мати любови"
@@ -307,4 +307,3 @@
   hellenism_religion.36.a: "Захистити доктрину. Придушити фракцію."
   hellenism_religion.36.b: "Дозволити офіційні диспути. Нехай висловляться обидві сторони."
   hellenism_religion.36.c: "Відмовитися від моністської доктрини. Повернутися до Олімпійського пантеону."
-  immortal_omen_omen_desc: "Боги безсмертні, а наші війська непереможні під покровительством #TOOLTIP:GOD,zeus_god,X #L Зевса#!#!."

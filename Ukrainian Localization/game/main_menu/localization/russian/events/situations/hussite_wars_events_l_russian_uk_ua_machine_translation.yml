@@ -100,7 +100,7 @@
   hussite_wars.8.a: "Вперед, славні сини та дочки [GetCountry('BOH').Custom('CL_GEN')]!"
   boh_clergy_donation_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] пожертвує кошти, які будуть спрямовані на підвищення духу нашого народу"
   hussite_wars.8.b: "Ми будемо поширювати наше вчення проти католиків із ще більшою ревністю."
-  hussite_wars.8.c: "Нехай у ці важкі часи нам допоможуть [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l]…"
+  hussite_wars.8.c: "Нехай у ці важкі часи нам допомож[ROOT.GetCountry.Custom('nobles_eut')] [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l]..."
   hussite_wars.9.title: "Новий хрестовий похід проти гуситів"
   hussite_wars.9.desc: "Чума під назвою «[ShowReligionName('hussite')|l]» — загроза кожній богобоязній і побожній людині. Ця хвороба підточує єдність нашої віри та основи божественного світопорядку. Гусити поширюють єресь, сіють розбрат і паплюжать священне вчення, якому #TOOLTIP:RELIGION,$catholic_tt$,X #L католики#!#! старанно слідують десятиліттями. Терпіти таке нехтування більше неможливо. Наш священний обов’язок — скликати легіони католиків і рішучим кроком вирушити в похід — знищити єресь, доки та не встигла остаточно роз’їсти серця людей. Стерши всі сліди гуситського впливу, ми збережемо свою віру та відновимо священний порядок, за яким так засумували наші землі."
   hussite_wars.9.a: "На війну!"
