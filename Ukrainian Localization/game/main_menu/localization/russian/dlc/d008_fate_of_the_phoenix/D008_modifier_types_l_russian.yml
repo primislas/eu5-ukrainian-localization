@@ -34,7 +34,7 @@
  MODIFIER_TYPE_NAME_invoke_omen_cost_modifier: "Модификатор затрат на призвание знамений"
  MODIFIER_TYPE_DESC_invoke_omen_cost_modifier: "Влияет на то, сколько стоит призвать [Concept('omen', 'знамение')|e] посредством #TOOLTIP:GENERIC_ACTION,select_omen_god,X #L выбора#!#!."
  MODIFIER_TYPE_NAME_compose_strategikon_price_cost_modifier: "Модификатор затрат на написание «Стратегикона»"
- MODIFIER_TYPE_DESC_compose_strategikon_price_cost_modifier: "Влияет на [Concept('costs', 'стоимость')|e] [Concept('action', 'действия')|e] [Concept('character', 'персонажа')|e] #TOOLTIP:GENERIC_ACTION,D008_compose_strategikon,X #L «Написание „Стратегикона“»#!#!."
+ MODIFIER_TYPE_DESC_compose_strategikon_price_cost_modifier: "This impacts the [costs|e] of the [ShowCharacterInteractionName('compose_strategikon')] [character_interaction|e]."
  MODIFIER_TYPE_NAME_castrate_character_price_cost_modifier: "Модификатор затрат на оскопление персонажа"
  MODIFIER_TYPE_DESC_castrate_character_price_cost_modifier: "This impacts the [costs|e] of the [ShowCharacterInteractionName('castrate_character')] [character_interaction|e]."
  MODIFIER_TYPE_NAME_blind_character_price_cost_modifier: "Модификатор затрат на ослепление персонажа"

@@ -905,7 +905,7 @@
  SUBUNIT_STAT_POS_INT: "$VAL|0G$"
  SUBUNIT_STAT_POS_INT_DIFF: "$VAL|+=0$"
  SUB_STRENGTH_DAMAGE_TAKEN: "[Concept('strength_damage_taken_with_icon', 'Получаемый урон живой силе')|e]"
- SUB_MORALE_DAMAGE_TAKEN: "[Concept('morale_damage_taken_with_icon', 'Получаемый урон боевому духу')|e]"
+ SUB_MORALE_DAMAGE_TAKEN: "[Concept('morale_damage_done_with_icon', 'Получаемый урон боевому духу')|e]"
  SUB_STRENGTH_DAMAGE_DONE: "[Concept('strength_damage_done_with_icon', 'Наносимый урон живой силе')|e]"
  SUB_MORALE_DAMAGE_DONE: "[Concept('morale_damage_done_with_icon', 'Наносимый урон боевому духу')|e]"
  SUB_SUPPLY_WEIGHT: "[Concept('unit_weight_with_icon', 'Размер отряда')|e]"

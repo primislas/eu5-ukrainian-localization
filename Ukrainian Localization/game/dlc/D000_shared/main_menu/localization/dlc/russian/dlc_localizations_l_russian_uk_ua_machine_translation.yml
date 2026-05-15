@@ -1,4 +1,8 @@
 ﻿l_russian:
+  dlc_cosmetic_pack: "Cosmetic Pack"
+  dlc_immersion_pack: "Immersion Pack"
+  dlc_chronicle_pack: "Chronicle Pack"
+  dlc_expansion_pack: "Expansion Pack"
   ancient_monuments_pack_key: "Europa Universalis V Monumental Bonus — Cosmetic Pack"
   ancient_monuments_pack_desc: "Косметичне доповнення Monumental Bonus додає нові графічні моделі для восьми споруд у #italic Europa Universalis V#!, дозволяючи вам прикрасити свою гру цими стародавніми історичними пам'ятками."
   ancient_monuments_pack_activate_desc: "Підпишіться на розсилку Paradox, використовуючи свій обліковий запис Paradox, щоб його активувати!"

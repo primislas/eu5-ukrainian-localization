@@ -363,3 +363,4 @@
   SETTING_GUI_TEXTURE_STREAMING: "Потокова передача текстур інтерфейсу"
   SETTING_GUI_TEXTURE_STREAMING_TOOLTIP: "#T $SETTING_GUI_TEXTURE_STREAMING$#!\nДозволяє увімкнути потокову передачу елементів графічного інтерфейсу\nУвімкнення цього параметра скоротить використання відеопам'яті, але при цьому в інтерфейсі можуть тимчасово відображатися текстури нижчої якості."
   SETTING_WARNING_PLAYSET: "Показувати попередження про помилки в наборі"
+  SETTING_WARNING_PLAYSET_TOOLTIP: "PENDING_TRANSLATION #T $SETTING_WARNING_PLAYSET$\n#!When enabled, shows a warning dialog if any mods in the active playset have errors."

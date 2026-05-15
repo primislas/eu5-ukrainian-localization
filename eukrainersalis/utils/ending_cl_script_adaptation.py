@@ -2,8 +2,7 @@ import re
 from pathlib import Path
 
 from eukrainersalis.utils.ending_adaptation import ending_configs
-from eukrainersalis.utils.file_utils import custom_localization_dir_path, project_mod_dir, \
-    custom_localization_mod_dir_path
+from eukrainersalis.utils.file_utils import custom_localization_translation_dir_path, custom_localization_mod_dir_path
 from eukrainersalis.utils.log_utils import logger
 
 
@@ -62,7 +61,7 @@ def write_lines_to_file(fpath: Path, lines: list[str]):
 
 
 def adapt_ru_custom_suffix():
-    custom_suffix_file_path = custom_localization_dir_path / "ru_custom_suffix.txt"
+    custom_suffix_file_path = custom_localization_translation_dir_path / "ru_custom_suffix.txt"
     declarations = _read_declarations(custom_suffix_file_path)
 
     output_file_path = custom_localization_mod_dir_path / "ru_custom_suffix.txt"
@@ -92,7 +91,7 @@ def adapt_ru_custom_suffix():
 
 
 def adapt_ru_custom_loc():
-    custom_ending_file_path = custom_localization_dir_path / "ru_custom_loc.txt"
+    custom_ending_file_path = custom_localization_translation_dir_path / "ru_custom_loc.txt"
     declarations = _read_declarations(custom_ending_file_path)
 
     key_overwrites = []

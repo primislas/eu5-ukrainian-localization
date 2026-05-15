@@ -151,6 +151,8 @@
  flavor_byz.27.a: "Сейчас у нас нет средств на художников."
  flavor_byz.27.b: "[ROOT.GetCountry.GetGovernment.GetCourtTitle] [ROOT.GetCountry.Custom('CL_GEN')] будет блистать, чего бы это ни стоило!"
  flavor_byz.27.c: "Пусть [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] оплатят все расходы."
+ flavor_byz.27.d: "[target_location.GetNameWithNoTooltip] shall become the cradle of the [ShowInstitutionName('renaissance')]."
+ constantinople_to_spawn_renaissance_tt: "#italic Constantinople#! is eligible as the birthplace of the [ShowInstitutionName('renaissance')]"
  flavor_byz.28.title: "[ROOT.GetCountry.GetGovernment.GetCourtTitle] в Морее"
  flavor_byz.28.entry: "Новая Спарта"
  flavor_byz.28.desc: "#TOOLTIP:REGION,balkan_region,X #L Балканы#!#! для нас потеряны, но [target_character.GetName] [Select_CString(target_character.IsFemale,'нашла', 'нашёл')] способ сберечь нашу державу. Мы перенесём столицу в [target_location.Custom('LR_ACC')|l] [target_location.GetName] и превратим весь регион в неприступную крепость. Если кто-то рискнёт вторгнуться в #TOOLTIP:AREA,morea_area,X #L Морею#!#!, ему придётся заплатить огромную цену за каждую пядь нашей земли..."

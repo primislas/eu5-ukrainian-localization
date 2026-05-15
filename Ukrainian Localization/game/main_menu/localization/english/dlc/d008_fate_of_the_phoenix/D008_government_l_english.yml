@@ -7,16 +7,16 @@
  spread_philhellenism_action_progress: "[SCOPE.sCountry('actor').GetModifierValue('research_speed_modifier')]"
  spread_philhellenism_action_progress_wordier: "[SCOPE.sCountry('actor').GetModifierValue('research_speed_modifier')]"
  spread_philhellenism_action_progress_tooltip: "[research_progress|e]: [SCOPE.sCountry('actor').GetModifierValue('research_speed_modifier')] \n\n[cultural_influence|e]: [SCOPE.sCountry('actor').GetModifierValue('cultural_influence_modifier')]"
-spread_philhellenism_action_progress_long_wordier: "@research_progress! [SCOPE.sCountry('actor').GetModifierValue('research_speed_modifier')] \n\n@cultural_influence! [SCOPE.sCountry('actor').GetModifierValue('cultural_influence_modifier')]"
+ spread_philhellenism_action_progress_long_wordier: "@research_progress! [SCOPE.sCountry('actor').GetModifierValue('research_speed_modifier')] \n\n@cultural_influence! [SCOPE.sCountry('actor').GetModifierValue('cultural_influence_modifier')]"
 
  encourage_latin_militarism: "Encourage [ShowLanguageNameWithNoTooltip('latin_language')] Militarism"
  encourage_latin_militarism_desc: "We shall bind our realm to the [ShowLanguageName('latin_language')] ideal of ordered war: contracts enforced, drills standardized, and the burden of arms made routine. Such discipline will surely reduce the cost of keeping soldiers in the field and foster a professional tradition of service."
  encourage_latin_militarism_action: "Encourage Latin Militarism"
-encourage_latin_militarism_active: "Encouraging Latin Militarism"
-encourage_latin_militarism_action_progress: "[SCOPE.sCountry('actor').GetModifierValue('army_maintenance_efficiency')]"
-encourage_latin_militarism_action_progress_wordier: "[army_maintenance|e]: [SCOPE.sCountry('actor').GetModifierValue('army_maintenance_efficiency')]"
-encourage_latin_militarism_action_progress_long_wordier: "@army_maintenance! [SCOPE.sCountry('actor').GetModifierValue('army_maintenance_efficiency')] \n\n@army_tradition! [SCOPE.sCountry('actor').GetModifierValue('monthly_army_tradition')]"
-encourage_latin_militarism_action_progress_tooltip: "[army_maintenance|e]: [SCOPE.sCountry('actor').GetModifierValue('army_maintenance_efficiency')] \n\n[army_tradition|e]: [SCOPE.sCountry('actor').GetModifierValue('monthly_army_tradition')]"
+ encourage_latin_militarism_active: "Encouraging Latin Militarism"
+ encourage_latin_militarism_action_progress: "[SCOPE.sCountry('actor').GetModifierValue('army_maintenance_efficiency')]"
+ encourage_latin_militarism_action_progress_wordier: "[army_maintenance|e]: [SCOPE.sCountry('actor').GetModifierValue('army_maintenance_efficiency')]"
+ encourage_latin_militarism_action_progress_long_wordier: "@army_maintenance! [SCOPE.sCountry('actor').GetModifierValue('army_maintenance_efficiency')] \n\n@army_tradition! [SCOPE.sCountry('actor').GetModifierValue('monthly_army_tradition')]"
+ encourage_latin_militarism_action_progress_tooltip: "[army_maintenance|e]: [SCOPE.sCountry('actor').GetModifierValue('army_maintenance_efficiency')] \n\n[army_tradition|e]: [SCOPE.sCountry('actor').GetModifierValue('monthly_army_tradition')]"
 
  AUTO_MODIFIER_NAME_bureaucracy_nomos_empsychos_high_legitimacy: "$nomos_empsychos_bureaucracy$"
  AUTO_MODIFIER_NAME_bureaucracy_nomos_empsychos_low_legitimacy: "$nomos_empsychos_bureaucracy$"
@@ -86,5 +86,4 @@ encourage_latin_militarism_action_progress_tooltip: "[army_maintenance|e]: [SCOP
  katepanata: "Katepanáta"
  katepanata_desc: "The answer to warmongering neighbors is the consolidation of newly conquered territory through resolute military authority. Originating from the word #italic katepánō#! — the one placed at the top — the $katepanata$ stand above the ordinary themes, grouping provinces beneath a single commander invested with both civil and martial power. First employed with prominence in the 10th and 11th centuries, from [ShowRegionName('italy_region')] with its seat at [ShowLocationName('bari')] to the volatile frontiers of [ShowAreaNameWithNoTooltip('armenia_area')] under emperors such as Basil II, these great districts ensured that distant and contested lands were not left to fragmented rule. Let these bastions of our willpower serve as a banner against all those who seek to take our crown from us!"
  has_completed_fate_of_the_phoenix_disaster: "We have completed the [ShowDisasterName('fate_of_the_phoenix')] [disaster|e] victoriously"
-
 

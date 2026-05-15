@@ -262,8 +262,6 @@
   ALERT_BEING_ANNEXED_DISLOYAL: "#T  Нас поглинають#!\nНаш [Concept('overlord', 'сюзерен')|e] $OVERLORD$ починає [Concept('annex', 'поглинання')|e] нашої країни.\n\nОскільки ми [Concept('disloyal_subject', 'нелояльний васал')|e], цей процес не розвиватиметься. Якщо нас [Concept('annex', 'поглинуть')|e], на цьому для нас усе закінчиться!\n\nМи можемо оголосити сюзерену [Concept('war', 'війну')|e], [Concept('casus_belli', 'приводом')|e] для якої буде «#TOOLTIP:CASUS_BELLI,cb_resist_annexation,X #L Опір поглинанню#!#!»!\n\n"
   ALERT_ANNEXING_DISLOYAL_SUBJECT_TITLE: "Поглинання нелояльного васала"
   ALERT_ANNEXING_DISLOYAL_SUBJECT: "Ми намагаємося [Concept('annex', 'поглинути')|e] [Concept('subject', 'васала')|e], але він залишається [Concept('disloyal_subject', 'нелояльним')|e] і процес не рухається. Ми лише марно витрачаємо ресурси.\n$SUBJECTS$\n\n"
-  ALERT_ANNEXING_STALLED_LOW_OPINION_TITLE: "Затримка поглинання: низька думка"
-  ALERT_ANNEXING_STALLED_LOW_OPINION: "[Concept('opinion', 'Думка')|e] наступних [Concept('subjects', 'васалів')|e] надто низька, щоб можна було продовжувати їхнє [Concept('annexation', 'поглинання')|e]:\n$SUBJECTS$\n\n"
   ALERT_HAS_BAD_ACTORS_TITLE: "Зловмисники"
   ALERT_HAS_BAD_ACTORS: "Хтось веде проти нас зловмисні дії. Виявити винуватця допоможе контррозвідка!\n$INFO$\n\n"
   ALERT_HAS_BAD_ACTORS_ENTRY: "$WHAT|Y$: число зловмисників — $HOW_MANY|Y$"

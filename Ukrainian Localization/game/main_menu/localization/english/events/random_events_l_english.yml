@@ -141,7 +141,7 @@
  random_event.34.a: "Build the [ShowBuildingTypeNameWithNoTooltip('grand_palace')]!"
  random_event.34.b: "Do not build it."
  random_event.35.title: "Uncooperative Philosopher"
- random_event.35.desc: "The philosopher [philosopher.GetName] has not shied back from expressing opinions contrary to those of both [target_ruler.GetName] and the Holy Church. [philosopher.GetHerHis|U] latest publishings appear to have been particularly provocative, so much so that the Church is demanding we hand [philosopher.GetHerHim] over to their inquisitors to be tried for heresy and "persuaded" to recant. Denying them this would anger the Church greatly, but [philosopher.GetNameWithNoTooltip] has many supporters among the [ROOT.GetCountry.GetAdjective] educated elites."
+ random_event.35.desc: "The philosopher [philosopher.GetName] has not shied back from expressing opinions contrary to those of both [target_ruler.GetName] and the Holy Church. [philosopher.GetHerHis|U] latest publishings appear to have been particularly provocative, so much so that the Church is demanding we hand [philosopher.GetHerHim] over to their inquisitors to be tried for heresy and \"persuaded\" to recant. Denying them this would anger the Church greatly, but [philosopher.GetNameWithNoTooltip] has many supporters among the [ROOT.GetCountry.GetAdjective] educated elites."
  random_event.35.a: "Burn [philosopher.GetHerHim]."
  random_event.35.b: "Allow [philosopher.GetHerHim] to remain free."
  random_event.35.c: "Burn them all!"

@@ -445,7 +445,7 @@
  flavor_ven.68.entry: "Antonio Vivaldi"
  flavor_ven.68.desc: "[target_character.GetName] is a brilliant composer and virtuoso violinist, known for his innovative compositions and remarkable performances, [target_character.GetLastNameWithNoTooltip]'s music captivates audiences and elevates the cultural prestige of [ROOT.GetCountry.GetName]. Offering him a seat at the [ROOT.GetCountry.GetGovernment.GetCourtTitle] could significantly enhance our [ROOT.GetCountry.GetFlavorRank]'s artistic legacy and position us as a center of musical excellence."
  flavor_ven.68.a: "We cannot wait to see his musical endeavors!"
- flavor_ven.68.historical_info: "Antonio Vivaldi is celebrated as one of the greatest Baroque composers. His prolific output includes over 500 concertos, numerous operas, and sacred music. Vivaldi's most famous work, "The Four Seasons," revolutionized the concerto form and showcased his inventive use of melody, harmony, and orchestration. As the maestro di violino at the Ospedale della Pietà, he transformed the institution into a renowned musical establishment, attracting admirers from across Europe."
+ flavor_ven.68.historical_info: "Antonio Vivaldi is celebrated as one of the greatest Baroque composers. His prolific output includes over 500 concertos, numerous operas, and sacred music. Vivaldi's most famous work, \"The Four Seasons,\" revolutionized the concerto form and showcased his inventive use of melody, harmony, and orchestration. As the maestro di violino at the Ospedale della Pietà, he transformed the institution into a renowned musical establishment, attracting admirers from across Europe."
 
  flavor_ven.69.title: "War of [GetCountry('PAD').GetNameWithNoTooltip]"
  flavor_ven.69.entry: "War of Padua"
@@ -460,7 +460,7 @@
  flavor_ven.70.a: "[target_character.GetLastNameWithNoTooltip] shall be given a place at the [ROOT.GetCountry.GetGovernment.GetCourtTitle]."
  flavor_ven.70.a.entry: "The character shall be given a place at the court."
  flavor_ven.70.b: "Let him focus on his music."
- flavor_ven.70.historical_info: "Benedetto Marcello was a prominent figure in the Baroque music era. He is best known for his "Estro poetico-armonico," a collection of 50 psalm settings that blend profound religious texts with intricate musical compositions. Marcello's works are celebrated for their elegance, clarity, and emotional depth. Additionally, his satirical writings, such as "Il Teatro alla Moda," provide insightful commentary on contemporary musical practices and the opera scene of his time."
+ flavor_ven.70.historical_info: "Benedetto Marcello was a prominent figure in the Baroque music era. He is best known for his \"Estro poetico-armonico,\" a collection of 50 psalm settings that blend profound religious texts with intricate musical compositions. Marcello's works are celebrated for their elegance, clarity, and emotional depth. Additionally, his satirical writings, such as \"Il Teatro alla Moda,\" provide insightful commentary on contemporary musical practices and the opera scene of his time."
 
  flavor_ven.71.title: "The Question of Concio"
  flavor_ven.71.entry: "$flavor_ven.71.title$"

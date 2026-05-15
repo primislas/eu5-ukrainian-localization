@@ -1289,6 +1289,7 @@
   cancel_anti_coalition_treaty_happened_title: "Договір проти коаліції розірвано!"
   cancel_anti_coalition_treaty_happened_desc: "Країна [COUNTRY.GetName] розірвала договір з #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_INST')|L]#!#! проти коаліції."
   cancel_anti_coalition_treaty_proposal_question: "Розірвати договір з владою #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! проти коаліції?"
+  curb_pronoia_military_action: "$offer_curb_pronoia_military_action$"
   curb_pronoia_military_action_relation: "Обмеження воєнної активності"
   curb_pronoia_military_action_relation_desc: "[Concept('country', 'Країна')|e] обмежить воєнну активність, і її [ShowSubjectTypeName('pronoia')|l] більше не зможе оголошувати [Concept('wars', 'війни')|e], однак це знизить [Concept('subject_loyalty', 'відданість васала')|e]."
   offer_curb_pronoia_military_action: "Обмеження воєнної активності проній"
