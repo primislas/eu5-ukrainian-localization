@@ -38,7 +38,7 @@
  PRIVACY_POLICY: "Privacy Policy"
  PASSWORD_MISMATCH: "Passwords do not match"
  UNKNOWN_ERROR: "Unknown error"
- CONFIRM_HAVE_READ_POLICIES: "By clicking "Create Account" you hereby confirm that you have read, understood, and accepted our Terms of use and Privacy Policy."
+ CONFIRM_HAVE_READ_POLICIES: "By clicking \"Create Account\" you hereby confirm that you have read, understood, and accepted our Terms of use and Privacy Policy."
  OPT_IN_TO_MARKETING: "I wish to receive news and offers from Paradox Interactive"
  ACCOUNT_CREATED_TEXT: "Thanks for creating a Paradox Account"
  ACCOUNT_BUTTON_CANCEL: "Cancel"

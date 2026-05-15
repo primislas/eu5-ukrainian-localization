@@ -32,6 +32,8 @@ _PREPROC_MAPPINGS = {
     "_RU_": "_UA_",
     "_ru_": "_ua_",
     "RU_rank_": "UA_rank_",
+    "RU_rn": "UA_rn",
+    "UA_rank_ua_": "rank_ua_",
     # 1.1.10 -> 1.2.0
     "'fem'": "'end_fem'",
     "'enna'": "'end_enna'",
@@ -53,6 +55,8 @@ _KEYS_MAPPING = {
     "_RU_": "_UA_",
     "_ru_": "_ua_",
     "RU_rank_": "UA_rank_",
+    "RU_rn": "UA_rn",
+    "UA_rank_ua_": "rank_ua_",
 }
 
 _EXCLUDED_FILES = [
@@ -61,8 +65,8 @@ _EXCLUDED_FILES = [
     "customizable_localization_ru_constructionname_l_russian_uk_ua_machine_translation.yml",
 ]
 
-_migration_manager = MigrationManager("from-1.1.10")
-_translation_manager = MigrationManager("to-dev-1.2.0")
+_migration_manager = MigrationManager("from-1.2.0")
+_translation_manager = MigrationManager("to-dev-1.2.2")
 
 
 def migrated_text_preprocessing(value: str) -> str:
@@ -117,10 +121,14 @@ def migration_diff_detected(input_file_path, reference_file_path, language_key: 
     localization_key = language_key or Language.RUSSIAN.localization_key
     input_localization = load_eu5_yaml(input_file_path).get(localization_key, {}) or {}
     ref_localization = load_eu5_yaml(reference_file_path).get(localization_key, {}) or {}
+    source_file_path = str(input_file_path).replace("/russian", "/english").replace("_l_russian", "_l_english")
+    source_localization = load_eu5_yaml(source_file_path).get(localization_key, {}) or {} if os.path.exists(source_file_path) else {}
 
     migrated_localization = {}
     input_remapped = False
     change_detected = False
+    if len(source_localization) > 0 and source_localization.keys() != input_localization.keys():
+        change_detected = True
     for key, value in input_localization.items():
         orig_value = input_localization[key]
         in_value = migrated_text_preprocessing(orig_value)
@@ -294,12 +302,18 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
     reference_file_path = reference_file_path if reference_file_path and os.path.exists(reference_file_path) else None
     has_reference_file = reference_file_path is not None
 
+    source_file_path = str(input_file_path).replace("/russian", "/english").replace("_l_russian", "_l_english")
+    has_source_file = os.path.exists(source_file_path)
+
     try:
         content = await load_eu5_yaml_and_preprocess_async(input_file_path, localization_key)
         in_localization: dict[str, str] = content.get(localization_key, {})
 
         ref_content = await load_eu5_yaml_and_preprocess_async(str(reference_file_path), localization_key) if has_reference_file else {}
         ref_localization: dict[str, str] = ref_content.get(localization_key, {})
+
+        source_content = await load_eu5_yaml_and_preprocess_async(source_file_path, localization_key) if has_source_file else {}
+        source_localization: dict[str, str] = source_content.get(Language.ENGLISH.localization_key, {})
 
         translation_key_diff = set()
         # Setting up translated content
@@ -315,7 +329,7 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
                 # merging source and target, making sure that source structure is preserved
                 def merge_key_value(key):
                     # in_value = migrated_text_preprocessing(in_localization[key])
-                    in_value = in_localization[key]
+                    in_value = in_localization.get(key, source_localization.get(key))
                     if translation_not_required(in_value):
                         return in_value
 
@@ -344,7 +358,8 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
                     else:
                         return PENDING_TRANSLATION
 
-                merged_localization = {k: merge_key_value(k) for k in in_localization.keys()}
+                key_source = source_localization or in_localization
+                merged_localization = {k: merge_key_value(k) for k in key_source.keys()}
                 translated_content[target_localization_key] = merged_localization
                 translation_key_diff = merged_localization.keys() ^ translated_localization.keys()
 
