@@ -60,13 +60,13 @@ _KEYS_MAPPING = {
 }
 
 _EXCLUDED_FILES = [
-    "customizable_localization_end_l_russian.yml",
     "character_names_dynamic_l_russian.yml",
     "customizable_localization_ru_constructionname_l_russian.yml",
+    "customizable_localization_ru_end_l_russian.yml",
 ]
 
-_migration_manager = MigrationManager("from-1.2.0")
-_translation_manager = MigrationManager("to-dev-1.2.2")
+_migration_manager = MigrationManager("from-1.2.2")
+_translation_manager = MigrationManager("to-dev-1.2.3")
 
 
 def migrated_text_preprocessing(value: str) -> str:
