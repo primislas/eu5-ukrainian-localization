@@ -24,7 +24,7 @@
  every_pop_in_target_location_mild_satisfaction_tt: "Our [pops|e] in [target_location.GetName] will gain [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e]"
  income_gained_depends_on_crown_estate_power_tt: "The [gold|e] gained greatly depends on our [crown_power|e]" 
 
-  town_rights_events.4.title: "The Granaries of [target_location.GetNameWithNoTooltip] Run Thin"
+ town_rights_events.4.title: "The Granaries of [target_location.GetNameWithNoTooltip] Run Thin"
  town_rights_events.4.desc: "Ill news arrives from the granary [target_location.GetRank.GetName] of [target_location.GetName]. Spoilage, mismanagement, or some cruel turn of season has left its stores diminished when they were most needed. The people of [target_province.GetName] now look to us for relief, lest scarcity spreads across the countryside."
  town_rights_events.4.a: "We shall open the treasury and feed them."
  town_rights_events.4.b: "The people will have to endure the shortage."

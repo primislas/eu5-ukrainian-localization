@@ -3,7 +3,7 @@ import sys
 
 # Color codes for standard console
 GREY = "\x1b[38;20m"
-WHITE = "\x1b[36;20m"
+CYAN = "\x1b[36;20m"
 YELLOW = "\x1b[33;20m"
 RED = "\x1b[31;20m"
 BOLD_RED = "\x1b[31;1m"
@@ -13,8 +13,8 @@ class CustomFormatter(logging.Formatter):
     format_str = "%(asctime)s [%(levelname)s][%(name)s][%(filename)s:%(lineno)d] %(message)s"
 
     FORMATS = {
-        logging.DEBUG: GREY + format_str + RESET,
-        logging.INFO: WHITE + format_str + RESET,
+        logging.DEBUG: CYAN + format_str + RESET,
+        logging.INFO: GREY + format_str + RESET,
         logging.WARNING: YELLOW + format_str + RESET,
         logging.ERROR: RED + format_str + RESET,
         logging.CRITICAL: BOLD_RED + format_str + RESET

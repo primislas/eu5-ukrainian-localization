@@ -31,7 +31,7 @@ _PREPROC_MAPPINGS = {
     # 1.0
     "_RU_": "_UA_",
     "_ru_": "_ua_",
-    "RU_rank_": "UA_rank",
+    "RU_rank_": "UA_rank_",
     # 1.1.10 -> 1.2.0
     "'fem'": "'end_fem'",
     "'enna'": "'end_enna'",
@@ -52,7 +52,7 @@ _PREPROC_MAPPINGS = {
 _KEYS_MAPPING = {
     "_RU_": "_UA_",
     "_ru_": "_ua_",
-    "RU_rank_": "UA_rank",
+    "RU_rank_": "UA_rank_",
 }
 
 _EXCLUDED_FILES = [

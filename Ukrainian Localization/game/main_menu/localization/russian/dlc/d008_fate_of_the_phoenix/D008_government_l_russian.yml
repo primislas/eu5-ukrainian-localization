@@ -44,6 +44,7 @@
  kephalai_bureaucracy: "Кефалы"
  kephalai_bureaucracy_desc: "#italic Кефалы#! — свод правил, регулирующих управленческие и судебные практики, а также опора для императорской власти. Они упраздняют старые административно-территориальные единицы (в том числе #italic катепанаты#!), систематизируют законы, а также вводят унифицированную систему налогообложения и обязательную воинскую повинность во всех провинциях."
  won_fate_of_the_phoenix_disaster_tt: "Мы успешно преодолели [Concept('disaster', 'бедствие')|e] #TOOLTIP:DISASTER_TYPE,D008_fate_of_the_phoenix,X #L «Судьба феникса»#!#!"
+ fop_renaissance_latin_merchants_tt: "We have granted privileges to [ShowCultureGroupName('latin_group')] merchants"
  magister_militum_bureaucracy: "Стратегархия"
  magister_militum_bureaucracy_desc: "#italic Стратегархия#! воплощает собой институциональный принцип управления имперской армией. Бюрократический аппарат назначает, заменяет и сдерживает генералов, следя за тем, чтобы военная машина служила государству, а не личным амбициям. Таким образом, война превращается в административную задачу, где иерархия ценится больше верности, а высшие чины достаются только лучшим."
  has_unlocked_bureaucracy_via_flavor_byz_31_tt: "Мы разблокировали этот [Concept('bureaucracy', 'бюрократический механизм')|e] в ходе [Concept('event', 'события')|e] «$flavor_byz.31.title$», которое может произойти после #Y 1400#! года при следующих условиях:\n\n[ShowTriggerConditions('flavor_byz.31',PlayerScope.Self)]"

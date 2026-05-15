@@ -319,125 +319,125 @@
 
  ## Area 'leinster_area' (Leinster) ##
 # Province 'dublin_province' (Dublin) #
-dublin.scots_dialect: "Dublin"
-fingal.scots_dialect: "Mallaheid"  # Malahide
-wicklow.scots_dialect: "Wicklaa"
-glendalough.scots_dialect: "Glendaloch"
+ dublin.scots_dialect: "Dublin"
+ fingal.scots_dialect: "Mallaheid"  # Malahide
+ wicklow.scots_dialect: "Wicklaa"
+ glendalough.scots_dialect: "Glendaloch"
 # Province 'meath_province' (Meath) #
-trim.scots_dialect: "Trim"
-kells.scots_dialect: "Kells"
-mullingar.scots_dialect: "Mullingar"
-longford.scots_dialect: "Langfurd"
-ardagh.scots_dialect: "Ardaw"
-ballymore.scots_dialect: "Baileymair"
-tullamore.scots_dialect: "Tullamaur"
-navan.scots_dialect: "Navin"
+ trim.scots_dialect: "Trim"
+ kells.scots_dialect: "Kells"
+ mullingar.scots_dialect: "Mullingar"
+ longford.scots_dialect: "Langfurd"
+ ardagh.scots_dialect: "Ardaw"
+ ballymore.scots_dialect: "Baileymair"
+ tullamore.scots_dialect: "Tullamaur"
+ navan.scots_dialect: "Navin"
 # Province 'wexford_province' (Wexford) #
-wexford.scots_dialect: "Wexfurd"
-new_ross.scots_dialect: "New Ross"  # New Ross
-ferns.scots_dialect: "Ferns"
-carlow.scots_dialect: "Cairlaw"
+ wexford.scots_dialect: "Wexfurd"
+ new_ross.scots_dialect: "New Ross"  # New Ross
+ ferns.scots_dialect: "Ferns"
+ carlow.scots_dialect: "Cairlaw"
 # Province 'kildare_province' (Kildare) #
-kildare.scots_dialect: "Kildair"
-naas.scots_dialect: "Naes"
-athy.scots_dialect: "Athaigh"
-dunamase.scots_dialect: "Dinnamase"
-daingean.scots_dialect: "Dingin"
+ kildare.scots_dialect: "Kildair"
+ naas.scots_dialect: "Naes"
+ athy.scots_dialect: "Athaigh"
+ dunamase.scots_dialect: "Dinnamase"
+ daingean.scots_dialect: "Dingin"
 # Province 'kilkenny' (Kilkenny) #
-kilkenny.scots_dialect: "Kilkennie"
-cullahill.scots_dialect: "Cullohill"  # Cullohill
+ kilkenny.scots_dialect: "Kilkennie"
+ cullahill.scots_dialect: "Cullohill"  # Cullohill
 
 ## Area 'ulster_area' (Ulster) ##
 # Province 'antrim_province' (Antrim) #
-carrickfergus.scots_dialect: "Carrickfergus"
-belfast.scots_dialect: "Bilfawst"
-ballymena.scots_dialect: "Ballymena"  # Antrim
-ballycastle.scots_dialect: "Ballycassel"  # Glenarm
-dunluce.scots_dialect: "Dunloose"
+ carrickfergus.scots_dialect: "Carrickfergus"
+ belfast.scots_dialect: "Bilfawst"
+ ballymena.scots_dialect: "Ballymena"  # Antrim
+ ballycastle.scots_dialect: "Ballycassel"  # Glenarm
+ dunluce.scots_dialect: "Dunloose"
 # Province 'down_province' (Down) #
-downpatrick.scots_dialect: "Doonpatrick"
-iveagh.scots_dialect: "Rathfreelint"  # Rathfriland
-newtownards.scots_dialect: "Nootnairds"  # Bangor
+ downpatrick.scots_dialect: "Doonpatrick"
+ iveagh.scots_dialect: "Rathfreelint"  # Rathfriland
+ newtownards.scots_dialect: "Nootnairds"  # Bangor
 # Province 'tyrone_province' (Tyrone) #
-dungannon.scots_dialect: "Dungannon"
-strabane.scots_dialect: "Strabaun"
-clogher.scots_dialect: "Clawgher"
-enniskillen.scots_dialect: "Lisnaskae"  # Lisnaskea
-belcoo.scots_dialect: "Belcoo"
+ dungannon.scots_dialect: "Dungannon"
+ strabane.scots_dialect: "Strabaun"
+ clogher.scots_dialect: "Clawgher"
+ enniskillen.scots_dialect: "Lisnaskae"  # Lisnaskea
+ belcoo.scots_dialect: "Belcoo"
 # Province 'derry_province' (Derry) #
-derry.scots_dialect: "Derrie"
-derry_londonderry.scots_dialect: "Lunnonderrie"
-coleraine.scots_dialect: "Colrane"
-magherafelt.scots_dialect: "Maggrafelt"
+ derry.scots_dialect: "Derrie"
+ derry_londonderry.scots_dialect: "Lunnonderrie"
+ coleraine.scots_dialect: "Colrane"
+ magherafelt.scots_dialect: "Maggrafelt"
 # Province 'donegal_province' (Donegal) #
-donegal.scots_dialect: "Dunnagaa"
-kilmacrennan.scots_dialect: "Letterkinnie"  # Letterkenny
-inishowen.scots_dialect: "Buncranna"  # Buncranna
-raphoe.scots_dialect: "Raffoo"
+ donegal.scots_dialect: "Dunnagaa"
+ kilmacrennan.scots_dialect: "Letterkinnie"  # Letterkenny
+ inishowen.scots_dialect: "Buncranna"  # Buncranna
+ raphoe.scots_dialect: "Raffoo"
 # Province 'oriel_province' (Oriel) #
-monaghan.scots_dialect: "Monyhin"
-carrickmacross.scots_dialect: "Inneskane"  # Inniskeen
-armagh.scots_dialect: "Armaa"
-oriel.scots_dialect: "Nyewrie"  # Newry
-dundalk.scots_dialect: "Dundawk"
-drogheda.scots_dialect: "Drawda"
+ monaghan.scots_dialect: "Monyhin"
+ carrickmacross.scots_dialect: "Inneskane"  # Inniskeen
+ armagh.scots_dialect: "Armaa"
+ oriel.scots_dialect: "Nyewrie"  # Newry
+ dundalk.scots_dialect: "Dundawk"
+ drogheda.scots_dialect: "Drawda"
 
 ## Area 'connaught_area' (Connaught) ##
 # Province 'galway_province' (Galway) #
-galway.scots_dialect: "Gallowae"
-clifden.scots_dialect: "Annickdoon"  # Annaghdown
-athenry.scots_dialect: "Aithenrye"
-tuam.scots_dialect: "Toom"
-kilconnell.scots_dialect: "Kilconnell"
+ galway.scots_dialect: "Gallowae"
+ clifden.scots_dialect: "Annickdoon"  # Annaghdown
+ athenry.scots_dialect: "Aithenrye"
+ tuam.scots_dialect: "Toom"
+ kilconnell.scots_dialect: "Kilconnell"
 # Province 'roscommon_province' (Roscommon) #
-roscommon.scots_dialect: "Rosscommen"
-castlereagh.scots_dialect: "Castlera"  # Castlerea
-sligo.scots_dialect: "Slygo"
-athlone.scots_dialect: "Athlone"
-skreen.scots_dialect: "Screan"
+ roscommon.scots_dialect: "Rosscommen"
+ castlereagh.scots_dialect: "Castlera"  # Castlerea
+ sligo.scots_dialect: "Slygo"
+ athlone.scots_dialect: "Athlone"
+ skreen.scots_dialect: "Screan"
 # Province 'breifne_province' (Breifne) #
-dromahair.scots_dialect: "Drumaher"
-leitrim.scots_dialect: "Leetrem"
-killeshandra.scots_dialect: "Ballyconnell"  # Ballyconnell
-cavan.scots_dialect: "Cavan"
-killycolly.scots_dialect: "Killycollie"
+ dromahair.scots_dialect: "Drumaher"
+ leitrim.scots_dialect: "Leetrem"
+ killeshandra.scots_dialect: "Ballyconnell"  # Ballyconnell
+ cavan.scots_dialect: "Cavan"
+ killycolly.scots_dialect: "Killycollie"
 # Province 'mayo_province' (Mayo) #
-castlebar.scots_dialect: "Castlebar"
-burrishoole.scots_dialect: "Murrisk"  # Murrisk
-erris.scots_dialect: "Killalla"  # Kilalla
-ballaghaderreen.scots_dialect: "Ballagherreen"
+ castlebar.scots_dialect: "Castlebar"
+ burrishoole.scots_dialect: "Murrisk"  # Murrisk
+ erris.scots_dialect: "Killalla"  # Kilalla
+ ballaghaderreen.scots_dialect: "Ballagherreen"
 
 ## Area 'munster_area' (Munster) ##
 # Province 'cork_province' (Cork) #
-cork.scots_dialect: "Cork"
-fermoy.scots_dialect: "Mallae"  # Mallow
-kinsale.scots_dialect: "Kinsael"
-youghal.scots_dialect: "Yeuchal"
+ cork.scots_dialect: "Cork"
+ fermoy.scots_dialect: "Mallae"  # Mallow
+ kinsale.scots_dialect: "Kinsael"
+ youghal.scots_dialect: "Yeuchal"
 # Province 'desmond_province' (Desmond) #
-killarney.scots_dialect: "Killairnie"
-carbery.scots_dialect: "Dunbae"  # Dunboy
-kilbrittain.scots_dialect: "Kilbritton"
-muskerry.scots_dialect: "Blairnie"  # Blarney
-dunhallow.scots_dialect: "Canterk"  # Kanturk
+ killarney.scots_dialect: "Killairnie"
+ carbery.scots_dialect: "Dunbae"  # Dunboy
+ kilbrittain.scots_dialect: "Kilbritton"
+ muskerry.scots_dialect: "Blairnie"  # Blarney
+ dunhallow.scots_dialect: "Canterk"  # Kanturk
 # Province 'limerick_province' (Limerick) #
-tralee.scots_dialect: "Traelie"
-dingle.scots_dialect: "Dingil"
-limerick.scots_dialect: "Limmerick"
-killmallock.scots_dialect: "Killmallock"
-adare.scots_dialect: "Adair"
-castleconnell.scots_dialect: "Castleconnell"
+ tralee.scots_dialect: "Traelie"
+ dingle.scots_dialect: "Dingil"
+ limerick.scots_dialect: "Limmerick"
+ killmallock.scots_dialect: "Killmallock"
+ adare.scots_dialect: "Adair"
+ castleconnell.scots_dialect: "Castleconnell"
 # Province 'clare_province' (Clare) #
-ennis.scots_dialect: "Enniss"
-bunratty.scots_dialect: "Bunrattie"
-moyarta.scots_dialect: "Kilrush"  # Kilrush
+ ennis.scots_dialect: "Enniss"
+ bunratty.scots_dialect: "Bunrattie"
+ moyarta.scots_dialect: "Kilrush"  # Kilrush
 # Province 'tipperary_province' (Tipperary) #
-tipperary.scots_dialect: "Tipprairie"
-nenagh.scots_dialect: "Neenagh"
-clonmel.scots_dialect: "Clonmell"
-cashel.scots_dialect: "Cashel"
-roscrea.scots_dialect: "Rosscrie"
-moycarn.scots_dialect: "Birr"  # Birr
+ tipperary.scots_dialect: "Tipprairie"
+ nenagh.scots_dialect: "Neenagh"
+ clonmel.scots_dialect: "Clonmell"
+ cashel.scots_dialect: "Cashel"
+ roscrea.scots_dialect: "Rosscrie"
+ moycarn.scots_dialect: "Birr"  # Birr
 # Province 'waterford_province' (Waterford) #
-waterford.scots_dialect: "Watterfurd"
-dungarvan.scots_dialect: "Dungarvin"
-carrickbeg.scots_dialect: "Kilmeeden"  # Kilmeaden
+ waterford.scots_dialect: "Watterfurd"
+ dungarvan.scots_dialect: "Dungarvin"
+ carrickbeg.scots_dialect: "Kilmeeden"  # Kilmeaden

@@ -1416,8 +1416,6 @@
  DIPLOMACY_SUBJECT_TYPE_NOT_VALID: "Нельзя предложить #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_DAT')|L]#!#! статус $SUBJECT_TYPE_SINGLE_GEN_lower$. Причины:\n$WHY$"
  DIPLOMACY_SUBJECT_TYPE_REQUEST_NOT_VALID: "Нельзя предложить #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_DAT')|L]#!#! статус «[SUBJECT_TYPE.GetName]». Причины:\n$WHY$"
  DIPLOMACY_TARGET_OF_IO: "[COUNTRY.GetName] — цель [Concept('international_organization', 'международного объединения')|e]"
- DIPLOMACY_TARGET_OF_LOTS_OF_IOS: "[COUNTRY.GetName] — цель нескольких ($NUM$) [Concept('international_organization', 'международных объединений')|e]"
- DIPLOMACY_TARGET_OF_COALITION: "[COUNTRY.GetName] — цель [Concept('coalition', 'коалиции')|e]"
  DIPLOMACY_TARGET_CANNOT_BE_SUBJUGATED: "#ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_ACC')|L]#!#! нельзя подчинить из-за [Concept('modifier', 'модификатора')|e] «$NAME$»"
  DIPLOMACY_ACTOR_CANNOT_BE_SUBJUGATED: "Мы не можем стать ленником другой державы из-за [Concept('modifier', 'модификатора')|e] «$NAME$»"
  OFFER_vassal_TOOLTIP_HEADER: "Требование к #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#! стать вассалом"
