@@ -893,7 +893,7 @@
   STATIC_MODIFIER_NAME_bolstered_khan_authority: "Зміцнення влади військового вождя"
   STATIC_MODIFIER_DESC_bolstered_khan_authority: "Всі мають схилитися перед великим військовим вождем."
   STATIC_MODIFIER_NAME_incorrect_orders: "Помилкові накази"
-  STATIC_MODIFIER_DESC_incorrect_orders: "З невідомих причин донесення з місць, що надходять до столиці, не відображають реальної обстановки. Як наслідок, накази керівництва виявляються непридатними на практиці."
+  STATIC_MODIFIER_DESC_incorrect_orders: "З невідомих причин донесення з місць, що надходять до столиці, не відображають реальне становище. Як наслідок, накази керівництва виявляються непридатними на практиці."
   STATIC_MODIFIER_NAME_hun_absolute_rule: "$Karoly$: абсолютна влада"
   STATIC_MODIFIER_NAME_prefection_modifier: "Статус префекта"
   STATIC_MODIFIER_DESC_prefection_modifier: "Владою правителя цей персонаж наділений статусом #italic префекта#!, а тому вважатиметься дворянським сином і [Concept('legally_male', 'чоловіком за законом')|e]."

@@ -97,7 +97,7 @@
   flavor_chk.31.a: "Обмежимо будівництво, щоб зберегти доходи."
   flavor_chk.31.b: "Ми не відмовимося від розширення Кахокії!"
   flavor_chk.32.title: "Трагедія Кахокії"
-  flavor_chk.32.desc: "Услід за погіршенням обстановки в #TOOLTIP:LOCATION,cahokia,X #L Кахокії#!#! дедалі більше жителів назавжди покидають #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_ACC')|l]#!#!. Багато з них вірять, що [cahokia_migration.GetName] — більш придатне місце для життя. У села, засновані цими переселенцями, поступово перебираються найвправніші ремісники та майстри #TOOLTIP:LOCATION,cahokia,X #L Кахокії#!#!. [our_ruler.GetName] та [Select_CString(our_ruler.IsFemale, 'її', 'його' )] найближче оточення побоюються, що дні Кахокії полічені."
+  flavor_chk.32.desc: "Услід за погіршенням становища в #TOOLTIP:LOCATION,cahokia,X #L Кахокії#!#! дедалі більше жителів назавжди покидають #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_ACC')|l]#!#!. Багато з них вірять, що [cahokia_migration.GetName] — більш придатне місце для життя. У села, засновані цими переселенцями, поступово перебираються найвправніші ремісники та майстри #TOOLTIP:LOCATION,cahokia,X #L Кахокії#!#!. [our_ruler.GetName] та [Select_CString(our_ruler.IsFemale, 'її', 'його' )] найближче оточення побоюються, що дні Кахокії полічені."
   flavor_chk.32.a: "Це тривожний знак."
   flavor_chk.33.title: "Втрата торговельного значення"
   flavor_chk.33.entry: "$flavor_chk.33.title$"

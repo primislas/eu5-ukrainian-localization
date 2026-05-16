@@ -202,7 +202,7 @@
   flavor_kor.34.entry: "$flavor_kor.34.title$"
   flavor_kor.34.desc: "Ми дозволяємо #TOOLTIP:CULTUREGROUP,japanese_group,X #L японським#!#! купцям вести торгівлю (нехай навіть з деякими обмеженнями) в деяких південних портах #TOOLTIP:REGION,korea_region,X #L Кореї#!#! — навіть у такому місці, як [target_location.GetRank.GetName|l] [target_location.GetName]. Однак ці люди невдячні й не цінують виявлену нами великодушність, а після того, як їх позбавили податкових пільг, навіть взялися за зброю. На щастя, наші війська швидко придушили кривавий бунт, і в [target_location.Custom('LR_PREP')|l] знову запанував спокій. [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')], втім, вважають, що цього недостатньо, і закликають вжити суворіших заходів."
   flavor_kor.34.a: "Урізати торгові привілеї, якими користуються японці."
-  flavor_kor.34.b: "Постаратися розрядити обстановку."
+  flavor_kor.34.b: "Постаратися знизити напругу."
   kor_japanese_riot: "Бунт японців"
   flavor_kor.35.title: "$kor_cloud_dream_of_nine$"
   flavor_kor.35.entry: "$flavor_kor.35.title$"
