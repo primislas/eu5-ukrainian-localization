@@ -11,7 +11,7 @@
   flavor_kni.5.title: "[target_character.GetNameWithNoTooltip]"
   flavor_kni.5.entry: "Укріплення Мальти"
   flavor_kni.5.desc: "Після того, як [ShowLocationName('malta')] перейшла до нас, вона уподібнилася #TOOLTIP:LOCATION,rodos,X #L Родосу#!#!, перетворившись на справжнісіньку фортецю. [target_character.GetName] та [Select_CString(target_character.IsFemale, 'її', 'його')] натренований гарнізон неодноразово доблесно відваджували загарбників. Це нове місто, забудоване величними палацами та потужними укріпленнями, буде багатіти та розвиватися за рахунок морських операцій проти наших численних ворогів."
-  flavor_kni.5.a: "Це символ нашої стійкості та віри!"
+  flavor_kni.5.a: "Це символ нашої стійкости та віри!"
   flavor_kni.100.title: "[GetCountry('KNI').GetNameWithNoTooltip]"
   flavor_kni.100.desc: "Загін легендарних лицарів, чиї мечі були загартовані в спекотних битвах по всьому Середземномор’ю, прибули до нашого двору з проханням. Після того, як [target_rodos_owner.GetLongName] [Select_CString(target_rodos_owner.IsFemale, 'вигнала', 'вигнав')] їх з #TOOLTIP:LOCATION,rodos,X #L Родосу#!#!, [GetCountry('KNI').GetName] блукали світом у пошуках нового дому, плекаючи надію знову стати благородними захисниками нашої віри. Нарешті в [GetCurrentYear] році [GetUniqueInternationalOrganization('hre').GetLeaderTitle] [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetGovernment.GetRuler.GetName] [Select_CString(GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetGovernment.GetRuler.IsFemale, 'погодилася', 'погодився')] подарувати їм острів [ShowLocationName('malta')], але тільки з нашого схвалення."
   flavor_kni.100.a: "[GetCountry('KNI').GetNameWithNoTooltip|U] отримають Мальту."

@@ -1047,7 +1047,7 @@
   aptekarsky_action_progress: "[SCOPE.sCountry('actor').GetModifierValue('global_disease_resistance')]"
   aptekarsky_action_progress_wordier: "@disease_resistance!: [SCOPE.sCountry('actor').GetModifierValue('global_disease_resistance')]"
   aptekarsky_action_progress_long_wordier: "@disease_resistance! [SCOPE.sCountry('actor').GetModifierValue('global_disease_resistance')]"
-  aptekarsky_action_progress_tooltip: "Підвищує стійкість до епідемій\n[SCOPE.sCountry('actor').GetDescriptionFor('global_disease_resistance')]"
+  aptekarsky_action_progress_tooltip: "Підвищує опірність епідеміям\n[SCOPE.sCountry('actor').GetDescriptionFor('global_disease_resistance')]"
   bolshogo_dvortsa: "Палацовий наказ"
   bolshogo_dvortsa_desc: "Ця дія дозволить нашій раді зосередитися на питаннях утримання палаців та скорочення витрат на двір. Палацовий наказ також стежить за тим, щоб монастирі дотримувалися державної доктрини та зводів законів."
   bolshogo_dvortsa_action: "Управління Палацовим наказом"
