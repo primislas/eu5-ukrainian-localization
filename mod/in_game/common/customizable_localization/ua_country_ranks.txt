@@ -1,6 +1,5 @@
 ﻿country_flavor_ukrainersalis = {
 	type = country
-	parent = country_ua_flavor
 
 	text = {
 		localization_key = rank_county_persian

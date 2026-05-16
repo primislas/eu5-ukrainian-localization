@@ -40,38 +40,3 @@ LR_PREP = {
 	text = { localization_key = town_PREP trigger = { location_rank = location_rank:town } }
 	text = { localization_key = city_PREP trigger = { location_rank = location_rank:city } }
 }
-IO_wntt_GEN = {
-	type = international_organization
-	log_loc_errors = no
-	parent = IO_GEN
-	suffix = "_wntt"
-	if_invalid_loc = return_empty
-}
-IO_wntt_DAT = {
-	type = international_organization
-	log_loc_errors = no
-	parent = IO_DAT
-	suffix = "_wntt"
-	if_invalid_loc = return_empty
-}
-IO_wntt_ACC = {
-	type = international_organization
-	log_loc_errors = no
-	parent = IO_ACC
-	suffix = "_wntt"
-	if_invalid_loc = return_empty
-}
-IO_wntt_INST = {
-	type = international_organization
-	log_loc_errors = no
-	parent = IO_INST
-	suffix = "_wntt"
-	if_invalid_loc = return_empty
-}
-IO_wntt_PREP = {
-	type = international_organization
-	log_loc_errors = no
-	parent = IO_PREP
-	suffix = "_wntt"
-	if_invalid_loc = return_empty
-}

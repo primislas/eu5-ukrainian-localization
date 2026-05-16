@@ -636,3 +636,9 @@
 	text = { localization_key = default_UA_IO_INST fallback = yes }
 	if_invalid_loc = return_empty
 }
+IO_wntt_INST = {
+	log_loc_errors = no
+	parent = IO_INST
+	suffix = "_wntt"
+	if_invalid_loc = return_empty
+}

@@ -213,7 +213,7 @@
   flavor_eng.25.historical_info: "У XVI столітті Палата громад ставала більшою та впливовішою, а Палата лордів залишалася нечисленною. Єлизавета I підтримувала баланс у Парламенті, вміло поєднуючи рішучість та переговори. Але наступникам королеви, Якову I та Карлу I, не вдалося повторити її успіх. Парламент заперечував проти королівського контролю над релігією, правосуддям та податками. Напруга посилилася, коли Яків вирішив укласти союз із католиками через шлюб свого сина. У 1628 році парламент випустив Петицію про право, щоб обмежити королівську владу. Карл I розпустив парламент у 1629 році і з того часу 11 років правив одноосібно. У 1642 році його деспотичне правління призвело до громадянської війни, що розділила країну на прихильників короля та парламенту."
   flavor_eng.25.a: "[ROOT.GetCountry.GetGovernment.GetParliament.GetName] нам не указ. Жодних переговорів!"
   flavor_eng.25.a.entry: "Ми не підемо на переговори зі зборами."
-  flavor_eng.25.b: "Члени [GovernmentView.GetPlayer.GetParliament.Custom('parliament_ua_GEN')|l] висувають ультиматум? Краще піти на поступки…"
+  flavor_eng.25.b: "Члени [GovernmentView.GetPlayer.Custom('parliament_ua_GEN')|l] висувають ультиматум? Краще піти на поступки…"
   flavor_eng.25.b.entry: "Ми підкоримося зборам..."
   parliamentary_rebellion: "Парламент повстає"
   flavor_eng25_rebellion_tt: "Приблизно #Y [ROOT.GetVariable('total_rebel_pops_variable').GetValue|V0]K#! [Concept('pops', 'населення')|e] з [ROOT.GetVariable('total_affected_provinces_variable').GetValue] [Concept('provinces', 'провінцій')|e] #TOOLTIP:REGION,great_britain_region,X #L Великої Британії#!#!, зокрема з провінції [target_province.GetName], приєднуються до фракції «[target_rebel.GetName]»"

@@ -636,3 +636,9 @@
 	text = { localization_key = default_UA_IO_GEN fallback = yes }
 	if_invalid_loc = return_empty
 }
+IO_wntt_GEN = {
+	log_loc_errors = no
+	parent = IO_GEN
+	suffix = "_wntt"
+	if_invalid_loc = return_empty
+}

@@ -34,6 +34,7 @@ _PREPROC_MAPPINGS = {
     "RU_rank_": "UA_rank_",
     "RU_rn": "UA_rn",
     "UA_rank_ua_": "rank_ua_",
+    "parliament_ru": "parliament_ua",
     # 1.1.10 -> 1.2.0
     "'fem'": "'end_fem'",
     "'enna'": "'end_enna'",
@@ -57,10 +58,10 @@ _KEYS_MAPPING = {
     "RU_rank_": "UA_rank_",
     "RU_rn": "UA_rn",
     "UA_rank_ua_": "rank_ua_",
+    "parliament_ru": "parliament_ua",
 }
 
 _EXCLUDED_FILES = [
-    "character_names_dynamic_l_russian.yml",
     "customizable_localization_ru_constructionname_l_russian.yml",
     "customizable_localization_ru_end_l_russian.yml",
 ]
@@ -446,9 +447,19 @@ def _find_untranslated_files(max_translations: int, overwrite_existing_translati
         if file_name.startswith("customizable_localization_ru_goods"):
             pass
 
+        if file_name == "religion_l_russian.yml":
+            pass
         if has_reference_file and migration_diff_detected(input_file_path, reference_file_path):
             files_to_translate.append((input_file_path, output_file_path, output_dir_path))
             continue
+
+        english_language_file_path = input_file_path.replace(f"/{source_language}", f"/{Language.ENGLISH}").replace("_l_russian", "_l_english")
+        if os.path.exists(english_language_file_path):
+            eng_keys = load_eu5_yaml(english_language_file_path).get(Language.ENGLISH.localization_key, {}).keys()
+            input_keys = load_eu5_yaml(input_file_path).get(f"l_{source_language}", {}).keys()
+            if eng_keys != input_keys:
+                files_to_translate.append((input_file_path, output_file_path, output_dir_path))
+                continue
 
         if os.path.exists(output_file_path) and not overwrite_existing_translation and file_is_translated(
                 input_file_path, output_file_path, language=target_language):
