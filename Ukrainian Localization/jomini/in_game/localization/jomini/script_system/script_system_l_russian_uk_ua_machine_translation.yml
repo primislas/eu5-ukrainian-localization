@@ -18,6 +18,7 @@
   JOMINI_YES: "Так"
   JOMINI_NO: "Ні"
   SCOPE_DEBUG_JOMINI_VALUE: "$VALUE$"
+  SCOPE_DEBUG_JOMINI_DATE: "$DATE$"
   SCOPE_DEBUG_JOMINI_INTEGER_FLAG: "Прапорець: $NAME$ ($ID$)"
   SCOPE_DEBUG_JOMINI_COLOR: "Колір r:$RED$, g:$GREEN$, b:$BLUE$, a:$ALPHA$"
   CONTEXT_EFFECT_SCOPE_NAME: "$NAME|Y$:"
@@ -58,3 +59,4 @@
   TRIGGER_AND: "Все з переліченого:"
   TRIGGER_OR: "Хоча б одне з переліченого:"
   SUPPRESS: ""
+  JOMINI_TRIGGER_ERROR_NO_UNEVALUATED: "trigger_if may not be used in an unevaluated context, we cannot determine which path to go down since we lack a context to evaluate with, use a custom_description or custom_tooltip instead"

@@ -1607,6 +1607,7 @@
   flavor_tur.1201.b: "Ворог мого ворога…"
   flavor_tur.1201.c: "Союз із невірними? Ніколи!"
   flavor_tur.1300.title: "Зв'язки з [target_country.Custom('CL_INST')]"
+  flavor_tur.1300.entry: "Османо-марокканські зв’язки"
   flavor_tur.1300.desc: "Корсари #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! здатні відіграти ключову роль у нашому майбутньому вторгненні в #TOOLTIP:REGION,iberia_region,X #L Іберію#!#!. Ці чудові моряки могли б стати нашими ідеальними васалами в #TOOLTIP:REGION,maghreb_region,X #L Магрибі#!#!. Вони розуміють, що наша військова міць захистить їх від будь-якого ворога, тож, можливо, ми домовимося…"
   flavor_tur.1300.a: "Настав час поширити наш вплив на [ROOT.GetCountry.Custom('CL_ACC')]."
   flavor_tur.1300.a.entry: "Настав час поширити вплив на них."
