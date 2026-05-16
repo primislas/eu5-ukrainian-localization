@@ -118,7 +118,7 @@ Historical Tone:
     * peasant enfranchisement, освобождение простолюдинов -> вольності простолюду
     * when dealing with societal values (societal values or "общественные ценности" in context, especially when"vs" form is used with the two values opposing, or when used as a Concept):
     ** centralization, decentralization (централизация, децентрализация) -> "підпорядкування" and "самоврядність", when talking about societal values, otherwise "централізація" should be used, when it's a clear translation and "підпорядкування" is not appropriate
-    ** aristocracy, plutocracy (аристократия, плутократия) -> "родовитість" and "заможність", when clearly about societal values
+    ** aristocracy, plutocracy (аристократия, плутократия) -> "родовитість" and "багатство", when clearly about societal values; consider "влада знаті", "аристократія", "знать", "влада багатіїв", "багатії" in other context
     ** "capital economy", "traditional economy" ("капитализм", "традиционализм") -> "підприємництво" and "звичаєвий уклад"; outside of this context and in general text "traditional economy" - "звичаєве господарство"
     ** traditionalist, innovative -> "старина" and "новина"
     ** spiritualist (духовность), humanist (гуманизм) -> духовність, терпимість

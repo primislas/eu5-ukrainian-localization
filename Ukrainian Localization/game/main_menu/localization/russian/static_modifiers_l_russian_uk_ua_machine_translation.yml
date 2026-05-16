@@ -1914,7 +1914,7 @@
   STATIC_MODIFIER_NAME_fra_religious_league_consolidated_modifier: "Консолідація влади релігійної ліги"
   STATIC_MODIFIER_NAME_entrenched_heretic_location_modifier: "Укорінення єресі"
   STATIC_MODIFIER_NAME_insanity_modifier: "Божевілля"
-  STATIC_MODIFIER_NAME_aristocracy_in_power_modifier: "Аристократи при владі"
+  STATIC_MODIFIER_NAME_aristocracy_in_power_modifier: "Знать при владі"
   STATIC_MODIFIER_NAME_end_of_the_smuta_modifier: "Кінець Смути"
   STATIC_MODIFIER_NAME_development_of_the_artillery: "Інвестиції в розвиток артилерії"
   STATIC_MODIFIER_DESC_development_of_the_artillery: "#italic  Ми отримаємо додаткові [Concept('events', 'події')|e], пов'язані з #Y  артилерією#!.#!\n\nНаша країна вирішила взяти активну участь у розвитку артилерії та методів її виробництва. З цієї причини наші витрати на виплавку та обслуговування гармат збільшаться, але знання, які ми отримаємо в цій галузі, швидше поширюватимуться в нашій країні.\n\n#Y  Ми втратимо цей модифікатор після впровадження [Concept('institution', 'інституту')|e] #TOOLTIP:INSTITUTION,artillery_institution,X #L «Артилерія»#!#!.#!"

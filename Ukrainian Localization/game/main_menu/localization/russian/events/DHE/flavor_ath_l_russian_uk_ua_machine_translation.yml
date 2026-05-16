@@ -45,7 +45,7 @@
   flavor_ath.8.a: "Каталонці захищають [ROOT.GetCountry.Custom('CL_ACC')]. Ми повинні їм довіряти."
   flavor_ath.8.a.entry: "Продовжити покладатися на Каталонську дружину."
   flavor_ath.8.b: "Ми перевіримо, наскільки правдиві чутки про нелояльність каталонців."
-  flavor_ath.9.title: "[byz_country.GetAdjectiveWithNoTooltip]а міждоусобиця"
+  flavor_ath.9.title: "[byz_country.GetAdjectiveWithNoTooltip]а міжусобиця"
   flavor_ath.9.entry: "Візантійська міжусобиця"
   flavor_ath.9.desc: "До нас дійшли звістки про те, що влада #ONCLICK:COUNTRY,[byz_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[byz_country.Custom('CL_tt')],X [byz_country.Custom('CL_GEN')|L]#!#! значною мірою втратила контроль над своїми прикордонними місцевостями поблизу [ROOT.GetCountry.Custom('CL_GEN')] і почала розміщувати там лише невеликі гарнізони. При цьому [byz_country.GetAdjectiveWithNoTooltip|l]ий уряд перебуває в сум'ятті від того, що йому доводиться одночасно вирішувати династичні чвари та тримати в узді безліч #TOOLTIP:CULTURE,$turkish_culture_tt$,X #L турецьких#!#! бейликів, чий вплив в #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#! неухильно зростає. У зв'язку з цим деякі члени #L [ROOT.GetCountry.GetAdjective|l]ого#! двору вважають, що зараз саме час завдати удару по [byz_country.Custom('longname_ua_wntt_DAT')] та розширити наші володіння в #TOOLTIP:PROVINCE_DEFINITION,thessaly_province,X #L Фессалії#!#!.\n\nВодночас каталонські дружинники пропонують влаштувати низку набігів на [byz_country.GetAdjectiveWithNoTooltip|l]і місцевості в #TOOLTIP:AREA,northern_greece_area,X #L Північній Греції#!#!, щоб наповнити нашу скарбницю."
   flavor_ath.9.a: "Настав час пробитися вглиб Фессалії."

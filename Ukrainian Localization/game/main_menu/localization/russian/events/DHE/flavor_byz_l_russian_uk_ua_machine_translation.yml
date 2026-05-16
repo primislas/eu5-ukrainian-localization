@@ -294,7 +294,7 @@
   flavor_byz.48.b: "Золото — це все, що потрібно країні."
   flavor_byz.49.title: "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] будує підступи проти [ROOT.GetCountry.GetGovernment.GetAdjective|l]ого чиновництва"
   flavor_byz_49_desc_common: "Останнім часом наші чиновники чудово справляються зі своїми обов'язками, але дехто вважає, що чиновництво явно нехтує інтересами придворних."
-  flavor_byz.49.desc.a: "$flavor_byz_49_desc_common$ [ROOT.GetCountry.GetGovernment.GetCourtTitle|U] вимагає змістити пріоритети на користь #TOOLTIP:SOCIETAL_VALUE,aristocracy_vs_plutocracy,X #L походження#!#!."
+  flavor_byz.49.desc.a: "$flavor_byz_49_desc_common$ [ROOT.GetCountry.GetGovernment.GetCourtTitle|U] вимагає змістити пріоритети на користь #TOOLTIP:SOCIETAL_VALUE,aristocracy_vs_plutocracy,X #L родовитости#!#!."
   flavor_byz.49.desc.b: "$flavor_byz_49_desc_common$ [ROOT.GetCountry.GetGovernment.GetCourtTitle|U] вимагає змістити пріоритети на користь #TOOLTIP:SOCIETAL_VALUE,aristocracy_vs_plutocracy,X #L багатства#!#!."
   flavor_byz.49.desc.c: "$flavor_byz_49_desc_common$ [ROOT.GetCountry.GetGovernment.GetCourtTitle|U] вимагає змістити пріоритети в бік #TOOLTIP:SOCIETAL_VALUE,outward_vs_inward,X #L відкритості#!#!."
   flavor_byz.49.desc.d: "$flavor_byz_49_desc_common$ [ROOT.GetCountry.GetGovernment.GetCourtTitle|U] вимагає змістити пріоритети в бік #TOOLTIP:SOCIETAL_VALUE,outward_vs_inward,X #L закритості#!#!."
