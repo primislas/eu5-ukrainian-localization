@@ -60,7 +60,7 @@
   flavor_kie.8.a: "Виконаємо їхні вимоги."
   flavor_kie.8.b: "Ми не дозволимо їм контролювати [target_location.Custom('LR_ACC')|l]."
   flavor_kie.8.b.entry: "Ми не дозволимо їм контролювати місто."
-  flavor_kie.9.title: "Розквіт [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l] неокласичної живопису"
+  flavor_kie.9.title: "Розквіт [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ого неокласичного живопису"
   flavor_kie.9.entry: "$flavor_kie.9.title$"
   flavor_kie.9.desc: "Кілька маловідомих художників #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! останнім часом намагаються створити новий напрямок, натхненний естетикою античності. Одним із таких художників є [target_character.GetName], уродженець #TOOLTIP:LOCATION,hlukhiv,X #L Глухова#!#!. Він уже встиг написати кілька чудових полотен у новому стилі, прозваному неокласицизмом. Прагнучи поширити цю художню течію, що зароджується, він звернувся до нашого двору в надії, що [target_character2.GetName] візьме його на службу."
   flavor_kie.9.a: "Ми наймемо [Select_CString(target_character.IsFemale,'її', 'його')]."

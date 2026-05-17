@@ -242,7 +242,7 @@
   flavor_dan_teu.5.a: "Ми більше не будемо рабами!"
   flavor_dan_teu.6.title: "$flavor_dan_teu.2.title$"
   flavor_dan_teu.6.desc: "Бунтівні #TOOLTIP:CULTURE,$estonian_tt$,X #L ести#!#!, що повстали в #L [TEU_denmark_from.GetAdjective]ій#! #TOOLTIP:PROVINCE_DEFINITION,estonia_province,X #L Естляндії#!#!, загрожують нашим союзникам. $flavor_dan_teu.2.attack$"
-  flavor_dan_teu.6.a: "Зібрати ополчення!"
+  flavor_dan_teu.6.a: "Скликати ополчення!"
   flavor_dan_teu.7.title: "Джерело неприємностей"
   flavor_dan_teu.7.desc: "Наші володіння в #TOOLTIP:PROVINCE_DEFINITION,estonia_province,X #L Естляндії#!#! перетворилися на джерело суцільних неприємностей. Через велику віддаленість ми й у найкращі роки з великими труднощами контролювали ці заморські провінції. Тепер заколот збунтованих #TOOLTIP:CULTURE,$estonian_tt$,X #L естів#!#! перекинувся на сусідні #L [teu_receives_estonia.GetAdjective|l]і#! володіння, тож чи не час продати ці землі? Естляндія бідна і вже перебуває у сфері впливу [teu_receives_estonia.Custom('CL_GEN')]. Така угода хоча б дозволить покращити наші дипломатичні відносини."
   flavor_dan_teu.7.desc_hyperlink: "$flavor_dan_teu.7.desc$ Саме час зробити пропозицію #L [the_deciding_nation.GetAdjective|l]ій#! владі."

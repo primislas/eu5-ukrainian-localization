@@ -70,7 +70,7 @@
   flavor_nap.201.b.entry: "Ми не раби."
   flavor_nap.210.title: "Інший син старого короля"
   flavor_nap.210.entry: "$flavor_nap.210.title$"
-  flavor_nap.210.desc: "[ROOT.GetCountry.GetGovernment.GetPreviousRuler.GetName] не залишив після себе спадкоємців чоловічої статі, однак у нього є позашлюбний син, який не має прав на #L [ROOT.GetCountry.GetAdjective|l]ський#! престол.\n\nЯк би там не було, він отримав відповідне виховання, навчений дипломатії та державному управлінню, а також подає великі надії при #L [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ському#! дворі."
+  flavor_nap.210.desc: "[ROOT.GetCountry.GetGovernment.GetPreviousRuler.GetName] не залишив після себе спадкоємців чоловічої статі, однак у нього є позашлюбний син, який не має прав на #L [ROOT.GetCountry.GetAdjective|l]ський#! престол.\n\nЯк би там не було, він отримав відповідне виховання, навчений дипломатії та державному управлінню, а також подає великі надії при #L [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ому#! дворі."
   flavor_nap.210.a: "Його навички можуть нам знадобитися."
   flavor_nap.210.b: "Нічого няньчитися з бастардом старого короля. Розжалувати його!"
   flavor_nap.220.title: "Консорт і корона"
