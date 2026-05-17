@@ -62,7 +62,7 @@
   STATIC_MODIFIER_NAME_location_template_natural_harbor_suitability_location: "[Concept('natural_harbor_suitability', 'Придатність природної гавані')|e]"
   STATIC_MODIFIER_NAME_location_template_natural_harbor_suitability: "[Concept('natural_harbor_suitability', 'Придатність природної гавані')|e]"
   STATIC_MODIFIER_NAME_location_template_natural_harbor_suitability_poor: "Низька [Concept('natural_harbor_suitability', 'придатність природної гавані')|e]"
-  STATIC_MODIFIER_NAME_location_template_natural_harbor_suitability_good: "Висока [Concept('natural_harbor_suitability', 'придатність природної гавані')|e"
+  STATIC_MODIFIER_NAME_location_template_natural_harbor_suitability_good: "Висока [Concept('natural_harbor_suitability', 'придатність природної гавані')|e]"
   STATIC_MODIFIER_NAME_unsupported_cultures: "Непідтримувані [Concept('accepted_cultures', 'визнані')|e] та [Concept('tolerated_cultures', 'прийнятні культури')|e]"
   STATIC_MODIFIER_NAME_spy_networks: "Шпигунські мережі"
   STATIC_MODIFIER_NAME_annexing_countries: "Поглинання країн"

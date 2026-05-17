@@ -15,6 +15,10 @@ def is_replacement_file(file_name: str) -> bool:
     # if file_name.startswith("customizable_localization_ru_"):
     #    return False
 
+    # Strangely replace doesn't work for this one
+    if file_name == "dlc_localizations_l_russian_uk_ua_machine_translation.yml":
+        return False
+
     # Filenames prefixed with "ua_" are expected to be ukrainersalis
     # modded file, already located where they are supposed to be.
     return not file_name.startswith("ua_")
