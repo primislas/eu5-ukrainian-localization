@@ -439,7 +439,7 @@
   ASSIMILATE_ALREADY_CULTURE: "У [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName] немає інших [Concept('culture', 'культур')|e], крім #L [CULTURE.GetName|l]ої#!"
   INTEGRATE_BLOCKED_BY_OCCUPATION: "@trigger_no!Місцевість [LOCATION.GetName] окупована, тому інтеграція зупинилася."
   ASSIMILATE_CULTURE_INDIVIDUAL: "#L [TARGET_CULTURE.GetName]і#! [Concept('pops', 'групи населення')|e] асимілюються в #L [CULTURE.GetName|l]у#! культуру: $VAL|+=2$"
-  centralization_vs_decentralization: "Підпорядкуванням — Самоврядність"
+  centralization_vs_decentralization: "Підпорядкування — Самоврядність"
   centralization_vs_decentralization_desc: "Країна з централізованим підпорядкованим врядуванням може бути ефективнішою, а децентралізована самоврядна більш стійка."
   centralization_focus: "Підпорядкування"
   decentralization_focus: "Самоврядність"

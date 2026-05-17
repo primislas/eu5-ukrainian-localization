@@ -7,6 +7,19 @@ from eukrainersalis.utils.file_utils import list_localization_files, translation
 from eukrainersalis.utils.yaml_utils import load_eu5_yaml, write_eu5_localization_yaml
 
 
+def is_replacement_file(file_name: str) -> bool:
+    # Original idea was to overwrite ru custom loc to reduce
+    # localization engine overload. However, since we know
+    # use English as source, l_russian isn't expected to be loaded
+    # anyways. Therefore, editing it out.
+    # if file_name.startswith("customizable_localization_ru_"):
+    #    return False
+
+    # Filenames prefixed with "ua_" are expected to be ukrainersalis
+    # modded file, already located where they are supposed to be.
+    return not file_name.startswith("ua_")
+
+
 def _move_localization_file(modded_file: str, output_path: str, relative_input_dir_path: str):
     input_fname = os.path.basename(modded_file)
     output_dir, output_fname = os.path.split(output_path)
@@ -36,6 +49,9 @@ def move_translated_localization_to_mod_dir() -> int:
             moved_file = mt_file
             relative_path = os.path.relpath(mt_file, source_dir_path)
             output_path = os.path.join(mod_dir, relative_path)
+            output_file_dir, output_file_name = os.path.split(output_path)
+            if is_replacement_file(output_file_name) and not output_file_name.endswith("replace"):
+                output_path = os.path.join(output_file_dir, "replace", output_file_name)
             _move_localization_file(moved_file, output_path, relative_path)
             moved_file_count += 1
     return moved_file_count
