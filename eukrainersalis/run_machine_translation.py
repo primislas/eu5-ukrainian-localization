@@ -34,7 +34,7 @@ _PREPROC_MAPPINGS = {
     "RU_rank_": "UA_rank_",
     "RU_rn": "UA_rn",
     "UA_rank_ua_": "rank_ua_",
-    "parliament_ru": "parliament_ua",
+    "parliament_ru_": "parliament_ua_",
     # 1.1.10 -> 1.2.0
     "'fem'": "'end_fem'",
     "'enna'": "'end_enna'",
@@ -58,7 +58,7 @@ _KEYS_MAPPING = {
     "RU_rank_": "UA_rank_",
     "RU_rn": "UA_rn",
     "UA_rank_ua_": "rank_ua_",
-    "parliament_ru": "parliament_ua",
+    "parliament_ru_": "parliament_ua_",
 }
 
 _EXCLUDED_FILES = [

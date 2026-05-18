@@ -8,6 +8,7 @@ class Language(StrEnum):
     ENGLISH = "english"
     UKRAINIAN = "ukrainian"
     RUSSIAN = "russian"
+    POLISH = "polish"
     UK_UA_MACHINE_TRANSLATION = "russian_uk_ua_machine_translation"
 
     def __new__(cls, value):

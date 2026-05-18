@@ -112,7 +112,7 @@
   flavor_dlh.18.b: "У нас немає потреби в нових усипальницях."
   flavor_dlh.19.title: "[target_character.GetNameWithNoTooltip] та [Select_CString(target_character.IsFemale, 'її', 'його' )] гробниця"
   flavor_dlh.19.entry: "Гробниця Лоді"
-  flavor_dlh.19.desc: "[target_character.GetName] з династії [GetDynasty('lodi_dynasty').GetName] [Select_CString(target_character.IsFemale, 'мертва', 'мертвий' )]. [Select_CString(target_character.IsFemale, 'Її', 'Його' )] #TOOLTIP:CULTURE,$afghan_culture_tt$,X #L афганські#!#! одноплемінники вимагають, щоб [target_character2.GetName] [Select_CString(target_character2.IsFemale, 'увічнила', 'увічнив' )] пам'ять про [Select_CString(target_character.IsFemale, 'свою попередницю', 'свого попередника' )], побудувавши на [Select_CString(target_character.IsFemale, 'її', 'його' )] честь величний мавзолей."
+  flavor_dlh.19.desc: "[target_character.GetName] з династії [GetDynasty('lodi_dynasty').GetName] [Select_CString(target_character.IsFemale, 'мертва', 'мертвий' )]. [Select_CString(target_character.IsFemale, 'Її', 'Його' )] #TOOLTIP:CULTURE,$afghan_culture_tt$,X #L афганські#!#! племена вимагають, щоб [target_character2.GetName] [Select_CString(target_character2.IsFemale, 'увічнила', 'увічнив' )] пам'ять про [Select_CString(target_character.IsFemale, 'свою попередницю', 'свого попередника' )], побудувавши на [Select_CString(target_character.IsFemale, 'її', 'його' )] честь величний мавзолей."
   flavor_dlh.19.a: "Країна ніколи [Select_CString(target_character.IsFemale, 'її', 'його' )] не забуде."
   flavor_dlh.19.a.entry: "Країна ніколи його не забуде."
   flavor_dlh.19.b: "Ми не станемо їх слухати."
