@@ -660,7 +660,7 @@
   lit_promote_catholicism_action_progress_tooltip: "[SCOPE.sProvince('target_1').GetReligionInfo]"
   based_on_religious_unity_at_time_of_conversion_tt: "З урахуванням рівня нашої [Concept('religious_unity', 'релігійної єдності')|e] на момент прийняття католицтва:"
   frustrate_annexation: "Зрив поглинання"
-  frustrate_annexation_desc: "Використовуючи стародавні основоположні закони та створюючи за кожної зручної нагоди перешкоди для делегатів нашого [Concept('overlord', 'сюзерена')|e], ми можемо уповільнити своє [Concept('annex', 'поглинання')|e]."
+  frustrate_annexation_desc: "Використовуючи стародавні основоположні закони та створюючи за кожної зручної нагоди перешкоди для представників нашого [Concept('overlord', 'сюзерена')|e], ми можемо уповільнити своє [Concept('annex', 'поглинання')|e]."
   frustrate_annexation_action: "Зірвати поглинання"
   frustrate_annexation_active: "Зрив поглинання"
   frustrate_annexation_action_progress: "[SCOPE.sCountry('actor').GetModifierValue('hostile_diplomatic_annexation_cost')]"
