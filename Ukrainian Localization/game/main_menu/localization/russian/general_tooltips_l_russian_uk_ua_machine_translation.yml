@@ -33,7 +33,7 @@
   CABINET_ACTION_MODIFIER: "[cabinet_action_icon] $CABINET_ACTION$"
   COUNTRY_RANK_MODIFIER: "[Concept('country_rank', 'Ранг країни')|e]: $COUNTRY_RANK$"
   RELIGIOUS_ASPECT_MODIFIER: "[Concept('religious_aspect', 'Релігійна особливість')|e]: $RELIGIOUS_ASPECT$"
-  RELIGION_MODIFIER: "[Concept('primary_religion', 'Основна релігія')|e]: $RELIGION$"
+  RELIGION_MODIFIER: "[Concept('primary_religion', 'Основне віросповідання')|e]: $RELIGION$"
   AVATAR_MODIFIER: "[Concept('avatar', 'аватар')|e]: $AVATAR$"
   GOD_MODIFIER: "[Concept('god', 'Божество')|e]: $GOD$"
   OMEN_MODIFIER: "[Concept('omen', 'Знамення')|e]: $OMEN|l$"
