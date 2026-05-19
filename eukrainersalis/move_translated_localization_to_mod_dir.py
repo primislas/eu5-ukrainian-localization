@@ -1,6 +1,6 @@
 import os
 import shutil
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 
 from eukrainersalis.utils.file_utils import list_localization_files, translation_dir, mod_dir, \
     project_mod_dir
@@ -16,8 +16,8 @@ def is_replacement_file(file_name: str) -> bool:
     #    return False
 
     # Strangely replace doesn't work for this one
-    if file_name == "dlc_localizations_l_russian_uk_ua_machine_translation.yml":
-        return False
+    # if file_name == "dlc_localizations_l_russian_uk_ua_machine_translation.yml":
+    #     return False
 
     # Filenames prefixed with "ua_" are expected to be ukrainersalis
     # modded file, already located where they are supposed to be.
@@ -52,10 +52,17 @@ def move_translated_localization_to_mod_dir() -> int:
         for mt_file in post_edited_translations + machine_translations:
             moved_file = mt_file
             relative_path = os.path.relpath(mt_file, source_dir_path)
+            if relative_path.startswith("dlc/"):
+                # It appears the game has special handling for dlc folder.
+                # Its layout usually is dlc/DNNN/main_menu, where
+                # DNNN is the dlc id, and main_menu corresponds to
+                # standard game/main_menu folder.
+                relative_path = PurePosixPath(*PurePosixPath(relative_path).parts[2:]).as_posix()
             output_path = os.path.join(mod_dir, relative_path)
             output_file_dir, output_file_name = os.path.split(output_path)
             if is_replacement_file(output_file_name) and not output_file_name.endswith("replace"):
                 output_path = os.path.join(output_file_dir, "replace", output_file_name)
+                # output_path = os.path.join(output_file_dir, output_file_name)
             _move_localization_file(moved_file, output_path, relative_path)
             moved_file_count += 1
     return moved_file_count
