@@ -1,0 +1,1948 @@
+﻿crown_estate = {
+	type = country
+
+	text = {
+		localization_key = crown_estate_holy_order
+		trigger = {
+			has_reform = government_reform:military_order_reform
+		}
+	}
+
+	text = {
+		localization_key = crown_estate_brethren
+		trigger = {
+			has_reform = government_reform:pirate_brethren_reform
+		}
+	}
+
+	text = {
+		localization_key = crown_estate_derbfine
+		trigger = {
+			has_reform = government_reform:celtic_traditions_reform
+			OR = {
+				culture.language = language:gaelic_language
+				court_language = language:gaelic_language
+			}
+		}
+	}
+
+	text = {
+		localization_key = crown_estate_republic
+		trigger = {
+			government_type = government_type:republic
+		}
+	}
+
+	text = {
+		localization_key = crown_estate_clan
+		trigger = {
+			culture.language = language:japanese_language
+			OR = {
+				has_reform = government_reform:daimyo
+				has_reform = government_reform:japanese_clan
+			}
+		}
+	}
+	
+	text = {
+		localization_key = crown_estate_kronan
+		trigger = {
+			culture = culture:swedish
+		}
+	}
+	
+	text = {
+		localization_key = crown_estate_kruna	
+		trigger = {
+			court_language = language:serbo_croatian_language
+		}
+	}
+	
+	text = {
+		localization_key = crown_estate_korona
+		trigger = {
+			court_language = language:bulgarian_language
+		}
+	}
+	
+	text = {
+		localization_key = crown_estate_krona
+		trigger = {
+			court_language = culture:slovene.language
+		}
+	}
+
+	text = {
+		localization_key = crown_estate
+		fallback = yes
+	}
+}
+
+
+nobles_estate = {
+	type = country
+
+	text = {
+		localization_key = nobles_estate_holy_order
+		trigger = {
+			has_reform = government_reform:military_order_reform
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_greek
+		trigger = {
+			OR = {
+				court_language = language:greek_language
+				culture.language = language:greek_language
+			}
+		}
+	}
+	
+	text = {
+		localization_key = nobles_estate_captains
+		trigger = {
+			has_reform = government_reform:pirate_brethren_reform
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_ghazi
+		trigger = {
+			has_estate_privilege = estate_privilege:ghazi_privilege
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_maori
+		trigger = {
+			culture = culture:maori_culture
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_chieftains
+		trigger = {
+			OR = {
+				has_reform = government_reform:celtic_traditions_reform
+				government_type = government_type:tribe
+				government_type = government_type:steppe_horde
+			}
+		}
+	}
+
+	text = { #https://en.wikipedia.org/wiki/Venetian_nobility
+		localization_key = nobles_estate_patriziato
+		trigger = {
+			OR = {
+				tag = VEN			
+				any_overlord_or_above = {
+					tag = VEN
+				}
+			}
+		}
+	}
+
+
+
+	text = {
+		localization_key = nobles_estate_patricians
+		trigger = {
+			government_type = government_type:republic
+			NOT = { culture = { has_culture_group = culture_group:russian_group } }
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_szlachta
+		trigger = {
+			OR = {
+				culture = culture:greater_polish
+				culture = culture:lesser_polish
+				culture = culture:mazovian
+				AND = {
+					overlord ?= {
+						OR = {
+							culture = culture:greater_polish
+							culture = culture:lesser_polish
+							culture = culture:mazovian
+						}
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_bajorai
+		trigger = {
+			culture = { has_culture_group = culture_group:lithuanian_group }
+		}
+	}
+
+	#text = {
+	#	localization_key = nobles_estate_znat
+	#	trigger = {
+	#		culture.dialect = dialect:ukrainian_dialect
+	#	}
+	#}
+
+	text = {
+		localization_key = nobles_estate_boyars
+		trigger = {
+			OR = {
+				culture = { has_culture_group = culture_group:russian_group }
+			}
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_lords
+		trigger = {
+			OR = {
+				culture = culture:english
+				culture = culture:anglo_irish
+			}
+			modifier:has_a_parliamentary_system = yes
+			country_rank_level >= 3
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_barons
+		trigger = {
+			OR = {
+				culture = culture:english
+				culture = culture:anglo_irish
+			}
+		}
+	}
+	
+	
+	text = {
+		localization_key = nobles_estate_adeln
+		trigger = {
+			culture = culture:swedish
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_samurai
+		trigger = {
+			culture.language = language:japanese_language
+			has_reform = government_reform:shogunate
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_bushi
+		trigger = {
+			culture.language = language:japanese_language
+			OR = {
+				has_reform = government_reform:daimyo
+				has_reform = government_reform:japanese_clan
+			}
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_kuge
+		trigger = {
+			culture.language = language:japanese_language
+			has_reform = government_reform:japanese_imperial_family
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_yukatchu
+		trigger = {
+			culture.language = language:ryukyu_language
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_rangatira
+		trigger = {
+			culture.language = language:maori_language
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_lairds
+		trigger = {
+			culture = culture:scottish
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_uchelwyr
+		trigger = {
+			culture = culture:welsh
+			court_language = language:brythonic_language
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_hawaii
+		trigger = {
+			culture = culture:kanaka_maoli_culture
+			court_language = language:olelo_hawaii_language
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_noblesse
+		trigger = {
+			court_language = language:french_language
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_ricahombria
+		trigger = {
+			court_language = language:spanish_language
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_adel
+		trigger = {
+			culture.dialect = dialect:dutch_dialect
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_almehenoob
+		trigger = {
+			court_language = language:maya_language
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_dzayya_yya
+		trigger = {
+			OR = {
+				court_language = language:eastern_otomanguean_language
+				court_language = language:otopamean_language
+			}
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_makuannent
+		trigger = {
+			court_language = language:ethiopic_language
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_pipiltin
+		trigger = {
+			court_language = language:nahuatl_language
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_vlastela
+		trigger = {
+			court_language = language:serbo_croatian_language
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_bolyari
+		trigger = {
+			court_language = language:bulgarian_language
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_plemstvo
+		trigger = {
+			court_language = culture:slovene.language
+		}
+	}
+	
+	text = {
+		localization_key = nobles_estate_yangban
+		trigger = {
+			court_language = language:korean_language
+		}
+	}
+	
+	text = {
+		localization_key = nobles_estate_mankari
+		trigger = {
+			court_language = language:marathi_language
+		}
+	}
+	
+	text = {
+		localization_key = nobles_estate_nair
+		trigger = {
+			court_language = language:malayalam_language
+		}
+	}
+	
+	text = {
+		localization_key = nobles_estate_amir
+		trigger = {
+			religion.group = religion_group:muslim
+			country_rank_level >= 3
+		}
+	}
+	
+	text = {
+		localization_key = nobles_estate_kshatriya
+		trigger = {
+			religion.group = religion_group:dharmic
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate
+		fallback = yes
+	}
+}
+
+burghers_estate = {
+	type = country
+
+	text = {
+		localization_key = burghers_estate_greek
+		trigger = {
+			OR = {
+				court_language = language:greek_language
+				culture.language = language:greek_language
+			}
+		}
+	}
+
+	text = { #https://it.wikipedia.org/wiki/Cittadini_(Venezia)
+		localization_key = burghers_estate_cittadini
+		trigger = {
+			OR = {
+				tag = VEN			
+				any_overlord_or_above = {
+					tag = VEN
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = burghers_estate_smugglers
+		trigger = {
+			has_reform = government_reform:pirate_brethren_reform
+		}
+	}
+
+	text = {
+		localization_key = burghers_estate_maori
+		trigger = {
+			culture = culture:maori_culture
+		}
+	}
+
+	text = {
+		localization_key = burghers_estate_wangara
+		trigger = {
+			culture.language = language:mande_language
+		}
+	}
+
+	text = {
+		localization_key = burghers_estate_traders
+		trigger = {
+			OR = {
+				government_type = government_type:tribe
+				government_type = government_type:steppe_horde
+			}
+		}
+	}
+
+	text = {
+		localization_key = burghers_estate_burgesses
+		trigger = {
+			OR = {
+				culture = culture:english
+				culture = culture:anglo_irish
+			}
+		}
+	}
+
+	text = {
+		localization_key = burghers_estate_commissioners
+		trigger = {
+			culture = culture:scottish
+		}
+	}
+	
+	text = {
+		localization_key = burghers_estate_borgarstanden
+		trigger = {
+			culture = culture:swedish
+		}
+	}
+
+
+	text = {
+		localization_key = burghers_estate_bourgeoisie
+		trigger = {
+			OR = {
+				court_language = language:french_language
+				culture.language = language:french_language
+				court_language = language:occitan_language
+				culture.language = language:occitan_language
+			}
+		}
+	}
+
+	text = {
+		localization_key = burghers_estate_burguesia
+		trigger = {
+			court_language = language:spanish_language
+		}
+	}
+
+	text = {
+		localization_key = burghers_estate_naggade
+		trigger = {
+			court_language = language:ethiopic_language
+		}
+	}
+
+	text = {
+		localization_key = burghers_estate_pochteca
+		trigger = {
+			court_language = language:nahuatl_language
+		}
+	}
+
+	text = {
+		localization_key = burghers_estate_mestanstvo
+		trigger = {
+			court_language = language:serbo_croatian_language
+		}
+	}
+
+	text = {
+		localization_key = burghers_estate_grazhdani
+		trigger = {
+			court_language = language:bulgarian_language
+		}
+	}
+	
+	text = {
+		localization_key = burghers_estate_mescanstvo
+		trigger = {
+			court_language = culture:slovene.language
+		}
+	}
+	text = {
+		localization_key = burghers_estate_jungin
+		trigger = {
+			court_language = language:korean_language
+		}
+	}
+
+	text = {
+		localization_key = burghers_estate_vaishya
+		trigger = {
+			religion.group = religion_group:dharmic
+		}
+	}
+
+	text = {
+		localization_key = burghers_estate_chounin
+		trigger = {
+			culture.language = language:japanese_language
+		}
+	}
+
+	text = {
+		localization_key = clergy_estate_tohunga
+		trigger = {
+			culture.language = language:maori_language
+		}
+	}
+
+	text = {
+		localization_key = burghers_estate_horodiany
+		trigger = {
+			culture.dialect = dialect:ukrainian_dialect
+		}
+	}
+
+	text = {
+		localization_key = burghers_estate_meschanstvo
+		trigger = {
+			culture = { has_culture_group = culture_group:russian_group }
+		}
+	}
+
+	text = {
+		localization_key = burghers_estate_mieszczanstwo
+		trigger = {
+			OR = {
+				culture = culture:greater_polish
+				culture = culture:lesser_polish
+				culture = culture:mazovian
+				AND = {
+					overlord ?= {
+						OR = {
+							culture = culture:greater_polish
+							culture = culture:lesser_polish
+							culture = culture:mazovian
+						}
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = burghers_estate_miestieciai
+		trigger = {
+			culture = { has_culture_group = culture_group:lithuanian_group }
+		}
+	}
+
+	text = {
+		localization_key = burghers_estate_burgerij
+		trigger = {
+			culture.dialect = dialect:dutch_dialect
+		}
+	}
+
+	text = {
+		localization_key = burghers_estate
+		fallback = yes
+	}
+}
+
+clergy_estate = {
+	type = country
+
+	text = {
+		localization_key = clergy_estate_greek
+		trigger = {
+			OR = {
+				court_language = language:greek_language
+				culture.language = language:greek_language
+			}
+		}
+	}
+	
+	text = {
+		localization_key = clergy_estate_tohunga
+		trigger = {
+			culture.language = language:maori_language
+		}
+	}
+
+	text = {
+		localization_key = clergy_estate_maori
+		trigger = {
+			culture = culture:maori_culture
+			religion = religion:tapu_religion
+		}
+	}
+
+	text = {
+		localization_key = clergy_estate_dukhovenstvo
+		trigger = {
+			religion = religion:orthodox
+			culture.language = language:east_slavic_language
+		}
+	}
+
+	text = {
+		localization_key = clergy_estate_holy_order
+		trigger = {
+			has_reform = government_reform:military_order_reform
+		}
+	}
+
+	#text = {
+	#	localization_key = clergy_estate_klir
+	#	trigger = {
+	#		religion = religion:orthodox
+	#		OR = {
+	#			culture.language = language:ruthenian_language
+	#			culture = { has_culture_group = culture_group:slavic_group }
+	#		}
+	#	}
+	#}
+
+	text = {
+		localization_key = clergy_estate_pastors
+		trigger = {
+			is_protestant = yes
+		}
+	}
+
+	text = {
+		localization_key = clergy_estate_ulama
+		trigger = {
+			religion.group = religion_group:muslim
+		}
+	}
+
+	text = {
+		localization_key = clergy_estate_brahmin
+		trigger = {
+			religion = religion:hindu
+		}
+	}
+
+	text = {
+		localization_key = clergy_estate_granthis
+		trigger = {
+			religion = religion:sikhism
+		}
+	}
+
+	text = {
+		localization_key = clergy_estate_chaplains
+		trigger = {
+			has_reform = government_reform:pirate_brethren_reform
+		}
+	}
+
+	text = {
+		localization_key = clergy_estate_prelates
+		trigger = {
+			culture = culture:scottish
+		}
+	}
+
+	text = {
+		localization_key = clergy_estate_clerge
+		trigger = {
+			culture.language = language:french_language
+		}
+	}
+
+	text = {
+		localization_key = clergy_estate_clerecia
+		trigger = {
+			court_language = language:spanish_language
+		}
+	}
+
+	text = {
+		localization_key = clergy_estate_kahenat
+		trigger = {
+			court_language = language:ethiopic_language
+		}
+	}
+
+	text = {
+		localization_key = clergy_estate_teopixque
+		trigger = {
+			court_language = language:nahuatl_language
+		}
+	}
+
+	text = {
+		localization_key = clergy_estate_kler
+		trigger = {
+			religion = religion:catholic
+			OR = {
+				culture.language = language:ruthenian_language
+				culture = { has_culture_group = culture_group:slavic_group }
+			}
+		}
+	}
+	
+	text = {
+		localization_key = clergy_estate_kleriki
+		trigger = {
+			court_language = culture:slovene.language
+		}
+	}
+
+	text = {
+		localization_key = clergy_estate_prest
+		trigger = {
+			culture = culture:swedish
+		}
+	}
+
+	text = {
+		localization_key = clergy_estate_bateren
+		trigger = {
+			culture.language = language:japanese_language
+			religion.group = religion_group:christian
+		}
+	}
+
+	text = {
+		localization_key = clergy_estate_souryo
+		trigger = {
+			culture.language = language:japanese_language
+		}
+	}
+
+	text = {
+		localization_key = clergy_estate_kaminchu
+		trigger = {
+			culture.language = language:ryukyu_language
+		}
+	}
+
+	text = {
+		localization_key = clergy_estate_shona
+		trigger = {
+			culture = culture:shona_culture
+		}
+	}
+
+	text = {
+		localization_key = clergy_estate_duchowienstwo
+		trigger = {
+			OR = {
+				culture = culture:greater_polish
+				culture = culture:lesser_polish
+				culture = culture:mazovian
+				AND = {
+					overlord ?= {
+						OR = {
+							culture = culture:greater_polish
+							culture = culture:lesser_polish
+							culture = culture:mazovian
+						}
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = clergy_estate_dvasininkai
+		trigger = {
+			culture = { has_culture_group = culture_group:lithuanian_group }
+		}
+	}
+
+	text = {
+		localization_key = clergy_estate_geestelijken
+		trigger = {
+			culture.dialect = dialect:dutch_dialect
+		}
+	}
+
+	text = {
+		localization_key = clergy_estate_ah_kinoob
+		trigger = {
+			court_language = language:maya_language
+		}
+	}
+
+	text = {
+		localization_key = clergy_estate
+		fallback = yes
+	}
+}
+
+peasants_estate = {
+	type = country
+
+	text = {
+		localization_key = peasants_estate_greek
+		trigger = {
+			OR = {
+				court_language = language:greek_language
+				culture.language = language:greek_language
+			}
+		}
+	}
+
+	text = {
+		localization_key = peasants_estate_buccaneers
+		trigger = {
+			has_reform = government_reform:pirate_brethren_reform
+		}
+	}
+
+	text = {
+		localization_key = peasants_estate_yeomanry
+		trigger = {
+			has_estate_privilege = estate_privilege:peasants_yeomanry
+		}
+	}
+
+	text = {
+		localization_key = peasants_estate_commons
+		trigger = {
+			OR = {
+				culture = culture:english
+				culture = culture:anglo_irish
+			}
+		}
+	}
+
+	text = {
+		localization_key = peasants_estate_bondestandet
+		trigger = {
+			culture = culture:swedish
+		}
+	}
+
+	text = {
+		localization_key = peasants_estate_gebbar
+		trigger = {
+			court_language = language:ethiopic_language
+		}
+	}
+
+	text = {
+		localization_key = peasants_estate_macehualtin
+		trigger = {
+			court_language = language:nahuatl_language
+		}
+	}
+
+	text = {
+		localization_key = peasants_estate_sebri
+		trigger = {
+			court_language = language:serbo_croatian_language
+		}
+	}
+
+	text = {
+		localization_key = peasants_estate_selyani
+		trigger = {
+			court_language = language:bulgarian_language
+		}
+	}
+
+	text = {
+		localization_key = peasants_estate_sleherniki
+		trigger = {
+			court_language = culture:slovene.language
+		}
+	}
+	
+	text = {
+		localization_key = peasants_estate_sangmin
+		trigger = {
+			court_language = language:korean_language
+		}
+	}
+
+	text = {
+		localization_key = peasants_estate_sudra
+		trigger = {
+			religion.group = religion_group:dharmic
+		}
+	}
+
+	text = {
+		localization_key = peasants_estate_noumin
+		trigger = {
+			culture.language = language:japanese_language
+		}
+	}
+
+	text = {
+		localization_key = peasants_estate_prostoliud
+		trigger = {
+			culture.dialect = dialect:ukrainian_dialect
+		}
+	}
+
+	text = {
+		localization_key = peasants_estate_tay_nuu
+		trigger = {
+			OR = {
+				court_language = language:eastern_otomanguean_language
+				court_language = language:otopamean_language
+			}
+		}
+	}
+
+	text = {
+		localization_key = peasants_estate_krestyanstvo
+		trigger = {
+			culture = { has_culture_group = culture_group:russian_group }
+		}
+	}
+
+	text = {
+		localization_key = peasants_estate_petit_peuple
+		trigger = {
+			culture.language = language:french_language
+		}
+	}
+
+	text = {
+		localization_key = peasants_estate_comun
+		trigger = {
+			culture.language = language:spanish_language
+		}
+	}
+
+	text = {
+		localization_key = peasants_estate_chlopstwo
+		trigger = {
+			OR = {
+				culture = culture:greater_polish
+				culture = culture:lesser_polish
+				culture = culture:mazovian
+				AND = {
+					overlord ?= {
+						OR = {
+							culture = culture:greater_polish
+							culture = culture:lesser_polish
+							culture = culture:mazovian
+						}
+					}
+				}
+			}
+		}
+	}
+
+	text = {
+		localization_key = peasants_estate_valstieciai
+		trigger = {
+			culture = { has_culture_group = culture_group:lithuanian_group }
+		}
+	}
+	
+	text = {
+		localization_key = peasants_estate_boeren
+		trigger = {
+			culture.dialect = dialect:dutch_dialect
+		}
+	}
+	
+	text = {
+		localization_key = peasants_estate
+		fallback = yes
+	}
+}
+
+dhimmi_estate = {
+	type = country
+
+	text = {
+		localization_key = dhimmi_estate_persian
+		trigger = {
+			OR = {
+				culture.language = { language_family ?= language_family:iranic_language_family } 
+				court_language ?= { language_family ?= language_family:iranic_language_family } 
+			}
+		}
+	}
+
+	text = {
+		localization_key = dhimmi_estate_malay
+		trigger = {
+			OR = {
+				culture.language = language:malay_language
+				court_language = language:malay_language
+			}
+		}
+	}
+
+	text = {
+		localization_key = dhimmi_estate_urdu
+		trigger = {
+			OR = {
+				culture.language = { language_family ?= language_family:indic_language_family } 
+				court_language ?= { language_family ?= language_family:indic_language_family } 
+			}
+		}
+	}
+
+	text = {
+		localization_key = dhimmi_estate_arabic
+		trigger = {
+			OR = {
+				culture.language = language:arabic_language
+				court_language = language:arabic_language
+			}
+		}
+	}
+
+	text = {
+		localization_key = dhimmi_estate_turkish
+		trigger = {
+			OR = {
+				culture.language = language:turkish_language
+				court_language = language:turkish_language
+			}
+		}
+	}
+
+	text = {
+		localization_key = dhimmi_estate
+		fallback = yes
+	}
+}
+
+tribes_estate = {
+	type = country
+
+	text = {
+		localization_key = tribes_estate_gaelic
+		trigger = {			
+			any_primary_or_accepted_culture = {
+				has_culture_group = culture_group:celtic_group
+			}
+		}
+	}
+
+	text = {
+		localization_key = tribes_estate_qizilbash
+		trigger = {
+			OR = {
+				culture.language = language:persian_language
+				court_language = language:persian_language
+			}
+		}
+	}
+
+	text = {
+		localization_key = tribes_estate_barbaroi
+		trigger = {
+			OR = {
+				court_language = language:greek_language
+				culture.language = language:greek_language
+			}
+		}
+	}
+
+	text = {
+		localization_key = tribes_estate_plemena
+		trigger = {			
+			culture.dialect = dialect:ukrainian_dialect
+		}
+	}
+
+	text = {
+		localization_key = tribes_estate_chibaloob
+		trigger = {
+			court_language = language:maya_language
+		}
+	}
+
+	text = {
+		localization_key = tribes_estate
+		fallback = yes
+	}
+}
+
+cossacks_estate = {
+	type = country
+
+	text = {
+		localization_key = cossacks_estate
+		fallback = yes
+	}
+}
+
+
+
+# ESTATE ENDINGS
+
+crown_yeyut = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_yeyut"
+  if_invalid_loc = estend_yeyut_def
+}
+crown_vlaloly = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_vlaloly"
+  if_invalid_loc = estend_vlaloly_def
+}
+crown_yiaei = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_yiaei"
+  if_invalid_loc = estend_yiaei_def
+}
+crown_eut = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_eut"
+  if_invalid_loc = estend_eut_def
+}
+crown_aei = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_aei"
+  if_invalid_loc = estend_aei_def
+}
+crown_ytyat = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_ytyat"
+  if_invalid_loc = estend_ytyat_def
+}
+crown_ytat = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_ytat"
+  if_invalid_loc = estend_ytat_def
+}
+crown_ytlyat = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_ytlyat"
+  if_invalid_loc = estend_ytlyat_def
+}
+crown_yityat = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_yityat"
+  if_invalid_loc = estend_yityat_def
+}
+crown_yetsayutsa = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_yetsayutsa"
+  if_invalid_loc = estend_yetsayutsa_def
+}
+crown_etsautsa = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_etsautsa"
+  if_invalid_loc = estend_etsautsa_def
+}
+crown_ihohlaloly = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_ihohlaloly"
+  if_invalid_loc = estend_ihohlaloly_def
+}
+crown_ohooyiyh = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_ohooyiyh"
+  if_invalid_loc = estend_ohooyiyh_def
+}
+crown_iyyayei = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_iyyayei"
+  if_invalid_loc = estend_iyyayei_def
+}
+crown_essyasesi = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_essyasesi"
+  if_invalid_loc = estend_essyasesi_def
+}
+crown_eyyaei = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_eyyaei"
+  if_invalid_loc = estend_eyyaei_def
+}
+crown_ymoyuymy = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_ymoyuymy"
+  if_invalid_loc = estend_ymoyuymy_def
+}
+crown_ovlaloly = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_ovlaloly"
+  if_invalid_loc = estend_ovlaloly_def
+}
+crown_ennanoni = {
+  log_loc_errors = no
+  parent = crown_estate
+  suffix = "_crown_estend_ennanoni"
+  if_invalid_loc = estend_ennanoni_def
+}
+clergy_yeyut = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_yeyut"
+  if_invalid_loc = estend_yeyut_def
+}
+clergy_vlaloly = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_vlaloly"
+  if_invalid_loc = estend_vlaloly_def
+}
+clergy_yiaei = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_yiaei"
+  if_invalid_loc = estend_yiaei_def
+}
+clergy_eut = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_eut"
+  if_invalid_loc = estend_eut_def
+}
+clergy_aei = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_aei"
+  if_invalid_loc = estend_aei_def
+}
+clergy_ytyat = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_ytyat"
+  if_invalid_loc = estend_ytyat_def
+}
+clergy_ytat = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_ytat"
+  if_invalid_loc = estend_ytat_def
+}
+clergy_ytlyat = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_ytlyat"
+  if_invalid_loc = estend_ytlyat_def
+}
+clergy_yityat = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_yityat"
+  if_invalid_loc = estend_yityat_def
+}
+clergy_yetsayutsa = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_yetsayutsa"
+  if_invalid_loc = estend_yetsayutsa_def
+}
+clergy_etsautsa = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_etsautsa"
+  if_invalid_loc = estend_etsautsa_def
+}
+clergy_ihohlaloly = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_ihohlaloly"
+  if_invalid_loc = estend_ihohlaloly_def
+}
+clergy_ohooyiyh = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_ohooyiyh"
+  if_invalid_loc = estend_ohooyiyh_def
+}
+clergy_iyyayei = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_iyyayei"
+  if_invalid_loc = estend_iyyayei_def
+}
+clergy_essyasesi = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_essyasesi"
+  if_invalid_loc = estend_essyasesi_def
+}
+clergy_eyyaei = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_eyyaei"
+  if_invalid_loc = estend_eyyaei_def
+}
+clergy_ymoyuymy = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_ymoyuymy"
+  if_invalid_loc = estend_ymoyuymy_def
+}
+clergy_ovlaloly = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_ovlaloly"
+  if_invalid_loc = estend_ovlaloly_def
+}
+clergy_ennanoni = {
+  log_loc_errors = no
+  parent = clergy_estate
+  suffix = "_clergy_estend_ennanoni"
+  if_invalid_loc = estend_ennanoni_def
+}
+nobles_yeyut = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_yeyut"
+  if_invalid_loc = estend_yeyut_def
+}
+nobles_vlaloly = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_vlaloly"
+  if_invalid_loc = estend_vlaloly_def
+}
+nobles_yiaei = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_yiaei"
+  if_invalid_loc = estend_yiaei_def
+}
+nobles_eut = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_eut"
+  if_invalid_loc = estend_eut_def
+}
+nobles_aei = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_aei"
+  if_invalid_loc = estend_aei_def
+}
+nobles_ytyat = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_ytyat"
+  if_invalid_loc = estend_ytyat_def
+}
+nobles_ytat = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_ytat"
+  if_invalid_loc = estend_ytat_def
+}
+nobles_ytlyat = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_ytlyat"
+  if_invalid_loc = estend_ytlyat_def
+}
+nobles_yityat = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_yityat"
+  if_invalid_loc = estend_yityat_def
+}
+nobles_yetsayutsa = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_yetsayutsa"
+  if_invalid_loc = estend_yetsayutsa_def
+}
+nobles_etsautsa = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_etsautsa"
+  if_invalid_loc = estend_etsautsa_def
+}
+nobles_ihohlaloly = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_ihohlaloly"
+  if_invalid_loc = estend_ihohlaloly_def
+}
+nobles_ohooyiyh = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_ohooyiyh"
+  if_invalid_loc = estend_ohooyiyh_def
+}
+nobles_iyyayei = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_iyyayei"
+  if_invalid_loc = estend_iyyayei_def
+}
+nobles_essyasesi = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_essyasesi"
+  if_invalid_loc = estend_essyasesi_def
+}
+nobles_eyyaei = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_eyyaei"
+  if_invalid_loc = estend_eyyaei_def
+}
+nobles_ymoyuymy = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_ymoyuymy"
+  if_invalid_loc = estend_ymoyuymy_def
+}
+nobles_ovlaloly = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_ovlaloly"
+  if_invalid_loc = estend_ovlaloly_def
+}
+nobles_ennanoni = {
+  log_loc_errors = no
+  parent = nobles_estate
+  suffix = "_nobles_estend_ennanoni"
+  if_invalid_loc = estend_ennanoni_def
+}
+burghers_yeyut = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_yeyut"
+  if_invalid_loc = estend_yeyut_def
+}
+burghers_vlaloly = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_vlaloly"
+  if_invalid_loc = estend_vlaloly_def
+}
+burghers_yiaei = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_yiaei"
+  if_invalid_loc = estend_yiaei_def
+}
+burghers_eut = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_eut"
+  if_invalid_loc = estend_eut_def
+}
+burghers_aei = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_aei"
+  if_invalid_loc = estend_aei_def
+}
+burghers_ytyat = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_ytyat"
+  if_invalid_loc = estend_ytyat_def
+}
+burghers_ytat = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_ytat"
+  if_invalid_loc = estend_ytat_def
+}
+burghers_ytlyat = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_ytlyat"
+  if_invalid_loc = estend_ytlyat_def
+}
+burghers_yityat = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_yityat"
+  if_invalid_loc = estend_yityat_def
+}
+burghers_yetsayutsa = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_yetsayutsa"
+  if_invalid_loc = estend_yetsayutsa_def
+}
+burghers_etsautsa = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_etsautsa"
+  if_invalid_loc = estend_etsautsa_def
+}
+burghers_ihohlaloly = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_ihohlaloly"
+  if_invalid_loc = estend_ihohlaloly_def
+}
+burghers_ohooyiyh = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_ohooyiyh"
+  if_invalid_loc = estend_ohooyiyh_def
+}
+burghers_iyyayei = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_iyyayei"
+  if_invalid_loc = estend_iyyayei_def
+}
+burghers_essyasesi = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_essyasesi"
+  if_invalid_loc = estend_essyasesi_def
+}
+burghers_eyyaei = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_eyyaei"
+  if_invalid_loc = estend_eyyaei_def
+}
+burghers_ymoyuymy = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_ymoyuymy"
+  if_invalid_loc = estend_ymoyuymy_def
+}
+burghers_ovlaloly = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_ovlaloly"
+  if_invalid_loc = estend_ovlaloly_def
+}
+burghers_ennanoni = {
+  log_loc_errors = no
+  parent = burghers_estate
+  suffix = "_burghers_estend_ennanoni"
+  if_invalid_loc = estend_ennanoni_def
+}
+peasants_yeyut = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_yeyut"
+  if_invalid_loc = estend_yeyut_def
+}
+peasants_vlaloly = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_vlaloly"
+  if_invalid_loc = estend_vlaloly_def
+}
+peasants_yiaei = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_yiaei"
+  if_invalid_loc = estend_yiaei_def
+}
+peasants_eut = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_eut"
+  if_invalid_loc = estend_eut_def
+}
+peasants_aei = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_aei"
+  if_invalid_loc = estend_aei_def
+}
+peasants_ytyat = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_ytyat"
+  if_invalid_loc = estend_ytyat_def
+}
+peasants_ytat = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_ytat"
+  if_invalid_loc = estend_ytat_def
+}
+peasants_ytlyat = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_ytlyat"
+  if_invalid_loc = estend_ytlyat_def
+}
+peasants_yityat = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_yityat"
+  if_invalid_loc = estend_yityat_def
+}
+peasants_yetsayutsa = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_yetsayutsa"
+  if_invalid_loc = estend_yetsayutsa_def
+}
+peasants_etsautsa = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_etsautsa"
+  if_invalid_loc = estend_etsautsa_def
+}
+peasants_ihohlaloly = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_ihohlaloly"
+  if_invalid_loc = estend_ihohlaloly_def
+}
+peasants_ohooyiyh = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_ohooyiyh"
+  if_invalid_loc = estend_ohooyiyh_def
+}
+peasants_iyyayei = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_iyyayei"
+  if_invalid_loc = estend_iyyayei_def
+}
+peasants_essyasesi = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_essyasesi"
+  if_invalid_loc = estend_essyasesi_def
+}
+peasants_eyyaei = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_eyyaei"
+  if_invalid_loc = estend_eyyaei_def
+}
+peasants_ymoyuymy = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_ymoyuymy"
+  if_invalid_loc = estend_ymoyuymy_def
+}
+peasants_ovlaloly = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_ovlaloly"
+  if_invalid_loc = estend_ovlaloly_def
+}
+peasants_ennanoni = {
+  log_loc_errors = no
+  parent = peasants_estate
+  suffix = "_peasants_estend_ennanoni"
+  if_invalid_loc = estend_ennanoni_def
+}
+tribes_yeyut = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_yeyut"
+  if_invalid_loc = estend_yeyut_def
+}
+tribes_vlaloly = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_vlaloly"
+  if_invalid_loc = estend_vlaloly_def
+}
+tribes_yiaei = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_yiaei"
+  if_invalid_loc = estend_yiaei_def
+}
+tribes_eut = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_eut"
+  if_invalid_loc = estend_eut_def
+}
+tribes_aei = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_aei"
+  if_invalid_loc = estend_aei_def
+}
+tribes_ytyat = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_ytyat"
+  if_invalid_loc = estend_ytyat_def
+}
+tribes_ytat = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_ytat"
+  if_invalid_loc = estend_ytat_def
+}
+tribes_ytlyat = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_ytlyat"
+  if_invalid_loc = estend_ytlyat_def
+}
+tribes_yityat = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_yityat"
+  if_invalid_loc = estend_yityat_def
+}
+tribes_yetsayutsa = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_yetsayutsa"
+  if_invalid_loc = estend_yetsayutsa_def
+}
+tribes_etsautsa = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_etsautsa"
+  if_invalid_loc = estend_etsautsa_def
+}
+tribes_ihohlaloly = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_ihohlaloly"
+  if_invalid_loc = estend_ihohlaloly_def
+}
+tribes_ohooyiyh = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_ohooyiyh"
+  if_invalid_loc = estend_ohooyiyh_def
+}
+tribes_iyyayei = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_iyyayei"
+  if_invalid_loc = estend_iyyayei_def
+}
+tribes_essyasesi = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_essyasesi"
+  if_invalid_loc = estend_essyasesi_def
+}
+tribes_eyyaei = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_eyyaei"
+  if_invalid_loc = estend_eyyaei_def
+}
+tribes_ymoyuymy = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_ymoyuymy"
+  if_invalid_loc = estend_ymoyuymy_def
+}
+tribes_ovlaloly = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_ovlaloly"
+  if_invalid_loc = estend_ovlaloly_def
+}
+tribes_ennanoni = {
+  log_loc_errors = no
+  parent = tribes_estate
+  suffix = "_tribes_estend_ennanoni"
+  if_invalid_loc = estend_ennanoni_def
+}
+cossacks_yeyut = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_yeyut"
+  if_invalid_loc = estend_yeyut_def
+}
+cossacks_vlaloly = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_vlaloly"
+  if_invalid_loc = estend_vlaloly_def
+}
+cossacks_yiaei = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_yiaei"
+  if_invalid_loc = estend_yiaei_def
+}
+cossacks_eut = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_eut"
+  if_invalid_loc = estend_eut_def
+}
+cossacks_aei = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_aei"
+  if_invalid_loc = estend_aei_def
+}
+cossacks_ytyat = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_ytyat"
+  if_invalid_loc = estend_ytyat_def
+}
+cossacks_ytat = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_ytat"
+  if_invalid_loc = estend_ytat_def
+}
+cossacks_ytlyat = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_ytlyat"
+  if_invalid_loc = estend_ytlyat_def
+}
+cossacks_yityat = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_yityat"
+  if_invalid_loc = estend_yityat_def
+}
+cossacks_yetsayutsa = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_yetsayutsa"
+  if_invalid_loc = estend_yetsayutsa_def
+}
+cossacks_etsautsa = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_etsautsa"
+  if_invalid_loc = estend_etsautsa_def
+}
+cossacks_ihohlaloly = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_ihohlaloly"
+  if_invalid_loc = estend_ihohlaloly_def
+}
+cossacks_ohooyiyh = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_ohooyiyh"
+  if_invalid_loc = estend_ohooyiyh_def
+}
+cossacks_iyyayei = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_iyyayei"
+  if_invalid_loc = estend_iyyayei_def
+}
+cossacks_essyasesi = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_essyasesi"
+  if_invalid_loc = estend_essyasesi_def
+}
+cossacks_eyyaei = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_eyyaei"
+  if_invalid_loc = estend_eyyaei_def
+}
+cossacks_ymoyuymy = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_ymoyuymy"
+  if_invalid_loc = estend_ymoyuymy_def
+}
+cossacks_ovlaloly = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_ovlaloly"
+  if_invalid_loc = estend_ovlaloly_def
+}
+cossacks_ennanoni = {
+  log_loc_errors = no
+  parent = cossacks_estate
+  suffix = "_cossacks_estend_ennanoni"
+  if_invalid_loc = estend_ennanoni_def
+}

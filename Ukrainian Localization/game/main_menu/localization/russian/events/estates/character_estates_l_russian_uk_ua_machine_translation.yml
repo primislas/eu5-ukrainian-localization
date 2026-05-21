@@ -16,6 +16,6 @@
   character_estates.4.a: "Дозволимо [Select_CString(target_character.IsFemale,'їй', 'йому')] вступити до ордену."
   character_estates.4.b: "Цьому не бувати."
   character_estates.5.title: "Підвищення на військовій службі"
-  character_estates.5.desc: "І знать, і простолюд погоджуються, що [target_character.GetName] чудово [Select_CString(target_character.IsFemale,'проявила', 'проявив')] себе на службі в загоні «[target_character.GetUnitPointer.GetName]». Дійшло до того, що [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] хочуть здобути частину [Select_CString(target_character.IsFemale,'її', 'його')] героїчної слави та радять нам надати [Select_CString(target_character.IsFemale,'їй', 'йому')] найвищі аристократичні почесті."
+  character_estates.5.desc: "І знать, і простолюд погоджуються, що [target_character.GetName] чудово [Select_CString(target_character.IsFemale,'проявила', 'проявив')] себе на службі в загоні «[target_character.GetUnitPointer.GetName]». Дійшло до того, що [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] хоч[ROOT.GetCountry.Custom('nobles_eut')] здобути частину [Select_CString(target_character.IsFemale,'її', 'його')] героїчної слави та рад[ROOT.GetCountry.Custom('nobles_ytyat')] нам надати [Select_CString(target_character.IsFemale,'їй', 'йому')] найвищі аристократичні почесті."
   character_estates.5.a: "Пожалуємо [Select_CString(target_character.IsFemale,'їй', 'йому')] титул."
   character_estates.5.b: "Роздавати такі нагороди воякам — це надто легковажно."

@@ -89,7 +89,7 @@
   flavor_bav.25.b: "Ці обмеження завадять творчим пошукам наших пивоварів."
   flavor_bav.1302.title: "Розділ [target_country.Custom('CL_GEN')] [GetCurrentYear] року"
   flavor_bav.1302.entry: "Поділ Баварії"
-  flavor_bav.1302.desc: "Розбрат всередині [target_country.GetAdjectiveWithNoTooltip|l]ої династії [target_ruler.GetDynasty] призвів до повторного розділу [target_country.Custom('rank_ua_GEN')|l] на кілька самостійних володінь. [rival_brother.GetName] погрожує збройним повстанням, якщо [GetCountry('LBV').GetName] не отримає повної автономії. Бунтівні [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] не просто загрожують цілісності [target_country.Custom('rank_ua_GEN')|l] — їхні дії можуть призвести до іноземного втручання. Чи підтримаємо ми розділ країни, чи спробуємо зберегти Баварію єдиною?"
+  flavor_bav.1302.desc: "Розбрат всередині [target_country.GetAdjectiveWithNoTooltip|l]ої династії [target_ruler.GetDynasty] призвів до повторного розділу [target_country.Custom('rank_ua_GEN')|l] на кілька самостійних володінь. [rival_brother.GetName] погрожує збройним повстанням, якщо [GetCountry('LBV').GetName] не отримає повної автономії. Бунтівн[ROOT.GetCountry.Custom('nobles_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] не просто загрожу[ROOT.GetCountry.Custom('nobles_yeyut')] цілісності [target_country.Custom('rank_ua_GEN')|l] — їхні дії можуть призвести до іноземного втручання. Чи підтримаємо ми розділ країни, чи спробуємо зберегти Баварію єдиною?"
   flavor_bav.1302.a: "Ми погодимося на розділ Баварії."
   flavor_bav.1302.b: "Ми не приймемо розпад країни."
   flavor_bav.1302.c: "Спробуємо зберегти єдність шляхом поступок."

@@ -65,7 +65,7 @@
   STATIC_MODIFIER_NAME_diplomatic_approach: "Дипломатичний підхід"
   STATIC_MODIFIER_DESC_diplomatic_approach: "Іноді перо сильніше за меч."
   steppe_horde.11.title: "Народжені в сідлі"
-  steppe_horde.11.desc: "Ми народилися в горнилі війни, наші серця б'ються заради битв. Ми, сини безкраїх рівнин, не були народжені сидіти без діла. Недавній період затишшя вже почав викликати занепокоєння серед населення, а особливо тривожаться [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], які вважають, що мир позбавляє їх нових можливостей."
+  steppe_horde.11.desc: "Ми народилися в горнилі війни, наші серця б'ються заради битв. Ми, сини безкраїх рівнин, не були народжені сидіти без діла. Недавній період затишшя вже почав викликати занепокоєння серед населення, а особливо тривож[ROOT.GetCountry.Custom('nobles_ytat')]ся [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], які вважа[ROOT.GetCountry.Custom('nobles_yeyut')], що мир позбавляє їх нових можливостей."
   steppe_horde.11.a: "У будь-якому разі, нашій країні потрібен перепочинок."
   steppe_horde.11.b: "Мир також має свої позитивні сторони."
   steppe_horde.12.title: "Виснаження для слабаків"

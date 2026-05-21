@@ -55,7 +55,7 @@
   delhi_situation.12.a: "Їхній кінець близький…"
   delhi_loses_opposers_gain_1_tt: "Наша [Concept('share_of_power_gc', 'частка влади')|e] збільшиться на #G 5%#! за рахунок [target_country2.Custom('CL_GEN')]. Якщо вона досягне #R 50%#!, у [target_country2.Custom('CL_PREP')] може статися [Concept('disaster', 'лихо')|e] «[ShowDisasterName('dissolution_of_delhi')]»"
   delhi_situation.13.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] проти нашого правління"
-  delhi_situation.13.desc: "Ми, звісно, потрапили в незавидну ситуацію. Зграя бандитів, що прикидаються [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], почала відкрито критикувати наші управлінські рішення та виступати проти них на місцевому рівні. Фактично вони вимагають привілейованого становища при дворі. Будь-які поступки дорого нам обійдуться та створять небезпечний прецедент…"
+  delhi_situation.13.desc: "Ми, звісно, потрапили в невтішну ситуацію. Зграя бандитів, що прикидається ніби вони [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], почала відкрито критикувати наші управлінські рішення та виступати проти них на місцевому рівні. Фактично вони вимагають привілейованого становища при дворі. Будь-які поступки дорого нам обійдуться та створять небезпечний прецедент…"
   delhi_situation.13.a: "Ми підемо на поступки."
   delhi_situation.13.b: "Вони забули, хто їхній володар!"
   delhi_situation.14.title: "Посли [target_country.Custom('CL_GEN')]"
