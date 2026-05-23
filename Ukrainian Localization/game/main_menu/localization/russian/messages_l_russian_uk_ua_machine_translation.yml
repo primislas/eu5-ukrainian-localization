@@ -720,7 +720,7 @@
   WAR_UNIT_TYPE_STATS_TT: "[FinishedWarUnitStats.GetCategory.GetName]"
   WAR_UNIT_TYPE_STATS_TT_TOTAL_UNITS: "#T Доступні загони типу «[FinishedWarUnitStats.GetCategory.GetNameWithNoTooltip]» #! Загальна кількість загонів типу «[FinishedWarUnitStats.GetCategory.GetNameWithNoTooltip]» у цієї воюючої сторони."
   WAR_UNIT_TYPE_STATS_TT_TOTAL_UNITS_GENERIC: "$BATTLE_UNIT_TYPE_STATS_TT_TOAL_UNITS_GENERIC$"
-  WAR_UNIT_TYPE_STATS_TT_LOSSES: "#T Втрачені загони типу «[[FinishedWarUnitStats.GetCategory.GetNameWithNoTooltip]» #! Загальна кількість втрачених у ході війни загонів типу «[BattleUnitStats.GetCategory.GetName]»."
+  WAR_UNIT_TYPE_STATS_TT_LOSSES: "#T Втрачені загони типу «[FinishedWarUnitStats.GetCategory.GetNameWithNoTooltip]» #! Загальна кількість втрачених у ході війни загонів типу «[BattleUnitStats.GetCategory.GetName]»."
   WAR_UNIT_TYPE_STATS_TT_LOSSES_GENERIC: "$BATTLE_UNIT_TYPE_STATS_TT_LOSSES_GENERIC$"
   WAR_UNIT_TYPE_STATS_TT_CAPTURED: "#T Захоплені загони типу «[FinishedWarUnitStats.GetCategory.GetNameWithNoTooltip]»#! Загальна кількість загонів типу «[FinishedWarUnitStats.GetCategory.GetNameWithNoTooltip]», що потрапили в полон у ході війни."
   WAR_UNIT_TYPE_STATS_TT_CAPTURED_GENERIC: "$BATTLE_UNIT_TYPE_STATS_TT_CAPTURED_GENERIC$"

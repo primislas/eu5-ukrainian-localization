@@ -1,4 +1,4 @@
-
+from eukrainersalis.utils.file_utils import estate_ending_file_path
 
 ESTATES = ["crown", "clergy", "nobles", "burghers", "peasants", "tribes", "cossacks"]
 
@@ -27,18 +27,25 @@ ESTATE_ENDINGS = {
 
 def generate_estate_endings():
     # TODO: should automatically insert into estates.txt
+    lines = []
     for estate in ESTATES:
         for ending, default in ESTATE_ENDINGS.items():
-            print(f"{estate}_{ending} = {{")
-            print("  log_loc_errors = no")
-            print(f"  parent = {estate}_estate")
-            print(f"  suffix = \"_{estate}_estend_{ending}\"")
-            # print(f"  text = {{ localization_key = estend_{ending}_def fallback = yes }}")
-            # print(f"  if_invalid_loc = \"{default}\"")
-            print(f"  if_invalid_loc = estend_{ending}_def")
-            # print(f"  if_invalid_loc = return_empty")
-            print("}")
+            lines.append(f"{estate}_{ending} = {{")
+            lines.append("  log_loc_errors = no")
+            lines.append(f"  parent = {estate}_estate")
+            lines.append(f"  suffix = \"_{estate}_estend_{ending}\"")
+            # lines.append(f"  text = {{ localization_key = estend_{ending}_def fallback = yes }}")
+            # lines.append(f"  if_invalid_loc = \"{default}\"")
+            # lines.append(f"  if_invalid_loc = estend_{ending}_def")
+            lines.append(f"  if_invalid_loc = return_empty")
+            lines.append("}")
 
+    with open(estate_ending_file_path, "w", encoding="utf-8-sig") as f:
+        for line in lines:
+            f.write(line)
+            f.write("\n")
+    print(f"{len(lines)} estate ending lines generated to {estate_ending_file_path}")
+    print("Estates endings generated successfully.")
 
 if __name__ == "__main__":
     generate_estate_endings()

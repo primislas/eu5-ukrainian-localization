@@ -199,7 +199,7 @@
   flavor_boh.37.a: "Нехай проповідують — у їхніх словах є істина."
   flavor_boh.37.b: "Не можна, щоб наш народ прислухався до них."
   unity_brethren_privilege: "Братське єднання"
-  unity_brethren_privilege_desc: "Радикальний #TOOLTIP:RELIGION,$hussite_tt$,X #L гуситський#!#! рух. Його послідовники закликають до скромності та простоти під час церковних обрядів, наприклад причастя, підтримують використання рідної мови як літургійної та вважають, що [ShowEstateTypeName('burghers_estate')|l] і [ShowEstateTypeName('nobles_estate')|l] не повинні брати участь у духовній діяльності."
+  unity_brethren_privilege_desc: "Радикальний #TOOLTIP:RELIGION,$hussite_tt$,X #L гуситський#!#! рух. Його послідовники закликають до скромності та простоти під час церковних обрядів, наприклад причастя, підтримують використання рідної мови як літургійної та вважають, що [ShowEstateTypeName('burghers_estate')|l] і [ShowEstateTypeName('nobles_estate')|l] не повинні брати участь у церковній діяльності."
   jan_hus_executed_boh: "[GetCharacter('boh_jan_hus').GetNameWithNoTooltip] страчений"
   jan_hus_executed_pap: "[GetCharacter('boh_jan_hus').GetNameWithNoTooltip] страчений"
   jan_hus_free_boh: "[GetCharacter('boh_jan_hus').GetNameWithNoTooltip] звільнений"
