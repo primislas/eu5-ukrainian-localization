@@ -55,7 +55,7 @@
  flavor_mug.9.a: "Пришло время внедрить подобную систему."
  flavor_mug.9.b: "Реформировать работающее правительство нет нужды."
  flavor_mug.10.title: "Ибадат-хана в [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
- flavor_mug.10.entry: "Ибадат-хана, молельный дом"
+ flavor_mug.10.entry: "Ибадат-хана — «молельный дом»"
  flavor_mug.10.desc: "В #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! господствует доктрина «[ShowReligiousSchoolName('din_i_ilahi_school')|l]», и многие предлагают создать молитвенный дом для размышлений о разных верованиях. Это место под названием [ShowBuildingTypeName('ibadat_khana')] должно объединить народ [ROOT.GetCountry.Custom('CL_GEN')] с помощью веры и стать истинным воплощением #TOOLTIP:SOCIETAL_VALUE,spiritualist_vs_humanist,X #L гуманизма#!#! ROOT.GetCountry.Custom('rank_ua_GEN')|l]."
  flavor_mug.10.a: "Давайте построим такой дом знаний."
  flavor_mug.10.b: "Не нужно подрывать [ROOT.GetCountry.GetReligion.GetGroup.GetAdjectiveWithNoTooltip|l]ое влияние."

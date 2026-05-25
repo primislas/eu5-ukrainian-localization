@@ -8,5 +8,5 @@
  flavor_hun_ven.2.title: "Присоединение Далмации"
  flavor_hun_ven.2.desc: "Охватившие [ROOT.GetCountry.Custom('rank_ua_ACC')|l] внутренние конфликты не ускользнули от внимания соседей. #L [GetCountry('HUN').GetAdjective]ие#! власти желают организовать переговоры, чтобы обсудить передачу наших #TOOLTIP:CULTURE,$dalmatian_tt$,X #L далматских#!#! владений в пользу [GetCountry('HUN').Custom('CL_GEN')]. Мнения двора разделились: одни находят [GetCountry('HUN').GetAdjectiveWithNoTooltip|l]ое предложение возмутительным оскорблением нашей чести, другие же призывают проявить осторожность и благоразумие. Отказ может привести к войне, поражение в которой будет стоить нам не только Далмации..."
  flavor_hun_ven.2.a: "Это такая же безумная идея, как и их [GetCountry('HUN').GetGovernment.GetRulerTitle|l]!"
- flavor_hun_ven.2.a.entry: "Эта идея столь же безумна, сколь и их правитель!"
+ flavor_hun_ven.2.a.entry: "Эта идея так же безумна, как и их правитель!"
  flavor_hun_ven.2.b: "Особого выбора у нас нет, придётся согласиться."

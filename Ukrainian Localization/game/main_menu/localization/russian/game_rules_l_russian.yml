@@ -224,4 +224,4 @@
  setting_ai_personalities_random_per_age: "Случайно по эпохам"
  setting_ai_personalities_random_per_age_desc: "В начале каждой эпохи ИИ-государствам случайным образом присваиваются черты."
  setting_ai_personalities_random_per_ruler: "Случайно по правителям"
- setting_ai_personalities_random_per_ruler_desc: "ИИ-государствам случайным образом присваиваются черты, когда на трон восходит новый правитель."
+ setting_ai_personalities_random_per_ruler_desc: "Державам под управлением компьютера случайным образом присваивается менталитет, когда на трон восходит новый правитель."

@@ -3,7 +3,7 @@
  flavor_byz_ser.1.entry: "$flavor_byz_ser.1.title$"
  flavor_byz_ser.1.desc: "#L [ROOT.GetCountry.GetAdjective]ая#! провинция [ShowProvinceDefinitionName('vardar_province')] находится во власти могущественного магната по имени [target_character.GetName], чья слава и влияние позволили [Select_CString(target_character.IsFemale, 'ей', 'ему')] стать практически [Select_CString(target_character.IsFemale, 'независимой правительницей', 'независимым правителем')]. Пока что [Select_CString(target_character.IsFemale, 'она', 'он')] сохраняет формальную преданность [ROOT.GetCountry.Custom('rank_ua_DAT')|l]. Однако столь богатые и влиятельные правители редко хранят верность сюзерену слишком долго.\n\nПо слухам, [target_character.GetNameWithNoTooltip] подумывает разорвать свои вассальные узы ради титулов [target_country2.Custom('endlong_predlog_vvo')] [target_country2.Custom('longname_ua_PREP')] или даже [target_country3.Custom('endlong_predlog_vvo')] [target_country3.Custom('longname_ua_PREP')]."
  flavor_byz_ser.1.a: "Подобное неповиновение лишь доказывает, почему [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'должна', 'должен')] сосредоточить всю власть в своих руках."
- flavor_byz_ser.1.a.entry: "Подобное неповиновение лишь доказывает, почему власть должна быть сосредоточена в руках правителя."
+ flavor_byz_ser.1.a.entry: "Подобное неповиновение лишь доказывает, почему у правителя должно быть больше власти."
  flavor_byz_ser.1.b: "Мы должны заручиться [Select_CString(target_character.IsFemale, 'её', 'его')] преданностью."
  flavor_byz_ser.1.b.entry: "Мы должны заручиться его преданностью."
  flavor_byz_ser.2.title: "$flavor_byz_ser.1.title$"
