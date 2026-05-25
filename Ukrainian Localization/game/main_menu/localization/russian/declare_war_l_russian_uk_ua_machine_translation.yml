@@ -20,7 +20,7 @@
   DECLARE_WAR_CONFIRMATION_WARLEADER: "@[COUNTRY.GetFlag]! [COUNTRY.GetLongName|Y] стане ворожим лідером війни"
   DECLARE_WAR_CONFIRMATION_STABHIT: "Миттєві ефекти:"
   INTERVENE_WAR_UNION_MEMBER_WARNING_TITLE: "Втручання проти учасника унії"
-  INTERVENE_WAR_UNION_MEMBER_WARNING_DESC: "@[COUNTRY.GetFlag]! [COUNTRY.GetLongName|Y] — учасник вашої унії, який опиниться на іншому боці в цій війні. Втручання призведе до розриву унії! Ви впевнені, що хочете втрутитися?"
+  INTERVENE_WAR_UNION_MEMBER_WARNING_DESC: "@[COUNTRY.GetFlag]! [COUNTRY.GetLongName|Y] — учасник вашої унії, який приєднається до протилежної сторони в цій війні. Втручання призведе до розриву унії! Ви впевнені, що хочете втрутитися?"
   INTERVENE_IN_WAR_CONFIRM_ACCEPT: "Все одно втрутитися"
   DECLARE_WAR_COST: "Вартість оголошення війни"
   DECLARE_WAR_NO_CASUS_BELLI_SELECTED: "Не обрано [Concept('casus_belli', 'привід для війни')|e]."

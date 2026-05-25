@@ -111,6 +111,8 @@
   AUTO_MODIFIER_DESC_byz_romance_diplomatic_influence: "Наші [subjects|e], [allies|e] та [royal_marriages|e] із [ShowLanguageFamilyName('romance_language_family')]-мовними [countries|e] створюють [diplomatic|e] тиск у бік [ShowSocietyDirectionName('latinization')]."
   AUTO_MODIFIER_NAME_byz_greek_diplomatic_influence: "[ShowLanguageName('greek_language')] [diplomacy|e]"
   AUTO_MODIFIER_DESC_byz_greek_diplomatic_influence: "Наші [subjects|e], [allies|e] та [royal_marriages|e] із [ShowLanguageName('greek_language')]-мовними [countries|e] посилюють [ShowSocietyDirectionName('hellenization')]."
+  AUTO_MODIFIER_NAME_byz_varangian_guard_restored: "Varangian Guard Restored"
+  AUTO_MODIFIER_DESC_byz_varangian_guard_restored: "Northmen from [ShowRegionName('scandinavian_region')] answered the Emperor's call, allowing an additional [ShowUnitDefinitionName('a_varangians')] cohort to be raised."
   AUTO_MODIFIER_NAME_total_merchant_capacity_impact: "Сумарний [Concept('merchant_capacity', 'торговий потенціал')|e]"
   AUTO_MODIFIER_NAME_monthly_income_impact: "Щомісячний дохід"
   AUTO_MODIFIER_NAME_num_embraced_institutions: "[Concept('embraced', 'Впроваджені')|e] [Concept('institutions', 'інститути')|e]"

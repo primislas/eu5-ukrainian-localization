@@ -54,7 +54,7 @@
   coup_attempt.100.a: "Нам потрібно готуватися до наступної їхньої спроби."
   inconclusive_end_5_years_tt: "Змовників не вдалося викрити швидко, але [target_character.GetName] від них не [Select_CString(target_character.IsFemale, 'постраждала', 'постраждав' )]. [Concept('disaster', 'Лихо')|e] закінчилося, але #R не вирішилося#!, і через #Y 5#! років воно може повторитися."
   murdered_ending_tt: "Змовники домоглися свого: [target_character_2.GetName] [Select_CString(target_character_2.IsFemale, 'була вбита', 'був убитий' )]. Лише час покаже, чи є [target_character.GetName] лише маріонеткою змовників."
-  conspirator_crowned_tt: "[Concept('ruler', 'Правитель')|e] [ROOT.GetCountry.GetGovernment.GetRuler.GetName] на троні входить до числа змовників"
+  conspirator_crowned_tt: "[ROOT.GetCountry.GetGovernment.GetRuler.GetName] [Concept('ruler', 'на троні')|e] входить до числа змовників"
   coup_attempt.101.title: "Кінець змови"
   coup_attempt.101.desc: "З відновленням легітимності [target_character.GetName] може не турбуватися за свою владу. Народ згуртувався навколо нас, і ніхто не посміє кинути виклик нашому правлінню. Ми пережили темні часи і стали сильнішими, ніж раніше!"
   coup_attempt.101.a: "Ніхто не посміє кинути виклик нашому імені!"

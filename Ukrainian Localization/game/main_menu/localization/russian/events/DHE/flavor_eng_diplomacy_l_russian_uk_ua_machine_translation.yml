@@ -98,7 +98,7 @@
   flavor_eng_diplomacy.1300.a: "Підготуємо необхідні документи."
   flavor_eng_diplomacy.1300.a.custom: "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|U] і [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] не дуже рад[ROOT.GetCountry.Custom('nobles_yiaei')] пропозиції здати Танжер."
   flavor_eng_diplomacy.1300.b: "Запропонуємо замість цього [overseas_location.Custom('LR_ACC')|l] [overseas_location.GetNameWithNoTooltip]."
-  flavor_eng_diplomacy.1300.b.entry: "Запропонуємо їм місцевість."
+  flavor_eng_diplomacy.1300.b.entry: "Ліпше запропонуймо їм цю місцевість."
   flavor_eng_diplomacy.1300.c: "У цьому немає потреби."
   flavor_eng_diplomacy.1301.title: "Відродження міцної дружби"
   flavor_eng_diplomacy.1301.desc: "#L [GetCountry('POR').GetAdjective]ий#! посол доставив нам пропозицію укласти союз і розглянути можливість того, що їх [suitable_daughter.GetName] і [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'наша незаміжня', 'наш неодружений')] [ROOT.GetCountry.GetGovernment.GetRuler.GetName|l] укладуть династичний шлюб.\n\nЯк придане вони пропонують стратегічну [overseas_location.Custom('LR_ACC')|l] [overseas_location.GetName]. Можливо, її придбання відповідає нашим інтересам, а можливо, і ні."

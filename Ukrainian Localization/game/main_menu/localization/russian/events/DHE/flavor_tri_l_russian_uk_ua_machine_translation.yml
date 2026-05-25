@@ -5,4 +5,4 @@
   flavor_tri.1.a: "Ця книга стане справжньою окрасою нашого двору у [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]."
   flavor_tri.1.a.entry: "Це стане оздобою нашого двору у столиці."
   flavor_tri.1.b: "Нехай [GetInternationalOrganization('hre').GetLeaderTitle|l] прийме її в дар."
-  flavor_tri.1.b.entry: "Принесемо у дар імператору."
+  flavor_tri.1.b.entry: "Подаруємо імператору."

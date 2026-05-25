@@ -1,7 +1,7 @@
 ﻿l_russian:
   ap_falls_desc_key: "Після складної облоги оборона відважного гарнізону була зламана, і [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetName] пав перед нашими могутніми військами. Всередині стін міста знаходиться впливова релігійна організація: раніше тут засідали верховні #TOOLTIP:RELIGION,$orthodox_tt$,X #L православні#!#! служителі. Чи варто нам скасувати цей братський інститут або прийняти його під своє покровительство?"
-  ap_diplomatic_desc_key: "Після того, як [scope:winner.GetFlavorRank|l] [scope:winner.GetName] включає до свого складу [target_location.Custom('LR_ACC')|l] [target_location.GetName],"
-  ap_falls_desc_key_2: "У стінах міста розташована впливова релігійна організація: раніше тут засідали верховні #TOOLTIP:RELIGION,$orthodox_tt$,X православні служителі. Чи варто нам скасувати цю братську інституцію або взяти її під своє покровительство?"
+  ap_diplomatic_desc_key: "Після того, як [scope:winner.GetFlavorRank|l] [scope:winner.GetName] включ[scope:winner.Custom('end_yeyut')] до свого складу [target_location.Custom('LR_ACC')|l] [target_location.GetName],"
+  ap_falls_desc_key_2: "У межах стін [target_location.Custom('LR_GEN')|l] розташована впливова релігійна організація, а раніше тут засідали верховні #TOOLTIP:RELIGION,$orthodox_tt$,X #L православні#!#! служителі. Нам слід скасувати цей братський інститут чи взяти його під своє покровительство?"
   autocephalous_patriarchates.1.title: "Автокефальний патріархат пав!"
   autocephalous_patriarchates.1.desc: "$ap_falls_desc_key$"
   autocephalous_patriarchates.1.desc_diplomatic: "$ap_diplomatic_desc_key$ [target_ap.GetName] зі своєю катедрою потрапляють під нашу юрисдикцію. Тепер нам належить вирішити, як вчинити з цією патріаршою інституцією."

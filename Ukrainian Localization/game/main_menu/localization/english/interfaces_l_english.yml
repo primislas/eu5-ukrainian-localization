@@ -667,7 +667,7 @@
  PROX_SPEED_MODIFIER: "Proximity Speed is $VAL|+%2$ due to"
  EMBARKING_TO_DIFFERENT_SEA_ZONE: "Embarking into a different [seazone|e] ($FROM_SEAZONE$@button_simple_smaller!$TO_SEAZONE$)"
  LANDING_TO_DIFFERENT_SEA_ZONE: "Landing into a different [seazone|e] ($FROM_SEAZONE$@button_simple_smaller!$TO_SEAZONE$)"
- PROXIMITY_ICON_LAND:	"@inland!"
+ PROXIMITY_ICON_LAND: "@inland!"
  PROXIMITY_ICON_HARBOR: "@port!"
  PROXIMITY_ICON_MARITIME: "@maritime_presence!"
  PROXIMITY_ICON_ROAD_1: "@gravel_road!"

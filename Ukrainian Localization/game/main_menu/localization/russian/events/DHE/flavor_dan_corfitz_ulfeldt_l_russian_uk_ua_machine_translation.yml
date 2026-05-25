@@ -10,7 +10,7 @@
   flavor_dan_corfitz_ulfeldt.2.a: "Спробуємо домовитися з [Select_CString(target_character.IsFemale,'нею', 'ним')]."
   flavor_dan_corfitz_ulfeldt.2.a.entry: "Спробуємо домовитися з ним."
   flavor_dan_corfitz_ulfeldt.2.b: "Ну, все! [target_character.GetNameWithNoTooltip] — ворог [ROOT.GetCountry.Custom('CL_GEN')]!"
-  flavor_dan_corfitz_ulfeldt.2.b.entry: "Ну, все! Цей чоловік — ворог Данії!"
+  flavor_dan_corfitz_ulfeldt.2.b.entry: "Досить! Відтепер він — ворог Данії!"
   flavor_dan_corfitz_ulfeldt.3.title: "[target_character.GetNameWithNoTooltip] пропонує гроші"
   flavor_dan_corfitz_ulfeldt.3.entry: "Корфіц Ульфельдт пропонує гроші"
   flavor_dan_corfitz_ulfeldt_flight_common: "[GetCountry('DAN').GetLongName] — після звинувачення в організації змови, замаху на вбивство та спробі захоплення влади [target_character.GetName] [Select_CString(target_character.IsFemale,'була змушена', 'був змушений')] втекти звідси, з рідної країни. [Select_CString(target_character.IsFemale,'Сама вона', 'Сам він')], звісно, стверджує, що всі звинувачення — лише мерзенний наклеп."

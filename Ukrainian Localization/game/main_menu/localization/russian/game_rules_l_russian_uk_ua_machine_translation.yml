@@ -224,4 +224,4 @@
   setting_ai_personalities_random_per_age: "Випадково за добами"
   setting_ai_personalities_random_per_age_desc: "На початку кожної доби ШІ-країнам випадковим чином присвоюються риси."
   setting_ai_personalities_random_per_ruler: "Випадково за правителями"
-  setting_ai_personalities_random_per_ruler_desc: "ШІ-країнам випадковим чином присвоюються риси, коли на трон сходить новий правитель."
+  setting_ai_personalities_random_per_ruler_desc: "Країнам під керуванням комп’ютера випадковим чином присвоюється менталітет, коли на трон сходить новий правитель."

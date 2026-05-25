@@ -36,7 +36,7 @@
   flavor_bng.7.a: "Нехай [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetNameWithNoTooltip] процвітає!"
   flavor_bng.7.a.entry: "Нехай Пандуа процвітає!"
   flavor_bng.7.b: "[target_character.GetNameWithNoTooltip] воліє засідати в [ROOT.GetCountry.GetCapital.Custom('LR_PREP')|l] [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]."
-  flavor_bng.7.b.entry: "Цей персонаж воліє засідати в столиці."
+  flavor_bng.7.b.entry: "Ця людина воліє засідати в столиці."
   flavor_bng.8.title: "Претендент-індус"
   flavor_bng.8.entry: "Індуїстський претендент"
   flavor_bng.8.desc: "#TOOLTIP:RELIGION,$hindu_tt$,X #L Індуїстське#!#! населення #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! цілком виступило на підтримку [Select_CString(target_character.IsFemale, 'місцевої правительки', 'місцевого правителя' )]. [target_character.GetName] — людина низького походження, остаточно [Select_CString(target_character.IsFemale, 'втомлена', 'втомлений' )] від #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламської#!#! влади в [ROOT.GetCountry.Custom('CL_PREP')]. [Select_CString(target_character.IsFemale, 'Вона', 'Він' )] хоче узурпувати престол [ROOT.GetCountry.Custom('CL_GEN')], яким зараз володіє [target_character2.GetName]."

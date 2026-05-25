@@ -541,7 +541,7 @@
   adopt_ometeotl_desc: "Попри прийняте в нашій культурі багатобожжя, серед знаті стало популярним поклоніння якомусь всемогутньому богу, відомому як #italic Ометеотль#!. Вважається, що він має силу всіх інших божеств, які насправді лише представляють ті чи інші якості. Якщо це так, то нам варто шанувати #italic Ометеотля#! як свого єдиного бога."
   elevate_patron_god: "Піднести нашого божественного покровителя"
   elevate_patron_god_desc: "Як правило, жителі #TOOLTIP:CULTURE,$nahua_culture_tt$,X #L науаських#!#! міст шанують безліч богів, але обирають одного з них як свого покровителя. Ми можемо піти далі, піднісши нашого покровителя до статусу верховного бога."
-  ruler_or_regent_total_abilities: "[ROOT.GetCountry.GetGovernment.GetRulerOrRegent.GetName] — [Concept('total_ability', 'сума хисту')|E]"
+  ruler_or_regent_total_abilities: "[ROOT.GetCountry.GetGovernment.GetRulerOrRegent.GetName] — [Concept('total_ability', 'сума навичок')|e]"
   establish_cihuacoatl: "Заснувати титул сіуакоатля"
   establish_cihuacoatl_desc: "Ми створимо спеціальну посаду #italic сіуакоатля#!, свого роду візира. Він керуватиме містом замість нашого правителя, а той зможе приділяти більше часу важливішим питанням."
   expand_cuahpipiltin: "Заснувати куаупіпільтін"

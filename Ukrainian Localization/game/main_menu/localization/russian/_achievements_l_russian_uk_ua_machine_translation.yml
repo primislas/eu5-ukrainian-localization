@@ -5,7 +5,7 @@
   ACHIEVEMENT_LOCKED_REQUIREMENTS_TITLE: "#V Розблоковується, якщо#!:"
   ACHIEVEMENT_NOT_POSSIBLE_TITLE: "Досягнення недоступне"
   ACHIEVEMENT_REQUIRES_DLC_TITLE: "Досягнення з доповнення"
-  ACHIEVEMENT_REQUIRES_DLC: "Увімкнено доповнення: [GameDLC.GetName]"
+  ACHIEVEMENT_REQUIRES_DLC: "Увімкнено доповнення [GameDLC.GetName]"
   ACHIEVEMENT_NOT_POSSIBLE_IRONMAN: "Досягнення доступні лише в режимі «Залізна воля»."
   IRONMAN_LABEL: "Залізна воля"
   IRONMAN_SAVEGAME_NAME: "$COUNTRY$ — Залізна воля"
