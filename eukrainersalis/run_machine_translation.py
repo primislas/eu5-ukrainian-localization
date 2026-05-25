@@ -62,12 +62,12 @@ _KEYS_MAPPING = {
 }
 
 _EXCLUDED_FILES = [
-    "customizable_localization_ru_constructionname_l_russian.yml",
-    "customizable_localization_ru_end_l_russian.yml",
+    "EU5_customizable_localization_ru_constructionname_l_russian.yml",
+    "EU5_customizable_localization_ru_end_l_russian.yml",
 ]
 
-_migration_manager = MigrationManager("from-1.2.2")
-_translation_manager = MigrationManager("to-dev-1.2.3")
+_migration_manager = MigrationManager(os.environ["MIGRATION_FROM"])
+_translation_manager = MigrationManager(os.environ["MIGRATION_TO"])
 
 
 def migrated_text_preprocessing(value: str) -> str:
@@ -518,8 +518,15 @@ async def translate_dir_async(translator: Translator,
 if __name__ == '__main__':
     load_dotenv()
     _translator = GeminiTranslator(system_instruction_config=SystemInstruction.RU_UA)
+    _max_files_to_translate = int(os.getenv("MAX_FILES_TO_TRANSLATE", 4))
+    _version_migration_reference_dir = os.getenv("MIGRATION_REFERENCE_DIR")
+    _version_migration_reference_dir = Path(_version_migration_reference_dir) if _version_migration_reference_dir else None
     asyncio.run(translate_dir_async(
-        _translator, max_files_to_translate=20, overwrite_existing_translation=False,
-        source_language=Language.RUSSIAN, target_language=Language.RUSSIAN, translation_suffix="uk_ua_machine_translation",
-        change_reference_source_dir=Path("/home/primislas/workspace/eu5-modding-prev-version")
+        _translator,
+        max_files_to_translate=_max_files_to_translate,
+        overwrite_existing_translation=False,
+        source_language=Language.RUSSIAN,
+        target_language=Language.RUSSIAN,
+        translation_suffix="uk_ua_machine_translation",
+        change_reference_source_dir=_version_migration_reference_dir
     ))
