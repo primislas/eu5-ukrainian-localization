@@ -1056,7 +1056,7 @@
  bolshogo_dvortsa_action_progress_wordier: "@religious_influence!: [SCOPE.sCountry('actor').GetModifierValue('monthly_religious_influence')]\n@court_spending!: [SCOPE.sCountry('actor').GetCourtSpendingCost]"
  bolshogo_dvortsa_action_progress_long_wordier: "@religious_influence! [SCOPE.sCountry('actor').GetModifierValue('monthly_religious_influence')]\n    @court_spending! [SCOPE.sCountry('actor').GetCourtSpendingCost]"
  bolshogo_dvortsa_action_progress_tooltip: "Увеличивает рост религиозного влияния за месяц\n[SCOPE.sCountry('actor').GetDescriptionFor('monthly_religious_influence')]"
- bolshogo_dvortsa_action_progress_tooltip_1: "Снижает ожидаемую стоимость двора\n[SCOPE.sCountry('actor').GetDescriptionFor('court_spending_cost')]"
+ bolshogo_dvortsa_action_progress_tooltip_1: "Снижает судебные расходы\n[SCOPE.sCountry('actor').GetCourtSpendingCostDetails]"
  gaituguiliu_policy: "Политика Гайтугуйлю"
  gaituguiliu_policy_desc: "Это действие ускорит ассимиляцию любой чужой [Concept('culture', 'культуры')|e] и повысит наш небесный авторитет."
  gaituguiliu_policy_action: "$gaituguiliu_policy$"

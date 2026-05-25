@@ -27,7 +27,7 @@
   flavor_ben.5.entry: "$flavor_ben.5.title$"
   flavor_ben.5.desc: "Заворушення поширюються по всій території #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, і країна повільно, але невідворотно розпадається зсередини. Заколотні [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] та [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] вміло маніпулюють народом. Люди вірять, що [target_character.GetName] веде [ROOT.GetCountry.Custom('rank_ua_ACC')|l] до загибелі. Це може стати переломним моментом в історії країни, і ми повинні за будь-яку ціну уникнути катастрофи."
   flavor_ben.5.a: "Ми відновимо [ROOT.GetCountry.Custom('CL_ACC')]."
-  flavor_ben.5.a.entry: "Ми відновимо себе."
+  flavor_ben.5.a.entry: "Ми відновимо країну."
   flavor_ben.6.title: "Фінансова підтримка работоргівлі"
   flavor_ben.6.entry: "$flavor_ben.6.title$"
   flavor_ben.6.desc: "Торгівля невільниками принесла солідний прибуток до скарбниці #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. За винятком небагатьох нещасних, вигоду з цієї індустрії отримувала вся країна. Тепер же, завдяки зв'язкам за межами #TOOLTIP:REGION,guinea_region,X #L Гвінеї#!#!, перед нами відкриваються нові можливості, і багато хто наполягає на розширенні наших #TOOLTIP:BUILDING_TYPE,slave_market,X #L невільничих ринків#!#!. [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')] не мають можливості втручатися в це безпосередньо, але можуть дати добро на збільшення обсягів работоргівлі…"

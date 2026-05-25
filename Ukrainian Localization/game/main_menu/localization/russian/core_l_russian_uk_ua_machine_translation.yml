@@ -142,7 +142,7 @@
   PRICE_COST_INFLATION: "[Concept('inflation', 'Інфляція')|e]: $VALUE|-=%V2$"
   PRICE_COST_GOODS_IMPACT: "Вартість од. товару «$GOODS$» на ринку #L #TOOLTIP:LOCATIONRANK,[MARKET.GetCenterLocation.Custom('LR_tt')],X [MARKET.GetCenterLocation.Custom('LR_GEN')|l]#!#! [MARKET.GetShortName]: $VALUE|=-%2$"
   PRICE_COST_GOODS_IMPACT_BREAKDOWN: "#TOOLTIP:$BREAKDOWN_TAG$ #L Товари#!#!"
-  PRICE_GOODS_IMPACT_ENTRY_HEADER: "#T Вплив становить $VALUE|=-%2$, причини#!"
+  PRICE_GOODS_IMPACT_ENTRY_HEADER: "#T Вплив становить $VALUE|=-%2$. Причини:#!"
   PRICE_GOLD_PER_POP: "$VAL|2Y$ [$ICON$_i] на групу населення"
   PRICE_NO_VALUE: "0"
   BASE_COST: "Базова вартість"

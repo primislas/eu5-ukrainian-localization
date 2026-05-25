@@ -12,7 +12,7 @@
   flavor_zan.2.a: "Викарбуємо нову монету."
   flavor_zan.2.b: "Продовжимо користуватися наявними монетами."
   flavor_zan.2.c: "Нехай грошові питання вирішують [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')|l]."
-  flavor_zan.2.c.entry: "Нехай грошові питання вирішують містяни."
+  flavor_zan.2.c.entry: "Нехай грошовими питаннями опікуються містяни."
   zan_gold_coinage: "Попит на золоті монети"
   flavor_zan.3.title: "[target_character2.GetNameWithNoTooltip] та [Select_CString(target_character2.IsFemale, 'її', 'його' )] тінь"
   flavor_zan.3.entry: "Тінь Аль-Хасана ібн Сулеймана"

@@ -13,7 +13,7 @@
  flavor_cas_rio_salado_response.34.title: "[target_ally.GetNameWithNoTooltip] просит о помощи"
  flavor_cas_rio_salado_response.34.desc: "Похоже, что борьба за #TOOLTIP:LOCATION,strait_of_gibraltar,X #L Гибралтарский пролив#!#! разгорается с новой силой. К нашему двору прибыл #L [target_ally.GetAdjective|l]ий#! посланник с предложением союза — его держава хочет объединить наши силы и вместе сокрушить #L [target_enemy.GetReligion.GetAdjective|l]ие#! армии в бою."
  flavor_cas_rio_salado_response.34.a: "Наши [target_ally.GetAdjectiveWithNoTooltip|l]ие друзья получат всю необходимую помощь."
- flavor_cas_rio_salado_response.34.a.entry: "Наши союзнические друзья получат всю необходимую помощь."
+ flavor_cas_rio_salado_response.34.a.entry: "Наши союзники получат всю необходимую помощь."
  flavor_cas_rio_salado_response.34.b: "Откажем в их просьбе."
  flavor_cas_rio_salado.5.title: "[GetCountry('MOR').GetAdjectiveWithNoTooltip]ие захватчики изгнаны из Иберии"
  flavor_cas_rio_salado.5.entry: "Битва при Рио-Саладо изгоняет Марокко из Иберии"

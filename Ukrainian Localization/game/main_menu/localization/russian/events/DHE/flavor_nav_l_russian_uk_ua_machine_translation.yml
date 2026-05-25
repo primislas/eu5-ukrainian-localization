@@ -29,7 +29,7 @@
   flavor_nav.50.entry: "$flavor_nav.50.title$"
   flavor_nav.50.desc: "До нас дійшла новина про військові дії на #L [target_country.GetAdjective]ому#! кордоні. [GetCountry('CAS').GetName] відновлює хрестовий похід на [target_country.Custom('CL_ACC')], і [target_character.GetName] спішно [Select_CString(target_character.IsFemale,'повернулася', 'повернувся')] до [ROOT.GetCountry.Custom('CL_ACC')], щоб взяти участь у битвах.\n\nХоча втручання в цей конфлікт не несе очевидної вигоди [ROOT.GetCountry.Custom('rank_ua_DAT')], ми вважаємо своїм обов'язком допомогти сусідам вигнати #TOOLTIP:RELIGIONGROUP,muslim,X #L мусульман#!#! з #TOOLTIP:REGION,iberia_region,X #L Іберії#!#!."
   flavor_nav.50.a: "[target_character.GetShortNameWithNoTooltip] поведе наших бійців."
-  flavor_nav.50.a.entry: "Персонаж поведе наших вояків."
+  flavor_nav.50.a.entry: "Наш чоловік поведе за собою вояків."
   flavor_nav.50.b: "Ми відправимо бійців, але [target_character.GetShortNameWithNoTooltip] [Select_CString(target_character.IsFemale,'потрібна', 'потрібен')] нам тут."
   flavor_nav.50.b.entry: "Ми відправимо вояків, але він потрібен нам тут."
   flavor_nav.50.c: "[ROOT.GetCountry.GetNameWithNoTooltip] не втручатиметься в це."

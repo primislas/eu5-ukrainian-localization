@@ -10,7 +10,7 @@
  flavor_dan_corfitz_ulfeldt.2.a: "Попробуем договориться с [Select_CString(target_character.IsFemale,'ней', 'ним')]."
  flavor_dan_corfitz_ulfeldt.2.a.entry: "Попробуем договориться с ним."
  flavor_dan_corfitz_ulfeldt.2.b: "Ну, всё! [target_character.GetNameWithNoTooltip] — враг [ROOT.GetCountry.Custom('CL_GEN')]!"
- flavor_dan_corfitz_ulfeldt.2.b.entry: "Ну, всё! Этот человек — враг Дании!"
+ flavor_dan_corfitz_ulfeldt.2.b.entry: "Довольно! Отныне он — враг Дании!"
  flavor_dan_corfitz_ulfeldt.3.title: "[target_character.GetNameWithNoTooltip] предлагает деньги"
  flavor_dan_corfitz_ulfeldt.3.entry: "Корфиц Ульфельдт предлагает деньги"
  flavor_dan_corfitz_ulfeldt_flight_common: "[GetCountry('DAN').GetLongName] — после обвинения в организации заговора, покушении на убийство и попытке захвата власти [target_character.GetName] [Select_CString(target_character.IsFemale,'была вынуждена', 'был вынужден')] бежать отсюда, из родной страны. [Select_CString(target_character.IsFemale,'Сама она', 'Сам он')], конечно, утверждает, что все обвинения — лишь гнусный навет."

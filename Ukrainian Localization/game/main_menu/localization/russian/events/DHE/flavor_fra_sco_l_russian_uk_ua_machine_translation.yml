@@ -5,7 +5,7 @@
   flavor_fra_sco.101.b: "[GetCharacter('sco_david_ii').GetNameWithNoTooltip] отримає від нас усі необхідні ресурси."
   flavor_fra_sco.101.b.entry: "$name_david$ $Bruce$ отримає від нас всі необхідні ресурси."
   flavor_fra_sco.101.a: "[GetCharacter('sco_david_ii').GetNameWithNoTooltip] та його люди отримають від нас підтримку — ми станемо на їхній бік."
-  flavor_fra_sco.101.a.entry: "$name_david$ $Bruce$ та його люди отримають від нас підтримку — ми станемо на їхній бік."
+  flavor_fra_sco.101.a.entry: "$name_david$ $Bruce$ та його люди отримають від нас підтримку."
   flavor_fra_sco.101.c: "Боротьба вже програна. [GetCharacter('sco_david_ii').GetNameWithNoTooltip] [Select_CString(GetCharacter('sco_david_ii').IsFemale, 'повинна', 'повинен' )] повернутися на батьківщину."
   flavor_fra_sco.101.c.entry: "Шотландія втрачена, $name_david$ $Bruce$ мусить повернутися."
   flavor_fra_sco.101.d: "[GetCharacter('sco_david_ii').GetNameWithNoTooltip] буде [Select_CString(GetCharacter('sco_david_ii').IsFemale, 'повернена', 'повернений' )] своїм суперникам, щоб допомогти їм у боротьбі за престол."

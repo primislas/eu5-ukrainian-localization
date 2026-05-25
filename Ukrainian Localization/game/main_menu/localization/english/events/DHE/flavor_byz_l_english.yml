@@ -15,6 +15,7 @@
  flavor_byz.2.a: "And forever more!"
  flavor_byz.2.b: "Athena's city is restored to us!"
  flavor_byz.2.c: "A great victory for the [ROOT.GetCountry.GetFlavorRank]."
+ flavor_byz.2.c.entry: "A great victory for the realm."
 
  flavor_byz.3.title: "$izmit.greek_language$ reclaimed!"
  flavor_byz.3.entry: "$flavor_byz.3.title$"
@@ -33,6 +34,7 @@
  flavor_byz.4.a: "Deus vult!"
  flavor_byz.4.b: "[ShowLocationNameWithNoTooltip('antioch')], jewel of the Hellenistic east, is ours!"
  flavor_byz.4.c: "The [ROOT.GetCountry.GetFlavorRank] reaches further east."
+ flavor_byz.4.c.entry: "The realm reaches further east."
 
  flavor_byz.5.title: "Jerusalem reclaimed!"
  flavor_byz.5.entry: "$flavor_byz.5.title$"
@@ -42,6 +44,7 @@
  flavor_byz.5.a: "Deus vult!"
  flavor_byz.5.b: "Its worth is strategic, not spiritual."
  flavor_byz.5.c: "Another holy place returned to the [ROOT.GetCountry.GetFlavorRank]."
+ flavor_byz.5.c.entry: "Another holy place returned to the realm."
 
  flavor_byz.6.title: "Rome reclaimed!"
  flavor_byz.6.entry: "$flavor_byz.6.title$"
@@ -174,6 +177,7 @@
  flavor_byz.24.desc: "With our old coin, the #italic Hyperpyron#! slowly becoming outdated in commerce not only internally but externally, [target_character.GetName] has proposed to start minting a new coin, the #italic Stavraton#!.\n\nThese coinage reforms are modeled after the #italic Venetian Ducat#! and would allow our [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] to trade more easily with other European countries, but the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] would also need to adapt to this new coin."
  flavor_byz.24.a: "Let us mint this new coin."
  flavor_byz.24.b: "[GetCountry('VEN').GetNameWithNoTooltip] will not influence our economy."
+ flavor_byz.24.b.entry: "$VEN$ will not influence our economy."
  flavor_byz.24.historical_info: "In 1367, Emperor John V Palaiologos introduced a new coin, the Stavraton, which was named after the Greek word for \"Cross\", to defunct gold hyperpyron. This silver coin remained until the end of the Byzantine Empire."
  policy_will_not_be_implemented_but_available: "The [target_policy.GetName] will not be implemented at this time but will remain available to us"
 
@@ -181,6 +185,7 @@
  flavor_byz.25.entry: "Scholar of Hellenism"
  flavor_byz.25.desc: "[target_artist.GetName] has arrived at our [ROOT.GetCountry.GetGovernment.GetCourtTitle]. He preaches about [ROOT.GetCountry.GetName] returning to the age of Hellenism. Although he has shown prominence, the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] are opposed to his ideas."
  flavor_byz.25.a: "Let him stay in our [ROOT.GetCountry.GetGovernment.GetCourtTitle]."
+ flavor_byz.25.a.entry: "Let him stay in our court."
  flavor_byz.25.b: "His heretical teachings must end!"
  flavor_byz.25.historical_info: "Gemistos Plethon was one of the most renowned Byzantine scholars. He advocated for the revival of Greek scholarship in Western Europe and wrote many manuscripts, many focusing on the revival of Hellenism and rejecting Byzantine law."
  while_remains_chance_to_revive_hellenism_tt: "#italic While [target_artist.GetNameWithNoTooltip] remains in our [ROOT.GetCountry.GetGovernment.GetCourtTitle], he may attempt to revive [ShowReligionName('hellenism_religion')]#!"
@@ -198,20 +203,26 @@
  flavor_byz.27.historical_info: "When the Palaiologos dynasty reclaimed Constantinople, they instituted a campaign of renovation for the city. That sparked the final period of development of Byzantine art, where it would slowly shift away from numerous Byzantine customs, such as the artists signing their works, and move towards a different style, the Palaeologan one, that would later on influence the Cretan School of art." 
  flavor_byz.27.a: "We do not have the funds to sponsor anyone right now."
  flavor_byz.27.b: "The [ROOT.GetCountry.GetAdjectiveWithNoTooltip] treasury will cover the expenses!"
+ flavor_byz.27.b.entry: "Our treasury will cover the expenses!"
  flavor_byz.27.c: "Allow the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] to foot the bill."
+ flavor_byz.27.c.entry: "Allow the $nobles_estate$ to foot the bill."
  flavor_byz.27.d: "[target_location.GetNameWithNoTooltip] shall become the cradle of the [ShowInstitutionNameWithNoTooltip('renaissance')]."
+ flavor_byz.27.d.entry: "The location shall become the cradle of the [ShowInstitutionNameWithNoTooltip('renaissance')]."
  constantinople_to_spawn_renaissance_tt: "[ShowLocationName('constantinople')] is eligible as the birthplace of the [ShowInstitutionName('renaissance')]"
 
  flavor_byz.28.title: "A [ROOT.GetCountry.GetGovernment.GetCourtTitle] in [ShowAreaNameWithNoTooltip('morea_area')]"
  flavor_byz.28.entry: "New Sparta"
  flavor_byz.28.desc: "With our decline in the [ShowRegionName('balkan_region')], [target_character.GetName] has come up with a way to ensure that our nation lives. By setting up a new capital in [target_location.GetName] and fortifying [ShowAreaName('morea_area')] we can ensure that no foreigner may invade us without suffering great losses."
  flavor_byz.28.a: "Perhaps [target_character.GetNameWithNoTooltip]'s words have some merit..."
+ flavor_byz.28.a.entry: "Perhaps the character's words have some merit..."
  flavor_byz.28.b: "Abandoning [target_location2.GetNameWithNoTooltip] will serve us no good."
+ flavor_byz.28.b.entry: "Abandoning the location will serve us no good."
 
  flavor_byz.29.title: "Katholikon Mouseion"
  flavor_byz.29.entry: "$flavor_byz.29.title$"
  flavor_byz.29.desc: "With [target_location.GetName] being the forefront city of the [target_character.GetDynasty.GetName], [target_character.GetName] has been planning an institution in the monastery of St. John Prodrome. Such construction would require a lot of resources, as well as works of which our nation may need to commission."
  flavor_byz.29.a: "No price shall stop [target_character.GetNameWithNoTooltip]."
+ flavor_byz.29.a.entry: "No price shall stop the character."
  flavor_byz.29.b: "It is too expensive."
  flavor_byz.29.historical_info: "Although not much is known about the institution called Katholikon Mouseion, it was established during the turn of the 14th century in Constantinople. It was located in the Monastery of St. John Prodrome, and it used its library to invite many Italians who wished to learn about the Greek language and culture."
 
@@ -219,13 +230,17 @@
  flavor_byz.30.entry: "Orthodox Church and Lutherans allying against Catholics"
  flavor_byz.30.desc: "With the rise of [target_country.GetReligion.GetName] in [ShowContinentName('europe')], the [ShowReligionAdjective('catholic')] world, our old enemies, are finally experiencing what we experienced centuries ago. Leading this reformation is [target_country.GetName]. Perhaps if we keep good relations with them, we can finally make the dent against [target_country2.GetName] we so wished to be able to in the past."
  flavor_byz.30.a: "We will ally with [target_country.GetNameWithNoTooltip]."
+ flavor_byz.30.a.entry: "We will ally with them."
  flavor_byz.30.b: "The matters of [target_country2.GetReligion.GetNameWithNoTooltip] do not concern us."
+ flavor_byz.30.b.entry: "The matters of their faith do not concern us."
 
  flavor_byz.31.title: "Reforming the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] Army"
  flavor_byz.31.entry: "Reforming the Byzantine Army"
  flavor_byz.31.desc: "Whilst our army dominated in the past using the Themata and the numerous levies they provided, the increase in wealth and the centralization of realms has led to armies becoming a full-time profession. [target_character.GetName] with [target_character.GetHerHis] council has been hard at work drafting a new army organization, one that depends less on the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] for troops."
  flavor_byz.31.a: "The army shall serve [target_character.GetNameWithNoTooltip]."
+ flavor_byz.31.a.entry: "The army shall serve the King."
  flavor_byz.31.b: "Let us not override the role of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]."
+ flavor_byz.31.b.entry: "Let us not override the role of the $nobles_estate$."
  BYZ_ALL_THEMATA_PROVINCES_GAIN_NOBLE_LOYALTY: "All [ShowPopTypeName('nobles')] [pops|e] in [locations|e] with [ShowBuildingTypeName('thema_headquarters')] gain [ShowNamedValue('pop_satisfaction_ultimate_bonus')|+=2%] [pop_satisfaction|e]."
 
  flavor_byz.32.title: "Rise of [target_character2.GetNameWithNoTooltip]"
@@ -244,24 +259,30 @@
  flavor_byz.34.entry: "Constantinople, the Decaying City"
  flavor_byz.34.desc: "[target_location.GetName] has seen centuries of decay from numerous conflicts. With us having finally re-established the [ROOT.GetCountry.GetAdjective] coffers, we finally can start restoring the [target_location.GetRank.GetName], bringing it to a new era."
  flavor_byz.34.a: "[target_location.GetNameWithNoTooltip] shall rise again."
+ flavor_byz.34.a.entry: "The location shall rise again."
  flavor_byz.34.b: "We shall not spend our funds on only one [target_location.GetRank.GetNameWithNoTooltip]."
+ flavor_byz.34.b.entry: "We shall not spend our funds on only one city."
  BYZ_UNLOCK_CONSTANTINOPLE_MANAGER_CABINET_ACTION: "Unlocks the [ShowCabinetActionName('aid_constantinople')] Cabinet Action."
 
  flavor_byz.35.title: "[target_character2.GetNameWithNoTooltip]"
  flavor_byz.35.entry: "Giovanni Giustiniani"
  flavor_byz.35.desc: "Whilst the colony of [ShowBuildingTypeName('galata')] has increased the [GetCountry('GEN').GetAdjective] influence in [target_location.GetName], it has also led to the arrival of a few men adamant about protecting [ROOT.GetCountry.GetName]. One of them is [target_character2.GetName], a [GetCountry('GEN').GetAdjectiveWithNoTooltip] mercenary ready to serve [target_character.GetName]."
  flavor_byz.35.a: "Let us hire him, for the good of the [ROOT.GetCountry.GetFlavorRank]."
+ flavor_byz.35.a.entry: "Let us hire him, for the good of the realm."
  flavor_byz.35.b: "Trusting the [GetCountry('GEN').GetAdjectiveWithNoTooltip]? Never!"
+ flavor_byz.35.b.entry: "Trusting the $GEN_ADJ$? Never!"
 
  flavor_byz.36.title: "[ShowRegionNameWithNoTooltip('anatolia_region')] Reclaimed!"
  flavor_byz.36.entry: "Restoring Control in Anatolia"
  flavor_byz.36.desc: "Our armies have finally secured the old province of [ShowRegionName('anatolia_region')]. With its cities now under our control and our enemies driven away, we can finally celebrate this triumph."
  flavor_byz.36.a: "Glory to [ROOT.GetCountry.GetNameWithNoTooltip]."
+ flavor_byz.36.a.entry: "Glory to us."
 
  flavor_byz.37.title: "Landing in [ShowRegionNameWithNoTooltip('italy_region')]"
  flavor_byz.37.entry: "Landing in Italy"
  flavor_byz.37.desc: "[ShowRegionName('italy_region')] was once [ROOT.GetCountry.GetAdjective], but with both the Lombards and the Normans taking control, we lost any foothold in the region. Now that we have re-established a base in [target_location.GetName], perhaps we can fortify it and use it for future operations."
  flavor_byz.37.a: "[target_location.GetNameWithNoTooltip] shall be fortified!"
+ flavor_byz.37.a.entry: "The location shall be fortified!"
  flavor_byz.37.b: "It is a waste of money."
 
  flavor_byz.38.title: "The [ShowBuildingTypeNameWithNoTooltip('hexamilion_wall')]"
@@ -276,7 +297,9 @@
  flavor_byz.39.desc: "Since our [ROOT.GetCountry.GetGovernment.GetCourtTitle] has migrated to [ShowAreaName('morea_area')], [target_location.GetName] has become the [target_country.GetAdjective] capital in all but name. Is it perhaps time for [target_character.GetName] to abandon [target_location2.GetName] in favor of this new home?"
  flavor_byz.39.a: "Perhaps [ShowAreaNameWithNoTooltip('morea_area')] can be more easily defended..."
  flavor_byz.39.b: "Abandoning [target_location2.GetNameWithNoTooltip] is a grave mistake, let us reinforce it instead."
+ flavor_byz.39.b.entry: "Abandoning the location is a grave mistake, let us reinforce it instead."
  flavor_byz.39.c: "We will neither abandon [target_location2.GetNameWithNoTooltip] nor strengthen our hold there."
+ flavor_byz.39.c.entry: "We will neither abandon the location nor strengthen our hold there."
 
  flavor_byz.40.title: "Nomon Syngraphe"
  flavor_byz.40.entry: "$flavor_byz.40.title$"
@@ -297,7 +320,9 @@
  flavor_byz.42.desc: "Born in [target_location.GetName], [target_artist.GetName] has been studying the Western ways of medicine and philosophy from a very young age. Studying in numerous universities, he has siphoned tons of knowledge and is versed in many linguistic forms. Perhaps such an educated philosopher will do well in our [ROOT.GetCountry.GetGovernment.GetCourtTitle]."
  flavor_byz.42.historical_info: "Born in Mykonos, Alexandros Mavrokordatos was a Greek doctor under the Turkocracy. After studying in the West, most notably at the University of Bologna, he wrote several treatises, such as #italic Instrumentum Pneumaticum Circulandi Sanguinis sive modu usu pulmonum#!. Afterward, he served under Sultan Mehmed IV, helping in negotiations that led to the Treaty of Karlowitz in 1699, and managed to gain considerable power in the Ottoman court, allowing his family to rule Moldavia."
  flavor_byz.42.a: "Let us invite [target_artist.GetNameWithNoTooltip] to [target_location2.GetNameWithNoTooltip]"
+ flavor_byz.42.a.entry: "Let us invite the artist to the location"
  flavor_byz.42.b: "He would be a great diplomat for [target_country.GetNameWithNoTooltip]."
+ flavor_byz.42.b.entry: "He would be a great diplomat for them."
  flavor_byz.42.c: "He is too expensive to maintain."
 
  flavor_byz.43.title: "Founding the Heptanese School"
@@ -306,12 +331,14 @@
  flavor_byz.43.a: "Let us find this school of art."
  flavor_byz.43.b: "We do not need more artists."
  flavor_byz.43.c: "[target_character.GetNameWithNoTooltip] shall focus all their efforts to it."
+ flavor_byz.43.c.entry: "The character shall focus all their efforts to it."
  flavor_byz.43.d: "The old Cretan school shall be favored."
 
  flavor_byz.44.title: "[target_artist.GetNameWithNoTooltip]"
  flavor_byz.44.entry: "Maniera Greca"
  flavor_byz.44.desc: "[target_artist.GetName], born in the [target_location.GetName] as a [ShowCultureName('greek_culture')] citizen, has been making a name for himself in the [ShowProvinceDefinitionName('ionian_islands_province')]. His art follows the #italic Maniera Greca#! style, mixing the [GetCountry('BYZ').GetAdjective] and [GetCountry('VEN').GetAdjective] artistic styles."
  flavor_byz.44.a: "Let us sponsor him and invite him to our [ROOT.GetCountry.GetGovernment.GetCourtTitle]."
+ flavor_byz.44.a.entry: "Let us sponsor him and invite him to our court."
  flavor_byz.44.b: "We do not need more artists."
 
  flavor_byz.45.title: "Reforming the Prónoia System"
@@ -374,6 +401,7 @@
  flavor_byz.52.desc: "Despite our [ROOT.GetCountry.GetFlavorRank] being sovereign, that has not stopped our [ROOT.GetCountry.GetGovernment.GetCourtTitle] from intervening in the [ROOT.GetCountry.GetFlavorRank]'s politics. Always meddling in the [ROOT.GetCountry.GetGovernment.GetParliament.GetName], their desires often contradict those of [target_character.GetName]. Perhaps by making changes in our laws we can limit their power in [ROOT.GetCountry.GetName]."
  flavor_byz.52.a: "Let us re-write it, even if we anger our estates."
  flavor_byz.52.b: "The code has served [ROOT.GetCountry.GetNameWithNoTooltip] for many centuries already."
+ flavor_byz.52.b.entry: "The code has served us for many centuries already."
  BYZ_NO_MORE_COURT_EVENTS: "The #Y Byzantine Court Influence#! [events|e], through which the court periodically pushes our [societal_values|e] — for better or worse — will no longer trigger."
  BYZ_COURT_EVENTS_WILL_CONTINUE: "The #Y Byzantine Court Influence#! [events|e], through which the court periodically pushes our [societal_values|e] — for better or worse — will continue triggering."
 
@@ -382,6 +410,7 @@
  flavor_byz.53.desc: "Ever since the Latins sacked [target_province.GetName] in 1204, the [ShowBuildingTypeName('theodosian_walls')] have been reduced to a fraction of their old glory. Previously, we lacked the resources to properly maintain them, but right now in these dire times, we must make sure they are ready for an assault."
  flavor_byz.53.a: "They are what has kept the empire for so long. We must fortify them again."
  flavor_byz.53.b: "Hiding in [target_province.GetNameWithNoTooltip] is not the way to success."
+ flavor_byz.53.b.entry: "Hiding in the province is not the way to success."
  strengthened_theodosian_walls_desc: "From the $flavor_byz.53.title$ [event|e]"
 
  flavor_byz.54.title: "Dealing with the [ShowCultureGroupNameWithNoTooltip('italian_group')] Merchants"
@@ -396,6 +425,7 @@
  flavor_byz.55.entry: "Become, *shudders*, Catholic"
  flavor_byz.55.desc: "With our decline in power, and the rising threats all around us, [target_character.GetName] has been thinking the unthinkable in all of [ROOT.GetCountry.GetAdjective] history. If the [ROOT.GetCountry.GetFlavorRank] is to survive, then we need the support of [target_character2.GetName] and the entire [ShowReligionAdjective('catholic')] world. Perhaps [target_character.GetNameWithNoTooltip] should travel west and negotiate with [target_character2.GetNameWithNoTooltip]."
  flavor_byz.55.a: "Even if a deal with [target_country.GetNameWithNoTooltip] angers the Patriarchy..."
+ flavor_byz.55.a.entry: "Even if a deal with them angers the Patriarchy..."
  flavor_byz.55.b: "This is an outrageous suggestion."
  BYZ_ALL_ORTHODOX_BECOME_UNHAPPY: "All [ShowReligionAdjective('orthodox')] [pops|e] lose [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [pop_satisfaction|e]."
 
@@ -424,7 +454,9 @@
  flavor_byz.60.entry: "$flavor_byz.60.title$"
  flavor_byz.60.desc: "[target_character.GetName] has always been a long-time supporter and companion to the late [target_character2.GetName]. Having initially supported the [ROOT.GetCountry.GetGovernment.GetRulerTitle] during [target_character2.GetHerHis] struggle against [target_character2.GetHerHis] grandfather, [GetCharacter('byz_andronikos_ii_palaiologos').GetName], [target_character.GetShortNameWithNoTooltip] has distinguished [target_character.GetHerselfHimself] as a loyal companion and a competent statesman.\n\nIn [target_character2.GetHerHis] lifetime, [target_character.GetNameWithNoTooltip] had many times been offered the position of co-emperor, yet at all times refused. With [target_character2.GetShortNameWithNoTooltip] now gone, there are those at [ROOT.GetCountry.GetGovernment.GetCourtTitle] who believe [target_character.GetSheHe] would make for a great co-emperor."
  flavor_byz.60.a: "It is no one else's but [target_character.GetHerHis] will."
+ flavor_byz.60.a.entry: "It is no one else's but his will."
  flavor_byz.60.b: "Pressure [target_character.GetHerHim] into accepting."
+ flavor_byz.60.b.entry: "Pressure him into accepting."
 
  BYZ_additional_events_become_available: "Additional [events|e] become available when [target_character.GetName] is considered co-emperor"
 
@@ -432,7 +464,9 @@
  flavor_byz.61.entry: "$flavor_byz.61.title$"
  flavor_byz.61.desc: "[target_character2.GetName], an influential voice in the [ROOT.GetCountry.GetGovernment.GetCourtTitle], has come to suspect [target_character.GetName] of treason. Having allied with [target_character.GetHerHis] enemies, [target_character2.GetShortNameWithNoTooltip] wishes to see [target_character.GetHerHim] ousted, stripped of all titles, and exiled to a [ShowBuildingTypeName('orthodox_monastery')], so that [target_character.GetSheHe] may never influence [ROOT.GetCountry.GetAdjective] politics ever again. Despite that, many courtiers still hold [target_character.GetNameWithNoTooltip] in high regard and would not wish any harm upon [target_character.GetHerHim]."
  flavor_byz.61.a: "[target_character2.GetNameWithNoTooltip] should be trusted."
+ flavor_byz.61.a.entry: "The character should be trusted."
  flavor_byz.61.b: "[target_character.GetNameWithNoTooltip] would never betray the [ROOT.GetCountry.GetFlavorRank]!"
+ flavor_byz.61.b.entry: "The character would never betray the realm!"
 
  flavor_byz.62.title: "Delegation from Frankish Lords"
  flavor_byz.62.entry: "$flavor_byz.62.title$"
@@ -447,6 +481,7 @@
  flavor_byz.63.desc_neutral: "The freezing grip of death has taken away one of our distinguished historians, [target_character.GetName]. [target_character.GetShortNameWithNoTooltip] leaves behind a legacy of loyally serving the [ROOT.GetCountry.GetLongName] and a notable [target_woa.GetDefinition.GetName] — [target_woa.GetName]."
  flavor_byz.63.desc_nikephoros_is_hated: "$flavor_byz.63.desc_neutral$ It is most regrettable then, that [target_character.GetNameWithNoTooltip] spent the last years of [target_character.GetHerHis] life spreading the heresy of hesychasm."
  flavor_byz.63.a: "The [ROOT.GetCountry.GetLongNameWithNoTooltip] will not be the same without [target_character.GetHerHim]."
+ flavor_byz.63.a.entry: "We will not be the same without him."
 
  woa_was_created_here: "[THIS.GetWorkOfArt.GetDefinition.GetName] [THIS.GetWorkOfArt.GetName] was created in [THIS.GetWorkOfArt.GetLocation.GetName] by [THIS.GetWorkOfArt.GetCreator.GetName]"
 
@@ -462,7 +497,9 @@
  flavor_byz.65.entry: "Demetrios Kydones, the Philosopher"
  flavor_byz.65.desc: "Our [ROOT.GetCountry.GetGovernment.GetRulerTitle] has befriended a truly exceptional [target_character.GetWomanMan]. [target_character.GetName] is a student of philosophy who possesses a curious and open mind. Both [target_character2.GetName] and [target_character.GetShortNameWithNoTooltip] agree on many things and those in the [ROOT.GetCountry.GetGovernment.GetCourtTitle] can see the potential of the young [target_character.GetShortNameWithNoTooltip]. [target_character.GetHeShe|U] could serve as a great aide in the government of the [ROOT.GetCountry.GetLongName]."
  flavor_byz.65.a: "[target_character.GetSheHe|U] must become our #italic mesazon#!!"
+ flavor_byz.65.a.entry: "He must become our #italic mesazon#!!"
  flavor_byz.65.b: "We should have [target_character.GetHerHim] translate [ShowLanguageNameWithNoTooltip('latin_language')] works into [ROOT.GetCountry.GetCourtLanguage.GetNameWithNoTooltip]!"
+ flavor_byz.65.b.entry: "We should have him translate [ShowLanguageNameWithNoTooltip('latin_language')] works into our court language!"
 
  byz_target_character_is_free_to_promote: "[target_character.GetName] will not cost any [legitimacy_i|e][legitimacy|e] to promote to [head_of_the_cabinet|e]"
 
@@ -477,6 +514,7 @@
  flavor_byz.1000.entry: "The Guns of Orbán"
  flavor_byz.1000.desc: "[cannon_maker.GetName], a [cannon_maker.GetCulture.GetName] iron-founder and engineer, has appeared in court. [cannon_maker.GetSheHe|U] has declared boldly that [cannon_maker.GetSheHe] could construct for us a cannon of a scale hitherto unseen - if only we provide [cannon_maker.GetHerHim] with metal and funds. However, prominent [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] caution us against it, saying that the salary [cannon_maker.GetSheHe] demands would upset the guilds."
  flavor_byz.1000.a: "[cannon_maker.GetSheHe|U] shall have all that [cannon_maker.GetSheHe] needs."
+ flavor_byz.1000.a.entry: "He shall have all that he needs."
  flavor_byz.1000.b: "This is outrageous!"
  orban_goes_elsewhere.tt: "[cannon_maker.GetNameWithNoTooltip] might go to your enemies instead..."
  flavor_byz.1000.historical_info: "Orbán is known to history for having made the great bombard that brought down the walls of Constantinople. He first offered his service to the Eastern Roman emperor Constantine XI, but was turned down - so instead, he went to the Turks..." 
@@ -494,6 +532,7 @@
  flavor_byz.1100.desc: "Theological disputes have long stirred the heart of our Empire. As the guardian and pride of the [ShowReligionAdjective('orthodox')] faith, we have stood as defenders of true doctrine in our search for the divine mysteries.\n\nWord now reaches us that [target_character_1.GetName] has identified troubling irregularities in the religious practices of the monks of [target_location.GetName]. Under the spiritual direction of [target_character_2.GetName], their devotions are said to dwell upon bold questions concerning the essence and energies of God, and to encourage the practice of inner stillness and unceasing prayer.\n\nIn response, [target_character_1.GetShortNameWithNoTooltip] has committed his objections to writing, condemning these teachings of Hesychasm as dangerous innovation and warning that such doctrines may sow confusion among the faithful and disturb the fragile peace of our [ROOT.GetCountry.GetFlavorRank]. Our advisors caution that mishandled zeal, whether of mystic or critic, could inflame unrest and perhaps even provoke open revolt if this matter is not resolved with prudence."
  flavor_byz.1100.a: "Support the movement."
  flavor_byz.1100.b: "[target_character_1.GetShortNameWithNoTooltip] speaks the truth, hesychasm is heresy!"
+ flavor_byz.1100.b.entry: "The character speaks the truth, hesychasm is heresy!"
  flavor_byz.1100.c: "Ignore the brewing chaos."
  byz_may_trigger_other_event_tt: "These debates may reach beyond our borders soon"
  worsen_relations_with_all_orthodox_tt: "Our relations with all [ShowReligionAdjectiveWithNoTooltip('orthodox')] countries will worsen greatly"
@@ -512,6 +551,7 @@
  flavor_byz.1102.desc: "'Is this calamity the beginning of the end for the [ShowReligionAdjective('orthodox')] faith?' Such anxious whispers now echo through the cloisters as the dispute between [target_character2.GetName] and [target_character.GetName] deepens.\n\nThe former stands as a fervent defender of the Hesychast tradition, while the latter labors relentlessly to denounce these teachings as error and delusion. Accusations have given way to open condemnation, and appeals to reason are answered with invocations of divine authority. What began as a theological disagreement now threatens to divide the faithful of [target_location.GetName] into hostile camps.\n\nUnless this matter is resolved swiftly and with wisdom, indignation may escape the bounds of discourse and descend into unrest, perhaps even rebellion."
  flavor_byz.1102.a: "Our support of hesychasm is steadfast!"
  flavor_byz.1102.b: "[target_character.GetNameWithNoTooltip] will like [target_character.GetHerHis] new home in [target_country.GetNameWithNoTooltip]."
+ flavor_byz.1102.b.entry: "The character will like his new home in them."
  church_condemns_ongoing_debates_tt: "Powerful figureheads of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] condemn our stance of defending Hesychasm"
 
 
@@ -522,6 +562,7 @@
  flavor_byz.1200.historical_info: "During the Byzantine Civil War of 1341 - 1347, the daughter of Emperor John VI Kantakouzenos, Theodora Kantakouzenos, married the Turkish Bey Orhan Gazi to help cement the alliance between the two countries, and ensure that the Ottomans would not change sides and start supporting John's rival, the Regent Empress Anna of Savoy."
  flavor_byz.1200.a: "Send the message."
  flavor_byz.1200.b: "We will not trade [theodora_scope.GetShortNameWithNoTooltip] for peace."
+ flavor_byz.1200.b.entry: "We will not trade her for peace."
 
  flavor_byz.1201.title: "$flavor_byz_title_key$"
  flavor_byz.1201.desc: "The weak ruler of [GetCountry('BYZ').GetName] is willing to give his pretty daughter [theodora_scope.GetName] to add to the harem of our brave ruler [orhan_scope.GetName] in exchange for a political alliance.\n\nWhat are we to do with this proposal?"
@@ -570,7 +611,9 @@
  flavor_byz.1400.desc: "In the ages of past, men from [ShowRegionName('scandinavian_region')] would set sail south, sailing past the rivers of [ShowRegionName('russian_region')] to emerge in the [ShowAreaName('black_sea_area')]. These men, known as the [ShowUnitDefinitionName('a_varangians')] had served with utmost loyalty the older Emperors of [ROOT.GetCountry.GetName]. Maybe we can restore this guard by inviting [varangian_character.GetName] and a band of men from [target_country.GetName] to serve [target_character.GetName] as bodyguards."
  flavor_byz.1400.a: "Let us request a new Varangian Guard."
  flavor_byz.1400.b: "We do not need [varangian_character.GetNameWithNoTooltip]."
+ flavor_byz.1400.b.entry: "We do not need a new captain."
  BYZ_IF_THEY_ACCEPT: "We will request [pops|e] from [target_country.GetName]. If they accept the following will happen:"
+ BYZ_VARANGIAN_GUARD_RESTORED_TT: "#G +1#! [ShowModifierTypeName('num_of_varangian_units')]."
 
  flavor_byz.1401.title: "$flavor_byz.1400_title_key$"
  flavor_byz.1401.desc: "[target_country2.GetName] has requested we send them [varangian_character.GetName] as well as a band of men to their [target_country.GetGovernment.GetCourtTitle]. They are offering us money should we accept."
@@ -612,10 +655,15 @@
  flavor_byz.1502.entry: "The Beliefs of Gemistos Plethon"
  flavor_byz.1502.desc: "For quite some time the presence of [target_character.GetName] has complimented our artistic and cultural endeavors. [target_character.GetHerHis] teachings in matters of jurisprudence and scholarly pursuits are second to none, attracting many disciplines who will surely impact the [ShowInstitutionName('renaissance')] in their own ways.\n\nHowever, recently [target_character.GetSheHe] has become more open about [target_character.GetHerHis] true faith, [ShowReligionName('hellenism_religion')], much to the dismay of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] in [ROOT.GetCountry.GetCapital.GetName]. According to them, such heresy threatens our traditions and the stability of the entire [ROOT.GetCountry.GetFlavorRank]."
  flavor_byz.1502.a: "Banish [target_character.GetHerHim]!"
+ flavor_byz.1502.a.entry: "Banish him!"
  flavor_byz.1502.b: "Will [target_character.GetHerHis] gods protect [target_character.GetHerHim] from the executioner?"
+ flavor_byz.1502.b.entry: "Will his gods protect him from the executioner?"
  flavor_byz.1502.c: "[target_character.GetSheHe|U] is far too important, allow [target_character.GetHerHim] to continue."
+ flavor_byz.1502.c.entry: "He is far too important, allow him to continue."
  flavor_byz.1502.d: "Perhaps [target_character2.GetShortNameWithNoTooltip] will heed [target_character.GetHerHis] teachings."
+ flavor_byz.1502.d.entry: "Perhaps the character will heed his teachings."
  flavor_byz.1502.e: "Maybe [target_character.GetSheHe] is right after all."
+ flavor_byz.1502.e.entry: "Maybe he is right after all."
  every_true_faith_pop_loses_20_satisfaction_tt: "[pops|e] in [ROOT.GetCountry.GetCapital.GetName] that follow [ROOT.GetCountry.GetReligion.GetName] will lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e]"
  everyone_converts_tt: "Every member of the family of [target_character2.GetName] will embrace [ShowReligionNameWithNoTooltip('hellenism_religion')]"
 

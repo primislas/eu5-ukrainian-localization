@@ -2533,7 +2533,7 @@
   PAST_THIRD_REMOVE_AREA_PREFERENCE_EFFECT: "[COUNTRY.GetName] видали[COUNTRY.Custom('end_vlaloly')] $NAME$ як пріоритетну область ШІ"
   REMOVE_ALL_AREA_PREFERENCES_EFFECT: "Видаляє всі пріоритетні області ШІ"
   FIRST_REMOVE_ALL_AREA_PREFERENCES_EFFECT: "Ми видаляємо всі пріоритетні області ШІ"
-  THIRD_REMOVE_ALL_AREA_PREFERENCES_EFFECT: "PENDING_TRANSLATION"
+  THIRD_REMOVE_ALL_AREA_PREFERENCES_EFFECT: "[COUNTRY.GetName] видаля[COUNTRY.Custom('end_yeyut')] всі пріоритетні області для ШІ"
   PAST_REMOVE_ALL_AREA_PREFERENCES_EFFECT: "Видалили всі пріоритетні області ШІ"
   PAST_FIRST_REMOVE_ALL_AREA_PREFERENCES_EFFECT: "Ми видалили всі пріоритетні області ШІ"
   PAST_THIRD_REMOVE_ALL_AREA_PREFERENCES_EFFECT: "[COUNTRY.GetName] видали[COUNTRY.Custom('end_vlaloly')] всі пріоритетні області ШІ"
