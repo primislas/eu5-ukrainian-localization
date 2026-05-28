@@ -70,7 +70,7 @@
   hussite_wars.3.a: "До зброї!"
   hussite_wars.3.b: "Не поспішаймо."
   hussite_wars.4.title.hussite_victory: "Гуситська перемога в Гуситських війнах"
-  hussite_wars.4.title.catholic_victory: "[ShowReligionAdjectiveWithNoTooltip('catholic')] Victory in the [ShowSituationNameWithNoTooltip('hussite_wars')]"
+  hussite_wars.4.title.catholic_victory: "Католицька перемога в Гуситських війнах"
   hussite_wars.4.a.desc: "Наша боротьба за рівноправність і визнання з боку #TOOLTIP:RELIGION,$catholic_tt$,X #L католицької#!#! влади принесла свої плоди. Ми захистили наш народ і нашу віру, а тепер претендуємо на важливе місце за європейським столом."
   hussite_wars.4.b.desc: "Ми скуштували гіркоту поразки й були змушені визнати верховенство #TOOLTIP:RELIGION,$catholic_tt$,X #L католицької#!#! церкви. У нас була мрія, в яку ми вірили всією душею, але ми здригнулися перед обличчям корупції та зла, і їй не судилося збутися…"
   hussite_wars.4.c.desc: "Господь благословив нас на перемогу в хрестовому поході проти єретиків. Ми погасили полум’я #TOOLTIP:RELIGION,$hussite_tt$,X #L гуситства#!#! [GetCountry('BOH').Custom('preposition_uv')] [GetCountry('BOH').Custom('longname_ua_PREP')], відновивши законну владу #TOOLTIP:RELIGION,$catholic_tt$,X #L католицтва#!#!. Нехай увесь світ бачить, що воля церкви непохитна."

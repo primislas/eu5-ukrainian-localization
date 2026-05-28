@@ -70,7 +70,7 @@
   carneia_tt_mod: "Ми отримаємо модифікатор #TOOLTIP:STATIC_MODIFIER,carneia_modifier,X #V #L «Карнеї»#!#!#!."
   panionia_tt: "Паніонії — свято, яке відзначають в #TOOLTIP:PROVINCE_DEFINITION,aydin_province,X #L Айдині#!#! та присвячують богові #TOOLTIP:GOD,poseidon_god,X #L Посейдону#!#!."
   panionia_tt_mod: "Ми отримаємо модифікатор #TOOLTIP:STATIC_MODIFIER,panionia_modifier,X #V #L «Паніонії»#!#!#!."
-  hire_advisor_eunuch_chance_tt: "З 50%-ю ймовірністю можна найняти #TOOLTIP:TRAIT,castrated,X #L оскоплену#!#! [Concept('character', 'особу')|e] із [Concept('abilities', 'хистом')|e] в середньому вищим, ніж в інших."
+  hire_advisor_eunuch_chance_tt: "З імовірністю від 10% до 100% можна найняти [Concept('character', 'персонажа')|e] з рисою «[ShowTraitName('eunuch')]». Його [Concept('abilities', 'навички')|e] будуть в середньому кращими, ніж у інших, з урахуванням укоріненості установи «[ShowBureaucracyTypeName('court_eunuchs_bureaucracy')]» та #TOOLTIP:MODIFIER_TYPE,eunuch_power,X #P #V модифікатора сили євнухів#!#!#!."
   grant_a_triumph: "Організація тріумфальної ходи"
   grant_a_triumph_desc: "Успіхи слід відзначати. Здібний полководець має бути представлений народу як переможець під час захопливої тріумфальної ходи."
   grant_a_triumph_tt: "За останні 5 років ми здобули перемогу у війні."

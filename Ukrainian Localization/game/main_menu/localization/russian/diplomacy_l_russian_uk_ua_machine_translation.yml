@@ -2266,7 +2266,7 @@
   war_goal_high_kingship_superiority_wargoal: "Перевага верховного королівства"
   war_goal_high_kingship_superiority_wargoal_desc: "$generic_war_goal_superiority_desc$"
   war_goal_superiority_restore_roman_borders: "Відновлення римських кордонів"
-  war_goal_superiority_restore_roman_borders_desc: "Засяй знову, славний Риме! Доба занепаду добігає кінця. На зміну їй поспішає нова ера — ера торжества відродженої імперії, чудової та грандіозної. [ShowScriptedGeographyName('roman_borders_geography')] чекають нашого повернення!"
+  war_goal_superiority_restore_roman_borders_desc: "Засяй знову, славний Риме! Доба занепаду добігає кінця. На зміну їй поспішає нова ера — ера торжества відродженої імперії, величної та грандіозної. [ShowScriptedGeographyName('roman_borders_geography')] чекають нашого повернення!\n\nВи отримуєте надбавку до [Concept('war_score', 'воєнного рахунку')|e] за успішні облоги та [Concept('occupying', 'окупацію')|e] регіонів супротивника, що поширюються не далі, ніж [ShowScriptedGeographyName('roman_borders_geography')|l]. Супротивник регулярно отримує [Concept('war_score', 'воєнний рахунок')|e] за кожну [Concept('locations', 'місцевість')|e] на цих землях, яка не [Concept('occupied', 'окупована')|e] нами."
   WARGOAL_VS_PROV: "[Concept('province', 'Провінція')|e]"
   WARGOAL_VS_COUNTRY: "[Concept('country', 'Країна')|e]"
   WG_ATT_CONQUER_COST_FACTOR: "Вартість [Concept('conquer', 'завоювання')|e] для сторони, що атакує: $VAL|-=%V$"

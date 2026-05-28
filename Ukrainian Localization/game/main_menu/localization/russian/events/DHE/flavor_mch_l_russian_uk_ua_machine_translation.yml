@@ -76,7 +76,7 @@
   flavor_mch.14.a: "Хай буде так."
   flavor_mch.14.b: "Не будемо чіплятися за минуле."
   flavor_mch.15.title: "[ShowPolicyNameWithNoTooltip('mch_green_standard_army')]"
-  flavor_mch.15.entry: "Маньчжурське Військо Зеленого Прапора"
+  flavor_mch.15.entry: "Маньчжурське військо Зеленого стягу"
   flavor_mch.15.desc: "Ми продовжуємо відвойовувати #TOOLTIP:SUB_CONTINENT,china,X #L Китай#!#!, і під вісьмома #TOOLTIP:CULTUREGROUP,chinese_group,X #L китайськими#!#! прапорами вже не вмістити всіх новобранців, охочих вступити до лав #L [ROOT.GetCountry.GetAdjective|l]ого#! війська. Не можна відваджувати їх від пунктів призову, інакше ці люди поповнять лави заколотників, що дошкуляють нашій країні. Краще заснуємо #TOOLTIP:POLICY,mch_green_standard_army,X #L Військо Зеленого прапора#!#!, вступивши до якого, ці новобранці допоможуть нам охороняти порядок у завойованих землях #TOOLTIP:SUB_CONTINENT,china,X #L Китаю#!#!."
   flavor_mch.15.a: "Зараз же заснуємо новий прапор!"
   flavor_mch.15.b: "Зараз нам це не по кишені."

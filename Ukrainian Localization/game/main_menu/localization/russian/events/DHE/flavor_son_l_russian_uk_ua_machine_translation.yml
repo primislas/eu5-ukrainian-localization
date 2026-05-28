@@ -1,6 +1,6 @@
 ﻿l_russian:
   flavor_son.1.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] Тімбукту"
-  flavor_son.1.entry: "The $clergy_estate$ of Timbuktu"
+  flavor_son.1.entry: "Духовенство Тімбукту"
   flavor_son.1.desc: "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] стурбовані тим, що [target_character.GetName] демонструє брак віри та веде розпусний спосіб життя. Ба більше, вони вже почали пліткувати про те, що насправді [Select_CString(target_character.IsFemale,'вона язичниця', 'він язичник')] і [Select_CString(target_character.IsFemale,'її', 'його')] невір'я погубить нашу країну. [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] відкрито погрожують: якщо [target_character.GetShortNameWithNoTooltip] не почне дотримуватися заповідей #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламу#!#!, вони посадять на престол іншого, більш благочестивого правителя."
   flavor_son.1.a: "Відмовитися від вина та бенкетів? Ще чого!"
   flavor_son.1.b: "[target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale,'повинна', 'повинен')] поводитися, як личить віруючій людині."

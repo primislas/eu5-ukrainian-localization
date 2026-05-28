@@ -172,7 +172,7 @@
   flavor_sco.1103.a: "Все це по праву належить їм."
   flavor_sco.1103.tt: "$flavor_sco.1102.tt$"
   flavor_sco.1104.title: "[raided_location.GetNameWithNoTooltip] піддається нальоту розбійників з місцевості [raider_origin.GetNameWithNoTooltip]"
-  flavor_sco.1104.entry: "Border Reivers Raid Location"
+  flavor_sco.1104.entry: "Розбійники прикордоння розоряють місцевість"
   flavor_sco.1104.desc: "$flavor_sco.1102.desc$"
   flavor_sco.1104.a: "Сила — у стійкості."
   flavor_sco.1104.b: "Організувати допомогу."

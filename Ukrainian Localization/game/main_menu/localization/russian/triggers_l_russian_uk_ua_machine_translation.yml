@@ -750,7 +750,7 @@
   any_market_with_merchants_count: "$PARAMETERS$ з [Concept('market', 'ринків')|e], на яких у #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! є [Concept('merchants', 'купці')|e]"
   any_port_in_country: "Будь-який [Concept('port', 'порт')|e] на території #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
   any_sound_toll_in_country: "Будь-яка [Concept('sound_toll', 'плата за прохід')|E] [COUNTRY.Custom('preposition_uv')] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_PREP')|L]#!#!"
-  any_spy_network_built_in_us: "Будь-яка [Concept('country', 'країна')|e] зі [Concept('spy_network', 'шпигунською мережею')|e] [COUNTRY.Custom('preposition_uv')] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_PREP')|L]#!#!"
+  any_spy_network_built_in_us: "Будь-яка [Concept('country', 'країна')|e], яка активно розвиває [Concept('spy_network', 'шпигунську мережу')|e] [COUNTRY.Custom('preposition_uv')] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_PREP')|L]#!#!"
   any_privateer_in_area: "Будь-який [Concept('privateer', 'капер')|e] в області [AREA.GetName]"
   any_hired_mercenary: "Будь-які [Concept('mercenary', 'найманці')|e], найняті вашою країною"
   any_rented_out_mercenary: "Будь-які [Concept('mercenary', 'найманці')|e], найняті з вашої країни"

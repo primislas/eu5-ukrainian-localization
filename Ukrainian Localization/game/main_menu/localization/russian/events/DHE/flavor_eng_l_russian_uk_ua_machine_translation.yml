@@ -2052,7 +2052,7 @@
   flavor_eng.250.desc: "[ROOT.GetCountry.GetGovernment.GetRulerTitle], не порадившись із двором, [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'розірвала', 'розірвав')] попередній шлюб і [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'обвінчалася', 'обвінчався')] з іншою людиною: тепер [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'її', 'його')] новий консорт — [ROOT.GetCountry.GetGovernment.GetRuler.GetFirstSpouse.GetName]. Крім того, [ROOT.GetCountry.GetGovernment.GetRuler.GetName] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'порвала', 'порвав')] усі зв’язки з Римською церквою і [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'оголосила', 'оголосив')] себе главою церкви в іншій країні."
   flavor_eng.250.a: "Ми знаємо про те, що сталося."
   variable_tt_stannary_law: "Закон про станнарії"
-  variable_tt_epiphany_prequel_event_triggered: "The Epiphany Prequel"
+  variable_tt_epiphany_prequel_event_triggered: "Передісторія Водохресного заколоту"
   variable_tt_cornish_rebellion: "Корнуольське повстання"
   variable_tt_drake_loot: "Награбовані скарби Френсіса Дрейка"
   variable_tt_drake_ongoing_raid: "Нальоти Френсіса Дрейка тривають"

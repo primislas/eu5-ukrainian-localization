@@ -503,7 +503,7 @@
   bohemian_commonwealth_reform_desc: "В основі співдружності лежить реформована конституція [GetCountry('BOH').Custom('rank_ua_GEN')|l], яка надає більше привілеїв та свобод нашим народам."
   kritai_katholikoi_reformed: "Оновлений Критай катхолікой"
   kritai_katholikoi_reformed_desc: "[GetCharacter('byz_andronikos_ii_palaiologos').GetName] [Select_CString(GetCharacter('byz_andronikos_ii_palaiologos').IsFemale, 'створила', 'створив' )] успішну юридичну систему, однак їй були притаманні вроджені недоліки, завдяки яким судді нерідко керувалися особистим інтересом. Нова реформа спрощує чинні процеси судочинства та дозволяє побороти корупцію серед верховних суддів."
-  is_currently_in_disaster_for_byz_tt: "Лихо #TOOLTIP:DISASTER_TYPE,D008_fate_of_the_phoenix,X #L «Доля фенікса»#!#! ще не закінчилося, або ми успішно з ним впоралися"
+  is_currently_in_disaster_for_byz_tt: "Лихо «[ShowDisasterName('fate_of_the_phoenix')]» ще не закінчилося, або ми успішно з ним впоралися"
   modern_imperial_army: "Сучасне імперське військо"
   modern_imperial_army_desc: "$theme_system$, яка роками застосовувалася [GetCountry('BYZ').Custom('preposition_uv')] #ONCLICK:COUNTRY,[GetCountry('BYZ').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('BYZ').Custom('CL_tt')],X [GetCountry('BYZ').Custom('CL_PREP')|L]#!#!, показала свою неспроможність: вона посилила владу полководців і намісників, а позиції правителя, навпаки, послабила. Тому ми створили нове імперське військо, де вояк — це професія, а не обов'язок."
   omani_overseas_ambitions_reform: "Заморські території"
