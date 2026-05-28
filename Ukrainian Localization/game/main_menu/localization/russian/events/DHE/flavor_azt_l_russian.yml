@@ -76,7 +76,7 @@
  flavor_azt.190.c: "$52_year_cycle_c$"
  flavor_azt.190.d: "$52_year_cycle_d$"
  flavor_azt.200.title: "Переустройство Большого храма Теночтитлана"
- flavor_azt.200.entry: "The Reconstruction of the Great Temple of Tenōchtitlan"
+ flavor_azt.200.entry: "Перестройка Великого храма Теночтитлана"
  flavor_azt.200.desc: "#TOOLTIP:BUILDING_TYPE,great_temple_of_tenochtitlan,X #L Большой храм Теночтитлана#!#! в [target_location.Custom('LR_PREP')|l] [target_location.GetName] гордо возвышается уже несколько веков подряд. Облик его меняется соразмерно тому, как растёт наше величие, а богам приносятся всё новые жертвы. Чтобы нам и дальше сопутствовало процветание, мыслить следует на несколько шагов вперёд: возможно, храм понадобится расширить — разумеется, в соответствии с нашими обычаями и календарём."
  flavor_azt.200.a: "Да начнётся расширение!"
  flavor_azt.200.b: "Это слишком дорого..."

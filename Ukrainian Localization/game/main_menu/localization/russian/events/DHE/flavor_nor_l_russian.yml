@@ -44,7 +44,7 @@
  flavor_nor.16.a: "Мы будет сотрудничать с голландцами."
  STATIC_MODIFIER_NAME_nor_hollendertiden: "Голландский период"
  flavor_nor.21.title: "[tordenskiold.GetNameWithNoTooltip]"
- flavor_nor.21.entry: "Tordenskiøld"
+ flavor_nor.21.entry: "Торденшёльд"
  flavor_nor.21.desc: "Капитан [tordenskiold.GetName] известен в норвежском флоте как мастер дерзких нападений и хитрых манёвров. Его привычка не отступать, несмотря на обстоятельства и размеры вражеских кораблей, обеспечила ему головокружительную военную карьеру. Сегодня [ROOT.GetCountry.GetGovernment.GetRuler.GetName] приглашает его к себе, чтобы даровать ему дворянский титул за исключительные заслуги в открытом море."
  flavor_nor.21.a: "Отныне его будут величать Торденскьолем — «громовым щитом»."
  flavor_nor.22.title: "[cort_adeler.GetNameWithNoTooltip]"

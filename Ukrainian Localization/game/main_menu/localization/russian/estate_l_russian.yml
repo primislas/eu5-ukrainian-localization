@@ -540,7 +540,7 @@
  scottish_clans_desc: "Народ #ONCLICK:COUNTRY,[GetCountry('SCO').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SCO').Custom('CL_tt')],X [GetCountry('SCO').Custom('CL_GEN')|L]#!#!, в особенности на сельском севере, исторически разделён на множество кланов, которые связаны узами родства и близостью проживания, а также подчиняются единому вождю. Клановые собрания и межклановые отношения — одна из движущих сил #L [GetCountry('SCO').GetAdjective|l]ой#! политики."
  autonomous_scottish_clans: "Независимые шотландские кланы"
  autonomous_scottish_clans_desc: "$scottish_clans_desc$"
- gaelic_clans_pop_assignment_tt: "[ShowLanguageName('gaelic_language')]-speaking pops of the [ShowCultureGroupName('celtic_group')] culture group are assigned to the [ShowEstateTypeName('tribes_estate')]"
+ gaelic_clans_pop_assignment_tt: "#TOOLTIP:LANGUAGE,gaelic_language,X #L Гэльскоязычные#!#! группы населения #TOOLTIP:CULTUREGROUP,celtic_group,X #L кельтской#!#! культурной группы будут причислены к #TOOLTIP:ESTATE_TYPE,tribes_estate,X #L племенам#!#!"
  tribes_scotland_gaelic_heritage: "Общее шотландское наследие"
  tribes_scotland_gaelic_heritage_desc: "В течение сотен лет горные кланы сохраняли свои #TOOLTIP:LANGUAGE,gaelic_language,X #L гэльские#!#! обычаи и традиции, тогда как кланы низин постепенно формировали собственную #L [ShowCultureName('scottish')|l]ую#! культуру. Тем не менее все они готовы забыть о различиях, чтобы вместе дать отпор врагам, посягающим на #ONCLICK:COUNTRY,[GetCountry('SCO').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SCO').Custom('CL_tt')],X [GetCountry('SCO').Custom('CL_ACC')|L]#!#!."
  autonomous_tribes_scotland_gaelic_heritage: "Общее гэльское наследие независимых кланов"

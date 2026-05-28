@@ -12,7 +12,7 @@
  every_member_of_winner_ap_gains_opinion_of_scopewinner_tt: "Каждый участник патриархата «[target_winner_ap.GetName]» получит [ShowBiasValue('destroyed_another_autocephalous_patriarchate')|+=0] к мнению о нас"
  autocephalous_patriarchates.2.title: "Автокефальный патриархат пал!"
  autocephalous_patriarchates.2.desc: "$ap_falls_desc_key$"
- autocephalous_patriarchates.2.desc_diplomatic: "$ap_diplomatic_desc_key$ $ap_falls_desc_key_2$"
+ autocephalous_patriarchates.2.desc_diplomatic: "$ap_diplomatic_desc_key$ вопрос веры возложен на нас. $ap_falls_desc_key_2$"
  autocephalous_patriarchates.2.a: "Распустим патриархат."
  autocephalous_patriarchates.2.b: "Сохраним патриархат."
  autocephalous_patriarchates.3.title: "Восстановление патриархата [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip]"

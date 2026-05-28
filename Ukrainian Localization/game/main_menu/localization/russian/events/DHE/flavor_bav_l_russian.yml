@@ -119,7 +119,7 @@
  flavor_bav.30.a: "В истории [bavaria_country.Custom('CL_GEN')] начинается новая эпоха!"
  flavor_bav.30.a.entry: "В их истории начинается новая эпоха!"
  flavor_bav.31.title: "[GetUniqueInternationalOrganization('hre').GetLeaderTitle] [Select_CString(emperor_ruler.IsFemale, 'отвергла', 'отверг')] нашу просьбу"
- flavor_bav.31.entry: "Request Denied by the $hre$"
+ flavor_bav.31.entry: "Священная Римская Империя отвергла нашу просьбу"
  flavor_bav.31.desc: "[emperor_ruler.GetName] [Select_CString(emperor_ruler.IsFemale, 'отказалась', 'отказался')] наделить #ONCLICK:COUNTRY,[bavaria_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[bavaria_country.Custom('CL_tt')],X [bavaria_country.Custom('CL_ACC')|L]#!#! статусом #TOOLTIP:SPECIAL_STATUS,elector,X #L курфюршества#!#!, невзирая на нашу помощь в #TOOLTIP:SITUATION,war_of_religions,X #L религиозной войне#!#!. Равновесие сил в #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священной Римской Империи#!#! остаётся неизменным."
  flavor_bav.31.a: "Независимо от [Select_CString(emperor_ruler.IsFemale, 'её', 'его')] решения, мы станем лишь сильнее."
  flavor_bav.32.title: "Мы утратили статус курфюршества!"

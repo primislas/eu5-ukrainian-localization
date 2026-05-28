@@ -133,7 +133,7 @@
  STATIC_MODIFIER_NAME_plc_strive_for_reform: "Жажда реформ"
  plc_as_long_as_modifier_is_active_revoking_privileges_will_be_easier: "Пока действует модификатор «[ShowModifier('plc_strive_for_reform')]», для отмены [Concept('privileges', 'привилегий')|e] «[ShowEstatePrivilegeName('golden_liberty')]», «[ShowEstatePrivilegeName('liberum_veto')]», «[ShowEstatePrivilegeName('pacta_conventa')]», «[ShowEstatePrivilegeName('privilege_of_koszyce')]», «[ShowEstatePrivilegeName('nihil_novi')]» и «[ShowEstatePrivilegeName('nieszawa_privileges')]» не будет никаких требований."
  flavor_plc.1000.title: "Православные [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] требуют равных прав"
- flavor_plc.1000.entry: "Orthodox $nobles_estate$ Demand Equal Rights"
+ flavor_plc.1000.entry: "Православные аристократы требуют равных прав"
  flavor_plc.1000.desc: "На протяжении многих лет #L [ROOT.GetCountry.GetReligion.GetAdjective|l]ие#! [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] получали множество привилегий, которые, впрочем, зачастую не касались их #L [target_religion.GetAdjective|l]их#! товарищей. Последние недовольны таким положением дел и считают, что их права нарушаются. Ввиду этого они обратились к правительству с просьбой распространить на них действие ряда привилегий. Их запрос вполне понятен, но удивительно другое: [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip|l]ие [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] поддерживают своих знатных собратьев, невзирая на религиозные разногласия."
  flavor_plc.1000.a: "Предоставить привилегии."
  flavor_plc.1000.b: "Отказать в просьбе."

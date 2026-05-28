@@ -2052,7 +2052,7 @@
  flavor_eng.250.desc: "[ROOT.GetCountry.GetGovernment.GetRulerTitle], не посоветовавшись с двором, [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'расторгла', 'расторг')] предыдущий брак и [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'обвенчалась', 'обвенчался')] с другим человеком: теперь [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'её', 'его')] новый консорт — [ROOT.GetCountry.GetGovernment.GetRuler.GetFirstSpouse.GetName]. Кроме того, [ROOT.GetCountry.GetGovernment.GetRuler.GetName] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'порвала', 'порвал')] все связи с Римской церковью и [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'объявила', 'объявил')] себя главой церкви в другой державе."
  flavor_eng.250.a: "Мы знаем о случившемся."
  variable_tt_stannary_law: "Закон о станнариях"
- variable_tt_epiphany_prequel_event_triggered: "The Epiphany Prequel"
+ variable_tt_epiphany_prequel_event_triggered: "Предыстория Крещенского заговора"
  variable_tt_cornish_rebellion: "Корнуэльское восстание"
  variable_tt_drake_loot: "Награбленные сокровища Фрэнсиса Дрейка"
  variable_tt_drake_ongoing_raid: "Налёты Фрэнсиса Дрейка продолжаются"

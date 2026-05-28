@@ -210,7 +210,7 @@
  PEACE_OFFER_CLEAR_DEMAND_DESC: "Очистить мирное требование к #ONCLICK:COUNTRY,[PeaceOfferLateralView.GetSelectedParticipant.Custom('CL_tt')] #TOOLTIP:COUNTRY,[PeaceOfferLateralView.GetSelectedParticipant.Custom('CL_tt')],X [PeaceOfferLateralView.GetSelectedParticipant.Custom('CL_DAT')|L]#!#!."
  PEACE_OFFER_SEND_OFFER_BALANCE: "@trigger_no! Мы не можем отправить предложение с отрицательным балансом, враги его попросту не примут!"
  PEACE_OFFER_SEND_MAX_WAR_SCORE: "@trigger_no! Мы не можем отправить предложение, которое превосходит максимальный военный счёт!"
- PEACE_OFFER_LIMITED_DIPLOMACY: "@trigger_no! [COUNTRY.GetName] не мо[COUNTRY.Custom('end_gegu')] вести переговоры самостоятельно. Нужно договариваться с [Concept('overlord', 'сюзереном')|e]."
+ PEACE_OFFER_LIMITED_DIPLOMACY: "@trigger_no! [COUNTRY.GetName] — верный [Concept('subject', 'ленник')|e]. [Concept('diplomacy', 'Дипломатические')|e] возможности этой державы ограниченны, она не может вести переговоры самостоятельно. Нужно договариваться с [Concept('overlord', 'сюзереном')|e]."
  PEACE_OFFER_WAR_SCORE_COST: "#T  $NAME$#!\n[Concept('peace_cost', 'Стоимость мира')|e]: $VAL|V2$. Причины:"
  PEACE_OFFER_ANTAGONISM_TAKER: "#T $NAME$#!\nЭтот [Concept('peace_treaty', 'мирный договор')|e] принесёт @[COUNTRY.GetFlag]! #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_DAT')|L]#!#! $VAL|-=2$[antagonism_i] со стороны других держав. Причины:"
  PEACE_OFFER_INCDECWARSCORETOOLTIP: "[PeaceOfferWarScoreTreatyGlue.GetIncWarScoreTooltip]\n\n[PeaceOfferWarScoreTreatyGlue.GetDecWarScoreTooltip]"

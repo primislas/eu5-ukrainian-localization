@@ -1,7 +1,7 @@
 ﻿l_russian:
  maintain_bureaucracy_price: "Стоимость поддержания бюрократии"
  MODIFIER_TYPE_NAME_maintain_bureaucracy_price_cost_modifier: "Модификатор «$maintain_bureaucracy_price$»"
- MODIFIER_TYPE_DESC_maintain_bureaucracy_price_cost_modifier: "Влияет на [Concept('costs', 'стоимость')|e] содержания нашего [Concept('bureaucracy', 'бюрократического механизма')|e]."
+ MODIFIER_TYPE_DESC_maintain_bureaucracy_price_cost_modifier: "Влияет на то, сколько [Concept('costs', 'стоит')|e] содержать [Concept('bureaucracy', 'бюрократический механизм')|e]."
  remove_bureaucracy_price: "Стоимость отказа от бюрократии"
  MODIFIER_TYPE_NAME_remove_bureaucracy_price_cost_modifier: "Модификатор «$remove_bureaucracy_price$»"
  MODIFIER_TYPE_DESC_remove_bureaucracy_price_cost_modifier: "Влияет на [Concept('costs', 'стоимость')|e] отказа от [Concept('bureaucracy', 'бюрократического механизма')|e]."

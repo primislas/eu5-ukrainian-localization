@@ -76,7 +76,7 @@
  flavor_mch.14.a: "Да будет так."
  flavor_mch.14.b: "Не будем цепляться за прошлое."
  flavor_mch.15.title: "[ShowPolicyNameWithNoTooltip('mch_green_standard_army')]"
- flavor_mch.15.entry: "The $MCH_ADJ$ Green Standard Army"
+ flavor_mch.15.entry: "Маньчжурская армия Зелёного знамени"
  flavor_mch.15.desc: "Мы продолжаем отвоёвывать #TOOLTIP:SUB_CONTINENT,china,X #L Китай#!#!, и под восемью #TOOLTIP:CULTUREGROUP,chinese_group,X #L китайскими#!#! знамёнами уже не вместить всех новобранцев, желающих вступить в ряды #L [ROOT.GetCountry.GetAdjective|l]ой#! армии. Нельзя отваживать их от пунктов призыва, иначе эти люди пополнят ряды мятежников, досаждающих нашей державе. Лучше учредим #TOOLTIP:POLICY,mch_green_standard_army,X #L Армию Зелёного знамени#!#!, вступив в которую, эти новобранцы помогут нам охранять порядок в завоёванных землях #TOOLTIP:SUB_CONTINENT,china,X #L Китая#!#!."
  flavor_mch.15.a: "Сейчас же учредим новое знамя!"
  flavor_mch.15.b: "Сейчас нам это не по карману."
