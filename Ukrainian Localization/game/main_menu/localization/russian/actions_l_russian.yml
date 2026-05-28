@@ -412,7 +412,7 @@
  bosnian_church_diplomacy: "Отправка посольства в Рим"
  bosnian_church_diplomacy_desc: "Из-за нашей религиозной изоляции многие соседи не считают нас подлинными католиками и даже обвиняют в ереси. Посланникам нашей церкви следует отправиться в Рим и принести клятву верности папе, чтобы положить конец этим опасным слухам."
  bosnian_church_diplomacy_tt: "Наши отношения со всеми державами, поддержавшими #TOOLTIP:LOCATION,rome,X #L Рим#!#!, улучшатся."
- improve_opinion_with_all_catholics_tt: "Мы улучшим [Concept('opinion', 'мнение')|e] всех #TOOLTIP:RELIGION,$catholic_tt$,X #L католических#!#! [Concept('country', 'держав')|e] о нас на #G 50#!"
+ improve_opinion_with_all_catholics_tt: "Мы улучшим [Concept('opinion', 'мнение')|e] всех #TOOLTIP:RELIGION,$catholic_tt$,X #L католических#!#! [Concept('country', 'держав')|e] о нас на [ShowBiasValue('opinion_bosnian_church_diplomacy')|+=0]"
  expose_the_enemies_of_the_faith: "Изобличение врагов веры"
  expose_the_enemies_of_the_faith_desc: "Соседи считают нашу державу рассадником ереси, а крестоносцы — врагом. Наша церковь вынужденно отказалась от традиционных обрядов, но не потеряла бдительность: выведя на чистую воду посланников враждебных нам церквей и дворов, мы сбережём свою веру и лишим недоброжелателей возможности угрожать нам."
  expose_the_enemies_of_the_faith_tt: "Размер каждой враждебной [Concept('spy_network', 'шпионской сети')|e] в [Concept('country', 'державе')|e] уменьшается на #G 10#!"

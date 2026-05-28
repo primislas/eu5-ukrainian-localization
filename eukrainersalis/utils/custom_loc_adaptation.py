@@ -46,7 +46,10 @@ def _read_declarations(fpath: Path) -> dict[str, list[str]]:
 
 
 def adapt_ru_to_ua(l: str) -> str:
-    return l.replace("_ru_", "_ua_").replace("_RU_", "_UA_")
+    res = l.replace("_ru_", "_ua_").replace("_RU_", "_UA_").replace("_ru ", "_ua ").replace("_RU ", "_UA ")
+    if res.endswith("_ru"):
+        return res[:-3] + "_ua"
+    return res
 
 
 def write_lines_to_fpointer(fp, lines: list[str]):
@@ -61,10 +64,10 @@ def write_lines_to_file(fpath: Path, lines: list[str]):
 
 
 def adapt_ru_custom_suffix():
-    custom_suffix_file_path = custom_localization_translation_dir_path / "ru_custom_suffix.txt"
+    custom_suffix_file_path = custom_localization_translation_dir_path / "ru_EU5_custom_suffix.txt"
     declarations = _read_declarations(custom_suffix_file_path)
 
-    output_file_path = custom_localization_mod_dir_path / "ru_custom_suffix.txt"
+    output_file_path = custom_localization_mod_dir_path / "380_ua_custom_suffix.txt"
     with output_file_path.open("w", encoding="utf-8-sig") as f:
         for dec, lines in declarations.items():
             if dec.startswith("endlong") or dec.startswith("endrank"):
@@ -91,7 +94,7 @@ def adapt_ru_custom_suffix():
 
 
 def adapt_ru_custom_loc():
-    custom_ending_file_path = custom_localization_translation_dir_path / "ru_custom_loc.txt"
+    custom_ending_file_path = custom_localization_translation_dir_path / "ru_EU5_custom_loc.txt"
     declarations = _read_declarations(custom_ending_file_path)
 
     key_overwrites = []
@@ -100,12 +103,12 @@ def adapt_ru_custom_loc():
             # separate processing
             continue
 
-        if k.startswith("IO_wntt") or k.startswith("LR_"):
+        if k.startswith("LR_"):
             key_overwrites.append(k)
             continue
 
         migrated_lines = [adapt_ru_to_ua(l) for l in lines]
-        fpath = custom_localization_mod_dir_path / f"ua_custom_loc_{k}.txt"
+        fpath = custom_localization_mod_dir_path / f"380_ua_custom_loc_{k}.txt"
         write_lines_to_file(fpath, migrated_lines)
 
     for ec in ending_configs:
@@ -117,16 +120,24 @@ def adapt_ru_custom_loc():
         write_lines_to_file(fpath, migrated_lines)
 
     if key_overwrites:
-        fpath = custom_localization_mod_dir_path / f"ru_custom_loc.txt"
+        fpath = custom_localization_mod_dir_path / f"380_ua_custom_loc.txt"
         with fpath.open("w", encoding="utf-8-sig") as cl_overwrite_f:
             for k in key_overwrites:
                 migrated_lines = [adapt_ru_to_ua(l) for l in declarations[k]]
                 write_lines_to_fpointer(cl_overwrite_f, migrated_lines)
 
 
-# TODO: ru_custom_suffix
+def adapt_ru_custom_culture():
+    custom_culture_file_path = custom_localization_translation_dir_path / "ru_EU5_custom_culture.txt"
+    declarations = _read_declarations(custom_culture_file_path)
+    output_file_path = custom_localization_mod_dir_path / "380_ua_custom_culture.txt"
+    with output_file_path.open("w", encoding="utf-8-sig") as f:
+        for dec, lines in declarations.items():
+            migrated_lines = [adapt_ru_to_ua(l) for l in lines]
+            write_lines_to_fpointer(f, migrated_lines)
 
 
 if __name__ == "__main__":
     adapt_ru_custom_loc()
     adapt_ru_custom_suffix()
+    adapt_ru_custom_culture()

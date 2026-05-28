@@ -44,7 +44,7 @@
   flavor_hol.7.desc: "[target_character.GetName], вельми відомий і талановитий книжник, прибув до #TOOLTIP:LOCATION,amsterdam,X #L Амстердама#!#!, щоб відкрити власну #TOOLTIP:BUILDING_TYPE,printing_press_shop,X #L друкарню#!#!."
   flavor_hol.7.historical_info: "Колишній купець і палітурник Лодевійк Ельзевір прославився як видавець і книгодрукар. 1583 року в Лейдені він видав свою першу книгу і заклав основи сімейного бізнесу, який проіснував до 1791 року. Книги Ельзевіра славилися не лише витонченістю та акуратністю, а й зручними компактними форматами аж до 1/12 звичайного розміру."
   flavor_hol.7.a: "Дозволимо йому відкрити друкарню."
-  flavor_hol.7.b: "Видавати книги мають право лише [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l]."
+  flavor_hol.7.b: "Видавати книги ма[ROOT.GetCountry.Custom('clergy_yeyut')] право лише [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l]."
   flavor_hol.7.b.entry: "Видавати книги мають право лише священники."
   flavor_hol.8.title: "Грандіозні плани з колонізації"
   flavor_hol.8.entry: "$flavor_hol.8.title$"

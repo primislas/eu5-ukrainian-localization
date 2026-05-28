@@ -17,7 +17,7 @@
   orthodox_icon_events.5.b: "На знак подяки ми візьмемо цього художника на службу."
   orthodox_icon_events.5.c: "Найщедріший дар дістанеться жертводавцю."
   orthodox_icon_events.6.title: "[target_art.GetNameWithNoTooltip]"
-  orthodox_icon_events.6.desc: "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|U] заявляють: своїм процвітанням провінція [climacus_church_province.GetName] завдячує тому, що серед місцевих жителів широко шанується [target_character.GetName] і даний ним приклад духовного зростання. І дійсно, врожаї в цій провінції стали щедрішими, а люди — вірними та миролюбними. Вже не перше століття твір «[target_art.GetName]» незмінно допомагає безлічі людей зростати над собою, і зараз [target_character.GetNameWithNoTooltip] знову приходить до нас на допомогу."
+  orthodox_icon_events.6.desc: "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|U] заявля[ROOT.GetCountry.Custom('clergy_yeyut')]: своїм процвітанням провінція [climacus_church_province.GetName] завдячує тому, що серед місцевих жителів широко шанується [target_character.GetName] і даний ним приклад духовного зростання. І дійсно, врожаї в цій провінції стали щедрішими, а люди — вірними та миролюбними. Вже не перше століття твір «[target_art.GetName]» незмінно допомагає безлічі людей зростати над собою, і зараз [target_character.GetNameWithNoTooltip] знову приходить до нас на допомогу."
   orthodox_icon_events.6.a: "«Сліз твоїх течіями пустелю безплідну обробив єси»."
   orthodox_icon_events.6.b: "«І іже з глибини зітханнями у сто трудів уплодоносив єси»."
   orthodox_icon_events.6.c: "«І був єси світильник вселенній, сяючи чудесами»."

@@ -12,7 +12,7 @@
   decline_of_majapahit.3.a: "Виправдаємо кампанію відплати."
   decline_of_majapahit.3.b: "Зосередимося на внутрішніх питаннях."
   decline_of_majapahit.4.title: "Невдоволення місцевих"
-  decline_of_majapahit.4.desc: "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] у провінції [target_province.GetName] підняли повстання проти влади адіпаті. Місцевому гарнізону не вдалося придушити заколот, і тепер уся провінція загрузла в безладі."
+  decline_of_majapahit.4.desc: "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] у провінції [target_province.GetName] підня[ROOT.GetCountry.Custom('peasants_vlaloly')] повстання проти влади адіпаті. Місцевому гарнізону не вдалося придушити заколот, і тепер уся провінція загрузла в безладі."
   decline_of_majapahit.4.a: "Перечекаємо."
   decline_of_majapahit.4.b: "Задобримо заколотників золотом."
   decline_of_majapahit.5.title: "Претендент домагається трону"

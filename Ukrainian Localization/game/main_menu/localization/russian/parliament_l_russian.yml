@@ -23,7 +23,7 @@
  PARLIAMENT_IF_FAIL_TT: "Если дебаты #R провалятся#!"
  PARLIAMENT_CURRENT_SUPPORT: "Текущая парламентская поддержка: $SUPPORT$%"
  NO_POSSIBLE_AGENDAS: "@trigger_no! Больше нет возможных [Concept('parliament_agendas', 'парламентских требований')|e]."
- LAWS_THAT_CAN_BE_DEBATED: "Правила для обсуждений"
+ LAWS_THAT_CAN_BE_DEBATED: "Политики для обсуждений"
  IO_PARLIAMENT_NO_LAWS_CALL_DIET: "@trigger_no! Нет [Concept('laws', 'правил')|e] для обсуждения. Все правила содержатся в имперской конституции."
  ACTIVE_PARLIAMENT_SUPPORT_POWER: "Базовое значение ($VAL|2G$) [Concept('estate_power', 'сословной власти')|e] изменено:"
  ACTIVE_PARLIAMENT_SUPPORT_IMPORTANCE: "Важность требования: $VAL|2+=%$"

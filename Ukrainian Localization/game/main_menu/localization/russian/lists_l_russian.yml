@@ -194,7 +194,7 @@
  DISEASE_SORT_BY_OUTBREAKS_AMOUNT: "Сортировать по количеству вспышек [Concept('disease', 'эпидемий')|e]"
  MOVEMENT_SORT_BY_NAME: "Сортировать по названию [Concept('movement', 'движения')|e]"
  MOVEMENT_SORT_BY_COUNTRY_AFFECTED: "Сортировать по затронутой [Concept('country', 'державе')|e]"
- MOVEMENT_SORT_BY_AMOUNT: "Sort by the amount of [movement|e]"
+ MOVEMENT_SORT_BY_AMOUNT: "Сортировать по количеству [Concept('movement', 'движений')|e]"
  BUILDING_LOCATION_SORT_BY_LOCATION: "Сортировать по названию [Concept('location', 'района')|e]"
  BUILDING_LOCATION_SORT_BY_UNEMPLOYED: "Сортировать по количеству доступных рабочих"
  BUILDING_LOCATION_SORT_BY_PROFIT: "Сортировать по прибыли"

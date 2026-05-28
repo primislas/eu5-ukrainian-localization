@@ -90,7 +90,7 @@
  flavor_por.17.b: "Мы согласны."
  flavor_por.17.tt3: "[heir.GetName] лишится права на престолонаследие"
  flavor_por.19.title: "[joao_braganca.GetNameWithNoTooltip]"
- flavor_por.19.entry: "João de Bragança"
+ flavor_por.19.entry: "Жуан де Браганса"
  flavor_por.19.desc: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] стремительно теряют влияние, и теперь у них не осталось ни мест в совете, ни поддержки со стороны двора. При этом наши шпионы сообщают, что выскочка по имени [joao_braganca.GetName] пытается найти сторонников, свергнуть [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'нашу правительницу', 'нашего правителя')] и восстановить все привилегии, которые утратили [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l]."
  flavor_por.19.desc_subject: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] стремительно теряют своё влияние, и теперь у них не осталось ни мест в совете, ни поддержки со стороны двора. Однако наши шпионы сообщают, что храбрый маркиз [joao_braganca.GetName] планирует свергнуть #L [overlord.GetCountry.GetAdjective|l]ую#! власть и провозгласить независимость #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. В этом деле его поддерживает группа аристократов, которые известны как #italic «Сорок заговорщиков»#!. Вместе они уже разработали план и лишь ждут подходящего момента, чтобы его осуществить."
  flavor_por.19.a: "Отречься от престола и уступить ему власть."

@@ -28,7 +28,7 @@
   flavor_ath.5.b: "Надамо дружині додаткові привілеї та права на землю."
   flavor_ath.5.c: "Проженемо найманців з [ROOT.GetCountry.Custom('rank_ua_GEN')|l]."
   flavor_ath.5.c.entry: "Проженемо дружину з країни."
-  flavor_ath.6.title: "[scope_athens.GetNameWithNoTooltip] Overthrows [ShowDynastyNameWithNoTooltip('barcelona_dynasty')] Rule"
+  flavor_ath.6.title: "[scope_athens.GetNameWithNoTooltip] скида[ROOT.GetCountry.Custom('endlong_yeyut')] владу Барселонського дому"
   flavor_ath.6.desc: "Наш двір отримав вкрай неприємні звістки: [scope_ath_william.GetName] несподівано помер від хвороби. Що ще гірше, #L [scope_athens.GetAdjective|l]і#! аристократи, користуючись тимчасовим безвладдям, вирішили влаштувати переворот і передати престол династії [arg_ruler.GetDynasty.GetName]. В результаті [scope_ruler.GetName] [Select_CString(scope_ruler.IsFemale, 'залишилася', 'залишився')] не при справах: [arg_ruler.GetName] [Select_CString(arg_ruler.IsFemale, 'відмовилася', 'відмовився')] від своєї васальної присяги і [Select_CString(arg_ruler.IsFemale, 'погодилася стати новою правителькою', 'погодився стати новим правителем')] [scope_athens.Custom('rank_ua_GEN')|l]."
   flavor_ath.6.a: "Ми повинні повернути [scope_athens.Custom('CL_ACC')] під свій контроль!"
   flavor_ath.6.a.entry: "$ATH$ необхідно повернути!"

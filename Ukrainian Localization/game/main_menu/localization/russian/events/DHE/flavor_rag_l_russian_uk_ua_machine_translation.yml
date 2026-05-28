@@ -1,7 +1,7 @@
 ﻿l_russian:
   flavor_rag.1000.title: "Ворог біля воріт"
   flavor_rag.1000.entry: "$flavor_rag.1000.title$"
-  flavor_rag.1000.desc: "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] отримав лихі вісті: величезне #L [GetCountry('TUR').GetAdjective|l] військо#! все ж підійшло до наших кордонів. На жаль, очевидно, що [ROOT.GetCountry.GetFlavorRank|l] не висто[ROOT.GetCountry.Custom('endrank_yityat')] під його натиском, і тому деякі наші дворяни виступили зі сміливою пропозицією. На їхню думку, [GetCountry('TUR').GetNameWithNoTooltip] і [ROOT.GetCountry.GetName] не мають жодних суттєвих протиріч, і, отже, визнання їхнього верховенства з виплатою щорічної данини в обмін на захист і свободу може стати для нас єдиним способом вижити."
+  flavor_rag.1000.desc: "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] отримав лихі вісті: величезне #L [GetCountry('TUR').GetAdjective|l]е військо#! все ж підійшло до наших кордонів. На жаль, очевидно, що [ROOT.GetCountry.GetFlavorRank|l] не висто[ROOT.GetCountry.Custom('endrank_yityat')] під його натиском, і тому деякі наші дворяни виступили зі сміливою пропозицією. На їхню думку, [GetCountry('TUR').GetNameWithNoTooltip] і [ROOT.GetCountry.GetName] не мають жодних суттєвих протиріч, і, отже, визнання їхнього верховенства з виплатою щорічної данини в обмін на захист і свободу може стати для нас єдиним способом вижити."
   flavor_rag.1000.a: "Відправимо посла домовитися з турками. Можливо, [GetCountry('TUR').GetGovernment.GetRulerTitle|l] виявить прихильність."
   flavor_rag.1000.a.entry: "Відправимо посла домовитися з ним."
   flavor_rag.1000.b: "Ми відстоїмо свою незалежність, чого б нам це не коштувало!"

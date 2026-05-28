@@ -194,7 +194,7 @@
   DISEASE_SORT_BY_OUTBREAKS_AMOUNT: "Сортувати за кількістю спалахів [Concept('disease', 'епідемій')|e]"
   MOVEMENT_SORT_BY_NAME: "Сортувати за назвою [Concept('movement', 'руху')|e]"
   MOVEMENT_SORT_BY_COUNTRY_AFFECTED: "Сортувати за охопленою [Concept('country', 'країною')|e]"
-  MOVEMENT_SORT_BY_AMOUNT: "Sort by the amount of [movement|e]"
+  MOVEMENT_SORT_BY_AMOUNT: "Сортувати за кількістю [Concept('movement', 'рухів')|e]"
   BUILDING_LOCATION_SORT_BY_LOCATION: "Сортувати за назвою [Concept('location', 'місцевості')|e]"
   BUILDING_LOCATION_SORT_BY_UNEMPLOYED: "Сортувати за кількістю доступних робітників"
   BUILDING_LOCATION_SORT_BY_PROFIT: "Сортувати за прибутком"

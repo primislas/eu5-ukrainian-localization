@@ -750,7 +750,7 @@
  any_market_with_merchants_count: "$PARAMETERS$ из [Concept('market', 'рынков')|e], на которых у #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! есть [Concept('merchants', 'купцы')|e]"
  any_port_in_country: "Любой [Concept('port', 'порт')|e] на территории #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
  any_sound_toll_in_country: "Любая [Concept('sound_toll', 'плата за проход')|E] [COUNTRY.Custom('predlog_vvo')] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_PREP')|L]#!#!"
- any_spy_network_built_in_us: "Любая [Concept('country', 'держава')|e] со [Concept('spy_network', 'шпионской сетью')|e] [COUNTRY.Custom('predlog_vvo')] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_PREP')|L]#!#!"
+ any_spy_network_built_in_us: "Любая [Concept('country', 'держава')|e], которая активно развивает [Concept('spy_network', 'шпионскую сеть')|e] [COUNTRY.Custom('predlog_vvo')] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_PREP')|L]#!#!"
  any_privateer_in_area: "Любой [Concept('privateer', 'капер')|e] в области [AREA.GetName]"
  any_hired_mercenary: "Любые [Concept('mercenary', 'наёмники')|e], нанятые вашей державой"
  any_rented_out_mercenary: "Любые [Concept('mercenary', 'наёмники')|e], нанятые из вашей державы"
