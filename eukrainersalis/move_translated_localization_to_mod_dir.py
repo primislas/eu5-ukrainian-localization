@@ -73,6 +73,11 @@ def move_modded_files_to_mod_dir():
     for root, dirs, files in os.walk(project_mod_dir):
         for file in files:
             from_file = os.path.join(root, file)
+            # Assets are building blocks for other files, usually auto-generated.
+            # But they are kept next to auto-generated files for simpler management.
+            if "/assets/" in from_file:
+                continue
+
             rel_path = os.path.relpath(root, project_mod_dir)
             to_dir = os.path.join(mod_dir, rel_path)
             to_file = os.path.join(to_dir, file)
