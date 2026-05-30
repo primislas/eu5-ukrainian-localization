@@ -139,6 +139,15 @@ nobles_estate = {
 				any_overlord_or_above = {
 					tag = VEN
 				}
+				AND = {
+				    government_type = government_type:republic
+					OR = {
+                        court_language = language:north_italian_language
+                        culture.language = language:north_italian_language
+                        court_language = language:south_italian_language
+                        culture.language = language:south_italian_language
+					}
+				}
 			}
 		}
 	}
@@ -171,6 +180,16 @@ nobles_estate = {
 				}
 			}
 		}
+	}
+
+	text = {
+	    localization_key = nobles_estate_panirytiri
+	    trigger = {
+			OR = {
+				court_language = language:czechslovak_language
+				culture.language = language:czechslovak_language
+			}
+	    }
 	}
 
 	text = {
@@ -214,7 +233,11 @@ nobles_estate = {
 			OR = {
 				culture = culture:english
 				culture = culture:anglo_irish
-			}
+                court_language = language:north_italian_language
+                culture.language = language:north_italian_language
+                court_language = language:south_italian_language
+                culture.language = language:south_italian_language
+            }
 		}
 	}
 	
@@ -407,6 +430,28 @@ nobles_estate = {
 
 burghers_estate = {
 	type = country
+
+    text = {
+        localization_key = burghers_estate_german
+        trigger = {
+            OR = {
+                court_language = language:german_language
+                culture.language = language:german_language
+            }
+        }
+    }
+
+    text = {
+        localization_key = burghers_estate_italian
+        trigger = {
+            OR = {
+                court_language = language:north_italian_language
+                culture.language = language:north_italian_language
+                court_language = language:south_italian_language
+                culture.language = language:south_italian_language
+            }
+        }
+    }
 
 	text = {
 		localization_key = burghers_estate_greek

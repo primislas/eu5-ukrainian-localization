@@ -1,4 +1,4 @@
-﻿country_ua_flavor_parliament = {
+﻿country_flavor_parliament = {
 	type = country
 	log_loc_errors = no
 
@@ -481,12 +481,12 @@
 			culture.language = language:hindustani_language
 		}
 	}
-	text = {
-		localization_key = country_flavor_parliament_majlis
-		trigger = {
-			culture.language = language:tamazight_language
-		}
-	}
+	#text = {
+	#	localization_key = country_flavor_parliament_majlis
+	#	trigger = {
+	#		culture.language = language:tamazight_language
+	#	}
+	#}
 	text = {
 		localization_key = country_flavor_parliament_landtag
 		trigger = {
@@ -552,9 +552,35 @@
 		}
 	}
 	text = {
+		localization_key = country_flavor_parliament_tribe_arabic
+		trigger = {
+    		government_type = government_type:tribe
+			culture.language = language:arabic_language
+		}
+	}
+	text = {
 		localization_key = country_flavor_parliament_arabic
 		trigger = {
 			culture.language = language:arabic_language
+		}
+	}
+	text = {
+		localization_key = country_flavor_parliament_amazigh
+		trigger = {
+		    government_type = government_type:tribe
+			OR = {
+				culture.language = language:tamazight_language
+				court_language = language:tamazight_language
+			}
+		}
+	}
+	text = {
+		localization_key = country_flavor_parliament_maghrebi
+		trigger = {
+			OR = {
+				culture.language = language:tamazight_language
+				court_language = language:tamazight_language
+			}
 		}
 	}
 	text = {
@@ -671,7 +697,7 @@ Get_ua_Siblings = {
 	}
 	if_invalid_loc = return_empty
 }
-country_ua_flavor = {
+country_flavor = {
 	type = country
 	log_loc_errors = no
 
@@ -2541,7 +2567,14 @@ country_ua_flavor = {
 	text = {
 		localization_key = rank_duchy
 		trigger = {
+			country_rank_is_duchy = yes
+			religion.group = religion_group:christian
+		}
+	}
 
+	text = {
+		localization_key = rank_duchy_principality
+		trigger = {
 			country_rank_is_duchy = yes
 		}
 	}
@@ -2789,6 +2822,34 @@ country_ua_flavor = {
 	}
 
 	text = {
+		localization_key = rank_county_tribe_arabic
+		trigger = {
+			country_rank_is_county = yes
+			government_type = government_type:tribe
+			OR = {
+				court_language ?= language:arabic_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:arabic_language
+				}
+			}
+		}
+	}
+	
+	text = {
+		localization_key = rank_county_amazigh
+		trigger = {
+			country_rank_is_county = yes
+			government_type = government_type:tribe
+			OR = {
+				culture.language = language:tamazight_language
+				court_language = language:tamazight_language
+			}
+        }
+	}
+
+	text = {
 		localization_key = rank_county_tribe
 		trigger = {
 
@@ -2796,7 +2857,7 @@ country_ua_flavor = {
 			government_type = government_type:tribe
 		}
 	}
-	
+
 	# Default
 
 	text = {
@@ -3015,7 +3076,49 @@ country_ua_flavor = {
 	}
 
 	text = {
-		localization_key = rank_county
+		localization_key = rank_county_persian
+		trigger = {
+			country_rank_is_county = yes
+			OR = {
+				court_language ?= language:persian_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:persian_language
+				}
+			}
+        }
+	}
+
+	text = {
+		localization_key = rank_county_maghrebi
+		trigger = {
+			country_rank_is_county = yes
+			OR = {
+				culture.language = language:tamazight_language
+				court_language = language:tamazight_language
+			}
+        }
+	}
+
+	text = {
+	    localization_key = rank_county
+	    trigger = {
+			country_rank_is_county = yes
+	        religion.group = religion_group:christian
+	    }
+	}
+
+	text = {
+	    localization_key = rank_county_arabic
+	    trigger = {
+			country_rank_is_county = yes
+	        religion.group = religion_group:muslim
+	    }
+	}
+
+	text = {
+		localization_key = rank_duchy_principality
 		fallback = yes
 	}
 	if_invalid_loc = return_empty
@@ -3809,151 +3912,151 @@ GetContemporaryStringedINSTrumentPlural_PREP = {
 }
 rank_ua_GEN = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_GEN"
 	if_invalid_loc = return_empty
 }
 prefix_ua_GEN = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_prefixGEN"
 	if_invalid_loc = return_empty
 }
 longname_ua_GEN = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_longnameGEN"
 	if_invalid_loc = return_empty
 }
 longname_ua_wntt_GEN = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_longnamewnttGEN"
 	if_invalid_loc = return_empty
 }
 rank_ua_DAT = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_DAT"
 	if_invalid_loc = return_empty
 }
 prefix_ua_DAT = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_prefixDAT"
 	if_invalid_loc = return_empty
 }
 longname_ua_DAT = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_longnameDAT"
 	if_invalid_loc = return_empty
 }
 longname_ua_wntt_DAT = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_longnamewnttDAT"
 	if_invalid_loc = return_empty
 }
 rank_ua_ACC = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_ACC"
 	if_invalid_loc = return_empty
 }
 prefix_ua_ACC = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_prefixACC"
 	if_invalid_loc = return_empty
 }
 longname_ua_ACC = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_longnameACC"
 	if_invalid_loc = return_empty
 }
 longname_ua_wntt_ACC = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_longnamewnttACC"
 	if_invalid_loc = return_empty
 }
 rank_ua_INST = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_INST"
 	if_invalid_loc = return_empty
 }
 prefix_ua_INST = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_prefixINST"
 	if_invalid_loc = return_empty
 }
 longname_ua_INST = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_longnameINST"
 	if_invalid_loc = return_empty
 }
 longname_ua_wntt_INST = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_longnamewnttINST"
 	if_invalid_loc = return_empty
 }
 rank_ua_PREP = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_PREP"
 	if_invalid_loc = return_empty
 }
 prefix_ua_PREP = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_prefixPREP"
 	if_invalid_loc = return_empty
 }
 longname_ua_PREP = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_longnamePREP"
 	if_invalid_loc = return_empty
 }
 longname_ua_wntt_PREP = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_longnamewnttPREP"
 	if_invalid_loc = return_empty
 }
 parliament_ua_GEN = {
 	log_loc_errors = no
-	parent = country_ua_flavor_parliament
+	parent = country_flavor_parliament
 	suffix = "_GEN"
 	if_invalid_loc = return_empty
 }
 parliament_ua_DAT = {
 	log_loc_errors = no
-	parent = country_ua_flavor_parliament
+	parent = country_flavor_parliament
 	suffix = "_DAT"
 	if_invalid_loc = return_empty
 }
 parliament_ua_ACC = {
 	log_loc_errors = no
-	parent = country_ua_flavor_parliament
+	parent = country_flavor_parliament
 	suffix = "_ACC"
 	if_invalid_loc = return_empty
 }
 parliament_ua_INST = {
 	log_loc_errors = no
-	parent = country_ua_flavor_parliament
+	parent = country_flavor_parliament
 	suffix = "_INST"
 	if_invalid_loc = return_empty
 }
 parliament_ua_PREP = {
 	log_loc_errors = no
-	parent = country_ua_flavor_parliament
+	parent = country_flavor_parliament
 	suffix = "_PREP"
 	if_invalid_loc = return_empty
 }
@@ -4062,109 +4165,109 @@ parliament_io_ua_wntt_PREP = {
 }
 endlong_vlaloly = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_endlong_vlaloly"
 	if_invalid_loc = return_empty
 }
 endlong_clean = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_endlong_clean"
 	if_invalid_loc = return_empty
 }
 endlong_eut = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_endlong_eut"
 	if_invalid_loc = return_empty
 }
 endlong_yeyut = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_endlong_yeyut"
 	if_invalid_loc = return_empty
 }
 endlong_yeyu = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_endlong_yeyu"
 	if_invalid_loc = return_empty
 }
 endlong_ytyat = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_endlong_ytyat"
 	if_invalid_loc = return_empty
 }
 endlong_ytat = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_endlong_ytat"
 	if_invalid_loc = return_empty
 }
 endlong_ytlyat = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_endlong_ytlyat"
 	if_invalid_loc = return_empty
 }
 endlong_yityat = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_endlong_yityat"
 	if_invalid_loc = return_empty
 }
 endrank_vlaloly = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_endrank_vlaloly"
 	if_invalid_loc = return_empty
 }
 endrank_clean = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_endrank_clean"
 	if_invalid_loc = return_empty
 }
 endrank_eut = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_endrank_eut"
 	if_invalid_loc = return_empty
 }
 endrank_yeyut = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_endrank_yeyut"
 	if_invalid_loc = return_empty
 }
 endrank_yeyu = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_endrank_yeyu"
 	if_invalid_loc = return_empty
 }
 endrank_ytyat = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_endrank_ytyat"
 	if_invalid_loc = return_empty
 }
 endrank_ytat = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_endrank_ytat"
 	if_invalid_loc = return_empty
 }
 endrank_ytlyat = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_endrank_ytlyat"
 	if_invalid_loc = return_empty
 }
 endrank_yityat = {
 	log_loc_errors = no
-	parent = country_ua_flavor
+	parent = country_flavor
 	suffix = "_endrank_yityat"
 	if_invalid_loc = return_empty
 }
