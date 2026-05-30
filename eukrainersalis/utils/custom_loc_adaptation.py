@@ -108,7 +108,7 @@ def adapt_ru_custom_loc():
             continue
 
         migrated_lines = [adapt_ru_to_ua(l) for l in lines]
-        fpath = custom_localization_mod_dir_path / f"ua_custom_loc_{k}.txt"
+        fpath = custom_localization_mod_dir_path / f"380_ua_custom_loc_{k}.txt"
         write_lines_to_file(fpath, migrated_lines)
 
     for ec in ending_configs:
