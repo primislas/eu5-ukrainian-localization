@@ -106,7 +106,7 @@ ending_configs = [
 ]
 
 def adapt_endings(source_language: Language = Language.RUSSIAN, target_language: Language = Language.RUSSIAN):
-    custom_ending_file_path = translation_dir / "game" / "main_menu" / "localization" / source_language / f"customizable_localization_ru_end_{source_language.localization_key}.yml"
+    custom_ending_file_path = translation_dir / "game" / "main_menu" / "localization" / source_language / f"EU5_customizable_localization_ru_end_{source_language.localization_key}.yml"
     content = load_eu5_yaml(custom_ending_file_path)
     localization = content.get(source_language.localization_key, {})
     logger.info(f"{len(localization)} keys to adapt")
@@ -115,7 +115,7 @@ def adapt_endings(source_language: Language = Language.RUSSIAN, target_language:
         from_tag = config["from"]
         to_tag = config["to"]
         value_mappings = config["value_mappings"]
-        output_file_path = translation_dir / "game" / "main_menu" / "localization" / target_language / f"customizable_localization_ua_end_{to_tag}_l_russian_uk_ua_machine_translation.yml"
+        output_file_path = translation_dir / "game" / "main_menu" / "localization" / target_language / f"EU5_customizable_localization_ua_end_{to_tag}_l_russian_uk_ua_machine_translation.yml"
 
         tech_localization = {}
         rank_localization = {}
