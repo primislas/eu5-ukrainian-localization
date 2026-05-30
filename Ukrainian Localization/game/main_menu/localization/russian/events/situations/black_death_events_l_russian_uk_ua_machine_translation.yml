@@ -106,7 +106,7 @@
   black_death.1015.b: "Не будемо чіпати ліки…"
   black_death.1015.c: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] купуватимуть прострочені товари."
   black_death.1015.b.nospamtooltip: "Усі належні нам місцевості, уражені епідемією «[GetDisease('bubonic_plague').GetName]» більш ніж на #N  20%#!, з #V  50%#!-ю ймовірністю можуть отримати #N  +50%#! до поширеності цієї епідемії"
-  every_location_with_plague_gets_10_more_tt: "POSTEDIT_MINOR_CHANGE Поширеність епідемії «[GetDisease('bubonic_plague').GetNameWithNoTooltip]» у вже заражених [Concept('locations', 'місцевостях')|e] зросте на #R 10%#!"
+  every_location_with_plague_gets_10_more_tt: "Поширеність епідемії «[GetDisease('bubonic_plague').GetNameWithNoTooltip]» у вже заражених [Concept('locations', 'місцевостях')|e] зросте на #R 10%#!"
   reduce_plague_by_10_in_every_location_tt: "Поширеність епідемії «[GetDisease('bubonic_plague').GetName]» знизиться на #G  5%#! в усіх наших [Concept('location', 'місцевостях')|e] області [ROOT.GetCountry.GetCapital.GetRegion.GetName]"
   black_death.1016.t: "Тягар самотності"
   black_death.1016.desc: "З початку епідемії чуми багато хто уникав багатолюдних зібрань і свят через страх зараження. Але згодом навіть страшні нелюди почали сумувати за спілкуванням з іншими.\n\n[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] висловлюють невдоволення таким станом речей, і їхні голоси звучать голосніше з кожним днем. Очевидно, що заборона на проведення свят може призвести до серйозних соціальних потрясінь."
