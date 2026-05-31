@@ -247,7 +247,7 @@
   flavor_nap.110.title: "Верховний суд вікарія"
   flavor_nap.110.entry: "$flavor_nap.110.title$"
   flavor_nap.110.desc: "[GetCountry('NAP').GetLongName] має інститут під назвою Верховний суд вікарія, утворений внаслідок злиття нормандського Верховного суду (#italic Magna Curia#!) та Суду вікарія, який [Select_CString(target_character.IsFemale,'заснувала', 'заснував')] [target_character.GetName]. У ньому розглядаються цивільні та кримінальні справи.\n\nНещодавно ми дізналися, що в місцевості [target_location.GetName] [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] та [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] затіяли розбірки, і зараз у Верховному суді вікарія триває відповідний процес. Можливо, нам варто вплинути на результат справи."
-  flavor_nap.110.a: "Заявимо, що праві [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l]."
+  flavor_nap.110.a: "Заявимо, що прав[ROOT.GetCountry.Custom('clergy_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l]."
   flavor_nap.110.a.entry: "Підтримаємо духовенство."
   flavor_nap.110.b: "Заявимо, що прав[ROOT.GetCountry.Custom('nobles_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l]."
   flavor_nap.110.b.entry: "Підтримаємо знать."

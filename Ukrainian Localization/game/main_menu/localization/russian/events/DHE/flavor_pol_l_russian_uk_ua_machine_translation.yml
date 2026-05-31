@@ -419,7 +419,7 @@
   flavor_pol.1500.b: "У нас достатньо придворних."
   flavor_pol.1501.title: "[target_character.GetNameWithNoTooltip] та його праці"
   flavor_pol.1501.entry: "Праці Миколая Рея"
-  flavor_pol.1501.desc: "#TOOLTIP:RELIGION,$catholic_tt$,X #L Католицьке#!#! [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] вкрай незадоволене тим, що [target_character.GetName] був найнятий на службу. Його письменницький талант майже незаперечний, однак неприйняття релігійної влади та незгода з католицьким#!#! віросповіданням вважається серед літераторів нетактовністю. Яскравим прикладом таких поглядів можна назвати твір #italic «Коротка розмова між трьома особами: Паном, Війтом і Плебаном#!»."
+  flavor_pol.1501.desc: "#TOOLTIP:RELIGION,$catholic_tt$,X #L Католицьк[ROOT.GetCountry.Custom('clergy_yiaei')]#!#! [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] вкрай незадоволен[ROOT.GetCountry.Custom('clergy_yiaei')] тим, що [target_character.GetName] був найнятий на службу. Його письменницький талант майже незаперечний, однак неприйняття релігійної влади та незгода з католицьким#!#! віросповіданням вважається серед літераторів нетактовністю. Яскравим прикладом таких поглядів можна назвати твір #italic «Коротка розмова між трьома особами: Паном, Війтом і Плебаном#!»."
   flavor_pol.1501.historical_info: "$flavor_pol.1500.historical_info$"
   flavor_pol.1501.a: "У нас вільна країна; ми не будемо піддавати цю працю цензурі."
   flavor_pol.1501.b: "Це неприпустимо!"

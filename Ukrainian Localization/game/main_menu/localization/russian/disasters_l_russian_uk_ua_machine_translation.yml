@@ -19,7 +19,7 @@
   sc_ask_help_from_the_nobility: "Запитати допомоги у знаті"
   sc_ask_help_from_the_nobility_desc: "[SCOPE.sCountry('actor').GetGovernment.GetEstateName('nobles_estate')] [actor.Custom('preposition_uv')] [actor.Custom('rank_ua_PREP')|l] концентру[SCOPE.sCountry('actor').Custom('nobles_yeyut')] у своїх руках більше впливу. Заручившись допомогою такої еліти, ми неодмінно здолаємо будь-яких конкурентів у боротьбі за владу."
   sc_ask_help_from_the_clergy: "Запитати допомоги у духовенства"
-  sc_ask_help_from_the_clergy_desc: "Міцна віра допоможе вистояти нашим #L [actor.GetReligion.GetGroup.GetAdjective|l] звичаям#!, [SCOPE.sCountry('actor').GetGovernment.GetEstateName('clergy_estate')|l] же допоможе нам вистояти в поточній кризі."
+  sc_ask_help_from_the_clergy_desc: "Міцна віра допоможе вистояти нашим #L [actor.GetReligion.GetGroup.GetAdjective|l]им звичаям#!, [SCOPE.sCountry('actor').GetGovernment.GetEstateName('clergy_estate')|l] же допомож[SCOPE.sCountry('actor').Custom('clergy_eut')] нам вистояти в поточній кризі."
   sc_ask_help_from_the_burghers: "Запитати допомоги у містян"
   sc_ask_help_from_the_burghers_desc: "Багатіїв, що володіють величезним впливом, потрібно закликати на підтримку війська, якщо претенденти на трон втягнуть [actor.Custom('rank_ua_ACC')|l] у громадянську війну. Станься таке, ми із задоволенням скористаємося їхньою туго набитою мошною…"
   choose_writer: "Вибір: [ShowArtistTypeNameWithNoTooltip('writer')]"

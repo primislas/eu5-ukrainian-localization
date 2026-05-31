@@ -61,7 +61,7 @@
   catholic_flavor.14.b: "Нехай співають своє «філіокве», ми — православні!"
   catholic_flavor.14.b.tt: "Невелика частина наших підданих навернеться в #TOOLTIP:RELIGION,$catholic_tt$,X #L католицтво#!#!."
   catholic_flavor.15.title: "Свято дурнів"
-  catholic_flavor.15.desc: "Настало Свято дурнів!\n\nЛюди п'ють, регочуть і танцюють, а новообраний фальшивий єпископ у диявольському вбранні глумиться над нашими церковними ритуалами. Від такої карикатури на #TOOLTIP:RELIGIONGROUP,christian,X #L християнське#!#! богослужіння в захваті майже всі, однак [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] вимагають, щоб [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] негайно [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'заборонила', 'заборонив')] це богохульне неподобство."
+  catholic_flavor.15.desc: "Настало Свято дурнів!\n\nЛюди п'ють, регочуть і танцюють, а новообраний фальшивий єпископ у диявольському вбранні глумиться над нашими церковними ритуалами. Від такої карикатури на #TOOLTIP:RELIGIONGROUP,christian,X #L християнське#!#! богослужіння в захваті майже всі, однак [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] вимага[ROOT.GetCountry.Custom('clergy_yeyut')], щоб [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] негайно [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'заборонила', 'заборонив')] це богохульне неподобство."
   catholic_flavor.15.a: "Нехай люди веселяться."
   catholic_flavor.15.b: "Ми не терпітимемо знущань над нашими священними інститутами!"
   catholic_flavor.15.c: "Жартома оголошую коня папою."

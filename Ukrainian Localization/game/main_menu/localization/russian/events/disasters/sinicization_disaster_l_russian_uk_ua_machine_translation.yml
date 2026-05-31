@@ -13,7 +13,7 @@
   sinicization_disaster.2.a: "Ми не станемо [Select_CString(target_character.IsFemale,'їй', 'йому')] перешкоджати."
   sinicization_disaster.2.b: "Настав час вигнати [Select_CString(target_character.IsFemale,'її', 'його')] з країни."
   sinicization_disaster.2.c: "Стратити [Select_CString(target_character.IsFemale,'її', 'його')] негайно!"
-  sinicization_disaster.3.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|U] чинить опір [target_emperor_scope.GetAdjectiveWithNoTooltip|l]ому впливу"
+  sinicization_disaster.3.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|U] чин[ROOT.GetCountry.Custom('clergy_ytyat')] опір [target_emperor_scope.GetAdjectiveWithNoTooltip|l]ому впливу"
   sinicization_disaster.3.desc: "$estate_intro_paragraph$\n\nНе стали винятком і наше духовенство. $continuation_key$"
   sinicization_disaster.3.a: "$reverse_key$"
   sinicization_disaster.3.b: "$nonsense_key$"

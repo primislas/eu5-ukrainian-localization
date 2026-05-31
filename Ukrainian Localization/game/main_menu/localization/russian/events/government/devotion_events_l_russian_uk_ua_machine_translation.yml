@@ -20,7 +20,7 @@
   devotion_events.5.a: "Марнославство — гріх, і фортець це теж стосується!"
   devotion_events.5.b: "Наші піддані навряд чи будуть проти, якщо їхні податки підуть на таку красу!"
   devotion_events.6.title: "У пошуках свободи віросповідання"
-  devotion_events.6.desc: "Наші [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] та #L [ROOT.GetCountry.GetReligion.GetAdjective|l]е#! вчення зазнали відкритої критики з боку групи, відомої своїми радикальними ідеями щодо релігійних реформ. Через це жителі [target_location.Custom('LR_GEN')|l] [target_location.GetName], забувши про вірність країні, тепер обсипають нас скаргами та вимогами релігійних свобод."
+  devotion_events.6.desc: "Наш[ROOT.GetCountry.Custom('clergy_aei')] [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] та #L [ROOT.GetCountry.GetReligion.GetAdjective|l]е#! вчення зазнали відкритої критики з боку групи, відомої своїми радикальними ідеями щодо релігійних реформ. Через це жителі [target_location.Custom('LR_GEN')|l] [target_location.GetName], забувши про вірність країні, тепер обсипають нас скаргами та вимогами релігійних свобод."
   devotion_events.6.a: "У нас [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip|l]а країна, і вона навіки залишиться [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip|l]ою!"
   devotion_events.6.b: "[target_location.GetRank.GetNameWithNoTooltip] отримає повну свободу віросповідання."
   devotion_events.7.title: "Хибні вірування"

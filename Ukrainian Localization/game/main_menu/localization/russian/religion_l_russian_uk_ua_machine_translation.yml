@@ -847,7 +847,7 @@
   remove_cardinal_seat_desc: "Очевидно, що членство в колегії кардиналів не приносить нам жодної користі. Час прибрати з наших земель #TOOLTIP:BUILDING_TYPE,seat_of_cardinal,X #L кафедру кардинала#!#!, щоб убезпечити країну від зайвого впливу."
   remove_cardinal_tt: "З позначеної [Concept('location', 'місцевості')|e] буде прибрана #TOOLTIP:BUILDING_TYPE,seat_of_cardinal,X #L кафедра кардинала#!#!"
   invite_foreign_cleric: "Залучити чужоземного священнослужителя"
-  invite_foreign_cleric_desc: "До нас направлять досвідченого священника з іншої країни. Місцеве [actor.GetGovernment.GetEstateName('clergy_estate')|l] буде незадоволене, проте знання чужоземця можуть виявитися безцінними."
+  invite_foreign_cleric_desc: "До нас направлять досвідченого священника з іншої країни. Місцев[ROOT.GetCountry.Custom('clergy_yiaei')] [actor.GetGovernment.GetEstateName('clergy_estate')|l] буд[actor.Custom('clergy_eut')] незадоволен[actor.Custom('clergy_yiaei')], проте знання чужоземця можуть виявитися безцінними."
   invite_foreign_cleric_tt: "До нашої [Concept('country', 'країни')|e] прибуде [Concept('character', 'персонаж')|e]-іноземець #L [actor.GetReligion.GetAdjective|l]ої#! віри зі стану #TOOLTIP:ESTATE_TYPE,clergy_estate,X #L духовенства#!#!. У нього високий [Concept('adm', 'адміністративний хист')|e], середній [Concept('dip', 'дипломатичний хист')|e] і низький [Concept('mil', 'військовий хист')|e]."
   invite_foreign_cleric_no_countries_tt: "Інша #L [recipient.GetAdjective|l]а#! [Concept('country', 'країна')|e] в межах [Concept('diplomatic_range', 'дипломатичної відстані')|e]"
   anti_reformation: "Відкидання Реформації"

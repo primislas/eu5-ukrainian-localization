@@ -925,7 +925,7 @@
   flavor_chi.2203.a.entry: "Задовольнимо прохання знаті."
   flavor_chi.2203.b: "Останнє, що нам потрібно, — це розгнівані китайці."
   flavor_chi.2204.title: "Неповага до релігії"
-  flavor_chi.2204.desc: "#TOOLTIP:CULTUREGROUP,chinese_group,X #L Китайські#!#! моряки з експедиції в пошуках скарбів через незнання порушили #L [ROOT.GetCountry.GetReligion.GetAdjective|l]і#! звичаї та скоїли страшне святотатство. Наші [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] розлютилися. Вони вимагають вибачень від лідера експедиції на ім'я $expedition_leader_name$."
+  flavor_chi.2204.desc: "#TOOLTIP:CULTUREGROUP,chinese_group,X #L Китайські#!#! моряки з експедиції в пошуках скарбів через незнання порушили #L [ROOT.GetCountry.GetReligion.GetAdjective|l]і#! звичаї та скоїли страшне святотатство. Наш[ROOT.GetCountry.Custom('clergy_aei')] [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] розлюти[ROOT.GetCountry.Custom('clergy_vlaloly')]ся. Вони вимагають вибачень від лідера експедиції на ім'я $expedition_leader_name$."
   flavor_chi.2204.a: "Нехай $expedition_leader_name_tooltipless$ принесе свої вибачення."
   flavor_chi.2204.b: "Не будемо втручатися."
   flavor_chi.2205.title: "Запит на екстрадицію"

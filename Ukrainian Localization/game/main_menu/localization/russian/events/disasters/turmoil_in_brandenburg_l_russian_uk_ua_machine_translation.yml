@@ -40,7 +40,7 @@
   turmoil_in_brandenburg.5.desc: "Економічне становище #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! дедалі гіршає. Багато [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l], розлючені таким станом справ, відмовляються обробляти поля, доки ми не виконаємо їхні вимоги та не позбавимо народ безчинства користолюбних баронів-розбійників."
   turmoil_in_brandenburg.5.a: "Постараємося покращити їхнє становище."
   turmoil_in_brandenburg.5.b: "Яке нам діло до селян? Вони не завдадуть нам клопоту."
-  turmoil_in_brandenburg.6.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] беруть владу на себе"
+  turmoil_in_brandenburg.6.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] бер[ROOT.GetCountry.Custom('clergy_eut')] владу на себе"
   turmoil_in_brandenburg.6.desc: "#TOOLTIP:DYNASTY,$wittelsbach_tt$,X #L Віттельсбахи#!#! правлять виключно на папері — справжня влада знаходиться в руках тих, за ким народ слідує з власної волі. У селах, наприклад, це [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l]. Щоб наші піддані не забували, хто по праву володарює над цими краями, краще позбавити духовенство повноважень…"
   turmoil_in_brandenburg.6.a: "Відкличемо їхні повноваження."
   turmoil_in_brandenburg.6.b: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] — люди, з якими краще не жартувати."

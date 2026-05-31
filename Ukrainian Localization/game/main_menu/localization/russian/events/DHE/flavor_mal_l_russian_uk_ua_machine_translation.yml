@@ -27,7 +27,7 @@
   flavor_mal.5.a: "Ми послабимо [GetCountry('POR').GetAdjectiveWithNoTooltip|l]ий вплив."
   flavor_mal.5.a.entry: "Ми послабимо португальський вплив."
   flavor_mal.5.b: "Нелояльні вожді — ось корінь проблеми."
-  flavor_mal.6.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] приймають іслам"
+  flavor_mal.6.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] прийма[ROOT.GetCountry.Custom('clergy_yeyut')] іслам"
   flavor_mal.6.entry: "$flavor_mal.6.title$"
   flavor_mal.6.desc: "Хоча формально [ROOT.GetCountry.GetFlavorRank|l] належить до ісламського світу, стародавня релігія наших предків досі зберігає колосальний вплив. Водночас [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] все частіше наверта[ROOT.GetCountry.Custom('nobles_yetsayutsa')] до ісламу, і тепер навіть у найвіддаленіших куточках нашої країни можна зустріти мандрівних марабутів.\n\nУ минулому наші правителі намагалися уникати насадження релігії, проте за бажання ми можемо використати нові обставини для поширення істинної віри."
   flavor_mal.6.a: "Наш народ прийме іслам!"
