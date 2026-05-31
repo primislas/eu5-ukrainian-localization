@@ -315,7 +315,7 @@
   state_controlled_church: "Церква під контролем країни"
   state_controlled_church_desc: "Церква повністю підпорядковується світській владі."
   swe_age_of_freedom: "Доба свободи"
-  swe_age_of_freedom_desc: "Ми вступили в добу свободи, коли [ShowEstateTypeName('crown_estate')|l] втратили абсолютну владу! Уряд #ONCLICK:COUNTRY,[GetCountry('SWE').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SWE').Custom('CL_tt')],X [GetCountry('SWE').Custom('CL_GEN')|L]#!#! відтепер знаходиться в руках станів, і без нашого дозволу монарх не може робити нічого."
+  swe_age_of_freedom_desc: "Ми вступили в добу свободи, коли [ShowEstateTypeName('crown_estate')|l] втрати[ROOT.GetCountry.Custom('crown_vlaloly')] абсолютну владу! Уряд #ONCLICK:COUNTRY,[GetCountry('SWE').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SWE').Custom('CL_tt')],X [GetCountry('SWE').Custom('CL_GEN')|L]#!#! відтепер знаходиться в руках станів, і без нашого дозволу монарх не може робити нічого."
   ned_shipbuilding_industry: "Кораблебудівна промисловість у Данії"
   ned_shipbuilding_industry_desc: "З появою перших #italic флейтів#! у данському кораблебудуванні розпочався справжній бум. Від місцевих та закордонних замовників немає відбою, і верфі отримують гори золота! Ніколи ще данські корабели не були настільки затребуваними, а морями не ходило такої кількості суден, побудованих у нас."
   geheime_kabinettskanzlei: "Австрійська таємна служба"

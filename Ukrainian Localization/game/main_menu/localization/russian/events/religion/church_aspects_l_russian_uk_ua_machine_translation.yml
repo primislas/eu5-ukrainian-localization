@@ -76,7 +76,7 @@
   church_aspects.20.title: "Протест проти громад аскетів"
   church_aspects.20.desc: "Після того, як #TOOLTIP:RELIGIOUS_ASPECT,asceticism,X #L аскетизм#!#! став однією з доктрин #L [ROOT.GetCountry.GetAdjective|l]ої#! церкви, між аскетами та іншими громадами нашої віри почали виникати дрібні конфлікти. [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|U] різних конфесій стикаються один з одним, звинувачують один одного в неправильному відправленні обрядів. Нам потрібно терміново щось зробити, якщо ми не хочемо втратити обличчя в очах наших підданих."
   church_aspects.20.a: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] будуть покарані."
-  church_aspects.20.b: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('crown_estate')] понесуть відповідальність."
+  church_aspects.20.b: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('crown_estate')] понес[ROOT.GetCountry.Custom('crown_eut')] відповідальність."
   church_aspects.21.title: "Монастир приносить користь [location_monastery.Custom('LR_DAT')] [location_monastery.GetNameWithNoTooltip]"
   church_aspects.21.desc: "Адміністрація [location_monastery.Custom('LR_GEN')] [location_monastery.GetNameWithNoTooltip] повідомляє про зростання місцевої промисловості. Судячи з усього, відродження монастирів у нашій країні сприяє виробництву ресурсів та розвитку економіки."
   church_aspects.21.a: "Нехай ченці продовжують свою справу."

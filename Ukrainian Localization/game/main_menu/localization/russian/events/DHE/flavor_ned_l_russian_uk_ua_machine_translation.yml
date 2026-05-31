@@ -221,7 +221,7 @@
   flavor_ned.1002.a: "Ця країна перейде в підпорядкування [ROOT.GetCountry.Custom('CL_GEN')]."
   flavor_ned.1002.a.entry: "Ця країна перейде в підпорядкування наших правителів."
   flavor_ned.1003.title: "Інтеграція Британії"
-  flavor_ned.1003.desc: "Британськими землями тепер керують наші [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')|l], але не всі місцеві готові миритися з таким станом справ. Нехай [ROOT.GetCountry.GetGovernment.GetParliament.GetName|l] займеться цією проблемою та спробує знайти рішення."
+  flavor_ned.1003.desc: "Британськими землями тепер керу[ROOT.GetCountry.Custom('crown_yeyut')] наш[ROOT.GetCountry.Custom('crown_aei')] [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')|l], але не всі місцеві готові миритися з таким станом справ. Нехай [ROOT.GetCountry.GetGovernment.GetParliament.GetName|l] займеться цією проблемою та спробує знайти рішення."
   flavor_ned.1003.a: "Їм все одно доведеться підкоритися нам."
   dutch_spice_lust: "Пристрасть до спецій"
   ned_increased_grain_demands: "Зростання попиту на зерно"
