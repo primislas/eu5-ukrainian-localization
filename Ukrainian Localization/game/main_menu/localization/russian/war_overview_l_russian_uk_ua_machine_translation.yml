@@ -84,7 +84,7 @@
   WAR_SCROLL_LIST_EMPTY: "Не знайдено країн за цими критеріями"
   WAR_PLAYER_WARSCORE_TT: "[Concept('war_score', 'Воєнний рахунок')|e] #ONCLICK:COUNTRY,[Player.Custom('CL_tt')] #TOOLTIP:COUNTRY,[Player.Custom('CL_tt')],X [Player.Custom('CL_GEN')|L]#!#! у війні проти #ONCLICK:COUNTRY,[WarLateralViewParticipant.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[WarLateralViewParticipant.GetCountry.Custom('CL_tt')],X [WarLateralViewParticipant.GetCountry.Custom('CL_GEN')|L]#!#!: [WarLateralViewParticipant.GetPlayerWarScore|+=2%/]"
   WAR_EXHAUSTION_TT: "[Concept('war_exhaustion', 'Втома від війни')|e] у жителів #ONCLICK:COUNTRY,[WarLateralViewParticipant.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[WarLateralViewParticipant.GetCountry.Custom('CL_tt')],X [WarLateralViewParticipant.GetCountry.Custom('CL_GEN')|L]#!#!: [WarLateralViewParticipant.GetCountry.GetFixedPointCurrencyValue('war_exhaustion')|+]\nМаксимум: [WarLateralViewParticipant.GetCountry.GetModifierValue('max_war_exhaustion')]"
-  WAR_BLOCKADE_TT: "У блокаді [WarLateralViewParticipant.GetCountry.GetBlockadedPercent|2%] з [WarLateralViewParticipant.GetCountry.GetAdjectiveWithNoTooltip] портів"
+  WAR_BLOCKADE_TT: "У блокаді [WarLateralViewParticipant.GetCountry.GetBlockadedPercent|2%] з [WarLateralViewParticipant.GetCountry.GetAdjectiveWithNoTooltip]их портів"
   WAR_PARTICIPATION_TT: "[Concept('war_participation', 'Участь')|e] #ONCLICK:COUNTRY,[WarLateralViewParticipant.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[WarLateralViewParticipant.GetCountry.Custom('CL_tt')],X [WarLateralViewParticipant.GetCountry.Custom('CL_GEN')|L]#!#! у війні: [WarLateralViewParticipant.GetWarParticipation|0%]"
   WAR_ARMY_LOSSES_TT: "Втрати війська"
   WAR_NAVAL_LOSSES_TT: "Втрати флоту"

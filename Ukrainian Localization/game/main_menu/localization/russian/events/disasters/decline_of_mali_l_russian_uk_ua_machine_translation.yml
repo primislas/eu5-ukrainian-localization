@@ -106,7 +106,7 @@
   mal_rejected_alliance: "Союз відкинуто"
   decline_of_mali.18.title: "[ally_country.GetNameWithNoTooltip] вступає в союз!"
   decline_of_mali.18.entry: "Дружня країна приймає пропозицію про союз!"
-  decline_of_mali.18.desc: "Наші #L [ally_country.GetAdjective|l] друзі#! прислухалися до наших благань! Завдяки їхній підтримці ми зможемо зупинити розпад своєї країни."
+  decline_of_mali.18.desc: "Наші #L [ally_country.GetAdjective|l]і друзі#! прислухалися до наших благань! Завдяки їхній підтримці ми зможемо зупинити розпад своєї країни."
   decline_of_mali.18.a: "Нарешті хороші новини!"
   decline_of_mali.19.title: "[ally_country.GetNameWithNoTooltip] відкидає пропозицію союзу"
   decline_of_mali.19.entry: "Дружня країна відхиляє пропозицію про союз"

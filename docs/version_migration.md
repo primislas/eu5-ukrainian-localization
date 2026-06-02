@@ -22,3 +22,5 @@ until all files are exhausted.
 7. Run "estate_ending_generator.py" to generate estate endings
 8. Run "ending_patching.py" in a separate commit, to detect dangling cases of Russian endings and prepositions.
 
+Various post-migration checks:
+* Check correct 'GetAdjective' endings with a regex search `GetAdjective[^\]]*][^а-яіїє\[\$]`

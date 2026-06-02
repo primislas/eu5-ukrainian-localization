@@ -947,7 +947,7 @@
   flavor_hab.2301.b: "Нас це не цікавить."
   flavor_hab.2302.title: "[GetCountry('BUR').GetNameWithNoTooltip] приймає нашу пропозицію"
   flavor_hab.2302.entry: "Позитивна відповідь"
-  flavor_hab.2302.desc: "Чудові новини з #ONCLICK:COUNTRY,[GetCountry('BUR').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('BUR').Custom('CL_tt')],X [GetCountry('BUR').Custom('CL_GEN')|L]#!#!! [burgundian_ruler.GetName] приймає нашу пропозицію про шлюб. Це мудре рішення зміцнить союз між нашими великими династіями, а обширні [GetCountry('BUR').GetAdjectiveWithNoTooltip]|l]і землі опиняться під #L [ROOT.GetCountry.GetAdjective|l]им#! контролем, що захистить їх від зазіхань #ONCLICK:COUNTRY,[GetCountry('FRA').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('FRA').Custom('CL_tt')],X [GetCountry('FRA').Custom('CL_GEN')|L]#!#!."
+  flavor_hab.2302.desc: "Чудові новини з #ONCLICK:COUNTRY,[GetCountry('BUR').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('BUR').Custom('CL_tt')],X [GetCountry('BUR').Custom('CL_GEN')|L]#!#!! [burgundian_ruler.GetName] приймає нашу пропозицію про шлюб. Це мудре рішення зміцнить союз між нашими великими династіями, а обширні [GetCountry('BUR').GetAdjectiveWithNoTooltip|l]і землі опиняться під #L [ROOT.GetCountry.GetAdjective|l]им#! контролем, що захистить їх від зазіхань #ONCLICK:COUNTRY,[GetCountry('FRA').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('FRA').Custom('CL_tt')],X [GetCountry('FRA').Custom('CL_GEN')|L]#!#!."
   flavor_hab.2302.a: "Чудові новини!"
   flavor_hab.2303.title: "[GetCountry('BUR').GetNameWithNoTooltip] відхиляє нашу пропозицію"
   flavor_hab.2303.entry: "Негативна відповідь"

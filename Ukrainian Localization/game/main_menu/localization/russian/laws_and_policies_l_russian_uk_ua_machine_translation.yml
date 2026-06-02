@@ -1593,7 +1593,7 @@
   revert_to_the_crown: "Землі розподіляє правитель"
   revert_to_the_crown_desc: "Правитель сам вирішує, кому надати нові володіння та титули. Як правило, великі клани користуються більшою прихильністю, а тому отримують більше земель та титулів, ніж інші."
   dynastic_holdings_conslidated: "Династичні володіння"
-  dynastic_holdings_conslidated_desc: "Нові володіння та титули автоматично переходять до правлячої династії, і лише в рідкісних випадках дістаються іншим #L [GetCountry('SCO').GetAdjective|l] кланам#!."
+  dynastic_holdings_conslidated_desc: "Нові володіння та титули автоматично переходять до правлячої династії, і лише в рідкісних випадках дістаються іншим #L [GetCountry('SCO').GetAdjective|l]им кланам#!."
   sco_authority_over_the_clergy: "Контроль над духовенством"
   sco_authority_over_the_clergy_desc: "Постійні внески до курії виснажують #L [GetCountry('SCO').GetAdjective|l]у#! скарбницю. Щоб позбутися цього тягаря, уряд може взяти духовенство під свій прямий контроль."
   crown_religious_jurisdiction: "Юрисдикція уряду"
