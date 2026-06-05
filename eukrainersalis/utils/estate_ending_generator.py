@@ -1,5 +1,5 @@
 from eukrainersalis.utils.file_utils import estate_ending_custom_loc_file_path, estate_localization_file_path, \
-    customized_estate_ending_file_path, generated_estate_ending_file_path
+    customized_estate_ending_file_path, generated_estate_ending_file_path, modded_estate_localization_file_path
 from eukrainersalis.utils.translation_utils import Language
 from eukrainersalis.utils.yaml_utils import load_eu5_yaml, write_eu5_localization_yaml
 
@@ -30,16 +30,17 @@ ESTATE_ENDINGS = {
 
 
 def get_estate_names():
-    estate_declaration = load_eu5_yaml(estate_localization_file_path).get("l_russian", {})
     estate_names = set()
-    for k in estate_declaration.keys():
-        elems = k.split("_")
-        if len(elems) == 2 and elems[1] == "estate":
-            estate_names.add(k)
-    for k in estate_declaration.keys():
-        if any(k.startswith(estate_name) for estate_name in estate_names):
-            if not k.endswith("_desc"):
+    for declaration_file in [estate_localization_file_path, modded_estate_localization_file_path]:
+        estate_declaration = load_eu5_yaml(declaration_file).get("l_russian", {})
+        for k in estate_declaration.keys():
+            elems = k.split("_")
+            if len(elems) == 2 and elems[1] == "estate":
                 estate_names.add(k)
+        for k in estate_declaration.keys():
+            if any(k.startswith(estate_name) for estate_name in estate_names):
+                if not k.endswith("_desc"):
+                    estate_names.add(k)
     estate_names = sorted(list(estate_names))
     return estate_names
 
