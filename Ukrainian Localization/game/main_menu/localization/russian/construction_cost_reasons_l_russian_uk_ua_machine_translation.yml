@@ -13,6 +13,6 @@
   burghers_cheap_sponsorship: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] та їхнє фінансування"
   burghers_expensive_sponsorship: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] заважають будівництву"
   peasants_cheap_sponsorship: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] та їхнє фінансування"
-  peasants_expensive_sponsorship: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] заважає будівництву"
+  peasants_expensive_sponsorship: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] заважа[ROOT.GetCountry.Custom('peasants_yeyut')] будівництву"
   need_for_expensive_tools: "Потреба в дорогих інструментах"
   confederation_funding_key: "Фінансування конфедерації"

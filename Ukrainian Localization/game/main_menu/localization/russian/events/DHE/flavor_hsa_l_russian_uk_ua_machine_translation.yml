@@ -18,7 +18,7 @@
   flavor_hsa.3.a.entry: "Зосередимося на знаті."
   flavor_hsa.3.b: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] — плоть і кров будь-якої країни."
   flavor_hsa.3.b.entry: "Важливіші для нас містяни — це плоть і кров будь-якої країни."
-  flavor_hsa.3.c: "Нехай [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')|l] висловляться."
+  flavor_hsa.3.c: "Нехай [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')|l] вислов[ROOT.GetCountry.Custom('peasants_ytlyat')]ся."
   flavor_hsa.3.c.entry: "Насамперед подбаємо про простолюд."
   flavor_hsa.3.d: "У нас не буде улюбленців!"
   flavor_hsa.4.title: "[target_character.GetNameWithNoTooltip]"

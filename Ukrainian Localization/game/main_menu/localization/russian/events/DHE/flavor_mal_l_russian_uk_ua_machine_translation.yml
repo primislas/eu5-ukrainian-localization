@@ -132,7 +132,7 @@
   flavor_mal.22.b: "Потрібно зміцнити поселення."
   flavor_mal.23.title: "Фульбські скотарі"
   flavor_mal.23.entry: "Фульбська худоба"
-  flavor_mal.23.desc: "Здебільшого наші [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] займаються сільським господарством і лише деякі народи задіяні в інших сферах. Наприклад, #TOOLTIP:CULTURE,$fulbe_tt$,X #L фульбе#!#! кочують зі своїми #TOOLTIP:GOODS,livestock,X #L стадами#!#! майже по всій #TOOLTIP:REGION,guinea_region,X #L Гвінеї#!#!. Ми можемо спробувати запропонувати їм осісти в наших поселеннях або ввести податок на їхню худобу."
+  flavor_mal.23.desc: "Здебільшого наш[ROOT.GetCountry.Custom('peasants_aei')] [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] займа[ROOT.GetCountry.Custom('peasants_yetsayutsa')] сільським господарством, і лише деякі народи задіяні в інших сферах. Наприклад, #TOOLTIP:CULTURE,$fulbe_tt$,X #L фульбе#!#! кочують зі своїми #TOOLTIP:GOODS,livestock,X #L стадами#!#! майже по всій #TOOLTIP:REGION,guinea_region,X #L Гвінеї#!#!. Ми можемо спробувати запропонувати їм осісти в наших поселеннях або ввести податок на їхню худобу."
   flavor_mal.23.historical_info: "З моменту заснування імперії Малі народ фульбе завідував розведенням худоби на території [ROOT.GetCountry.Custom('rank_ua_GEN')|l]. Вони часто жили пліч-о-пліч з іншими народами, і їхнє багатство вимірювалося величиною стада."
   flavor_mal.23.a: "Якщо вони житимуть разом з нами, то принесуть багато користі."
   flavor_mal.23.b: "[target_character.GetNameWithNoTooltip] володіє всім золотом імперії."

@@ -582,7 +582,7 @@
   uc_bey_reform: "Уряд удж-бея"
   uc_bey_reform_desc: "Цей мілітаристичний уряд відповідає за підтримання війська задля захисту володінь та кордонів сюзерена."
   volok_reform: "Волочна поміра"
-  volok_reform_desc: "$volok_reform$ — реформа, яка суворіше регулює, як пани поводяться зі своїми підданими. Наші [ShowEstateTypeName('peasants_estate')|l] завдяки цій реформі зітхнуть вільніше і зможуть організуватися в незалежний стан."
+  volok_reform_desc: "$volok_reform$ — реформа, яка суворіше регулює, як пани поводяться зі своїми підданими. Наш[ROOT.GetCountry.Custom('peasants_aei')] [ShowEstateTypeName('peasants_estate')|l] завдяки цій реформі зітхн[ROOT.GetCountry.Custom('peasants_eut')] вільніше і змож[ROOT.GetCountry.Custom('peasants_eut')] організуватися в незалежний стан."
   lit_grand_duchy_of_lithuania_reform: "Верховне герцогство"
   lit_grand_duchy_of_lithuania_reform_desc: "Замість того щоб вважати себе рівними іншим герцогам, ми вирішили піднестися до становища, яке краще відображає нашу силу."
   cossacks_reform: "Січова рада"

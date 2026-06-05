@@ -168,7 +168,7 @@
   flavor_ara.105.a.tt: "Деякі #TOOLTIP:CULTURE,$sephardi_tt$,X #L сефарди#!#! в нашій країні навернуться в нашу релігію, але в інших це викличе невдоволення"
   flavor_ara.106.title: "Лонха-де-ла-Седа"
   flavor_ara.106.entry: "$flavor_ara.106.title$"
-  flavor_ara.106.desc: "[ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|U] з [target_location.Custom('LR_GEN')|l] [target_location.GetName] вимагають побудувати для них окрему споруду, де можна буде торгувати #TOOLTIP:GOODS,silk,X #L шовком#!#!. Схоже, вони всерйоз мають намір перетворити місто на важливу ланку торгівлі на Середземному морі. Якщо задум вдасться, ми зможемо залучити сюди купців, а впливові [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')|l] будуть нас підтримувати, і тоді [ShowLocationNameWithNoTooltip('valencia')] займе значуще місце в торгівлі шовком."
+  flavor_ara.106.desc: "[ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|U] з [target_location.Custom('LR_GEN')|l] [target_location.GetName] вимага[ROOT.GetCountry.Custom('burghers_yeyut')] звести для них окрему споруду, де можна буде торгувати #TOOLTIP:GOODS,silk,X #L шовком#!#!. Схоже, вони всерйоз мають намір перетворити місто на важливу ланку торгівлі на Середземному морі. Якщо задум вдасться, ми зможемо залучити сюди купців, а впливові [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')|l] будуть нас підтримувати, і тоді [ShowLocationNameWithNoTooltip('valencia')] займе значуще місце в торгівлі шовком."
   flavor_ara.106.a: "Це піде всім на користь."
   flavor_ara.106.b: "Краще витратимо гроші на щось розумніше."
   flavor_ara.107.title: "Доля Монсеррату"

@@ -211,7 +211,7 @@
   flavor_rus.26.historical_info: "Поступове зосередження влади в руках дворянства до кінця XVIII століття призвело до встановлення в Росії політики меркантилізму. Такий порядок суперечив усталеним засадам та інтересам, а тому викликав відторгнення з боку різних груп, які сприймали його як загрозу своєму становищу та впливу."
   flavor_rus.27.title: "Повстання Пугачова"
   flavor_rus.27.entry: "$flavor_rus.27.title$"
-  flavor_rus.27.desc: "Загальне невдоволення тяготами, які змушені терпіти [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l], та незгода з проведенням реформ, необхідних для розвитку економіки, призвело до повстання на #TOOLTIP:REGION,ural_region,X #L Уралі#!#!. Очолює бунтівників вольовий козак [yemelyan_pugatchev.GetName]. Він обіцяє скасувати кріпосне право, зменшити податки та покласти край перетворенням в управлінні країною."
+  flavor_rus.27.desc: "Загальне невдоволення тяготами, які змушен[ROOT.GetCountry.Custom('peasants_yiaei')] терпіти [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l], та незгода з проведенням реформ, необхідних для розвитку економіки, призвело до повстання на #TOOLTIP:REGION,ural_region,X #L Уралі#!#!. Очолює бунтівників вольовий козак [yemelyan_pugatchev.GetName]. Він обіцяє скасувати кріпосне право, зменшити податки та покласти край перетворенням в управлінні країною."
   flavor_rus.27.a: "Народ ремствує."
   pugatchev_uprising: "Повстання Пугачова"
   pugatchev_uprising_tt: "[pugatchev_uprising.GetName] приваблює багатьох [Concept('pops', 'жителів')|e] #TOOLTIP:REGION,ural_region,X #L Уралу#!#!"

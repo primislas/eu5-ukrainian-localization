@@ -20,7 +20,7 @@
   flavor_zan.3.a: "[target_character2.GetShortNameWithNoTooltip] — ось кому треба наслідувати!"
   flavor_zan.3.a.entry: "Будемо йому наслідувати!"
   flavor_zan.3.b: "Спрямовані щедрі пожертви допоможуть досягти наших цілей."
-  flavor_zan.3.c: "Нехай [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')|l] голодують."
+  flavor_zan.3.c: "Нехай [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')|l] голоду[ROOT.GetCountry.Custom('peasants_yeyut')]."
   flavor_zan.3.c.entry: "Нехай простолюд помирає з голоду."
   flavor_zan.3.historical_info: "Коли цей регіон відвідав Ібн-Батута, при владі перебував Аль-Хасан ібн Сулейман. Під час свого перебування тут Ібн-Батута став свідком видатної щедрості султана, особливо щодо гостей. Особливо його вразив випадок, коли султан, демонструючи свою доброту, віддав власний одяг бідняку."
   flavor_zan.4.title: "Золотий вік [TARGET_COUNTRY.Custom('CL_GEN')]"

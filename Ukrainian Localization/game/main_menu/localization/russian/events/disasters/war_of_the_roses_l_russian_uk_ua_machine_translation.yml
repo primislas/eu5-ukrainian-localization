@@ -7,7 +7,7 @@
   york_rebel_name: "Митці-йоркісти"
   lancaster_rebel_name: "Ланкастерські митці"
   lancaster_rebels_joining: "Усі [Concept('pops', 'групи населення')|e] у провінціях #TOOLTIP:PROVINCE_DEFINITION,lancashire_province,X #L Ланкашир#!#! та [ShowProvinceDefinitionName('cheshire_province')] приєднаються до повстання, яке очолює [target_lancaster_head.GetName]"
-  ensuing_chaos_distabilizes_peasants_estate_tt: "Масштаби заворушень невблаганно зростають, через що [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] втрачають частину свого [Concept('estate_satisfaction', 'вдоволення')|e]"
+  ensuing_chaos_distabilizes_peasants_estate_tt: "Масштаби заворушень невблаганно зростають, через що [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] втрача[ROOT.GetCountry.Custom('peasants_yeyut')] частину свого [Concept('estate_satisfaction', 'вдоволення')|e]"
   war_of_the_roses.2.title: "Підтримка корони"
   war_of_the_roses.2.desc: "Серед населення зростає підтримка корони. [target_pop.GetName] масово переходять на наш бік у війні Червоної та Білої троянди!"
   war_of_the_roses.2.a: "Чудові новини."

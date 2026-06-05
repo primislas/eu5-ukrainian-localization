@@ -96,7 +96,7 @@
   flavor_eng_diplomacy.1300.entry: "$flavor_eng_diplomacy.1300.title$"
   flavor_eng_diplomacy.1300.desc: "[target_root_country.GetName] і [ROOT.GetCountry.GetName] більше не союзники, але завдяки Віндзорському договору у відносинах між нашими країнами намітилися перспективи. Оскільки [target_root_country.GetGovernment.GetRuler.GetName|l] досі [Select_CString(target_root_country.GetGovernment.GetRuler.IsFemale,'незаміжня', 'неодружений')], нам слід розглянути можливість династичного шлюбу з умовою підписання нового союзного договору. Якщо як придане ми заявимо цінні території, перед такою пропозицією ніхто не встоїть.\n\nМісцевість #TOOLTIP:LOCATION,tangier,X #L Танжер#!#! створює нам чимало проблем і дорого обходиться з точки зору оборони, однак для [target_root_country.Custom('CL_GEN')] він міг би стати стратегічно важливим портом."
   flavor_eng_diplomacy.1300.a: "Підготуємо необхідні документи."
-  flavor_eng_diplomacy.1300.a.custom: "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|U] і [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] не дуже рад[ROOT.GetCountry.Custom('nobles_yiaei')] пропозиції здати Танжер."
+  flavor_eng_diplomacy.1300.a.custom: "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|U] і [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] не дуже раді пропозиції здати Танжер."
   flavor_eng_diplomacy.1300.b: "Запропонуємо замість цього [overseas_location.Custom('LR_ACC')|l] [overseas_location.GetNameWithNoTooltip]."
   flavor_eng_diplomacy.1300.b.entry: "Ліпше запропонуймо їм цю місцевість."
   flavor_eng_diplomacy.1300.c: "У цьому немає потреби."

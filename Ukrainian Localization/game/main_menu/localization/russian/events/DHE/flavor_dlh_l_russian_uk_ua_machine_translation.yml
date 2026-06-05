@@ -383,7 +383,7 @@
   flavor_dlh.65.b: "Нам зараз не до битв."
   flavor_dlh.66.title: "[target_province.GetNameWithNoTooltip] та високі податки"
   flavor_dlh.66.entry: "Високі податки в Доабі"
-  flavor_dlh.66.desc: "Економічна криза змусила [ROOT.GetCountry.GetGovernment.GetAdjective|l]их радників підвищити податки по всій країні. Біда в тому, що ми погано контролюємо частину наших територій, тому вся тяжкість податкового гніту лягла на #TOOLTIP:AREA,doab_area,X #L Доаб#!#! та #TOOLTIP:AREA,awadh_area,X #L Ауд#!#!. У підсумку місцеві [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] почали промишляти розбоєм і підняли заколот. Провінція [target_province.GetName] постраждала найбільше. Потрібно терміново щось робити."
+  flavor_dlh.66.desc: "Економічна криза змусила [ROOT.GetCountry.GetGovernment.GetAdjective|l]их радників підвищити податки по всій країні. Біда в тому, що ми погано контролюємо частину наших територій, тому вся тяжкість податкового гніту лягла на #TOOLTIP:AREA,doab_area,X #L Доаб#!#! та #TOOLTIP:AREA,awadh_area,X #L Ауд#!#!. У підсумку місцев[ROOT.GetCountry.Custom('peasants_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] поча[ROOT.GetCountry.Custom('peasants_vlaloly')] промишляти розбоєм і підня[ROOT.GetCountry.Custom('peasants_vlaloly')] заколот. Провінція [target_province.GetName] постраждала найбільше. Потрібно терміново щось робити."
   flavor_dlh.66.a: "Знизимо податки."
   flavor_dlh.66.b: "Приструнимо їх."
   flavor_dlh_1000_title_shared: "Повстання династії [target_dynasty.GetNameWithNoTooltip]"

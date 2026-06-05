@@ -174,7 +174,7 @@
   demand_extra_payment_from_shogun_court: "Вимога додаткових виплат"
   demand_extra_payment_from_shogun_court_desc: "Ми можемо вимагати негайної виплати певної [Concept('manpower', 'кількості рекрутів')|e] та [Concept('gold', 'дукатів')|e] через сьогунський двір."
   increase_peasant_satisfaction_from_ikko_ikki: "Умиротворення простолюду"
-  increase_peasant_satisfaction_from_ikko_ikki_desc: "Ми можемо налагодити стосунки з загонами ікко-іккі, щоб [SCOPE.sCountry('actor').GetGovernment.GetEstateName('peasants_estate')|l] були задоволені."
+  increase_peasant_satisfaction_from_ikko_ikki_desc: "Ми можемо налагодити стосунки з загонами ікко-іккі, щоб [SCOPE.sCountry('actor').GetGovernment.GetEstateName('peasants_estate')|l] бу[SCOPE.sCountry('actor').Custom('peasants_vlaloly')] задоволен[SCOPE.sCountry('actor').Custom('peasants_yiaei')]."
   reduce_rebels_from_ikko_ikki: "Зниження ризику релігійного заколоту"
   reduce_rebels_from_ikko_ikki_desc: "Ми можемо налагодити стосунки з загонами $ikko_ikki$, щоб знизити ризик заколоту."
   allow_safe_refuge: "Надання притулку"
