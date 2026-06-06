@@ -2565,6 +2565,17 @@ country_flavor = {
 	}
 
 	text = {
+		localization_key = rank_duchy_principality
+		trigger = {
+			country_rank_is_duchy = yes
+			OR = {
+    			religion = religion:orthodox
+    			religion = religion:miaphysite
+			}
+		}
+	}
+
+	text = {
 		localization_key = rank_duchy
 		trigger = {
 			country_rank_is_duchy = yes
