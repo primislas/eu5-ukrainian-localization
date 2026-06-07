@@ -224,4 +224,4 @@
   flavor_ned.1003.desc: "Британськими землями тепер керу[ROOT.GetCountry.Custom('crown_yeyut')] наш[ROOT.GetCountry.Custom('crown_aei')] [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')|l], але не всі місцеві готові миритися з таким станом справ. Нехай [ROOT.GetCountry.GetGovernment.GetParliament.GetName|l] займеться цією проблемою та спробує знайти рішення."
   flavor_ned.1003.a: "Їм все одно доведеться підкоритися нам."
   dutch_spice_lust: "Пристрасть до спецій"
-  ned_increased_grain_demands: "Зростання попиту на зерно"
+  ned_increased_grain_demands: "Зростання попиту на хліб"

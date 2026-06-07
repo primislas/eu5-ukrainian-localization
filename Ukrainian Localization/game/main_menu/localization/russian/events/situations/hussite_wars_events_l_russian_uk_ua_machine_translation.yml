@@ -42,7 +42,7 @@
   catholic_victory_tt: "Перемога католиків"
   hussite_victory_tt: "Перемога гуситів"
   reignite_the_fires_of_crusade_tt: "Відносини між [GetCountry('BOH').Custom('longname_ua_wntt_INST')] та католицькими [Concept('countries', 'країнами')|e] погіршаться. З часом багато хто може приєднатися до нашої справи"
-  income_depends_on_estate_power_tt: "Отримувана сума [Concept('gold', 'дукатів')|e] буде в основному залежати від [Concept('estate_power', 'влади')|e] [Concept('estate', 'стану')|e]"
+  income_depends_on_estate_power_tt: "Отримувана сума [Concept('gold', 'грошей')|e] буде в основному залежати від [Concept('estate_power', 'влади')|e] [Concept('estate', 'стану')|e]"
   join_current_war_against_papal_states_tt: "Ми приєднаємося до [Concept('war', 'війни')|e] [GetCountry('BOH').Custom('longname_ua_GEN')] проти [GetCountry('PAP').Custom('longname_ua_GEN')]"
   join_current_war_against_bohemia_tt: "Ми приєднаємося до [Concept('war', 'війни')|e] [GetCountry('PAP').Custom('longname_ua_GEN')] проти [GetCountry('BOH').Custom('longname_ua_GEN')]"
   HRE_EMPEROR_SUPPRESSES_HERESY_DESC: "[GetUniqueInternationalOrganization('hre').GetLeaderTitle] — це ми, і обов’язок велить нам придушити єресь #TOOLTIP:RELIGION,$hussite_tt$,X #L гуситства#!#! в #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священній Римській Імперії#!#!"

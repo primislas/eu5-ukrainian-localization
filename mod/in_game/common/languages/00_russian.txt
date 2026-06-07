@@ -228,6 +228,7 @@ ruthenian_language = {
 		name_ruslan
 		name_sabellus
 		name_sergius
+		name_severyn
 		name_simeon
 		name_stanislav
 		name_stephen

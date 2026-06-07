@@ -128,7 +128,7 @@
   flavor_kni.130.a: "Що це: благословення чи прокляття?"
   flavor_kni.131.title: "Землетрус у [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
   flavor_kni.131.entry: "На обложене місто обрушився землетрус"
-  flavor_kni.131.desc: "Коли ми штурмували [target_location.Custom('LR_ACC')|l] [target_location.GetNameWithNoTooltip], сама природа збунтувалася проти нас. Землетрус небаченої сили спровокував страшні руйнування та забрав безліч життів, а цунамі, що послідувало за ним, знищило наші запаси продовольства, і ми більше не мали можливості продовжувати облогу."
+  flavor_kni.131.desc: "Коли ми штурмували [target_location.Custom('LR_ACC')|l] [target_location.GetNameWithNoTooltip], сама природа збунтувалася проти нас. Землетрус небаченої сили спровокував страшні руйнування та забрав безліч життів, а цунамі, що послідувало за ним, знищило наші запаси харчів, і ми більше не мали можливості продовжувати облогу."
   flavor_kni.131.a: "Прокляття!"
   flavor_kni.150.title: "Замок у [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
   flavor_kni.150.entry: "Замок у Бодрумі"

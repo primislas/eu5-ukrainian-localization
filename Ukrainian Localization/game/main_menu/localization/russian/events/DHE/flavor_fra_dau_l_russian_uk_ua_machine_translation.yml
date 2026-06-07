@@ -14,5 +14,5 @@
   flavor_fra_dau.101.a: "Звернемося з пропозицією до [target_country.GetAdjectiveWithNoTooltip|l]ого двору."
   flavor_fra_dau.101.a.entry: "Звернімося з пропозицією до їхнього двору."
   flavor_fra_dau.101.b: "Ми нізащо не продамо свою незалежність!"
-  dau_sale_of_viennois_tt: "Якщо влада #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! погодиться, ми станемо молодшим партнером в особистій унії та отримаємо #G 1000#!#! [Concept('gold', 'дукатів')|e]."
+  dau_sale_of_viennois_tt: "Якщо влада #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! погодиться, ми станемо молодшим партнером в особистій унії та отримаємо #G 1000#!#! [Concept('gold', 'екю')|e]."
   heirs_will_inherit_dauphin_title: "Титул «$country_flavor_france_dauphin$» перейде до спадкоємця престолу з #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!."

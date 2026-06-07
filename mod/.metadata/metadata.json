@@ -1,7 +1,7 @@
 ﻿{
 	"name":	"Європа УкраЇнерсаліс V (Ранній Доступ)",
 	"id": "europa.ukrainersalis.v",
-	"version":	"0.1.2.5.2",
+	"version":	"0.1.2.5.3",
 	"supported_game_version": "1.2.*",
 	"short_description": "Brings Ukraїnian localization to EU5.",
 	"tags":	["User Interface", "Translation"],

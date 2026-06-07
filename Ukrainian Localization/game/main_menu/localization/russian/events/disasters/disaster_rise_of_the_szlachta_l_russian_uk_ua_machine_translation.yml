@@ -21,7 +21,7 @@
   rise_of_the_szlachta.4.b: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] нам допоможуть."
   rise_of_the_szlachta.4.c: "Нам не потрібна їхня підтримка."
   rise_of_the_szlachta.5.title: "Стани вимагають скликання [ROOT.GetCountry.Custom('parliament_ua_GEN')|l]"
-  rise_of_the_szlachta.5.desc: "Засідання [ROOT.GetCountry.Custom('parliament_ua_GEN')|l] — основний інструмент політичних махінацій для багатьох впливових магнатів нашої країни. [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|U] та [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] незадоволені тим, що ми давно не скликали делегатів на нові засідання."
+  rise_of_the_szlachta.5.desc: "Засідання [ROOT.GetCountry.Custom('parliament_ua_GEN')|l] — основний засіб політичних махінацій для багатьох впливових магнатів нашої країни. [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|U] та [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] незадоволені тим, що ми давно не скликали делегатів на нові засідання."
   rise_of_the_szlachta.5.a: "Добре, ми зберемо [ROOT.GetCountry.Custom('parliament_ua_ACC')|l]"
   rise_of_the_szlachta.5.b: "Ми влаштуємо засідання, але [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] запрошення не отрима[ROOT.GetCountry.Custom('nobles_yeyut')]!"
   rise_of_the_szlachta.5.c: "Ці дешеві куртизанки нам не указ."

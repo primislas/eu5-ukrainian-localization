@@ -2,7 +2,7 @@
   personality_events.1.title: "[target_ruler.GetNameWithNoTooltip] та [Select_CString(target_ruler.IsFemale,'її', 'його')] інтереси"
   personality_events.1.desc: "[ROOT.GetCountry.GetGovernment.GetRulerTitle] виявляє інтерес до науки і може днями безперервно спілкуватися з придворними вченими. [Select_CString(target_ruler.IsFemale,'Вона', 'Він')] запрошує до себе видатні уми з усього світу, щоб краще зрозуміти устрій світу та роль людей у ньому.\n\n[target_ruler.GetName] цілком [Select_CString(target_ruler.IsFemale,'могла б сама', 'міг би сам')] стати великим діячем у цікавій [Select_CString(target_ruler.IsFemale,'їй', 'йому')] галузі, якби [Select_CString(target_ruler.IsFemale,'доклала', 'доклав')] до цього достатньо зусиль."
   personality_events.1.a: "Усі ми повинні прагнути пізнати навколишній світ."
-  personality_events.1.a.tt: "Це піде нашій країні на користь, але коштуватиме чимало [Concept('gold', 'золота')|e]."
+  personality_events.1.a.tt: "Це піде нашій країні на користь, але коштуватиме чимало [Concept('gold', 'грошей')|e]."
   personality_events.1.b: "Кожен правитель зобов'язаний знати закони Бога та людей."
   personality_events.1.c: "[Select_CString(target_ruler.IsFemale,'Їй', 'Йому')] не годиться витрачати на це час та кошти."
   personality_events.2.title: "Досягнення в картографії"

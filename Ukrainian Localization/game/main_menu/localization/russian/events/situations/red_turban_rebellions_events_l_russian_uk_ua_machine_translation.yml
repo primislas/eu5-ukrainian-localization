@@ -104,7 +104,7 @@
   red_turban_rebellions.41.title: "Відчайдушні часи"
   red_turban_rebellions.41.desc: "[ShowSituationName('red_turban_rebellions')] лягло важким тягарем на наші ресурси. Десятки заколотів охопили [ROOT.GetCountry.Custom('rank_ua_ACC')|l], і стало очевидно, що у нас не вистачить сил, щоб придушити їх. Ми можемо надрукувати більше паперової валюти, щоб дозволити собі утримувати більше військо, однак це неминуче відгукнеться знеціненням грошей у наступні роки."
   red_turban_rebellions.41.a: "Надрукуємо кошти та приготуємося зіткнутися з інфляцією."
-  red_turban_rebellions.41.b: "Жодного друку грошей. Ми впораємося з дефіцитом."
+  red_turban_rebellions.41.b: "Жодного друку грошей. Ми впораємося зі скрутою."
   red_turban_rebellions.42.title: "Маньчжурія відколюється!"
   red_turban_rebellions.42.desc: "#TOOLTIP:SITUATION,red_turban_rebellions,X #L Повстання «Червоних пов'язок»#!#! зачепило не тільки серце #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, а й віддалені області [ROOT.GetCountry.Custom('rank_ua_GEN')|l], особливо край, завойований колись нашими предками, — #TOOLTIP:REGION,manchuria_region,X #L Маньчжурію#!#!. І хоча умовно вони залишаються під нашою владою, насправді киплячий у країні конфлікт призвів до того, що владарювати Маньчжурією просто нікому. По суті, цей регіон кинутий на призволяще."
   red_turban_rebellions.42.a: "Ну просто чудово…"

@@ -29,7 +29,7 @@
   colonial_charter.9.a: "[ROOT.GetCountry.Custom('common_string_negative')]"
   colonial_charter.9.b: "Ми повинні їм допомогти!"
   colonial_charter.10.title: "Неврожай"
-  colonial_charter.10.desc: "Колонія [SCOPE.sColonialCharter('target').GetName] постраждала через поганий урожай. Це призвело до нестачі продовольства та зменшення притоку іммігрантів, а деякі поселенці й зовсім вирішили повернутися додому. Майбутнє колонії під великим питанням."
+  colonial_charter.10.desc: "Колонія [SCOPE.sColonialCharter('target').GetName] постраждала через поганий урожай. Це призвело до голоду та зменшення притоку іммігрантів, а деякі поселенці й зовсім вирішили повернутися додому. Майбутнє колонії під великим питанням."
   colonial_charter.10.a: "Ми не залишимо їх у біді."
   colonial_charter.10.b: "Вони впораються і без нашої допомоги."
   colonial_charter.100.title: "Колонія в провінції [SCOPE.sProvince('target').GetNameWithNoTooltip]"
