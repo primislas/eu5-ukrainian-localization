@@ -1059,7 +1059,7 @@
   societal_values.2108.a: "Може, вони й мають рацію."
   societal_values.2108.b: "Не зважати на їхні побоювання."
   societal_values.2109.title: "Селянські біди"
-  societal_values.2109.desc: "Наш[ROOT.GetCountry.Custom('peasants_aei')] [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] сильно стражда[ROOT.GetCountry.Custom('peasants_yeyut')]: вони не можуть виплачувати непідсильні податки. Багатьом важко навіть просто прогодувати свою сім'ю, особливо в селах з поганим урожаєм. З таким важким тягарем дбати про землю належним чином майже неможливо."
+  societal_values.2109.desc: "Наш[ROOT.GetCountry.Custom('peasants_aei')] [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] сильно стражда[ROOT.GetCountry.Custom('peasants_yeyut')]: вони не можуть виплачувати обтяжливі податки. Багатьом важко навіть просто прогодувати свою сім'ю, особливо в селах з поганим урожаєм. З таким важким тягарем дбати про землю належним чином майже неможливо."
   societal_values.2109.a: "Знехтувати їхньою думкою про ситуацію, що склалася."
   societal_values.2109.b: "Спробувати полегшити їхню долю."
   societal_values.2110.title: "Неповага до [ROOT.GetCountry.GetCulture.GetNameWithNoTooltip|l]ої культури"

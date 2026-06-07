@@ -188,7 +188,7 @@
   CURRENT_NEEDS_SORT_GOOD: "Сортувати за назвою [Concept('goods', 'товарів')|e]"
   CURRENT_NEEDS_SORT_MARKET: "Сортувати за назвою [Concept('market', 'ринку')|e]"
   CURRENT_NEEDS_SORT_NEEDS: "Сортувати за нашою потребою в [Concept('good', 'товарі')|e]"
-  CURRENT_NEEDS_SORT_DEFICIT: "Сортувати за дефіцитом бажаних [Concept('goods', 'товарів')|e] на [Concept('market', 'ринку')|e]"
+  CURRENT_NEEDS_SORT_DEFICIT: "Сортувати за нестачею бажаних [Concept('goods', 'товарів')|e] на [Concept('market', 'ринку')|e]"
   FORM_CONTRY_SORT_BY_NAME: "Сортувати за назвою створюваної [Concept('country', 'країни')|e]"
   DISEASE_SORT_BY_NAME: "Сортувати за назвою [Concept('disease', 'епідемії')|e]"
   DISEASE_SORT_BY_OUTBREAKS_AMOUNT: "Сортувати за кількістю спалахів [Concept('disease', 'епідемій')|e]"
