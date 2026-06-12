@@ -182,7 +182,7 @@
   hellenism_religion.9.b: "Зосередимо багатства в осередках."
   pops_in_aforementioned_provinces_weak_satisfaction_tt: "[Concept('pops', 'Населення')|e] вищезгаданих [Concept('provinces', 'провінцій')|e] отримає [ShowNamedValue('pop_satisfaction_weak_bonus')|+=2%] до [Concept('pop_satisfaction', 'вдоволення')|e]"
   hellenism_religion.10.title: "[ROOT.GetCountry.Custom('GetDemeterMomName')] прихильна до нас"
-  hellenism_religion.10.desc: "Комори на ринку #L #TOOLTIP:LOCATIONRANK,[target_market.GetCenterLocation.Custom('LR_tt')],X [target_market.GetCenterLocation.Custom('LR_GEN')|l]#!#! [target_market.GetShortName] вже давно повні зерна. Це вірна ознака того, що богиня врожаю [ROOT.GetCountry.Custom('GetDemeterMomName')] прихильна до нас, і наше новонабуте благополуччя — останнє тому підтвердження. Місцеві жителі просять розподілити зайве продовольство, а жерці — покласти його на вівтар богів на знак нашої найглибшої вдячності."
+  hellenism_religion.10.desc: "Комори на ринку #L #TOOLTIP:LOCATIONRANK,[target_market.GetCenterLocation.Custom('LR_tt')],X [target_market.GetCenterLocation.Custom('LR_GEN')|l]#!#! [target_market.GetShortName] вже давно повні збіжжям. Це вірна ознака того, що богиня врожаю [ROOT.GetCountry.Custom('GetDemeterMomName')] прихильна до нас, і наше новонабуте благополуччя — останнє тому підтвердження. Місцеві жителі просять розподілити зайве продовольство, а жерці — покласти його на вівтар богів на знак нашої найглибшої вдячності."
   hellenism_religion.10.a: "Віддамо надлишки народу."
   hellenism_religion.10.b: "Пожертвуємо надлишки богам."
   Demeter_latin_name: "Церера"

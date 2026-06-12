@@ -666,7 +666,7 @@
   ottoman_war_slave_tax_desc: "Раніше, відповідно до степових звичаїв, п'ята частина військової здобичі відходила вождю, тепер же п'ята частина захоплених на війні рабів відходить країні."
   pte_slavery_allowed: "@slaves_goods! Рабство дозволено: #G Так#!"
   pte_slavery_export_allowed: "@slaves_goods! Вивіз рабів дозволений: #G Так#!"
-  pte_slavery_export_import: "@slaves_goods! Ввезення рабів дозволено: #G так#!"
+  pte_slavery_export_import: "@slaves_goods! Увіз рабів дозволено: #G так#!"
   pte_no_parliamentary_system: "@has_a_parliamentary_system_negative! $MODIFIER_TYPE_NAME_has_a_parliamentary_system$: #R ні#!"
   pte_no_international_parliament: "@has_international_parliament_negative! $MODIFIER_TYPE_NAME_has_international_parliament$: #R ні#!"
   pte_no_propagating_zone_of_control: "@propagating_zone_of_control_negative! $MODIFIER_TYPE_NAME_propagating_zone_of_control$: #R ні#!"

@@ -81,7 +81,7 @@
   flavor_gen.14.b: "Ми зможемо захистити Газарію своїми силами!"
   flavor_gen.15.title: "Маона Хіоса та Фокеї"
   flavor_gen.15.entry: "$flavor_gen.15.title$"
-  flavor_gen.15.desc: "#TOOLTIP:LOCATION,foca,X #L Фокея#!#! та [ShowLocationName('chios')] перебували під #L [ROOT.GetCountry.GetAdjective|l]им#! контролем, доки в 1329 році [GetCharacter('byz_andronikos_ii_palaiologos').GetName] не приєднав острів до #ONCLICK:COUNTRY,[GetCountry('BYZ').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('BYZ').Custom('CL_tt')],X [GetCountry('BYZ').Custom('CL_DAT')|L]#!#!. З того часу група впливових інвесторів утворила Маону Хіоса та Фокеї, щоб відбити Хіос і закріпитися на ньому. При цьому їхня головна мета — це зовсім не острів, а багаті квасцеві рудники поблизу Фокеї. Однак для здійснення цього амбітного плану їм знадобиться фінансова підтримка."
+  flavor_gen.15.desc: "#TOOLTIP:LOCATION,foca,X #L Фокея#!#! та [ShowLocationName('chios')] перебували під #L [ROOT.GetCountry.GetAdjective|l]им#! контролем, доки в 1329 році [GetCharacter('byz_andronikos_ii_palaiologos').GetName] не приєднав острів до #ONCLICK:COUNTRY,[GetCountry('BYZ').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('BYZ').Custom('CL_tt')],X [GetCountry('BYZ').Custom('CL_DAT')|L]#!#!. З того часу група впливових інвесторів утворила Маону Хіоса та Фокеї, щоб відбити Хіос і закріпитися на ньому. При цьому їхня головна мета — це зовсім не острів, а багаті галунові рудники поблизу Фокеї. Однак для здійснення цього амбітного плану їм знадобиться фінансова підтримка."
   flavor_gen.15.a: "Надамо їм усі необхідні кошти."
   flavor_gen.15.b: "Нехай розбираються самі."
   flavor_gen.16.title: "Визволення Хіоса"
