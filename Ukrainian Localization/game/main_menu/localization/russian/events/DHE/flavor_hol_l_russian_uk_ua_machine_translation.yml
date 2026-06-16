@@ -208,7 +208,7 @@
   NED_GAIN_GRAIN_SUPPLY_TO_DEAL_WITH_GRAIN_ISSUES: "Проблема не вирішиться, поки [ROOT.GetCountry.GetCapital.GetMarket.GetName|l] не перестане відчувати брак #TOOLTIP:GOODS,wheat,X #L пшениці#!#!, а наше [Concept('merchant_power', 'торгова перевага')|e] на таких ринках, як [target_location2.GetMarket.GetName|l] та [target_location.GetMarket.GetName|l], буде нижче #Y 25#!."
   flavor_hol.34.title: "Торгівля на Балтиці відкрита"
   flavor_hol.34.entry: "Торгівля на Балтиці відкрита"
-  flavor_hol.34.desc: "Відкривши торгівлю на #TOOLTIP:AREA,baltic_area,X #L Балтиці#!#!, ми нарешті можемо забезпечити безперебійні поставки продовольства в Нідерланди."
+  flavor_hol.34.desc: "Відкривши торгівлю на #TOOLTIP:AREA,baltic_area,X #L Балтиці#!#!, ми нарешті можемо забезпечити безперебійні поставки харчів в Нідерланди."
   flavor_hol.34.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   flavor_hol.34.a.entry: "$common_string_brilliant$"
   NED_ALL_DUTCH_POPS_BECOME_HAPPIER: "Кожна [Concept('pop', 'група населення')|e], що належить до #TOOLTIP:CULTUREGROUP,netherlandish_group,X #L нідерландської#!#! [Concept('culture_group', 'культурної групи')|e], отримує [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e]."

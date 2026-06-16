@@ -41,7 +41,7 @@
   winter_events.10.title: "Нескінченна посуха"
   winter_events.10.desc: "Нові землі вселяють надію на нові починання, проте холодний і сухий клімат поклав край усім цим сподіванням. Такою була доля тих, хто вирішив спробувати удачу та оселився в [target_charter.Custom('LR_PREP')|l] [target_charter.GetName]. Наші поселенці очікували знайти там родючий ґрунт і зелені луки, але на них чекало гірке розчарування."
   winter_events.10.a: "Таке життя."
-  winter_events.10.b: "Виділимо запаси продовольства з [target_province.Custom('LR_GEN')|l] [target_province.GetNameWithNoTooltip]!"
+  winter_events.10.b: "Виділимо запаси харчів з [target_province.Custom('LR_GEN')|l] [target_province.GetNameWithNoTooltip]!"
   every_location_in_province_gets_dry_spell_modifier_tt: "На всі місцевості в [Concept('province', 'провінції')|e] [target_charter.GetName] впливатиме послаблювальний [Concept('modifier', 'модифікатор')|e] «[ShowModifier('dry_spell_modifier')]»"
   winter_events.11.title: "Зла ворожба"
   winter_events.11.desc: "[target_peasants.GetName|U] прийняли на себе важкий удар природи: суворі зими, зливи з градом і нескінченні морози останнім часом стали звичним явищем. У таких гнітючих умовах напруга доходить до межі, і люди часто намагаються знайти цапа-відбувайла, щоб вимістити злість і звалювати на когось провину за своє скрутне становище.\n\n[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')], на відміну від учених, не ста[ROOT.GetCountry.Custom('peasants_vlaloly')] шукати розумну причину й припусти[ROOT.GetCountry.Custom('peasants_vlaloly')], що ці природні катаклізми — не що інше, як ворожба божевільних відьом, що наслали прокляття на [target_location.Custom('LR_ACC')|l] [target_location.GetName]!"

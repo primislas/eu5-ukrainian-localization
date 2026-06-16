@@ -242,7 +242,7 @@
   flavor_lit.37.b: "Марна трата скарбниці."
   flavor_lit.38.title: "Житниця Європи"
   flavor_lit.38.entry: "Житниця Європи"
-  flavor_lit.38.desc: "Родючі землі #TOOLTIP:REGION,ruthenia_region,X #L Руси#!#! забезпечують нас #TOOLTIP:GOODS,wheat,X #L пшеницею#!#!, без якої неможливий ріст населення. Однак потенціал цих земель використовується далеко не повністю. [ROOT.GetCountry.GetGovernment.GetCourtTitle] пропонує вкласти кошти в подальший розвиток регіону — побудувати нові міста, які зможуть повністю забезпечувати себе продовольством, і, можливо, повністю заселити ці території."
+  flavor_lit.38.desc: "Родючі землі #TOOLTIP:REGION,ruthenia_region,X #L Руси#!#! забезпечують нас #TOOLTIP:GOODS,wheat,X #L пшеницею#!#!, без якої неможливий ріст населення. Однак потенціал цих земель використовується далеко не повністю. [ROOT.GetCountry.GetGovernment.GetCourtTitle] пропонує вкласти кошти в подальший розвиток регіону — побудувати нові міста, які зможуть повністю забезпечувати себе харчами, і, можливо, повністю заселити ці території."
   flavor_lit.38.a: "Нехай стане нашою житницею."
   flavor_lit.38.b: "Краще зосередимося на короткостроковій торгівлі."
   lit_cheaper_granaries_in_ruthenia_tt: "Всі наші [Concept('location', 'місцевості')|e] в #TOOLTIP:REGION,ruthenia_region,X #L Русі#!#!, які виробляють #TOOLTIP:GOODS,wheat,X #L пшеницю#!#!, отримають [Concept('modifier', 'модифікатор')|e] «[ShowModifier('lit_grain_supply_of_europe')]» на #Y 20#! років"

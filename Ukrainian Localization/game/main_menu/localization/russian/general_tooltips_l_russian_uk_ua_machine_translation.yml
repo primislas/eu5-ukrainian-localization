@@ -175,7 +175,7 @@
   LANGUAGE_POWER_MARKET_TOTAL_MERCHANT_POWER_ENTRY: "$BULLET_WITH_TAB$[MARKET.GetShortName] — [Concept('merchant_power', 'купецька влада')|e] ($AMOUNT|Y$): $VAL|2+=$"
   LANGUAGE_POWER_MARKET_TOTAL_MERCHANT_POWER_OTHER: "$BULLET_WITH_TAB$ [Concept('merchant_power', 'Купецька влада')|e] ($AMOUNT|Y$) на інших [Concept('markets', 'ринках')|e] ($NUM$): $VAL|2+=$"
   LANGUAGE_POWER_NO_MARKET: "$BULLET_WITH_TAB$Немає [Concept('markets', 'ринків')|e], де використовується ця мова."
-  ADVANCE_IS_RESEARCHED: "@trigger_yes!Це [Concept('advance', 'поступ')|e] вже досліджено."
+  ADVANCE_IS_RESEARCHED: "@trigger_yes!Цей [Concept('advance', 'поступ')|e] вже досліджено."
   CHANGE_COURT_LANGUAGE_HOLD: "Змінити нашу [Concept('court_language', 'придворну мову')|e]"
   CHANGE_LITURGICAL_LANGUAGE_HOLD: "Змінити нашу [Concept('liturgical_language', 'літургійну мову')|e]"
   ALREADY_COURT_LANGUAGE: "@trigger_no!#L [LANGUAGE.GetName]а#! — наша нова [Concept('court_language', 'придворна мова')|e]."

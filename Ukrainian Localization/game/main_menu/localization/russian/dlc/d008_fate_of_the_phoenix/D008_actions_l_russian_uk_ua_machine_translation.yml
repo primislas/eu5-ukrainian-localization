@@ -1,7 +1,7 @@
 ﻿l_russian:
   loan_icon: "Позичання ікони"
   loan_icon_desc: "Позичте одну #TOOLTIP:WORK_OF_ART_TYPE,icon,X #L ікону#!#! іншій [Concept('country', 'країні')|e] на #Y 10#! років за плату, яка залежить від [Concept('income', 'доходу')|e] цієї країни та [Concept('art_quality', 'майстерності')|e] [Concept('work_of_art', 'витвору')|e]. [Concept('opinion', 'Думка')|e] та [Concept('trust', 'довіра')|e] двох країн одна до одної також підвищаться."
-  loan_icon_tt_no_target: "Ми направимо пропозицію про передачу в оренду одного з наших [Concept('works_of_art', 'витворів')|e] цільовій [Concept('country', 'країні')|e] в обмін на [Concept('gold', 'золоті')|e]"
+  loan_icon_tt_no_target: "Ми направимо пропозицію про передачу в оренду одного з наших [Concept('works_of_art', 'витворів')|e] цільовій [Concept('country', 'країні')|e] в обмін на [Concept('gold', 'гроші')|e]"
   loan_icon_tt: "Вони отримають нашу пропозицію надати їм позику — [SCOPE.sWorkOfArt('target').GetName] — в обмін на [SCOPE.GetValue('icon_price_value')|2][gold_i]"
   loan_icon_bad_economy_tt: "Схоже, вони перебувають у скрутному господарчому становищі, тому #R можуть не погодитися на нашу пропозицію#!, якщо їхня [Concept('opinion', 'думка')|e] про нас буде недостатньо високою"
   loan_icon_choose_icon: "Оберіть #TOOLTIP:WORK_OF_ART_TYPE,icon,X #L ікону#!#! для передачі в оренду"

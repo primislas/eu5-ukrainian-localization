@@ -33,7 +33,7 @@ Translate Russian game localization into Ukrainian. Each key-value is encoded as
 # Style Policy
 
 Historical Tone:
-1.  Attempt to avoid anachronisms, overly bureaucratic language (уникай канцеляризмів), Europe-centric words (that is to say, prefer general terms over something distinctly European, unless obviously appropriate), Rusizm (русизми). But only if a clear Ukrainian alternative exists. For example, армія -> військо, губернатор -> намісник, дукати -> золоті, канцлер -> скарбник, парламент -> збори, міністр -> радник, солдат -> вояк, фермер -> в залежности від контексту селянин чи землероб, etc.
+1.  Attempt to avoid anachronisms, overly bureaucratic language (уникай канцеляризмів), Europe-centric words (that is to say, prefer general terms over something distinctly European, unless obviously appropriate), Rusizm (русизми). But only if a clear Ukrainian alternative exists. For example, армія -> військо, губернатор -> намісник, дукати -> гроші, канцлер -> скарбник, парламент -> збори, міністр -> радник, солдат -> вояк, фермер -> в залежности від контексту селянин чи землероб, etc.
 2.  Prefer historically appropriate words to modern terminology if such words exist, are well established, and have a general (not Europe- or Ukraine-specific) application. For example, інтерес (чи відсотки за інтересом) -> лихва, кредит -> позика, капіталізм -> підприємництво, абсолютизм -> самовладдя, модернізувати -> осучаснювати, інновації -> новації, економіка -> господарство, etc. Conversely, words like "повіт", "посадник", "уділ", "курінь", "гривня" are too Ukraine-specific and would be out of place in other countries, so they shouldn't be used in general sense.
 3.  Use standard modern technical terms for obvious UI and menu elements.
 4.  Geographic names: Use modern standard Ukrainian names.
@@ -45,6 +45,7 @@ Historical Tone:
 # Glossary
 
 1.  Specific Terms (you can rely on and treat English text as a primary source, deduce context from Russian-English interplay):
+    * game concept "gold" in the sense of money, дукаты -> гроші
     * "nobles", "аристократы" -> "знать"
     * "clergy", "священники" -> "духовенство"
     * "peasants" -> "селяни", але "peasant_estate", "commoners", "common people/folk" -> "простолюд"
@@ -237,7 +238,9 @@ Historical Tone:
     * контрабанда - перемитництво, як діяльність, "перемитні товари", якщо про товари
     * контрабандист - перемитник
     * масштаб - обсяг, коли йдеться про обсяги виробництва
-    * провизия, провізія -> харчі, харч
+    * провизия, провізія, провиант, провіант, продовольство -> харчі, в розповідних приземлено-побутових текстах припускається форма "харч"; продовольчий - харчовий
+    ** food, еда - завжди "харчі", коли мова про військові потреби в їжі
+    ** АЛЕ "supply depot", "продовольственный склад" - "військова комора"
     * термин(ы) - строк(и)
     * фактор -> чинник
 3.  Уникай русизмів, кальки та запозичень з російської мови чи Московії з Російською імперією. Наприклад:
@@ -314,6 +317,7 @@ Historical Tone:
     * sawmill, лесопилка - лісопильня
     * особняк - маєток
     * суахільськ - суахілійськ (прикметник до суахілі)
+    * золотой век, золотий вік - золота доба
 
 
 # Examples

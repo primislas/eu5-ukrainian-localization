@@ -268,7 +268,7 @@
   flavor_vlt.3.desc: "Дізнавшись про те, що [target_country.GetGovernment.GetRulerTitle|l] [Select_CString(target_character.IsFemale,'хотіла', 'хотів')] продати нам свою країну, жителі #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! підняли повстання. На щастя, [target_character.GetName] [Select_CString(target_character.IsFemale,'вижила', 'вижив')], і тепер ми можемо ввести туди свої війська під приводом наведення порядку."
   flavor_vlt.3.a: "Нам час втрутитися."
   FLO_this_will_cease_existing: "#ONCLICK:COUNTRY,[THIS.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[THIS.GetCountry.Custom('CL_tt')],X [THIS.GetCountry.Custom('CL_GEN')|L]#!#! більше не стане."
-  FLO_medici_will_be_stronger: "При заснуванні банку #TOOLTIP:DYNASTY,$medici_dynasty_tt$,X #L Медічі#!#! він отримає до #g 1000#! од. [Concept('gold', 'золота')|e]."
+  FLO_medici_will_be_stronger: "При заснуванні банку #TOOLTIP:DYNASTY,$medici_dynasty_tt$,X #L Медічі#!#! він отримає до #g 1000#! од. [Concept('gold', 'флоринів')|e]."
   FLO_every_borrower_from_the_banks: "Кожна [Concept('nation', 'країна')|e], що взяла позику в одному з збанкрутілих банків, отримає наступну [Concept('event', 'подію')|e]:"
   FLO_events_will_fire_to_give_more_banks: "Кожні 2–4 роки ми будемо отримувати [Concept('event', 'подію')|e], що дозволяє заснувати в одній з [Concept('location', 'місцевостей')|e] новий #TOOLTIP:BUILDING_TYPE,banking_office,X #L банк#!#!."
   FLO_end_of_events: "Ми більше не будемо отримувати [Concept('event', 'події')|e], що дозволяють заснувати в одній з [Concept('location', 'місцевостей')|e] #TOOLTIP:BUILDING_TYPE,banking_office,X #L банк#!#!."

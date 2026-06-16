@@ -408,7 +408,7 @@
   por_geral_de_espanha: "«Загальна хроніка Іспанії»"
   por_geral_de_espanha_desc: "#italic $por_geral_de_espanha$#! — докладна літопис подій Реконкісти, що описує, зокрема, роль #ONCLICK:COUNTRY,[GetCountry('POR').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('POR').Custom('CL_tt')],X [GetCountry('POR').Custom('CL_GEN')|L]#!#! у звільненні #TOOLTIP:REGION,iberia_region,X #L Піренейського півострова#!#! від арабів."
   livro_das_cantigas: "«Книга пісень про Богородицю»"
-  livro_das_cantigas_desc: "#italic $livro_das_cantigas$#! — великий музичний збірник, що містить різні #italic кантіги#!, написані в золотий вік португальської музики."
+  livro_das_cantigas_desc: "#italic $livro_das_cantigas$#! — великий музичний збірник, що містить різні #italic кантіги#!, написані в золоту добу португальської музики."
   gatchina_palace: "Великий Гатчинський палац"
   on_the_corruption_of_morals: "«Про пошкодження моралі в Росії»"
   a_journey_from_st_petersburg_to_moscow: "«Подорож із Петербурга до Москви»"
