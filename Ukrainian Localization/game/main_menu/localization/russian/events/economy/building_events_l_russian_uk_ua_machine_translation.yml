@@ -4,6 +4,6 @@
   building.1.a: "Ми повинні підтримати цей новий навчальний заклад."
   building.1.b: "Втікачі повинні негайно повернутися до міста [old_university.GetNameWithNoTooltip]."
   building.2.title: "Студенти проти містян"
-  building.2.desc: "Університету міста [university.GetName] покровительствує [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l], тому викладачі та студенти мають особливі привілеї, яких немає у простих містян. Стосунки між двома спільнотами завжди були напруженими, але останнім часом тертя переросли у справжні погроми."
+  building.2.desc: "Університету міста [university.GetName] покровительству[ROOT.GetCountry.Custom('clergy_yeyut')] [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l], тому викладачі та студенти мають особливі привілеї, яких немає у простих містян. Стосунки між двома спільнотами завжди були напруженими, але останнім часом тертя переросли у справжні погроми."
   building.2.a: "Ми підтримаємо університет."
   building.2.b: "Ми на боці містян."
