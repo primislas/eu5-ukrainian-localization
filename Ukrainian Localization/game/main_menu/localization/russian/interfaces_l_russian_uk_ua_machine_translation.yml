@@ -5866,7 +5866,7 @@
   mapmode_situation_name: "Ситуації"
   MAPMODE_SITUATION: "#T $mapmode_situation_name$#!\nПоказує поточний вплив [Concept('situations', 'ситуацій')|e]."
   mapmode_situation_data_name: "Дані про ситуації"
-  MAPMODE_SITUATION_DATA: "#T $mapmode_situation_data_name$#!\nПоказує поточний вплив [Concept('situations', 'ситуацій')|e] разом із мапою даних за аналогією з епідеміями."
+  MAPMODE_SITUATION_DATA: "#T $mapmode_situation_data_name$#!\nПоказує поточний вплив [Concept('situations', 'ситуацій')|e] разом із мапою даних подібно до епідемій."
   mapmode_size_name: "Розмір"
   MAPMODE_SIZE: "#T $mapmode_size_name$#!\nПоказує розмір [Concept('locations', 'місцевостей')|e] залежно від того, яку площу вони займають на мапі."
   mapmode_winter_name: "Зима"
