@@ -186,12 +186,6 @@ Historical Tone:
     ** племінний люд -> в облічувальному адміністративному контексті, особливо коли мова про кількість чи число племінного люду, відсотки населення, ситуації, де йдеться більше про окремих людей, а не племена загалом
     ** племена -> загальний необлічувальний контекст множини, наприклад, "афганські племена", "утримання племен", "потреби племен", "заохочення заселення племенами провінції", "приріст племен", "із племен у селяни", "заборона на підвищення племен", "навернення племен", "асиміляція племен"
     ** одноплеменці -> коли контекст безпосередньої взаємодії всередині чи між племенами, наприклад, "весілля одноплеменців", "наших одноплеменців викрадають у рабство", "вожді незадоволенні наверненням їхніх одноплеменців"
-    * deficit, дефицит -> strive to avoid "дефіцит", depending on context use the following alternatives:
-    ** "нестача", especially in menus
-    ** "брак", "бракує" as an extra alternative to diversify narrative and event texts
-    ** "скрута", when specifically about money or financial deficit
-    ** "скарбнича скрута", "скарбнича нестача", "збитки скарбниці" when specifically dealing with budget deficits
-    ** "торгові збитки" when specifically about trade deficits
     * зерно:
     ** when about "grain" in general as grain crops, such as wheat, millet, rice, etc, use "збіжжя";
     ** in narrative texts and in context of food shortages or high prices, you can use alternative "хліб" ("брак хліба", "високі ціни на хліб", "вивіз хліба", "подбати про наявність хліба", "не вистачає хліба прогодувати себе", "хліб для бідноти", "вирощування хліба", "запаси хліба", "зберігання хліба" тощо);
@@ -233,6 +227,12 @@ Historical Tone:
     * аналогічно - подібно до, за зразком
     * бандит - харциз, розбійник
     * бандитський - розбійницький
+    * deficit, дефицит -> strive to avoid "дефіцит", depending on context use the following alternatives:
+    ** "нестача", especially in menus
+    ** "брак", "бракує" as an extra alternative to diversify narrative and event texts
+    ** "скрута", when specifically about money or financial deficit
+    ** "скарбнича скрута", "скарбнича нестача", "збитки скарбниці" when specifically dealing with budget deficits
+    ** "торгові збитки" when specifically about trade deficits
     * газета - часопис
     * контрабанда - перемитництво, як діяльність, "перемитні товари", якщо про товари
     * контрабандист - перемитник
