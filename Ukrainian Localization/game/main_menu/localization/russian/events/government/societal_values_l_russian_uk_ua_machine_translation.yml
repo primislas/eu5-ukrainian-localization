@@ -108,7 +108,7 @@
   societal_values.217.title: "Толерантність до всіх!"
   societal_values.217.desc: "Наш уряд докладає особливих зусиль до того, щоб у суспільстві зберігалася толерантність до людей різних віросповідань, доки вони мають кошти."
   societal_values.217.a: "Бог — добрий!"
-  STATIC_MODIFIER_NAME_tolerance_for_all: "Толерантність до всіх!"
+  STATIC_MODIFIER_NAME_tolerance_for_all: "Віротерпимість до всіх!"
   STATIC_MODIFIER_DESC_tolerance_for_all: "Уряд толерантно ставиться до людей будь-якого віросповідання, доки в них водяться гроші."
   societal_values.218.title: "Під прапор, струнко!"
   societal_values.218.desc: "У розпал війни патріоти стікаються звідусіль, щоб захистити [ROOT.GetCountry.Custom('rank_ua_ACC')|l] від ворогів свободи."
