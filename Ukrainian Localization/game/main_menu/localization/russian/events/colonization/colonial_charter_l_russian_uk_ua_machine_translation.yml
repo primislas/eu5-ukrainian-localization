@@ -22,7 +22,7 @@
   STATIC_MODIFIER_NAME_encomienda_system: "Енком'єнда"
   STATIC_MODIFIER_DESC_encomienda_system: "Енком'єнда передбачає, що кожен колоніст візьме під своє крило певну кількість тубільців, яких він захищатиме та навчатиме. В обмін на цю допомогу місцеві жителі повинні будуть працювати на своїх наставників."
   colonial_charter.8.title: "Євангельська проповідь"
-  colonial_charter.8.desc: "Віруючі люди почали поширювати істинну віру серед жителів [SCOPE.sLocation('missionary_location').Custom('LR_GEN')] [SCOPE.sLocation('missionary_location').GetName]. Схоже, наші вкладення в місцеву місію окупилися сповна."
+  colonial_charter.8.desc: "Віруючі люди почали поширювати істинну віру серед жителів [SCOPE.sLocation('missionary_location').Custom('LR_GEN')] [SCOPE.sLocation('missionary_location').GetName]. Схоже, наші видатки на місцеву місію окупилися сповна."
   colonial_charter.8.a: "Воістину, це блага вість."
   colonial_charter.9.title: "Колонія в біді!"
   colonial_charter.9.desc: "Схоже, ми не розрахували своїх можливостей: одна з наших колоній зіткнулася з нестачею їжі. Багато поселенців загинули, інші ж вирішили повернутися додому."

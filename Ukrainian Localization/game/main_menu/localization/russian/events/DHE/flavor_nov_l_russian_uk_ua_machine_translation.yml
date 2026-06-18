@@ -253,7 +253,7 @@
   nov_influential_tysiatskii: "Впливові тисяцькі"
   nov_tysiatskii_influence_weakened: "Вплив тисяцьких ослаблено"
   nov_influential_tysiatskii_benefits: "Протягом наступних 30 років привілей #TOOLTIP:ESTATE_PRIVILEGE,tysiatskii_privilege,X #L «Тисяцький»#!#! даватиме такі ефекти:\n#G +25%#! до #TOOLTIP:MODIFIER_TYPE,global_nobles_estate_power,X #P #V сили знаті#!#! та #G +15%#! до #TOOLTIP:MODIFIER_TYPE,army_infantry_power,X #P #V потужності піхоти#!#!"
-  nov_tysiatskii_influence_weakened_benefits: "Протягом наступних 30 років привілей #TOOLTIP:ESTATE_PRIVILEGE,tysiatskii_privilege,X #L «Тисяцький»#!#! даватиме такі ефекти:\n#R −25%#! до #TOOLTIP:MODIFIER_TYPE,global_nobles_estate_power,X #P #V сили знаті#!#! та #G +0,1#! до #TOOLTIP:MODIFIER_TYPE,stability_investment,X #P #V вкладень у стабільність#!#!"
+  nov_tysiatskii_influence_weakened_benefits: "Протягом наступних 30 років привілей #TOOLTIP:ESTATE_PRIVILEGE,tysiatskii_privilege,X #L «Тисяцький»#!#! даватиме такі ефекти:\n#R −25%#! до #TOOLTIP:MODIFIER_TYPE,global_nobles_estate_power,X #P #V сили знаті#!#! та #G +0,1#! до #TOOLTIP:MODIFIER_TYPE,stability_investment,X #P #V вартості підтримки стабільности#!#!"
   nov_tysiatskii_influence_event_happened: "Вплив тисяцьких посилився!"
   nov_tysiatskii_influence_event_happened_possible_event: "У майбутньому тисяцькі можуть спробувати підкорити собі такий стан, як [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l]!"
   nov_influential_tysiatskii_requirement: "Наступний бонус можна отримати в результаті [Concept('dynamic_historical_event', 'динамічної історичної події')|e] «$flavor_nov.109.title$»."

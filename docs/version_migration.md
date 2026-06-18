@@ -18,9 +18,10 @@ to process smaller manageable commits, and have an opportunity to edit ru_ua sys
 along the way. Pick your value and repeatedly run "run_machine_translation.py",
 until all files are exhausted.
 5. Run "custom_loc_adaptation.py" to generate custom country and rank endings, custom culture ua scripts.
-6. Run "ending_adaptionat.py" to adapt ru endings to Ukrainian ones.
+6. Run "ending_adaptation.py" to adapt ru endings to Ukrainian ones.
 7. Run "estate_ending_generator.py" to generate estate endings
-8. Run "ending_patching.py" in a separate commit, to detect dangling cases of Russian endings and prepositions.
+8. Run "estate_case_generator.py" to detect missing estate grammatical cases and autogenerate estate cases from config file.
+9. Run "ending_patching.py" in a separate commit, to detect dangling cases of Russian endings and prepositions.
 
 Various post-migration checks:
 * Check correct 'GetAdjective' endings with a regex search `GetAdjective[^\]]*][^а-яіїє\[\$]`

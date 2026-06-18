@@ -232,7 +232,7 @@
   flavor_dlh.37.desc: "Оскільки майже все населення нашої країни сповідує #TOOLTIP:RELIGION,$hindu_tt$,X #L індуїзм#!#!, [target_character.GetName] пропонує обкласти його великим податком. Крім того, що в такому випадку до скарбниці потече більше грошей, а частина жителів навернеться в іншу віру — [ROOT.GetCountry.GetReligion.GetName|l]."
   flavor_dlh.37.a: "Встановимо новий податок."
   flavor_dlh.37.b: "Не будемо їх злити."
-  dlh_5_percent_of_pops_convert_to_our_religion_tt: "#Y 5%#! #TOOLTIP:RELIGION,$hindu_tt$,X #L індуїстського#!#! [Concept('pops', 'населення')|e] навернеться в іншу релігію ([ROOT.GetCountry.GetReligion.GetName|l])"
+  dlh_5_percent_of_pops_convert_to_our_religion_tt: "#Y 5%#! #TOOLTIP:RELIGION,$hindu_tt$,X #L індуїстського#!#! [Concept('pops', 'населення')|e] прийме іншу віру ([ROOT.GetCountry.GetReligion.GetName|l])"
   flavor_dlh.37.historical_info: "Правління Фіруз-шаха Туглака запам'яталося не лише процвітанням Делійського султанату, а й радикальними реформами: султан змушував індуїстів у всьому макрорегіоні навертатися в шаріат. Якщо хтось чинив опір, Туглак посилав до них військо, яке вбивало індуїстів тисячами та руйнувало їхні храми."
   flavor_dlh.38.title: "[target_character2.GetNameWithNoTooltip] влаштовує переворот"
   flavor_dlh.38.entry: "Переворот Маліка Макбуля"

@@ -9,12 +9,16 @@ from eukrainersalis.utils.translation_utils import Language
 load_dotenv()
 
 project_dir = Path(__file__).resolve().parent.parent.parent
+project_script_dir = project_dir / "eukrainersalis"
+project_script_resources_dir = project_script_dir / "resources"
 project_mod_dir = project_dir / "mod"
 translation_dir = project_dir / "Ukrainian Localization"
 custom_localization_translation_dir_path = translation_dir / "game" / "in_game" / "common" / "customizable_localization"
 custom_localization_mod_dir_path = project_mod_dir / "in_game" / "common" / "customizable_localization"
 
 estate_localization_file_path = translation_dir / "game" / "main_menu" / "localization" / "russian" / "estate_l_russian_uk_ua_machine_translation.yml"
+estate_grammatical_case_output_file_path = translation_dir / "game" / "main_menu" / "localization" / "russian" / "EU5_customizable_localization_ru_estate_l_russian_uk_ua_machine_translation.yml"
+estate_grammatical_case_config_file_path = project_script_resources_dir / "estate_grammatical_cases.json"
 modded_estate_localization_file_path = project_mod_dir / "main_menu" / "localization" / "russian" / "ua_estate_l_russian_uk_ua_machine_translation.yml"
 customized_estate_ending_file_path = project_mod_dir / "main_menu" / "localization" / "russian" / "assets" / "ua_estates_ending_l_russian_uk_ua_machine_translation.yml"
 generated_estate_ending_file_path = project_mod_dir / "main_menu" / "localization" / "russian" / "ua_estates_ending_l_russian_uk_ua_machine_translation.yml"

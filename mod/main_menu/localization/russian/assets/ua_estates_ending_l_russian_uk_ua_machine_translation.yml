@@ -10,6 +10,7 @@
   # духовенство
   clergy_estate_clergy_estend_ytyat: "ить"
   clergy_estate_klir_clergy_estend_ytyat: "ить"
+  clergy_estate_kler_clergy_estend_ytyat: "ить"
   # знать
   nobles_estate_nobles_estend_ytyat: "ить"
   # нобілітет
@@ -34,6 +35,7 @@
   # духовенство
   clergy_estate_clergy_estend_vlaloly: "ло"
   clergy_estate_klir_clergy_estend_vlaloly: "в"
+  clergy_estate_kler_clergy_estend_vlaloly: "в"
   # знать
   nobles_estate_nobles_estend_vlaloly: "ла"
   # нобілітет
@@ -58,6 +60,7 @@
   # духовенство
   clergy_estate_clergy_estend_aei: "е"
   clergy_estate_klir_clergy_estend_aei: ""
+  clergy_estate_kler_clergy_estend_aei: ""
   # знать
   nobles_estate_nobles_estend_aei: "а"
   # нобілітет
@@ -82,6 +85,7 @@
   # духовенство
   clergy_estate_clergy_estend_yiaei: "е"
   clergy_estate_klir_clergy_estend_yiaei: "ий"
+  clergy_estate_kler_clergy_estend_yiaei: "ий"
   # знать
   nobles_estate_nobles_estend_yiaei: "а"
   # нобілітет
@@ -106,6 +110,7 @@
   # духовенство
   clergy_estate_clergy_estend_eut: "е"
   clergy_estate_klir_clergy_estend_eut: "е"
+  clergy_estate_kler_clergy_estend_eut: "е"
   # знать
   nobles_estate_nobles_estend_eut: "е"
   # нобілітет
@@ -130,6 +135,7 @@
   # духовенство
   clergy_estate_clergy_estend_yeyut: "є"
   clergy_estate_klir_clergy_estend_yeyut: "є"
+  clergy_estate_kler_clergy_estend_yeyut: "є"
   # знать
   nobles_estate_nobles_estend_yeyut: "є"
   # нобілітет
@@ -154,6 +160,7 @@
   # духовенство
   clergy_estate_clergy_estend_ihlaloly: "огло"
   clergy_estate_klir_clergy_estend_ihlaloly: "іг"
+  clergy_estate_kler_clergy_estend_ihlaloly: "іг"
   # знать
   nobles_estate_nobles_estend_ihlaloly: "огла"
   # нобілітет
@@ -178,6 +185,7 @@
   # духовенство
   clergy_estate_clergy_estend_ytlyat: "ить"
   clergy_estate_klir_clergy_estend_ytlyat: "ить"
+  clergy_estate_kler_clergy_estend_ytlyat: "ить"
   # знать
   nobles_estate_nobles_estend_ytlyat: "ить"
   # нобілітет
@@ -202,6 +210,7 @@
   # духовенство
   clergy_estate_clergy_estend_etsautsa: "еться"
   clergy_estate_klir_clergy_estend_etsautsa: "еться"
+  clergy_estate_kler_clergy_estend_etsautsa: "еться"
   # знать
   nobles_estate_nobles_estend_etsautsa: "еться"
   # нобілітет
@@ -226,6 +235,7 @@
   # духовенство
   clergy_estate_clergy_estend_ohooyiyh: "ого"
   clergy_estate_klir_clergy_estend_ohooyiyh: "ого"
+  clergy_estate_kler_clergy_estend_ohooyiyh: "ого"
   # знать
   nobles_estate_nobles_estend_ohooyiyh: "ої"
   # нобілітет
@@ -250,6 +260,7 @@
   # духовенство
   clergy_estate_clergy_estend_iyyayei: "є"
   clergy_estate_klir_clergy_estend_iyyayei: "ій"
+  clergy_estate_kler_clergy_estend_iyyayei: "ій"
   # знать
   nobles_estate_nobles_estend_iyyayei: "я"
   # нобілітет
@@ -274,6 +285,7 @@
   # духовенство
   clergy_estate_clergy_estend_essyasesi: "се"
   clergy_estate_klir_clergy_estend_essyasesi: "есь"
+  clergy_estate_kler_clergy_estend_essyasesi: "есь"
   # знать
   nobles_estate_nobles_estend_essyasesi: "ся"
   # нобілітет
@@ -298,6 +310,7 @@
   # духовенство
   clergy_estate_clergy_estend_eyyaei: "е"
   clergy_estate_klir_clergy_estend_eyyaei: "ей"
+  clergy_estate_kler_clergy_estend_eyyaei: "ей"
   # знать
   nobles_estate_nobles_estend_eyyaei: "я"
   # нобілітет
@@ -322,6 +335,7 @@
   # духовенство
   clergy_estate_clergy_estend_ihohlaloly: "огло"
   clergy_estate_klir_clergy_estend_ihohlaloly: "іг"
+  clergy_estate_kler_clergy_estend_ihohlaloly: "іг"
   # знать
   nobles_estate_nobles_estend_ihohlaloly: "огла"
   # нобілітет
@@ -346,6 +360,7 @@
   # духовенство
   clergy_estate_clergy_estend_ymoyuymy: "им"
   clergy_estate_klir_clergy_estend_ymoyuymy: "им"
+  clergy_estate_kler_clergy_estend_ymoyuymy: "им"
   # знать
   nobles_estate_nobles_estend_ymoyuymy: "ою"
   # нобілітет
@@ -370,6 +385,7 @@
   # духовенство
   clergy_estate_clergy_estend_ytat: "ить"
   clergy_estate_klir_clergy_estend_ytat: "ить"
+  clergy_estate_kler_clergy_estend_ytat: "ить"
   # знать
   nobles_estate_nobles_estend_ytat: "ить"
   # нобілітет
@@ -394,6 +410,7 @@
   # духовенство
   clergy_estate_clergy_estend_yityat: "їть"
   clergy_estate_klir_clergy_estend_yityat: "їть"
+  clergy_estate_kler_clergy_estend_yityat: "їть"
   # знать
   nobles_estate_nobles_estend_yityat: "їть"
   # нобілітет
@@ -418,6 +435,7 @@
   # духовенство
   clergy_estate_clergy_estend_ovlaloly: "ло"
   clergy_estate_klir_clergy_estend_ovlaloly: "ов"
+  clergy_estate_kler_clergy_estend_ovlaloly: "ов"
   # знать
   nobles_estate_nobles_estend_ovlaloly: "ла"
   # нобілітет
@@ -442,6 +460,7 @@
   # духовенство
   clergy_estate_clergy_estend_ennanoni: "но"
   clergy_estate_klir_clergy_estend_ennanoni: "ен"
+  clergy_estate_kler_clergy_estend_ennanoni: "ен"
   # знать
   nobles_estate_nobles_estend_ennanoni: "на"
   # нобілітет

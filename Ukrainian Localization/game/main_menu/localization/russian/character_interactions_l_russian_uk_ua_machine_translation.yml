@@ -3,7 +3,7 @@
   adapt_culture_for_ruler_concept: "[Concept('culture', 'культура')|e]"
   adapt_culture_for_ruler_act: "$adapt_culture_for_ruler$"
   adapt_culture_for_ruler_desc_specific: "[SCOPE.sCharacter('recipient').GetName] прийме #L [SCOPE.sCountry('actor').GetCulture.GetName|l]у#! [Concept('culture', 'культуру')|e], щоб краще правити [SCOPE.sCountry('actor').Custom('longname_ua_PREP')]."
-  adapt_culture_for_ruler_desc: "[Concept('character', 'Персонаж')|e] прийме [Concept('primary_culture', 'основну культуру')|e] [Concept('country', 'країни')|e]."
+  adapt_culture_for_ruler_desc: "[Concept('character', 'Персонаж')|e] прийме [Concept('primary_culture', 'панівну культуру')|e] [Concept('country', 'країни')|e]."
   adapt_culture_for_ruler_past: "[SCOPE.sCharacter('recipient').GetName] тепер належить до #L [SCOPE.sCountry('actor').GetCulture.GetName|l]ої#! культури!"
   adapt_culture_for_ruler_act_past: "[SCOPE.sCharacter('recipient').GetName] [Select_CString(SCOPE.sCharacter('recipient').IsFemale,'прийняла', 'прийняв')] #L [SCOPE.sCountry('actor').GetCulture.GetName|l]у#! [Concept('culture', 'культуру')|e], щоб краще правити [SCOPE.sCountry('actor').Custom('longname_ua_INST')]."
   make_regent_ruler: "Захоплення трону"

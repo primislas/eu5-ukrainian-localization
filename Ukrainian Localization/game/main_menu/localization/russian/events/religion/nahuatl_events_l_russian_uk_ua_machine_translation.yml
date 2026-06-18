@@ -116,7 +116,7 @@
   nahuatl_events.29.b: "Надбудуємо ще один ярус Піраміди."
   nahuatl_events.29.c: "Ми можемо дозволити собі лише скромні поліпшення."
   nahuatl_events.29.d: "Цього разу ми не можемо дозволити собі надто багато."
-  religious_focus_gain_tt: "Поки діє модифікатор «[ShowModifier('nahuatl_temple_expansion_modifier')]», ми будемо отримувати #G +0,2#! до щомісячного прогресу [Concept('religious_focuses', 'релігійних цілей')|e]"
+  religious_focus_gain_tt: "Поки діє модифікатор «[ShowModifier('nahuatl_temple_expansion_modifier')]», ми будемо отримувати #G +0,2#! до щомісячного прогресу [Concept('religious_focuses', 'сакральних цілей')|e]"
   nahuatl_events.30.title: "Паломництво до [ShowLocationNameWithNoTooltip('cholollan')]"
   nahuatl_events.30.desc: "В[ROOT.GetCountry.Custom('nobles_essyasesi')] наш[ROOT.GetCountry.Custom('nobles_aei')] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] за звичаєм здійсню[ROOT.GetCountry.Custom('nobles_yeyut')] паломництво до великого святилища Кецалькоатля в храмовому місті #TOOLTIP:LOCATION,cholollan,X #L Чолольян#!#!. Тут добрий пернатий змій, покровитель мистецтв і дощів, приймає почесті від своїх шанувальників, а [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] Мезоамерики вихваляються багатством, не вступаючи в бій один з одним."
   nahuatl_events.30.a: "Віддамо належне Кецалькоатлю."

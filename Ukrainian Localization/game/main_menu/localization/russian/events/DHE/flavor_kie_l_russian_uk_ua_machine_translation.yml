@@ -43,7 +43,7 @@
   flavor_kie.5.b: "Це надто дорога затія."
   flavor_kie.6.title: "Митрополія всієї Руси"
   flavor_kie.6.entry: "$flavor_kie.6.title$"
-  flavor_kie.6.desc: "У міру зростання [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetName] приваблює все більше #TOOLTIP:RELIGION,$orthodox_tt$,X #L православних#!#! та #TOOLTIP:RELIGION,$catholic_tt$,X #L католиків#!#!. Хоча представники цих двох конфесій вірять в одного Бога, через віру в Святу Трійцю вони важко уживаються і постійно вступають один з одним у суперечки. Прагнучи покласти край цій ворожнечі, [target_character.GetName] намагається розвивати #TOOLTIP:CULTURE,$ruthenian_tt$,X #L руську#!#! православну церкву на інший лад, відмінний від усталеного #TOOLTIP:CULTUREGROUP,russian_group,X #L східнослов'янського#!#! віровчення."
+  flavor_kie.6.desc: "У міру зростання [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetName] приваблює все більше #TOOLTIP:RELIGION,$orthodox_tt$,X #L православних#!#! та #TOOLTIP:RELIGION,$catholic_tt$,X #L католиків#!#!. Хоча представники цих двох конфесій вірять в одного Бога, через віру в Святу Трійцю вони важко уживаються і постійно вступають один з одним у суперечки. Прагнучи покласти край цій ворожнечі, [target_character.GetName] намагається розвивати #TOOLTIP:CULTURE,$ruthenian_tt$,X #L руську#!#! православну церкву на інший лад, відмінний від усталеного #TOOLTIP:CULTUREGROUP,russian_group,X #L східнослов'янського#!#! віросповідання."
   flavor_kie.6.a: "Ми підтримаємо [Select_CString(target_character.IsFemale,'її', 'його')] ініціативу."
   flavor_kie.6.a.entry: "Ми підтримаємо місто."
   flavor_kie.6.b: "Нехай із цим розбирається духовенство."

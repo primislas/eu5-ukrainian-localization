@@ -50,7 +50,7 @@
   conquest_mission_events.9.b: "Потрібно активніше прищеплювати їм нашу культуру!"
   conquest_mission_events.9.c: "Потрібно наслідувати приклад, який подає нам [target_character.GetShortNameWithNoTooltip]!"
   conquest_mission_events.9.d: "Справжня сила — у культурному різноманітті!"
-  conquest_mission_events.10.title: "Поширення релігії в провінції [target_province.GetNameWithNoTooltip]"
+  conquest_mission_events.10.title: "Поширення віри в провінції [target_province.GetNameWithNoTooltip]"
   conquest_mission_events.10.desc: "Жителі провінції [target_province.GetName] починають поступово навертатися до нашої #L [target_religion.GetAdjective|l]ої#! віри.\n\nУ [target_location.Custom('LR_PREP')|l] [target_location.GetName] вже з'являються перші, поки ще невеликі громади, що згуртувалися навколо наших проповідників, а в храмах побільшало парафіян. Віра ефективно об'єднує людей."
   conquest_mission_events.10.a: "Нарешті вони стали на вірний шлях!"
   conquest_mission_events.11.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] з провінції [target_province.GetNameWithNoTooltip] вимага[ROOT.GetCountry.Custom('nobles_yeyut')] співпраці"

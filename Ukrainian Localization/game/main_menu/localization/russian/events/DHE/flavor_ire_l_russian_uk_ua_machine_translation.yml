@@ -11,7 +11,7 @@
   ireland.11.a.entry: "Його репутацію зруйновано!"
   opinion_scathing_bardic_satire: "Дошкульна бардівська сатира"
   ireland.20.title: "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] вимага[ROOT.GetCountry.Custom('clergy_yeyut')] змін"
-  ireland.20.desc: "У нашому суспільстві [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] відігра[ROOT.GetCountry.Custom('clergy_yeyut')] щодо бардів другорядну роль: на церемонії коронації та одруження запрошують придворних поетів, а родоводи ведуться істориками стародавньою #L [ROOT.GetCountry.GetCourtLanguage.GetName|l]ою#! мовою.\n\nПредставники духовного стану, який в інших країнах має величезний вплив, відкрито скаржаться (звісно ж, #L [ROOT.GetCountry.GetReligion.GetLanguage.GetName|l]ою#! мовою), що наші звичаї застаріли й узагалі суперечать традиціям #L [ROOT.GetCountry.GetReligion.GetGroup.GetName|l]ої#! релігійної групи."
+  ireland.20.desc: "У нашому суспільстві [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] відігра[ROOT.GetCountry.Custom('clergy_yeyut')] щодо бардів другорядну роль: на церемонії коронації та одруження запрошують придворних поетів, а родоводи ведуться істориками стародавньою #L [ROOT.GetCountry.GetCourtLanguage.GetName|l]ою#! мовою.\n\nПредставники духовного стану, який в інших країнах має величезний вплив, відкрито скаржаться (звісно ж, #L [ROOT.GetCountry.GetReligion.GetLanguage.GetName|l]ою#! мовою), що наші звичаї застаріли й узагалі суперечать традиціям #L [ROOT.GetCountry.GetReligion.GetGroup.GetName|l]ого#! віровчення."
   ireland.20.a: "Стан бардів потрібно скасувати."
   ireland.20.b: "Спробуємо відкупитися від духовенства."
   ireland.20.c: "Ці звичаї з'явилися задовго до католицтва."

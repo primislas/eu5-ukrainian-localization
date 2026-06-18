@@ -20,7 +20,7 @@
   confucian_events.3.a: "Усунути [Select_CString(target_character.IsFemale, 'її', 'його' )] з посади!"
   confucian_events.3.b: "Нам є чому повчитися у [target_location.GetDominantReligion.GetAdjectiveWithNoTooltip|l]их народів."
   STATIC_MODIFIER_NAME_converted_minister: "[ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle]-вчений"
-  STATIC_MODIFIER_DESC_converted_minister: "Один із благородних людей, що входять до [ROOT.GetCountry.GetGovernment.GetCabinetTitle|l] нашої країни, піддався спокусі іншої релігії. Це шкідливо для нашої віри, але не варто заплющувати очі й на переваги, які дає доступ до чужих знань."
+  STATIC_MODIFIER_DESC_converted_minister: "Один із благородних людей, що входять до [ROOT.GetCountry.GetGovernment.GetCabinetTitle|l] нашої країни, піддався спокусі іншої віри. Це шкідливо для нашої віри, але не варто заплющувати очі й на переваги, які дає доступ до чужих знань."
   confucian_events.4.title: "Закон та звичай"
   confucian_events.4.desc: "Прихильники #L [target_location.GetDominantReligion.GetAdjective|l]ої#! віри є підданими #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, але деякі їхні звичаї просто обурливі. Вони суперечать мудрим та логічним правилам конфуціанства, яким зобов'язана слідувати кожна цивілізована людина. Наші чиновники в [target_location.Custom('LR_PREP')|l] [target_location.GetName] намагаються відвернути місцевих жителів від варварства, але поки безуспішно."
   confucian_events.4.a: "Варвари!"

@@ -133,7 +133,7 @@
   artist_events.33.desc: "Численн[ROOT.GetCountry.Custom('clergy_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] нещодавно замови[ROOT.GetCountry.Custom('clergy_vlaloly')] кілька ікон, автором яких [Select_CString(target_character.IsFemale, 'стала', 'став')] [target_character.GetName]. Робота була завершена раніше терміну, однак замовники активно критикують іконописця за неуважність, непрофесіоналізм та некомпетентність, які стають очевидними при одному лише погляді на [Select_CString(target_character.IsFemale, 'її', 'його')] творіння. Ці духовні лідери мають великий вплив у нашому суспільстві, тож ситуація може набути кепського оберту…"
   artist_events.33.a: "Ми можемо оплатити витрати іконописця замість них."
   artist_events.33.b: "[ROOT.GetCountry.GetReligion.GetGodName] — ось хто відає всім. Хто ми такі, щоб втручатися в божественні плани?"
-  artist_events.34.title: "Культура та релігія"
+  artist_events.34.title: "Культура та віра"
   artist_events.34.desc: "[target_character.GetName] своїми останніми роботами [Select_CString(target_character.IsFemale,'вразила', 'вразив')] публіку поєднанням кольорів, виразними позами та новими образотворчими техніками. Звісно, ці витвори мистецтва — лише породження нашої великої культури та глибокої релігійності. Усе, що від нас вимагається, — продовжувати фінансувати автора. Натомість ми отримаємо прекрасні ікони та підвищимо свій престиж."
   artist_events.34.a: "Ми з радістю підтримаємо [Select_CString(target_character.IsFemale,'художницю', 'художника')]!"
   artist_events.34.b: "Такі дрібниці нас не цікавлять."

@@ -36,6 +36,14 @@ ending_configs = [
         }
     },
     {
+        "from": "etut",
+        "to": "etsautsa",
+        "value_mappings": {
+            "ет": "еться",
+            "ут": "уться",
+        }
+    },
+    {
         "from": "etyut",
         "to": "yeyut",
         "value_mappings": {

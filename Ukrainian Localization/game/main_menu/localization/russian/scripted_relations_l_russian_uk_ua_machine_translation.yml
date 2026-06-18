@@ -1293,7 +1293,7 @@
   curb_pronoia_military_action_relation: "Обмеження воєнної активності"
   curb_pronoia_military_action_relation_desc: "[Concept('country', 'Країна')|e] обмежить воєнну активність, і її [ShowSubjectTypeName('pronoia')|l] більше не зможе оголошувати [Concept('wars', 'війни')|e], однак це знизить [Concept('subject_loyalty', 'відданість васала')|e]."
   offer_curb_pronoia_military_action: "Обмеження воєнної активності проній"
-  offer_curb_pronoia_military_action_cta: "Забороніть будь-яку воєнну активність [SCOPE.sCountry('recipient').Custom('end_predlog_vvo')] #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').Custom('CL_tt')] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').Custom('CL_tt')],X [SCOPE.sCountry('recipient').Custom('CL_PREP')|L]#!#!"
+  offer_curb_pronoia_military_action_cta: "Забороніть будь-яку воєнну активність [SCOPE.sCountry('recipient').Custom('preposition_uv')] #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').Custom('CL_tt')] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').Custom('CL_tt')],X [SCOPE.sCountry('recipient').Custom('CL_PREP')|L]#!#!"
   offer_curb_pronoia_military_action_desc: "Ми заборонимо їм здійснювати будь-які агресивні воєнні дії."
   offer_curb_pronoia_military_action_cta_to_unknown: "Обмежте воєнну активність, яку здійснює [ShowSubjectTypeName('pronoia')|l]"
   offer_curb_pronoia_military_action_desc_to_unknown: "Ми заборонимо їм здійснювати будь-які агресивні воєнні дії."

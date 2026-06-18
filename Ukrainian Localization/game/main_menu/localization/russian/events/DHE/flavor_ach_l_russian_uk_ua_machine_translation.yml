@@ -62,7 +62,7 @@
   flavor_ach.10.desc: "Після завершення в 1204 році четвертого хрестового походу #TOOLTIP:AREA,morea_area,X #L Морея#!#! опинилася в числі численних регіонів, завойованих хрестоносцями після падіння #ONCLICK:COUNTRY,[byz_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[byz_country.Custom('CL_tt')],X [byz_country.Custom('CL_GEN')|L]#!#!. Втім, за останні кілька десятиліть [byz_country.GetAdjectiveWithNoTooltip|l]і еліти зуміли повернути собі частину регіону, хоча значна його частка залишається під #L [ROOT.GetCountry.GetAdjective|l]ою#! владою.\n\n[byz_country.GetGovernment.GetCourtTitle|U] [byz_country.GetAdjectiveWithNoTooltip|l]ої країни сьогодні на межі сповзання в хаос; деякі наші радники вважають, що нам випала вдала нагода влаштувати новий похід, відвоювати втрачене і назавжди позбавити Морею [byz_country.GetAdjectiveWithNoTooltip|l]ого впливу."
   flavor_ach.10.a: "Час потіснити [byz_country.Custom('longname_ua_wntt_ACC')]!"
   flavor_ach.10.a.entry: "Час потіснити Візантію!"
-  flavor_ach.10.b: "Краще почекати й подивитися, чи правдиві чутки про нестабільність [byz_country.Custom('end_predlog_vvo')] [byz_country.Custom('CL_PREP')]."
+  flavor_ach.10.b: "Краще почекати й подивитися, чи правдиві чутки про нестабільність [byz_country.Custom('preposition_uv')] [byz_country.Custom('CL_PREP')]."
   flavor_ach.10.b.entry: "Краще почекати й подивитися, чи правдиві чутки про нестабільність Візантії."
   flavor_ach.11.title: "Повсюдна нестабільність [byz_country.Custom('preposition_uv')] [byz_country.Custom('CL_PREP')]"
   flavor_ach.11.entry: "Використання вигоди з громадянської війни у Візантії"

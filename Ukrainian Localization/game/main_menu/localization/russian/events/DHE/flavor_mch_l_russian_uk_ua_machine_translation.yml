@@ -25,7 +25,7 @@
   flavor_mch.5.b: "Насамперед ми [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]а країна."
   flavor_mch.5.b.entry: "Насамперед ми — діти своєї культури."
   mch_warring_state_modifier_trigger: "[Concept('location', 'Місцевість')|e] належить #TOOLTIP:CULTUREGROUP,chinese_group,X #L китайській#!#! [Concept('culture_group', 'культурній групі')|e]. Його [Concept('owner', 'власник')|e] успішно підкорив #ONCLICK:COUNTRY,[GetCountry('KOR').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('KOR').Custom('CL_tt')],X [GetCountry('KOR').Custom('CL_ACC')|L]#!#! в ході події «$flavor_mch.10.title$»."
-  mch_lifan_yuan_modifier_trigger: "[Concept('dominant_culture', 'Домінуюча культура')|e] в [Concept('location', 'місцевості')|e] не визнана і не є частиною #TOOLTIP:CULTUREGROUP,chinese_group,X #L китайської#!#! або #TOOLTIP:CULTUREGROUP,jurchen_group,X #L чжурчженської#!#! [Concept('culture_group', 'культурної групи')|e]"
+  mch_lifan_yuan_modifier_trigger: "[Concept('dominant_culture', 'Основна культура')|e] в [Concept('location', 'місцевості')|e] не визнана і не є частиною #TOOLTIP:CULTUREGROUP,chinese_group,X #L китайської#!#! або #TOOLTIP:CULTUREGROUP,jurchen_group,X #L чжурчженської#!#! [Concept('culture_group', 'культурної групи')|e]"
   unlocked_warring_state: "Доступна державна реформа «$warring_state$»"
   map_QNG: "Жовта $QNG$"
   flavor_mch.6.title: "[ShowLawNameWithNoTooltip('mch_queue_hair')]"
