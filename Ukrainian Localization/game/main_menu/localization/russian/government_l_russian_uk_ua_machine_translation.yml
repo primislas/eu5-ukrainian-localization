@@ -359,7 +359,7 @@
   SET_CABINET_CONSORT: "@trigger_no! [CHARACTER.GetName] є [Concept('consort', 'консортом')|e] нашого правителя."
   SET_CABINET_REGENT: "@trigger_no! [CHARACTER.GetName] є [Concept('regent', 'регентом')|e]."
   SET_CABINET_ARTIST: "@trigger_no! [CHARACTER.GetName] займається створенням творів мистецтва."
-  SET_CABINET_RELIGIOUS_FIGURE: "@trigger_no![CHARACTER.GetName] займається викладанням у власній [Concept('religious_school', 'релігійній школі')|e]."
+  SET_CABINET_RELIGIOUS_FIGURE: "@trigger_no![CHARACTER.GetName] займається викладанням власного [Concept('religious_school', 'тлумачення віри')|e]."
   SET_CABINET_EXPLORER: "@trigger_no![CHARACTER.GetName] займається дослідженням далеких земель."
   SET_CABINET_EXPLORER_CONSTRUCTION: "@trigger_no![CHARACTER.GetName] займається підготовкою до дослідження далеких земель."
   SET_CABINET_COMMANDER: "@trigger_no![CHARACTER.GetName] очолює загін «[UNIT.GetName]»."
