@@ -216,7 +216,7 @@
   RELIGION_REFORM_DESIRE_WITH_VAL: "[Concept('reform_desire', 'Прагнення до реформації')|e]: $VAL|2%Y$"
   RELIGION_REFORM_DESIRE: "Поточне [Concept('reform_desire', 'прагнення до реформації')|e] #L [Player.GetReligion.GetAdjective|l]ої#! релігії становить [Player.GetReligion.GetReformDesire|%Y].\n[Concept('reform_desire', 'Прагнення до реформації')|e] зараз змінюється на [RELIGION.GetModifierValue('monthly_reform_desire')] щомісяця."
   RELIGION_HAS_RELIGIOUS_SCHOOLS: "Допускає [Concept('religious_schools', 'віровчення')|e]"
-  RELIGION_HAS_RELIGIOUS_FACTIONS: "Допускає [Concept('religious_factions', 'релігійні течії')|e]"
+  RELIGION_HAS_RELIGIOUS_FACTIONS: "Допускає [Concept('religious_factions', 'релігійні угруповання')|e]"
   RELIGION_HAS_RELIGIOUS_FOCUSES: "Допускає [Concept('religious_focuses', 'релігійні цілі')|e]"
   RELIGION_HAS_RELIGIOUS_HEAD: "Має [Concept('religious_head', 'главу')|e]"
   RELIGION_HAS_IMPORTANT_COUNTRY: "У #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#! особливий статус"

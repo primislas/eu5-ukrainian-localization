@@ -1272,7 +1272,7 @@
   NO_POSSIBLE_GOD: "@trigger_no! Немає [Concept('gods', 'богів')|e], з яких можна вибрати."
   NO_POSSIBLE_OMEN: "@trigger_no! Немає [Concept('omens', 'знамень')|e], з яких можна вибрати."
   NO_POSSIBLE_AVATAR: "@trigger_no! Немає [Concept('avatars', 'аватарів')|e], з яких можна вибрати."
-  NO_POSSIBLE_RELIGIOUS_FACTION: "@trigger_no! Немає [Concept('religious_factions', 'релігійних течій')|e], з яких можна вибрати."
+  NO_POSSIBLE_RELIGIOUS_FACTION: "@trigger_no! Немає [Concept('religious_factions', 'релігійних угруповань')|e], з яких можна вибрати."
   NO_POSSIBLE_PARLIAMENT_ISSUE: "@trigger_no! Немає відповідних для цього [Concept('parliament_issues', 'питань зборів')|e]."
   NO_POSSIBLE_PARLIAMENT_TYPE: "@trigger_no! Немає відповідних для цього [Concept('parliament_types', 'видів зборів')|e]."
   NO_POSSIBLE_SUBJECT_TYPE: "@trigger_no! Немає відповідних для цього [Concept('subject_types', 'типів васалів')|e]."

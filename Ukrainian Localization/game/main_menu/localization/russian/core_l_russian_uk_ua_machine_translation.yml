@@ -237,7 +237,7 @@
   SCOPE_DEBUG_GOD: "Бог $NAME$ ($ID$)"
   SCOPE_DEBUG_OMEN: "Знамення «$NAME$» ($ID$)"
   SCOPE_DEBUG_AVATAR: "Аватар $NAME$»($ID$)"
-  SCOPE_DEBUG_RELIGIOUS_FACTION: "Релігійна течія «$NAME$» ($ID$)"
+  SCOPE_DEBUG_RELIGIOUS_FACTION: "Релігійне угруповання «$NAME$» ($ID$)"
   SCOPE_DEBUG_PARLIAMENT_ISSUE: "Питання зборів «$NAME$» ($ID$)"
   SCOPE_DEBUG_PARLIAMENT_TYPE: "Вид зборів «$NAME$» ($ID$)"
   SCOPE_DEBUG_CABINET: "Рада «$NAME$» ($ID$)"

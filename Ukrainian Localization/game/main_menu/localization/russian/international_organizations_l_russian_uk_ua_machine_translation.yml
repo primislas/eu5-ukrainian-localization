@@ -214,7 +214,7 @@
   SUBTAB_IO_CARDINALS_TT_TEXT: "Показує [Concept('cardinals', 'кардиналів')|e] [Concept('international_organization', 'міжнародного об’єднання')|e]."
   SUBTAB_IO_CARDINALS_TT_FLAVOR_TEXT: "«Я більше боюся самого себе, ніж Папи з його кардиналами»."
   SUBTAB_IO_FACTIONS: "$FACTIONS$"
-  SUBTAB_IO_FACTIONS_TT_TEXT: "Показує [Concept('religious_factions', 'релігійні течії')|e] [Concept('international_organization', 'міжнародного об’єднання')|e]."
+  SUBTAB_IO_FACTIONS_TT_TEXT: "Показує [Concept('religious_factions', 'релігійні угруповання')|e] [Concept('international_organization', 'міжнародного об’єднання')|e]."
   SUBTAB_IO_FACTIONS_TT_FLAVOR_TEXT: "«Мудрий лідер оточує себе мудрими радниками»."
   SUBTAB_IO_SAINTS: "$game_concept_saints$"
   SUBTAB_IO_SAINTS_TT_TEXT: "Показує [Concept('saints', 'святих')|e] [Concept('international_organization', 'міжнародного об’єднання')|e]."
