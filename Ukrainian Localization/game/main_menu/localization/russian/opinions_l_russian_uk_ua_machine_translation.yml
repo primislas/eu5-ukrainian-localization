@@ -106,7 +106,7 @@
   opinion_negative_religious_tolerance: "$opinion_religious_tolerance$"
   opinion_liked_religious_school: "Гарне ставлення до [Concept('religious_school', 'віровчення')|e]"
   opinion_disliked_religious_school: "Погане ставлення до [Concept('religious_school', 'віровчення')|e]"
-  opinion_religious_aspect: "[Concept('religious_aspect', 'Релігійна особливість')|e]"
+  opinion_religious_aspect: "[Concept('religious_aspect', 'Устава віри')|e]"
   opinion_declared_war: "Нещодавно оголосили війну"
   opinion_client_state_created: "Створили залежну країну"
   opinion_cant_afford_tribute: "Не можуть платити данину"

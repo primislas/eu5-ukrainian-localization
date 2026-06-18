@@ -85,7 +85,7 @@
   show_event_target_formable_country: "Ціль події: [Concept('formable_country', 'створювана країна')|e] «[FORMABLE_COUNTRY.GetName]»"
   show_event_target_culture_group: "Ціль події: #L [CULTURE_GROUP.GetName|l]а#! [Concept('culture_group', 'культурна група')|e]"
   show_event_target_disaster_type: "Ціль події: [Concept('disaster', 'лихо')|e] «[DISASTER_TYPE.GetName]»"
-  show_event_target_religious_aspect: "Ціль події: [Concept('religious_aspect', 'релігійна особливість')|e] «[RELIGIOUS_ASPECT.GetName]»"
+  show_event_target_religious_aspect: "Ціль події: [Concept('religious_aspect', 'устава')|e] «[RELIGIOUS_ASPECT.GetName]»"
   show_event_target_resolution: "Ціль події: [Concept('resolution', 'резолюція')|e] «[RESOLUTION.GetName]»"
   show_event_target_religious_focus: "Ціль події: [Concept('religious_focus', 'релігійна мета')|e] «[RELIGIOUS_FOCUS.GetName]»"
   show_event_target_trait: "Ціль події: [Concept('trait', 'риса')|e] «[TRAIT.GetName]»"

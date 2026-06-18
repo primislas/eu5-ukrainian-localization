@@ -791,7 +791,7 @@
   no_valid_international_organizations: "@trigger_no! Немає відповідних [Concept('international_organizations', 'міжнародних об’єднань')|e]."
   no_valid_religions: "@trigger_no! Немає відповідних [Concept('religions', 'релігій')|e]."
   no_valid_dialects: "@trigger_no! Немає відповідних [Concept('dialects', 'діалектів')|e]."
-  no_valid_religious_aspects: "@trigger_no! Немає відповідних [Concept('religious_aspects', 'релігійних особливостей')|e]."
+  no_valid_religious_aspects: "@trigger_no! Немає відповідних [Concept('religious_aspects', 'устав віри')|e]."
   no_valid_avatars: "@trigger_no! Немає відповідних [Concept('avatars', 'аватарів')|e]."
   no_valid_gods: "@trigger_no! Немає відповідних [Concept('gods', 'богів')|e]."
   no_valid_laws: "@trigger_no! Немає відповідних [Concept('laws', 'законів')|e]."

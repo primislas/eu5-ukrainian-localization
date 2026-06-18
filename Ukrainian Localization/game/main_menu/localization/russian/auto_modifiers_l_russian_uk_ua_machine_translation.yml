@@ -121,7 +121,7 @@
   AUTO_MODIFIER_NAME_lack_of_rivals: "Відсутність [Concept('rivals', 'суперників')|e]"
   AUTO_MODIFIER_NAME_country_accepted_culture_population: "[Concept('population', 'Населення')|e], що належить до [Concept('primary_culture', 'основної')|e] або [Concept('accepted_culture', 'визнаної культури')|e]"
   AUTO_MODIFIER_NAME_horde_army_expectation: "Очікуване [Concept('army', 'військо')|e] #TOOLTIP:GOVTYPE,steppe_horde,X #L кочової орди#!#!"
-  AUTO_MODIFIER_NAME_number_of_religious_aspects: "Кількість [Concept('religious_aspects', 'релігійних особливостей')|e]"
+  AUTO_MODIFIER_NAME_number_of_religious_aspects: "Кількість [Concept('religious_aspects', 'устав віри')|e]"
   AUTO_MODIFIER_NAME_power_projection: "[Concept('power_projection', 'Дипломатична вага')|e]"
   AUTO_MODIFIER_NAME_at_war: "У стані [Concept('war', 'війни')|e]"
   AUTO_MODIFIER_NAME_in_civil_war: "У стані [Concept('civil_war', 'громадянської війни')|e]"

@@ -189,7 +189,7 @@
   SCOPE_DEBUG_LANGUAGE_FAMILY: "Мовна сім'я «$NAME$» ($ID$)"
   SCOPE_DEBUG_LANGUAGE_DIALECT: "Діалект «$NAME$» ($ID$)"
   SCOPE_DEBUG_RELIGIOUS_SCHOOL: "Віровчення «$NAME$» ($ID$)"
-  SCOPE_DEBUG_RELIGIOUS_ASPECT: "Релігійна особливість «$NAME$» ($ID$)"
+  SCOPE_DEBUG_RELIGIOUS_ASPECT: "Устава «$NAME$» ($ID$)"
   SCOPE_DEBUG_ESTATE_PRIVILEGE: "Становий привілей «$NAME$» ($ID$)"
   SCOPE_DEBUG_ESTATE_TYPE: "Тип стану «$NAME$» ($ID$)"
   SCOPE_DEBUG_GOVERNMENT_REFORM: "Державна реформа «$NAME$» ($ID$)"
