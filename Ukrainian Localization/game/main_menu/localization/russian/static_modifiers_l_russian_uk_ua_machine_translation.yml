@@ -1898,7 +1898,7 @@
   STATIC_MODIFIER_DESC_abdicated_from_the_imperial_throne: "За політичних обставин або з волі народу цей персонаж був змушений зректися престолу #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,hre,X #L Священної Римської Імперії#!#! і тепер не має права зайняти його повторно."
   STATIC_MODIFIER_NAME_dlh_artistic_burnout: "Творче вигорання"
   STATIC_MODIFIER_NAME_dlh_restricted_power: "Обмежена влада"
-  STATIC_MODIFIER_NAME_dlh_piety_focus_ruler: "Релігійна мета"
+  STATIC_MODIFIER_NAME_dlh_piety_focus_ruler: "Священна мета"
   STATIC_MODIFIER_NAME_dlh_grand_wazir_capabilities: "Великий візир"
   STATIC_MODIFIER_NAME_dlh_corrupt_guard: "Корупція в імператорській гвардії"
   STATIC_MODIFIER_NAME_dlh_increased_taxes: "Підвищені податки"

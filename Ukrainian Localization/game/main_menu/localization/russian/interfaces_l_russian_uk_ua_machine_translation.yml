@@ -1312,7 +1312,7 @@
   NO_POSSIBLE_LOCATION_RANK: "@trigger_no! Немає відповідного для цього [Concept('location_rank', 'рангу місцевості')|e]."
   NO_POSSIBLE_POP_TYPE: "@trigger_no! Немає відповідних для цього [Concept('pop_types', 'суспільних класів')|e]."
   NO_POSSIBLE_TRAIT: "@trigger_no! Немає відповідних для цього [Concept('traits', 'рис')|e]."
-  NO_POSSIBLE_RELIGIOUS_FOCUS: "@trigger_no! Немає відповідних для цього [Concept('religious_focuses', 'релігійних цілей')|e]."
+  NO_POSSIBLE_RELIGIOUS_FOCUS: "@trigger_no! Немає відповідних для цього [Concept('religious_focuses', 'сакральних цілей')|e]."
   NO_POSSIBLE_RELIGIOUS_FIGURE: "@trigger_no! Немає відповідних для цього [Concept('religious_figures', 'віровчителів')|e]."
   NO_POSSIBLE_CLIMATE: "@trigger_no! Немає відповідного для цього [Concept('climate', 'клімату')|e]."
   NO_POSSIBLE_VEGETATION: "@trigger_no! Немає відповідної для цього [Concept('vegetation', 'рослинності')|e]."

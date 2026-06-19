@@ -279,7 +279,7 @@
   SCOPE_DEBUG_LOCATION_RANK: "Ранг місцевості «$NAME$» ($ID$)"
   SCOPE_DEBUG_POP_TYPE: "Тип групи населення «$NAME$» ($ID$)"
   SCOPE_DEBUG_TRAIT: "Риса «$NAME$» ($ID$)"
-  SCOPE_DEBUG_RELIGIOUS_FOCUS: "Релігійна мета «$NAME$» ($ID$)"
+  SCOPE_DEBUG_RELIGIOUS_FOCUS: "Сакральна мета «$NAME$» ($ID$)"
   SCOPE_DEBUG_RELIGIOUS_FIGURE: "Віровчитель «$NAME$» ($ID$)"
   SCOPE_DEBUG_CLIMATE: "Клімат «$NAME$» ($ID$)"
   SCOPE_DEBUG_VEGETATION: "Рослинність «$NAME$» ($ID$)"
