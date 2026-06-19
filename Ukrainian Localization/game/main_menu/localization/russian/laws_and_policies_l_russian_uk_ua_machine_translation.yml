@@ -183,7 +183,7 @@
   protestant_tolerance: "Указ про терпимість до лютеран"
   protestant_tolerance_desc: "[GetCountry('FRA').GetGovernment.GetCourtTitle] #ONCLICK:COUNTRY,[GetCountry('FRA').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('FRA').Custom('CL_tt')],X [GetCountry('FRA').Custom('CL_GEN')|L]#!#! дає #TOOLTIP:RELIGION,$lutheran_tt$,X #L лютеранському#!#! населенню особливі привілеї та забороняє його переслідування. Однак #TOOLTIP:RELIGION,$catholic_tt$,X #L католицьк[THIS.GetCountry.Custom('clergy_yiaei')]#!#! [ShowEstateTypeName('clergy_estate')|l] вважа[THIS.GetCountry.Custom('clergy_yeyut')] цю політику єрессю."
   reformist_tolerance: "Указ про релігійну терпимість"
-  reformist_tolerance_desc: "Жителі #ONCLICK:COUNTRY,[GetCountry('FRA').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('FRA').Custom('CL_tt')],X [GetCountry('FRA').Custom('CL_GEN')|L]#!#!, які сповідують різні протестантські віровчення, повинні мати особливі привілеї, що захищають їх від гонінь та дискримінації."
+  reformist_tolerance_desc: "Жителі #ONCLICK:COUNTRY,[GetCountry('FRA').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('FRA').Custom('CL_tt')],X [GetCountry('FRA').Custom('CL_GEN')|L]#!#!, які сповідують різні протестантські вчення, повинні мати особливі привілеї, що захищають їх від гонінь та дискримінації."
   edict_of_fontainebleau: "Едикт Фонтенбло"
   edict_of_fontainebleau_desc: "Двір визнав поширення протестантизму серйозною загрозою стабільності #ONCLICK:COUNTRY,[GetCountry('FRA').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('FRA').Custom('CL_tt')],X [GetCountry('FRA').Custom('CL_GEN')|L]#!#!, а сповідування єретичної віри тепер прирівнюється до державної зради."
   expanded_edict_of_fontainebleau: "Доповнений едикт Фонтенбло"

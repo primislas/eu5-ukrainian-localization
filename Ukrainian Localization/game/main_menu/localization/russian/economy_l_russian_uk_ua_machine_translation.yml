@@ -66,7 +66,7 @@
   RIGHTEOUSNESS_TT_EFFECTS_TEXT: "Коли [righteousness|Vl] становить [Country.GetFixedPointCurrencyValue('righteousness')|W] од., ми отримуємо такі ефекти:"
   RIGHTEOUSNESS_TT_EFFECTS_TEXT_HIGH: "Коли [righteousness|Vl] становить [Country.GetFixedPointCurrencyValue('righteousness')|W] од., ми отримуємо такі ефекти:\n#V [GetAutoModifier('high_righteousness').GetName]#!:\n[Localize(ShowAutoModifierEffectForCountry(Country.Self, 'righteousness'))]"
   RIGHTEOUSNESS_TT_EFFECTS_TEXT_HIGH_LOW: "Коли [righteousness|Vl] становить [Country.GetFixedPointCurrencyValue('righteousness')|W] од., ми отримуємо такі ефекти:\n#V [GetAutoModifier('low_righteousness').GetName]#!:\n[Localize(ShowAutoModifierEffectForCountry(Country.Self, 'righteousness'))]"
-  RELIGIOUS_SCHOOL_TT_CURRENT_TEXT: "Наше [Concept('religious_school', 'віровчення')] — [ReligiousSchool.GetNameWithNoTooltip|l], і ми отримуємо такі ефекти:"
+  RELIGIOUS_SCHOOL_TT_CURRENT_TEXT: "Наша [Concept('religious_school', 'школа')] — [ReligiousSchool.GetNameWithNoTooltip|l], і ми отримуємо такі ефекти:"
   FROM_ESTATE_POWER: "Від [Concept('estate_power', 'влади')|e] [Concept('estate', 'стану')|e] «[ESTATE_TYPE.GetName|l]»: $NUM|2$"
   FOREIGN_BUILDING_ENTRY: "Споруда «[BUILDING.GetName]» у [BUILDING.GetLocation.Custom('LR_PREP')|l] [BUILDING.GetLocation.GetNameWithNoTooltip]: $VAL|2+=$@gold!"
   FOREIGN_BUILDING_ENTRY_EXTRA: "І низка інших споруд ($VAL|0$)."
