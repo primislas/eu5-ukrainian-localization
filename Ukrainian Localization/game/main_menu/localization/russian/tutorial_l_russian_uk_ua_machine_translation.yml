@@ -188,7 +188,7 @@
   lesson_diplomacy_6: "[religion_icon] Віра"
   lesson_diplomacy_6_desc: "Окрім [Concept('culture_with_icon', 'культури')|e], іншою важливою властивістю [Concept('pops_with_icon', 'груп населення')|e] є їхня [Concept('religion_with_icon', 'віра')|e]. Давайте вивчимо [Link('country_religion', '', '@society_panel! вкладку віри')]!"
   lesson_diplomacy_7: "[religion_icon] Віра"
-  lesson_diplomacy_7_desc: "У цій вкладці можна побачити [Concept('primary_religion_with_icon', 'основну віру')|e], а також інші [Concept('religions_with_icon', 'віри')|e], присутні у вашій [Concept('country_with_icon', 'країні')|e].\n\nЗалежно від конкретної віри вашої країни можна витрачати [Concept('religious_influence_with_icon', 'духовний вплив')|e] на різні взаємодії зі своєю вірою.\n\nПодібно до [Concept('culture_with_icon', 'культури')|e], у всіх віросповідань у країні теж є свій [Concept('religious_status', 'статус')|e]."
+  lesson_diplomacy_7_desc: "У цій вкладці можна побачити [Concept('primary_religion_with_icon', 'панівну віру')|e], а також інші [Concept('religions_with_icon', 'віросповідання')|e], присутні у вашій [Concept('country_with_icon', 'країні')|e].\n\nЗалежно від конкретної віри вашої країни можна витрачати [Concept('religious_influence_with_icon', 'релігійний вплив')|e] на різні взаємодії зі своєю вірою.\n\nПодібно до [Concept('culture_with_icon', 'культури')|e], у всіх віросповідань у країні теж є свій [Concept('religious_status', 'статус')|e]."
   lesson_diplomacy_8: "@population! Населення"
   lesson_diplomacy_8_desc: "Тепер давайте вивчимо #high вкладку населення.#!"
   lesson_diplomacy_open_people: "Відкрийте вкладку груп населення"
