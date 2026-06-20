@@ -544,7 +544,7 @@
   jihad_leader: "Лідер джихаду"
   jihad_hint_1: "Учасники джихаду не можуть домовитися про сепаратний мир, доки не мине 12 місяців."
   religious_zeal: "Релігійний запал"
-  religious_zeal_desc: "Показник завзяття учасників [Concept('religious_war', 'релігійної війни')|e]."
+  religious_zeal_desc: "Показник завзяття учасників [Concept('religious_war', 'священної війни')|e]."
   RELIGIOUS_ZEAL_DISPLAY: "$VAL|%$"
   NUMBER_OF_MEMBERS: "Країни, що приєдналися"
   WANE_OVER_TIME: "Зменшується з часом"
