@@ -961,7 +961,7 @@
   hre_elector_bonus_tt: "[Concept('electors', 'Виборщики')|e] отримують наступні модифікатори:"
   hre_free_city_bonus_tt: "[Concept('free_cities', 'Вільні міста')|e] отримують наступні модифікатори:"
   hre_location_bonus_tt: "[Concept('locations', 'Місцевості')|e] країни [GetUniqueInternationalOrganization('hre').GetName] отримують наступні модифікатори:"
-  imperial_religion: "Імперська релігія"
+  imperial_religion: "Імперська віра"
   imperial_religion_desc: "[GetUniqueInternationalOrganization('hre').GetName] ґрунтується на вірі."
   hre_religion_catholic: "$imperial_religion$ — $catholic$"
   hre_religion_catholic_desc: "Традиційне #TOOLTIP:RELIGION,$catholic_tt$,X #L католицтво#!#!, його чесноти та цінності визначають життя в межах #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!."
