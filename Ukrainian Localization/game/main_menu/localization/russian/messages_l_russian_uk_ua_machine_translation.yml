@@ -6186,7 +6186,7 @@
   ALLYTAKEOVERWE_BTN2: "Гаразд"
   ALLYTAKEOVERWE_BTN3: "$common_string_go_to$"
   ALLYTAKEOVERWE_MAP: ""
-  RELIGION_ENABLED_SETUP: "Коли в нашій [Concept('religion_group', 'релігійній групі')|e] з'являється нова [Concept('religion', 'релігія')|e]"
+  RELIGION_ENABLED_SETUP: "Коли в нашому [Concept('religion_group', 'віровченні')|e] з'являється нове [Concept('religion', 'віросповідання')|e]"
   RELIGION_ENABLED_HEADER: "$MESSENGER$"
   RELIGION_ENABLED_TITLE: "$NAME$"
   RELIGION_ENABLED_EFFECTS: "$GROUP$ у небезпеці — серед прихильників цієї групи поширюється нова єресь. Дурні не розуміють, що єдина істинна віра — це $OUR|l$."

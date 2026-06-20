@@ -187,7 +187,7 @@
   trust_same_dynasty: "Та ж династія"
   trust_royal_marriage: "Династичний шлюб"
   trust_different_language: "Інша [Concept('court_language', 'придворна мова')|e]"
-  trust_different_religion_group: "Інша [Concept('religion_group', 'релігійна група')|e]"
+  trust_different_religion_group: "Інше [Concept('religion_group', 'віровчення')|e]"
   trust_same_religion: "Та ж [Concept('religion', 'релігія')|e]"
   trust_no_land_in_peace_deal: "Не віддали землю за умовами миру"
   trust_same_religious_school: "Та ж [Concept('religious_school', 'релігійна школа')|e]"

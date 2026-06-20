@@ -35,7 +35,7 @@
   CLICK_ACTION_OPEN_GAME_CONCEPT: "Відкрити «[GAMECONCEPT.GetName]»"
   CLICK_ACTION_SHOW_GOODS: "Показати товар «[GOODS.GetNameWithNoTooltip]»"
   CLICK_ACTION_SHOW_CULTURE_GROUP: "Показати [CULTURE_GROUP.GetNameWithNoTooltip|l]у культурну групу"
-  CLICK_ACTION_SHOW_RELIGION_GROUP: "Показати [RELIGION_GROUP.GetAdjectiveWithNoTooltip|l]і релігії"
+  CLICK_ACTION_SHOW_RELIGION_GROUP: "Показати [RELIGION_GROUP.GetAdjectiveWithNoTooltip|l]і віросповідання"
   CLICK_ACTION_SETUP_BUILDING_TYPE: "Побудувати споруду «[BUILDING_TYPE.GetNameWithNoTooltip]»"
   CLICK_ACTION_SHOW_IO: "Показати об'єднання «[InternationalOrganization.GetNameWithNoTooltip]»"
   CLICK_ACTION_SHOW_IO_TYPE: "Показати об'єднання «[InternationalOrganizationType.GetNameWithNoTooltip]»"

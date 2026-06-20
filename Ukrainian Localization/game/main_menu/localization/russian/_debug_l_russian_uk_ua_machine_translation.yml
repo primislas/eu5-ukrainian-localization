@@ -66,7 +66,7 @@
   show_event_target_holy_site_type: "Ціль події: тип [Concept('holy_site', 'святині')|e] «[HOLY_SITE_TYPE.GetName]»"
   show_event_target_religion: "Ціль події: [Concept('religion', 'релігія')|e] «[RELIGION.GetName]»"
   show_event_target_culture: "Ціль події: #L [CULTURE.GetName|l]а#! [Concept('culture', 'культура')|e]"
-  show_event_target_religion_group: "Ціль події: [Concept('religion_group', 'релігійна група')|e] «[RELIGION_GROUP.GetName]»"
+  show_event_target_religion_group: "Ціль події: [Concept('religion_group', 'віровчення')|e] «[RELIGION_GROUP.GetName]»"
   show_event_target_language_family: "Ціль події: #L [LANGUAGE_FAMILY.GetName|l]а#! [Concept('language_family', 'мовна сім’я')|e]"
   show_event_target_language: "Ціль події: [LANGUAGE.GetName|l]а#! [Concept('language', 'мова')|e]"
   show_event_target_religious_school: "Ціль події: [Concept('religious_school', 'школа')|e] «[RELIGIOUS_SCHOOL.GetName]»"
