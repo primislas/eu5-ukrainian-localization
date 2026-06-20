@@ -94,6 +94,7 @@ Historical Tone:
     * religious_focus, религиозная цель -> "сакральна мета", BUT plural "сакральні цілі"
 
     * "[culture] conversion" -> "асиміляція"
+    * primary_culture, основная культура -> панівна культура
     * "(government) reform", "(державный) принцип" -> "реформа"
     * "major reform", "ведущий принцип" -> "засаднича реформа"
     * "modernize", "модернизировать" -> "осучаснювати"

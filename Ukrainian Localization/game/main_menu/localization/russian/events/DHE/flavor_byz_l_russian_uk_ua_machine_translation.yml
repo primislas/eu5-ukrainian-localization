@@ -204,7 +204,7 @@
   flavor_byz.33.desc: "Ми здавна називаємо себе наступниками #TOOLTIP:LOCATION,rome,X #L Риму#!#!, але підтверджувати наше право на цю почесну роль з кожним роком стає все складніше. Можливо, настав час перестати чіплятися за колишню славу і прийняти нову ідентичність, яка спрямована не в минуле, а в майбутнє?"
   flavor_byz.33.a: "Ми більше не римляни. Тепер наша країна — це грецька країна."
   flavor_byz.33.b: "Ми ніколи не відмовимося від своєї спадщини."
-  BYZ_ALL_PRIMARY_AND_ACCEPTED_POP_BECOME_HAPPIER: "Кожна [Concept('pop', 'група населення')|e], що належить до [Concept('primary_culture', 'основної')|e] або [Concept('accepted_culture', 'визнаної')|e] культури, отримує [ShowNamedValue('pop_satisfaction_ultimate_bonus')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e]"
+  BYZ_ALL_PRIMARY_AND_ACCEPTED_POP_BECOME_HAPPIER: "Кожна [Concept('pop', 'група населення')|e], що належить до [Concept('primary_culture', 'панівної')|e] або [Concept('accepted_culture', 'визнаної')|e] культури, отримує [ShowNamedValue('pop_satisfaction_ultimate_bonus')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e]"
   flavor_byz.34.title: "[target_location.GetRank.GetNameWithNoTooltip] [target_location.GetNameWithNoTooltip] зростає на очах"
   flavor_byz.34.entry: "Зів’яле місто Константинополь"
   flavor_byz.34.desc: "Роздирана незліченними конфліктами, наша столиця століттями перебувала в занепаді. Тепер, коли #L [ROOT.GetCountry.GetAdjective|l]а#! скарбниця знову повна, ми нарешті можемо зайнятися відродженням #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_GEN')|l]#!#! [target_location.GetName]. Велике місто знову здобуде колишню славу!"

@@ -124,7 +124,7 @@
   THREATENED_BY_NON_IO_MEMBERS: "Відчуває загрозу від країн поза [Concept('international_organization', 'міжнародним об’єднанням')|e]"
   CASUS_BELLI_TARGET_IO_MEMBERS_ENTRY: "Ціль приводу для війни (учасники): $VAL|0+=$"
   CASUS_BELLI_TARGET_NON_IO_MEMBERS_ENTRY: "Ціль приводу для війни (не учасники): $VAL|0+=$"
-  PRIMARY_OR_RULER_CULTURE_EQUAL_TO_LEADER_CULTURE: "[Concept('primary_culture', 'Основна культура')|e] або [Concept('culture', 'культура')|e] [Concept('ruler', 'правителя')|e], що дорівнює культурі [Concept('international_organization_leader_short', 'лідера')|e]"
+  PRIMARY_OR_RULER_CULTURE_EQUAL_TO_LEADER_CULTURE: "[Concept('primary_culture', 'Панівна культура')|e] або [Concept('culture', 'культура')|e] [Concept('ruler', 'правителя')|e], що співпадає з культурою [Concept('international_organization_leader_short', 'лідера')|e]"
   IS_LEADER_OF_AN_AP: "Вже є лідером #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,autocephalous_patriarchate,X #L Автокефального патріархату#!#!"
   THREATENED_BY_LEADER_RIVALS_OR_ENEMIES: "Перебуває під загрозою [Concept('rivals', 'суперників')|e] або [Concept('enemies', 'ворогів')|e] [Concept('international_organization_leader_short', 'лідера')|e]"
   CANNOT_VOTE_NOT_AN_ELECTOR: "[COUNTRY.GetName] не є виборцем"

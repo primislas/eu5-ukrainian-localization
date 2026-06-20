@@ -639,7 +639,7 @@
   STATIC_MODIFIER_NAME_ruler_adm: "Адміністративна навичка правителя"
   STATIC_MODIFIER_NAME_ruler_dip: "Дипломатична навичка правителя"
   STATIC_MODIFIER_NAME_ruler_mil: "Військова навичка правителя"
-  STATIC_MODIFIER_NAME_ruler_primary_culture: "Правитель [Concept('primary_culture', 'основної культури')|e]"
+  STATIC_MODIFIER_NAME_ruler_primary_culture: "Правитель [Concept('primary_culture', 'панівної культури')|e]"
   STATIC_MODIFIER_NAME_ruler_accepted_culture: "Правитель [Concept('accepted_culture', 'визнаної культури')|e]"
   STATIC_MODIFIER_NAME_ruler_tolerated_culture: "Правитель [Concept('tolerated_culture', 'прийнятної культури')|e]"
   STATIC_MODIFIER_NAME_ruler_foreign_culture: "Правитель [Concept('foreign_culture', 'чужої культури')|e]"
