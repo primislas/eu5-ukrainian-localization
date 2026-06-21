@@ -64,7 +64,7 @@
   show_event_target_production_method: "Ціль події: [Concept('production_method', 'метод виробництва')|e] «[PRODUCTION_METHOD.GetName]»"
   show_event_target_holy_site_definition: "Ціль події: визначення [Concept('holy_site', 'святині')|e] «[HOLY_SITE_DEFINITION.GetName]»"
   show_event_target_holy_site_type: "Ціль події: тип [Concept('holy_site', 'святині')|e] «[HOLY_SITE_TYPE.GetName]»"
-  show_event_target_religion: "Ціль події: [Concept('religion', 'релігія')|e] «[RELIGION.GetName]»"
+  show_event_target_religion: "Ціль події: [Concept('religion', 'віросповідання')|e] «[RELIGION.GetName]»"
   show_event_target_culture: "Ціль події: #L [CULTURE.GetName|l]а#! [Concept('culture', 'культура')|e]"
   show_event_target_religion_group: "Ціль події: [Concept('religion_group', 'віровчення')|e] «[RELIGION_GROUP.GetName]»"
   show_event_target_language_family: "Ціль події: #L [LANGUAGE_FAMILY.GetName|l]а#! [Concept('language_family', 'мовна сім’я')|e]"

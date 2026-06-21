@@ -46,7 +46,7 @@
   bng_hindus_become_disloyal_tt: "[Concept('pop_satisfaction', 'Задоволення')|e] всіх ##TOOLTIP:RELIGION,$hindu_tt$,X #L індуїстських#!#! [Concept('pops', 'груп населення')|e] знизиться на [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%]"
   flavor_bng.9.title: "Поширення суфізму"
   flavor_bng.9.entry: "$flavor_bng.9.title$"
-  flavor_bng.9.desc: "Суфізм давно вкорінився серед жителів #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Про це свідчать не тільки численні святилища, а й те, що вченню суфізму частково слідує навіть [ROOT.GetCountry.GetGovernment.GetCourtTitle|l]. Можливо, представникам цієї релігії знадобиться наша фінансова допомога…"
+  flavor_bng.9.desc: "Суфізм давно вкорінився серед жителів #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Про це свідчать не тільки численні святилища, а й те, що вченню суфізму частково слідує навіть [ROOT.GetCountry.GetGovernment.GetCourtTitle|l]. Можливо, представникам цієї віри знадобиться наша фінансова підтримка…"
   flavor_bng.9.a: "Ми допоможемо поширити суфізм."
   flavor_bng.9.b: "Не варто витрачати на це кошти."
   flavor_bng.10.title: "Бенгалія понад усе"

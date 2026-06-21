@@ -361,7 +361,7 @@
   CULTURE_GROUP_SPECIFIC_LOBBY_DESCRIPTION: "#L [ROOT.GetCultureGroup.GetName]а#! [Concept('culture_group', 'культурна група')|e] відкриває таке: $BONUSES$"
   CULTURE_GROUP_SPECIFIC_LOBBY_DESCRIPTION_TT: "Бонуси культурної групи"
   RELIGION_SPECIFIC_LOBBY_DESCRIPTION: "[COUNTRY.GetName] дотриму[COUNTRY.Custom('end_yeyu')]ться #L [ROOT.GetReligion.GetAdjective|l]ої#! віри, що дає їй таке: $BONUSES$"
-  RELIGION_SPECIFIC_LOBBY_DESCRIPTION_TT: "Бонуси релігії"
+  RELIGION_SPECIFIC_LOBBY_DESCRIPTION_TT: "Переваги віри"
   RELIGION_GROUP_SPECIFIC_LOBBY_DESCRIPTION: "[COUNTRY.GetName] сповіду[COUNTRY.Custom('end_yeyut')] #L [ROOT.GetReligionGroup.GetAdjective|l]е#! [Concept('religion_group', 'віровчення')|e], що відкриває: $BONUSES$"
   RELIGION_GROUP_SPECIFIC_LOBBY_DESCRIPTION_TT: "Переваги віровчення"
   GOVERNMENT_TYPE_SPECIFIC_LOBBY_DESCRIPTION: "[ROOT.GetGovernmentType.GetName] — це форма правління [COUNTRY.Custom('preposition_uv')] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_PREP')|L]#!#!, що дає цій країні таке: $BONUSES$"

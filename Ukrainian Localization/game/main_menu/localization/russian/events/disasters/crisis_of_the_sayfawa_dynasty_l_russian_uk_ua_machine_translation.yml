@@ -14,7 +14,7 @@
   crisis_of_the_sayfawa_dynasty.3.a: "Час поставити їх на місце."
   crisis_of_the_sayfawa_dynasty.3.b: "Вони все-таки родичі…"
   crisis_of_the_sayfawa_dynasty.4.title: "Сила в єдності"
-  crisis_of_the_sayfawa_dynasty.4.desc: "За кілька століть #L [ROOT.GetCountry.GetReligion.GetAdjective|l]а#! релігія міцно закріпилася в нашому регіоні. Завдяки їй ми навчилися приймати божественний задум і пізнали захват прилучення до істинної віри. Тепер, коли країна занурюється в хаос, багато хто пропонує нам знайти опору у вірі, адже тільки вона може дати нам порятунок…"
+  crisis_of_the_sayfawa_dynasty.4.desc: "За кілька століть #L [ROOT.GetCountry.GetReligion.GetAdjective|l]а#! віра міцно закріпилася в нашому регіоні. Завдяки їй ми навчилися приймати божественний задум і пізнали захват прилучення до істинної віри. Тепер, коли країна занурюється в хаос, багато хто пропонує нам знайти опору у вірі, адже тільки вона може дати нам порятунок…"
   crisis_of_the_sayfawa_dynasty.4.a: "Віра допоможе нам перемогти."
   crisis_of_the_sayfawa_dynasty.4.b: "Ми служимо народу. [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] нам не указ."
   crisis_of_the_sayfawa_dynasty.4.c: "У нас немає зайвих коштів…"
