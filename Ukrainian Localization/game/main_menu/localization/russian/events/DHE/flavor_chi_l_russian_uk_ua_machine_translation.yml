@@ -75,7 +75,7 @@
   flavor_chi.11.a: "Нам подобається їхній підхід."
   flavor_chi.11.b: "Ми вимагатимемо закрити цей коледж."
   flavor_chi.12.title: "Поширення християнства"
-  flavor_chi.12.desc: "Багаторічна активність #TOOLTIP:RELIGIONGROUP,christian,X #L християнських#!#! місіонерів не пройшла для #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! безслідно. Мало-помалу чужоземні проповідники навернули у свою віру безліч жителів однієї з наших провінцій, і тепер християнство перетворилося на домінуючу релігію цього регіону."
+  flavor_chi.12.desc: "Багаторічна активність #TOOLTIP:RELIGIONGROUP,christian,X #L християнських#!#! місіонерів не пройшла для #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! безслідно. Мало-помалу чужоземні проповідники навернули у свою віру безліч жителів однієї з наших провінцій, і тепер християнство перетворилося на панівне віровчення цього регіону."
   flavor_chi.12.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
   flavor_chi.12.a.entry: "$common_string_alright$"
   flavor_chi.13.title: "[ROOT.GetCountry.GetGovernment.GetRulerTitle|U]-[Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'християнка', 'християнин')]?"

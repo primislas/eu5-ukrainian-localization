@@ -11453,7 +11453,7 @@
   WE_PERFORM_change_primary_culture_ACTION_TITLE: "Панівна культура змінилася"
   WE_PERFORM_change_primary_culture_ACTION_SETUP: "Коли ми змінюємо панівну культуру своєї країни"
   WE_PERFORM_change_primary_culture_ACTION_HEADER: "$MESSENGER$"
-  WE_PERFORM_change_primary_culture_ACTION_EFFECTS: "#L [SCOPE.sCulture('target').GetName]а#! культура [Concept('dominant_culture', 'домінує')|e] в нашій країні, тому цілком розумно визнати її [Concept('primary_culture', 'панівною')|e], а #L [SCOPE.sCulture('old_culture').GetName|l]а#! культура незабаром буде забута."
+  WE_PERFORM_change_primary_culture_ACTION_EFFECTS: "#L [SCOPE.sCulture('target').GetName]а#! культура [Concept('dominant_culture', 'переважає')|e] в нашій країні, тому цілком розумно визнати її [Concept('primary_culture', 'панівною')|e], а #L [SCOPE.sCulture('old_culture').GetName|l]а#! культура незабаром буде забута."
   WE_PERFORM_change_primary_culture_ACTION_LOG: "#L [SCOPE.sCulture('target').GetName]а#! культура стала для нас [Concept('primary_culture', 'панівною')|e]."
   WE_PERFORM_change_primary_culture_ACTION_BTN1: "Гаразд"
   WE_PERFORM_change_primary_culture_ACTION_BTN2: "Гаразд"

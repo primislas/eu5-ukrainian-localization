@@ -1514,7 +1514,7 @@
   DISTRIBUTED_FOOD_NAVY: "\nЦей [Concept('navy', 'флот')|e] [Concept('distributing_food', 'розподіляє їжу')|e] між нужденними [Concept('armies', 'військами')|e] поблизу. Минулого місяця він розподілив $VAL|-=2$ од. їжі."
   WILL_GAIN_FOOD_NAVY: "\nЦей [Concept('navy', 'флот')|e] [Concept('gathering_food', 'збирає їжу')|e] з портів поблизу. Минулого місяця він зібрав $VAL|=+2$ од. їжі."
   NO_LOCAL_FOOD_NO_OWNER: "Місцевість [LOCATION.GetName] ніким не керується"
-  NOT_OUR_CULTURE_NO_OWNER: "У регіоні [LOCATION.GetName] [Concept('dominant_culture', 'домінує')|e] не наша [Concept('culture', 'культура')|e]."
+  NOT_OUR_CULTURE_NO_OWNER: "У регіоні [LOCATION.GetName] [Concept('dominant_culture', 'переважає')|e] не наша [Concept('culture', 'культура')|e]."
   NO_LOCAL_FOOD_CAPITAL: "немає контролю над місцевістю [LOCATION.GetName]"
   GATHER_IS_ON_TT: "Збирає їжу"
   GATHER_IS_ON_TT_INFO: "[Concept('gathering_food', 'Збирає їжу')|e] з портів поблизу."

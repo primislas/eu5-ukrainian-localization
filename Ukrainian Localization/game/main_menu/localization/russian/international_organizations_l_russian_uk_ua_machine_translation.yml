@@ -338,7 +338,7 @@
   imperial_ban_allowed: "Імперська опала дозволена"
   IMPERIAL_AUTHORITY_DISPLAY: "$VAL$"
   HRE_ELECTION_NOT_A_MEMBER: "Не входить до імперії"
-  HRE_DOMINANT_NATION: "Домінуюча країна імперії ([Concept('total_population', 'сукупне населення')|e] понад 1 млн.)"
+  HRE_DOMINANT_NATION: "Провідна країна імперії ([Concept('total_population', 'сукупне населення')|e] понад 1 млн.)"
   HRE_LARGE_NATION: "Велика держава імперії ([Concept('total_population', 'сукупне населення')|e] понад 500 тис.)"
   HRE_SMALL_NATION: "Мала нація імперії ([Concept('total_population', 'сукупне населення')|e] менше 250 тис.)"
   HRE_TINY_NATION: "Крихітна нація імперії ([Concept('total_population', 'сукупне населення')|e] менше 100 тис.)"

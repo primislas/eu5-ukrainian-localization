@@ -95,6 +95,10 @@ Historical Tone:
 
     * "[culture] conversion" -> "асиміляція"
     * primary_culture, основная культура -> панівна культура
+    * "dominant religion, culture, language, dialect", "доминирующая/доминантная религия, культура, язк, диалект" -> основна віра, культура, мова, діалект
+    * "dominant_country", "доминирующая страна" -> провідна країна
+    * доминирует, доминирующий -> depending on context choose панує (панівний), переважає (переважний), основний or провідний (when about cultural or religious game concepts mentioned above)
+
     * "(government) reform", "(державный) принцип" -> "реформа"
     * "major reform", "ведущий принцип" -> "засаднича реформа"
     * "modernize", "модернизировать" -> "осучаснювати"
