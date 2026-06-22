@@ -12,7 +12,7 @@
   mayan_holy_site: "Майянська святиня"
   mayan_holy_site_desc: "Ця [Concept('holy_site', 'святиня')|e] важлива для всіх прихильників #TOOLTIP:RELIGION,$mayan_tt$,X #L майяської#!#! віри."
   islam_holy_site: "Ісламська святиня"
-  islam_holy_site_desc: "Ця [Concept('holy_site', 'святиня')|e] важлива для всіх прихильників #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламських#!#! [Concept('religions', 'релігій')|e]."
+  islam_holy_site_desc: "Ця [Concept('holy_site', 'святиня')|e] важлива для всіх прихильників #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламських#!#! [Concept('religions', 'віросповідань')|e]."
   orthodox_church_holy_site: "Православна святиня"
   orthodox_church_holy_site_desc: "Ця [Concept('holy_site', 'святиня')|e] важлива для всіх прихильників #TOOLTIP:RELIGION,$orthodox_tt$,X #L православної#!#! віри."
   ise_grand_shrine: "Ісе-дзінгу"

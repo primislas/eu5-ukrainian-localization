@@ -26,7 +26,7 @@
   demand_burgher_donations_hw_action: "Вимагати пожертв від купців"
   demand_burgher_donations_hw_action_desc: "$demand_donation_key$ міщани."
   prepare_defenses_hw_action: "Підготувати оборону"
-  prepare_defenses_hw_action_desc: "Незабаром на наші землі обрушаться незліченні натовпи #TOOLTIP:RELIGION,$catholic_tt$,X #L католиків#!#!, охоплених шаленим бажанням встановити верховенство своєї релігії. Розумно буде подбати про те, щоб у кожній провінції була влаштована надійна оборона."
+  prepare_defenses_hw_action_desc: "Незабаром на наші землі обрушаться незліченні натовпи #TOOLTIP:RELIGION,$catholic_tt$,X #L католиків#!#!, охоплених шаленим бажанням встановити верховенство своєї віри. Розумно буде подбати про те, щоб у кожній провінції була влаштована надійна оборона."
   align_with_moderates_help_hw_action: "Підтримати поміркованих"
   align_with_moderates_help_hw_action_desc: "Виявивши терпимість і готовність йти на переговори, ми напевно привернемо на свій бік багатьох співчуваючих — навіть з тих країн, що схилили коліно перед #TOOLTIP:RELIGION,$catholic_tt$,X #L католиками#!#!."
   align_with_radicals_help_hw_action: "Підтримати радикалів"

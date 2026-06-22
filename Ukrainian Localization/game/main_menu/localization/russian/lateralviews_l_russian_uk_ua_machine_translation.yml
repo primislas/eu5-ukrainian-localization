@@ -40,7 +40,7 @@
   lateralview_threaten_war_view_entry_name: "Панель загрози війною"
   lateralview_mercenaries_entry_name: "Панель найманців"
   lateralview_great_powers_entry_name: "Панель великих держав"
-  lateralview_religious_head_entry_name: "Глава релігії"
+  lateralview_religious_head_entry_name: "Глава церкви"
   lateralview_international_organizations_entry_name: "Панель об'єднань"
   lateralview_international_organization_type_entry_name: "Об'єднання: [ORGANIZATION.GetNameWithNoTooltip|L]"
   lateralview_declare_war_entry_name: "Панель оголошення війни"

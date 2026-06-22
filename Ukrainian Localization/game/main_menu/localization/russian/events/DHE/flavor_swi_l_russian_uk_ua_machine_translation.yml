@@ -102,7 +102,7 @@
   flavor_swi.large_conversion.tt: "Багато [Concept('pops', 'груп населення')|e] #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! навертаються в #TOOLTIP:RELIGION,$lutheran_tt$,X #L лютеранство#!#!."
   flavor_swi.1103.title: "[target_character.GetNameWithNoTooltip] набуває впливу"
   flavor_swi.1103.entry: "Навернення Цвінглі"
-  flavor_swi.1103.desc: "Завдяки своїм проповідям [target_character.GetName] здобув значну кількість прихильників та послідовників, і тепер [ROOT.GetCountry.GetName] є переважно #L [ShowReligionAdjective('lutheran')|l]ою#! країною. Їхні ідеї набули такого широкого поширення, що нам не залишається нічого іншого, окрім як офіційно прийняти лютеранство як державну релігію."
+  flavor_swi.1103.desc: "Завдяки своїм проповідям [target_character.GetName] здобув значну кількість прихильників та послідовників, і тепер [ROOT.GetCountry.GetName] є переважно #L [ShowReligionAdjective('lutheran')|l]ою#! країною. Їхні ідеї набули такого широкого поширення, що нам не залишається нічого іншого, окрім як офіційно прийняти лютеранство державною вірою."
   flavor_swi.1103.a: "Це було неминуче."
   flavor_swi.1104.title: "[target_character.GetNameWithNoTooltip] користується підтримкою лютеран"
   flavor_swi.1104.entry: "Цвінглі у в’язниці — селянське повстання"
