@@ -26,7 +26,7 @@
   RSI_ENTRY: "$NAME$: $VAL|2+=%$"
   rsi_separatism: "[Concept('separatism', 'Сепаратизм')|e]"
   rsi_culture: "[Concept('cultural_opinion', 'Думка про культуру')|e]"
-  rsi_religion: "[Concept('religion', 'Релігія')|e]"
+  rsi_religion: "[Concept('religion', 'Віра')|e]"
   rsi_primary: "[Concept('primary_culture', 'Панівна культура')|e]"
   rsi_accepted: "[Concept('accepted_culture', 'Визнана культура')|e]"
   rsi_tolerated: "[Concept('tolerated_culture', 'Прийнятна культура')|e]"

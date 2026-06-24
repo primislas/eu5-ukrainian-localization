@@ -250,7 +250,7 @@
   hussite_army_reform_desc: "Наш народ вистояв, попри всі злидні та незгоди. Ми пережили війни, хрестові походи та переслідування. Ми навчимо військо найсучаснішої тактики та виступимо проти будь-кого, хто спробує нас зламати!"
   lit_measures_against_romuva: "Заходи проти ромувського відродження"
   lit_measures_against_romuva_desc: "У світлі відродження #L [ShowReligionAdjective('romuva')|l]ої#! віри виникли побоювання, що її прихильники можуть влаштувати заворушення. Потрібно скликати стани та розібратися з цим."
-  lit_5_percent_of_pops_convert_to_our_religion_tt: "#Y 5%#! #TOOLTIP:RELIGION,$romuva_tt$,X #L ромуванського#!#! [Concept('pops', 'населення')|e] навернеться в іншу релігію ([ROOT.GetCountry.GetReligion.GetName|l])"
+  lit_5_percent_of_pops_convert_to_our_religion_tt: "#Y 5%#! #TOOLTIP:RELIGION,$romuva_tt$,X #L ромуванського#!#! [Concept('pops', 'населення')|e] прийме іншу віру ([ROOT.GetCountry.GetReligion.GetName|l])"
   hre_law_debate: "Обговорення імперського закону"
   hre_law_debate_desc: "[ShowSpecialStatusName('emperor')] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської імперії#!#! має намір ввести новий закон. Імперські стани мають можливість підтримати або відхилити цю пропозицію."
   hre_request_additional_military_support: "Допомога імперського війська"
