@@ -118,6 +118,8 @@ Historical Tone:
     * dharma, дхарма -> дгарма
     ** "дгарми", а НЕ "дгармів"
     ** in all Indian names and location names transliterate "dhar" ("дхар") as "дгар"
+    * мазхаб -> мазгаб
+    * Яхве -> Ягве
 
     * "[culture] conversion" -> "асиміляція"
     * primary_culture, основная культура -> панівна культура
