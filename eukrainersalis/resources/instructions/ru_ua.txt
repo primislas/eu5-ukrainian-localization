@@ -115,6 +115,10 @@ Historical Tone:
     * religious_head, глава религии, религиозный глава -> глава церкви
     * religious_sect, (религиозное) направление -> (релігійна) течія
 
+    * dharma, дхарма -> дгарма
+    ** "дгарми", а НЕ "дгармів"
+    ** in all Indian names and location names transliterate "dhar" ("дхар") as "дгар"
+
     * "[culture] conversion" -> "асиміляція"
     * primary_culture, основная культура -> панівна культура
     * "dominant religion, culture, language, dialect", "доминирующая/доминантная религия, культура, язк, диалект" -> основна віра, культура, мова, діалект
