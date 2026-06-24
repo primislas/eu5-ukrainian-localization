@@ -187,7 +187,7 @@
   edict_of_fontainebleau: "Едикт Фонтенбло"
   edict_of_fontainebleau_desc: "Двір визнав поширення протестантизму серйозною загрозою стабільності #ONCLICK:COUNTRY,[GetCountry('FRA').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('FRA').Custom('CL_tt')],X [GetCountry('FRA').Custom('CL_GEN')|L]#!#!, а сповідування єретичної віри тепер прирівнюється до державної зради."
   expanded_edict_of_fontainebleau: "Доповнений едикт Фонтенбло"
-  expanded_edict_of_fontainebleau_desc: "Подальше поширення протестантизму та інших релігій Реформації спонукало раду включити до едикту Фонтенбло всі єретичні течії."
+  expanded_edict_of_fontainebleau_desc: "Подальше поширення протестантизму та інших віросповідань Реформації спонукало раду включити до едикту Фонтенбло всі єретичні течії."
   edict_of_chateaubriant: "Едикт Шатобріана"
   edict_of_chateaubriant_desc: "Хвиля протестантизму [GetCountry('FRA').Custom('preposition_uv')] #ONCLICK:COUNTRY,[GetCountry('FRA').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('FRA').Custom('CL_tt')],X [GetCountry('FRA').Custom('CL_PREP')|L]#!#! досягла апогею, і двір був змушений піти на крайні заходи. $edict_of_chateaubriant$ забороняє послідовникам єретичних течій обіймати державні посади та вести торгівлю [GetCountry('FRA').Custom('preposition_uv')] [GetCountry('FRA').Custom('CL_PREP')]."
   edict_of_nantes: "Нантський едикт"

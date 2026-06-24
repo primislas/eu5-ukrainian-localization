@@ -6,7 +6,7 @@
   episcopal_see: "Єпархія"
   episcopal_see_desc: "Єпархія — це область під управлінням єпископа. Контроль над єпархією дає [Concept('countries', 'країнам')|e] додаткові переваги."
   christian_holy_site: "Християнська святиня"
-  christian_holy_site_desc: "Ця [Concept('holy_site', 'святиня')|e] важлива для #TOOLTIP:RELIGIONGROUP,christian,X #L християнських#!#! релігій."
+  christian_holy_site_desc: "Ця [Concept('holy_site', 'святиня')|e] важлива для #TOOLTIP:RELIGIONGROUP,christian,X #L християнських#!#! вір."
   inti_holy_site: "Інтійська святиня"
   inti_holy_site_desc: "Ця [Concept('holy_site', 'святиня')|e] важлива для всіх прихильників #TOOLTIP:RELIGION,$inti_tt$,X #L інтійської#!#! віри."
   mayan_holy_site: "Майянська святиня"

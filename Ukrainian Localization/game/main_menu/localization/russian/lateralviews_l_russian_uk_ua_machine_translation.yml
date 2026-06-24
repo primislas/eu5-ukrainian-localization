@@ -11,7 +11,7 @@
   lateralview_trade_entry_name: "Панель торгівлі"
   lateralview_foreign_country_entry_name: "Країна: [COUNTRY.GetNameWithNoTooltip|L]"
   lateralview_battle_entry_name: "Битва: [COMBAT.GetNameWithNoTooltip|L]"
-  lateralview_country_religion_entry_name: "Панель релігій"
+  lateralview_country_religion_entry_name: "Панель віри"
   lateralview_country_culture_entry_name: "Панель культур"
   lateralview_country_dhe_entry_name: "Панель історичних подій"
   lateralview_country_art_entry_name: "Панель мистецтва"
