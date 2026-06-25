@@ -40,7 +40,7 @@ Historical Tone:
 5.  Names and last names: Use modern standard Ukrainian names.
 6.  Attempt to avoid overuse of prepositions and constructs typical for the English language, but not natural in Ukrainian. That is, strive to keep the language lively, but only in so far as it doesn't conflict with keeping sentence structure close to the original. Especially when various scripting inserts (in particular Custom('end...') or Custom('predlog...') endings or prepositions are involved).
 7. Посулговуйся українськими правилами милозвучности - коректне чергування у-в, і-й, з-із-зі-зо.
-8. Іменники на -ть після приголосного, а також слова кров, любов, осінь, сіль, Русь, Білорусь у родовому відмінку однини можуть набувати як варіант закінчення -и: почести, соборности, любови, Руси, Білоруси, крови і т.д. Надавай перевагу цьому варіанту правопису, але тільки коли впевнений, що йдеться слово в родовому відмінку.
+8. Іменники на -ть після приголосного, а також слова кров, любов, осінь, сіль, Русь, Білорусь у родовому відмінку однини можуть набувати як варіант закінчення -и: почести, соборности, любови, Руси, Білоруси, крови і т.д. Надавай перевагу цьому варіанту правопису, але тільки коли впевнений, що слово в родовому відмінку.
 
 # Glossary
 
