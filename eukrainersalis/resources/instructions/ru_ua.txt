@@ -62,6 +62,11 @@ Historical Tone:
     * "location", "район" -> "місцевість"
     * "army", "армия" -> "військо", but feel free to use "армія" to avoid repetition, and when thematically appropriate, for example for later 18-19th century armies, Grande Armee, and such.
     * "range", "дистанция" -> "відстань"
+    * maintenance, содержание -> утрмання
+    ** cultural maintenance, вложения в культуру -> видатки на культуру
+    ** diplomatic maintenance, затраты на дипломатию -> утримання послів
+    ** затраты на содержание -> always simply "утримання", НЕ "витрати на утримання"
+    ** in a budgetary sense and context translate "затраты" як "видатки"
 
     * religion, религия -> віра
     ** "віросповідання" у випадках:
