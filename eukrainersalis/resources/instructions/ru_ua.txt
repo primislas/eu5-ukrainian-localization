@@ -120,6 +120,7 @@ Historical Tone:
     ** in all Indian names and location names transliterate "dhar" ("дхар") as "дгар"
     * мазхаб -> мазгаб
     * Яхве -> Ягве
+    * динка -> динка (НЕ дінка), when about ethnic group or their religion
 
     * "[culture] conversion" -> "асиміляція"
     * primary_culture, основная культура -> панівна культура
