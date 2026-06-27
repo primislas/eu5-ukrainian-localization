@@ -1527,7 +1527,7 @@
   flavor_tur.219.b: "Замість того, щоб воювати з ними, ми можемо відкупитися від них."
   flavor_tur.220.title: "Амасійська Дарюшифа"
   flavor_tur.220.entry: "Дарюшшифа Амасьї"
-  flavor_tur.220.desc: "Захопивши [target_location.Custom('LR_ACC')|l], [target_character.GetName] [Select_CString(target_character.IsFemale, 'зацікавилася', 'зацікавився' )] місцевою спорудою, що зветься [ShowBuildingTypeName('darussifa')]. Її було зведено ще за країни Хулагуїдів, але досі вона залишається однією з найпередовіших лікарень у #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#!, а то й у всьому світі. [target_character.GetNameWithNoTooltip] бажає оплатити її розширення, щоб перетворити її на світовий центр навчання медицині."
+  flavor_tur.220.desc: "Захопивши [target_location.Custom('LR_ACC')|l], [target_character.GetName] [Select_CString(target_character.IsFemale, 'зацікавилася', 'зацікавився' )] місцевою спорудою, що зветься [ShowBuildingTypeName('darussifa')]. Її було зведено ще за Ільханату, але досі вона залишається однією з найпередовіших лікарень у #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#!, а то й у всьому світі. [target_character.GetNameWithNoTooltip] бажає оплатити її розширення, щоб перетворити її на світовий центр навчання медицині."
   flavor_tur.220.a: "Ми профінансуємо розширення."
   flavor_tur.220.b: "Нехай усе залишається, як є."
   flavor_tur.221.title: "Блакитна мечеть Константинополя"

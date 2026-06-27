@@ -499,7 +499,7 @@
   opinion_marriage_between_beyliks: "Династичний шлюб"
   belligerent_diplomacy: "Войовнича дипломатія"
   trust_beylik_marriage: "Шлюбна довіра"
-  io_opinion_ilkhanate: "[Concept('member', 'Учасник')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$ilkhanate_tt$,X #L Країни Хулагуїдів#!#!"
+  io_opinion_ilkhanate: "[Concept('member', 'Учасник')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$ilkhanate_tt$,X #L Ільханату#!#!"
   opinion_historical_rival: "Історичний суперник"
   opinion_historical_enemy: "Історичний ворог"
   io_opinion_swiss_confederation: "[Concept('member', 'Учасник')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$swiss_confederation_tt$,X #L Швейцарської Конфедерації#!#!"
