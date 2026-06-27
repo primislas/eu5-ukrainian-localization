@@ -990,7 +990,7 @@
   SUBUNIT_REPAIR_COST: "Поповнення та ремонт підрозділів ($NUM$) типу «[SUBUNITDEFINITION.GetName]»: $VALUE$"
   PRISONERS_MAINTENANCE_FACTOR: "Утримання полонених"
   MOTHBALL_MAINTENANCE_FACTOR: "Утримання законсервованого"
-  SUBUNIT_MAINTENANCE_FACTOR: "Вкладення в утримання"
+  SUBUNIT_MAINTENANCE_FACTOR: "Утримання підрозділу"
   REINFORCEMENT_RATE: "Швидкість поповнення"
   REINFORCE_SPEED: "Швидкість поповнення ([SubUnit.GetUnit.GetLocation.GetName])"
   REPAIR_SPEED: "Швидкість ремонту"
