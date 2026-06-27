@@ -101,7 +101,7 @@
   EXPENSE_FROM_DIPLO: "[Concept('diplomatic_maintenance', 'Утримання послів')|e]: $VAL|<+=2$[gold_i]"
   EXPENSE_FROM_COURT: "[Concept('court_maintenance', 'Утримання двору')|e]: $VAL|<+=2$[gold_i]"
   EXPENSE_FROM_FORT: "[Concept('fort_maintenance', 'Утримання фортець')|e]: $VAL|<+=2$[gold_i]"
-  EXPENSE_FROM_STABILITY: "[Concept('stability_investment', 'Вкладення в стабільність')|e]: $VAL|<+=2$[gold_i]"
+  EXPENSE_FROM_STABILITY: "[Concept('stability_investment', 'Видатки на стабільність')|e]: $VAL|<+=2$[gold_i]"
   EXPENSE_FROM_UPKEEP: "[Concept('buildings', 'Споруди')|e]: $VAL|<+=2$[gold_i]"
   PRIVATEER_MAINTENANCE_COST: "[Concept('privateer_maintenance', 'Утримання каперів')|e]: $VAL|<+=2$[$ICON$_i]"
   BUREAUCRACY_MAINTENANCE_COST: "[Concept('bureaucracy', 'Установа')|e]: $VAL|<+=2$[$ICON$_i]"

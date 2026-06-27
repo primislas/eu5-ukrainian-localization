@@ -29,18 +29,37 @@ ESTATE_ENDINGS = {
 }
 
 
-def get_estate_names():
-    estate_names = set()
+def get_estate_keys():
+    estate_keys = set()
     for declaration_file in [estate_localization_file_path, modded_estate_localization_file_path]:
         estate_declaration = load_eu5_yaml(declaration_file).get("l_russian", {})
         for k in estate_declaration.keys():
             elems = k.split("_")
             if len(elems) == 2 and elems[1] == "estate":
-                estate_names.add(k)
+                estate_keys.add(k)
         for k in estate_declaration.keys():
-            if any(k.startswith(estate_name) for estate_name in estate_names):
+            if any(k.startswith(estate_key) for estate_key in estate_keys):
                 if not k.endswith("_desc"):
-                    estate_names.add(k)
+                    estate_keys.add(k)
+    estate_keys = sorted(list(estate_keys))
+    return estate_keys
+
+
+def get_estate_names():
+    estate_keys = set()
+    estate_names = set()
+    for declaration_file in [estate_localization_file_path, modded_estate_localization_file_path]:
+        estate_declaration = load_eu5_yaml(declaration_file).get("l_russian", {})
+        for k, v in estate_declaration.items():
+            elems = k.split("_")
+            if len(elems) == 2 and elems[1] == "estate":
+                estate_keys.add(k)
+                estate_names.add(v)
+        for k, v in estate_declaration.items():
+            if any(k.startswith(estate_key) for estate_key in estate_keys):
+                if not k.endswith("_desc"):
+                    estate_keys.add(k)
+                    estate_names.add(v)
     estate_names = sorted(list(estate_names))
     return estate_names
 
@@ -48,7 +67,7 @@ def get_estate_names():
 def generate_loc_estate_endings():
     """Generates estate ending localization, based on the customized ending localization,
     and applying default values for the rest."""
-    estate_names = get_estate_names()
+    estate_keys = get_estate_keys()
     customized_endings = load_eu5_yaml(customized_estate_ending_file_path).get(Language.RUSSIAN.localization_key, {})
 
     current_ending_key = ""
@@ -58,7 +77,7 @@ def generate_loc_estate_endings():
         is_def = k.endswith("_def")
         if is_def or "_GetEnd_" in k:
             if current_ending_key != "":
-                for estate in estate_names:
+                for estate in estate_keys:
                     estate_prefix = estate.split("_")[0]
                     estate_ending = f"{estate}_{estate_prefix}_{current_ending_key}"
                     if estate_ending not in output:
