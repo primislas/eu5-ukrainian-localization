@@ -1,7 +1,7 @@
 ﻿l_russian:
   flavor_ira.1.title: "[target_character.GetNameWithNoTooltip] проводить реформи"
   flavor_ira.1.entry: "Реформи перського правителя"
-  flavor_ira.1.desc: "[target_character.GetName] уже [Select_CString(target_character.IsFemale, 'довела', 'довів' )], що [Select_CString(target_character.IsFemale, 'достойна', 'достойний' )] влади, об'єднавши #TOOLTIP:REGION,persia_region,X #L Персію#!#!. Однак #TOOLTIP:CULTURE,$mongolian_culture_tt$,X #L монгольське#!#! завоювання регіону, що закінчилося утворенням #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,ilkhanate,X #L Країни Хулагуїдів#!#!, а також вторгнення інших іноземців викликали необхідність суттєвих реформ. [target_country.GetLongName] — без них ця країна не пройде випробування часом."
+  flavor_ira.1.desc: "[target_character.GetName] уже [Select_CString(target_character.IsFemale, 'довела', 'довів' )], що [Select_CString(target_character.IsFemale, 'достойна', 'достойний' )] влади, об'єднавши #TOOLTIP:REGION,persia_region,X #L Персію#!#!. Однак #TOOLTIP:CULTURE,$mongolian_culture_tt$,X #L монгольське#!#! завоювання регіону, що закінчилося утворенням #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,ilkhanate,X #L Ільханату#!#!, а також вторгнення інших іноземців викликали необхідність суттєвих реформ. [target_country.GetLongName] — без них ця країна не пройде випробування часом."
   flavor_ira.1.a: "Найважливіше зараз — відродження наших міст."
   flavor_ira.1.b: "Наше військо терміново потребує реформ."
   flavor_ira.1.c: "Наші закони давно час переглянути."

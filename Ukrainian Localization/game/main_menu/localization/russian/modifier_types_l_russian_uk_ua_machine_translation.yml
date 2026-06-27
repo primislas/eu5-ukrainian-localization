@@ -3882,7 +3882,7 @@
   MODIFIER_TYPE_NAME_ilkhan_claimant_can_participate_in_parliament: "$ilkhan_claimant$ у зборах"
   MODIFIER_TYPE_DESC_ilkhan_claimant_can_participate_in_parliament: "Дозволяє #TOOLTIP:SPECIAL_STATUS,ilkhan_claimant,X #L претенденту на титул спадкоємця Хулагуїдів#!#! висувати на [Concept('parliament', 'зборах')|e] [Concept('international_organization', 'міжнародного об’єднання')|e] [Concept('parliament_agendas', 'вимоги')|e]."
   MODIFIER_TYPE_NAME_ilkhan_claimant_agenda_impact: "Вплив ільхана-претендента на вимоги"
-  MODIFIER_TYPE_DESC_ilkhan_claimant_agenda_impact: "Впливає на величину підтримки [Concept('parliament_agendas', 'вимог на зборах')|e] групи #TOOLTIP:SPECIAL_STATUS,ilkhan_claimant,X #L претендента на титул Країни Хулагуїдів#!#!."
+  MODIFIER_TYPE_DESC_ilkhan_claimant_agenda_impact: "Впливає на величину підтримки [Concept('parliament_agendas', 'вимог на зборах')|e] групи #TOOLTIP:SPECIAL_STATUS,ilkhan_claimant,X #L претендента на титул ільхана#!#!."
   MODIFIER_TYPE_NAME_japanese_emperor_can_participate_in_parliament: "$japanese_emperor$ у зборах"
   MODIFIER_TYPE_DESC_japanese_emperor_can_participate_in_parliament: "Дозволяє #TOOLTIP:SPECIAL_STATUS,japanese_emperor,X #L тенно#!#! висувати на [Concept('parliament', 'зборах')|e] [Concept('international_organization', 'міжнародного об’єднання')|e] [Concept('parliament_agendas', 'вимоги')|e]."
   MODIFIER_TYPE_NAME_japanese_emperor_agenda_impact: "Вплив японського імператора на вимоги"
