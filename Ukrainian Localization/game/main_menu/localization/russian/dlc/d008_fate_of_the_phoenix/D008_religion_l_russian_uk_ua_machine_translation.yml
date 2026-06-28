@@ -200,7 +200,7 @@
   hellenism_religion.13.a: "[Select_CString(target_character.IsFemale, 'Її', 'Його')] жадібність нас погубить!"
   hellenism_religion.13.b: "Зробимо вигляд, що нічого не помітили."
   hellenism_religion.14.title: "[target_province.GetNameWithNoTooltip] і [target_god.GetNameWithNoTooltip] не в ладах"
-  hellenism_religion.14.desc: "З провінції [target_province.GetName] приходять тривожні вісті. [target_god.GetNameWithNoTooltip] там більше не в пошані, підношення здійснюються через раз, і віряни скаржаться, що ворота храмів все частіше виявляються замкнені.\n\nНе так важливо, що служить тому причиною: лінь, бідність чи тихий протест. Коли божество ігнорується, будь-яке нещастя сприймають як вираз вищого гніву. Жерці вимагають втрутитися, і провінція [target_province.GetNameWithNoTooltip] очікує нашого вердикту."
+  hellenism_religion.14.desc: "З провінції [target_province.GetName] приходять тривожні вісті. [target_god.GetNameWithNoTooltip] там більше не в пошані, підношення здійснюються через раз, і віряни скаржаться, що ворота храмів все частіше виявляються замкнені.\n\nНе так важливо, що служить тому причиною: лінощі, бідність чи тихий протест. Коли божество ігнорується, будь-яке нещастя сприймають як вираз вищого гніву. Жерці вимагають втрутитися, і провінція [target_province.GetNameWithNoTooltip] очікує нашого вердикту."
   hellenism_religion.14.a: "Змусимо людей поклонятися силою."
   hellenism_religion.14.b: "Ми не станемо нікого примушувати."
   pops_in_target_province_mild_pop_satisfaction_malus_tt: "Наші [Concept('pops', 'групи населення')|e] у провінції [target_province.GetName] отримають [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] до [Concept('pop_satisfaction', 'вдоволення')|e]"
