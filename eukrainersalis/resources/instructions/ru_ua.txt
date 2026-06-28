@@ -40,7 +40,7 @@ Historical Tone:
 5.  Names and last names: Use modern standard Ukrainian names.
 6.  Attempt to avoid overuse of prepositions and constructs typical for the English language, but not natural in Ukrainian. That is, strive to keep the language lively, but only in so far as it doesn't conflict with keeping sentence structure close to the original. Especially when various scripting inserts (in particular Custom('end...') or Custom('predlog...') endings or prepositions are involved).
 7. Посулговуйся українськими правилами милозвучности - коректне чергування у-в, і-й, з-із-зі-зо.
-8. Іменники на -ть після приголосного, а також слова кров, любов, осінь, сіль, Русь, Білорусь у родовому відмінку однини можуть набувати як варіант закінчення -и: почести, соборности, любови, Руси, Білоруси, крови і т.д. Надавай перевагу цьому варіанту правопису, але тільки коли впевнений, що слово в родовому відмінку.
+8. Іменники на -ть після приголосного, а також слова кров, любов, осінь, сіль, Русь, Білорусь у родовому відмінку однини можуть набувати як варіант закінчення -и: почести, соборности, любови, Руси, Білоруси, крови, радости, більшости і т.і. Надавай перевагу цьому варіанту правопису, але тільки коли впевнений, що слово в родовому відмінку.
 
 # Glossary
 
@@ -50,6 +50,7 @@ Historical Tone:
     * "clergy", "священники" -> "духовенство"
     * "peasants" -> "селяни", але "peasant_estate", "commoners", "common people/folk" -> "простолюд"
     * "country", "держава" -> "країна", attempt to avoid the word "держава" as much as possible, unless it's without a doubt a superior or more fitting option, however, adjective "державний" is allowed
+    ** keep "державний" in fixed expressions, for example "місто-держава"
     * "antagonism", "неприязнь" -> "ворожість"
     * "estate_privilege", "сословная привилегия", "станова привілея" -> "становий привілей"
     * self_control, самоконтроль -> стриманість
@@ -68,6 +69,12 @@ Historical Tone:
     ** затраты на содержание -> always simply "утримання", НЕ "витрати на утримання"
     ** in a budgetary sense and context translate "затраты" як "видатки"
     * Страна Хулагуидов -> Ільханат
+    * colonian nation, колониальная нация -> колоніальне намісництво
+    * import, импорт -> привіз (привізний, привозити, привозитиметься тощо)
+    * export, экспорт -> вивіз (вивізний, вивозити, вивозитиметься тощо)
+    * BUT "импорт/экспорт ... услуг" -> "купівля/продаж ... послуг", e.g. "продаж військових послуг"
+    * "товары" - in narrative texts and when not about a game concept, translate as "крам"
+    * "импортный/экспортный рынок" -> "ринок, що купує/продає"
 
     * religion, религия -> віра
     ** "віросповідання" у випадках:
@@ -121,6 +128,15 @@ Historical Tone:
     * religious_head, глава религии, религиозный глава -> глава церкви
     * religious_sect, (религиозное) направление -> (релігійна) течія
 
+    * heathen, язычник -> depending on context and connotation:
+    ** "іновірець" general translation
+    ** "чужовірець" general with negative connotation
+    ** "язичник" when clearly referring to pagans
+    ** "нехристі" when clearly used BY Christians with a negative connotation, especially in the context of crusades
+    ** "магометани" when clearly referring to Muslims, especially with reverent or respectful connotation
+    ** "бусурмани" when clearly referring to Muslims with negative connotation, especially in the context of crusades
+    ** "невірні" when clearly spoken BY Muslims
+
     * dharma, дхарма -> дгарма
     ** "дгарми", а НЕ "дгармів"
     ** in all Indian names and location names transliterate "dhar" ("дхар") as "дгар"
@@ -133,6 +149,23 @@ Historical Tone:
     * "dominant religion, culture, language, dialect", "доминирующая/доминантная религия, культура, язк, диалект" -> основна віра, культура, мова, діалект
     * "dominant_country", "доминирующая страна" -> провідна країна
     * доминирует, доминирующий -> depending on context choose панує (панівний), переважає (переважний), основний or провідний (when about cultural or religious game concepts mentioned above)
+
+    * treasury, казна, "финансовое ведомство" and similar phrases -> скарбниця, except when clearly about Muscovy, Russia, or Tatar countries, where "казна" is appropriate
+    * treasurer, казначей -> скарбій, скарбник, except when clearly about Muscovy, Russia, or Tatar countries
+    * казенный -> "державний", and sometimes if the context fits "владний"
+    * бюджет -> скарбниця, unless clearly about very late time period, 17-18th century, then "бюджет" is acceptable
+    ** державный бюджет -> "державна скарбниця", in narrative texts "державний скарб" is sometimes acceptable for diversity
+    ** направить бюджетные средства -> спрямувати скарбницю
+    ** сводить бюджет, сведение бюджета -> pick best fitting depending on context: "зведення видатків", "зведення прибутків та видатків", "привести скарбницю до ладу", "утримання скарбниці", "рівняти видатки з прибутками"
+    ** баланс бюджета -> depending on context "скарбничий лад", "рівняння видатків з прибутками", "наповення скарбниці", "приборкання видатків"
+    ** финансироваться из государственного бюджета -> утримуватися державним скарбом
+    ** потратить бюджет -> витратити скарб, спрямувати скарб
+    ** BUT "кошти", "гроши", "деньги" always "зі скарбниці" - in combination with "скарбниця", NOT "скарб"
+    ** "скрута", when specifically about money or financial deficit
+    ** "скарбнича скрута", "скарбнича нестача", "збитки скарбниці" when specifically dealing with budget deficits
+    ** спор о бюджете -> cуперечки про видатки
+    ** пополнять казну, бюджет -> наповнювати скарбницю
+    * казнокрадство -> хабарництво, продажність, здирництво, криводушшя
 
     * "(government) reform", "(державный) принцип" -> "реформа"
     * "major reform", "ведущий принцип" -> "засаднича реформа"
@@ -167,14 +200,6 @@ Historical Tone:
     * vegetation, флора -> рослинність
     * war score, военный счёт -> воєнний рахунок
     * estate enrichment, богатство стана -> збагачення стану
-    * heathen, язычник -> depending on context and connotation:
-    ** "іновірець" general translation
-    ** "чужовірець" general with negative connotation
-    ** "язичник" when clearly referring to pagans
-    ** "нехристі" when clearly used BY Christians with a negative connotation, especially in the context of crusades
-    ** "магометани" when clearly referring to Muslims, especially with reverent or respectful connotation
-    ** "бусурмани" when clearly referring to Muslims with negative connotation, especially in the context of crusades
-    ** "невірні" when clearly spoken BY Muslims
     * chance, шанс -> depending on context "нагода", "змога", "можливість" (only when clearly the most appropriate option), "ймовірність" (when talking about percentages and probabilities); fixed expressions:
     ** все шансы -> depending on context "чудова нагода" or "виключна нагода" (without "всі"), "всі підстави"
     ** (not) miss the chance, opportunity, (не) упустить шанс -> (не) проминути нагоди
@@ -232,7 +257,7 @@ Historical Tone:
     ** prefer "сировина" to "ресурс(ы)", "сырьевые материалы, товары" whenever clearly talking about gathering, obtaining, using, processing raw resources or materials, in particular "rgo"s also deal with "сировина"
     ** food raw materials, ресурсы для производства еды - "харчова сировина", "харчові товари", "продовольство", pick depending on context
     ** ресурсний -> сировинний
-    ** raw materia, сырьевой товар -> prefer simple "сировина" over "сировинний товар"
+    ** raw material, сырьевой товар -> prefer simple "сировина" over "сировинний товар"
     * farm, ферма - avoid translating it as "ферма", unless it's clearly about Anglosphere, prefer the following options instead: угіддя - a general translation, нива - when clearly about agriculture, стадниця - when clearly about horses, пасовище - when clearly about animal husbandry, плантації - when clearly fits, etc.
     * farmer, фермер - avoid translating it as "фермер", unless it's clearly about Anglosphere, prefer the following options instead: селянин - a general translation, землероб - when clearly about agriculture, стадник - when clearly about horses, пастух - when clearly about animal husbandry, плантатор - when clearly about plantations, etc.
     * farming, фермерство - "сільське господарство" in general, "землеробство" when clearly about agriculture, "тваринництво" when clearly about animal husbandry, "розведення коней" when clearly about horses, "скотарство" when clearly about cows, etc.
@@ -286,18 +311,44 @@ Historical Tone:
     * dyes guild -> "фарбарня"; masters, who dye -> "фарбарі", NOT "барвники"
     * jewelry, jewelers, ювелир(ы) -> золотарі
     ** "гильдия ювелиров" -> цех золотарів
+    * porcelain, фарфор -> порцеляна
+    * cloth, textile, текстиль -> тканини
+    ** текстильные мануфактуры, гильдии, etc. -> ткацькі ("ткацька мануфактура", "ткацький цех" і т.і.)
+    ** текстильная промышленность -> ткацькі промисли
+    ** HOWEVER, when text clearly deals with wool, sheep (шерсть овец) or countries known for wool cloths (such as Netherlands, England), then translate as "суконні" - "суконні промисли", "суконна мануфактура", "суконний цех" тощо
+    ** avoid tautologies, e.g. "дорогие текстильне изделия из сукна и шелка" -> "дорогі вироби з сукна та шовку", extra "textile" is redundant here
+    ** BUT "текстиль" and "промисловість" when the context is clearly about XVIII century, industrialization, factories and mills
     * shipyard, судостроительная верфь -> корабельня
     * tax assessor, налоговый чиновник -> митар
     * entrepot, пакгауз -> торгова комора
     * trading hub, торговый узел -> великий торг
     * Уїцилопочтлі -> Віцилопочтлі
-    * "махараджа" -> "магараджа", "Махараджья" -> "Магараджія", "Кингитанга" -> "Кінгітанга"
+    * махараджа -> магараджа
+    * Махараджья -> Магараджія
+    * Кингитанга -> Кінгітанга
     * quarter, квартал -> when talking about a national or religious community, use "подвір'я", for example "венеційське подвір'я", "юдейське подвір'я", "португальське подвір'я"; interchange it with "двір", if necessary to avoid repetitions in text (e.g. "Вірменське подвір'я... У цьому дворі...");
     * jewish, еврей, еврейский -> юдей, юдейський
+    * граждане -> піддані, громадяни. In many cases texts refer to denizens of a country in general with modern anachronism "громадяни", "граждане" ("citizens"), when in fact "піддані" should be preferred.
+    ** Translate "граждане" as "громадяни" ONLY when the text is clearly about republics (in general, and in particular such as Venice, Florence, Genoa, etc.), republican values, revolutions, discussing concepts such as civic duty and participation or mentioning well known works on the subject, or specifically referring to a politically enfranchized part of the population (nobles, for example Polish szlachta). In other words when "громадяни" are obviously the right fit.
+    ** Sometimes simple "народ" or "люд(и)" is the best fit. Use context and your stylistical judgement.
+    ** Sometimes city dwellers are erroneously localized as "citizens"/"граждане". In such cases, translate as "містяни".
+    * флаг, прапор -> стяг, especially when the context is about uniting under a single banner or common flag ("под оним флагом")
+    ** in plural form ("флаги, флагами") translate as "знамена" ("під знаменами"); one example is an established name of "eight banner army" - "військо восьми знамен"
+    ** when the subject is clearly military banners, translate as "корогви"
+    ** when the subject is clearly religious or spiritual banners, translate as "хоругви"
+    ** BUT keep "прапор" for established names, such as "військо зеленого прапора"
+    ** "флажок" (checkbox) in menus is "прапорець"
+
 2.  Уникай канцеляризмів та анахронізмів там де це можливо. Надавай перевагу питомим українським відповідникам, якщо такі існують. Наприклад:
+    * алкоголь - хмільне, хмільні напої, п'янкі напої
+    ** спиртной - хмільний
+    ** крепкий алкоголь, крепкие алкогольные напитки, крепкие спиртные напитки - міцне хмільне
+    ** чергуй "хмільне", "п'янке", "хмільні/п'янкі напої", щоб уникати одноманітних повторень
+    ** алкоголик - п'яничка
+    ** алкоголизм - пияцтво
     * аналог - відповідник
     * аналогічний - подібний
-    * аналогічно - подібно до, за зразком
+    * аналогично, аналогічно - подібно до, за зразком
     * бандит - харциз, розбійник
     * бандитський - розбійницький
     * deficit, дефицит -> strive to avoid "дефіцит", depending on context use the following alternatives:
@@ -309,6 +360,10 @@ Historical Tone:
     * газета - часопис
     * контрабанда - перемитництво, як діяльність, "перемитні товари", якщо про товари
     * контрабандист - перемитник
+    * кошмар - жахіття
+    ** кошмарный - страхітливий, жахливий
+    ** какой кошмар - який жах
+    * маршрут - шлях; для уникнення повторень і тавтологій можна чергувати з "тракт", "стежка" для сухопутних шляхів, або "маршрут" для морських;
     * масштаб - обсяг, коли йдеться про обсяги виробництва
     * провизия, провізія, провиант, провіант, продовольство -> харчі, в розповідних приземлено-побутових текстах припускається форма "харч"; продовольчий - харчовий
     ** food, еда - завжди "харчі", коли мова про військові потреби в їжі
@@ -330,10 +385,9 @@ Historical Tone:
     * без труда -> без (великих) зусиль, or rarely when appropriate by tone - "не доклавши рук", "не вмившись потом"
     * (в поисках) лучшей жизни, кращого життя -> кращої долі
     * ропот -> ремство
-    * treasury, казна, "финансовое ведомство" and similar phrases -> скарбниця, except when clearly about Muscovy, Russia, or Tatar countries, where "казна" is appropriate
-    * treasurer, казначей -> скарбій, скарбник, except when clearly about Muscovy, Russia, or Tatar countries
-    * казнокрадство -> лихоїмство
-    * разнообразие, різноманітність -> розмаїття, rarely "різнобарв'я",  depending on context also use "різнобарвний", "багатобарв(н)ий", "стобарв(н)ий", "столикий"; "різноманітність" only when no other choice fits well
+    * разнообразие, різноманітність -> розмаїття, rarely "різнобарв'я"; especially in poetic texts and when describing plethora of cultures, languages, religions, ideas, etc.
+    ** "різноманітність" only when no other choice fits well, mostly in technical descriptions, game mechanics, fixed expressions ("біологічна різноманітність") and mundane texts, where "розмаїття" is inappropriately poetic
+    ** keep adjectives "різноманітний", "найрізноманітніший"
     * смутьян -> баламут
     * посягнуть -> "зазіхнути", unless the subject is power, rulers, or something sacred, in which case keep "посягнути"
     * в лапах -> в пазурях
@@ -365,6 +419,8 @@ Historical Tone:
     * скажуть нам дякую - подякують нам
     * обращаются, звертаються - навертають у (релігію), навертаються до (релігії), коли мова очевидно про релігійне навернення
     * точити кинджали - гострити ножі
+    * лень, лінь - лінощі, як поняття, або якщо йдеться про процес - ледарювання
+    ** кому не лінь - кому завгодно, кожному зустрічному, усім підряд
     * некомпетентний - недолугий, непутящий, незграбний
     * незавидний - скрутний, невтішний
     * потурательство - потурання
@@ -374,6 +430,7 @@ Historical Tone:
     * предків - пращурів
     * порицание, порицання - осуд
     * из числа, з числа - з-поміж
+    * на деле - насправді, у дійсності
     * опустошений - спустошений
     * потребовать - "вимагати", do NOT confuse with "потребувати"
     * принять на ура - "сприйняти з піднесенням" або "привітати щирим серцем"
@@ -382,7 +439,9 @@ Historical Tone:
     * череда - низка (коли йдеться про послідовність подій)
     * расходовать впустую, впустую расходовать - марнувати; уникай словосполучинь штибу "марно витрачати", це тавтологія, натомість використовуй (з)марнувати, змарнований тощо
     * задавшись целью - маючи на меті, поставивши за мету, НЕ "задавшись метою"
-    * туманный - коли мова про непевне майбутнє чи сиву давнину, то урізноманітнюй синонімом "примарний" замість "туманний"
+    * туманный:
+    ** коли мова про непевне майбутнє чи сиву давнину, то врізноманітнюй синонімом "примарний" замість "туманний", або іноді "оповитий туманом віків"
+    ** деякі усталені вирази замість "туманний": "глухі чутки" (а не туманні), "завуальовані погрози" (а не туманні)
     * чахнуть - "марніти", а НЕ "чахнути"
     * стражник - вартовий; якщо контекст дозволяє, множина "стражники" - "варта" (в інших випадках множина "вартові")
     * вывезение, вивезення - вивіз
@@ -392,6 +451,10 @@ Historical Tone:
     * особняк - маєток
     * суахільськ - суахілійськ (прикметник до суахілі)
     * золотой век, золотий вік - золота доба
+    * затрагивает, затрагивающий - НЕ "зачіпає"; у залежності від контексту може перекладатися як "охоплює", "стосується", "поширюється", "впливає на", "діє на", "пронизує", "торкається" і іноді "зачіпає", "застосовується до"; обирай, що пасує найкраще за контекстом, та чергуй слова, щоб уникати повторень;
+    ** НЕ "зачіпає почуття", а "ображає" чи "ранить почуття"
+    ** у творчості "порушує теми", а НЕ "зачіпає теми"
+    ** приклади: "охоплює різні суспільні питання", "договір поширюється на області", "ідеї стосуються питань міжнародного права", "праці охоплюють питання війни та миру", "автор порушує теми долі та честі", "питання ображає почуття греків", "модифікатори, які стосуються країни", "модифікатори, які впливають на персонажів", "модифікатори діють у місцевостях", "питання стосуються усіх учасників союзу", "реформи поширюються не тільки на..., а й ...", "спалах епідемії охоплює місцевості", "лихо охоплює місцевості", "лихо поширилося на N місцевостей", "дія не може застосовуватися до лідерів унії".
     * переговоры, переговори - перемовини
     * захаживают - навідуються
     * граждане - піддані

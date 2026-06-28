@@ -26,7 +26,7 @@
   target_character_will_make_fine_general_tt: "[target_character.GetShortNameWithNoTooltip] зможе служити полководцем"
   flavor_ere.5.title: "[target_character2.GetNameWithNoTooltip] вимагає корону"
   flavor_ere.5.entry: "Бурхан аль-Дін вимагає корону"
-  flavor_ere.5.desc: "[target_character2.GetName] багато років вірно служив під нашими прапорами, проте у світлі останніх віянь у зовнішній та внутрішній політиці він перетворився на нашу найбільшу невдачу. [target_character2.GetShortNameWithNoTooltip] уявив себе більш гідним правителем, ніж [target_character.GetName], і збирається взяти владу силою зброї.\n\nЙого нічим не обґрунтовані заяви про відродження нашого народу та відновлення його колишньої могутності знаходять відгук у серцях багатьох підданих, віщуючи великі лиха…"
+  flavor_ere.5.desc: "[target_character2.GetName] багато років вірно служив під нашими знаменами, проте у світлі останніх віянь у зовнішній та внутрішній політиці він перетворився на нашу найбільшу невдачу. [target_character2.GetShortNameWithNoTooltip] уявив себе більш гідним правителем, ніж [target_character.GetName], і збирається взяти владу силою зброї.\n\nЙого нічим не обґрунтовані заяви про відродження нашого народу та відновлення його колишньої могутності знаходять відгук у серцях багатьох підданих, віщуючи великі лиха…"
   flavor_ere.5.a: "Цей дурень погубить наш народ!"
   impacted_locations_var_tt: "Кілька [Concept('locations', 'місцевостей')|e] (близько [ROOT.GetVariable('num_rebelling_locations').GetValue]) перейдуть на бік персонажа [target_character2.GetNameWithNoTooltip]"
   burhan_al_din_pretenders: "[GetCharacter('ere_burhan_al_din').GetShortNameWithNoTooltip] претендує на владу"

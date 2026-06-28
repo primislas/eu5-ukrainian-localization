@@ -76,7 +76,7 @@
   turmoil_in_brandenburg.12.a: "Вкладемо кошти корони, щоб посилити контроль."
   turmoil_in_brandenburg.12.b: "Це питання все одно не варте нашої уваги."
   turmoil_in_brandenburg.13.title: "Розвиток [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip]"
-  turmoil_in_brandenburg.13.desc: "Знатні люди [target_location.Custom('LR_GEN')|l] [target_location.GetName] подали до двору прохання про фінансові вкладення. Вони стверджують, що нові вулиці, ратуші та громадські будівлі сприятимуть зміцненню #L [ROOT.GetCountry.GetAdjective|l]ого#! впливу в містах провінції [target_province.GetName] та знизять невдоволення їхніх жителів.\n\nКазначеї, однак, попереджають, що подібна щедрість ляже на казну тяжким тягарем, а інші провінції вважатимуть нашу політику марнотратною."
+  turmoil_in_brandenburg.13.desc: "Знатні люди [target_location.Custom('LR_GEN')|l] [target_location.GetName] подали до двору прохання про фінансові вкладення. Вони стверджують, що нові вулиці, ратуші та громадські будівлі сприятимуть зміцненню #L [ROOT.GetCountry.GetAdjective|l]ого#! впливу в містах провінції [target_province.GetName] та знизять невдоволення їхніх жителів.\n\nКанцлери, однак, попереджають, що подібна щедрість ляже на скарбницю важким тягарем, а інші провінції вважатимуть нашу політику марнотратною."
   turmoil_in_brandenburg.13.a: "Вкладемо кошти в розвиток усієї провінції [target_province.GetNameWithNoTooltip]."
   turmoil_in_brandenburg.13.b: "Обмежимося [target_location.Custom('LR_INST')|l] [target_location.GetNameWithNoTooltip]."
   turmoil_in_brandenburg.13.c: "Подібна щедрість нам не по кишені."

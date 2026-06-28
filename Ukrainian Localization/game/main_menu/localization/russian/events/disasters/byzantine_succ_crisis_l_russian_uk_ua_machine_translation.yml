@@ -1,6 +1,6 @@
 ﻿l_russian:
   byzantine_succ_crisis.1.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] вимага[ROOT.GetCountry.Custom('nobles_yeyut')] компенсації"
-  byzantine_succ_crisis.1.desc: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], ці віроломні стерв'ятники, нагаду[ROOT.GetCountry.Custom('nobles_yeyut')], що [target_character2.GetName] — виходець з їхніх лав. Використовуючи мову туманних погроз та порожніх обіцянок, вони клянчать гроші в обмін на свою жалюгідну та нікчемну підтримку в цей важкий час."
+  byzantine_succ_crisis.1.desc: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], ці віроломні стерв'ятники, нагаду[ROOT.GetCountry.Custom('nobles_yeyut')], що [target_character2.GetName] — виходець з їхніх лав. Використовуючи мову завуальованих погроз та порожніх обіцянок, вони клянчать гроші в обмін на свою жалюгідну та нікчемну підтримку в цей важкий час."
   byzantine_succ_crisis.1.a: "Так і бути."
   byzantine_succ_crisis.1.b: "Вони зовсім знахабніли!"
   peasants_unhappy_tt: "Наші #TOOLTIP:POPTYPE,peasants,X #L селяни#!#! в усіх належних нам [Concept('location', 'місцевостях')|e] отримають [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e]"

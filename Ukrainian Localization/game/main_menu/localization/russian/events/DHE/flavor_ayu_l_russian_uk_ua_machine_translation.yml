@@ -75,7 +75,7 @@
   flavor_ayu.1002.b.entry: "$common_string_curses$"
   flavor_ayu.1003.title: "[ROOT.GetCountry.GetNameWithNoTooltip] та [target_country.GetLongNameWithNoTooltip]"
   flavor_ayu.1003.entry: "Аюттхая чи Сукхотай"
-  flavor_ayu.1003.desc: "Відтоді, як [target_ruler.GetName] править і [target_country.Custom('longname_ua_wntt_INST')] також, наші країни виявилися тісно пов'язані. Багато сановників пропонують зробити останній крок: [target_country.GetNameWithNoTooltip] та [ROOT.GetCountry.GetLongName] повинні стати єдиною країною. Залишилося вирішити, який прапор майорітиме над новою країною."
+  flavor_ayu.1003.desc: "Відтоді, як [target_ruler.GetName] править і [target_country.Custom('longname_ua_wntt_INST')] також, наші країни виявилися тісно пов'язані. Багато сановників пропонують зробити останній крок: [target_country.GetNameWithNoTooltip] та [ROOT.GetCountry.GetLongName] повинні стати єдиною країною. Залишилося вирішити, який стяг майорітиме над новою країною."
   flavor_ayu.1003.a: "[GetCountry('AYU').GetNameWithNoTooltip] — молода та стрімко розвивається країна."
   flavor_ayu.1003.a.entry: "$AYU$ — молода країна, що стрімко розвивається."
   flavor_ayu.1003.b: "За [GetCountry('SUK').Custom('CL_INST')] стоїть сила спадщини."

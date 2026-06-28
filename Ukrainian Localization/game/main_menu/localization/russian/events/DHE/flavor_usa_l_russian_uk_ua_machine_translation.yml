@@ -50,7 +50,7 @@
   flavor_usa.12.b.tt: "[target_location.GetName] втратить частку [Concept('prosperity', 'процвітання')|e] і [Concept('development', 'розвитку')|e], а також позбудеться частини [Concept('pops', 'груп населення')|e], в результаті пожежі постраждають деякі [Concept('buildings', 'споруди')|e]"
   flavor_usa.12.b: "Обмежимося лише найнеобхіднішим."
   flavor_usa.13.title: "[target_character.GetNameWithNoTooltip] та [target_character_2.GetNameWithNoTooltip] планують експедицію"
-  flavor_usa.13.desc: "[target_character.GetName] та його [Select_CString(target_character_2.IsFemale, 'близька подруга', 'близький друг')] [target_character_2.GetName] пропонують організувати #L [ROOT.GetCountry.GetAdjective|l]у#! експедицію в західну частину #TOOLTIP:SUB_CONTINENT,north_america,X #L Північної Америки#!#! для пошуку коротких та зручних водних шляхів через континент. Разом із невеликою групою добровольців вони планують дослідити басейн річки Міссурі та знайти маршрути, прохідні для торгових суден."
+  flavor_usa.13.desc: "[target_character.GetName] та його [Select_CString(target_character_2.IsFemale, 'близька подруга', 'близький друг')] [target_character_2.GetName] пропонують організувати #L [ROOT.GetCountry.GetAdjective|l]у#! експедицію в західну частину #TOOLTIP:SUB_CONTINENT,north_america,X #L Північної Америки#!#! для пошуку коротких та зручних водних шляхів через континент. Разом із невеликою групою добровольців вони планують дослідити басейн річки Міссурі та знайти шляхи, прохідні для торгових суден."
   flavor_usa.13.a: "Ми дамо грошей на їхню експедицію."
   flavor_usa.13.b: "Їм потрібно краще підготуватися."
   flavor_usa.14.title: "[ShowBuildingTypeNameWithNoTooltip('usa_national_bank')]"
