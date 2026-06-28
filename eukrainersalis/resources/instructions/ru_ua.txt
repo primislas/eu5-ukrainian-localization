@@ -134,6 +134,23 @@ Historical Tone:
     * "dominant_country", "доминирующая страна" -> провідна країна
     * доминирует, доминирующий -> depending on context choose панує (панівний), переважає (переважний), основний or провідний (when about cultural or religious game concepts mentioned above)
 
+    * treasury, казна, "финансовое ведомство" and similar phrases -> скарбниця, except when clearly about Muscovy, Russia, or Tatar countries, where "казна" is appropriate
+    * treasurer, казначей -> скарбій, скарбник, except when clearly about Muscovy, Russia, or Tatar countries
+    * казенный -> "державний", and sometimes if the context fits "владний"
+    * бюджет -> скарбниця, unless clearly about very late time period, 17-18th century, then "бюджет" is acceptable
+    ** державный бюджет -> "державна скарбниця", in narrative texts "державний скарб" is sometimes acceptable for diversity
+    ** направить бюджетные средства -> спрямувати скарбницю
+    ** сводить бюджет, сведение бюджета -> pick best fitting depending on context: "зведення видатків", "зведення прибутків та видатків", "привести скарбницю до ладу", "утримання скарбниці", "рівняти видатки з прибутками"
+    ** баланс бюджета -> depending on context "скарбничий лад", "рівняння видатків з прибутками", "наповення скарбниці", "приборкання видатків"
+    ** финансироваться из государственного бюджета -> утримуватися державним скарбом
+    ** потратить бюджет -> витратити скарб, спрямувати скарб
+    ** BUT "кошти", "гроши", "деньги" always "зі скарбниці" - in combination with "скарбниця", NOT "скарб"
+    ** "скрута", when specifically about money or financial deficit
+    ** "скарбнича скрута", "скарбнича нестача", "збитки скарбниці" when specifically dealing with budget deficits
+    ** спор о бюджете -> cуперечки про видатки
+    ** пополнять казну, бюджет -> наповнювати скарбницю
+    * казнокрадство -> хабарництво, продажність, здирництво, криводушшя
+
     * "(government) reform", "(державный) принцип" -> "реформа"
     * "major reform", "ведущий принцип" -> "засаднича реформа"
     * "modernize", "модернизировать" -> "осучаснювати"
@@ -330,9 +347,6 @@ Historical Tone:
     * без труда -> без (великих) зусиль, or rarely when appropriate by tone - "не доклавши рук", "не вмившись потом"
     * (в поисках) лучшей жизни, кращого життя -> кращої долі
     * ропот -> ремство
-    * treasury, казна, "финансовое ведомство" and similar phrases -> скарбниця, except when clearly about Muscovy, Russia, or Tatar countries, where "казна" is appropriate
-    * treasurer, казначей -> скарбій, скарбник, except when clearly about Muscovy, Russia, or Tatar countries
-    * казнокрадство -> лихоїмство
     * разнообразие, різноманітність -> розмаїття, rarely "різнобарв'я",  depending on context also use "різнобарвний", "багатобарв(н)ий", "стобарв(н)ий", "столикий"; "різноманітність" only when no other choice fits well
     * смутьян -> баламут
     * посягнуть -> "зазіхнути", unless the subject is power, rulers, or something sacred, in which case keep "посягнути"

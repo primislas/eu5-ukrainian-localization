@@ -21,7 +21,7 @@
   income_gained_depends_on_crown_estate_power_tt: "Кількість виручених [Concept('gold', 'грошей')|e] сильно залежить від [Concept('crown_power', 'влади правителів')|e]"
   town_rights_events.4.title: "Порожні комори [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip]"
   town_rights_events.4.desc: "Селяни з #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_GEN')|l]#!#! [target_location.GetName] бідують: чи то через сувору погоду, чи то через чиюсь недбалість, люди не змогли запасти достатньо харчів, і тепер місцеві комори порожні. Жителі провінції [target_province.GetName] просять уряд про допомогу, щоб запобігти там голоду."
-  town_rights_events.4.a: "Роздаймо людям їжу з казнових засіків."
+  town_rights_events.4.a: "Роздамо люду харч з владних засіків."
   town_rights_events.4.b: "Людям доведеться потерпіти, доки ми не здолаємо нестачу."
   town_rights_events.4.c: "Ми повинні докласти всіх зусиль, щоб запобігти масовому голоду."
   every_pop_in_target_location_mild_satisfaction_malus_tt: "Усі [Concept('pop', 'групи населення')|e] в [target_location.Custom('LR_PREP')|l] [target_location.GetName] отримають [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e]"

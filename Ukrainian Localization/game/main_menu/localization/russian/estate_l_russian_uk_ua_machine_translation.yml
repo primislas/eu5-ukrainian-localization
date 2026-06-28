@@ -585,7 +585,7 @@
   rajput_society_desc: "Раджпути — це давня каста благородних воїнів і гордих #TOOLTIP:ESTATE_TYPE,nobles_estate,X #L аристократів#!#!. Серце їхніх володінь — сувора #TOOLTIP:AREA,rajputana_area,X #L Раджпутана#!#!, але вони зустрічаються по всій Північній Індії, і багато великих раджів претендують на раджпутське походження.\n\n#italic Значення модифікатора збільшується пропорційно долі представників #TOOLTIP:CULTURE,$mewari_tt$,X #L меварської#!#!, #TOOLTIP:CULTURE,$harauti_tt$,X #L хараутської#!#!, #TOOLTIP:CULTURE,$dhundhari_tt$,X #L дхундхарської#!#!, #TOOLTIP:CULTURE,$shekhawati_tt$,X #L шекхаватської#!#! та #TOOLTIP:CULTURE,$mewati_tt$,X #L меватської#!#! народностей, до якої додається 100%.#!"
   zamindar_tax_privilege: "Податкові привілеї для заміндарів"
   zamindar_tax_privilege_desc: "$mug_zamindar_system_desc$ Під час війни заміндари мають право збирати з населення податки на утримання війська. Цей привілей сильно збільшить наші доходи, але дасть більше влади #TOOLTIP:ESTATE_TYPE,nobles_estate,X #L аристократам#!#!."
-  corruption_desc: "у нашій країні давно запустили свої лапи в казну та справи двору, забезпечуючи себе необтяжливими посадами та розкладаючи суспільство своєю продажностю."
+  corruption_desc: "у нашій країні давно запустили свої пазурі до скарбниці та у справи двору, забезпечуючи себе необтяжливими посадами та розкладаючи суспільство своєю продажністю."
   consolidated_corruption_of_the_burghers: "Загальне розкладання багатіїв"
   consolidated_corruption_of_the_burghers_desc: "Укорінені середній та вищий класи $corruption_desc$"
   consolidated_corruption_of_the_peasants: "Загальне розкладання селян"

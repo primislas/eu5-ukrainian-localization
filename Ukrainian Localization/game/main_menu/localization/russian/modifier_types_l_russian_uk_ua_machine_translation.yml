@@ -102,7 +102,7 @@
   MODIFIER_TYPE_NAME_local_cultural_influence: "Місцевий культурний вплив"
   MODIFIER_TYPE_DESC_local_cultural_influence: "Впливає на [Concept('cultural_influence', 'вплив')|e] нашої [Concept('primary_culture', 'панівної культури')|e] в [Concept('location', 'місцевості')|e]."
   MODIFIER_TYPE_NAME_stability_investment: "Підтримка стабільности"
-  MODIFIER_TYPE_DESC_stability_investment: "Дає бонус або штраф до [Concept('stability_investment', 'підтримку стабільности')|e] з [Concept('budget', 'бюджету')|e]."
+  MODIFIER_TYPE_DESC_stability_investment: "Дає бонус або штраф до [Concept('stability_investment', 'підтримки стабільности')|e] зі [Concept('budget', 'скарбниці')|e]."
   MODIFIER_TYPE_NAME_stability_decay: "Зниження стабільності"
   MODIFIER_TYPE_DESC_stability_decay: "Впливає на те, як швидко зменшується [Concept('stability', 'стабільність')|e] до #V 0#!, виражена у відсотках від поточної стабільності."
   MODIFIER_TYPE_NAME_monthly_prestige: "Престиж на місяць"

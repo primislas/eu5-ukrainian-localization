@@ -326,7 +326,7 @@
   level_headed_die_desc: "[Select_CString(CHARACTER.IsFemale,'Вона вміла', 'Він умів')] зберігати холоднокровність навіть перед лицем найстрашнішої небезпеки. Нам буде дуже [Select_CString(CHARACTER.IsFemale,'її', 'його')] бракувати."
   offensive_planner_die_desc: "[CHARACTER.GetSheHe|U] [Select_CString(CHARACTER.IsFemale, 'загинула', 'загинув')], займаючись улюбленою справою: розробкою планів зі знищення ворогів."
   aggressive_commander_die_desc: "[Select_CString(CHARACTER.IsFemale, 'Вона загинула', 'Він загинув')], б’ючись на чолі своїх вояків. Чи не занадто високу ціну [Select_CString(CHARACTER.IsFemale, 'вона заплатила', 'він заплатив')] за славу та шану?"
-  gold_loving_die_desc: "[Select_CString(CHARACTER.IsFemale,'Її', 'Його')] любов до золота виснажила нашу казну. Нарешті рахівники зітхнуть з полегшенням."
+  gold_loving_die_desc: "[Select_CString(CHARACTER.IsFemale,'Її', 'Його')] любов до золота виснажила нашу скарбницю. Нарешті підскарбії зітхнуть з полегшенням."
   humble_die_desc: "[Select_CString(CHARACTER.IsFemale,'Її', 'Його')] скромність ще сильніше підкреслила [Select_CString(CHARACTER.IsFemale,'її', 'його')] видатні заслуги."
   workaholic_die_desc: "Важка праця звела [Select_CString(CHARACTER.IsFemale,'її', 'його')] в могилу раніше часу, але пам'ять про [Select_CString(CHARACTER.IsFemale,'її', 'його')] досягнення залишиться у віках."
   lazy_die_desc: "Праця була [Select_CString(CHARACTER.IsFemale,'їй', 'йому')] ненависна. Протягом усього життя [Select_CString(CHARACTER.IsFemale,'вона намагалася', 'він намагався')] пальцем об палець не вдарити."

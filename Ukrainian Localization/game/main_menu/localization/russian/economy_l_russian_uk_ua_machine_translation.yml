@@ -605,7 +605,7 @@
   TAX_EFFICIENCY_TOOLTIP: "$game_concept_tax_efficiency$ становить [Country.GetModifierValueNoFormat('tax_income_efficiency')]. Причини:"
   TOTAL_DEBT: "[EconomyView.GetTotalLoanDebt|2]@gold! ([Player.GetEconomy.GetNumberOfLoans])"
   SUBTAB_ECONOMY_NEEDS: "Поточні потреби"
-  SUBTAB_ECONOMY_BUDGET: "Бюджет"
+  SUBTAB_ECONOMY_BUDGET: "Скарбниця"
   RGO_BUILD: "РОЗШИРИТИ ВИРОБНИЦТВО ТОВАРУ «[ExpandProductionLateralView.GetGoods.GetName]»"
   RGO_BUILD_GOODS_PRICE_IMPACT_ON_COST: "Від стандартної ринкової ціни $GOODS_GetName_UA_GEN_lower$ ([GOODS.GetDefaultMarketPrice|1]@gold!): $SCALE$"
   TOTAL_PRODUCTION: "Обсяг виробництва в [Concept('country', 'країні')|e]"
