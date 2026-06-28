@@ -4117,7 +4117,7 @@
   CONTROL_IMPACT_ON_ASS_CON_PRO: "$BULLET$[Concept('assimilation', 'асиміляція')|e], [Concept('conversion', 'навернення')|e] та [Concept('promotion', 'підвищення')|e] на $VAL|V2%$-й швидкості."
   FINAL_MULTIPLY_WITH_CONTROL: "Нарешті, $VAL|2%V$-й [Concept('control', 'контроль')|e] змінює його з $FROM|G$ до $TO|G$."
   CCI_MAX: "@trigger_no!У провінції [PROVINCE_DEFINITION.GetName] вже є [Concept('colonial_charters', 'колоніальні поселення')|e] ($VAL$)."
-  CCI_NOT_SO_FAR: "@trigger_no!Васали, що належать до #TOOLTIP:SUBJECT_TYPE,colonial_nation,X #L колоніальних націй#!#!, не можуть виходити за межі свого [Concept('sub_continent', 'макрорегіону')|e]."
+  CCI_NOT_SO_FAR: "@trigger_no!Васали, що належать до #TOOLTIP:SUBJECT_TYPE,colonial_nation,X #L колоніальних намісництв#!#!, не можуть виходити за межі свого [Concept('sub_continent', 'макрорегіону')|e]."
   CCI_ALREADY: "@trigger_no!У нас вже є [Concept('colonial_charter', 'колоніальне поселення')|e] у провінції [PROVINCE_DEFINITION.GetName]."
   CCI_WASTELAND: "@trigger_no! Провінцію [PROVINCE_DEFINITION.GetName] не можна колонізувати, оскільки вона непрохідна."
   CCI_OWNS: "@trigger_no![LOCATION.Custom('LR_ACC')] [LOCATION.GetName] не можна колонізувати, оскільки ця місцевість вже належить нам."

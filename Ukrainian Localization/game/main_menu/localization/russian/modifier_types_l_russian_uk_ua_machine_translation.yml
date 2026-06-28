@@ -1689,7 +1689,7 @@
   MODIFIER_TYPE_NAME_subject_pays_pradhana_maha_samanta_cost_modifier: "Дохід від прадхана-магасамантів"
   MODIFIER_TYPE_DESC_subject_pays_pradhana_maha_samanta_cost_modifier: "Впливає на те, скільки #TOOLTIP:SUBJECT_TYPE,pradhana_maha_samanta,X #L прадхана-магасаманта#!#! щомісячно сплачує своєму [Concept('overlord', 'сюзерену')|e]."
   MODIFIER_TYPE_NAME_subject_pays_colonial_cost_modifier: "Дохід від колоній"
-  MODIFIER_TYPE_DESC_subject_pays_colonial_cost_modifier: "Впливає на те, скільки #TOOLTIP:SUBJECT_TYPE,colonial_nation,X #L колоніальна нація#!#! щомісячно сплачує своєму [Concept('overlord', 'сюзерену')|e]."
+  MODIFIER_TYPE_DESC_subject_pays_colonial_cost_modifier: "Впливає на те, скільки #TOOLTIP:SUBJECT_TYPE,colonial_nation,X #L колоніальне намісництво#!#! щомісячно сплачує своєму [Concept('overlord', 'сюзерену')|e]."
   MODIFIER_TYPE_NAME_subject_pays_tributary_cost_modifier: "Дохід від данників"
   MODIFIER_TYPE_DESC_subject_pays_tributary_cost_modifier: "Впливає на те, скільки #TOOLTIP:SUBJECT_TYPE,tributary,X #L данник#!#! щомісячно сплачує своєму [Concept('overlord', 'сюзерену')|e]."
   MODIFIER_TYPE_NAME_rank_empire_upgrade_cost_modifier: "Вартість підвищення до імперії"
