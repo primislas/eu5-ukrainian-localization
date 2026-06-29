@@ -88,7 +88,7 @@
   rise_of_the_ottomans.206.title: "[target_location.GetNameWithNoTooltip] невірних"
   rise_of_the_ottomans.208.title: "Падіння міста [target.GetNameWithNoTooltip]"
   rise_of_the_ottomans.208.desc: "Місто [target.GetName], перлина нашої імперії, опинилося в руках ворога. Неприятелю вдалося прорвати оборону та дістатися до центру, сіючи хаос і знищуючи місцеве населення…"
-  rise_of_the_ottomans.208.a: "Кошмар наяву!"
+  rise_of_the_ottomans.208.a: "Жахіття наяву!"
   rise_of_the_ottomans.209.title: "[location.GetNameWithNoTooltip] у руках неприятеля"
   rise_of_the_ottomans.209.desc: "Усі спроби захистити свої володіння були марними: на превеликий жаль, ми втратили контроль над важливим [location.Custom('LR_INST')|l]-оплотом [location.GetName]. Сьогодні чорний день для нашого народу. Наше становище в регіоні стає дедалі хиткішим…"
   rise_of_the_ottomans.209.a: "Невже це кінець?"

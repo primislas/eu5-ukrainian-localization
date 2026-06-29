@@ -470,7 +470,7 @@
   flavor_fra.2002.title: "[joan_of_arc.GetNameWithNoTooltip] потрапила в полон"
   flavor_fra.2002.entry: "Полон Жанни д’Арк"
   flavor_fra.2002.desc: "Сталося жахливе! Під час недавньої битви [joan_of_arc.GetName] потрапила в [GetCountry('ENG').GetAdjectiveWithNoTooltip|l]ий полон, і тепер її збираються судити за звинуваченням у єресі."
-  flavor_fra.2002.a: "Який кошмар!"
+  flavor_fra.2002.a: "Який жах!"
   flavor_fra.2003.title: "[joan_of_arc.GetNameWithNoTooltip] чекає суду"
   flavor_fra.2003.entry: "Суд над Жанною д’Арк"
   flavor_fra.2003.desc: "Під час недавньої битви з #L [GetCountry('FRA').GetAdjective|l]ими#! військами [joan_of_arc.GetName] була захоплена в полон і ув'язнена. За словами вояків, дівчина свято вірить, що архангел Михаїл особисто доручив їй очолити військо і повернути #ONCLICK:COUNTRY,[GetCountry('FRA').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('FRA').Custom('CL_tt')],X [GetCountry('FRA').Custom('CL_DAT')|L]#!#! втрачені території. Подібні заяви є вагомим приводом для суду і страти за поширення єресі, однак її загибель може лише сильніше розлютити наших ворогів. Замість цього ми можемо вимагати за неї викуп: [GetCountry('FRA').GetAdjectiveWithNoTooltip|l]ий уряд напевно не промине нагоди звільнити свою народну героїню."

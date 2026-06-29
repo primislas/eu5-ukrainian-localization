@@ -84,7 +84,7 @@
   dynastic.20.title: "Таємне стало явним"
   dynastic.20.desc: "Почувши питання про загадкову стіну в підвалі [ROOT.GetCountry.GetGovernment.GetAdjective|l]ого замку, [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] миттєво розуміє: в голосі підданої щойно прозвучали погано приховані презирство та переляк.\n\nСпогади свіжі та виразні. [ROOT.GetCountry.GetGovernment.GetRulerTitle] пам'ятає все: як [Select_CString(ruler_char.IsFemale, 'підіймала', 'підіймав')] маленьке тільце, як [Select_CString(ruler_char.IsFemale, 'несла', 'ніс')] його в сирий підвал, як [Select_CString(ruler_char.IsFemale, 'клала', 'клав')] цеглу… Вбивство власної дитини не принесло нічого, крім глибокої огиди до себе. У свідомості промайнув вогник жахливого осяяння…"
   dynastic.20.a: "А ось і [ruler_char.GetShortNameWithNoTooltip|l]!"
-  dynastic.20.b: "Який кошмар."
+  dynastic.20.b: "Який жах!"
   dynastic.21.title: "Танець смерті"
   dynastic.21.desc: "У [ROOT.GetCountry.GetGovernment.GetAdjective|l]их покоях, немов сніжинки, кружляють невловимі образи та запахи. [ROOT.GetCountry.GetGovernment.GetRulerTitle] відчуває страшний, божевільний голод — такий, ніби [Select_CString(ruler_char.IsFemale, 'вона не їла', 'він не їв')] вже кілька місяців. Зірки, як і раніше, спостерігають за [Select_CString(ruler_char.IsFemale, 'нею', 'ним')] з безмісячного неба. Вони безтурботно танцюють і сміються, насолоджуються свободою… тоді як [Select_CString(ruler_char.IsFemale, 'правителька', 'правитель')] втрачає останні проблиски розуму."
   dynastic.21.a: "[ruler_char.GetShortNameWithNoTooltip] продасть душу дияволу за кухоль пива."
