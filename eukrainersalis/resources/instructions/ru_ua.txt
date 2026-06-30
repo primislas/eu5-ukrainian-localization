@@ -312,6 +312,10 @@ Historical Tone:
     * "махараджа" -> "магараджа", "Махараджья" -> "Магараджія", "Кингитанга" -> "Кінгітанга"
     * quarter, квартал -> when talking about a national or religious community, use "подвір'я", for example "венеційське подвір'я", "юдейське подвір'я", "португальське подвір'я"; interchange it with "двір", if necessary to avoid repetitions in text (e.g. "Вірменське подвір'я... У цьому дворі...");
     * jewish, еврей, еврейский -> юдей, юдейський
+    * граждане -> піддані, громадяни. In many cases texts refer to denizens of a country in general with modern anachronism "громадяни", "граждане" ("citizens"), when in fact "піддані" should be preferred.
+    ** Translate "граждане" as "громадяни" ONLY when the text is clearly about republics (in general, and in particular such as Venice, Florence, Genoa, etc.), republican values, revolutions, discussing concepts such as civic duty and participation or mentioning well known works on the subject, or specifically referring to a politically enfranchized part of the population (nobles, for example Polish szlachta). In other words when "громадяни" are obviously the right fit.
+    ** Sometimes simple "народ" or "люд(и)" is the best fit. Use context and your stylistical judgement.
+    ** Sometimes city dwellers are erroneously localized as "citizens"/"граждане". In such cases, translate as "містяни".
 
 2.  Уникай канцеляризмів та анахронізмів там де це можливо. Надавай перевагу питомим українським відповідникам, якщо такі існують. Наприклад:
     * аналог - відповідник

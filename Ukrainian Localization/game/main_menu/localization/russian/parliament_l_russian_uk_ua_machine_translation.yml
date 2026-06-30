@@ -620,7 +620,7 @@
   pa_construct_market_village_desc: "[Concept('estate', 'Стан')|e] звернувся до нас із проханням побудувати нове торгове село для своїх купецьких справ."
   pa_construct_city_walls: "Потреба в міських мурах"
   pa_construct_city_walls_simple: "Потреба в міських мурах"
-  pa_construct_city_walls_desc: "Громадяни звертаються до нас із проханням звести нові міські мури, які захистять їх від неприятеля."
+  pa_construct_city_walls_desc: "Піддані звертаються до нас із проханням звести нові міські мури, які захистять їх від неприятеля."
   pa_break_alliance: "Розірвання союзу"
   pa_break_alliance_simple: "$pa_break_alliance$"
   pa_break_alliance_desc: "Цей [Concept('alliance', 'союз')|e] суперечить інтересам [Concept('estate', 'стану')|e], і його представники вважають, що отримають вигоду в результаті його розірвання."

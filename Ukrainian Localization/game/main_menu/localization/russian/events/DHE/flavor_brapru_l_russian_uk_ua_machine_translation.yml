@@ -96,7 +96,7 @@
   flavor_brapru.17.b: "Його примирливі погляди неприпустимі."
   flavor_brapru.18.title: "Франкфуртський університет"
   flavor_brapru.18.entry: "$flavor_brapru.18.title$"
-  flavor_brapru.18.desc: "Нам милостиво виділили кошти на будівництво #TOOLTIP:BUILDING_TYPE,university,X #L університету#!#! поблизу #TOOLTIP:LOCATION,lebus,X #L Лебуса#!#!. Цей заклад, де громадяни навчатимуться наукам, передбачається побудувати в сусідньому Франкфурті-на-Одері з розрахунком, що вплив міста з часом стане досить значним."
+  flavor_brapru.18.desc: "Нам милостиво виділили кошти на будівництво #TOOLTIP:BUILDING_TYPE,university,X #L університету#!#! поблизу #TOOLTIP:LOCATION,lebus,X #L Лебуса#!#!. Цей заклад, де піддані навчатимуться наукам, передбачається побудувати в сусідньому Франкфурті-на-Одері з розрахунком, що вплив міста з часом стане досить значним."
   flavor_brapru.18.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   flavor_brapru.18.a.entry: "$common_string_brilliant$"
   flavor_brapru.19.title: "Відвага жителів Шпандау"

@@ -1802,7 +1802,7 @@
   STATIC_MODIFIER_NAME_concessions_to_the_nobility: "Поступки знаті"
   STATIC_MODIFIER_DESC_concessions_to_the_nobility: "Знать отримала більше впливу в політиці та економіці, а також знижені податки."
   STATIC_MODIFIER_NAME_fc_imperial_coronation: "Імперська коронація"
-  STATIC_MODIFIER_DESC_fc_imperial_coronation: "Це місто було обрано місцем імперської коронації, і його громадяни сяють від гордості!"
+  STATIC_MODIFIER_DESC_fc_imperial_coronation: "Це місто було обрано місцем імперської коронації, і його мешканці сяють від гордості!"
   STATIC_MODIFIER_NAME_fc_city_league: "Союз міст"
   STATIC_MODIFIER_DESC_fc_city_league: "Надихнувшись прикладом старих міських союзів на кшталт Швабського, Ганзейського та Ломбардського, вільні міста Священної Римської імперії погодилися об'єднати сили та співпрацювати з низки питань."
   STATIC_MODIFIER_NAME_fc_treatyconference_timer: "Проведено зустріч для укладення договору"

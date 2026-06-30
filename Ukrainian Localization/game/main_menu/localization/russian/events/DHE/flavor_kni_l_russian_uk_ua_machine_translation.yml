@@ -113,7 +113,7 @@
   flavor_kni.112.a: "Невже Папа впав у гріх?"
   flavor_kni.120.title: "Розвиток [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip]"
   flavor_kni.120.entry: "Розвиток Родосу"
-  flavor_kni.120.desc: "Наша столиця десятиліттями слугувала плацдармом для нападу на невірних. Згодом стало очевидно, що для втілення наших цілей та підвищення авторитету в очах інших #L [ROOT.GetCountry.GetReligion.GetAdjective|l]их#! сил нам знадобиться нова твердиня. Під нашими знаменами [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetName] стане обителлю безлічі забезпечених громадян, які прагнуть вписати наші імена в аннали історії."
+  flavor_kni.120.desc: "Наша столиця десятиліттями слугувала плацдармом для нападу на невірних. Згодом стало очевидно, що для втілення наших цілей та підвищення авторитету в очах інших #L [ROOT.GetCountry.GetReligion.GetAdjective|l]их#! сил нам знадобиться нова твердиня. Під нашими знаменами [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetName] стане обителлю численних забезпечених громадян, які прагнуть вписати наші імена в аннали історії."
   flavor_kni.120.a: "Ми надаватимемо громадянство чужоземним купцям."
   flavor_kni.120.b: "Краще займемося розвитком інфраструктури."
   flavor_kni.121.title: "[target_location.GetNameWithNoTooltip] та військово-морські операції"
