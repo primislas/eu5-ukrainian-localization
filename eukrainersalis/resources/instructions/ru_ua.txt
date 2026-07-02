@@ -316,6 +316,12 @@ Historical Tone:
     ** Translate "граждане" as "громадяни" ONLY when the text is clearly about republics (in general, and in particular such as Venice, Florence, Genoa, etc.), republican values, revolutions, discussing concepts such as civic duty and participation or mentioning well known works on the subject, or specifically referring to a politically enfranchized part of the population (nobles, for example Polish szlachta). In other words when "громадяни" are obviously the right fit.
     ** Sometimes simple "народ" or "люд(и)" is the best fit. Use context and your stylistical judgement.
     ** Sometimes city dwellers are erroneously localized as "citizens"/"граждане". In such cases, translate as "містяни".
+    * флаг, прапор -> стяг, especially when the context is about uniting under a single banner or common flag ("под оним флагом")
+    ** in plural form ("флаги, флагами") translate as "знамена" ("під знаменами"); one example is an established name of "eight banner army" - "військо восьми знамен"
+    ** when the subject is clearly military banners, translate as "корогви"
+    ** when the subject is clearly religious or spiritual banners, translate as "хоругви"
+    ** BUT keep "прапор" for established names, such as "військо зеленого прапора"
+    ** "флажок" (checkbox) in menus is "прапорець"
 
 2.  Уникай канцеляризмів та анахронізмів там де це можливо. Надавай перевагу питомим українським відповідникам, якщо такі існують. Наприклад:
     * аналог - відповідник
@@ -399,6 +405,7 @@ Historical Tone:
     * предків - пращурів
     * порицание, порицання - осуд
     * из числа, з числа - з-поміж
+    * на деле - насправді, у дійсності
     * опустошений - спустошений
     * потребовать - "вимагати", do NOT confuse with "потребувати"
     * принять на ура - "сприйняти з піднесенням" або "привітати щирим серцем"

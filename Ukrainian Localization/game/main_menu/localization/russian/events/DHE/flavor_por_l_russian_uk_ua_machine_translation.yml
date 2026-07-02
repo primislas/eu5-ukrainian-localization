@@ -348,7 +348,7 @@
   flavor_por.61.b: "Можливо, нам варто зміцнити свою владу мирним шляхом."
   flavor_por.62.title: "[target_character.GetNameWithNoTooltip] плекає амбіції"
   flavor_por.62.entry: "Магеллан"
-  flavor_por.62.desc: "[target_character.GetName] [Select_CString(target_character.IsFemale,'звернулася', 'звернувся')] до нас за підтримкою [Select_CString(target_character.IsFemale,'її', 'його')] амбітного проєкту. [Select_CString(target_character.IsFemale,'Вона', 'Він')] бажає зібрати невеликий флот і здійснити перше в історії навколосвітнє плавання. Безумовно, це вкрай ризикована затія, але якщо ми [Select_CString(target_character.IsFemale,'їй', 'йому')] відмовимо, то [Select_CString(target_character.IsFemale,'вона', 'він')] може здійснити свій план вже під прапором іншої країни…"
+  flavor_por.62.desc: "[target_character.GetName] [Select_CString(target_character.IsFemale,'звернулася', 'звернувся')] до нас за підтримкою [Select_CString(target_character.IsFemale,'її', 'його')] амбітного проєкту. [Select_CString(target_character.IsFemale,'Вона', 'Він')] бажає зібрати невеликий флот і здійснити перше в історії навколосвітнє плавання. Безумовно, це вкрай ризикована затія, але якщо ми [Select_CString(target_character.IsFemale,'їй', 'йому')] відмовимо, то [Select_CString(target_character.IsFemale,'вона', 'він')] може здійснити свій план вже під стягом іншої країни…"
   flavor_por.62.historical_info: "$flavor_por_magellan_historical_info$"
   flavor_por.62.a: "Нехай пропонує свої божевільні ідеї комусь іншому."
   flavor_por.62.a.entry: "Нехай пропонує свої божевільні ідеї комусь іншому."

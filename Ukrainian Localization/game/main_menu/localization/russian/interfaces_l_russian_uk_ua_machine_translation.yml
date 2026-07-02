@@ -5056,7 +5056,7 @@
   CASUS_BELLIS_SORT_BY_WAR_EXHAUSTION_COST: "Сортувати за виснаженням від війни"
   CASUS_BELLIS_SORT_BY_ANTAGONISM_COST: "Сортувати за викликаною ворожістю"
   MUSIC_PLAYER_SORT_BY_NAME: "$SORT_BY_NAME_TT$"
-  SORT_BY_FLAG_TT: "Сортувати за прапором"
+  SORT_BY_FLAG_TT: "Сортувати за стягом"
   SORT_BY_SUPPLY_G_TT: "Сортувати [Concept('markets', 'ринки')|e] за [Concept('supply', 'пропозицією')|e] на вибрані [Concept('goods', 'товари')|e]"
   SORT_BY_DEMAND_G_TT: "Сортувати [Concept('markets', 'ринки')|e] за [Concept('demand', 'попитом')|e] на обрані [Concept('goods', 'товари')|e]"
   SORT_BY_SURPLUS_G_TT: "Сортувати [Concept('markets', 'ринки')|e] за надлишком обраних [Concept('goods', 'товарів')|e]"

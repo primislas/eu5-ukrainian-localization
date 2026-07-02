@@ -260,7 +260,7 @@
   rtr_demand_complete_annexation: "Вимога повного приєднання"
   rtr_demand_complete_annexation_entry: "$rtr_demand_complete_annexation$"
   rtr_demand_complete_annexation_entry_short: "$rtr_demand_complete_annexation$"
-  rtr_demand_complete_annexation_desc: "Лише під єдиним прапором Китай може повернутися до миру!"
+  rtr_demand_complete_annexation_desc: "Лише під єдиним стягом Китай може повернутися до миру!"
   peace_mandate_of_heaven: "Захоплення Небесного мандата"
   peace_mandate_of_heaven_entry: "$peace_mandate_of_heaven$"
   peace_mandate_of_heaven_entry_short: "$peace_mandate_of_heaven$"

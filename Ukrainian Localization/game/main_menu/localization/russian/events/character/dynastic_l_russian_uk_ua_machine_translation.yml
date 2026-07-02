@@ -43,7 +43,7 @@
   dynastic.8.a: "Усиновимо його."
   dynastic.8.b: "Куди ж поскакав той олень?"
   dynastic.9.title: "Лицарський турнір"
-  dynastic.9.desc: "Навкруги майорять прапори #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, а труби чотири рази грають урочисту мелодію, вшановуючи добірних вершників [ROOT.GetCountry.Custom('rank_ua_GEN')|l]. У повітрі стоїть запах коней та смаженого мигдалю, проте всі більше захоплені ароматом інтриг. Сумніви в [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ій культурній та військовій перевазі сьогодні відкинули навіть найпереконаніші скептики."
+  dynastic.9.desc: "Навкруги майорять знамена #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, а труби чотири рази грають урочисту мелодію, вшановуючи добірних вершників [ROOT.GetCountry.Custom('rank_ua_GEN')|l]. У повітрі стоїть запах коней та смаженого мигдалю, проте всі більше захоплені ароматом інтриг. Сумніви в [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ій культурній та військовій перевазі сьогодні відкинули навіть найпереконаніші скептики."
   dynastic.9.a: "Подивимося, як [ROOT.GetCountry.GetGovernment.GetHeir.GetShortNameWithNoTooltip|l] бере участь у лицарському турнірі."
   dynastic.9.b: "Похвалимося [ROOT.GetCountry.GetCulture.GetNameWithNoTooltip|l]ими художніми досягненнями."
   dynastic.9.c: "Просто насолоджуватимуся торжеством."
