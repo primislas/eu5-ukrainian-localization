@@ -279,7 +279,7 @@
   flavor_brapru.1101.b: "Спробуємо домовитися з народом."
   flavor_brapru.1200.title: "Правова реформа"
   flavor_brapru.1200.entry: "$flavor_brapru.1200.title$"
-  flavor_brapru.1200.desc: "Запорука виживання нашої країни — у вмінні пристосовуватися до змін. Зараз на її благо працює, не покладаючи рук, [target_character.GetName] — голова #italic камерального суду#!, людина, здатна очолити проведення таких необхідних реформ у правовій системі. Плани його зачіпають #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! цілком, і якщо підтримати його в цьому починанні, реформи будуть швидкими та суттєвими."
+  flavor_brapru.1200.desc: "Запорука виживання нашої країни — у вмінні пристосовуватися до змін. Зараз на її благо працює, не покладаючи рук, [target_character.GetName] — голова #italic камерального суду#!, людина, здатна очолити проведення таких необхідних реформ у правовій системі. Плани його охоплюють #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! цілком, і якщо підтримати його в цьому починанні, реформи будуть швидкими та суттєвими."
   flavor_brapru.1200.a: "Підтримати реформи!"
   flavor_brapru.1200.b: "Приструнимо його."
   flavor_brapru.1201.title: "[ROOT.GetCountry.GetAdjectiveWithNoTooltip]а правова система"

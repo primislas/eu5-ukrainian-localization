@@ -1038,7 +1038,7 @@
   CUSTOM_SEARCH_FILTER_SELECT_DESTINATION_MARKET_DESC: "Дозволяє відобразити всі торгові категорії, де ринок #L #TOOLTIP:LOCATIONRANK,[Market.GetCenterLocation.Custom('LR_tt')],X [Market.GetCenterLocation.Custom('LR_GEN')|l]#!#! [Market.GetShortName] — джерело або пункт призначення [Concept('trade', 'торгівлі')|e]."
   CUSTOM_SEARCH_FILTER_MARKET_HAS_PRESENCE_DESC: "Відображаються лише ринки, де є наші місцевості (позначені зеленим) або присутній наш торговий потенціал (позначений синім)."
   CUSTOM_SEARCH_FILTER_MARKET_HAS_NO_PRESENCE_NAME: "Немає присутності"
-  CUSTOM_SEARCH_FILTER_MARKET_HAS_NO_PRESENCE_DESC: "Відображаються лише ринки, що не зачіпають нашу країну."
+  CUSTOM_SEARCH_FILTER_MARKET_HAS_NO_PRESENCE_DESC: "Відображаються лише ринки, що не пов'язані з нашою країною."
   custom_search_filter_market_with_pops_group_name: "@market! Ринки з населенням"
   CUSTOM_SEARCH_FILTER_MARKET_WITH_POPS_NAME: "Є населення"
   CUSTOM_SEARCH_FILTER_MARKET_WITH_POPS_DESC: "Відображаються лише ринки з групами населення з нашої країни."

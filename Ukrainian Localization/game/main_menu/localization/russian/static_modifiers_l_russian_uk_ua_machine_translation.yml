@@ -1959,7 +1959,7 @@
   STATIC_MODIFIER_NAME_in_defense_of_hussitism_modifier: "На захист гуситів"
   STATIC_MODIFIER_NAME_heretical_bohemian_defense_modifier: "Оборона богемських єретиків"
   STATIC_MODIFIER_NAME_forbidden_from_joining_unions: "Заборона на обрання лідерів унії"
-  STATIC_MODIFIER_DESC_forbidden_from_joining_unions: "У світлі втручань у справи уній та занепокоєння народу за долю #TOOLTIP:GOVTYPE,republic,X #L республіки#!#! країні більше не дозволено обирати монархів — правителів #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,union,X #L унії#!#!.\n\n#Y Поки діє цей [Concept('modifier', 'модифікатор')], дії на кшталт #TOOLTIP:COUNTRY_INTERACTION,invite_prince,X #L «Запрошення князя»#!#! більше не можуть зачіпати лідерів [Concept('union', 'уній')|e].#!"
+  STATIC_MODIFIER_DESC_forbidden_from_joining_unions: "У світлі втручань у справи уній та занепокоєння народу за долю #TOOLTIP:GOVTYPE,republic,X #L республіки#!#! країні більше не дозволено обирати монархів — правителів #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,union,X #L унії#!#!.\n\n#Y Поки діє цей [Concept('modifier', 'модифікатор')], дії на кшталт #TOOLTIP:COUNTRY_INTERACTION,invite_prince,X #L «Запрошення князя»#!#! більше не можуть застосовуватися до лідерів [Concept('union', 'уній')|e].#!"
   STATIC_MODIFIER_NAME_introduction_of_newcommen_engine: "Впровадження атмосферної машини"
   STATIC_MODIFIER_NAME_introduction_of_steam_power_blast: "Впровадження парового дуття"
   STATIC_MODIFIER_NAME_introduction_of_watt_engine: "Впровадження парового двигуна"

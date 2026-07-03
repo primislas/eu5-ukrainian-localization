@@ -1201,7 +1201,7 @@
   PEACE_TREATY_NOT_TERRITORY: "@trigger_no![COUNTRY.GetName] не мож[COUNTRY.Custom('end_eut')] володіти територіями."
   PEACE_NOT_POSSIBLE_ALREADY_SELECTED: "@trigger_no! Ми вже обрали цей договір."
   PEACE_NOT_POSSIBLE_TO_COMBINE: "@trigger_no! Цей договір не можна поєднати з іншими обраними договорами."
-  PEACE_NOT_POSSIBLE_INTERSECTING_LOCATIONS: "@trigger_no! Цей договір не можна додати, оскільки області, що ним зачіпаються, суперечать іншим обраним договорам."
+  PEACE_NOT_POSSIBLE_INTERSECTING_LOCATIONS: "@trigger_no! Цей договір не можна додати, оскільки області, на які він поширюється, суперечать іншим обраним договорам."
   PEACE_NOT_POSSIBLE_TO_REMOVE_WOULD_NOT_SURVIVE: "@trigger_no! Ми повинні обрати цей договір, інакше наша країна припинить існування."
   PEACE_NOT_POSSIBLE_TO_REMOVE_THIS_IS_WHAT_YOURE_FIGHTING_FOR: "@trigger_no! Ми за це боремося!"
   PEACE_TREATY_WILL_CEASE_TO_EXIST: "@trigger_no![COUNTRY.GetLongName] припин[COUNTRY.Custom('endlong_ytyat')] існування в силу інших договорів."
