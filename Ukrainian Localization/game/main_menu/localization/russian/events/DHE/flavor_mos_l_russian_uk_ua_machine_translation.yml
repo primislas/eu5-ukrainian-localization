@@ -811,7 +811,7 @@
   flavor_mos.93.desc: "Європейська мода постійно розвивається, проте народ #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, як і раніше, дотримується старосвітських звичаїв в одязі та зовнішньому вигляді. Настав час прийняти нові форми одягу на зразок тих, які можна побачити при європейських дворах. Ми можемо заборонити застарілі усталені вбрання, щоб [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] поча[ROOT.GetCountry.Custom('nobles_vlaloly')] носити сучасніші речі."
   flavor_mos.93.a: "Нині в моді панчохи та перуки."
   mos_enforced_fashion: "Нав'язана мода"
-  flavor_mos.93.tt1: "Для запровадження європейської моди в країну імпортуватиметься величезна кількість тканини"
+  flavor_mos.93.tt1: "Для запровадження європейської моди в країну привозитиметься величезна кількість тканини"
   flavor_mos.93.tt2: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] обурен[ROOT.GetCountry.Custom('nobles_yiaei')] таким нехтуванням старосвітським московитським вбранням"
   flavor_mos.93.b: "Кафтани ніколи не застаріють."
   flavor_mos.93.tt3: "Збереження звичного одягу ще збільшить опір змінам"
