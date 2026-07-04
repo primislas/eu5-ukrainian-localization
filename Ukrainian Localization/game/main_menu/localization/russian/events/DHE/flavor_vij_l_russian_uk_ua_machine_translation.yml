@@ -139,7 +139,7 @@
   flavor_vij.24.b: "Не варто розкидатися грошима на подібні проєкти."
   flavor_vij.25.title: "[target_character.GetNameWithNoTooltip] та [Select_CString(target_character.IsFemale, 'її', 'його' )] підхід"
   flavor_vij.25.entry: "Монарх схвалює синкретизм"
-  flavor_vij.25.desc: "[target_character.GetName] тільки [Select_CString(target_character.IsFemale, 'зійшла', 'зійшов' )] на престол #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, і тепер [Select_CString(target_character.IsFemale, 'їй', 'йому' )] належить розібратися з питанням змішання культур. Оскільки $india$ славиться різноманіттям культур, можливо, розумно буде ставитися до цього з терпимістю. З іншого боку, для зміцнення влади може знадобитися тримати людей у вузді й навіть не вважати їх повноцінними підданими."
+  flavor_vij.25.desc: "[target_character.GetName] тільки [Select_CString(target_character.IsFemale, 'зійшла', 'зійшов' )] на престол #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, і тепер [Select_CString(target_character.IsFemale, 'їй', 'йому' )] належить розібратися з питанням змішання культур. Оскільки $india$ славиться розмаїттям культур, можливо, розумно буде ставитися до цього з терпимістю. З іншого боку, для зміцнення влади може знадобитися тримати людей у вузді й навіть не вважати їх повноцінними підданими."
   flavor_vij.25.a: "Не будемо злити культурні меншини."
   flavor_vij.25.b: "Нехай схилять коліно перед нами в ім'я [ROOT.GetCountry.Custom('CL_GEN')]."
   flavor_vij.25.b.entry: "Нехай схилять коліно перед нами."

@@ -51,7 +51,7 @@
   flavor_mug.8.b: "Стільки витрат на якісь прикраси?"
   flavor_mug.9.title: "Народний диван"
   flavor_mug.9.entry: "$flavor_mug.9.title$"
-  flavor_mug.9.desc: "Наш нинішній уряд старанно служить народу, але #L [ROOT.GetCountry.GetReligion.GetGroup.GetAdjective|l]і#! еліти намагаються керувати всіма меншинами в #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#!. [target_character.GetName] хоче, щоб наш диван відображав різноманіття культур у країні та складався з великих людей з найрізноманітнішими віруваннями."
+  flavor_mug.9.desc: "Наш нинішній уряд старанно служить народу, але #L [ROOT.GetCountry.GetReligion.GetGroup.GetAdjective|l]і#! еліти намагаються керувати всіма меншинами в #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#!. [target_character.GetName] хоче, щоб наш диван відображав розмаїття культур у країні та складався з великих людей з найрізноманітнішими віруваннями."
   flavor_mug.9.a: "Настав час впровадити подібну систему."
   flavor_mug.9.b: "Реформувати працюючий уряд немає потреби."
   flavor_mug.10.title: "Ібадат-хана в [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
