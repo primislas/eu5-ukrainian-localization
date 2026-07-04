@@ -2464,7 +2464,7 @@
   DIPCHANCE_MAYBE: "Можливо"
   DIPCHANCE_LIKELY: "Імовірно"
   DIP_SELECT_PROVINCE: "Оберіть цю провінцію для торгівлі."
-  DIP_NO_ROUTE: "Маршрут не знайдено!"
+  DIP_NO_ROUTE: "Шлях не знайдено!"
   ENROUTE_REMOVED: "Наш посол у дорозі"
   DIP_ACCEPT: "Прийняти пропозицію"
   DIP_DECLINE: "Відхилити пропозицію"

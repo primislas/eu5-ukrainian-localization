@@ -349,7 +349,7 @@
   flavor_swe.55.title: "[GetCountry('HSA').GetAdjectiveWithNoTooltip]ий контроль над [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ою торгівлею"
   flavor_swe.55.entry: "Шведська торгівля в руках Ганзи"
   flavor_swe.55.desc: "Панівне становище [GetCountry('HSA').Custom('longname_ua_GEN')] колись забезпечувало нам економічну стабільність, але тепер лише сіє заворушення в містах і портах #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Настав час вирішити, хто визначатиме майбутнє нашої торгівлі: іноземні купці, наші власні [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] або і ті, й інші разом."
-  flavor_swe.55.historical_info: "До ганзейських міст, що контролювали прибуткові торгові маршрути, належали, зокрема, шведські Вісбю, Стокгольм і Кальмар. Король Ерік Померанський, який правив Швецією в період з 1396 по 1434 рік, намагався обмежити їхній вплив."
+  flavor_swe.55.historical_info: "До ганзейських міст, що контролювали прибуткові торгові шляхи, належали, зокрема, шведські Вісбю, Стокгольм і Кальмар. Король Ерік Померанський, який правив Швецією в період з 1396 по 1434 рік, намагався обмежити їхній вплив."
   flavor_swe.55.a: "Обмежимо [GetCountry('HSA').GetAdjectiveWithNoTooltip|l]ий вплив."
   flavor_swe.55.a.entry: "$HSA_ADJ$ий вплив потрібно обмежити."
   flavor_swe.55.b: "Повторно затвердимо [GetCountry('HSA').GetAdjectiveWithNoTooltip|l]і привілеї."

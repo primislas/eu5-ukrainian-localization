@@ -359,7 +359,7 @@
   game_concept_trade_profit_desc: "Торговий прибуток в основному залежить від різниці між [Concept('market_prices', 'ринковими цінами')|e] [Concept('goods', 'товарів')|e] на [Concept('export_market', 'ринку вивозу')|e] та [Concept('import_market', 'ринку привозу')|e]. Витрати на забезпечення зменшують торговий прибуток. До того ж при торгівлі деякими товарами стягується [Concept('sound_toll', 'плата за прохід')|e]."
   game_concept_trade_orders: "Торгові замовлення"
   game_concept_trade_order: "Торгове замовлення"
-  game_concept_trade_orders_desc: "Торгові замовлення дозволяють автоматично спрямовувати [Concept('merchant_capacity', 'торговий потенціал')|e] на [Concept('import', 'привіз')|e] або [Concept('export', 'вивіз')|e] певного [Concept('good', 'товару')|e] без зазначення пункту призначення. Країна під керуванням комп’ютера щодня підбиратиме оптимальний маршрут."
+  game_concept_trade_orders_desc: "Торгові замовлення дозволяють автоматично спрямовувати [Concept('merchant_capacity', 'торговий потенціал')|e] на [Concept('import', 'привіз')|e] або [Concept('export', 'вивіз')|e] певного [Concept('good', 'товару')|e] без зазначення пункту призначення. Країна під керуванням комп’ютера щодня підбиратиме оптимальний шлях."
   game_concept_trade: "Торгівля"
   game_concept_trading: "Торгівля"
   game_concept_trades: "Торгові угоди"

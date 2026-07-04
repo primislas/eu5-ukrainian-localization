@@ -108,7 +108,7 @@
   flavor_ned.17.d: "У нас немає на це грошей."
   flavor_ned.18.title: "Туга за спеціями"
   flavor_ned.18.entry: "$flavor_ned.18.title$"
-  flavor_ned.18.desc: "#TOOLTIP:RELIGIONGROUP,muslim,X #L Ісламські#!#! купці перекрили торгове сполучення з #TOOLTIP:SUB_CONTINENT,india,X #L Індією#!#!, і наш народ зголоднів за екзотикою. [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] придивляються до морських маршрутів, через які [target_market.GetName] буде забезпечуватися спеціями. Хай там як, [target_character.GetName] [Select_CString(target_character.IsFemale,'мусить', 'мусить')] знайти спосіб відновити зв'язок з Індостаном."
+  flavor_ned.18.desc: "#TOOLTIP:RELIGIONGROUP,muslim,X #L Ісламські#!#! купці перекрили торгове сполучення з #TOOLTIP:SUB_CONTINENT,india,X #L Індією#!#!, і наш народ зголоднів за екзотикою. [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] придивляються до морських шляхів, через які [target_market.GetName] буде забезпечуватися спеціями. Хай там як, [target_character.GetName] [Select_CString(target_character.IsFemale,'мусить', 'мусить')] знайти спосіб відновити зв'язок з Індостаном."
   flavor_ned.18.a: "Ми дістанемося до Індії морем."
   NED_SECURE_SPICE_FOR_BONUSES: "Можливість постачати [ShowGoodsName('pepper')|l] на [Concept('market', 'ринок')|e] #L #TOOLTIP:LOCATIONRANK,[target_market.GetCenterLocation.Custom('LR_tt')],X [target_market.GetCenterLocation.Custom('LR_GEN')|l]#!#! [target_market.GetShortName] дасть нам чималу перевагу."
   flavor_ned.19.title: "Вільнодумство"
