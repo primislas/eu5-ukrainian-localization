@@ -379,7 +379,7 @@
   no_neighbor_country_available: "@trigger_no! Немає доступних сусідніх [Concept('country', 'країн')|e]."
   target_country_will_be_asked_for_truce_tt: "#ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_ACC')|L]#!#! попросять підписати #Y 5#!-річне [Concept('truce', 'перемир’я')|e] з нами в ході [Concept('event', 'події')|e]"
   selected_country_will_be_asked_for_truce_tt: "Вибрану [Concept('country', 'країну')|e] попросять підписати #Y 5#!-річне [Concept('truce', 'перемир’я')|e] з нами в ході [Concept('event', 'події')|e]"
-  this_will_not_affect_our_textile_industry_tt: "#italic Це не зачепить нашу текстильну промисловість#!"
+  this_will_not_affect_our_textile_industry_tt: "#italic Це не зачепить наші ткацькі та кравецькі промисли#!"
   they_will_be_notified_of_our_rejection_tt: "[actor.GetLongName] дізна[actor.Custom('endlong_yeyu')]ться, що ми відкинули [Concept('truce', 'перемир’я')|e]"
   not_recently_asked_to_join_tt: "Не отримували прохання приєднатися до нашої [Concept('war', 'війни')|e] за допомогою цієї [Concept('action', 'дії')|e] за останні #Y 10#! років"
   hyw_defect_action: "Прагнення до розриву"
