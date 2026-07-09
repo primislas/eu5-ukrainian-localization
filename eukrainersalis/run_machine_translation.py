@@ -249,7 +249,12 @@ async def _translate_and_save_batch(
     async with api_semaphore:
         lines = [json.dumps({k: v}, ensure_ascii=False) for k, v in batch]
         try:
-            translated_lines = await translator.translate_batch_async(lines)
+            unrefined_lines = lines
+            # unrefined_lines = await translator.translate_batch_async(lines)
+            # refining translation - 2nd pass works as a Ukrainian editor with the current
+            # system instructions. The same instructions are used to take advantage of
+            # instruction cache and cost optimization.
+            translated_lines = await translator.translate_batch_async(unrefined_lines)
         except Exception as e:
             logger.error(f"Batch {batch_idx + 1}/{total_batches} of {file_name} failed: {e}")
             result.add_error(e)

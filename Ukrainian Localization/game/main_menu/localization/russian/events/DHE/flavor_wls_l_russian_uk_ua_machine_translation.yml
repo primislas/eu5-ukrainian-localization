@@ -46,6 +46,8 @@
   flavor_wls.15.tt5: "Дворянам буде відмовлено"
   flavor_wls.15.d: "Звільніть його."
   flavor_wls.15.tt6: "Едмунд Мортімер буде звільнений"
+  tripartite_indenture_tt: "Влада #ONCLICK:COUNTRY,[GetCountry('ENG').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('ENG').Custom('CL_tt')],X [GetCountry('ENG').Custom('CL_GEN')|L]#!#! погодилася розділити країну відповідно до Тристоронньої угоди"
+  ransom_paid_edmund_mortimer_tt: "Влада #ONCLICK:COUNTRY,[GetCountry('ENG').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('ENG').Custom('CL_tt')],X [GetCountry('ENG').Custom('CL_GEN')|L]#!#! заплатила викуп за Едмунда Мортімера"
   flavor_wls.16.title: "Доповідь голови шпигунів"
   flavor_wls.16.desc_england_success: "Рід [dishonorable_dynasty.GetName] виголошує хвалебні промови, заявляючи, що [GetCountry('ENG').GetGovernment.GetRuler.GetName] — найщедріша людина. Заколотники погодилися скласти зброю і, за донесеннями наших шпигунів, почали розпускати свої війська."
   flavor_wls.16.desc_england_failure: "Рід [dishonorable_dynasty.GetName] відмовився приймати хабар, який їм [Select_CString(GetCountry('ENG').GetGovernment.GetRuler.IsFemale, 'запропонувала', 'запропонував' )] [GetCountry('ENG').GetGovernment.GetRuler.GetName]. Схоже, кровопролиття не уникнути."

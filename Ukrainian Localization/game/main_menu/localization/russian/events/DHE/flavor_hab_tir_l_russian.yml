@@ -25,6 +25,7 @@
  flavor_hab_tir.4.b.entry: "Да здравствует династия!"
  flavor_hab_tir.4.c: "Династию [target_ruler.GetDynasty.GetNameWithNoTooltip] тоже когда-нибудь полюбят!"
  flavor_hab_tir.4.c.entry: "Династию когда-нибудь полюбят!"
+ flavor_hab_tir.4.d: "Мы должны защитить свой суверенитет!"
  flavor_hab_tir.5.title: "Новые правители [ROOT.GetCountry.Custom('CL_GEN')]"
  flavor_hab_tir.5.entry: "$flavor_hab_tir.5.title$"
  flavor_hab_tir.5.desc: "Вероломная династия [target_ruler.GetDynasty.GetName] захватила трон #ONCLICK:COUNTRY,[GetCountry('TIR').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('TIR').Custom('CL_tt')],X [GetCountry('TIR').Custom('CL_GEN')|L]#!#!! [GetCountry('TIR').GetLongName] — по всем законам эта держава должна принадлежать нам. Теперь у нас нет выбора: надо немедленно захватить её земли, пока династия [target_ruler.GetDynasty.GetNameWithNoTooltip] не обосновалась там окончательно."

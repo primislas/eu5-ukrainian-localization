@@ -41,3 +41,4 @@
  treaty_of_tordesillas.7.a: "Нам нечего бояться! Согласимся на предложение."
  treaty_of_tordesillas.7.a.tt: "[GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('var_east_country').GetCountry.GetLongName] и [GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('var_west_country').GetCountry.GetLongName] обменяются условленными сторонами света, которые получит каждая из держав"
  treaty_of_tordesillas.7.b: "Мы не примем столь нелепое предложение."
+ treaty_of_tordesillas_can_end_tt: "#TOOLTIP:SITUATION,treaty_of_tordesillas,X #L Договор [GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('treaty_location').GetLocation.Custom('LR_GEN')|l] [GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('treaty_location').GetLocation.GetNameWithNoTooltip]#!#! перешёл во вторую фазу и потерял свою значимость"

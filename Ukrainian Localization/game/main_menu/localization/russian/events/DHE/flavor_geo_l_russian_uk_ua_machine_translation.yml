@@ -151,6 +151,7 @@
   flavor_geo.26.desc: "Нещодавно [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'була змушена', 'був змушений')] прийняти #L [GetCountry('TIM').GetAdjective|l]у#! віру, що явно не сподобалося більшості населення. Для нас [ROOT.GetCountry.GetReligion.GetName|l] — не просто віра, а невіддільна частина нашого самоусвідомлення, і ми не можемо відмовитися від неї навіть під загрозою війни. Багато хто вважає, що [target_character.GetName] [Select_CString(target_character.IsFemale,'повинна', 'повинен')] стати на захист істинної віри."
   flavor_geo.26.a: "Взагалі-то, це була хитрість, і вона спрацювала."
   flavor_geo.26.b: "Що зроблено, те зроблено."
+  variable_timur_conversion_variable_tt: "Завоювання Тимура визначило нашу віру"
   flavor_geo.27.title: "[target_character2.GetNameWithNoTooltip]"
   flavor_geo.27.entry: "Георгій Саакадзе"
   flavor_geo.27.desc: "Останнім часом це ім’я постійно лунає при дворі. [target_character2.GetName] народився в [target_location.Custom('LR_PREP')|l] [target_location.GetName] і походить з дрібнопомісних дворян. Він обрав військову стезю та зробив блискучу кар’єру. Такий хист не повинен пропадати дарма: його майстерність зробить нас сильнішими та стане нашим козирем у майбутніх конфліктах."

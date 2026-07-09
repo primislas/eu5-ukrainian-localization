@@ -1,0 +1,6 @@
+﻿IO_wntt_GEN = {
+	log_loc_errors = no
+	parent = IO_GEN
+	suffix = "_wntt"
+	if_invalid_loc = return_empty
+}

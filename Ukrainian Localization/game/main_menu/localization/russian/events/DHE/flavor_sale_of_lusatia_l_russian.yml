@@ -21,6 +21,8 @@
  flavor_sale_of_lusatia.1100.c: "Мы вернём свою законную землю!"
  flavor_sale_of_lusatia.1100.d: "Возможно, был допущен просчёт."
  flavor_sale_of_lusatia.1100.historical_info: "После окончания договора 1353 года Отто фон Виттельсбах продал титул и земли маркграфства Лужица богемской короне. В результате этой сделки Верхняя и Нижняя Лужица снова оказались под единой властью."
+ pledge_of_lusatia_accepted_tt: "Лужицкое обещание принято"
+ pledge_of_lusatia_timeout_tt: "Лужицкое обещание больше не действует"
  flavor_sale_of_lusatia.1101.desc: "Залог #ONCLICK:COUNTRY,[GetCountry('SOR').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SOR').Custom('CL_tt')],X [GetCountry('SOR').Custom('CL_GEN')|L]#!#! [GetCountry('MEI').Custom('rank_ua_DAT')|l] [GetCountry('MEI').GetName] завершился, и теперь [GetCountry('BRA').GetName] предлагает нам приобрести полные права на эти земли. Конечно, подобная сделка обойдётся нам в круглую сумму, но в долгосрочной перспективе эти вложения наверняка принесут свои плоды."
  flavor_sale_of_lusatia.1101.a: "Мы согласны!"
  flavor_sale_of_lusatia.1101.b: "Не слишком выгодное вложение."

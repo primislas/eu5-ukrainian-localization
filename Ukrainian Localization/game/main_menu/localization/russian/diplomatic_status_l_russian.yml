@@ -213,6 +213,8 @@
  diplomatic_status_italian_league_3_name: "$italian_league_3$"
  diplomatic_status_italian_league_3_tooltip: "#T $italian_league_3$#!\nСтрана состоит в Итальянской лиге."
  italian_league_3_list_who_tt: "Державы $WHO$ и $LIST$ состоят в #TOOLTIP:INTERNATIONAL_ORGANIZATION,$italian_league_3_tt$,X #L Третьей итальянской лиге#!#!"
+ diplomatic_status_italian_league_sponsor_name: "$italian_league_sponsor$"
+ diplomatic_status_italian_league_sponsor_tooltip: "#T $italian_league_sponsor$#!\nЭта держава спонсирует Итальянскую лигу, предоставляя золото и рекрутов её лидеру."
  diplomatic_status_guelphs_io_name: "$guelphs_io$"
  diplomatic_status_guelphs_io_tooltip: "#T $guelphs_io$#!\nСтрана принадлежит к лагерю гвельфов."
  guelphs_io_list_who_tt: "Державы $WHO$ и $LIST$ принадлежит к лагерю гвельфов"

@@ -201,3 +201,5 @@
   robber_barons_spread_tt: "Барони-розбійники розширюють свій вплив"
   robber_barons_stay_put_tt: "Барони-розбійники бездіють"
   TURMOIL_IN_BRANDENBURG_DISASTERS_MODIFIERS_TT_LIST: "Поки триває [Concept('disaster', 'лихо')|e], країна отримує ці модифікатори:"
+  twilight_of_the_tsardom: "Занепад царства"
+  twilight_of_the_tsardom_desc: "З часів кончини Івана Асеня II [GetCountry('BUL').GetName] потерпає від слабкости корони, міжусобиць знаті та чужоземних набігів. [GetCountry('BUL').GetFlavorRank] вступає в небезпечний період занепаду, пов’язаний із внутрішніми чварами та зовнішніми загрозами, з якого можна вийти або повністю оновленою країною, або ж дійти до цілковитого занепаду."

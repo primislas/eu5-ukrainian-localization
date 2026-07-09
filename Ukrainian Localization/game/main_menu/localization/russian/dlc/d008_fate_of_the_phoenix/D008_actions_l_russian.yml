@@ -6,6 +6,7 @@
  loan_icon_bad_economy_tt: "Похоже, они находятся в бедственном экономическом положении, поэтому #R могут не согласиться на наше предложение#!, если их [Concept('opinion', 'мнение')|e] о нас будет недостаточно высоким"
  loan_icon_choose_icon: "Выберите #TOOLTIP:WORK_OF_ART_TYPE,icon,X #L икону#!#! для передачи в аренду"
  not_already_receiving_icon_tt: "У них не должно быть ранее одолженной #TOOLTIP:WORK_OF_ART_TYPE,icon,X #L иконы#!#!"
+ icon_not_already_loaned_tt: "Мы не должны в настоящий момент брать взаймы эту #TOOLTIP:WORK_OF_ART_TYPE,icon,X #L икону#!#! у другой [Concept('country', 'державы')|e]"
  mend_schism: "Преодоление раскола"
  mend_schism_desc: "Вот уже много веков #TOOLTIP:RELIGIONGROUP,christian,X #L христианство#!#! пребывает в расколе. Теперь же, когда все кафедры пентархии находятся под нашим контролем, мы должны воспользоваться своим влиянием, чтобы исцелить эти раны и примирить церкви."
  restore_rome_primacy: "Возвращение столицы в Рим"

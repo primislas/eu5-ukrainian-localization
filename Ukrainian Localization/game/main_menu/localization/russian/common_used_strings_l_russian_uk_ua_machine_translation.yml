@@ -75,3 +75,4 @@
   AREA_PREFERENCES_INFO_TITLE: "Пріоритетні області ШІ:"
   AREA_PREFERENCE_TYPE_EXPLORATION: "Прагне [Concept('explore', 'відправити експедицію')|e] та [Concept('colonize', 'колонізувати')|e] територію $SCOPE$."
   AREA_PREFERENCE_TYPE_CONQUEST: "Прагне [Concept('conquer', 'завоювати')|e] територію $SCOPE$."
+  AREA_PREFERENCE_HOME_REGION: "свій рідний регіон"

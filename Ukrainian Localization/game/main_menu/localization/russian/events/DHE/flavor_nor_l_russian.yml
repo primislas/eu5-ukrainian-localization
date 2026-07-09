@@ -1,7 +1,7 @@
 ﻿l_russian:
  flavor_nor.1.title: "[target_character.GetNameWithNoTooltip]"
  flavor_nor.1.entry: "Норвежский государственный деятель Сигур Йонссон"
- flavor_nor.1.desc: "#L [target_character.GetCulture.GetAdjective]ий#! дворянин и рыцарь [target_character.GetName] в прошлом был дроттсете — то есть мог управлять страной в отсутствие короля, — и регентом #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Он прямой потомок древней норвежской королевской династии и с 1440 по 1445 год служил начальником крепости Акерсхус. Наконец, [target_character.GetNameWithNoTooltip] — один из главных сторонников антиганзейской политики [ROOT.GetCountry.Custom('predlog_vvo')] [ROOT.GetCountry.Custom('CL_PREP')]."
+ flavor_nor.1.desc: "Норвежский дворянин и рыцарь Сигур Йонсон в прошлом был дроттсете — человеком, которой мог управлять страной в отсутствие короля, — и регентом Норвегии. Он является прямым потомком древней норвежской королевской династии и с 1440 по 1445 года выполнял роль начальника крепости Акерхус. Наконец, Йонсон — один из главных сторонников антиганзейской политики в Норвегии."
  flavor_nor.1.a: "Он пригодится нашей державе."
  flavor_nor.1.a.entry: "Он пригодится нашей державе."
  flavor_nor.1.b: "Мы не станем ссориться с Ганзой."

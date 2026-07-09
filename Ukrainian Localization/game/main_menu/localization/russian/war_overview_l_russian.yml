@@ -131,7 +131,7 @@
  JOIN_WAR_REASON_DESC_InternationalOrganization: "[COUNTRY.GetName] вход[COUNTRY.Custom('end_etyat')] в объединение «[INTERNATIONAL_ORGANIZATION.GetName]» вместе с #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_INST')|L]#!#!."
  JOIN_WAR_REASON_RivalClaimant: "Претендент на #L [TARGET_COUNTRY.GetAdjective]ий#! трон"
  JOIN_WAR_REASON_DESC_RivalClaimint: "[COUNTRY.GetName] претенду[COUNTRY.Custom('end_etyut')] на трон #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! и готова сражаться за него."
- JOIN_WAR_REASON_Scripted: "По сценарию"
+ JOIN_WAR_REASON_Scripted: "Events"
  JOIN_WAR_REASON_DESC_Scripted: "Согласно сценарию."
  LEAVE_WAR_REASON_WarEnded: "Война окончена"
  LEAVE_WAR_REASON_Annexed: "Присоединены к #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#!"

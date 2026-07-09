@@ -39,7 +39,7 @@
  hre.900.desc.default: "Выборщики решили всё же довериться нам, и императорская корона сохраняется за #ONCLICK:COUNTRY,[GetUniqueInternationalOrganization('hre').GetLeaderCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetUniqueInternationalOrganization('hre').GetLeaderCountry.Custom('CL_tt')],X [GetUniqueInternationalOrganization('hre').GetLeaderCountry.Custom('CL_INST')|L]#!#!. Имперская власть растёт по мере того, как наша держава увеличивает своё влияние в #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священной Римской Империи#!#!, а князья начинают видеть в нас прирождённых правителей."
  hre.900.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
  hre.imperial_authority_change.tt: "[GetUniqueInternationalOrganization('hre').GetName] получает [ROOT.GetVariable('imperial_authority_change').GetValue|+2] к #Y имперской власти#!"
- hre.imperial_authority_change_action.tt: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священная Римская Империя#!#! получает [ROOT.GetVariable('imperial_authority_change_action').GetValue|+2] к #Y имперской власти#!"
+ hre.imperial_authority_change_action.tt: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священная Римская Империя#!#! получает $VALUE|+2$ к #Y имперской власти#!"
  hre.901.title: "Восстановление княжества"
  hre.901.desc: "Подобно фениксу, #ONCLICK:COUNTRY,[SCOPE.sCountry('released_country').Custom('CL_tt')] #TOOLTIP:COUNTRY,[SCOPE.sCountry('released_country').Custom('CL_tt')],X [SCOPE.sCountry('released_country').Custom('CL_DAT')|L]#!#! удалось возродиться из пепла в составе #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священной Римской Империи#!#!!"
  hre.901.a: "[ROOT.GetCountry.Custom('common_string_positive')]"

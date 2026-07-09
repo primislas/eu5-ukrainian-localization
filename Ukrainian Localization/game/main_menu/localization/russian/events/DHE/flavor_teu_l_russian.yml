@@ -60,6 +60,7 @@
  flavor_teu.12.b: "Поделимся торговыми правами."
  flavor_teu.12.c: "Пусть этим ресурсом торгуют [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')|l]."
  flavor_teu.12.c.entry: "Пусть этим ресурсом торгуют простолюдины."
+ governmental_monopoly_renewed: "Восстановление монополии государства"
  flavor_teu.13.title: "[target_character.GetNameWithNoTooltip]"
  flavor_teu.13.entry: "Отшельница Доротея из Монтау"
  flavor_teu.13.desc: "В последнее время у жителей [ROOT.GetCountry.Custom('rank_ua_GEN')|l] стала популярна отшельница по имени [target_character.GetName], известная своим пророческим даром. [ROOT.GetCountry.Custom('endlong_predlog_vvo')|U] [ROOT.GetCountry.Custom('longname_ua_PREP')] повсюду обсуждают многочисленные видения этой женщины. Одни считают её откровения вымыслом, другие верят в их достоверность, а третьи вообще предпочли бы сжечь отшельницу на костре.\n\nОдин раз [target_character.GetNameWithNoTooltip] уже обвинялась в колдовстве и была оправдана, но это не мешает её врагам требовать нового суда."

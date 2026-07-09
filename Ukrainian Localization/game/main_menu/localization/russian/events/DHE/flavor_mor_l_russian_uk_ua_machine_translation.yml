@@ -119,6 +119,7 @@
   flavor_mor.25.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
   flavor_mor.25.a.entry: "$common_string_alright$"
   flavor_mor.25.b: "Нам це не по кишені."
+  variable_accepted_sidi_ahmed_ou_moussa_variable_tt: "Сіді Ахмад у Мусса тепло зустрінутий"
   flavor_mor.26.title: "[target_character.GetShortNameWithNoTooltip] та [Select_CString(target_character.IsFemale,'її', 'його')] видіння"
   flavor_mor.26.entry: "Пророчі видіння правителя"
   flavor_mor.26.desc: "Вже багато ночей [target_character.GetName] бореться з незрозумілими сновидіннями. Щоб вгамувати тривогу, [target_character.GetShortNameWithNoTooltip] [Select_CString(target_character.IsFemale,'звернулася', 'звернувся')] за тлумаченням до суфійського шейха. Сни були різними, але фінал їх залишався незмінним. Прогулюючись прекрасним містом серед задоволених життям людей, [target_character.GetName] [Select_CString(target_character.IsFemale,'наближалася', 'наближався')] до центральної вежі, оздобленої мармуром та золотом. До вежі входили два леви, за якими слідував захоплений натовп.\n\nВчений дав цим видінням два пояснення. Або це благословення Аллаха і знак того, що [target_character.GetShortNameWithNoTooltip] поводиться благочестиво, або два леви — це [target_child1.GetName] та [target_child2.GetName], яким судилося стати великими…"
