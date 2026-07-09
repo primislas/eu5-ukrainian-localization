@@ -1094,7 +1094,7 @@
   ACTION_exempt_from_tribute_PERFORMED_ON_US_MAP: ""
   CABINET_CHARACTER_SETUP: "Коли ми призначаємо [Concept('character', 'персонажа')|e] на посаду в [Concept('cabinet', 'раді')|e]"
   CABINET_CHARACTER_HEADER: "$MESSENGER$"
-  CABINET_CHARACTER_TITLE: "Рада розширена"
+  CABINET_CHARACTER_TITLE: "Раду розширено"
   CABINET_CHARACTER_DESC: "$CHARACTER$ отримує нову посаду в [Concept('cabinet', 'раді')|e]. $GOVERNMENT$ очікує, що це принесе велику користь нашій [Concept('country', 'країні')|e]."
   CABINET_CHARACTER_LOG: "Ми дали персонажу $CHARACTER$ посаду в [Concept('cabinet', 'раді')|e]."
   CABINET_CHARACTER_BTN1: "Гаразд"

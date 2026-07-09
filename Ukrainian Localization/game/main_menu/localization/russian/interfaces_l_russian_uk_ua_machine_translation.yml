@@ -3198,7 +3198,7 @@
   MARKET_LONG_NAME: "Ринок місцевості $LOCATION$"
   MARKET_LONG_NAME_WITH_ICON: "@market! Ринок місцевості $LOCATION$"
   MARKET_SURPLYS_LABEL: "Є надлишок на ринку [MARKET.GetCenterLocation.Custom('LR_GEN')|l] [MARKET.GetShortName]: $SURPLUS|+2$)"
-  MARKET_SURPLYS_INFO: "Доступ до $GOODS_GetNameWithNoTooltip_UA_DAT_lower$ на ринку #L #TOOLTIP:LOCATIONRANK,[MARKET.GetCenterLocation.Custom('LR_tt')],X [MARKET.GetCenterLocation.Custom('LR_GEN')|l]#!#! [MARKET.GetShortName]\n[Concept('supply', 'Пропозиція')|e]: $SUPPLY$\n[Concept('demand', 'Попит')|e]: $DEMAND$"
+  MARKET_SURPLYS_INFO: "Доступ до [GOODS.GetNameWithNoTooltip] на ринку #L #TOOLTIP:LOCATIONRANK,[MARKET.GetCenterLocation.Custom('LR_tt')],X [MARKET.GetCenterLocation.Custom('LR_GEN')|l]#!#! [MARKET.GetShortName]\n[Concept('supply', 'Пропозиція')|e]: $SUPPLY$\n[Concept('demand', 'Попит')|e]: $DEMAND$"
   MARKET_TT_POWER: "Має привабливість у розмірі [MARKET.GetCenterLocation.GetModifierValueWithCountry('local_trade_center_power', 'global_trade_center_power')]."
   MARKET_TT_NO_OVERSUPPLY: "@trigger_no! Тут немає надлишку [Concept('goods', 'товарів')|e]."
   MARKET_TT_NO_DEMAND: "@trigger_no! Тут немає нестачі [Concept('goods', 'товарів')|e]."
