@@ -212,6 +212,7 @@
  flavor_dlh.34.desc: "Никто не ухаживает за Ямунским каналом в области [ShowAreaName('doab_area')]. От такой нерадивости страдают [target_location.GetName], [target_location2.GetName] и [target_location3.GetName] — они срочно нуждаются в деньгах. [target_character.GetName] предлагает перенаправить часть средств на помощь местному населению."
  flavor_dlh.34.a: "Поможем им деньгами."
  flavor_dlh.34.b: "Не стоит бездумно тратить золото."
+ variable_dlh_grand_vizier_tt: "Великий визирь служит при дворе"
  flavor_dlh.35.title: "Борьба с голодом в [ROOT.GetCountry.Custom('CL_PREP')]"
  flavor_dlh.35.entry: "$flavor_dlh.35.title$"
  flavor_dlh.35.desc: "Сразу в нескольких провинциях #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! случился неурожай, и теперь местным жителям почти нечего есть. [target_character.GetName] предлагает (а [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] — раздумывает над предложением) как-нибудь облегчить их участь, например послать помощь туда, где она нужнее всего."

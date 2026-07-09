@@ -43,6 +43,7 @@
  black_death.1003.desc: "[target_portrait_character.GetName] какое-то время [Select_CString(target_portrait_character.IsFemale,'скрывала', 'скрывал')] свои симптомы, но всё тайное становится явным. Недавно мы узнали, что [Select_CString(target_portrait_character.IsFemale,'она стала', 'он стал')] жертвой болезни, которая свирепствует в наших землях.\n\nУже слишком поздно. Мы ничем не можем помочь. [Select_CString(target_portrait_character.IsFemale,'Её', 'Его')] ждёт тьма, которая скоро поглотит и нас."
  black_death.1003.a: "Покойся с миром..."
  black_death.1003.b: "Созвать всех врачей столицы!"
+ black_death.1003.c: "Мы ничего не можем поделать..."
  black_death.1004.t: "Моровое поветрие"
  black_death.1004.desc: "[target_location.Custom('LR_ACC')] [target_location.GetName] охватило бурное волнение. Жители окрестных деревень начали закапывать большие и маленькие ямы, из которых исходят миазмы чумы.\n\nОни уверены, что это решит проблему, но эксперты из города [ROOT.GetCountry.GetCapital.GetName] предупреждают, что подобные действия вредны для местной почвы."
  black_death.1004.a: "Закопайте все ямы!"

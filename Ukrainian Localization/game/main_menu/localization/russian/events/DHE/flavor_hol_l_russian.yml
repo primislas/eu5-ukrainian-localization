@@ -33,6 +33,7 @@
  flavor_hol.5.historical_info: "Песня #italic «Хет Вилхелмюс»#! (она же #italic «Вильгельм Ван Нассау»#!) была столь популярна в Нидерландах, что в 1932 году её официально признали государственным гимном страны. Её текст, посвящённый Вильгельму Оранскому, рассказывает историю его жизни и борьбы с королём Испании от первого лица. Слова и мелодия этой песни звучат удивительно мирно по меркам государственных гимнов."
  flavor_hol.5.a: "Профинансируем написание гимна."
  flavor_hol.5.b: "Нам это не по карману."
+ flavor_hol.6.ottoman_trade_tt: "#TOOLTIP:RELIGIONGROUP,muslim,X #L Исламские#!#! силы контролируют #TOOLTIP:LOCATION,constantinople,X #L Константинополь#!#!"
  flavor_hol.6.title: "Тюльпаномания"
  flavor_hol.6.entry: "$flavor_hol.6.title$"
  flavor_hol.6.desc: "С расширением [target_country.Custom('CL_GEN')] и укреплением торговых связей между #TOOLTIP:CONTINENT,europe,X #L Европой#!#! и #TOOLTIP:SUB_CONTINENT,middle_east,X #L Ближним Востоком#!#! [ROOT.GetCountry.GetAdjective]ие купцы стали привозить из #TOOLTIP:LOCATION,constantinople,X #L Константинополя#!#! тюльпаны. [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] полюбили эти цветы не только за красоту, но и за дороговизну. Пользуясь ажиотажем, многочисленные торговцы стали перепродавать луковицы растения, поднимая цены до заоблачных высот. Однако в конце концов рынок расставил всё по местам: цены на тюльпаны рухнули, а многие [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] оказались разорены."
@@ -211,4 +212,5 @@
  flavor_hol.34.desc: "Открыв торговлю на #TOOLTIP:AREA,baltic_area,X #L Балтике#!#!, мы наконец можем обеспечить бесперебойные поставки продовольствия в Нидерланды."
  flavor_hol.34.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
  flavor_hol.34.a.entry: "$common_string_brilliant$"
+ variable_ned_grain_trade_start_flag_tt: "Торговля зерном в Балтике отвоёвана"
  NED_ALL_DUTCH_POPS_BECOME_HAPPIER: "Каждая [Concept('pop', 'группа населения')|e], принадлежащая к #TOOLTIP:CULTUREGROUP,netherlandish_group,X #L нидерландской#!#! [Concept('culture_group', 'культурной группе')|e], получает [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] к [Concept('pop_satisfaction', 'довольству')|e]."

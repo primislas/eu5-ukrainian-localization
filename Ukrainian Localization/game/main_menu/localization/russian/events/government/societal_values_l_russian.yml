@@ -41,6 +41,7 @@
  societal_values.111.title: "Военный трактат"
  societal_values.111.desc: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] получили средства для службы в армии и уделяют больше внимания военному делу благодаря нашей особой заботе об укреплении аристократии. Один из них опубликовал трактат о военной мысли."
  societal_values.111.a: "Увлекательное чтиво!"
+ societal_values.111.b: "Пусть наши командиры применят знания на практике."
  societal_values.112.title: "Дополнительный набор"
  societal_values.112.desc: "После того как [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] узнали, что влияние нашей державы уменьшилось, они предложили своих крепостных для службы в армии."
  societal_values.112.a: "Хорошо!"

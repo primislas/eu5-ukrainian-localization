@@ -21,6 +21,7 @@
  flavor_ben.4.desc: "Из-за политики, которую ведёт [target_character.GetName], [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] объединились и взялись за оружие. Знать желает избавиться от [Select_CString(target_character.IsFemale, 'правительницы', 'государя')], чтобы вернуть себе власть над [ROOT.GetCountry.Custom('rank_ua_INST')|l]. Сумеет ли [target_character.GetNameWithNoTooltip] заручиться поддержкой сторонников, или [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] выйдут из этого кризиса победителями?"
  flavor_ben.4.a: "К оружию!"
  flavor_ben.4.b: "Возможно, они правы..."
+ variable_ben_upset_nobility_flag_tt: "#TOOLTIP:ESTATE_TYPE,nobles_estate,X #L Аристократы#!#! разозлились"
  ben_all_nobles_join_revolt: "Все [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] примкнут к фракции «[target_rebel.GetName]»"
  uzama_revolt: "Мятеж узама"
  flavor_ben.5.title: "Беспорядки на территории [ROOT.GetCountry.Custom('CL_PREP')]"

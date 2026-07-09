@@ -59,5 +59,7 @@
  CITY_MARKER_TOOLTIP_CAPITAL: "[Concept('capital', 'Столица')|e] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
  BLOCKED_VISION_TOOLTIP: "Вражеские [Concept('units', 'отряды')|e] могут [Concept('hidden', 'скрываться')|e] в [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName]. Причины:\n$WHY$"
  BLOCKED_VISION_TOOLTIP_TEXT: "Перекрытый обзор"
+ WINTER_BLOCKED_TOOLTIP: "В [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName] сейчас [Concept('winter', 'зима')|e]. Армии не могут входить в этот район или пересекать его до окончания зимы."
+ WINTER_BLOCKED_TOOLTIP_TEXT: "Препятствие: зима"
  DESERT_CONNECTOR_TOOLTIP: "Примыкание к пустыне"
  DESERT_CONNECTOR_TOOLTIP_TEXT: "[LOCATION.GetRank.GetNameWithNoTooltip] [LOCATION.GetName] связывает следующие [Concept('locations', 'районы')|e]:"

@@ -119,6 +119,7 @@
  flavor_mor.25.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
  flavor_mor.25.a.entry: "$common_string_alright$"
  flavor_mor.25.b: "Нам это не по карману."
+ variable_accepted_sidi_ahmed_ou_moussa_variable_tt: "Сиди Ахмад у Мусса тепло встречен"
  flavor_mor.26.title: "[target_character.GetShortNameWithNoTooltip] и [Select_CString(target_character.IsFemale,'её', 'его')] видения"
  flavor_mor.26.entry: "Пророческие видения правителя"
  flavor_mor.26.desc: "Уже много ночей [target_character.GetName] борется с необъяснимыми сновидениями. Чтобы унять тревогу, [target_character.GetShortNameWithNoTooltip] [Select_CString(target_character.IsFemale,'обратилась', 'обратился')] за толкованием к суфийскому шейху. Сны были разными, но финал их оставался неизменным. Прогуливаясь по прекрасному городу среди довольных жизнью людей, [target_character.GetName] [Select_CString(target_character.IsFemale,'приближалась', 'приближался')] к центральной башне, отделанной мрамором и золотом. В башню входили два льва, за которыми следовала восхищённая толпа.\n\nУчёный дал этим видениям два объяснения. Либо это благословение Аллаха и знак того, что [target_character.GetShortNameWithNoTooltip] ведёт себя благочестиво, либо два льва — это [target_child1.GetName] и [target_child2.GetName], которым суждено стать великими..."

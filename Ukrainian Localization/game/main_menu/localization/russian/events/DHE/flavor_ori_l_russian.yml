@@ -57,6 +57,7 @@
  flavor_ori.10.desc: "Придя к власти в [ROOT.GetCountry.Custom('CL_PREP')], [target_character.GetName] решает продолжить захватническую политику. Для этого [Select_CString(target_character.IsFemale,'ей', 'ему')] необходимо провести ряд военных реформ, которые обеспечат проникновение милитаризма во все сферы [ROOT.GetCountry.GetAdjectiveWithNoTooltip]ого общества и позволят создать постоянную армию для охраны границ и организации кампаний против более слабых соседей."
  flavor_ori.10.a: "Мы проведём эти реформы."
  flavor_ori.10.b: "Хватит с нас войн."
+ variable_kapilendra_ambitions_var_tt: "У Капилендры большие амбиции"
  ori_every_location_in_orissa_with_armory_gains_2_dev: "Все [Concept('location', 'районы')|e] с [Concept('building', 'сооружениями')|e] типа #TOOLTIP:BUILDING_TYPE,armory,X #L «арсенал»#!#!, расположенные в #TOOLTIP:AREA,orissa_area,X #L Ориссе#!#!, получат [ShowNamedValue('development_weak_bonus')|+=] к [Concept('development', 'развитию')|e]."
  flavor_ori.11.title: "Упадок морской торговли"
  flavor_ori.11.entry: "$flavor_ori.11.title$"

@@ -5,6 +5,7 @@
  casus_belli_forbids_location_conquest_tt: "Эта война не позволяет нам завоевать какой-либо [Concept('location', 'район')|e] напрямую"
  casus_belli_forbids_normal_subjugation_tt: "Эта война не позволяет нам [Concept('subjugate', 'подчинить')|e] врага напрямую"
  casus_belli_forbids_normal_subjugation_tributary_tt: "$casus_belli_forbids_normal_subjugation_tt$\nЧтобы получить #TOOLTIP:SUBJECT_TYPE,tributary,X #L данника#!#!, заключите [Concept('peace_treaty', 'мирный договор')|e] #TOOLTIP:SCRIPTED_PEACE_TREATY,force_tributary,X #L «Принуждение данника»#!#!"
+ has_enabled_hre_treasury_tt: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священная Римская Империя#!#! разблокировала имперскую казну, введя политику #TOOLTIP:POLICY,only_treasury_payment,X #L «Казначейское налогообложение»#!#! или #TOOLTIP:POLICY,complete_imperial_contribution,X #L «Имперское налогообложение»#!#!"
  INTERNATIONAL_ORGANIZATION_HAS_LOCKED_LAW: "[Concept('law', 'Правило')|e] «[TARGET_LAW.GetName]» зафиксировано и больше не может быть изменено"
  NOT_INTERNATIONAL_ORGANIZATION_HAS_LOCKED_LAW: "[Concept('law', 'Правило')|e] «[TARGET_LAW.GetName]» НЕ зафиксировано и может быть изменено"
  THIRD_INTERNATIONAL_ORGANIZATION_HAS_LOCKED_LAW: "[Concept('law', 'Правило')|e] «[TARGET_LAW.GetName]» объединения «[INTERNATIONAL_ORGANIZATION.GetName]» зафиксировано и больше не может быть изменено"
