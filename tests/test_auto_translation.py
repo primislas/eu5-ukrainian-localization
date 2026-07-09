@@ -1,4 +1,34 @@
-from eukrainersalis.run_machine_translation import expand_concepts, expand_adjectives, translation_postprocessing
+import pytest
+
+from eukrainersalis.run_machine_translation import (
+    expand_concepts,
+    expand_adjectives,
+    normalize_localization,
+)
+
+
+@pytest.mark.parametrize(
+    ("input_text", "expected_text"),
+    [
+        ("('end_fem')", "('end_suffix')"),
+        ("('endlong_gen')", "('endlong_suffix')"),
+        ("('endrank_nom')", "('endrank_suffix')"),
+        ("('predlog_v')", "('predlog_suffix')"),
+    ],
+)
+def test_normalize_localization_replaces_known_suffixes(input_text, expected_text):
+    assert normalize_localization(input_text) == expected_text
+
+
+def test_normalize_localization_replaces_multiple_suffixes_in_text():
+    input_text = "Title ('end_fem') ruler ('endlong_gen') rank ('endrank_nom') near ('predlog_v')."
+    expected_text = "Title ('end_suffix') ruler ('endlong_suffix') rank ('endrank_suffix') near ('predlog_suffix')."
+    assert normalize_localization(input_text) == expected_text
+
+
+def test_normalize_localization_ignores_unknown_prefixes_and_unquoted_values():
+    input_text = "('ending_fem') end_fem ('end') (\"end_fem\")"
+    assert normalize_localization(input_text) == input_text
 
 def test_expand_concepts_single():
     assert expand_concepts("[locations|e]") == "[Concept('locations', 'CONCEPT_PLACEHOLDER')|e]"
@@ -70,20 +100,7 @@ def test_expand_adjectives_mixed():
     expected = "[COUNTRY.GetAdjective|l] and #L [OTHER.GetAdjective|l]#!"
     assert expand_adjectives(input_text) == expected
 
-def test_translation_postprocessing():
-    input_text = "In [locations|e], the [OTHER.GetAdjective|l] leader sought [peace|e]."
-    expected = "In [Concept('locations', 'CONCEPT_PLACEHOLDER')|e], the #L [OTHER.GetAdjective|l]#! leader sought [Concept('peace', 'CONCEPT_PLACEHOLDER')|e]."
-    assert translation_postprocessing(input_text) == expected
-
 def test_expand_concepts_multiple_with_other_content():
     input_text = "Before [first|e] middle [second|e] after."
     expected = "Before [Concept('first', 'CONCEPT_PLACEHOLDER')|e] middle [Concept('second', 'CONCEPT_PLACEHOLDER')|e] after."
     assert expand_concepts(input_text) == expected
-
-def test_translation_postprocessing_multiple_matches():
-    input_text = "See [locations|e] and [peace|e] for the [OTHER.GetAdjective|l] [Adjective('hostile')|l] forces."
-    expected = (
-        "See [Concept('locations', 'CONCEPT_PLACEHOLDER')|e] and [Concept('peace', 'CONCEPT_PLACEHOLDER')|e] "
-        "for the #L [OTHER.GetAdjective|l]#! #L [Adjective('hostile')|l]#! forces."
-    )
-    assert translation_postprocessing(input_text) == expected

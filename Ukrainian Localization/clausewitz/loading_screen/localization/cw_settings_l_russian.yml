@@ -1,11 +1,9 @@
 ﻿l_russian:
- #General
  SETTING_VALUE_NONE: "$VALUE$"
  SETTING_VALUE_TOTAL_PERCENTAGE: "$VALUE|%/0$"
  SETTING_VALUE_PERCENTAGE: "$VALUE|%0$"
  SETTING_VALUE_SECONDS: "$VALUE$ сек."
  SETTING_VALUE_MINUTES: "$VALUE$ мин."
- #Graphics
  SETTING_RENDERER: "Рендеринг"
  SETTING_RENDERER_TOOLTIP: "Определяет используемый рендерер."
  SETTING_VSYNC: "Вертикальная синхронизация"
@@ -97,13 +95,11 @@
  SETTING_TEXTURE_STREAMING_TOOLTIP: "#T $SETTING_TEXTURE_STREAMING$#!\nТекстуры подгружаются по мере необходимости.\n\nСнижает нагрузку на графический процессор, но увеличивает потребление ресурсов ЦПУ. Может повысить производительность графических карт с небольшим запасом памяти."
  SETTING_TEXTURE_STREAMING_CACHE: "Размер кэша стриминга текстур"
  SETTING_VALUE_MB: "$VALUE$ МБ"
- #GUI
  SETTING_ANIMATION_SPEED: "Скорость анимации"
  SETTING_GUI_SCALING: "Масштабирование интерфейса"
  SETTING_GUI_SCALING_TOOLTIP: "#T $SETTING_GUI_SCALING$\n#!Задает масштаб пользовательского интерфейса. Удобно для больших разрешений экрана.\n\n#X Слишком высокое значение параметра приведет к тому, что элементы интерфейса не будут помещаться на экране.#!"
  SETTING_TOOLS_GUI_SCALING: "Масштабирование интерфейса инструментов"
  SETTING_TOOLS_GUI_SCALING_TOOLTIP: "#T $SETTING_TOOLS_GUI_SCALING$\n#!Задаёт масштаб пользовательского интерфейса инструментов. Удобно для больших разрешений экрана.\n\n#X Слишком высокое значение параметра приведёт к тому, что элементы интерфейса не будут помещаться на экране!#!"
- #System
  SETTING_SCREEN_EDGE_SCROLL_MODE: "Перемещение мышью"
  SETTING_SCREEN_EDGE_SCROLL_MODE_FREE: "Свободное"
  SETTING_SCREEN_EDGE_SCROLL_MODE_8_DIRECTIONS: "8 направлений"
@@ -133,7 +129,6 @@
  SETTING_MULTISAMPLING_DISABLED: "Отключено"
  SETTING_PORTRAIT_MULTISAMPLING_DISABLED: "Отключено"
  SETTING_ANISOTROPIC_FILTERING_DISABLED: "Отключено"
- #Editor
  SETTING_CAMERA_TILT: "Наклон камеры"
  SETTING_CAMERA_STRATEGY: "Тип камеры"
  SETTING_CENTERED_ZOOM_IN: "Приближение с центрированием"
@@ -141,7 +136,6 @@
  CAMERA_TABLETOP: "Настольный вид"
  CAMERA_FPS: "От первого лица"
  CAMERA_WASD: "Стиль WASD"
- #Audio
  SETTING_Music: "Музыка"
  SETTING_Ambient: "Звуковое сопровождение"
  SETTING_Effects: "Эффекты"
@@ -166,23 +160,19 @@
  SETTING_AUDIO_OPTION_NIGHTMODE_TOOLTIP: "#T $SETTING_AUDIO_OPTION_NIGHTMODE$\n#!Приглушает звук для игры ночью, принижая высокие частоты и снижая дальность динамиков."
  SETTING_MUSIC_DENSITY: "Интенсивность музыки"
  SETTING_MUSIC_DENSITY_TOOLTIP: "Определяет баланс между полноценными композициями, тишиной и музыкальным фоном. \n\nНасыщенная = В основном идёт последовательное воспроизведение музыкальных композиций, аналогично радиостанции. \nСбалансированная = Идеальный баланс между полноценными композициями, тишиной и созданием музыкальным фоном. \nЛёгкая = В основном фоновая музыка для передачи настроения игры без ощущения повтора после нескольких часов."
- #Game
  SETTING_AUTOSAVE: "Интервал автосохранений"
  SETTING_AUTOSAVE_TOOLTIP: "#T $SETTING_AUTOSAVE$\n#!Задает частоту автосохранения игры."
  SETTING_AUTOSAVE_TO_CLOUD_TOOLTIP: "Записывать автосохранения в облако (или нет)."
  SETTING_CAMERA_FACE_NORTH_TOOLTIP: "Всегда разворачивать игровую камеру на север или нет."
  NO_AUTOSAVE: "Без автосохранений"
- #Multiplayer
  SETTINGS_FILE_TRANSFER_SPEED: "Скорость передачи файлов"
  SETTINGS_FILE_TRANSFER_SPEED_TOOLTIP: "#T $File Transfer Speed$\n#!Задает максимальную скорость передачи файлов сохраненной игры в лобби сетевой игры.\n\nПонижение этого параметра может улучшить стабильность сети при подключении к сетевым играм, но это отрицательно скажется на времени загрузки файлов."
- #Tools
  SETTING_MAP_EDITOR_AUTOSAVE_INTERVAL_MINUTES: "Автосохранения в редакторе карт (мин.)"
  SETTING_MAP_EDITOR_AUTOSAVE_INTERVAL_MINUTES_TOOLTIP: "Частота автосохранений в редакторе карт (мин.)"
  SETTING_NODE_EDITOR_DRAG_PAN_MODE: "Перемещение узлов"
  SETTING_CONSOLE_AUTOCOMPLETE_MODE: "Console auto-complete mode"
  SETTING_CONSOLE_AUTOCOMPLETE_MODE_FULL_EXPAND: "Full expand, iterate with tab"
  SETTING_CONSOLE_AUTOCOMPLETE_MODE_PARTIAL_EXPAND: "Partial expand until different"
- #Accessibility
  SETTINGS_CATEGORY_ACCESSIBILITY: "Специальные возможности"
  SETTING_COLOR_BLIND_MODE: "Режим различимых цветов"
  SETTING_COLOR_BLIND_MODE_TOOLTIP: "#T $SETTING_COLOR_BLIND_MODE$\n#!Заменяет цвета в игре на более различимые для людей, страдающих цветовой слепотой."

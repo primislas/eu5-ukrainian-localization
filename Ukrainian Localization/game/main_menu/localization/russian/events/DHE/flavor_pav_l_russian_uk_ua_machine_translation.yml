@@ -1,5 +1,6 @@
 ﻿l_russian:
   flavor_pav.1.title: "Вигнання родини [expelled_ruler.GetDynasty.GetNameWithNoTooltip]"
+  flavor_pav.1.entry: "Вигнання правителя"
   flavor_pav.1.desc: "На вулицях міста [ROOT.GetCountry.GetCapital.GetName] розгорнулося чергове повстання проти родини [expelled_ruler.GetDynasty.GetName]. Цього разу його очолив харизматичний священник на ім'я [pav_iacopo_bussolari_scope.GetName], який зумів об'єднати жителів проти міської влади. Якщо нічого не вжити, [expelled_ruler.GetName] буде [Select_CString(expelled_ruler.IsFemale,'змушена', 'змушений')] тікати з міста прямо в лапи [ShowDynastyName('visconti_dynasty')]."
   flavor_pav.1.historical_info: "У 1356 році родина Беккаріа була вигнана з Павії внаслідок народного повстання. Бунт очолив монах Якопо Буссоларі, який надалі допоміг врятувати місто від облоги Вісконті. Вигнанці уклали союз з колишніми ворогами, і в 1359 році місто перейшло у володіння Мілана. Згодом Беккаріа повернули собі частину привілеїв, але місто залишилося під міланським контролем."
   flavor_pav.1.a: "Прислухаємося до його проповідей!"

@@ -1,6 +1,7 @@
 ﻿l_russian:
   HAS_PROP_FORTS_IN_LOC: "Рівень укріплень: $NUM|Y$. Поширює [Concept('zone_of_control', 'зону контролю')|e] на прилеглі [Concept('locations', 'місцевості')|e]."
   HAS_FORTS_IN_LOC: "Рівень простих укріплень: $NUM|Y$."
+  HAS_CITY_WALLS_IN_LOC: "Є [Concept('city_walls', 'міські мури')|e] (мінімальний рівень [Concept('fort', 'фортеці')|e]: I). Їхній рівень не підсумовується з рівнем справжньої [Concept('fort', 'фортеці')|e]."
   INFLUENCE_FORT_ENTRY: "Знаходиться в [Concept('zone_of_control', 'зоні контролю')|e] [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName]."
   FORT_FLIPPING: "#T Нова контролююча сторона#!\nМісцевість @location!$PROV|Y$ починає контролювати інша [Concept('controller', 'сторона')] — $FLIPPER|Y$, оскільки в місцевості $FLIPPINGLOCATION|Y$ знаходиться [Concept('fort', 'фортеця')|e].\nПрогрес: $PERCENT|Y2%$."
   CAPITAL_FLIPPING: "#T Нова контролююча сторона#!\nМісцевість @location!$PROV|Y$ починає контролювати інша [Concept('controller', 'сторона')] — $FLIPPER|Y$, оскільки їй належить [Concept('province_capital', 'столиця')|e] провінції @location! $FLIPPINGLOCATION|Y$.\nПрогрес: $PERCENT|Y2%$."
@@ -22,3 +23,6 @@
   defensive_military_stance: "Оборона"
   defensive_military_stance_desc: "[Concept('subject', 'Васал')|e] буде використовувати оборонні військові тактики, вступаючи в битви лише в тому випадку, якщо ворог загрожує дружнім володінням."
   defensive_military_stance_desc_all: "Всі наші [Concept('subjects', 'васали')|e] будуть використовувати оборонні військові тактики, вступаючи в битви лише в тому випадку, якщо ворог загрожує дружнім володінням."
+  siege_raider_military_stance: "Майстер облог"
+  siege_raider_military_stance_desc: "[Concept('subject', 'Васал')|e] облягатиме ворожі укріплення та допомагатиме нам у поточних облогах, а польових битв намагатиметься уникати."
+  siege_raider_military_stance_desc_all: "Усі наші [Concept('subjects', 'васали')|e] облягатимуть ворожі укріплення та допомагатимуть нам у поточних облогах, а польових битв намагатимуться уникати."

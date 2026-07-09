@@ -54,7 +54,7 @@
  cincu.german_language: "Гросшенк"
  cles.german_language: "Глёс"
  cluj.german_language: "Клаузенбург"
- cologne.german_language: "Кёльн" #Written with C after the 1500s until 1815 and then again from 1857 to 1919.
+ cologne.german_language: "Кёльн"
  covasna.german_language: "Ковасна"
  crasna.german_language: "Красмаркт"
  csanad.german_language: "Чанад"
@@ -388,6 +388,7 @@
  vilaka.german_language: "Мариенхаузен"
  viljandi.german_language: "Феллин"
  villandro.german_language: "Филландерс"
+ visby.german_language: "Висби"
  vonnu.german_language: "Вендау"
  walcz.german_language: "Арнскроне"
  warsaw.german_language: "Варшау"

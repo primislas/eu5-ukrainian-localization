@@ -16,8 +16,8 @@
  MULTIPLAYER_GUI_OOS_END_GAME: "Позволяет закончить игру и вернуться в главное меню."
  MULTIPLAYER_GUI_OOS_SP_TT: "Вы покинете сетевую игру и продолжите играть в одиночном режиме."
  MULTIPLAYER_GUI_OOS_SP: "Продолжить в одиночной игре"
- OOS_INDICATOR: "Отсутствует синхронизация. Идёт запись данных о причине…"
- DISCONNECTING_INDICATOR: "Отключение…"
+ OOS_INDICATOR: "Отсутствует синхронизация. Идёт запись данных о причине..."
+ DISCONNECTING_INDICATOR: "Отключение..."
  MULTIPLAYER_APPLY_HOTJOIN: "Применить выбранное"
  MULTIPLAYER_ACCEPT_HOTJOIN: "Принять игрока"
  MULTIPLAYER_REJECT_HOTJOIN: "Не принимать игрока"
@@ -38,5 +38,4 @@
  MULTIPLAYER_CHAT_SLAP_MESSAGE: "#R $SENDER$ избивает игрока $MESSAGE$ большой алебардой!#!"
  MULTIPLAYER_CHAT_DICE_MESSAGE: "#E $SENDER$ бросает кубик К$SIDES$, выпадает $ROLL$#!"
  MULTIPLAYER_CHAT_HELP_MESSAGE: "#G Доступные сообщения: #!"
- # Insults
  MULTIPLAYER_CHAT_INSULT_0: "#R $SENDER$ считает, что $RECEIVER$ выглядит глупо!#!"

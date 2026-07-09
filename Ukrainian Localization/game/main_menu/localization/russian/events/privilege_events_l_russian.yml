@@ -9,7 +9,7 @@
  enough_migrants_tt: "Достаточно мигрантов"
  not_enough_migrants_tt: "Больше нет мигрантов"
  privilege_events.101.title: "Миграция в провинцию [target_province.GetNameWithNoTooltip]"
- privilege_events.101.desc: "Привилегии [migration_destination_country.Custom('longname_ru_GEN')] сподвигли многих обитателей провинции [scope_german_location.GetProvinceDefinition.GetName] покинуть свои семьи в надежде обрести лучшую долю в провинции [target_province.GetName]. И хотя наши законы не запрещают переселяться подобным образом, всё-таки следует быть осторожными: если так будет продолжаться, некоторые провинции могут просто опустеть."
+ privilege_events.101.desc: "Привилегии [migration_destination_country.Custom('longname_ua_GEN')] сподвигли многих обитателей провинции [scope_german_location.GetProvinceDefinition.GetName] покинуть свои семьи в надежде обрести лучшую долю в провинции [target_province.GetName]. И хотя наши законы не запрещают переселяться подобным образом, всё-таки следует быть осторожными: если так будет продолжаться, некоторые провинции могут просто опустеть."
  privilege_events.101.a: "Неужели ничего нельзя поделать?"
  privilege_events.101.tt: "Это [Concept('event', 'событие')|e] началось из-за того, что провинция [german_province.GetName] отвечает следующим условиям:\n[ShowTriggerConditionsForScope('privilege_events_100_is_in_bad_shape', SCOPE.sProvince('german_province').GetProvince.MakeScope.Self)]"
  privilege_events.110.title: "Новая восходящая семья для Золотой книги"

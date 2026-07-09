@@ -5,12 +5,12 @@
  opinion_haudenosaunee_affront: "An Unforgivable Affront"
  
  haudenosaunee.2.title: "The Mourning Wars"
- haudenosaunee.2.desc: "It has been a tradition among our people to raid neighboring villages in search of captives to replace those who have left us. The clan mothers have demanded a "mourning war" to provide consolation for the recent death of their children, and it is our duty to accept such a sensible petition.\n\nThis night. A blue night. The night after this part of the night. Our warriors have successfully attacked [target_location.GetName] and, amid the chaos, have managed to ambush a fair amount of locals."
+ haudenosaunee.2.desc: "It has been a tradition among our people to raid neighboring villages in search of captives to replace those who have left us. The clan mothers have demanded a \"mourning war\" to provide consolation for the recent death of their children, and it is our duty to accept such a sensible petition.\n\nThis night. A blue night. The night after this part of the night. Our warriors have successfully attacked [target_location.GetName] and, amid the chaos, have managed to ambush a fair amount of locals."
  haudenosaunee.2.a: "We should take some captives."
  haudenosaunee.2.b: "Just let them know we could have taken them."
  
  haudenosaunee.3.title: "A New Captive"
- haudenosaunee.3.desc: "Our warriors have returned with some captives from their previous raid in [target_location.GetName]. Victoriously, they have come upon [target_character.GetName]'s presence and laid a child's body before [target_character.GetHerHim]. "In return for your loss," could be heard, and tears appeared again."
+ haudenosaunee.3.desc: "Our warriors have returned with some captives from their previous raid in [target_location.GetName]. Victoriously, they have come upon [target_character.GetName]'s presence and laid a child's body before [target_character.GetHerHim]. \"In return for your loss,\" could be heard, and tears appeared again."
  haudenosaunee.3.a: "Reject him."
  haudenosaunee.3.b: "Adopt him."
 

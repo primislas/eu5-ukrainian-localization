@@ -1,0 +1,644 @@
+﻿IO_GEN = {
+	type = international_organization
+	log_loc_errors = no
+	text = {
+		localization_key = international_organization_hre_GEN
+		trigger = {
+			exists = international_organization:hre
+			this = international_organization:hre
+		}
+	}
+	text = {
+		localization_key = international_organization_catholic_church_GEN
+		trigger = {
+			exists = international_organization:catholic_church
+			this = international_organization:catholic_church
+		}
+	}
+	text = {
+		localization_key = international_organization_autocephalous_patriarchate_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:autocephalous_patriarchate
+		}
+	}
+	text = {
+		localization_key = international_organization_coalition_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:coalition
+		}
+	}
+	text = {
+		localization_key = international_organization_colonial_federation_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:colonial_federation
+		}
+	}
+	text = {
+		localization_key = international_organization_crusade_GEN
+		trigger = {
+			exists = international_organization:crusade
+			this = international_organization:crusade
+		}
+	}
+	text = {
+		localization_key = international_organization_defensive_league_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:defensive_league
+		}
+	}
+	text = {
+		localization_key = international_organization_foreign_league_france_GEN
+		trigger = {
+			exists = international_organization:foreign_league_france
+			this = international_organization:foreign_league_france
+		}
+	}
+	text = {
+		localization_key = international_organization_foreign_league_hre_GEN
+		trigger = {
+			exists = international_organization:foreign_league_hre
+			this = international_organization:foreign_league_hre
+		}
+	}
+	text = {
+		localization_key = international_organization_foreign_league_iberia_GEN
+		trigger = {
+			exists = international_organization:foreign_league_iberia
+			this = international_organization:foreign_league_iberia
+		}
+	}
+	text = {
+		localization_key = international_organization_guelphs_io_GEN
+		trigger = {
+			exists = international_organization:guelphs_io
+			this = international_organization:guelphs_io
+		}
+	}
+	text = {
+		localization_key = international_organization_ghibellines_io_GEN
+		trigger = {
+			exists = international_organization:ghibellines_io
+			this = international_organization:ghibellines_io
+		}
+	}
+	text = {
+		localization_key = international_organization_high_kingship_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:high_kingship
+		}
+	}
+	text = {
+		localization_key = international_organization_hindu_branch_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:hindu_branch
+		}
+	}
+	text = {
+		localization_key = international_organization_ilkhanate_GEN
+		trigger = {
+			exists = international_organization:ilkhanate
+			this = international_organization:ilkhanate
+		}
+	}
+	text = {
+		localization_key = international_organization_independence_movement_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:independence_movement
+		}
+	}
+	text = {
+		localization_key = international_organization_italian_league_1_GEN
+		trigger = {
+			exists = international_organization:italian_league_1
+			this = international_organization:italian_league_1
+		}
+	}
+	text = {
+		localization_key = international_organization_italian_league_2_GEN
+		trigger = {
+			exists = international_organization:italian_league_2
+			this = international_organization:italian_league_2
+		}
+	}
+	text = {
+		localization_key = international_organization_italian_league_3_GEN
+		trigger = {
+			exists = international_organization:italian_league_3
+			this = international_organization:italian_league_3
+		}
+	}
+	text = {
+		localization_key = international_organization_japanese_shogunate_GEN
+		trigger = {
+			exists = international_organization:japanese_shogunate
+			this = international_organization:japanese_shogunate
+		}
+	}
+	text = {
+		localization_key = international_organization_jihad_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:jihad
+		}
+	}
+	text = {
+		localization_key = international_organization_jurchen_confederation_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:jurchen_confederation
+		}
+	}
+	text = {
+		localization_key = international_organization_lordship_of_ireland_GEN
+		trigger = {
+			exists = international_organization:lordship_of_ireland
+			this = international_organization:lordship_of_ireland
+		}
+	}
+	text = {
+		localization_key = international_organization_marriage_union_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:marriage_union
+		}
+	}
+	text = {
+		localization_key = international_organization_middle_kingdom_GEN
+		trigger = {
+			exists = international_organization:middle_kingdom
+			this = international_organization:middle_kingdom
+		}
+	}
+	text = {
+		localization_key = international_organization_red_turban_rebels_GEN
+		trigger = {
+			exists = international_organization:red_turban_rebels
+			this = international_organization:red_turban_rebels
+		}
+	}
+	text = {
+		localization_key = international_organization_protestant_union_GEN
+		trigger = {
+			exists = international_organization:protestant_union
+			this = international_organization:protestant_union
+		}
+	}
+	text = {
+		localization_key = international_organization_catholic_league_GEN
+		trigger = {
+			exists = international_organization:catholic_league
+			this = international_organization:catholic_league
+		}
+	}
+	text = {
+		localization_key = international_organization_sect_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:sect
+		}
+	}
+	text = {
+		localization_key = international_organization_shinto_GEN
+		trigger = {
+			exists = international_organization:shinto
+			this = international_organization:shinto
+		}
+	}
+	text = {
+		localization_key = international_organization_sikhism_GEN
+		trigger = {
+			exists = international_organization:sikhism
+			this = international_organization:sikhism
+		}
+	}
+	text = {
+		localization_key = international_organization_swiss_confederation_GEN
+		trigger = {
+			exists = international_organization:swiss_confederation
+			this = international_organization:swiss_confederation
+		}
+	}
+	text = {
+		localization_key = international_organization_tatar_yoke_GEN
+		trigger = {
+			exists = international_organization:tatar_yoke
+			this = international_organization:tatar_yoke
+		}
+	}
+	text = {
+		localization_key = international_organization_tribal_confederation_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:tribal_confederation
+		}
+	}
+	text = {
+		localization_key = international_organization_union_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:union
+		}
+	}
+	text = {
+		localization_key = international_organization_CATHOLIC_PATRIARCHATE_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:autocephalous_patriarchate
+			has_variable = catholic_patriarchate
+			has_variable = seat
+		}
+	}
+	text = {
+		localization_key = international_organization_ECUMENICAL_PATRIARCHATE_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:autocephalous_patriarchate
+			var:seat ?= {
+				is_location_holy_site_for = root.var:religion
+			}
+		}
+	}
+	text = {
+		localization_key = international_organization_AUTOCEPHALOUS_PATRIARCHATE_SEAT_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:autocephalous_patriarchate
+			has_variable = seat
+		}
+	}
+	text = {
+		localization_key = international_organization_SECT_CONFUCIANISM_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:sect
+			international_organization_has_policy = policy:confucianism_policy
+		}
+	}
+	text = {
+		localization_key = international_organization_SECT_DAOISM_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:sect
+			international_organization_has_policy = policy:daoism_policy
+		}
+	}
+	text = {
+		localization_key = international_organization_SECT_JOUDO_SHINSHUU_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:sect
+			international_organization_has_policy = policy:jodou_shinshuu_policy
+			international_organization_has_policy = policy:pure_land_school_policy
+		}
+	}
+	text = {
+		localization_key = international_organization_SECT_PURE_LAND_SCHOOL_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:sect
+			international_organization_has_policy = policy:pure_land_school_policy
+		}
+	}
+	text = {
+		localization_key = international_organization_SECT_TENDAI_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:sect
+			international_organization_has_policy = policy:tiantai_policy
+			international_organization_has_policy = policy:vajrayana_policy
+		}
+	}
+	text = {
+		localization_key = international_organization_SECT_NICHIREN_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:sect
+			international_organization_has_policy = policy:tiantai_policy
+			international_organization_has_policy = policy:nichiren_policy
+		}
+	}
+	text = {
+		localization_key = international_organization_SECT_TIANTAI_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:sect
+			international_organization_has_policy = policy:tiantai_policy
+		}
+	}
+	text = {
+		localization_key = international_organization_SECT_DHARMA_SCHOOL_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:sect
+			international_organization_has_policy = policy:dharma_school_policy
+		}
+	}
+	text = {
+		localization_key = international_organization_SECT_FLOWER_GARLAND_SCHOOL_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:sect
+			international_organization_has_policy = policy:flower_garland_school_policy
+		}
+	}
+	text = {
+		localization_key = international_organization_SECT_MEDITATION_SCHOOL_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:sect
+			international_organization_has_policy = policy:meditation_school_policy
+		}
+	}
+	text = {
+		localization_key = international_organization_SECT_MANTRA_SCHOOL_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:sect
+			international_organization_has_policy = policy:mantra_school_policy
+		}
+	}
+	text = {
+		localization_key = international_organization_SECT_SHUGENDO_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:sect
+			international_organization_has_policy = policy:shugendo_policy
+		}
+	}
+	text = {
+		localization_key = international_organization_SECT_AZHALIISM_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:sect
+			international_organization_has_policy = policy:azhaliism_policy
+		}
+	}
+	text = {
+		localization_key = international_organization_SECT_MUSOK_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:sect
+			international_organization_has_policy = policy:musok_policy
+		}
+	}
+	text = {
+		localization_key = international_organization_SECT_NYIGMA_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:sect
+			international_organization_has_policy = policy:nyigma_policy
+		}
+	}
+	text = {
+		localization_key = international_organization_SECT_KADAM_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:sect
+			international_organization_has_policy = policy:kadam_policy
+		}
+	}
+	text = {
+		localization_key = international_organization_SECT_KAGYU_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:sect
+			international_organization_has_policy = policy:kagyu_policy
+		}
+	}
+	text = {
+		localization_key = international_organization_SECT_SAKYA_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:sect
+			international_organization_has_policy = policy:sakya_policy
+		}
+	}
+	text = {
+		localization_key = international_organization_SECT_JONANG_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:sect
+			international_organization_has_policy = policy:jonang_policy
+		}
+	}
+	text = {
+		localization_key = international_organization_SECT_MULASARVASTIVADA_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:sect
+			international_organization_has_policy = policy:mulasarvastivada_policy
+		}
+	}
+	text = {
+		localization_key = international_organization_SECT_MAHAVIHARA_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:sect
+			international_organization_has_policy = policy:mahavihara_policy
+		}
+	}
+	text = {
+		localization_key = international_organization_SECT_BURMESE_BUDDHISM_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:sect
+			international_organization_has_policy = policy:burmese_buddhism_policy
+		}
+	}
+	text = {
+		localization_key = international_organization_SECT_LANKAVONG_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:sect
+			international_organization_has_policy = policy:lankavong_policy
+		}
+	}
+	text = {
+		localization_key = international_organization_SECT_KHMER_BUDDHISM_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:sect
+			international_organization_has_policy = policy:khmer_buddhism_policy
+		}
+	}
+	text = {
+		localization_key = international_organization_vaishnavism_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:hindu_branch
+			international_organization_has_policy = policy:vaishnavism
+		}
+	}
+	text = {
+		localization_key = international_organization_shaivism_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:hindu_branch
+			international_organization_has_policy = policy:shaivism
+		}
+	}
+	text = {
+		localization_key = international_organization_shaktism_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:hindu_branch
+			international_organization_has_policy = policy:shaktism
+		}
+	}
+	text = {
+		localization_key = international_organization_smartism_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:hindu_branch
+			international_organization_has_policy = policy:smartism
+		}
+	}
+	text = {
+		localization_key = international_organization_haudenosaunee_tribal_confederation_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:tribal_confederation
+			leader_country ?= { 
+				culture = { has_culture_group = culture_group:haudenosaunee_group }
+			}
+		}
+	}
+	text = {
+		localization_key = international_organization_colonial_federation_usa_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:colonial_federation
+			leader_country ?= {
+				culture = culture:english
+				capital ?= {
+					region = region:east_coast_region
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = international_organization_jianzhou_jurchen_confederation_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:jurchen_confederation
+			leader_country ?= { 
+				OR = {
+					tag = DNG
+					tag = HNE
+					tag = JEC
+					tag = SSH
+					tag = WGG
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = international_organization_hulun_jurchen_confederation_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:jurchen_confederation
+			leader_country ?= { 
+				OR = {
+					tag = HDA
+					tag = HOI
+					tag = ULA
+					tag = YEH
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = international_organization_changbaishan_jurchen_confederation_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:jurchen_confederation
+			leader_country ?= { 
+				OR = {
+					tag = JUS
+					tag = NEY
+					tag = YAL
+				}
+			}
+		}
+	}
+	text = {
+		localization_key = international_organization_PAPAL_HOLY_LEAGUE_NAME_GEN
+		trigger = {
+			exists = international_organization:crusade
+			this = international_organization:crusade
+			has_variable = holy_league_renaming
+		}
+	}
+	text = {
+		localization_key = international_organization_LITHUANIAN_POLISH_COMMONWEALTH_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:union
+			union_flavor_is_lpc = yes
+			country_has_special_status = {
+				type = special_status:senior_partner
+				country = c:LIT
+			}
+		}
+	}
+	text = {
+		localization_key = international_organization_POLISH_LITHUANIAN_COMMONWEALTH_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:union
+			union_flavor_is_plc = yes
+		}
+	}
+	text = {
+		localization_key = international_organization_KALMAR_UNION_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:union
+			union_flavor_is_kalmar_union = yes
+		}
+	}
+	text = {
+		localization_key = international_organization_UNION_OF_THE_CROWNS_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:union
+			union_flavor_is_great_britain = yes
+		}
+	}
+	text = {
+		localization_key = international_organization_IBERIAN_UNION_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:union
+			union_flavor_is_spain = yes
+		}
+	}
+	text = {
+		localization_key = international_organization_HABSBURG_UNION_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:union
+			union_flavor_is_habsburg = yes
+		}
+	}
+	text = {
+		localization_key = international_organization_PERSONALIZED_UNION_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:union
+			has_active_senior_partner = yes
+			num_countries_with_special_status = {
+				type = special_status:senior_partner
+				value > 0
+			}
+		}
+	}
+	text = {
+		localization_key = international_organization_DOUBLE_UNION_NAME_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:union
+			has_active_senior_partner = no
+			total_members >= 2
+		}
+	}
+	text = {
+		localization_key = international_organization_MARRIAGE_UNION_COUNTRIES_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:marriage_union
+			international_organization_leader_count = 2
+			"leader_at_index(0)" = { save_temporary_scope_as = temp_first_character }
+			"leader_at_index(1)" = {
+				owner != scope:temp_first_character.owner
+			}
+		}
+	}
+	text = {
+		localization_key = international_organization_MARRIAGE_UNION_DYNASTIES_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:marriage_union
+			international_organization_leader_count = 2
+			"leader_at_index(0)" = {
+				has_dynasty = yes
+				save_temporary_scope_as = temp_first_character
+			}
+			"leader_at_index(1)" = {
+				has_dynasty = yes
+				dynasty != scope:temp_first_character.dynasty
+			}
+		}
+	}
+	text = {
+		localization_key = international_organization_MARRIAGE_UNION_SAME_DYNASTY_GEN
+		trigger = {
+			international_organization_type ?= international_organization_type:marriage_union
+			international_organization_leader_count = 2
+			"leader_at_index(0)" = {
+				has_dynasty = yes
+				save_temporary_scope_as = temp_first_character
+			}
+			"leader_at_index(1)" = {
+				has_dynasty = yes
+				dynasty = scope:temp_first_character.dynasty
+			}
+		}
+	}
+	text = { localization_key = default_UA_IO_GEN fallback = yes }
+	if_invalid_loc = return_empty
+}
+IO_wntt_GEN = {
+	log_loc_errors = no
+	parent = IO_GEN
+	suffix = "_wntt"
+	if_invalid_loc = return_empty
+}

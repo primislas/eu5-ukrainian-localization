@@ -1,5 +1,6 @@
 ﻿l_russian:
  flavor_bah.1.title: "[ShowBuildingTypeNameWithNoTooltip('mahmud_gawan_madrasa')]"
+ flavor_bah.1.entry: "Медресе Махмуда Гавана"
  flavor_bah.1.desc: "Чтобы укрепить #TOOLTIP:RELIGION,$shia_tt$,X #L шиитское#!#! влияние в #TOOLTIP:REGION,deccan_region,X #L Декане#!#!, [target_character.GetName] собирается возвести новое медресе. Сооружение это, спроектированное под влиянием #TOOLTIP:SUB_CONTINENT,central_asia,X #L центральноазиатской#!#! архитектуры и названное [ShowBuildingTypeName('mahmud_gawan_madrasa')], станет одним из величайших #TOOLTIP:RELIGIONGROUP,muslim,X #L исламских#!#! училищ в #TOOLTIP:SUB_CONTINENT,india,X #L Индии#!#!, где постигать науки будет около 500 учеников из разных частей света. В библиотеке же будут храниться рукописи со всего мира, благодаря чему [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetName] обретёт невероятную славу."
  flavor_bah.1.historical_info: "Медресе Махмуда Гавана в Бидаре было построено в 1472 году. Проект, выполненный в индо-арабском стиле, заказал сам Махмуд Гаван, а спроектировал местный знатный архитектор из числа подданных Бахманийского султаната. Гаван, рассчитывавший укрепить влияние шиитской веры, собирался привлечь в стены этого медресе учёных со всего мира — здесь им бесплатно предоставлялись питание, проживание и образование. Со временем в библиотеке медресе накопилось около 3000 различных рукописей."
  flavor_bah.1.a: "Начнём строительство."
@@ -7,6 +8,7 @@
  flavor_bah_1000_shared: "Трон мира"
  flavor_bah_100_historical_info_shared: "Бирюзовый трон — трон бахманийских султанов, символ их власти над державой. Соорудили его, впрочем, совсем не подданные: султанату его преподнёс в дар Мусунури Капайя Наяка из Варангала. Изначально трон предназначался для делийского султана Мухаммада ибн Туглака, однако его династия утратила Варангал ещё до того, как подарок успели доделать."
  flavor_bah.1000.title: "$flavor_bah_1000_shared$"
+ flavor_bah.1000.entry: "$flavor_bah.1000.title$"
  flavor_bah.1000.desc: "У #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! есть настоящий предмет искусства — так называемый Бирюзовый трон. Никому из правителей, заседающих ныне в #TOOLTIP:LOCATION,warangal,X #L Варангале#!#!, он больше не пригодится. Мы можем потребовать этот артефакт себе и взамен пообещать заключить мир, а заодно провести чёткие границы между двумя державами. На это предложение наверняка согласятся и [target_character.GetName], и подданные из [target_country.Custom('CL_GEN')]."
  flavor_bah.1000.historical_info: "$flavor_bah_100_historical_info_shared$"
  flavor_bah.1000.a: "Славная мысль. Это и предложим."

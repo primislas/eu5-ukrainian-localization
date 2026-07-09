@@ -1,6 +1,7 @@
 ﻿l_russian:
  HAS_PROP_FORTS_IN_LOC: "Уровень укреплений: $NUM|Y$. Распространяет [Concept('zone_of_control', 'зону контроля')|e] на примыкающие [Concept('locations', 'районы')|e]."
  HAS_FORTS_IN_LOC: "Уровень простых укреплений: $NUM|Y$."
+ HAS_CITY_WALLS_IN_LOC: "Есть [Concept('city_walls', 'городские стены')|e] (минимальный уровень [Concept('fort', 'крепости')|e]: I). Их показатель не суммируется с показателем настоящей [Concept('fort', 'крепости')|e]."
  INFLUENCE_FORT_ENTRY: "Находится в [Concept('zone_of_control', 'зоне контроля')|e] [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName]."
  FORT_FLIPPING: "#T Новая контролирующая сторона#!\nРайон @location!$PROV|Y$ начинает контролировать другая [Concept('controller', 'сторона')] — $FLIPPER|Y$, поскольку в районе $FLIPPINGLOCATION|Y$ находится [Concept('fort', 'крепость')|e].\nПрогресс: $PERCENT|Y2%$."
  CAPITAL_FLIPPING: "#T Новая контролирующая сторона#!\nРайон @location!$PROV|Y$ начинает контролировать другая [Concept('controller', 'сторона')] — $FLIPPER|Y$, поскольку ей принадлежит [Concept('province_capital', 'столица')|e] провинции @location! $FLIPPINGLOCATION|Y$.\nПрогресс: $PERCENT|Y2%$."
@@ -22,3 +23,6 @@
  defensive_military_stance: "Оборона"
  defensive_military_stance_desc: "[Concept('subject', 'Ленник')|e] будет использовать оборонительные военные тактики, вступая в битвы только в том случае, если враг угрожает дружественным владениям."
  defensive_military_stance_desc_all: "Все наши [Concept('subjects', 'ленники')|e] будут использовать оборонительные военные тактики, вступая в битвы только в том случае, если враг угрожает дружественным владениям."
+ siege_raider_military_stance: "Мастер осад"
+ siege_raider_military_stance_desc: "[Concept('subject', 'Ленник')|e] будет осаждать вражеские укрепления и помогать нам в текущих осадах, а полевых сражений постарается избегать."
+ siege_raider_military_stance_desc_all: "Все наши [Concept('subjects', 'ленники')|e] будут осаждать вражеские укрепления и помогать нам в текущих осадах, а полевых сражений постараются избегать."

@@ -35,6 +35,7 @@
   earthquake_events.1001.b: "Забезпечимо постраждалим усі умови для переселення в місто [capital_location.GetNameWithNoTooltip]."
   earthquake_events.1001.historical_info: "$earthquake_events.1000.historical_info$"
   earthquake_events.1100.title: "Доля [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip]"
+  earthquake_events.1100.entry: "Доля Галліполі"
   earthquake_events.1100.desc: "Постраждалий від землетрусу [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetName] досі в руїнах, а після нашого вторгнення тут стало ще гірше. Зате тепер знелюднілу місцевість можна без труднощів заселити #TOOLTIP:CULTURE,$turkish_culture_tt$,X #L турками#!#!. Кочівники та міські жителі Анатолії вже переселяються на цей бік Дарданелл, і ми готові всіляко сприяти цьому процесу. Цей [target_location.GetRank.GetNameWithNoTooltip|l] стане нашим ключовим плацдармом на території Румелії!"
   earthquake_events.1100.a: "На все воля Всевишнього."
   earthquake_events.1100.historical_info: "Після того як османський воєначальник Сулейман-паша захопив Галліполі, знелюдніле місто було швидко заселене переселенцями з Анатолії і стало першим оплотом турків у Європі. Османська експансія викликала паніку в Константинополі і призвела до Савойського хрестового походу 1366–1367 років."

@@ -132,7 +132,7 @@
  court_flavor_events.36.b: "We have no room for more exiles."
  
  court_flavor_events.37.title: "Exiles in [from.GetLongNameWithNoTooltip]"
- court_flavor_events.37.desc: "Our eyes and ears in [from.GetLongName] report that they have taken in many of our [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s political enemies who had previously been exiled from the [ROOT.GetCountry.GetAdjective] court or chose to seek opportunities elsewhere. They are now pushing for strong action against the current [ROOT.GetCountry.GetAdjectiveWithNoTooltip] "regime" and are providing active assistance to the [from.GetAdjectiveWithNoTooltip] [from.GetGovernment.GetRulerTitle] towards the achievement of that aim."
+ court_flavor_events.37.desc: "Our eyes and ears in [from.GetLongName] report that they have taken in many of our [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s political enemies who had previously been exiled from the [ROOT.GetCountry.GetAdjective] court or chose to seek opportunities elsewhere. They are now pushing for strong action against the current [ROOT.GetCountry.GetAdjectiveWithNoTooltip] \"regime\" and are providing active assistance to the [from.GetAdjectiveWithNoTooltip] [from.GetGovernment.GetRulerTitle] towards the achievement of that aim."
  court_flavor_events.37.a: "How dare they!"
  opinion_hosting_exiles: "Hosting Exiles"
  

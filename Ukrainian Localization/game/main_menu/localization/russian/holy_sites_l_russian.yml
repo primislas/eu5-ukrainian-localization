@@ -1,5 +1,4 @@
 ﻿l_russian:
- # Types
  shrine: "Святилище"
  shrine_desc: "$shrine$, возведённое в сакральном месте, призвано внушать чувство глубокого почтения. Здесь проводятся различные религиозные обряды."
  mountain: "Гора"
@@ -16,7 +15,6 @@
  islam_holy_site_desc: "Эта [Concept('holy_site', 'святыня')|e] важна для всех приверженцев #TOOLTIP:RELIGIONGROUP,muslim,X #L исламских#!#! [Concept('religions', 'религий')|e]."
  orthodox_church_holy_site: "Православная святыня"
  orthodox_church_holy_site_desc: "Эта [Concept('holy_site', 'святыня')|e] важна для всех приверженцев #TOOLTIP:RELIGION,$orthodox_tt$,X #L православной#!#! веры."
- # Sites
  ise_grand_shrine: "Исэ-дзингу"
  izumo_taisha: "Идзумо-тайся"
  mount_kouya: "Гора Коя"
@@ -40,18 +38,28 @@
  rock_hewn_churches_at_lalibela: "Скальные церкви Лалибэлы"
  zawiya_of_moulay_idris_ii: "Завия Мулай-Идрис II"
  resting_place_of_sidi_ahmed_ou_moussa: "$name_sidi$ $name_ahmad$: место упокоения"
- alexandria_episcopal_see: "Александрийская патриархия"
  angamaly_episcopal_see: "Ангамалийская епархия"
- antioch_episcopal_see: "Антиохийская патриархия"
  baghdad_episcopal_see: "Багдадская епархия"
- constantinople_episcopal_see: "Константинопольская патриархия"
  fars_episcopal_see: "Фарсская епархия"
  jerusalem_episcopal_see: "Иерусалимская патриархия"
  jerusalem_episcopal_see_nestorian: "Несторианская $jerusalem_episcopal_see$"
- jerusalem_episcopal_see_orthodox: "Православная $jerusalem_episcopal_see$"
- rome_episcopal_see: "Римская патриархия"
  samarkand_episcopal_see: "Самаркандская епархия"
+ constantinople_episcopal_see: "Константинопольская патриархия"
+ jerusalem_episcopal_see_orthodox: "Православная $jerusalem_episcopal_see$"
+ alexandria_episcopal_see: "Александрийская патриархия"
+ antioch_episcopal_see: "Антиохийская патриархия"
+ rome_episcopal_see: "Римская патриархия"
  saint_katrine_monastery: "Монастырь Святой Екатерины"
+ svetitskhoveli_cathedral: "Светицховели"
+ gelati_monastery: "Гелатский монастырь"
+ kyiv_pechersk_lavra_monastery: "Киево-Печерская лавра"
+ rila_monastery: "Рильский монастырь"
+ studenica_monastery: "Монастырь Студеница"
+ trinity_lavra_st_sergius: "Троице-Сергиева лавра"
+ kykkos_monastery: "Киккский монастырь"
+ meteora_monasteries: "Монастыри Метеоры"
+ sumela_monastery: "Панагия Сумела"
+ vazelon_monastery: "Вазелонский монастырь"
  jerusalem_the_holy_city_catholic: "Священный город $jerusalem$"
  jerusalem_the_holy_city_catholic_desc: "Церковь Гроба Господня в Иерусалиме была построена в IV веке по приказу императора Константина. На её территории находится Голгофа и место погребения Христа. Этот храм считается величайшей святыней #TOOLTIP:RELIGIONGROUP,christian,X #L христианства#!#! и привлекает бесчисленное множество паломников со всех концов христианского мира. Его несколько раз разрушали, но неизменно перестраивали, и он остаётся под совместным попечением разных христианских деноминаций."
  jerusalem_the_holy_city_islam: "Священный город $jerusalem.arabic_language$"
@@ -61,7 +69,7 @@
  chartres_cathedral: "Шартрский собор"
  cologne_cathedral: "Кёльнский собор"
  canterbury_cathedral: "Кентерберийский собор"
- #Inti
+ armagh_cathedral: "Арманский собор"
  inti_waka: "Инти уака"
  quri_kancha: "Кури-Канча"
  waka_pukllana: "Пукльяна уака"
@@ -70,7 +78,6 @@
  quewar: "Кеуар"
  hampatu: "Хампату"
  titikaka: "Титикака"
- #Maya
  temple_kukulkan: "Пирамида Кукулькана"
  pyramid_magician: "Пирамида Волшебника"
  bolon_yej_te_naah: "Дом девяти острых копий"
@@ -102,25 +109,19 @@
  cholula_holy_city_desc: "Великая пирамида #TOOLTIP:LOCATION,cholollan,X #L Чолольяна#!#! возводилась поэтапно на протяжении нескольких столетий. Она была построена в качестве святилища бога #TOOLTIP:GOD,quetzalcoatl_god,X #L Кетцалькоатля#!#! и является крупнейшей пирамидой региона. Даже после падения города храм продолжал играть важную роль в духовной жизни местного населения."
  teotihuacan_holy_city: "Священный город Теотиуакан"
  tollan_holy_city: "Священный город Толлан"
- #-----Hinduism-------
- #General Hinduism
  varanasi_holy_city: "Священный город Варанаси"
  prayag_kumbh_mela: "Праяг Кумбх-мела"
  haridwar_kumbh_mela: "Харидвар Кумбх-мела"
  nashik_trimbakeshwar_simhastha: "Нашик-Тримбакешвар-симхастха"
  kanchipuram_holy_city: "Священный город Канчипурам"
- #General Vishnu
  ranganathaswamy_temple: "Храм Ранганатхасвами"
  ranganathaswamy_temple_desc: "Храм Ранганатхасвами в Шрирангаме — один из крупнейших и наиболее почитаемых индуистских храмовых комплексов в Индии. Это святилище в честь бога Вишну в облике Ранганатхи было построено не позднее периода ранних династий Чола. Впоследствии комплекс неоднократно расширялся правителями государства Пандьев и Виджаянагарской империи. К 1337 году храм стал крупным центром паломничества в Южной Индии, и его обширные внутренние дворы, роскошное убранство и величественные башни-гопурамы были известны на всю страну."
  badrinath_temple: "Храм Вишну в Бадринатхе"
- #Matsya
  matsya_narayana: "Храм Матсьи-Нараяны"
  shankhodara_temple: "Храм Матсьи на Шанкходаре"
- #Kurma
  kurmanathaswamy_temple: "Храм Курманатхасвами"
  kurma_varadaraja_swamy_temple: "Храм Курмы Варадараджи Свами"
  amamangalam_maha_vishnu_temple: "Храм Махи Вишну в Амамангаламе"
- #Varaha
  varahaswamy_temple: "Храм Варахасвами"
  bhu_varaha_swamy_temple: "Храм Бху Варахи Свами"
  nithyakalyana_perumal_temple: "Храм Нитхьякальяны Перумала"
@@ -128,7 +129,6 @@
  varaha_temple: "Храм Варахи"
  panniyur_sri_varahamurthy: "Храм Панниюра Шри Варахамуртхи"
  sreevaraham_lakshmi_varaha_temple: "Храм Шриварахама Лакшми Варахи"
- #Narashima
  ahobilam_holy_city: "Священный город Ахобилам"
  lakshmi_narasimha_temple: "Храм Лакшми Нарасимхи"
  vedadri_narasimha_temple: "Храм Ведадри Нарасимхи"
@@ -137,15 +137,12 @@
  narasimhaswamy_temple: "Храм Нарасимхасвами"
  narasingam_yoga_narasimha_perumal_temple: "Храм Нарасингама Йоги Нарасимхи Перумала"
  kattu_narasimhaperumal_temple: "Храм Катту Нарасимхаперумала"
- #Vamana
  thrikkakara_temple: "Храм Тхриккакары"
  ulagalantha_perumal_temple: "Храм Улагалантхи Перумала"
  vamana_temple: "Храм Ваманы"
- #Parashurama
  anantheshwara_temple: "Храм Анантхешвары"
  thiruvallam_sree_parasurama_temple: "Храм Шри Парасурамы в Тхирувалламе"
  parshuram_kund: "Паршурам-кунд"
- #Rama
  ram_janmabhoomi: "Рам-Джанмабхуми"
  kola_valvill_ramar_temple: "Храм Колы Валвилла Рамара"
  kothandaramaswamy_temple: "Храм Котхандарамасвами"
@@ -154,7 +151,6 @@
  ramchaura_mandir: "Рамчаура-мандир"
  vilwadrinatha_temple: "Храм Вилвадринатхи"
  ramapuram_sree_rama_temple: "Храм Шри Рамы в Рамапураме"
- #Krishna
  jagannath_temple: "Храм Джаганнатхи"
  dwarkadhish_temple: "Храм Дваркадхиша"
  krishna_janmasthan: "Кришна-Джанмастхан"
@@ -169,12 +165,10 @@
  pandava_thoothar_perumal_temple: "Храм Пандавы Тхутхара Перумала"
  vithoba_temple: "Храм Витхобы"
  thirukkavalampadi: "Тхируккавалампади"
- #Buddha
  bodh_gaya: "Бодх-Гая"
  bodh_gaya_desc: "Храм Махабодхи отмечает то место, где, по преданию, под деревом Бодхи достиг просветления Сиддхартха Гаутама. Изначально храм был возведён императором Ашокой в III веке до н. э., но с тех пор неоднократно перестраивался. Эта необыкновенная кирпичная постройка считается одним из первых образцов буддийской храмовой архитектуры в Индии."
  muktinath: "Муктинатх"
  swayambhu: "Сваямбху"
- #Shiva
  ramanathaswamy_temple: "Храм Раманатхасвами"
  mahakaleshwar_jyotirlinga: "Махакалешвар-джьотирлинга"
  deo_patan: "Храм Сомнатха в Патане"
@@ -185,49 +179,37 @@
  mahadev_temple: "Храм Махадева"
  koneswaram_temple: "Храм Конесварама"
  thommanon: "Тхомманон"
- #Shakti
  kamakhya_temple: "Храм Камакхьи"
  vimala_temple: "Храм Вималы"
  shankari_devi_temple: "Храм Шанкари Деви"
  jogulamba_temple: "Храм Джогуламбы"
  kukkuteswara_temple: "Храм Куккутесвары"
- #Durga
  biraja_temple: "Храм Бираджи"
  bajreshwari_mata_temple: "Храм Баджрешвари-маты"
  maa_dewri_temple: "Храм Маа Деври"
  mundeshwari_temple: "Храм Мундешвари"
- #Kali
  kalighat_kali_temple: "Храм Калигхат Кали"
  kalika_mata_temple: "Храм Калики-маты"
  pathirakali_amman_temple: "Храм Патхиракали-амман"
  chausath_yogini_temple: "Храм Чаусатх Йогини"
- #Parvati
  vishalakshi_temple: "Храм Вишалакши"
  meenakshi_temple: "Храм Минакши"
  arulmigu_koniamman_temple: "Храм Арулмигу Кони-амман"
- #Lakshmi
  mahalakshmi_temple: "Храм Махалакшми"
  lakshmi_temple: "Храм Лакшми"
  nachiyar_koil: "Начияр-ковил"
- #Saraswati
  sharada_peeth: "Шарада-питха"
  gnana_saraswati_temple: "Храм Гнаны Сарасвати"
  sringeri_sharadamba_temple: "Храм Шарадамбы в Шрингери"
- #Chhinnamasta
  changu_narayan_temple: "Храм Вишну в Чангу-Нараяне"
  chhinnamasta_temple: "Храм Чхиннамастики"
- #Chandika
  chamundeshwari_temple: "Храм Чамундешвари"
  kichakeshwari_temple: "Храм Кичакешвари"
- #Tripura Sundari
  kamakshi_amman_temple: "Храм Камакши-амман"
  polali_rajarajeshwari_temple: "Храм Раджараджешвари в Полали"
- #Bhuvaneshvari
  nainativu_nagapooshani_amman_temple: "Храм Нагапушани-амман на Найнативу"
- #Tara
  tara_tarini_temple: "Храм Тары и Тарини"
  tarapith: "Тарапитх"
- #Ganesha
  shri_mayureshwar_mandir: "Шри Маюрешвар-мандир"
  karpaka_vinayakar_temple: "Храм Карпаки Винаякара"
  chintaman_ganesh_temple: "Храм Чинтамана Ганеши"
@@ -235,7 +217,6 @@
  mahavinayak_temple: "Храм Махавинаяки"
  vinayaka_temple: "Храм Винаяки"
  suryavinayak_temple: "Храм Сурьявинаяки"
- #Surya
  arasavalli_sun_temple: "Храм бога солнца Сурьи в Арасавалли"
  deo_surya_mandir: "Храм бога солнца Сурьи в Део"
  konark_sun_temple: "Храм бога солнца Сурьи в Конараке"
@@ -243,7 +224,6 @@
  martand_sun_temple: "Храм бога солнца Мартанды"
  katarmal: "Катармал"
  navlakha_temple: "Храм бога солнца Сурьи в Навлакхе"
- #Mahayana
  mount_lu: "Гора Лу"
  mount_wutai: "Гора Утай"
  mount_emei: "Гора Эмэй"
@@ -251,15 +231,12 @@
  mount_putuo: "Гора Путо"
  mount_fanjing: "Гора Фаньцзин"
  borobudur_temple: "Боробудур"
- #Sanjiao
  temple_of_confucius: "Храм Конфуция"
  temple_of_confucius_desc: "Храм Конфуция в #TOOLTIP:LOCATION,qufu,X #L Цюйфу#!#! был построен в 478 году до н. э. в честь знаменитого философа Конфуция. Последующие династии неоднократно расширяли святилище, пока оно не превратилось в один из крупнейших храмовых комплексов на территории Китая."
- #Theravada
  anuradhapura_maha_viharaya: "Анурадхапура-махавихарая"
  angkor_wat: "Ангкор-Ват"
  pagan_holy_city: "Священный город Паган"
  shwedagon_pagoda: "Пагода Шведагон"
- #Jain
  palitana_temples: "Храмы Палитаны"
  shikharji: "Шихарджи"
  mount_girnar: "Гора Гирнар"
@@ -273,3 +250,31 @@
  kulpakji_temple: "Храм Кульпакджи"
  shankhapur_temple: "Храм Шанхапура"
  muktagiri_temples: "Храм Муктагири"
+ delphi: "Дельфы"
+ olympia: "Олимпия"
+ telesterion: "Телестерион"
+ dodona: "Додона"
+ isthmia: "Истмия"
+ nemea: "Немея"
+ artemision: "Артемисион"
+ delos: "Дилос"
+ olympieion: "Олимпейон"
+ parthenon: "Парфенон"
+ didima: "Дидима"
+ epidauros: "Эпидавр"
+ pella: "Пелла"
+ samothrace: "Самотраки"
+ acrocorinth: "Акрокоринф"
+ brauron: "Браврон"
+ olympos: "Олимп"
+ sounion: "Сунион"
+ capitolium_holy_site: "Капитолий"
+ temple_of_vesta_holy_site: "Храм Весты"
+ fortuna_primigenia_holy_site: "Храм Фортуны Примигении"
+ nemi_holy_site: "Неми"
+ tibur_holy_site: "Тибур"
+ baalbek_holy_site: "Храм Юпитера Гелиополитанского"
+ pergamon_altar_holy_site: "Алтарь Зевса"
+ oracle_of_ammon_holy_site: "Оракул Аммона"
+ serapeum_holy_site: "Александрийский серапеум"
+ daphne_holy_site: "Святилище Дафны"

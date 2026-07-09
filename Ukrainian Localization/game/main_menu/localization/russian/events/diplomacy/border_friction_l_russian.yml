@@ -1,7 +1,7 @@
 ﻿l_russian:
  border_friction.1.title: "Пограничный спор"
  border_friction.1.desc: "[border_claim_country.GetLongName] и мы заключили союз, этим у нас в стране довольны не все. Некоторые влиятельные [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] требуют разорвать заключённое соглашение. Камнем преткновения стала провинция [border_claim_province.GetName] — сейчас она принадлежит [border_claim_country.Custom('CL_DAT')], но многие считают её нашими исконными землями. Воспользовавшись ситуацией, противники союза сумели раскачать народное возмущение."
- border_friction.1.a: "Возможно, пора изменить приоритеты…"
+ border_friction.1.a: "Возможно, пора изменить приоритеты..."
  border_friction_from_event: "Недовольство претензиями"
  border_friction.1.b: "Надо представить всё в лучшем виде!"
  border_friction.1.c: "Откажемся от претензий."

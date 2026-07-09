@@ -6,41 +6,53 @@ ending_mappings = {
     "'endlong_fem'": "'endlong_vlaloly'",
     "'end_fem'": "'end_vlaloly'",
     "'endrank_fem'": "'endrank_vlaloly'",
+
     "'endlong_assya'": "'endlong_vlaloly'",
     "'end_assya'": "'end_vlaloly'",
     "'endrank_assya'": "'endrank_vlaloly'",
+
     "'endlong_etut'": "'endlong_eut'",
     "'end_etut'": "'end_eut'",
     "'endrank_etut'": "'endrank_eut'",
+
     "'endlong_etyut'": "'endlong_yeyut'",
     "'end_etyut'": "'end_yeyut'",
     "'endrank_etyut'": "'endrank_yeyut'",
+
     "'endlong_gegu'": "'endlong_eut'",
     "'end_gegu'": "'end_eut'",
     "'endrank_gegu'": "'endrank_eut'",
+
     "'endlong_enna'": "'endlong_clean'",
     "'end_enna'": "'end_clean'",
     "'endrank_enna'": "'endrank_clean'",
+
     "'endlong_itat'": "'endlong_ytyat'",
     "'end_itat'": "'end_ytyat'",
     "'endrank_itat'": "'endrank_ytyat'",
     "'endlong_ityat'": "'endlong_ytyat'",
     "'end_ityat'": "'end_ytyat'",
     "'endrank_ityat'": "'endrank_ytyat'",
+
     "'predlog_sso'": "'preposition_zzi'",
     "'endlong_predlog_sso'": "'preposition_zzi'",
     "'end_predlog_sso'": "'preposition_zzi'",
+    "'endrank_predlog_sso'": "'preposition_zzi'",
+
     "'predlog_vvo'": "'preposition_uv'",
     "'endlong_predlog_vvo'": "'preposition_uv'", # seems to be a bug in original localization
     "'end_predlog_vvo'": "'preposition_uv'", # seems to be a bug in original localization
     "'endrank_predlog_vvo'": "'preposition_uv'", # seems to be a bug in original localization
+
     "'predlog_kko'": "'REPLACE_WITH_STATIC_до'",
     "'endlong_predlog_kko'": "'REPLACE_WITH_STATIC_до'",
     "'end_predlog_kko'": "'REPLACE_WITH_STATIC_до'",
     "'endrank_predlog_kko'": "'REPLACE_WITH_STATIC_до'",
+
     "'predlog_obo'": "'REPLACE_WITH_STATIC_про'",
     "'endlong_predlog_obo'": "'REPLACE_WITH_STATIC_про'",
     "'end_predlog_obo'": "'REPLACE_WITH_STATIC_про'",
+    "'endrank_predlog_obo'": "'REPLACE_WITH_STATIC_про'", # seems to be a bug in original localization
     # TODO: end_a? looks like a bug in original localization, look for it in new releases
 }
 

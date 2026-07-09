@@ -1,7 +1,7 @@
 ﻿l_russian:
  curse_of_stefan_uros_iii.1.title: "Проклятие [GetCountry('SER').Custom('CL_GEN')]"
- curse_of_stefan_uros_iii.1.desc: "Настали страшные времена! На нашу державу пало проклятие, которое перед смертью произнёс [GetCharacter('ser_stefan_decanski').GetName]. Советники и придворные шепчутся, что золотой век нашей страны окончен и впереди ждут тяжкие испытания…"
- curse_of_stefan_uros_iii.1.a: "Нет, это не может закончиться вот так…"
+ curse_of_stefan_uros_iii.1.desc: "Настали страшные времена! На нашу державу пало проклятие, которое перед смертью произнёс [GetCharacter('ser_stefan_decanski').GetName]. Советники и придворные шепчутся, что золотой век нашей страны окончен и впереди ждут тяжкие испытания..."
+ curse_of_stefan_uros_iii.1.a: "Нет, это не может закончиться вот так..."
  curse_of_stefan_uros_iii.2.title: "Новая эра [GetCountry('SER').Custom('CL_GEN')]"
  curse_of_stefan_uros_iii.2.desc: "Тучи рассеялись, и над нашей великой страной вновь воссияло солнце надежды. Пережив великие бедствия, мы доказали свою стойкость и сумели выйти победителями из всех испытаний, обрушившихся на нашу державу!"
  curse_of_stefan_uros_iii.2.a: "Мы вступим в будущее как единый и сильный народ."
@@ -19,5 +19,5 @@
  curse_of_stefan_uros_iii.6.title: "Провинция провозглашает независимость!"
  curse_of_stefan_uros_iii.6.desc: "Подлые изменники из [target_location.Custom('LR_GEN')|l] [target_location.GetName] показали своё истинное лицо, открыто выступив против власти короны! В гнусной пародии на легитимную церемонию эти подонки провозгласили отделение от нашей державы и даже осмелились заявить о своих претензиях на #L [ROOT.GetCountry.GetAdjective|l]ий#! трон!"
  curse_of_stefan_uros_iii.6.a: "Их трупы станут удобрением для наших полей!"
- curse_of_stefan_uros_iii.6.b: "Ну и пускай…"
+ curse_of_stefan_uros_iii.6.b: "Ну и пускай..."
  people_of_target_province_will_declare_war_on_us_tt: "Жители провинции [target_province.GetNameWithNoTooltip] объявят нам [Concept('war', 'войну')|e]!"

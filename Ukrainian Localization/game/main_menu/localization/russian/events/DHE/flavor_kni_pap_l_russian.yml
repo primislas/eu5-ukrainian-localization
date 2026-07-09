@@ -1,8 +1,10 @@
 ﻿l_russian:
  flavor_kni_pap.1.title: "Крестовые походы на Смирну"
+ flavor_kni_pap.1.entry: "$flavor_kni_pap.1.title$"
  flavor_kni_pap.1.desc: "#L [ROOT.GetCountry.GetReligion.GetGroup.GetAdjective]ие#! моряки чрезвычайно обеспокоены тем, что [crusade_target.GetLongName] — настоящий рассадник #L [crusade_target.GetCulture.GetName|l]ого#! пиратства. Жалкие #L [crusade_target.GetReligion.GetAdjective|l]ие#! пираты не имеют ни малейшего права стращать добрых христиан, и мы не станем терпеть такое унижение! Мы можем организовать крестовый поход на эти земли и положить конец творящемуся там безобразию."
  flavor_kni_pap.1.historical_info: "Между 1343 и 1351 годами состоялось два крестовых похода на Смирну. В ходе первого из них христиане захватили местную цитадель и гавань, но не сумели сломить оборону акрополя. Чтобы отпраздновать успех, христиане организовали в городе службу, во время которой турки напали на молящихся и перебили военных лидеров. Впоследствии был организован Второй крестовый поход. Его целью стала помощь христианам, продолжавшим борьбу в городе."
  flavor_kni_pap.1.a: "Никто не имеет права угрожать [ROOT.GetCountry.GetReligion.GetGroup.GetAdjectiveWithNoTooltip|l]им судам!"
+ flavor_kni_pap.1.a.entry: "Никто не имеет права угрожать христианским судам!"
  flavor_kni_pap.1.b: "Какое несчастье!"
  flavor_kni_pap.2.title: "$flavor_kni_pap.1.title$"
  flavor_kni_pap.2.desc: "[papal_state.GetLongName] — отсюда к нам прибыл гонец с предложением принять участие в походе против #L [crusade_target.GetAdjective|l]их#! пиратов. Несколько десятилетий кряду эти #L [crusade_target.GetReligion.GetAdjective|l]ие#! мерзавцы бесчинствовали в #TOOLTIP:PROVINCE_DEFINITION,aegean_sea_province,X #L Эгейском море#!#!, а теперь принялись грабить #L [papal_state.GetReligion.GetGroup.GetAdjective|l]ие#! корабли. Пришло время преподать им хороший урок."
@@ -29,4 +31,5 @@
  flavor_kni_pap.6.desc_accept: "$flavor_kni_pap.6.desc_common$ Они благодарят нас за этот щедрый дар и заверяют, что будут доблестно защищать эти земли с именем Господа на устах."
  flavor_kni_pap.6.desc_deny: "$flavor_kni_pap.6.desc_common$ К несчастью, они больше не могут присоединять новые территории. Нам придётся назначить бейлифов, которые будут следить за недавно захваченными землями."
  flavor_kni_pap.6.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
+ flavor_kni_pap.6.a.entry: "$common_string_brilliant$"
  flavor_kni_pap.6.b: "Значит, эти земли наши."
