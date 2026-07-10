@@ -1,7 +1,9 @@
 ﻿l_russian:
   SETTING_ANIMATED_PORTRAITS: "Анімовані персонажі"
-  SETTING_ANIMATED_PORTRAITS_TOOLTIP: "#T $SETTING_ANIMATED_PORTRAITS$\n#!Визначає, чи будуть персонажі анімованими.\n\nВимкнення анімації може підвищити продуктивність."
+  SETTING_ANIMATED_PORTRAITS_TOOLTIP: "#T $SETTING_ANIMATED_PORTRAITS$\n#!Визначає, чи будуть персонажі анімованими.\n\nВимкнення анімації може підвищити швидкодію."
   SETTING_PORTRAITS_SSAO: "SSAO для персонажів"
-  SETTING_PORTRAITS_SSAO_TOOLTIP: "#T $SETTING_PORTRAITS_SSAO$\n#!Визначає, чи буде застосовуватися до портретів перешкоджання навколишньому світлу в екранному просторі.\n\nВимкнення параметра може підвищити продуктивність."
-  SETTING_GRUESOME_PORTRAITS_TRAITS_VISIBLE: "Gruesome Portraits"
-  SETTING_GRUESOME_PORTRAITS_TRAITS_VISIBLE_TOOLTIP: "#T $SETTING_GRUESOME_PORTRAITS_TRAITS_VISIBLE$\n#!Determines whether gruesome traits, like disfigurement, should be shown in portraits.\n\nTurn it off if you find them too unpleasant."
+  SETTING_PORTRAITS_SSAO_TOOLTIP: "#T $SETTING_PORTRAITS_SSAO$\n#!Визначає, чи буде застосовуватися до портретів перешкоджання навколишньому світлу в екранному просторі.\n\nВимкнення параметра може підвищити швидкодію."
+  SETTING_PORTRAITS_UNSHARP_MASKING: "Чіткість портретів"
+  SETTING_PORTRAITS_UNSHARP_MASKING_TOOLTIP: "#T $SETTING_PORTRAITS_UNSHARP_MASKING$\n#!Визначає, чи застосовувати контурну різкість до портретів, щоб зробити їх чіткішими.\n\nВимкнення цієї функції може підвищити швидкодію."
+  SETTING_GRUESOME_PORTRAITS_TRAITS_VISIBLE: "Моторошні портрети"
+  SETTING_GRUESOME_PORTRAITS_TRAITS_VISIBLE_TOOLTIP: "#T $SETTING_GRUESOME_PORTRAITS_TRAITS_VISIBLE$\n#!Визначає, чи відображати на портретах моторошні риси, як-от спотворення обличчя.\n\nВимкніть цей параметр, якщо вони видаються вам надто неприємними."

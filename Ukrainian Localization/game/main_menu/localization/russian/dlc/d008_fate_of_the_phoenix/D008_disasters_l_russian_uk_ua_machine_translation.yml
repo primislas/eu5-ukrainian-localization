@@ -70,6 +70,7 @@
   num_of_reforms_desc: "Кількість реформ"
   unlock_allelengyon_bureaucracy_kephalai_bureaucracy_tt: "Відкриває [Concept('bureaucracies', 'установи')|e] «$allelengyon_bureaucracy$» та «$kephalai_bureaucracy$»"
   unlock_kritai_katholikoi_reformed_extra_effect: "Модифікатор #TOOLTIP:MODIFIER_TYPE,country_cabinet_efficiency,X #P #V «Ефективність у нашій раді»#!#!#! [Concept('government_reform', 'державного принципу')|e] #TOOLTIP:GOVERNMENT_REFORM,kritai_katholikoi_reformed,X #L «Оновлені криті кафоліки»#!#! стане постійним"
+  italian_wars_empowerment_if_latin_tt: "Якщо ми вирішимо очолити #TOOLTIP:INTERNATIONAL_ORGANIZATION,$foreign_league_balkan_tt$,X #L Балканську лігу#!#! під час майбутньої [Concept('situation', 'ситуації')|e] #TOOLTIP:SITUATION,italian_wars,X #L «Італійські війни»#!#!, #TOOLTIP:CULTUREGROUP,italian_group,X #L італійські#!#! [Concept('countries', 'країни')|e] будуть більш схильні приєднатися до нашої Ліги залежно від ступеня нашого #TOOLTIP:SOCIETAL_VALUE,latinization_vs_hellenization,X #L латинства#!#!."
   fate_of_the_phoenix.15.title: "Доба занепаду"
   fate_of_the_phoenix.15.desc: "Попри всі старання, ми не зуміли повернути втрачені землі. Посилення сусідніх бейликів та ворогів біля наших #TOOLTIP:REGION,balkan_region,X #L балканських#!#! кордонів не дозволяє повернути процес назад. Занепад триває, і майбутнє [ROOT.GetCountry.Custom('rank_ua_GEN')|l] оповите туманом."
   fate_of_the_phoenix.15.a: "Наше майбутнє неясне й примарне."

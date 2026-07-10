@@ -43,6 +43,7 @@
   black_death.1003.desc: "[target_portrait_character.GetName] якийсь час [Select_CString(target_portrait_character.IsFemale,'приховувала', 'приховував')] свої симптоми, але все таємне стає явним. Нещодавно ми дізналися, що [Select_CString(target_portrait_character.IsFemale,'вона стала', 'він став')] жертвою хвороби, яка лютує в наших землях.\n\nВже занадто пізно. Ми нічим не можемо допомогти. [Select_CString(target_portrait_character.IsFemale,'Її', 'Його')] чекає темрява, яка скоро поглине і нас."
   black_death.1003.a: "Спочивай з миром…"
   black_death.1003.b: "Скликати всіх лікарів столиці!"
+  black_death.1003.c: "Ми нічого не можемо вдіяти..."
   black_death.1004.t: "Моровиця"
   black_death.1004.desc: "[target_location.Custom('LR_ACC')] [target_location.GetName] охопило бурхливе хвилювання. Жителі навколишніх сіл почали закопувати великі та маленькі ями, з яких виходять міазми чуми.\n\nВони впевнені, що це вирішить проблему, але експерти з міста [ROOT.GetCountry.GetCapital.GetName] попереджають, що подібні дії шкідливі для місцевого ґрунту."
   black_death.1004.a: "Закопайте всі ями!"

@@ -1,7 +1,7 @@
 ﻿l_russian:
   flavor_nor.1.title: "[target_character.GetNameWithNoTooltip]"
   flavor_nor.1.entry: "Норвезький державний діяч Сіґур Йонссон"
-  flavor_nor.1.desc: "#L [target_character.GetCulture.GetAdjective]ий#! дворянин і лицар [target_character.GetName] у минулому був дроттсетом — тобто міг керувати країною за відсутності короля, — і регентом #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Він прямий нащадок стародавньої норвезької королівської династії і з 1440 по 1445 рік служив начальником фортеці Акерсхус. Нарешті, [target_character.GetNameWithNoTooltip] — один із головних прихильників антиганзейської політики [ROOT.GetCountry.Custom('preposition_uv')] [ROOT.GetCountry.Custom('CL_PREP')]."
+  flavor_nor.1.desc: "Норвезький дворянин і лицар Сіґур Йонсон у минулому був дроттсетом — людиною, яка могла керувати країною за відсутности короля, — і регентом Норвегії. Він є прямим нащадком давньої норвезької королівської династії і з 1440 до 1445 року виконував роль очільника фортеці Акерсгус. Зрештою, Йонсон — один із головних прихильників антиганзейської політики у Норвегії."
   flavor_nor.1.a: "Він стане в пригоді нашій країні."
   flavor_nor.1.a.entry: "Він стане в пригоді нашій країні."
   flavor_nor.1.b: "Ми не сваритимемося з Ганзою."

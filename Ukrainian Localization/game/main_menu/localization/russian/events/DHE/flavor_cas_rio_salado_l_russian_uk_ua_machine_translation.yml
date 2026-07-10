@@ -26,6 +26,7 @@
   flavor_cas_rio_salado.6.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   flavor_cas_rio_salado.6.a.entry: "$common_string_brilliant$"
   flavor_cas_rio_salado.6.b: "У нас немає зайвих коштів."
+  variable_won_battle_of_rio_salado_tt: "Виграно битву при Ріо-Саладо"
   flavor_cas_rio_salado.7.title: "Святкування перемоги"
   flavor_cas_rio_salado.7.entry: "$flavor_cas_rio_salado.7.title$"
   flavor_cas_rio_salado.7.desc: "Розгромивши #L [GetCountry('MOR').GetAdjective|l]і#! війська, ми захопили багату здобич. Щоб увічнити наш тріумф, можна побудувати в околицях #TOOLTIP:LOCATION,valladolid,X #L Вальядоліда#!#! прекрасний #TOOLTIP:BUILDING_TYPE,monastery,X #L монастир#!#! на честь святої Клари. Нехай він нагадує нащадкам про нашу славну перемогу!"
