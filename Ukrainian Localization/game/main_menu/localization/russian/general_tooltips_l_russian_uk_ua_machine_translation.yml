@@ -415,7 +415,7 @@
   PROVINCE_CAPITAL_TOOLTIP: "[province_capital_icon]"
   AREA_TOOLTIP: "[Concept('region', 'Регіон')|e]: [AREA.GetRegion.GetName]\nКількість [Concept('locations', 'місцевостей')|e]: [AREA.GetNumLocations]"
   AREA_POPULATION_INFO: "[Concept('population', 'Населення')|e]: [AREA.GetTotalPopulation]"
-  AREA_GREAT_POWER_INFO_DOMINATED: "[great_power_points|e]: $VAL$ · Пану[COUNTRY.Custom('end_etyut')] [COUNTRY.GetNameWithFlag]"
+  AREA_GREAT_POWER_INFO_DOMINATED: "[great_power_points|e]: $VAL$ · Пану[COUNTRY.Custom('end_yeyut')] [COUNTRY.GetNameWithFlag]"
   AREA_GREAT_POWER_INFO_CONTESTED: "[great_power_points|e]: $VAL$ · Спірна"
   SEA_AREA_TOOLTIP: "[AREA.GetNameWithNoTooltip]: область прибережних [Concept('seazones', 'акваторій')|e]"
   OPEN_SEA_AREA_TOOLTIP: "[AREA.GetNameWithNoTooltip]: область [Concept('seazones', 'акваторій')|e] відкритого моря"

@@ -213,7 +213,7 @@
   ver_florentine_demands: "Флорентійські вимоги"
   ver_florentine_demands_entry: "Флорентійські вимоги"
   ver_florentine_demands_entry_short: "$ver_florentine_demands_entry$"
-  ver_florentine_demands_desc: "Усе, чого бажа[GetCountry('FLO').Custom('endlong_etyut')] домогтися [GetCountry('FLO').GetLongName] у Війні Скалігерів."
+  ver_florentine_demands_desc: "Усе, чого бажа[GetCountry('FLO').Custom('endlong_yeyut')] домогтися [GetCountry('FLO').GetLongName] у Війні Скалігерів."
   ver_venetian_demands: "Венеційські вимоги"
   ver_venetian_demands_entry: "Венеційські вимоги"
   ver_venetian_demands_entry_short: "$ver_venetian_demands_entry$"

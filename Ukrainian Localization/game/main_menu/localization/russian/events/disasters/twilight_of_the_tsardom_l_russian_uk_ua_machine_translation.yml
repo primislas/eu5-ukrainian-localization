@@ -1,7 +1,7 @@
 ﻿l_russian:
   twilight_of_the_tsardom.1.title: "Падіння царства"
   twilight_of_the_tsardom.1.desc: "Колись над #TOOLTIP:REGION,balkan_region,X #L Балканами#!#! гордо майоріли наші знамена, однак ті славні часи давно минули. Наша влада хистка; наші кордони обложені ворогами, а рани, що залишилися після воєн та міжусобиць, ще не встигли загоїтися. Якщо ми не почнемо діяти рішуче, незабаром від [GetCountry('BUL').Custom('rank_ua_GEN')|l] залишаться лише спогади. Не можна допустити, щоб нас спіткала та сама доля, що й Першу #L [GetCountry('BUL').GetAdjective]у#! імперію."
-  twilight_of_the_tsardom.1.a: "[GetCountry('BUL').GetFlavorRank] висто[GetCountry('BUL').Custom('endrank_ityat')]!"
+  twilight_of_the_tsardom.1.a: "[GetCountry('BUL').GetFlavorRank] висто[GetCountry('BUL').Custom('endrank_yityat')]!"
   twilight_of_the_tsardom.1.a.tt: "Якщо до завершення [Concept('disaster', 'лиха')|e] «$twilight_of_the_tsardom$» ми не володітимемо #TOOLTIP:LOCATION,constantinople,X #L Константинополем#!#!, станеться таке:"
   twilight_of_the_tsardom.1.a.tt2: "Якщо до завершення [Concept('disaster', 'лиха')|e] «$twilight_of_the_tsardom$» ми володітимемо #TOOLTIP:LOCATION,constantinople,X #L Константинополем#!#!, станеться таке:"
   twilight_of_the_tsardom.1.a.tt3: "Якщо до завершення [Concept('disaster', 'лиха')|e] «$twilight_of_the_tsardom$» ми володітимемо #TOOLTIP:LOCATION,constantinople,X #L Константинополем#!#! та вважатимемося [Concept('great_power', 'великою державою')|e], станеться таке:"
@@ -50,6 +50,6 @@
   bul_push_for_diplomatic_reintegration: "Прагнення до дипломатичної реінтеграції"
   bul_push_for_diplomatic_reintegration_desc: "Щоб не допустити громадянської війни, ми здали частину своїх земель правителям, згодним керувати ними від нашого імені. На якийсь час такий підхід ще може себе виправдати, однак у наших же інтересах возз’єднати царство дипломатичним шляхом: країна, що розділилася сама в собі, не встоїть."
   twilight_of_the_tsardom.11.title: "Серед стерв’ятників"
-  twilight_of_the_tsardom.11.desc: "Ми загрузли в безодні міжусобиць, а сусіди тим часом стягуються до наших кордонів, немов стерв’ятники, що відчули свіжу кров. Вони знають, що ми слабкі, і жадібно вишукують найменшу можливість завдати удару й відірвати від нашого царства шматок плоті. Так, нещодавно нам стало відомо, що [target_country.GetName] заяви[target_country.Custom('end_fem')] права на провінцію [border_claim_province.GetName] з наміром відібрати її, щойно випаде слушна нагода."
+  twilight_of_the_tsardom.11.desc: "Ми загрузли в безодні міжусобиць, а сусіди тим часом стягуються до наших кордонів, немов стерв’ятники, що відчули свіжу кров. Вони знають, що ми слабкі, і жадібно вишукують найменшу можливість завдати удару й відірвати від нашого царства шматок плоті. Так, нещодавно нам стало відомо, що [target_country.GetName] заяви[target_country.Custom('end_vlaloly')] права на провінцію [border_claim_province.GetName] з наміром відібрати її, щойно випаде слушна нагода."
   twilight_of_the_tsardom.11.a: "Нехай спробують!"
   twilight_of_the_tsardom.11.b: "Підкупимо їх, щоб вони відмовились від домагань."

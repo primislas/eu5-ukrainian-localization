@@ -290,7 +290,7 @@
   flavor_pol.47.historical_info: "Кревська унія — документ, підписаний великим князем литовським Ягайлом. Князь брав на себе низку зобов'язань перед Польщею та Литвою: разом з придворними прийняти католицизм та відпустити на волю різних в'язнів польського походження. Крім того, Ягайло зобов'язався включити до складу польської країни литовські та руські землі."
   flavor_pol.47.a: "Ратифікувати унію та відсвяткувати шлюб!"
   flavor_pol.47.b: "Ми не можемо собі це дозволити."
-  POL_marriage_happening_tt: "Королівський шлюбний союз узгоджено [GetCountry('LIT').Custom('end_predlog_sso')] #ONCLICK:COUNTRY,[GetCountry('LIT').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('LIT').Custom('CL_tt')],X [GetCountry('LIT').Custom('CL_INST')|L]"
+  POL_marriage_happening_tt: "Королівський шлюбний союз узгоджено [GetCountry('LIT').Custom('preposition_zzi')] #ONCLICK:COUNTRY,[GetCountry('LIT').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('LIT').Custom('CL_tt')],X [GetCountry('LIT').Custom('CL_INST')|L]"
   POL_betrothal_initiated_tt: "Оголошено заручини з королівською особою з #ONCLICK:COUNTRY,[GetCountry('LIT').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('LIT').Custom('CL_tt')],X [GetCountry('LIT').Custom('CL_GEN')|L]"
   POL_pol_candidate_ready_tt: "#L [GetCountry('POL').GetAdjective]ий#! кандидат може укласти шлюб"
   POL_lit_candidate_ready_tt: "#L [GetCountry('LIT').GetAdjective]ий#! кандидат може укласти шлюб"

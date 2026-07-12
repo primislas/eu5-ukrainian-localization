@@ -368,7 +368,7 @@
   flavor_por.65.a: "Їхні ресурси підуть нам на благо."
   flavor_por.65.b: "Разом ми розбагатіємо!"
   flavor_por.66.title: "$flavor_por.65.title$"
-  flavor_por.66.desc: "Ми створили свій банк [GetCountry('POR').Custom('end_predlog_vvo')] #ONCLICK:COUNTRY,[GetCountry('POR').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('POR').Custom('CL_tt')],X [GetCountry('POR').Custom('CL_PREP')|L]#!#!. Через наші реєстри проходять доходи від торгівлі спеціями та позики європейських монархів. Ми доведемо свою незамінність не тільки купцям, а й [GetCountry('POR').Custom('rank_ua_DAT')|l]."
+  flavor_por.66.desc: "Ми створили свій банк [GetCountry('POR').Custom('preposition_uv')] #ONCLICK:COUNTRY,[GetCountry('POR').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('POR').Custom('CL_tt')],X [GetCountry('POR').Custom('CL_PREP')|L]#!#!. Через наші реєстри проходять доходи від торгівлі спеціями та позики європейських монархів. Ми доведемо свою незамінність не тільки купцям, а й [GetCountry('POR').Custom('rank_ua_DAT')|l]."
   flavor_por.66.a: "Наші статки зростають з кожною подорожжю."
   flavor_por.1000.title: "Захоплення «Санта-Катаріни»"
   flavor_por.1000.entry: "$flavor_por.1000.title$"

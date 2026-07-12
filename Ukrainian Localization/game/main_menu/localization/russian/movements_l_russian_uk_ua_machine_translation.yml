@@ -26,7 +26,7 @@
   movement_factor_paper_guild: "#TOOLTIP:BUILDING_TYPE,paper_guild,X #L Цех папірників#!#! у [Concept('location', 'місцевості')|e]"
   movement_factor_paper_workshop: "#TOOLTIP:BUILDING_TYPE,paper_workshop,X #L Паперова майстерня#!#! у [Concept('location', 'місцевості')|e]"
   movement_factor_university: "#TOOLTIP:BUILDING_TYPE,university,X #L Університет#!#! у [Concept('location', 'місцевості')|e]"
-  movement_factor_friendly_with_pope: "Добрі відносини [GetCountry('PAP').Custom('end_predlog_sso')] #ONCLICK:COUNTRY,[GetCountry('PAP').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('PAP').Custom('CL_tt')],X [GetCountry('PAP').Custom('CL_INST')|L]#!#!"
+  movement_factor_friendly_with_pope: "Добрі відносини [GetCountry('PAP').Custom('preposition_zzi')] #ONCLICK:COUNTRY,[GetCountry('PAP').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('PAP').Custom('CL_tt')],X [GetCountry('PAP').Custom('CL_INST')|L]#!#!"
   movement_factor_no_cardinals: "[Concept('cardinals', 'Кардинали')|e] не призначені"
   SPREAD_POPTYPE_ENTRY: "$POPTYPE$: цей [Concept('pop_type', 'суспільний клас')|e] зростає на $AMOUNT|%0$ швидше"
   SPREAD_RELIGION_ENTRY: "[Concept('religion', 'Віра')|e] «$RELIGION$» поширюється на $AMOUNT|%0$ швидше"
