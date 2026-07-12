@@ -1,0 +1,6 @@
+﻿IO_wntt_INST = {
+	log_loc_errors = no
+	parent = IO_INST
+	suffix = "_wntt"
+	if_invalid_loc = return_empty
+}

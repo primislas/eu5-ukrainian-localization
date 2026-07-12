@@ -1,0 +1,6 @@
+﻿IO_wntt_DAT = {
+	log_loc_errors = no
+	parent = IO_DAT
+	suffix = "_wntt"
+	if_invalid_loc = return_empty
+}

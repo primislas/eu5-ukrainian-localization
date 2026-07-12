@@ -3238,31 +3238,31 @@ Get_ua_OrderOfChivalry = {
 	type = country
 	log_loc_errors = no
 	text = {
-		trigger = { has_policy = order_of_saint_george_policy }
+		trigger = { country_has_order = chivalric_order:order_of_saint_george }
 		localization_key = order_of_saint_george_policy
 	}
 	text = {
-		trigger = { has_policy = order_of_the_ermine_policy }
+		trigger = { country_has_order = chivalric_order:order_of_the_ermine }
 		localization_key = order_of_the_ermine_policy
 	}
 	text = {
-		trigger = { has_policy = order_of_the_dragon_policy }
+		trigger = { country_has_order = chivalric_order:order_of_the_dragon }
 		localization_key = order_of_the_dragon_policy
 	}
 	text = {
-		trigger = { has_policy = order_of_the_band_policy }
+		trigger = { country_has_order = chivalric_order:order_of_the_band }
 		localization_key = order_of_the_band_policy
 	}
 	text = {
-		trigger = { has_policy = order_of_the_swan_policy }
+		trigger = { country_has_order = chivalric_order:order_of_the_swan }
 		localization_key = order_of_the_swan_policy
 	}
 	text = {
-		trigger = { has_policy = order_of_the_black_eagle_policy }
+		trigger = { country_has_order = chivalric_order:order_of_the_black_eagle }
 		localization_key = order_of_the_black_eagle_policy
 	}
 	text = {
-		trigger = { has_policy = order_of_the_white_eagle_policy }
+		trigger = { country_has_order = chivalric_order:order_of_the_white_eagle }
 		localization_key = order_of_the_white_eagle_policy
 	}
 	text = {
@@ -4192,6 +4192,12 @@ endlong_eut = {
 	suffix = "_endlong_eut"
 	if_invalid_loc = return_empty
 }
+endlong_etsautsa = {
+	log_loc_errors = no
+	parent = country_flavor
+	suffix = "_endlong_etsautsa"
+	if_invalid_loc = return_empty
+}
 endlong_yeyut = {
 	log_loc_errors = no
 	parent = country_flavor
@@ -4244,6 +4250,12 @@ endrank_eut = {
 	log_loc_errors = no
 	parent = country_flavor
 	suffix = "_endrank_eut"
+	if_invalid_loc = return_empty
+}
+endrank_etsautsa = {
+	log_loc_errors = no
+	parent = country_flavor
+	suffix = "_endrank_etsautsa"
 	if_invalid_loc = return_empty
 }
 endrank_yeyut = {

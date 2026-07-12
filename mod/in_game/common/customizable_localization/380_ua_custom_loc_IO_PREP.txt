@@ -636,9 +636,3 @@
 	text = { localization_key = default_UA_IO_PREP fallback = yes }
 	if_invalid_loc = return_empty
 }
-IO_wntt_PREP = {
-	log_loc_errors = no
-	parent = IO_PREP
-	suffix = "_wntt"
-	if_invalid_loc = return_empty
-}
