@@ -61,7 +61,7 @@
   war_of_the_roses.16.desc: "Група заколотників «[york_rebel.GetName]» користується масовою підтримкою у населення #L #TOOLTIP:LOCATIONRANK,[disloyal_target.Custom('LR_tt')],X [disloyal_target.Custom('LR_GEN')]#!#! [disloyal_target.GetName].\n\nДоведеться збільшити чисельність королівського війська!"
   war_of_the_roses.16.a: "Жахливі вісті."
   war_of_the_roses.17.title: "Захисники [target_siege.Custom('LR_GEN')|l] [target_siege.GetNameWithNoTooltip]"
-  war_of_the_roses.17.desc: "[ROOT.GetCountry.GetFlavorRank] стогне під тяжким тягарем громадянської війни. Так, у [target_siege.Custom('LR_PREP')|l] [target_siege.GetNameWithNoTooltip] голод і смерть давно спустошили вулиці. Після обережних переговорів уцілілі вояки міського гарнізону погодилися покинути фортецю, здавши її нашому війську без опору."
+  war_of_the_roses.17.desc: "[ROOT.GetCountry.GetFlavorRank] стогне під тяжким тягарем громадянської війни. Так, у [target_siege.Custom('LR_PREP')|l] [target_siege.GetNameWithNoTooltip] голод і смерть давно спустошили вулиці. Після обережних перемовин уцілілі вояки міської залоги погодилися покинути фортецю, здавши її нашому війську без опору."
   war_of_the_roses.17.a: "Ще один крок уперед."
   war_of_the_roses.18.title: "[ShowDisasterNameWithNoTooltip('war_of_the_roses')]"
   war_of_the_roses.18.desc: "Претенденти на престол вичікують, накопичуючи сили в бунтівних провінціях #TOOLTIP:COUNTRY_RANK,[ROOT.GetCountry.Custom('rank_ua_tt')],X [ROOT.GetCountry.Custom('rank_ua_GEN')|l]#!#!. Вони відкрито повстали проти нашої влади, заявивши, що [target_character.GetName] та династія [target_dynasty.GetName] не мають права на трон."

@@ -385,6 +385,10 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** the text clearly mentions "artillery" in a name (such as institution name, academic work, building, etc.)
     ** the text clearly refers to lategame modernized militaries and talks of military in academic organized fashion
 
+    * garrison, гарнизон -> залога
+    * гарнизонный -> залоговий
+    * to garrison, вводить гарнизони -> ставити залогу, вводити залогу
+
 ## Religion and Culture
 
     * religion, религия -> віра

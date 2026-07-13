@@ -8,7 +8,7 @@
   flavor_ven.1.b.entry: "Це питання потрібно ретельно обговорити з членами зборів."
   flavor_ven.2.title: "Страдіоти"
   flavor_ven.2.entry: "$flavor_ven.2.title$"
-  flavor_ven.2.desc: "Після падіння #TOOLTIP:LOCATION,constantinople,X #L Константинополя#!#! багато #TOOLTIP:CULTURE,$greek_culture_tt$,X #L грецьких#!#! та #TOOLTIP:CULTURE,$albanian_tt$,X #L албанських#!#! вояків перейшли на службу до країни [ROOT.GetCountry.GetLongName] і під її началом билися з #L [GetCountry('TUR').GetAdjective|l]ими#! військами. Ці так звані страдіоти (від грецького слова, що означає «вояк») особливо добре проявили себе в ролі легкої кінноти. Історії відомий командир страдіотів Граїдзас Палеолог — воєвода #L [GetCountry('BYZ').GetAdjective|l]ого#! гарнізону, який утримував його до 1461 року."
+  flavor_ven.2.desc: "Після падіння #TOOLTIP:LOCATION,constantinople,X #L Константинополя#!#! багато #TOOLTIP:CULTURE,$greek_culture_tt$,X #L грецьких#!#! та #TOOLTIP:CULTURE,$albanian_tt$,X #L албанських#!#! вояків перейшли на службу до країни [ROOT.GetCountry.GetLongName] і під її началом билися з #L [GetCountry('TUR').GetAdjective|l]ими#! військами. Ці так звані страдіоти (від грецького слова, що означає «вояк») особливо добре проявили себе в ролі легкої кінноти. Історії відомий командир страдіотів Граїдзас Палеолог — воєвода #L [GetCountry('BYZ').GetAdjective|l]ої#! залоги, який утримував її до 1461 року."
   flavor_ven.2.a: "Наші вороги боятимуться їх!"
   flavor_ven.3.title: "Домініканська інквізиція"
   flavor_ven.3.entry: "$flavor_ven.3.title$"
