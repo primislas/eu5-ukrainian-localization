@@ -31,7 +31,7 @@
   convert_light_ship_to_galley_cta: "Клацніть, щоб перетворити #TOOLTIP:UNITCATEGORY,navy_light_ship,X #L легкий корабель#!#! на #TOOLTIP:UNITCATEGORY,navy_galley,X #L галеру#!#!.\nКожне таке перетворення коштує #R 5 од. [Concept('gold', 'грошей')|e].#!"
   convert_light_ship_to_galley_effect: "Легкі кораблі, що входять до флоту, будуть перероблені на галери за ціною 5[gold_i] за корабель"
   promote_to_farari: "Вироблення у фарарі"
-  promote_to_farari_desc: "Ці воїни мандекалу проявили хоробрість та рішучість на полі бою. Настав час визнати їхні заслуги та включити їх до елітних військ нашої країни!"
+  promote_to_farari_desc: "Ці воїни мандекалу проявили хоробрість та рішучість на полі бою. Настав час визнати їхні заслуги та включити їх до добірних військ нашої країни!"
   promote_to_farari_cta: "Клацніть, щоб перетворити #TOOLTIP:UNITTYPE,a_mandekalu_infantry,X #L піхотинців#!#! та #TOOLTIP:UNITTYPE,a_mandekalu_cavalry,X #L вершників мандекалу#!#! на #TOOLTIP:UNITTYPE,a_farari_infantry,X #L піхотинців#!#! та #TOOLTIP:UNITTYPE,a_farari_cavalry,X #L вершників фарарі#!#! відповідно."
   promote_to_farari_ct: "#TOOLTIP:UNITTYPE,a_mandekalu_infantry,X #L Піхотинці #!#! та #TOOLTIP:UNITTYPE,a_mandekalu_cavalry,X #L вершники мандекалу#!#! перетворилися на #TOOLTIP:UNITTYPE,a_farari_infantry,X #L піхотинців#!#! та #TOOLTIP:UNITTYPE,a_farari_cavalry,X #L вершників фарарі#!#!"
   promote_to_farari_tt: "У нас є #Y 150#! од. сумарного досвіду мандекалу"

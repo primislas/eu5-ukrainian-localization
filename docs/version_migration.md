@@ -22,6 +22,7 @@ until all files are exhausted.
 7. Run "estate_ending_generator.py" to generate estate endings
 8. Run "estate_case_generator.py" to detect missing estate grammatical cases and autogenerate estate cases from config file.
 9. Run "ending_patching.py" in a separate commit, to detect dangling cases of Russian endings and prepositions.
+10. Run "table_patching.py" in a separate commit to detect tables in English localization that haven't been correctly carried over.
 
 Various post-migration checks:
 * Check correct 'GetAdjective' endings with a regex search `GetAdjective[^\]]*][^а-яіїє\[\$]`

@@ -75,7 +75,7 @@
   flavor_usa.18.a: "Ми впораємося."
   shays_rebellion: "Повстання Шейса"
   flavor_usa.19.title: "Майбутнє війська"
-  flavor_usa.19.desc: "Тут, в #TOOLTIP:CONTINENT,america,X #L Америці#!#!, ми самі господарі своєї долі та самі визначаємо склад свого війська та порядок набору рекрутів. Нам належить вибрати між двома підходами: [ShowPolicyName('elite_training_policy')|l] або [ShowPolicyName('levee_en_masse_policy')|l]. На користь кожного є переконливі доводи, але доведеться зупинитися на чомусь одному."
+  flavor_usa.19.desc: "Тут, в #TOOLTIP:CONTINENT,america,X #L Америці#!#!, ми самі господарі своєї долі та самі визначаємо склад свого війська та порядок набору рекрутів. Нам належить обрати між двома підходами: [ShowPolicyName('elite_training_policy')|l] або [ShowPolicyName('levee_en_masse_policy')|l]. На користь кожного є переконливі доводи, але доведеться зупинитися на чомусь одному."
   flavor_usa.19.a: "Прийняти підхід «[ShowPolicyNameWithNoTooltip('elite_training_policy')]»."
   flavor_usa.19.b: "Прийняти підхід «[ShowPolicyNameWithNoTooltip('levee_en_masse_policy')]»."
   flavor_usa.20.title: "У народу є булочки"

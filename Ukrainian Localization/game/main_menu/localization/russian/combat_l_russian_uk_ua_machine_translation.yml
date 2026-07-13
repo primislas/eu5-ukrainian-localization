@@ -25,4 +25,4 @@
   PAST_THIRD_SELL_PRISONERS_INTO_SLAVERY_EFFECT: "Усі ворожі загони були продані в рабство."
   army_losses_in_war: "Втрати військ у [Concept('war', 'війні')|e]"
   enemy_army_losses_in_war: "Втрати ворожих військ у [Concept('war', 'війні')|e]"
-  losses_to_disease: "Втрати від [Concept('disease', 'епідемії')|e]"
+  losses_to_disease: "Втрати від [Concept('disease', 'пошести')|e]"

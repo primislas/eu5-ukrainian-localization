@@ -168,7 +168,7 @@
   flavor_bav.1102.b: "Обійдемося без розширень."
   flavor_bav.1200.title: "Театінеркірхе"
   flavor_bav.1200.entry: "$flavor_bav.1200.title$"
-  flavor_bav.1200.desc: "[consort_scope.GetName] вважає, що [ruler_scope.GetName] [Select_CString(target_ruler.IsFemale, 'повинна', 'повинен' )] допомогти ордену театинців побудувати в #TOOLTIP:LOCATION,munich,X #L Мюнхені#!#! величну церкву та виділити на це кошти зі скарбниці. Вона вже потурбувалася про пошуки архітектора: будувати споруду в стилі #TOOLTIP:CULTUREGROUP,italian_group,X #L італійського#!#! високого бароко буде виходець із Болоньї — [agostino_barelli_scope.GetName]. Наші аристократи та багаті [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] у захваті від такого задуму (він не став секретом ні для кого), оскільки кожен із цих людей вельми цінує італійську архітектуру."
+  flavor_bav.1200.desc: "[consort_scope.GetName] вважає, що [ruler_scope.GetName] [Select_CString(target_ruler.IsFemale, 'повинна', 'повинен' )] допомогти ордену театинців побудувати в #TOOLTIP:LOCATION,munich,X #L Мюнхені#!#! величну церкву та виділити на це кошти зі скарбниці. Вона вже потурбувалася про пошуки архітектора: будувати споруду в стилі #TOOLTIP:CULTUREGROUP,italian_group,X #L італійського#!#! високого бароко буде виходець із Болоньї — [agostino_barelli_scope.GetName]. Наші аристократи та багаті [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] у захваті від такого задуму (він не став таємницею ні для кого), оскільки кожен із цих людей вельми цінує італійську архітектуру."
   flavor_bav.1200.a: "Добре. Вчинимо так, як вона забажає."
   flavor_bav.1200.b: "У цьому немає потреби."
   flavor_bav.1201.title: "Гнівний архітектор"

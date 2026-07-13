@@ -44,7 +44,7 @@
   engaruka_people_interesting_tt: "Землероби #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#! — справжні першовідкривачі. [target_location.GetNameWithNoTooltip] буде процвітати."
   flavor_zan.7.title: "Багата провінція [ShowProvinceDefinitionNameWithNoTooltip('upper_save_province')]"
   flavor_zan.7.entry: "Багатство провінції Верхнє Саве"
-  flavor_zan.7.desc: "Нещодавно ми приєднали до себе [target_location.Custom('LR_ACC')|l] [target_location.GetName], чим викликали подив та побоювання у багатьох — від сусідів до західних країн. Очевидно, наше прагнення відмовитися від купівлі #TOOLTIP:GOODS,goods_gold,X #L золота#!#! і замість цього забезпечити його постачання без перешкод та посередників більше ні для кого не секрет.\n\nАле нам немає жодного діла до їхніх скарг. Згодом усі вони схиляться перед нами…"
+  flavor_zan.7.desc: "Нещодавно ми приєднали до себе [target_location.Custom('LR_ACC')|l] [target_location.GetName], чим викликали подив та побоювання у багатьох — від сусідів до західних країн. Очевидно, наше прагнення відмовитися від купівлі #TOOLTIP:GOODS,goods_gold,X #L золота#!#! і замість цього забезпечити його постачання без перешкод та посередників більше ні для кого не таємниця.\n\nАле нам немає жодного діла до їхніх скарг. Згодом усі вони схиляться перед нами…"
   flavor_zan.7.a: "Все йде за планом…"
   flavor_zan.8.title: "Мусульмани-ширазі та аристократи [target_country2.Custom('CL_GEN')]"
   flavor_zan.8.entry: "Мусульмани-ширазі та знать Кілви"

@@ -17,7 +17,7 @@
   judicial_election_regency: "Юдикатний конклав"
   judicial_election_regency_desc: "Нового [Concept('ruler', 'правителя')|e] обирає рада. Цей процес є бюрократичним хаосом і може зайняти кілька місяців або навіть років."
   mamluk_succesion_regency: "Успадкування мамлюків"
-  mamluk_succesion_regency_desc: "Новий [Concept('ruler', 'правитель')|e] і [Concept('regents', 'регенти')|e] мають бути вихідцями з дисциплінованих і престижних лав елітних мамлюків під нашим командуванням."
+  mamluk_succesion_regency_desc: "Новий [Concept('ruler', 'правитель')|e] і [Concept('regents', 'регенти')|e] мають бути вихідцями з вишколених і славетних лав добірних мамлюків під нашим командуванням."
   fratricide_succesion_regency: "Братовбивча міжусобиця"
   fratricide_succesion_regency_desc: "Нового [Concept('ruler', 'правителя')|e] обирає особисто Бог: він віддає перевагу одному з синів колишнього [Concept('ruler', 'правителя')|e]."
   fratricide_succesion_regency_tt1: "Жоден із синів колишнього правителя не може успадкувати престол. Замість них з'являється інший член династії."

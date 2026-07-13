@@ -14,7 +14,7 @@
   curse_of_stefan_uros_iii.4.a: "Нехай тільки посміють!"
   curse_of_stefan_uros_iii.5.title: "Селянське повстання"
   curse_of_stefan_uros_iii.5.desc: "З падінням авторитету центральної влади піднімає голову підлий стан. Бачачи нашу слабкість, селяни вимагають, щоб скарбниця надала їм фінансову підтримку в ці неспокійні часи. Їхні ватажки у [target_location.Custom('LR_PREP')|l] [target_location.GetName] погрожують народними заворушеннями, якщо ми не підемо на поступки!"
-  curse_of_stefan_uros_iii.5.a: "З черню ми переговорів не ведемо!"
+  curse_of_stefan_uros_iii.5.a: "З черню перемовин не буде!"
   curse_of_stefan_uros_iii.5.b: "Ми ж можемо досягти компромісу?"
   curse_of_stefan_uros_iii.6.title: "Провінція проголошує незалежність!"
   curse_of_stefan_uros_iii.6.desc: "Підлі зрадники з [target_location.Custom('LR_GEN')|l] [target_location.GetName] показали своє справжнє обличчя, відкрито виступивши проти влади корони! У мерзенній пародії на легітимну церемонію ці покидьки проголосили відділення від нашої країни і навіть насмілилися заявити про свої претензії на #L [ROOT.GetCountry.GetAdjective|l]ий#! трон!"

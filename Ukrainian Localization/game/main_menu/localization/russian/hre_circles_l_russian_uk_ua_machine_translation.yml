@@ -90,7 +90,7 @@
   distribute_imperial_grant_effect_text: "[SCOPE.sCountry('actor').GetName] розподіли[SCOPE.sCountry('actor').Custom('end_vlaloly')] імперський грант між учасниками свого округу."
   distribute_imperial_grant_effect_text_past: "[SCOPE.sCountry('actor').GetName] розподіли[SCOPE.sCountry('actor').Custom('end_vlaloly')] імперський грант між учасниками свого округу."
   demand_circle_loyalty: "Вимагати вірности від округу"
-  demand_circle_loyalty_desc: "Ми утвердимо владу над учасниками округу. На 3 роки мы отримаємо престиж та дипломатичний авторитет, однак учасникам не сподобається нав’язування влади, і їхнє вдоволення впаде."
+  demand_circle_loyalty_desc: "Ми утвердимо владу над учасниками округу. На 3 роки ми отримаємо престиж та дипломатичний авторитет, однак учасникам не сподобається нав’язування влади, і їхнє вдоволення впаде."
   demand_circle_loyalty_act: "Утвердити владу над учасниками округу."
   demand_circle_loyalty_tt: "На 3 роки ми отримаємо модифікатор «[ShowModifier('imposed_circle_authority')]». Кожен учасник нашого [Concept('imperial_circle', 'імперського округу')|e], який не є очільником, на 3 роки отримає модифікатор «[ShowModifier('pressured_circle_loyalty')]» та [ShowBiasValue('opinion_demanded_loyalty')|+=2] до [Concept('opinion', 'думки')|e] про нас. Вдоволення округу впаде на 5 од."
   demand_circle_loyalty_effect_text: "[SCOPE.sCountry('actor').GetName] вимага[SCOPE.sCountry('actor').Custom('end_yeyut')] вірности від учасників округу."
