@@ -132,7 +132,7 @@
   flavor_ned.21.b: "[ROOT.GetCountry.Custom('CL_DAT')] не потрібні французькі філософи. Нехай забирається геть!"
   flavor_ned.21.b.entry: "Нам не потрібні французькі філософи. Нехай забирається геть!"
   flavor_ned.22.title: "[target_character2.GetNameWithNoTooltip] та його історія"
-  flavor_ned.22.entry: "Історія Міхіла де Рёйтера"
+  flavor_ned.22.entry: "Історія Міхіла де Рьойтера"
   flavor_ned.22.desc: "[target_character2.GetName] — виходець із простої #TOOLTIP:LOCATION,middelburg,X #L мідделбурзької#!#! родини. З раннього дитинства він виявляв ознаки обдарованості. В 11 років він вступив на службу до боцмана, подорослішав, приєднався до #L [ROOT.GetCountry.GetAdjective|l]ого#! війська, а на даний момент перебуває в лавах [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ого торгового флоту. Незважаючи на свою молодість, ця людина має великий досвід і може підказати, як зміцнити наше військо або флот."
   flavor_ned.22.a: "[ROOT.GetCountry.GetCulture.GetNameWithNoTooltip|L]ий народ завжди славився любов'ю до моря."
   flavor_ned.22.a.entry: "Наш народ завжди славився любов’ю до моря."
