@@ -926,7 +926,7 @@
   church_of_saint_nicholas: "Церква святого Миколая"
   church_of_saint_nicholas_desc: "Одна з перших церков, споруджених, коли місто [ShowLocationName('vilnius')] приймало [ShowReligionGroupName('christian')]. Сюди й зараз ходять молитися всі, хто щиро сповідує [ShowReligionGroupAdjectiveWithNoTooltip('christian')]у віру."
   artis_magnae_artilleriae: "Artis Magnae Artilleriae"
-  artis_magnae_artilleriae_desc: "Праця, складена як посібник з артилерії, ракет та піротехніки."
+  artis_magnae_artilleriae_desc: "Праця, складена як посібник з гармат, ракет та піротехніки."
   tale_of_the_palemonids: "Легенда про Палемонів"
   tale_of_the_palemonids_desc: "Сказання про Палемонів, де розповідається, як цей рід покинув місто [ShowLocationName('rome')] за часів вторгнення Аттіли Гунна і дістався до країни $LIT$."
   simple_words_of_catechism: "Катехізис Мартінаса Мажвідаса"

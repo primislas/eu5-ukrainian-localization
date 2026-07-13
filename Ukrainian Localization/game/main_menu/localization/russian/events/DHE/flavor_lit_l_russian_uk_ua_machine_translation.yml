@@ -183,7 +183,7 @@
   flavor_lit.27.b: "Така система нам не потрібна, [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] і так вже надто впливові."
   flavor_lit.27.b.entry: "Така система нам не потрібна, знать і так вже надто впливова."
   flavor_lit.28.title: "[target_character.GetNameWithNoTooltip]"
-  flavor_lit.28.entry: "Казимир Семенович та його артилерійські винаходи"
+  flavor_lit.28.entry: "Казимир Семенович та його гарматні винаходи"
   flavor_lit.28.desc: "#L [ROOT.GetCountry.GetAdjective]е#! військо потребує нових ідей — і ось з’являється незвичайний чоловік, який стверджує, що брав участь в облогах по всій #TOOLTIP:CONTINENT,europe,X #L Європі#!#!. Його звуть [target_character.GetName] з роду #TOOLTIP:DYNASTY,$siemienowicz_dynasty_tt$,X #L Симонавічюсів#!#!. [ROOT.GetCountry.GetGovernment.GetCourtTitle)] здебільшого сумнівається в його #TOOLTIP:CULTURE,$aukstaitian_tt$,X #L аукштайтському#!#! походженні, але його розповіді видаються правдоподібними. У зв’язку з цим багато жителів [ROOT.GetCountry.Custom('CL_GEN')] просять, щоб [target_character2.GetName] [Select_CString(target_character2.IsFemale, 'прийняла', 'прийняв')] його на службу — адже він може виявитися стратегом рівня Александра Македонського."
   flavor_lit.28.a: "Візьмемо його до війська."
   flavor_lit.28.b: "Нехай іде своїм шляхом — нам це теж може принести користь."
