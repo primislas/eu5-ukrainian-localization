@@ -582,7 +582,7 @@
   variable_tt_morea_focus_flag: "Морея — серце імперії"
   variable_tt_reformed_imperial_code_flag: "Імперський звід законів реформовано"
   variable_tt_court_wants_quantity: "Двір виступає за набір народних мас до війська"
-  variable_tt_court_wants_quality: "Двір виступає за набір до елітних тагм замість масового призову"
+  variable_tt_court_wants_quality: "Двір виступає за набір до добірних тагм замість масового призову"
   variable_tt_court_wants_land: "Двір виступає за сухопутні збройні сили"
   variable_tt_court_wants_navy: "Двір виступає за перевагу на морі"
   variable_tt_court_wants_aristocracy: "Двір підтримує владу аристократів"

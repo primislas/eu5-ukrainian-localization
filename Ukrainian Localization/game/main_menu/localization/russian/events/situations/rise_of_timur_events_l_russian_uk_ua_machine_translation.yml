@@ -1,6 +1,6 @@
 ﻿l_russian:
   rise_of_timur.1.title: "Сходження Тимура"
-  rise_of_timur.1.desc: "[GetCountry('MGE').GetLongName] — відроджений халіфат, що перевершує всі попередні… З мрією про це [target_character.GetName] з жменькою вірних вояків створює нову країну — [GetCountry('TIM').GetLongName]. На перший погляд це незначна подія, але вона, схоже, матиме серйозні наслідки: [GetCountry('TIM').GetGovernment.GetRulerTitle|l] вважається природженим полководцем, і [Select_CString(target_character.IsFemale,'її', 'його')] найелітніші війська не збираються зупинятися на досягнутому. Вони зроблять усе, щоб розширити свої території…"
+  rise_of_timur.1.desc: "[GetCountry('MGE').GetLongName] — відроджений халіфат, що перевершує всі попередні… З мрією про це [target_character.GetName] з жменькою вірних вояків створює нову країну — [GetCountry('TIM').GetLongName]. На перший погляд це незначна подія, але вона, схоже, матиме серйозні наслідки: [GetCountry('TIM').GetGovernment.GetRulerTitle|l] вважається природженим полководцем, і [Select_CString(target_character.IsFemale,'її', 'його')] найдобірніші війська не збираються зупинятися на досягнутому. Вони зроблять усе, щоб розширити свої території…"
   rise_of_timur.1.a: "Завоювання — це життя!"
   rise_of_timur.2.title: "[ShowSituationNameWithNoTooltip('rise_of_timur')]"
   rise_of_timur.2.a: "Їх потрібно зупинити!"
