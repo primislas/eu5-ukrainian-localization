@@ -2865,7 +2865,7 @@
   SORT_POP_GOODS_ACCESS: "Доступ до товарів"
   SORT_POP_SATISFACTION: "Задоволення"
   SORT_POP_REBEL: "Вірність"
-  LOYAL_POP: "Лояльний"
+  LOYAL_POP: "Вірний"
   POP_JOIN_REBELS: "Якщо [Concept('pop_satisfaction', 'задоволення групи населення')|e] нижче [LOCATION.GetModifierValueWithCountryCapped('local_pop_join_rebel_threshold', 'pop_join_rebel_threshold')], ця група приєднається до [Concept('rebel', 'повстанців')|e].\nВона знову стане вірною, якщо її задоволення підніметься вище [LOCATION.GetModifierValueWithCountryCapped('local_pop_leave_rebels_threshold', 'pop_leave_rebels_threshold')]."
   POP_JOIN_REBELS_IS_REBEL: "Якщо [Concept('pop_satisfaction', 'задоволення групи населення')|e] впаде нижче [LOCATION.GetModifierValueWithCountryCapped('local_pop_join_rebel_threshold', 'pop_join_rebel_threshold')], ця група приєднається до [Concept('rebel', 'повстанців')|e].\n#T Вона знову стане вірною, якщо її задоволення підніметься вище [LOCATION.GetModifierValueWithCountryCapped('local_pop_leave_rebels_threshold', 'pop_leave_rebels_threshold')]#!."
   POP_CURRENT_SATISFACTION: "Задоволення: [POP.GetUncappedSatisfaction|+=2%]. Причини:"

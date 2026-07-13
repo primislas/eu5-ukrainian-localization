@@ -26,7 +26,7 @@
   flavor_mal.5.desc: "Останнім часом #L [GetCountry('POR').GetAdjective|l]і#! купці на нашому західному узбережжі стали завдавати нам неприємностей. Так, вони постачають коней для нашого війська та привозять екзотичні товари з далеких країн, але ще, схоже, сунуть ніс у нашу політику. Кілька вождів, підбурювані [GetCountry('POR').GetAdjectiveWithNoTooltip|l]ими торговцями, забажали отримати більше повноважень і поступово намагаються розірвати зв'язки з центром.\n\nЩоб вирішити цю проблему, ми повинні або напасти на цих зухвалих вождів, або спробувати послабити [GetCountry('POR').GetAdjectiveWithNoTooltip|l]ий вплив."
   flavor_mal.5.a: "Ми послабимо [GetCountry('POR').GetAdjectiveWithNoTooltip|l]ий вплив."
   flavor_mal.5.a.entry: "Ми послабимо португальський вплив."
-  flavor_mal.5.b: "Нелояльні вожді — ось корінь проблеми."
+  flavor_mal.5.b: "Зрадливі вожді — ось корінь проблеми."
   flavor_mal.6.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] прийма[ROOT.GetCountry.Custom('clergy_yeyut')] іслам"
   flavor_mal.6.entry: "$flavor_mal.6.title$"
   flavor_mal.6.desc: "Хоча формально [ROOT.GetCountry.GetFlavorRank|l] належить до ісламського світу, стародавня віра наших пращурів досі зберігає колосальний вплив. Водночас [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] все частіше прийма[ROOT.GetCountry.Custom('nobles_yeyut')] іслам, і тепер навіть у найвіддаленіших куточках нашої країни можна зустріти мандрівних марабутів.\n\nУ минулому наші правителі намагалися уникати насадження віри, проте за бажання ми можемо використати нові обставини для поширення істинної віри."

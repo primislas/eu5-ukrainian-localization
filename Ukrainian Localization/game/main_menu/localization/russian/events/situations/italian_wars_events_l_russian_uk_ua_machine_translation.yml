@@ -32,7 +32,7 @@
   italian_wars.23.title: "Генерал-перебіжчик"
   italian_wars.23.desc: "Нас турбує, що командир з війська «[target_army.GetName]» на ім’я [target_character2.GetName] виявляє надмірний пієтет до чужоземних сил. Ходять чутки, ніби [target_character2.GetShortNameWithNoTooltip] всерйоз обмірковує пропозиції наших ворогів, і [Select_CString(target_character2.IsFemale, 'її', 'його')] дії під час кампанії це лише підтверджують.\n\n[target_character1.GetName] [Select_CString(target_character1.IsFemale, 'повинна', 'повинен')] щось зробити, поки тихе невдоволення не переросло у відкриту непокору."
   italian_wars.23.a: "Геть з наших лав, [Select_CString(target_character2.IsFemale, 'зраднице', 'зраднику')]!"
-  italian_wars.23.b: "За лояльність потрібно платити. І ми це зробимо."
+  italian_wars.23.b: "За вірність потрібно платити. І ми це зробимо."
   italian_wars.23.c: "[ROOT.GetCountry.GetGovernment.GetRulerOrRegent.GetShortNameWithNoTooltip] поставить [Select_CString(target_character2.IsFemale, 'негідницю', 'негідника')] на місце."
   target_character2_wont_attempt_to_flee_for_10_years_tt: "[target_character2.GetShortNameWithNoTooltip] не зробить спроб перекинутися ще #Y 10#! років"
   italian_wars.24.title: "Розкол серед союзників"

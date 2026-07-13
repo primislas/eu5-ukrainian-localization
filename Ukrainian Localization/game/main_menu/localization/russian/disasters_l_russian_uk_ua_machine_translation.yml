@@ -130,7 +130,7 @@
   court_and_country_8_tt: "Внаслідок [Concept('event', 'події')|e] нестабільність може спричинити заколоти серед місцевого населення"
   court_and_country_9_tt: "Внаслідок [Concept('event', 'події')|e] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] мож[ROOT.GetCountry.Custom('nobles_eut')] організувати повстання і вимагати повернення своїх колишніх привілеїв"
   court_and_country_10_tt: "Внаслідок [Concept('event', 'події')|e] [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] можуть повстати проти нашого правління"
-  court_and_country_11_tt: "Внаслідок [Concept('event', 'події')|e] лояльність наших військових офіцерів може бути поставлена під сумнів"
+  court_and_country_11_tt: "Внаслідок [Concept('event', 'події')|e] вірність наших військових офіцерів може бути поставлена під сумнів"
   court_and_country_12_tt: "Внаслідок [Concept('event', 'події')|e] ми можемо знайти прихильників в війську та уряді"
   aspiration_for_liberty: "Жага свободи"
   aspiration_for_liberty_desc: "Прагнення до свободи та бажання народу втілити в життя ідеали Просвітництва можуть призвести до повстання, яке тепер здається майже неминучим. Загальне обурення нашим невмілим правлінням загрожує перерости в революцію! Це серйозно ускладнить наші справи в майбутньому…"

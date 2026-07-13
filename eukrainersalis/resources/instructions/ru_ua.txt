@@ -177,6 +177,15 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** BUT keep "прапор" for established names, such as "військо зеленого прапора"
     ** "флажок" (checkbox) in menus is "прапорець"
 
+    * loyalty, лояльность -> вірність
+    ** loyal, лояльный -> вірний (васал, стани, люди), відданий (esp. найвідданіший)
+    ** лояльнее -> прихильніше до
+    * disloyalty, нелояльность -> непокора
+    * disloyal vassal, нелояльный вассал -> непокірний васал
+    ** "непокірний" should also be used for estates (nobles, clergy, peasants, etc.)
+    * sow disloyalty, распространять нелояльность -> поширювати непокору
+    * disloyal(ty), "нелояльность", "нелояльный" outside of fixed expressions and combinations listed above and depending on context can be best translated as "непокора", "невірність", "зрадливість", "непевність", "зрада", "підступність", "крамола" (when related to subversive actions and revolts), "бунтівний" and associated adjectives; pick the best fitting depending on context, fallback to "нелояльность", "нелояльный" when in doubt;
+
 ## Estates
 
     * nobles, аристократы -> знать

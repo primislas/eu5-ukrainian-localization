@@ -89,7 +89,7 @@
   mission_select_vassal: "Оберіть #TOOLTIP:SUBJECT_TYPE,vassal,X #L васала#!#! для цього [Concept('mission', 'завдання')|e]"
   mission_no_valid_vassals: "@trigger_no! Немає доступних #TOOLTIP:SUBJECT_TYPE,vassal,X #L васалів#!#!."
   mission_connect_the_capitals: "Зв'язок між столицями"
-  mission_connect_the_capitals_desc: "Повноцінна комунікація та прямий інфраструктурний зв'язок між місцевостями нашого #TOOLTIP:SUBJECT_TYPE,vassal,X #L васала#!#! напевно підвищить їхню лояльність."
+  mission_connect_the_capitals_desc: "Повноцінна комунікація та прямий інфраструктурний зв'язок між місцевостями нашого #TOOLTIP:SUBJECT_TYPE,vassal,X #L васала#!#! напевно підвищить їхню вірність."
   mission_connect_the_capitals_tip: "@arrow_bonus_tier_2! Перейдіть до місцевості, де знаходиться ваша [Concept('capital_with_icon', 'столиця')|e], [Player.GetCapital.GetName], та клацніть по кнопці #V Побудувати дорогу#!.\n\n@arrow_bonus_tier_1! Побудуйте [Concept('road_with_icon', 'дорогу')|e] до сусідньої [Concept('location', 'місцевості')|e], тим самим скоротивши шлях до [Concept('capital', 'столиці')|e] нашого васала."
   mission_monetary_assistance: "Фінансова підтримка"
   mission_monetary_assistance_desc: "Наш васал потрапив у скрутне становище, тому ми повинні надати йому фінансову допомогу. Цей символічний дар неодмінно зміцнить відносини між нами та допоможе забезпечити процвітання підданих!"

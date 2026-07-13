@@ -59,7 +59,7 @@
   flavor_ned.9.b: "Нерозумно розв'язувати там війну."
   flavor_ned.10.title: "П'ять [ROOT.GetCountry.GetAdjectiveWithNoTooltip]их адміралтейств"
   flavor_ned.10.entry: "$flavor_ned.10.title$"
-  flavor_ned.10.desc: "Офіційно нашими землями править [target_character.GetName], проте між провінціями накопичилася маса суперечностей, і представники #TOOLTIP:BUILDING_TYPE,admiralty,X #L адміралтейств#!#! не можуть знайти спільної мови. Поки [ShowLocationName('groningen')], [ShowLocationName('hoorn')], [ShowLocationName('rotterdam')], [ShowLocationName('middelburg')] та [ShowLocationName('amsterdam')] продовжують ворогувати, наш флот так і залишиться розрізненим. Однак, дозволивши військовим діяти незалежно, ми можемо домогтися від них більшої лояльності центральній владі."
+  flavor_ned.10.desc: "Офіційно нашими землями править [target_character.GetName], проте між провінціями накопичилася маса суперечностей, і представники #TOOLTIP:BUILDING_TYPE,admiralty,X #L адміралтейств#!#! не можуть знайти спільної мови. Поки [ShowLocationName('groningen')], [ShowLocationName('hoorn')], [ShowLocationName('rotterdam')], [ShowLocationName('middelburg')] та [ShowLocationName('amsterdam')] продовжують ворогувати, наш флот так і залишиться розрізненим. Однак, дозволивши військовим діяти незалежно, ми можемо домогтися від них більшої вірности центральній владі."
   flavor_ned.10.a: "Нехай усе залишається як є."
   flavor_ned.10.b: "Ми об'єднаємо адміралтейства."
   NED_UNLOCKS_UNIFIED_ADMIRALTIES_GOV_REFORM: "Відкриває [Concept('government_reform', 'державну реформу')|e] «[ShowGovernmentReformName('unified_admiralty_reform')]»."

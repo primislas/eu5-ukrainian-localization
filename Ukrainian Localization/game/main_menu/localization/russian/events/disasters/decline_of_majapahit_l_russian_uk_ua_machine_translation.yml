@@ -3,7 +3,7 @@
   decline_of_majapahit.1.desc: "#L [ROOT.GetCountry.GetAdjective]а#! країна в агонії. Колись нам підкорялося безліч #TOOLTIP:SUBJECT_TYPE,vassal,X #L васалів#!#! та #TOOLTIP:SUBJECT_TYPE,tributary,X #L данників#!#!, але тепер у нас практично не залишилося впливу за межами міста [ROOT.GetCountry.GetCapital.GetName]. Наші #L [ShowReligionAdjective('sunni')|l]ські#! суперники приваблюють усе більше торговців, і їхня віра поступово знаходить нових послідовників на півночі #TOOLTIP:AREA,java_area,X #L Яви#!#!. Але що ще гірше, внутрішня боротьба за владу загрожує остаточно розколоти нашу країну."
   decline_of_majapahit.1.a: "Настали темні часи."
   maj_disaster_tt: "Якщо ми не зупинимо поширення #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламу#!#! в нашій країні, у навернених [Concept('locations', 'місцевостях')|e] можуть початися повстання."
-  decline_of_majapahit.2.title: "Нелояльність до [ROOT.GetCountry.Custom('CL_DAT')]"
+  decline_of_majapahit.2.title: "Непокора [ROOT.GetCountry.Custom('CL_DAT')]"
   decline_of_majapahit.2.desc: "Правителі #ONCLICK:COUNTRY,[maj_tributary_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[maj_tributary_country.Custom('CL_tt')],X [maj_tributary_country.Custom('CL_GEN')|L]#!#! нахабно ігнорують наші вимоги, ображаючи наших послів і відкрито виступаючи проти виплати данини."
   decline_of_majapahit.2.a: "Ми пошкодуємо про це."
   decline_of_majapahit.2.b: "Підемо на поступки, щоб повернути їхню вірність."

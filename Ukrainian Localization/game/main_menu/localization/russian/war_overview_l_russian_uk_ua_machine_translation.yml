@@ -118,7 +118,7 @@
   JOIN_WAR_REASON_DESC_CoBelligerent: "#ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_DAT')|L]#!#! була оголошена війна як [Concept('cobelligerent', 'співвоюючій стороні')|e]."
   JOIN_WAR_REASON_Subject: "Васал #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!"
   JOIN_WAR_REASON_DESC_Subject: "[COUNTRY.GetName] є васалом #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!."
-  JOIN_WAR_CAVEAT_SUBJECT_LOYALTY: "Вони зобов'язані вступити у війну, однак через свою низьку [Concept('subject_loyalty', 'лояльність')|e] ($LOYALTY|2+=$) навряд чи воюватимуть на повну силу."
+  JOIN_WAR_CAVEAT_SUBJECT_LOYALTY: "Вони зобов'язані вступити у війну, однак через свою низьку [Concept('subject_loyalty', 'вірність')|e] ($LOYALTY|2+=$) навряд чи воюватимуть на повну силу."
   JOIN_WAR_REASON_Overlord: "Сюзерен #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!"
   JOIN_WAR_REASON_DESC_Overlord: "[COUNTRY.GetName] є сюзереном #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!."
   JOIN_WAR_REASON_SupportRevolt: "Підтримка повстанців"

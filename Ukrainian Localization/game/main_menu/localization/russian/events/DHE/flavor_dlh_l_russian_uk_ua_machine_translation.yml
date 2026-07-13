@@ -319,7 +319,7 @@
   flavor_dlh.53.b: "[target_character.GetNameWithNoTooltip] не [Select_CString(target_character.IsFemale, 'зробила', 'зробив' )] нічого поганого!"
   flavor_dlh.53.b.entry: "Він не зробив нічого поганого!"
   flavor_dlh.54.title: "Донос від раба"
-  flavor_dlh.54.desc: "[ROOT.GetCountry.GetGovernment.GetRulerTitle] вважає, що шпигунство та розвідка — ефективний спосіб боротьби з незгодними всередині системи. Нашим радникам та збирачам земельних податків з власників (#TOOLTIP:LAW,iqta_law,X #L ікта#!#) прислуговують раби, які повинні повідомляти уряду про будь-які прояви нелояльності та зради. Нещодавно один з рабів, яким володіє [target_character.GetName], повідомив про зраду [Select_CString(target_character.IsFemale, 'своєї господині', 'свого господаря' )]. Раб каже, що [target_character.GetName] скоро підніме бунт у провінції [target_province.GetName]. Що ж нам робити?"
+  flavor_dlh.54.desc: "[ROOT.GetCountry.GetGovernment.GetRulerTitle] вважає, що шпигунство та розвідка — ефективний спосіб боротьби з незгодними всередині системи. Нашим радникам та збирачам земельних податків з власників (#TOOLTIP:LAW,iqta_law,X #L ікта#!#) прислуговують раби, які повинні повідомляти уряду про будь-які прояви невірности та зради. Нещодавно один з рабів, яким володіє [target_character.GetName], повідомив про зраду [Select_CString(target_character.IsFemale, 'своєї господині', 'свого господаря' )]. Раб каже, що [target_character.GetName] скоро підніме бунт у провінції [target_province.GetName]. Що ж нам робити?"
   flavor_dlh.54.a: "Негайно ув'язнимо [Select_CString(target_character.IsFemale, 'бунтівницю', 'бунтівника' )]."
   flavor_dlh.54.a.entry: "Негайно ув’язнимо бунтівника."
   flavor_dlh.54.b: "Тільки тирани кидають людей у в'язницю без доказів."

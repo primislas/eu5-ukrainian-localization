@@ -101,7 +101,7 @@
   scandinavian_tar_privileges: "Привілеї на виробництво дьогтю"
   scandinavian_tar_privileges_desc: "Цій [Concept('location', 'місцевості')|e] даровано права на виробництво та вивіз #TOOLTIP:GOODS,tar,X #L дьогтю#!#! та #TOOLTIP:GOODS,naval_supplies,X #L суднобудівних матеріалів#!#! з лісів, що належать короні. Ці лісові промисли становлять основу для всього суднобудування на узбережжі Балтійського моря."
   scandinavian_thing_rights: "Тінгсрет"
-  scandinavian_thing_rights_desc: "Цій [Concept('location', 'місцевості')|e] даровано офіційні права на проведення зібрань, або «тінгсрет». Її жителі отримали визнаний державою орган самоврядування та правосуддя. Влада корони при цьому позбавляється певних повноважень, а натомість набуває більш дисциплінованого та лояльного населення."
+  scandinavian_thing_rights_desc: "Цій [Concept('location', 'місцевості')|e] даровано офіційні права на проведення зібрань, або «тінгсрет». Її жителі отримали визнаний державою орган самоврядування та правосуддя. Влада корони при цьому позбавляється певних повноважень, а натомість набуває більш дисциплінованого та вірного населення."
   imperial_breadbasket_rights: "Імперська житниця"
   imperial_breadbasket_rights_granary_tt: "Є [ShowBuildingTypeName('granary')|l] рівня 5 або вище"
   imperial_breadbasket_rights_rank_tt: "Місцевість є #TOOLTIP:LOCATIONRANK,city,X #L містом#!#! або #TOOLTIP:LOCATIONRANK,megalopolis,X #L мегалополісом#!#!"

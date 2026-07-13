@@ -43,7 +43,7 @@
   flavor_ver.5.a.entry: "Местре належатиме нам!"
   flavor_ver.5.b: "[target_province.GetNameWithNoTooltip] стане основою #italic Terraferma#!."
   flavor_ver.5.b.entry: "Веронська Венето стане основою #italic Terraferma#!."
-  flavor_ver.6.title: "Притязання [from_country.Custom('CL_GEN')]"
+  flavor_ver.6.title: "Домагання [from_country.Custom('CL_GEN')]"
   flavor_ver.6.desc: "З [from_country.Custom('longname_ua_GEN')] прибув гонець, що привіз нам вимоги цієї країни до династії [target_dynasty.GetName] з #ONCLICK:COUNTRY,[war_enemy.Custom('CL_tt')] #TOOLTIP:COUNTRY,[war_enemy.Custom('CL_tt')],X [war_enemy.Custom('CL_GEN')|L]#!#!. Нам потрібно поміркувати, якого вигляду набуде [target_peace_treaty.GetName] і на яких умовах закінчиться [target_war.GetName], інакше [from_country.GetAdjectiveWithNoTooltip|l]і посли вважатимуть, що ми порушили слово."
   flavor_ver.6.a: "Ми розглянемо їхнє прохання — коли настане час."
   ver_peace_treaty_has_become_available: "У війні «[target_war.GetName]» доступний мирний договір «[target_peace_treaty.GetName]»"
