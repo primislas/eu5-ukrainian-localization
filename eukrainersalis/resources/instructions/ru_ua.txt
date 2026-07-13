@@ -303,7 +303,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     * free subjects, личная свобода -> вольності, a fixed expression for high degree of "free subjects" is "широкі вольності"
     * peasant enfranchisement, освобождение простолюдинов -> вольності простолюду
     * innovation, инновация -> новація
-    * innovative -> "новаційний", "новаторський" depending on context
+    * innovative, инновационный -> "новаційний", "новаторський" depending on context
     * attempt to replace "tradition(al)", "традиция", "традиционный" with synonyms, so as to avoid the root "tradition" altogether; more specifically prefer words and expressions like:
     ** традиция -> (усталений, сталий) звичай, спадщина, культура, уклад, порядок, устрій, стиль (архітектурний, літературний, мистецький і т.і.), прийняті норми, усталені погляди, переконання, смак, стиль, надбання, доробки, тощо
     ** традиционный -> звичаєвий (звичаєве право), узвичаєний, звичний, звичайний, загальноприйнятий, усталений, питомий, прадавній, споконвічний, старовинний, старосвітський (одяг), і т.п.
@@ -337,7 +337,12 @@ You can rely on and treat English text as a primary source, deduce context from 
     * cavalryman, кавалерист -> вершник, use "кіннотник" if necessary to avoid repetition of "вершник"
     * do not use "кіннота" or "кінний" for elephants (слони), instead translate as "слонові загони", "слонові вершники" і т.і.
 
-    * броня - обладунки; for specifically heavy armor use "лати"
+    * броня -> обладунки; for specifically heavy armor use "лати"
+    * маневренность, маневренный -> маневровість, маневровий
+    ** for cavalry (кавалерия, кіннота) use "рухливість", "рухливий"
+    ** for ships use "повороткість", "повороткий"
+    * слабоманевренный -> неповороткий
+    * unless otherwise specified, keep "маневри", "маневрувати", etc. in all the other cases
 
 ## Religion and Culture
 
