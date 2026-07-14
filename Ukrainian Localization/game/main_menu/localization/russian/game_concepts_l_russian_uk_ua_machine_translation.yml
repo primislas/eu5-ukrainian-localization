@@ -1009,7 +1009,7 @@
   game_concept_war_ally_desc: "Це [Concept('countries', 'країни')|e], які надають одна одній підтримку у [Concept('war', 'війні')|e]."
   game_concept_war_leader: "Лідер війни"
   game_concept_war_leaders: "Лідери війни"
-  game_concept_war_leader_desc: "$game_concept_war_leader$ — одна з двох головних [Concept('countries', 'країн')|e], що беруть участь у [Concept('war', 'війні')|e]. Саме лідери війни визначають її результат під час [Concept('peace_treaties', 'мирних переговорів')|e]."
+  game_concept_war_leader_desc: "$game_concept_war_leader$ — одна з двох головних [Concept('countries', 'країн')|e], що беруть участь у [Concept('war', 'війні')|e]. Саме лідери війни визначають її результат під час [Concept('peace_treaties', 'мирних перемовин')|e]."
   game_concept_call_to_arms: "Заклик до зброї"
   game_concept_call_to_arms_desc: "Заклик до зброї — це [Concept('diplomatic_action', 'дипломатична дія')|e], яку можна виконати під час [Concept('war', 'війни')|e], закликавши на допомогу [Concept('ally', 'союзників')|e] та інші [Concept('countries', 'країни')|e], що пообіцяли брати участь у ваших збройних конфліктах.\n\n[Concept('war_defender', 'Країни-оборонці')|e] автоматично надсилають заклик до зброї своїм союзникам, а [Concept('war_attacker', 'країнам-нападникам')|e] доведеться скликати союзників вручну. При цьому стороні-нападнику буде набагато складніше вмовити інші країни приєднатися до війни."
   game_concept_treaty: "Договір"

@@ -1,6 +1,6 @@
 ﻿l_russian:
   empires.1.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('crown_estate')] у небезпеці"
-  empires.1.desc: "Як і більшість династій, [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')|l] нашої країни постійно стика[ROOT.GetCountry.Custom('crown_yetsayutsa')] з чужоземними суперниками, що заявляють права на нашу корону. [target_ruler.GetName] страждає від нестачі фінансів, тому отримує пораду або провести дипломатичні переговори, або прийняти можливий кінець своєї країни."
+  empires.1.desc: "Як і більшість династій, [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')|l] нашої країни постійно стика[ROOT.GetCountry.Custom('crown_yetsayutsa')] з чужоземними суперниками, що заявляють права на нашу корону. [target_ruler.GetName] страждає від нестачі фінансів, тому отримує пораду або провести дипломатичні перемови, або прийняти можливий кінець своєї країни."
   empires.1.a: "Будемо стояти на своєму до останнього."
   empires.1.b: "Знайдемо дипломатичний компроміс."
   empires.2.title: "Національна роздробленість"

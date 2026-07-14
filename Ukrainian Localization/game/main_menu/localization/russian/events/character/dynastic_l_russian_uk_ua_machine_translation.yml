@@ -17,7 +17,7 @@
   dynastic.5.title: "Тиха весна"
   dynastic.5.desc: "Дивлячись на фігуру перед [Select_CString(ruler_char.IsFemale, 'нею', 'ним')], [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] розуміє, що подібної краси не зустріти ні в землях #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, ні в будь-якій іншій країні світу. Панує мовчання, в повітрі витають весняні запахи. [ROOT.GetCountry.GetGovernment.GetRulerTitle] нахиляється, вдихає п'янкий аромат парфумів — і раптом прислухається до думки, що прийшла в голову…"
   dynastic.5.a: "[ROOT.GetCountry.GetGovernment.GetConsortTitle] [young_female.GetNameWithNoTooltip]… Це було б чудово."
-  dynastic.5.b: "Вона стане моїм козирем у переговорах."
+  dynastic.5.b: "Вона стане моїм козирем у перемовах."
   dynastic.5.c: "Весна не буває вічною…"
   dynastic.6.title: "Звана вечеря"
   dynastic_lires: "ліри"

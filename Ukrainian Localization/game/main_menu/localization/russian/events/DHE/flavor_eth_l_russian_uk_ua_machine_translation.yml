@@ -7,7 +7,7 @@
   flavor_eth.10.b: "Вигнати його!"
   flavor_eth.20.title: "Посольство прибуло!"
   flavor_eth.20.entry: "$flavor_eth.20.title$"
-  flavor_eth.20.desc: "[francisco_alvares.GetName], що представляє ту саму країну, що й попередній посланець, хоче обговорити можливості співпраці. Він стверджує, що шукає #italic пресвітера Іоанна#!, а наша країна, на його думку, саме та, що йому й потрібна. Чи слід нам почати переговори?"
+  flavor_eth.20.desc: "[francisco_alvares.GetName], що представляє ту саму країну, що й попередній посланець, хоче обговорити можливості співпраці. Він стверджує, що шукає #italic пресвітера Іоанна#!, а наша країна, на його думку, саме та, що йому й потрібна. Чи слід нам почати перемови?"
   flavor_eth.20.a: "Нам потрібна допомога у війні проти [GetCountry('MAM').Custom('CL_GEN')]!"
   flavor_eth.20.a.entry: "Нам потрібна допомога у війні проти мамлюків!"
   flavor_eth.20.tt: "Ми попросимо #ONCLICK:COUNTRY,[GetCountry('POR').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('POR').Custom('CL_tt')],X [GetCountry('POR').Custom('CL_ACC')|L]#!#! про військову допомогу"

@@ -190,7 +190,7 @@
   repair_grand_canal_china_tt: "[ShowScriptedGeographyName('chinese_canal_geography')] буде відновлено. Ефект #TOOLTIP:STATIC_MODIFIER,chi_grand_canal_destruction,X #V #L «Пошкодження Великого китайського каналу»#!#!#! зміниться на #TOOLTIP:STATIC_MODIFIER,chi_grand_canal,X #V #L «Великий китайський канал»#!#!#!"
   flavor_chi.32.title: "Захоплення [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip]"
   flavor_chi.32.entry: "Захоплення Даду"
-  flavor_chi.32.desc: "[target_location.GetRank.GetName] [target_location.GetName] нарешті в наших руках. Падіння цього символу #TOOLTIP:CULTURE,$mongolian_culture_tt$,X #L монгольського#!#! панування стало справжнім тріумфом #L [ROOT.GetCountry.GetAdjective|l]ої#! зброї. Можливо, саме цей останній поштовх нарешті примусить ворога сісти за стіл переговорів."
+  flavor_chi.32.desc: "[target_location.GetRank.GetName] [target_location.GetName] нарешті в наших руках. Падіння цього символу #TOOLTIP:CULTURE,$mongolian_culture_tt$,X #L монгольського#!#! панування стало справжнім тріумфом #L [ROOT.GetCountry.GetAdjective|l]ої#! зброї. Можливо, саме цей останній поштовх нарешті примусить ворога сісти за стіл перемовин."
   flavor_chi.32.a: "Відтепер ця земля називатиметься Умиротвореним Північчю."
   flavor_chi.32.b: "Це велика перемога!"
   flavor_chi.33.title: "Північна Юань"

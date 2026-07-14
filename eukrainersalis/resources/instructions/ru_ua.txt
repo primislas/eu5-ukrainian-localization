@@ -290,7 +290,13 @@ You can rely on and treat English text as a primary source, deduce context from 
     * (cb) disloyal subject, нелояльный вассал -> бунтівний васал
     ** when the text doesn't talk about or imply rebellion, but just about general disloyalty, "нелояльний" can be translated as "непокірний"
     * annex, аннексия, присоединение -> prefer "поглинання", especially when talking about vassals and/or diplomatic annexation, otherwise use "приєднання" when it's clearly a better fit, avoid "анексія" та "анексований" if possible
-    * переговоры, переговори -> перемовини
+    * переговоры, переговори -> "перемовини" in official texts, menus, as a Concept, and when a long duration is stressed
+    ** in narrative and less formal texts prefer "перемови", also when dealing with revolts
+    ** переговоров -> always "перемовин", not "перемов"
+    ** сесть за стол переговоров, вступить в переговоры -> зійтися на перемови, розпочати перемови(ни)
+    ** переговорческий -> перемовний
+    ** переговорщик -> перемовник
+    ** "не ведем переговоры с ..." -> "з ... перемов не буде"
     * конфликт -> oftentimes war ("війна") is incorrectly translated as "конфликт" in Russian localization; if the text makes it clear that the word refers to a war (especially if there's "...war.GetName" scripting present) then translate "конфликт" as "війна", however, you can alternate "війна" and "конфлікт" to avoid repetitiveness
 
 ## Government

@@ -16,7 +16,7 @@
   italian_wars.20.desc.c: "Вояки із загону «[target_merc.GetName]» відправляють послання з вимогою переглянути умови контракту. Кампанія триває довше, ніж вони розраховували, і без додаткової винагороди вони, найімовірніше, просто відмовляться від служби.\n\nНам потрібно визначитися, що гірше: непередбачені витрати чи ризик втратити вояків."
   italian_wars.20.a: "Ми виконаємо їхні вимоги."
   italian_wars.20.b: "Ми не станемо змінювати умови."
-  italian_wars.20.c: "[ROOT.GetCountry.GetGovernment.GetRulerOrRegent.GetShortNameWithNoTooltip] особисто проведе ці перемовини."
+  italian_wars.20.c: "[ROOT.GetCountry.GetGovernment.GetRulerOrRegent.GetShortNameWithNoTooltip] особисто проведе ці перемови."
   mercs_among_the_ranks_of_target_merc_are_reigned_in_tt: "Загін приймає нові умови, такого більше не повториться"
   mercs_extract_coin_and_supplies_from_the_land_tt: "Найманці збирають гроші та припаси в наших місцевостях"
   target_province_loses_prosperity_extreme_penalty_tt: "Кожен [Concept('location', 'район')|e] у провінції [target_province.GetName] отримує [ShowNamedValue('prosperity_extreme_penalty')|+=2%] до [Concept('prosperity', 'процвітання')|e]"

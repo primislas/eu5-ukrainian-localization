@@ -205,7 +205,7 @@
   cb_subjugation: "Підкорення"
   cb_subjugation_desc: "Вони відмовляються підкоритися нам. Доведеться їх змусити!"
   cb_iw_annexation: "Підкорення італійської ліги"
-  cb_iw_annexation_desc: "Перемога в Італійських війнах дала нам право поставити колишніх товаришів по лізі на коліна. Час перемовин минув."
+  cb_iw_annexation_desc: "Перемога в Італійських війнах дала нам право поставити колишніх товаришів по лізі на коліна. Час перемов минув."
   cb_iw_challenge_league_leadership: "Перехоплення лідерства в лізі"
   cb_iw_challenge_league_leadership_desc: "Під час #TOOLTIP:SITUATION,italian_wars,X #L Італійських воєн#!#! наша країна виявилася провідною силою. Ми змусимо голову ліги передати нам усю повноту влади над нею — словом чи ділом.\n\n#Y Потрібен [Concept('peace_treaty', 'мирний договір')|e] «[ShowPeaceTreatyTypeName('challenge_league_leadership_peace_treaty')]»#!"
   cb_expansion_into_the_steppes: "Підкорення степів"
