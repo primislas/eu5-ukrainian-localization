@@ -1,6 +1,6 @@
 ﻿l_russian:
   lutheranism_events.1.title: "Реформатор шукає притулку"
-  lutheranism_events.1.desc: "[reformer.GetName], один із найвидатніших теологів нашої доби, був змушений тікати з #ONCLICK:COUNTRY,[reformer_fleeing_from_here.Custom('CL_tt')] #TOOLTIP:COUNTRY,[reformer_fleeing_from_here.Custom('CL_tt')],X [reformer_fleeing_from_here.Custom('CL_GEN')|L]#!#! у зв'язку із загрозою його життю. Будучи #TOOLTIP:RELIGION,$lutheran_tt$,X #L лютеранською#!#! країною, ми просто зобов'язані надати йому притулок. Це, безсумнівно, зміцнить позиції нашої державної церкви — за умови, що новоприбулий реформатор підтримуватиме її догмати."
+  lutheranism_events.1.desc: "[reformer.GetName], один із найвидатніших богословів нашої доби, був змушений тікати з #ONCLICK:COUNTRY,[reformer_fleeing_from_here.Custom('CL_tt')] #TOOLTIP:COUNTRY,[reformer_fleeing_from_here.Custom('CL_tt')],X [reformer_fleeing_from_here.Custom('CL_GEN')|L]#!#! у зв'язку із загрозою його життю. Будучи #TOOLTIP:RELIGION,$lutheran_tt$,X #L лютеранською#!#! країною, ми просто зобов'язані надати йому притулок. Це, безсумнівно, зміцнить позиції нашої державної церкви — за умови, що новоприбулий реформатор підтримуватиме її догмати."
   lutheranism_events.1.a: "Ми повинні впустити цю велику людину!"
   lutheranism_events.1.a.tt: "Оселившись у нас, цей реформатор зможе як підтримати догмати нашої державної церкви, так і оскаржити їх."
   protected_reformer: "Ви впустили реформатора"
@@ -111,7 +111,7 @@
   lutheranism_events.32.desc: "Приєднавши нові регіони з лютеранським населенням, ми розпочали процес їх включення до державної церкви. Після введення церковно-парафіяльних книг ми з подивом виявили, що в цих землях проживає набагато більше жителів, ніж вважали їхні колишні господарі."
   lutheranism_events.32.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   lutheranism_events.33.title: "Пієтизм"
-  lutheranism_events.33.desc: "У нашій країні виник новий лютеранський рух. Його прихильники, які називають себе пієтистами, дбають про внутрішнє спасіння, не цікавлячись догматами та теологічними студіями державної церкви."
+  lutheranism_events.33.desc: "У нашій країні виник новий лютеранський рух. Його прихильники, які називають себе пієтистами, дбають про внутрішнє спасіння, не цікавлячись догматами та богословськими студіями державної церкви."
   lutheranism_events.33.a: "Треба обмежити їхній вплив."
   lutheranism_events.33.b: "Ці пієтисти викликають інтерес."
   lutheranism_events.34.title: "Бунти іконоборців у провінції [target_province.GetNameWithNoTooltip]"

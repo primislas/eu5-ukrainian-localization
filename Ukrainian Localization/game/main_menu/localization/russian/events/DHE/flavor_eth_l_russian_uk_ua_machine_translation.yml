@@ -215,7 +215,7 @@
   flavor_eth.202.b.entry: "Як вони сміють порушувати його волю? Ми такого не стерпимо!"
   flavor_eth.202.c: "Нас це все одно не стосується."
   flavor_eth.203.title: "Розкол посилюється"
-  flavor_eth.203.desc: "Біда! Ідея влаштувати зустріч, на якій [anorewos.GetName] та [ewostatewos.GetName] могли б обговорити питання віри, обернулася жахливою помилкою. Нам повідомили, що їхня бесіда швидко переросла в бурхливу теологічну суперечку, що посилила конфронтацію з ченцями. На щастя, наш[ROOT.GetCountry.Custom('clergy_aei')] [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] бу[ROOT.GetCountry.Custom('clergy_vlaloly')] вигнан[ROOT.GetCountry.Custom('clergy_yiaei')] з монастиря раніше, ніж ситуація остаточно вийшла з-під контролю."
+  flavor_eth.203.desc: "Біда! Ідея влаштувати зустріч, на якій [anorewos.GetName] та [ewostatewos.GetName] могли б обговорити питання віри, обернулася жахливою помилкою. Нам повідомили, що їхня бесіда швидко переросла в бурхливу богословську суперечку, що посилила конфронтацію з ченцями. На щастя, наш[ROOT.GetCountry.Custom('clergy_aei')] [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] бу[ROOT.GetCountry.Custom('clergy_vlaloly')] вигнан[ROOT.GetCountry.Custom('clergy_yiaei')] з монастиря раніше, ніж ситуація остаточно вийшла з-під контролю."
   flavor_eth.203.a: "Своїми богословськими диспутами [anorewos.GetShortNameWithNoTooltip] розколе [ROOT.GetCountry.Custom('rank_ua_ACC')|l]."
   flavor_eth.203.a.entry: "Своїми богословськими диспутами $name_anorewos$ розколе країну."
   flavor_eth.203.a.tt: "[anorewos.GetNameWithNoTooltip] буде публічно покараний"

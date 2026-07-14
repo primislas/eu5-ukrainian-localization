@@ -168,13 +168,13 @@ You can rely on and treat English text as a primary source, deduce context from 
     * game concept "gold" in the sense of money, дукаты -> гроші
     * "country", "держава" -> "країна", attempt to avoid the word "держава" as much as possible, unless it's without a doubt a superior or more fitting option, most commonly when discussing "держава" as a bureaucratic, modern mechanism of government, legal political entity, empires and tsardoms, countries known for well developed bureaucracy, etc
     ** adjective "державний" is allowed
-    ** "держава" is allowed to be used avoid tautologies and repetition with "країна" in the same paragraph
+    ** "держава" is allowed to be used avoid tautologies and repetitiveness with "країна" in the same paragraph
     ** keep "держава","державний" in fixed expressions, for example "місто-держава", "великі, суверенні, централізовані, сучасні держави", "від імені держави", "держава і піддані", "Папська держава"
     ** used fixed expression for "иностранное государство/держава" -> "чужоземна країна"
     ** when used in plural ("державы", "государства"), as a collection of smaller states, it is sometimes appropriate to translate as "князівства" - "латинські князівства", "князівства хрестоносців", "франкократичні князівства", "румунські князівства", "балканські князівства", "князівства Епіру", "німецькі князівства" тощо
     ** sometimes in narrative texts "государство", "держава" could be replaced with "князівство" (when clearly talking about smaller principalities) or "край" (e.g. "за межами краю", "прославляючи військову доблесність нашого краю за його межами")
     ** sometimes in narrative texts "государство", "держава" could be replaced with "влада", e.g. "влада почала видавати ліцензії", "влада організовує програми, процесії"
-    ** when in doubt whether to choose "країна" or "держава", favor "країна", but remember to avoid repetition
+    ** when in doubt whether to choose "країна" or "держава", favor "країна", but remember to avoid repetitiveness
     * "age", "epoch", "эпоха" -> "доба"
 
     * "advance", "улучшение" -> "поступ"; replace "улучшение" with "поступ" whenever context makes it clear that it refers to research or advances as technological game mechanics, but stick to "покращення" when in doubt and in general sense
@@ -290,7 +290,8 @@ You can rely on and treat English text as a primary source, deduce context from 
     * (cb) disloyal subject, нелояльный вассал -> бунтівний васал
     ** when the text doesn't talk about or imply rebellion, but just about general disloyalty, "нелояльний" can be translated as "непокірний"
     * annex, аннексия, присоединение -> prefer "поглинання", especially when talking about vassals and/or diplomatic annexation, otherwise use "приєднання" when it's clearly a better fit, avoid "анексія" та "анексований" if possible
-    * переговоры, переговори - перемовини
+    * переговоры, переговори -> перемовини
+    * конфликт -> oftentimes war ("війна") is incorrectly translated as "конфликт" in Russian localization; if the text makes it clear that the word refers to a war (especially if there's "...war.GetName" scripting present) then translate "конфликт" as "війна", however, you can alternate "війна" and "конфлікт" to avoid repetitiveness
 
 ## Government
 
@@ -348,7 +349,7 @@ You can rely on and treat English text as a primary source, deduce context from 
 ## Military, Armies and Fleets
 
     * war score, военный счёт -> воєнний рахунок
-    * army, армия -> "військо", but feel free to use "армія" to avoid repetition, and when thematically appropriate, for example for later 18-19th century armies, Grande Armee, etc.
+    * army, армия -> "військо", but feel free to use "армія" to avoid repetitiveness, and when thematically appropriate, for example for later 18-19th century armies, Grande Armee, etc.
     * soldier, солдат -> "вояк" та "вояцтво", але допускається "воїн" в урочистому тексті та "солдат", коли явно йдеться про більш пізні європейські війська
     * general, генерал -> "полководець", consider "воєвода" when older more archaic or flavorful text is translated,
     allowed to use "генерал" when obviously more modern and especially European armies are discussed
@@ -407,7 +408,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** в наративних текстах, де доречно та гармонійно, варто віддавати перевагу слову "віра"
     ** віддавай перевагу виразу "сповідує віру" перед "належить до віри", коли є сумніви; стилістичні відмінності:
     *** «Сповідує... [якусь] віру» — фокус на активній практиці та переконаннях. Дієслово сповідувати походить від ідеї відкритого визнання, свідчення про свої погляди. Цей вираз є глибшим, оскільки він наголошує на тому, що людина чи країна не просто числиться у списках, а активно практикує релігію. Підходить для наративних текстів.
-    *** «Належить до... [якоїсь] віри» - фокус на ідентичності та класифікації. Цей вираз підкреслює приналежність людини чи країни до певної релігійної групи, спільноти чи категорії населення. Він є більш соціальним, об'єктивним, формальним, сухим.
+    *** «Належить до... [якоїсь] віри» - фокус на ідентичності та класифікації. Цей вираз підкреслює приналежність людини чи країни до певної релігійної групи, спільноти чи категорії населення. Він є більш соціальним, об’єктивним, формальним, сухим.
 
     * religion_group, религиозная группа -> віровчення
     ** НЕ "належить до віровчення", а "сповідує віровчення"
@@ -429,11 +430,11 @@ You can rely on and treat English text as a primary source, deduce context from 
     * НЕ "того ж/те ж віросповідання, віровчення", а "спільного/спільне віросповідання, віровчення"; АЛЕ у випадках заперечення ("не з тієї ж") залишаємо як є
 
     * прикметник релігійний залишаємо без змін, окрім випадків де АБСОЛЮТНО ТОЧНО за контекстом прикметнику "релігійний" чи іменнику "релігія" пасують такі альтернативи:
-    ** богословський, богослов'я - тексти про природу авраамічних релігій, дебати: "мудреці Магрибу обговорюють тонкощі богослов'я", "католики викликали православних на богословські дебати", "тут можна осягнути премудрості філософії, математики, богослов'я та інших наук"
+    ** богословський, богослов’я - тексти про природу авраамічних релігій, дебати: "мудреці Магрибу обговорюють тонкощі богослов’я", "католики викликали православних на богословські дебати", "тут можна осягнути премудрості філософії, математики, богослов’я та інших наук"
     ** духовний; наприклад: "собору слугують духовними осередками", "дхарма — це один із головних стовпів наших духовних і суспільних цінностей", "взаємопроникнення різних практик в духовне життя", "нашими землями котиться хвиля духовного пробудження", "духовний авторитет православної церкви"
-    ** церковний, церква - коли абсолютно очевидно, що мова про християнство, наприклад: "призначення схоластики - поширення знань з наголосом на церковні догмати", "Сербії знайомі католицтво та православ'я... час провести реформи, щоб посилити наші церковні інститути", "влада короля над церквою", "Хоча нині ми дотримуємося римо-католицької практики, церковне життя на цих островах, як і раніше, багато в чому тримається на добровільному духовенстві", "керуючись при цьому церковними канонами", "парламент заперечував проти королівського контролю над церквою", "у Венеції... критикуючи як політику, так і церкву"
+    ** церковний, церква - коли абсолютно очевидно, що мова про християнство, наприклад: "призначення схоластики - поширення знань з наголосом на церковні догмати", "Сербії знайомі католицтво та православ’я... час провести реформи, щоб посилити наші церковні інститути", "влада короля над церквою", "Хоча нині ми дотримуємося римо-католицької практики, церковне життя на цих островах, як і раніше, багато в чому тримається на добровільному духовенстві", "керуючись при цьому церковними канонами", "парламент заперечував проти королівського контролю над церквою", "у Венеції... критикуючи як політику, так і церкву"
     ** релігійні меншини - іновірні меншини, меншини іновірців
-    ** священний: "омовіння — невіддільна частина священних обрядів", "Аль-Закят є священним обов'язком", "оголошують священну війну"
+    ** священний: "омовіння — невіддільна частина священних обрядів", "Аль-Закят є священним обов’язком", "оголошують священну війну"
     ** (між)релігійний - міжконфесійний, якщо мова йде про авраамічні релігії: "міжконфесійні чвари", "міжконфесійна співпраця"
 
     * religious_figure, религиозный деятель - віровчитель
@@ -449,6 +450,9 @@ You can rely on and treat English text as a primary source, deduce context from 
     * religious_head, глава религии, религиозный глава -> глава церкви
     * religious_sect, (религиозное) направление -> (релігійна) течія
     * when "религозный" and "светский" are mentioned together, prefer "духовний та мирський"
+    * теология -> богослов’я
+    * теолог -> богослов; but when clearly about Muslim theologians, use "улема", "улеми" (plural), etc.
+    * теологический -> богословський
 
     * heathen, язычник -> depending on context and connotation:
     ** "іновірець" general translation
@@ -554,16 +558,16 @@ You can rely on and treat English text as a primary source, deduce context from 
     * tax assessor, налоговый чиновник -> митар
     * entrepot, пакгауз -> торгова комора
     * trading hub, торговый узел -> великий торг
-    * quarter, квартал -> when talking about a national or religious community, use "подвір'я" or "двір", for example "венеційське подвір'я", "юдейське подвір'я", "португальське подвір'я"; interchange it with "двір", if necessary to avoid repetitions in text (e.g. "Вірменське подвір'я... У цьому дворі...");
+    * quarter, квартал -> when talking about a national or religious community, use "подвір’я" or "двір", for example "венеційське подвір’я", "юдейське подвір’я", "португальське подвір’я"; interchange it with "двір", if necessary to avoid repetitiveness in text (e.g. "Вірменське подвір’я... У цьому дворі...");
 
 ## Avoid Legalese, Bureaucatic Jargon, Anachronisms and Loan Words
 
 Уникай канцеляризмів, анахронізмів, запозичень там, де це можливо. Надавай перевагу питомим українським відповідникам, якщо такі існують. Втім, текст має залишатися зрозумілим сучасному читачеві. Якщо зміст слова сильно змінився, чи слово геть вийшло з ужитку, то вживаємо сучасні варіанти. Приклади вдалої адаптації:
-    * алкоголь - хмільне, хмільні напої, п'янкі напої
+    * алкоголь - хмільне, хмільні напої, п’янкі напої
     ** спиртной - хмільний
     ** крепкий алкоголь, крепкие алкогольные напитки, крепкие спиртные напитки - міцне хмільне
-    ** чергуй "хмільне", "п'янке", "хмільні/п'янкі напої", щоб уникати одноманітних повторень
-    ** алкоголик - п'яничка
+    ** чергуй "хмільне", "п’янке", "хмільні/п’янкі напої", щоб уникати одноманітних повторень
+    ** алкоголик - п’яничка
     ** алкоголизм - пияцтво
     * аналог - відповідник
     * аналогічний - подібний
@@ -612,7 +616,7 @@ You can rely on and treat English text as a primary source, deduce context from 
 
 Уникай русизмів, кальки та запозичень з російської мови чи Московії з Російською імперією. Наприклад:
     * район -> уникай цього слова де тільки можливо, в залежності від контексту альтернативи: "місцевість" (зокрема завжди, коли явно йдеться про ігрову концепцію "location"), землі, терени, володіння, округи, області, регіони
-    ** use "квартал" for a city district in general, or "двір", "подвір'я" for district quarters with a distinct legal status, such as trade, ethnic or religious ethnic quarters, e.g. "гостиний двір", "купецьке подвір'я", "двір фанаріотів"
+    ** use "квартал" for a city district in general, or "двір", "подвір’я" for district quarters with a distinct legal status, such as trade, ethnic or religious ethnic quarters, e.g. "гостиний двір", "купецьке подвір’я", "двір фанаріотів"
     ** внутренние районы, внутрішні райони -> глибина, терени, землі, край ("глибинні землі Балкан", "у глибині Балкан", "у балканській глибині", "на внутрішніх теренах Балкан", "у внутрішніх балканських землях", "у внутрішніх балканських краях")
     ** прилегающие районы -> поблизу, довкола, навколо, в околицях, на підступах
     * завод, фабрика -> уникай де тільки можливо, окрім очевидного контексту індустріалізації. Припустимі альтернативи - виробництво, майстерня, цех, обирай в залежності від контексту. Також можна просто використовувати назви конкретних виробництв, коли це підходить - ливарня, пивоварня, винокурня, рудня, кузня, зброярня, друкарня і т.д. Наприклад, ніяких "цехів з виробництва пива" чи "пивоварних заводів" - заміняй на "броварня".
@@ -627,7 +631,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     * без труда -> без (великих) зусиль, or rarely when appropriate by tone - "не доклавши рук", "не вмившись потом"
     * (в поисках) лучшей жизни, кращого життя -> кращої долі
     * ропот -> ремство
-    * разнообразие, різноманітність -> розмаїття, rarely "різнобарв'я"; especially in poetic texts and when describing plethora of cultures, languages, religions, ideas, etc.
+    * разнообразие, різноманітність -> розмаїття, rarely "різнобарв’я"; especially in poetic texts and when describing plethora of cultures, languages, religions, ideas, etc.
     ** "різноманітність" only when no other choice fits well, mostly in technical descriptions, game mechanics, fixed expressions ("біологічна різноманітність") and mundane texts, where "розмаїття" is inappropriately poetic
     ** keep adjectives "різноманітний", "найрізноманітніший"
     * смутьян -> баламут

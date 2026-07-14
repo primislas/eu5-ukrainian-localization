@@ -35,7 +35,7 @@
   swe_theologian_visit_received: "Прийнято приїжджого богослова"
   swe_theologian_visit_welcomed: "Радушно прийнято приїжджого богослова"
   flavor_swe_nov.6.title: "Повернення богослова"
-  flavor_swe_nov.6.desc: "[swedish_theologian.GetName] повернувся на батьківщину після дебатів з #L [GetCountry('BYZ').GetAdjective|l]ими#! богословами, куди його направив [novgorod_country.GetNameWithNoTooltip]. Результат вийшов зовсім не таким, як [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'очікувала', 'очікував')] [ROOT.GetCountry.GetGovernment.GetRuler.GetName]: доводи #L [GetCountry('BYZ').GetAdjective|l]их#! теологів виявилися такими переконливими, що врешті [swedish_theologian.GetShortNameWithNoTooltip] прийняв їхню віру і почав сам її проповідувати."
+  flavor_swe_nov.6.desc: "[swedish_theologian.GetName] повернувся на батьківщину після дебатів з #L [GetCountry('BYZ').GetAdjective|l]ими#! богословами, куди його направив [novgorod_country.GetNameWithNoTooltip]. Результат вийшов зовсім не таким, як [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'очікувала', 'очікував')] [ROOT.GetCountry.GetGovernment.GetRuler.GetName]: доводи #L [GetCountry('BYZ').GetAdjective|l]их#! богословів виявилися такими переконливими, що врешті [swedish_theologian.GetShortNameWithNoTooltip] прийняв їхню віру і почав сам її проповідувати."
   flavor_swe_nov.6.a: "Можливо, [GetCountry('BYZ').GetAdjectiveWithNoTooltip|l]і богослови в чомусь мають рацію…"
   flavor_swe_nov.6.a.entry: "Можливо, візантійські богослови в чомусь мають рацію..."
   flavor_swe_nov.6.b: "Вигнати його!"

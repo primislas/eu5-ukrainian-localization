@@ -1,6 +1,6 @@
 ﻿l_russian:
   hussite_flavor.1.title: "Людина культури"
-  hussite_flavor.1.desc: "[GetCharacter('boh_jan_hus').GetName] навчає своїх послідовників засновувати нові місця для поклоніння, щоб закарбовувати образи божества та шукати сутність віри в благочестивому мистецтві й теологічних дебатах.\n\nЗнаючи, як ми цінуємо творчість і талант, [Select_CString(target_artist.IsFemale, 'художниця', 'художник' )] [target_artist.GetName] пропонує нам свої послуги."
+  hussite_flavor.1.desc: "[GetCharacter('boh_jan_hus').GetName] навчає своїх послідовників засновувати нові місця для поклоніння, щоб закарбовувати образи божества та шукати сутність віри в благочестивому мистецтві й богословських дебатах.\n\nЗнаючи, як ми цінуємо творчість і талант, [Select_CString(target_artist.IsFemale, 'художниця', 'художник' )] [target_artist.GetName] пропонує нам свої послуги."
   hussite_flavor.1.a: "[Select_CString(target_artist.IsFemale, 'Її', 'Його' )] праці будуть для нас корисні."
   hussite_flavor.1.b: "У нас немає зайвих грошей."
   hussite_flavor.2.title: "Численн[ROOT.GetCountry.Custom('clergy_yiaei')] видатн[ROOT.GetCountry.Custom('clergy_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] не згод[ROOT.GetCountry.Custom('clergy_ennanoni')] з нашою політикою"
