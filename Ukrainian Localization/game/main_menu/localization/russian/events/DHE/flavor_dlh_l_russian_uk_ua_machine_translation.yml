@@ -247,7 +247,7 @@
   dlh_20_percent_of_slaves_become_peasants_tt: "#Y 20%#! наших #TOOLTIP:POPTYPE,slaves,X #L рабів#!#! стануть #TOOLTIP:POPTYPE,peasants,X #L селянами#!#!"
   flavor_dlh.40.title: "Заснування гуламан-і-фіруз шахі"
   flavor_dlh.40.entry: "$flavor_dlh.40.title$"
-  flavor_dlh.40.desc: "[ROOT.GetCountry.GetName] — країна, багата на рабів. Щоб правляча династія [GetDynasty('tughlaq_dynasty').GetName] успішно царювала й далі, [target_character.GetName] хоче заснувати постійне військо. Вже зроблено перший крок: невеликий загін чудово підготовлених рабів — гуламан-і-фіруз шахі — охоронятиме спокій правителя, і [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] зможе правити, не турбуючись за своє життя."
+  flavor_dlh.40.desc: "[ROOT.GetCountry.GetName] — країна, багата на рабів. Щоб правляча династія [GetDynasty('tughlaq_dynasty').GetName] успішно царювала й далі, [target_character.GetName] хоче заснувати постійне військо. Вже зроблено перший крок: невеликий загін чудово вишколених рабів — гуламан-і-фіруз шахі — охоронятиме спокій правителя, і [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] зможе правити, не турбуючись за своє життя."
   flavor_dlh.40.a: "Створимо цей загін."
   flavor_dlh.40.b: "[ROOT.GetCountry.GetGovernment.GetAdjective|U]а гвардія славиться чим завгодно, тільки не захистом довірених їй правителів…"
   flavor_dlh.40.b.entry: "Особиста гвардія славиться чим завгодно, тільки не захистом своїх правителів..."

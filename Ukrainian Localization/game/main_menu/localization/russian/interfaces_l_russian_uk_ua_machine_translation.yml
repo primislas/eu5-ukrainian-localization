@@ -4797,7 +4797,7 @@
   BUILD_SHIP_NOT_ALLOWED: "@trigger_no! Ми не можемо будувати тут [Concept('ships', 'кораблі')|e] без необхідної інфраструктури, потрібні #TOOLTIP:BUILDING_TYPE,wharf,X #L пристань#!#! або #TOOLTIP:BUILDING_TYPE,dock,X #L док#!#!."
   BUILD_REGIMENT_NOT_ALLOWED: "@trigger_no! Ми не можемо набирати тут [Concept('regiments', 'полки')|e] без необхідної інфраструктури, потрібні #TOOLTIP:BUILDING_TYPE,sergeantry,X #L сержантерія#!#! або #TOOLTIP:BUILDING_TYPE,armory,X #L арсенал#!#!."
   UNIT_TEMPLATE_BUILD_UNIT_TRIGGER_NO: "@trigger_no!Не можна створити підрозділ типу «[SUBUNITDEFINITION.GetName]» у будь-якій придатній місцевості з [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName]."
-  BUILD_UNIT_TRIGGER_NO: "[SUBUNITDEFINITION.GetName] не можуть бути підготовлені. Причини:\n$WHY$"
+  BUILD_UNIT_TRIGGER_NO: "[SUBUNITDEFINITION.GetName] не можуть бути набрані. Причини:\n$WHY$"
   RAISE_LEVY_NOT_OCCUPIED: "@trigger_no![LOCATION.GetRank.GetNameWithNoTooltip] [LOCATION.GetName] [Concept('occupied', 'окупований')|e] #ONCLICK:COUNTRY,[LOCATION.GetController.Custom('CL_tt')] #TOOLTIP:COUNTRY,[LOCATION.GetController.Custom('CL_tt')],X [LOCATION.GetController.Custom('CL_INST')|L]#!#!."
   RAISE_LEVY_NOT_SIEGE: "@trigger_no![LOCATION.GetRank.GetNameWithNoTooltip] [LOCATION.GetName] [Concept('siege', 'обложений')|e] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_INST')|L]#!#!."
   RAISE_LEVY_NO_CULTURE: "@trigger_no!У [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName] немає [Concept('pops', 'груп населення')|e] [Concept('accepted_culture', 'визнаної культури')|e]."
