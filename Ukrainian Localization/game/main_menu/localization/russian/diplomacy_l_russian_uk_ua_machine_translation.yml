@@ -106,7 +106,7 @@
   GP_SORTED_BY_ENTRY_navy_heavy_ship: "[COUNTRY.GetLongNameWithFlag]: $VAL|0$@navy_heavy_ship!"
   GP_SORTED_BY_HEADER_army_size: "Великі держави за розміром [Concept('army', 'війська')|e]"
   GP_SORTED_BY_ENTRY_army_size: "[COUNTRY.GetLongNameWithFlag]: $MEN|0$"
-  GP_SORTED_BY_HEADER_regular_army_size: "Великі держави за чисельністю [Concept('regulars', 'регулярних військ')|e]"
+  GP_SORTED_BY_HEADER_regular_army_size: "Великі держави за чисельністю [Concept('regulars', 'постійних військ')|e]"
   GP_SORTED_BY_ENTRY_regular_army_size: "[COUNTRY.GetLongNameWithFlag]: $MEN|0$@army_strength!"
   GP_SORTED_BY_HEADER_cultural_influence: "Великі держави за величиною [Concept('cultural_influence', 'культурного впливу')|e]"
   GP_SORTED_BY_ENTRY_cultural_influence: "[COUNTRY.GetLongNameWithFlag]: $VAL|2$"

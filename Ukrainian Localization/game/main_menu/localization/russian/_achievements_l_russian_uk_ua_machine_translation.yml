@@ -46,7 +46,7 @@
   ACHIEVEMENT_DESC_patron_of_the_arts: "Запросіть митця."
   patron_of_the_arts_tt: "Ми запросили [Concept('artist', 'митця')|e]"
   ACHIEVEMENT_combined_arms: "Різнорідні війська"
-  ACHIEVEMENT_DESC_combined_arms: "Зберіть у складі збройних сил одночасно найманців, ополчення та регулярне військо."
+  ACHIEVEMENT_DESC_combined_arms: "Зберіть у складі збройних сил одночасно найманців, ополчення та постійне військо."
   ACHIEVEMENT_rule_of_law: "Верховенство закону"
   ACHIEVEMENT_DESC_rule_of_law: "Змініть політику."
   rule_of_law_tt: "Ми змінили [Concept('policy', 'політику')|e] для [Concept('law', 'закону')|e]"

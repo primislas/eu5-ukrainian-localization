@@ -348,12 +348,14 @@ You can rely on and treat English text as a primary source, deduce context from 
 ## Military, Armies and Fleets
 
     * war score, военный счёт -> воєнний рахунок
-    * army, армия -> "військо", but feel free to use "армія" to avoid repetition, and when thematically appropriate, for example for later 18-19th century armies, Grande Armee, and such.
+    * army, армия -> "військо", but feel free to use "армія" to avoid repetition, and when thematically appropriate, for example for later 18-19th century armies, Grande Armee, etc.
     * soldier, солдат -> "вояк" та "вояцтво", але допускається "воїн" в урочистому тексті та "солдат", коли явно йдеться про більш пізні європейські війська
     * general, генерал -> "полководець", consider "воєвода" when older more archaic or flavorful text is translated,
     allowed to use "генерал" when obviously more modern and especially European armies are discussed
     * admiral, адмірал -> "флотоводець", allowed to use "адмірал" when obviously more modern and/or European armies are discussed
     * fleet levies, флотское ополчение -> морське ополчення
+    * regular army, unit, regiment, регулярная армия, полк, подразделение -> постійне військо, полк, загін
+    * regular fleet, ship, регулярнй флот, корабль -> військовий флот, корабель
     * ополчення скликають
     * союзників закликають на війну чи до зброї
     * війська чи загони набирають, кораблі споруджають (НЕ створюють, будують чи набирають)

@@ -52,7 +52,7 @@
   STATIC_MODIFIER_NAME_plc_polish_commission: "Комісія національної освіти"
   flavor_plc.9.title: "[lisowczycy_scope.GetNameWithNoTooltip]"
   flavor_plc.9.entry: "Лісовчики"
-  flavor_plc.9.desc: "Вояк на ім'я [target_character.GetName] з дрібного шляхетського роду [Select_CString(target_character.IsFemale,'вирішила', 'вирішив')] заявити про себе і [Select_CString(target_character.IsFemale,'створила', 'створив')] власний загін найманців, відомий як [lisowczycy_scope.GetName|l]. Шкода, що така [Select_CString(target_character.IsFemale,'амбітна воєначальниця не приєдналася', 'амбітний воєначальник не приєднався')] до наших регулярних військ. Втім, ми можемо найняти [Select_CString(target_character.IsFemale,'її', 'його')] бійців, щоб вони не приєдналися до ворогів."
+  flavor_plc.9.desc: "Вояк на ім'я [target_character.GetName] з дрібного шляхетського роду [Select_CString(target_character.IsFemale,'вирішила', 'вирішив')] заявити про себе і [Select_CString(target_character.IsFemale,'створила', 'створив')] власний загін найманців, відомий як [lisowczycy_scope.GetName|l]. Шкода, що така [Select_CString(target_character.IsFemale,'амбітна воєначальниця не приєдналася', 'амбітний воєначальник не приєднався')] до наших постійних військ. Втім, ми можемо найняти [Select_CString(target_character.IsFemale,'її', 'його')] бійців, щоб вони не приєдналися до ворогів."
   flavor_plc.9.a: "Чим більше у нас вояків, тим краще."
   flavor_plc.9.b: "Зараз невідповідний час."
   flavor_plc.10.title: "[target_character.GetNameWithNoTooltip]"
