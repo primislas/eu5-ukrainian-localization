@@ -388,7 +388,7 @@
   ZOC_BLOCKS_MOVEMENT: "@trigger_no! Військо не може минути [Concept('zone_of_control', 'зону контролю')|e] [Concept('fort', 'фортеці')|e], розташованої поблизу."
   NO_PATH_AVAILABLE: "@trigger_no! Немає доступних шляхів до вказаної місцевості."
   DISEASE_PRESENCE_LOCATION_TOOLTIP: "#T [DISEASE.GetNameWithNoTooltip]#!\nПоширеність: $PRESENCE|2R%2$\nОпірність: $RESISTANCE|%2$"
-  DISEASE_ENDEMIC_LOCATION_TOOLTIP: "#T [DISEASE.GetNameWithNoTooltip]#!\nЕндемічна місцевість\nБазова частота зараження за проміжок часу: $RATE|2R%2$\nГеографія цієї місцевості робить її вразливішою до цієї епідемії."
+  DISEASE_ENDEMIC_LOCATION_TOOLTIP: "#T [DISEASE.GetNameWithNoTooltip]#!\nЕндемічна місцевість\nБазова частота зараження за проміжок часу: $RATE|2R%2$\nГеографія цієї місцевості робить її вразливішою до цієї пошести."
   DISEASE_PRESENCE_LOCATION_TOOLTIP_SOME_POPS: "[Concept('pops', 'Групи населення')|e] від міграції при різних рівнях: #TOOLTIP:$BREAKDOWN_TAG$ $VAL$#!"
   INFECTION_BREAKDOWN: "Деталі про інфекцію"
   DISEASE_PRESENCE_POP_TOOLTIP: "[POP.GetName], [DISEASE.GetName|l]: поширеність — $PRESENCE|%$, опірність — $RESISTANCE|%$"

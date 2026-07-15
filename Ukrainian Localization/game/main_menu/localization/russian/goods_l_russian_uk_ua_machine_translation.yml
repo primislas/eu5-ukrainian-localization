@@ -861,7 +861,7 @@
   POP_DEMAND_ANDEAN_COCA_LEAF: "Залежність від листя коки у #TOOLTIP:CULTUREGROUP,andean_group,X #L жителів Анд#!#!"
   POP_DEMAND_ANDEAN_COCA_LEAF_CLERGY: "#TOOLTIP:RELIGIONGROUP,folk_peruvian_group,X #L Перуанські#!#! обряди з листям коки"
   POP_DEMAND_UPPER: "[Concept('upper_class', 'вище суспільство')|e]"
-  POP_DEMAND_DISEASE: "Лютує [Concept('disease', 'епідемія')|e]"
+  POP_DEMAND_DISEASE: "Лютує [Concept('disease', 'пошесть')|e]"
   POP_DEMAND_RELIGION_ALLOWS: "Хмільні напої дозволені віросповіданням"
   POP_DEMAND_RELIGION_FORBIDS: "Хмільні напої заборонені віросповіданням"
   POP_DEMAND_CULTURAL_PREFERENCES: "Культурні вподобання"

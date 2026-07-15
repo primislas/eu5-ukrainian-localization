@@ -1034,7 +1034,7 @@
   isolate_cities_black_death: "Ізоляція міст"
   isolate_cities_black_death_desc: "Можливо, нам вдасться трохи відновити порядок та обмежити захворюваність, якщо замкнути міські ворота та заборонити людям залишати міста або входити до них."
   stop_isolate_cities_black_death: "Відкриття міст"
-  stop_isolate_cities_black_death_desc: "Епідемія відступає, і ми відкриваємо свої міста для купців та чужинців."
+  stop_isolate_cities_black_death_desc: "Мор відступає, і ми відкриваємо свої міста для купців та чужинців."
   isolate_cities_effect_tt: "Усі [Concept('towns_and_cities', 'міста')|e] отримують модифікатор #TOOLTIP:STATIC_MODIFIER,isolating_cities,X #V #L «Ізоляція міст»#!#!. Його ефективність залежить від ступеня [Concept('control', 'контролю')|e] над [Concept('location', 'місцевістю')|e]."
   control_the_food_market: "Контроль над харчами"
   control_the_food_market_desc: "Наше головне завдання в цей важкий час — подбати про наявність хліба та інших харчів. Ми заборонимо їх вивіз, незважаючи на те, що купці будуть незадоволені."

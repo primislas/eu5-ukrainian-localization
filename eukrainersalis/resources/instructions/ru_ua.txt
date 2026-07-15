@@ -126,7 +126,7 @@ Historical Tone:
 * For clearly Belarusian names of Belarusian characters, translate with Belarusian pronunciation, but keep Belarusian 'Ў', 'ў'. For example, Уладзіслаў, Уладзімір, Кацярина, Канстанцін.
 6.  Attempt to avoid overuse of prepositions and constructs typical for the English language, but not natural in Ukrainian. That is, strive to keep the language lively, but only in so far as it doesn't conflict with keeping sentence structure close to the original. Especially when various scripting inserts (in particular Custom('end...') or Custom('predlog...') endings or prepositions are involved).
 7. Посулговуйся українськими правилами милозвучности - коректне чергування у-в, і-й, з-із-зі-зо.
-8. Іменники на -ть після приголосного, а також слова кров, любов, осінь, сіль, Русь, Білорусь у родовому відмінку однини можуть набувати як варіант закінчення -и: почести, соборности, любови, Руси, Білоруси, крови, радости, більшости, якости, кількости, родовитости, спільности, спроможности, цінности, грамотности, стабільности, рухливости і т.і. Надавай перевагу цьому варіанту правопису, але тільки коли впевнений, що слово в родовому відмінку.
+8. Іменники на -ть після приголосного, а також слова кров, любов, осінь, сіль, Русь, Білорусь у родовому відмінку однини можуть набувати як варіант закінчення -и: почести, соборности, любови, Руси, Білоруси, крови, радости, більшости, якости, кількости, родовитости, спільности, спроможности, цінности, грамотности, стабільности, рухливости, пошести, смертности і т.і. Надавай перевагу цьому варіанту правопису, але тільки коли впевнений, що слово в родовому відмінку.
 9. Linguistic Rule: "По" vs Instrumental Case (Орудний відмінок)
     Identify "по" and replace it according to these categories:
     * Space & Movement: Movement across/through a territory must use the bare Instrumental case without any preposition.
@@ -189,9 +189,12 @@ You can rely on and treat English text as a primary source, deduce context from 
     * vegetation, флора -> рослинність
     * subject territory connectivity, cвязанность территорий ленника -> досяжність володінь васала
     * disease, эпидемия -> пошесть
-    ** in case of lethal outbursts, to stress lethality "эпидемия" can be translated as "мор", "моровиця"
-    * disease presence, присутствие эпидемии -> поширеність пошесті
-    * disease resistance, сопротивление болезни, эпидемии -> опірність хворобі, пошестям
+    ** in case of lethal outbursts, such as black death or smallpox, to stress lethality "эпидемия" should be translated as "мор", "моровиця" (plural only "моровиці" not "мори"); be mindful of tautologies "мор чорної смерти" -> "чорний мор", "смертоносний мор" -> "смертоносна пошесть" ("мор" already implies death and lethality)
+    ** fixed expression "эпидемия чумы" -> "чумний мор"
+    ** пошесті ширяться країнами, країною, землями, місцевостями (prefer "ширяться" over "поширюються" for diseases)
+    * disease presence, присутствие эпидемии -> поширеність пошести
+    * disease resistance, сопротивление болезни, эпидемии -> опірність пошесті
+    * эпидемический -> пошесний
     * decay, упадок -> "спад", when about various modifiers and their values decreasing over time
     * global, национальный -> "сукупний", especially about demand - "сукупний попит"
     * weather system, погодная система -> погодне явище
@@ -230,6 +233,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     * policy -> політика
     * heir selection or succession law(s), правила престолонаследования -> порядок престолонаслідування
     * bureaucracy, "бюрократический механизм" -> "установа", but only when clearly talking about a game Concept; "бюрократический механизм" -> ALWAYS "установа", otherwise keep "бюрократія", "бюрократи", "бюрократичний"
+    * наши люди -> наш люд, наші піддані, when about a country or area population in general
 
     * parliament, парламент - збори, except when clearly talking about Western, Central, or Northern European nations where "парламент" is appropriate
     ** збори скликаються, радяться, обговорюють питання, засідають, тощо, use the most appropriate forms freely
@@ -638,6 +642,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** food, еда - завжди "харчі", коли мова про військові потреби в їжі
     ** АЛЕ "supply depot", "продовольственный склад" - "військова комора"
     * проспонсировать, профинансировать - узяти на власний кошт
+    * рабочая сила - робочі руки
     * секрет, секретный - таємниця, таємний
     ** не секрет, не является секретом - не є таємницею
     ** посвящать в, делиться секретом, по секрету - утаємничувати (кого-що в), таємно; however, be mindful of translations such as "утаємничувати в таємниці", "ділитися таємницями таємно" - use "приховано (ділитися, повідомляти)", "таємницю ... тримали під сімома печатями, замками" instead of "таємно, утаємничувати" to avoid tautology
