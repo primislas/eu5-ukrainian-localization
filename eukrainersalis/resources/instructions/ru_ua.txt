@@ -392,6 +392,9 @@ You can rely on and treat English text as a primary source, deduce context from 
     * гарнизонный -> залоговий
     * to garrison, вводить гарнизони -> ставити залогу, вводити залогу
 
+    * налёт, нальот - "набіг" if on land, "напад" on sea, "наскок" if stressing unexpected nature
+    * налётчик, нальотчик - грабіжник, розбійник in negative connotations, нападник in neutral (our raiders - наші нападники); make sure to interchange to avoid repetition (e.g. "розбійники розграбували", not "грабіжники розграбували")
+
 ## Religion and Culture
 
     * religion, религия -> віра
@@ -700,8 +703,6 @@ You can rely on and treat English text as a primary source, deduce context from 
     * точити кинджали - гострити ножі
     * лень, лінь - лінощі, як поняття, або якщо йдеться про процес - ледарювання
     ** кому не лінь - кому завгодно, кожному зустрічному, усім підряд
-    * налёт, нальот - набіг (але НЕ на морі), наскок, напад; наскочити
-    * налётчик, нальотчик - грабіжник, розбійник
     * некомпетентний - недолугий, непутящий, незграбний
     * незавидний - скрутний, невтішний
     * потурательство - потурання
