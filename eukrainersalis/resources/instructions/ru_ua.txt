@@ -217,22 +217,36 @@ You can rely on and treat English text as a primary source, deduce context from 
     * sow disloyalty, распространять нелояльность -> поширювати непокору
     * disloyal(ty), "нелояльность", "нелояльный" outside of fixed expressions and combinations listed above and depending on context can be best translated as "непокора", "невірність", "зрадливість", "непевність", "зрада", "підступність", "крамола" (when related to subversive actions and revolts), "бунтівний" and associated adjectives; pick the best fitting depending on context, fallback to "нелояльность", "нелояльный" when in doubt;
 
-## Estates
+## Government
 
-    * nobles, аристократы -> знать
-    * clergy, священники -> духовенство
-    * peasants -> "селяни", але "peasant_estate", "commoners", "common people/folk" -> "простолюд"
-    * dhimmi, зимми -> зіммії
-    * "estate_privilege", "сословная привилегия", "станова привілея" -> "становий привілей"
-    * tribesmen, соплеменники:
-    ** племінний люд -> в облічувальному адміністративному контексті, особливо коли мова про кількість чи число племінного люду, відсотки населення, ситуації, де йдеться більше про окремих людей, а не племена загалом
-    ** племена -> загальний необлічувальний контекст множини, наприклад, "афганські племена", "утримання племен", "потреби племен", "заохочення заселення племенами провінції", "приріст племен", "із племен у селяни", "заборона на підвищення племен", "навернення племен", "асиміляція племен"
-    ** одноплеменці -> коли контекст безпосередньої взаємодії всередині чи між племенами, наприклад, "весілля одноплеменців", "наших одноплеменців викрадають у рабство", "вожді незадоволенні наверненням їхніх одноплеменців"
-    * commoners, common people, простой народ - простий люд or простолюд (prefer the latter when clearly talking about an estate)
-    * estate enrichment, богатство стана -> збагачення стану
-    * estate or pop (group) satisfaction, довольство -> задоволення, вдоволення
-    * pop, группа населения -> громада, група населення, НЕ "верства"
-    * (upper, lower) class -> (вище, нижче) суспільство
+    * "(government) reform", "(державный) принцип" -> реформа
+    * governing family, правящая семья -> правляча родина
+    * "major reform", "ведущий принцип" -> засаднича реформа
+    * "cabinet member" / "член совета" -> радник
+    * "cabinet action" / "действие совета" -> доручення
+    * minister, министр -> "радник", except for cases when obviously talking about European countries with parliamentary systems
+    * law, правило -> "закон", when talking about laws; be attentive, Russian localization erroneously translated "laws" as "правила", but sometimes "правила" ("rules" and similar) is also appropriate, depending on context
+    * "ухвалювати/схвалювати закони"
+    * policy -> політика
+    * heir selection or succession law(s), правила престолонаследования -> порядок престолонаслідування
+    * bureaucracy, "бюрократический механизм" -> "установа", but only when clearly talking about a game Concept; "бюрократический механизм" -> ALWAYS "установа", otherwise keep "бюрократія", "бюрократи", "бюрократичний"
+
+    * parliament, парламент - збори, except when clearly talking about Western, Central, or Northern European nations where "парламент" is appropriate
+    ** збори скликаються, радяться, обговорюють питання, засідають, тощо, use the most appropriate forms freely
+    ** parliament issue, парламентский вопрос - питання, but depending on context you can elaborate it as "питання зборів", "питання для зборів", "ухвала", "рішення", etc.; питання розглядаються, подаються (на розгляд) зборам, схвалюються, тощо, adapt to context to sound as natural as possible;
+    ** parliament agenda, парламентское требование - вимога; depending on context you can enhance it, for example, "вимога на зборах", "вимога стану", "порядок денний", whatever fits best
+    ** parliament_support, парламентская поддержка - підтримка зборів
+    ** parliament type, тип парламента - вид зборів
+    ** parliament seat, место в парламенте - осідок зборів
+    ** house of parliament, здание парламента - палац зборів
+    ** рейхстаг - райхстаг
+    * governor, губернатор - намісник, except when clearly talking about English, German, or Scandinavian governors, or "генерал-губернатор(ство)"
+
+    * Страна Хулагуидов -> Ільханат
+    * Молдавия, молдавский -> always with "o" - "Молдова", "молдовський", "молдовани", etc.
+    * махараджа -> магараджа
+    * Махараджья -> Магараджія
+    * Кингитанга -> Кінгітанга
 
 ## Money and Budget
 
@@ -265,69 +279,22 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** затраты на содержание -> always simply "утримання", NOT "витрати на утримання"
     ** in a budgetary sense and context translate "затраты" як "видатки"; BUT when the text stresses the expense (unexpected and/or overly large expenses) then use "витрати"
 
-## Trade
+## Estates
 
-    * import, импорт -> привіз (привізний, привозити, привозитиметься тощо); in general text add variety translating "импортные товары" as any combination of "привізні", "заморські, "чужоземні", "іноземні", "закордонні" "товари", "крам", "вироби", whichever fits best
-    * export, экспорт -> вивіз (вивізний, вивозити, вивозитиметься тощо)
-    * BUT "импорт/экспорт ... услуг" -> "купівля/продаж ... послуг", e.g. "продаж військових послуг"
-    * "товары" - in narrative texts and when not about a game concept, translate as "крам"
-    * "импортный/экспортный рынок" -> "ринок, що купує/продає"
-    * trade order, торговый приказ -> торговельна угода
-    ** торговельні угоди укладають, а не створюють
-    * trade capacity, торговый потенциал -> торговельна спроможність
-
-## Diplomacy
-
-    * diplomat, дипломат -> посол; посольські установи, споруди, місії, відстань тощо; але дипломатичний хист, відносини, навичка, вплив, гнучкість і т.і.
-    * diplomatic capacity, дипломатический потенциал -> посольська спроможність
-    * diplomatic opinion, мнение - думка
-    * diplomatic reputation, дипломатическая репутация -> міжнародна репутація
-    * infiltrate administration, внедрение во власть, впровадження в адміністрацію -> проникнення у владу, адміністрацію
-    * antagonism, неприязнь -> ворожість
-    * vassal, subject, ленник -> васал; never use "ленник", always prefer "васал"
-    * colonian nation, колониальная нация -> колоніальне намісництво
-    * loyal (subject), лояльный (вассал) -> вірний (васал)
-    * (cb) disloyal subject, нелояльный вассал -> бунтівний васал
-    ** when the text doesn't talk about or imply rebellion, but just about general disloyalty, "нелояльний" can be translated as "непокірний"
-    * annex, аннексия, присоединение -> prefer "поглинання", especially when talking about vassals and/or diplomatic annexation, otherwise use "приєднання" when it's clearly a better fit, avoid "анексія" та "анексований" if possible
-    * переговоры, переговори -> "перемовини" in official texts, menus, as a Concept, and when a long duration is stressed
-    ** in narrative and less formal texts prefer "перемови", also when dealing with revolts
-    ** переговоров -> always "перемовин", not "перемов"
-    ** сесть за стол переговоров, вступить в переговоры -> зійтися на перемови, розпочати перемови(ни)
-    ** переговорческий -> перемовний
-    ** переговорщик -> перемовник
-    ** "не ведем переговоры с ..." -> "з ... перемов не буде"
-    * конфликт -> oftentimes war ("війна") is incorrectly translated as "конфликт" in Russian localization; if the text makes it clear that the word refers to a war (especially if there's "...war.GetName" scripting present) then translate "конфликт" as "війна", however, you can alternate "війна" and "конфлікт" to avoid repetitiveness
-
-## Government
-
-    * "(government) reform", "(державный) принцип" -> реформа
-    * governing family, правящая семья -> правляча родина
-    * "major reform", "ведущий принцип" -> засаднича реформа
-    * "cabinet member" / "член совета" -> радник
-    * "cabinet action" / "действие совета" -> доручення
-    * minister, министр -> "радник", except for cases when obviously talking about European countries with parliamentary systems
-    * law, правило -> "закон", when talking about laws; be attentive, Russian localization erroneously translated "laws" as "правила", but sometimes "правила" ("rules" and similar) is also appropriate, depending on context
-    * "ухвалювати/схвалювати закони"
-    * policy -> політика
-    * heir selection or succession law(s), правила престолонаследования -> порядок престолонаслідування
-
-    * parliament, парламент - збори, except when clearly talking about Western, Central, or Northern European nations where "парламент" is appropriate
-    ** збори скликаються, радяться, обговорюють питання, засідають, тощо, use the most appropriate forms freely
-    ** parliament issue, парламентский вопрос - питання, but depending on context you can elaborate it as "питання зборів", "питання для зборів", "ухвала", "рішення", etc.; питання розглядаються, подаються (на розгляд) зборам, схвалюються, тощо, adapt to context to sound as natural as possible;
-    ** parliament agenda, парламентское требование - вимога; depending on context you can enhance it, for example, "вимога на зборах", "вимога стану", "порядок денний", whatever fits best
-    ** parliament_support, парламентская поддержка - підтримка зборів
-    ** parliament type, тип парламента - вид зборів
-    ** parliament seat, место в парламенте - осідок зборів
-    ** house of parliament, здание парламента - палац зборів
-    ** рейхстаг - райхстаг
-    * governor, губернатор - намісник, except when clearly talking about English, German, or Scandinavian governors, or "генерал-губернатор(ство)"
-
-    * Страна Хулагуидов -> Ільханат
-    * Молдавия, молдавский -> always with "o" - "Молдова", "молдовський", "молдовани", etc.
-    * махараджа -> магараджа
-    * Махараджья -> Магараджія
-    * Кингитанга -> Кінгітанга
+    * nobles, аристократы -> знать
+    * clergy, священники -> духовенство
+    * peasants -> "селяни", але "peasant_estate", "commoners", "common people/folk" -> "простолюд"
+    * dhimmi, зимми -> зіммії
+    * "estate_privilege", "сословная привилегия", "станова привілея" -> "становий привілей"
+    * tribesmen, соплеменники:
+    ** племінний люд -> в облічувальному адміністративному контексті, особливо коли мова про кількість чи число племінного люду, відсотки населення, ситуації, де йдеться більше про окремих людей, а не племена загалом
+    ** племена -> загальний необлічувальний контекст множини, наприклад, "афганські племена", "утримання племен", "потреби племен", "заохочення заселення племенами провінції", "приріст племен", "із племен у селяни", "заборона на підвищення племен", "навернення племен", "асиміляція племен"
+    ** одноплеменці -> коли контекст безпосередньої взаємодії всередині чи між племенами, наприклад, "весілля одноплеменців", "наших одноплеменців викрадають у рабство", "вожді незадоволенні наверненням їхніх одноплеменців"
+    * commoners, common people, простой народ - простий люд or простолюд (prefer the latter when clearly talking about an estate)
+    * estate enrichment, богатство стана -> збагачення стану
+    * estate or pop (group) satisfaction, довольство -> задоволення, вдоволення
+    * pop, группа населения -> громада, група населення, НЕ "верства"
+    * (upper, lower) class -> (вище, нижче) суспільство
 
 ## Societal Values
 
@@ -351,6 +318,29 @@ You can rely on and treat English text as a primary source, deduce context from 
     *** absolutism in general, outside of specifically societal value context - "самовладдя", "деспотизм" for clearly negative connotations, "одноосібна влада", "абсолютизм" or "абсолютистський" when "самовладдя" is clearly inappropriate; але "абсолютная власть" - "необмежена влада"
     *** liberalism in general, outside of specifically societal value context - "представництво", "самоврядність", "свобода" depending on context, "лібералізм" and "ліберальний" if other alternatives do not fit well or when dealing with late 18th century when these concepts were born
     * смещение -> рух
+
+## Diplomacy
+
+    * diplomat, дипломат -> посол; посольські установи, споруди, місії, відстань тощо; але дипломатичний хист, відносини, навичка, вплив, гнучкість і т.і.
+    * diplomatic capacity, дипломатический потенциал -> посольська спроможність
+    * diplomatic opinion, мнение - думка
+    * diplomatic reputation, дипломатическая репутация -> міжнародна репутація
+    * infiltrate administration, внедрение во власть, впровадження в адміністрацію -> проникнення у владу, адміністрацію
+    * antagonism, неприязнь -> ворожість
+    * vassal, subject, ленник -> васал; never use "ленник", always prefer "васал"
+    * colonian nation, колониальная нация -> колоніальне намісництво
+    * loyal (subject), лояльный (вассал) -> вірний (васал)
+    * (cb) disloyal subject, нелояльный вассал -> бунтівний васал
+    ** when the text doesn't talk about or imply rebellion, but just about general disloyalty, "нелояльний" can be translated as "непокірний"
+    * annex, аннексия, присоединение -> prefer "поглинання", especially when talking about vassals and/or diplomatic annexation, otherwise use "приєднання" when it's clearly a better fit, avoid "анексія" та "анексований" if possible
+    * переговоры, переговори -> "перемовини" in official texts, menus, as a Concept, and when a long duration is stressed
+    ** in narrative and less formal texts prefer "перемови", also when dealing with revolts
+    ** переговоров -> always "перемовин", not "перемов"
+    ** сесть за стол переговоров, вступить в переговоры -> зійтися на перемови, розпочати перемови(ни)
+    ** переговорческий -> перемовний
+    ** переговорщик -> перемовник
+    ** "не ведем переговоры с ..." -> "з ... перемов не буде"
+    * конфликт -> oftentimes war ("війна") is incorrectly translated as "конфликт" in Russian localization; if the text makes it clear that the word refers to a war (especially if there's "...war.GetName" scripting present) then translate "конфликт" as "війна", however, you can alternate "війна" and "конфлікт" to avoid repetitiveness
 
 ## Military, Armies and Fleets
 
@@ -501,6 +491,20 @@ You can rely on and treat English text as a primary source, deduce context from 
 
     * jewish, еврей, еврейский -> юдей, юдейський
 
+## Trade
+
+    * import, импорт -> привіз (привізний, привозити, привозитиметься тощо); in general text add variety translating "импортные товары" as any combination of "привізні", "заморські, "чужоземні", "іноземні", "закордонні" "товари", "крам", "вироби", whichever fits best
+    * export, экспорт -> вивіз (вивізний, вивозити, вивозитиметься тощо)
+    * BUT "импорт/экспорт ... услуг" -> "купівля/продаж ... послуг", e.g. "продаж військових послуг"
+    * "товары" - in narrative texts and when not about a game concept, translate as "крам"
+    * "импортный/экспортный рынок" -> "ринок, що купує/продає"
+    * trade order, торговый приказ -> торговельна угода
+    ** торговельні угоди укладають, а не створюють
+    * trade capacity, торговый потенциал -> торговельна спроможність
+    * trade routes, торговые пути, маршруты -> only "торговельні шляхи", not "торгові"
+    * staplerecht right, складочное право -> "складове право", або "право складу" when it better fits in the sentence
+    * sound toll(s), плата за проход -> "мито на прохід", depending on context could be "оплаті за прохід", "сплачувати за прохід" and so on, if it fits better
+
 ## Resources, Goods, Buildings
 
     * mine, шахта - копальня
@@ -510,19 +514,18 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** prefer "штольня" whenever appropriate (especially when clearly talking about tunnels from technical perspective)
     * miner, шахтер, старатель - "гірник", "рудокоп" if clearly talking about metal extraction, never use "шахтар" or "старатель"
     ** use adjective "гірничий" for mining-related affairs, e.g. "гірничі промисли", "гірничі містечка", "гірничі закони"; but in more informal text feel free to use alternative to avoid tautologies, such as "містечка рудокопів", "закони щодо копалень" тощо
+
     * raw material(s), ресурс(ы) - сировина
     ** сировину видобувають, but depending on context you can use "вирощують", "збирають", "виробляють", etc. if appropriate
     ** prefer "сировина" to "ресурс(ы)", "сырьевые материалы, товары" whenever clearly talking about gathering, obtaining, using, processing raw resources or materials, in particular "rgo"s also deal with "сировина"
     ** food raw materials, ресурсы для производства еды - "харчова сировина", "харчові товари", "продовольство", pick depending on context
     ** ресурсний -> сировинний
     ** raw material, сырьевой товар -> prefer simple "сировина" over "сировинний товар"
+
     * farm, ферма - avoid translating it as "ферма", unless it's clearly about Anglosphere, prefer the following options instead: угіддя - a general translation, нива - when clearly about agriculture, стадниця - when clearly about horses, пасовище - when clearly about animal husbandry, плантації - when clearly fits, etc.
     * farmer, фермер - avoid translating it as "фермер", unless it's clearly about Anglosphere, prefer the following options instead: селянин - a general translation, землероб - when clearly about agriculture, стадник - when clearly about horses, пастух - when clearly about animal husbandry, плантатор - when clearly about plantations, etc.
     * farming, фермерство - "сільське господарство" in general, "землеробство" when clearly about agriculture, "тваринництво" when clearly about animal husbandry, "розведення коней" when clearly about horses, "скотарство" when clearly about cows, etc.
-    * bureaucracy, "бюрократический механизм" -> "установа", but only when clearly talking about a game Concept; "бюрократический механизм" -> ALWAYS "установа", otherwise keep "бюрократія", "бюрократи", "бюрократичний"
-    * staplerecht right, складочное право -> "складове право", або "право складу" when it better fits in the sentence
-    * sound toll(s), плата за проход -> "мито на прохід", depending on context could be "оплаті за прохід", "сплачувати за прохід" and so on, if it fits better
-    * tavern, таверна -> prefer "шинок", "корчма", unless clearly about English-speaking world
+
     * зерно:
     ** when about "grain" in general as grain crops, such as wheat, millet, rice, etc, use "збіжжя";
     ** in narrative texts and in context of food shortages or high prices, you can use alternative "хліб" ("брак хліба", "високі ціни на хліб", "вивіз хліба", "подбати про наявність хліба", "не вистачає хліба прогодувати себе", "хліб для бідноти", "вирощування хліба", "запаси хліба", "зберігання хліба" тощо);
@@ -531,17 +534,30 @@ You can rely on and treat English text as a primary source, deduce context from 
     * granary, амбар, зернохранилище -> "комора";
     ** in poetic sense as "granary of the region/country" use "житниця" ("житниця Європи", "житниця Угорщини");
     ** "granary town", "зерновой центр" -> "житниця";
-    * brewery, пивоварня -> "броварня" in general
-    * distillery, винокурня -> "винниця" in general
-    * sawmill, лесопилка - лісопильня
-    * winery, производство вина -> "винарня", but "сакарня" for "rice winery"
+
     * квасцы -> галуни
+    * spices, специи -> ALWAYS and ONLY "прянощі", replace singular "спеція" with plural "прянощі" as well, be mindful of a city "Спеція" and do not translate its name
+    * porcelain, фарфор -> порцеляна
+
     * tools, инструмент(ы) -> "знаряддя", but only when talking about mechanical or industrial tools; when clearly about heavier devices, use "приладдя"; more mechanical and specialized instruments - "пристрої" ("пневматичний пристрій кровообігу", "за допомогою таких пристроїв, як астролябія та секстант"); BUT depending on context it can also mean "засіб", "спосіб", "важіль", "інструмент":
     ** музкальные инструменты -> музичні інструменти
     ** финансовые, политические, дипломатические инструменты -> фінансові, політичні, дипломатичні засоби; "засіб політичних махінацій", "засіб управління королівством"; depending on context of diplomacy, when semantically meaning leverage, you can translate as "важіль", "важелі"
     ** depending on context it can sometimes mean "спосіб", e.g. "стало способом підвищення престижу", "спосіб контролю", "спосіб плетіння інтриг", "спосіб навчання" тощо
     ** "знаряддя влади", "знаряддя боротьби"
     ** otherwise preferable general term for "instrument" in a wider sense is "засіб"
+
+    * cloth, textile, текстиль -> тканини
+    ** текстильные мануфактуры, гильдии, etc. -> ткацькі ("ткацька мануфактура", "ткацький цех" і т.і.)
+    ** текстильная промышленность -> ткацькі промисли
+    ** HOWEVER, when text clearly deals with wool, sheep (шерсть овец) or countries known for wool cloths (such as Netherlands, England), then translate as "суконні" - "суконні промисли", "суконна мануфактура", "суконний цех" тощо
+    ** avoid tautologies, e.g. "дорогие текстильне изделия из сукна и шелка" -> "дорогі вироби з сукна та шовку", extra "textile" is redundant here
+    ** BUT "текстиль" and "промисловість" when the context is clearly about XVIII century, industrialization, factories and mills
+
+    * tavern, таверна -> prefer "шинок", "корчма", unless clearly about English-speaking world
+    * brewery, пивоварня -> "броварня" in general
+    * distillery, винокурня -> "винниця" in general
+    * sawmill, лесопилка - лісопильня
+    * winery, производство вина -> "винарня", but "сакарня" for "rice winery"
     * bailiff, бейлифф -> управа, when about the insitution or building; when about an appointed person -> управ (singular), управи (plural);
     * guild, гильдия -> цех, UNLESS specifically about trade guilds, in which case it remains "гільдія"
     * cloth guild, гильдия прядильщиков, прядильщики -> заміняй "прядильщиків" на "ткачей", окрім випадків "fine cloth" або коштовних тканин в контексті, тоді - "кравці"; "ткацький цех"
@@ -553,20 +569,15 @@ You can rely on and treat English text as a primary source, deduce context from 
     * dyes guild -> "фарбарня"; masters, who dye -> "фарбарі", NOT "барвники"
     * jewelry, jewelers, ювелир(ы) -> золотарі
     ** "гильдия ювелиров" -> цех золотарів
-    * porcelain, фарфор -> порцеляна
-    * cloth, textile, текстиль -> тканини
-    ** текстильные мануфактуры, гильдии, etc. -> ткацькі ("ткацька мануфактура", "ткацький цех" і т.і.)
-    ** текстильная промышленность -> ткацькі промисли
-    ** HOWEVER, when text clearly deals with wool, sheep (шерсть овец) or countries known for wool cloths (such as Netherlands, England), then translate as "суконні" - "суконні промисли", "суконна мануфактура", "суконний цех" тощо
-    ** avoid tautologies, e.g. "дорогие текстильне изделия из сукна и шелка" -> "дорогі вироби з сукна та шовку", extra "textile" is redundant here
-    ** BUT "текстиль" and "промисловість" when the context is clearly about XVIII century, industrialization, factories and mills
     * shipyard, судостроительная верфь -> корабельня
     * tax assessor, налоговый чиновник -> митар
     * entrepot, пакгауз -> торгова комора
     * trading hub, торговый узел -> великий торг
     * quarter, квартал -> when talking about a national or religious community, use "подвір’я" or "двір", for example "венеційське подвір’я", "юдейське подвір’я", "португальське подвір’я"; interchange it with "двір", if necessary to avoid repetitiveness in text (e.g. "Вірменське подвір’я... У цьому дворі...");
 
-## Avoid Legalese, Bureaucatic Jargon, Anachronisms and Loan Words
+
+
+# Avoid Legalese, Bureaucatic Jargon, Anachronisms and Loan Words
 
 Уникай канцеляризмів, анахронізмів, запозичень там, де це можливо. Надавай перевагу питомим українським відповідникам, якщо такі існують. Втім, текст має залишатися зрозумілим сучасному читачеві. Якщо зміст слова сильно змінився, чи слово геть вийшло з ужитку, то вживаємо сучасні варіанти. Приклади вдалої адаптації:
     * алкоголь - хмільне, хмільні напої, п’янкі напої
@@ -618,7 +629,9 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** increase chances, повысить шансы -> підвищити ймовірність, сподівання, надію
     ** second chance, второй шанс -> повторна нагода, ще одна нагода
 
-## Avoid "Russian" Jargon (aka Russianisms, Rusizms) and Load Words
+
+
+# Avoid "Russian" Jargon (aka Russianisms, Rusizms) and Load Words
 
 Уникай русизмів, кальки та запозичень з російської мови чи Московії з Російською імперією. Наприклад:
     * район -> уникай цього слова де тільки можливо, в залежності від контексту альтернативи: "місцевість" (зокрема завжди, коли явно йдеться про ігрову концепцію "location"), землі, терени, володіння, округи, області, регіони

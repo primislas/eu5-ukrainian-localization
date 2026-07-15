@@ -857,7 +857,7 @@
   flavor_chi.2013.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   flavor_chi.2013.a.entry: "$common_string_brilliant$"
   flavor_chi.2014.title: "Вишуканий смак"
-  flavor_chi.2014.desc: "#TOOLTIP:REGION,indonesia_region,X #L Індонезія#!#! славиться своїми спеціями, але такої ароматної #TOOLTIP:GOODS,cloves,X #L гвоздики#!#!, як на #TOOLTIP:AREA,moluccas_area,X #L Молуккських островах#!#!, немає більше ніде. Місцеві жителі прийняли нашу делегацію винятково привітно і подарували нам велику партію цієї вишуканої приправи. $expedition_name_treasure_voyage$ привозить додому стільки гвоздики, що [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] та [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] зможуть насолоджуватися її смаком кілька місяців поспіль."
+  flavor_chi.2014.desc: "#TOOLTIP:REGION,indonesia_region,X #L Індонезія#!#! славиться своїми прянощами, але такої духмяної #TOOLTIP:GOODS,cloves,X #L гвоздики#!#!, як на #TOOLTIP:AREA,moluccas_area,X #L Молуккських островах#!#!, немає більше ніде. Місцеві жителі прийняли нашу делегацію винятково привітно і подарували нам велику партію цієї вишуканої приправи. $expedition_name_treasure_voyage$ привозить додому стільки гвоздики, що [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] та [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] зможуть насолоджуватися її смаком кілька місяців поспіль."
   flavor_chi.2014.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   flavor_chi.2014.a.entry: "$common_string_brilliant$"
   flavor_chi.2015.title: "Затримання [Select_CString(extradited_character.IsFemale,'втікачки', 'втікача')]"
