@@ -199,7 +199,7 @@
   OUTLINER_AGENDA_RED_ALERTS: "У вас є червоні сповіщення ([GetAlertOfTypeShowingCount('ALERT_PRIORITY_RED')]), яким потрібно приділити увагу."
   OUTLINER_AGENDA_NO_RED_ALERTS: "Немає червоних сповіщень."
   OUTLINER_AGENDA_ALERTS: "Сповіщення"
-  OUTLINER_LAW_SIDEMENU: "Клацніть, щоб вибрати [Concept('policy', 'політику')|e]"
+  OUTLINER_LAW_SIDEMENU: "Клацніть, щоб обрати [Concept('policy', 'політику')|e]"
   UNIT_RECRUIT_SHORT: "Набір"
   UNIT_RECRUIT: "[SUBUNITDEFINITION.GetNameWithNoTooltip] — набір у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetNameWithNoTooltip]"
   UNIT_BUILD_SHORT: "Набір"

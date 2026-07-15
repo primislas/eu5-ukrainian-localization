@@ -93,7 +93,7 @@
   HOLY_SITES_SCROLL_LIST_EMPTY: "За цими критеріями [Concept('holy_sites', 'святині')|e] не знайдено"
   MODIFIER_HOLY_SITE: "$TYPE$ у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetName]."
   FACTIONS: "Течії"
-  TOGGLE_FACTION_ACTIONS: "Клацніть, щоб вибрати дії"
+  TOGGLE_FACTION_ACTIONS: "Клацніть, щоб обрати дії"
   TOGGLE_FACTION_ACTIONS_DISABLED: "Взаємодіяти з фракціями можуть лише їхні учасники"
   APPROVE_RESOLUTION: "Прийняти"
   DENY_RESOLUTION: "Відхилити"

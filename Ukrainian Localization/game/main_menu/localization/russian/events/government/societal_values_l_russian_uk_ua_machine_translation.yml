@@ -691,7 +691,7 @@
   STATIC_MODIFIER_NAME_generous_terms: "$societal_values.1605.title$"
   STATIC_MODIFIER_DESC_generous_terms: "Наші позикодавці погодилися тимчасово зменшити лихву з боргу."
   societal_values.1606.title: "Корисні поради"
-  societal_values.1606.desc: "Корисну пораду часом важко знайти, але в наші дні радники неабияк розплодилися, тож нам є з кого вибрати."
+  societal_values.1606.desc: "Корисну пораду часом важко знайти, але в наші дні радники неабияк розплодилися, тож нам є з кого обирати."
   societal_values.1606.a: "Розгляньмо кандидатів."
   STATIC_MODIFIER_NAME_good_advise: "$societal_values.1606.title$"
   STATIC_MODIFIER_DESC_good_advise: "Люди, що підтримують наш уряд, постійно дають корисні поради!"

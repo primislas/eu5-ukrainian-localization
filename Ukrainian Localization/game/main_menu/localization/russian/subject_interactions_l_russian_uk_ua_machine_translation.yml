@@ -40,7 +40,7 @@
   tributary_join_defensive_wars_always_tt: "Васал атакований іншою країною, яка не є данником того ж сюзерена."
   BUILDING_COUNTRY_NAME: "$ADJ$ий $REGION$"
   PLAY_AS_RELEASED_SUBJECT: "Грати за звільненого васала"
-  SELECT_SUBJECT_TYPE_CLICK: "Вибрати цей [Concept('subject_type', 'тип васала')|e]"
+  SELECT_SUBJECT_TYPE_CLICK: "Обрати цей [Concept('subject_type', 'тип васала')|e]"
   SUBJECT_TYPE_JOIN_OFFENSIVE_WARS_ALWAYS_IF: "[COUNTRY.GetName] буд[COUNTRY.Custom('end_eut')] приєднуватися до наступальних війн #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!, якщо:"
   SUBJECT_TYPE_JOIN_OFFENSIVE_WARS_AUTOCALL_IF: "[COUNTRY.GetName] буд[COUNTRY.Custom('end_eut')] автоматично закликатися на наступальні війни #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!, якщо:"
   SUBJECT_TYPE_JOIN_OFFENSIVE_WARS_CANCALL_IF: "[COUNTRY.GetName] може бути закликан[COUNTRY.Custom('end_clean')] на наступальні війни #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!, якщо:"

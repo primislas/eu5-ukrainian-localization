@@ -163,6 +163,12 @@ Historical Tone:
 
 You can rely on and treat English text as a primary source, deduce context from Russian-English interplay.
 
+## Game Menus and Terms
+
+    * выбрать, выбирать -> in all cases "обрати", "обирати" (NOT "виб(и)рати"), with the exception of: selecting multiple units, locations, armies, fleets (usually referming to selecting multiple items on the map or in a multiple choice menu), then use "вибрати загони, місцевості, війська, флоти"
+    ** common fixed expression - "немає ... з яких можна обрати"
+    ** this applies to "выб(и)рать" throughout the localization, not just menus
+
 ## Game Concepts
 
     * game concept "gold" in the sense of money, дукаты -> гроші

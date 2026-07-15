@@ -619,7 +619,7 @@
   RGO_BUILD_GOODS_PRICE_IMPACT_ON_COST: "Від стандартної ринкової ціни $GOODS_GetName_UA_GEN_lower$ ([GOODS.GetDefaultMarketPrice|1]@gold!): $SCALE$"
   TOTAL_PRODUCTION: "Обсяг виробництва в [Concept('country', 'країні')|e]"
   GOOD_PRODUCTION: "Виробництво товару «[GOODS.GetName]»"
-  SELECT_LOCATION: "Вибрати місцевість"
+  SELECT_LOCATION: "Обрати місцевість"
   SELECT_ALL_LOCATIONS: "Вибрати всі місцевості"
   EXPAND_PRODUCTION_SORT_NAME: "Сортувати за назвою [Concept('location', 'місцевості')|e]"
   EXPAND_PRODUCTION_SORT_PRICE: "Сортувати за ціною на кожному [Concept('market', 'ринку')|e]"

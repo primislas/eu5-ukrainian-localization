@@ -409,7 +409,7 @@
   request_war_entry_desc: "Ми не зможемо вийти переможцями з цієї довгої кровопролитної війни самотужки. Потрібно звернутися до сусідньої країни та спонукати її взятися за зброю та приєднатися до нашої боротьби."
   hyw_sign_truce: "Підписання перемир'я"
   hyw_sign_truce_desc: "Гордість вимагає йти до переможного кінця, але розсудливість підказує, що краще проявити стриманість і піти на перемир'я з ворогом — хоча б заради того, щоб зробити передишку та підготуватися до наступного кроку."
-  choose_neighbor_country: "Вибрати сусідню [Concept('country', 'країну')|e]"
+  choose_neighbor_country: "Обрати сусідню [Concept('country', 'країну')|e]"
   no_neighbor_country_available: "@trigger_no! Немає доступних сусідніх [Concept('country', 'країн')|e]."
   target_country_will_be_asked_for_truce_tt: "#ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_ACC')|L]#!#! попросять підписати #Y 5#!-річне [Concept('truce', 'перемир’я')|e] з нами в ході [Concept('event', 'події')|e]"
   selected_country_will_be_asked_for_truce_tt: "Вибрану [Concept('country', 'країну')|e] попросять підписати #Y 5#!-річне [Concept('truce', 'перемир’я')|e] з нами в ході [Concept('event', 'події')|e]"
