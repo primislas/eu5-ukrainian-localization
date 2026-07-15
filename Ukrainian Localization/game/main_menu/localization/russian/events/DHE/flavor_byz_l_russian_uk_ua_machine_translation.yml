@@ -99,7 +99,7 @@
   byz_magnates_wont_offer_again_tt: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] більше не стан[ROOT.GetCountry.Custom('nobles_eut')] пропонувати допомогу у відновленні флоту"
   flavor_byz.15.title: "[ROOT.GetCountry.GetGovernment.GetRulerOrRegent.GetNameWithNoTooltip] та [Select_CString(target_character.IsFemale, 'її', 'його')] морські реформи"
   flavor_byz.15.entry: "$flavor_byz.15.title$"
-  flavor_byz.15.desc: "Не секрет, що наш військовий флот знавав кращі дні. Недавні потрясіння спустошили імперську скарбницю, країна змушена скорочувати витрати та економити буквально на всьому. Попри це, [target_character2.GetName] і [Select_CString(target_character2.IsFemale,'її', 'його')] радники розробили план, який дозволить повернути нашому флоту колишню силу."
+  flavor_byz.15.desc: "Не є таємницею, що наш військовий флот знавав кращі дні. Недавні потрясіння спустошили імперську скарбницю, країна змушена скорочувати витрати та економити буквально на всьому. Попри це, [target_character2.GetName] і [Select_CString(target_character2.IsFemale,'її', 'його')] радники розробили план, який дозволить повернути нашому флоту колишню силу."
   flavor_byz.15.a: "Ця реформа необхідна."
   flavor_byz.15.b: "Ці гроші краще витратити на щось інше…"
   flavor_byz.15.c: "Ці кошти краще витратити на щось інше..."

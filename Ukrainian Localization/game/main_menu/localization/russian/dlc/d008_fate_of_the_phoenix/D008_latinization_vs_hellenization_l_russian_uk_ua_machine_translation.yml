@@ -98,7 +98,7 @@
   latinization_vs_hellenization.20.a: "[Select_CString(target_character.IsFemale, 'Їй', 'Йому')] час вирушити на заслужений відпочинок..."
   latinization_vs_hellenization.20.b: "Ми не будемо слухати дозвільні плітки!"
   target_character_spills_the_beans: "[target_character.GetShortName] видає наші таємниці [Concept('rivals', 'суперникам')|e] та [Concept('rival_enemies', 'ворогам')|e]"
-  target_character_lips_shut: "[target_character.GetSheHe|U] вміє зберігати секрети"
+  target_character_lips_shut: "[target_character.GetSheHe|U] вміє зберігати таємниці"
   latinization_vs_hellenization.21.title: "Зростання інфляції"
   latinization_vs_hellenization.21.desc: "Притік знецінених та підроблених монет спричинив зростання цін по всій #L [ROOT.GetCountry.GetAdjective|l]ій#! землі. Деякі радники при дворі закликають негайно вжити заходів, інші ж вважають, що наше втручання лише погіршить ситуацію."
   latinization_vs_hellenization.21.a: "Посилимо контроль над монетами."

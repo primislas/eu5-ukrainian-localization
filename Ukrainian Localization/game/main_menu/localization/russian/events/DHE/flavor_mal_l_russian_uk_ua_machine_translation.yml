@@ -42,7 +42,7 @@
   mal_need_for_firearms: "Нам потрібна вогнепальна зброя"
   mal_rejection_of_firearms: "Нам не потрібна вогнепальна зброя"
   flavor_mal.8.title: "[mal_arms_buyer.GetNameWithNoTooltip] запитує доступ до вогнепальної зброї"
-  flavor_mal.8.desc: "До нашого двору дійшли цікаві вісті. Ходять чутки, ніби купці з #ONCLICK:COUNTRY,[mal_arms_buyer.Custom('CL_tt')] #TOOLTIP:COUNTRY,[mal_arms_buyer.Custom('CL_tt')],X [mal_arms_buyer.Custom('CL_GEN')|L]#!#!, яких [Select_CString(mal_arms_buyer.GetGovernment.GetRuler.IsFemale,'прислала', 'прислав')] їх [mal_arms_buyer.GetGovernment.GetRulerTitle|l], пропонують нам продати свою вогнепальну зброю та секрет її виробництва. Якщо ми надамо їм доступ до нашого арсеналу, то отримаємо вдячного союзника в Західній Африці, але втратимо вигідного покупця."
+  flavor_mal.8.desc: "До нашого двору дійшли цікаві вісті. Ходять чутки, ніби купці з #ONCLICK:COUNTRY,[mal_arms_buyer.Custom('CL_tt')] #TOOLTIP:COUNTRY,[mal_arms_buyer.Custom('CL_tt')],X [mal_arms_buyer.Custom('CL_GEN')|L]#!#!, яких [Select_CString(mal_arms_buyer.GetGovernment.GetRuler.IsFemale,'прислала', 'прислав')] їх [mal_arms_buyer.GetGovernment.GetRulerTitle|l], пропонують нам продати свою вогнепальну зброю та таємниці її виробництва. Якщо ми надамо їм доступ до нашого арсеналу, то отримаємо вдячного союзника в Західній Африці, але втратимо вигідного покупця."
   flavor_mal.8.a: "Нам невигідно продавати їм зброю."
   flavor_mal.8.b: "Справа, здається, прибуткова."
   mal_granted_us_access_to_firearms: "Нам дали доступ до вогнепальної зброї"

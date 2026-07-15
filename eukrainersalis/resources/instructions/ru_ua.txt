@@ -634,6 +634,10 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** food, еда - завжди "харчі", коли мова про військові потреби в їжі
     ** АЛЕ "supply depot", "продовольственный склад" - "військова комора"
     * проспонсировать, профинансировать - узяти на власний кошт
+    * секрет, секретный - таємниця, таємний
+    ** не секрет, не является секретом - не є таємницею
+    ** посвящать в, делиться секретом, по секрету - утаємничувати (кого-що в), таємно; however, be mindful of translations such as "утаємничувати в таємниці", "ділитися таємницями таємно" - use "приховано (ділитися, повідомляти)", "таємницю ... тримали під сімома печатями, замками" instead of "таємно, утаємничувати" to avoid tautology
+    ** королевский секрет - королівський секрет (established name of the French secret service)
     * термин(ы) - строк(и)
     * фактор - чинник
     * chance, шанс -> depending on context "нагода", "змога", "можливість" (only when clearly the most appropriate option), "ймовірність" (when talking about percentages and probabilities); fixed expressions:

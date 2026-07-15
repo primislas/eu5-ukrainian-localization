@@ -838,7 +838,7 @@
   STATIC_MODIFIER_NAME_shameless_privateering_modifier: "Необмежене каперство"
   STATIC_MODIFIER_DESC_shameless_privateering_modifier: "Ця країна витрачає чималі кошти на підкуп піратів, які турбують її суперників на морі."
   STATIC_MODIFIER_NAME_deaf_mute_servants_modifier: "Дільсіз"
-  STATIC_MODIFIER_DESC_deaf_mute_servants_modifier: "При дворі цієї країни служить чимало глухонімих-дільсіз, що сприяє секретності та підвищенню ефективності шпигунства."
+  STATIC_MODIFIER_DESC_deaf_mute_servants_modifier: "При дворі цієї країни служить чимало глухонімих-дільсіз, що сприяє таємниці та підвищенню ефективності шпигунства."
   STATIC_MODIFIER_NAME_emperor_of_rome: "Цезар Риму"
   STATIC_MODIFIER_DESC_emperor_of_rome: "Цей персонаж прийняв давнє звання римського цезаря, і багато хто визнає справедливість його домагань."
   STATIC_MODIFIER_NAME_sheikh_ul_islam_modifier: "$common_string_shaikh_al_islam$"

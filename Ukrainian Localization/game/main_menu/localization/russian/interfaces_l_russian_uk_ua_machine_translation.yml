@@ -699,7 +699,7 @@
   AUTOMATED_SYSTEM_ESTATES_DESC: "Дозволяє грі керувати [Concept('estate_privileges', 'становими привілеями')|e] за вас, за необхідності віддаючи пріоритет вашим інтересам або збільшенню задоволення [Concept('estates', 'станів')|e]."
   AUTOMATED_SYSTEM_ESTATES_CLICK: "Відкрити стани"
   AUTOMATED_SYSTEM_EXPLORATION: "Експедиції"
-  AUTOMATED_SYSTEM_EXPLORATION_DESC: "Дозволяє грі автоматично відправляти [Concept('exploration', 'експедиції')|e] та відкривати секрети [Concept('terra_incognita', 'терра інкогніта')|e]."
+  AUTOMATED_SYSTEM_EXPLORATION_DESC: "Дозволяє грі автоматично відправляти [Concept('exploration', 'експедиції')|e] та відкривати таємниці [Concept('terra_incognita', 'терра інкогніта')|e]."
   AUTOMATED_SYSTEM_EXPLORATION_CLICK: "Відкрити вкладку експедицій"
   AUTOMATED_SYSTEM_COLONIES: "Колонії"
   AUTOMATED_SYSTEM_COLONIES_DESC: "Дозволяє грі автоматично засновувати [Concept('colonial_charters', 'поселення')|e] для [Concept('colonize', 'колонізації')|e] вільних [Concept('provinces', 'провінцій')|e] та включати нові землі до складу [Concept('country', 'країни')|e]."

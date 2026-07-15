@@ -51,7 +51,7 @@
   dynastic.10.desc: "Хтось обгорнув тіло в білу тканину, яка вже просочилася [Select_CString(heir_char.IsFemale, 'її', 'його')] кров'ю. Кажуть, [Select_CString(heir_char.IsFemale, 'її', 'його')] кінь сам знайшов тіло на лісовій галявині. Ми знаємо, що це за місце. [Select_CString(heir_char.IsFemale, 'Її', 'Його')] обличчя застигло в спокійному, безтурботному виразі. Придворні простягають руки, щоб торкнутися тіла, і до нас повільно приходить усвідомлення, наскільки жахливе те, що сталося. Кінчики пальців обпікає холод, властивий тільки смерті."
   dynastic_10_a_helper: "[heir_char.GetName] [Select_CString(heir_char.IsFemale,'пішла', 'пішов')] з життя"
   dynastic.10.a: "[ROOT.GetCountry.GetGovernment.GetCourtTitle] сумує."
-  dynastic.11.title: "Сімейний секрет"
+  dynastic.11.title: "Сімейна таємниця"
   dynastic.11.desc: "Спершу [ruler_char.GetDynasty.GetName] [Select_CString(ruler_char.IsFemale, 'не звертав', 'не звертала')] уваги, однак згодом це стало надто кидатися в очі… Чому люди сміються та шепочуться, проходячи повз? Відповідь допомогла знайти служниця. Виявилося, що [heir_char.GetShortName] [Select_CString(heir_char.IsFemale, 'бігала', 'бігав')] містом у вкрай непристойному вигляді, що не личить [Select_CString(heir_char.IsFemale, 'християнці', 'християнину')], і тепер [ROOT.GetCountry.GetCapital.GetProvince.GetContinent.GetName] сміється над [ROOT.GetCountry.GetGovernment.GetAdjective|l]ою родиною."
   dynastic.11.a: "Зробимо [Select_CString(heir_char.IsFemale, 'їй', 'йому')] публічну догану."
   dynastic.11.b: "У династії [ruler_char.GetDynasty.GetNameWithNoTooltip] не опускаються до розглядів через такі дрібниці."
