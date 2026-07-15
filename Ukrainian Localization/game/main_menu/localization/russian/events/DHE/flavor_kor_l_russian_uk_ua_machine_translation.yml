@@ -222,7 +222,7 @@
   flavor_kor.36.b: "Впораємося і без них."
   flavor_kor.37.title: "Критика буддизму"
   flavor_kor.37.entry: "Критика буддизму"
-  flavor_kor.37.desc: "[target_international_organization.GetName] так надихає одного з наших вчених, що він написав цілий трактат, де виклав полемічні аргументи проти принципів буддизму. Публікація «Зводу критики буддизму» знаменує переломний момент — тепер ясно, що #L [ROOT.GetCountry.GetAdjective|l]е#! суспільство поступово схиляється до вірувань, які практикує [target_international_organization.GetNameWithNoTooltip]."
+  flavor_kor.37.desc: "[target_international_organization.GetName] так надихає одного з наших вчених, що він написав цілий трактат, де виклав полемічні доводи проти принципів буддизму. Публікація «Зводу критики буддизму» знаменує переломний момент — тепер ясно, що #L [ROOT.GetCountry.GetAdjective|l]е#! суспільство поступово схиляється до вірувань, які практикує [target_international_organization.GetNameWithNoTooltip]."
   flavor_kor.37.a: "Поширити трактат повсюдно."
   flavor_kor.37.b: "Засудити цю роботу."
   KOR_increase_favor_of_confucianism: "[Concept('international_organization_variable', 'Змінна')|e] «$sect_favor$» в об'єднання «[target_international_organization.GetName]» збільшиться на #g 5,0%#!."

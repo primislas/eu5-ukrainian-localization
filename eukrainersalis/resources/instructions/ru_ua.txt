@@ -589,6 +589,10 @@ You can rely on and treat English text as a primary source, deduce context from 
     * аналог - відповідник
     * аналогічний - подібний
     * аналогично, аналогічно - подібно до, за зразком
+    * аргумент, аргументы - довід, доводи
+    ** аргументировать, аргументированный - обґрунтовувати, обґрунтований; "в качестве аргумента" - "обґрунтовуючи тим, що"
+    ** контраргументы - заперечення, спростування
+    ** исторические аргументы - історичні підстави
     * аромат - depending on context:
     ** "пахощі" when clearly about pleasant exotic aromas: пахощі гвоздики, квітки, парфумів
     ** "ароматы и благоухания/благовония" -> simply "пахощі"
@@ -596,7 +600,11 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** "дух" for more abstract concepts, like intrigues or progress: дух інтриг, дух поступу
     * ароматный, ароматический: "духмяний" для прянощів, вишуканих чи екзотичних запахів, пахощів; "запашний" для більш приземлених і побутових запахів (зокрема пива)
     * бандит - харциз, розбійник
-    * бандитський - розбійницький
+    * бандитский - розбійницький
+    * биография, биографический - життєпис, життєписний
+    ** автобиография, автобиографический - саможиттєпис, саможиттєписний
+    ** биографическая рукопись - рукописний життєпис
+    ** "житіє" when about ancient kings or important religious figures, saints
     * deficit, дефицит -> strive to avoid "дефіцит", depending on context use the following alternatives:
     ** "нестача", especially in menus
     ** "брак", "бракує" as an extra alternative to diversify narrative and event texts
@@ -734,6 +742,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     * мало не покажется - буде непереливки
     * некоторе считают - "дехто вважає", НЕ "деякі вважають"
     * кто попало - абихто, хто завгодно
+    * просочений - просякнутий
 
 
 

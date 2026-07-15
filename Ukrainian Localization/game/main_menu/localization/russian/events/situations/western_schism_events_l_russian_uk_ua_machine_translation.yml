@@ -35,7 +35,7 @@
   western_schism.10.title: "[target_schism_pope_cardinal.GetNameWithNoTooltip] користується народною підтримкою"
   western_schism.10.desc: "$western_schism_8_10_common_string$ саме [target_schism_pope_cardinal.GetName] — єдиний законний папа."
   western_schism.10.a: "Якщо вони хочуть бунтувати — нехай спробують."
-  western_schism.10.b: "Їхні аргументи звучать переконливо."
+  western_schism.10.b: "Їхні доводи звучать переконливо."
   western_schism_11_12_common_string: "користується великою підтримкою #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!. [target_country.GetAdjectiveWithNoTooltip]і влада публічно висловлює своє захоплення нашою стійкістю та непохитною вірою, такою рідкісною в ці смутні часи.\n\nЗвісно, ці солодкі промови мають лише одну мету — заручитися подальшою підтримкою #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Проте ми зможемо отримати користь з їхньої похвали — особливо якщо"
   western_schism_11_12_common_string_2: "з нашою допомогою вийде з протистояння переможцем. Крім того, вона стане сильним козирем, щоб просунути наші власні інтереси в католицькій церкві…"
   western_schism.11.title: "[target_country.GetAdjectiveWithNoTooltip]а влада дякує нам за підтримку"
