@@ -521,7 +521,7 @@
   navy_transport_build: "Витрати на будівництво транспортного судна"
   navy_transport_reinforce: "Витрати на ремонт транспортного судна"
   navy_transport_maintenance: "Видатки на утримання транспортного судна"
-  template_maintenance: "Утримання шаблону"
+  template_maintenance: "Утримання строю"
   subject_pays_vassal: "Васал платить сюзерену"
   subject_pays_samanta: "$samanta$ платить сюзерену"
   subject_pays_maha_samanta: "$maha_samanta$ платить сюзерену"
