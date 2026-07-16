@@ -124,7 +124,7 @@
   RESOURCES_FROM_BUILDINGS: "Від [Concept('buildings', 'споруд')|e]: $VAL|<+=2$"
   ADDITIONAL_MODIFIER_ENTRENCHMENT: "[Concept('entrenchment', 'Укоріненість')|e]: $VAL|-=%$"
   ADDITIONAL_MODIFIER_MAINTENANCE_PRICE: "[Concept('economical_base', 'Господарча база')|e] ([Player.GetEconomicalBaseWithLabel|2]): $VAL|-=%$"
-  MINTING_FULL_EFFICIENCY_INCOME: "При вибраному параметрі [Concept('minting', 'карбування')|e] дохід при максимальній ефективності становив би $VAL|2+=$@income!"
+  MINTING_FULL_EFFICIENCY_INCOME: "При обраному параметрі [Concept('minting', 'карбування')|e] дохід при максимальній ефективності становив би $VAL|2+=$@income!"
   army_tradition: "Військові традиції"
   navy_tradition: "Морські традиції"
   FORMAT_CURRENCY_percent: "$VAL|2-=%$"

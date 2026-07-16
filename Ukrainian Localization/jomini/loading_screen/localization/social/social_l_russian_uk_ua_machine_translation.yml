@@ -23,7 +23,7 @@
   SOCIAL_REMOVE_FRIEND_CONFIRM_WINDOW_TITLE: "Видалити друга"
   SOCIAL_REMOVE_FRIEND_CONFIRM_WINDOW_DESCRIPTION: "Ви дійсно бажаєте видалити користувача [Friend.GetName] зі списку друзів?"
   SOCIAL_MESSAGE: "[ChatMessage.GetName]: [ChatMessage.GetMessage]"
-  PROFILES_username-exists: "Це ім'я користувача вже вибрано. Виберіть інше ім'я."
+  PROFILES_username-exists: "Це ім'я користувача вже обрано. Оберіть інше ім'я."
   PROFILES_invalid-email: "Некоректна адреса електронної пошти"
   PROFILES_bad-auth-method: "Невірний метод автентифікації"
   PROFILES_account-exists: "Обліковий запис не вдалося знайти"

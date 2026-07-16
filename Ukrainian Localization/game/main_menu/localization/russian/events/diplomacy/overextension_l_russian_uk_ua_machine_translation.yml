@@ -10,7 +10,7 @@
   overextension.3.a: "Це взагалі не їхня справа!"
   overextension.4.title: "Інфляція"
   overextension.4.desc: "Постійні війни підірвали нашу економіку, інфляція вирвалася з-під контролю!"
-  overextension.4.a: "То відчеканьте більше грошей!"
+  overextension.4.a: "То відкарбуйте більше грошей!"
   overextension.5.title: "Дезертирство офіцерів"
   overextension.5.desc: "Втомившись від нескінченних і безглуздих воєн, багато офіцерів #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! кидають службу і вирушають на пошуки удачі в інші краї."
   overextension.5.a: "Не біда, їх замінять інші офіцери!"
