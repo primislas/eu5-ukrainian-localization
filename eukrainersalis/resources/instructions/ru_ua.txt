@@ -165,13 +165,12 @@ You can rely on and treat English text as a primary source, deduce context from 
 
 ## Game Menus and Terms
 
-    * выбрать, выбирать -> in all cases "обрати", "обирати" (NOT "виб(и)рати"), with the exception of: selecting multiple units, locations, armies, fleets (usually referming to selecting multiple items on the map or in a multiple choice menu), then use "вибрати загони, місцевості, війська, флоти"
+    * выбрать, выбирать, выбранный -> in all cases "обрати", "обирати" (NOT "виб(и)рати"), "обраний", "обрано" and other related forms, with the exception of: selecting multiple units, locations, armies, fleets (usually referming to selecting multiple items on the map or in a multiple choice menu), then use "вибрати загони, місцевості, війська, флоти"
     ** common fixed expression - "немає ... з яких можна обрати"
     ** this applies to "выб(и)рать" throughout the localization, not just menus
 
 ## Game Concepts
 
-    * game concept "gold" in the sense of money, дукаты -> гроші
     * "country", "держава" -> "країна", attempt to avoid the word "держава" as much as possible, unless it's without a doubt a superior or more fitting option, most commonly when discussing "держава" as a bureaucratic, modern mechanism of government, legal political entity, empires and tsardoms, countries known for well developed bureaucracy, etc
     ** adjective "державний" is allowed
     ** "держава" is allowed to be used avoid tautologies and repetitiveness with "країна" in the same paragraph
@@ -226,6 +225,12 @@ You can rely on and treat English text as a primary source, deduce context from 
     * sow disloyalty, распространять нелояльность -> поширювати непокору
     * disloyal(ty), "нелояльность", "нелояльный" outside of fixed expressions and combinations listed above and depending on context can be best translated as "непокора", "невірність", "зрадливість", "непевність", "зрада", "підступність", "крамола" (when related to subversive actions and revolts), "бунтівний" and associated adjectives; pick the best fitting depending on context, fallback to "нелояльность", "нелояльный" when in doubt;
 
+    * event option, вариант события -> вибір у події
+    ** NOT "обрати ... варіант" ("выбрать ... вариант") BUT "зробити вибір"
+    * historical decision, исторически достоверный вариант -> історично достеменний вибір
+    ** NOT "обрати історично достеменний вибір" but correctly "зробити історично достеменний вибір"
+    * historical ai choices, историческая достоверность -> історична достеменність; робитимуть історично достеменний вибір
+
 ## Government
 
     * "(government) reform", "(державный) принцип" -> реформа
@@ -261,8 +266,10 @@ You can rely on and treat English text as a primary source, deduce context from 
 ## Money and Budget
 
     * economy, економіка -> господарство, господарчий, etc.
+    * game concept "gold" in the sense of money, дукаты -> гроші
     * treasury, казна, "финансовое ведомство" and similar phrases -> скарбниця, except when clearly about Muscovy, Russia, or Tatar countries, where "казна" is appropriate
     * treasurer, казначей -> скарбій, скарбник, except when clearly about Muscovy, Russia, or Tatar countries
+    * minting, чеканка -> only "карбування" ("відкарбувати", "відкарбований", "відкарбуйте", etc.)
     * казенный -> "державний", and sometimes if the context fits "владний"
     * казнокрадство -> хабарництво, продажність, здирництво, криводушшя
     * prefer "лихва" and associated terms (лихварі, лихварство, тощо) when dealing with loans and percentages
@@ -772,6 +779,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     * некоторе считают - "дехто вважає", НЕ "деякі вважають"
     * кто попало - абихто, хто завгодно
     * просочений - просякнутий
+    * некоторые, деякі - поширений невдалий переклад "некоторые" на "деякі", хоча натомість часто варто переклади як "дехто": деякі (некоторые) вважають, пропонують і т.і. -> дехто вважає, пропонує і т.і.
 
 
 

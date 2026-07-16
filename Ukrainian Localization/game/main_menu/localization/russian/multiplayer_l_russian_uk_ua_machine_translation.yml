@@ -18,7 +18,7 @@
   MULTIPLAYER_GUI_OOS_SP: "Продовжити в одиночній грі"
   OOS_INDICATOR: "Відсутня синхронізація. Триває запис даних про причину…"
   DISCONNECTING_INDICATOR: "Відключення…"
-  MULTIPLAYER_APPLY_HOTJOIN: "Застосувати вибране"
+  MULTIPLAYER_APPLY_HOTJOIN: "Застосувати обране"
   MULTIPLAYER_ACCEPT_HOTJOIN: "Прийняти гравця"
   MULTIPLAYER_REJECT_HOTJOIN: "Не приймати гравця"
   MULTIPLAYER_LOADING: "Завантаження"

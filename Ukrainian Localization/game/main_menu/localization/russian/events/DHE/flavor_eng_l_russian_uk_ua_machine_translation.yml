@@ -107,7 +107,7 @@
   flavor_eng.13.desc: "Останнім часом жителі на півночі нашої країни почали все частіше виявляти неприязнь до південців: вони вважають, що [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')|l] забу[ROOT.GetCountry.Custom('crown_vlaloly')] про потреби північан. Такий розкол загрожує підірвати народну єдність. Ми можемо або умиротворити жителів північних регіонів, вклавши кошти в розвиток інфраструктури та пояснивши народу, що своєрідність північної культури — предмет гордості нашої країни, або приділити увагу півдню: [ROOT.GetCountry.GetLongNameWithNoTooltip] стан[ROOT.GetCountry.Custom('endlong_eut')] значно сильнішою, якщо правильно розпорядиться південними багатствами."
   flavor_eng.13.a: "Вкладемо кошти в північ."
   flavor_eng.13.b: "Зміцнимо південь."
-  flavor_eng.13.c: "Виберемо компромісний варіант."
+  flavor_eng.13.c: "Оберемо компромісний варіант."
   flavor_eng.13.a.custom: "Кожна [Concept('location', 'місцевість')|e] у #TOOLTIP:AREA,northumbria_area,X #L Нортумбрії#!#! починає [Concept('prosperity', 'процвітати')|e]"
   flavor_eng.13.b.custom: "Кожна [Concept('location', 'місцевість')|e] у #TOOLTIP:AREA,home_counties_area,X #L центральних графствах#!#! починає [Concept('prosperity', 'процвітати')|e]"
   flavor_eng.13.c.custom: "Кожна [Concept('location', 'місцевість')|e] у #TOOLTIP:AREA,midlands_area,X #L Мідлендсі#!#! починає [Concept('prosperity', 'процвітати')|e]"
