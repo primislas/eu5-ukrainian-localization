@@ -1165,6 +1165,10 @@ country_flavor = {
 			OR = {
 				has_reform = government_reform:tsardom
 				culture = { has_culture_group = culture_group:russian_group }
+				AND = {
+    				culture = { has_culture_group = culture_group:south_slavic_group }
+                    religion = religion:orthodox
+				}
 			}
 		}
 	}

@@ -69,7 +69,7 @@
   lateralview_player_modifiers_entry_name: "Панель модифікаторів країни гравця"
   lateralview_societal_values_entry_name: "Панель суспільних цінностей"
   lateralview_unit_type_entry_name: "Тип військ: «[UNIT_TYPE.GetName]»"
-  lateralview_credit_entry_name: "Автори"
+  lateralview_credit_entry_name: "Позики"
   lateralview_select_casus_belli_entry_name: "Панель вибору приводу для війни"
   lateralview_select_subject_type_entry_name: "Панель вибору типу васала"
   lateralview_form_new_country_entry_name: "Панель створення нової країни"
