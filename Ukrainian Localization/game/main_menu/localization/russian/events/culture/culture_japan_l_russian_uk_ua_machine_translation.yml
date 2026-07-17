@@ -4,7 +4,7 @@
   culture_japan.1.a: "І по заслугах!"
   culture_japan.1.b: "Ми цього не допустимо."
   culture_japan.2.title: "Непокірн[ROOT.GetCountry.Custom('nobles_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l]"
-  culture_japan.2.desc: "Наша країна вже давно не воювала, через що багато [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] фактично залиши[ROOT.GetCountry.Custom('nobles_vlaloly')]ся без роботи. Деякі з них не знайшли собі іншого заняття, окрім як гнобити та експлуатувати місцевих жителів. [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] вже стогн[ROOT.GetCountry.Custom('peasants_eut')] під їхнім гнітом. Потрібно негайно щось зробити."
+  culture_japan.2.desc: "Наша країна вже давно не воювала, через що численн[ROOT.GetCountry.Custom('nobles_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] фактично залиши[ROOT.GetCountry.Custom('nobles_vlaloly')]ся без роботи. Декотрі з них не знайшли собі іншого заняття, окрім як гнобити та визискувати місцевих жителів. [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] вже стогн[ROOT.GetCountry.Custom('peasants_eut')] під їхнім гнітом. Потрібно негайно щось вдіяти."
   culture_japan.2.a: "Вони просто відточують бойову майстерність."
   culture_japan.2.b: "Вони понесуть суворе покарання."
   culture_japan.3.title: "Відсутність спадкоємця"

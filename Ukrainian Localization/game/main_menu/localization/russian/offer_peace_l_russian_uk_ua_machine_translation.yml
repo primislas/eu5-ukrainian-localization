@@ -288,7 +288,7 @@
   peace_mandate_of_heaven: "Захоплення Небесного мандата"
   peace_mandate_of_heaven_entry: "$peace_mandate_of_heaven$"
   peace_mandate_of_heaven_entry_short: "$peace_mandate_of_heaven$"
-  peace_mandate_of_heaven_desc: "Захоплення лідерства в #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,middle_kingdom,X #L Серединній країні#!#!."
+  peace_mandate_of_heaven_desc: "Захоплення першости в #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,middle_kingdom,X #L Серединній країні#!#!."
   chi_recapture_emperor: "Повернення імператорського титулу"
   chi_recapture_emperor_entry: "$chi_recapture_emperor$"
   chi_recapture_emperor_entry_short: "$chi_recapture_emperor$"

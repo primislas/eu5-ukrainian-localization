@@ -2580,7 +2580,7 @@ country_flavor = {
 	}
 
 	text = {
-		localization_key = rank_duchy
+		localization_key = rank_duchy_christian
 		trigger = {
 			country_rank_is_duchy = yes
 			religion.group = religion_group:christian
@@ -2588,7 +2588,7 @@ country_flavor = {
 	}
 
 	text = {
-		localization_key = rank_duchy_principality
+		localization_key = rank_duchy
 		trigger = {
 			country_rank_is_duchy = yes
 		}
@@ -3117,7 +3117,7 @@ country_flavor = {
 	}
 
 	text = {
-	    localization_key = rank_county
+	    localization_key = rank_county_christian
 	    trigger = {
 			country_rank_is_county = yes
 	        religion.group = religion_group:christian
@@ -3133,7 +3133,7 @@ country_flavor = {
 	}
 
 	text = {
-		localization_key = rank_duchy_principality
+		localization_key = rank_county
 		fallback = yes
 	}
 	if_invalid_loc = return_empty
