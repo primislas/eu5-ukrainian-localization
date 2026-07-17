@@ -397,7 +397,7 @@
   FRONTEND_SWITCH_COUNTRY: "Змінити країну"
   FRONTEND_INVITE: "Запросіть більше гравців, надіславши їм ідентифікатор сервера:\n[GetServerInfo.GetServerID]"
   FRONTEND_COPY_CLIPBUFFER_TT: "#T Копіювати ідентифікатор сервера в буфер обміну#!\nЦим ідентифікатором можуть користуватися інші гравці для прямого підключення до цієї мережевої гри"
-  MOD_OPEN_IN_FOLDER: "Відкрити в папці"
+  MOD_OPEN_IN_FOLDER: "Відкрити в теці"
   SAVEGAME_VERSION_HEADER: "#T Інша версія#!"
   SAVEGAME_CODE_MISMATCH: "Неспівпадіння підтверджень для бібліотеки модуля «$MODULE|U$».\n$BULLET_WITH_TAB$ Підтвердження зі збереження — $GIT_HASH$\n$BULLET_WITH_TAB$ Підтвердження з додатку — $CURRENT_GIT_HASH$"
   SAVEGAME_BRANCH_MISMATCH: "Для бібліотеки «$MODULE|U$» використовувалася інша гілка.\n$BULLET_WITH_TAB$ Гілка зі збереження — $BRANCH_NAME$\n$BULLET_WITH_TAB$ Гілка з додатку — $CURRENT_BRANCH$"
