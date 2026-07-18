@@ -976,7 +976,7 @@
   PREVIOUS_UNIT_LINK: "Перейти до попереднього загону, постачання якого проходить тут"
   NEXT_UNIT_LINK: "Перейти до наступного загону, постачання якого проходить тут"
   HINT_SV_GRANT_PRIVILEGE: "@hint! Дарувати привілей «[ESTATE_PRIVILEGE.GetName]»: $VAL|+=2$"
-  HINT_SV_ADD_REFORM: "@hint! Додати [Concept('government_reform', 'державний принцип')|e] «[GOVERNMENT_REFORM.GetName]»: $VAL|+=2$"
+  HINT_SV_ADD_REFORM: "@hint! Провести [Concept('government_reform', 'реформу')|e] «[GOVERNMENT_REFORM.GetName]»: $VAL|+=2$"
   HINT_SV_POLICY: "@hint! Встановити [Concept('policy', 'політику')] «[POLICY.GetName]»: $VAL|+=2$"
   HINT_SV_ALSO: "@hint! $NAME$: (масштабується)"
   TO_MOVE_FURTHER_TO_LEFT: "Далі просунутися в бік $SOCIETALVALUE_LEFTITEM_WNTT_GEN$:"

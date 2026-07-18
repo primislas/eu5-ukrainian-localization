@@ -233,8 +233,8 @@ You can rely on and treat English text as a primary source, deduce context from 
 
 ## Government
 
-    * "(government) reform", "(державный) принцип" -> реформа
     * governing family, правящая семья -> правляча родина
+    * "(government) reform", "(державный) принцип" -> реформа; реформи "проводять", "здійснюють", not "приймають"
     * "major reform", "ведущий принцип" -> засаднича реформа
     * "cabinet member" / "член совета" -> радник
     * "cabinet action" / "действие совета" -> доручення
