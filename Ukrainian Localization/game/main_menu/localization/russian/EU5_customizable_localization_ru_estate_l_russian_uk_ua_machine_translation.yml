@@ -1,10 +1,10 @@
 ﻿l_russian:
-  ESTATE_GetName_UA_GEN: "Стани [ESTATE.GetName]"
+  ESTATE_GetName_UA_GEN: "Стану [ESTATE.GetName]"
   ESTATE_GetName_UA_DAT: "Стану [ESTATE.GetName]"
   ESTATE_GetName_UA_ACC: "Стан [ESTATE.GetName]"
   ESTATE_GetName_UA_INST: "Станом [ESTATE.GetName]"
   ESTATE_GetName_UA_PREP: "Стані [ESTATE.GetName]"
-  ESTATE_GetName_UA_GEN_lower: "стани [ESTATE.GetName]"
+  ESTATE_GetName_UA_GEN_lower: "стану [ESTATE.GetName]"
   ESTATE_GetName_UA_DAT_lower: "стану [ESTATE.GetName]"
   ESTATE_GetName_UA_ACC_lower: "стан [ESTATE.GetName]"
   ESTATE_GetName_UA_INST_lower: "станом [ESTATE.GetName]"

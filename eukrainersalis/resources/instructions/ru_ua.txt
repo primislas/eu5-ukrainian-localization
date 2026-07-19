@@ -567,6 +567,9 @@ You can rely on and treat English text as a primary source, deduce context from 
     * квасцы -> галуни
     * spices, специи -> ALWAYS and ONLY "прянощі", replace singular "спеція" with plural "прянощі" as well, be mindful of a city "Спеція" and do not translate its name
     * porcelain, фарфор -> порцеляна
+    * slaves, рабы -> раби
+    ** in narrative texts prefer "невільники" unless clearly about trans-Atlantic, American and Caribbean or sub-Saharan slave trade
+    ** associated words that could be used depending on context: "поневолювати", "захоплювати бранців", "обертати на невільників", "невільницький ринок", "воїни-невільники", "невільники на галерах"
 
     * tools, инструмент(ы) -> "знаряддя", but only when talking about mechanical or industrial tools; when clearly about heavier devices, use "приладдя"; more mechanical and specialized instruments - "пристрої" ("пневматичний пристрій кровообігу", "за допомогою таких пристроїв, як астролябія та секстант"); BUT depending on context it can also mean "засіб", "спосіб", "важіль", "інструмент":
     ** музкальные инструменты -> музичні інструменти
