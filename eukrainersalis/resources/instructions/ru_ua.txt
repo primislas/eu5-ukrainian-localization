@@ -187,7 +187,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     * modernize, модернизировать -> осучаснювати
 
     * "map", "карта" in the sense of a world or area map -> мапа
-    * territory, территория -> try to avoid "територія", prefer "земля", "землі", "володіння", "терени", "кордони" or any other context-fitting synonym
+    * territory, территория -> try to avoid "територія", prefer "земля", "землі" (in general and local sense, e.g. "сільські, міські землі", "на тих землях", "наші, їхні землі" тощо), "володіння" (in a more official high prose governmental sense), "терени" (for large spaces or in very colloquial texts), "кордони" (when border is implied or stressed), "край, краї" (in a poetic or narrative context), or any other context-fitting synonym
     * location, район -> місцевість
     * "core location / region", "национальний район, регион" -> "корінна місцевість, регіон"
     * range, дистанция -> відстань
@@ -205,7 +205,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     * weather system, погодная система -> погодне явище
     * impacted, затронут(ый): коли про погоду, стихії, погодні явища, місцевості, рухи і т.п. - "охоплений", коли про хвороби, руйнування і т.і. -> "уражений", країни - "потерпілі" або "уражені" (лихами, хворобами), в інших випадках -> "зачеплений"
 
-    * граждане -> піддані, громадяни. In many cases texts refer to denizens of a country in general with modern anachronism "громадяни", "граждане" ("citizens"), when in fact "піддані" should be preferred.
+    * граждане, члены общества, представители общества -> піддані, громадяни. In many cases texts refer to denizens of a country in general with modern anachronism "громадяни", "граждане" ("citizens"), when in fact "піддані" should be preferred.
     ** Translate "граждане" as "громадяни" ONLY when the text is clearly about republics (in general, and in particular such as Venice, Florence, Genoa, etc.), republican values, revolutions, discussing concepts such as civic duty and participation or mentioning well known works on the subject, or specifically referring to a politically enfranchized part of the population (nobles, for example Polish szlachta). In other words when "громадяни" are obviously the right fit.
     ** Sometimes simple "народ" or "люд(и)" is the best fit. Use context and your stylistical judgement.
     ** Sometimes city dwellers are erroneously localized as "citizens"/"граждане". In such cases, translate as "містяни".
@@ -245,6 +245,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     * heir selection or succession law(s), правила престолонаследования -> порядок престолонаслідування
     * bureaucracy, "бюрократический механизм" -> "установа", but only when clearly talking about a game Concept; "бюрократический механизм" -> ALWAYS "установа", otherwise keep "бюрократія", "бюрократи", "бюрократичний"
     * наши люди -> наш люд, наші піддані, when about a country or area population in general
+    * жалоба -> "кривда", when referring to a slight in a political context, official complaint, estate dispute, etc.
 
     * parliament, парламент - збори, except when clearly talking about Western, Central, or Northern European nations where "парламент" is appropriate
     ** збори скликаються, радяться, обговорюють питання, засідають, тощо, use the most appropriate forms freely
@@ -256,6 +257,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** house of parliament, здание парламента - палац зборів
     ** рейхстаг - райхстаг
     * governor, губернатор - намісник, except when clearly talking about English, German, or Scandinavian governors, or "генерал-губернатор(ство)"
+    * община, общинный -> громада, громадський
 
     * Страна Хулагуидов -> Ільханат
     * Молдавия, молдавский -> always with "o" - "Молдова", "молдовський", "молдовани", etc.
@@ -265,8 +267,8 @@ You can rely on and treat English text as a primary source, deduce context from 
 
 ## Money and Budget
 
-    * economy, економіка -> господарство, господарчий, etc.
-    * game concept "gold" in the sense of money, дукаты -> гроші
+    * economy, экономика, экономический -> господарство, господарчий, etc.
+    * game concept "gold" ("золото") in the sense of money, "дукаты" -> гроші
     * treasury, казна, "финансовое ведомство" and similar phrases -> скарбниця, except when clearly about Muscovy, Russia, or Tatar countries, where "казна" is appropriate
     * treasurer, казначей -> скарбій, скарбник, except when clearly about Muscovy, Russia, or Tatar countries
     * minting, чеканка -> only "карбування" ("відкарбувати", "відкарбований", "відкарбуйте", etc.)
@@ -302,7 +304,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     * clergy, священники -> духовенство
     * peasants -> "селяни", але "peasant_estate", "commoners", "common people/folk" -> "простолюд"
     * dhimmi, зимми -> зіммії
-    * "estate_privilege", "сословная привилегия", "станова привілея" -> "становий привілей"
+    * "estate_privilege", "сословная привилегия", "станова привілея" -> "становий привілей"; привілеї "дарують" або "надають", NOT "дають"
     * tribesmen, соплеменники:
     ** племінний люд -> в облічувальному адміністративному контексті, особливо коли мова про кількість чи число племінного люду, відсотки населення, ситуації, де йдеться більше про окремих людей, а не племена загалом
     ** племена -> загальний необлічувальний контекст множини, наприклад, "афганські племена", "утримання племен", "потреби племен", "заохочення заселення племенами провінції", "приріст племен", "із племен у селяни", "заборона на підвищення племен", "навернення племен", "асиміляція племен"
@@ -322,6 +324,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** traditionalist, innovative -> "старина" and "новина"
     ** spiritualist (духовность), humanist (гуманизм) -> духовність, терпимість
     ** mysticism, jurisprudence (легализм) -> "містицизм" and "ісламське право"; in this context "легализм" -> "ісламське право", outside of this context and in general translate "легализм" as "правовладдя"
+    ** land (армия), naval (флот) -> "земля" and "море"
     * free subjects, личная свобода -> вольності, a fixed expression for high degree of "free subjects" is "широкі вольності"
     * peasant enfranchisement, освобождение простолюдинов -> вольності простолюду
     * innovation, инновация -> новація
@@ -358,6 +361,8 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** переговорщик -> перемовник
     ** "не ведем переговоры с ..." -> "з ... перемов не буде"
     * конфликт -> oftentimes war ("війна") is incorrectly translated as "конфликт" in Russian localization; if the text makes it clear that the word refers to a war (especially if there's "...war.GetName" scripting present) then translate "конфликт" as "війна", however, you can alternate "війна" and "конфлікт" to avoid repetitiveness
+    ** for smaller petty conflicts translate as "чвари"
+    ** for internal conflicts use "усобиця, усобиці, міжусобиця, міжусобиці"
 
 ## Military, Armies and Fleets
 
@@ -490,6 +495,10 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** avoid constructs like "віра вважається іновірною", "їхня віра є іновірною", instead simplify simply with "чужою" to avoid tautology, e.g.: `їхня [Concept('estate_religion', 'віра')|e] вважається [Concept('heathen', 'чужою')|e]`
     * язычество -> "чужовірство" in general sense; translate as "язичництво" only when clearly about pagan beliefs
 
+    * исламский/мусульманский -> source localization often incorrectly uses these adjectives mixing them up, apply the following rules:
+    ** "мусульманський" for anything related to population ("мусульманське населення, спільнота, більшість, народні звичаї, вояки, вороги") and individual people, in narrative texts can also be applied to countries with Muslim majority and government;
+    ** "ісламський" in all the other cases, especially in anything related to religious and state matters ("ісламські священні тексти, богослови, війська, армії, уряди")
+    * kadiluk, кадылык -> кадилик
     * dharma, дхарма -> дгарма
     ** "дгарми", а НЕ "дгармів"
     ** in all Indian names and location names transliterate "dhar" ("дхар") as "дгар"
@@ -525,7 +534,8 @@ You can rely on and treat English text as a primary source, deduce context from 
     * import, импорт -> привіз (привізний, привозити, привозитиметься тощо); in general text add variety translating "импортные товары" as any combination of "привізні", "заморські, "чужоземні", "іноземні", "закордонні" "товари", "крам", "вироби", whichever fits best
     * export, экспорт -> вивіз (вивізний, вивозити, вивозитиметься тощо)
     * BUT "импорт/экспорт ... услуг" -> "купівля/продаж ... послуг", e.g. "продаж військових послуг"
-    * "товары" - in narrative texts and when not about a game concept, translate as "крам"
+    * "товары" -> in narrative texts and when not about a game concept, translate as "крам"
+    ** "ценные товары" -> коштовний крам
     * "импортный/экспортный рынок" -> "ринок, що купує/продає"
     * trade order, торговый приказ -> торговельна угода
     ** торговельні угоди укладають, а не створюють
@@ -579,9 +589,9 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** otherwise preferable general term for "instrument" in a wider sense is "засіб"
 
     * cloth, textile, текстиль -> тканини
-    ** текстильные мануфактуры, гильдии, etc. -> ткацькі ("ткацька мануфактура", "ткацький цех" і т.і.)
+    ** текстильные мануфактуры, гильдии, etc. -> ткацькі ("ткацька мануфактура", "ткацька спілка" і т.і.)
     ** текстильная промышленность -> ткацькі промисли
-    ** HOWEVER, when text clearly deals with wool, sheep (шерсть овец) or countries known for wool cloths (such as Netherlands, England), then translate as "суконні" - "суконні промисли", "суконна мануфактура", "суконний цех" тощо
+    ** HOWEVER, when text clearly deals with wool, sheep (шерсть овец) or countries known for wool cloths (such as Netherlands, England), then translate as "суконні" - "суконні промисли", "суконна мануфактура", "суконна спілка" тощо
     ** avoid tautologies, e.g. "дорогие текстильне изделия из сукна и шелка" -> "дорогі вироби з сукна та шовку", extra "textile" is redundant here
     ** BUT "текстиль" and "промисловість" when the context is clearly about XVIII century, industrialization, factories and mills
 
@@ -591,16 +601,16 @@ You can rely on and treat English text as a primary source, deduce context from 
     * sawmill, лесопилка - лісопильня
     * winery, производство вина -> "винарня", but "сакарня" for "rice winery"
     * bailiff, бейлифф -> управа, when about the insitution or building; when about an appointed person -> управ (singular), управи (plural);
-    * guild, гильдия -> цех, UNLESS specifically about trade guilds, in which case it remains "гільдія"
-    * cloth guild, гильдия прядильщиков, прядильщики -> заміняй "прядильщиків" на "ткачей", окрім випадків "fine cloth" або коштовних тканин в контексті, тоді - "кравці"; "ткацький цех"
-    * fine cloth guild - кравецький цех
+    * guild, гильдия -> спілка, UNLESS specifically about trade guilds, in which case it remains "гільдія"
+    * cloth guild, гильдия прядильщиков, прядильщики -> заміняй "прядильщиків" на "ткачей", окрім випадків "fine cloth" або коштовних тканин в контексті, тоді - "кравці"; "ткацька спілка"
+    * fine cloth guild - кравецька спілка
     * tools guild, инструментальная гильдия -> "слюсарня", masters/artisans who create tools -> "слюсарі"
     * glass guild, гильдия стеклодувов -> скловарня
     * glass workshop, стеклянная мастерская -> гута
     * glass mill, стеклянный завод -> склоробний завод
     * dyes guild -> "фарбарня"; masters, who dye -> "фарбарі", NOT "барвники"
     * jewelry, jewelers, ювелир(ы) -> золотарі
-    ** "гильдия ювелиров" -> цех золотарів
+    ** "гильдия ювелиров" -> спілка золотарів
     * shipyard, судостроительная верфь -> корабельня
     * tax assessor, налоговый чиновник -> митар
     * entrepot, пакгауз -> торгова комора
@@ -651,6 +661,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     * газета - часопис
     * контрабанда - перемитництво, як діяльність, "перемитні товари", якщо про товари
     * контрабандист - перемитник
+    * контракт - угода, sometimes замовлення, pick based on context
     * кошмар - жахіття
     ** кошмарный - страхітливий, жахливий
     ** какой кошмар - який жах
@@ -663,6 +674,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     * масштаб - обсяг, коли йдеться про обсяги виробництва
     * момент, миг - мить
     ** благоприятный миг - сприятлива нагода
+    * потенциал - спроможність (in the sense of capability, capacity), здібності (in a sense of potential personal ability)
     * провизия, провізія, провиант, провіант, продовольство -> харчі, в розповідних приземлено-побутових текстах припускається форма "харч"; продовольчий - харчовий
     ** food, еда - завжди "харчі", коли мова про військові потреби в їжі
     ** АЛЕ "supply depot", "продовольственный склад" - "військова комора"
@@ -683,6 +695,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** only chance, единственный шанс -> єдина надія
     ** increase chances, повысить шансы -> підвищити ймовірність, сподівання, надію
     ** second chance, второй шанс -> повторна нагода, ще одна нагода
+    * эксклюзивный -> виключний
 
 
 
@@ -693,7 +706,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** use "квартал" for a city district in general, or "двір", "подвір’я" for district quarters with a distinct legal status, such as trade, ethnic or religious ethnic quarters, e.g. "гостиний двір", "купецьке подвір’я", "двір фанаріотів"
     ** внутренние районы, внутрішні райони -> глибина, терени, землі, край ("глибинні землі Балкан", "у глибині Балкан", "у балканській глибині", "на внутрішніх теренах Балкан", "у внутрішніх балканських землях", "у внутрішніх балканських краях")
     ** прилегающие районы -> поблизу, довкола, навколо, в околицях, на підступах
-    * завод, фабрика -> уникай де тільки можливо, окрім очевидного контексту індустріалізації. Припустимі альтернативи - виробництво, майстерня, цех, обирай в залежності від контексту. Також можна просто використовувати назви конкретних виробництв, коли це підходить - ливарня, пивоварня, винокурня, рудня, кузня, зброярня, друкарня і т.д. Наприклад, ніяких "цехів з виробництва пива" чи "пивоварних заводів" - заміняй на "броварня".
+    * завод, фабрика -> уникай де тільки можливо, окрім очевидного контексту індустріалізації. Припустимі альтернативи - виробництво, майстерня, спілка, обирай в залежності від контексту. Також можна просто використовувати назви конкретних виробництв, коли це підходить - ливарня, пивоварня, винокурня, рудня, кузня, зброярня, друкарня і т.д. Наприклад, ніяких "спілок з виробництва пива" чи "пивоварних заводів" - заміняй на "броварня".
     * на корню -> у/в зародку
     * положение -> "становище", when appropriate
     * стартовый -> початковий
@@ -783,6 +796,8 @@ You can rely on and treat English text as a primary source, deduce context from 
     * кто попало - абихто, хто завгодно
     * просочений - просякнутий
     * некоторые, деякі - поширений невдалий переклад "некоторые" на "деякі", хоча натомість часто варто переклади як "дехто": деякі (некоторые) вважають, пропонують і т.і. -> дехто вважає, пропонує і т.і.
+    * вершить суд, правосудие - чинити суд, правосуддя
+    * на добро или на зло, во благо или во вред - "на користь чи на згубу" (in governmental and official context), "на щастя чи на лихо" (in narrative and more casual tone), "на здобуток чи на шкоду" (for merchants, trade, guilds, crafts, money matters in general)
 
 
 
