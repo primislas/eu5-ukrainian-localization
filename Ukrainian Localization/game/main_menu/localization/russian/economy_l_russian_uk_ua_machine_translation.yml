@@ -410,7 +410,7 @@
   replace_rival: "Заміна суперника"
   hire_mercenary: "Вербування найманців"
   hire_mercenary_premium: "Надбавка до витрат на [Concept('mercenaries', 'найманців')|e]"
-  hire_mercenary_leader: "Вербування лідера найманців"
+  hire_mercenary_leader: "Вербування ватажка найманців"
   bribe_units: "Підкуп загонів"
   hire_prisoners: "Наймання полонених"
   ransom_units: "Викуп загонів"
