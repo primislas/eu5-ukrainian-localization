@@ -246,7 +246,7 @@
   mission_prepare_loan_focus_desc: "$generic_capital_economy_BUTTON_TOOLTIP$"
   mission_expand_construction_materials: "Забезпечення будматеріалами"
   mission_get_construction_materials_desc: "Перш ніж нарощувати мануфактурне виробництво, ми повинні забезпечити країну якісними будівельними матеріалами."
-  mission_expand_construction_materials_desc: "$mission_get_construction_materials_desc$ Наприклад, можна наростити експлуатацію цих ресурсів у країні."
+  mission_expand_construction_materials_desc: "$mission_get_construction_materials_desc$ Наприклад, можна наростити розробку цих ресурсів у країні."
   mission_import_construction_materials: "Привіз будматеріалів"
   mission_import_construction_materials_desc: "$mission_get_construction_materials_desc$ Для цього необхідно буде зайнятися торгівлею, привозом та вивозом товарів."
   mission_secure_construction_material: "Поставки будматеріалів"

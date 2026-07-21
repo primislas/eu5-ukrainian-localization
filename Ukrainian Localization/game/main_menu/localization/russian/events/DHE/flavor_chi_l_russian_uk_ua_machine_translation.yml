@@ -917,7 +917,7 @@
   flavor_chi.2201.desc: "Команда експедиції «$expedition_name_treasure_voyage$» просить нас надати їм мапи місцевих водних шляхів. Ми не зобов'язані це робити, але $expedition_leader_name$ та #TOOLTIP:CULTUREGROUP,chinese_group,X #L китайські#!#! еліти, які зараз перебувають у місцевості «$expedition_location_name$», вважатимуть нашу допомогу жестом доброї волі та будуть дуже нам вдячні."
   flavor_chi.2201.a: "Передамо їм усе, що в нас є."
   flavor_chi.2201.b: "Нам нічим з ними поділитися."
-  flavor_chi.2202.title: "Витрати на експлуатацію"
+  flavor_chi.2202.title: "Витрати на утримання"
   flavor_chi.2202.desc: "Місцеві [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] вирішили обдурити моряків з експедиції «$expedition_name_treasure_voyage$» та відкрили нові ринки поруч із гаванню місцевості $expedition_location_name$. На цих ринках вони продають товари втридорога, а найбільш жадібні купці взагалі підняли ціни до небес. А що? Морякам діватися нікуди — все одно куплять! Через це на вулицях почалися збройні сутички, які призвели до заворушень. [fleet_loc.GetRank.GetName] занурюється в хаос."
   flavor_chi.2202.a: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] мають понести покарання!"
   flavor_chi.2202.a.entry: "Покарати містян!"

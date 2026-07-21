@@ -344,8 +344,11 @@ You can rely on and treat English text as a primary source, deduce context from 
     * diplomat, дипломат -> посол; посольські установи, споруди, місії, відстань тощо; але дипломатичний хист, відносини, навичка, вплив, гнучкість і т.і.
     * diplomatic capacity, дипломатический потенциал -> посольська спроможність
     * diplomatic opinion, мнение - думка
-    * diplomatic reputation, дипломатическая репутация -> міжнародна репутація
+    * diplomatic reputation, дипломатическая репутация -> добре ім’я
     * infiltrate administration, внедрение во власть, впровадження в адміністрацію -> проникнення у владу, адміністрацію
+    * casus belli, казус белли, повод для войны -> привід для війни
+    ** привід для війни шукають, "знайти привід для війни", not "створити", when actively sought after
+    ** "отримати привід для війни", "надає привід для війни" when various actions unlock or enable a casus belli
     * antagonism, неприязнь -> ворожість
     * vassal, subject, ленник -> васал; never use "ленник", always prefer "васал"
     * colonian nation, колониальная нация -> колоніальне намісництво
@@ -667,8 +670,6 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** какой кошмар - який жах
     * лидер - "лідер" окрім усталених словосполучень наведених нижче
     ** лидер наёмников - ватажок найманців
-    ** лидер международной организации, объединения, унии - очільник (організації, об’єднання, унії)
-    ** лидер (имперского) округа - очільник (імперського) округу
     ** unit, exploration leader, лидер экспедиции, отряда - очільник (експедиції, загону тощо)
     * маршрут - шлях; для уникнення повторень і тавтологій можна чергувати з "тракт", "стежка" для сухопутних шляхів, або "маршрут" для морських; шляхи можна "прокладати" або "торувати" (в оповідальному поетичному сенсі)
     * масштаб - обсяг, коли йдеться про обсяги виробництва
@@ -696,6 +697,11 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** increase chances, повысить шансы -> підвищити ймовірність, сподівання, надію
     ** second chance, второй шанс -> повторна нагода, ще одна нагода
     * эксклюзивный -> виключний
+    * эксплуатация, эксплуатировать -> визиск (кого-чого, e.g. "визиск кріпаків, селян"), визискувати (кого-що, e.g. "визискувати кріпаків, селян")
+    ** in narrative text where hardships are stressed, "эксплуатация" should be translated as "здирство", a few examples: "селяни терплять здирство", "зазнали здирства", "знать піддає здирству селянську працю", "здирство з кріпаків"
+    ** use "розробляти" when it means simply "to exploit resources" (such as land, forests, mines and so on)
+    ** use "використовувати" when it means "to use" (commonly for ships, buildings, tools, rivers)
+    ** use "утримувати" when it means "to maintain"
 
 
 
