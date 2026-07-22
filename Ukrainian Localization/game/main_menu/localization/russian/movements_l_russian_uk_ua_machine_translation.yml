@@ -17,7 +17,7 @@
   MOVEMENT_SPREAD_CULTURE: "$MOVEMENT$ поширює #L $CULTURE|l$у#! культуру на теренах нашої країни. Цю культуру перейняло вже кілька груп ($AMOUNT$), що становить $PERCENTAGE|%2$ нашого населення."
   MOVEMENT_SPREAD_RELIGION: "$MOVEMENT$ поширює віру «$RELIGION$» на теренах нашої країни. У цю віру перейшло вже кілька груп ($AMOUNT$), що становить $PERCENTAGE|%2$ нашого населення."
   MOVEMENT_SUBJECT_RELIGION: "[Concept('religion', 'Віросповідання')|e]: $NAME$"
-  MOVEMENT_SUBJECT_CULTURE: "[Concept('culture', 'Культура')|e]: $NAME$"
+  MOVEMENT_SUBJECT_CULTURE: "[Concept('culture', 'Культура')|e]: $NAME$а"
   MOVEMENT_SPREADER_TT_TITLE: "По-різному поширюється серед [Concept('pops', 'груп населення')|e]:"
   MOVEMENT_R0_FACTORS_TITLE: "Чинники, що впливають на швидкість поширення руху «$MOVEMENT$»:"
   MOVEMENT_SPREAD_FACTOR_ENTRY_FORMAT: "«$KEY$» ($VALUE|+=4$)"

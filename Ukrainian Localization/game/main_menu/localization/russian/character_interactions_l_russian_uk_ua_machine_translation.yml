@@ -195,7 +195,7 @@
   favor_heir_desc: "Цей [Concept('character', 'персонаж')|e] стане фаворитом на роль нового нащадка."
   favor_heir_past: "[SCOPE.sCharacter('recipient').GetName] [Select_CString(SCOPE.sCharacter('recipient').IsFemale,'стала', 'став')] фаворитом!"
   favor_heir_act_past: "[SCOPE.sCharacter('recipient').GetName] [Select_CString(SCOPE.sCharacter('recipient').IsFemale,'стала', 'став')] нащадком-фаворитом у боротьбі з іншими кандидатами на владу над нашою країною."
-  favor_heir_at: "[SCOPE.sCharacter('recipient').GetName] вже підтримуваний кандидат і [Select_CString(SCOPE.sCharacter('recipient').IsFemale, 'гідна нащадниця', 'гідний нащадок' )] нашого престолу"
+  favor_heir_at: "[SCOPE.sCharacter('recipient').GetName] вже підтримуваний кандидат і [Select_CString(SCOPE.sCharacter('recipient').IsFemale, 'гідний нащадок', 'гідний нащадок' )] нашого престолу"
   favor_heir_ct: "Ми вже надаємо перевагу [Select_CString(SCOPE.sCountry('actor').MakeScope.GetVariable('favored_heir').GetCharacter.IsFemale, 'нащадниці', 'нащадкові' )] на ім'я [SCOPE.sCountry('actor').MakeScope.GetVariable('favored_heir').GetCharacter.GetName]"
   favor_heir_tt: "[SCOPE.sCharacter('recipient').GetName] стане [Concept('heir', Select_CString(SCOPE.sCharacter('recipient').IsFemale, 'нащадницею-фавориткою', 'нащадком-фаворитом' )|e], що дасть [Select_CString(SCOPE.sCharacter('recipient').IsFemale, 'їй', 'йому' )] можливість зайняти престол"
   favor_heir_bt: "#Y Надати перевагу можна лише одному нащадкові#!"

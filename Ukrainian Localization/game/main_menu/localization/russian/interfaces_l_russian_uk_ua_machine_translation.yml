@@ -857,7 +857,7 @@
   SORT_CULTURE_LANGUAGE_TT: "Дозволяє відсортувати за назвою [Concept('language', 'мови')|e] [Concept('culture', 'культури')|e]."
   SORT_CULTURE_INFLUENCE: "Вплив"
   SORT_CULTURE_INFLUENCE_TT: "Дозволяє відсортувати за [Concept('cultural_influence', 'впливом')|e] [Concept('culture', 'культури')|e]."
-  SORT_CULTURE_TRADITION: "Традиція"
+  SORT_CULTURE_TRADITION: "Спадщина"
   SORT_CULTURE_TRADITION_TT: "Дозволяє відсортувати за [Concept('cultural_tradition', 'спадщиною')|e] [Concept('culture', 'культури')|e]."
   SORT_CULTURE_COUNTRY: "Основна країна"
   SORT_CULTURE_COUNTRY_TT: "Дозволяє відсортувати за основною [Concept('country', 'країною')|e] [Concept('culture', 'культури')|e]."

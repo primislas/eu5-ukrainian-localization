@@ -791,7 +791,7 @@
   MODIFIER_TYPE_DESC_global_separatism: "Впливає на [Concept('separatism', 'сепаратизм')|e] в усіх [Concept('locations', 'місцевостях')|e] [Concept('country', 'країни')|e]."
   MODIFIER_TYPE_NAME_tolerance_own: "Терпимість до істинної віри"
   MODIFIER_TYPE_DESC_tolerance_own: "Впливає на [Concept('tolerance', 'терпимість')|e] до [Concept('state_religion', 'панівної віри')|e]."
-  MODIFIER_TYPE_NAME_tolerance_heretic: "Терпимість до єретичних вірувань"
+  MODIFIER_TYPE_NAME_tolerance_heretic: "Терпимість до єретиків"
   MODIFIER_TYPE_DESC_tolerance_heretic: "Впливає на [Concept('tolerance', 'терпимість')|e] до [Concept('religions', 'віросповідань')|e] з тієї ж [Concept('religion_group', 'родини')|e], що й [Concept('state_religion', 'панівна віра')|e]."
   MODIFIER_TYPE_NAME_tolerance_heathen: "Терпимість до іновірців"
   MODIFIER_TYPE_DESC_tolerance_heathen: "Впливає на [Concept('tolerance', 'терпимість')|e] до [Concept('religions', 'віросповідань')|e] не з тієї ж [Concept('religion_group', 'родини')|e], що й [Concept('state_religion', 'панівна віра')|e]."
