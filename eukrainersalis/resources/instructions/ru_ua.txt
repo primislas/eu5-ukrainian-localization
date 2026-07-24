@@ -411,6 +411,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** for ships use "повороткість", "повороткий"
     * слабоманевренный -> неповороткий
     * unless otherwise specified, keep "маневри", "маневрувати", etc. in all the other cases
+    * боевая эффективность, эффективность на поле боя -> shorten these and similar fixed expressions to "боєздатність"
 
     * artillery, артиллерия, артиллерийский -> гармати, гарматний
     * артиллерист -> гармаш
@@ -482,6 +483,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     * religious_supremacy, релегиозное превосходство -> релігійне верховенство
     * religious_head, глава религии, религиозный глава -> глава церкви
     * religious_sect, (религиозное) направление -> (релігійна) течія
+    * muslic_scholar, учёный - книжник
     * when "религозный" and "светский" are mentioned together, prefer "духовний та мирський"
     * теология -> богослов’я
     * теолог -> богослов; but when clearly about Muslim theologians, use "улема", "улеми" (plural), etc.
