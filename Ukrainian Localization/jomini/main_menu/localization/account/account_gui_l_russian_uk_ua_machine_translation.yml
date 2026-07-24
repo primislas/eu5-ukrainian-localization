@@ -30,7 +30,7 @@
   LOGIN: "Вхід"
   PARADOX_ACCOUNT: "Обліковий запис Paradox"
   LOGIN_JOIN_GAME: "Приєднатися"
-  LOGOUT: "Вийти"
+  LOGOUT: "Розлогінитись"
   NOT_LOGGED_IN: "Вхід до облікового запису не виконано"
   LOGGING_IN: "Виконується вхід..."
   UNKOWN: "Невідомо"
