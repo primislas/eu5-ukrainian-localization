@@ -606,7 +606,7 @@
   cab_diplomatic_corps_active: "Підтримка нашого посольського відомства"
   cab_diplomatic_corps_action: "Підтримати наше посольське відомство"
   cab_diplomatic_corps_action_progress: "[SCOPE.sCountry('actor').GetDoubleModifierValueNoFormatNoSign('diplomatic_capacity', 'diplomatic_capacity_modifier')]"
-  cab_diplomatic_corps_action_progress_wordier: "#explanation_link Дипломатичний потенціал#!: [SCOPE.sCountry('actor').GetDoubleModifierValueNoFormatNoSign('diplomatic_capacity', 'diplomatic_capacity_modifier')]"
+  cab_diplomatic_corps_action_progress_wordier: "#explanation_link Посольські засоби#!: [SCOPE.sCountry('actor').GetDoubleModifierValueNoFormatNoSign('diplomatic_capacity', 'diplomatic_capacity_modifier')]"
   cab_diplomatic_corps_action_progress_long_wordier: "@diplomatic_capacity! [SCOPE.sCountry('actor').GetDoubleModifierValueNoFormatNoSign('diplomatic_capacity', 'diplomatic_capacity_modifier')]"
   cab_diplomatic_corps_action_progress_tooltip: "[SCOPE.sCountry('actor').GetDoubleDescriptionFor('diplomatic_capacity', 'diplomatic_capacity_modifier')]"
   study_institutions: "Підтримка інститутів"

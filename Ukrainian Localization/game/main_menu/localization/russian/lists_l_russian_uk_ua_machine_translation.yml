@@ -66,7 +66,7 @@
   COUNTRY_SORT_BY_TRUST: "Сортувати за [Concept('trust', 'довірою')|e] до нас"
   COUNTRY_SORT_BY_ANTAGONISM: "Сортувати за [Concept('antagonism', 'ворожістю')|e] до нас"
   COUNTRY_SORT_BY_RANK: "Сортувати за [Concept('country_rank', 'рангом')|e] їхньої країни"
-  COUNTRY_SORT_BY_RELATIONS: "Сортувати за [Concept('diplomatic_capacity_used', 'використаним дипломатичним потенціалом')|e] у відносинах з нами"
+  COUNTRY_SORT_BY_RELATIONS: "Сортувати за [Concept('diplomatic_capacity_used', 'задіяними посольськими засобами')|e] у відносинах з нами"
   COUNTRY_SORT_BY_REGION: "Сортувати за назвою [Concept('region', 'регіону')|e]"
   COUNTRY_SORT_BY_POPS: "Сортувати за [Concept('pops', 'групами населення')|e]"
   COUNTRY_SORT_BY_TYPE: "Сортувати за типом [Concept('country', 'країни')|e]"
