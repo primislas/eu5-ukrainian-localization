@@ -190,7 +190,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     * territory, территория -> try to avoid "територія", prefer "земля", "землі" (in general and local sense, e.g. "сільські, міські землі", "на тих землях", "наші, їхні землі" тощо), "володіння" (in a more official high prose governmental sense), "терени" (for large spaces or in very colloquial texts), "кордони" (when border is implied or stressed), "край, краї" (in a poetic or narrative context), or any other context-fitting synonym
     * location, район -> місцевість
     * "core location / region", "национальний район, регион" -> "корінна місцевість, регіон"
-    * range, дистанция -> відстань
+    * range, дистанция -> досяжність
     * vegetation, флора -> рослинність
     * subject territory connectivity, cвязанность территорий ленника -> досяжність володінь васала
     * disease, эпидемия -> пошесть
@@ -342,8 +342,10 @@ You can rely on and treat English text as a primary source, deduce context from 
 ## Diplomacy
 
     * diplomat, дипломат -> посол; посольські установи, споруди, місії, відстань тощо; але дипломатичний хист, відносини, навичка, вплив, гнучкість і т.і.
-    * diplomatic capacity, дипломатический потенциал -> посольська спроможність
-    * diplomatic opinion, мнение - думка
+    * diplomatic action, дипломатическое действие -> посольська дія
+    * diplomatic range, дипломатическая дистанция -> посольська досяжність
+    * diplomatic capacity, дипломатический потенциал -> "посольські засоби"; if necessary to avoid repetition in text, "посольська спроможність" is allowed
+    * diplomatic opinion, мнение -> думка
     * diplomatic reputation, дипломатическая репутация -> добре ім’я
     * infiltrate administration, внедрение во власть, впровадження в адміністрацію -> проникнення у владу, адміністрацію
     * casus belli, казус белли, повод для войны -> привід для війни
@@ -366,6 +368,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     * конфликт -> oftentimes war ("війна") is incorrectly translated as "конфликт" in Russian localization; if the text makes it clear that the word refers to a war (especially if there's "...war.GetName" scripting present) then translate "конфликт" as "війна", however, you can alternate "війна" and "конфлікт" to avoid repetitiveness
     ** for smaller petty conflicts translate as "чвари"
     ** for internal conflicts use "усобиця, усобиці, міжусобиця, міжусобиці"
+    * дипломатичні відносини -> зносини
 
 ## Military, Armies and Fleets
 
@@ -427,8 +430,21 @@ You can rely on and treat English text as a primary source, deduce context from 
     * гарнизонный -> залоговий
     * to garrison, вводить гарнизони -> ставити залогу, вводити залогу
 
-    * налёт, нальот - "набіг" if on land, "напад" on sea, "наскок" if stressing unexpected nature
-    * налётчик, нальотчик - грабіжник, розбійник in negative connotations, нападник in neutral (our raiders - наші нападники); make sure to interchange to avoid repetition (e.g. "розбійники розграбували", not "грабіжники розграбували")
+    * судно -> only and always "корабель"
+    ** "військові кораблі", NOT "воєнні"
+    ** transport ship (fleet), транспортное судно (флот) -> вантажний корабель (флот)
+    ** судостроение -> кораблебудування
+    ** (судостроительная) верфь -> корабельня
+    ** судостроитель -> корабельник
+    ** судостроительный -> корабельний (in particular "судостроительны материалы" -> "корабельні матеріали")
+    ** судоплавание -> мореплавство; but if and only if the text clearly talks about river sailing, "судноплавство" should be used
+    ** судоходный шлюз -> гребля зі шлюзом
+    * naval range, мореходная дистанция -> морехідна досяжність
+    * colonial range, колонизационная дистанция -> колонізаційна досяжність
+    * transport capacity, предел транспортировки -> військовий підйом
+
+    * налёт, нальот -> "набіг" if on land, "напад" on sea, "наскок" if stressing unexpected nature
+    * налётчик, нальотчик -> грабіжник, розбійник in negative connotations, нападник in neutral (our raiders - наші нападники); make sure to interchange to avoid repetition (e.g. "розбійники розграбували", not "грабіжники розграбували")
 
 ## Religion and Culture
 
@@ -536,18 +552,27 @@ You can rely on and treat English text as a primary source, deduce context from 
 
 ## Trade
 
+    * торговый -> always "торговий", not "торговельний"
     * import, импорт -> привіз (привізний, привозити, привозитиметься тощо); in general text add variety translating "импортные товары" as any combination of "привізні", "заморські, "чужоземні", "іноземні", "закордонні" "товари", "крам", "вироби", whichever fits best
     * export, экспорт -> вивіз (вивізний, вивозити, вивозитиметься тощо)
     * BUT "импорт/экспорт ... услуг" -> "купівля/продаж ... послуг", e.g. "продаж військових послуг"
     * "товары" -> in narrative texts and when not about a game concept, translate as "крам"
     ** "ценные товары" -> коштовний крам
     * "импортный/экспортный рынок" -> "ринок, що купує/продає"
-    * trade order, торговый приказ -> торговельна угода
-    ** торговельні угоди укладають, а не створюють
-    * trade capacity, торговый потенциал -> торговельна спроможність
-    * trade routes, торговые пути, маршруты -> only "торговельні шляхи", not "торгові"
+    * trade order, торговый приказ -> торгова угода
+    ** торгові угоди укладають, а не створюють
+    * trade capacity, merchant capacity, торговый потенциал -> "купецькі засоби" (only plural form)
+    ** "сукупні купецькі засоби", not "сумарні"
+    ** "купецькі засоби" "збільшують та зменшують", not "підвищують та знижують"
+    * trade range, торговая дистанция -> купецька досяжність
+    * trade routes, торговые пути, маршруты -> торгові шляхи
+    * merchant power, торговое преимущество -> "купецька перевага" as a game Concept, and when it's clearly a text describing game mechanics; conversely in narrative texts "торгова перевага" is often correct
     * staplerecht right, складочное право -> "складове право", або "право складу" when it better fits in the sentence
     * sound toll(s), плата за проход -> "мито на прохід", depending on context could be "оплаті за прохід", "сплачувати за прохід" and so on, if it fits better
+    * компания -> "товариство", with the following exceptions:
+    ** established historical names of mercenary companies, such as "Наваррська компанія", "Афінська компанія"
+    ** established names of historical international trading companies, for example "Ост-Індійська компанія"
+    ** "companies", "компании" of Catholic and Protestant countries (England, France, Scotland, Spain, Italy, Germany, etc.) remain "компанії"
 
 ## Resources, Goods, Buildings
 

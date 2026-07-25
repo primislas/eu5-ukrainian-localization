@@ -16,7 +16,7 @@
   ireland.20.b: "Спробуємо відкупитися від духовенства."
   ireland.20.c: "Ці звичаї з'явилися задовго до католицтва."
   ireland.30.title: "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|U] скасову[ROOT.GetCountry.Custom('clergy_yeyut')] брегонський закон"
-  ireland.30.desc: "#ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_ACC')|L]#!#! занадто довго псували старі кельтські звичаї. Отримавши контроль над регентством, священники поставили собі за мету виключити бардів і брегонів із суспільного життя."
+  ireland.30.desc: "#ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_ACC')|L]#!#! занадто довго псували старі кельтські звичаї. Отримавши контроль над регентством, священники поставили собі за мету виключити бардів і брегонів із суспільного життя."
   ireland.30.a: "Нехай [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] займа[ROOT.GetCountry.Custom('clergy_yetsayutsa')] осучасненням [ROOT.GetCountry.Custom('CL_GEN')]."
   ireland.30.a.entry: "Нехай духовенство займається осучасненням."
   ireland.30.b: "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|U] повин[ROOT.GetCountry.Custom('clergy_ennanoni')] присвячувати весь свій час молитвам."

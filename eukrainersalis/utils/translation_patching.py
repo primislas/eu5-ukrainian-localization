@@ -17,7 +17,7 @@ if __name__ == "__main__":
         _content = load_eu5_yaml(file)
         _ucontent = {_localization_key: {}}
         for k, v in _content.get(_localization_key, {}).items():
-            if "олоніальн" in v:
+            if "CL_tt" in v:
             # if "'religion'" in v or "_RU_" in v or "_ru_" in k or "_RU_" in k:
             # if "ru_rank_" in v or "RU_rank_" in v or "RU_rn" in v or "ru_rank_" in k or "RU_rank_" in k or "RU_rn" in k:
                 uv = v
@@ -45,15 +45,19 @@ if __name__ == "__main__":
                 # uv = uv.replace("Concept('religion', 'Релігії')", "Concept('religion', 'Віри')")
                 # uv = uv.replace("Concept('religion', 'Релігією')", "Concept('religion', 'Вірою')")
 
-                uv = uv.replace("колоніальних націй", "колоніальних намісництв")
-                uv = uv.replace("колоніальним націям", "колоніальним намісництвам")
-                uv = uv.replace("колоніальними націями", "колоніальними намісництвами")
-                uv = uv.replace("колоніальних націях", "колоніальних намісництвах")
-                uv = uv.replace("Колоніальних націй", "Колоніальних намісництв")
-                uv = uv.replace("Колоніальним націям", "Колоніальним намісництвам")
-                uv = uv.replace("Колоніальними націями", "Колоніальними намісництвами")
-                uv = uv.replace("Колоніальних націях", "Колоніальних намісництвах")
+                uv = uv.replace(".Custom('CL_tt')", ".GetKey")
 
+                # uv = uv.replace("тонке сукно", "коштовні тканини")
+                # uv = uv.replace("тонкого сукна", "коштовних тканин")
+                # uv = uv.replace("тонкому сукну", "коштовним тканинам")
+                # uv = uv.replace("тонким сукном", "коштовними тканинами")
+                # uv = uv.replace("тонкому сукні", "коштовних тканинах")
+                #
+                # uv = uv.replace("Тонке сукно", "Коштовні тканини")
+                # uv = uv.replace("Тонкого сукна", "Коштовних тканин")
+                # uv = uv.replace("Тонкому сукну", "Коштовним тканинам")
+                # uv = uv.replace("Тонким сукном", "Коштовними тканинами")
+                # uv = uv.replace("Тонкому сукні", "Коштовних тканинах")
 
 
                 _ucontent[_localization_key][uk] = uv

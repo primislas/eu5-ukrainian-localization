@@ -29,7 +29,7 @@
   STATIC_MODIFIER_NAME_cotton_imports_banned: "Привіз бавовни заборонено"
   prices.7.title: "Чай із цукром"
   prices.7.entry: "$prices.7.title$"
-  prices.7.desc: "Потрапивши на територію #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! з Китаю, чай швидко перетворився на улюблений [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ий напій. І багаті, і бідні, і навіть [ROOT.GetCountry.GetGovernment.GetRuler.GetName] навряд чи відмовляться від чашечки чаю з цукром."
+  prices.7.desc: "Потрапивши на територію #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! з Китаю, чай швидко перетворився на улюблений [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ий напій. І багаті, і бідні, і навіть [ROOT.GetCountry.GetGovernment.GetRuler.GetName] навряд чи відмовляться від чашечки чаю з цукром."
   prices.7.a: "Це збільшить попит на чай та цукор."
   tea_and_sugar_for_britain: "Куди ж без чаю?"
   prices.8.title: "Торгівля прянощами"

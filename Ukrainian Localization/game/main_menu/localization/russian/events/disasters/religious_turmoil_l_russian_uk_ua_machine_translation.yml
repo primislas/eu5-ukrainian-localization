@@ -20,6 +20,6 @@
   religious_turmoil.5.a: "Ми повинні викорінити єретиків!"
   religious_turmoil.5.b: "Потрібно навернути їх до істинної віри."
   religious_turmoil.6.title: "Пусті слова"
-  religious_turmoil.6.desc: "Нещодавно проголошений указ про терпимість не коштував і виїденого яйця. Після його публікації погроми проти релігійних меншин тільки почастішали, а влада #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! воліє заплющувати очі на насильство, що чиниться натовпом."
+  religious_turmoil.6.desc: "Нещодавно проголошений указ про терпимість не коштував і виїденого яйця. Після його публікації погроми проти релігійних меншин тільки почастішали, а влада #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! воліє заплющувати очі на насильство, що чиниться натовпом."
   religious_turmoil.6.a: "У нас є важливіші справи."
   religious_turmoil.6.b: "Треба видати новий едикт."

@@ -116,7 +116,7 @@
   AUTO_MODIFIER_DESC_byz_greek_diplomatic_influence: "Наші [Concept('subjects', 'васали')|e], [Concept('allies', 'союзники')|e] та [Concept('royal_marriages', 'династичні шлюби')|e] з представниками #TOOLTIP:LANGUAGE,greek_language,X #L грекомовних#!#! [Concept('countries', 'країн')|e] зміцнюють #TOOLTIP:SOCIETAL_VALUE,latinization_vs_hellenization,X #L ромейство#!#!."
   AUTO_MODIFIER_NAME_byz_varangian_guard_restored: "Varangian Guard Restored"
   AUTO_MODIFIER_DESC_byz_varangian_guard_restored: "Northmen from [ShowRegionName('scandinavian_region')] answered the Emperor's call, allowing an additional [ShowUnitDefinitionName('a_varangians')] cohort to be raised."
-  AUTO_MODIFIER_NAME_total_merchant_capacity_impact: "Сумарний [Concept('merchant_capacity', 'торговий потенціал')|e]"
+  AUTO_MODIFIER_NAME_total_merchant_capacity_impact: "Сукупні [Concept('merchant_capacity', 'купецькі засоби')|e]"
   AUTO_MODIFIER_NAME_monthly_income_impact: "Щомісячний дохід"
   AUTO_MODIFIER_NAME_num_embraced_institutions: "[Concept('embraced', 'Впроваджені')|e] [Concept('institutions', 'інститути')|e]"
   AUTO_MODIFIER_DESC_num_embraced_institutions: "Загальна кількість [Concept('embraced', 'впроваджених')|e] [Concept('country', 'країною')|e] [Concept('institutions', 'інститутів')|e]."

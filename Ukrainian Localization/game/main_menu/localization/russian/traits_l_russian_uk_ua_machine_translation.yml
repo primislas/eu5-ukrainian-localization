@@ -322,7 +322,7 @@
   cannoneer_die_desc: "Наші гармаші оплакують [Select_CString(CHARACTER.IsFemale,'свою дорогу сестру', 'свого дорогого брата')]."
   extortioner_die_desc: "[Select_CString(CHARACTER.IsFemale,'Її', 'Його')] кончина порадує всіх торговців, окрім наших співвітчизників."
   ruthless_blockader_die_desc: "Жителі прибережних портів зможуть зітхнути з полегшенням."
-  buccaneer_die_desc: "Після [Select_CString(CHARACTER.IsFemale,'її', 'його')] смерті наші вороги знову відчують себе в безпеці на судноплавних шляхах."
+  buccaneer_die_desc: "Після [Select_CString(CHARACTER.IsFemale,'її', 'його')] смерті наші вороги знову відчують себе в безпеці на мореплавних шляхах."
   prize_hunter_die_desc: "Завдяки [Select_CString(CHARACTER.IsFemale,'її', 'його')] пристрасті наш флот поповнився безліччю трофейних [Concept('ships', 'кораблів')|e]."
   ironside_die_desc: "[Select_CString(CHARACTER.IsFemale,'Її', 'Його')] прихильність до оборонної тактики справила незабутнє враження на всіх під [Select_CString(CHARACTER.IsFemale,'її', 'його')] командуванням."
   naval_engineer_die_desc: "[Select_CString(CHARACTER.IsFemale,'Її', 'Його')] уважне ставлення до [Concept('ships', 'кораблів')|e] значно збільшило термін служби суден нашого [Concept('navy', 'флоту')|e]."

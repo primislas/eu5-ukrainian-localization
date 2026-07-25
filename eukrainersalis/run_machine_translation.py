@@ -50,6 +50,7 @@ _PREPROC_MAPPINGS = {
     "_wth_icon": "_with_icon",
     "SOCIEALVALUE": "SOCIETALVALUE",
     "' )]": "')]",
+    ".Custom('CL_tt')": ".GetKey",
 }
 
 _KEYS_MAPPING = {

@@ -1,9 +1,9 @@
 ﻿l_russian:
   struggle_for_royal_power.1.title: "Боротьба за владу короля"
-  struggle_for_royal_power.1.desc: "Напруга між короною та сеймом досягла межі. Шляхтичі використовують будь-який, навіть найнікчемніший привід, щоб досадити своєму монарху, і [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] більше не бажає миритися з обмеженнями, накладеними на королівську владу. [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'Вона', 'Він')] вважає, що з владою сейму на землях #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! має бути покінчено."
+  struggle_for_royal_power.1.desc: "Напруга між короною та сеймом досягла межі. Шляхтичі використовують будь-який, навіть найнікчемніший привід, щоб досадити своєму монарху, і [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] більше не бажає миритися з обмеженнями, накладеними на королівську владу. [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'Вона', 'Він')] вважає, що з владою сейму на землях #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! має бути покінчено."
   struggle_for_royal_power.1.a: "Ми розпочнемо війну проти шляхти."
   struggle_for_royal_power.100.title: "Закінчення боротьби за владу короля"
-  struggle_for_royal_power.100.desc: "Затяжне військово-політичне протистояння на території #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! нарешті закінчилося. Тепер усі знають, хто насправді править країною."
+  struggle_for_royal_power.100.desc: "Затяжне військово-політичне протистояння на території #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! нарешті закінчилося. Тепер усі знають, хто насправді править країною."
   struggle_for_royal_power.100.a: "Хай живе [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]!"
   struggle_for_royal_power.100.b: "Хай живе сейм!"
   struggle_for_royal_power.100.c: "Ця громадянська війна погубить [ROOT.GetCountry.Custom('CL_ACC')|L]…"
