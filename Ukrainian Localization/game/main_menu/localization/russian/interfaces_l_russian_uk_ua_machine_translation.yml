@@ -253,7 +253,7 @@
   LOCATION_ART_TITLE: "Витвір в [Location.Custom('LR_PREP')|l] [Location.GetNameWithNoTooltip]"
   EXTRA_COUNTRIES_FOR_ORG: "#T Додаткові учасники#!\nВключає наступні країни"
   EXTRA_COUNTRIES_FOR_GP: "#T Додаткові васали#!\nВключає наступні країни"
-  MAX_TOWARDS_DUE_TO_INERTIA: "#R Не#! може отримати більше $VAL|2G$ од. на користь варіанта «$NAME|V$»."
+  MAX_TOWARDS_DUE_TO_INERTIA: "#R Не#! може отримати більше $VAL|2G$ од. на користь напрямку «$NAME|V$»."
   MAX_TOWARDS_DUE_TO_INERTIA_TITLE: "Не можна зміститися в бік [Concept('societal_value', 'суспільної цінності')|e]"
   MAX_TOWARDS_DUE_TO_INERTIA_TOOLTIP: "Рада #R не#! чинить достатнього тиску, щоб змінити напрямок у бік суспільної цінності «[Cabinet.GetSocietalValueName|V]»."
   INPUT_GOODS_IN_PROVINCE: "[Concept('rgo', 'Видобуток ресурсу')|E] [rgo_icon] «$NAME$» у @province! провінції [PROVINCE.GetName]: $VAL|+=2%$"
