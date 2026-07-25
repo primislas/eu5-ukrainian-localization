@@ -175,7 +175,7 @@
   great_pestilence_spreads: "• Ця чума пошириться в близьких [Concept('locations', 'місцевостях')|e]"
   great_pestilence_kills: "• Там, куди вона прийде, загине безліч [Concept('characters', 'персонажів')|e] та [Concept('pops', 'груп населення')|e]."
   GREAT_PESTILENCE_PRESENT_IN_LOCATION: "[THIS.GetLocation.GetName|Y]\nПоточне населення: [THIS.GetLocation.GetTotalPopulation|Y]\n#R Великий мор#! спіткав [THIS.GetLocation.GetDiseaseInfectionPercentage('great_pestilence')|R2%] нашого населення."
-  move_good_to_new_location: "Перенесення [Concept('goods', 'товару')|e] в нову місцевість"
+  move_good_to_new_location: "Перенести [Concept('goods', 'товар')|e] в нову місцевість"
   columbian_exchange: "Колумбів обмін"
   columbian_exchange_desc: "Контакт із заморськими чужинцями приніс у нашу країну нові сільськогосподарські культури та тварин із далеких земель, а також подарував можливість вибудувати нові торговельні відносини, завдяки чому наші купці отримають доступ до нових екзотичних та незвичайних товарів."
   columbian_exchange_old_world_goods_traded_tt: "Ми виробляємо або продаємо на ринку товари зі Старого Світу"
