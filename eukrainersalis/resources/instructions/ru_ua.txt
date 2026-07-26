@@ -190,7 +190,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     * territory, территория -> try to avoid "територія", prefer "земля", "землі" (in general and local sense, e.g. "сільські, міські землі", "на тих землях", "наші, їхні землі" тощо), "володіння" (in a more official high prose governmental sense), "терени" (for large spaces or in very colloquial texts), "кордони" (when border is implied or stressed), "край, краї" (in a poetic or narrative context), or any other context-fitting synonym
     * location, район -> місцевість
     * "core location / region", "национальний район, регион" -> "корінна місцевість, регіон"
-    * range, дистанция -> відстань
+    * range, дистанция -> досяжність
     * vegetation, флора -> рослинність
     * subject territory connectivity, cвязанность территорий ленника -> досяжність володінь васала
     * disease, эпидемия -> пошесть
@@ -342,6 +342,8 @@ You can rely on and treat English text as a primary source, deduce context from 
 ## Diplomacy
 
     * diplomat, дипломат -> посол; посольські установи, споруди, місії, відстань тощо; але дипломатичний хист, відносини, навичка, вплив, гнучкість і т.і.
+    * diplomatic action, дипломатическое действие -> посольська дія
+    * diplomatic range, дипломатическая дистанция -> посольська досяжність
     * diplomatic capacity, дипломатический потенциал -> "посольські засоби"; if necessary to avoid repetition in text, "посольська спроможність" is allowed
     * diplomatic opinion, мнение -> думка
     * diplomatic reputation, дипломатическая репутация -> добре ім’я
