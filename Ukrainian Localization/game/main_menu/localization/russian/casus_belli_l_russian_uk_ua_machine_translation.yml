@@ -52,7 +52,7 @@
   cb_nationalist: "Націоналізм"
   cb_nationalist_PROV: "Претензії націоналістів на [COUNTRY.Custom('CL_ACC')|L]"
   cb_push_back_colonizers: "Боротьба з колонізаторами"
-  cb_trade_conflict: "Торговельний конфлікт"
+  cb_trade_conflict: "Торговий конфлікт"
   cb_tribal_feud: "Племінна ворожнеча"
   cb_sound_toll_exemptions_broken: "Порушення пільг на оплату проходу"
   cb_coalition: "Коаліція"

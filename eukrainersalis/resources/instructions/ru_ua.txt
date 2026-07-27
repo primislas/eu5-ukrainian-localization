@@ -548,21 +548,26 @@ You can rely on and treat English text as a primary source, deduce context from 
 
 ## Trade
 
+    * торговый -> always "торговий", not "торговельний"
     * import, импорт -> привіз (привізний, привозити, привозитиметься тощо); in general text add variety translating "импортные товары" as any combination of "привізні", "заморські, "чужоземні", "іноземні", "закордонні" "товари", "крам", "вироби", whichever fits best
     * export, экспорт -> вивіз (вивізний, вивозити, вивозитиметься тощо)
     * BUT "импорт/экспорт ... услуг" -> "купівля/продаж ... послуг", e.g. "продаж військових послуг"
     * "товары" -> in narrative texts and when not about a game concept, translate as "крам"
     ** "ценные товары" -> коштовний крам
     * "импортный/экспортный рынок" -> "ринок, що купує/продає"
-    * trade order, торговый приказ -> торговельна угода
-    ** торговельні угоди укладають, а не створюють
-    * trade capacity, merchant capacity, торговый потенциал -> "купецькі засоби" (тільки множина)
+    * trade order, торговый приказ -> торгова угода
+    ** торгові угоди укладають, а не створюють
+    * trade capacity, merchant capacity, торговый потенциал -> "купецькі засоби" (only plural form)
     ** "сукупні купецькі засоби", not "сумарні"
     ** "купецькі засоби" "збільшують та зменшують", not "підвищують та знижують"
     * trade range, торговая дистанция -> купецька досяжність
-    * trade routes, торговые пути, маршруты -> only "торговельні шляхи", not "торгові"
+    * trade routes, торговые пути, маршруты -> торгові шляхи
     * staplerecht right, складочное право -> "складове право", або "право складу" when it better fits in the sentence
     * sound toll(s), плата за проход -> "мито на прохід", depending on context could be "оплаті за прохід", "сплачувати за прохід" and so on, if it fits better
+    * компания -> "товариство", with the following exceptions:
+    ** established historical names of mercenary companies, such as "Наваррська компанія", "Афінська компанія"
+    ** established names of historical international trading companies, for example "Ост-Індійська компанія"
+    ** "companies", "компании" of Catholic and Protestant countries (England, France, Scotland, Spain, Italy, Germany, etc.) remain "компанії"
 
 ## Resources, Goods, Buildings
 

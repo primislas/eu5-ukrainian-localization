@@ -590,7 +590,7 @@
   theological_difference_nature_of_christ: "Богословські суперечки про природу Христа"
   opinion_shirazi_islam: "Мусульмани-ширазі"
   opinion_adopted_our_religious_views: "Прийняли наші релігійні погляди"
-  opinion_peaceful_trade_relations: "Мирні торговельні відносини"
+  opinion_peaceful_trade_relations: "Мирні торгові відносини"
   opinion_mending_relations: "Налагодження відносин"
   opinion_death_of_hayan_wuruk: "[GetCharacter('maj_hayam_wuruk').GetNameWithNoTooltip] [Select_CString(GetCharacter('maj_hayam_wuruk').IsFemale,'мертва', 'мертвий')]"
   maj_diplomatic_oath: "Дипломатична мета"

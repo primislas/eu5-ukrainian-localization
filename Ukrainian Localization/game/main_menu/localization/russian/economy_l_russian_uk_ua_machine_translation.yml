@@ -660,7 +660,7 @@
   CURRENT_NEEDS_ENTRY: "$BULLET_WITH_TAB$$NAME$: $VAL|<+=2$"
   CURRENT_NEEDS_EXTRA: "і ще $VAL|+=2$ з інших джерел ($NUM$)."
   NO_POSSIBLE_BUILDINGTYPES: "Немає відповідних типів"
-  TRADE_BALANCE: "Торговельний баланс"
+  TRADE_BALANCE: "Торговий баланс"
   ROAD_DISTANCE_COST_MULTIPLIER_WITH_ALREADY_DONE: "Відстань: $DISTANCE|0%-=$ (Загальна відстань дорівнювала б $DISTANCE_IN_TOTAL|0%-=$, але шлях вже прокладено на $PERCENT_DONE|%$)"
   ROAD_DISTANCE_COST_MULTIPLIER: "Відстань: $VAL|2-=%$"
   ROAD_MOVEMENT_COST: "[ShowModifierTypeName('movement_cost')]: $VAL|2-=%$"

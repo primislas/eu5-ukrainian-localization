@@ -10,7 +10,7 @@
   colonial_revolution.3.desc: "Ми втомилися терпіти недбале та невміле управління колоніями й тепер стоїмо на роздоріжжі. Поселенці більше не вірять #ONCLICK:COUNTRY,[target_overlord.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_overlord.Custom('CL_tt')],X [target_overlord.Custom('CL_DAT')|L]#!#!: занадто великими стали наші культурні, суспільні та політичні відмінності, побудовані на фундаменті з гноблення. Ті, для кого [target_overlord.Custom('GetMotherlandFatherland')|l] — священне слово, і ті, хто хоче незалежності від заморських правителів, з кожним днем усе більше віддаляються одне від одного. Конфлікт, схоже, неминучий."
   colonial_revolution.3.a: "Це серйозна справа."
   colonial_revolution.3.b: "[target_overlord.Custom('GetMotherlandFatherland')|U] викликає сильні почуття. Відданість батьківщині ще може нам послужити."
-  colonial_revolution.4.title: "Торговельні обмеження"
+  colonial_revolution.4.title: "Торгові обмеження"
   colonial_revolution.4.desc: "Відносини з нашими колоніями сьогодні не можна назвати інакше, як хиткими. Економічні потреби #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! вимагають постійної уваги: країні потрібні безперервні поставки заморських товарів, однак усі спроби встановити жорсткий контроль над економікою наших підданих незмінно наштовхуються на жорсткий опір. Частина колоністів звернулася до нас із проханням послабити суворі заходи щодо ввезених і вивезених товарів — вони хочуть самоврядування в цьому питанні."
   colonial_revolution.4.a: "Нехай звернуться з цим до [ROOT.GetCountry.Custom('parliament_ua_DAT')|l]."
   colonial_revolution.4.b: "Поступимося їхнім вимогам."
