@@ -85,7 +85,7 @@
   fate_of_the_phoenix.17.desc: "Ми вже ведемо справи в #TOOLTIP:LOCATION,constantinople,X #L Константинополі#!#!, але тепер [actor.GetName] пропону[actor.Custom('end_yeyut')] нам поставити будівельні матеріали для кораблів в обмін на пільгові умови та ринкові привілеї для їхньої столиці."
   fate_of_the_phoenix.17.a: "[target_country.GetGovernment.GetRulerOrRegent.GetShortNameWithNoTooltip] не промине вигоди. По руках!"
   fate_of_the_phoenix.17.b: "Нас це не цікавить."
-  selected_republic_may_donate_ships_to_our_cause_tt: "Обрана купецька республіка може надати свої [Concept('ships', 'кораблі')|e] (галери) та [Concept('sailors', 'моряків')|e] в обмін на [Concept('merchant_power', 'торгову перевагу')|e] в #TOOLTIP:LOCATION,constantinople,X #L Константинополі#!#!"
+  selected_republic_may_donate_ships_to_our_cause_tt: "Обрана купецька республіка може надати свої [Concept('ships', 'кораблі')|e] (галери) та [Concept('sailors', 'моряків')|e] в обмін на [Concept('merchant_power', 'купецьку перевагу')|e] в #TOOLTIP:LOCATION,constantinople,X #L Константинополі#!#!"
   byzantines_left_fend_themselves_tt: "[actor.GetLongName] залиша[actor.Custom('endlong_youtyut')]ся наодинці з проблемами"
   latin_merchant_privileges_key: "Привілеї італійських купців"
   fate_of_the_phoenix.18.title: "[target_character.GetNameWithNoTooltip] прибуває до [ROOT.GetCountry.GetCapital.Custom('LR_ACC')|l] [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]"
