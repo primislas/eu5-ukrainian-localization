@@ -550,6 +550,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     * trade capacity, merchant capacity, торговый потенциал -> "купецькі засоби" (тільки множина)
     ** "сукупні купецькі засоби", not "сумарні"
     ** "купецькі засоби" "збільшують та зменшують", not "підвищують та знижують"
+    * trade range, торговая дистанция -> купецька досяжність
     * trade routes, торговые пути, маршруты -> only "торговельні шляхи", not "торгові"
     * staplerecht right, складочное право -> "складове право", або "право складу" when it better fits in the sentence
     * sound toll(s), плата за проход -> "мито на прохід", depending on context could be "оплаті за прохід", "сплачувати за прохід" and so on, if it fits better
