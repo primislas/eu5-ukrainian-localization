@@ -10244,7 +10244,7 @@
   OTHER_PERFORMS_dismiss_privateer_ACTION_TITLE: "Кінець піратства"
   OTHER_PERFORMS_dismiss_privateer_ACTION_EFFECTS: "Яке полегшення!"
   OTHER_PERFORMS_dismiss_privateer_ACTION_DESC: "[SCOPE.sCountry('actor').GetName] наказу[SCOPE.sCountry('actor').Custom('end_yeyut')] [Concept('privateers', 'каперам')|e] в області [SCOPE.sArea('target').GetName] припинити грабунок."
-  OTHER_PERFORMS_dismiss_privateer_ACTION_FLAVOR: "Наші торгові судна в безпеці."
+  OTHER_PERFORMS_dismiss_privateer_ACTION_FLAVOR: "Наші торговельні кораблі в безпеці."
   OTHER_PERFORMS_dismiss_privateer_ACTION_LOG: "[SCOPE.sCountry('actor').GetName] звільни[SCOPE.sCountry('actor').Custom('end_vlaloly')] каперів в області [SCOPE.sArea('target').GetName]."
   OTHER_PERFORMS_dismiss_privateer_ACTION_BTN1: "Гаразд"
   OTHER_PERFORMS_dismiss_privateer_ACTION_BTN2: "Гаразд"

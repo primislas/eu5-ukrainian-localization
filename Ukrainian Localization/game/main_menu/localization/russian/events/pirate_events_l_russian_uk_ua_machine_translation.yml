@@ -12,7 +12,7 @@
   pirate_events.4.a: "Заколот!"
   pirate_events.4.b: "Слово капітана — закон."
   pirate_events.5.title: "Поділ здобичі"
-  pirate_events.5.desc: "[target_privateer.GetName] дарує нам із нещодавно захопленого корабля більше цінностей, ніж ми очікували. Команди про це поки не знають, інакше б вона вже давно вимагала збільшити їхню частку з награбованого.\n\n[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] з кораблів, що брали участь у нападі, бажа[ROOT.GetCountry.Custom('nobles_yeyut')] залишити гроші собі, щоб оновити судна та закупити більше гармат, тоді як [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] вважають, що краще буде витратити їх на підкуп чиновників у законослухняних портах."
+  pirate_events.5.desc: "[target_privateer.GetName] дарує нам із нещодавно захопленого корабля більше цінностей, ніж ми очікували. Команди про це поки не знають, інакше б вона вже давно вимагала збільшити їхню частку з награбованого.\n\n[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] з кораблів, що брали участь у нападі, бажа[ROOT.GetCountry.Custom('nobles_yeyut')] залишити гроші собі, щоб оновити кораблі та закупити більше гармат, тоді як [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] вважають, що краще буде витратити їх на підкуп чиновників у законослухняних портах."
   pirate_events.5.a: "Розділимо здобич порівну між командою."
   pirate_events.5.b: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')|U] отримають свою частку."
   pirate_events.5.c: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] заслужи[ROOT.GetCountry.Custom('nobles_vlaloly')] трохи більше грошей."

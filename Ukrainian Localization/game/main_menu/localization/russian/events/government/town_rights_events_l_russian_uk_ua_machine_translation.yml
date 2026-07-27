@@ -6,7 +6,7 @@
   town_rights_events.1.c: "Спрямуймо кошти на потреби місцевості."
   every_location_in_province_dev_and_prosperity_tt: "Кожна [Concept('location', 'місцевість')|e] у провінції [target_province.GetName] отримає [ShowNamedValue('development_weak_bonus')|+=2%] до [Concept('development', 'розвитку')|e] та [ShowNamedValue('prosperity_mild_bonus')|+=2%] до [Concept('prosperity', 'процвітання')|e]"
   town_rights_events.2.title: "Господарчий застій у [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
-  town_rights_events.2.desc: "Попри всі наші зусилля з розвитку #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_GEN')|l]#!#! [target_location.GetName], торгові судна практично не заходять до тутешнього порту, і купці не бажають тут торгувати. Нам залишається сподіватися, що це лише тимчасовий застій, який не призведе до повного занепаду."
+  town_rights_events.2.desc: "Попри всі наші зусилля з розвитку #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_GEN')|l]#!#! [target_location.GetName], торговельні кораблі практично не заходять до тутешнього порту, і купці не бажають тут торгувати. Нам залишається сподіватися, що це лише тимчасовий застій, який не призведе до повного занепаду."
   town_rights_events.2.a: "[target_character.GetShortNameWithNoTooltip] легко впорається з цією проблемою."
   town_rights_events.2.b: "На жаль, такі ризики будь-якого підприємства."
   town_rights_events.2.c: "Це питання явно не варте нашої уваги."

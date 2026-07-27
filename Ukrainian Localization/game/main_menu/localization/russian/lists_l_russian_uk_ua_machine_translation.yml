@@ -195,7 +195,7 @@
   RECRUIT_LOCATION_SORT_GOLD: "Сортувати за витратами [Concept('gold', 'грошей')|e]"
   RECRUIT_LOCATION_SORT_MAN: "Сортувати за витратами [Concept('manpower', 'числа рекрутів')|e]"
   RECRUIT_LOCATION_SORT_NUM: "Сортувати за кількістю поточних рекрутських наборів"
-  RECRUIT_LOCATION_SORT_BUILDCAPAC: "Сортувати за суднобудівними потужностями [Concept('location', 'місцевості')|e]"
+  RECRUIT_LOCATION_SORT_BUILDCAPAC: "Сортувати за корабельними потужностями [Concept('location', 'місцевості')|e]"
   RECRUIT_LOCATION_SORT_REGIMENT_TRAINING: "Сортувати за межею навчання полків у [Concept('location', 'місцевості')|e]"
   CURRENT_NEEDS_SORT_GOOD: "Сортувати за назвою [Concept('goods', 'товарів')|e]"
   CURRENT_NEEDS_SORT_MARKET: "Сортувати за назвою [Concept('market', 'ринку')|e]"

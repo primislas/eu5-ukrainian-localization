@@ -430,8 +430,17 @@ You can rely on and treat English text as a primary source, deduce context from 
     * гарнизонный -> залоговий
     * to garrison, вводить гарнизони -> ставити залогу, вводити залогу
 
-    * налёт, нальот - "набіг" if on land, "напад" on sea, "наскок" if stressing unexpected nature
-    * налётчик, нальотчик - грабіжник, розбійник in negative connotations, нападник in neutral (our raiders - наші нападники); make sure to interchange to avoid repetition (e.g. "розбійники розграбували", not "грабіжники розграбували")
+    * судно -> only and always "корабель"
+    ** "військові кораблі", NOT "воєнні"
+    ** transport ship (fleet), транспортное судно (флот) -> вантажний корабель (флот)
+    ** судостроение -> кораблебудування
+    ** (судостроительная) верфь -> корабельня
+    ** судостроитель -> корабельник
+    ** судостроительный -> корабельний (in particular "судостроительны материалы" -> "корабельні матеріали")
+    ** судоплавание -> мореплавство; but if and only if the text clearly talks about river sailing, "судноплавство" should be used
+    ** судоходный шлюз -> гребля зі шлюзом
+    * налёт, нальот -> "набіг" if on land, "напад" on sea, "наскок" if stressing unexpected nature
+    * налётчик, нальотчик -> грабіжник, розбійник in negative connotations, нападник in neutral (our raiders - наші нападники); make sure to interchange to avoid repetition (e.g. "розбійники розграбували", not "грабіжники розграбували")
 
 ## Religion and Culture
 
