@@ -60,7 +60,7 @@
   ICI_POP_ENTRY: "[POP.GetName]: [POP.GetSize] [POP.GetType.GetIcon]"
   OPINION_CULTURE_TOOLTIP: "#T Ставлення [CULTURE.GetNameWithNoTooltip|l]ої культури до [TARGET_CULTURE.GetNameWithNoTooltip|l]ої#!\nСтавлення «$TITLE$» має такий ефект:\nСтавлення країн з #L [CULTURE.GetName|l]ою#! культурою до країн з #L [TARGET_CULTURE.GetName|l]ою#! культурою: $VAL|0=+$"
   OPINION_CULTURE_POP_TOOLTIP: "[Concept('pop_satisfaction', 'Задоволення')|e] [Concept('pops', 'груп населення')|e] з [CULTURE.GetNameWithNoTooltip|l]ою культурою: $VAL|=+2%$"
-  OPINION_CULTURE_ASSIMILATION_TOOLTIP: "[Concept('assimilation', 'Асиміляція')|e] #L [TARGET_CULTURE.GetAdjective|l]их#! [Concept('pops', 'груп населення')|e]: $VAL|=+2%$"
+  OPINION_CULTURE_ASSIMILATION_TOOLTIP: "[Concept('assimilation', 'Асиміляція')|e] #L [TARGET_CULTURE.GetName|l]их#! [Concept('pops', 'громад')|e]: $VAL|=+2%$"
   RELIGION_BREAKDOWN_TOOLTIP: "#T Розподіл [RELIGION.GetAdjectiveWithNoTooltip|l]ої віри#!\n[Concept('pops', 'Групи населення')|e], які сповідують [RELIGION.GetName|l], живуть у таких [Concept('provinces', 'провінціях')|e]:"
   RELIGION_BREAKDOWN_TOOLTIP_ENTRY: "@province! [PROVINCE.GetName]: $POP_SIZE$ [population_icon]"
   OPINION_RELIGION_TOOLTIP: "#T Ставлення [RELIGION.GetAdjectiveWithNoTooltip|l]ої віри до [TARGET_RELIGION.GetAdjectiveWithNoTooltip|l]ої#!\nСтавлення «$TITLE$» має такий ефект:\nСтавлення країн #L [RELIGION.GetAdjective|l]ого#! спрямування до країн #L [TARGET_RELIGION.GetAdjective|l]ого#!: $VAL|0=+$"
