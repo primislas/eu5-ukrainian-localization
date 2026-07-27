@@ -298,7 +298,7 @@
   ESTATE_OPINION_THEIR_COURT_LITURGICAL: "Їхня [Concept('court_language', 'придворна мова')|e] використовується в наших [Concept('liturgical_language', 'літургіях')|e]"
   ESTATE_OPINION_HOLY_SEE: "Святий Престол"
   ESTATE_OPINION_BOTH_MIL_ORDERS: "Обидві країни — військові ордени"
-  ESTATE_OPINION_MERCHANT_CAPACITY: "Різниця в [Concept('merchant_capacity', 'торговому потенціалі')|e]"
+  ESTATE_OPINION_MERCHANT_CAPACITY: "Різниця в [Concept('merchant_capacity', 'купецьких засобах')|e]"
   ESTATE_OPINION_MERCHANT_IN_CAPITAL: "Їхній [Concept('merchant', 'купець')|e] торгує на нашому [Concept('market', 'ринку')|e]"
   ESTATE_OPINION_OUR_MERCHANT_IN_THEIR_CAPITAL: "[Concept('merchant', 'Купець')|e] торгує на їхньому [Concept('market', 'ринку')|e]"
   ESTATE_OPINION_DIFFERENT_CULTURE_GROUP: "Різні [Concept('culture_group', 'культурні групи')|e]"

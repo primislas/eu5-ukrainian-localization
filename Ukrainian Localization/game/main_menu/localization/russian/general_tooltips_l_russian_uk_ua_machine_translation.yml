@@ -168,7 +168,7 @@
   LANGUAGE_POWER_COURT_ENTRY: "$BULLET_WITH_TAB$$COURT|Y$ у #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_PREP')|L]#!#!: $VAL|2+=$"
   LANGUAGE_POWER_COURT_OTHER: "$BULLET_WITH_TAB$$COURT|Y$ у $NUM$ інших [Concept('countries', 'країнах')|e]: $VAL|2+=$"
   LANGUAGE_POWER_NO_COURT: "$BULLET_WITH_TAB$Немає [Concept('countries', 'країн')|e], де ця мова є [Concept('court_language', 'придворною')|e]."
-  LANGUAGE_POWER_COMMON_HEAD: "#T $VAL|2Y$ од. за кожну одиницю [Concept('merchant_capacity', 'торгового потенціалу')|e] у [Concept('countries', 'країнах')|e], де ця мова є [Concept('common_language', 'загальноприйнятою')|e]#!"
+  LANGUAGE_POWER_COMMON_HEAD: "#T $VAL|2Y$ од. за кожну одиницю [Concept('merchant_capacity', 'купецьких засобів')|e] у [Concept('countries', 'країнах')|e], де ця мова є [Concept('common_language', 'загальноприйнятою')|e]#!"
   LANGUAGE_POWER_COMMON_ENTRY: "$BULLET_WITH_TAB$$COMMON|Y$ у #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_PREP')|L]#!#!: $VAL|2+=$"
   LANGUAGE_POWER_COMMON_OTHER: "$BULLET_WITH_TAB$$COMMON|Y$ у $NUM$ інших [Concept('countries', 'країнах')|e]: $VAL|2+=$"
   LANGUAGE_POWER_NO_COMMON: "$BULLET_WITH_TAB$Немає [Concept('merchants', 'купців')|e] з [Concept('countries', 'країн')|e], де ця мова є [Concept('common_language', 'загальноприйнятою')|e]."
