@@ -42,6 +42,6 @@
   TRADE_ORDER_MOVE_UP_TT: "Підвищити пріоритет цього замовлення."
   TRADE_ORDER_MOVE_DOWN_TT: "Дозволяє понизити пріоритет цього замовлення."
   TRADE_ORDER_TRADES_TOOLTIP_TITLE: "Шляхи торгових угод"
-  TRADE_ORDER_TRADES_TOOLTIP_SUMMARY: "Дійсні [Concept('trade', 'торгові')|e] шляхи: [TradeOrderItem.GetTradeCount]. Прибуток: [TradeOrderItem.GetProfitPerCapacity|+=2]@gold! на [Concept('merchant_capacity', 'торгову спроможність')|e]."
+  TRADE_ORDER_TRADES_TOOLTIP_SUMMARY: "Дійсні [Concept('trade', 'торгові')|e] шляхи: [TradeOrderItem.GetTradeCount]. Прибуток: [TradeOrderItem.GetProfitPerCapacity|+=2]@gold! на [Concept('merchant_capacity', 'купецькі засоби')|e]."
   TRADE_ORDERS_SCROLL_LIST_EMPTY: "На цьому ринку немає [Concept('trade_order', 'торгових замовлень')|e]."
   TRADE_ORDER_TRADES_SCROLL_LIST_EMPTY: "На цьому ринку немає [Concept('trade', 'торгівлі')|e] цим товаром. Почніть її власноруч або ж укладіть [Concept('trade_order', 'торгову угоду')|e]."
