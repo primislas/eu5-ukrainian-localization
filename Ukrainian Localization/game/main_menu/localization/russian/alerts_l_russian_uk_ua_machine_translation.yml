@@ -62,7 +62,7 @@
   ALERT_MERCENARIES_IN_TROUBLE: "Ці [Concept('units', 'загони')|e] потерпають від сильного [Concept('attrition', 'виснаження')|e], і [Concept('mercenaries', 'найманці')|e] міркують над тим, щоб відмовитися від виконання контрактів:"
   ALERT_NAVY_ATTRITION_TITLE: "Виснажені флоти"
   ALERT_NAVY_ATTRITION: "Ці [Concept('navies', 'флоти')|e] частково [Concept('attrition', 'виснажені')|e]:"
-  ALERT_OBJECTIVE_GROUP_MISSING_TRANSPORT_NAVY_TITLE: "Призначеним для цілі загонам потрібен транспорт"
+  ALERT_OBJECTIVE_GROUP_MISSING_TRANSPORT_NAVY_TITLE: "Призначеним для цілі загонам потрібен військовий підйом"
   ALERT_OBJECTIVE_GROUP_MISSING_TRANSPORT_NAVY: "Для цих [Concept('military_objectives', 'воєнних цілей')|e] потрібні [Concept('ships', 'кораблі')|e] типу «[ShowUnitCategoryName('navy_transport')]», але вони не призначені:"
   ALERT_WE_CAN_ENFORCE_PEACE_TITLE: "Мир неминучий"
   ALERT_WE_CAN_ENFORCE_PEACE: "Ми можемо автоматично домогтися своєї [Concept('war_goal', 'мети')|e] в цих [Concept('wars', 'війнах')|e]."
