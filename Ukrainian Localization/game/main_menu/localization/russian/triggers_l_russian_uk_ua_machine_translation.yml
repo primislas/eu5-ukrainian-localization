@@ -3068,7 +3068,7 @@
   WITHIN_DIPLOMATIC_RANGE_TRIGGER: "[TARGET_COUNTRY.GetName] в межах [Concept('diplomatic_range', 'посольської досяжности')|e]"
   NOT_WITHIN_DIPLOMATIC_RANGE_TRIGGER: "[TARGET_COUNTRY.GetName] НЕ в межах [Concept('diplomatic_range', 'посольської досяжности')|e]"
   FIRST_WITHIN_DIPLOMATIC_RANGE_TRIGGER: "[TARGET_COUNTRY.GetName] в межах нашої [Concept('diplomatic_range', 'посольської досяжности')|e]"
-  NOT_FIRST_WITHIN_DIPLOMATIC_RANGE_TRIGGER: "[TARGET_COUNTRY.GetName] НЕ в межах нашої [Concept('diplomatic_range', 'посольської відстані')|e]"
+  NOT_FIRST_WITHIN_DIPLOMATIC_RANGE_TRIGGER: "[TARGET_COUNTRY.GetName] НЕ в межах нашої [Concept('diplomatic_range', 'посольської досяжности')|e]"
   THIRD_WITHIN_DIPLOMATIC_RANGE_TRIGGER: "[TARGET_COUNTRY.GetName] в межах [Concept('diplomatic_range', 'посольської досяжности')|e] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
   NOT_THIRD_WITHIN_DIPLOMATIC_RANGE_TRIGGER: "[TARGET_COUNTRY.GetName] НЕ в межах [Concept('diplomatic_range', 'посольської досяжности')|e] #ONCLICK:COUNTRY,[COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[COUNTRY.Custom('CL_tt')],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
   HAS_DIFFERENT_ORDER_OF_CHIVALRY_TRIGGER: "Має інший [Concept('chivalric_order', 'лицарський орден')|e], ніж у #ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!"

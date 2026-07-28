@@ -744,7 +744,7 @@
   search_filter_location_not_owned_by_player_name: "Місцевості не у володінні"
   search_filter_location_not_owned_by_player_desc: "Відображаються лише [Concept('locations', 'місцевості')|e], які вам не належать."
   search_filter_international_organization_category_name: "@organization! Фільтри для об'єднань"
-  search_filter_international_organization_within_diplomatic_range_name: "Дипломатична відстань"
+  search_filter_international_organization_within_diplomatic_range_name: "Посольська досяжність"
   search_filter_international_organization_within_diplomatic_range_desc: "Відображаються об'єднання в межах нашої посольської досяжности."
   search_filter_international_organization_type_autocephalous_name: "Автокефальний патріархат"
   search_filter_international_organization_type_autocephalous_desc: "Відображаються лише автокефальні патріархати."
