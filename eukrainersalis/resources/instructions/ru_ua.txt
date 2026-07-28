@@ -440,6 +440,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** судоплавание -> мореплавство; but if and only if the text clearly talks about river sailing, "судноплавство" should be used
     ** судоходный шлюз -> гребля зі шлюзом
     * naval range, мореходная дистанция -> морехідна досяжність
+    * colonial range, колонизационная дистанция -> колонізаційна досяжність
     * налёт, нальот -> "набіг" if on land, "напад" on sea, "наскок" if stressing unexpected nature
     * налётчик, нальотчик -> грабіжник, розбійник in negative connotations, нападник in neutral (our raiders - наші нападники); make sure to interchange to avoid repetition (e.g. "розбійники розграбували", not "грабіжники розграбували")
 

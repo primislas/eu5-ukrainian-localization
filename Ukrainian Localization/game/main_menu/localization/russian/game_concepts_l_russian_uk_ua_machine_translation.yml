@@ -1194,7 +1194,7 @@
   game_concept_diplomatic_reputation_desc: "Добре ім’я  краще за велике багатство. Воно відображає, як [Concept('country', 'країну')|e] сприймають у міжнародних зносинах, та впливає на [Concept('trusted', 'довіру')|e] з боку інших країн.\n\nВ деяких європейських країнах це зветься дипломатичною репутацією (diplomatic reputation)."
   game_concept_naval_range: "Морехідна досяжність"
   game_concept_naval_range_desc: "Це максимальна відстань, яку можуть подолати наші [Concept('ships', 'кораблі')|e] без необхідності повернутися і поповнити припаси."
-  game_concept_colonial_range: "Колонізаційна відстань"
+  game_concept_colonial_range: "Колонізаційна досяжність"
   game_concept_colonial_range_desc: "Ця відстань характеризує, як далеко ми можемо [Concept('explore', 'відправляти експедиції')|e] та [Concept('colonize', 'створювати колонії')|e]."
   game_concept_military_access: "Право на прохід військ"
   game_concept_military_access_desc: "Право на прохід військ дозволяє нашим військам переміщатися територією інших [Concept('countries', 'країн')|e]."
