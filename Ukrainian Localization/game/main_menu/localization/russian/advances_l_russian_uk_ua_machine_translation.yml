@@ -1363,7 +1363,7 @@
   cloth_manufactory_advance_desc: "$cloth_manufactory_desc$"
   putrefaction_works_advance: "Селітряний цех"
   putrefaction_works_advance_desc: "$putrefaction_works_desc$"
-  fine_cloth_manufactory_advance: "Мануфактура тонкого сукна"
+  fine_cloth_manufactory_advance: "Мануфактура коштовних тканин"
   fine_cloth_manufactory_advance_desc: "$fine_cloth_manufactory_desc$"
   perfumery_advance: "Парфумерна майстерня"
   perfumery_advance_desc: "$perfumery_desc$"

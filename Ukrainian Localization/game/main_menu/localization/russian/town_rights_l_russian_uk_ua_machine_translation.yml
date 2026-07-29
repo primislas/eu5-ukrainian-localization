@@ -32,7 +32,7 @@
   royal_brewing_rights: "Права на виробництво хмільних напоїв"
   royal_brewing_rights_desc: "Цій [Concept('location', 'місцевості')|e] даровані права на виробництво та продаж #TOOLTIP:GOODS,liquor,X #L міцних напоїв#!#!, #TOOLTIP:GOODS,beer,X #L пива#!#! та #TOOLTIP:GOODS,wine,X #L вина#!#!, завдяки чому вона отримує суттєву конкурентну перевагу."
   royal_textile_rights: "Права на ткацтво"
-  royal_textile_rights_desc: "Цій [Concept('location', 'місцевості')|e] даровані права на виробництво та продаж #TOOLTIP:GOODS,cloth,X #L тканин#!#! та #TOOLTIP:GOODS,fine_cloth,X #L тонкого сукна#!#!, завдяки чому вона отримує суттєву конкурентну перевагу."
+  royal_textile_rights_desc: "Цій [Concept('location', 'місцевості')|e] даровані права на виробництво та продаж #TOOLTIP:GOODS,cloth,X #L повсякденних#!#! та #TOOLTIP:GOODS,fine_cloth,X #L коштовних тканин#!#!, завдяки чому вона отримує суттєву конкурентну перевагу."
   royal_naval_rights: "Права на виробництво корабельних матеріалів"
   royal_naval_rights_desc: "Цій [Concept('location', 'місцевості')|e] даровані права на виробництво та продаж #TOOLTIP:GOODS,naval_supplies,X #L корабельних матеріалів#!#! та #TOOLTIP:GOODS,tar,X #L дьогтю#!#!, завдяки чому вона отримує суттєву конкурентну перевагу."
   not_forcefully_revoked_last_10_years_tt: "За останні 10 років міські права жодного разу не були насильно скасовані."
