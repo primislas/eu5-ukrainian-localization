@@ -52,7 +52,7 @@
   unlock_bergregal_rights_tt: "Відкриває [Concept('town_rights', 'міські права')|e]: [ShowTownRightsName ('upper_bergregal')|l] та [ShowTownRightsName('lower_bergregal')|l]"
   lower_bergregal: "Нижча гірнича регалія"
   lower_bergregal_desc: "$upper_bergregal_desc$"
-  lower_bergregal_raw_material_tt: "Виробляє #TOOLTIP:GOODS,iron,X #L залізо#!#!, #TOOLTIP:GOODS,copper,X #L мідь#!#!, #TOOLTIP:GOODS,lead,X #L свинець#!#!, #TOOLTIP:GOODS,tin,X #L олово#!#!, #TOOLTIP:GOODS,alum,X #L галуни#!#!, #TOOLTIP:GOODS,marble,X мармур#!#!, #TOOLTIP:GOODS,mercury,X #L ртуть#!#!, #TOOLTIP:GOODS,coal,X вугілля#!#!, #TOOLTIP:GOODS,stone,X камінь#!#! або #TOOLTIP:GOODS,saltpeter,X селітру#!#!"
+  lower_bergregal_raw_material_tt: "Виробляє #TOOLTIP:GOODS,iron,X #L залізо#!#!, #TOOLTIP:GOODS,copper,X #L мідь#!#!, #TOOLTIP:GOODS,lead,X #L свинець#!#!, #TOOLTIP:GOODS,tin,X #L олово#!#!, #TOOLTIP:GOODS,alum,X #L галун#!#!, #TOOLTIP:GOODS,marble,X мармур#!#!, #TOOLTIP:GOODS,mercury,X #L ртуть#!#!, #TOOLTIP:GOODS,coal,X вугілля#!#!, #TOOLTIP:GOODS,stone,X камінь#!#! або #TOOLTIP:GOODS,saltpeter,X селітру#!#!"
   stapelrecht_town_rights: "Складове право вільного імперського міста"
   stapelrecht_town_rights_desc: "Завдяки статусу #TOOLTIP:SPECIAL_STATUS,free_city,X #L вільного імперського міста#!#!, отриманому від #TOOLTIP:SPECIAL_STATUS,emperor,X #L імператора#!#!, ми тепер можемо безперешкодно запроваджувати певні привілеї в наших містах, що йде на користь місцевим купцям і змушує більше іноземних купців вести торгівлю через наші землі."
   kulm_town_rights: "Кульмське право"
