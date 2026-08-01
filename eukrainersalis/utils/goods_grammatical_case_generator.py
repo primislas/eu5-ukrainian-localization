@@ -1,10 +1,18 @@
 import json
 import re
 
+from eukrainersalis.utils.file_utils import goods_grammatical_case_config_file_path, custom_localization_mod_dir_path, \
+    goods_grammatical_case_output_file_path
+from eukrainersalis.utils.translation_utils import Language
+from eukrainersalis.utils.yaml_utils import write_eu5_localization_yaml
 
 GRAMMATICAL_CASES = ["GEN", "DAT", "ACC", "INST", "PREP"]
 _goods_dec = "[AddTextIf(EqualTo_string('Коні', GOODS.GetNameWithNoTooltip), 'horses')][AddTextIf(EqualTo_string('Глина', GOODS.GetNameWithNoTooltip), 'clay')][AddTextIf(EqualTo_string('Пісок', GOODS.GetNameWithNoTooltip), 'sand')][AddTextIf(EqualTo_string('Дьоготь', GOODS.GetNameWithNoTooltip), 'tar')][AddTextIf(EqualTo_string('Вугілля', GOODS.GetNameWithNoTooltip), 'coal')][AddTextIf(EqualTo_string('Залізо', GOODS.GetNameWithNoTooltip), 'iron')][AddTextIf(EqualTo_string('Мідь', GOODS.GetNameWithNoTooltip), 'copper')][AddTextIf(EqualTo_string('Золото', GOODS.GetNameWithNoTooltip), 'goods_gold')][AddTextIf(EqualTo_string('Срібло', GOODS.GetNameWithNoTooltip), 'silver')][AddTextIf(EqualTo_string('Дорогоцінне каміння', GOODS.GetNameWithNoTooltip), 'gems')][AddTextIf(EqualTo_string('Камінь', GOODS.GetNameWithNoTooltip), 'stone')][AddTextIf(EqualTo_string('Олово', GOODS.GetNameWithNoTooltip), 'tin')][AddTextIf(EqualTo_string('Свинець', GOODS.GetNameWithNoTooltip), 'lead')][AddTextIf(EqualTo_string('Вовна', GOODS.GetNameWithNoTooltip), 'wool')][AddTextIf(EqualTo_string('Бавовна', GOODS.GetNameWithNoTooltip), 'cotton')][AddTextIf(EqualTo_string('Шовк', GOODS.GetNameWithNoTooltip), 'silk')][AddTextIf(EqualTo_string('Барвники', GOODS.GetNameWithNoTooltip), 'dyes')][AddTextIf(EqualTo_string('Пахощі', GOODS.GetNameWithNoTooltip), 'incense')][AddTextIf(EqualTo_string('Цукор', GOODS.GetNameWithNoTooltip), 'sugar')][AddTextIf(EqualTo_string('Тютюн', GOODS.GetNameWithNoTooltip), 'tobacco')][AddTextIf(EqualTo_string('Чай', GOODS.GetNameWithNoTooltip), 'tea')][AddTextIf(EqualTo_string('Какао', GOODS.GetNameWithNoTooltip), 'cocoa')][AddTextIf(EqualTo_string('Кава', GOODS.GetNameWithNoTooltip), 'coffee')][AddTextIf(EqualTo_string('Прядивні культури', GOODS.GetNameWithNoTooltip), 'fiber_crops')][AddTextIf(EqualTo_string('Слонова кістка', GOODS.GetNameWithNoTooltip), 'ivory')][AddTextIf(EqualTo_string('Хутро', GOODS.GetNameWithNoTooltip), 'fur')][AddTextIf(EqualTo_string('Лісоматеріали', GOODS.GetNameWithNoTooltip), 'lumber')][AddTextIf(EqualTo_string('Сіль', GOODS.GetNameWithNoTooltip), 'salt')][AddTextIf(EqualTo_string('Порцеляна', GOODS.GetNameWithNoTooltip), 'porcelain')][AddTextIf(EqualTo_string('Корабельні матеріали', GOODS.GetNameWithNoTooltip), 'naval_supplies')][AddTextIf(EqualTo_string('Вогнепальна зброя', GOODS.GetNameWithNoTooltip), 'firearms')][AddTextIf(EqualTo_string('Гармати', GOODS.GetNameWithNoTooltip), 'cannons')][AddTextIf(EqualTo_string('Скло', GOODS.GetNameWithNoTooltip), 'glass')][AddTextIf(EqualTo_string('Сталь', GOODS.GetNameWithNoTooltip), 'steel')][AddTextIf(EqualTo_string('Тканини', GOODS.GetNameWithNoTooltip), 'cloth')][AddTextIf(EqualTo_string('Вино', GOODS.GetNameWithNoTooltip), 'wine')][AddTextIf(EqualTo_string('Міцне хмільне', GOODS.GetNameWithNoTooltip), 'liquor')][AddTextIf(EqualTo_string('Папір', GOODS.GetNameWithNoTooltip), 'paper')][AddTextIf(EqualTo_string('Книги', GOODS.GetNameWithNoTooltip), 'books')][AddTextIf(EqualTo_string('Ювелірні вироби', GOODS.GetNameWithNoTooltip), 'jewelry')][AddTextIf(EqualTo_string('Шкіра', GOODS.GetNameWithNoTooltip), 'leather')][AddTextIf(EqualTo_string('Знаряддя', GOODS.GetNameWithNoTooltip), 'tools')][AddTextIf(EqualTo_string('Дичина', GOODS.GetNameWithNoTooltip), 'wild_game')][AddTextIf(EqualTo_string('Риба', GOODS.GetNameWithNoTooltip), 'fish')][AddTextIf(EqualTo_string('Пшениця', GOODS.GetNameWithNoTooltip), 'wheat')][AddTextIf(EqualTo_string('Кукурудза', GOODS.GetNameWithNoTooltip), 'maize')][AddTextIf(EqualTo_string('Рис', GOODS.GetNameWithNoTooltip), 'rice')][AddTextIf(EqualTo_string('Невибагливі злаки', GOODS.GetNameWithNoTooltip), 'millet')][AddTextIf(EqualTo_string('Картопля', GOODS.GetNameWithNoTooltip), 'potato')][AddTextIf(EqualTo_string('Бобові культури', GOODS.GetNameWithNoTooltip), 'legumes')][AddTextIf(EqualTo_string('Худоба', GOODS.GetNameWithNoTooltip), 'livestock')][AddTextIf(EqualTo_string('Лакові вироби', GOODS.GetNameWithNoTooltip), 'lacquerware')][AddTextIf(EqualTo_string('Зброя', GOODS.GetNameWithNoTooltip), 'weaponry')][AddTextIf(EqualTo_string('Бурштин', GOODS.GetNameWithNoTooltip), 'amber')][AddTextIf(EqualTo_string('Перли', GOODS.GetNameWithNoTooltip), 'pearls')][AddTextIf(EqualTo_string('Ліки', GOODS.GetNameWithNoTooltip), 'medicaments')][AddTextIf(EqualTo_string('Галун', GOODS.GetNameWithNoTooltip), 'alum')][AddTextIf(EqualTo_string('Оливки', GOODS.GetNameWithNoTooltip), 'olives')][AddTextIf(EqualTo_string('Раби', GOODS.GetNameWithNoTooltip), 'slaves_goods')][AddTextIf(EqualTo_string('Тропічна деревина', GOODS.GetNameWithNoTooltip), 'tropical_wood')][AddTextIf(EqualTo_string('Селітра', GOODS.GetNameWithNoTooltip), 'saltpeter')][AddTextIf(EqualTo_string('Коштовні тканини', GOODS.GetNameWithNoTooltip), 'fine_cloth')][AddTextIf(EqualTo_string('Слони', GOODS.GetNameWithNoTooltip), 'elephants')][AddTextIf(EqualTo_string('Пиво', GOODS.GetNameWithNoTooltip), 'beer')][AddTextIf(EqualTo_string('Фрукти', GOODS.GetNameWithNoTooltip), 'fruit')][AddTextIf(EqualTo_string('Мармур', GOODS.GetNameWithNoTooltip), 'marble')][AddTextIf(EqualTo_string('Ртуть', GOODS.GetNameWithNoTooltip), 'mercury')][AddTextIf(EqualTo_string('Кам’яна кладка', GOODS.GetNameWithNoTooltip), 'masonry')][AddTextIf(EqualTo_string('Бджолиний віск', GOODS.GetNameWithNoTooltip), 'beeswax')][AddTextIf(EqualTo_string('Шафран', GOODS.GetNameWithNoTooltip), 'saffron')][AddTextIf(EqualTo_string('Перець', GOODS.GetNameWithNoTooltip), 'pepper')][AddTextIf(EqualTo_string('Гвоздика', GOODS.GetNameWithNoTooltip), 'cloves')][AddTextIf(EqualTo_string('Чилі', GOODS.GetNameWithNoTooltip), 'chili')][AddTextIf(EqualTo_string('Кераміка', GOODS.GetNameWithNoTooltip), 'pottery')][AddTextIf(EqualTo_string('Меблі', GOODS.GetNameWithNoTooltip), 'furniture')]"
 _goods_dec_regex = re.compile(r"\[AddTextIf\(EqualTo_string\('(?P<ua_name>[^']+)', GOODS.GetNameWithNoTooltip\), '(?P<en_name>[^']+)'\)]")
+
+
+def get_good_case_localization_key(good: str, case: str) -> str:
+    return f"{good}_UA_{case}"
 
 
 def parse_goods_pairs():
@@ -28,5 +36,52 @@ def parse_goods_pairs():
     print(json.dumps(sorted_goods_cases, indent=2, ensure_ascii=False))
 
 
+def generate_estate_cases_localization():
+    """Generates localization keys for estates based on configuration."""
+    goods_cases = {}
+    with open(goods_grammatical_case_config_file_path, "r", encoding="utf-8") as estate_conf_file:
+        goods_cases = json.load(estate_conf_file)
+
+    ### Generating Custom Localization Scripts ###
+    indent = "    "
+    for case, goods in goods_cases.items():
+        lines = [
+            f"GOODS_{case} = {{",
+            f"{indent}type = goods",
+            f"{indent}log_loc_errors = yes",
+        ]
+        for good in goods:
+            loc_key = get_good_case_localization_key(good, case)
+            lines.append(f'{indent}text = {{ localization_key = {loc_key} trigger = {{ this = goods:{good} }} }}')
+        lines.append(f"{indent}text = {{ localization_key = default_good_UA_{case} fallback = yes }}")
+        lines.append(f"{indent}if_invalid_loc = return_empty")
+        lines.append("}")
+
+        output_file_path = custom_localization_mod_dir_path / f"380_ua_goods_{case}.txt"
+        with open(output_file_path, "w", encoding="utf-8-sig") as output_file:
+            for line in lines:
+                output_file.write(line)
+                output_file.write("\n")
+        print(f"Generated file: {output_file_path}")
+
+    ### Generating Localization YAML
+    goods_names = sorted(list(goods_cases["GEN"].keys()))
+    localization = {
+        "default_good_UA_GEN": "Товар",
+        "default_good_UA_DAT": "Товару",
+        "default_good_UA_ACC": "Товар",
+        "default_good_UA_INST": "Товаром",
+        "default_good_UA_PREP": "Товарі",
+    }
+    for good in goods_names:
+        for case in GRAMMATICAL_CASES:
+            loc_key = get_good_case_localization_key(good, case)
+            localization[loc_key] = goods_cases[case][good]
+    file_content = {Language.RUSSIAN.localization_key: localization}
+    write_eu5_localization_yaml(file_content, goods_grammatical_case_output_file_path)
+    print(f"Generated goods grammatical case localization file: {goods_grammatical_case_output_file_path}")
+
+
 if __name__ == "__main__":
-    parse_goods_pairs()
+    # parse_goods_pairs()
+    generate_estate_cases_localization()
