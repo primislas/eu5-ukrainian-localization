@@ -51,6 +51,17 @@ def list_localization_files(languages: Language | str | list[Language | str] | N
     return localization_files
 
 
+def list_gui_files(source_dir: Path = project_dir) -> list[str]:
+    gui_files = []
+    # Walking depth-first
+    for root, dirs, files in os.walk(source_dir):
+        for file in files:
+            if file.endswith(".gui"):
+                gui_files.append(os.path.join(root, file))
+
+    return gui_files
+
+
 def list_translation_files(languages: Language | str | list[Language | str] | None = None, source_dir: Path = translation_dir) -> list[str]:
     
     return list_localization_files(languages, source_dir)
