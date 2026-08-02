@@ -616,7 +616,7 @@
   SUBTAB_ECONOMY_NEEDS: "Поточні потреби"
   SUBTAB_ECONOMY_BUDGET: "Скарбниця"
   RGO_BUILD: "РОЗШИРИТИ ВИРОБНИЦТВО ТОВАРУ «[ExpandProductionLateralView.GetGoods.GetName]»"
-  RGO_BUILD_GOODS_PRICE_IMPACT_ON_COST: "Від стандартної ринкової ціни товару [GOODS.Custom('GOODS_GEN')|l] ([GOODS.GetDefaultMarketPrice|1]@gold!): $SCALE$"
+  RGO_BUILD_GOODS_PRICE_IMPACT_ON_COST: "Від стандартної ринкової ціни товару [GOODS.GetName|l] ([GOODS.GetDefaultMarketPrice|1]@gold!): $SCALE$"
   TOTAL_PRODUCTION: "Обсяг виробництва в [Concept('country', 'країні')|e]"
   GOOD_PRODUCTION: "Виробництво товару «[GOODS.GetName]»"
   SELECT_LOCATION: "Обрати місцевість"
