@@ -35,7 +35,7 @@
   trade.8.desc: "Ми дарували своїм купцям щедрі привілеї, але в результаті люди більше не хочуть чесно працювати."
   trade.8.a: "Все пішло не за планом."
   trade.10.title: "Недостатній захист"
-  trade.10.desc: "Наші зусилля з розвитку вільної торгівлі призвели до того, що місцеві купці не витримують конкуренції з чужоземними [Concept('rivals', 'суперниками')|e] на [Concept('market', 'ринку')|e]. #ONCLICK:COUNTRY,[rival_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[rival_country.Custom('CL_tt')],X [rival_country.Custom('CL_DAT')|L]#!#! вдалося завоювати [ROOT.GetCountry.GetCapital.GetMarket.GetName|l], що ставить нас у ганебне становище."
+  trade.10.desc: "Наші зусилля з розвитку вільної торгівлі призвели до того, що місцеві купці не витримують конкуренції з чужоземними [Concept('rivals', 'суперниками')|e] на [Concept('market', 'ринку')|e]. #ONCLICK:COUNTRY,[rival_country.GetKey] #TOOLTIP:COUNTRY,[rival_country.GetKey],X [rival_country.Custom('CL_DAT')|L]#!#! вдалося завоювати [ROOT.GetCountry.GetCapital.GetMarket.GetName|l], що ставить нас у ганебне становище."
   trade.10.a: "Це обурлива ганьба."
   trade.11.title: "Купці йдуть"
   trade.11.desc: "Після того, як обмеження для чужоземних купців були ослаблені, деякі з наших торговців вирішили, що отримують недостатньо підтримки від країни, і змінили рід діяльності."

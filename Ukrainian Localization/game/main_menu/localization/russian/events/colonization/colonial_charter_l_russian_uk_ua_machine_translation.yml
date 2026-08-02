@@ -37,7 +37,7 @@
   colonial_charter.100.a: "Створимо тут нового колоніального васала."
   colonial_charter.100.b: "Віддамо ці землі [SCOPE.sCountry('first_neighboring_country').Custom('CL_DAT')]."
   colonial_charter.100.c: "Віддамо ці землі [SCOPE.sCountry('second_neighboring_country').Custom('CL_DAT')]."
-  colonial_charter.100.d: "Залишимо ці землі у володінні #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!."
+  colonial_charter.100.d: "Залишимо ці землі у володінні #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!."
   colonial_charter.100.e: "Чому б не почати нове життя в колонії?"
   colonial_charter.100.f: "Віддамо ці землі [SCOPE.sCountry('regional_subject').Custom('CL_DAT')]."
   colonial_charter.100.g: "Віддамо ці землі [SCOPE.sCountry('scope_adjacent_area_subject').Custom('CL_DAT')]."

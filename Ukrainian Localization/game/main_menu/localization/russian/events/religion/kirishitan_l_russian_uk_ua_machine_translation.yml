@@ -36,7 +36,7 @@
   kirishitan.8.a: "Провести розслідування та покарати злочинців."
   kirishitan.8.b: "З нещасними випадками боротися неможливо."
   kirishitan.9.title: "Розрив із традиціями?"
-  kirishitan.9.desc: "Ні для кого не є таємницею, що [target_ruler.GetName] та [Select_CString(target_ruler.IsFemale, 'її', 'його')] рід виявляють небайдужість до #TOOLTIP:RELIGIONGROUP,christian,X #L християнської#!#! віри. Згодом християнство навіть витіснило #L [ROOT.GetCountry.GetReligion.GetAdjective|l]і#! звичаї #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! та стало провідним світоглядом у нашій країні. Можливо, тепер, коли міжусобиць стало менше, а порядку — більше, ми нарешті зможемо довести справу до кінця та проголосити #TOOLTIP:RELIGION,$catholic_tt$,X #L католицтво#!#! державною вірою?"
+  kirishitan.9.desc: "Ні для кого не є таємницею, що [target_ruler.GetName] та [Select_CString(target_ruler.IsFemale, 'її', 'його')] рід виявляють небайдужість до #TOOLTIP:RELIGIONGROUP,christian,X #L християнської#!#! віри. Згодом християнство навіть витіснило #L [ROOT.GetCountry.GetReligion.GetAdjective|l]і#! звичаї #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! та стало провідним світоглядом у нашій країні. Можливо, тепер, коли міжусобиць стало менше, а порядку — більше, ми нарешті зможемо довести справу до кінця та проголосити #TOOLTIP:RELIGION,$catholic_tt$,X #L католицтво#!#! державною вірою?"
   kirishitan.9.a: "Ні, ми ні за що не відкинемо власні традиції!"
   kirishitan.9.b: "Настав час змін."
   kirishitan.10.title: "Країна кірісітан"

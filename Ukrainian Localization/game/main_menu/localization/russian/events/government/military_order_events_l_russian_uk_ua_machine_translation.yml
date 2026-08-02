@@ -9,7 +9,7 @@
   gain_c_tt: "Якщо буде на те воля Його Святості, ми отримаємо [Concept('modifier', 'модифікатор')|e] #TOOLTIP:STATIC_MODIFIER,foreign_donations_modifier,X #V #L «Іноземні пожертви»#!#!"
   military_order_events.2.title: "Лист з [target_order.Custom('CL_GEN')]"
   military_order_events.2.title_fallback: "Лист зі священного ордену"
-  military_order_events.2.desc: "Ми отримуємо вісті з #ONCLICK:COUNTRY,[target_order.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_order.Custom('CL_tt')],X [target_order.Custom('CL_GEN')|L]#!#! про те, що ця країна стає оплотом нашої віри та блискучим втіленням сили #L [ShowReligionAdjective('catholic')|l]ої#! віри. Вони попросили нас допомогти грошима, щоб захистити віруючих."
+  military_order_events.2.desc: "Ми отримуємо вісті з #ONCLICK:COUNTRY,[target_order.GetKey] #TOOLTIP:COUNTRY,[target_order.GetKey],X [target_order.Custom('CL_GEN')|L]#!#! про те, що ця країна стає оплотом нашої віри та блискучим втіленням сили #L [ShowReligionAdjective('catholic')|l]ої#! віри. Вони попросили нас допомогти грошима, щоб захистити віруючих."
   military_order_events.2.a: "Погодимося."
   military_order_events.2.b: "Вони самі собою…"
   military_order_events.3.title: "[GetCountry('PAP').GetGovernment.GetRulerTitle] погоджується на наше прохання"

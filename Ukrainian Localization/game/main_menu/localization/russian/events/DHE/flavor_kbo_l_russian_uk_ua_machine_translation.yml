@@ -1,7 +1,7 @@
 ﻿l_russian:
   flavor_kbo.2.title: "Заснування столиці в [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
   flavor_kbo.2.entry: "Заснування Нґазарґаму"
-  flavor_kbo.2.desc: "#TOOLTIP:AREA,bornu_area,X #L Борну#!#! — багата область, що чудово підходить для будівництва столиці нашого королівства, однак захищати її завжди було важко: зі сходу сюди частенько навідуються старі вороги з #ONCLICK:COUNTRY,[target_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_country.Custom('CL_tt')],X [target_country.Custom('CL_GEN')|L]#!#!, та й у випадку боротьби за престол хороші укріплення не завадять.\n\nМи обговорюємо можливість зведення фортеці в [target_location.Custom('LR_PREP')|l] [target_location.GetName], біля західного берега озера Чад, у стінах якої наша родина почуватиметься в безпеці."
+  flavor_kbo.2.desc: "#TOOLTIP:AREA,bornu_area,X #L Борну#!#! — багата область, що чудово підходить для будівництва столиці нашого королівства, однак захищати її завжди було важко: зі сходу сюди частенько навідуються старі вороги з #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_GEN')|L]#!#!, та й у випадку боротьби за престол хороші укріплення не завадять.\n\nМи обговорюємо можливість зведення фортеці в [target_location.Custom('LR_PREP')|l] [target_location.GetName], біля західного берега озера Чад, у стінах якої наша родина почуватиметься в безпеці."
   flavor_kbo.2.a: "Ми побудуємо нову столицю."
   flavor_kbo.2.a.entry: "Збудуємо [ShowLocationNameWithNoTooltip('ngazargamu')]."
   flavor_kbo.2.b: "Нас влаштовує й поточна."

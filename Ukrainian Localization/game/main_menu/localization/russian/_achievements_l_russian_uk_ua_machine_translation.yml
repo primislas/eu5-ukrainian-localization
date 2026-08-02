@@ -112,7 +112,7 @@
   ACHIEVEMENT_DESC_felix_austria: "Розпочавши гру за Австрію, очольте Священну Римську імперію і станьте великою державою."
   ACHIEVEMENT_hongwu_di: "Імператор Хун'у"
   ACHIEVEMENT_DESC_hongwu_di: "Граючи за династію Мін, утворіть Китай, завоюйте всю територію Китаю та очольте Серединну Державу."
-  hongwu_di_east_china_trigger_tt: "[ShowRegionName('east_china_region')] (окрім #TOOLTIP:AREA,taiwan_area,X #L Тайваню#!#!) належить #ONCLICK:COUNTRY,[GetCountry('MNG').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('MNG').Custom('CL_tt')],X [GetCountry('MNG').Custom('CL_DAT')|L]#!#! або [Concept('subjects', 'васалам')|e] цієї країни"
+  hongwu_di_east_china_trigger_tt: "[ShowRegionName('east_china_region')] (окрім #TOOLTIP:AREA,taiwan_area,X #L Тайваню#!#!) належить #ONCLICK:COUNTRY,[GetCountry('MNG').GetKey] #TOOLTIP:COUNTRY,[GetCountry('MNG').GetKey],X [GetCountry('MNG').Custom('CL_DAT')|L]#!#! або [Concept('subjects', 'васалам')|e] цієї країни"
   ACHIEVEMENT_break_the_yoke: "Визволення від ярма"
   ACHIEVEMENT_DESC_break_the_yoke: "Граючи за руську країну, позбудьтеся татарського іга."
   ACHIEVEMENT_lingua_franca: "Лінгва франка"

@@ -11,7 +11,7 @@
   flavor_pap_holy_league.2.a: "Ми повинні вступити до Священної ліги."
   flavor_pap_holy_league.2.b: "Нас це не стосується."
   flavor_pap_holy_league.3.title: "[target_country.GetNameWithNoTooltip] вступає до Священної ліги"
-  flavor_pap_holy_league.3.desc: "До нас дійшли добрі вісті! [target_ruler.GetName] [GetCountry('TUR').Custom('CL_GEN')] приймає пропозицію вступити до Священної ліги, а отже, [target_country.GetAdjectiveWithNoTooltip]і війська приєднаються до нас у війні проти #ONCLICK:COUNTRY,[GetCountry('TUR').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('TUR').Custom('CL_tt')],X [GetCountry('TUR').Custom('CL_GEN')|L]#!#!."
+  flavor_pap_holy_league.3.desc: "До нас дійшли добрі вісті! [target_ruler.GetName] [GetCountry('TUR').Custom('CL_GEN')] приймає пропозицію вступити до Священної ліги, а отже, [target_country.GetAdjectiveWithNoTooltip]і війська приєднаються до нас у війні проти #ONCLICK:COUNTRY,[GetCountry('TUR').GetKey] #TOOLTIP:COUNTRY,[GetCountry('TUR').GetKey],X [GetCountry('TUR').Custom('CL_GEN')|L]#!#!."
   flavor_pap_holy_league.3.a: "Так хоче Бог!"
   flavor_pap_holy_league.4.title: "[target_country.GetNameWithNoTooltip] відмовляється вступати до Священної ліги"
   flavor_pap_holy_league.4.desc: "[target_ruler.GetName] [GetCountry('TUR').Custom('CL_GEN')] виявляє малодушність і відхиляє нашу пропозицію про вступ до Священної ліги. Отже, у боротьбі з #L [GetCountry('TUR').GetAdjective]ими#! загарбниками на допомогу [target_country.GetAdjectiveWithNoTooltip]их військ розраховувати не доведеться."

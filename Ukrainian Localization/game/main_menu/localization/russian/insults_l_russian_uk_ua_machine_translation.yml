@@ -9,7 +9,7 @@
   insult_default8: "#L [TARGET_COUNTRY.GetAdjective]і#! правителі абсолютно не уявляють, як керувати країною!"
   insult_default9: "[TARGET_COUNTRY.GetName] у глибокій біді. Мені здається, причина цьому — #L [TARGET_COUNTRY.GetCulture.GetName|l]а#! культура."
   insult_default10: "У нашій великій грі ви — всього лиш пішак."
-  insult_default11: "#ONCLICK:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.Custom('CL_tt')],X [TARGET_COUNTRY.Custom('CL_INST')|L]#!#! #L [COUNTRY.GetAdjective|l]ий#! народ називає гній."
+  insult_default11: "#ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_INST')|L]#!#! #L [COUNTRY.GetAdjective|l]ий#! народ називає гній."
   insult_default12: "Ваші злодіяння відомі всьому світу — від Ірландії до Китаю."
   insult_default13: "Вам не здається, що слова «#L [TARGET_COUNTRY.GetAdjective|l]а#! культура» — це якесь протиріччя?"
   insult_default14: "Хай наповниться ваше небо кометами."

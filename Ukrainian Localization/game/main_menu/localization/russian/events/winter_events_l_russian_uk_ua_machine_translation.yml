@@ -76,7 +76,7 @@
   winter_events.100.c: "Вигнати варту з палацу."
   winter_events.100.rebel_name: "Бунтівники з [ROOT.GetVariable('rebel_origin_province_variable').Custom('LR_GEN')|l] [ROOT.GetVariable('rebel_origin_province_variable').GetName]"
   winter_events.101.title: "Чума, послана згори"
-  winter_events.101.desc: "Налякані селяни з [target_province_scope.Custom('LR_GEN')|l] [target_province_scope.GetName] розповідають про смертельну недугу. Вона вражає голубів та інших птахів, що спустошують місцеві поля.\n\nМисливці та урядовці вважають, що хвороба поширилася через нестачу трави та плодів на цих землях. Однак народ боїться, що #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_ACC')|L]#!#! спіткала божественна кара за недобрі діяння."
+  winter_events.101.desc: "Налякані селяни з [target_province_scope.Custom('LR_GEN')|l] [target_province_scope.GetName] розповідають про смертельну недугу. Вона вражає голубів та інших птахів, що спустошують місцеві поля.\n\nМисливці та урядовці вважають, що хвороба поширилася через нестачу трави та плодів на цих землях. Однак народ боїться, що #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_ACC')|L]#!#! спіткала божественна кара за недобрі діяння."
   winter_events.101.a: "Відправимо туди священнослужителів, нехай заспокоять народ."
   winter_events.101.b: "Виділимо кошти на відновлення."
   winter_events.101.c: "Пусті забобони — не наша турбота."

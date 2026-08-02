@@ -7,6 +7,6 @@
   flavor_zzz.1.b: "Мури не потрібні."
   flavor_zzz.2.title: "[ROOT.GetCountry.GetNameWithNoTooltip] у наступі"
   flavor_zzz.2.entry: "$flavor_zzz.2.title$"
-  flavor_zzz.2.desc: "Міць військ #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! помітно зросла, і сьогодні [target_character.GetName] та [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] розмірковують, яким чином можна зробити нашу країну ще сильнішою. Нам належить обрати один із двох підходів: або перейти в наступ і завоювати сусідів, або піти в оборону та захищати вже завойовані землі."
+  flavor_zzz.2.desc: "Міць військ #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! помітно зросла, і сьогодні [target_character.GetName] та [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] розмірковують, яким чином можна зробити нашу країну ще сильнішою. Нам належить обрати один із двох підходів: або перейти в наступ і завоювати сусідів, або піти в оборону та захищати вже завойовані землі."
   flavor_zzz.2.a: "Вперед до завоювань!"
   flavor_zzz.2.b: "Варто укріпитися на вже захоплених землях."
