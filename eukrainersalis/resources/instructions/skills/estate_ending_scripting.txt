@@ -1,0 +1,98 @@
+# Estate Ending Scripting
+
+## Estate Scripting Overview
+
+The game can script dynamic estate names. In Ukrainian language, various verbs and adjectives can have different endings depending on specific estate name. For example: "знать вимагала", "духовенство вимагало", "простолюд вимагав", "міщани вимагали". Localization engine allows us to specify dynamic endings for such words associated with estates. Such scripts usually have a form of [<country_scope>.Custom('<estate_ending>')|e]. Let's talk about country_scope and estate_ending.
+
+Estates are usually declared off of a country scope:
+* `[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')]`
+* `[GetCountry('FRA').GetGovernment.GetEstateName('nobles_estate')]`
+* `[SCOPE.sCountry('actor').GetGovernment.GetEstateName('clergy_estate')|l]`
+* `[target_country.GetGovernment.GetEstateName('crown_estate')|l]`
+
+Here are several ways to scope the script to a country ("ROOT.GetCountry", "GetCountry('FRA')",
+"SCOPE.sCountry('actor')", "target_country"). There could be more. No matter the way to pick the scope,
+country scope is followed by GetGovernment.GetEstateName/GetEstateNameWithNoTooltip.
+The list of supported estates is limited to:
+- crown_estate
+- nobles_estate
+- clergy_estate
+- burghers_estate
+- peasants_estate
+
+## Estate Ending Scripting
+
+DYNAMIC ESTATE ENDING SCRIPTS SHOULD ONLY BE APPLIED TO *SENTENCES* WHERE A DYNAMIC ESTATE NAME IS DECLARED! Otherwise, standard translations hold.
+
+"<estate_ending>" can take the form of <estate_name>_<dynamic_endings>, where:
+* <estate_name> is one of the supported estates and should match the estate for which we pick the ending,
+i.e. it has to be one of 'crown', 'nobles', 'clergy', 'burghers', 'peasants'.
+* <dynamic_endings> is a list of dynamic endings that could be picked from. For example, 'yeyut' will be
+substitued with either 'є' or 'ють', in a case such as "знать, духовенство, простолюд вимагає",
+"міщани вимагають". In this case dynamic ending should be scripted as:
+`[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] вимага[ROOT.GetCountry.Custom('peasants_yeyut')] більше прав`
+
+The full list of supported dynamic ending combinations is in the following table:
+| Key | Dynamic Endings (UKR) | Application examples |
+| :--- | :--- | :--- |
+| yeyut | -є, -ють | вимага[є,ють] - вимагає/вимагають, б’[є,ють] |
+| vlaloly | -в, -ла, -ло, -ли | запроси[в,ла,ло,ли] - запросив/запросила/запросило/запросили |
+| yiaei | -ий, -а, -е, -і | численн[ий,а,е,і], задоволен[ий,а,е,і] |
+| aei | -, -а, -е, -і | наш[,а,е,і] |
+| eut | -е, -уть | змож[е,уть], бер[е,уть], почн[е,уть] |
+| ohooyiyh | -ого, -ої, -ого, -их | сам[ого,ої,ого,их] |
+| ihohlaloly | -іг, -огла, -огло, -огли | зм[іг,огла,огло,огли] |
+| ytyat | -ить, -ять | прос[ить,ять], вір[ить,ять] |
+| ytlyat | -ить, -лять | зроб[ить,лять], став[ить,лять]ся - note how "ся" follows dynamic ending here |
+| yityat | -їть, -ять | непоко[їть,ять]ся - note how "ся" follows dynamic ending here |
+| ytat | -ить, -ать | бач[ить,ать], скарж[ить,ать]ся, служ[ить,ать] |
+| yetsayutsa | -ється, -ються | спереча[ється,ються], посила[ється,ються], погоджу[ється,ються] |
+| etsautsa | -еться, уться | клян[еться, уться] |
+| eyyaei | -ей, -я, -е, -і | ц[ей,я,е,і] |
+| ymoyuymy | -им, -ою, -им, -ими | сильн[им,ою,им,ими] |
+| iyyayei | -ий, -я, -є, -і | могутн[ій,я,є,і] |
+| ovlaloly | -ов, -ла, -ло, -ли | піш[ов,ла,ло,ли] - пішов/пішла/пішло/пішли |
+| essyasesi | -есь, -ся, -се, -сі | в[есь,ся,се,сі] - весь/вся/все/всі |
+| ennanoni | -ен, -на, -но, -ні | повин[ен,на,но,ні] |
+
+Your job is to identify words that require dynamic endings, and insert appropriate scripts in place
+of dynamic endings. If you are not sure which ending to pick, instead of <estate_name>_<ending>
+use POSTEDIT_ESTATE_ENDING, e.g.: `[ROOT.GetCountry.Custom('POSTEDIT_ESTATE_ENDING')]`.
+
+Two special cases:
+1. When original text uses "они" (вони) - no special endings are required. Translate everything associated with this "вони" in a standard way with no extra scripting. ("Вони вимагають", "вони запросили", "вони хочуть" and so on.)
+2. The text will frequently use a construct "многие ...<estate>". Translate this as `численн[ROOT.GetCountry.Custom('<estate_name>_yiaei')]`.
+
+
+
+## Validation
+
+When applying dynamic ending scripts, make sure that if they were to be replaced with a corresponding ending, the sentence would still be grammatically and syntactically correct. For example, we can reduce:
+    * original script: `Деяк[ROOT.GetCountry.Custom('nobles_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] самовільно захоплю[ROOT.GetCountry.Custom('nobles_yeyut')] велдоми або вирубу[ROOT.GetCountry.Custom('nobles_yeyut')] ліси без дозволу.`
+    * resolved script: `Деяка знать самовільно захоплює велдоми або вирубує ліси без дозволу.`
+Here resolved script is a proper correct sentence. But in the following case:
+    * original script: `[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] самовільно захопил[ROOT.GetCountry.Custom('nobles_vlaloly')] велдоми.`
+    * resolved script: `Знать самовільно захопилла велдоми.`
+we get a wrong word "захопилла". Clearly, scripted sentence is wrong, and an excess "л" should be removed: "захопи[ROOT.GetCountry.Custom('nobles_vlaloly')]".
+
+Every sentence that uses dynamic ending scripts should be validated in this fashion.
+
+
+
+## Examples
+
+Here are some examples of translations with appropriately inserted estate ending scripts:
+
+Source #1: `Некоторые [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] самовольно захватывают велдомы или вырубают леса без разрешения. Чтобы исправить это, [target_character.GetName] предлагает ввести юридический кодекс для наказания подобных преступлений. Новые законы установят единые правила обращения землевладельцев с подданными, а также защитят знатные семьи от произвола, к которому склонны мелкопоместные [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')].`
+Translation #1: `Деяк[ROOT.GetCountry.Custom('nobles_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] самовільно захоплю[ROOT.GetCountry.Custom('nobles_yeyut')] велдоми або вирубу[ROOT.GetCountry.Custom('nobles_yeyut')] ліси без дозволу. Щоб виправити це, [target_character.GetName] пропонує ввести юридичний кодекс для покарання подібних злочинів. Нові закони встановлять єдині закони поводження землевласників з підданими, а також захистять знатні родини від свавілля, до якого схильн[ROOT.GetCountry.Custom('nobles_yiaei')] дрібнопомісн[ROOT.GetCountry.Custom('nobles_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]`
+
+Source #2: `[target_character.GetName] формально властвует, но реальным влиянием обладают [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], действующие у [Select_CString(target_character.IsFemale,'неё', 'него')] за спиной. Они забирают долю со всех налогов, и это уже стало своего рода обычаем. Недавно [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] в очередной раз решили посягнуть на доход, который с таким трудом получает [ROOT.GetCountry.GetFlavorRank|l], и добились очередного снижения налогов для себя и своих покровителей.`
+Translation #2: `[target_character.GetName] формально панує, але реальний вплив ма[ROOT.GetCountry.Custom('nobles_yeyut')] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], що ді[ROOT.GetCountry.Custom('nobles_yeyut')] у [Select_CString(target_character.IsFemale,'неї', 'нього')] за спиною. Вони забирають частку з усіх податків, і це вже стало свого роду звичаєм. Нещодавно [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] вкотре виріши[ROOT.GetCountry.Custom('nobles_vlaloly')] зазіхнути на дохід, який з таким трудом отримує [ROOT.GetCountry.GetFlavorRank|l], і дом[ROOT.GetCountry.Custom('nobles_ihohlaloly')]ся чергового зниження податків для себе та своїх покровителів.`
+
+Source #3: `Хотя многие [scope_athens.GetAdjectiveWithNoTooltip|l]ие [scope_athens.GetGovernment.GetEstateName('nobles_estate')|l] с нетерпением ждут того момента, когда к власти придёт его наследник, регент [regent_of_athens.GetShortName] [Select_CString(regent_of_athens.IsFemale, 'решила', 'решил')] пойти иным путём.`
+Translation #3: `Хоча численн[scope_athens.Custom('nobles_yiaei')] [scope_athens.GetAdjectiveWithNoTooltip|l][scope_athens.Custom('nobles_yiaei')] [scope_athens.GetGovernment.GetEstateName('nobles_estate')|l] з нетерпінням чека[scope_athens.Custom('nobles_yeyut')] того моменту, коли до влади прийде його спадкоємець, регент [regent_of_athens.GetShortName] [Select_CString(regent_of_athens.IsFemale, 'вирішила', 'вирішив')] піти іншим шляхом.`
+
+Case #4: Note how here several estates are listed together collectively, therefore we do not need dynamic ending - together they are all plural "they" ("вони") for the purposes of ending forms. Specifically here we do not add dynamic add to "поставили" - it's a proper for for plural ("вони").
+Source #4: `На заседании [ROOT.GetCountry.Custom('parliament_ua_GEN')|l] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] и [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] задали вопрос, на который нам совсем не хочется отвечать.`
+Transaltion #4: `На засіданні [ROOT.GetCountry.Custom('parliament_ua_GEN')|l] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] та [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] поставили питання, на яке нам зовсім не хочеться відповідати.`
+

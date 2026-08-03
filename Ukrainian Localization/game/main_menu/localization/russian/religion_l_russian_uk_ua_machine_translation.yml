@@ -556,7 +556,7 @@
   legal_reforms_desc: "Усі #TOOLTIP:CULTURE,$nahua_culture_tt$,X #L науаські#!#! міста-держави мають свої закони, але в міру розвитку суспільства їх необхідно оновлювати та доповнювати. Варто провести серію реформ, щоб норми та закони відповідали новим потребам країни."
   raise_sacrifice_rate: "Збільшити кількість жертвоприношень"
   raise_sacrifice_rate_desc: "Боги пожертвували своєю кров'ю заради нас, і ми в боргу перед ними. Однак пролитої нами крові явно недостатньо, щоб втамувати їхню спрагу. Нам потрібно влаштовувати більше жертвоприношень, щоб якомога швидше поповнити життєву силу наших богів."
-  percentage_of_slaves_in_country: "Відсоток #TOOLTIP:POPTYPE,slaves,X #L рабів#!#! в нашій [Concept('country', 'країні')|e]"
+  percentage_of_slaves_in_country: "Відсоток #TOOLTIP:POPTYPE,slaves,X #L невільників#!#! в нашій [Concept('country', 'країні')|e]"
   RELIGIOUS_FOCUS_NOT_IN_QUEUE: "Не в черзі дослідження"
   NOT_RELIGIOUS_FOCUS_QUEUED: "У черзі дослідження немає [Concept('religious_focuses', 'сакральних цілей')|e]"
   HAS_NOT_RELIGIOUS_FOCUS_QUEUED: "@trigger_no!Ці [Concept('religious_focuses', 'сакральні цілі')|e] ще не додані до черги."

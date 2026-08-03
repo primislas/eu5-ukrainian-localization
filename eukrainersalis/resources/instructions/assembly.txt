@@ -14,14 +14,6 @@
 * бюрократия - чиновництво; а як саму систему, структуру? заскладна бюрократія і т.п.
 * бюрократичний - чиновничий, урядовий
 
-* покровительство, покровительствовать - NOT "покровительствувати", use one of the following options:
-** "опіка над", "опікуватися (ким-чим?)" general translation (можливі вирази: "опікуватися", "брати під опіку", "взяв під опіку", "надавати опіку" і т.і.), but also when financial backing is implicit or explicit
-** "плекати" when referring to arts, crafts, good relations ("плекати мистецтва, промисли, добрі стосунки, злагоду" - use any fitting and established expressions), in high prose and when there's no stress on moneyed support
-** "надавати заступництво" when in the meaning of protection (e.g. legal), government, before a court
-** "сприяти", "сприяння" when fitting definitionally
-** "заохочувати"
-** oftentimes these words should also be preferred when translating "поддерживать" ("підтримувати"), "продвигать" ("просувати"), but "підтримка, підтримувати, просувати" are still a valid translation in these cases, judge depending on context and stylistic fit
-
 * ступень(ка) - "щабель", when talking about estates and social relations ("на одному щаблі", "на нижчому щаблі", НЕ "сходинці")
 
 

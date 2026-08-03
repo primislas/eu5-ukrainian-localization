@@ -202,7 +202,7 @@
   flavor_nov.101.b: "Ми не дозволимо, щоб «Іванівське сто» стало ще сильнішим."
   variable_ivan_hundred_strengthened_tt: "#TOOLTIP:ESTATE_PRIVILEGE,novgorod_ivans_hundred,X #L Іванівське сто#!#! посилилося"
   ivan_hundred_beeswax: "Значний вплив на торгівлю бджолиним воском"
-  ivan_hundred_beeswax_increase: "Протягом наступних 25 років привілей #TOOLTIP:ESTATE_PRIVILEGE,novgorod_ivans_hundred,X #L «Іванівське сто»#!#! даватиме такі ефекти:\n#G +10%#! до #TOOLTIP:MODIFIER_TYPE,trade_efficiency,X #P #V торгової ефективності#!#! та #G +25%#! до #TOOLTIP:MODIFIER_TYPE,global_beeswax_output_modifier,X #P #V об'єму випуску бджолиного воску#!#!"
+  ivan_hundred_beeswax_increase: "Протягом наступних 25 років привілей #TOOLTIP:ESTATE_PRIVILEGE,novgorod_ivans_hundred,X #L «Іванівське сто»#!#! надаватиме такі ефекти:\n#G +10%#! до #TOOLTIP:MODIFIER_TYPE,selling_efficiency,X #P #V справности продажів#!#! та #G +25%#! до #TOOLTIP:MODIFIER_TYPE,global_beeswax_output_modifier,X #P #V обсягу випуску бджолиного воску#!#!"
   ivan_hundred_beeswax_increase_requirement: "Наступний бонус можна отримати в результаті [Concept('dynamic_historical_event', 'динамічної історичної події')|e] «$flavor_nov.101.title$»."
   flavor_nov.102.title: "#L [hansa_country.GetAdjective]а#! контора Німецького двору"
   flavor_nov.102.entry: "Ганзейська контора Німецького двору"

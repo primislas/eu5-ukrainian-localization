@@ -42,7 +42,7 @@
  colonial_charter.100.f: "Отдадим эти земли [SCOPE.sCountry('regional_subject').Custom('CL_DAT')]."
  colonial_charter.100.g: "Отдадим эти земли [SCOPE.sCountry('scope_adjacent_area_subject').Custom('CL_DAT')]."
  colonial_charter.100.h: "Отдадим эти земли [SCOPE.sCountry('scope_area_subject').Custom('CL_DAT')]."
- colonial_charter.100.e.tt: "Вы начнёте играть за нового колониального ленника."
+ colonial_charter.100.e.tt: "#R Вы начнёте играть за нового колониального ленника.#!"
  colonial_charter.200.title: "[target.GetNameWithNoTooltip] — безнадёжная колония"
  colonial_charter.200.desc: "[target.GetNameWithNoTooltip] — поселение, которое мы здесь основали, не оправдало наших ожиданий. Наш соперник, [attacker.GetLongName], пресёк все наши попытки присвоить эту территорию."
  colonial_charter.200.a: "Катастрофа!"

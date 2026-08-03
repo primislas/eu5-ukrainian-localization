@@ -27,8 +27,9 @@ _DEFAULT_MACHINE_SUFFIX = "machine_translation"
 
 # TODO: original file cleanup - remove \t or replace with a space
 
-_PREPROC_MAPPINGS = {
-    # 1.0
+_MIGRATION_MAPPING = {
+    # 1.0; one reason to normalize keys is to make it simpler
+    # to find all alternative translations when searching by key
     "_RU_": "_UA_",
     "_ru_": "_ua_",
     "RU_rank_": "UA_rank_",
@@ -50,6 +51,9 @@ _PREPROC_MAPPINGS = {
     "_wth_icon": "_with_icon",
     "SOCIEALVALUE": "SOCIETALVALUE",
     "' )]": "')]",
+}
+
+_TRANSLATION_POSTPROC_MAPPING = {
     ".Custom('CL_tt')": ".GetKey",
 }
 
@@ -73,7 +77,7 @@ _translation_manager = MigrationManager(os.environ["MIGRATION_TO"])
 
 def migrated_text_preprocessing(value: str) -> str:
     preprocessed = value
-    for k, v in _PREPROC_MAPPINGS.items():
+    for k, v in _MIGRATION_MAPPING.items():
         preprocessed = preprocessed.replace(k, v)
     return preprocessed
 
@@ -89,7 +93,7 @@ def postprocess_text_that_does_not_require_translation(value: str) -> str:
     """Automatic transformations for text that is not submitted for
     auto-translation. Most commonly, it remaps "OK" to "Гаразд"."""
     postprocessed = value
-    postprocessed = postprocessed if postprocessed != "OK" else "Гаразд"
+    postprocessed = translation_postprocessing(postprocessed) if postprocessed != "OK" else "Гаразд"
     return postprocessed
 
 
@@ -205,7 +209,8 @@ def translation_postprocessing(line: str) -> str:
     # line = expand_concepts(line)
     # line = expand_adjectives(line)
     # line = line.replace(_NEWLINE_REPLANCEMENT, "\n")
-    line = line.replace("\\", "\\\\")
+    for k, v in _TRANSLATION_POSTPROC_MAPPING.items():
+        line = line.replace(k, v)
     return line
 
 
@@ -264,13 +269,15 @@ async def _translate_and_save_batch(
     successful_translations = 0
     async with write_lock:
         for line in translated_lines:
+            line = translation_postprocessing(line)
             lkv: dict[str, str] = {}
             try:
                 lkv = json.loads(line)
             except Exception:
                 try:
                     # sometimes running into failing escape sequences
-                    lkv = json.loads(translation_postprocessing(line))
+                    line = line.replace("\\", "\\\\")
+                    lkv = json.loads(line)
                 except Exception as e:
                     logger.error(f"Expected a JSON but received: " + line)
                     result.add_error(e)

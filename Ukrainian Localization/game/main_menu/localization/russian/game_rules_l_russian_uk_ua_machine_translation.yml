@@ -155,7 +155,7 @@
   setting_institution_spawn_random_city: "Випадкове місто"
   setting_institution_spawn_random_city_desc: "[Concept('institutions', 'Інститути')|e] виникатимуть у випадкових #TOOLTIP:LOCATIONRANK,city,X #L містах#!#!."
   rule_institution_could_have_spawned_spread_rule: "Виникнення та поширення"
-  setting_institution_could_have_spawned_spread_enabled: "Увімк."
+  setting_institution_could_have_spawned_spread_enabled: "Увімкнено"
   setting_institution_could_have_spawned_spread_enabled_desc: "У [Concept('locations', 'місцевостей')|e], у яких може виникнути [Concept('institution', 'інститут')|e], відсутній бонус до його поширення."
   setting_institution_could_have_spawned_spread_disabled: "Вимкнено"
   setting_institution_could_have_spawned_spread_disabled_desc: "[Concept('locations', 'місцевості')|e], у яких може виникнути [Concept('institution', 'інститут')|e], не мають додаткових способів його поширення. Доступні способи: кордони, торгівля, ринки та столиці."

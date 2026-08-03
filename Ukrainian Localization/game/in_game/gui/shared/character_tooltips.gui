@@ -861,7 +861,7 @@ types TooltipCharacterTypes
 
 							allow_outside = yes
 							tagtooltip_enabled = yes
-							tooltip = "[Character.GetReligion.GetAdjective]а"
+							tooltip = "[Character.GetReligion.GetAdjective]"
 
 							icon = {
 								size = { 25 25 }
@@ -871,7 +871,7 @@ types TooltipCharacterTypes
 							text_single = {
 								align = right|nobaseline
 								autoresize = yes
-								text = "[Character.GetReligion.GetAdjective]а"
+								text = "[Character.GetReligion.GetAdjective]"
 							}
 
 							expand = {}

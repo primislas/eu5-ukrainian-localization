@@ -131,7 +131,7 @@
  AI_CONQUER_DESIRE_BREAKDOWN_COASTAL_BONUS: "Получит [Concept('coast', 'побережье')|e]: $VAL|2+=/%$"
  AI_CONQUER_DESIRE_BREAKDOWN_POPULATION: "[Concept('population', 'Население')|e]: $VAL|2+=/%$"
  AI_CONQUER_DESIRE_BREAKDOWN_TAX_BASE: "[Concept('tax_base', 'Налоговая база')|e]: $VAL|2+=/%$"
- AI_CONQUER_DESIRE_BREAKDOWN_CORE: "[core|e]: $VAL|2+=/%$"
+ AI_CONQUER_DESIRE_BREAKDOWN_CORE: "[Concept('core', 'Национальный')|e] район"
  AI_CONQUER_DESIRE_BREAKDOWN_HAS_CB: "Есть [Concept('casus_belli', 'повод для войны')|e]: $VAL|2+=/%$"
  AI_CONQUER_DESIRE_BREAKDOWN_EXCLAVED: "Эксклав нашей державы: $VAL|2+=/%$"
  AI_CONQUER_DESIRE_BREAKDOWN_HERETIC: "[Concept('heretic', 'Еретическая')|e] [Concept('religion', 'религия')|e]: $VAL|2+=/%$"

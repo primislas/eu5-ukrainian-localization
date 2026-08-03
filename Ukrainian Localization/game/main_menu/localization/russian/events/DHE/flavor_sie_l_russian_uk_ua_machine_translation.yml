@@ -19,7 +19,7 @@
   flavor_sie.4.desc: "Чума, що прокотилася #TOOLTIP:REGION,italy_region,X #L Італією#!#! та іншими країнами #TOOLTIP:CONTINENT,europe,X #L Європи#!#!, завдала [target_location.Custom('LR_DAT')|l] [target_location.GetName] непоправної шкоди. Тепер його колись гамірні вулиці пустують, нагадуючи про те, що і грішники, і праведники рівні перед лицем смерті. Втім, замість того, щоб сумувати, ми можемо допомогти місцевим жителям, що залишилися, знову стати на ноги."
   flavor_sie.4.a: "Ми виділимо державні кошти на відновлення [target_location.Custom('LR_GEN')|l]."
   flavor_sie.4.a.entry: "Ми виділимо державний кошт на відновлення цієї місцевості."
-  sie_all_pops_lose_satisfaction: "Усі [Concept('pops', 'групи населення')|e] в [target_location.Custom('LR_PREP')|l] [target_location.GetName] отримають [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e]"
+  sie_all_pops_lose_satisfaction: "Усі [Concept('pops', 'громади')|e] в [target_location.Custom('LR_PREP')|l] [target_location.GetName] отримають [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e]"
   flavor_sie.4.b: "Це вічний кругообіг життя та смерті. З нього немає виходу."
   flavor_sie.5.entry: "$flavor_sie.5.title$"
   flavor_sie.5.title: "Заснування порту в Гроссето"

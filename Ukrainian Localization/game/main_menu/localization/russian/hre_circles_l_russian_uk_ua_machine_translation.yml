@@ -28,7 +28,7 @@
   join_an_imperial_circle_desc: "Вступити до імперського округу під час періоду створення."
   join_an_imperial_circle_act: "Вступити до округу [SCOPE.sImperialCircle('target').GetName]."
   join_an_imperial_circle_effect_text: "[SCOPE.sCountry('actor').GetName] вступа[SCOPE.sCountry('actor').Custom('end_yeyut')] до округу [SCOPE.sImperialCircle('target').GetName]."
-  join_an_imperial_circle_effect_text_past: "[SCOPE.sCountry('actor').GetName] вступи[SCOPE.sCountry('actor').Custom('end_vlaloly')] до округу [SCOPE.sImperialCircle('target').GetName]."
+  join_an_imperial_circle_effect_text_past: "Ми приєдналися до округу [SCOPE.sImperialCircle('target').GetName]."
   bribe_imperial_circle: "Підкупити імперський округ"
   bribe_imperial_circle_desc: "Дати очільнику імперського округу та кожному його учаснику хабар, щоб ті проголосували за нашу пропозицію в Райхстазі. Очільник округу отримає хабар у повному базовому розмірі, а всі наступні учасники — по 25% від цього значення. Голос кожного учасника буде зафіксовано так, як визначить імператор."
   bribe_imperial_circle_act: "Підкупити #ONCLICK:COUNTRY,[SCOPE.sCountry('target').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('target').GetKey],X [SCOPE.sCountry('target').Custom('CL_ACC')|L]#!#!, щоб нашу пропозицію в Райхстазі підтримали."

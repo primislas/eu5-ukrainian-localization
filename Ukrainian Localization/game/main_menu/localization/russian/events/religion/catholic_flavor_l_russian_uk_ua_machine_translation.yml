@@ -46,7 +46,7 @@
   catholic_flavor.11.desc: "[pope_scope.GetName] щойно [Select_CString(pope_scope.IsFemale, 'оголосила', 'оголосив')], що [Select_CString(ancestor_saint.IsFemale, 'одна', 'один')] з шанованих предків нашого правителя, [ancestor_saint.GetName], [Select_CString(ancestor_saint.IsFemale, 'була святою', 'був святим')] нашої благословенної церкви і що тепер настав час віддати [Select_CString(ancestor_saint.IsFemale, 'їй', 'йому')] належну шану. Це привід для святкування!"
   catholic_flavor.11.a: "Te Deum!"
   catholic_flavor.12.title: "Sublimis Deus"
-  catholic_flavor.12.desc: "[pope_scope.GetName] видав указ, що заборонив обертати на рабство тубільних жителів колоній. На його думку, ідея про те, що вони лише дикуни, нездатні приймати Божу милість, — це мерзенна брехня, поширювана самим ворогом роду людського. Його Святість наполягає на тому, що, як і всі інші одушевлені істоти, ці люди прагнуть Божого світла, і тому всі побожні государі повинні всіма силами навертати їх у #TOOLTIP:RELIGION,$catholic_tt$,X #L католицтво#!#!."
+  catholic_flavor.12.desc: "[pope_scope.GetName] видав указ, що заборонив обертати на невільників тубільних жителів колоній. На його думку, ідея про те, що вони лише дикуни, нездатні приймати Божу милість, — це мерзенна брехня, поширювана самим ворогом роду людського. Його Святість наполягає на тому, що, як і всі інші одушевлені істоти, ці люди прагнуть Божого світла, і тому всі побожні государі повинні всіма силами навертати їх у #TOOLTIP:RELIGION,$catholic_tt$,X #L католицтво#!#!."
   catholic_flavor.12.a: "Зробимо так, як велить [GetCountry('PAP').GetGovernment.GetRulerTitle|l]."
   opinion_sublimis_deus: "Sublimis Deus"
   catholic_flavor.12.b: "[GetCountry('PAP').GetGovernment.GetRulerTitle|U] нічого не дізнається…"

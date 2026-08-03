@@ -129,7 +129,7 @@
   AI_CONQUER_DESIRE_BREAKDOWN_BASE: "Базове значення: $VAL|2+=/%$"
   AI_CONQUER_DESIRE_BREAKDOWN_CITY: "[urban_location|e]: $VAL|2+=/%$"
   AI_CONQUER_DESIRE_BREAKDOWN_COASTAL_BONUS: "Отримає [Concept('coast', 'узбережжя')|e]: $VAL|2+=/%$"
-  AI_CONQUER_DESIRE_BREAKDOWN_POPULATION: "[Concept('population', 'Населення')|e]: $VAL|2+=/%$"
+  AI_CONQUER_DESIRE_BREAKDOWN_POPULATION: "[Concept('population', 'Людність')|e]: $VAL|2+=/%$"
   AI_CONQUER_DESIRE_BREAKDOWN_TAX_BASE: "[Concept('tax_base', 'Податкова база')|e]: $VAL|2+=/%$"
   AI_CONQUER_DESIRE_BREAKDOWN_CORE: "[core|e]: $VAL|2+=/%$"
   AI_CONQUER_DESIRE_BREAKDOWN_HAS_CB: "Є [Concept('casus_belli', 'привід для війни')|e]: $VAL|2+=/%$"

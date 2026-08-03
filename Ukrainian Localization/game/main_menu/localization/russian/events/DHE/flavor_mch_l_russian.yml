@@ -15,7 +15,7 @@
  flavor_mch.3.b: "Вздор! Чему варвары могут научить народ Сунь-цзы?"
  flavor_mch.4.title: "[target_character.GetShortNameWithNoTooltip] и [Select_CString(target_character.IsFemale,'её', 'его')] новая должность"
  flavor_mch.4.entry: "Хэшэнь занимает новую должность"
- flavor_mch.4.desc: "Недавно наше внимание привлёк многообещающий министр по имени [target_character.GetShortName]. Говорят, [Select_CString(target_character.IsFemale,'она сведуща', 'он сведущ')] в вопросах дипломатии и управления.\n\nОднако ходят слухи, что [Select_CString(target_character.IsFemale,'она', 'он')] крайне [Select_CString(target_character.IsFemale,'коррумпирована', 'коррумпирован')] и [Select_CString(target_character.IsFemale,'известна', 'известен')] своей жадностью и любовью к взяткам. Стоит ли нам назначать [Select_CString(target_character.IsFemale,'её', 'его')] главным министром?"
+ flavor_mch.4.desc: "Недавно наше внимание привлёк многообещающий министр по имени [target_character.GetShortName]. Говорят, он сведущ в вопросах дипломатии и управления.\n\nОднако ходят слухи, что он крайне коррумпирован и известен своей жадностью и любовью к взяткам. Стоит ли нам назначать его главным министром?"
  flavor_mch.4.a: "Назначить [Select_CString(target_character.IsFemale,'её', 'его')], несмотря на недостатки!"
  flavor_mch.4.b: "Нет, коррупция приведёт нашу державу в упадок!"
  flavor_mch.5.title: "Поздняя Цзинь"

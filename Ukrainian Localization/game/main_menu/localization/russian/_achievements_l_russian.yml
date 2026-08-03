@@ -100,7 +100,7 @@
  ACHIEVEMENT_je_maintiendrai: "Я выстою"
  ACHIEVEMENT_DESC_je_maintiendrai: "Начав игру за малую державу с голландской культурой, создайте Нидерланды."
  ACHIEVEMENT_lion_of_the_north: "Лев Севера"
- ACHIEVEMENT_DESC_lion_of_the_north: "Начав игру за Швецию, добейтесь победы Гейльброннской лиги."
+ ACHIEVEMENT_DESC_lion_of_the_north: "Начав игру за Швецию, станьте активным участником войны на стороне протестантов и одержите победу в ситуации «Религиозная война»."
  lion_of_the_north_tt: "Мы принимали активное участие в [Concept('situation', 'ситуации')|e] #TOOLTIP:SITUATION,war_of_religions,X #L «Религиозная война»#!#!. Мы и [GetInternationalOrganizationType('protestant_union').GetName] заключили союз, в результате чего наша коалиция одержала победу"
  ACHIEVEMENT_the_navigator: "Мореплаватель"
  ACHIEVEMENT_DESC_the_navigator: "Играя за Португалию, завладейте территориями в Африке, Америке, Индии и Индонезии до начала эпохи Реформации."

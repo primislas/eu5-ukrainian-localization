@@ -20,7 +20,7 @@
  MOVEMENT_SUBJECT_CULTURE: "[Concept('culture', 'Культура')|e]: $NAME$"
  MOVEMENT_SPREADER_TT_TITLE: "По-разному распространяется среди [Concept('pops', 'групп населения')|e]:"
  MOVEMENT_R0_FACTORS_TITLE: "Факторы, влияющие на скорость распространения движения «$MOVEMENT$»:"
- MOVEMENT_SPREAD_FACTOR_ENTRY_FORMAT: "«$KEY$» ($VALUE|+=4$)"
+ MOVEMENT_SPREAD_FACTOR_ENTRY_FORMAT: "$KEY$: $VALUE|+=4$"
  movement_factor_scriptorium: "#TOOLTIP:BUILDING_TYPE,scriptorium,X #L Скрипторий#!#! в [Concept('location', 'районе')|e]"
  movement_factor_printing_press_shop: "#TOOLTIP:BUILDING_TYPE,printing_press_shop,X #L Печатная мастерская#!#! в [Concept('location', 'районе')|e]"
  movement_factor_paper_guild: "#TOOLTIP:BUILDING_TYPE,paper_guild,X #L Гильдия бумажников#!#! в [Concept('location', 'районе')|e]"

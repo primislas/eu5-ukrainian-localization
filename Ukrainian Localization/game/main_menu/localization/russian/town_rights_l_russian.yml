@@ -2,7 +2,7 @@
  revoke_town_rights: "Отзыв городских прав"
  revoke_town_rights_desc: ""
  REVOKE_TOWN_RIGHTS_FROM: "Отзыв [Concept('town_rights', 'городских прав')|e] у района [TownRightsItem.GetFirstLocationName]"
- REVOKE_LOCATION_TOWN_RIGHT: "Отзыв [Concept('town_rights', 'городских прав')|e] у района [Location.GetName]"
+ REVOKE_LOCATION_TOWN_RIGHT: "Отзыв [Concept('town_rights', 'городских прав')|e] у района [TownRightsItem.GetFirstLocationName]"
  staple_port: "Штапельный порт"
  staple_port_desc: "Этому [Concept('location', 'району')|e] дарованы привилегии, которые расширяют права #TOOLTIP:ESTATE_TYPE,burghers_estate,X #L горожан#!#! в сфере местной [Concept('trade', 'торговли')|e]."
  granary_town: "Зерновой центр"
