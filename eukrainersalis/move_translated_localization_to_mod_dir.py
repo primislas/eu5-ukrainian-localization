@@ -4,6 +4,7 @@ from pathlib import Path, PurePosixPath
 
 from eukrainersalis.utils.file_utils import list_localization_files, translation_dir, mod_dir, \
     project_mod_dir
+from eukrainersalis.utils.log_utils import simple_logger as logger
 from eukrainersalis.utils.yaml_utils import load_eu5_yaml, write_eu5_localization_yaml
 
 
@@ -38,7 +39,7 @@ def _move_localization_file(modded_file: str, output_path: str, relative_input_d
     content["l_english"] = content.pop("l_russian")
     write_eu5_localization_yaml(content, output_path)
     relative_output_path = os.path.relpath(output_path, mod_dir)
-    print(f"Moved {relative_input_dir_path}/{input_fname}\n   -> {relative_output_path}")
+    logger.info(f"Moved {relative_input_dir_path}/{input_fname}\n   -> {relative_output_path}")
 
 
 def move_translated_localization_to_mod_dir() -> int:
@@ -89,7 +90,7 @@ def move_modded_files_to_mod_dir():
             os.makedirs(to_dir, exist_ok=True)
             shutil.copy(from_file, to_file)
             moved_file_count += 1
-            print(f"Moved {rel_path}/{file}\n   -> {os.path.relpath(to_file, mod_dir)}")
+            logger.info(f"Moved {rel_path}/{file}\n   -> {os.path.relpath(to_file, mod_dir)}")
     return moved_file_count
 
 
@@ -98,7 +99,7 @@ def move_modded_localization_to_mod_dir():
     moved_file_count += move_translated_localization_to_mod_dir()
     moved_file_count += move_modded_files_to_mod_dir()
 
-    print(f"Moved {moved_file_count} files")
+    logger.info(f"Moved {moved_file_count} files")
 
 
 if __name__ == "__main__":

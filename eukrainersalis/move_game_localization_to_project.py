@@ -5,7 +5,7 @@ from pathlib import Path
 from eukrainersalis.run_machine_translation import key_preprocessing, migrated_text_preprocessing
 from eukrainersalis.utils.file_utils import game_dir, translation_dir, list_localization_files, \
     custom_localization_game_dir_path, custom_localization_translation_dir_path, list_gui_files
-from eukrainersalis.utils.log_utils import logger
+from eukrainersalis.utils.log_utils import simple_logger as logger
 from eukrainersalis.utils.migration_utils import normalize_double_quotes
 from eukrainersalis.utils.translation_utils import Language
 from eukrainersalis.utils.yaml_utils import load_eu5_yaml, write_eu5_localization_yaml
@@ -37,13 +37,13 @@ def copy_custom_loc():
 
 def copy_localizations(source_dir: Path, target_dir: Path, languages: list[str]) -> list[str]:
     localization_files = list_localization_files(languages, source_dir)
-    print(f"Identified {len(localization_files)} localization files")
+    logger.info(f"Identified {len(localization_files)} localization files")
     localization_files.sort()
     copied_files = []
     for file in localization_files:
         rel = Path(file).relative_to(source_dir)
         target_file = target_dir / rel
-        print(f"Copying {os.path.basename(file)} to {target_file}")
+        logger.info(f"Copying {os.path.basename(file)} to {target_file}")
         os.makedirs(os.path.dirname(target_file), exist_ok=True)
         shutil.copy(file, target_file)
         copied_files.append(target_file)
@@ -53,7 +53,7 @@ def copy_localizations(source_dir: Path, target_dir: Path, languages: list[str])
 
 def remove_deleted_localizations(source_dir: Path, target_dir: Path, languages: list[str]):
     localization_files = list_localization_files(languages, target_dir)
-    print(f"Identified {len(localization_files)} localization files")
+    logger.info(f"Identified {len(localization_files)} localization files")
     localization_files.sort()
     for file in localization_files:
         rel = Path(file).relative_to(target_dir)
@@ -64,22 +64,22 @@ def remove_deleted_localizations(source_dir: Path, target_dir: Path, languages: 
                 continue
             mtr_source_file = str(source_file).replace("_l_russian_uk_ua_machine_translation", "_l_russian")
             if not os.path.exists(mtr_source_file):
-                print(f"Deleting {rel}")
+                logger.info(f"Deleting {rel}")
                 os.remove(file)
         elif not os.path.exists(source_file):
-            print(f"Deleting {rel}")
+            logger.info(f"Deleting {rel}")
             os.remove(file)
 
 
 def copy_gui_files(source_dir: Path, target_dir: Path) -> list[str]:
     gui_files = list_gui_files(source_dir)
-    print(f"Identified {len(gui_files)} GUI files")
+    logger.info(f"Identified {len(gui_files)} GUI files")
     gui_files.sort()
     copied_files = []
     for file in gui_files:
         rel = Path(file).relative_to(source_dir)
         target_file = target_dir / rel
-        print(f"Copying {os.path.basename(file)} to {target_file}")
+        logger.info(f"Copying {os.path.basename(file)} to {target_file}")
         os.makedirs(os.path.dirname(target_file), exist_ok=True)
         shutil.copy(file, target_file)
         copied_files.append(target_file)
@@ -89,13 +89,13 @@ def copy_gui_files(source_dir: Path, target_dir: Path) -> list[str]:
 
 def remove_deleted_gui_files(source_dir: Path, target_dir: Path):
     gui_files = list_gui_files(target_dir)
-    print(f"Identified {len(gui_files)} GUI files")
+    logger.info(f"Identified {len(gui_files)} GUI files")
     gui_files.sort()
     for file in gui_files:
         rel = Path(file).relative_to(target_dir)
         source_file = source_dir / rel
         if not os.path.exists(source_file):
-            print(f"Deleting removed source file: {rel}")
+            logger.info(f"Deleting removed source file: {rel}")
             os.remove(file)
 
 
@@ -189,7 +189,7 @@ def normalize_localization_files(source_dir: Path):
             # Only making them parsearble, no other preprocessing
             validate_and_fix_localization_file(Path(file), fix_double_quotes=True)
         except Exception as e:
-            print(f"Error processing {file}: {e}")
+            logger.error(f"Error processing {file}: {e}")
 
     for file in list_localization_files([Language.RUSSIAN], source_dir):
         if os.path.basename(file) in _KEEP_AS_IS_FILES:
@@ -202,7 +202,7 @@ def normalize_localization_files(source_dir: Path):
             content[Language.RUSSIAN.localization_key] = migrated_localization
             write_eu5_localization_yaml(content, file, indent=1)
         except Exception as e:
-            print(f"Error processing {file}: {e}")
+            logger.error(f"Error processing {file}: {e}")
 
 
 if __name__ == "__main__":
