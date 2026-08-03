@@ -1,7 +1,7 @@
 ﻿l_russian:
   western_schism.1.title: "Розкол у католицькій церкві"
   western_schism.1.desc: "#TOOLTIP:RELIGION,$catholic_tt$,X #L Католицтво#!#! переживає розкол, і в курії вибухнула фракційна боротьба.\n\nНам не звикати до протиріч у церкві, але цього разу їхні причини інші. Коли помер останній [GetInternationalOrganization('catholic_church').GetLeaderTitle], #TOOLTIP:CULTUREGROUP,italian_group,X #L італійські#!#! кардинали вирішили втілити мрію, яку плекали з тих самих пір, як інститут папства перейшов під контроль #TOOLTIP:CULTUREGROUP,french_group,X #L французів#!#!, і виступили за повернення Святого Престолу в розпорядження Італії. Кардиналам протистоять французькі священнослужителі: вони наполягають на тому, щоб [GetInternationalOrganization('catholic_church').GetLeaderTitle] залишався під їхнім контролем. Через несумісність позицій цих двох груп католицький світ швидко занурюється в стан внутрішньої ворожнечі, і благочестиві #TOOLTIP:INTERNATIONAL_ORGANIZATION,$catholic_church_tt$,X #L католики#!#! залишаються без духовних пастирів. До тих пір, поки конфлікт не вщухне, їм доведеться жити без опори на звичні авторитети й самостійно вирішувати, хто є істинним провідником божественної волі."
-  western_schism.1.a: "Кепські справи…"
+  western_schism.1.a: "Справи кепські."
   western_schism.3.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] незадоволен[ROOT.GetCountry.Custom('clergy_yiaei')] розколом"
   western_schism.3.desc: "Ми досі не обрали, хто нам більше імпонує: [target_schism_pope_cardinal.GetName] чи [target_schism_opponent_cardinal.GetName]. Наші кардинали наполегливо просять нас поквапитися з ухваленням рішення."
   western_schism.3.a: "З цим рішенням можна почекати…"

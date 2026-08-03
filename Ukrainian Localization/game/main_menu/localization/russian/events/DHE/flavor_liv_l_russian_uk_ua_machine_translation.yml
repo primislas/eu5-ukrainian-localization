@@ -14,4 +14,4 @@
   flavor_liv.3.title: "Хроніка Лівонії завершена"
   flavor_liv.3.desc: "[target_character.GetName] нарешті [Select_CString(target_character.IsFemale,'закінчила', 'закінчив')] роботу над своєю #TOOLTIP:WORK_OF_ART_TYPE,chronicle,X #L хронікою#!#!, що отримала назву [target_work_of_art.GetName]. У цьому обширному творі описана історія #TOOLTIP:AREA,baltic_area,X #L Балтики#!#! від створення [GetCountry('LIV').Custom('longname_ua_GEN')] до переходу регіону під вплив #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Однак [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]а влада представлена там у вельми поганому світлі, що підриває нашу легітимність та ображає аристократів, що володіють цими землями."
   flavor_liv.3.a: "Така критика цілком допустима."
-  flavor_liv.3.b: "Виженемо [Select_CString(target_character.IsFemale,'її', 'його')] та заборонимо публікувати [Select_CString(target_character.IsFemale,'її', 'його')] роботи!"
+  flavor_liv.3.b: "Виженемо його та заборонимо публікувати його праці!"

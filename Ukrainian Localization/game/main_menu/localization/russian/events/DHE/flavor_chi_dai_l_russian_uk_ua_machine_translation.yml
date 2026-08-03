@@ -3,7 +3,7 @@
   DAI_NGU_ADJ: "Дайнгськ"
   flavor_chi_dai.1.title: "[target_character.GetNameWithNoTooltip]"
   flavor_chi_dai.1.entry: "Хо Куї Лі при дворі"
-  flavor_chi_dai.1.desc: "Завдяки впливовим зв'язкам та хитрим вивертам [target_character.GetName] [Select_CString(target_character.IsFemale,'зуміла', 'зумів')] отримати важливу посаду при #L [ROOT.GetCountry.GetAdjective|l]ому#! дворі. Хоча [Select_CString(target_character.IsFemale,'вона', 'він')] безумовно є талановитим полководцем, [Select_CString(target_character.IsFemale,'її', 'його')] амбіції дещо насторожують: багато хто вважає, що [Select_CString(target_character.IsFemale,'вона', 'він')] може скористатися своїм становищем, щоб підірвати стабільність нашої країни. Будемо сподіватися, що це не більше ніж гидкі плітки…"
+  flavor_chi_dai.1.desc: "Завдяки впливовим зв’язкам і хитрим вивертам [target_character.GetName] зумів здобути важливу посаду при [ROOT.GetCountry.GetAdjective|l]ому дворі. Він безперечно талановитий полководець, але його амбіції дещо насторожують: дехто вважає, що він може скористатися своїм становищем, щоб підірвати стабільність нашої країни. Сподіваймося, що це не більше ніж мерзенні плітки..."
   flavor_chi_dai.ho_quy_ly_historical_info: "На рубежі XV століття $tran_dynasty$ впала від рук радника на ім'я $ho_dynasty$ $name_quy$ $name_ly$. Після перевороту Китай та $MNG$ вступили у війну, в ході якої китайцям вдалося встановити контроль над в'єтнамською провінцією $jiaozhi_province$. Однак у 1428 році місцеві нарешті зуміли вигнати китайське військо зі своєї території."
   flavor_chi_dai.1.a: "Цікаво."
   flavor_chi_dai.2.title: "Несподіваний переворот"

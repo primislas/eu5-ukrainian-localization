@@ -14,6 +14,7 @@
   SETTING_TRIPLANAR_UV_QUALITY: "Трипланарна якість розгортки"
   SETTING_TRIPLANAR_UV_QUALITY_TOOLTIP: "#T $SETTING_TRIPLANAR_UV_QUALITY$#!\nВпливає на якість текстур стрімкого ландшафту."
   OPTION_VERY_LOW: "Дуже низька"
+  OPTION_VERY_HIGH: "Дуже висока"
   SETTING_UNIT_COA_RESOLUTION: "Роздільна здатність гербів у загонів"
   SETTING_UNIT_COA_RESOLUTION_TOOLTIP: "#T $SETTING_UNIT_COA_RESOLUTION$#!\nВпливає на роздільну здатність гербів, які відображаються на уніформі загонів."
   SETTING_EDITOR_TOOLTIP: "#T Редактор #! Текстовий редактор для відкриття файлу гри"
