@@ -20,7 +20,7 @@
  the_revolution.3.b: "Мы поддержим их борьбу и будем их защищать."
  the_revolution.4.title: "Разжигание волнений в провинции [target_province.GetNameWithNoTooltip]"
  the_revolution.4.desc: "По всей видимости, кто-то из придворных решил посеять недовольство в одной из наших провинций. Мы пока не знаем, чего хочет добиться этот человек. Кто-то предполагает, что [Select_CString(target_character.IsFemale, 'она недовольна', 'он недоволен')] сложившимся порядком. Однако какими бы идеалами [Select_CString(target_character.IsFemale, 'она ни руководствовалась', 'он ни руководствовался')] — революционными ли, патриотическими ли — одно можно сказать с уверенностью: это уже переходит все границы!"
- the_revolution.4.a: "Мы ничего не можем поделать."
+ the_revolution.4.a: "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]"
  the_revolution.4.b: "[Select_CString(target_character.IsFemale, 'Её', 'Его')] ждёт тюрьма."
  nobles_lose_10_pop_satisfaction_tt: "[Concept('pop_satisfaction', 'Довольство ')|e] [Concept('pops', 'групп населения')|e] провинции [target_province.GetNameWithNoTooltip], в которые входят [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], снизится на [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%]"
  peasants_lose_10_pop_satisfaction_tt: "[Concept('pop_satisfaction', 'Довольство ')|e] [Concept('pops', 'групп населения')|e] провинции [target_province.GetNameWithNoTooltip], в которые входят [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l], снизится на [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%]"

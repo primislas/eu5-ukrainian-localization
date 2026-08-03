@@ -1,0 +1,39 @@
+types "MapEditorDefaultTypes" {
+
+	type map_editor_text_checkbox = hbox {
+		layoutpolicy_horizontal = shrinking
+		layoutpolicy_vertical = preferred
+		checkbutton = {
+			size = { 16 16 }
+			gfxtype = checkbuttongfx
+			shaderfile = "gfx/FX/pdxgui_pushbutton.shader"
+			texture = "gfx/editor_gui/editor_checkbox.dds"
+			framesize = { 16 16 }
+			block "checkbutton" {}
+		}
+		widget = {
+			size = { 4 0 }
+			layoutpolicy_horizontal = fixed
+		}
+		editor_textbox = {
+			autoresize = yes
+			align = top
+			block "textbox" {}
+			using = tooloptions_font
+			fontsize = 12
+		}
+		block "tooltip" {}
+		tooltipwidget = { using = dockable_tooltip }
+	}
+
+}
+
+widget = {
+	name = "default_widget"
+}
+
+widget = {
+	name = "viewport_widget"
+	alwaystransparent = no
+}
+

@@ -729,7 +729,7 @@ lateralview_full = {
 
 													text_single = {
 														using = layoutpolicy_expanding
-														text = "[Pop.GetReligion.GetAdjectiveWithNoTooltip]а"
+														text = "[Pop.GetReligion.GetAdjectiveWithNoTooltip]"
 														datacontext = "[Pop.GetReligion]"
 														default_format = "#subtle_name"
 														tooltipwidget = { using = religion_tooltip	}

@@ -41,7 +41,7 @@
  muslim_school_events.11.a: "Этот человек должен быть наказан."
  muslim_school_events.11.b: "Прагматизм важнее богословских тонкостей."
  muslim_school_events.12.title: "Такия"
- muslim_school_events.12.desc: "На протяжении веков многие последователи Али были вынуждены притворно следовать традициям других религий, чтобы сохранить свою веру. Власти [SCOPE.sLocation('shia_here').Custom('LR_GEN')] [SCOPE.sLocation('shia_here').GetName] подозревают, что в местных суфийских братствах скрывается немало шиитов, и хотят получить наше благословение на искоренение этой ереси!"
+ muslim_school_events.12.desc: "На протяжении веков многие последователи Али были вынуждены притворно следовать традициям других религий, чтобы сохранить свою веру. Власти [SCOPE.sLocation('shia_here').Custom('LR_GEN')|l] [SCOPE.sLocation('shia_here').GetName] подозревают, что в местных суфийских братствах скрывается немало шиитов, и хотят получить наше благословение на искоренение этой ереси!"
  muslim_school_events.12.a: "Мы не потерпим еретиков!"
  muslim_school_events.12.b: "Мы должны уважать суфиев."
  10_percent_of_all_pops_become_shia_tt: "#Y 10%#! [Concept('pops', 'групп населения')|e] в [THIS.GetLocation.Custom('LR_PREP')|l] [THIS.GetLocation.GetName] обратятся в #TOOLTIP:RELIGION,$shia_tt$,X #L шиизм#!#!"

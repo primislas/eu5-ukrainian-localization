@@ -414,7 +414,7 @@
  PROV_DEF_MEMBERS_CORRIDENTRY: "[Concept('corridor', 'Коридор')|e]: [LOCATION.GetName]"
  PROVINCE_CAPITAL_TOOLTIP: "[province_capital_icon]"
  AREA_TOOLTIP: "[Concept('region', 'Регион')|e]: [AREA.GetRegion.GetName]\nЧисло [Concept('locations', 'районов')|e]: [AREA.GetNumLocations]"
- AREA_POPULATION_INFO: "[Concept('population', 'Население')|e]: [AREA.GetTotalPopulation]"
+ AREA_POPULATION_INFO: "[Concept('population', 'Население')|e]: [COUNTRY.GetTotalPopulation]"
  AREA_GREAT_POWER_INFO_DOMINATED: "[great_power_points|e]: $VAL$ · Доминиру[COUNTRY.Custom('end_etyut')] [COUNTRY.GetNameWithFlag]"
  AREA_GREAT_POWER_INFO_CONTESTED: "[great_power_points|e]: $VAL$ · Оспаривается"
  SEA_AREA_TOOLTIP: "[AREA.GetNameWithNoTooltip]: область прибрежных [Concept('seazones', 'акваторий')|e]"

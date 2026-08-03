@@ -248,7 +248,7 @@ template Pop_tooltip {
 						text_single = {
 							autoresize = yes
 							align = right
-							text = "[Pop.GetReligion.GetAdjective]а"
+							text = "[Pop.GetReligion.GetAdjective]"
 						}
 	
 					}

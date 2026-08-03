@@ -838,7 +838,7 @@ template SubUnit_tooltip {
 							text = "SUBUNIT_RELIGION"
 						}
 						text_single = {
-							raw_text = "[SubUnit.GetReligion.GetAdjective]а [religion_icon]"
+							raw_text = "[SubUnit.GetReligion.GetAdjective] [religion_icon]"
 						}
 					}
 				}

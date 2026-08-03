@@ -1,7 +1,7 @@
 ﻿l_russian:
  western_schism.1.title: "Раскол в католической церкви"
  western_schism.1.desc: "#TOOLTIP:RELIGION,$catholic_tt$,X #L Католичество#!#! переживает раскол, и в курии разразилась фракционная борьба.\n\nНам не привыкать к противоречиям в церкви, но на этот раз их причины иные. Когда умер последний [GetInternationalOrganization('catholic_church').GetLeaderTitle], #TOOLTIP:CULTUREGROUP,italian_group,X #L итальянские#!#! кардиналы решили воплотить мечту, которую лелеяли с тех самых пор, как институт папства перешёл под контроль #TOOLTIP:CULTUREGROUP,french_group,X #L французов#!#!, и выступили за возвращение Святого Престола в распоряжение Италии. Кардиналам противостоят французские священнослужители: они настаивают на том, чтобы [GetInternationalOrganization('catholic_church').GetLeaderTitle] оставался под их контролем. Из-за несовместимости позиций этих двух групп католический мир быстро погружается в состояние внутренней вражды, и благочестивые #TOOLTIP:INTERNATIONAL_ORGANIZATION,$catholic_church_tt$,X #L католики#!#! остаются без духовных пастырей. До тех пор, пока конфликт не утихнет, им придётся жить без опоры на привычные авторитеты и самостоятельно решать, кто является истинным проводником божественной воли."
- western_schism.1.a: "Плохи дела..."
+ western_schism.1.a: "Плохи дела."
  western_schism.3.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] недовольны расколом"
  western_schism.3.desc: "Мы до сих пор не выбрали, кто нам больше импонирует: [target_schism_pope_cardinal.GetName] или [target_schism_opponent_cardinal.GetName]. Наши кардиналы настоятельно просят нас поторопиться с принятием решения."
  western_schism.3.a: "С этим решением можно повременить..."

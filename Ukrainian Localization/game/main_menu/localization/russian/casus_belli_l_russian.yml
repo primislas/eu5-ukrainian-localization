@@ -18,7 +18,7 @@
  cb_declined_call_to_arms: "Отказ взяться за оружие"
  cb_exploration: "Экспедиция"
  cb_imperial_ban: "Имперская опала"
- cb_imperial_ban_PROV: "[PROVINCE.GetName]"
+ cb_imperial_ban_PROV: "$cb_imperial_ban$ ([PROVINCE.GetName])"
  cb_independence_war_PROV: "$cb_independence_war$"
  cb_independence_war: "Независимость"
  cb_resist_annexation: "Сопротивление присоединению"

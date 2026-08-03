@@ -306,7 +306,7 @@ types CDCDPopEditor
 												autoresize = no
 												layoutpolicy_horizontal = expanding
 
-												text = "[PopEntry.GetReligion.GetAdjectiveWithNoTooltip]а"
+												text = "[PopEntry.GetReligion.GetAdjectiveWithNoTooltip]"
 												onclick = "[CDPopEditor.SelectPop(PopEntry.AccessSelf)]"
 												onrightclick = "[CDPopEditor.PickReligionFrom(PopEntry.AccessSelf)]"
 

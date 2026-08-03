@@ -1,0 +1,1033 @@
+
+@decals_editor_settings_property_height = 24
+
+
+types DecalsEditorTypes
+{
+	type search_field = hbox {
+		layoutpolicy_horizontal = expanding
+		editor_textbox = {
+			layoutpolicy_horizontal = preferred
+			raw_text = "Search:"
+			using = terraineditor_font
+			autoresize = yes
+			margin = { 8 0 }
+		}
+		editor_textinput = {
+			size = { 0 32 }
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = fixed
+			fontsize = 14
+			text = "[DecalsEditorSearchFilter.GetText]"
+			ontextchanged = "[DecalsEditorSearchFilter.SetText]"
+			align = left|nobaseline
+			editor_textbox = {
+				margin = { 8 0 }
+				visible = "[DecalsEditorSearchFilter.IsTextEmpty]"
+				size = { 100% 100% }
+				fontsize = 13
+				raw_text = "Enter keywords"
+				using = terraineditor_font
+				default_format = "#italic"
+				align = left|nobaseline
+				alwaystransparent = yes
+				alpha = 0.5
+			}
+		}
+		raw_tooltip = "Enter keywords (separated by space) to filter the search results. Search is case insensitive."
+		tooltipwidget = { using = dockable_tooltip }
+	}
+
+	type checkbutton_icon_and_text = toolbox_checkbutton {
+		size = { 108 32 }
+		fontsize = 12
+		tooltipwidget = { using = dockable_tooltip }
+		hbox = {
+			layoutpolicy_horizontal = expanding
+			margin_left = 10
+			icon = {
+				block "icon" {}
+				size = { 26 26 }
+			}
+			editor_textbox = {
+				block "text" {}
+				layoutpolicy_horizontal = expanding
+				align = center|nobaseline
+			}
+		}
+	}
+
+	type decals_editor_decal_set_properties_entry = checkbutton {
+		using = terraineditor_listitem
+		layoutpolicy_horizontal = expanding
+		layoutpolicy_vertical = fixed
+		size = { 0 24 }
+		texture = "gfx/editor_gui/editor_layout_button.png"
+		using = terraineditor_font
+		margin = { 8 0 }
+		align = left|nobaseline
+		enabled = no
+		tooltipwidget = { using = dockable_tooltip }
+	}
+
+	type decals_editor_layer_settings = editor_frame {
+		layoutpolicy_horizontal = expanding
+		blockoverride "label" { raw_text = "[DecalsEditorSettingsLayer.GetName]" }
+		blockoverride "content" {
+			spacing = 4
+			margin_left = 4
+			margin_right = 4
+			margin_bottom = 4
+			hbox = {
+				layoutpolicy_horizontal = expanding
+				spacing = 4
+				margin_left = 6
+
+				editor_editbox = {
+					using = property_editbox
+					size = { 0 @decals_editor_settings_property_height }
+					layoutpolicy_horizontal = expanding
+					text = "[DecalsEditorSettingsLayer.GetResolutionWidth]"
+					ontextedited = "[DecalsEditorSettingsLayer.SetResolutionWidth]"
+				}
+				toolbox_checkbutton = {
+					size = { @decals_editor_settings_property_height @decals_editor_settings_property_height }
+					checked = "[DecalsEditorSettingsLayer.IsResolutionAspectLocked]"
+					onclick = "[DecalsEditorSettingsLayer.ToggleResolutionAspectLock]"
+					toolbox_icon = {
+						texture = "gfx/editor_terrain/decals_editor_resolution_lock.png"
+						size = { 83% 83% }
+					}
+					raw_tooltip = "Toggle locking the aspect when editing resolution."
+					tooltipwidget = { using = dockable_tooltip }
+				}
+				widget = { size = { 1 0 } }
+				editor_editbox = {
+					using = property_editbox
+					size = { 0 @decals_editor_settings_property_height }
+					layoutpolicy_horizontal = expanding
+					text = "[DecalsEditorSettingsLayer.GetResolutionHeight]"
+					ontextedited = "[DecalsEditorSettingsLayer.SetResolutionHeight]"
+				}
+				editor_button = {
+					size = { @decals_editor_settings_property_height @decals_editor_settings_property_height }
+					onclick = "[DecalsEditorSettingsLayer.ResetTerrainSettings]"
+					toolbox_icon = {
+						texture = "gfx/editor_terrain/decals_editor_rotate_mode.png"
+						size = { 83% 83% }
+					}
+					raw_tooltip = "Reset resolution by taking the values from current terrain resolution."
+					tooltipwidget = { using = dockable_tooltip }
+				}
+			}
+			# TODO: Jira [PSGE-6400] - temporarily hidden until we decide no how to proceed with
+			# editing tile size and border size.
+			#hbox = {
+			#	layoutpolicy_horizontal = expanding
+			#	spacing = 4
+			#	hbox = {
+			#		layoutpolicy_horizontal = expanding
+			#		spacing = 4
+			#		editor_textbox = {
+			#			layoutpolicy_horizontal = preferred
+			#			raw_text = "Tile Size:"
+			#			using = terraineditor_font
+			#			autoresize = yes
+			#			margin = { 8 0 }
+			#		}
+			#		editor_editbox = {
+			#			using = property_editbox
+			#			size = { 0 @decals_editor_settings_property_height }
+			#			layoutpolicy_horizontal = expanding
+			#			text = "[DecalsEditorSettings.GetTileSize]"
+			#			ontextedited = "[DecalsEditorSettings.SetTileSize]"
+			#		}
+			#	}
+			#	hbox = {
+			#		layoutpolicy_horizontal = expanding
+			#		spacing = 4
+			#		editor_textbox = {
+			#			layoutpolicy_horizontal = preferred
+			#			raw_text = "Border Size:"
+			#			using = terraineditor_font
+			#			autoresize = yes
+			#			margin = { 8 0 }
+			#		}
+			#		editor_editbox = {
+			#			using = property_editbox
+			#			size = { 0 @decals_editor_settings_property_height }
+			#			layoutpolicy_horizontal = expanding
+			#			text = "[DecalsEditorSettings.GetBorderSize]"
+			#			ontextedited = "[DecalsEditorSettings.SetBorderSize]"
+			#		}
+			#	}
+			#}
+
+			hbox = {
+				layoutpolicy_horizontal = expanding
+				spacing = 4
+
+				editor_checkbutton = {
+					visible = "[DecalsEditorSettingsLayer.IsAffectingTransforms]"
+					layoutpolicy_horizontal = expanding
+					blockoverride "checkbutton"
+					{
+						checked = "[DecalsEditorSettingsLayer.IsDecalsSizeMaintained]"
+						onclick = "[DecalsEditorSettingsLayer.ToggleMaintainDecalsSize]"
+					}
+					blockoverride "label"
+					{
+						raw_text = "Maintain Decals Size"
+					}
+				}
+				editor_button = {
+					size = { 84 @decals_editor_settings_property_height }
+					raw_text = "Resize"
+					visible = "[DecalsEditorSettingsLayer.CanChangeResolution]"
+					onclick = "[DecalsEditorSettingsLayer.ResizeTerrain]"
+					raw_tooltip = "Change the resolution of the terrain."
+					tooltipwidget = { using = dockable_tooltip }
+				}
+				editor_button = {
+					size = { 84 @decals_editor_settings_property_height }
+					raw_text = "Resize"
+					alpha = 0.8
+					default_format = "#BOLD;COLOR:{0.9,0.2,0.2}"
+					visible = "[Not(DecalsEditorSettingsLayer.CanChangeResolution)]"
+					enabled = no
+					tooltip = "[DecalsEditorSettingsLayer.GetCanChangeResolutionReason]"
+					tooltipwidget = { using = dockable_tooltip }
+				}
+			}
+		}
+	}
+}
+
+
+hbox = {
+	name = "decals_editor_options"
+
+	margin = { 2 2 }
+	spacing = 4
+
+	layoutpolicy_horizontal = expanding
+	layoutpolicy_vertical = expanding
+
+	toolbox_checkbutton = {
+		input_action = "decals_editor_select_mode"
+		checked = "[DecalsEditor.IsSelectionMode]"
+		onclick = "[DecalsEditor.SetSelectionMode]"
+		toolbox_icon = {
+			texture = "gfx/editor_terrain/decals_editor_select_mode.png"
+			size = { 24 24 }
+		}
+		raw_tooltip = "Decals selection mode."
+		tooltipwidget = { using = dockable_tooltip }
+	}
+
+	toolbox_checkbutton = {
+		input_action = "decals_editor_free_transform_mode"
+		checked = "[DecalsEditor.IsFreeTransformMode]"
+		onclick = "[DecalsEditor.SetFreeTransformMode]"
+		toolbox_icon = {
+			texture = "gfx/editor_terrain/decals_editor_free_transform_mode.png"
+			size = { 24 24 }
+		}
+		raw_tooltip = "Free transform tool for moving, rotating and scaling selected decal instances."
+		tooltipwidget = { using = dockable_tooltip }
+	}
+
+	toolbox_checkbutton = {
+		input_action = "decals_editor_move_mode"
+		checked = "[DecalsEditor.IsMoveMode]"
+		onclick = "[DecalsEditor.SetMoveMode]"
+		toolbox_icon = {
+			texture = "gfx/editor_terrain/decals_editor_move_mode.png"
+			size = { 24 24 }
+		}
+		raw_tooltip = "Mode to reposition decals."
+		tooltipwidget = { using = dockable_tooltip }
+	}
+
+	toolbox_checkbutton = {
+		input_action = "decals_editor_rotate_mode"
+		checked = "[DecalsEditor.IsRotateMode]"
+		onclick = "[DecalsEditor.SetRotateMode]"
+		toolbox_icon = {
+			texture = "gfx/editor_terrain/decals_editor_rotate_mode.png"
+			size = { 24 24 }
+		}
+		raw_tooltip = "Mode to rotate decals."
+		tooltipwidget = { using = dockable_tooltip }
+	}
+
+	toolbox_checkbutton = {
+		input_action = "decals_editor_scale_mode"
+		checked = "[DecalsEditor.IsScaleMode]"
+		onclick = "[DecalsEditor.SetScaleMode]"
+		toolbox_icon = {
+			texture = "gfx/editor_terrain/decals_editor_scale_mode.png"
+			size = { 24 24 }
+		}
+		raw_tooltip = "Mode to scale decals."
+		tooltipwidget = { using = dockable_tooltip }
+	}
+
+	toolbox_checkbutton = {
+		input_action = "decals_editor_strength_mode"
+		checked = "[DecalsEditor.IsStrengthMode]"
+		onclick = "[DecalsEditor.SetStrengthMode]"
+		toolbox_icon = {
+			texture = "gfx/editor_terrain/decals_editor_strength_mode.png"
+			size = { 24 24 }
+		}
+		raw_tooltip = "Mode to edit the heightmap strength of the selected decals. Click on the map and move mouse up and down to change the strength."
+		tooltipwidget = { using = dockable_tooltip }
+	}
+
+	toolbox_checkbutton = {
+		input_action = "decals_editor_ground_level_mode"
+		checked = "[DecalsEditor.IsGroundLevelMode]"
+		onclick = "[DecalsEditor.SetGroundLevelMode]"
+		toolbox_icon = {
+			texture = "gfx/editor_terrain/decals_editor_ground_level_mode.png"
+			size = { 24 24 }
+		}
+		raw_tooltip = "Mode to edit the ground level of the selected decals. Click on the map and move mouse up and down to change the ground level."
+		tooltipwidget = { using = dockable_tooltip }
+	}
+
+	tooloptions_divider = {}
+
+	toolbox_checkbutton = {
+		input_action = "decals_editor_create_new_mode"
+		checked = "[DecalsEditor.IsCreateNewInstanceMode]"
+		onclick = "[DecalsEditor.SetCreateNewInstanceMode]"
+		toolbox_icon = {
+			texture = "gfx/editor_terrain/tools_select.dds"
+			size = { 24 24 }
+		}
+		raw_tooltip = "Mode to create new decal instances by clicking on the map."
+		tooltipwidget = { using = dockable_tooltip }
+	}
+
+	dummy_fill_up = {}
+
+	toolbox_checkbutton = {
+		input_action = "decals_editor_live_update_toggle"
+		checked = "[DecalsEditor.IsLazyApplyToBackend]"
+		onclick = "[DecalsEditor.ToggleLazyApplyToBackend]"
+		toolbox_icon = {
+			texture = "gfx/editor_terrain/decals_editor_live_update.png"
+			size = { 24 24 }
+		}
+		raw_tooltip = "Toggle between live and lazy update of the edited decals."
+		tooltipwidget = { using = dockable_tooltip }
+	}
+
+	tooloptions_divider = {}
+
+	editor_textbox = {
+		raw_text = "Viewing: "
+		autoresize = yes
+		align = right|nobaseline
+	}
+	toolbox_checkbutton = {
+		size = { 64 32 }
+		fontsize = 12
+		raw_text = "Raw"
+		checked = "[Not(DecalsEditor.IsBakedView)]"
+		onclick = "[DecalsEditor.SetBakedView('(bool)no')]"
+		enabled = "[DecalsEditor.CanSetBakedView('(bool)no')]"
+		tooltip = "[DecalsEditor.CanSetBakedViewReason('(bool)no')]"
+		tooltipwidget = { using = dockable_tooltip }
+	}
+	toolbox_checkbutton = {
+		size = { 64 32 }
+		fontsize = 12
+		raw_text = "Baked"
+		checked = "[DecalsEditor.IsBakedView]"
+		onclick = "[DecalsEditor.SetBakedView('(bool)yes')]"
+		enabled = "[DecalsEditor.CanSetBakedView('(bool)yes')]"
+		tooltip = "[DecalsEditor.CanSetBakedViewReason('(bool)yes')]"
+		tooltipwidget = { using = dockable_tooltip }
+	}
+
+	tooloptions_divider = {}
+
+	editor_button = {
+		size = { 132 32 }
+		enabled = "[DecalsEditor.CanBake]"
+		onclick = "[DecalsEditor.Bake]"
+		input_action = "decals_editor_bake"
+		tooltip = "[DecalsEditor.CanBakeReason]"
+		tooltipwidget = { using = dockable_tooltip }
+
+		hbox = {
+			layoutpolicy_horizontal = expanding
+			spacing = 2
+			visible = "[DecalsEditor.IsBakingInProgress]"
+			tooloptions_progress_spinner = {}
+			editor_textbox = {
+				raw_text = "Baking [DecalsEditor.GetBakingProgressInPercent|2]%"
+				autoresize = yes
+				align = hcenter|nobaseline
+			}
+		}
+
+		hbox = {
+			layoutpolicy_horizontal = expanding
+			margin_left = 2
+			margin_right = 6
+			visible = "[Not(DecalsEditor.IsBakingInProgress)]"
+			icon = {
+				visible = "[DecalsEditor.IsRequireBaking]"
+				texture = "gfx/editor_terrain/decals_editor_bake_notice.png"
+				size = { 20 20 }
+				raw_tooltip = "There are differences between the data located in the current baking output location and the current state of the decals editor. It means that baking will generate data that contains some changes. Current checksum: [DecalsEditor.GetBakingChecksumCurrent]. Checksum in output: [DecalsEditor.GetBakingChecksumInOutput]"
+				tooltipwidget = { using = dockable_tooltip }
+			}
+			editor_textbox = {
+				raw_text = "Bake decals"
+				autoresize = yes
+				align = nobaseline
+			}
+		}
+	}
+	toolbox_checkbutton = {
+		checked = "[DecalsEditor.IsBakeOnSave]"
+		onclick = "[DecalsEditor.ToggleBakeOnSave]"
+		toolbox_icon = {
+			texture = "gfx/editor_terrain/decals_editor_bake_on_save.png"
+			size = { 24 24 }
+		}
+		raw_tooltip = "Auto-bake when saving."
+		tooltipwidget = { using = dockable_tooltip }
+	}
+
+	widget = { size = { 10 1 } }
+
+	editor_textbox = {
+		raw_text = "Output:"
+		autoresize = yes
+		align = right|nobaseline
+	}
+
+	checkbutton_icon_and_text = {
+		checked = "[DecalsEditor.IsBakeToUserDir]"
+		onclick = "[DecalsEditor.ToggleBakeToUserDir]"
+		enabled = "[DecalsEditor.CanChangeBakeToUserDir]"
+		tooltip = "[DecalsEditor.CanChangeBakeToUserDirReason]"
+		blockoverride "icon" {
+			texture = "gfx/editor_terrain/decals_editor_output_user_dir.png"
+		}
+		blockoverride "text" {
+			raw_text = "User Dir"
+		}
+	}
+	checkbutton_icon_and_text = {
+		checked = "[Not(DecalsEditor.IsBakeToUserDir)]"
+		onclick = "[DecalsEditor.ToggleBakeToUserDir]"
+		enabled = "[DecalsEditor.CanChangeBakeToUserDir]"
+		tooltip = "[DecalsEditor.CanChangeBakeToUserDirReason]"
+		blockoverride "icon" {
+			texture = "gfx/editor_terrain/decals_editor_output_game_dir.png"
+		}
+		blockoverride "text" {
+			raw_text = "Game Dir"
+		}
+	}
+
+	tooloptions_divider = {}
+
+	toolbox_checkbutton = {
+		input_action = "decals_editor_toggle_settings"
+		checked = "[DecalsEditor.IsSettingsDockableOpen]"
+		onclick = "[DecalsEditor.ToggleSettingsDockable]"
+		toolbox_icon = {
+			texture = "gfx/editor_terrain/settings.dds"
+			size = { 24 24 }
+		}
+		raw_tooltip = "Open/close terrain settings window."
+		tooltipwidget = { using = dockable_tooltip }
+	}
+}
+
+toolbox_checkbutton = {
+	name = "decals_editor_toolbox_button"
+	raw_tooltip = "Decals Editor"
+	checked = "[DecalsEditor.IsModeSelected]"
+	toolbox_icon = {
+		texture = "gfx/editor_terrain/decals_editor.png"
+		size = { 26 26 }
+	}
+}
+
+
+widget = {
+	alwaystransparent = no
+	size = { 100% 100% }
+	name = "decals_editor_viewport"
+
+	state = {
+		name = _mouse_enter
+		on_finish = "[DecalsEditorViewport.OnMouseEnter]"
+	}
+
+	state = {
+		name = _mouse_leave
+		on_finish = "[DecalsEditorViewport.OnMouseLeave]"
+	}
+
+	# Right top corner box with usage hints when in create-new-instance mode.
+	widget = {
+		visible = "[DecalsEditor.IsCreateNewInstanceMode]"
+		size = { 240 90 }
+		using = dockable_background
+		parentanchor = right|top
+		alpha = 0.7
+		editor_textbox = {
+			size = { 100% 100% }
+			visible = "[Not(DecalsEditor.IsSingleDecalSetSelected)]"
+			raw_text = "#BOLD;COLOR:{0.9,0.2,0.2} Select one decal-set! #!"
+			align = hcenter|nobaseline
+		}
+		editor_textbox = {
+			size = { 100% 100% }
+			visible = "[And(DecalsEditor.IsSingleDecalSetSelected, Not(DecalsEditor.IsSingleSelectedDecalSetErrorFree))]"
+			raw_text = "#BOLD;COLOR:{0.9,0.2,0.2} Decal-set contains errors! #!"
+			align = hcenter|nobaseline
+		}
+		vbox = {
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = preferred
+			visible = "[DecalsEditor.IsSingleSelectedDecalSetErrorFree]"
+			margin_left = 16
+			margin_bottom = 8
+			editor_textbox = {
+				raw_text = "#BOLD;COLOR:{0.9,0.9,0.2} Click#! = Place decal"
+			}
+			editor_textbox = {
+				raw_text = "#BOLD;COLOR:{0.9,0.9,0.2} Shift + Wheel#! = rotate"
+			}
+			editor_textbox = {
+				raw_text = "#BOLD;COLOR:{0.9,0.9,0.2} Ctrl + Wheel#! = scale"
+			}
+			editor_textbox = {
+				raw_text = "#BOLD;COLOR:{0.9,0.9,0.2} Alt + Wheel#! = strength"
+			}
+			editor_textbox = {
+				raw_text = "#BOLD;COLOR:{0.9,0.9,0.2} Ctrl + Shift + Wheel#! = ground level"
+			}
+		}
+	}
+}
+
+vbox = {
+	name = "decals_editor_decal_sets"
+	layoutpolicy_horizontal = expanding
+	layoutpolicy_vertical = expanding
+	search_field = {
+		datacontext = "[DecalsEditorDecalSetsList.AccessFilter]"
+	}
+	hbox = {
+		visible = "[GreaterThan_int32(DecalsEditor.GetInvalidDecalSetsCount, '(int32)0')]"
+		layoutpolicy_horizontal = expanding
+		layoutpolicy_vertical = shrinking
+		margin = { 4 4 }
+		editor_textbox = {
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = expanding
+			raw_text = "#BOLD;COLOR:{0.9,0.2,0.2} Decal-set errors [DecalsEditor.GetInvalidDecalSetsCount]:#!"
+			using = terraineditor_font
+			autoresize = yes
+			margin = { 8 0 }
+		}
+	}
+	hbox = {
+		layoutpolicy_horizontal = expanding
+		layoutpolicy_vertical = shrinking
+		margin = { 4 4 }
+		#dummy_fill_up = {}
+		editor_button = {
+			enabled = "[DecalsEditor.IsAnyDecalSetSelected]"
+			size = { 150 24 }
+			raw_text = "Reprocess materials"
+			raw_tooltip = "Regenerates material bitmask file for currently selected decal-sets. There are required masks for proper material generation. See more in #ITALIC;COLOR:{0.9,0.9,0.2} materials.settings#! file."
+			tooltipwidget = { using = dockable_tooltip }
+			onclick = "[DecalsEditor.ProcessSelectedDecalSetsMaterials]"
+		}
+		editor_button = {
+			size = { 120 24 }
+			raw_text = "Reload all"
+			raw_tooltip = "Reloads all decal-sets data files. When decal-sets directories or files has changed it may be necessary to reload decal sets."
+			tooltipwidget = { using = dockable_tooltip }
+			onclick = "[DecalsEditor.ReloadAllDecalSets]"
+		}
+	}
+	editor_scrollarea = {
+		blockoverride "content" {
+			vbox = {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+				vbox = {
+					layoutpolicy_horizontal = expanding
+					layoutpolicy_vertical = shrinking
+					datamodel = "[DecalsEditorDecalSetsList.AccessListFiltered]"
+					item = {
+						checkbutton = {
+							layoutpolicy_horizontal = expanding
+							layoutpolicy_vertical = fixed
+							size = { 0 72 }
+							using = terraineditor_listitem
+							texture = "gfx/editor_gui/editor_layout_button.png"
+							checked = "[DecalsEditorDecalSet.IsSelected]"
+							onclick = "[DecalsEditorDecalSetsList.Select(DecalsEditorDecalSet.Self)]"
+							hbox = {
+								layoutpolicy_horizontal = expanding
+								margin = { 4 4 }
+								icon = {
+									size = { 64 64 }
+									texture = "[DecalsEditorDecalSet.GetThumbnail]"
+									shaderfile = "gfx/FX/pdxgui_noblend.shader"
+								}
+								vbox = {
+									layoutpolicy_horizontal = expanding
+									layoutpolicy_vertical = expanding
+									margin = { 4 4 }
+									editor_textbox = {
+										visible = "[Not(DecalsEditorDecalSet.IsDecalSetContainErrors)]"
+										layoutpolicy_horizontal = expanding
+										layoutpolicy_vertical = expanding
+										raw_text = "#BOLD [DecalsEditorDecalSet.GetName]#!"
+										using = terraineditor_font
+										autoresize = yes
+										margin = { 8 0 }
+									}
+									editor_textbox = {
+										visible = "[DecalsEditorDecalSet.IsDecalSetContainErrors]"
+										layoutpolicy_horizontal = expanding
+										layoutpolicy_vertical = expanding
+										raw_text = "#BOLD;COLOR:{0.9,0.2,0.2} [DecalsEditorDecalSet.GetName]#!"
+										using = terraineditor_font
+										autoresize = yes
+										margin = { 8 0 }
+									}
+									editor_textbox = {
+										layoutpolicy_horizontal = expanding
+										layoutpolicy_vertical = expanding
+										raw_text = "#ITALIC Instances: [DecalsEditorDecalSet.GetNumberOfInstances]#!"
+										using = terraineditor_font
+										autoresize = yes
+										margin = { 8 0 }
+									}
+								}
+							}
+						}
+					}
+				}
+				widget = {
+					layoutpolicy_horizontal = expanding
+					layoutpolicy_vertical = expanding
+				}
+			}
+		}
+	}
+}
+
+vbox = {
+	name = "decals_editor_decal_set_properties"
+	layoutpolicy_horizontal = expanding
+	layoutpolicy_vertical = expanding
+
+	vbox = {
+		name = "properties"
+		visible = "[DecalsEditor.IsSingleDecalSetSelected]"
+
+		layoutpolicy_horizontal = expanding
+		layoutpolicy_vertical = expanding
+
+		# Full path to folder
+		hbox = {
+			layoutpolicy_horizontal = expanding
+			editor_textbox = {
+				layoutpolicy_horizontal = preferred
+				raw_text = "Path:"
+				using = terraineditor_font
+				autoresize = yes
+				margin = { 8 0 }
+			}
+			editor_textinput = {
+				margin_left = 8
+				text_selectable = yes
+				selectallonfocus = yes
+				layoutpolicy_horizontal = expanding
+				fontsize = 14
+				text = "[DecalsEditorDecalSetProperties.GetPath]"
+				enabled = no
+				align = left|nobaseline
+			}
+			raw_tooltip = "[DecalsEditorDecalSetProperties.GetPath]"
+			tooltipwidget = { using = dockable_tooltip }
+		}
+
+		editor_frame = {
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = expanding
+			blockoverride "label" { raw_text = "Content files:" }
+			blockoverride "content" {
+
+				# List of all files in that folder
+				editor_scrollarea = {
+					blockoverride "content" {
+						vbox = {
+							layoutpolicy_horizontal = expanding
+							layoutpolicy_vertical = expanding
+
+							# Heightmap
+							decals_editor_decal_set_properties_entry = {
+								visible = "[DecalsEditorDecalSetProperties.HasHeightmapFile]"
+								raw_text = "#BOLD;COLOR:{0.9,0.9,0.2} Heightmap: #![DecalsEditorDecalSetProperties.GetHeightmapFile]"
+							}
+							decals_editor_decal_set_properties_entry = {
+								visible = "[Not(DecalsEditorDecalSetProperties.HasHeightmapFile)]"
+								raw_text = "#BOLD;COLOR:{0.9,0.2,0.2} Missing Heightmap! #!"
+								raw_tooltip = "Heightmap 16bpp image is required for this decal to work."
+							}
+
+							# Material bitmask file
+							decals_editor_decal_set_properties_entry = {
+								visible = "[DecalsEditorDecalSetProperties.HasMaterialBitmaskFile]"
+								raw_text = "#BOLD;COLOR:{0.2,0.9,0.9} Material Bitmask: #![DecalsEditorDecalSetProperties.GetMaterialBitmaskFile]"
+							}
+							decals_editor_decal_set_properties_entry = {
+								visible = "[Not(DecalsEditorDecalSetProperties.HasMaterialBitmaskFile)]"
+								raw_text = "#BOLD;COLOR:{0.9,0.2,0.2} Missing Material Bitmask file! #!"
+								raw_tooltip = "Click #BOLD Reprocess Materials#! button to generate this file. Notice that currently selected output directory matters."
+							}
+
+							# Masks
+							vbox = {
+								visible = "[DecalsEditorDecalSetProperties.ContainsAnyMasks]"
+								layoutpolicy_horizontal = expanding
+								layoutpolicy_vertical = shrinking
+								datamodel = "[DecalsEditorDecalSetProperties.GetMaskFiles]"
+								item = {
+									decals_editor_decal_set_properties_entry = {
+										raw_text = "#BOLD;COLOR:{0.2,0.9,0.2} Mask:#! [CString.GetString]"
+									}
+								}
+							}
+							decals_editor_decal_set_properties_entry = {
+								visible = "[Not(DecalsEditorDecalSetProperties.ContainsAnyMasks)]"
+								raw_text = "#BOLD;COLOR:{0.9,0.2,0.2} Missing masks!#!"
+								raw_tooltip = "Masks are needed for processing materials index and intensity files."
+							}
+							widget = {
+								layoutpolicy_horizontal = expanding
+								layoutpolicy_vertical = expanding
+							}
+						}
+					}
+				}
+			}
+		}
+
+		editor_frame = {
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = preferred
+			blockoverride "label" { raw_text = "Property Presets:" }
+			blockoverride "content" {
+				vbox = {
+					name = "decal_set_property_preset_list" # Do not rename. Procedural property injection point.
+					layoutpolicy_horizontal = expanding
+				}
+			}
+		}
+	}
+
+	editor_textbox = {
+		visible = "[Not(DecalsEditor.IsSingleDecalSetSelected)]"
+		autoresize = yes
+		fontsize = 13
+		raw_text = "Select single decal set first."
+		using = terraineditor_font
+		default_format = "#italic"
+		align = hcenter|nobaseline
+		alwaystransparent = yes
+		alpha = 0.5
+	}
+}
+
+vbox = {
+	name = "decals_editor_decal_instances"
+	layoutpolicy_horizontal = expanding
+	layoutpolicy_vertical = expanding
+
+	search_field = {
+		visible = "[DecalsEditor.IsAnyDecalSetSelected]"
+		datacontext = "[DecalsEditorDecalInstancesList.AccessFilter]"
+	}
+
+	hbox = {
+		visible = "[DecalsEditor.IsAnyDecalSetSelected]"
+		layoutpolicy_horizontal = expanding
+		toolbox_checkbutton = {
+			input_action = "decals_editor_lock_selected"
+			checked = "[DecalsEditor.IsAllSelectedInstancesLocked]"
+			onclick = "[DecalsEditor.ToggleSelectedInstancesLock]"
+			size = { 28 28 }
+			toolbox_icon = {
+				texture = "gfx/editor_terrain/decals_editor_locked.png"
+				size = { 80% 80% }
+			}
+			raw_tooltip = "Toggle selected decal instances lock state. Locked status is serialized meaning that all project participants will not be able to edit locked instances, but they can always unlock it."
+			tooltipwidget = { using = dockable_tooltip }
+		}
+		toolbox_checkbutton = {
+			input_action = "decals_editor_hide_selected"
+			checked = "[DecalsEditor.IsAllSelectedInstancesHidden]"
+			onclick = "[DecalsEditor.ToggleSelectedInstancesHiddenStatus]"
+			size = { 28 28 }
+			toolbox_icon = {
+				texture = "gfx/editor_terrain/decals_editor_hide.png"
+				size = { 80% 80% }
+			}
+			raw_tooltip = "Toggle selected decal instances visibility state. Hiding is a temporary status that is not saved with the project. Hidden instances are still baked. If you want to exclude an instance from baking, then use the disable button instead."
+			tooltipwidget = { using = dockable_tooltip }
+		}
+		toolbox_checkbutton = {
+			checked = "[DecalsEditor.IsAllSelectedInstancesDisabled]"
+			onclick = "[DecalsEditor.ToggleSelectedInstancesDisabledStatus]"
+			size = { 28 28 }
+			toolbox_icon = {
+				texture = "gfx/editor_terrain/decals_editor_disabled.png"
+				size = { 80% 80% }
+			}
+			raw_tooltip = "Toggle selected decal instances disabled state. Disabled instances becomes hidden but also are excluded from the baking process."
+			tooltipwidget = { using = dockable_tooltip }
+		}
+		dummy_fill_up = {}
+		editor_button = {
+			enabled = "[DecalsEditor.IsAnyInstanceSelected]"
+			onclick = "[DecalsEditorDecalInstancesList.MoveSelectedInstances('beginning')]"
+			size = { 28 28 }
+			toolbox_icon = {
+				texture = "gfx/editor_terrain/decals_editor_move_to_beginning.png"
+			}
+			tooltip = "[Select_CString(DecalsEditor.IsAnyInstanceSelected,'Move currently selected decal instances at the beginning of the hierarchy.','Select any decal instances first to be able to move them.')]"
+			tooltipwidget = { using = dockable_tooltip }
+		}
+		editor_button = {
+			enabled = "[DecalsEditor.IsAnyInstanceSelected]"
+			onclick = "[DecalsEditorDecalInstancesList.MoveSelectedInstances('back')]"
+			size = { 28 28 }
+			toolbox_icon = {
+				texture = "gfx/editor_terrain/decals_editor_move_back.png"
+			}
+			tooltip = "[Select_CString(DecalsEditor.IsAnyInstanceSelected,'Move currently selected decal instances back in hierarchy.','Select any decal instances first to be able to move them.')]"
+			tooltipwidget = { using = dockable_tooltip }
+		}
+		editor_button = {
+			enabled = "[DecalsEditor.IsAnyInstanceSelected]"
+			onclick = "[DecalsEditorDecalInstancesList.MoveSelectedInstances('forward')]"
+			size = { 28 28 }
+			toolbox_icon = {
+				texture = "gfx/editor_terrain/decals_editor_move_forward.png"
+			}
+			tooltip = "[Select_CString(DecalsEditor.IsAnyInstanceSelected,'Move currently selected decal instances forward in hierarchy.','Select any decal instances first to be able to move them.')]"
+			tooltipwidget = { using = dockable_tooltip }
+		}
+		editor_button = {
+			enabled = "[DecalsEditor.IsAnyInstanceSelected]"
+			onclick = "[DecalsEditorDecalInstancesList.MoveSelectedInstances('end')]"
+			size = { 28 28 }
+			toolbox_icon = {
+				texture = "gfx/editor_terrain/decals_editor_move_to_end.png"
+			}
+			tooltip = "[Select_CString(DecalsEditor.IsAnyInstanceSelected,'Move currently selected decal instances to the end of the hierarchy.','Select any decal instances first to be able to move them.')]"
+			tooltipwidget = { using = dockable_tooltip }
+		}
+		dummy_fill_up = {}
+		editor_button = {
+			size = { 28 28 }
+			toolbox_icon = {
+				texture = "gfx/editor_terrain/decals_editor_clone.png"
+			}
+			onclick = "[DecalsEditor.CloneSelectedInstances]"
+			enabled = "[DecalsEditor.IsAnyInstanceSelected]"
+			tooltip = "[Select_CString(DecalsEditor.IsAnyInstanceSelected,'Clone currently selected decal instances.','Select any decal instances first to be able to clone them.')]"
+			tooltipwidget = { using = dockable_tooltip }
+			input_action = "decals_editor_clone_selected"
+		}
+		editor_button = {
+			size = { 28 28 }
+			toolbox_icon = {
+				texture = "gfx/editor_terrain/decals_editor_delete.png"
+			}
+			onclick = "[DecalsEditor.DeleteSelectedInstances]"
+			enabled = "[DecalsEditor.IsAnyInstanceSelected]"
+			tooltip = "[Select_CString(DecalsEditor.IsAnyInstanceSelected,'Delete currently selected decal instances.','Select any decal instances first to be able to delete them.')]"
+			tooltipwidget = { using = dockable_tooltip }
+			input_action = "decals_editor_delete_instance"
+		}
+	}
+
+	editor_scrollarea = {
+		visible = "[DecalsEditor.IsAnyDecalSetSelected]"
+		blockoverride "content" {
+			vbox = {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+				vbox = {
+					layoutpolicy_horizontal = expanding
+					layoutpolicy_vertical = shrinking
+					datamodel = "[DecalsEditorDecalInstancesList.AccessInstances]"
+					item = {
+						checkbutton = {
+							using = terraineditor_listitem
+							layoutpolicy_horizontal = expanding
+							layoutpolicy_vertical = fixed
+							size = { 0 24 }
+							texture = "gfx/editor_gui/editor_layout_button.png"
+							checked = "[DecalsEditorDecalInstance.IsSelected]"
+							onclick = "[DecalsEditorDecalInstancesList.Select(DecalsEditorDecalInstance.Self)]"
+							hbox = {
+								layoutpolicy_horizontal = expanding
+								spacing = 8
+								margin_left = 2
+								margin_right = 6
+
+								widget = {
+									size = { 42 24 }
+									hbox = {
+										spacing = 2
+										toolbox_checkbutton = {
+											checked = "[DecalsEditorDecalInstance.IsLocked]"
+											onclick = "[DecalsEditorDecalInstance.ToggleLock]"
+											size = { 20 20 }
+											toolbox_icon = {
+												texture = "gfx/editor_terrain/decals_editor_locked.png"
+												size = { 80% 80% }
+											}
+											raw_tooltip = "Toggle the lock state. Locked status is serialized meaning that all project participants will not be able to edit locked instances, but they can always unlock it."
+											tooltipwidget = { using = dockable_tooltip }
+										}
+										toolbox_checkbutton = {
+											checked = "[DecalsEditorDecalInstance.IsHidden]"
+											onclick = "[DecalsEditorDecalInstance.ToggleHiddenStatus]"
+											size = { 20 20 }
+											toolbox_icon = {
+												texture = "gfx/editor_terrain/decals_editor_hide.png"
+												size = { 80% 80% }
+											}
+											raw_tooltip = "Toggle visibility state. Hiding is a temporary status that is not saved with the project. Hidden instances are still baked. If you want to exclude an instance from baking, then use the disable button instead."
+											tooltipwidget = { using = dockable_tooltip }
+										}
+									}
+								}
+
+								editor_textbox = {
+									layoutpolicy_horizontal = preferred
+									raw_text = "[Select_CString(DecalsEditorDecalInstance.IsDirty, '#BOLD;COLOR:{0.9,0.9,0.2} (*)#!', '')] #BOLD;COLOR:{0.7,0.7,0.3} [DecalsEditorDecalInstance.GetDecalSetName]#! : #COLOR:{0.8,0.8,1.0} [DecalsEditorDecalInstance.GetName]#!"
+									align = left|nobaseline
+									alpha = "[Select_float(DecalsEditorDecalInstance.IsDisabled, '(float)0.2', '(float)1.0')]"
+								}
+
+								editor_textbox = {
+									layoutpolicy_horizontal = preferred
+									raw_text = "[DecalsEditorDecalInstance.GetDepthPriority]"
+									align = right|nobaseline
+								}
+							}
+						}
+					}
+				}
+				widget = {
+					layoutpolicy_horizontal = expanding
+					layoutpolicy_vertical = expanding
+				}
+			}
+		}
+	}
+
+	editor_textbox = {
+		visible = "[Not(DecalsEditor.IsAnyDecalSetSelected)]"
+		autoresize = yes
+		fontsize = 13
+		raw_text = "Select any decal set(s) first."
+		using = terraineditor_font
+		default_format = "#italic"
+		align = hcenter|nobaseline
+		alwaystransparent = yes
+		alpha = 0.5
+	}
+}
+
+vbox = {
+	name = "decals_editor_instance_properties"
+	layoutpolicy_horizontal = expanding
+	layoutpolicy_vertical = shrinking
+
+	vbox = {
+		name = "property_bundles" # Do not rename. Procedural property injection point.
+		layoutpolicy_horizontal = expanding
+		layoutpolicy_vertical = preferred
+	}
+
+	dummy_fill_up = {}
+}
+
+widget = {
+	name = "decals_editor_settings"
+	size = { 430 510 }
+	vbox = {
+		layoutpolicy_horizontal = expanding
+		spacing = 4
+		margin_left = 4
+		margin_right = 4
+		margin_bottom = 4
+
+		vbox = {
+			layoutpolicy_horizontal = expanding
+			datamodel = "[DecalsEditorSettings.AccessLayers]"
+			item = {
+				decals_editor_layer_settings = {}
+			}
+		}
+
+		editor_frame = {
+			layoutpolicy_horizontal = expanding
+			blockoverride "label" { raw_text = "Terrain properties:" }
+			blockoverride "content" {
+				vbox = {
+					name = "terrain_property_list" # Do not rename. Procedural property injection point.
+					layoutpolicy_horizontal = expanding
+				}
+			}
+		}
+
+		editor_frame = {
+			layoutpolicy_horizontal = expanding
+			blockoverride "label" { raw_text = "Debug Options:" }
+			blockoverride "content" {
+				vbox = {
+					name = "debug_options_property_list" # Do not rename. Procedural property injection point.
+					layoutpolicy_horizontal = expanding
+				}
+			}
+		}
+
+		editor_frame = {
+			layoutpolicy_horizontal = expanding
+			blockoverride "label" { raw_text = "User settings:" }
+			blockoverride "content" {
+				vbox = {
+					name = "user_settings_property_list" # Do not rename. Procedural property injection point.
+					layoutpolicy_horizontal = expanding
+				}
+			}
+		}
+		dummy_fill_up = {}
+	}
+}
