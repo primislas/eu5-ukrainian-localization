@@ -331,6 +331,7 @@ You can rely on and treat English text as a primary source, deduce context from 
 
 ## Diplomacy
 
+    * дипломатичні відносини -> зносини
     * diplomat, дипломат -> посол; посольські установи, споруди, місії, відстань тощо; але дипломатичний хист, відносини, навичка, вплив, гнучкість і т.і.
     * diplomatic action, дипломатическое действие -> посольська дія
     * diplomatic range, дипломатическая дистанция -> посольська досяжність
@@ -350,6 +351,8 @@ You can rely on and treat English text as a primary source, deduce context from 
     * (cb) disloyal subject, нелояльный вассал -> бунтівний васал
     ** when the text doesn't talk about or imply rebellion, but just about general disloyalty, "нелояльний" can be translated as "непокірний"
     * annex, аннексия, присоединение -> prefer "поглинання", especially when talking about vassals and/or diplomatic annexation, otherwise use "приєднання" when it's clearly a better fit, avoid "анексія" та "анексований" if possible
+    * scutage, скутагий -> щитовий збір
+
     * переговоры, переговори -> "перемовини" in official texts, menus, as a Concept, and when a long duration is stressed
     ** in narrative and less formal texts prefer "перемови", also when dealing with revolts
     ** переговоров -> always "перемовин", not "перемов"
@@ -360,7 +363,6 @@ You can rely on and treat English text as a primary source, deduce context from 
     * конфликт -> oftentimes war ("війна") is incorrectly translated as "конфликт" in Russian localization; if the text makes it clear that the word refers to a war (especially if there's "...war.GetName" scripting present) then translate "конфликт" as "війна", however, you can alternate "війна" and "конфлікт" to avoid repetitiveness
     ** for smaller petty conflicts translate as "чвари"
     ** for internal conflicts use "усобиця, усобиці, міжусобиця, міжусобиці"
-    * дипломатичні відносини -> зносини
 
 ## Military, Armies, and Fleets
 
