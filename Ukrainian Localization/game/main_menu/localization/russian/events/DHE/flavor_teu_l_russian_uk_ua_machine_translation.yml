@@ -240,7 +240,7 @@
   flavor_dan_teu.4.a: "Вони заплатять за свої злочини в пеклі."
   flavor_dan_teu.5.title: "Повстання"
   flavor_dan_teu.5.desc: "Занадто довго ми дозволяли #TOOLTIP:CULTURE,$german_baltic_tt$,X #L німецьким#!#! панам гнобити нас. Ми дали їм знищити свою віру, нав'язати нам чужих богів. Настав час познайомити їх з нашими, хочуть вони того чи ні! Ми скинемо кайдани і боротимемося за свою свободу!"
-  flavor_dan_teu.5.a: "Ми більше не будемо рабами!"
+  flavor_dan_teu.5.a: "Ми більше не будемо невільниками!"
   flavor_dan_teu.6.title: "$flavor_dan_teu.2.title$"
   flavor_dan_teu.6.desc: "Бунтівні #TOOLTIP:CULTURE,$estonian_tt$,X #L ести#!#!, що повстали в #L [TEU_denmark_from.GetAdjective]ій#! #TOOLTIP:PROVINCE_DEFINITION,estonia_province,X #L Естляндії#!#!, загрожують нашим союзникам. $flavor_dan_teu.2.attack$"
   flavor_dan_teu.6.a: "Скликати ополчення!"

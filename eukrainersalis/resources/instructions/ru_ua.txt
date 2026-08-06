@@ -594,9 +594,21 @@ You can rely on and treat English text as a primary source, deduce context from 
     * квасцы -> галуни
     * spices, специи -> ALWAYS and ONLY "прянощі", replace singular "спеція" with plural "прянощі" as well, be mindful of a city "Спеція" and do not translate its name
     * porcelain, фарфор -> порцеляна
-    * slaves, рабы -> раби
-    ** in narrative texts prefer "невільники" unless clearly about trans-Atlantic, American and Caribbean or sub-Saharan slave trade
-    ** associated words that could be used depending on context: "поневолювати", "захоплювати бранців", "обертати на невільників", "невільницький ринок", "воїни-невільники", "невільники на галерах"
+
+    * slave(s), раб(ы) -> невільник(и), unless one of the exceptions specified below
+    ** associated words that could be used depending on context: "поневолювати", "захоплювати бранців", "обертати на невільників", "невільничий ринок", "воїни-невільники", "невільники на галерах"
+    ** slavery, рабство -> неволя
+    ** slave trade, работорговля -> торгівля невільниками
+    ** рабский -> невільничий
+    ** slave raids, набеги за рабами -> людоловство
+    ** slave market, невольничий рынок -> невільничий ринок
+    ** slave center, центр работорговли -> великий невільничий торг
+    ** рабыня -> невільниця
+    ** рабовладение -> володіння невільниками
+    ** keep "раби", "работоргівля", "рабовласництво" when clearly about specifically US slavery, or in descriptions of triangular trans-Atlantic trade
+    ** keep "раби" when clearly dealing with Christian holy texts, usually in form of a fixed expression "раб Божий"
+    ** when dealing with slavery, prefer "бранці" over "полонені" (пленные); also use "бранці" when necessary to reduce tautologies instead of "невільники";
+    ** for Turkish, Crimean, Tatar and Maghrebi lands in narrative texts Christian European a bulk of traded or captured slaves (Usually taken from Ukraine, Georgia, Spain, Italy, Greece, Armenia) can be called "ясир": ясир можна захопити, набрати, увести, погнати; ясиром можна торгувати, продавати, викупити;
 
     * tools, инструмент(ы) -> "знаряддя", but only when talking about mechanical or industrial tools; when clearly about heavier devices, use "приладдя"; more mechanical and specialized instruments - "пристрої" ("пневматичний пристрій кровообігу", "за допомогою таких пристроїв, як астролябія та секстант"); BUT depending on context it can also mean "засіб", "спосіб", "важіль", "інструмент":
     ** музкальные инструменты -> музичні інструменти

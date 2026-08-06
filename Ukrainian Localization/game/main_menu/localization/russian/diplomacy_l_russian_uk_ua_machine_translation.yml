@@ -1257,7 +1257,7 @@
   PEACE_TREATY_CEDE_RETURN_CORE: "@trigger_no![LOCATION.GetRank.GetNameWithNoTooltip] [LOCATION.GetName] уже обрано для передачі."
   PEACE_TREATY_REVOLTER_NO_REVOLTER: "@trigger_no![COUNTRY.GetLongName] — не повстала країна."
   PEACE_TREATY_NO_TO_RIVAL: "@trigger_no![TARGET_COUNTRY.GetLongName] — наш [Concept('rival', 'суперник')|e], ми не хочемо укладати шлюб з [Concept('dynasty', 'династією')|e] з цієї країни."
-  PEACE_TREATY_NO_SLAVES_TO_LIBERATE: "@trigger_no!У [TARGET_COUNTRY.Custom('longname_ua_GEN')] немає рабів [Concept('primary_or_accepted_culture', 'панівної або визнаної культури')|e] з [COUNTRY.Custom('longname_ua_GEN')]."
+  PEACE_TREATY_NO_SLAVES_TO_LIBERATE: "@trigger_no!У [TARGET_COUNTRY.Custom('longname_ua_GEN')] немає невільників [Concept('primary_or_accepted_culture', 'панівної або визнаної культури')|e] з [COUNTRY.Custom('longname_ua_GEN')]."
   BASE_REASON_WITH_BREAKDOWN: "Базове значення: #TOOLTIP:$BREAKDOWN_TAG$ $VALUE|-=2$#!\n"
   TOTAL_POPULATION: "Сукупне [Concept('population', 'населення')|e] [Concept('international_organization', 'міжнародного об’єднання')|e]"
   RELATIVE_POPULATION: "Відносне [Concept('population', 'населення')|e]"

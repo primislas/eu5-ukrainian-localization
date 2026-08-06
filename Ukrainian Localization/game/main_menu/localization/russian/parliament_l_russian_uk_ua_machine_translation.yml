@@ -829,7 +829,7 @@
   STATIC_MODIFIER_NAME_parl_farming_innovation_mod: "Новації в землеробстві"
   STATIC_MODIFIER_NAME_parl_irrigation_projects_mod: "Іригаційні проєкти"
   STATIC_MODIFIER_NAME_parl_reduce_serfdom_mod: "Зменшення кріпосної залежности"
-  STATIC_MODIFIER_NAME_parl_serfdom_slave_fail_mod: "Повстання рабів"
+  STATIC_MODIFIER_NAME_parl_serfdom_slave_fail_mod: "Повстання невільників"
   STATIC_MODIFIER_NAME_parl_serfdom_peasant_fail_mod: "Селянські бунти"
   STATIC_MODIFIER_NAME_parl_village_councils_mod: "Сільські ради"
   STATIC_MODIFIER_NAME_parl_artisan_guild_charters_mod: "Ремісничі гільдії"
