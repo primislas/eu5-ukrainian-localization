@@ -50,7 +50,7 @@
   ACTIVE_RELATIONS_I_O: "$TYPE$: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|-=2$#!@diplomatic_capacity!"
   IO_COSTS_DIPLOMATIC_SLOT: "На участь витрачаються [Concept('diplomatic_capacity', 'посольські засоби')|e]."
   HEGEMONY_GAIN: "Для отримання статусу «[HEGEMONY.GetNameWithNoTooltip]» #ONCLICK:COUNTRY,[COUNTRY.GetKey] #TOOLTIP:COUNTRY,[COUNTRY.GetKey],X [COUNTRY.Custom('CL_DAT')|L]#!#! потрібно:"
-  HEGEMONY_LOSE: "[COUNTRY.GetName] володі[COUNTRY.Custom('end_vlaloly')] статусом «[HEGEMONY.GetNameWithNoTooltip]» з $DATE$ і автоматично лиш[COUNTRY.Custom('end_itat')]ся його, якщо:"
+  HEGEMONY_LOSE: "[COUNTRY.GetName] володі[COUNTRY.Custom('end_vlaloly')] статусом «[HEGEMONY.GetNameWithNoTooltip]» з $DATE$ і автоматично лиш[COUNTRY.Custom('end_ytat')]ся його, якщо:"
   HEGEMONY_LOSE_CONTESTING: "Іде боротьба за [Concept('hegemony', 'гегемонію')|e]. Країна з більшим [Concept('great_power_score', 'рахунком великої держави')|e] може змінити становище до $DATE$."
   GREATPOWER_TITLE_HEADER: "[Country.GetLongNameWithNoTooltip] є великою державою"
   REGIONALPOWER_TITLE_HEADER: "[Country.GetLongNameWithNoTooltip] — регіональна держава"

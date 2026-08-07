@@ -1016,7 +1016,7 @@
   flavor_eng.137.tt1: "[francis_drake.GetNameWithNoTooltip] продовжить нападати на виявлені ним уразливі колонії"
   flavor_eng.137.b: "Треба зосередитися на експедиціях."
   flavor_eng.137.tt2: "Френсіс Дрейк призупинить набіги в поточній експедиції"
-  flavor_eng.137.tt3: "Здобич, що належить короні, буде здана, щойно Дрейк повернеться [target_root_country.Custom('predlog_vvo')] [target_root_country.Custom('CL_ACC')]"
+  flavor_eng.137.tt3: "Здобич, що належить короні, буде здана, щойно Дрейк повернеться до [target_root_country.Custom('CL_ACC')]"
   flavor_eng.137.tt4: "Здобуто в дукатах: #Y  [ROOT.GetVariable('drake_loot').GetValue]#!"
   flavor_eng.137.historical_info: "Наприкінці XVI століття Дрейк успішно здійснював набіги на іспанські поселення, порти та кораблі в Карибському морі, захоплюючи чимало скарбів та підриваючи іспанське панування. Ці набіги допомогли Дрейку значно збагатитися, а Англії — стати грізною морською країною."
   flavor_eng.138.title: "[target_location.GetRank.GetNameWithNoTooltip] [target_location.GetNameWithNoTooltip] зазнає набігу Френсіса Дрейка"

@@ -1,7 +1,7 @@
 ﻿l_russian:
   flavor_nor.1.title: "[target_character.GetNameWithNoTooltip]"
   flavor_nor.1.entry: "Норвезький державний діяч Сіґур Йонссон"
-  flavor_nor.1.desc: "#L [target_character.GetCulture.GetAdjective]ий#! шляхтич та лицар [target_character.GetName] у минулому був дротсетом — тобто міг керувати країною за відсутности короля — та регентом #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Він прямий нащадок давньої норвезької королівської династії і з 1440 по 1445 рік служив очільником фортеці Акерсгус. Зрештою, [target_character.GetNameWithNoTooltip] — один із головних прихильників антиганзейської політики [ROOT.GetCountry.Custom('predlog_vvo')] [ROOT.GetCountry.Custom('CL_PREP')]."
+  flavor_nor.1.desc: "#L [target_character.GetCulture.GetAdjective]ий#! шляхтич та лицар [target_character.GetName] у минулому був дротсетом — тобто міг керувати країною за відсутности короля — та регентом #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Він прямий нащадок давньої норвезької королівської династії і з 1440 по 1445 рік служив очільником фортеці Акерсгус. Зрештою, [target_character.GetNameWithNoTooltip] — один із головних прихильників антиганзейської політики [ROOT.GetCountry.Custom('preposition_uv')] [ROOT.GetCountry.Custom('CL_PREP')]."
   flavor_nor.1.a: "Він стане в пригоді нашій країні."
   flavor_nor.1.a.entry: "Він стане в пригоді нашій країні."
   flavor_nor.1.b: "Ми не сваритимемося з #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_INST')|L]#!#!."
