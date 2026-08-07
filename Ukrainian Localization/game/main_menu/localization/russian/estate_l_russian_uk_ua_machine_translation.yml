@@ -589,7 +589,7 @@
   zamindar_tax_privilege_desc: "$mug_zamindar_system_desc$ Під час війни заміндари мають право збирати з населення податки на утримання війська. Цей привілей сильно збільшить наші доходи, але надасть більше влади #TOOLTIP:ESTATE_TYPE,nobles_estate,X #L знаті#!#!."
   corruption_desc: "встромили свої пазурі до скарбниці та у справи двору, забезпечуючи себе необтяжливими посадами та розкладаючи суспільство своєю продажністю."
   consolidated_corruption_of_the_burghers: "Загальне розкладання багатіїв"
-  consolidated_corruption_of_the_burghers_desc: "Укорінені середній та вищий класи $corruption_desc$"
+  consolidated_corruption_of_the_burghers_desc: "Укорінені середня та вища верстви $corruption_desc$"
   consolidated_corruption_of_the_peasants: "Загальне розкладання селян"
   consolidated_corruption_of_the_peasants_desc: "Наші піддані геть припинили поважати владу. Дуже часто, коли їх змушують платити податки, вони погрожують взятися за зброю…"
   consolidated_corruption_of_the_nobles: "Загальне розкладання знаті"

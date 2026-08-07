@@ -328,7 +328,7 @@
   OPINION_ITEM_TOOLTIP: "Думка $ESTATE_GetName_UA_GEN_lower$ про #ONCLICK:COUNTRY,[COUNTRY.GetKey] #TOOLTIP:COUNTRY,[COUNTRY.GetKey],X [COUNTRY.Custom('CL_PREP')|L]#!#!: $OPINION$"
   ESTATE_TYPE_POLITICAL_POWER: "$BULLET_WITH_TAB$Кожна #G 1000#! [Concept('pops', 'груп населення')|e] дає стану $VAL|+=2$ од. [Concept('estate_power', 'станової влади')|e]"
   ESTATE_TYPE_TAX_SPLIT: "$BULLET_WITH_TAB$Кожна #G 1000#! [Concept('pops', 'груп населення')|e] дає стану $VAL|+=2$ до частки [Concept('tax_base', 'податкової бази')|e]"
-  ESTATE_TYPE_POPTYPE: "$BULLET_WITH_TAB$[Concept('pops', 'Група населення')|e] з класу «[POP_TYPE.GetName]» може належати до цього [Concept('estate', 'стану')|e]"
+  ESTATE_TYPE_POPTYPE: "$BULLET_WITH_TAB$[Concept('pops', 'Група населення')|e] з верстви «[POP_TYPE.GetName]» може належати до цього [Concept('estate', 'стану')|e]"
   TARGET_SATISFACTION_BUREAUCRACY: "[bureaucracy_icon|e] [Concept('bureaucracy', 'Установа')|e] «$NAME$»: $VAL|+2V%$"
   TARGET_SATISFACTION_CULTURE_MISMATCH_TOLERATED: "#L [CULTURE.GetName]а#! культура є лише [Concept('tolerated_culture_short', 'прийнятною культурою')|e]: $VAL|+2V%$"
   TARGET_SATISFACTION_CULTURE_MISMATCH_ACCEPTED: "#L [CULTURE.GetName]а#! культура є лише [Concept('accepted_culture_short', 'визнаною культурою')|e]: $VAL|+2V%$"

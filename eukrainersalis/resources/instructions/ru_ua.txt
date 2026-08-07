@@ -300,8 +300,11 @@ You can rely on and treat English text as a primary source, deduce context from 
     * commoners, common people, простой народ - простий люд or простолюд (prefer the latter when clearly talking about an estate)
     * estate enrichment, богатство стана -> збагачення стану
     * estate or pop (group) satisfaction, довольство -> задоволення, вдоволення
-    * pop, группа населения -> громада, група населення, НЕ "верства"
+
+    * pop, группа населения -> громада, група населення, NOT "верства"
     * (upper, lower) class -> (вище, нижче) суспільство
+    * pop type, общественный класс -> верства
+    ** translate "класс" -> "верства" in all cases when dealing with social stratification and classes, e.g. "правляча верства", "нова фахова верства", "верства урядовців", "нижчі верстви", "середня верства"
 
 ## Societal Values
 
