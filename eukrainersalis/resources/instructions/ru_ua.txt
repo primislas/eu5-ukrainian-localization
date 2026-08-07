@@ -44,110 +44,12 @@ Strictly apply these rules to ensure the Ukrainian text sounds natural, authenti
     * Do attempt to adapt phonetics though. For example, for Russian names (east_slavic_language, novgorod_dialect) `name_catherine.east_slavic_language: "Екатерина"` should become Єкатєріна, Алєксандр, Васілій. Keep Russian "о" in spellings only for Russian names ("Прокоп", not "Пракоп"), for others follow phonetics.
     * Use Ukrainian alphabet only. The only allowed exceptions are:
     ** Keep Belarusian symbols 'Ў', 'ў' in Belarusian names
-    * When you encounter names of famous Russian historical figures, apply the same phonetic rules as for Russian names. For example, Алєксандр Пушкін, Пьотр Великий, Єкатєріна II, Рубьов, Васнєцов і т.і.
-
-10.  Follow these precise linguistic guidelines to avoid literal translation errors (calques):
-     1. DESTINATIONS (COUNTRIES, CITIES, REGIONS)
-     - When translating directional movement ("going to a country/city"), ALWAYS use "до" + Genitive case, NOT "в/у" + Accusative case.
-       * Correct: "їхати до України", "прибути до Києва", "подорож до Польщі".
-       * Incorrect (Russian calque): "їхати в Україну", "прибути в Київ".
-     - Exception: Use "в/у" + Locative case ONLY for static location ("inside the country/city").
-       * Example: "я живу в Україні" (static) vs "я їду до України" (movement).
-     2. ORGANIZATIONS, UNIONS, AND ALLIANCES
-     - For joining, entering, or moving towards abstract structures like political unions, alliances, or organizations, use "до" + Genitive case.
-       * Correct: "вступити до унії", "приєднатися до Євросоюзу", "вхід до альянсу".
-       * Incorrect: "вступити в унію", "ввійти в альянс".
-     3. BUILDINGS AND INSTITUTIONS
-     - Use "до" when the movement is directed towards an institution, a building, or a specific space where the boundaries matter less than the purpose.
-       * Correct: "іти до школи", "завітати до замку", "йти до крамниці".
-       * Note: Use "в/у" only if the context heavily emphasizes physically stepping *inside* an enclosed interior (e.g., "зайти в будівлю [а не залишатися на вулиці]").
-     4. EUPHONY RULES (В vs. У)
-     - When "в" or "до" is chosen, remember that "в" alternates with "у" to maintain euphony (avoiding clusters of consonants).
-       * Use "у" if the next word starts with a consonant cluster (e.g., "у Швецію").
-       * Use "в" if the next word starts with a vowel (e.g., "в Одесу").
-
-
-# Estate Ending Scripting
-
-The game can script dynamic estate names. In Ukrainian language, various verbs and adjectives can have different endings depending on specific estate name. For example: "знать вимагала", "духовенство вимагало", "простолюд вимагав", "міщани вимагали". Localization engine allows us to specify dynamic endings for such words associated with estates. Such scripts usually have a form of [<country_scope>.Custom('<estate_ending>')|e]. Let's talk about country_scope and estate_ending.
-
-Estate are usually declared off of a country scope:
-* `[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')]`
-* `[GetCountry('FRA').GetGovernment.GetEstateName('nobles_estate')]`
-* `[SCOPE.sCountry('actor').GetGovernment.GetEstateName('clergy_estate')|l]`
-
-Here are several ways to scope the script to a country ("ROOT.GetCountry", "GetCountry('FRA')",
-"SCOPE.sCountry('actor')"). There could be more. No matter the way to pick the scope,
-country scope is followed by GetGovernment.GetEstateName/GetEstateNameWithNoTooltip.
-The list of supported estates is limited to:
-- crown_estate
-- nobles_estate
-- clergy_estate
-- burghers_estate
-- peasants_estate
-
-DYNAMIC ESTATE ENDING SCRIPTS SHOULD ONLY BE APPLIED TO *SENTENCES* WHERE A DYNAMIC ESTATE NAME IS DECLARED!
-
-"<estate_ending>" can take the form of <estate_name>_<dynamic_endings>, where:
-* <estate_name> is one of the supported estates and should match the estate for which we pick the ending,
-i.e. it has to be one of 'crown', 'nobles', 'clergy', 'burghers', 'peasants'.
-* <dynamic_endings> is a list of dynamic endings that could be picked from. For example, 'yeyut' will be
-substitued with either 'є' or 'ють', in a case such as "знать, духовенство, простолюд вимагає",
-"міщани вимагають". In this case dynamic ending should be scripted as:
-`[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] вимага[ROOT.GetCountry.Custom('peasants_yeyut')] більше прав`
-
-The full list of supported dynamic ending combinations is in the following table:
-| Key | Dynamic Endings (UKR) | Application examples |
-| :--- | :--- | :--- |
-| yeyut | -є, -ють | вимага[є,ють] - вимагає/вимагають, б’[є,ють] |
-| vlaloly | -в, -ла, -ло, -ли | запроси[в,ла,ло,ли] - запросив/запросила/запросило/запросили |
-| yiaei | -ий, -а, -е, -і | численн[ий,а,е,і], задоволен[ий,а,е,і] |
-| aei | -, -а, -е, -і | наш[,а,е,і] |
-| eut | -е, -уть | змож[е,уть], бер[е,уть], почн[е,уть] |
-| ohooyiyh | -ого, -ої, -ого, -их | сам[ого,ої,ого,их] |
-| ihohlaloly | -іг, -огла, -огло, -огли | зм[іг,огла,огло,огли] |
-| ytyat | -ить, -ять | прос[ить,ять], вір[ить,ять] |
-| ytlyat | -ить, -лять | зроб[ить,лять], став[ить,лять]ся - note how "ся" follows dynamic ending here |
-| yityat | -їть, -ять | непоко[їть,ять]ся - note how "ся" follows dynamic ending here |
-| ytat | -ить, -ать | бач[ить,ать], скарж[ить,ать]ся, служ[ить,ать] |
-| yetsayutsa | -ється, -ються | спереча[ється,ються], посила[ється,ються], погоджу[ється,ються] |
-| etsautsa | -еться, уться | клян[еться, уться] |
-| eyyaei | -ей, -я, -е, -і | ц[ей,я,е,і] |
-| ymoyuymy | -им, -ою, -им, -ими | сильн[им,ою,им,ими] |
-| iyyayei | -ий, -я, -є, -і | могутн[ій,я,є,і] |
-| ovlaloly | -ов, -ла, -ло, -ли | піш[ов,ла,ло,ли] - пішов/пішла/пішло/пішли |
-| essyasesi | -есь, -ся, -се, -сі | в[есь,ся,се,сі] - весь/вся/все/всі |
-| ennanoni | -ен, -на, -но, -ні | повин[ен,на,но,ні] |
-
-Your job is to identify words that require dynamic endings, and insert appropriate scripts in place
-of dynamic endings. If you are not sure which ending to pick, instead of <estate_name>_<ending>
-use POSTEDIT_ESTATE_ENDING, e.g.: `[ROOT.GetCountry.Custom('POSTEDIT_ESTATE_ENDING')]`.
-
-Two special cases:
-1. When original text uses "они" (вони) - no special endings are required. Translate everything associated with this "вони" in a standard way with no extra scripting. ("Вони вимагають", "вони запросили", "вони хочуть" and so on.)
-2. The text will frequently use a construct "многие ...<estate>". Translate this as `численн[ROOT.GetCountry.Custom('<estate_name>_yiaei')]`.
-
-Here are some examples of translations with appropriately inserted estate ending scripts:
-
-Source #1: `Некоторые [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] самовольно захватывают велдомы или вырубают леса без разрешения. Чтобы исправить это, [target_character.GetName] предлагает ввести юридический кодекс для наказания подобных преступлений. Новые законы установят единые правила обращения землевладельцев с подданными, а также защитят знатные семьи от произвола, к которому склонны мелкопоместные [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')].`
-Translation #1: `Деяк[ROOT.GetCountry.Custom('nobles_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] самовільно захоплю[ROOT.GetCountry.Custom('nobles_yeyut')] велдоми або вирубу[ROOT.GetCountry.Custom('nobles_yeyut')] ліси без дозволу. Щоб виправити це, [target_character.GetName] пропонує ввести юридичний кодекс для покарання подібних злочинів. Нові закони встановлять єдині закони поводження землевласників з підданими, а також захистять знатні родини від свавілля, до якого схильн[ROOT.GetCountry.Custom('nobles_yiaei')] дрібнопомісн[ROOT.GetCountry.Custom('nobles_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]`
-
-Source #2: `[target_character.GetName] формально властвует, но реальным влиянием обладают [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], действующие у [Select_CString(target_character.IsFemale,'неё', 'него')] за спиной. Они забирают долю со всех налогов, и это уже стало своего рода обычаем. Недавно [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] в очередной раз решили посягнуть на доход, который с таким трудом получает [ROOT.GetCountry.GetFlavorRank|l], и добились очередного снижения налогов для себя и своих покровителей.`
-Translation #2: `[target_character.GetName] формально панує, але реальний вплив ма[ROOT.GetCountry.Custom('nobles_yeyut')] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], що ді[ROOT.GetCountry.Custom('nobles_yeyut')] у [Select_CString(target_character.IsFemale,'неї', 'нього')] за спиною. Вони забирають частку з усіх податків, і це вже стало свого роду звичаєм. Нещодавно [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] вкотре виріши[ROOT.GetCountry.Custom('nobles_vlaloly')] зазіхнути на дохід, який з таким трудом отримує [ROOT.GetCountry.GetFlavorRank|l], і дом[ROOT.GetCountry.Custom('nobles_ihohlaloly')]ся чергового зниження податків для себе та своїх покровителів.`
-
-Source #3: `Хотя многие [scope_athens.GetAdjectiveWithNoTooltip|l]ие [scope_athens.GetGovernment.GetEstateName('nobles_estate')|l] с нетерпением ждут того момента, когда к власти придёт его наследник, регент [regent_of_athens.GetShortName] [Select_CString(regent_of_athens.IsFemale, 'решила', 'решил')] пойти иным путём.`
-Translation #3: `Хоча численн[scope_athens.Custom('nobles_yiaei')] [scope_athens.GetAdjectiveWithNoTooltip|l][scope_athens.Custom('nobles_yiaei')] [scope_athens.GetGovernment.GetEstateName('nobles_estate')|l] з нетерпінням чека[scope_athens.Custom('nobles_yeyut')] того моменту, коли до влади прийде його спадкоємець, регент [regent_of_athens.GetShortName] [Select_CString(regent_of_athens.IsFemale, 'вирішила', 'вирішив')] піти іншим шляхом.`
-
-Case #4: Note how here several estates are listed together collectively, therefore we do not need dynamic ending - together they are all plural "they" ("вони") for the purposes of ending forms. Specifically here we do not add dynamic add to "поставили" - it's a proper for for plural ("вони").
-Source #4: `На заседании [ROOT.GetCountry.Custom('parliament_ua_GEN')|l] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] и [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] задали вопрос, на который нам совсем не хочется отвечать.`
-Transaltion #4: `На засіданні [ROOT.GetCountry.Custom('parliament_ua_GEN')|l] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] та [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] поставили питання, на яке нам зовсім не хочеться відповідати.`
-
-
+    * When you encounter names of famous Russian historical figures, apply the same phonetic rules as for Russian names. For example, Алєксандр Пушкін, Пьотр Великий, Єкатєріна II, Рубльов, Васнєцов і т.і.
 
 # Style Policy
 
 Historical Tone:
-1.  Attempt to avoid anachronisms, overly bureaucratic language (уникай канцеляризмів), Europe-centric words (that is to say, prefer general terms over something distinctly European, unless obviously appropriate), Rusizm (русизми). But only if a clear Ukrainian alternative exists. For example, армія -> військо, губернатор -> намісник, дукати -> гроші, канцлер -> скарбник, парламент -> збори, міністр -> радник, солдат -> вояк, фермер -> depending on context "селянин" or "землероб", etc.
+1.  Attempt to avoid anachronisms, overly bureaucratic language (уникай канцеляризмів), Europe-centric words (that is to say, prefer general terms over something distinctly European, unless obviously appropriate), Rusizms (русизми). But only if a clear Ukrainian alternative exists. For example, армія -> військо, губернатор -> намісник, дукати -> гроші, канцлер -> скарбник, парламент -> збори, міністр -> радник, солдат -> вояк, фермер -> depending on context "селянин" or "землероб", etc.
 2.  Prefer historically appropriate words to modern terminology if such words exist, are well established, and have a general (not Europe- or Ukraine-specific) application. For example, інтерес (чи відсотки за інтересом) -> лихва, кредит -> позика, капіталізм -> підприємництво, абсолютизм -> самовладдя, модернізувати -> осучаснювати, інновації -> новації, економіка -> господарство, etc. Such words would be easily recognizable by a modern reader, cause no confusion, and at the same time they add a bit of historical flair. Conversely, words like "повіт", "посадник", "уділ", "курінь", "гривня" are too Ukraine-specific and would be out of place in other countries, so they shouldn't be used in general sense.
 3.  Use standard modern technical terms for obvious UI and menu elements.
 4.  Geographic names: Use modern standard Ukrainian names.
@@ -197,6 +99,26 @@ Historical Tone:
        Use this for UI buttons, tabs, tooltips, or major strategic mechanics.
        - Wrong: "для стримування переважаючого ворога" -> Correct: "для стримування ворожої навали"
        - Wrong: "усі слідуючі реформи" -> Correct: "усі наступні реформи"
+
+11.  Linguistic rule: "в" + Accusative Case / "до" + Genitive Case:
+     1. DESTINATIONS (COUNTRIES, CITIES, REGIONS)
+     - When translating directional movement ("going to a country/city"), ALWAYS use "до" + Genitive case, NOT "в/у" + Accusative case.
+       * Correct: "їхати до України", "прибути до Києва", "подорож до Польщі".
+       * Incorrect (Russian calque): "їхати в Україну", "прибути в Київ".
+     - Exception: Use "в/у" + Locative case ONLY for static location ("inside the country/city").
+       * Example: "я живу в Україні" (static) vs "я їду до України" (movement).
+     2. ORGANIZATIONS, UNIONS, AND ALLIANCES
+     - For joining, entering, or moving towards abstract structures like political unions, alliances, or organizations, use "до" + Genitive case.
+       * Correct: "вступити до унії", "приєднатися до Євросоюзу", "вхід до альянсу".
+       * Incorrect: "вступити в унію", "ввійти в альянс".
+     3. BUILDINGS AND INSTITUTIONS
+     - Use "до" when the movement is directed towards an institution, a building, or a specific space where the boundaries matter less than the purpose.
+       * Correct: "іти до школи", "завітати до замку", "йти до крамниці".
+       * Note: Use "в/у" only if the context heavily emphasizes physically stepping *inside* an enclosed interior (e.g., "зайти в будівлю [а не залишатися на вулиці]").
+     4. EUPHONY RULES (В vs. У)
+     - When "в" or "до" is chosen, remember that "в" alternates with "у" to maintain euphony (avoiding clusters of consonants).
+       * Use "у" if the next word starts with a consonant cluster (e.g., "у Швецію").
+       * Use "в" if the next word starts with a vowel (e.g., "в Одесу").
 
 
 
