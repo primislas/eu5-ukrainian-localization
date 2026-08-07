@@ -53,7 +53,7 @@
   flavor_kie.7.a: "Ми не будемо йти їм на поступки."
   flavor_kie.7.a.entry: "Ми не підемо на поступки."
   flavor_kie.7.b: "Можливо, настав час послабити контроль над митрополитом."
-  kie_all_kiev_pops_become_angrier_tt: "Усі #TOOLTIP:RELIGION,$orthodox_tt$,X #L православні#!#! [Concept('pops', 'групи населення')|e] у [target_location.Custom('LR_PREP')|l] [target_location.GetName] втратять [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction', 'задоволення')|e]"
+  kie_all_kiev_pops_become_angrier_tt: "Усі #TOOLTIP:RELIGION,$orthodox_tt$,X #L православні#!#! [Concept('pops', 'громади')|e] у [target_location.Custom('LR_PREP')|l] [target_location.GetName] втратять [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction', 'задоволення')|e]"
   flavor_kie.8.title: "Новий київський митрополит"
   flavor_kie.8.entry: "Новий київський митрополит"
   flavor_kie.8.desc: "У #TOOLTIP:REGION,ruthenia_region,X #L Русі#!#! довгий час не було митрополита, який би направляв народ. Прагнучи виправити це, [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] зверну[ROOT.GetCountry.Custom('clergy_vlaloly')]ся до уряду з проханням призначити митрополита зі своїх лав. Вони стверджують, що це єдиний спосіб забезпечити належне управління регіоном без втручання країни. Ми могли б надати їм цю владу, хоча тим самим ризикуємо збільшити їхній вплив у [target_location.Custom('LR_PREP')|l] [target_location.GetName]."

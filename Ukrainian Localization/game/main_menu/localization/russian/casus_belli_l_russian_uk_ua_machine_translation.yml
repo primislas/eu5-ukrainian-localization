@@ -98,7 +98,7 @@
   cb_sound_toll_exemptions_broken_desc: "Вони порушили пільги на оплату проходу!"
   cb_trade_conflict_desc: "Вони загрожують нашій торгівлі!"
   cb_tribal_feud_desc: "Наше плем'я сильніше, ніж їхній жалюгідний набрід!"
-  cb_slave_raiding_desc: "Наші ринки потребують невільників!\n\nПри захопленні нашими [Concept('armies', 'військами')|e] будь-якої [Concept('location', 'місцевости')|e] частина місцевого [Concept('pops', 'населення')|e] стане невільниками. Ці [ShowPopTypeName('slaves')|l] вирушать на випадковий [ShowBuildingTypeName('slave_market')|l] поблизу."
+  cb_slave_raiding_desc: "Наші ринки потребують невільників!\n\nПри захопленні нашими [Concept('armies', 'військами')|e] будь-якої [Concept('location', 'місцевости')|e] частина тамтешнього [Concept('pops', 'люду')|e] стане бранцями. Ці [ShowPopTypeName('slaves')|l] вирушать на випадковий [ShowBuildingTypeName('slave_market')|l] поблизу."
   cb_maritime_dominance_desc: "Вони загрожують нашому морському пануванню!"
   cb_destabilized_our_state_desc: "Мерзенні та підступні вороги розпалили в країні бунти, прагнучи підірвати нашу владу над васалами! Щоб наш народ міг спати спокійно, слід відновити справедливість та знищити цих проклятих підбурювачів."
   cb_colonial_conflict: "Колоніальний конфлікт"

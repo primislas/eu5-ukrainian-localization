@@ -181,7 +181,7 @@
   flavor_brapru.31.b: "[ROOT.GetCountry.GetReligion.GetNameWithNoTooltip] — єдина істинна віра."
   flavor_brapru.31.b.entry: "Наша віра — єдина істинна віра."
   PRU_may_push_toleranzedikt_in_the_future_with_following_effects: "Завдяки цій [Concept('event', 'події')|e] ми в майбутньому зможемо прийняти указ про терпимість:"
-  PRU_every_pop_of_other_protestant_denomination: "Кожна [Concept('pop', 'група населення')|e], що сповідує #L [opposing_religion.GetAdjective|l]у#! віру, отримує [ShowNamedValue('pop_satisfaction_ultimate_bonus')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e]."
+  PRU_every_pop_of_other_protestant_denomination: "Кожна [Concept('pop', 'громада')|e], що сповідує #L [opposing_religion.GetAdjective|l]у#! віру, отримує [ShowNamedValue('pop_satisfaction_ultimate_bonus')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e]."
   flavor_brapru.32.title: "Указ про терпимість"
   flavor_brapru.32.entry: "$flavor_brapru.32.title$"
   flavor_brapru.32.desc: "Вселенські бесіди між #TOOLTIP:RELIGION,$lutheran_tt$,X #L лютеранами#!#! та #TOOLTIP:RELIGION,$calvinist_tt$,X #L кальвіністами#!#! можна навіть назвати успішними. Але, хоча протестантський світ став трохи ближчим до єднання, численн[ROOT.GetCountry.Custom('clergy_yiaei')] наш[ROOT.GetCountry.Custom('clergy_aei')] [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip|l]ого штибу все ще не готов[ROOT.GetCountry.Custom('clergy_yiaei')] терпіти тих, хто сповідує іншу віру. Прихильники [opposing_religion.GetAdjectiveWithNoTooltip|l]ої конфесії закликають нас прийняти указ про терпимість у надії, що гноблення їхньої віри буде заборонено законами [ROOT.GetCountry.Custom('rank_ua_GEN')|l]."

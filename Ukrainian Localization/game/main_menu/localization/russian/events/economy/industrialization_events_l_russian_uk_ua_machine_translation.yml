@@ -64,7 +64,7 @@
   industrialization_events.17.title: "Неприязнь до нового виробництва"
   industrialization_events.17.desc: "Далеко не всі з радістю поставилися до впровадження нових методів виробництва, які породив технічний поступ. Деякі робітники вважають, що повсюдна механізація позбавить їх засобів до існування, а тому влаштовують протести та іноді навіть диверсії. Особливо сильно становище загострене в провінції [luddite_province.GetName]: тут ось-ось почнеться повноцінне повстання ремісників."
   industrialization_events.17.a: "Луддити!"
-  industrialization_events.17.a.tt: "Кожна [Concept('pop', 'група населення')|e] втрачає [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [Concept('pop_satisfaction', 'задоволення')|e]"
+  industrialization_events.17.a.tt: "Кожна [Concept('pop', 'громада')|e] втрачає [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [Concept('pop_satisfaction', 'задоволення')|e]"
   industrialization_events.17.b: "Доведеться піти на перемови."
   industrialization_events.18.title: "Збіднілі ремісники"
   industrialization_events.18.desc: "Завдяки новим методам виробництва в нашій країні зростає промисловість, проте багато старих сімей ремісників не встигають за віяннями часу. Збіднілі робітники змушені займатися менш оплачуваною працею на нових фабриках."

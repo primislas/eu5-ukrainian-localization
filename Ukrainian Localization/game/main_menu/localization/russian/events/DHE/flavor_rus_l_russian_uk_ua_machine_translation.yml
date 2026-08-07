@@ -245,7 +245,7 @@
   flavor_rus.31.entry: "$flavor_rus.31.title$"
   flavor_rus.31.desc: "Група фінських вояків, якими керує виходець із #L [GetCountry('SWE').GetAdjective|l]ої#! знаті [johan_jagerhorn.GetNameWithNoTooltip], надіслала нам депешу, в якій оголосила нинішню війну незаконною та попросила нас допомогти їм заснувати незалежну країну — #ONCLICK:COUNTRY,[GetCountry('FIN').GetKey] #TOOLTIP:COUNTRY,[GetCountry('FIN').GetKey],X [GetCountry('FIN').Custom('CL_ACC')|L]#!#!. Можливо, вона стане бар'єром, що відділяє нас від ворогів, а заодно — плацдармом для наступних вторгнень на [GetCountry('SWE').GetAdjectiveWithNoTooltip|l]у територію."
   flavor_rus.31.a: "Надамо їм підтримку."
-  flavor_rus.31.a.custom: "Усі [ShowPopTypeName('peasants')|l] у #TOOLTIP:AREA,finland_area,X #L Фінляндії#!#! втрачають [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction', 'вдоволення')|e] та вступають до групи «[anjala_conspirators.GetName]»"
+  flavor_rus.31.a.custom: "Усі [ShowPopTypeName('peasants')|l] у #TOOLTIP:AREA,finland_area,X #L Фінляндії#!#! втрачають [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction', 'вдоволення')|e] та вступають до змови «[anjala_conspirators.GetName]»"
   anjala_conspirators: "Аньяльські змовники"
   flavor_rus.31.b: "Відхилимо їхні прохання."
   rus_rejected_anjala_league: "Аньяльський союз отримав відмову"

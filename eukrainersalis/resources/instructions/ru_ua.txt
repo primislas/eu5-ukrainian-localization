@@ -301,10 +301,18 @@ You can rely on and treat English text as a primary source, deduce context from 
     * estate enrichment, богатство стана -> збагачення стану
     * estate or pop (group) satisfaction, довольство -> задоволення, вдоволення
 
-    * pop, группа населения -> громада, група населення, NOT "верства"
-    * (upper, lower) class -> (вище, нижче) суспільство
+    * pop, группа населения -> громада
+    ** pop needs, demands, потребности групп населения -> потреби громад
+    ** pop satisfaction, довольство группы населения -> задоволення громад
+    ** oftentimes scripts will simplify "pop(s)" to "население", in such cases translate it as "громади" as well
+    ** when specific countable numbers of people are used, translate "групп населения" as "людей", e.g.: `2400 [Concept('pops', 'групп населения')|e]` -> `2400 [Concept('pops', 'людей')|e]`
+    ** when talking about quantity of pops, use "чисельність", NOT "кількість"
+    ** when pop(s) is followed by "з числа", "зі стану", "з-поміж" and then a noun in Genitive case, this intermediary connective phrase can be dropped, for example: `[Concept('pops', 'громад')|e] з числа/зі стану знаті` -> `[Concept('pops', 'громад')|e] знаті`
+    ** "бунтівні громади", NOT "заколотні громади"
     * pop type, общественный класс -> верства
-    ** translate "класс" -> "верства" in all cases when dealing with social stratification and classes, e.g. "правляча верства", "нова фахова верства", "верства урядовців", "нижчі верстви", "середня верства"
+    ** translate "класс" -> "верства" in all cases when dealing with social stratification and classes, e.g. "панівна верства", "нова фахова верства", "верства урядовців", "нижчі верстви", "середня верства"
+    ** правящий класс -> панівна верства
+    ** (upper, lower) class -> (вище, нижче) суспільство
 
 ## Societal Values
 
@@ -565,6 +573,8 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** "companies", "компании" of Catholic and Protestant countries (England, France, Scotland, Spain, Italy, Germany, etc.) remain "компанії"
 
 ## Resources, Goods, Buildings
+
+    * prefer "робітники" over "працівники" when talking about workers, exclude "трударі", "трудівники" entirely
 
     * mine, шахта - копальня
     ** never use "шахта" чи "шахтар"

@@ -324,7 +324,7 @@
   flavor_nap.400.b.entry: "Може, знать теж зможе працювати в полі?"
   STATIC_MODIFIER_NAME_nap_heavy_taxation: "Високі податки для простолюду"
   STATIC_MODIFIER_NAME_nap_insufficient_funds: "Брак коштів"
-  nap_every_peasant_pop_loses_5_satisfaction: "[Concept('pop_satisfaction', 'Задоволення ')|e] всіх [Concept('pops', 'груп населення')|e] зі стану «[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')]» знизиться на [ShowNamedValue('pop_satisfaction_weak_penalty')|+=2%]"
+  nap_every_peasant_pop_loses_5_satisfaction: "[Concept('pop_satisfaction', 'Задоволення ')|e] всіх [Concept('pops', 'громад')|e] зі стану «[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')]» знизиться на [ShowNamedValue('pop_satisfaction_weak_penalty')|+=2%]"
   flavor_nap.401.title: "[ROOT.GetCountry.GetCapital.GetNameWithNoTooltip] і народне повстання"
   flavor_nap_masaniello: "Повстання Мазаньєлло"
   flavor_nap.401.desc: "Втомившись від непомірних податків і тиранії влади [ROOT.GetCountry.Custom('rank_ua_GEN')], населення [ROOT.GetCountry.Custom('CL_GEN')] піднімає бунт під проводом вельми харизматичного, але неписьменного рибалки [masaniello_scope.GetName], який раніше був відомий лише своїм неперевершеним умінням ховатися від податківців. [ROOT.GetCountry.GetAdjectiveWithNoTooltip|L]ий [ROOT.GetCountry.GetGovernment.GetCourtTitle] користується в народі такою поганою славою, що повстання охоплює майже всю сільську місцевість, і заколотники погрожують задавити наше військо числом."

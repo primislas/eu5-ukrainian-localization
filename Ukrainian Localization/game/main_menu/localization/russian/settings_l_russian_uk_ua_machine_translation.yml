@@ -343,7 +343,7 @@
   SETTING_LOCATION_NAME_LANGUAGE: "Мова назви місцевості"
   SETTING_LOCATION_NAME_LANGUAGE_TOOLTIP: "#T $SETTING_LOCATION_NAME_LANGUAGE$#!\nВизначає, чи впливає мова на назви місцевостей.\n\n$SETTING_LOCATION_NAME_LANGUAGE_COMMON$: місцевості називатимуться мовою панівної культури власника.\n\n$SETTING_LOCATION_NAME_LANGUAGE_DOMINANT$: місцевості називатимуться основною мовою їхнього населення.\n\n$SETTING_LOCATION_NAME_LANGUAGE_UNTRANSLATED$: використовуватимуться лише основні назви місцевостей."
   SETTING_LOCATION_NAME_LANGUAGE_COMMON: "Мова власника (за замовчуванням)"
-  SETTING_LOCATION_NAME_LANGUAGE_DOMINANT: "Мова групи населення"
+  SETTING_LOCATION_NAME_LANGUAGE_DOMINANT: "Мова громади"
   SETTING_LOCATION_NAME_LANGUAGE_UNTRANSLATED: "Не перекладати"
   SETTING_ESTATES_NAME_LANGUAGE: "Мова назви стану"
   SETTING_ESTATES_NAME_LANGUAGE_TOOLTIP: "#T $SETTING_ESTATES_NAME_LANGUAGE$#!\nВизначає, чи впливає мова на назви станів.\n\n$SETTING_ESTATES_NAME_LANGUAGE_COMMON$: стани називатимуться мовою панівної культури країни.\n\n$SETTING_ESTATES_NAME_LANGUAGE_UNTRANSLATED$: використовуватимуться лише основні назви станів."

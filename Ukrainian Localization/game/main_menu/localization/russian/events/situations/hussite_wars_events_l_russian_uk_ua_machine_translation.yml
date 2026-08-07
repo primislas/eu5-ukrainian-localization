@@ -52,7 +52,7 @@
   hussite_wars.1.b: "Ми не можемо собі дозволити розколи серед католиків."
   end_hussite_wars_situation_tt: "Це запобіжить виникненню [Concept('situation', 'ситуації')|e] #TOOLTIP:SITUATION,hussite_wars,X #L «Гуситські війни»#!#!"
   boh_every_neighboring_country_tt: "Кожна несоюзна [Concept('country', 'країна')|e] поруч із нами або будь-яким із наших [Concept('subjects', 'васалів')|e] отримає [ShowBiasValue('violated_congress_of_visegrad_modifier')|+=0] до [Concept('opinion', 'думки')|e] про нас"
-  hussite_rebellion_tooltip: "Кожна [Concept('pop', 'група населення')|e], яка симпатизує #TOOLTIP:RELIGION,$hussite_tt$,X #L гуситам#!#!, мобілізує сили та підтримає [hussite_rebel_scope.GetName]"
+  hussite_rebellion_tooltip: "Кожна [Concept('pop', 'громада')|e], яка симпатизує #TOOLTIP:RELIGION,$hussite_tt$,X #L гуситам#!#!, мобілізує сили та підтримає [hussite_rebel_scope.GetName]"
   every_neighbor_of_bohemia_gets_hussite_wars.3_tt: "Подія #Y «Правовірні закликають до зброї»#! відбувається в кожній #TOOLTIP:RELIGION,$catholic_tt$,X #L католицькій#!#! несоюзній країні неподалік від #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_GEN')|L]#!#!"
   hussite_wars.6_happens_for_catholic_champion_scope_tt: "[catholic_champion_scope.GetName] переживає подію #Y «Войовниче #TOOLTIP:RELIGION,$catholic_tt$,X #L католицтво#!#!»#!"
   hussite_wars.3.title: "Правовірні закликають до зброї"
