@@ -534,7 +534,7 @@
   UNIT_HIDDEN_TT_FROM_LAND: "Загін [Concept('hidden', 'прихований')|e] від найближчих [Concept('locations', 'місцевостей')|e] на суші."
   UNIT_HIDDEN_TT_FROM_LAND_AND_SEA: "Загін [Concept('hidden', 'прихований')|e] від найближчих [Concept('locations', 'місцевостей')|e] на суші та [Concept('seazones', 'акваторій')|e]."
   UNIT_HIDDEN_TT_FROM_SEA: "Загін [Concept('hidden', 'прихований')|e] від найближчих [Concept('seazones', 'акваторій')|e]."
-  SIMPLE_PROVINCE_ICON_STATE_CAPITAL_TOOLTIP: "[Location.GetName] — [Concept('province_capital_with_icon', 'столиця провінції')|e] @province! [LOCATION.GetProvince.GetName]."
+  SIMPLE_PROVINCE_ICON_STATE_CAPITAL_TOOLTIP: "[Location.GetName] — [Concept('province_capital_with_icon', 'столиця провінції')|e] @province! [Location.GetProvince.GetName]."
   SIMPLE_PROVINCE_ICON_COUNTRY_CAPITAL_TOOLTIP: "[Location.GetName] — [Concept('capital_with_icon', 'столиця')|e] @[Location.GetOwner.GetFlag]! #ONCLICK:COUNTRY,[Location.GetOwner.GetKey] #TOOLTIP:COUNTRY,[Location.GetOwner.GetKey],X [Location.GetOwner.Custom('CL_GEN')|L]#!#!."
   CHAR_INTERACTION_NOT_ADVANCE: "@trigger_no! Для взаємодії типу «[CHARACTER_INTERACTION.GetName]» потрібно дослідити поступи: $ADVANCE_LIST$"
   UNIT_ABILITY_NOT_ADVANCE: "@trigger_no! Щоб застосувати здатність «[UNIT_ABILITY.GetName]», потрібно дослідити поступи: $ADVANCE_LIST$"

@@ -38,7 +38,7 @@
   flavor_kni.9.b: "Нам зараз не потрібна оборона."
   flavor_kni.10.title: "[target_country.GetCulture.GetNameWithNoTooltip]і пірати"
   flavor_kni.10.entry: "Турецьке піратство в Егейському морі"
-  flavor_kni.10.desc: "За десятиліття, що минули з моменту встановлення #italic франкократії#! на Південних #TOOLTIP:REGION,balkan_region,X #L Балканах#!#!, торгові республіки #TOOLTIP:REGION,italy_region,X #L Італії#!#! суттєво розширили свою діяльність, і кількість торгових суден, що борознять води #TOOLTIP:PROVINCE_DEFINITION,aegean_sea_province,X #L Егейського моря#!#!, зросла в рази. На жаль, коли ми розбагатіли, країни-суперниці стали намагатися насолити нам будь-якими засобами. Цього разу #L [target_country.GetAdjective|l]і#! влади, що ворогують з нами на ґрунті віри, вирішили найняти корсарів, які тепер нахабно нападають на #L [ROOT.GetCountry.GetReligion.GetGroup.GetAdjective|l]і#! кораблі."
+  flavor_kni.10.desc: "За десятиліття, що минули з моменту встановлення #italic франкократії#! на Південних #TOOLTIP:REGION,balkan_region,X #L Балканах#!#!, торгові республіки #TOOLTIP:REGION,italy_region,X #L Італії#!#! суттєво розширили свою діяльність, і кількість торгових кораблів, що борознять води #TOOLTIP:PROVINCE_DEFINITION,aegean_sea_province,X #L Егейського моря#!#!, зросла в рази. На жаль, коли ми розбагатіли, країни-суперниці стали намагатися насолити нам будь-якими засобами. Цього разу #L [target_country.GetAdjective|l]і#! влади, що ворогують з нами на ґрунті віри, вирішили найняти корсарів, які тепер нахабно нападають на #L [ROOT.GetCountry.GetReligion.GetGroup.GetAdjective|l]і#! кораблі."
   flavor_kni.10.a: "Вони понесуть покарання!"
   flavor_kni.11.title: "Fidei Defensor"
   flavor_kni.11.entry: "$flavor_kni.11.title$"
