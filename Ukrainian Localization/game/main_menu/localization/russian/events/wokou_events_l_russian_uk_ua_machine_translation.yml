@@ -16,7 +16,7 @@
   wokou_events.4.desc: "За останні кілька місяців до #ONCLICK:COUNTRY,[ROOT.GetCountry.GetCapital.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetCapital.GetKey],X [ROOT.GetCountry.GetCapital.Custom('CL_ACC')|L]#!#! прибули численні [target_pop.GetName|l] з [target_location.Custom('LR_GEN')|l] [target_location.GetName]. Намагаючись врятувати свої сім'ї від безнадійної бідності, вони прийняли важке рішення і залишили минуле життя позаду. У #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! вони ступлять на шлях беззаконня, але їх можна зрозуміти."
   wokou_events.4.a: "Вони вчинили правильно."
   wokou_events.5.title: "Напад на [target_country.GetAdjectiveWithNoTooltip|l]ий флот"
-  wokou_events.5.desc: "#L [target_country.GetAdjective|U]а#! флотилія зараз повертається з чужих країв з безліччю товарів і цінних речей, яким ми неодмінно знайдемо краще застосування. На відміну від багатьох торгових суден, ці кораблі добре охороняються, тож людські втрати неминучі. Але можлива вигода така велика, що ризик того вартий."
+  wokou_events.5.desc: "#L [target_country.GetAdjective|U]а#! флотилія зараз повертається з чужих країв з безліччю товарів і цінних речей, яким ми неодмінно знайдемо краще застосування. На відміну від багатьох торгових кораблів, ці добре охороняються, тож людські втрати неминучі. Але можлива вигода така велика, що ризик того вартий."
   wokou_events.5.a: "Напасти на флотилію."
   wokou_events.5.b: "[target_country.GetNameWithNoTooltip] — не та країна, яку варто сердити."
   wokou_events.6.title: "На наш флот напали!"

@@ -1390,7 +1390,7 @@
   STATIC_MODIFIER_NAME_continued_patronage_of_institutions_modifier: "Постійне покровительство інститутам"
   STATIC_MODIFIER_NAME_byz_relinquish_taxes_for_nobles_modifier: "Податкові послаблення для знаті"
   STATIC_MODIFIER_NAME_expanded_assembly_powers_modifier: "Розширення влади зібрання"
-  STATIC_MODIFIER_NAME_byz_reliance_on_italian_navies: "Залежність від італійських суден"
+  STATIC_MODIFIER_NAME_byz_reliance_on_italian_navies: "Залежність від італійських кораблів"
   STATIC_MODIFIER_NAME_byz_mercantile_self_reliance_modifier: "Торгова незалежність"
   STATIC_MODIFIER_NAME_bureaucratic_spending_reform_modifier: "Реформування витрат на бюрократію"
   current_entrenchment_of_selected_bureaucracy_desc: "Поточна [Concept('entrenchment', 'вкоріненість')|e] обраної [Concept('bureaucracy', 'установи')|e]"
