@@ -60,4 +60,4 @@
   succession_crisis.100.a: "Ми розраховуємо на допомогу видатних сановників двору."
   succession_crisis.100.b: "Ми впораємося своїми силами!"
   succession_crisis.100.c: "Хто б сумнівався!"
-  based_on_our_crownpower_and_prestige_tt: "Залежно від рівня [Concept('crown_power', 'влади правителя')|e] та [Concept('prestige', 'престижу')|e] ми отримаємо такі ефекти:"
+  based_on_our_crownpower_and_prestige_tt: "Залежно від рівня [Concept('crown_power', 'влади правителя')|e] та [Concept('prestige', 'слави')|e] ми отримаємо такі ефекти:"

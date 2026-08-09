@@ -13,7 +13,7 @@
   AUTO_MODIFIER_NAME_positive_stability_impact: "Від позитивної [Concept('stability', 'стабільності')|e]"
   AUTO_MODIFIER_NAME_negative_stability_impact: "Від негативної [Concept('stability', 'стабільності')|e]"
   AUTO_MODIFIER_NAME_war_exhaustion_impact: "Від [Concept('war_exhaustion', 'втоми від війни')|e]"
-  AUTO_MODIFIER_NAME_prestige: "[Concept('prestige', 'Престиж')|e]"
+  AUTO_MODIFIER_NAME_prestige: "[Concept('prestige', 'Слава')|e]"
   AUTO_MODIFIER_NAME_army_tradition: "[Concept('army_tradition', 'Військові традиції')|e]"
   AUTO_MODIFIER_NAME_navy_tradition: "[Concept('navy_tradition', 'Морські традиції')|e]"
   AUTO_MODIFIER_NAME_num_non_rural_impact: "Кількість [Concept('towns_and_cities', 'міських місцевостей')|e]"

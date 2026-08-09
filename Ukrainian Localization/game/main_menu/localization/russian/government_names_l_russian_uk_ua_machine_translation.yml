@@ -977,7 +977,7 @@
   republic: "Республіка"
   theocracy: "Теократія"
   country_rank_effects_list_title: "[CountryRank.GetNameWithNoTooltip] має такі ефекти:"
-  rank_empire_desc: "Це найвищий [Concept('country_rank', 'ранг')|e], яким володіють найпрестижніші або наймогутніші [Concept('countries', 'країни')|e] світу."
+  rank_empire_desc: "Це найвищий [Concept('country_rank', 'ранг')|e], яким володіють найславетніші або наймогутніші [Concept('countries', 'країни')|e] світу."
   rank_kingdom_desc: "Цим [Concept('country_rank', 'рангом')|e] володіють більші [Concept('countries', 'країни')|e]. Вони мають кілька [Concept('provinces', 'провінцій')|e] і можуть продемонструвати силу."
   rank_duchy_desc: "Цим [Concept('country_rank', 'рангом')|e] володіють невеликі та середні [Concept('country', 'країни')|e], зазвичай обмежені однією [Concept('province', 'провінцією')|e]. При цьому вони перевершують графства за розміром і чисельністю населення."
   rank_county_desc: "Цим [Concept('country_rank', 'рангом')|e] володіють найменші [Concept('countries', 'країни')|e]. Зазвичай вони обмежені однією [Concept('location', 'місцевістю')|e]. Невеликі племена зазвичай теж представлені цим рангом."

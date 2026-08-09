@@ -1069,7 +1069,7 @@
   INCOMING_OFFER_demand_conversion_to_islam: "Країна $ACTOR$ вимагає, щоб ми прийняли іслам. Ви згодні?\n\n$INFO$"
   bribe_voter_short: "Підкупити"
   bribe_voter_for_policy: "Підкупити учасника"
-  bribe_voter_for_policy_desc: "Ми витратимо [Concept('prestige', 'престиж')|e] і запропонуємо учаснику [Concept('gold', 'гроші')|e], щоб вони проголосували за наш варіант закону."
+  bribe_voter_for_policy_desc: "Ми витратимо [Concept('prestige', 'славу')|e] і запропонуємо учаснику [Concept('gold', 'гроші')|e], щоб вони проголосували за наш варіант закону."
   bribe_voter_for_policy_select_country: "Кого підкупити?"
   bribe_voter_for_policy_select_law: "Оберіть [Concept('law', 'закон')|e]:"
   bribe_voter_for_policy_select_policy: "Як учаснику слід проголосувати?"

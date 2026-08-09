@@ -67,7 +67,7 @@
   decline_of_mali.12.b.tt: "Усі [Concept('location', 'місцевості')|e] #TOOLTIP:AREA,ghana_area,X #L Гани#!#!, де переважає #TOOLTIP:CULTURE,$soninke_tt$,X #L сонінкська#!#! культура, стануть частиною нової країни зі столицею в місті [diawara_capital.GetName]"
   decline_of_mali.13.title: "Туарезьке вторгнення"
   decline_of_mali.13.entry: "Вторгнення туарегів"
-  decline_of_mali.13.desc: "Населяючі Сахару #TOOLTIP:CULTURE,$tuareg_tt$,X #L туарезькі#!#! племена повстали проти #L [ROOT.GetCountry.GetAdjective|l]ого#! панування. Скориставшись тимчасовою слабкістю нашої країни, цей кочовий берберський народ проголосив незалежність північних околиць. Їхній заколот став черговим ударом по #TOOLTIP:CULTURE,$tuareg_tt$,X #L туарезькому#!#! престижу та впливу [ROOT.GetCountry.Custom('CL_GEN')]…"
+  decline_of_mali.13.desc: "Населяючі Сахару #TOOLTIP:CULTURE,$tuareg_tt$,X #L туарезькі#!#! племена повстали проти #L [ROOT.GetCountry.GetAdjective|l]ого#! панування. Скориставшись тимчасовою слабкістю нашої країни, цей кочовий берберський народ проголосив незалежність північних околиць. Їхній заколот став черговим ударом по #TOOLTIP:CULTURE,$tuareg_tt$,X #L туарезькій#!#! славі та впливу [ROOT.GetCountry.Custom('CL_GEN')]…"
   decline_of_mali.13.a: "Кепські справи…"
   mal_separatists_rebels_tuareg: "Сепаратисти-туареги"
   decline_of_mali.14.title: "Народження [GetCountry('FUL').Custom('CL_GEN')]"

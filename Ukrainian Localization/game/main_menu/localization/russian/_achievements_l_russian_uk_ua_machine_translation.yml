@@ -121,7 +121,7 @@
   ACHIEVEMENT_DESC_crusader_kings: "Здобудьте перемогу в хрестовому поході або джихаді."
   crusader_kings_tt: "Ми перемогли у [Concept('war', 'війні')|e] з [Concept('casus_belli', 'приводом')|e] «[ShowCasusBelliName('cb_crusade')]» або «[ShowCasusBelliName('cb_jihad')]»."
   ACHIEVEMENT_respected: "Визнання"
-  ACHIEVEMENT_DESC_respected: "Досягніть одночасно 100 од. престижу, 100 од. легітимності та 100 од. стабільності."
+  ACHIEVEMENT_DESC_respected: "Досягніть одночасно 100 од. слави, 100 од. легітимності та 100 од. стабільності."
   ACHIEVEMENT_letat_cest_moi: "Країна — це я!"
   ACHIEVEMENT_DESC_letat_cest_moi: "Заробіть 100 од. прогресу до суспільних цінностей «Підпорядкування» та «Самовладдя»."
   ACHIEVEMENT_manchurian_candidate: "Маньчжурський кандидат"

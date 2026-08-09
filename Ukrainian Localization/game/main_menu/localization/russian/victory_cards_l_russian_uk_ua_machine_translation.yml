@@ -29,7 +29,7 @@
   ADM_SCORE_TECH: "[Concept('advances', 'Поступ')|e]: $VAL|+=2$"
   ADM_SCORE_OCCUPATION: "[Concept('occupation', 'Окупація')|e]: $VAL|+=2$"
   ADM_SCORE_STABILITY: "[Concept('stability', 'Стабільність')|e]: $VAL|+=2$"
-  ADM_SCORE_PRESTIGE: "[Concept('prestige', 'Престиж')|e]: $VAL|+=2$"
+  ADM_SCORE_PRESTIGE: "[Concept('prestige', 'Слава')|e]: $VAL|+=2$"
   ADM_SCORE_BANKRUPTCY: "[Concept('bankrupt', 'Банкрутство')|e]: $VAL|+=2$"
   ADM_SCORE_LOANS: "[Concept('loans', 'Позики')|e]: $VAL|+=2$"
   ADM_SCORE_GOV_POWER: "[Concept('government_power', 'Влада уряду')|e]: $VAL|+=2$"

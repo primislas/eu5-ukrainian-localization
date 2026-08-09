@@ -364,6 +364,18 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** for smaller petty conflicts translate as "чвари"
     ** for internal conflicts use "усобиця, усобиці, міжусобиця, міжусобиці"
 
+    * prestige, престиж -> слава
+    ** specifically ALWAYS "слава" as a game concept and mechanics
+    ** fixed expression "престиж и слава" -> "честь і слава" (make sure translation doesn't end up looking as "слава і слава"), however, "принести престиж и славу" -> "принести повагу та славу"
+    ** military unit prestige -> "звитяга", e.g. in expressions like "звитяга кінноти", "звитяга яничарів", "звитяга мамлюків", BUT keep "слава" for ships and other fleet-related items
+    ** occasionally and depending on context the following translations could fit better: "повага", "авторитет", "пошана", "поважність", "честь"
+    * престижный -> славетний, with the following exceptions
+    ** престижные школы, университеты, учебные заведения, ученые -> поважні школи, університети, навчальні заклади, вчені
+    ** престижные должности, служба, титулы, назначение -> поважні посади, служба, титули, призначення; also applies to various bureaucrats, administrators, diplomats and other servants of the state
+    ** престижные здания -> урочисті споруди
+    ** when "presitigous" is meant to stress respect, occasionally "шанований" fits
+    ** all of this applies to other forms of these adjectives, for example "найславетніший", "найповажніший", "найшанованіший"
+
 ## Military, Armies, and Fleets
 
     * war score, военный счёт -> воєнний рахунок

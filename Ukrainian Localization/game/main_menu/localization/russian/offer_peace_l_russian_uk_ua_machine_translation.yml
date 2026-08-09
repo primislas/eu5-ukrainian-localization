@@ -407,7 +407,7 @@
   league_of_public_weal_royalist_victory_desc: "Король восторжествує і поставить принців на місце, тим самим повернувши собі контроль над бунтівними землями."
   peace_leave_the_hre_desc: "Ми більше не будемо васалами #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської імперії#!#! і відмовимося від усіх своїх привілеїв та зобов'язань щодо неї."
   peace_nanbokuchou_force_imperial_abdication_desc: "Ця країна перестане існувати, а її піддані отримають притулок при #L [GetUniqueInternationalOrganization('japanese_shogunate').GetLeaderCountry.GetAdjective|l]ому#! дворі."
-  punish_chinese_expedition_foes_desc: "Ми покараємо їх за протистояння нашому золотому флоту. Принизивши їх перед усім світом, ми помітно примножимо свій престиж."
+  punish_chinese_expedition_foes_desc: "Ми покараємо їх за протистояння нашому золотому флоту. Принизивши їх перед усім світом, ми помітно примножимо свою славу."
   chi_recapture_emperor_desc: "Ми звільнимо імператора і повернемо йому престол. Тих же, хто посмів полонити його, чекає покарання і ганьба."
   reinstate_the_monarchy_desc: "Монархія повстане з новою силою, а революціонери, що намагалися повалити королівський рід, будуть принижені."
   peace_revoke_clan_autonomy_desc: "Ми позбавимо їх автономії і знову контролюватимемо кожен їхній крок."
