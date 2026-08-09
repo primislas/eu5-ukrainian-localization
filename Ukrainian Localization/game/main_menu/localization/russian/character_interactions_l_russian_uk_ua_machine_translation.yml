@@ -250,6 +250,6 @@
   dismiss_artist_concept: "[Concept('artist', 'митець')|e]"
   dismiss_artist_act: "$dismiss_artist$"
   dismiss_artist_desc: "Цього [Concept('artist', 'митця')|e] буде вигнано з нашого двору. Ширитимуться чутки про те, що ми не надто добрі опікуни мистецтва."
-  dismiss_artist_desc_specific: "[SCOPE.sCharacter('recipient').GetName] покине наш двір. У результаті ми втратимо [Concept('prestige', 'престиж')|e] і можемо розгнівати відповідний [Concept('estate', 'стан')|e]."
+  dismiss_artist_desc_specific: "[SCOPE.sCharacter('recipient').GetName] покине наш двір. У результаті ми втратимо [Concept('prestige', 'славу')|e] і можемо розгнівати відповідний [Concept('estate', 'стан')|e]."
   dismiss_artist_past: "Митця вигнано"
   dismiss_artist_act_past: "[SCOPE.sCharacter('recipient').GetName] [Select_CString(SCOPE.sCharacter('recipient').IsFemale,'покинула', 'покинув')] наш двір."

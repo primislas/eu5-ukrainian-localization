@@ -243,7 +243,7 @@
   reduced_from_military_obligations: "Урізані військові зобов'язання"
   reduced_from_military_obligations_desc: "В обмін на вірність нашій владі ми можемо урізати або скасувати військову повинність для тих, хто обере праведне життя на службі вищим силам."
   office_of_the_sankar_zouma_privilege: "Санкар-зума"
-  office_of_the_sankar_zouma_privilege_desc: "Санкар-зума — це престижна посада, яку [GetCountry('MAL').GetGovernment.GetEstateName('nobles_estate')|l] мож[GetCountry('MAL').Custom('nobles_eut')] отримати від верховної влади. Повноваженнями вона схожа на фарима-суру — люди на цій посаді контролюють усі торгові шляхи, що проходять через південний кордон."
+  office_of_the_sankar_zouma_privilege_desc: "Санкар-зума — це поважна посада, яку [GetCountry('MAL').GetGovernment.GetEstateName('nobles_estate')|l] мож[GetCountry('MAL').Custom('nobles_eut')] отримати від верховної влади. Повноваженнями вона схожа на фарима-суру — люди на цій посаді контролюють усі торгові шляхи, що проходять через південний кордон."
   office_of_the_farima_soura_privilege: "Фарима-сура"
   office_of_the_farima_soura_privilege_desc: "Фарима-сура захищає північний кордон країни, контролює переміщення через Сахару, а також забезпечує безпеку та легкість проходження торгового потоку в нашу країну та за її межі."
   liberum_veto: "Liberum veto"

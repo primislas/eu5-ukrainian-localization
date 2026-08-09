@@ -353,7 +353,7 @@
   dlh_benefits_of_subjugating: "Якщо за 10 років ми [Concept('conquer', 'завоюємо')|e] та [Concept('own', 'приєднаємо')|e] до себе хоча б [FixedPointToInt(Add_CFixedPoint(Multiply_CFixedPoint(IntToFixedPoint(target_area.GetNumLocations), '(CFixedPoint)0.3'), '(CFixedPoint)1'))] від усіх [Concept('locations', 'місцевостей')|e] в області [target_area.GetName], то отримаємо наступне:"
   flavor_dlh.60.title: "Успіх Карачильської кампанії"
   flavor_dlh.60.entry: "$flavor_dlh.60.title$"
-  flavor_dlh.60.desc: "Славні #L [ROOT.GetCountry.GetAdjective|l]і#! полководці винесли уроки з помилок, зроблених у 1333 році, і стерли країни західного #TOOLTIP:AREA,nepal_area,X #L Непалу#!#! з лиця землі. Може, ми завоювали не так багато земель, зате принизили своїх ворогів і відновили престиж [ROOT.GetCountry.Custom('rank_ua_GEN')]."
+  flavor_dlh.60.desc: "Славні #L [ROOT.GetCountry.GetAdjective|l]і#! полководці винесли уроки з помилок, зроблених у 1333 році, і стерли країни західного #TOOLTIP:AREA,nepal_area,X #L Непалу#!#! з лиця землі. Може, ми завоювали не так багато земель, зате принизили своїх ворогів і відновили славу [ROOT.GetCountry.Custom('rank_ua_GEN')]."
   flavor_dlh.60.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   flavor_dlh.60.a.entry: "$common_string_brilliant$"
   flavor_dlh.61.title: "Провал другої Карачильської кампанії"

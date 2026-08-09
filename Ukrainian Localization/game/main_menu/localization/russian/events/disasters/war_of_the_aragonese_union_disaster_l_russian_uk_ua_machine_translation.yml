@@ -14,7 +14,7 @@
   war_of_the_aragonese_union_disaster.3.title.b: "До зброї!"
   war_of_the_aragonese_union_disaster.3.desc.b: "Спроба піти на перемови провалилася. Зрадники з #italic Арагонської унії#! озброїлися і тепер захоплюють місто за містом і фортецю за фортецею, відрікаючись від колишніх клятв і вбиваючи наших вірних підданих. Усе, що нам залишається, — це зустріти їх на полі бою і покарати за зраду мечем."
   war_of_the_aragonese_union_disaster.3.title.c: "[GetCountry('ARA').GetGovernment.GetRulerTitle] виявляє мудрість"
-  war_of_the_aragonese_union_disaster.3.desc.c: "Дипломатія перемогла. Всупереч усім очікуванням нашому володарю вдалося покласти край повстанню #italic Арагонської унії#!, не поступаючись заколотникам жодними правами. Усі повсталі угруповання та претенденти залишилися задоволені; громадянська війна нам більше не загрожує."
+  war_of_the_aragonese_union_disaster.3.desc.c: "Дипломатія перемогла. Всупереч усім очікуванням нашому володарю вдалося покласти край повстанню #italic Арагонської унії#!, не поступаючись заколотникам жодними правами. Усі повсталі угруповання та претенденти залишилися задоволені; міжусобна війна нам більше не загрожує."
   war_of_the_aragonese_union_disaster.3.a: "Важкі часи починаються для [GetCountry('ARA').Custom('rank_ua_GEN')|l]."
   war_of_the_aragonese_union_disaster.3.b: "Хай живе [GetCountry('ARA').GetGovernment.GetRulerTitle|l]!"
   war_of_the_aragonese_union_disaster.4.title: "Нагода укласти мир"

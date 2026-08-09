@@ -234,6 +234,22 @@ You can rely on and treat English text as a primary source, deduce context from 
     * наши люди -> наш люд, наші піддані, when about a country or area population in general
     * жалоба -> "кривда", when referring to a slight in a political context, official complaint, estate dispute, etc.
 
+    * legitimacy, легитимность -> право на владу
+    ** stylistic the construct "право (Gen. Case whose) на владу" is better, when appropriate, for example: "право монарха/країни/корони/зборів/персонажа на владу", "право династії Х на владу"
+    ** when legal status of legitimate right to rule is the essence, translate as "правочинність"
+    ** when "право на власть" is right next to "легитимность", translate as "правочинність"
+    ** "право на владу" can be "визнане" and "невизнане"
+    ** when low legitimacy and rejection of the right to rule is the focus, can be translated as "невизнання права на владу"
+    ** легітимний -> правочинний
+    ** легітимізувати владу -> утвердити владу
+    ** some fixed expressions and tautology avoidance guidelines:
+    *** легитимность нашего правління -> наше право на владу
+    *** легитимность власти -> право на владу
+    *** легитимность правлящей власти -> право діючих правителів на владу
+    *** здобути легітимність -> здобути визнання права на владу, зміцнити право на владу, утвордити право на владу
+    *** нехватка, недостаток легитимности -> невизнання права на владу
+    ** Overall this is a complicated concept and context that usually requires grammatical and lexical changes around it. So adapt sentences appropriately, make sure there are no post-translation tautologies, so that approved "legitimacy" and "legitimate" translations fit in naturally.
+
     * parliament, парламент - збори, except when clearly talking about Western, Central, or Northern European nations where "парламент" is appropriate
     ** збори скликаються, радяться, обговорюють питання, засідають, тощо, use the most appropriate forms freely
     ** parliament issue, парламентский вопрос - питання, but depending on context you can elaborate it as "питання зборів", "питання для зборів", "ухвала", "рішення", etc.; питання розглядаються, подаються (на розгляд) зборам, схвалюються, тощо, adapt to context to sound as natural as possible;
@@ -245,6 +261,10 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** рейхстаг - райхстаг
     * governor, губернатор - намісник, except when clearly talking about English, German, or Scandinavian governors, or "генерал-губернатор(ство)"
     * община, общинный -> громада, громадський
+
+    * civil war, гражданская война -> міжусобна війна
+    ** alternatives for narrative texts: "міжусобиця" (more casual), "братовбивча війна" (stressed strife), "розкол" (stressed division)
+    ** use "громадянська війна" for wars which are historically known by this name, such as "Англійська громадянська війна", civil wars that happen in republics, or when parliaments, revolutions and revolutionaries are mentioned
 
     * Страна Хулагуидов -> Ільханат
     * Молдавия, молдавский -> always with "o" - "Молдова", "молдовський", "молдовани", etc.
@@ -364,6 +384,18 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** for smaller petty conflicts translate as "чвари"
     ** for internal conflicts use "усобиця, усобиці, міжусобиця, міжусобиці"
 
+    * prestige, престиж -> слава
+    ** specifically ALWAYS "слава" as a game concept and mechanics
+    ** fixed expression "престиж и слава" -> "честь і слава" (make sure translation doesn't end up looking as "слава і слава"), however, "принести престиж и славу" -> "принести повагу та славу"
+    ** military unit prestige -> "звитяга", e.g. in expressions like "звитяга кінноти", "звитяга яничарів", "звитяга мамлюків", BUT keep "слава" for ships and other fleet-related items
+    ** occasionally and depending on context the following translations could fit better: "повага", "авторитет", "пошана", "поважність", "честь"
+    * престижный -> славетний, with the following exceptions
+    ** престижные школы, университеты, учебные заведения, ученые -> поважні школи, університети, навчальні заклади, вчені
+    ** престижные должности, служба, титулы, назначение -> поважні посади, служба, титули, призначення; also applies to various bureaucrats, administrators, diplomats and other servants of the state
+    ** престижные здания -> урочисті споруди
+    ** when "presitigous" is meant to stress respect, occasionally "шанований" fits
+    ** all of this applies to other forms of these adjectives, for example "найславетніший", "найповажніший", "найшанованіший"
+
 ## Military, Armies, and Fleets
 
     * war score, военный счёт -> воєнний рахунок
@@ -441,7 +473,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     * налёт, нальот -> "набіг" if on land, "напад" on sea, "наскок" if stressing unexpected nature
     * налётчик, нальотчик -> грабіжник, розбійник in negative connotations, нападник in neutral (our raiders - наші нападники); make sure to interchange to avoid repetition (e.g. "розбійники розграбували", not "грабіжники розграбували")
 
-## Religion and Culture
+## Religion
 
     * religion, религия -> віра
     ** "віросповідання" у випадках:
@@ -469,6 +501,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** також віру можна прийняти або перейти до віри (нейтральний формальний зміст), навернутися у віру (більш глибокий духовний зміст та/або активна свідома дія)
     ** віри зрікаються, а НЕ відмовляються чи скасовують
     ** у/до віри навертають, віру поширюють, проповідують
+    ** religion has "послідовники", "віряни" (attempt to avoid very close to words containing "віра" to avoid tautology), NOT "прихильники"
 
     * state_religion, primary_religion, official_religion, основная религия, главная религия -> панівна віра
     * religious (in)tolerance, религиозная (не)терпимость -> віро(не)терпимість, but only when in combination with "religious/религиозная" - "religious (in)tolerance", "религиозная (не)терпимость" - otherwise simply "терпимість"
@@ -524,6 +557,9 @@ You can rely on and treat English text as a primary source, deduce context from 
     * динка -> динка (НЕ дінка), when about ethnic group or their religion
     * Уїцилопочтлі -> Віцилопочтлі
 
+    * religious opinion/view, мнение про религию -> ставлення до віри
+    * religious school opinion/view, мнение про религиозную школу -> ставлення до релігійної школи
+
     * lutheran/calvinist_preachers(_building), здание лютеранских/кальвинистских проповедников -> лютеранський/кальвіністський молитовний дім
 
 ## Culture
@@ -544,6 +580,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     * tolerated culture, приемлемая культура -> прийнятна культура, НЕ толерована
     * cultural capacity, культурный потенциал -> культурна спроможність
     * сultural tradition, культурные традиции -> культурна спадщина
+    * cultural opinion/view, мнение про культуру -> ставлення до культури
     * "dominant religion, culture, language, dialect", "доминирующая/доминантная религия, культура, язк, диалект" -> основна віра, культура, мова, діалект
     * "dominant_country", "доминирующая страна" -> провідна країна
     * доминирует, доминирующий -> depending on context choose панує (панівний), переважає (переважний), основний or провідний (when about cultural or religious game concepts mentioned above)
@@ -697,6 +734,14 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** автобиография, автобиографический - саможиттєпис, саможиттєписний
     ** биографическая рукопись - рукописний життєпис
     ** "житіє" when about ancient kings or important religious figures, saints
+    * global, глобальный -> всесвітній
+    ** sometimes "світовий" fits better, in particular in such expressions as "світовий ринок"
+    ** when used in the meaning of full, total, translate as "повний", "цілковитий", for example "требует полной реконструкции" -> "потребує повної перебудови"
+    ** BUT keep "глобальний" for various game technical terms, such as "глобальні модифікатори", "глобальні списки"
+    * horizon, горизонт -> обрій
+    ** in narrative expression stressing things or moving beyond the horizon, or vast spaces translate as "небокрай" ("далеко за небокрай", "до самого небокраю")
+    ** fixed expression "земля на горизонті" -> "земля на видноколі"
+    ** in astronomical, geographical and geometrical texts keep "горизонт"
     * deficit, дефицит -> strive to avoid "дефіцит", depending on context use the following alternatives:
     ** "нестача", especially in menus
     ** "брак", "бракує" as an extra alternative to diversify narrative and event texts
@@ -705,6 +750,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** "торгові збитки" when specifically about trade deficits
     * депутати - представники
     * газета - часопис
+    * комфорт, комфортный - затишок, затишний
     * контрабанда - перемитництво, як діяльність, "перемитні товари", якщо про товари
     * контрабандист - перемитник
     * контракт - угода, sometimes замовлення, pick based on context
@@ -847,6 +893,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     * некоторые, деякі - поширений невдалий переклад "некоторые" на "деякі", хоча натомість часто варто переклади як "дехто": деякі (некоторые) вважають, пропонують і т.і. -> дехто вважає, пропонує і т.і.
     * вершить суд, правосудие - чинити суд, правосуддя
     * на добро или на зло, во благо или во вред - "на користь чи на згубу" (in governmental and official context), "на щастя чи на лихо" (in narrative and more casual tone), "на здобуток чи на шкоду" (for merchants, trade, guilds, crafts, money matters in general)
+    * верующий, віруючий - вірянин
 
 
 
