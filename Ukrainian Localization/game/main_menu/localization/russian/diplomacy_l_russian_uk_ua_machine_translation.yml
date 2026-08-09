@@ -2758,7 +2758,7 @@
   DIPLOMACY_MACROBUILDER_LATERAL_VIEW_TOGGLE_TOOLTIP: "Показати або приховати посольські дії цього типу"
   DIPLOMACY_MACROBUILDER_LATERAL_VIEW_SELECT_COUNTRY: "Оберіть цю посольську дію"
   DIPLOMACY_ENABLED_WILL_ACCEPT: "Зможуть обирати та погодяться"
-  DIPLOMACY_COUNTRIES_ENABLED_WILL_ACCEPT: "#T Дипломатична дія#! Кількість доступних [Concept('countries', 'країн')|e], які приймуть цю посольську дію."
+  DIPLOMACY_COUNTRIES_ENABLED_WILL_ACCEPT: "#T Посольська дія#! Кількість доступних [Concept('countries', 'країн')|e], які приймуть цю посольську дію."
   DIPLOMACY_WILL_ACCEPT: "Погодяться"
   DIPLOMACY_WILL_NOT_ACCEPT: "Не погодяться"
   DIPLOMACY_PLAYER_ACTION_CLICK: "Клацніть, щоб обрати [Concept('country', 'країну')|e] для дії «$ACTION$»."

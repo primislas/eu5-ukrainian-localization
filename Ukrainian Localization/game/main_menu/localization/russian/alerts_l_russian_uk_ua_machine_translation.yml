@@ -131,7 +131,7 @@
   ALERT_LAW_ENTRY: "$BULLET_WITH_TAB$[LAW.GetName]"
   ALERT_POSSIBLE_GOV_ACTION_TITLE: "Можливі доручення"
   ALERT_POSSIBLE_GOV_ACTION: "Ми можемо доручити своїй [Concept('cabinet', 'раді')|e] додаткові [Concept('cabinet_actions', 'завдання')|e]."
-  ALERT_MAX_DIPLOMATS_AVAILABLE_TITLE: "Можливі дипломатичні дії"
+  ALERT_MAX_DIPLOMATS_AVAILABLE_TITLE: "Можливі посольські дії"
   ALERT_MAX_DIPLOMATS_AVAILABLE: "Ми вже задіяли всіх [Concept('diplomats', 'послів')|e], яким можемо доручити [Concept('diplomatic_actions', 'відповідні дії')|e]."
   ALERT_RELIGIOUS_ASPECT_AVAILABLE_TITLE: "Можлива устава віри"
   ALERT_RELIGIOUS_ASPECT_AVAILABLE: "Ми можемо прийняти нову [Concept('religious_aspect', 'уставу віри')|e]."

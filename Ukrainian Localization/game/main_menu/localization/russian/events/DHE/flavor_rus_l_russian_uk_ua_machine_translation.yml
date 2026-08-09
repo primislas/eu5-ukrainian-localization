@@ -133,7 +133,7 @@
   flavor_rus.18.entry: "$flavor_rus.18.title$"
   flavor_rus.18.desc: "Посол у східних країнах [fyodor_baikov.GetName] нещодавно наніс візит на територію #ONCLICK:COUNTRY,[GetCountry('CHI').GetKey] #TOOLTIP:COUNTRY,[GetCountry('CHI').GetKey],X [GetCountry('CHI').Custom('CL_GEN')|L]#!#! з метою встановити добрі та взаємоповажні відносини. На жаль, не звичний до східних порядків посол невірно виконав місцеві обряди, через що виникло помилкове враження, ніби [ROOT.GetCountry.GetGovernment.GetRuler.GetName] визнає верховенство [GetCountry('CHI').Custom('CL_GEN')]. До #L [ROOT.GetCountry.GetAdjective|l]ого#! двору було негайно надіслано вимогу данини. Цю помилку необхідно якнайшвидше виправити, інакше проти нас може ополчитися народ, який згадав дні #TOOLTIP:CULTUREGROUP,tatar_group,X #L татарського#!#! іга."
   flavor_rus.18.a: "Відкинемо їхні вимоги."
-  flavor_rus.18.tt1: "Прохолодні відносини між [target_root_country.Custom('CL_INST')] та [GetCountry('CHI').Custom('CL_INST')] тимчасово унеможливлюють дипломатичні зв'язки та спільні дії."
+  flavor_rus.18.tt1: "Прохолодні відносини між [target_root_country.Custom('CL_INST')] та [GetCountry('CHI').Custom('CL_INST')] тимчасово унеможливлюють посольські зв'язки та спільні дії."
   rus_ignored_vassal_demands: "Відмова від статусу васала"
   flavor_rus.18.b: "Погодимося зі статусом васала, але відмовимося платити."
   rus_paid_vassal_respect: "Висловлено васальську повагу"
