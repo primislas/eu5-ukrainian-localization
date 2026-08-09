@@ -61,7 +61,7 @@
   for_the_glory_tt: "Ми поглинули [Concept('subject', 'васала')|e]"
   ACHIEVEMENT_a_pile_of_gold: "Купа золота"
   ACHIEVEMENT_DESC_a_pile_of_gold: "Заволодійте 35 місцевостями, які виробляють золото або срібло."
-  ACHIEVEMENT_at_every_continent: "Глобальне охоплення"
+  ACHIEVEMENT_at_every_continent: "Всесвітнє охоплення"
   ACHIEVEMENT_DESC_at_every_continent: "Заволодійте хоча б однією місцевістю на кожному континенті."
   ACHIEVEMENT_grand_coalition: "Велика коаліція"
   ACHIEVEMENT_DESC_grand_coalition: "Вступіть до коаліції, що складається з понад п'яти країн."

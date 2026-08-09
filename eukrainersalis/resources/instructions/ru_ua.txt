@@ -697,6 +697,10 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** автобиография, автобиографический - саможиттєпис, саможиттєписний
     ** биографическая рукопись - рукописний життєпис
     ** "житіє" when about ancient kings or important religious figures, saints
+    * global, глобальний -> всесвітній
+    ** sometimes "світовий" fits better, in particular in such expressions as "світовий ринок"
+    ** when used in the meaning of full, total, translate as "повний", "цілковитий", for example "требует полной реконструкции" -> "потребує повної перебудови"
+    ** BUT keep "глобальний" for various game technical terms, such as "глобальні модифікатори", "глобальні списки"
     * horizon, горизонт -> обрій
     ** in narrative expression stressing things or moving beyond the horizon, or vast spaces translate as "небокрай" ("далеко за небокрай", "до самого небокраю")
     ** fixed expression "земля на горизонті" -> "земля на видноколі"
