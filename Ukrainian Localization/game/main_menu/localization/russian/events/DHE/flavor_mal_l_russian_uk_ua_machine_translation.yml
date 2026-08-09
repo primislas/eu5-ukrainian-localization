@@ -146,7 +146,7 @@
   flavor_mal.24.b: "Наше головне завдання — підтримання стабільності на території [ROOT.GetCountry.Custom('CL_GEN')]."
   flavor_mal.24.b.entry: "Наше головне завдання — підтримання стабільності в Малі."
   mal_finding_america_yields_rewards_tt: "Відкриття нового [Concept('continent', 'континенту')|e] зміцнить нашу позицію у #Y світі#!."
-  flavor_mal.25.title: "Земля на горизонті!"
+  flavor_mal.25.title: "Земля на видноколі!"
   flavor_mal.25.entry: "$flavor_mal.25.title$"
   flavor_mal.25.desc: "Хоча ми так і не дізналися, що сталося з попередньою експедицією, [target_character.GetName] [Select_CString(target_character.IsFemale,'виявила', 'виявив')] невідомі землі. Ця подія вразила самих мореплавців та [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] і відкрила перед нами багато нових можливостей. Схоже, [target_character2.GetName] [Select_CString(target_character2.IsFemale,'помилялася', 'помилявся')]: іноді потрібно дивитися вдалину, а не під ноги."
   flavor_mal.25.a: "Потрібно швидше заселити нові землі."

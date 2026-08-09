@@ -390,7 +390,7 @@
   DISEASE_PRESENCE_LOCATION_TOOLTIP: "#T [DISEASE.GetNameWithNoTooltip]#!\nПоширеність: $PRESENCE|2R%2$\nОпірність: $RESISTANCE|%2$"
   DISEASE_ENDEMIC_LOCATION_TOOLTIP: "#T [DISEASE.GetNameWithNoTooltip]#!\nЕндемічна місцевість\nБазова частота зараження за проміжок часу: $RATE|2R%2$\nГеографія цієї місцевості робить її вразливішою до цієї пошести."
   DISEASE_PRESENCE_LOCATION_TOOLTIP_SOME_POPS: "[Concept('pops', 'Громади')|e] від міграції при різних рівнях: #TOOLTIP:$BREAKDOWN_TAG$ $VAL$#!"
-  INFECTION_BREAKDOWN: "Деталі про інфекцію"
+  INFECTION_BREAKDOWN: "Деталі про пошесть"
   DISEASE_PRESENCE_POP_TOOLTIP: "[POP.GetName], [DISEASE.GetName|l]: поширеність — $PRESENCE|%$, опірність — $RESISTANCE|%$"
   DISEASE_PRESENCE_SUB_UNIT_TOOLTIP: "[SUBUNIT.GetName], [DISEASE.GetName|l]: поширеність — $PRESENCE|%$, опірність — $RESISTANCE|%$"
   DISEASE_PRESENCE_UNIT_TOOLTIP: "[UNIT.GetName], [DISEASE.GetName|l]: у заражених підрозділів ($NUM|Y$) такі середні показники: поширеність — $PRESENCE|%$, опірність — $RESISTANCE|%$"
