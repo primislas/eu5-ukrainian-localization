@@ -697,7 +697,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** автобиография, автобиографический - саможиттєпис, саможиттєписний
     ** биографическая рукопись - рукописний життєпис
     ** "житіє" when about ancient kings or important religious figures, saints
-    * global, глобальний -> всесвітній
+    * global, глобальный -> всесвітній
     ** sometimes "світовий" fits better, in particular in such expressions as "світовий ринок"
     ** when used in the meaning of full, total, translate as "повний", "цілковитий", for example "требует полной реконструкции" -> "потребує повної перебудови"
     ** BUT keep "глобальний" for various game technical terms, such as "глобальні модифікатори", "глобальні списки"
@@ -713,6 +713,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** "торгові збитки" when specifically about trade deficits
     * депутати - представники
     * газета - часопис
+    * комфорт, комфортный - затишок, затишний
     * контрабанда - перемитництво, як діяльність, "перемитні товари", якщо про товари
     * контрабандист - перемитник
     * контракт - угода, sometimes замовлення, pick based on context
