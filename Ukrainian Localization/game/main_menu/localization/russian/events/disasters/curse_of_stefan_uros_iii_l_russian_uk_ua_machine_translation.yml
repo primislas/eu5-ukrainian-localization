@@ -17,7 +17,7 @@
   curse_of_stefan_uros_iii.5.a: "З черню перемовин не буде!"
   curse_of_stefan_uros_iii.5.b: "Ми ж можемо досягти компромісу?"
   curse_of_stefan_uros_iii.6.title: "Провінція проголошує незалежність!"
-  curse_of_stefan_uros_iii.6.desc: "Підлі зрадники з [target_location.Custom('LR_GEN')|l] [target_location.GetName] показали своє справжнє обличчя, відкрито виступивши проти влади корони! У мерзенній пародії на легітимну церемонію ці покидьки проголосили відділення від нашої країни і навіть насмілилися заявити про свої претензії на #L [ROOT.GetCountry.GetAdjective|l]ий#! трон!"
+  curse_of_stefan_uros_iii.6.desc: "Підлі зрадники з [target_location.Custom('LR_GEN')|l] [target_location.GetName] показали своє справжнє обличчя, відкрито виступивши проти влади корони! У мерзенній пародії на правочинну церемонію ці покидьки проголосили відділення від нашої країни і навіть насмілилися заявити про свої зазіхання на #L [ROOT.GetCountry.GetAdjective|l]ий#! трон!"
   curse_of_stefan_uros_iii.6.a: "Їхні трупи стануть добривом для наших полів!"
   curse_of_stefan_uros_iii.6.b: "Ну і нехай…"
   people_of_target_province_will_declare_war_on_us_tt: "Жителі провінції [target_province.GetNameWithNoTooltip] оголосять нам [Concept('war', 'війну')|e]!"

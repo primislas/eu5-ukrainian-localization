@@ -14,7 +14,7 @@
   elevated_prussia: "Піднесення Пруссії"
   king_in_prussia.2.c: "Ми не визнаємо цього самопроголошеного монарха."
   king_in_prussia_rejection_tt: "Владі #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_GEN')|L]#!#! треба обирати між своєю фальшивою короною та статусом імперського князівства"
-  opinion_prussia_not_recognized: "Заперечує легітимність Пруссії"
+  opinion_prussia_not_recognized: "Заперечує право Пруссії на владу"
   king_in_prussia.3.title: "Король у [target_country.Custom('CL_PREP')]"
   king_in_prussia.3.desc: "[emperor_character.GetName], [emperor_character.IsFemale,'наша близька подруга та союзниця', 'наш близький друг та союзник')], милостиво [emperor_character.IsFemale,'погодилася', 'погодився')] звести #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_ACC')|L]#!#! в ранг імперського #TOOLTIP:COUNTRY_RANK,rank_kingdom,X #L королівства#!#!! Подібним привілеєм не жалували нікого з часів піднесення королів #ONCLICK:COUNTRY,[GetCountry('BOH').GetKey] #TOOLTIP:COUNTRY,[GetCountry('BOH').GetKey],X [GetCountry('BOH').Custom('CL_GEN')|L]#!#!. Королі [target_country.Custom('CL_GEN')] з гордістю носитимуть свою корону, не забуваючи про милість, надану нам [emperor_character.IsFemale,'імператрицею', 'імператором')]."
   king_in_prussia.3.a: "Хвала Богу та [Select_CString(emperor_character.IsFemale, 'імператриці', 'імператору')]!"

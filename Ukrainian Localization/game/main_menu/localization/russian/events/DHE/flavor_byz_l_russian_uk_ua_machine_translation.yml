@@ -431,7 +431,7 @@
   flavor_byz.65.a.entry: "Він буде нашим #italic месазоном#!"
   flavor_byz.65.b: "Нехай перекладає латинські книги на [ROOT.GetCountry.GetCourtLanguage.GetNameWithNoTooltip|l]у!"
   flavor_byz.65.b.entry: "Нехай перекладає латинські книги на нашу придворну мову!"
-  byz_target_character_is_free_to_promote: "Якщо [target_character.GetName] стане [Concept('head_of_the_cabinet', 'головою ради')|e], [target_character.GetHerHis] підвищення не коштуватиме вам [legitimacy_i|e][Concept('legitimacy', 'легітимності')|e]"
+  byz_target_character_is_free_to_promote: "Якщо [target_character.GetName] стане [Concept('head_of_the_cabinet', 'головою ради')|e], [target_character.GetHerHis] підвищення не коштуватиме вам [legitimacy_i|e][Concept('legitimacy', 'права на владу')|e]"
   flavor_byz.66.title: "Великдень святого Димитрія"
   flavor_byz.66.entry: "$flavor_byz.66.title$"
   flavor_byz.66.desc: "#TOOLTIP:POPTYPE,burghers,X #L Міщани#!#! [target_location.Custom('LR_GEN')|l] [target_location.GetName] починають готуватися до щорічного ярмарку, присвяченого святому Димитрію. Це звичаєве святкування не тільки приваблює безліч місцевих жителів та іноземних гостей, але також слугує наочною демонстрацією #L [ROOT.GetCountry.GetAdjective|l]ого#! благочестя. Ми можемо зробити свій внесок в організацію свята, зробивши так, щоб нинішні урочистості запам'яталися на віки."

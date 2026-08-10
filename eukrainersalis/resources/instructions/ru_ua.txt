@@ -234,6 +234,22 @@ You can rely on and treat English text as a primary source, deduce context from 
     * наши люди -> наш люд, наші піддані, when about a country or area population in general
     * жалоба -> "кривда", when referring to a slight in a political context, official complaint, estate dispute, etc.
 
+    * legitimacy, легитимность -> право на владу
+    ** stylistic the construct "право (Gen. Case whose) на владу" is better, when appropriate, for example: "право монарха/країни/корони/зборів/персонажа на владу", "право династії Х на владу"
+    ** when legal status of legitimate right to rule is the essence, translate as "правочинність"
+    ** when "право на власть" is right next to "легитимность", translate as "правочинність"
+    ** "право на владу" can be "визнане" and "невизнане"
+    ** when low legitimacy and rejection of the right to rule is the focus, can be translated as "невизнання права на владу"
+    ** легітимний -> правочинний
+    ** легітимізувати владу -> утвердити владу
+    ** some fixed expressions and tautology avoidance guidelines:
+    *** легитимность нашего правління -> наше право на владу
+    *** легитимность власти -> право на владу
+    *** легитимность правлящей власти -> право діючих правителів на владу
+    *** здобути легітимність -> здобути визнання права на владу, зміцнити право на владу, утвордити право на владу
+    *** нехватка, недостаток легитимности -> невизнання права на владу
+    ** Overall this is a complicated concept and context that usually requires grammatical and lexical changes around it. So adapt sentences appropriately, make sure there are no post-translation tautologies, so that approved "legitimacy" and "legitimate" translations fit in naturally.
+
     * parliament, парламент - збори, except when clearly talking about Western, Central, or Northern European nations where "парламент" is appropriate
     ** збори скликаються, радяться, обговорюють питання, засідають, тощо, use the most appropriate forms freely
     ** parliament issue, парламентский вопрос - питання, but depending on context you can elaborate it as "питання зборів", "питання для зборів", "ухвала", "рішення", etc.; питання розглядаються, подаються (на розгляд) зборам, схвалюються, тощо, adapt to context to sound as natural as possible;
@@ -868,6 +884,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     * некоторые, деякі - поширений невдалий переклад "некоторые" на "деякі", хоча натомість часто варто переклади як "дехто": деякі (некоторые) вважають, пропонують і т.і. -> дехто вважає, пропонує і т.і.
     * вершить суд, правосудие - чинити суд, правосуддя
     * на добро или на зло, во благо или во вред - "на користь чи на згубу" (in governmental and official context), "на щастя чи на лихо" (in narrative and more casual tone), "на здобуток чи на шкоду" (for merchants, trade, guilds, crafts, money matters in general)
+    * верующий, віруючий - вірянин
 
 
 

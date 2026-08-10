@@ -8,7 +8,7 @@
   court_and_country.2.a: "Країна перемогла!"
   court_and_country.2.b: "Можливо, тепер ми нарешті зможемо працювати разом."
   court_and_country.2.c: "[ROOT.GetCountry.GetGovernment.GetCourtTitle] [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip] у руїнах."
-  legitimacy_yields_more_crown_power_tt: "Завдяки успішному вирішенню [Concept('disaster', 'лиха')|e] «[ShowDisasterName('court_and_country')]» [Concept('legitimacy', 'легітимність')|e] тепер даватиме більше [Concept('crown_power', 'влади правителю')|e]."
+  legitimacy_yields_more_crown_power_tt: "Завдяки успішному вирішенню [Concept('disaster', 'лиха')|e] «[ShowDisasterName('court_and_country')]» [Concept('legitimacy', 'право на владу')|e] тепер даватиме більше [Concept('crown_power', 'влади правителю')|e]."
   court_and_country.3.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] демонстру[ROOT.GetCountry.Custom('nobles_yeyut')] силу"
   court_and_country.3.desc: "Прагнучи зосередити владу над країною в руках монарха, ми повинні обмежити вплив, яким володі[ROOT.GetCountry.Custom('nobles_yeyut')] місцев[ROOT.GetCountry.Custom('nobles_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l]. Доба самовладдя — це час переходу від феодального укладу, за якого [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] володі[ROOT.GetCountry.Custom('nobles_yeyut')] значною місцевою владою, до нашого ідеалу потужної централізованої державної машини, вищою владою над якою володіє лише [target_character.GetName]."
   court_and_country.3.a: "Скасувати їхні привілеї!"

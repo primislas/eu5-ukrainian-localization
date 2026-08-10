@@ -259,7 +259,7 @@
   flavor_hun.430.c: "Залишимо все як є. Це знак згори."
   flavor_hun.430.d: "Знайти винного! Випороти його, а заодно і всіх, хто нарікає через стан корони!"
   flavor_hun.440.title: "Порушення звичаю"
-  flavor_hun.440.desc: "[scope_holy_crown_of_hungary.GetName] використовувалася для коронації всіх угорських монархів з часів давнього Бели III.\n\nАле сьогодні цей звичай перервався: [ruler_scope.GetName|l], стаючи новою королевою #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, поклала на своє чоло зовсім іншу корону.\n\n[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] вкрай незадоволен[ROOT.GetCountry.Custom('nobles_yiaei')] відсутністю давньої реліквії — багато хто з них навіть вважає коронацію нелегітимною."
+  flavor_hun.440.desc: "[scope_holy_crown_of_hungary.GetName] використовувалася для коронації всіх угорських монархів з часів давнього Бели III.\n\nАле сьогодні цей звичай перервався: [ruler_scope.GetName|l], стаючи новою королевою #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, поклала на своє чоло зовсім іншу корону.\n\n[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] вкрай незадоволен[ROOT.GetCountry.Custom('nobles_yiaei')] відсутністю давньої реліквії — багато хто з них навіть вважає коронацію неправочинною."
   flavor_hun.440.a: "Ми повинні повернути її за будь-яку ціну!"
   flavor_hun.450.title: "Розширення замку Буди"
   flavor_hun.450.entry: "Розширення Будайської фортеці"

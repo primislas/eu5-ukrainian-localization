@@ -129,7 +129,7 @@
   appeal_to_circle_diet_effect_text_past: "[SCOPE.sCountry('actor').GetName] надісла[SCOPE.sCountry('actor').Custom('end_vlaloly')] запит до райхстагу округу."
   appeal_to_circle_diet_reject_effect_text: "[SCOPE.sCountry('recipient').GetName] відхиля[SCOPE.sCountry('recipient').Custom('end_yeyut')] запит #ONCLICK:COUNTRY,[SCOPE.sCountry('actor').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('actor').GetKey],X [SCOPE.sCountry('actor').Custom('CL_GEN')|L]#!#!."
   appeal_to_circle_diet_reject_effect_text_past: "[SCOPE.sCountry('recipient').GetName] відхили[SCOPE.sCountry('recipient').Custom('end_vlaloly')] запит #ONCLICK:COUNTRY,[SCOPE.sCountry('actor').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('actor').GetKey],X [SCOPE.sCountry('actor').Custom('CL_GEN')|L]#!#!."
-  INCOMING_OFFER_appeal_to_circle_diet: "[SCOPE.sCountry('actor').GetName] запиту[SCOPE.sCountry('actor').Custom('end_yeyut')] фінансову допомогу. У разі згоди ми передамо п’яту частину нашого річного доходу та збільшимо легітимність цієї країни. Відмова знизить вдоволення нашого округу.\n\n$INFO$"
+  INCOMING_OFFER_appeal_to_circle_diet: "[SCOPE.sCountry('actor').GetName] запиту[SCOPE.sCountry('actor').Custom('end_yeyut')] фінансову допомогу. У разі згоди ми передамо п’яту частину нашого річного доходу та збільшимо право цієї країни на владу. Відмова знизить вдоволення нашого округу.\n\n$INFO$"
   INCOMING_OFFER_TITLE_appeal_to_circle_diet: "$appeal_to_circle_diet$"
   appeal_to_circle_diet_timeout_tt: "Протягом останніх 2 років жодна країна не використовувала [Concept('diplomatic_action', 'посольську дію')|e] «$appeal_to_circle_diet$»"
   request_circle_infrastructure_expansion: "Прохання про розширення військової інфраструктури"

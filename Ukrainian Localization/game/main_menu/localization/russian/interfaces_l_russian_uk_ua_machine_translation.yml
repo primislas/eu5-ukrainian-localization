@@ -2331,7 +2331,7 @@
   select_parliament_debate_inform_choice_tt: "Відбудеться обговорення обраного [Concept('parliament_issue', 'питання')|e]."
   select_call_organization_parliament_none_available: "@trigger_no! Жоден з учасників з [Concept('special_status', 'особливим статусом')|e] не має питань на розгляд на [Concept('parliament', 'зборах')|e]."
   yanantin_topbar_hint: "Є кілька способів змінити цей показник.\n$BULLET_WITH_TAB$Релігійні дії [ShowGenericActionName('cleansing_ritual_yanantin')] та [ShowGenericActionName('pilgrimage_action')] \n$BULLET_WITH_TAB$Перемога або поразка в [Concept('battles', 'битвах')|e].\n$BULLET_WITH_TAB$Вшанування [Concept('god', 'бога')|e] через вибір [Concept('religious_aspect', 'устави віри')|e].$BULLET_WITH_TAB$Втрата [Concept('population', 'населення')|e] через [Concept('disease', 'пошесть')|e]."
-  righteousness_topbar_hint: "Показує, наскільки доброчесним вважається наш уряд. Головним чином залежить від [Concept('legitimacy', 'легітимності')|e]."
+  righteousness_topbar_hint: "Показує, наскільки доброчесним вважається наш уряд. Головним чином залежить від [Concept('legitimacy', 'права на владу')|e]."
   harmony_topbar_hint: "Найкращий спосіб підтримувати рівновагу зі всесвітом — не впадати в крайнощі та плисти за течією."
   PRESTIGE_HINT: "Нашій країні бракує слави!"
   prestige_topbar_hint: "Є багато способів здобути славу, включно з перемогами в [Concept('battles', 'битвах')|e], але основним із них є [Concept('cultural_maintenance', 'плекання культури')|e] зі [Concept('budget', 'скарбниці')|e]."

@@ -103,7 +103,7 @@
   flavor_boh.22.title: "Спільне генеральне зібрання"
   flavor_boh.22.entry: "$flavor_boh.22.title$"
   flavor_boh.22.desc: "Відтоді як ми очолили #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священну Римську Імперію#!#!, різниця між імперськими та нашими власними звичаями діловодства стала чіткою як ніколи. Положення посилюється відмінностями в наших культурах та укладах — вони заважають нам відстоювати законність влади над імперією.\n\nЩоб [target_character.GetName] [Select_CString(target_character.IsFemale, 'змогла', 'зміг' )] зміцнити своє становище на престолі, а народ став ближчим до імперських порядків, радники запропонували заснувати спільне генеральне зібрання. До нього увійдуть деяк[ROOT.GetCountry.Custom('nobles_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] та символічні представники всіх інших курфюрстів; крім того, зайвий раз будуть підтверджені імперські закони, що забезпечують їхні привілеї."
-  flavor_boh.22.a: "Тільки так ми забезпечимо собі легітимність."
+  flavor_boh.22.a: "Тільки так ми забезпечимо собі право на владу."
   flavor_boh.22.b: "Не будемо змішувати зовнішню та внутрішню політику."
   every_elector_25_opinion_tt: "Кожен виборщик отримає [ShowBiasValue('granted_joint_assembly_decrees_modifier')|+=0] до думки про нас"
   flavor_boh.23.title: "[target_area.GetNameWithNoTooltip]: земельний суд"
