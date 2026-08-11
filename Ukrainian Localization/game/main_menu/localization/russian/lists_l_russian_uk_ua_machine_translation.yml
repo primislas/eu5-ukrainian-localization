@@ -976,7 +976,7 @@
   custom_search_filter_location_category_name: "@location! Фільтри для типів місцевостей"
   custom_search_filter_location_group_name: "@location! Типи місцевостей"
   custom_search_filter_location_rank_category_name: "@location! Ранги місцевостей"
-  CUSTOM_SEARCH_FILTER_LOCATION_RANK_NAME: "[LocationRank.GetNameWithNoTooltip|L] [Location.GetNameWithNoTooltip]"
+  CUSTOM_SEARCH_FILTER_LOCATION_RANK_NAME: "[LocationRank.GetIcon] [LocationRank.GetNameWithNoTooltip]"
   CUSTOM_SEARCH_FILTER_LOCATION_RANK_DESC: "Відображаються [Concept('locations', 'місцевості')|e] рангу «[LocationRank.GetNameWithNoTooltip]»."
   custom_search_filter_location_topography_category_name: "@topography! Рельєф місцевостей"
   CUSTOM_SEARCH_FILTER_LOCATION_TOPOGRAPHY_NAME: "[TOPOGRAPHY.GetNameWithNoTooltip]"

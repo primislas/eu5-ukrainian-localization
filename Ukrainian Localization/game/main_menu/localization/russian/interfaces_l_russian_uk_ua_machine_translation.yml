@@ -614,7 +614,7 @@
   BASE_TOL_CUL: "Вартість прийняття [CULTURE.GetNameWithNoTooltip|l]ої культури\nБазова вартість [Concept('tolerated_culture', 'прийнятної культури')|e]: $VAL|-2$"
   BASE_ACP_OPINION: "[Concept('cultural_opinion', 'Думка')|e] про $NAME$у культуру: $VAL|-=%2$"
   BASE_ACP_LANGUAGE_COMMON: "[Concept('common_language', 'Загальноприйнята мова')|e] — також #L [LANGUAGE.GetName|l]а#!: $VAL|-=%2$"
-  BASE_ACP_LANGUAGE_FAMILY_COMMON: "[Concept('common_language', 'Загальноприйнята мова')|e] також входить до #L [LANGUAGE.GetFamily.GetName|l]ої#! [Concept('language_family_short', 'сім'ї')|e]: $VAL|-=%2$"
+  BASE_ACP_LANGUAGE_FAMILY_COMMON: "[Concept('common_language', 'Загальноприйнята мова')|e] також входить до #L [LANGUAGE.GetFamily.GetName|l]ої#! [Concept('language_family_short', 'сім’ї')|e]: $VAL|-=%2$"
   BASE_ACP_LANGUAGE_COURT: "[Concept('court_language', 'Придворна мова')|e] — також #L [LANGUAGE.GetName|l]а#!: $VAL|-=%2$"
   BASE_ACP_LANGUAGE_FAMILY_COURT: "[Concept('court_language', 'Придворна мова')|e] також входить до #L [LANGUAGE.GetFamily.GetName|l]ої#! [Concept('language_family_short', 'сім’ї')|e]: $VAL|-=%2$"
   BASE_ACP_LANGUAGE_LITURGICAL: "[Concept('liturgical_language', 'Літургійна мова')|e] — також #L [LANGUAGE.GetName|l]а#!: $VAL|-=%2$"
