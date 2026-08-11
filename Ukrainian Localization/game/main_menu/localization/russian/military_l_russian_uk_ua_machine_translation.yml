@@ -7,7 +7,7 @@
   CAPITAL_FLIPPING: "#T Нова контролююча сторона#!\nМісцевість @location!$PROV|Y$ починає контролювати інша [Concept('controller', 'сторона')] — $FLIPPER|Y$, оскільки їй належить [Concept('province_capital', 'столиця')|e] провінції @location! $FLIPPINGLOCATION|Y$.\nПрогрес: $PERCENT|Y2%$."
   FORT_FLIPPING_SLIPPING: "Країна $FLIPPER$ знову починає втрачати провінцію @location!$PROV$. Прогрес: $PERCENT|Y%$."
   HAS_NO_FORTS: "Не володіє [Concept('forts', 'фортецями')|e] і не знаходиться в [Concept('zone_of_control', 'зоні контролю')|e]."
-  APPLY_MILITARY_STANCE_TO_ALL: "Обрати військову позицію для всіх наших васалів"
+  APPLY_MILITARY_STANCE_TO_ALL: "Обрати воєнну настанову для всіх наших васалів"
   normal_military_stance: "Самостійність"
   normal_military_stance_desc: "[Concept('subject', 'Васал')|e] буде однаково використовувати різні військові тактики."
   normal_military_stance_desc_all: "Всі наші [Concept('subjects', 'васали')|e] будуть однаково використовувати різні військові тактики."
