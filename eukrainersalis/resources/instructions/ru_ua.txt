@@ -497,6 +497,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** також віру можна прийняти або перейти до віри (нейтральний формальний зміст), навернутися у віру (більш глибокий духовний зміст та/або активна свідома дія)
     ** віри зрікаються, а НЕ відмовляються чи скасовують
     ** у/до віри навертають, віру поширюють, проповідують
+    ** religion has "послідовники", "віряни" (attempt to avoid very close to words containing "віра" to avoid tautology), NOT "прихильники"
 
     * state_religion, primary_religion, official_religion, основная религия, главная религия -> панівна віра
     * religious (in)tolerance, религиозная (не)терпимость -> віро(не)терпимість, but only when in combination with "religious/религиозная" - "religious (in)tolerance", "религиозная (не)терпимость" - otherwise simply "терпимість"
@@ -551,6 +552,10 @@ You can rely on and treat English text as a primary source, deduce context from 
     * Яхве -> Ягве
     * динка -> динка (НЕ дінка), when about ethnic group or their religion
     * Уїцилопочтлі -> Віцилопочтлі
+
+    * cultural opinion/view, мнение про культуру -> ставлення до культури
+    * religious opinion/view, мнение про религию -> ставлення до віри
+    * religious school opinion/view, мнение про религиозную школу -> ставлення до релігійної школи
 
     * lutheran/calvinist_preachers(_building), здание лютеранских/кальвинистских проповедников -> лютеранський/кальвіністський молитовний дім
 

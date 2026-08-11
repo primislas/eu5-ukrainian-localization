@@ -26,7 +26,7 @@
   RSI_ESTATE: "$BULLET$[Concept('estate', 'Станові')|E] інтереси $ESTATE_GetNameWithNoTooltip_UA_GEN_lower$"
   RSI_ENTRY: "$NAME$: $VAL|2+=%$"
   rsi_separatism: "[Concept('separatism', 'Сепаратизм')|e]"
-  rsi_culture: "[Concept('cultural_opinion', 'Думка про культуру')|e]"
+  rsi_culture: "[Concept('cultural_opinion', 'Ставлення до культури')|e]"
   rsi_religion: "[Concept('religion', 'Віра')|e]"
   rsi_primary: "[Concept('primary_culture', 'Панівна культура')|e]"
   rsi_accepted: "[Concept('accepted_culture', 'Визнана культура')|e]"
