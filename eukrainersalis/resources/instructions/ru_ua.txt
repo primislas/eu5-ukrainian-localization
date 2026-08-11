@@ -469,7 +469,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     * налёт, нальот -> "набіг" if on land, "напад" on sea, "наскок" if stressing unexpected nature
     * налётчик, нальотчик -> грабіжник, розбійник in negative connotations, нападник in neutral (our raiders - наші нападники); make sure to interchange to avoid repetition (e.g. "розбійники розграбували", not "грабіжники розграбували")
 
-## Religion and Culture
+## Religion
 
     * religion, религия -> віра
     ** "віросповідання" у випадках:
@@ -553,7 +553,6 @@ You can rely on and treat English text as a primary source, deduce context from 
     * динка -> динка (НЕ дінка), when about ethnic group or their religion
     * Уїцилопочтлі -> Віцилопочтлі
 
-    * cultural opinion/view, мнение про культуру -> ставлення до культури
     * religious opinion/view, мнение про религию -> ставлення до віри
     * religious school opinion/view, мнение про религиозную школу -> ставлення до релігійної школи
 
@@ -577,6 +576,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     * tolerated culture, приемлемая культура -> прийнятна культура, НЕ толерована
     * cultural capacity, культурный потенциал -> культурна спроможність
     * сultural tradition, культурные традиции -> культурна спадщина
+    * cultural opinion/view, мнение про культуру -> ставлення до культури
     * "dominant religion, culture, language, dialect", "доминирующая/доминантная религия, культура, язк, диалект" -> основна віра, культура, мова, діалект
     * "dominant_country", "доминирующая страна" -> провідна країна
     * доминирует, доминирующий -> depending on context choose панує (панівний), переважає (переважний), основний or провідний (when about cultural or religious game concepts mentioned above)

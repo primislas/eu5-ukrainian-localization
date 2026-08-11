@@ -45,7 +45,7 @@
   ALERT_STARVING_POPS: "#T Голодуючий люд#!\nНа цих землях вимирає люд:"
   ALERT_OVER_RELATIONS_TITLE: "Забагато відносин"
   ALERT_OVER_RELATIONS: "[COUNTRY.GetDiplomacy.GetActiveRelationsInfo]"
-  HAS_OVER_ACCEPTED_CULTURE_LIMIT_TITLE: "Перевищено культурний потенціал"
+  HAS_OVER_ACCEPTED_CULTURE_LIMIT_TITLE: "Перевищено культурну спроможність"
   ALERT_BLOCKADED_PORTS_TITLE: "Заблоковані порти"
   ALERT_BLOCKADED_PORTS: "Ці порти знаходяться [Concept('blockaded', 'в блокаді')|e]:\n"
   ALERT_LOW_ARMY_MAINTENANCE_TITLE: "Урізані видатки на військо"
