@@ -126,7 +126,7 @@
   AUTO_MODIFIER_NAME_number_of_religious_aspects: "Кількість [Concept('religious_aspects', 'устав віри')|e]"
   AUTO_MODIFIER_NAME_power_projection: "[Concept('power_projection', 'Дипломатична вага')|e]"
   AUTO_MODIFIER_NAME_at_war: "У стані [Concept('war', 'війни')|e]"
-  AUTO_MODIFIER_NAME_in_civil_war: "У стані [Concept('civil_war', 'громадянської війни')|e]"
+  AUTO_MODIFIER_NAME_in_civil_war: "У стані [Concept('civil_war', 'міжусобної війни')|e]"
   AUTO_MODIFIER_NAME_at_peace: "У стані [Concept('peace', 'миру')|e]"
   AUTO_MODIFIER_NAME_capital_occupied: "[Concept('capital', 'Столиця')|e] [Concept('occupied', 'окупована')|e]"
   AUTO_MODIFIER_NAME_ruler_has_general_trait: "У [Concept('ruler', 'правителя')|e] є [Concept('general', 'риса полководця')|e]"

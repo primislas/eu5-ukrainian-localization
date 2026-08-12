@@ -2348,7 +2348,7 @@
   STATIC_MODIFIER_NAME_rebel_country_pretender: "Бунт претендента"
   STATIC_MODIFIER_NAME_rebel_country_estate: "Станове повстання"
   STATIC_MODIFIER_NAME_civil_war_pretender_victor: "Перемога претендента"
-  STATIC_MODIFIER_DESC_civil_war_pretender_victor: "Цей правитель прийшов до влади не за правом спадкоємства, а внаслідок громадянської війни, через що підірвано стабільність країни."
+  STATIC_MODIFIER_DESC_civil_war_pretender_victor: "Цей правитель прийшов до влади не за правом спадкоємства, а внаслідок міжусобної війни, через що підірвано стабільність країни."
   STATIC_MODIFIER_NAME_is_lbv_heinrich_xiv_wittelsbach: "Лепрозорій герцога Генріха"
   STATIC_MODIFIER_NAME_distributed_circle_levy: "Розподілене ополчення округу"
   STATIC_MODIFIER_NAME_circle_landfriede_enforcer: "Охоронець земського миру в окрузі"

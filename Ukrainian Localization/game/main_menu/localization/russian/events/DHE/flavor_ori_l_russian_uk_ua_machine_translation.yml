@@ -31,7 +31,7 @@
   ori_kapilendra_may_revolt_tt: "Загроза престолу [ROOT.GetCountry.Custom('CL_GEN')] залишається, доки [target_character.GetName] [Select_CString(target_character.IsFemale,'жива', 'живий')]."
   flavor_ori.6.title: "[target_character.GetNameWithNoTooltip] піднімає повстання"
   flavor_ori.6.entry: "Повстання Капілендри"
-  flavor_ori.6.desc: "[target_character.GetName] продовжує набирати популярність, і [Select_CString(target_character.IsFemale,'їй', 'йому')] вдалося навернути проти нас значну частину населення. [Select_CString(target_character.IsFemale,'Її', 'Його')] військо налічує кілька тисяч осіб, і, якщо [target_character2.GetName] добровільно не зречеться престолу, країну чекає громадянська війна."
+  flavor_ori.6.desc: "[target_character.GetName] продовжує набирати популярність, і [Select_CString(target_character.IsFemale,'їй', 'йому')] вдалося навернути проти нас значну частину населення. [Select_CString(target_character.IsFemale,'Її', 'Його')] військо налічує кілька тисяч осіб, і, якщо [target_character2.GetName] добровільно не зречеться престолу, країну чекає міжусобна війна."
   flavor_ori.6.a: "Зречення — єдиний вихід."
   flavor_ori.6.b: "Наше військо розгромить зрадників."
   kapilendra_rebels: "Прихильники Капілендри"

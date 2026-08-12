@@ -1,10 +1,10 @@
 ﻿l_russian:
-  flavor_nov.1.title: "[ROOT.GetCountry.GetNameWithNoTooltip]: громадянська війна."
+  flavor_nov.1.title: "[ROOT.GetCountry.GetNameWithNoTooltip]: міжусобна війна."
   flavor_nov.1.entry: "$flavor_nov.1.title$"
   flavor_nov.1.desc: "У XIV столітті [ROOT.GetCountry.GetName] вступає в довгу боротьбу за лідерство з Москвою. Міжусобні чвари між представниками еліти послаблюють республіку, тоді як [GetCountry('MOS').GetName], навпаки, нарощує свій вплив. Після нападів, що сталися в 1456 і 1470 роках, [ROOT.GetCountry.GetNameWithNoTooltip] стає [GetCountry('MOS').GetNameWithNoTooltip]им васалом, при цьому зберігши самоврядування, проте вже в 1478 році країна опиняється під повним контролем Москви і остаточно позбавляється незалежності. Своє торгове значення [ROOT.GetCountry.GetNameWithNoTooltip] втрачає тільки в 1703 році, після заснування Санкт-Петербурга."
   flavor_nov.1.a: "Підтримати купців"
   flavor_nov.1.b: "Підтримати дворян"
-  STATIC_MODIFIER_NAME_civil_war_looming: "Насувається громадянська війна"
+  STATIC_MODIFIER_NAME_civil_war_looming: "Насувається міжусобна війна"
   STATIC_MODIFIER_DESC_civil_war_looming: "Міжусобна ворожнеча між лідерами республіки досягає критичної точки."
   flavor_nov.2.title: "Болотовський договір"
   flavor_nov.2.entry: "$flavor_nov.2.title$"

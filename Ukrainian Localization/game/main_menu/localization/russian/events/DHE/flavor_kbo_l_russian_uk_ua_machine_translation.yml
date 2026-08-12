@@ -21,7 +21,7 @@
   flavor_kbo.7.title: "Шипи на [ROOT.GetCountry.GetGovernment.GetAdjective]ій короні"
   flavor_kbo.7.entry: "$flavor_kbo.7.title$"
   flavor_kbo.7.desc: "Ми зуміли здолати наших ворогів — і старих, і нових, — однак у країні достатньо тих, хто прагне побачити, як гинуть наші люди та горять наші великі палаци. Всюди причаїлися шакали, готові зруйнувати все, що ми так довго будували: вони нападуть одразу ж, як відчують у нас слабкість. Щоб не стати жертвами цих підступних владолюбців, ми повинні шукати мудрої поради та розробити чіткий план дій."
-  flavor_kbo.7.a: "Вони хочуть громадянської війни? Буде їм війна!"
+  flavor_kbo.7.a: "Вони хочуть міжусобної війни? Буде їм війна!"
   flavor_kbo.7.b: "Краще уникати відкритого протистояння…"
   kbo_pop_50_everywhere_tt: "[Concept('pop_satisfaction', 'Задоволення')|e] всіх наших [Concept('pops', 'громад')|e] знизиться на [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%]"
   kbo_location_25_control_everywhere_tt: "Усі належні нам [Concept('location', 'місцевості')|e] втратять [ShowNamedValue('control_severe_penalty')|+=2%] [Concept('control', 'контролю')|e]"

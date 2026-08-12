@@ -959,7 +959,7 @@
   flavor_chi.2211.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
   flavor_chi.2211.a.entry: "$common_string_alright$"
   flavor_chi.2212.title: "$expedition_name_treasure_voyage$ допомагає нам"
-  flavor_chi.2212.desc: "Коли члени експедиції «$expedition_name_chinese_expedition$» прибули в місцевість $expedition_location_name$, то виявили, що [ROOT.GetCountry.GetFlavorRank|l] перебуває у стані громадянської війни. Лідер експедиції «$expedition_name_treasure_voyage$» $expedition_leader_name$ та інші її учасники виявилися не з боязкого десятка. Вони перейнялися співчуттям до #L [ROOT.GetCountry.GetAdjective|l]ого#! народу і пропонують нам військову допомогу від імені #TOOLTIP:INTERNATIONAL_ORGANIZATION,$middle_kingdom_tt$,X #L Серединної Країни#!#!."
+  flavor_chi.2212.desc: "Коли члени експедиції «$expedition_name_chinese_expedition$» прибули в місцевість $expedition_location_name$, то виявили, що [ROOT.GetCountry.GetFlavorRank|l] перебуває у стані міжусобної війни. Очільник експедиції «$expedition_name_treasure_voyage$» $expedition_leader_name$ та інші її учасники виявилися не з полохливих. Вони перейнялися співчуттям до #L [ROOT.GetCountry.GetAdjective|l]ого#! народу і пропонують нам військову допомогу від імені #TOOLTIP:INTERNATIONAL_ORGANIZATION,$middle_kingdom_tt$,X #L Серединної Країни#!#!."
   flavor_chi.2212.a: "Ми приймемо будь-яку допомогу."
   flavor_chi.2212.b: "Ні, нам не потрібна їхня допомога."
   flavor_chi.2213.title: "$flavor_chi.2212.title$"
