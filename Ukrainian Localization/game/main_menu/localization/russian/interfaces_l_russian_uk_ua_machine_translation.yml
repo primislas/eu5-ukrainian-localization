@@ -1439,7 +1439,7 @@
   NO_POSSIBLE_VEGETATION: "@trigger_no! Немає відповідної для цього [Concept('vegetation', 'рослинності')|e]."
   NO_POSSIBLE_TOPOGRAPHY: "@trigger_no! Немає відповідного для цього [Concept('topography', 'рельєфу')|e]."
   NO_POSSIBLE_AGE: "@trigger_no! Немає відповідної для цього [Concept('age', 'доби')|e]."
-  NO_POSSIBLE_EMPLOYMENT_SYSTEM: "@trigger_no! Немає відповідної для цього [Concept('employment_system', 'системи найму')|e]."
+  NO_POSSIBLE_EMPLOYMENT_SYSTEM: "@trigger_no! Немає відповідного для цього [Concept('employment_system', 'порядку найму')|e]."
   NO_POSSIBLE_SUBJECT_MILITARY_STANCE: "@trigger_no! Немає відповідної для цього [Concept('subject_military_stance', 'воєнної настанови')|e]."
   NO_POSSIBLE_UNIT_TEMPLATE: "@trigger_no! Немає відповідного для цього [Concept('unit_template', 'строю')|e]."
   NO_POSSIBLE_TOWN_RIGHTS: "@trigger_no! Немає придатних для цього [Concept('town_rights', 'міських прав')|e]."
