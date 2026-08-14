@@ -3,7 +3,7 @@
   flavor_khm.1000.entry: "Утримання іригаційної системи Ангкора"
   flavor_khm.1000.desc: "#TOOLTIP:BUILDING_TYPE,khmer_baray,X #L Барай#!#! у [target_location.Custom('LR_PREP')|l] [target_location.GetName] — найважливіше джерело води для [target_location.Custom('LR_GEN')]. В останні десятиліття ми пережили безліч потрясінь — зокрема, нас [Select_CString(target_old_ruler.IsFemale, 'покинула', 'покинув')] [target_old_ruler.GetName|l], — тож цей барай залишався без належної уваги й поступово занепадав. Якщо ми зараз нічого не зробимо, цей великий резервуар повністю прийде в непридатність."
   flavor_khm.1000.a: "Це надто дорого."
-  flavor_khm.1000.b: "Ми займемося ремонтом."
+  flavor_khm.1000.b: "Ми займемося відбудовою."
   flavor_khm.1001.title: "Біда в Ангкорі"
   flavor_khm.1001.entry: "Барай Ангкора знищено"
   flavor_khm.1001.desc: "Тепер стан #TOOLTIP:BUILDING_TYPE,khmer_baray,X #L барая#!#! настільки жалюгідний, що цей величезний резервуар більше не можна використовувати для постачання."

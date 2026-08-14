@@ -306,6 +306,11 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** затраты на содержание -> always simply "утримання", NOT "витрати на утримання"
     ** in a budgetary sense and context translate "затраты" як "видатки"; BUT when the text stresses the expense (unexpected and/or overly large expenses) then use "витрати"
 
+    * repair, ремонт, ремонтувати -> лагодження, лагодити
+    ** відремонтувати -> полагодити
+    ** when the text is about rebuilding or repairing badly damaged buildings, translate as "відбудова", "відбудувати", sometimes "оновити", "оновлення" fits for smaller works
+    ** when the text is about "repairing" military units (but NOT ships), translate as "спорядження", "спорядити"
+
 ## Estates
 
     * nobles, аристократы -> знать

@@ -4,7 +4,7 @@
   earthquake_events.1.title: "Землетрус у [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
   earthquake_events.1.desc: "На [target_location.Custom('LR_ACC')|l] [target_location.GetName] спіткало жахливе лихо! Земля і небо ніби розкололися, тисячі будівель обвалилися через жахливу тряску, незліченна кількість мешканців залишилися без даху над головою. Серйозно постраждало найвеличніше диво нашого [target_location.Custom('LR_GEN')|l] — #TOOLTIP:WORK_OF_ART,$hagia_sophia_tt$,X #L собор Святої Софії#!#!. На відновлення підуть багато років і чималі кошти…"
   earthquake_events.1.a: "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]"
-  earthquake_events.1.b: "Негайно виділити кошти на ремонт!"
+  earthquake_events.1.b: "Негайно виділити кошти на відбудову!"
   earthquake_events.title: "Землетрус [GetCurrentYear] року в [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
   earthquake_events_minor.desc: "Останніми днями в [target_location.Custom('LR_PREP')|l] [target_location.GetName] спостерігалися сильні поштовхи. Землетрус викликав сильну паніку серед населення і призвів до обвалення безлічі будівель, за яким послідували численні пожежі. На щастя, збиток виявився не настільки великий, як ми побоювалися. Радники зазначають, що викликані землетрусом руйнування — відмінний привід перебудувати [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetNameWithNoTooltip] відповідно до наших потреб. Якщо, звичайно, ми готові виділити на це додаткові кошти."
   earthquake_events_minor.a: "[target_location.GetOwner.Custom('common_string_negative')]"

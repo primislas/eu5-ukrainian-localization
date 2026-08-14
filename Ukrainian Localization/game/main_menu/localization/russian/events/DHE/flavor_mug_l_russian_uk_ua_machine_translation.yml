@@ -81,7 +81,7 @@
   flavor_mug.14.entry: "$flavor_mug.14.title$"
   flavor_mug.14.desc: "Нещодавні технологічні досягнення та нестача уваги до торгівлі в #TOOLTIP:REGION,hindustan_region,X #L Індостані#!#! призвели до того, що Великий колісний шлях занепав. Ця дорога, що з'єднує #TOOLTIP:REGION,persia_region,X #L Персію#!#! та #TOOLTIP:REGION,bengal_region,X #L Бенгалію#!#!, колись сприяла процвітанню регіону. [target_character.GetName] хоче оновити її та створити сучасний шлях між місцевостями [target_location.GetName] та [target_location2.GetName]."
   flavor_mug.14.a: "Це буде справді велика дорога."
-  flavor_mug.14.b: "Не будемо витрачатися на ремонт старовинних доріг."
+  flavor_mug.14.b: "Не будемо витрачатися на відбудову старовинних доріг."
   flavor_mug.15.title: "Заснування столиці в місцевості [target_location.GetNameWithNoTooltip]"
   flavor_mug.15.entry: "Заснування Чандрабада"
   flavor_mug.15.desc: "#TOOLTIP:REGION,bengal_region,X #L Бенгальська#!#! суба вже давно переживає не найкращі часи. Ми вже не контролюємо цей регіон, і [target_character.GetName] хоче заснувати #TOOLTIP:LOCATIONRANK,city,X #L місто#!#!, де правитимуть [Select_CString(target_character.IsFemale,'її', 'його')] намісники. Місцеві жителі теж з радістю підтримають цю ідею, але її втілення коштуватиме недешево."

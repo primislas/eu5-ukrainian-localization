@@ -154,7 +154,7 @@
   flavor_mor.31.b: "Не варто довіряти їм таке важливе завдання."
   flavor_mor.32.title: "Розбудова мечеті Ібн Юсуфа"
   flavor_mor.32.entry: "$flavor_mor.32.title$"
-  flavor_mor.32.desc: "$ben_youssef_mosque$, найважливіша мечеть у [target_location.Custom('LR_PREP')|l] [target_location.GetName], занепадає і потребує масштабного ремонту як всередині, так і зовні. [target_character.GetName] подумує оновити її. Реконструкція не тільки врятує будівлю, а й сприятиме процвітанню #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_GEN')|l]#!#!."
+  flavor_mor.32.desc: "$ben_youssef_mosque$, найважливіша мечеть у [target_location.Custom('LR_PREP')|l] [target_location.GetName], занепадає і потребує повноцінного лагодження як всередині, так і зовні. [target_character.GetName] подумує оновити її. Реконструкція не тільки врятує будівлю, а й сприятиме процвітанню #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_GEN')|l]#!#!."
   flavor_mor.32.a: "Потрібно оновити мечеть."
   flavor_mor.32.b: "Вона й так у непоганому стані."
   flavor_mor.33.title: "$el_badi_palace$"
