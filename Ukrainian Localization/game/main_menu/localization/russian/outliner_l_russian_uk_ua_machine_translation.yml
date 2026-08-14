@@ -210,7 +210,7 @@
   ACTIVE_city: "Присвоєння міських прав [LOCATION.Custom('LR_DAT')|l] [LOCATION.GetNameWithNoTooltip]"
   ACTIVE_town: "Заснування містечка на місці [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetNameWithNoTooltip]"
   ACTIVE_rural_settlement: "Розчищення сільської території в [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetNameWithNoTooltip]"
-  MOVING_CAPITAL: "Перенесення столиці до [LOCATION.Custom('LR_ACC')|l] [LOCATION.GetNameWithNoTooltip]"
+  MOVING_CAPITAL: "Перенесення столиці до [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetNameWithNoTooltip]"
   MARKET_CREATING: "Створити ринок в [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetNameWithNoTooltip]"
   EXPLORATION_CREATING: "Підготовка [Concept('exploration', 'експедиції')|e] на територію області [AREA.GetNameWithNoTooltip] в [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetNameWithNoTooltip]"
   CONQUISTADOR_CREATING: "Підготовка #TOOLTIP:SUBJECT_TYPE,conquistador,X #L конкістадора#!#! до відправлення в @location![LOCATION.Custom('LR_ACC')|l] [LOCATION.GetName] області @area![AREA.GetName]"

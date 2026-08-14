@@ -24,7 +24,7 @@
   flavor_byz_ven.3.a: "Ми не можемо ризикувати репутацією."
   flavor_byz_ven.3.b: "А з іншого боку — чому б і ні? Чому б і не залишити собі ці коштовності?"
   flavor_byz_ven.4.title: "Регалії повернено"
-  flavor_byz_ven.4.desc: "Згідно з домовленістю ми виплатили нашу позику [target_country.Custom('longname_ua_DAT')]. [Concept('work_of_art', 'Витвір')|e] «[target_woa.GetName]» було повернено #ONCLICK:COUNTRY,[origin_country.GetKey] #TOOLTIP:COUNTRY,[origin_country.GetKey],X [origin_country.Custom('CL_DAT')|L]#!#! до [target_location.Custom('LR_ACC')|l] [target_location.GetName].\n\nБуло приємно мати справу зі світлішою #TOOLTIP:GOVERNMENT_REFORM,merchant_republic,X #L купецькою республікою#!#!."
+  flavor_byz_ven.4.desc: "Згідно з домовленістю ми виплатили нашу позику [target_country.Custom('longname_ua_DAT')]. [Concept('work_of_art', 'Витвір')|e] «[target_woa.GetName]» було повернено #ONCLICK:COUNTRY,[origin_country.GetKey] #TOOLTIP:COUNTRY,[origin_country.GetKey],X [origin_country.Custom('CL_DAT')|L]#!#! до [target_location.Custom('LR_GEN')|l] [target_location.GetName].\n\nБуло приємно мати справу зі світлішою #TOOLTIP:GOVERNMENT_REFORM,merchant_republic,X #L купецькою республікою#!#!."
   flavor_byz_ven.4.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   flavor_byz_ven.4.a.entry: "$common_string_brilliant$"
   flavor_byz_ven.5.title: "Угоду порушено"

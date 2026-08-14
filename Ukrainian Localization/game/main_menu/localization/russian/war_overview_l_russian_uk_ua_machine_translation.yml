@@ -134,7 +134,7 @@
   JOIN_WAR_REASON_Scripted: "Події"
   JOIN_WAR_REASON_DESC_Scripted: "Країну призвели до війни певні події."
   LEAVE_WAR_REASON_WarEnded: "Війна закінчена"
-  LEAVE_WAR_REASON_Annexed: "Приєднані до #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#!"
+  LEAVE_WAR_REASON_Annexed: "Приєднані до #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!"
   LEAVE_WAR_REASON_CountryDoesNotExist: "Країни більше не існує"
   LEAVE_WAR_REASON_PeacedOut: "Уклали мир з #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_INST')|L]#!#!"
   LEAVE_WAR_REASON_WasPeacedOut: "Країна [TARGET_COUNTRY.GetName] уклала мир від їхнього імені"

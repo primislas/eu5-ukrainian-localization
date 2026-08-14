@@ -56,7 +56,7 @@
   latinization_vs_hellenization.11.a: "Античні дива чудово підійдуть [ROOT.GetCountry.Custom('rank_ua_DAT')|l]."
   latinization_vs_hellenization.11.b: "$latinization_vs_hellenization.10.b$"
   latinization_vs_hellenization.12.title: "Суперечки щодо нової системи оподаткування"
-  latinization_vs_hellenization.12.desc: "Чиновники скарбниці пропонують провести масштабну реформу податкової системи на основі чужоземних методів суворого обліку та збору податків. Ця смілива ініціатива посилить порядок та збільшить надходження до скарбниці, але в разі її реалізації постраждають інтереси багатьох могутніх груп [ROOT.GetCountry.Custom('rank_ua_GEN')|l]..."
+  latinization_vs_hellenization.12.desc: "Чиновники скарбниці пропонують провести всеосяжну реформу податкової системи на основі чужоземного ремесла суворого обліку та збору податків. Цей сміливий задум посилить порядок та збільшить надходження до скарбниці, але в разі її втілення постраждають інтереси багатьох могутніх груп [ROOT.GetCountry.Custom('rank_ua_GEN')|l]..."
   latinization_vs_hellenization.12.a: "Ми перейдемо на нову систему."
   latinization_vs_hellenization.12.b: "Не будемо з цим поспішати."
   proposed_taxation_upsets_estates_tt: "За нової системи оподаткування постраждають усталені привілеї окремих [Concept('estates', 'станів')|e]"

@@ -51,6 +51,6 @@
   flavor_hab_tir.1101.a: "Ми повинні приєднатися до їхньої династії."
   flavor_hab_tir.1101.b: "Ми самі впораємося з цією кризою!"
   flavor_hab_tir.1102.title: "Влада [GetCountry('TIR').Custom('CL_GEN')] погоджується"
-  flavor_hab_tir.1102.desc: "[target_ruler.GetName] [Select_CString(target_ruler.IsFemale,'прийняла', 'прийняв')] нашу пропозицію та [Select_CString(target_ruler.IsFemale,'оголосила', 'оголосив')] нас прямими спадкоємцями своїх титулів. Щоб запобігти можливим непорозумінням, ми супроводимо [Select_CString(target_ruler.IsFemale,'її', 'його')] до [ROOT.GetCountry.GetCapital.Custom('LR_ACC')|l] [ROOT.GetCountry.GetCapital.GetName], де [Select_CString(target_ruler.IsFemale,'вона', 'він')] доживатиме свій вік у мирі та спокої."
+  flavor_hab_tir.1102.desc: "[target_ruler.GetName] [Select_CString(target_ruler.IsFemale,'прийняла', 'прийняв')] нашу пропозицію та [Select_CString(target_ruler.IsFemale,'оголосила', 'оголосив')] нас прямими спадкоємцями своїх титулів. Щоб запобігти можливим непорозумінням, ми супроводимо [Select_CString(target_ruler.IsFemale,'її', 'його')] до [ROOT.GetCountry.GetCapital.Custom('LR_GEN')|l] [ROOT.GetCountry.GetCapital.GetName], де [Select_CString(target_ruler.IsFemale,'вона', 'він')] доживатиме свій вік у мирі та спокої."
   flavor_hab_tir.1102.a: "Слава династії [target_habsburg_ruler.GetDynasty.GetNameWithNoTooltip]!"
   flavor_hab_tir.1102.a.entry: "Хай живе династія!"

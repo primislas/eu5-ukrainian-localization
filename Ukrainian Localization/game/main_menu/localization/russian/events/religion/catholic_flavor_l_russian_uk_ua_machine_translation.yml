@@ -51,7 +51,7 @@
   opinion_sublimis_deus: "Sublimis Deus"
   catholic_flavor.12.b: "[GetCountry('PAP').GetGovernment.GetRulerTitle|U] нічого не дізнається…"
   catholic_flavor.13.title: "Скрипторій поширює єресь"
-  catholic_flavor.13.desc: "Працівники скрипторію в [target_location.Custom('LR_PREP')|l] [target_location.GetName] при копіюванні релігійних текстів припустилися серйозної помилки, яку не можна трактувати інакше, як єресь. Ми повинні негайно вжити необхідних заходів, інакше ці тексти підірвуть віру нашого народу."
+  catholic_flavor.13.desc: "Працівники скрипторію в [target_location.Custom('LR_PREP')|l] [target_location.GetName] при копіюванні священних текстів припустилися серйозної помилки, яку не можна тлумачити інакше, як єресь. Ми повинні негайно вжити необхідних заходів, інакше ці тексти підірвуть віру нашого народу."
   catholic_flavor.13.a: "Зупинимо їхнє поширення за будь-яку ціну."
   catholic_flavor.13.b: "Усе вирішиться само собою."
   catholic_flavor.14.title: "[target_country.GetLongNameWithNoTooltip] долає Схизму"

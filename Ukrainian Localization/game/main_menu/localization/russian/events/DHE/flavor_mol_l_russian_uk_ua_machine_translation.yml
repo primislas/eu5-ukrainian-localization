@@ -25,7 +25,7 @@
   flavor_mol.1003.b: "Який сенс міняти одного пана на іншого."
   flavor_mol.1004.title: "Заснування [release_country.Custom('CL_GEN')]"
   flavor_mol.1004.title_default: "Заснування Молдови"
-  flavor_mol.1004.desc: "$flavor_mol.1003.desc$\n\nТепер [Select_CString(target_character.IsFemale,'її', 'його')] люди з'явилися сюди, сподіваючись переконати нас також приєднатися до #ONCLICK:COUNTRY,[release_country.GetKey] #TOOLTIP:COUNTRY,[release_country.GetKey],X [release_country.Custom('CL_DAT')|L]#!#!."
+  flavor_mol.1004.desc: "$flavor_mol.1003.desc$\n\nТепер [Select_CString(target_character.IsFemale,'її', 'його')] люди з'явилися сюди, сподіваючись переконати нас також приєднатися до #ONCLICK:COUNTRY,[release_country.GetKey] #TOOLTIP:COUNTRY,[release_country.GetKey],X [release_country.Custom('CL_GEN')|L]#!#!."
   flavor_mol.1004.a: "Наші землі мають бути єдині!"
   flavor_mol.1004.a.entry: "Наші землі мають бути єдині!"
   flavor_mol.1004.b: "Ми не можемо відвернутися від [target_country.Custom('CL_GEN')]."

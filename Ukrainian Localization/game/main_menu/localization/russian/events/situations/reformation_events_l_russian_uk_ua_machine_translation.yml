@@ -14,7 +14,7 @@
   reformation.12.a: "[Select_CString(target_character.IsFemale,'Вона вільна', 'Він вільний')] вирішувати, у що [Select_CString(target_character.IsFemale,'їй', 'йому')] вірити."
   reformation.12.b: "Нам слід порекомендувати [Select_CString(target_character.IsFemale,'їй', 'йому')] покинути країну."
   reformation.13.title: "[target_location.GetRank.GetNameWithNoTooltip] [target_location.GetNameWithNoTooltip] скоро спорожніє"
-  reformation.13.desc: "Через релігійні розбіжності жителі [target_location.Custom('LR_GEN')|l] [target_location.GetName] більше не бачать для себе майбутнього в нашій країні. Проповіді місцевого священника не досягають їхніх вух, а деякі з них вже почали переселятися в більш спокійні краї."
+  reformation.13.desc: "Через конфесійні розбіжності жителі [target_location.Custom('LR_GEN')|l] [target_location.GetName] більше не бачать для себе майбутнього в нашій країні. Проповіді місцевого священника не досягають їхніх вух, а деякі з них вже почали переселятися в більш спокійні краї."
   reformation.13.a: "Туди їм і дорога, єретикам!"
   reformation.13.b: "Пришлемо нового священника, щоб їх заспокоїти."
   reformation.14.title: "Єретик в університеті"
