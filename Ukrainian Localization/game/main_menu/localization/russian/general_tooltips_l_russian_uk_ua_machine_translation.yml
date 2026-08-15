@@ -220,7 +220,7 @@
   RELIGION_NEEDS_REFORM: "Потребує серйозної [Concept('religious_reform', 'релігійної реформи')|e]"
   RELIGION_REFORM_DESIRE_WITH_VAL: "[Concept('reform_desire', 'Прагнення до реформації')|e]: $VAL|2%Y$"
   RELIGION_REFORM_DESIRE: "Поточне [Concept('reform_desire', 'прагнення до реформації')|e] #L [Player.GetReligion.GetAdjective|l]ої#! віри становить [Player.GetReligion.GetReformDesire|%Y].\n[Concept('reform_desire', 'Прагнення до реформації')|e] зараз змінюється на [RELIGION.GetModifierValue('monthly_reform_desire')] щомісяця."
-  RELIGION_HAS_RELIGIOUS_SCHOOLS: "Допускає [Concept('religious_schools', 'релігійні школи')|e]"
+  RELIGION_HAS_RELIGIOUS_SCHOOLS: "Допускає [Concept('religious_schools', 'духовні вчення')|e]"
   RELIGION_HAS_RELIGIOUS_FACTIONS: "Допускає [Concept('religious_factions', 'релігійні угруповання')|e]"
   RELIGION_HAS_RELIGIOUS_FOCUSES: "Допускає [Concept('religious_focuses', 'сакральні цілі')|e]"
   RELIGION_HAS_RELIGIOUS_HEAD: "Має [Concept('religious_head', 'главу')|e]"

@@ -1,7 +1,7 @@
 ﻿l_russian:
   flavor_mug.1.title: "[ShowReligiousSchoolNameWithNoTooltip('din_i_ilahi_school')]"
   flavor_mug.1.entry: "Школа Дін-і іллагі"
-  flavor_mug.1.desc: "[ROOT.GetCountry.GetName] — місце, де співіснує безліч вірувань, і [target_character.GetName] подумує відступити від заповітів школи «[target_religious_school.GetName]». Натомість [Select_CString(target_character.IsFemale,'вона', 'він')] хоче створити власне вчення. Воно стане чимось на зразок нової віри, оголосивши всі культи єдиним цілим. Нова доктрина має назву «[ShowReligiousSchoolName('din_i_ilahi_school')]» і має об'єднати жителів [ROOT.GetCountry.Custom('rank_ua_GEN')|l]."
+  flavor_mug.1.desc: "[ROOT.GetCountry.GetName] — місце, де співіснує безліч вірувань, і [target_character.GetName] подумує відступити від заповітів вчення «[target_religious_school.GetName]». Натомість [Select_CString(target_character.IsFemale,'вона', 'він')] хоче створити власне вчення. Воно стане чимось на зразок нової віри, оголосивши всі культи єдиним цілим. Нова доктрина має назву «[ShowReligiousSchoolName('din_i_ilahi_school')]» і має об'єднати жителів [ROOT.GetCountry.Custom('rank_ua_GEN')|l]."
   flavor_mug.1.historical_info: "Правління Акбара Великого примітне розмаїттям культур і віровчень в імперії Моголів. Акбар провів низку реформ для співіснування різних світоглядів і навіть створив власну віру під назвою «дін-і іллахі», що означає «божественна віра». Подібно до Великої Яси Тимуридів, вона розглядала всі культи як єдине ціле."
   flavor_mug.1.a: "Віра, що об'єднає весь наш народ — чудова ідея."
   flavor_mug.1.b: "[ROOT.GetCountry.GetReligiousSchool.GetNameWithNoTooltip] нічим не гірша. Навіщо відкидати колишні заповіді?"

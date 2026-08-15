@@ -71,7 +71,7 @@
   show_event_target_religion_group: "Ціль події: [Concept('religion_group', 'віровчення')|e] «[RELIGION_GROUP.GetName]»"
   show_event_target_language_family: "Ціль події: #L [LANGUAGE_FAMILY.GetName|l]а#! [Concept('language_family', 'мовна сім’я')|e]"
   show_event_target_language: "Ціль події: [LANGUAGE.GetName|l]а#! [Concept('language', 'мова')|e]"
-  show_event_target_religious_school: "Ціль події: [Concept('religious_school', 'школа')|e] «[RELIGIOUS_SCHOOL.GetName]»"
+  show_event_target_religious_school: "Ціль події: [Concept('religious_school', 'духовне вчення')|e] «[RELIGIOUS_SCHOOL.GetName]»"
   show_event_target_goods: "Ціль події: [Concept('goods', 'товари')|e] «[GOODS.GetName]»"
   show_event_target_demand: "Ціль події: [Concept('demand', 'попит')|e] на товар [GOODS_DEMAND.GetName]"
   show_event_target_government_type: "Ціль події: [Concept('government_type', 'форма правління')|e] «[GOVERNMENT_TYPE.GetName]»"
