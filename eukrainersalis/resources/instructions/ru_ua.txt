@@ -291,12 +291,12 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** державный бюджет -> "державна скарбниця", in narrative texts "державний скарб" is sometimes acceptable for diversity
     ** направить бюджетные средства -> спрямувати скарбницю
     ** сводить бюджет, сведение бюджета -> pick best fitting depending on context: "зведення видатків", "зведення прибутків та видатків", "привести скарбницю до ладу", "утримання скарбниці", "рівняти видатки з прибутками"
-    ** баланс бюджета -> depending on context "скарбничий лад", "рівняння видатків з прибутками", "наповення скарбниці", "приборкання видатків"
+    ** баланс бюджета -> depending on context "скарбовий лад", "рівняння видатків з прибутками", "наповення скарбниці", "приборкання видатків"
     ** финансироваться из государственного бюджета -> утримуватися державним скарбом
     ** потратить бюджет -> витратити скарб, спрямувати скарб
     ** BUT "кошти", "гроши", "деньги" always "зі скарбниці" - in combination with "скарбниця", NOT "скарб"
     ** "скрута", when specifically about money or financial deficit
-    ** "скарбнича скрута", "скарбнича нестача", "збитки скарбниці" when specifically dealing with budget deficits
+    ** "скарбова скрута", "скарбова нестача", "збитки скарбниці" when specifically dealing with budget deficits
     ** спор о бюджете -> cуперечки про видатки
     ** пополнять казну, бюджет -> наповнювати скарбницю
 
@@ -751,7 +751,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** "нестача", especially in menus
     ** "брак", "бракує" as an extra alternative to diversify narrative and event texts
     ** "скрута", when specifically about money or financial deficit
-    ** "скарбнича скрута", "скарбнича нестача", "збитки скарбниці" when specifically dealing with budget deficits
+    ** "скарбова скрута", "скарбова нестача", "збитки скарбниці" when specifically dealing with budget deficits
     ** "торгові збитки" when specifically about trade deficits
     * депутати - представники
     * газета - часопис

@@ -220,7 +220,7 @@
   SUBTAB_IO_OVERVIEW_TT_FLAVOR_TEXT: "«Сила в єдності»."
   SUBTAB_IO_TREASURY: "Скарбниця"
   SUBTAB_IO_TREASURY_TT_TEXT: "Відображає [Concept('payments', 'виплати')|e] та внески до скарбниці [Concept('international_organization', 'міжнародного об’єднання')|e]."
-  SUBTAB_IO_TREASURY_DISABLED_TT_TEXT: "Ця вкладка недоступна, оскільки не прийнято жодного з наступних суспільно-господарчих [Concept('laws', 'законів')|e]: #TOOLTIP:POLICY,only_treasury_payment,X #L скарбниче#!#!, #TOOLTIP:POLICY,only_emperor_payment,X #L пряме #!#! або #TOOLTIP:POLICY,complete_imperial_contribution,X #L імперське#!#! оподаткування."
+  SUBTAB_IO_TREASURY_DISABLED_TT_TEXT: "Ця вкладка недоступна, оскільки не прийнято жодного з наступних суспільно-господарчих [Concept('laws', 'законів')|e]: #TOOLTIP:POLICY,only_treasury_payment,X #L скарбове#!#!, #TOOLTIP:POLICY,only_emperor_payment,X #L пряме #!#! або #TOOLTIP:POLICY,complete_imperial_contribution,X #L імперське#!#! оподаткування."
   SUBTAB_IO_ALL_MEMBERS: "$game_concept_members$"
   SUBTAB_IO_ALL_MEMBERS_TT_TEXT: "Показати всіх [Concept('members', 'учасників')|e] [Concept('international_organization', 'міжнародного об’єднання')|e]."
   SUBTAB_IO_ALL_MEMBERS_TT_FLAVOR_TEXT: "$SUBTAB_IO_OVERVIEW_TT_FLAVOR_TEXT$"
