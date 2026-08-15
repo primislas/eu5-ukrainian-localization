@@ -545,7 +545,7 @@
   MODIFIER_TYPE_DESC_work_of_art_quality_modifier: "Впливає на [Concept('art_quality', 'майстерність витвору')|e] [Concept('artist', 'митця')|e]."
   MODIFIER_TYPE_NAME_work_of_art_sell_value_modifier: "Вартість продажу витвору"
   MODIFIER_TYPE_DESC_work_of_art_sell_value_modifier: "Впливає на кількість [Concept('gold', 'грошей')|e], отриманих за продаж [Concept('work_of_art', 'витвору')|e] іншій [Concept('country', 'країні')|e]."
-  MODIFIER_TYPE_NAME_artist_skill_level_gain: "Розвиток таланту митця"
+  MODIFIER_TYPE_NAME_artist_skill_level_gain: "Розвиток хисту митця"
   MODIFIER_TYPE_DESC_artist_skill_level_gain: "Впливає на зростання [Concept('artistic_skill', 'хисту')|e] [Concept('artist', 'митця')|e]."
   MODIFIER_TYPE_NAME_global_monthly_art_start_chance: "Ймовірність розпочати роботу над новим твором"
   MODIFIER_TYPE_DESC_global_monthly_art_start_chance: "Впливає на ймовірність того, що [Concept('artists', 'митці')|e] в [Concept('country', 'країні')|e] почнуть створювати нові [Concept('works_of_art', 'шедеври')|e]."
