@@ -767,6 +767,13 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** unit, exploration leader, лидер экспедиции, отряда - очільник (експедиції, загону тощо)
     * маршрут - шлях; для уникнення повторень і тавтологій можна чергувати з "тракт", "стежка" для сухопутних шляхів, або "маршрут" для морських; шляхи можна "прокладати" або "торувати" (в оповідальному поетичному сенсі)
     * масштаб - обсяг, коли йдеться про обсяги виробництва
+    * метод - спосіб
+    ** fixed expressions with "спосіб" - способи набору (recruitment method), способи виробництва (production method), способи лікування
+    ** for military, diplomacy, trade use "засоби" (засоби будівництва; військові, дипломатичні, торгові засоби; засоби ведення війни)
+    ** for government, "методы управления" translate as "порядки" (порядки врядування, старі порядки, нові чи сучасні порядки)
+    ** translate as "методи" for anything related to education, science, Enlightenment, revolution, industrialization (методи викладання, науковий метод, емпіричний метод, раціональний метод і т.і.)
+    ** sometimes "методы" could be used in a sense of crafting practices, in which case translate as "ремесло", "прийоми", "підходи", whichever fits best
+    ** in general use "засоби" when "метод" clearly stresses tool use, such as with navigation, building, surgical, irrigation, mining, etc. methods; otherwise translate to "спосіб", especially in the sense of a general way, technique, approach of doing something
     * момент, миг - мить
     ** благоприятный миг - сприятлива нагода
     * потенциал - спроможність (in the sense of capability, capacity), здібності (in a sense of potential personal ability)

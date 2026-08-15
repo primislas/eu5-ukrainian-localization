@@ -753,7 +753,7 @@
   sabotage_clans_buildings: "Шкодити споруди клану"
   dip_sabotage_clans_buildings_CATEGORY: "CATEGORY_COVERT_ACTIONS"
   sabotage_clans_buildings_act: "Підривна діяльність у володіннях #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').GetKey],X [SCOPE.sCountry('recipient').Custom('CL_GEN')|L]#!#!"
-  sabotage_clans_buildings_desc: "Ми можемо заслати шпигунів на ворожі землі та завдати значної шкоди, використовуючи підпали, отруту та інші доступні методи."
+  sabotage_clans_buildings_desc: "Ми можемо заслати нишпорок на ворожі землі та завдати значної шкоди, використовуючи підпали, отруту та інші доступні засоби."
   sabotage_clans_buildings_effect_text: "[SCOPE.sCountry('actor').GetName] здійсн[SCOPE.sCountry('actor').Custom('end_ytyat')] диверсію в спорудах #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').GetKey],X [SCOPE.sCountry('recipient').Custom('CL_GEN')|L]#!#!."
   sabotage_clans_buildings_effect_text_past: "[SCOPE.sCountry('actor').GetName] закінчи[SCOPE.sCountry('actor').Custom('end_vlaloly')] виробляти диверсію в спорудах #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').GetKey],X [SCOPE.sCountry('recipient').Custom('CL_GEN')|L]#!#!."
   PROPOSE_sabotage_clans_buildings: "Влаштувати саботаж у країні $RECIPIENT$?\n\n$INFO$"

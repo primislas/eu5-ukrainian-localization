@@ -1102,7 +1102,7 @@
   kazenny_action_progress_tooltip: "Це доручення ради збільшує #TOOLTIP:MODIFIER_TYPE,monthly_nahualt_reform_progress,X #P #V щомісячний поступ реформи науатль#!#!#!:\n[SCOPE.sCountry('actor').GetDescriptionFor('monthly_nahualt_reform_progress')]"
   kazenny_action_progress_tooltip_1: "Це доручення ради збільшує #TOOLTIP:MODIFIER_TYPE,monthly_nahualt_reform_progress,X #P #V щомісячний поступ реформи науатль#!#!#!:\n[SCOPE.sCountry('actor').GetDescriptionFor('monthly_nahualt_reform_progress')]"
   aptekarsky: "Аптекарський приказ"
-  aptekarsky_desc: "Ця дія дозволить нашій раді зосередитися на справах приказу, що відає охороною здоров'я та ліками, тим самим забезпечуючи більш ефективний розподіл лікарських засобів та якнайшвидше поширення знань про можливі методи лікування захворювань."
+  aptekarsky_desc: "Ця дія дозволить нашій раді зосередитися на справах приказу, що відає охороною здоров'я та ліками, тим самим забезпечуючи більш дієвий розподіл лікарських засобів та якнайшвидше поширення знань про можливі засоби лікування захворювань."
   aptekarsky_action: "Управління Аптекарським приказом"
   aptekarsky_active: "Управління Аптекарським приказом"
   aptekarsky_active_action_title: "Управління Аптекарським приказом"

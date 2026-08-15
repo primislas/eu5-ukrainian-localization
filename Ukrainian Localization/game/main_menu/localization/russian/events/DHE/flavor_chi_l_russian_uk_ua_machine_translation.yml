@@ -155,7 +155,7 @@
   flavor_chi.24.c.entry: "Позбавимо його влади та завдамо удару."
   flavor_chi.25.title: "[recipient.GetNameWithNoTooltip] претендує на посаду"
   flavor_chi.25.entry: "Призначення Тохти"
-  flavor_chi.25.desc: "[dead_character.GetName] мертвий, і посада провідного радника у справах [ROOT.GetCountry.GetAdjective|l]ого двору залишається вільною. Втім, у покійного залишається наступник — його племінник [recipient.GetName]. Ця людина має всі навички, необхідні для царедворця, і чудово підходить на цю посаду. Проте багато хто при дворі проти цього призначення — [dead_character.GetShortNameWithNoTooltip] запам’ятався своїми жорстокими та деспотичними методами, і придворні побоюються, що [recipient.GetNameWithNoTooltip] чинитиме так само."
+  flavor_chi.25.desc: "[dead_character.GetName] мертвий, і посада провідного радника у справах [ROOT.GetCountry.GetAdjective|l]ого двору залишається вільною. Втім, у покійного залишається наступник — його племінник [recipient.GetName]. Ця людина має всі навички, необхідні для царедворця, і чудово підходить на цю посаду. Проте багато хто при дворі проти цього призначення — [dead_character.GetShortNameWithNoTooltip] запам’ятався своїми жорстокими та деспотичними порядками, і придворні побоюються, що [recipient.GetNameWithNoTooltip] чинитиме так само."
   flavor_chi.25.a: "[recipient.GetNameWithNoTooltip] отримає свою посаду."
   flavor_chi.25.a.entry: "Призначимо його."
   flavor_chi.25.b: "Нам не потрібен ще один тиран."

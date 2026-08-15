@@ -235,7 +235,7 @@
   flavor_gen.40.a.entry: "$common_string_brilliant$"
   flavor_gen.41.title: "[artist_character.GetNameWithNoTooltip]"
   flavor_gen.41.entry: "Персонаж-митець"
-  flavor_gen.41.desc: "Геніальний живописець [artist_character.GetName] прагне розширити межі мистецтва, винаходячи нові образотворчі засоби. Кастільйоне відомий сміливою манерою письма та використанням незвичайних матеріалів, а його новаторський метод друкованої графіки дав новий поштовх розвитку художньої думки."
+  flavor_gen.41.desc: "Геніальний живописець [artist_character.GetName] прагне розширити межі мистецтва, винаходячи нові образотворчі засоби. Кастільйоне відомий сміливою манерою письма та використанням незвичайних матеріалів, а його новаторський спосіб друкованої графіки дав новий поштовх розвитку художньої думки."
   flavor_gen.41.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   flavor_gen.41.a.entry: "$common_string_brilliant$"
   flavor_gen.42.title: "[artist_character.GetNameWithNoTooltip]"

@@ -670,7 +670,7 @@
   JOIN_DEFENSIVE_WARS_NEVER_IF: "Учасники ніколи не приєднуватимуться до оборонних війн, якщо буде виконано наступне:"
   HAS_MILITARY_ACCESS_IF: "Учасники мають [Concept('military_access', 'право на прохід військ')|e] через землі одне одного, якщо"
   HAS_FLEET_BASING_RIGHTS_IF: "Учасники мають [Concept('fleet_basing_rights', 'право на розміщення флоту')|e] в портах одне одного, якщо"
-  CAN_DIPLOMATICALLY_ANNEX_IF: "Учасники можуть [Concept('annex', 'поглинати')|e] одне одного методами дипломатії, якщо"
+  CAN_DIPLOMATICALLY_ANNEX_IF: "Учасники можуть [Concept('annex', 'поглинати')|e] одне одного засобами дипломатії, якщо"
   HAS_LIMITED_DIPLOMACY_IF: "Учасникам доступна лише [Concept('limited_diplomacy', 'часткова дипломатія')|e], якщо"
   CAN_VOTE_IN_PARLIAMENT_IF: "Учасники можуть голосувати на [Concept('parliament', 'зборах')|e] за таких умов:"
   MIN_YEARS_BEFORE_ANNEXATION: "Мінімальна кількість років участі в [Concept('international_organization', 'міжнародному об’єднанні')|e], після якої дозволяється [Concept('annexation', 'поглинання')|e]: $AMOUNT|0Y$"

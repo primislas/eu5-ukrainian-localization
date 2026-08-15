@@ -555,7 +555,7 @@
   HEIR_SELECTION_NOT_ADVANCE: "@trigger_no! Щоб обрати порядок престолонаслідування «[HEIR_SELECTION.GetName]», потрібно дослідити [Concept('advance', 'поступи')|e]: $ADVANCE_LIST$"
   CASUS_BELLI_NOT_ADVANCE: "@trigger_no! Щоб створити [Concept('casus_belli', 'привід для війни')|e] «[CASUS_BELLI.GetName]», потрібно дослідити поступи: $ADVANCE_LIST$"
   SUBJECT_TYPE_NOT_ADVANCE: "@trigger_no! Щоб створити [Concept('subject_type', 'тип васала')|e] «[SUBJECT_TYPE.GetName]», потрібно дослідити поступи: $ADVANCE_LIST$"
-  PRODUCTION_METHOD_NOT_ADVANCE: "@trigger_no! Щоб застосувати метод «[PRODUCTION_METHOD.GetName]», потрібно дослідити [Concept('advance', 'поступи')|e]: $ADVANCE_LIST$"
+  PRODUCTION_METHOD_NOT_ADVANCE: "@trigger_no! Щоб застосувати спосіб «[PRODUCTION_METHOD.GetName]», потрібно дослідити [Concept('advance', 'поступи')|e]: $ADVANCE_LIST$"
   BUILD_UNIT_NOT_ADVANCE: "@trigger_no! Щоб створити підрозділ типу «[SUBUNITDEFINITION.GetName]», потрібно дослідити [Concept('advance', 'поступи')|e]: $ADVANCE_LIST$"
   MARKET_ADJACENT_NAME: "Міжмісцевий доступ до ринку"
   MARKET_ADJACENT_DISTANCE: "Втрата доступу до ринку від перевезення через цей сегмент: $DISTANCE|-2%$. Причини:"

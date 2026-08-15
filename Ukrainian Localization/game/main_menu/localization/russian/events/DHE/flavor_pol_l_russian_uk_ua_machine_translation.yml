@@ -239,7 +239,7 @@
   flavor_pol.38.b: "Ми не збираємося догоджати примхам дрібних дворян."
   flavor_pol.39.title: "Боротьба за владу"
   flavor_pol.39.entry: "$flavor_pol.39.title$"
-  flavor_pol.39.desc: "Нам стало відомо, що [target_character.GetName] у жалюгідній спробі стати нашим сувереном [Select_CString(target_character.IsFemale,'вдалася', 'вдався')] до абсолютно недипломатичних і незаконних методів, таємно пообіцявши, що [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] отрима[ROOT.GetCountry.Custom('nobles_yeyut')] певні привілеї. Такий вчинок не просто зухвалість — це пряме зазіхання на наш суверенітет!"
+  flavor_pol.39.desc: "Нам стало відомо, що [target_character.GetName] у жалюгідній спробі стати нашим сувереном [Select_CString(target_character.IsFemale,'вдалася', 'вдався')] до абсолютно недипломатичних і незаконних засобів, таємно пообіцявши, що [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] отрима[ROOT.GetCountry.Custom('nobles_yeyut')] певні привілеї. Такий вчинок не просто зухвалість — це пряме зазіхання на наш суверенітет!"
   flavor_pol.39.a: "Неймовірна нахабність!"
   flavor_pol.40.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] [ROOT.GetCountry.Custom('CL_GEN')]"
   flavor_pol.40.entry: "$flavor_pol.40.title$"

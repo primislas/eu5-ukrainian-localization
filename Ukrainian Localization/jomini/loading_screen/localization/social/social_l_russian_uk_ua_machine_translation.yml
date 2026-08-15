@@ -25,7 +25,7 @@
   SOCIAL_MESSAGE: "[ChatMessage.GetName]: [ChatMessage.GetMessage]"
   PROFILES_username-exists: "Це ім'я користувача вже обрано. Оберіть інше ім'я."
   PROFILES_invalid-email: "Некоректна адреса електронної пошти"
-  PROFILES_bad-auth-method: "Невірний метод автентифікації"
+  PROFILES_bad-auth-method: "Невірний спосіб автентифікації"
   PROFILES_account-exists: "Обліковий запис не вдалося знайти"
   PROFILES_account-missing: "Обліковий запис не існує"
   PROFILES_not-authorized: "Немає авторизації"
