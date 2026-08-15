@@ -941,7 +941,7 @@
   ASSIMILATION_IN_HEADER: "Швидкість асиміляції на території [Country.Custom('CL_GEN')]"
   GLOBAL_ASSIMILATION_RATE_MODIFIER_TT_TEXT: "Швидкість асиміляції в усіх [Concept('locations', 'місцевостях')|e] змінюється на [CountryCultureLateralView.GetCountry.GetModifierValueNoFormat('global_pop_assimilation_speed_modifier')]."
   WORK_OF_ART_IN_HEADER: "Витвори [Country.Custom('CL_GEN')]"
-  RELIGIOUS_UNITY_IN_HEADER: "Релігійна єдність [Country.Custom('CL_GEN')]"
+  RELIGIOUS_UNITY_IN_HEADER: "Єдність [Country.Custom('CL_GEN')] у вірі"
   CONVERSION_IN_HEADER: "Швидкість навернення на території [Country.Custom('CL_GEN')]"
   GLOBAL_CONVERSION_RATE_MODIFIER_TT_TEXT: "Швидкість навернення в усіх [Concept('locations', 'місцевостях')|e] змінюється на [Country.GetModifierValueNoFormat('global_pop_conversion_speed_modifier')]."
   TOLERANCE_OWN_IN_HEADER: "Терпимість до істинної віри на території [Country.Custom('CL_GEN')]"

@@ -160,7 +160,7 @@
   complete_the_ecw_and_lose_tt: "#TOOLTIP:DISASTER_TYPE,english_civil_war,X #L Англійська громадянська війна#!#! завершиться"
   french_wars_religion: "Релігійні війни у Франції"
   french_wars_religion_desc: "Виникнення нових відгалужень #TOOLTIP:RELIGIONGROUP,christian,X #L християнської#!#! віри по всій #TOOLTIP:CONTINENT,europe,X #L Європі#!#! призвело до того, що духовні тертя в нашому суспільстві досягли піку. Тепер озброєні ревнителі, єретики та захисники істинної віри загрожують втягнути всю країну в жорстоку міжусобну війну."
-  had_fwr_before_definitive_ending_tt: "Це [Concept('disaster', 'лихо')|e] не завершилося досягненням [Concept('religious_unity', 'релігійної єдності')|e] або підписанням [Concept('policy', 'політики')|e] у формі #TOOLTIP:POLICY,edict_of_nantes,X #L Нантського едикту#!#!"
+  had_fwr_before_definitive_ending_tt: "Це [Concept('disaster', 'лихо')|e] не завершилося досягненням [Concept('religious_unity', 'єдности у вірі')|e] або підписанням [Concept('policy', 'політики')|e] у формі #TOOLTIP:POLICY,edict_of_nantes,X #L Нантського едикту#!#!"
   lutheran_huguenots: "Лютеранські гугеноти"
   calvinist_huguenots: "Кальвіністські гугеноти"
   catholic_huguenots: "$catholic_ADJ$і гугеноти"

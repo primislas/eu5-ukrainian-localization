@@ -162,7 +162,7 @@
   devotion_events.210.a.tt: "Кожна належна нам [Concept('location', 'місцевість')|e], де основна [Concept('religion', 'віра')|e] — #TOOLTIP:RELIGION,$shia_tt$,X #L шиїзм#!#!, отримає модифікатор «[ShowModifier('dev_rafida')]» на 10 років"
   devotion_events.210.b: "Нехай вірять і називають себе як завгодно."
   devotion_events.211.title: "Насибіти"
-  devotion_events.211.desc: "У наших провінціях з'явилися ті, кого ми звемо насибітами. Вони ненавидять Ахль аль-Бйт — сімейство пророка Мухаммеда, мир йому, — та його шанувальників. #TOOLTIP:RELIGION,$sunni_tt$,X #L Суніти#!#!, які по дурості вірять, що Абу Бакр, Умер та Усман є законними наступниками Мухаммеда, мир йому, загрожують релігійній єдності [ROOT.GetCountry.Custom('rank_ua_GEN')|l]."
+  devotion_events.211.desc: "У наших провінціях з'явилися ті, кого ми звемо насибітами. Вони ненавидять Ахль аль-Бйт — сімейство пророка Мухаммеда, мир йому, — та його шанувальників. #TOOLTIP:RELIGION,$sunni_tt$,X #L Суніти#!#!, які по дурості вірять, що Абу Бакр, Умер та Усман є законними наступниками Мухаммеда, мир йому, загрожують єдності [ROOT.GetCountry.Custom('rank_ua_GEN')|l] у вірі."
   devotion_events.211.a: "Цим сліпцям-сунітам не місце в [ROOT.GetCountry.Custom('rank_ua_PREP')|l]."
   devotion_events.211.a.tt: "Кожна належна нам [Concept('location', 'місцевість')|e], де основна [Concept('religion', 'віра')|e] — #TOOLTIP:RELIGION,$sunni_tt$,X #L сунізм#!#!, отримає модифікатор «[ShowModifier('dev_nasibi')]» на 10 років"
   devotion_events.211.b: "Залишимо їх у спокої. Одного дня вони усвідомлять, що неправі."

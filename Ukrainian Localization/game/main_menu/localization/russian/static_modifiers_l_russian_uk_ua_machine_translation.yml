@@ -91,7 +91,7 @@
   STATIC_MODIFIER_NAME_court_language_is_common: "$game_concept_common_language$ — придворна"
   STATIC_MODIFIER_NAME_other_court_language: "$game_concept_court_language$ — іноземна"
   STATIC_MODIFIER_NAME_liturgical_language_is_court: "$game_concept_liturgical_language$ — придворна"
-  STATIC_MODIFIER_NAME_religious_unity: "[Concept('religious_unity', 'Релігійна єдність')|e]"
+  STATIC_MODIFIER_NAME_religious_unity: "[Concept('religious_unity', 'Єдність у вірі')|e]"
   STATIC_MODIFIER_NAME_liberty_desire: "[Concept('liberty_desire', 'Бажання свободи')|e]"
   STATIC_MODIFIER_NAME_invited_religious_figures: "Запрошені віровчителі"
   STATIC_MODIFIER_NAME_non_accepted_religious_figures: "Опозиційні віровчителі"

@@ -2717,7 +2717,7 @@
   DIPLOREASON_OPINION_OF_EMPEROR: "Думка імператора"
   DIPLOREASON_REPUTATION_OF_EMPEROR: "Добре ім’я імператора"
   NUM_OF_INSTITUTION_BEHIND: "Відсутність [Concept('institutions', 'інститутів')|e]"
-  DIPLOREASON_RELIGIOUS_UNITY: "[Concept('religious_unity', 'Релігійна єдність')|e] #ONCLICK:COUNTRY,[SCOPE.sCountry('actor').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('actor').GetKey],X [SCOPE.sCountry('actor').Custom('CL_GEN')|L]#!#!"
+  DIPLOREASON_RELIGIOUS_UNITY: "[Concept('religious_unity', 'Єдність у вірі')|e] #ONCLICK:COUNTRY,[SCOPE.sCountry('actor').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('actor').GetKey],X [SCOPE.sCountry('actor').Custom('CL_GEN')|L]#!#!"
   IS_WAR_ENEMY: "Війна"
   HAS_ALLIANCE: "Союз"
   SAME_UNION: "Спільна [Concept('union', 'унія')|e]"
