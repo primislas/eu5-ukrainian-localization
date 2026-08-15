@@ -419,7 +419,7 @@
   STATIC_MODIFIER_NAME_hostile_troops: "[Concept('enemy', 'Ворожі')|e] [Concept('armies', 'війська')|e]"
   STATIC_MODIFIER_NAME_provincial_troops: "[Concept('friendly', 'Дружні')|e] [Concept('armies', 'війська')|e] у [Concept('province', 'провінції')|e]"
   STATIC_MODIFIER_NAME_raised_levies: "Ополчення зібрано"
-  STATIC_MODIFIER_NAME_isolating_cities: "Ізоляція міст"
+  STATIC_MODIFIER_NAME_isolating_cities: "Закриті міста"
   STATIC_MODIFIER_NAME_minor_rebel_uprising: "Дрібний заколот"
   STATIC_MODIFIER_NAME_recently_slave_raided: "Недавній набіг за невільниками"
   STATIC_MODIFIER_NAME_recently_razed: "Недавнє розорення"
