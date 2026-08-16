@@ -525,8 +525,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     * religious_school, религиозная школа -> "духовне вчення"
     ** drop "духовне" when surrounding context makes it clear that the subject is faith or religion
     ** this translation applies to game concept of religious_school, however, narrative texts can also talk of ordinary actual religious schools, which should be translated "богословські школи" (for Abrahamic religions), "духовні школи" (rest of the world)
-    * religious_figure, религиозный деятель -> віровчитель
-    ** можна чергувати з "вчитель", "тлумач", щоб уникнути повторення (перевантаження словом чи префіксом "віра"), "богослов" для авраамічних релігій, "улема" для ісламських течій, "гуру" для індуїстських
+    * religious_figure, религиозный деятель -> духовний наставник
     * religious_aspect, религиозная особенность -> устава віри
     ** в текстах, де за контекстом зрозуміло, що йдеться про релігійні чи обрядові питання, де згадується назва устави, чи які перевантажені словом та префіксом "віра", опускай "віри" і вживай просто "устава"
     ** уставу приймають (а НЕ добавляют, додають), за контекстом зрідка може підійти "впроваджують"
