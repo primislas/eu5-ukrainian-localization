@@ -14,7 +14,7 @@
   clergy_estate_events.102.a: "Дамо зрозуміти, що їм потрібно зробити свій внесок."
   clergy_estate_events.102.b: "Знайдемо гроші деінде."
   clergy_estate_events.103.title: "Багат[ROOT.GetCountry.Custom('clergy_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l]"
-  clergy_estate_events.103.desc: "$clergy_events_common$ Натомість багато земель були визнані релігійною власністю та звільнені від більшої частини податків, завдяки чому [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] не відчува[ROOT.GetCountry.Custom('clergy_yeyut')] потреби та мож[ROOT.GetCountry.Custom('clergy_eut')] підтримувати багато гідних починань.\n\n$clergy_estate_common_ending$"
+  clergy_estate_events.103.desc: "$clergy_events_common$ Натомість багато земель були визнані священною власністю та звільнені від більшої частини податків, завдяки чому [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] не відчува[ROOT.GetCountry.Custom('clergy_yeyut')] потреби та мож[ROOT.GetCountry.Custom('clergy_eut')] підтримувати багато гідних починань.\n\n$clergy_estate_common_ending$"
   clergy_estate_events.103.a: "Дамо зрозуміти, що їм потрібно зробити свій внесок."
   clergy_estate_events.103.b: "Знайдемо гроші деінде."
   clergy_estate_events.104.title: "Багат[ROOT.GetCountry.Custom('clergy_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l]"

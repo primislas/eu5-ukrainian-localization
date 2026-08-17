@@ -17,7 +17,7 @@ if __name__ == "__main__":
         _content = load_eu5_yaml(file)
         _ucontent = {_localization_key: {}}
         for k, v in _content.get(_localization_key, {}).items():
-            if "CL_tt" in v:
+            if "ромадянськ" in v:
             # if "'religion'" in v or "_RU_" in v or "_ru_" in k or "_RU_" in k:
             # if "ru_rank_" in v or "RU_rank_" in v or "RU_rn" in v or "ru_rank_" in k or "RU_rank_" in k or "RU_rn" in k:
                 uv = v
@@ -44,21 +44,32 @@ if __name__ == "__main__":
                 # uv = uv.replace("Concept('religion', 'Релігію')", "Concept('religion', 'Віру')")
                 # uv = uv.replace("Concept('religion', 'Релігії')", "Concept('religion', 'Віри')")
                 # uv = uv.replace("Concept('religion', 'Релігією')", "Concept('religion', 'Вірою')")
-
-                uv = uv.replace(".Custom('CL_tt')", ".GetKey")
-
-                # uv = uv.replace("тонке сукно", "коштовні тканини")
-                # uv = uv.replace("тонкого сукна", "коштовних тканин")
-                # uv = uv.replace("тонкому сукну", "коштовним тканинам")
-                # uv = uv.replace("тонким сукном", "коштовними тканинами")
-                # uv = uv.replace("тонкому сукні", "коштовних тканинах")
                 #
-                # uv = uv.replace("Тонке сукно", "Коштовні тканини")
-                # uv = uv.replace("Тонкого сукна", "Коштовних тканин")
-                # uv = uv.replace("Тонкому сукну", "Коштовним тканинам")
-                # uv = uv.replace("Тонким сукном", "Коштовними тканинами")
-                # uv = uv.replace("Тонкому сукні", "Коштовних тканинах")
+                # uv = uv.replace(".Custom('CL_tt')", ".GetKey")
 
+                uv = uv.replace("громадянська війна", "міжусобна війна")
+                uv = uv.replace("громадянської війни", "міжусобної війни")
+                uv = uv.replace("громадянській війні", "міжусобній війні")
+                uv = uv.replace("громадянську війну", "міжусобну війну")
+                uv = uv.replace("громадянською війною", "міжусобною війною")
+
+                uv = uv.replace("громадянські війни", "міжусобні війни")
+                uv = uv.replace("громадянських війнах", "міжусобних війнах")
+                uv = uv.replace("громадянськими війнами", "міжусобними війнами")
+                uv = uv.replace("громадянським війнам", "міжусобним війнам")
+                uv = uv.replace("громадянських війн", "міжусобних війн")
+
+                uv = uv.replace("Громадянська війна", "Міжусобна війна")
+                uv = uv.replace("Громадянської війни", "Міжусобної війни")
+                uv = uv.replace("Громадянській війні", "Міжусобній війні")
+                uv = uv.replace("Громадянську війну", "Міжусобну війну")
+                uv = uv.replace("Громадянською війною", "Міжусобною війною")
+
+                uv = uv.replace("Громадянські війни", "Міжусобні війни")
+                uv = uv.replace("Громадянських війнах", "Міжусобних війнах")
+                uv = uv.replace("Громадянськими війнами", "Міжусобними війнами")
+                uv = uv.replace("Громадянським війнам", "Міжусобним війнам")
+                uv = uv.replace("Громадянських війн", "Міжусобних війн")
 
                 _ucontent[_localization_key][uk] = uv
                 if uv != v or uk != k:

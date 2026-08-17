@@ -1235,7 +1235,7 @@
   promote_religious_reformation_action: "Сприяння науаській реформі"
   promote_religious_reformation_active: "$promote_religious_reformation_action$"
   promote_religious_reformation_action_progress: ""
-  promote_religious_reformation_action_progress_wordier: "Робота зі сприяння релігійній реформі"
+  promote_religious_reformation_action_progress_wordier: "Робота зі сприяння церковній реформі"
   promote_religious_reformation_action_progress_tooltip: "Це доручення збільшує #TOOLTIP:MODIFIER_TYPE,monthly_nahualt_reform_progress,X #P #V щомісячний прогрес реформи науатль#!#!#!:\n[SCOPE.sCountry('actor').GetDescriptionFor('monthly_nahualt_reform_progress')]"
   lat_reintegrate_province: "Реінтеграція [GetCountry('LAT').Custom('preposition_zzi')] [GetCountry('LAT').Custom('longname_ua_wntt_INST')]"
   lat_reintegrate_province_desc: "Після повернення [Concept('province', 'провінції')|e] до складу країни [ShowScriptedGeographyName('frankokratia_geography')] її необхідно [Concept('integrate', 'інтегрувати')|e], щоб вона стала частиною нашої [Concept('country', 'країни')|e]."

@@ -350,7 +350,7 @@
   flavor_dan.61.entry: "Місіонерський коледж"
   flavor_dan.61.desc: "Прийнявши #TOOLTIP:RELIGION,$lutheran_tt$,X #L лютеранство#!#!, ми поклали на себе обов'язок долучити до віри всіх жителів [ROOT.GetCountry.Custom('rank_ua_GEN')|l]. Однак люди, здається, зовсім не раді цій перспективі й продовжують чіплятися за уламки старих вірувань. Хвилювання наростають. Члени двору та [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] пропонують заснувати #TOOLTIP:GOVERNMENT_REFORM,dan_college_of_missions,X #L Місіонерський коледж#!#!, який підтримуватиме відповідну просвітницьку діяльність по всій країні."
   flavor_dan.61.a: "Чудова ідея!"
-  flavor_dan.61.b: "Релігійним меншинам це не сподобається."
+  flavor_dan.61.b: "Іновірним меншинам це не сподобається."
   flavor_dan.62.title: "[ROOT.GetCountry.GetGovernment.GetAdjective]а порцелянова мануфактура"
   flavor_dan.62.entry: "Королівська порцелянова мануфактура"
   flavor_dan.62.desc: "Нещодавно ми вклалися у виробництво #TOOLTIP:GOODS,porcelain,X #L порцеляни#!#! і не прогадали — її привіз значно зріс. #TOOLTIP:CONTINENT,europe,X #L Європейський#!#! ринок порцеляни стрімко розвивається, і наші [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] вхопилися за можливість зміцнити економічне становище країни. Ми прислухалися до них і побудували державну фабрику, де виробляють високоякісну порцеляну, а потім відправляють її до Європи."

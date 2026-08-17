@@ -1,6 +1,6 @@
 ﻿l_russian:
   shrine: "Святилище"
-  shrine_desc: "$shrine$, зведене в сакральному місці, покликане вселяти почуття глибокої пошани. Тут проводяться різноманітні релігійні обряди."
+  shrine_desc: "$shrine$, зведене в сакральному місці, покликане вселяти почуття глибокої пошани. Тут проводяться різноманітні обряди поклоніння вищим силам."
   mountain: "Гора"
   mountain_desc: "Гори завжди асоціювалися з богами. Багато з них вважаються священними, а деякі навіть пов'язують з певними божествами."
   episcopal_see: "Єпархія"
@@ -46,7 +46,7 @@
   samarkand_episcopal_see: "Самаркандська єпархія"
   constantinople_episcopal_see: "Константинопольська патріархія"
   jerusalem_episcopal_see_orthodox: "Православна $jerusalem_episcopal_see$"
-  alexandria_episcopal_see: "Олександрійська патріархія"
+  alexandria_episcopal_see: "Александрійська патріархія"
   antioch_episcopal_see: "Антіохійська патріархія"
   rome_episcopal_see: "Римська патріархія"
   saint_katrine_monastery: "Монастир Святої Катерини"

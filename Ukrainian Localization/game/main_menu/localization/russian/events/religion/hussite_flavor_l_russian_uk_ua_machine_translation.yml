@@ -64,7 +64,7 @@
   hussite_flavor.13.c: "[target_location.GetNameWithNoTooltip] страждає від засилля єретиків; настав час їх позбутися."
   target_character_disappears: "[target_character.GetName] зникне"
   hussite_flavor.14.title: "Гуситська Біблія"
-  hussite_flavor.14.desc: "Триває робота над повним перекладом Біблії народною мовою, зрозумілою #TOOLTIP:RELIGION,$hussite_tt$,X #L гуситам#!#!, щоб ознайомитися з Писанням у новітньому виданні зміг кожен, хто забажає. Цю новину з радістю сприйняли віряни, зокрема такі видатні релігійні діячі, як [target_character_1.GetName], [target_character_2.GetName] та [target_character_3.GetName]. Вони навіть готові взяти переклад на себе — кожен з них підійде до тексту у власній манері та в міру своїх здібностей. Це, звісно, вимагатиме значних витрат, проте нас переконують, що подібна просвітницька діяльність того варта."
+  hussite_flavor.14.desc: "Триває робота над повним перекладом Біблії народною мовою, зрозумілою #TOOLTIP:RELIGION,$hussite_tt$,X #L гуситам#!#!, щоб ознайомитися з Писанням у новітньому виданні зміг кожен, хто забажає. Цю новину з радістю сприйняли віряни, зокрема такі видатні духовні діячі, як [target_character_1.GetName], [target_character_2.GetName] та [target_character_3.GetName]. Вони навіть готові взяти переклад на себе — кожен з них підійде до тексту у власній манері та в міру своїх здібностей. Це, звісно, вимагатиме значних витрат, проте нас переконують, що подібна просвітницька діяльність того варта."
   hussite_flavor.14.a: "Цю роботу виконає [target_character_1.GetShortNameWithNoTooltip]."
   hussite_flavor.14.b: "Нехай цим займеться [target_character_2.GetNameWithNoTooltip]."
   hussite_flavor.14.c: "Переклад нам забезпечить [target_character_3.GetNameWithNoTooltip]."

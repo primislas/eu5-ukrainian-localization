@@ -1024,7 +1024,7 @@
   custom_search_filter_law_category_name: "@law! Категорії законів"
   CUSTOM_SEARCH_FILTER_LAW_CATEGORY_NAME: "$CATEGORY$"
   CUSTOM_SEARCH_FILTER_LAW_CATEGORY_DESC: "Відображається [Concept('laws', 'звід законів')|e] категорії «$CATEGORY$»."
-  custom_search_filter_law_religion_name: "@religion! Релігійні"
+  custom_search_filter_law_religion_name: "@religion! Віросповідні"
   custom_search_filter_law_gov_name: "@government! Урядові"
   custom_search_filter_law_country_name: "@country! Державні"
   CUSTOM_SEARCH_FILTER_UNIQUE_LAWS_RELIGION_NAME: "$RELIGION$"

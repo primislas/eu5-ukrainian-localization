@@ -59,7 +59,7 @@
   flavor_mug.10.desc: "В #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! панує доктрина «[ShowReligiousSchoolName('din_i_ilahi_school')|l]», і багато хто пропонує створити молитовний дім для роздумів про різні вірування. Це місце під назвою [ShowBuildingTypeName('ibadat_khana')] має об'єднати народ [ROOT.GetCountry.Custom('CL_GEN')] за допомогою віри та стати істинним втіленням #TOOLTIP:SOCIETAL_VALUE,spiritualist_vs_humanist,X #L терпимости#!#! ROOT.GetCountry.Custom('rank_ua_GEN')|l]."
   flavor_mug.10.a: "Давайте побудуємо такий дім знань."
   flavor_mug.10.b: "Не потрібно підривати [ROOT.GetCountry.GetReligion.GetGroup.GetAdjectiveWithNoTooltip|l]ий вплив."
-  flavor_mug.10.b.entry: "Не потрібно підривати релігійний вплив."
+  flavor_mug.10.b.entry: "Не потрібно підривати духовний вплив."
   flavor_mug.11.title: "Червоний форт у [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
   flavor_mug.11.entry: "Червоний форт Делі"
   flavor_mug.11.desc: "Щоб посилити контроль над [target_location.Custom('LR_INST')|l] [target_location.GetName], [target_character.GetName] пропонує побудувати в #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_PREP')|l]#!#! велику фортецю. Річка Ямуна слугуватиме додатковою природною перешкодою, і [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] зможе жити в безпеці за надійними укріпленнями."
