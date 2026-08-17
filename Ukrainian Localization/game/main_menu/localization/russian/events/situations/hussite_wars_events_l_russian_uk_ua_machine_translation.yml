@@ -1,6 +1,6 @@
 ﻿l_russian:
   hussite_wars: "Гуситські війни"
-  hussite_wars_desc: "#TOOLTIP:RELIGION,$hussite_tt$,X #L Гусити#!#! та #TOOLTIP:RELIGION,$catholic_tt$,X #L католики#!#! нескінченно конфліктують. Ця низка зіткнень швидко переросла в повномасштабну війну за релігійну приналежність країни."
+  hussite_wars_desc: "#TOOLTIP:RELIGION,$hussite_tt$,X #L Гусити#!#! та #TOOLTIP:RELIGION,$catholic_tt$,X #L католики#!#! нескінченно сваряться. Ця низка зіткнень швидко переросла в повномасштабну війну за духовну приналежність країни."
   recognized_hussites_tt: "#Y  Гуситські війни#! закінчилися нашою перемогою"
   has_not_had_this_situation_before_tt: "Ця [Concept('situation', 'ситуація')|e] виникла вперше"
   DEFENDERS_CATHOLICISM: "Оборонний [Concept('alliance', 'союз')|e] проти Богемії"

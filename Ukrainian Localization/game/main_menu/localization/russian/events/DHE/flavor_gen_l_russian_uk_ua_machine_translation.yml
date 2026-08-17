@@ -240,7 +240,7 @@
   flavor_gen.41.a.entry: "$common_string_brilliant$"
   flavor_gen.42.title: "[artist_character.GetNameWithNoTooltip]"
   flavor_gen.42.entry: "Персонаж-митець"
-  flavor_gen.42.desc: "[artist_character.GetName], мабуть, один з найбільш обдарованих художників нашого часу. Він вважається ключовою фігурою в релігійному живописі завдяки своєму вмінню зображати біблійні сюжети з надзвичайною красою та глибиною емоцій, і для багатьох його картини стали символом віри та відданості."
+  flavor_gen.42.desc: "[artist_character.GetName], мабуть, один з найбільш обдарованих художників нашого часу. Він вважається ключовою фігурою в священному живописі завдяки своєму вмінню зображати біблійні сюжети з надзвичайною красою та глибиною емоцій, і для багатьох його картини стали символом віри та відданості."
   flavor_gen.42.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   flavor_gen.42.a.entry: "$common_string_brilliant$"
   flavor_gen.43.title: "[artist_character.GetNameWithNoTooltip]"

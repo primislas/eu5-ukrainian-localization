@@ -158,7 +158,7 @@
   flavor_tim_1100_shared: "[target_character.GetNameWithNoTooltip] і [Select_CString(target_character.IsFemale, 'її', 'його')] спадщина"
   flavor_tim.1100.title: "$flavor_tim_1100_shared$"
   flavor_tim.1100.entry: "$flavor_tim.1100.title$"
-  flavor_tim.1100.desc: "Рух хуруфітів набув безліч прихильників і перетворився на масштабну релігійну течію на території #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Керівник руху [target_character.GetName] заявляє, що він — втілений [target_character.GetReligion.GetGodName], і що в Судний день він з’явиться світові як Махді. Очевидно, у цих божевільних промовах немає ані краплі правди, проте якщо ми стратимо цього лжепророка, його послідовники можуть підняти повстання."
+  flavor_tim.1100.desc: "Рух хуруфітів набув безліч прихильників і перетворився на масштабну духовну течію на теренах #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Провідник руху [target_character.GetName] заявляє, що він — втілений [target_character.GetReligion.GetGodName], і що в Судний день він з’явиться світові як Махді. Очевидно, у цих божевільних промовах немає ані краплі правди, проте якщо ми стратимо цього лжепророка, його послідовники можуть підняти повстання."
   flavor_tim.1100.a: "Нехай базікає."
   flavor_tim.1100.b: "Вигнати його негайно!"
   flavor_tim.1100.c: "Ми не станемо ризикувати, нехай навіть підніметься бунт."

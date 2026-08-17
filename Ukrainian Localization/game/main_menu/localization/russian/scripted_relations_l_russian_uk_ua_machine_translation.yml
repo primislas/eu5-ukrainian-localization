@@ -1008,7 +1008,7 @@
   alliance_effect_text: "[COUNTRY.GetName] уклада[COUNTRY.Custom('end_yeyut')] [Concept('alliance', 'союз')|e] із владою #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!"
   alliance_effect_text_past: "[COUNTRY.GetName] укла[COUNTRY.Custom('end_vlaloly')] [Concept('alliance', 'союз')|e] із владою #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!"
   NEEDS_ALLIES_AGAINST_STRONG_RIVALS_AND_NEIGHBOURS: "Загроза від сусідів та суперників"
-  IN_OPPOSING_RELIGIOUS_FACTONS: "Дотримуються протилежних релігійних течій"
+  IN_OPPOSING_RELIGIOUS_FACTONS: "Дотримуються протилежних таборів віри"
   NEEDS_ALLIES_AGAINST_DIFFICULT_CONQUEST_TARGETS: "Складність завоювання"
   ACTOR_DESIRES_RECIPIENTS_LOCATIONS: "Країна [SCOPE.sCountry('actor').GetNameWithNoTooltip] бажає здобути землі, що належать #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').GetKey],X [SCOPE.sCountry('recipient').Custom('CL_DAT')|L]#!#!"
   RECIPIENTS_DESIRES_ACTORS_LOCATIONS: "Країна [SCOPE.sCountry('recipient').GetNameWithNoTooltip] бажає здобути землі, що належать #ONCLICK:COUNTRY,[SCOPE.sCountry('actor').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('actor').GetKey],X [SCOPE.sCountry('actor').Custom('CL_DAT')|L]#!#!"
