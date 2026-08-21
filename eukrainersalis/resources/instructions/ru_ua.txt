@@ -529,7 +529,8 @@ Game concepts with the adjective 'religious', 'религиозный':
     * religious_focus, религиозная цель -> "священна мета", BUT plural "священні цілі"
     * religious_supremacy, релегиозное превосходство -> зверхність віри
     * religious_head, глава религии, религиозный глава -> глава церкви
-    * religious_sect, (религиозное) направление -> (духовна) течія
+    * religious_sect, (религиозное) направление -> шлях вчення
+    ** when texts talk of religious sects as specific organizations, translate as "духовні братства", e.g. "підвищуємо грамотність за допомогою духовних братств" (бо вираз "підвищуємо грамотність за допомогою шляху вчення" звучить як нісенітниця)
     * war_of_religions, Религиозная война -> Війна вір
     * french_wars_of_religion, французские религиозные войны -> французькі міжусобиці за віру, гугенотські війни
     * religious_league, религиозная лига -> конфесійна ліга
@@ -554,23 +555,25 @@ Game concepts with the adjective 'religious', 'религиозный':
     ** avoid constructs like "віра вважається іновірною", "їхня віра є іновірною", instead simplify simply with "чужою" to avoid tautology, e.g.: `їхня [Concept('estate_religion', 'віра')|e] вважається [Concept('heathen', 'чужою')|e]`
     * язычество -> "чужовірство" in general sense; translate as "язичництво" only when clearly about pagan beliefs
 
+    * religious opinion/view, мнение про религию -> ставлення до віри
+    * religious school opinion/view, мнение про религиозную школу -> ставлення до релігійної школи
+
+    * lutheran/calvinist_preachers(_building), здание лютеранских/кальвинистских проповедников -> лютеранський/кальвіністський молитовний дім
+
     * религиозность -> набожність
     * исламский/мусульманский -> source localization often incorrectly uses these adjectives mixing them up, apply the following rules:
     ** "мусульманський" for anything related to population ("мусульманське населення, спільнота, більшість, народні звичаї, вояки, вороги") and individual people, in narrative texts can also be applied to countries with Muslim majority and government;
     ** "ісламський" in all the other cases, especially in anything related to religious and state matters ("ісламські священні тексти, богослови, війська, армії, уряди")
     * kadiluk, кадылык -> кадилик
     * dharma, дхарма -> дгарма
-    ** "дгарми", а НЕ "дгармів"
+    ** "дгарми", NOT "дгармів"
     ** in all Indian names and location names transliterate "dhar" ("дхар") as "дгар"
     * мазхаб -> мазгаб
     * Яхве -> Ягве
     * динка -> динка (НЕ дінка), when about ethnic group or their religion
     * Уїцилопочтлі -> Віцилопочтлі
+    * kami cult, культ ками -> шанування камі
 
-    * religious opinion/view, мнение про религию -> ставлення до віри
-    * religious school opinion/view, мнение про религиозную школу -> ставлення до релігійної школи
-
-    * lutheran/calvinist_preachers(_building), здание лютеранских/кальвинистских проповедников -> лютеранський/кальвіністський молитовний дім
 
 ### Adjective 'religious', 'религиозный'. General use and established expressions
 
