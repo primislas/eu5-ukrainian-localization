@@ -53,7 +53,7 @@
   ESTATE_POWER_FROM_WEALTH: "Поточне багатство: $VALUE|-=2%$"
   ESTATE_POWER_CULTURE_STATUS: "$NAME$ — $STATUS|l$: $VALUE|-=2%$"
   ESTATE_POWER_RELIGION_STATUS: "Статус віри: $VALUE|V2%$"
-  ECONOMICALBASE_TOOLTIP_TITLE: "У [COUNTRY.Custom('CL_GEN')] [Country.GetEconomicalBase|2]@gold!"
+  ECONOMICALBASE_TOOLTIP_TITLE: "У [Country.Custom('CL_GEN')] [Country.GetEconomicalBase|2]@gold!"
   AVERAGE_ECONOMICAL_BASE: "Середня [Concept('economical_base', 'господарська база')|e]"
   CS_COMBINED_ARMS_INFO: "#T Перевага за різнорідні війська#!\nПеревага: $VAL|+=2%$. Причини:\n$WHY$"
   NO_COMBINED_ARMS_BONUS: "Найчисленніший [Concept('unit_category', 'рід військ')|E] — це $VAL|2R%$ усіх [Concept('units', 'загонів')|E]. Щоб отримати перевагу, це значення має бути нижчим за $PERC|2%G$.\nПеревага: 0%"
