@@ -34,7 +34,7 @@
   usa_hachiman_jinguuji: "Уса-Хатіман-дзінгудзі"
   shikoku_henro: "Шікоку-хенро"
   enryaku_ji: "Енряку-дзі"
-  enryaku_ji_desc: "Монастир Енряку-дзі на горі Хіей був заснований у 788 році ченцем Сайтрьо як штаб-квартира #TOOLTIP:RELIGIONGROUP,buddhist,X #L буддійської#!#! школи $SECT_TENDAI_NAME$. Цей впливовий духовний центр мав у своєму розпорядженні тисячі воїнів-ченців і нерідко втручався у справи [ShowLocationName('kyoto')]."
+  enryaku_ji_desc: "Монастир Енряку-дзі на горі Хіей був заснований у 788 році ченцем Сайтрьо як осідок #TOOLTIP:RELIGIONGROUP,buddhist,X #L буддійського#!#! шляху $SECT_TENDAI_NAME$. Цей впливовий духовний осередок мав у своєму розпорядженні тисячі воїнів-ченців і нерідко втручався у справи [ShowLocationName('kyoto')]."
   rock_hewn_churches_at_lalibela: "Скельні церкви Лалібели"
   zawiya_of_moulay_idris_ii: "Завія Мулай-Ідріс II"
   resting_place_of_sidi_ahmed_ou_moussa: "$name_sidi$ $name_ahmad$: місце упокоєння"

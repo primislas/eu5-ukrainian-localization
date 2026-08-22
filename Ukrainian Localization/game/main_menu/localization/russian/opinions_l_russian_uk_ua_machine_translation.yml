@@ -143,7 +143,7 @@
   io_opinion_lordship_of_ireland: "[Concept('member', 'Входять')|e] до манору Ірландія"
   io_opinion_lord_of_ireland: "Лорд Ірландії"
   io_opinion_autocephalous_patriarchate: "В одному автокефальному патріархаті"
-  io_opinion_sect: "Сповідують той же напрям"
+  io_opinion_sect: "Йдуть тим же шляхом"
   io_opinion_hindu_branch: "Сповідують те ж відгалуження індуїзму"
   io_opinion_catholic_church: "Також [Concept('members', 'належать')|e] до католицької церкви"
   io_opinion_shinto: "Також сповідують синтоїзм"
