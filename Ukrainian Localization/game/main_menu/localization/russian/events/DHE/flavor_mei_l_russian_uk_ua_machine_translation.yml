@@ -11,7 +11,7 @@
   flavor_mei.2.desc: "Талановитий драматург і поет [target_character.GetName] обрав нашу країну своїм новим прихистком, щоб продовжити творчу діяльність на наших землях. Він уже здобув собі славу визнаного літератора, але явно не збирається зупинятися на досягнутому."
   flavor_mei.2.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   flavor_mei.2.a.entry: "$common_string_brilliant$"
-  flavor_mei.2.b: "Нехай краще вирушає до [target_banish_country.Custom('CL_ACC')]."
+  flavor_mei.2.b: "Нехай краще вирушає до [target_banish_country.Custom('CL_GEN')]."
   flavor_mei.2.b.entry: "Нехай краще вирушає кудись іще."
   flavor_mei.10.title: "[target_character.GetNameWithNoTooltip]"
   flavor_mei.10.entry: "Йоганн Себастьян Бах"

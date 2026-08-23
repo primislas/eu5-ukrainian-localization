@@ -29,7 +29,7 @@
   rise_of_the_ottomans.101.b: "Їхні інтереси нас не хвилюють!"
   rise_of_the_ottomans.101.tt: "Країна [target_country.GetName] може погодитися стати нашим #TOOLTIP:SUBJECT_TYPE,vassal,X #L васалом#!#!"
   rise_of_the_ottomans.102.title: "Вимога #ONCLICK:COUNTRY,[target_country2.GetKey] #TOOLTIP:COUNTRY,[target_country2.GetKey],X [target_country2.Custom('CL_GEN')|L]#!#!"
-  rise_of_the_ottomans.102.desc: "[target_country2.GetGovernment.GetFullRulerName] [Select_CString(target_country2.GetGovernment.IsFemale, 'відправила', 'відправив')] до нас посла. Той вимагає, щоб наша країна беззаперечно підкорилася #L [target_country2.GetAdjective|l]ій#! владі, приєднавшись до їхнього [target_country2.Custom('rank_ua_DAT')|l] як #TOOLTIP:SUBJECT_TYPE,vassal,X #L васал#!#!."
+  rise_of_the_ottomans.102.desc: "[target_country2.GetGovernment.GetFullRulerName] [Select_CString(target_country2.GetGovernment.IsFemale, 'відправила', 'відправив')] до нас посла. Той вимагає, щоб наша країна беззаперечно підкорилася #L [target_country2.GetAdjective|l]ій#! владі, приєднавшись до їхнього [target_country2.Custom('rank_ua_GEN')|l] як #TOOLTIP:SUBJECT_TYPE,vassal,X #L васал#!#!."
   rise_of_the_ottomans.102.a: "Приймемо вимоги."
   rise_of_the_ottomans.102.b: "Ми не станемо навіть думати про це."
   rise_of_the_ottomans.103.title: "[target_country.GetAdjectiveWithNoTooltip]а відповідь"

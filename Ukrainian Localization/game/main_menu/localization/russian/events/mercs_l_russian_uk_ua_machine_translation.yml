@@ -1,6 +1,6 @@
 ﻿l_russian:
   mercs.1.title: "Невдоволення серед членів загону «[SCOPE.sMercenary('patriotic_mercs').GetName]»"
-  mercs.1.desc: "Багато членів загону «[SCOPE.sMercenary('patriotic_mercs').GetName]» перейнялися безпідставними сентиментальними почуттями до #ONCLICK:COUNTRY,[SCOPE.sCountry('merc_home_country').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('merc_home_country').GetKey],X [SCOPE.sCountry('merc_home_country').Custom('CL_DAT')|L]#!#!, своєї жалюгідної батьківщини. Значна частина загону дезертувала, вражена думкою про те, що їхні рідні міста згорять у пожежі війни."
+  mercs.1.desc: "Багато членів загону «[SCOPE.sMercenary('patriotic_mercs').GetName]» перейнялися безпідставними сентиментальними почуттями до #ONCLICK:COUNTRY,[SCOPE.sCountry('merc_home_country').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('merc_home_country').GetKey],X [SCOPE.sCountry('merc_home_country').Custom('CL_GEN')|L]#!#!, своєї жалюгідної батьківщини. Значна частина загону дезертувала, вражена думкою про те, що їхні рідні міста згорять у пожежі війни."
   mercs.1.a: "Вони слабкі духом."
   mercs.1.b: "Золото — ось що шотландці по-справжньому люблять."
   mercs.2.title: "Ворог їхнього ворога"

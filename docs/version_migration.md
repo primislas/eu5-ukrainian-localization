@@ -26,3 +26,4 @@ until all files are exhausted.
 
 Various post-migration checks:
 * Check correct 'GetAdjective' endings with a regex search `GetAdjective[^\]]*][^а-яіїє\[\$]`
+* Check correct grammatical cases after 'до' (should be Genitive, not Dative or Accusative) `[Дд]о[^а-я].*DAT'` `[Дд]о[^а-я].*ACC'`

@@ -263,7 +263,7 @@
   flavor_jap.143.a: "Час відродити цю прекрасну школу!"
   flavor_jap.144.title: "[jesuit_francis_xavier.GetNameWithNoTooltip] прибуває до країни"
   flavor_jap.144.entry: "Франциск Ксаверій"
-  flavor_jap.144.desc: "Останніми роками до наших берегів дедалі частіше пристають чужоземні торговці-#italic нанбан#!. Їхня діяльність викликає суперечки з-поміж деяких даймьо-сюго та вельмож двору. Нещодавно [our_ruler.GetName] виявив особистий інтерес до одного іноземного гостя. [jesuit_francis_xavier.GetName], як його називають торговці-нанбан, прибув до [arrival_location.Custom('LR_ACC')|l] [arrival_location.GetName], рухомий побожним запалом. Він прагне поширити свою #TOOLTIP:RELIGION,$catholic_tt$,X #L католицьку#!#! віру всією #TOOLTIP:REGION,japan_region,X #L Японією#!#!."
+  flavor_jap.144.desc: "Останніми роками до наших берегів дедалі частіше пристають чужоземні торговці-#italic нанбан#!. Їхня діяльність викликає суперечки з-поміж деяких даймьо-сюго та вельмож двору. Нещодавно [our_ruler.GetName] виявив особистий інтерес до одного іноземного гостя. [jesuit_francis_xavier.GetName], як його називають торговці-нанбан, прибув до [arrival_location.Custom('LR_GEN')|l] [arrival_location.GetName], рухомий побожним запалом. Він прагне поширити свою #TOOLTIP:RELIGION,$catholic_tt$,X #L католицьку#!#! віру всією #TOOLTIP:REGION,japan_region,X #L Японією#!#!."
   flavor_jap.144.a: "Нехай залишається"
   flavor_jap.144.b: "Будь-які спроби навернення наших підданих неприпустимі."
   variable_nanban_trade_tt: "Розпочалася торгівля з південними варварами"

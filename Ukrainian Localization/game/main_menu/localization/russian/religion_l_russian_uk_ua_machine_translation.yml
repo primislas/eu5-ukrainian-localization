@@ -53,7 +53,7 @@
   periphora_desc: "Дозволяє організувати ходу. Обрана [Concept('work_of_art', 'ікона')|e] буде перенесена в іншу [Concept('location', 'місцевість')|e]. Ікона близько місяця проводитиме в кожній місцевості на шляху прямування, приносячи її жителям переваги залежно від майстерності творіння."
   periphora_select_icon: "Оберіть ікону для хресної ходи"
   periphora_select_destination: "Оберіть кінцеву точку хресної ходи"
-  PERIPHORA_NAME: "Хода з іконою «[WORK_OF_ART.GetName]» з [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] до [LOCATION.Custom('LR_ACC')|l] [TARGET_LOCATION.GetName]"
+  PERIPHORA_NAME: "Хода з іконою «[WORK_OF_ART.GetName]» з [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] до [LOCATION.Custom('LR_GEN')|l] [TARGET_LOCATION.GetName]"
   invite_patriarch_delegation: "Запрошення делегації патріарха"
   invite_patriarch_delegation_desc: "Ми запросимо до себе делегацію патріарха, оскільки хочемо покращити взаємини з ним, а також обговорити питання віри та управління країною."
   canonize: "Канонізувати"

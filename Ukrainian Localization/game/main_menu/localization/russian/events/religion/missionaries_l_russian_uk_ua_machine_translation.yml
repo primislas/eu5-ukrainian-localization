@@ -1,6 +1,6 @@
 ﻿l_russian:
   missionaries.1.title: "Місіонер захворів"
-  missionaries.1.desc: "Місіонер, відправлений нами до [target_location.Custom('LR_ACC')|l] [target_location.GetName], не досяг особливих успіхів, а зараз до нас дійшли звістки, що він ще й захворів. Усі роботи зі створення нової церкви зупинилися, а сподівання навернути місцевих жителів тепер практично марні."
+  missionaries.1.desc: "Місіонер, відправлений нами до [target_location.Custom('LR_GEN')|l] [target_location.GetName], не досяг особливих успіхів, а зараз до нас дійшли звістки, що він ще й захворів. Усі роботи зі створення нової церкви зупинилися, а сподівання навернути місцевих жителів тепер практично марні."
   missionaries.1.a: "Відправимо когось йому на допомогу."
   missionaries.1.b: "Займемося іншими питаннями."
   STATIC_MODIFIER_NAME_missionary_falls_ill: "Місіонер захворів"
@@ -24,7 +24,7 @@
   STATIC_MODIFIER_NAME_religious_tensions: "Чвари через віру"
   STATIC_MODIFIER_DESC_religious_tensions: "Місцеві жителі відмовляються слухати проповіді наших місіонерів."
   missionaries.7.title: "Неспокійний сусід"
-  missionaries.7.desc: "Місіонери, послані нами до [target_location.Custom('LR_ACC')|l] [target_location.GetName], скаржаться на нестабільні обставини через війну в сусідній країні. Попри наш нейтралітет, вона помітно впливає на життя цієї місцевості."
+  missionaries.7.desc: "Місіонери, послані нами до [target_location.Custom('LR_GEN')|l] [target_location.GetName], скаржаться на нестабільні обставини через війну в сусідній країні. Попри наш нейтралітет, вона помітно впливає на життя цієї місцевості."
   missionaries.7.a: "Запропонуємо допомогу."
   missionaries.7.b: "Не будемо звертати уваги."
   missionaries.8.title: "Місіонерська діяльність"

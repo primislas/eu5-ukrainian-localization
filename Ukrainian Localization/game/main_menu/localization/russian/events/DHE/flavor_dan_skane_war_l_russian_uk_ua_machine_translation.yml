@@ -5,7 +5,7 @@
   flavor_dan_skane_war.1.a: "Виженемо його на територію [GetCountry('DAN').Custom('CL_GEN')]."
   flavor_dan_skane_war.1.a.entry: "Проженемо його до Данії."
   flavor_dan_skane_war.1.b: "Підтримаємо його заколот."
-  flavor_dan_skane_war.1.b.tt: "За цим може послідувати приєднання нашої країни до #ONCLICK:COUNTRY,[GetCountry('DAN').GetKey] #TOOLTIP:COUNTRY,[GetCountry('DAN').GetKey],X [GetCountry('DAN').Custom('CL_DAT')|L]#!#!."
+  flavor_dan_skane_war.1.b.tt: "За цим може послідувати приєднання нашої країни до #ONCLICK:COUNTRY,[GetCountry('DAN').GetKey] #TOOLTIP:COUNTRY,[GetCountry('DAN').GetKey],X [GetCountry('DAN').Custom('CL_GEN')|L]#!#!."
   flavor_dan_skane_war.2.title: "[target_character.GetNameWithNoTooltip] пропонує свої послуги"
   flavor_dan_skane_war.2.desc: "[target_character.GetName] повернувся з #ONCLICK:COUNTRY,[GetCountry('SKE').GetKey] #TOOLTIP:COUNTRY,[GetCountry('SKE').GetKey],X [GetCountry('SKE').Custom('CL_GEN')|L]#!#!, де він боровся за #L [ROOT.GetCountry.GetAdjective|l]у#! владу над #TOOLTIP:AREA,skaneland_area,X #L Сканією#!#!. Якщо ми запросимо його до двору, то він зможе налагодити відносини з #TOOLTIP:CULTURE,$danish_tt$,X #L данськими#!#! дворянами, що проживають у #ONCLICK:COUNTRY,[GetCountry('SKE').GetKey] #TOOLTIP:COUNTRY,[GetCountry('SKE').GetKey],X [GetCountry('SKE').Custom('CL_PREP')|L]#!#!."
   flavor_dan_skane_war.2.a: "Ми із задоволенням запросимо його!"

@@ -214,7 +214,7 @@
   NED_UNLESS_IF_WE_SECURE_LEGITIMACY_ENGLISH_NOBLES_WILL_INVITE_DUTCH_RULER: "Поки наше [Concept('legitimacy', 'право на владу')|e] нижче за #Y 80#!, #L [ROOT.GetCountry.GetCulture.GetName|l][ROOT.GetCountry.Custom('nobles_yiaei')]#! [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] мож[ROOT.GetCountry.Custom('nobles_eut')] домогтися, щоб до влади [Select_CString(target_character2.IsFemale,'прийшла', 'прийшов')] [target_character2.GetName]."
   flavor_ned.1001.title: "Безсмертна сімка"
   flavor_ned.1001.desc: "[target_country.GetName] переживає важкі часи. Багато хто вважає, що [target_country.GetGovernment.GetRulerTitle] [target_character2.GetName] незаконно посідає своє місце. Прагнучи залагодити ситуацію, найвинахідливіш[ROOT.GetCountry.Custom('nobles_yiaei')] [target_country.GetGovernment.GetEstateName('nobles_estate')] виступа[ROOT.GetCountry.Custom('nobles_yeyut')] із пропозицією. Згідно з їхнім планом, [target_country.GetAdjectiveWithNoTooltip]у корону отримає [target_character.GetName], якщо, звичайно, [Select_CString(target_character.IsFemale,'вона сама', 'він сам')] того забажає."
-  flavor_ned.1001.a: "Ми зараз же відпливаємо до [target_country.Custom('CL_ACC')]."
+  flavor_ned.1001.a: "Ми зараз же відпливаємо до [target_country.Custom('CL_GEN')]."
   flavor_ned.1001.a.entry: "Ми зараз же відпливаємо туди."
   flavor_ned.1001.b: "Ми на таке не підписувалися!"
   flavor_ned.1002.title: "Славетна революція"

@@ -57,7 +57,7 @@
   byzantine_succ_crisis.11.entry: "$byzantine_succ_crisis.11.title$"
   byzantine_succ_crisis.11.desc: "[target_location.GetName] — улюблений ринок для купців з багатьох країн. Вони прибувають до порту з усіх кінців світу, щоб обміняти своє золото або цінні вантажі на заморські товари. На жаль, наш флот вже не той, що раніше, та й у торгових справах нам далеко до слави наших предків. Скарбниця майже порожня, і поки [target_character.GetName] залишається загрозою для корони, поповнити її навряд чи вдасться. На щастя, до нас звернулися посланці з #ONCLICK:COUNTRY,[GetCountry('VEN').GetKey] #TOOLTIP:COUNTRY,[GetCountry('VEN').GetKey],X [GetCountry('VEN').Custom('CL_GEN')|L]#!#! та #ONCLICK:COUNTRY,[GetCountry('GEN').GetKey] #TOOLTIP:COUNTRY,[GetCountry('GEN').GetKey],X [GetCountry('GEN').Custom('CL_GEN')|L]#!#!. Вони готові профінансувати наш флот в обмін на певні привілеї на нашому ринку…"
   byzantine_succ_crisis.11.a: "Укладемо договір з владою [GetCountry('VEN').Custom('CL_GEN')]."
-  byzantine_succ_crisis.11.b: "Звернемося за допомогою до [GetCountry('GEN').Custom('CL_DAT')]."
+  byzantine_succ_crisis.11.b: "Звернемося за допомогою до [GetCountry('GEN').Custom('CL_GEN')]."
   byzantine_succ_crisis.11.c: "Ми можемо домовитися з обома країнами."
   byzantine_succ_crisis.11.d: "Ці паразити напевно задумали недобре!"
   italian_merchants_favored_key: "Переваги для #TOOLTIP:CULTUREGROUP,italian_group,X #L італійських#!#! купців"

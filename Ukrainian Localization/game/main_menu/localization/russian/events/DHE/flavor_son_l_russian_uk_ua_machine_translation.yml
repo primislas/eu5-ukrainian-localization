@@ -91,7 +91,7 @@
   flavor_son.1001.a.entry: "Такі люди дуже знадобилися б при дворі."
   flavor_son.1001.b: "Ми здійснюємо паломництво до святинь, а не наймаємо вчених."
   flavor_son.1002.title: "Пожертвування в Магрибі"
-  flavor_son.1002.desc: "Пробувши якийсь час у [target_location.Custom('LR_PREP')|l] [target_location.GetName], [target_character.GetName] та [Select_CString(target_character.IsFemale,'її', 'його')] караван приготувалися вирушати до #TOOLTIP:REGION,egypt_region,X #L Єгипту#!#!. Однак перед від'їздом [Select_CString(target_character.IsFemale,'вона вирішила', 'він вирішив')] віддячити місцевим жителям за гостинний прийом, пожертвувавши частину коштів з каравану на розвиток #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_ACC')|l]#!#!."
+  flavor_son.1002.desc: "Пробувши якийсь час у [target_location.Custom('LR_PREP')|l] [target_location.GetName], [target_character.GetName] та [Select_CString(target_character.IsFemale,'її', 'його')] караван приготувалися вирушати до #TOOLTIP:REGION,egypt_region,X #L Єгипту#!#!. Однак перед від'їздом [Select_CString(target_character.IsFemale,'вона вирішила', 'він вирішив')] віддячити місцевим жителям за гостинний прийом, пожертвувавши частину коштів з каравану на розвиток #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_GEN')|l]#!#!."
   flavor_son.1002.a: "Заплатимо за гостинність. [target_location.GetNameWithNoTooltip] цього заслуговує."
   flavor_son.1002.a.entry: "Заплатимо за гостинність."
   flavor_son.1002.b: "Караван повинен йти, а не роздавати золото."

@@ -17,7 +17,7 @@
   flavor_kor.2.desc.prestige: "$flavor_kor.2.desc$\n\n$flavor_kor.2.desc.demand$ [target_country.GetAdjectiveWithNoTooltip|U]і влада цікавиться нашими найціннішими артефактами. Вони хочуть привласнити їх собі заради підвищення слави."
   flavor_kor.2.desc.diplomatic_actions: "$flavor_kor.2.desc$\n\n$flavor_kor.2.desc.demand$ Наші посли потрібні при [target_country.GetAdjectiveWithNoTooltip|l]ому дворі."
   flavor_kor.2.desc.estate_satisfaction: "$flavor_kor.2.desc$\n\n$flavor_kor.2.desc.demand$ [target_country.GetGovernment.GetRulerTitle|U] [target_country.Custom('CL_GEN')] вимагає беззаперечного підпорядкування від усіх наших станів. Наші піддані, звісно, будуть від цього не в захваті."
-  flavor_kor.2.desc.government_power: "$flavor_kor.2.desc$\n\n$flavor_kor.2.desc.demand$ [ROOT.GetCountry.GetGovernment.GetRulerTitle|U] вирушить до [target_country.GetCapital.Custom('LR_ACC')|l] [target_country.GetCapital.GetName], де [target_country.GetGovernment.GetRuler.GetName|l] очікує публічного колінопреклоніння. Яка принизлива вимога!"
+  flavor_kor.2.desc.government_power: "$flavor_kor.2.desc$\n\n$flavor_kor.2.desc.demand$ [ROOT.GetCountry.GetGovernment.GetRulerTitle|U] вирушить до [target_country.GetCapital.Custom('LR_GEN')|l] [target_country.GetCapital.GetName], де [target_country.GetGovernment.GetRuler.GetName|l] очікує публічного колінопреклоніння. Яка принизлива вимога!"
   flavor_kor.2.a: "Нехай буде так, як хоче [target_country.GetGovernment.GetRulerTitle|l]."
   flavor_kor.2.a.entry: "Нехай буде так, як хоче він."
   flavor_kor.2.b: "Ми не схилимо колін перед монголами!"

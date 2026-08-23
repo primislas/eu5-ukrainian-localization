@@ -277,7 +277,7 @@
   treasure_voyage_select_location: "Оберіть [Concept('location', 'місцевість')|e] відправлення:"
   treasure_voyage_select_character: "Оберіть [Concept('character', 'персонажа')|e], який очолить подорож:"
   treasure_voyage_select_value_of_gifts: "Оберіть, скільки [Concept('gold', 'грошей')|e] витратити на дари:"
-  ADD_TO_IO_TOOLTIP_T: "Додати [LocationView.GetLocation.Custom('LR_ACC')|l] [LocationView.GetLocation.GetNameWithNoTooltip] до [InternationalOrganization.Custom('IO_wntt_ACC')]"
+  ADD_TO_IO_TOOLTIP_T: "Додати [LocationView.GetLocation.Custom('LR_ACC')|l] [LocationView.GetLocation.GetNameWithNoTooltip] до [InternationalOrganization.Custom('IO_wntt_GEN')]"
   REMOVE_FROM_IO_TOOLTIP_T: "Вивести [LocationView.GetLocation.Custom('LR_ACC')|l] [LocationView.GetLocation.GetNameWithNoTooltip] з [InternationalOrganization.Custom('IO_wntt_GEN')]"
   add_location_to_international_organization: "Включити місцевість до міжнародного об'єднання"
   add_location_to_international_organization_tt: "[target_1.GetOnAddedLocation(SCOPE.sLocation('target'))]"

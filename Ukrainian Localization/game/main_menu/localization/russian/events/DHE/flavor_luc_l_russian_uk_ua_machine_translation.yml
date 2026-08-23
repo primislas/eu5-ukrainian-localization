@@ -28,7 +28,7 @@
   flavor_luc.1000.entry: "$flavor_luc.1000.title$"
   flavor_luc.1000.title: "Придбання [GetCountry('LUC').Custom('CL_GEN')]"
   flavor_luc.1000.desc: "Війна, яку нині вед[target_country.Custom('end_youtut')] [target_country.GetName], надала нам чудову нагоду перейти до іншого пана — якщо, звісно, у нас виникне таке бажання. Замість того, щоб домагатися цієї мети військовим шляхом, [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] пропонує продатися #ONCLICK:COUNTRY,[GetCountry('PIS').GetKey] #TOOLTIP:COUNTRY,[GetCountry('PIS').GetKey],X [GetCountry('PIS').Custom('CL_DAT')|L]#!#!, щоб і поповнити скарбницю, і продемонструвати свою добру волю."
-  flavor_luc.1000.a: "Звернімося з цією пропозицією до [target_country.Custom('CL_DAT')]."
+  flavor_luc.1000.a: "Звернімося з цією пропозицією до [target_country.Custom('CL_GEN')]."
   flavor_luc.1000.a.entry: "Звернімося з цією пропозицією до сюзерена."
   flavor_luc.1000.b: "Незалежність можна лише відвоювати."
   flavor_luc.1001.title: "$flavor_luc.1000.title$"

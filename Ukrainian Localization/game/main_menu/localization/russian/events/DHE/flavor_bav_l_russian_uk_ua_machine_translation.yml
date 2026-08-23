@@ -124,7 +124,7 @@
   flavor_bav.31.a: "Незалежно від [Select_CString(emperor_ruler.IsFemale, 'її', 'його' )] рішення, ми станемо лише сильнішими."
   flavor_bav.32.title: "Ми втратили статус курфюрства!"
   flavor_bav.32.entry: "$flavor_bav.32.title$"
-  flavor_bav.32.desc: "[emperor_ruler.GetName] [Select_CString(emperor_ruler.IsFemale, 'позбавила', 'позбавив' )] нашу країну статусу #TOOLTIP:SPECIAL_STATUS,elector,X #L курфюрства#!#!. Наше звичне місце в колегії виборщиків #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#! переходить до #ONCLICK:COUNTRY,[bavaria_country.GetKey] #TOOLTIP:COUNTRY,[bavaria_country.GetKey],X [bavaria_country.Custom('CL_DAT')|L]#!#!. Це рішення серйозно змінить баланс сил в імперії."
+  flavor_bav.32.desc: "[emperor_ruler.GetName] [Select_CString(emperor_ruler.IsFemale, 'позбавила', 'позбавив' )] нашу країну статусу #TOOLTIP:SPECIAL_STATUS,elector,X #L курфюрства#!#!. Наше звичне місце в колегії виборщиків #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#! переходить до #ONCLICK:COUNTRY,[bavaria_country.GetKey] #TOOLTIP:COUNTRY,[bavaria_country.GetKey],X [bavaria_country.Custom('CL_GEN')|L]#!#!. Це рішення серйозно змінить баланс сил в імперії."
   flavor_bav.32.a: "Це стане плямою на нашій репутації."
   flavor_bav.33.title: "Перебудова абатства Херренкімзе"
   flavor_bav.33.entry: "Перебудова абатства Герренкімзе"

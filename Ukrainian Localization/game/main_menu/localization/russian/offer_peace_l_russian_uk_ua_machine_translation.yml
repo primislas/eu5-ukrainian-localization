@@ -231,7 +231,7 @@
   PEACE_OFFER_CLEAR_OFFER: "Скасувати пропозиції"
   PEACE_OFFER_CLEAR_DEMAND: "Скасувати вимоги"
   PEACE_OFFER_CLEAR_OFFER_DESC: "Очистити пропозицію про мир з #ONCLICK:COUNTRY,[PeaceOfferLateralView.GetSelectedParticipant.GetKey] #TOOLTIP:COUNTRY,[PeaceOfferLateralView.GetSelectedParticipant.GetKey],X [PeaceOfferLateralView.GetSelectedParticipant.Custom('CL_INST')|L]#!#!."
-  PEACE_OFFER_CLEAR_DEMAND_DESC: "Очистити мирну вимогу до #ONCLICK:COUNTRY,[PeaceOfferLateralView.GetSelectedParticipant.GetKey] #TOOLTIP:COUNTRY,[PeaceOfferLateralView.GetSelectedParticipant.GetKey],X [PeaceOfferLateralView.GetSelectedParticipant.Custom('CL_DAT')|L]#!#!."
+  PEACE_OFFER_CLEAR_DEMAND_DESC: "Очистити мирну вимогу до #ONCLICK:COUNTRY,[PeaceOfferLateralView.GetSelectedParticipant.GetKey] #TOOLTIP:COUNTRY,[PeaceOfferLateralView.GetSelectedParticipant.GetKey],X [PeaceOfferLateralView.GetSelectedParticipant.Custom('CL_GEN')|L]#!#!."
   PEACE_OFFER_SEND_OFFER_BALANCE: "@trigger_no! Ми не можемо надіслати пропозицію з від'ємним балансом, вороги її просто не приймуть!"
   PEACE_OFFER_SEND_MAX_WAR_SCORE: "@trigger_no! Ми не можемо надіслати пропозицію, яка перевищує максимальний воєнний рахунок!"
   PEACE_OFFER_LIMITED_DIPLOMACY: "@trigger_no! [COUNTRY.GetName] не мож[COUNTRY.Custom('end_eut')] вести перемовини самостійно. Потрібно домовлятися з [Concept('overlord', 'сюзереном')|e]."

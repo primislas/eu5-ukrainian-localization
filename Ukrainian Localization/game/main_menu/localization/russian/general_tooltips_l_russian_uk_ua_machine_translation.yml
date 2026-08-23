@@ -394,7 +394,7 @@
   DISEASE_PRESENCE_POP_TOOLTIP: "[POP.GetName], [DISEASE.GetName|l]: поширеність — $PRESENCE|%$, опірність — $RESISTANCE|%$"
   DISEASE_PRESENCE_SUB_UNIT_TOOLTIP: "[SUBUNIT.GetName], [DISEASE.GetName|l]: поширеність — $PRESENCE|%$, опірність — $RESISTANCE|%$"
   DISEASE_PRESENCE_UNIT_TOOLTIP: "[UNIT.GetName], [DISEASE.GetName|l]: у заражених підрозділів ($NUM|Y$) такі середні показники: поширеність — $PRESENCE|%$, опірність — $RESISTANCE|%$"
-  CLOSEST_PORT_LOCATION_TOOLTIP: "[LOCATION.GetName] — найближчий [Concept('port', 'порт')|e] до [COUNTRY.Custom('longname_ua_DAT')]"
+  CLOSEST_PORT_LOCATION_TOOLTIP: "[LOCATION.GetName] — найближчий [Concept('port', 'порт')|e] до [COUNTRY.Custom('longname_ua_GEN')]"
   AI_CONQUER_DESIRE_TOOLTIP: "Бажання [COUNTRY.Custom('longname_ua_GEN')] завоювати [LOCATION.Custom('LR_ACC')|l] [LOCATION.GetName]: $SCORE|2Y$. Збережене значення: $CACHE|Y$.\n"
   AI_CONTROLLER_AREA_TOOLTIP: "[LOCATION.GetRank.GetNameWithNoTooltip] [LOCATION.GetName] разом із кількома іншими місцевостями ($NUMBER$) знаходиться в області під контролем.\nКонтролююча сторона — [COUNTRY.GetName].\nКількість сусідніх областей під контролем: $AI_MAP_OWNER_AREA_TOOLTIP$."
   AI_OWNER_AREA_TOOLTIP: "[LOCATION.GetRank.GetNameWithNoTooltip] [LOCATION.GetName] разом із кількома іншими місцевостями ($NUMBER$) знаходиться в області у володінні.\nВласник — [COUNTRY.GetName].\nКількість сусідніх областей під контролем: $AI_MAP_OWNER_AREA_TOOLTIP$."

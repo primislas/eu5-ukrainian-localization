@@ -21,7 +21,7 @@
   flavor_chi_dai.4.desc: "Уряд #ONCLICK:COUNTRY,[china_side.GetKey] #TOOLTIP:COUNTRY,[china_side.GetKey],X [china_side.Custom('CL_GEN')|L]#!#! прийняв у себе одного зі спадкоємців династії [ShowDynastyName('tran_dynasty')] на ім'я [claimant_character.GetName]. На прийомі [Select_CString(claimant_character.IsFemale,'вона почала', 'він почав')] розпускати брехливі чутки про те, що [target_character.GetName] нібито [Select_CString(target_character.IsFemale,'узурпувала', 'узурпував')] #L [ROOT.GetCountry.GetAdjective|l]ий#! престол. На жаль, [china_side.GetAdjectiveWithNoTooltip|l]і правителі повірили в цю підлу наклеп та зажадали від нас відмовитися від усіх запланованих реформ і поступитися владою.\n\nВочевидь, вони розраховують на нашу позитивну відповідь, оскільки [claimant_character.GetNameWithNoTooltip] вже прямує назад до столиці у супроводі [china_side.GetAdjectiveWithNoTooltip|l]их військ."
   flavor_chi_dai.4.a: "Влаштуємо на них засідку."
   flavor_chi_dai.4.b: "Прислухаємося до вимог."
-  flavor_chi_dai.5.title: "Неповага до [target_country.Custom('CL_DAT')]"
+  flavor_chi_dai.5.title: "Неповага до [target_country.Custom('CL_GEN')]"
   flavor_chi_dai.5.entry: "Китайські посли потрапили в засідку"
   flavor_chi_dai.5.desc: "До нас дійшли погані вісті з #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_GEN')|L]#!#!. Узурпатори не просто відкинули наші вимоги, а ще й напали на конвой, в якому [Select_CString(claimant_character.IsFemale,'перебувала', 'перебував')] [claimant_character.GetName] з династії [ShowDynastyName('tran_dynasty')]. Цю кричущу образу не можна залишити безкарною!"
   flavor_chi_dai.5.a: "Знищимо їх. Навіщо ще потрібні війська?"

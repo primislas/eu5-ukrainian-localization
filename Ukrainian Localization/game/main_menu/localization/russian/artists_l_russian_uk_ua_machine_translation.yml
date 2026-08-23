@@ -132,7 +132,7 @@
   art_quality_great: "Видатний витвір"
   art_quality_best: "Неперевершений витвір"
   ART_WAS_DESTROYED: "Ці [Concept('works_of_art', 'витвори')|e] були знищені: $LIST$."
-  ART_WAS_CAPTURED: "Ці [Concept('works_of_art', 'витвори')|e] були захоплені та доставлені до [COUNTRY.GetCapital.Custom('LR_ACC')|l] [COUNTRY.GetCapital.GetName]: $LIST$."
+  ART_WAS_CAPTURED: "Ці [Concept('works_of_art', 'витвори')|e] були захоплені та доставлені до [COUNTRY.GetCapital.Custom('LR_GEN')|l] [COUNTRY.GetCapital.GetName]: $LIST$."
   WORK_OF_ART_DATA: "[Concept('art_quality', 'Майстерність')|e]: [WORK_OF_ART.GetQualityName|Vl] ([WORK_OF_ART.GetQuality|Y]%)\nТип: [WORK_OF_ART.GetDefinition.GetName]\nДата створення: [WORK_OF_ART.GetCreationDate]\nМісце створення: [WORK_OF_ART.GetOrigin.GetName]"
   WORK_OF_ART_CREATOR: "[WORK_OF_ART.GetCreator.GetArtistType.GetName]: [WORK_OF_ART.GetCreatorName]"
   WORK_OF_ART_DESTROYED: "На жаль, витвір було знищено та втрачено [WORK_OF_ART.GetDestructionDate] року."

@@ -37,7 +37,7 @@
   flavor_ver.4.b: "[target_country.GetCapital.GetRank.GetNameWithNoTooltip] належить нам цілком!"
   flavor_ver.4.b.entry: "Місто належить нам цілком!"
   flavor_ver.5.title: "Наші претензії на провінцію [target_province.GetNameWithNoTooltip]"
-  flavor_ver.5.desc: "Війна — страшенно витратна справа... Чи ж не зовсім?\n\n[target_war.GetName|U], схоже, все-таки може обернутися для нас виграшним чином, навіть попри всю пролиту кров. Заявлена мета цього конфлікту — повалення династії [target_dynasty.GetName], однак у процесі ми зможемо отримати землі, які представники цієї самої династії відвоювали в інших, не менш кривавих битвах. Можливо, ми розширимо кордони в бік таких земель, як [target_location.GetName] і навіть провінція [target_province.GetName] — земель, культурно близьких до [ROOT.GetCountry.Custom('rank_ua_DAT')|l]."
+  flavor_ver.5.desc: "Війна — страшенно витратна справа... Чи ж не зовсім?\n\n[target_war.GetName|U], схоже, все-таки може обернутися для нас виграшним чином, навіть попри всю пролиту кров. Заявлена мета цього конфлікту — повалення династії [target_dynasty.GetName], однак у процесі ми зможемо отримати землі, які представники цієї самої династії відвоювали в інших, не менш кривавих битвах. Можливо, ми розширимо кордони в бік таких земель, як [target_location.GetName] і навіть провінція [target_province.GetName] — земель, культурно близьких до [ROOT.GetCountry.Custom('rank_ua_GEN')|l]."
   flavor_ver.5.entry: "Венеційські вимоги у війні Скалігерів"
   flavor_ver.5.a: "[target_location.GetNameWithNoTooltip] належатиме нам!"
   flavor_ver.5.a.entry: "Местре належатиме нам!"
