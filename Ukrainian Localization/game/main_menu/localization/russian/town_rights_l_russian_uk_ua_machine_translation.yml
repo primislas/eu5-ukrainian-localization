@@ -97,7 +97,7 @@
   scandinavian_fishing_privileges: "Риболовні привілеї"
   scandinavian_fishing_privileges_desc: "Цьому [Concept('location', 'місцевості')|e] даровані виняткові права на близькі рибні угіддя, а також торгівлю сушеною та соленою рибою. Приморські міста Норвегії скористалися цими привілеями, щоб організувати торгівлю #TOOLTIP:GOODS,fish,X #L рибою#!#! по всій Північній Європі."
   scandinavian_bergslag_privileges: "Гірничі привілеї"
-  scandinavian_bergslag_privileges_desc: "Влада визнала цю [Concept('location', 'місцевість')|e] гірничим поселенням, або бергслагом, надавши їй колективні права на видобуток місцевої руди, власний суд та звільнення від військової повинності. [ShowEstateTypeName('peasants_estate')], що працю[ROOT.GetCountry.Custom('peasants_yeyut')] у копальнях, ма[ROOT.GetCountry.Custom('peasants_yeyut')] вищий правовий статус у порівнянні з жителями звичайних міст."
+  scandinavian_bergslag_privileges_desc: "Влада визнала цю [Concept('location', 'місцевість')|e] гірничим поселенням, або бергслагом, надавши їй колективні права на видобуток місцевої руди, власний суд та звільнення від військової повинності. #TOOLTIP:ESTATE_TYPE,peasants_estate,X #L Простолюд#!#!, що працює у копальнях, має вищий правовий статус у порівнянні з жителями звичайних міст."
   scandinavian_tar_privileges: "Привілеї на виробництво дьогтю"
   scandinavian_tar_privileges_desc: "Цій [Concept('location', 'місцевості')|e] даровано права на виробництво та вивіз #TOOLTIP:GOODS,tar,X #L дьогтю#!#! та #TOOLTIP:GOODS,naval_supplies,X #L корабельних матеріалів#!#! з лісів, що належать короні. Ці лісові промисли становлять основу для всього кораблебудування на узбережжі Балтійського моря."
   scandinavian_thing_rights: "Тінгсрет"

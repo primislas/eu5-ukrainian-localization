@@ -216,7 +216,7 @@
   reduce_peasant_taxation_desc: "Простий люд усе життя платив податки знаті. Щоб народ став вільним, ці податки необхідно скасувати!"
   establish_a_constitution: "Установити конституцію"
   establish_a_constitution_desc: "Воля народу має бути викладена в офіційно прийнятому письмовому документі, що дозволить закріпити наші права і водночас обмежить центральну владу."
-  random_noble_privilege_revoked_tt: "[ShowEstateTypeName('nobles_estate')] втратить один випадковий [Concept('estate_privilege', 'становий привілей')|e]"
+  random_noble_privilege_revoked_tt: "#TOOLTIP:ESTATE_TYPE,nobles_estate,X #L Знать#!#! втратить один випадковий [Concept('estate_privilege', 'становий привілей')|e]"
   baronial_burghs_rights: "Розширити баронські бурги"
   baronial_burghs_rights_desc: "Розширивши права баронських бургів, ми посприяємо розвитку нації."
   ecclesiastical_burghs_rights: "Розширити церковні бурги"

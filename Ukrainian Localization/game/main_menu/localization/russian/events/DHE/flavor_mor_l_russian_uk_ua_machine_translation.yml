@@ -50,7 +50,7 @@
   flavor_mor.12.d2: "[ShowLocationNameWithNoTooltip('rabat')] залишиться нашою столицею."
   flavor_mor.13.title: "Хвилювання на півдні"
   flavor_mor.13.entry: "$flavor_mor.13.title$"
-  flavor_mor.13.desc: "Після конфлікту з #TOOLTIP:DYNASTY,$wattasid_dynasty_tt$,X #L Ваттасидами#!#! та #TOOLTIP:DYNASTY,$marinid_dynasty_tt$,X #L Маринідами#!#! на півдні почалися хвилювання. Відчувши слабкість, багато [ShowEstateTypeName('tribes_estate')|l] почали об'єднуватися в союзи та укладати договірні шлюби. [ROOT.GetCountry.GetGovernment.GetCourtTitle] здебільшого вважає, що їх потрібно залишити на призволяще, а самим сховатися в [ROOT.GetCountry.GetCapital.Custom('LR_PREP')|l] [ROOT.GetCountry.GetCapital.GetName], але загроза з півдня лише наростатиме, якщо з нею не розібратися."
+  flavor_mor.13.desc: "Після конфлікту з #TOOLTIP:DYNASTY,$wattasid_dynasty_tt$,X #L Ваттасидами#!#! та #TOOLTIP:DYNASTY,$marinid_dynasty_tt$,X #L Маринідами#!#! на півдні почалися хвилювання. Відчувши слабкість, численні [ShowEstateTypeName('tribes_estate')|l] почали об'єднуватися в союзи та укладати договірні шлюби. [ROOT.GetCountry.GetGovernment.GetCourtTitle] здебільшого вважає, що їх потрібно залишити на призволяще, а самим сховатися в [ROOT.GetCountry.GetCapital.Custom('LR_PREP')|l] [ROOT.GetCountry.GetCapital.GetName], але загроза з півдня лише наростатиме, якщо з нею не розібратися."
   flavor_mor.13.a: "Застосуємо силу — нехай знають своє місце."
   flavor_mor.13.b: "Нехай справляються самі."
   flavor_mor.14.title: "Бану Марін"
