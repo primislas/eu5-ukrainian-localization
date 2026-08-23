@@ -322,7 +322,7 @@
   cancel_support_loyalists_happened_title: "Підтримку лоялістів припинено"
   cancel_support_loyalists_happened_desc: "[SCOPE.sCountry('actor').GetName] переста[SCOPE.sCountry('actor').Custom('end_vlaloly')] активно підтримувати лоялістів #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').GetKey],X [SCOPE.sCountry('recipient').Custom('CL_GEN')|L]#!#!."
   cancel_support_loyalists_proposal_question: "Припинити підтримку лоялістів у #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!?\n$INFO$"
-  break_support_loyalists: "Припинення підтримки лоялістів"
+  break_support_loyalists: "Припинити підтримку лоялістів"
   break_support_loyalists_cta: "Залиште лоялістів без підтримки #ONCLICK:COUNTRY,[SCOPE.sCountry('actor').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('actor').GetKey],X [SCOPE.sCountry('actor').Custom('CL_GEN')|L]#!#"
   break_support_loyalists_desc: "Ми викорінимо агентів, які підтримують лоялістів при нашому дворі."
   break_support_loyalists_cta_to_unknown: "Припиніть підтримку лоялістів [Concept('country', 'країною')|e]"

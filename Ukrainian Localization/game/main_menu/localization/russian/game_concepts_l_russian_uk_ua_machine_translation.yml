@@ -447,7 +447,7 @@
   game_concept_liturgical_dialect_desc: "Основний [Concept('dialect', 'діалект')|e] [Concept('liturgical_language', 'літургійної мови')|e] [Concept('country', 'країни')|e]."
   game_concept_common_language: "Загальноприйнята мова"
   game_concept_common_languages: "Загальноприйняті мови"
-  game_concept_common_language_desc: "Це [Concept('language', 'мова')|e] носіїв [Concept('primary_culture', 'панівної культури')|e] в [Concept('country', 'країні')|e]. Якщо загальноприйнята мова збігається з [Concept('court_language', 'придворною')|e], [ShowEstateTypeName('peasants_estate')|l] будуть задоволені."
+  game_concept_common_language_desc: "Це [Concept('language', 'мова')|e] носіїв [Concept('primary_culture', 'панівної культури')|e] в [Concept('country', 'країні')|e]. Якщо загальноприйнята мова збігається з [Concept('court_language', 'придворною')|e], #TOOLTIP:ESTATE_TYPE,peasants_estate,X #L простолюд#!#! буде задоволений."
   game_concept_market_language: "Торгова мова"
   game_concept_market_language_desc: "Це [Concept('language', 'мова')|e], якою розмовляє більшість #TOOLTIP:POPTYPE,burghers,X #L міщан#!#! у [Concept('market_center', 'ринковому центрі')|e].\n\nМіщани, які розмовляють місцевою торговою мовою, не стануть [Concept('assimilate', 'асимілюватися')|e] в [Concept('culture', 'культуру')|e], де не використовується ця мова."
   game_concept_foreign_language: "Чужа мова"
