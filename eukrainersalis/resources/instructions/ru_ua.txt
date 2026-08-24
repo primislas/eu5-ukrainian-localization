@@ -324,6 +324,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** одноплеменці -> коли контекст безпосередньої взаємодії всередині чи між племенами, наприклад, "весілля одноплеменців", "наших одноплеменців викрадають у рабство", "вожді незадоволенні наверненням їхніх одноплеменців"
     * commoners, common people, простой народ - простий люд or простолюд (prefer the latter when clearly talking about an estate)
     * estate enrichment, богатство стана -> збагачення стану
+    * peasant enfranchisement, освобождение простолюдинов -> селянські вольності
     * estate or pop (group) satisfaction, довольство -> задоволення, вдоволення
 
     * pop, группа населения -> громада
