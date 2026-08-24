@@ -400,7 +400,7 @@
   STATIC_MODIFIER_NAME_river_flowing_through_coast_5: "Головна [Concept('river', 'річка')|e], що протікає [Concept('coast', 'узбережжям')|e]"
   STATIC_MODIFIER_NAME_coastal: "[Concept('coastal', 'На узбережжі')|e]"
   STATIC_MODIFIER_NAME_total_population: "[Concept('population', 'Населення')|e] у [Concept('location', 'місцевості')|e]"
-  STATIC_MODIFIER_NAME_rgo_level: "Рівень [Concept('rgo', 'видобутку ресурсів')|e]:"
+  STATIC_MODIFIER_NAME_rgo_level: "Рівень [Concept('rgo', 'сировинного промислу')|e]:"
   STATIC_MODIFIER_NAME_looted: "Розграбовано"
   STATIC_MODIFIER_NAME_location_imports: "Привіз у місцевість"
   STATIC_MODIFIER_NAME_location_exports: "Вивіз із місцевості"

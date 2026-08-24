@@ -48,7 +48,7 @@
   INTERNATIONAL_ORGANIZATION_TT_CAN_BUILD_SHIPS_IN_MEMBERS: "Можна будувати [Concept('ships', 'кораблі')|e] в країнах-[Concept('members', 'учасницях')|e]: $VAL$"
   INTERNATIONAL_ORGANIZATION_TT_CAN_BUILD_ROADS_IN_MEMBERS: "Можна будувати [Concept('roads', 'дороги')|e] в країнах-[Concept('members', 'учасницях')|e]: $VAL$"
   INTERNATIONAL_ORGANIZATION_TT_CAN_BUILD_BUILDINGS_IN_MEMBERS: "Можна будувати [Concept('buildings', 'споруди')|e] в країнах-[Concept('members', 'учасницях')|e]: $VAL$"
-  INTERNATIONAL_ORGANIZATION_TT_CAN_BUILD_RGOS_IN_MEMBERS: "Можна розширювати [Concept('rgo', 'видобуток ресурсів')|e] в країнах-[Concept('members', 'учасницях')|e]: $VAL$"
+  INTERNATIONAL_ORGANIZATION_TT_CAN_BUILD_RGOS_IN_MEMBERS: "Можна розширювати [Concept('rgo', 'сировинні промисли')|e] в країнах-[Concept('members', 'учасницях')|e]: $VAL$"
   INTERNATIONAL_ORGANIZATION_TT_BONUS_OPINION: "Бонус до [Concept('opinion', 'думки')|e] серед учасників: $AMOUNT$"
   INTERNATIONAL_ORGANIZATION_TT_BONUS_TRUST: "Бонус до [Concept('trust', 'довіри')|e] серед учасників: $AMOUNT$"
   INTERNATIONAL_ORGANIZATION_TT_ANNEXATION_SPEED_STATIC: "Темп поглинання: ×$AMOUNT|Y$"

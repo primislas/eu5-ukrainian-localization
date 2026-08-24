@@ -686,7 +686,8 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * miner, шахтер, старатель - "гірник", "рудокоп" if clearly talking about metal extraction, never use "шахтар" or "старатель"
     ** use adjective "гірничий" for mining-related affairs, e.g. "гірничі промисли", "гірничі містечка", "гірничі закони"; but in more informal text feel free to use alternative to avoid tautologies, such as "містечка рудокопів", "закони щодо копалень" тощо
 
-    * raw material(s), ресурс(ы) - сировина
+    * rgo, resource gathering operations, добыча ресурсов -> сировинні промисли
+    * raw material(s), ресурс(ы) -> сировина
     ** сировину видобувають, but depending on context you can use "вирощують", "збирають", "виробляють", etc. if appropriate
     ** prefer "сировина" to "ресурс(ы)", "сырьевые материалы, товары" whenever clearly talking about gathering, obtaining, using, processing raw resources or materials, in particular "rgo"s also deal with "сировина"
     ** food raw materials, ресурсы для производства еды - "харчова сировина", "харчові товари", "продовольство", pick depending on context

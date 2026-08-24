@@ -1021,7 +1021,7 @@
   BUILDING_FINISHED_BTN2: "Гаразд"
   BUILDING_FINISHED_BTN3: "$common_string_go_to$"
   BUILDING_FINISHED_MAP: "$BUILDING$"
-  RGO_BUILT_SETUP: "Коли завершується будівництво споруди з [Concept('resource_gathering_operations', 'видобутку ресурсів')|e]"
+  RGO_BUILT_SETUP: "Коли завершується будівництво [Concept('resource_gathering_operations', 'сировинного промислу')|e]"
   RGO_BUILT_HEADER: "$MESSENGER$"
   RGO_BUILT_TITLE: "$RGO$: видобуток розширюється!"
   RGO_BUILT_DESC: "Тепер ми можемо отримувати більше товару «$GOODS$» у місцевості $LOCATION$."
