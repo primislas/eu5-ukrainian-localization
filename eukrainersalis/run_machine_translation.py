@@ -46,7 +46,7 @@ _MIGRATION_MAPPING = {
     "'ityat'": "'end_ityat'",
     "'assya'": "'end_assya'",
     "'youtyut'": "'end_youtyut'",
-    "…": "...",
+    "...": "…",
     "','": "', '",
     "_wth_icon": "_with_icon",
     "SOCIEALVALUE": "SOCIETALVALUE",

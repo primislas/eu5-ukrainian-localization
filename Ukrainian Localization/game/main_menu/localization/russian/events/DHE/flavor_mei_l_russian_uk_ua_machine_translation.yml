@@ -153,7 +153,7 @@
   flavor_mei.201.a: "Передамо нагороду до скарбниці."
   flavor_mei.201.b: "Почнемо карбувати нову монету — Мейсенський грош."
   STATIC_MODIFIER_NAME_meissen_groschen: "Мейсенський грош"
-  STATIC_MODIFIER_DESC_meissen_groschen: "Нова монета зміцнює економіку #ONCLICK:COUNTRY,[GetCountry('MEI').GetKey] #TOOLTIP:COUNTRY,[GetCountry('MEI').GetKey],X [GetCountry('MEI').Custom('CL_GEN')|L]#!#!, спрощуючи угоди та переказ капіталу."
+  STATIC_MODIFIER_DESC_meissen_groschen: "Нова монета зміцнює господарство #ONCLICK:COUNTRY,[GetCountry('MEI').GetKey] #TOOLTIP:COUNTRY,[GetCountry('MEI').GetKey],X [GetCountry('MEI').Custom('CL_GEN')|L]#!#!, спрощуючи угоди та обмін великими сумами грошей."
   flavor_mei.210.title: "Майсенська порцелянова мануфактура"
   flavor_mei.210.entry: "Майсенська порцелянова мануфактура"
   flavor_mei.210.desc: "#TOOLTIP:GOODS,porcelain,X #L Порцеляна#!#! довгий час була предметом великого інтересу, і багато хто безуспішно намагався розкрити таємницю її виробництва в істинному вигляді. Однак завдяки безлічі дослідів, проведених нашими найкращими вченими та винахідниками, нам вперше вдалося відтворити порцеляну в #TOOLTIP:CONTINENT,europe,X #L Європі#!#!. Щоб захистити це дорогоцінне нововведення та отримати з нього вигоду, багато хто пропонує заснувати державну мануфактуру в #TOOLTIP:LOCATION,meissen,X #L Майсені#!#!."

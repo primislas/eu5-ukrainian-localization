@@ -242,7 +242,7 @@
   PEACE_OFFER_DECWARSCORETOOLTIP: "[PeaceOfferWarScoreTreatyGlue.GetDecWarScoreTooltip]"
   PEACE_OFFER_GOLDINFLATIONTOOLTIP: "[PeaceOfferWarScoreTreatyGlue.GetInflationFromTreaty]"
   PEACE_OFFER_WITHGOLD: "Країна $DEMANDING_COUNTRY$ отримає [PeaceOfferWarScoreTreatyGlue.GetValue] — це призведе до зростання [Concept('inflation', 'інфляції')|e] на $INFLATION|V2%R$."
-  PEACE_OFFER_WITHOUTGOLD: "Цей договір не включає в себе вимогу грошей і тому не впливає на економіку країни, що вимагає."
+  PEACE_OFFER_WITHOUTGOLD: "Цей договір не включає в себе вимогу грошей і тому не впливає на господарство країни, що вимагає."
   PEACE_OFFER_NO_WHITE_PEACE: "@trigger_no! Привід до війни «[CASUS_BELLI.GetName]» не допускає мир на умовах «статус-кво»!"
   PEACE_OFFER_REQUIRES_PEACE_TREATY: "@trigger_no! Привід до війни «[CASUS_BELLI.GetName]» вимагає [Concept('peace_treaty', 'мирний договір')|e] «$NAME$», інакше перемовини про мир будуть неможливі."
   PEACE_OFFER_REQUIRES_PEACE_TREATIES: "@trigger_no! Привід до війни «[CASUS_BELLI.GetName]» вимагає таких [Concept('peace_treaties', 'мирних договорів')|e]: $PEACE_TREATIES$"

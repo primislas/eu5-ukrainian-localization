@@ -138,7 +138,7 @@
   PRICE_SCALED_VALUE_FROM_RECIPIENT_RAW: "гроші пропорційно отримувачу: $VAL|Y$ [$ICON$_i]"
   PRICE_CAP_MAX: "Верхня межа: $VAL|Y$ [$ICON$_i]"
   PRICE_CAP_MIN: "Нижня межа: $VAL|Y$ [$ICON$_i]"
-  PRICE_SCALED_MONTHLY_GOLD: "$VAL|2Y%$ [$ICON$_i] [Concept('economical_base', 'економічної бази')|e]"
+  PRICE_SCALED_MONTHLY_GOLD: "$VAL|2Y%$ [$ICON$_i] [Concept('economical_base', 'господарської основи')|e]"
   PRICE_SCALED_MONTHLY: "$VAL|2Y%$ від [$ICON$_i] доходу"
   PRICE_COST_INFLATION: "[Concept('inflation', 'Інфляція')|e]: $VALUE|-=%V2$"
   PRICE_COST_GOODS_IMPACT: "Вартість од. товару «$GOODS$» на ринку #L #TOOLTIP:LOCATIONRANK,[MARKET.GetCenterLocation.Custom('LR_tt')],X [MARKET.GetCenterLocation.Custom('LR_GEN')|l]#!#! [MARKET.GetShortName]: $VALUE|=-%2$"

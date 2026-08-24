@@ -145,10 +145,21 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** when in doubt whether to choose "країна" or "держава", favor "країна", but remember to avoid repetitiveness
     * "age", "epoch", "эпоха" -> "доба"
 
+    * economy, экономика -> господарство
+    ** economic, экономический -> господарський
+    ** экономическое неравенство -> майнова нерівність
+    ** with the exception of established historical names and organizations, such as "Економіка за Смітом" or "Вільне економічне товариство"
+    ** also translate as "економіка", "економічний", when the text clearly describes modern economic theories, such as Adam Smith, physiocracy, industrialization, revolutionary France and similar subjects
+
+    * social, социальный -> суспільний
+    ** социальная система -> суспільний устрій
+    ** in some rare cases when "social" is used in the meaning of taking care of the needy and the poor, translate it as "благодійний"
+
     * район -> avoid this word as much as possible, depending on context apply the following translations: "місцевість" (specifically ALWAYS when dealing with a game Concept of "location"), землі, терени (esp. when large spaces are stressed), володіння (when ownership or belonging is stressed), округи, області, регіони
     ** use "квартал" for a city district in general, or "двір", "подвір’я" for district quarters with a distinct legal status, such as trade, ethnic or religious ethnic quarters, e.g. "гостиний двір", "купецьке подвір’я", "двір фанаріотів"
     ** внутренние районы, внутрішні райони -> глибина, терени, землі, край ("глибинні землі Балкан", "у глибині Балкан", "у балканській глибині", "на внутрішніх теренах Балкан", "у внутрішніх балканських землях", "у внутрішніх балканських краях")
     ** прилегающие районы -> поблизу, довкола, навколо, в околицях, на підступах
+    * megalopolis, мегалополис -> мегаполіс
 
     * attempt to replace "tradition(al)", "традиция", "традиционный" with synonyms, so as to avoid the root "tradition" ("традиция") altogether; more specifically prefer words and expressions like:
     ** традиция -> (усталений, сталий) звичай, спадщина, культура, уклад, порядок, устрій, стиль (архітектурний, літературний, мистецький і т.і.), прийняті норми, усталені погляди, переконання, смак, стиль, надбання, доробки, тощо
@@ -233,6 +244,10 @@ You can rely on and treat English text as a primary source, deduce context from 
     * bureaucracy, "бюрократический механизм" -> "установа", but only when clearly talking about a game Concept; "бюрократический механизм" -> ALWAYS "установа", otherwise keep "бюрократія", "бюрократи", "бюрократичний"
     * наши люди -> наш люд, наші піддані, when about a country or area population in general
     * жалоба -> "кривда", when referring to a slight in a political context, official complaint, estate dispute, etc.
+
+    * adm/administrative (административный), dip/diplomatic (дипломатический), mil/miltary (военный) skill (навык) -> when discussing character skills, translate as "господарська", "перемовницька" and "військова" "навичка" correspondingly
+    ** administrative, diplomatic, military education (административное, дипломатическое, военное образование) -> "навчання врядуванню / посольській справі / військовій справі" correspondingly
+    ** administrative, diplomatic, military score/goal -> господарський, міжнародний, військовий рахунок/мета
 
     * legitimacy, легитимность -> право на владу
     ** stylistic the construct "право (Gen. Case whose) на владу" is better, when appropriate, for example: "право монарха/країни/корони/зборів/персонажа на владу", "право династії Х на владу"
@@ -324,6 +339,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** одноплеменці -> коли контекст безпосередньої взаємодії всередині чи між племенами, наприклад, "весілля одноплеменців", "наших одноплеменців викрадають у рабство", "вожді незадоволенні наверненням їхніх одноплеменців"
     * commoners, common people, простой народ - простий люд or простолюд (prefer the latter when clearly talking about an estate)
     * estate enrichment, богатство стана -> збагачення стану
+    * peasant enfranchisement, освобождение простолюдинов -> селянські вольності
     * estate or pop (group) satisfaction, довольство -> задоволення, вдоволення
 
     * pop, группа населения -> громада
@@ -666,12 +682,17 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * trade range, торговая дистанция -> купецька досяжність
     * trade routes, торговые пути, маршруты -> торгові шляхи
     * merchant power, торговое преимущество -> "купецька перевага" as a game Concept, and when it's clearly a text describing game mechanics; conversely in narrative texts "торгова перевага" is often correct
+
+    * trade office, контора -> "гостиний двір", unless clearly about German-speaking Europe, Hanseatic League, Lubeck or the Baltic Sea, in which case leave "контора"
+    * trading post, фактория -> "купецька осада", unless clearly dealing with Spanish, Portuguese, Dutch or English posts, in which case leave "факторія" ("фейторія" for Portuguese)
+
     * staplerecht right, складочное право -> "складове право", або "право складу" when it better fits in the sentence
     * sound toll(s), плата за проход -> "мито на прохід", depending on context could be "оплаті за прохід", "сплачувати за прохід" and so on, if it fits better
     * компания -> "товариство", with the following exceptions:
     ** established historical names of mercenary companies, such as "Наваррська компанія", "Афінська компанія"
     ** established names of historical international trading companies, for example "Ост-Індійська компанія"
     ** "companies", "компании" of Catholic and Protestant countries (England, France, Scotland, Spain, Italy, Germany, etc.) remain "компанії"
+
 
 ## Resources, Goods, Buildings
 
@@ -685,7 +706,8 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * miner, шахтер, старатель - "гірник", "рудокоп" if clearly talking about metal extraction, never use "шахтар" or "старатель"
     ** use adjective "гірничий" for mining-related affairs, e.g. "гірничі промисли", "гірничі містечка", "гірничі закони"; but in more informal text feel free to use alternative to avoid tautologies, such as "містечка рудокопів", "закони щодо копалень" тощо
 
-    * raw material(s), ресурс(ы) - сировина
+    * rgo, resource gathering operations, добыча ресурсов -> сировинні промисли
+    * raw material(s), ресурс(ы) -> сировина
     ** сировину видобувають, but depending on context you can use "вирощують", "збирають", "виробляють", etc. if appropriate
     ** prefer "сировина" to "ресурс(ы)", "сырьевые материалы, товары" whenever clearly talking about gathering, obtaining, using, processing raw resources or materials, in particular "rgo"s also deal with "сировина"
     ** food raw materials, ресурсы для производства еды - "харчова сировина", "харчові товари", "продовольство", pick depending on context
@@ -767,6 +789,9 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
 # Avoid Legalese, Bureaucatic Jargon, Anachronisms, and Loan Words
 
 Уникай канцеляризмів, анахронізмів, запозичень там, де це можливо. Надавай перевагу питомим українським відповідникам, якщо такі існують. Втім, текст має залишатися зрозумілим сучасному читачеві. Якщо зміст слова сильно змінився, чи слово геть вийшло з ужитку, то вживаємо сучасні варіанти. Приклади вдалої адаптації:
+    * авантюрист - pick best depending on context between "відчайдух", "шукач пригод", "пройдисвіт"
+    ** авантюра - depending on context could mean "ризикований/відчайдушний вчинок/витівка/дія/пригода"
+    ** авантюризм - зухвалість
     * акцент - наголос
     ** делать, ставить акцент, акцентировать - "наголошувати на чому, на що"; "робити ... наголос" if there are extra words in-between these two in the original sentence; sometimes "підкреслювати" is stylistically better
     ** "зосередитись на" when about emphasising, focusing on something (e.g. "зосередились на розвитку піхоти, флоту", "зосередились на порядку та дисципліні")
