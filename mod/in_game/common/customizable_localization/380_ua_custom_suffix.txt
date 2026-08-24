@@ -1484,6 +1484,15 @@ country_flavor = {
 	}
 
 	text = {
+		localization_key = rank_kingdom_republic_muslim
+		trigger = {
+			country_rank_is_kingdom = yes
+			government_type = government_type:republic
+		    religion.group = religion_group:muslim
+		}
+	}
+
+	text = {
 		localization_key = rank_kingdom_republic
 		trigger = {
 
@@ -1562,6 +1571,25 @@ country_flavor = {
 			country_rank_is_kingdom = yes
 			government_type = government_type:theocracy
 			religion.group = religion_group:dharmic
+		}
+	}
+
+	text = {
+		localization_key = rank_duchy_sharifate
+		trigger = {
+            OR = {
+                tag = MEC
+                tag = MDA
+            }
+			religion.group = religion_group:muslim
+		}
+	}
+
+	text = {
+		localization_key = rank_duchy_theocracy_muslim
+		trigger = {
+			government_type = government_type:theocracy
+			religion.group = religion_group:muslim
 		}
 	}
 
@@ -2049,6 +2077,15 @@ country_flavor = {
 			country_rank_is_duchy = yes
 			tag = NOV
 			government_type = government_type:republic
+		}
+	}
+
+	text = {
+		localization_key = rank_duchy_republic_muslim
+		trigger = {
+			country_rank_is_duchy = yes
+			government_type = government_type:republic
+		    religion.group = religion_group:muslim
 		}
 	}
 
@@ -2716,6 +2753,15 @@ country_flavor = {
 			government_type = government_type:republic
 			culture = culture:high_alemannic
 		}
+	}
+
+	text = {
+		localization_key = rank_county_republic_muslim
+		trigger = {
+			country_rank_is_county = yes
+			government_type = government_type:republic
+		    religion.group = religion_group:muslim
+		}``
 	}
 
 	text = {
