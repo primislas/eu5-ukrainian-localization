@@ -6,7 +6,7 @@
   staple_port: "Штапельний порт"
   staple_port_desc: "Цій [Concept('location', 'місцевості')|e] даровані привілеї, які розширюють права #TOOLTIP:ESTATE_TYPE,burghers_estate,X #L містян#!#! у сфері місцевої [Concept('trade', 'торгівлі')|e]."
   granary_town: "Житниця"
-  granary_town_desc: "Цій [Concept('location', 'місцевості')|e] даровані привілеї та правила, які дозволяють збільшити там виробництво та зберігання [Concept('food', 'збіжжя')|e]."
+  granary_town_desc: "Цій [Concept('location', 'місцевості')|e] даровані привілеї та устави, які дозволяють збільшити там виробництво та зберігання [Concept('food', 'збіжжя')|e]."
   market_charter: "Право на ярмарки"
   market_charter_desc: "Ця [Concept('location', 'місцевість')|e] отримала право проводити ярмарки, що приваблює туди купців і розширює потенціал місцевого #TOOLTIP:BUILDING_TYPE,marketplace,X #L ринку#!#!."
   free_town_charter: "Статус вільного міста"
