@@ -4,7 +4,7 @@
   catholic_flavor.1.a: "На цю молоду людину чекає місто [pope_capital_scope.GetNameWithNoTooltip]."
   catholic_flavor.1.b: "З нього вийде чудовий єпископ."
   catholic_flavor.2.title: "Процвітаючий монастир"
-  catholic_flavor.2.desc: "#TOOLTIP:BUILDING_TYPE,monastery,X #L Монастир#!#! в [target_location.Custom('LR_PREP')|l] [target_location.GetName] розвивається та приваблює безліч відомих #TOOLTIP:RELIGION,$catholic_tt$,X #L католицьких#!#! богословів, що позитивно позначається на місцевій економіці. [target_ruler.GetName] також може вшанувати монастир візитом і тим самим зміцнити свою репутацію."
+  catholic_flavor.2.desc: "#TOOLTIP:BUILDING_TYPE,monastery,X #L Монастир#!#! в [target_location.Custom('LR_PREP')|l] [target_location.GetName] розвивається та приваблює безліч відомих #TOOLTIP:RELIGION,$catholic_tt$,X #L католицьких#!#! богословів, що позитивно позначається на місцевому господарству. [target_ruler.GetName] також може вшанувати монастир візитом і тим самим зміцнити свою репутацію."
   catholic_flavor.2.a: "Ця поїздка піде [Select_CString(target_ruler.IsFemale,'їй', 'йому')] на користь."
   catholic_flavor.2.b: "Залишимо їх у спокої. Нехай займаються своїми справами."
   catholic_flavor.3.title: "Монастир у біді"

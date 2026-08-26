@@ -316,7 +316,7 @@
   flavor_nap.121.b: "Ми погасимо борги, і йому не доведеться їхати."
   flavor_nap.400.title: "Високі податки"
   flavor_nap.400.entry: "$flavor_nap.400.title$"
-  flavor_nap.400.desc: "Війни сильно виснажили нашу скарбницю, і зараз перед нами стоять два першочергові завдання: запобігти краху економіки та не допустити, щоб [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] відчу[ROOT.GetCountry.Custom('nobles_vlaloly')] падіння свого рівня життя. А от [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] цілком мож[ROOT.GetCountry.Custom('peasants_eut')] заплатити більше податків: нехай старанніше обробляють свої поля."
+  flavor_nap.400.desc: "Війни сильно виснажили нашу скарбницю, і зараз перед нами стоять два першочергові завдання: запобігти краху господарства та не допустити, щоб [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] відчу[ROOT.GetCountry.Custom('nobles_vlaloly')] падіння свого рівня життя. А от [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] цілком мож[ROOT.GetCountry.Custom('peasants_eut')] заплатити більше податків: нехай старанніше обробляють свої поля."
   flavor_nap.400.historical_info: "У 1647 році Томазо Аньєлло організував у Неаполі повстання проти зневаженого в народі герцога Аркоса. Результатом цього нетривалого, але запеклого бунту стало встановлення Неаполітанської республіки, яка, втім, дуже швидко занепала."
   flavor_nap.400.a: "Ми підвищимо податки простолюду."
   flavor_nap.400.a.entry: "Простолюд платитиме більше податків."

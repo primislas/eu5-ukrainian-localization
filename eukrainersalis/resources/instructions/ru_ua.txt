@@ -145,6 +145,14 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** when in doubt whether to choose "країна" or "держава", favor "країна", but remember to avoid repetitiveness
     * "age", "epoch", "эпоха" -> "доба"
 
+    * economy, экономика - господарство
+    ** economic, экономический - господарський
+    ** экономическое неравенство - майнова нерівність
+    ** with the exception of established historical names and organizations, such as "Економіка за Смітом" or "Вільне економічне товариство"
+    ** also translate as "економіка", "економічний", when the text clearly describes modern economic theories, such as Adam Smith, physiocracy, industrialization, revolutionary France and similar subjects
+
+    * social, социальный - суспільний
+
     * район -> avoid this word as much as possible, depending on context apply the following translations: "місцевість" (specifically ALWAYS when dealing with a game Concept of "location"), землі, терени (esp. when large spaces are stressed), володіння (when ownership or belonging is stressed), округи, області, регіони
     ** use "квартал" for a city district in general, or "двір", "подвір’я" for district quarters with a distinct legal status, such as trade, ethnic or religious ethnic quarters, e.g. "гостиний двір", "купецьке подвір’я", "двір фанаріотів"
     ** внутренние районы, внутрішні райони -> глибина, терени, землі, край ("глибинні землі Балкан", "у глибині Балкан", "у балканській глибині", "на внутрішніх теренах Балкан", "у внутрішніх балканських землях", "у внутрішніх балканських краях")

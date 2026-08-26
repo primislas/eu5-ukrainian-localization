@@ -98,7 +98,7 @@
   flavor_mor.21.desc: "Всім відомо, що [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] ма[ROOT.GetCountry.Custom('nobles_yeyut')] велику могутність при дворі, де вони представлені в достатку. [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] плат[ROOT.GetCountry.Custom('nobles_ytyat')] своїм ставленикам, щоб за їхньою допомогою вимагати нові привілеї та зміцнювати вплив у країні."
   flavor_mor.21.a: "Нам доведеться змиритися…"
   flavor_mor.21.b: "Ні за що!"
-  flavor_mor.22.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] та їхня економіка"
+  flavor_mor.22.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|U] та їхня господарство"
   flavor_mor.22.desc: "[target_character.GetName] формально панує, але реальний вплив ма[ROOT.GetCountry.Custom('nobles_yeyut')] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], що ді[ROOT.GetCountry.Custom('nobles_yeyut')] у [Select_CString(target_character.IsFemale,'неї', 'нього')] за спиною. Вони забирають частку з усіх податків, і це вже стало свого роду звичаєм. Нещодавно [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] вкотре виріши[ROOT.GetCountry.Custom('nobles_vlaloly')] зазіхнути на дохід, який з таким трудом отримує [ROOT.GetCountry.GetFlavorRank|l], і дом[ROOT.GetCountry.Custom('nobles_ihohlaloly')]ся чергового зниження податків для себе та своїх покровителів."
   flavor_mor.22.a: "Вони ж заробили ці гроші?"
   flavor_mor.22.b: "Вони забули, кому служать!"

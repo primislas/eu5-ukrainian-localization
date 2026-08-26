@@ -78,7 +78,7 @@
   church_aspects.20.a: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] буд[ROOT.GetCountry.Custom('peasants_eut')] покарані."
   church_aspects.20.b: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('crown_estate')] понес[ROOT.GetCountry.Custom('crown_eut')] відповідальність."
   church_aspects.21.title: "Монастир приносить користь [location_monastery.Custom('LR_DAT')] [location_monastery.GetNameWithNoTooltip]"
-  church_aspects.21.desc: "Адміністрація [location_monastery.Custom('LR_GEN')] [location_monastery.GetNameWithNoTooltip] повідомляє про зростання місцевої промисловості. Судячи з усього, відродження монастирів у нашій країні сприяє виробництву ресурсів та розвитку економіки."
+  church_aspects.21.desc: "Урядовці [location_monastery.Custom('LR_GEN')] [location_monastery.GetNameWithNoTooltip] повідомляють про зростання місцевих промислів. Судячи з усього, відродження монастирів у нашій країні сприяє виробництву товарів та розвитку господарства."
   church_aspects.21.a: "Нехай ченці продовжують свою справу."
   church_aspects.21.b: "Люди повинні наслідувати їхній приклад."
   church_aspects.22.title: "Острах криптокатоликів"

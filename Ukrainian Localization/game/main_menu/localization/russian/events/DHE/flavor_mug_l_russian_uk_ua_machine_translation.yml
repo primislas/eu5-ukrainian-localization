@@ -21,7 +21,7 @@
   flavor_mug.3.b: "Наші регіони й без того добре керуються."
   flavor_mug.4.title: "[target_character.GetNameWithNoTooltip] проводить грошову реформу"
   flavor_mug.4.entry: "Могольська грошова реформа"
-  flavor_mug.4.desc: "[target_character.GetName] пропонує відкарбувати нову монету, щоб забезпечити фінансову стабільність [ROOT.GetCountry.Custom('rank_ua_GEN')|l] та зменшити ймовірність інфляції в країні. У нас достатньо запасів #TOOLTIP:GOODS,goods_gold,X #L золота#!#! та #TOOLTIP:GOODS,silver,X #L срібла#!#!, щоб відкарбувати кілька варіантів нових монет. Однак [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l], можливо, будуть не в захваті від подібних змін економіки."
+  flavor_mug.4.desc: "[target_character.GetName] пропонує відкарбувати нову монету, щоб забезпечити грошову стабільність [ROOT.GetCountry.Custom('rank_ua_GEN')|l] та зменшити ймовірність інфляції в країні. У нас достатньо запасів #TOOLTIP:GOODS,goods_gold,X #L золота#!#! та #TOOLTIP:GOODS,silver,X #L срібла#!#!, щоб відкарбувати кілька варіантів нових монет. Однак [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l], можливо, будуть не в захваті від подібних змін господарства."
   flavor_mug.4.a: "Відкарбуємо нові монети."
   flavor_mug.4.b: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] будуть незадоволені, тож залишимо все як є."
   flavor_mug.4.b.entry: "Містяни будуть невдоволені, тож залишимо все як є."
