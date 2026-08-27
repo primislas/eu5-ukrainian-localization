@@ -2412,7 +2412,7 @@
   MODIFIER_TYPE_DESC_local_proximity_source: "Виконує роль центру [Concept('proximity', 'досяжності')|e] в [Concept('location', 'місцевості')|e] і також може покращувати досяжність у сусідніх місцевостях.\n\nНе сумується з досяжністю [Concept('capital', 'столиці')|e], тож цей модифікатор не діятиме, якщо досяжність [Concept('capital', 'столиці')] для місцевості вища."
   MODIFIER_TYPE_NAME_crown_estate_levy_size: "Розмір коронного ополчення"
   MODIFIER_TYPE_DESC_crown_estate_levy_size: "НЕ ВИКОРИСТОВУЄТЬСЯ"
-  MODIFIER_TYPE_NAME_local_crown_estate_power: "Влада місцевого правителя"
+  MODIFIER_TYPE_NAME_local_crown_estate_power: "Місцева влада правителя"
   MODIFIER_TYPE_DESC_local_crown_estate_power: "Впливає на [Concept('estate_power', 'станову владу')|e] правителів, тобто на [Concept('crown_power', 'владу правителя')|e] в цій [Concept('location', 'місцевості')|e]."
   MODIFIER_TYPE_NAME_estate_satisfaction_from_building: "Задоволення стану від нових споруд"
   MODIFIER_TYPE_DESC_estate_satisfaction_from_building: "Впливає на [Concept('estate_satisfaction', 'задоволення')|e] [Concept('estates', 'станів')|e], які можуть працювати в [Concept('building', 'споруді')|e] після зведення."
