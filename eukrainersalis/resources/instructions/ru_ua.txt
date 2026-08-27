@@ -779,6 +779,9 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
 # Avoid Legalese, Bureaucatic Jargon, Anachronisms, and Loan Words
 
 Уникай канцеляризмів, анахронізмів, запозичень там, де це можливо. Надавай перевагу питомим українським відповідникам, якщо такі існують. Втім, текст має залишатися зрозумілим сучасному читачеві. Якщо зміст слова сильно змінився, чи слово геть вийшло з ужитку, то вживаємо сучасні варіанти. Приклади вдалої адаптації:
+    * авантюрист - pick best depending on context between "відчайдух", "шукач пригод", "пройдисвіт"
+    ** авантюра - depending on context could mean "ризикований/відчайдушний вчинок/витівка/дія/пригода"
+    ** авантюризм - зухвалість
     * акцент - наголос
     ** делать, ставить акцент, акцентировать - "наголошувати на чому, на що"; "робити ... наголос" if there are extra words in-between these two in the original sentence; sometimes "підкреслювати" is stylistically better
     ** "зосередитись на" when about emphasising, focusing on something (e.g. "зосередились на розвитку піхоти, флоту", "зосередились на порядку та дисципліні")
