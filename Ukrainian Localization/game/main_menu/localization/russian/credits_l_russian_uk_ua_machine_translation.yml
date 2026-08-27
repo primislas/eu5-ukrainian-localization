@@ -112,7 +112,7 @@
   ROLE_MARKET_RESEARCH: "#credits_role Маркетингові дослідження#!"
   ROLE_MARKET_GROWTH: "#credits_role Ринковий ріст#!"
   ROLE_INFLUENCER_RELATIONS: "#credits_role Зв'язки з інфлюенсерами#!"
-  ROLE_SOCIAL_MEDIA_SPECIALIST: "#credits_role Спеціаліст із соціальних мереж#!"
+  ROLE_SOCIAL_MEDIA_SPECIALIST: "#credits_role Спеціаліст із суспільних мереж#!"
   ROLE_CRM: "#credits_role CRM#!"
   ROLE_HEAD_OF_WEB_SERVICES: "#credits_role Голова відділу веб-сервісів#!"
   ROLE_WEB_SERVICES: "#credits_role Веб-сервіси#!"

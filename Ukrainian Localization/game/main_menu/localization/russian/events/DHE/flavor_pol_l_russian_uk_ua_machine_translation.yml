@@ -189,7 +189,7 @@
   reforms_option1: "Нам потрібні радикальні зміни!"
   reforms_option2: "Масштабні реформи допоможуть нам у довгостроковій перспективі."
   reforms_option3: "Проведемо лише найнеобхідніші реформи."
-  flavor_pol.31.title: "[target_character.GetNameWithNoTooltip] проводить соціальні реформи"
+  flavor_pol.31.title: "[target_character.GetNameWithNoTooltip] проводить суспільні реформи"
   flavor_pol.31.desc: "[ROOT.GetCountry.GetLongName] та інші країни існують в умовах постійно зростаючого впливу, яким користу[ROOT.GetCountry.Custom('nobles_yetsayutsa')] могутн[ROOT.GetCountry.Custom('nobles_iyyayei')] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l]. Їхня фінансова та військова підтримка — це та опора, без якої неможливі завоювання та збереження миру в самій країні.\n\nОднак попереду на них чекають важкі часи: статути, складанням яких [Select_CString(target_character.IsFemale,'керувала', 'керував')] [target_character.GetName], спрямовані на захист менш благополучних верств населення. Зокрема, планується, що нові привілеї отрима[ROOT.GetCountry.Custom('peasants_yeyut')] [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] — зрозуміло, на шкоду своїм господарям."
   flavor_pol.31.a: "$reforms_option1$"
   flavor_pol.31.b: "$reforms_option2$"

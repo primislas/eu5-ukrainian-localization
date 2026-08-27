@@ -20,7 +20,7 @@
   flavor_plc.3.b: "Від нього буде більше користі як від простого моряка."
   flavor_plc.4.title: "Сарматизм"
   flavor_plc.4.entry: "$flavor_plc.4.title$"
-  flavor_plc.4.desc: "Нещодавно [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] поча[ROOT.GetCountry.Custom('nobles_vlaloly')] масово обговорювати вельми цікаву ідею, яку вперше висловив історик [GetCharacter('jan_dlugosz').GetName] ще в XV столітті. Якщо вірити його дослідженням, #L [ROOT.GetCountry.GetAdjective|l]ий#! народ походить від сарматів, які в давнину населяли #TOOLTIP:REGION,steppes_region,X #L степи#!#!. Ця теорія отримала назву «[ShowPolicyName('plc_sarmatism')|l]» і вже встигла повністю захопити уми шляхтичів, ставши невід'ємною частиною їхньої соціальної ідентичності."
+  flavor_plc.4.desc: "Нещодавно [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] поча[ROOT.GetCountry.Custom('nobles_vlaloly')] масово обговорювати вельми цікаву ідею, яку вперше висловив історик [GetCharacter('jan_dlugosz').GetName] ще в XV столітті. Якщо вірити його дослідженням, #L [ROOT.GetCountry.GetAdjective|l]ий#! народ походить від сарматів, які в давнину населяли #TOOLTIP:REGION,steppes_region,X #L степи#!#!. Ця теорія отримала назву «[ShowPolicyName('plc_sarmatism')|l]» і вже встигла повністю захопити уми шляхтичів, ставши невід'ємною частиною їхньої суспільної ідентичності."
   flavor_plc.4.a: "Вражаюче!"
   flavor_plc.4.b: "Це цікава ідея, але не більше того."
   flavor_plc.5.title: "Обіди по четвергах"
