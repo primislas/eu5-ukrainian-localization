@@ -8,7 +8,7 @@
   town_rights_events.2.title: "Господарчий застій у [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
   town_rights_events.2.desc: "Попри всі наші зусилля з розвитку #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_GEN')|l]#!#! [target_location.GetName], торгові кораблі практично не заходять до тутешнього порту, і купці не бажають тут торгувати. Нам залишається сподіватися, що це лише тимчасовий застій, який не призведе до повного занепаду."
   town_rights_events.2.a: "[target_character.GetShortNameWithNoTooltip] легко впорається з цією проблемою."
-  town_rights_events.2.b: "На жаль, такі ризики будь-якого підприємства."
+  town_rights_events.2.b: "На жаль, такі ризики будь-якого промислу."
   town_rights_events.2.c: "Це питання явно не варте нашої уваги."
   administrative_expertise_of_ruler_mitigates_situation_tt: "Господарський [Concept('abilities', 'хист')|e] персонажа [target_character.GetName] дозволяє без зусиль вирішити цю проблему"
   town_rights_events.3.title: "Переповнені комори [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip]"

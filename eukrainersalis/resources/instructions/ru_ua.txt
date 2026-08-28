@@ -159,6 +159,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     ** use "квартал" for a city district in general, or "двір", "подвір’я" for district quarters with a distinct legal status, such as trade, ethnic or religious ethnic quarters, e.g. "гостиний двір", "купецьке подвір’я", "двір фанаріотів"
     ** внутренние районы, внутрішні райони -> глибина, терени, землі, край ("глибинні землі Балкан", "у глибині Балкан", "у балканській глибині", "на внутрішніх теренах Балкан", "у внутрішніх балканських землях", "у внутрішніх балканських краях")
     ** прилегающие районы -> поблизу, довкола, навколо, в околицях, на підступах
+    * megalopolis, мегалополис -> мегаполіс
 
     * attempt to replace "tradition(al)", "традиция", "традиционный" with synonyms, so as to avoid the root "tradition" ("традиция") altogether; more specifically prefer words and expressions like:
     ** традиция -> (усталений, сталий) звичай, спадщина, культура, уклад, порядок, устрій, стиль (архітектурний, літературний, мистецький і т.і.), прийняті норми, усталені погляди, переконання, смак, стиль, надбання, доробки, тощо

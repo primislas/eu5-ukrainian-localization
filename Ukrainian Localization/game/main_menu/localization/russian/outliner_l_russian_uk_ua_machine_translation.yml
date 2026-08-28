@@ -206,7 +206,7 @@
   UNIT_BUILD: "[SUBUNITDEFINITION.GetNameWithNoTooltip] — набір у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetNameWithNoTooltip]"
   CONS_BUILDING: "[BUILDING_TYPE.GetNameWithNoTooltip] у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetNameWithNoTooltip]"
   CONS_RGO: "$NAME$ у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetNameWithNoTooltip]"
-  ACTIVE_megalopolis: "Спорудження мегалополіса в [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetNameWithNoTooltip]"
+  ACTIVE_megalopolis: "Спорудження мегаполіса в [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetNameWithNoTooltip]"
   ACTIVE_city: "Присвоєння міських прав [LOCATION.Custom('LR_DAT')|l] [LOCATION.GetNameWithNoTooltip]"
   ACTIVE_town: "Заснування містечка на місці [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetNameWithNoTooltip]"
   ACTIVE_rural_settlement: "Розчищення сільської території в [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetNameWithNoTooltip]"

@@ -474,5 +474,31 @@
   peasants_estate_peasants_estend_ennanoni: "ен"
   peasants_estate_prostoliud_peasants_estend_ennanoni: "ен"
 
+  # ytyat
+  estend_yetsayutsa_def: "ються"
+  # корона
+  crown_estate_crown_estend_yetsayutsa: "ється"
+  crown_estate_clan_crown_estend_yetsayutsa: "ється"
+  crown_estate_kruna_crown_estend_yetsayutsa: "ється"
+  crown_estate_korona_crown_estend_yetsayutsa: "ється"
+  crown_estate_krona_crown_estend_yetsayutsa: "ється"
+  # духовенство
+  clergy_estate_clergy_estend_yetsayutsa: "ється"
+  clergy_estate_klir_clergy_estend_yetsayutsa: "ється"
+  clergy_estate_kler_clergy_estend_yetsayutsa: "ється"
+  # знать
+  nobles_estate_nobles_estend_yetsayutsa: "ється"
+  # нобілітет
+  nobles_estate_patricians_nobles_estend_yetsayutsa: "ється"
+  nobles_estate_znat_nobles_estend_yetsayutsa: "ється"
+  nobles_estate_szlachta_nobles_estend_yetsayutsa: "ється"
+  nobles_estate_plemstvo_nobles_estend_yetsayutsa: "ється"
+  # міщанство
+  burghers_estate_mescanstvo_burghers_estend_yetsayutsa: "ється"
+  # простолюд
+  peasants_estate_peasants_estend_yetsayutsa: "ється"
+  peasants_estate_prostoliud_peasants_estend_yetsayutsa: "ється"
+
+
   Estate_GetEnd_aei: "[AddTextIf(EndsWith(Estate.GetNameWithNoTooltip, 'тво'), 'е')][AddTextIf(EndsWith(Estate.GetNameWithNoTooltip, 'она'), 'а')][AddTextIf(EndsWith(Estate.GetNameWithNoTooltip, 'уна'), 'а')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Шляхта'), 'а')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Знать'), 'а')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Простолюд'), '')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Нобілітет'), '')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Клір'), '')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Клан'), '')][AddTextIf(Not(Or(Or(Or(Or(Or(Or(Or(Or(EqualTo_string(Estate.GetNameWithNoTooltip, 'Шляхта'), EqualTo_string(Estate.GetNameWithNoTooltip, 'Знать')), EqualTo_string(Estate.GetNameWithNoTooltip, 'Простолюд')), EndsWith(Estate.GetNameWithNoTooltip, 'тво')), EndsWith(Estate.GetNameWithNoTooltip, 'она')), EndsWith(Estate.GetNameWithNoTooltip, 'уна')), EqualTo_string(Estate.GetNameWithNoTooltip, 'Нобілітет')), EqualTo_string(Estate.GetNameWithNoTooltip, 'Клір')), EqualTo_string(Estate.GetNameWithNoTooltip, 'Клан'))), 'і')]"
   Estate_GetEnd_yiaei: "[AddTextIf(EndsWith(Estate.GetNameWithNoTooltip, 'тво'), 'е')][AddTextIf(EndsWith(Estate.GetNameWithNoTooltip, 'она'), 'а')][AddTextIf(EndsWith(Estate.GetNameWithNoTooltip, 'уна'), 'а')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Шляхта'), 'а')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Знать'), 'а')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Простолюд'), 'ий')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Нобілітет'), 'ий')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Клір'), 'ий')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Клан'), 'ий')][AddTextIf(Not(Or(Or(Or(Or(Or(Or(Or(Or(EqualTo_string(Estate.GetNameWithNoTooltip, 'Шляхта'), EqualTo_string(Estate.GetNameWithNoTooltip, 'Знать')), EqualTo_string(Estate.GetNameWithNoTooltip, 'Простолюд')), EndsWith(Estate.GetNameWithNoTooltip, 'тво')), EndsWith(Estate.GetNameWithNoTooltip, 'она')), EndsWith(Estate.GetNameWithNoTooltip, 'уна')), EqualTo_string(Estate.GetNameWithNoTooltip, 'Нобілітет')), EqualTo_string(Estate.GetNameWithNoTooltip, 'Клір')), EqualTo_string(Estate.GetNameWithNoTooltip, 'Клан'))), 'і')]"
