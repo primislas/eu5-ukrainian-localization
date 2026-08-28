@@ -856,7 +856,7 @@
   FIRST_PAST_SET_NEW_RULER_WITH_UNION: "[TARGET_CHARACTER.GetName] [Select_CString(TARGET_CHARACTER.IsFemale,'стала нашою новою', 'став нашим новим')] [Concept('ruler', 'Select_CString(TARGET_CHARACTER.IsFemale,'правителькою', 'правителем')')|e] унії «[COUNTRY.GetDiplomacy.GetUnion.GetName]»"
   THIRD_PAST_SET_NEW_RULER_WITH_UNION: "[TARGET_CHARACTER.GetName] [Select_CString(TARGET_CHARACTER.IsFemale,'стала новою', 'став новим')] [Concept('ruler', 'Select_CString(TARGET_CHARACTER.IsFemale,'правителькою', 'правителем')')|e] унії «[COUNTRY.GetDiplomacy.GetUnion.GetName]» #ONCLICK:COUNTRY,[COUNTRY.GetKey] #TOOLTIP:COUNTRY,[COUNTRY.GetKey],X [COUNTRY.Custom('CL_GEN')|L]#!#!"
   script_value_base: "Основа"
-  script_value_scaling_with_character_admin: "Адміністративна [Concept('ability', 'навичка')|e] [Concept('character', 'персонажа')|e]"
+  script_value_scaling_with_character_admin: "Господарська [Concept('ability', 'навичка')|e] [Concept('character', 'персонажа')|e]"
   script_value_scaling_with_fort_assumed_efficiency_character: "#Y $fort_assumed_efficiency_character$#! [Concept('character', 'персонажа')|e]"
   add_random_dip_ruler_trait_tt: "Наш [Concept('ruler', 'правитель')|e] отримає випадкову [Concept('trait', 'рису')|e], пов'язану з [Concept('diplomacy', 'дипломатією')|e]"
   add_random_dip_regent_trait_tt: "Наш [Concept('regent', 'регент')|e] отримає випадкову [Concept('trait', 'рису')|e], пов'язану з [Concept('diplomacy', 'дипломатією')|e]"

@@ -10,7 +10,7 @@
   town_rights_events.2.a: "[target_character.GetShortNameWithNoTooltip] легко впорається з цією проблемою."
   town_rights_events.2.b: "На жаль, такі ризики будь-якого підприємства."
   town_rights_events.2.c: "Це питання явно не варте нашої уваги."
-  administrative_expertise_of_ruler_mitigates_situation_tt: "Адміністративний [Concept('abilities', 'хист')|e] персонажа [target_character.GetName] дозволяє без зусиль вирішити цю проблему"
+  administrative_expertise_of_ruler_mitigates_situation_tt: "Господарський [Concept('abilities', 'хист')|e] персонажа [target_character.GetName] дозволяє без зусиль вирішити цю проблему"
   town_rights_events.3.title: "Переповнені комори [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip]"
   town_rights_events.3.desc: "Селяни та робітники з провінції [target_province.GetName] повідомляють, що останнім часом [target_location.GetRank.GetName|l] [target_location.GetName] почав виробляти набагато більше продуктів, а їхня якість стала помітно кращою. Тепер нам необхідно якнайшвидше вирішити, як вчинити із надлишками харчів."
   town_rights_events.3.a: "Ці продукти мають піти на благо всієї провінції."

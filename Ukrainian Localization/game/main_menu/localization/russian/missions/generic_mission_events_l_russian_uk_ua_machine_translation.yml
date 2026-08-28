@@ -30,7 +30,7 @@
   generic_mission_events.9.a: "[target_character1.GetShortNameWithNoTooltip] зможе наново домовитися про що завгодно."
   generic_mission_events.9.b: "Це безумовно підірве наші зусилля…"
   generic_mission_events.9.c: "Продовжувати приєднання, незважаючи на затримки."
-  diplomatic_abilities_of_target_character_prevent_any_negative_incident: "Завдяки своїй [Concept('dip', 'дипломатичній навичці')|e] [target_character1.GetName] не дозволить тому, що сталося, завадити приєднанню"
+  diplomatic_abilities_of_target_character_prevent_any_negative_incident: "Завдяки своїй [Concept('dip', 'перемовницькій навичці')|e] [target_character1.GetName] не дозволить тому, що сталося, завадити приєднанню"
   generic_mission_events.10.title: "Культурний обмін"
   generic_mission_events.10.desc: "Включення #ONCLICK:COUNTRY,[mission_target_subject.GetKey] #TOOLTIP:COUNTRY,[mission_target_subject.GetKey],X [mission_target_subject.Custom('CL_GEN')|L]#!#! до складу [ROOT.GetCountry.Custom('rank_ua_GEN')|l] лише збагатило нашу культуру та уклад: ми обмінюємося мовою, мистецтвом, звичаями — і тим самим наші народи змінюються під впливом один одного.\n\nМожна сміливо сказати, що з часом подібне взаємне збагачення виявиться виключно корисним, і воно ще довго надихатиме наших митців…"
   generic_mission_events.10.a: "Сяй, зірко [target_culture.GetNameWithNoTooltip|l]ої культури!"

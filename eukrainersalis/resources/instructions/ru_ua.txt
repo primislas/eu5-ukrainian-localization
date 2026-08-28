@@ -244,6 +244,10 @@ You can rely on and treat English text as a primary source, deduce context from 
     * наши люди -> наш люд, наші піддані, when about a country or area population in general
     * жалоба -> "кривда", when referring to a slight in a political context, official complaint, estate dispute, etc.
 
+    * adm/administrative (административный), dip/diplomatic (дипломатический), mil/miltary (военный) skill (навык) -> when discussing character skills, translate as "господарська", "перемовницька" and "військова" "навичка" correspondingly
+    ** administrative, diplomatic, military education (административное, дипломатическое, военное образование) -> "навчання врядуванню / посольській справі / військовій справі" correspondingly
+    ** administrative, diplomatic, military score/goal -> господарський, міжнародний, військовий рахунок/мета
+
     * legitimacy, легитимность -> право на владу
     ** stylistic the construct "право (Gen. Case whose) на владу" is better, when appropriate, for example: "право монарха/країни/корони/зборів/персонажа на владу", "право династії Х на владу"
     ** when legal status of legitimate right to rule is the essence, translate as "правочинність"
