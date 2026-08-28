@@ -337,7 +337,7 @@
   flavor_chi.58.b: "Навіщо це взагалі?"
   flavor_chi.58.c: "Це й справді дивовижна віра!"
   chi_every_sunni_pop_gains_10_satisfaction: "[Concept('pop_satisfaction', 'Задоволення')|e] всіх [Concept('pop', 'громад')|e], що сповідують #L [target_religion.GetAdjective|l]у#! [Concept('religion', 'віру')|e], зросте на [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%]."
-  chi_every_sunni_country_gets_bias: "Кожна [Concept('country', 'країна')|e], що сповідує #L [target_religion.GetAdjective|l]у#! [Concept('religion', 'віру')|e], отримує [ShowBiasValue('chi_praised_islam')] до своєї [Concept('opinion', 'думки')|e] про #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#!."
+  chi_every_sunni_country_gets_bias: "Кожна [Concept('country', 'країна')|e], що сповідує #L [target_religion.GetAdjective|l]у#! [Concept('religion', 'віру')|e], отримує [ShowBiasValue('chi_praised_islam')] до своєї [Concept('opinion', 'думки')|e] про #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_ACC')|L]#!#!."
   flavor_chi.59.title: "Доля іспитів кецзюй"
   flavor_chi.59.entry: "Доля іспитів кецзюй"
   flavor_chi.59.desc: "Численн[ROOT.GetCountry.Custom('nobles_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] вже давно скарж[ROOT.GetCountry.Custom('nobles_ytat')]ся на [ShowLawName('keju_examination')|l], звинувачуючи їх у неефективності. Вони закликають до їх повного скасування та пропонують узаконити призначення чиновників на основі особистих рекомендацій — що, безсумнівно, вельми на руку представникам знаті, які мають широкі зв'язки."

@@ -255,7 +255,7 @@
   COUNTRY_TOOLTIP_RELIGION: "[Concept('religion', 'Віра')|e]: #subtle_name [RELIGION.GetNameNoUnderline|l]#![RELIGION.GetIcon]\n"
   COUNTRY_TOOLTIP_CULTURE: "[Concept('culture', 'Культура')|e]: #L [CULTURE.GetName|l]а#!\n"
   COUNTRY_TOOLTIP_SUBJECT: "[COUNTRY.GetLongNameWithFlag] — [Concept('subject', 'васал')|e] типу «[SUBJECT_TYPE.GetName]» для цієї країни"
-  COUNTRY_TOOLTIP_OPINION: "Їхня [Concept('opinion', 'думка')|e] про @[COUNTRY.GetFlag]! [COUNTRY.Custom('longname_ua_PREP')]: $VAL|+=0$"
+  COUNTRY_TOOLTIP_OPINION: "Їхня [Concept('opinion', 'думка')|e] про @[COUNTRY.GetFlag]! [COUNTRY.Custom('longname_ua_ACC')]: $VAL|+=0$"
   COUNTRY_TOOLTIP_POP: "[Concept('population', 'Населення')|e]: [COUNTRY.GetTotalPopulation]@population!"
   COUNTRY_TOOLTIP_TAX: "[Concept('tax_base', 'Податкова база')|e]: [COUNTRY.GetTotalTaxBase]@tax_base!"
   COUNTRY_TOOLTIP_OVERLORD: "[Concept('overlord', 'Сюзерен')|e]: [COUNTRY.GetDiplomacy.GetOverlord.GetLongName]"
