@@ -682,12 +682,17 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * trade range, торговая дистанция -> купецька досяжність
     * trade routes, торговые пути, маршруты -> торгові шляхи
     * merchant power, торговое преимущество -> "купецька перевага" as a game Concept, and when it's clearly a text describing game mechanics; conversely in narrative texts "торгова перевага" is often correct
+
+    * trade office, контора -> "гостиний двір", unless clearly about German-speaking Europe, Hanseatic League, Lubeck or the Baltic Sea, in which case leave "контора"
+    * trading post, фактория -> "купецька осада", unless clearly dealing with Spanish, Portuguese, Dutch or English posts, in which case leave "факторія" ("фейторія" for Portuguese)
+
     * staplerecht right, складочное право -> "складове право", або "право складу" when it better fits in the sentence
     * sound toll(s), плата за проход -> "мито на прохід", depending on context could be "оплаті за прохід", "сплачувати за прохід" and so on, if it fits better
     * компания -> "товариство", with the following exceptions:
     ** established historical names of mercenary companies, such as "Наваррська компанія", "Афінська компанія"
     ** established names of historical international trading companies, for example "Ост-Індійська компанія"
     ** "companies", "компании" of Catholic and Protestant countries (England, France, Scotland, Spain, Italy, Germany, etc.) remain "компанії"
+
 
 ## Resources, Goods, Buildings
 

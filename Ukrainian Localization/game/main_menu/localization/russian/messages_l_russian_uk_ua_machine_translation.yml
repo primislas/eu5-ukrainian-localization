@@ -10828,7 +10828,7 @@
   WE_IMPROVE_RELATION_BTN3: "$common_string_go_to$"
   WE_IMPROVE_RELATION_MAP: "Відносини покращилися!"
   WE_IMPROVED_RELATION_SETUP: "Коли [Concept('opinion', 'думка')|e] іншої країни про нас більше не може покращуватися"
-  WE_IMPROVED_RELATION_HEADER: "Поліпшення думки завершилося"
+  WE_IMPROVED_RELATION_HEADER: "Поліпшення думки завершено"
   WE_IMPROVED_RELATION_TITLE: "$MESSENGER$"
   WE_IMPROVED_RELATION_EFFECTS: "Наш посол поліпшив відносини з країною $RECIPIENT$, наскільки це можливо, і повертається додому."
   WE_IMPROVED_RELATION_LOG: "$RECIPIENTADJ$а [Concept('opinion', 'думка')|e] про нас більше не може покращуватися."
