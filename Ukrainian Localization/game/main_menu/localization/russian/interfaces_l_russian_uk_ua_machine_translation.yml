@@ -4619,7 +4619,7 @@
   SHOW_MARKET_TRADES: "Показати наші [Concept('trade', 'угоди')] на цьому [Concept('market', 'ринку')]"
   MARKET_BUILDING_SHORTCUT: "Відкрити [Concept('buildings', 'споруди')] з фільтром за [Concept('good', 'товаром')]"
   MARKET_BUILDING_SHORTCUT_DISABLED: "Немає [Concept('building', 'споруд')], доступних для цього [Concept('good', 'товару')]"
-  MARKET_BUILDING_SHORTCUT_FOREIGN: "[MARKET.GetNameWithNoTooltip] — у нас немає [Concept('locations', 'місцевостей')] на цьому ринку"
+  MARKET_BUILDING_SHORTCUT_FOREIGN: "[Market.GetNameWithNoTooltip] — у нас немає [Concept('locations', 'місцевостей')] на цьому ринку"
   OPEN_RGO_BUILDER: "Конструктор [Concept('rgo', 'сировинних промислів')]"
   MARKET_RGO_SHORTCUT: "Розширити [Concept('resource_gathering_operations', 'сировинні промисли')]"
   MARKET_RGO_SHORTCUT_DISABLED: "Немає [Concept('rgo', 'сировинних промислів')], доступних для цього [Concept('good', 'товару')]"

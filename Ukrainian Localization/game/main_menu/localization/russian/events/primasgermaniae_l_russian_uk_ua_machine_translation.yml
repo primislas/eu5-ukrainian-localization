@@ -13,7 +13,7 @@
   primasgermaniae.3.b: "Нехай усе залишиться як є. Поки що…"
   opinion_supported_primas_germaniae: "Надано підтримку тому, кого призначили новим примасом Німеччини"
   primasgermaniae.4.title: "Втрата титулу примаса Німеччини"
-  primasgermaniae.4.desc: "[original_prime.GetGovernment.GetRulerTitle], ми втратили почесний титул #TOOLTIP:GOVERNMENT_REFORM,primas_germaniae,X #L примаса Німеччини#!#!. Скориставшись нашою низькою репутацією в #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священній Римській Імперії#!#!, інший архієпископ — [new_primae.GetGovernment.GetRuler.GetName] з #ONCLICK:COUNTRY,[new_primae.GetKey] #TOOLTIP:COUNTRY,[new_primae.GetKey],X [new_primae.Custom('CL_GEN')|L]#!#!, — [Select_CString(new_primae.GetGovernment.GetRuler.IsFemale, 'пред'явила', 'пред'явив')] права на цей титул!"
+  primasgermaniae.4.desc: "[original_prime.GetGovernment.GetRulerTitle], ми втратили почесний титул #TOOLTIP:GOVERNMENT_REFORM,primas_germaniae,X #L примаса Німеччини#!#!. Скориставшись нашою низькою репутацією в #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священній Римській Імперії#!#!, інший архієпископ — [new_primae.GetGovernment.GetRuler.GetName] з #ONCLICK:COUNTRY,[new_primae.GetKey] #TOOLTIP:COUNTRY,[new_primae.GetKey],X [new_primae.Custom('CL_GEN')|L]#!#!, — [Select_CString(new_primae.GetGovernment.GetRuler.IsFemale, 'пред’явила', 'пред’явив')] права на цей титул!"
   primasgermaniae.4.a: "Ну що ж, привітайте його…"
   opinion_congratulated_new_primas_germaniae: "Привітання для нового примаса Німеччини"
   primasgermaniae.4.b: "Ми цього не забудемо!"
