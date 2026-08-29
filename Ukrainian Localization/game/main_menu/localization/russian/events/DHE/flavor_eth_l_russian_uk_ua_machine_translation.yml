@@ -81,7 +81,7 @@
   flavor_eth.84.a.entry: "$common_string_alright$"
   flavor_eth.85.title: "Посол у в'язниці"
   flavor_eth.85.entry: "$flavor_eth.85.title$"
-  flavor_eth.85.desc: "[target_from_country.GetGovernment.GetRulerTitle] #ONCLICK:COUNTRY,[target_from_country.GetKey] #TOOLTIP:COUNTRY,[target_from_country.GetKey],X [target_from_country.Custom('CL_GEN')|L]#!#! [Select_CString(target_ruler.IsFemale, 'була', 'був' )] настільки [Select_CString(target_ruler.IsFemale, 'розгнівана', 'розгніваний' )] нашою відповіддю, що [Select_CString(target_ruler.IsFemale, 'ув'язнила', 'ув'язнив' )] посла, який її доставив."
+  flavor_eth.85.desc: "[target_from_country.GetGovernment.GetRulerTitle] #ONCLICK:COUNTRY,[target_from_country.GetKey] #TOOLTIP:COUNTRY,[target_from_country.GetKey],X [target_from_country.Custom('CL_GEN')|L]#!#! [Select_CString(target_ruler.IsFemale, 'була', 'був' )] настільки [Select_CString(target_ruler.IsFemale, 'розгнівана', 'розгніваний' )] нашою відповіддю, що [Select_CString(target_ruler.IsFemale, 'ув’язнила', 'ув’язнив' )] посла, який її доставив."
   flavor_eth.85.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
   flavor_eth.85.a.entry: "$common_string_alright$"
   flavor_eth.90.title: "Смерть єпископа"

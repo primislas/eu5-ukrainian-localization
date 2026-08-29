@@ -108,7 +108,7 @@
   flavor_jap.104.a.entry: "Асікаґа $name_tadayoshi$ переметнувся, і тепер Південний двір — це серйозна загроза."
   variable_tadayoshi_to_south_court_tt: "Асікаґа Тадайосі перекинувся до південного двору"
   south_court_will_become_stronger: "[ask_tadayoshi.GetName] поведе з собою багатьох союзників. [GetCountry('STC').GetLongName] та люди цієї країни діятимуть сміливіше."
-  flavor_jap.105.title: "[ask_tadayoshi.GetNameWithNoTooltip] [Select_CString(ask_tadayoshi.IsFemale, 'з'явилася', 'з'явився' )] до двору"
+  flavor_jap.105.title: "[ask_tadayoshi.GetNameWithNoTooltip] [Select_CString(ask_tadayoshi.IsFemale, 'з’явилася', 'з’явився' )] до двору"
   flavor_jap.105.entry: "Прибуття Тадайосі до Південного двору"
   flavor_jap.105.desc: "До нашого двору несподівано прибув зрадник [ask_tadayoshi.GetName]. Він хоче, щоб [our_ruler.GetName] прийняв його клятву вірності. [ask_tadayoshi.GetNameWithNoTooltip] незадоволений тим, як [jap_ruler.GetName] править #ONCLICK:COUNTRY,[GetCountry('JAP').GetKey] #TOOLTIP:COUNTRY,[GetCountry('JAP').GetKey],X [GetCountry('JAP').Custom('CL_INST')|L]#!#!, і готовий підтримати наші домагання на Хризантемовий трон."
   flavor_jap.105.a: "[ask_tadayoshi.GetNameWithNoTooltip] надасть нам неоціненну допомогу."

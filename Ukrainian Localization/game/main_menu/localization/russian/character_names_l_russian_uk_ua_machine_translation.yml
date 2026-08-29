@@ -646,7 +646,7 @@
   nick_the_historian: "[Select_CString(Character.IsFemale, 'Літописиця', 'Літописець' )]"
   nick_the_holy: "[Select_CString(Character.IsFemale, 'Блаженна', 'Блаженний' )]"
   nick_hunger: "Голод"
-  nick_the_memorable: "[Select_CString(Character.IsFemale, 'Достопам'ятна', 'Достопам'ятний' )]"
+  nick_the_memorable: "[Select_CString(Character.IsFemale, 'Достопам’ятна', 'Достопам’ятний' )]"
   nick_the_lamb: "Агнець"
   nick_the_victorious: "[Select_CString(Character.IsFemale, 'Переможна', 'Переможний' )]"
   nick_the_winged: "[Select_CString(Character.IsFemale, 'Крилата', 'Криватий')]"
