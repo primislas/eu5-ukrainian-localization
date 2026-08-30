@@ -821,7 +821,7 @@
   game_concept_age: "Доба"
   game_concept_ages: "Доби"
   game_concept_age_upper_desc: "Гра ділиться на кілька діб, зазвичай по одній на століття. Кожній добі притаманні свої закони та механіки, а також унікальне дерево [Concept('advances', 'поступу')|e]."
-  game_concept_age_lower_desc: "На початку кожної доби ми обираємо напрямок розвитку з [Concept('adm_short', 'управління')], [Concept('dip_short', 'дипломатії')] та [Concept('mil_short', 'військової справи')]. Від цього вибору залежить, яке дерево поступу отримає [Concept('country', 'країна')|e] в поточній добі."
+  game_concept_age_lower_desc: "На початку кожної доби ми обираємо напрямок розвитку з [Concept('adm_short', 'врядування')], [Concept('dip_short', 'міжнародних прагнень')] та [Concept('mil_short', 'військової справи')]. Від цього вибору залежить, яке дерево поступу отримає [Concept('country', 'країна')|e] в поточній добі."
   game_concept_age_list_title: "Список діб"
   game_concept_age_desc: "$game_concept_age_upper_desc$\n\n[ShowDatabase('age')]\n\n$game_concept_age_lower_desc$"
   game_concept_institution: "Інститут"

@@ -1509,7 +1509,7 @@
   flavor_tur.215.a: "Нехай знають, що буває, коли чиниш опір нам."
   flavor_tur.216.title: "Майбутня база в Західному Середземномор'ї"
   flavor_tur.216.entry: "Майбутня база в Західному Середземномор’ї"
-  flavor_tur.216.desc: "[target_country.Custom('preposition_uv')|U] #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! знали про наш намір захопити [target_location.Custom('LR_ACC')|l] [target_location.GetName]. Влада розуміла, що місцева фортеця потрібна нам як плацдарм для завоювання решти #TOOLTIP:AREA,western_mediterranean_sea_area,X #L Західного Середземномор'я#!#! та його портів. Саме тому її облога була довгою та кривавою. Але, попри всі зусилля ворога, [target_location.GetRank.GetNameWithNoTooltip|l] тепер належить нам."
+  flavor_tur.216.desc: "[target_country.Custom('preposition_uv')|U] #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! знали про наш намір захопити [target_location.Custom('LR_ACC')|l] [target_location.GetName]. Влада розуміла, що місцева фортеця потрібна нам як плацдарм для завоювання решти #TOOLTIP:AREA,western_mediterranean_sea_area,X #L Західного Середземномор'я#!#! та його портів. Саме тому її облога була довгою та кривавою. Але, попри всі зусилля ворога, [target_location.GetRank.GetNameWithNoTooltip|l] тепер належить нам."
   flavor_tur.216.a: "Треба негайно розмістити там свій флот."
   flavor_tur.217.title: "Хвилювання в Сербії"
   flavor_tur.217.entry: "Заворушення в Сербії"

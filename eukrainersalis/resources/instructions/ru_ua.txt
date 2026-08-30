@@ -727,7 +727,7 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     ** in poetic sense as "granary of the region/country" use "житниця" ("житниця Європи", "житниця Угорщини");
     ** "granary town", "зерновой центр" -> "житниця";
 
-    * квасцы -> галуни
+    * квасцы -> галун
     * spices, специи -> ALWAYS and ONLY "прянощі", replace singular "спеція" with plural "прянощі" as well, be mindful of a city "Спеція" and do not translate its name
     * porcelain, фарфор -> порцеляна
 
@@ -762,6 +762,7 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
 
     * local governor, дом местного губернатора -> палац намісника
     * bailiff, бейлифф -> управа, when about the insitution or building; when about an appointed person -> управ (singular), управи (plural);
+    * scriptorium, скрипторий -> писарня
 
     * tavern, таверна -> prefer "шинок", "корчма", unless clearly about English-speaking world
     * brewery, пивоварня -> "броварня" in general
@@ -782,6 +783,7 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * tax assessor, налоговый чиновник -> митар
     * entrepot, пакгауз -> торгова комора
     * trading hub, торговый узел -> великий торг
+    * commerce center, торговый центр -> регіональний ринок
     * quarter, квартал -> when talking about a national or religious community, use "подвір’я" or "двір", for example "венеційське подвір’я", "юдейське подвір’я", "португальське подвір’я"; interchange it with "двір", if necessary to avoid repetitiveness in text (e.g. "Вірменське подвір’я... У цьому дворі...");
 
 
