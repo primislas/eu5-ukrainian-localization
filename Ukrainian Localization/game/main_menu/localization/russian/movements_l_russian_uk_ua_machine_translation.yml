@@ -21,7 +21,7 @@
   MOVEMENT_SPREADER_TT_TITLE: "По-різному поширюється серед [Concept('pops', 'громад')|e]:"
   MOVEMENT_R0_FACTORS_TITLE: "Чинники, що впливають на швидкість поширення руху «$MOVEMENT$»:"
   MOVEMENT_SPREAD_FACTOR_ENTRY_FORMAT: "«$KEY$» ($VALUE|+=4$)"
-  movement_factor_scriptorium: "#TOOLTIP:BUILDING_TYPE,scriptorium,X #L Скрипторій#!#! у [Concept('location', 'місцевості')|e]"
+  movement_factor_scriptorium: "#TOOLTIP:BUILDING_TYPE,scriptorium,X #L Писарня#!#! у [Concept('location', 'місцевості')|e]"
   movement_factor_printing_press_shop: "#TOOLTIP:BUILDING_TYPE,printing_press_shop,X #L Друкарня#!#! у [Concept('location', 'місцевості')|e]"
   movement_factor_paper_guild: "#TOOLTIP:BUILDING_TYPE,paper_guild,X #L Цех папірників#!#! у [Concept('location', 'місцевості')|e]"
   movement_factor_paper_workshop: "#TOOLTIP:BUILDING_TYPE,paper_workshop,X #L Паперова майстерня#!#! у [Concept('location', 'місцевості')|e]"
