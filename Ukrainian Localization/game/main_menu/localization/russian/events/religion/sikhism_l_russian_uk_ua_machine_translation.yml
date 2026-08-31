@@ -26,7 +26,7 @@
   sikhism.6.a: "[ROOT.GetCountry.GetGovernment.GetRulerTitle|U] не буде гребувати мечем."
   sikhism.6.tt: "[GetUniqueInternationalOrganization('sikhism').GetName] відкриває доступ до правила «[ShowLawName('guru_hargobind_guruship')]»"
   sikhism.7.title: "[target_character.GetNameWithNoTooltip]"
-  sikhism.7.desc: "[target_character.GetName] — [Select_CString(target_character.IsFemale, 'послідовниця', 'послідовник' )] гуру на ім'я [previous_guru.GetName] — довго [Select_CString(target_character.IsFemale, 'готувалася', 'готувався' )] до того, щоб стати гуру, і сьогодні цей час настав. [target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale, 'засвоїла', 'засвоїв' )] науку смертного бою та управління військом, проте [Select_CString(target_character.IsFemale, 'сама', 'сам' )] має більш лагідну вдачу і любить усе живе без винятку, і тому намагається шукати дипломатичні рішення."
+  sikhism.7.desc: "[target_character.GetName] — [Select_CString(target_character.IsFemale, 'послідовниця', 'послідовник')] гуру на ім'я [previous_guru.GetName] — довго [Select_CString(target_character.IsFemale, 'готувалася', 'готувався')] до того, щоб стати гуру, і сьогодні цей час настав. [target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale, 'засвоїла', 'засвоїв')] науку смертного бою та командування військом, проте [Select_CString(target_character.IsFemale, 'сама', 'сам')] має більш лагідну вдачу і любить усе живе без винятку, і тому намагається шукати мирні рішення."
   sikhism.7.a: "Досить битв. Час заліковувати рани."
   sikhism.7.tt: "[GetUniqueInternationalOrganization('sikhism').GetName] отримує доступ до правила «[ShowLawName('guru_har_rai_guruship')]»"
   sikhism.8.title: "[target_character.GetNameWithNoTooltip]"

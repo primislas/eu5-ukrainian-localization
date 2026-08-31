@@ -1,6 +1,6 @@
 ﻿l_russian:
   diplomatic_annex.1.title: "Поглинання [target.Custom('CL_GEN')]"
-  diplomatic_annex.1.desc: "[target.GetLongName] — це країна, яка все ще намагається чинити опір підпорядкуванню, але [target.GetCapital.GetName] — вже повністю #L [ROOT.GetCountry.GetAdjective|l]ий#! [target.GetCapital.GetRank.GetNameWithNoTooltip|l]. Скоро поглинання [target.Custom('CL_GEN')] завершиться, і тоді наша країна зможе сповна насолодитися плодами перемоги.\n\nНа жаль, інші країни поставилися до цього акту експансії досить насторожено."
+  diplomatic_annex.1.desc: "[target.GetLongName] — це країна, яка все ще намагається чинити опір підпорядкуванню, але [target.GetCapital.GetName] — вже повністю #L [ROOT.GetCountry.GetAdjective|l]е#! [target.GetCapital.GetRank.GetNameWithNoTooltip|l]. Скоро поглинання [target.Custom('CL_GEN')] завершиться, і тоді наша країна зможе сповна насолодитися плодами перемоги.\n\nНа жаль, інші країни поставилися до цього кроку розширення досить насторожено."
   diplomatic_annex.1.a: "Oderint dum metuant!"
   every_subject_hates_us_tt: "[ROOT.GetCountry.GetLongName] — [Concept('opinion', 'думка')|e] наших [Concept('subjects', 'васалів')|e] про цю країну змінюється на [ShowBiasValue('opinion_annexed_other_subject')|+=0]"
   every_annex_target_neighbor_hates_us_tt: "[ROOT.GetCountry.GetLongName] — [Concept('opinion', 'думка')|e] всіх [Concept('country', 'сусідів')|e] #ONCLICK:COUNTRY,[target.GetKey] #TOOLTIP:COUNTRY,[target.GetKey],X [target.Custom('CL_GEN')|L]#!#! про цю країну змінюється на [ShowBiasValue('opinion_annexed_neighbor')|+=0]"

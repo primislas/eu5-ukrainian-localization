@@ -112,7 +112,7 @@
   flavor_son.1005.c: "Покажемо їм, що ми виконуємо священний обов'язок."
   flavor_son.1005.d: "Скромність — чеснота слуги."
   flavor_son.1006.title: "Закінчення хаджу"
-  flavor_son.1006.desc: "Наше паломництво до #TOOLTIP:LOCATION,mecca,X #L Мекки#!#! завдовжки в кілька місяців добігло кінця. Ми виконали свій #TOOLTIP:RELIGIONGROUP,muslim,X #L мусульманський#!#! обов'язок, і тепер можемо повернутися до управління країною."
+  flavor_son.1006.desc: "Наше паломництво до #TOOLTIP:LOCATION,mecca,X #L Мекки#!#! тривалістю в кілька місяців добігло кінця. Ми виконали свій #TOOLTIP:RELIGIONGROUP,muslim,X #L мусульманський#!#! обов'язок, і тепер можемо повернутися до врядування."
   flavor_son.1006.a: "Подивимося, що залишилося від каравану…"
   son_show_hajj_money_tt: "Кількість [Concept('gold', 'золота')|e] у #Y каравані#!: @gold!#G [THIS.GetVariable('hajj_money').GetValue]#!"
   son_continue_hajj_tt: "Ми продовжимо #Y хадж#!"

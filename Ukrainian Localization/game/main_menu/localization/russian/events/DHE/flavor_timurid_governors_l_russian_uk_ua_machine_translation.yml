@@ -1,6 +1,6 @@
 ﻿l_russian:
   flavor_tim_governor.1.title: "Смерть нашого правителя"
-  flavor_tim_governor.1.desc: "Зі смертю [Select_CString(target_character.IsFemale, 'нашої правительки', 'нашого правителя' )], область [target_area.GetName] віднині перебуває під де-юре управлінням #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_GEN')|L]#!#!. Відповідно до цього [target_character2.GetName] [Select_CString(target_character2.IsFemale, 'потребувала', 'потребував' )] від нашого поточного правителя повернути їх назад у [target_country.GetAdjectiveWithNoTooltip|l]і руки."
+  flavor_tim_governor.1.desc: "Зі смертю [Select_CString(target_character.IsFemale, 'нашої правительки', 'нашого правителя' )], область [target_area.GetName] віднині перебуває під де-юре владою #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_GEN')|L]#!#!. Відповідно до цього [target_character2.GetName] [Select_CString(target_character2.IsFemale, 'потребувала', 'потребував')] від нашого поточного правителя повернути їх назад у [target_country.GetAdjectiveWithNoTooltip|l]і руки."
   flavor_tim_governor.1.a: "Час розлучатися з владою."
   flavor_tim_governor.1.b: "Може, домовимося про продовження?"
   flavor_tim_governor.2.title: "Прохання [prev_country.Custom('CL_GEN')]"
@@ -60,7 +60,7 @@
   flavor_tim_governor.10.a.entry: "Ми наперекір їм візьмемо всіх вигнанців під своє крило."
   flavor_tim_governor.10.b: "Стратимо [Select_CString(target_character2.IsFemale,'її', 'його')] — у майбутньому нам це зарахується."
   flavor_tim_governor.10.b.entry: "Стратимо його — у майбутньому нам це зарахується."
-  flavor_tim_governor.11.title: "Ефективне управління областю [target_area.GetNameWithNoTooltip]"
+  flavor_tim_governor.11.title: "Справне врядування областю [target_area.GetNameWithNoTooltip]"
   flavor_tim_governor.11.desc: "[target_character.GetName] успішно справляється зі своїми обов'язками, і завдяки [Select_CString(target_character.IsFemale,'її', 'його')] грамотному керівництву [target_area.GetName] процвітає. На вулицях міста [ROOT.GetCountry.GetCapital.GetName] старанно трудяться [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l], а [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l], що прожива[ROOT.GetCountry.Custom('peasants_yeyut')] в його околицях, як ніколи задоволен[ROOT.GetCountry.Custom('peasants_yiaei')] своїми умовами життя. Здається, розвиток регіону йде вельми успішно, але ми можемо підтримати цю тенденцію, виділивши додаткові кошти."
   flavor_tim_governor.11.a: "Процвітання заслуговує великих витрат."
   flavor_tim_governor.11.b: "Замість того щоб витрачати золото, будемо радіти тому, що є."

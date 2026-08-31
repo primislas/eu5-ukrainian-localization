@@ -14,7 +14,7 @@
   flavor_dlh.2.c: "$play_as_revolter$"
   flavor_dlh.3.title: "[target_malwa_revolter_scope.GetNameWithNoTooltip] бореться за незалежність"
   flavor_dlh.3.entry: "Крок до незалежності Малви"
-  flavor_dlh.3.desc: "Відчайдушно намагаючись зберегти контроль над ситуацією, наші радники довірили управління територіями навколо [target_location.Custom('LR_GEN')|l] [target_location.GetName] людині на ім’я [target_character.GetName]. Однак жага влади та віддаленість від центру — [ROOT.GetCountry.GetCapital.Custom('LR_GEN')|l] [ROOT.GetCountry.GetCapital.GetName] — зіграли з нами злий жарт. Тепер [target_character.GetName] вимагає незалежності, а його ідеї знайшли підтримку у місцевих жителів, яких не влаштовує, що ними править [target_character2.GetShortName]. Люди мають намір підняти заколот..."
+  flavor_dlh.3.desc: "Відчайдушно намагаючись зберегти контроль над ситуацією, наші радники довірили врядування землями довкола [target_location.Custom('LR_GEN')|l] [target_location.GetName] людині на ім’я [target_character.GetName]. Однак жага влади та віддаленість від столиці — [ROOT.GetCountry.GetCapital.Custom('LR_GEN')|l] [ROOT.GetCountry.GetCapital.GetName] — зіграли з нами злий жарт. Тепер [target_character.GetName] вимагає незалежности, а його ідеї знайшли підтримку у місцевих жителів, яких не влаштовує, що ними править [target_character2.GetShortName]. Люди мають намір підняти заколот..."
   flavor_dlh.3.a: "От же гади!"
   flavor_dlh.3.b: "Ми не зможемо протистояти їм."
   flavor_dlh.3.c: "$play_as_revolter$"
