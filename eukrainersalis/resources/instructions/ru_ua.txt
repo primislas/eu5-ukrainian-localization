@@ -177,6 +177,8 @@ You can rely on and treat English text as a primary source, deduce context from 
 
     * "map", "карта" in the sense of a world or area map -> мапа
     * territory, территория -> try to avoid "територія", prefer "земля", "землі" (in general and local sense, e.g. "сільські, міські землі", "на тих землях", "наші, їхні землі" тощо), "володіння" (in a more official high prose governmental sense), "терени" (for large spaces or in very colloquial texts), "кордони" (when border is implied or stressed), "край, краї" (in a poetic or narrative context), or any other context-fitting synonym
+    ** административно-территориальные единицы, деление -> земельний устрій
+    ** административно-территориальная единица (singular) -> земля, провінція
     * "core location / region", "национальний район, регион" -> "корінна місцевість, регіон"
     * range, дистанция -> досяжність
     * vegetation, флора -> рослинність
@@ -248,6 +250,24 @@ You can rely on and treat English text as a primary source, deduce context from 
     * adm/administrative (административный), dip/diplomatic (дипломатический), mil/miltary (военный) skill (навык) -> when discussing character skills, translate as "господарська", "перемовницька" and "військова" "навичка" correspondingly
     ** administrative, diplomatic, military education (административное, дипломатическое, военное образование) -> "навчання врядуванню / посольській справі / військовій справі" correspondingly
     ** administrative, diplomatic, military score/goal -> господарський, міжнародний, військовий рахунок/мета
+
+    * управление -> "врядування" in a sense of governance, especially at state level
+    ** управление страной -> directly translated as "врядування країною", but in almost all cases "країною" is redundant and can be dropped, unless the sentence otherwise relies on this specific word, e.g. "опыт, роль, участие в управлении страной" -> "досвід, роль, участь у врядуванні";
+    ** the same applies to adjective "управленческий" -> урядовий, керівний (when about specific hands-on lower-tier matters); but "управленческий талант" -> "хист до врядування"
+    ** управленец -> урядовець
+    ** эффективный управленец -> вправний, успішний урядовець
+    ** when used in the meaning of "rule" rather than "governance" translate as "правління", e.g. "під правлінням таких славетних султанів", "історія правління"; sometimes a better semantic fit here is "панування", "під пануванням"
+    ** система управления -> "державний устрій" in a sense of larger governmental system; "урядовий устрій" in a specifically administrative sense; sometimes can be simplified as "врядування" in more casual context
+    ** орган управления -> урядова установа (in a general sense and as a governmental institution), відомство (as specific office), управи (the lowest level, local governmental offices)
+    ** эффективное управление, эффективность управления -> справне врядування, справність врядування ("неефективне врядування" can be called несправним, недолугим, невмілим)
+    ** as opposed to state governance, finance and trade "управление" is "відання", e.g. "відання скарбницею", "відання карбуванням", "відання торгівлею, грошима", "відання внутрішніми справами", also in fixed expression "відання васалами"
+    ** in a sense of lower-level management translate as "відання", "под управление" - "у відання", e.g. "відання скарбницею", "у віданні купців", "у віданні наярів", "передати у відання"
+    ** "управление" as a specific office or magistrate - "відомство", e.g. "відомство охорони здоров'я", "колоніальне відомство"
+    ** управление войсками, флотом -> командування військами, флотом, when about direct command; "керування" in a more general sense; however, if administrative aspect is stressed, then translate as "відання"
+    ** at the lowest level could be "розпоряджання", e.g. "розпоряджання замком, прислугою"
+    ** управление кораблем -> керівництво кораблем
+    ** под управлением компьютера, игрока -> під керуванням комп'ютера, гравця (when talking about game AI or player control)
+    ** (Chinese) Censorate, цензурное управление -> вища наглядова управа
 
     * legitimacy, легитимность -> право на владу
     ** stylistic the construct "право (Gen. Case whose) на владу" is better, when appropriate, for example: "право монарха/країни/корони/зборів/персонажа на владу", "право династії Х на владу"

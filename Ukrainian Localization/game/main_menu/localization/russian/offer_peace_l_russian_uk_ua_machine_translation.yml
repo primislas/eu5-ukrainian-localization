@@ -18,7 +18,7 @@
   GOLD_INFLATION: "[COUNTRY.GetLongNameWithFlag] — в результаті [Concept('inflation', 'інфляція')|e] валюти цієї країни підвищиться на $INFLATION$."
   GOLD_ENTRY: "$VAL|+=2$[gold_i]"
   SUGGEST_PEACE: "Пропозиція про мир"
-  SUGGEST_PEACE_TT: "Пропозиція про мир від країни під управлінням комп'ютера."
+  SUGGEST_PEACE_TT: "Пропозиція про мир від країни під керуванням комп'ютера."
   ANNEX_ALL_LOCATIONS_PEACE_TT: "Приєднати всі місцевості"
   GIVE_ALL_LOCATIONS_PEACE_TT: "Віддати всі місцевості"
   CANNOT_SELECT_ALL_LOCATIONS: "@trigger_no!Обрано усі місцевості."

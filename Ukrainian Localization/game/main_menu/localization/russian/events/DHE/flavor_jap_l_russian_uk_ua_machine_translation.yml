@@ -135,7 +135,7 @@
   flavor_jap.110.b: "Треба подбати про те, щоб даймьо-сюго залишалися беззастережно відданими нашій владі."
   flavor_jap.111.title: "Рада канрея"
   flavor_jap.111.entry: "$flavor_jap.111.title$"
-  flavor_jap.111.desc: "Однією з перших реформ щодо посилення бюрократії [ROOT.GetCountry.Custom('rank_ua_GEN')|l] стало заснування ради канрея. [our_ruler.GetName] розраховує, що новий інститут дасть могутнім #TOOLTIP:SPECIAL_STATUS,shugo_daimyo,X #L даймьо-сюго#!#! можливість брати безпосередню участь в управлінні #TOOLTIP:REGION,japan_region,X #L Японією#!#!. Це має сприяти зміцненню зв'язків між кланами та урядом країни."
+  flavor_jap.111.desc: "Однією з перших реформ щодо посилення чиновництва [ROOT.GetCountry.Custom('rank_ua_GEN')|l] стало заснування ради канрея. [our_ruler.GetName] розраховує, що новий інститут дасть могутнім #TOOLTIP:SPECIAL_STATUS,shugo_daimyo,X #L даймьо-сюґо#!#! можливість брати безпосередню участь у врядуванні #TOOLTIP:REGION,japan_region,X #L Японією#!#!. Це має сприяти зміцненню зв'язків між кланами та урядом країни."
   flavor_jap.111.a: "Завдяки раді [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] набуде нових важелів впливу на даймьо-сюго."
   flavor_jap.111.a.entry: "Завдяки раді ми набудемо нових важелів впливу на даймьо-сюґо."
   variable_jap_integrating_the_shugo_tt: "Сюґо у процесі інтеграції"

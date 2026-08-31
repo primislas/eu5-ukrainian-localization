@@ -1,6 +1,6 @@
 ﻿l_russian:
   succession_crisis.1.title: "Боротьба за [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]у корону"
-  succession_crisis.1.desc: "[ROOT.GetCountry.GetLongName] — країна, яку невміле управління, придворні інтриги та хаос привели до катастрофи. Деякі знатні сановники, не позбавлені [ROOT.GetCountry.GetGovernment.GetAdjective|l]их амбіцій, будують змову проти влади! Вони оголосили, що законним правителем #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! [Select_CString(scope_pretender.IsFemale,'має', 'має')] стати [scope_pretender.GetName]!"
+  succession_crisis.1.desc: "[ROOT.GetCountry.GetLongName] — країна, яку невміле врядування, придворні підступи та безлад привели до руїни. Деякі знатні сановники, не позбавлені [ROOT.GetCountry.GetGovernment.GetAdjective|l]их прагнень, будують змову проти влади! Вони оголосили, що законним правителем #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! [Select_CString(scope_pretender.IsFemale,'має', 'має')] стати [scope_pretender.GetName]!"
   succession_crisis.1.a: "Принесіть мені [Select_CString(scope_pretender.IsFemale,'її', 'його')] голову на спис!"
   succession_crisis.1.tt: "[scope_pretender.GetNameWithNoTooltip] скористається підтримкою кількох [Concept('provinces', 'провінцій')|e], незадоволених нашою владою"
   succession_crisis.2.title: "Опір на місцях"

@@ -1,8 +1,8 @@
 ﻿l_russian:
   flavor_vol.1.title: "Влада над чужою країною"
   flavor_vol.1.entry: "$flavor_vol.1.title$"
-  flavor_vol.1.desc: "[target_ruler.GetName] несе на собі нелегкий тягар управління країною, де майже кожен — іновірець. Щоб дещо полегшити цю ношу, ми можемо запросити радників-#TOOLTIP:RELIGION,$catholic_tt$,X #L католиків#!#! з тих #TOOLTIP:CULTUREGROUP,slavic_group,X #L слов'янських#!#! земель #TOOLTIP:CONTINENT,europe,X #L Європи#!#!, що вже прийняли #TOOLTIP:RELIGION,$catholic_tt$,X #L католицьку#!#! віру."
-  flavor_vol.1.historical_info: "Король Русі Юрій II був представником польської династії П'ястів, а по матері походив з Рюриковичів, адже вона доводилася сестрою Леву II Галицькому. Після смерті Лева II трон перейшов Юрію II, чужоземцю та католику. Через це він не користувався любов'ю православного населення Русі, що призвело до його вбивства в 1340 році."
+  flavor_vol.1.desc: "[target_ruler.GetName] несе на собі нелегкий тягар врядування країною, де майже кожен — іновірець. Щоб дещо полегшити цю ношу, ми можемо запросити радників-#TOOLTIP:RELIGION,$catholic_tt$,X #L католиків#!#! з тих #TOOLTIP:CULTUREGROUP,slavic_group,X #L слов'янських#!#! земель #TOOLTIP:CONTINENT,europe,X #L Європи#!#!, що вже прийняли #TOOLTIP:RELIGION,$catholic_tt$,X #L католицьку#!#! віру."
+  flavor_vol.1.historical_info: "Король Руси Юрій II був представником польської династії П'ястів, а по матері походив з Рюриковичів, адже вона доводилася сестрою Леву II Галицькому. Після смерті Лева II трон перейшов Юрію II, чужоземцю та католику. Через це він не користувався любов'ю православного населення Руси, що призвело до його вбивства в 1340 році."
   flavor_vol.1.a: "Без їхньої допомоги нам не впоратися з [ROOT.GetCountry.Custom('rank_ua_INST')|l]."
   flavor_vol.1.a.entry: "Без їхньої допомоги нам не впоратися з країною."
   flavor_vol.1.b: "Краще не варто. Якщо [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] розгніва[ROOT.GetCountry.Custom('nobles_yetsayutsa')], бути біді."

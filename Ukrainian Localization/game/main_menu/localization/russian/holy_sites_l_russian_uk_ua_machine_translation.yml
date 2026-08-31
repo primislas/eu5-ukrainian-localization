@@ -4,7 +4,7 @@
   mountain: "Гора"
   mountain_desc: "Гори завжди асоціювалися з богами. Багато з них вважаються священними, а деякі навіть пов'язують з певними божествами."
   episcopal_see: "Єпархія"
-  episcopal_see_desc: "Єпархія — це область під управлінням єпископа. Контроль над єпархією дає [Concept('countries', 'країнам')|e] додаткові переваги."
+  episcopal_see_desc: "Єпархія — це область під врядуванням єпископа. Контроль над єпархією дає [Concept('countries', 'країнам')|e] додаткові переваги."
   christian_holy_site: "Християнська святиня"
   christian_holy_site_desc: "Ця [Concept('holy_site', 'святиня')|e] важлива для #TOOLTIP:RELIGIONGROUP,christian,X #L християнських#!#! вір."
   inti_holy_site: "Інтійська святиня"

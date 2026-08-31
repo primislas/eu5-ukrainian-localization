@@ -19,7 +19,7 @@
   rozwi_rebels_joining: "[Concept('pop_satisfaction', 'Задоволення')|e] всіх #TOOLTIP:POPTYPE,peasants,X #L селянських#!#! [Concept('pops', 'громад')|e] у провінції [ShowProvinceDefinitionName('shangani_province')] знизиться на [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%], і вони приєднаються до фракції «[target_rozwi_rebels.GetName]»."
   flavor_zmw.3.title: "[ShowGovernmentReformNameWithNoTooltip('zmw_council_of_senior_wives')]"
   flavor_zmw.3.entry: "Рада старших дружин"
-  flavor_zmw.3.desc: "Дружинам наших правителів доступні багато найпотаємніших знань про нашу країну, і вони могли б ділитися з нами своїм баченням того, що відбувається — якщо, зрозуміло, їм буде дозволено засідати в раді та безпосередньо брати участь в управлінні. Не слід нехтувати такою можливістю — [ShowGovernmentReformName('zmw_council_of_senior_wives')] нам вельми знадобиться."
+  flavor_zmw.3.desc: "Дружинам наших правителів доступні багато найпотаємніших знань про нашу країну, і вони могли б ділитися з нами своїм баченням того, що відбувається — якщо, зрозуміло, їм буде дозволено засідати в раді та безпосередньо брати участь у врядуванні. Не слід нехтувати такою можливістю — [ShowGovernmentReformName('zmw_council_of_senior_wives')] нам вельми знадобиться."
   flavor_zmw.3.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   flavor_zmw.3.a.entry: "$common_string_brilliant$"
   flavor_zmw.3.b: "Не зараз."

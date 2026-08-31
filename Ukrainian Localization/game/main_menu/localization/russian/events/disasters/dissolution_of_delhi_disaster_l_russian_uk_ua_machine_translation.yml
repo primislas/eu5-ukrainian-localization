@@ -4,7 +4,7 @@
   dissolution_of_delhi.1.a: "[ROOT.GetCountry.Custom('common_string_negative')]"
   all_estates_lose_20_loyalty_tt: "Усі наші [Concept('estates', 'стани')|e] отримають [ShowNamedValue('estate_satisfaction_extreme_penalty')|+=2%] до [Concept('estate_satisfaction', 'задоволення')|e]"
   dissolution_of_delhi.2.title: "Проблеми в провінції"
-  dissolution_of_delhi.2.desc: "Жителі [target_location.Custom('LR_GEN')|l] [target_location.GetName], схоже, давно забули про існування центральної влади. Наш авторитет ні в що не ставлять, усюди тільки й говорять, що про самоврядування та незалежність. Контроль над місцевістю фактично втрачено — ми не збираємо там податки, не отримуємо звідти товари і не можемо набирати місцевих жителів у війська. Наші чиновники потребують допомоги, щоб зберегти там хоч якусь подобу управління."
+  dissolution_of_delhi.2.desc: "Жителі [target_location.Custom('LR_GEN')|l] [target_location.GetName], схоже, давно забули про існування стольної влади. Наш авторитет ні в що не ставлять, усюди тільки й говорять, що про самоврядування та самостійність. Контроль над місцевістю фактично втрачено — ми не збираємо там податки, не отримуємо звідти крам і не можемо набирати місцевих жителів у війська. Наші чиновники потребують допомоги, щоб зберегти там хоч якусь подобу врядування."
   dissolution_of_delhi.2.a: "Нехай [target_location.Custom('LR_INST')|l] [target_location.GetNameWithNoTooltip] керу[ROOT.GetCountry.Custom('nobles_yeyut')] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l]."
   dissolution_of_delhi.2.b: "Нехай цю справу вирішать [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l]."
   dissolution_of_delhi.2.c: "Якщо ми самі не здатні керувати цією територією, значить, ми не маємо права нею володіти!"

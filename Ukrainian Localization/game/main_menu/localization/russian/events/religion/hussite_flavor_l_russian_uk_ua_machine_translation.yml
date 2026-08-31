@@ -4,7 +4,7 @@
   hussite_flavor.1.a: "[Select_CString(target_artist.IsFemale, 'Її', 'Його' )] праці будуть для нас корисні."
   hussite_flavor.1.b: "У нас немає зайвих грошей."
   hussite_flavor.2.title: "Численн[ROOT.GetCountry.Custom('clergy_yiaei')] видатн[ROOT.GetCountry.Custom('clergy_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] не згод[ROOT.GetCountry.Custom('clergy_ennanoni')] з нашою політикою"
-  hussite_flavor.2.desc: "Управління народом — справа непроста. Численн[ROOT.GetCountry.Custom('clergy_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] намага[ROOT.GetCountry.Custom('clergy_yetsayutsa')] піднестися в адміністративній ієрархії, щоб виправити нашу політику відповідно до своїх переконань. На їхню думку, багато наших законів або не дотримуються, або прямо порушують #TOOLTIP:RELIGION,$hussite_tt$,X #L гуситські#!#! заповіді."
+  hussite_flavor.2.desc: "Врядування народом — справа непроста. Численн[ROOT.GetCountry.Custom('clergy_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] намага[ROOT.GetCountry.Custom('clergy_yetsayutsa')] піднестися в урядовій ієрархії, щоб виправити нашу політику відповідно до своїх переконань. На їхню думку, багато наших законів або не дотримуються, або прямо порушують #TOOLTIP:RELIGION,$hussite_tt$,X #L гуситські#!#! заповіді."
   hussite_flavor.2.a: "Ми змінимо наш курс."
   hussite_flavor.2.b: "Вони мовчатимуть."
   hussite_flavor.3.title: "Друзі в чужих землях"
