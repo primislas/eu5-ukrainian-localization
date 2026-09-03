@@ -307,6 +307,7 @@ You can rely on and treat English text as a primary source, deduce context from 
     * Махараджья -> Магараджія
     * Кингитанга -> Кінгітанга
     * Shitsuji, сицудзи -> сіцудзі
+    * shugo, shogun, shogunate -> сюґо, сьоґун, сьоґунат (alawys with letter "ґ")
 
 ## Money and Budget
 
