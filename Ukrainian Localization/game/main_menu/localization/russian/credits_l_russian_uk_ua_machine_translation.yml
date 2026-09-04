@@ -193,7 +193,7 @@
   ROLE_CONDUCTOR: "#credits_role Диригент#!"
   ROLE_MIXING_ENGINEER: "#credits_role Звукорежисер зведення#!"
   ROLE_ORCHESTRATION: "#credits_role Аранжування#!"
-  DISCIPLINE_ADDITIONAL_MUSICIANS: "#credits_discipline Додаткові музиканти#!"
+  DISCIPLINE_ADDITIONAL_MUSICIANS: "#credits_discipline Додаткові музики#!"
   ROLE_RECORDER: "#credits_role Блокфлейта#!"
   ROLE_LUTE: "#credits_role Лютня#!"
   ROLE_VIOLA_DA_GAMBA: "#credits_role Віола да гамба#!"

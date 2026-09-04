@@ -199,7 +199,7 @@
   flavor_swe_teu.4.a: "$pirate_events.1.a$"
   flavor_swe_teu.5.title: "Спірний острів"
   flavor_swe_teu.5.entry: "$flavor_swe_teu.5.title$"
-  flavor_swe_teu.5.desc: "[ShowScriptedGeographyName('baltic_sea_geography')] цінне тим, що в його центрі розташований острів #TOOLTIP:PROVINCE_DEFINITION,gotland_province,X #L Готланд#!#!. Це бажаний приз для кожної країни, яка прагне досягти #italic Dominium Maris Baltici#! — повного панування над Балтикою. Наша військово-морська міць вже не та, що раніше, а суперники давно замишляють вирвати цей стратегічно важливий острів з наших рук. Можливо, настав час продати Готланд іншій країні…"
+  flavor_swe_teu.5.desc: "[ShowScriptedGeographyName('baltic_sea_geography')] цінне тим, що в його середині розташований острів #TOOLTIP:PROVINCE_DEFINITION,gotland_province,X #L Готланд#!#!. Це ласе володіння для кожної країни, яка прагне досягти #italic Dominium Maris Baltici#! — повного панування над Балтикою. Наша військово-морська міць вже не та, що раніше, а суперники давно замишляють вирвати цей стратегічно важливий острів з наших рук. Можливо, настав час продати Готланд іншій країні…"
   flavor_swe_teu.5.a: "Запропонувати острів [first_offer.Custom('CL_DAT')]."
   flavor_swe_teu.5.a.entry: "Запропонуємо їм острів."
   flavor_swe_teu.5.b: "[second_offer.GetNameWithNoTooltip] напевно погодиться на угоду."

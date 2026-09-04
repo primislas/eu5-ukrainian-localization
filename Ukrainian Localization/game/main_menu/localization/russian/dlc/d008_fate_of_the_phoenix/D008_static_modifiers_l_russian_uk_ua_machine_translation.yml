@@ -1,10 +1,10 @@
 ﻿l_russian:
   STATIC_MODIFIER_NAME_roman_styled_architecture_modifier: "Архітектура в римському стилі"
   STATIC_MODIFIER_NAME_roman_style_infrastructure_and_water_works_modifier: "Римські інфраструктура та водні споруди"
-  STATIC_MODIFIER_NAME_roman_administrative_center_modifier: "Римський адміністративний центр"
+  STATIC_MODIFIER_NAME_roman_administrative_center_modifier: "Римський урядовий осередок"
   STATIC_MODIFIER_NAME_greek_styled_architecture_modifier: "Архітектура у візантійському стилі"
   STATIC_MODIFIER_NAME_greek_style_infrastructure_and_water_works_modifier: "Візантійські інфраструктура та водні споруди"
-  STATIC_MODIFIER_NAME_greek_administrative_center_modifier: "Візантійський адміністративний центр"
+  STATIC_MODIFIER_NAME_greek_administrative_center_modifier: "Візантійський урядовий осередок"
   STATIC_MODIFIER_NAME_new_taxation_system_modifier: "Нова податкова система"
   STATIC_MODIFIER_NAME_military_research_modifier: "Військові дослідження"
   STATIC_MODIFIER_NAME_wave_of_hellenization_modifier: "Зміцнення ромейства"

@@ -341,7 +341,7 @@
   PROXIMITY_INFO: "[Concept('proximity', 'Досяжність')|e] столиці: $VAL|Y$"
   LOCAL_PROXIMITY_PROPAGATION_INFO: "Місцева важливість [Concept('proximity', 'досяжності')|e] столиці: $VAL|Y$"
   PROXIMITY_PROPAGATION_INFO: "Загальна важливість [Concept('proximity', 'досяжності')|e] столиці: $VAL|Y$"
-  PROXIMITY_PARENT_INFO: "[Concept('proximity', 'Найближчий')|e] центр: $PARENT$"
+  PROXIMITY_PARENT_INFO: "[Concept('proximity', 'Найближчий')|e] осередок: $PARENT$"
   INSTITUTION_INFO: "[INSTITUTION.GetName]: $VAL|Y2/%$"
   INTEGRATION_INFO: "[Concept('integration_status', 'Статус інтеграції')|e]: $NAME|Y$"
   INTEGRATION_PROGRESS: "\nІнтегровано на даний момент: $CURR|/%2Y$. Темп: $VAL|+=/2%$ на місяць. Процес завершиться $WHEN|Y$."
