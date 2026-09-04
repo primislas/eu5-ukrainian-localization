@@ -1011,6 +1011,7 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * вершить суд, правосудие - чинити суд, правосуддя
     * на добро или на зло, во благо или во вред - "на користь чи на згубу" (in governmental and official context), "на щастя чи на лихо" (in narrative and more casual tone), "на здобуток чи на шкоду" (for merchants, trade, guilds, crafts, money matters in general)
     * верующий, віруючий - вірянин
+    * хлынуть, хлинути - ринути
 
 
 

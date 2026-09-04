@@ -35,7 +35,7 @@
   industrialization_events.9.b: "Не треба лагодити те, що працює."
   industrialization_events.10.title: "[target_location.GetNameWithNoTooltip]: розвиток текстильної промисловості"
   industrialization_events.10.common_start: "Завдяки сучасному обладнанню та новітнім способам організації праці текстильна промисловість [target_location.Custom('LR_GEN')|l] [target_location.GetName]"
-  industrialization_events.10.common_ending: "Втім, такий бурхливий ріст викликає у деяких побоювання: люди бояться, що на ринок масово хлинуть товари низької якості."
+  industrialization_events.10.common_ending: "Втім, такий бурхливий ріст викликає у деяких побоювання: люди бояться, що на ринок масово ринуть товари низької якости."
   industrialization_events.10.desc: "$industrialization_events.10.common_start$ значно розрослася. Колись звідси привозили лише прості тканини; сьогодні ж тут розташувалося процвітаюче виробництво, що відчутно підтримує місцеве господарство. $industrialization_events.10.common_ending$"
   industrialization_events.10.rural.desc: "$industrialization_events.10.common_start$ змогла розширити свої і без того безмежні можливості. Передові винаходи проникають навіть у найглухіші з місцевих сіл, дозволяючи відкривати там спеціалізовані підприємства. $industrialization_events.10.common_ending$"
   industrialization_events.10.a: "Час нікого не чекає."
