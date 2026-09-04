@@ -270,7 +270,7 @@
   SCOPE_DEBUG_UNIT_ABILITY: "Здібність загону «$NAME$» ($ID$)"
   SCOPE_DEBUG_SOCIETAL_VALUE: "Суспільна цінність «$NAME$» ($ID$)"
   SCOPE_DEBUG_ROAD_TYPE: "Тип дороги «$NAME$» ($ID$)"
-  SCOPE_DEBUG_ETHNICITY: "Національність «$NAME$» ($ID$)"
+  SCOPE_DEBUG_ETHNICITY: "Походження «$NAME$» ($ID$)"
   SCOPE_DEBUG_WEATHER_SYSTEM: "Погодна модель «$NAME$» ($ID$)"
   SCOPE_DEBUG_FORMABLE_COUNTRY: "Створювана країна «$NAME$» ($ID$)"
   SCOPE_DEBUG_HEGEMON: "Гегемонія «$NAME$» ($ID$)"

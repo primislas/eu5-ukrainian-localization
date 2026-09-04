@@ -1424,7 +1424,7 @@
   NO_POSSIBLE_UNIT_ABILITY: "@trigger_no! Немає відповідних для цього [Concept('unit_abilities', 'здібностей загону')|e]."
   NO_POSSIBLE_SOCIETAL_VALUE: "@trigger_no! Немає відповідних для цього [Concept('societal_values', 'суспільних цінностей')|e]."
   NO_POSSIBLE_ROAD_TYPE: "@trigger_no! Немає відповідних для цього [Concept('roads', 'доріг')|e]."
-  NO_POSSIBLE_ETHNICITY: "@trigger_no! Немає відповідних для цього етносів."
+  NO_POSSIBLE_ETHNICITY: "@trigger_no! Немає відповідних для цього народів."
   NO_POSSIBLE_FORMABLE_COUNTRY: "@trigger_no! Немає відповідних для цього [Concept('formable_countries', 'створюваних країн')|e]."
   NO_POSSIBLE_HEGEMON: "@trigger_no! Немає відповідних для цього [Concept('hegemons', 'гегемоній')|e]."
   NO_POSSIBLE_HOLY_SITE_DEFINITION: "@trigger_no! Немає відповідних для цього визначень [Concept('holy_site', 'святинь')|e]."
