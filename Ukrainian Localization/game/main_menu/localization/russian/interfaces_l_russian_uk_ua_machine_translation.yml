@@ -1140,7 +1140,7 @@
   RAW_MATERIAL_LOC: "[Concept('raw_material', 'Сировина')|e]"
   PRODUCED_GOOD_LOC: "[Concept('produced_good', 'Вироблений товар')|e]"
   BUILDING_UPGRADE_ONE_DESTROYED: "Споруда «[BuildingType.GetObsoleteBuildingInLocation(Location.Self, Player.Self).GetName]» втратить один рівень, через що буде знищена."
-  BUILDING_UPGRADE_ONE_LEVEL: "[Споруда «[BuildingType.GetObsoleteBuildingInLocation(Location.Self, Player.Self).GetName]» втратить один рівень із #T [BuildingType.GetObsoleteBuildingInLocation(Location.Self, Player.Self).GetLevel]#!."
+  BUILDING_UPGRADE_ONE_LEVEL: "Споруда «[BuildingType.GetObsoleteBuildingInLocation(Location.Self, Player.Self).GetName]» втратить один рівень із #T [BuildingType.GetObsoleteBuildingInLocation(Location.Self, Player.Self).GetLevel]#!."
   BUILDING_TYPE_PRODUCTION_METHODS: "Впроваджено такі [Concept('production_methods', 'способи виробництва')|e]"
   BUILDING_TYPE_PRODUCTION_METHOD_ONE: "$DESC$"
   BUILDING_TYPE_PRODUCTION_METHOD_LABEL: "[Concept('production_methods', 'Способи виробництва')|e] для споруди «$NAME$»"
