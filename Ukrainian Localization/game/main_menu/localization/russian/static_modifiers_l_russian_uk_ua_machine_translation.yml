@@ -217,7 +217,7 @@
   STATIC_MODIFIER_NAME_peasants_in_power: "Простолюд при владі"
   STATIC_MODIFIER_NAME_generation_of_cowards: "Покоління боягузів"
   STATIC_MODIFIER_NAME_fortification_expert: "Фахівець з укріплень"
-  STATIC_MODIFIER_NAME_compromised_counter_espionage: "Провал контррозвідки"
+  STATIC_MODIFIER_NAME_compromised_counter_espionage: "Провал викриття шпигунів"
   STATIC_MODIFIER_NAME_competent_diplomacy: "Дипломатичні успіхи"
   STATIC_MODIFIER_NAME_incompetent_diplomacy: "Дипломатичне фіаско"
   STATIC_MODIFIER_NAME_extra_merchant_support: "Підтримка купців"

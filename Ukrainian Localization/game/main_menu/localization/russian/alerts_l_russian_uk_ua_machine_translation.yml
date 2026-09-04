@@ -283,7 +283,7 @@
   ALERT_ANNEXING_STALLED_LOW_OPINION_TITLE: "Поглинання країн із низькою думкою про нас"
   ALERT_ANNEXING_STALLED_LOW_OPINION: "Ми намагаємося [Concept('annex', 'поглинути')|e] [Concept('country', 'країну')|e], але процес стоїть на місці, бо її думка про нас занадто низька. Ми лише марнуємо ресурси.\n$COUNTRIES$\n\n"
   ALERT_HAS_BAD_ACTORS_TITLE: "Зловмисники"
-  ALERT_HAS_BAD_ACTORS: "Хтось веде проти нас зловмисні дії. Виявити винуватця допоможе контррозвідка!\n$INFO$\n\n"
+  ALERT_HAS_BAD_ACTORS: "Хтось веде проти нас зловмисні дії. Виявити винуватця допоможе служба з викриття шпигунів!\n$INFO$\n\n"
   ALERT_HAS_BAD_ACTORS_ENTRY: "$WHAT|Y$: число зловмисників — $HOW_MANY|Y$"
   ALERT_HAS_LOW_FOOD_STOCKPILE_MARKET_TITLE: "Ринки з малим запасом їжі"
   ALERT_HAS_LOW_FOOD_STOCKPILE_MARKET: "На цих [Concept('markets', 'ринках')|e] через [GetDefine('NMarket', 'MARKET_FOOD_STOCKPILE_TRESHOLD_MONTHS')] міс. закінчиться [Concept('food_stockpile', 'запас їжі')|e]:\n"
