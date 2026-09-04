@@ -872,7 +872,9 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     ** лидер наёмников - ватажок найманців
     ** unit, exploration leader, лидер экспедиции, отряда - очільник (експедиції, загону тощо)
     * маршрут - шлях; для уникнення повторень і тавтологій можна чергувати з "тракт", "стежка" для сухопутних шляхів, або "маршрут" для морських; шляхи можна "прокладати" або "торувати" (в оповідальному поетичному сенсі)
-    * масштаб - обсяг, коли йдеться про обсяги виробництва
+    * масштаб:
+    ** обсяг, коли йдеться про обсяги виробництва
+    ** розмах, коли йдеться про великі роботи
     * метод - спосіб
     ** fixed expressions with "спосіб" - способи набору (recruitment method), способи виробництва (production method), способи лікування
     ** for military, diplomacy, trade use "засоби" (засоби будівництва; військові, дипломатичні, торгові засоби; засоби ведення війни)
@@ -882,6 +884,7 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     ** in general use "засоби" when "метод" clearly stresses tool use, such as with navigation, building, surgical, irrigation, mining, etc. methods; otherwise translate to "спосіб", especially in the sense of a general way, technique, approach of doing something
     * момент, миг - мить
     ** благоприятный миг - сприятлива нагода
+    * музикант - музика
     * потенциал - спроможність (in the sense of capability, capacity), здібності (in a sense of potential personal ability)
     * провизия, провізія, провиант, провіант, продовольство -> харчі, в розповідних приземлено-побутових текстах припускається форма "харч"; продовольчий - харчовий
     ** food, еда - завжди "харчі", коли мова про військові потреби в їжі
