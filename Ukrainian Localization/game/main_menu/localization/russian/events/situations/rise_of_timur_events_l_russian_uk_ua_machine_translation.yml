@@ -54,7 +54,7 @@
   rise_of_timur.13.b: "[target_character.GetNameWithNoTooltip] — спадкоємець Чингісхана."
   rise_of_timur.13.c: "[target_character.GetNameWithNoTooltip] — [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]."
   rise_of_timur.14.title: "Підкорення Персії"
-  rise_of_timur.14.desc: "Протягом століть #TOOLTIP:REGION,persia_region,X #L Персія#!#! була центром #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламського#!#! світу, а також містком між #TOOLTIP:CONTINENT,europe,X #L Європою#!#! та #TOOLTIP:CONTINENT,asia,X #L Азією#!#!. Ці землі бачили зародження та смерть безлічі імперій. Настав час і нам ступити на них. [ROOT.GetCountry.GetLongName] — це сила, перед міццю якої #TOOLTIP:REGION,persia_region,X #L Персія#!#! не встоїть."
+  rise_of_timur.14.desc: "Протягом століть #TOOLTIP:REGION,persia_region,X #L Персія#!#! була осердям #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламського#!#! світу, а також містком між #TOOLTIP:CONTINENT,europe,X #L Європою#!#! та #TOOLTIP:CONTINENT,asia,X #L Азією#!#!. Ці землі бачили зародження та смерть безлічі імперій. Настав час і нам ступити на них. [ROOT.GetCountry.GetLongName] — це сила, перед міццю якої #TOOLTIP:REGION,persia_region,X #L Персія#!#! не встоїть."
   rise_of_timur.14.a: "Персія впаде до наших ніг."
   rise_of_timur.14.a.tt: "Ми отримаємо [Concept('casus_belli', 'привід для війни')|e] #TOOLTIP:CASUS_BELLI,cb_timurs_conquests,X #L «Завоювання Тимура»#!#! з усіма [Concept('country', 'країнами')|e], чиї столиці розташовані в #TOOLTIP:REGION,persia_region,X #L Персії#!#!"
   rise_of_timur.15.title: "Підкорення Анатолії"

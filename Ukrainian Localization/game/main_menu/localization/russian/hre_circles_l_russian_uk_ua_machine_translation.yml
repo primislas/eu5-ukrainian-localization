@@ -102,7 +102,7 @@
   reform_coinage_in_circle_effect_text: "[SCOPE.sCountry('actor').GetName] провод[SCOPE.sCountry('actor').Custom('end_ytyat')] у своєму окрузі грошову реформу."
   reform_coinage_in_circle_text_past: "[SCOPE.sCountry('actor').GetName] здійсни[SCOPE.sCountry('actor').Custom('end_vlaloly')] у своєму окрузі грошову реформу."
   reduction_of_circle_titles: "Скорочення титулів округу"
-  reduction_of_circle_titles_desc: "Наш округ став неефективним і загруз у титулах та адміністративних посадах, здатних блокувати рішення одне одного. Скорочення титулів не лише дозволить підвищити дієвість нашого округу, а й зміцнить наше становище. Інші учасники округу будуть не в захваті від подібної централізації, що знизить їхнє вдоволення."
+  reduction_of_circle_titles_desc: "Наш округ став недієздатним і загруз у титулах та урядових посадах, здатних блокувати рішення одне одного. Скорочення титулів не лише дозволить підвищити дієвість нашого округу, а й зміцнить наше становище. Інші учасники округу будуть не в захваті від подібного зосередження влади, що знизить їхнє вдоволення."
   reduction_of_circle_titles_act: "Скорочення титулів округу"
   reduction_of_circle_titles_tt: "Ми отримаємо модифікатор «[ShowModifier('reduction_of_circle_titles')]», і [Concept('opinion', 'думка')|e] кожного учасника округу про нас зменшиться на [ShowBiasValue('opinion_reduction_of_circle_titles')|+=2]. Вдоволення округу зменшиться на 5 од."
   reduction_of_circle_titles_effect_text: "[SCOPE.sCountry('actor').GetName] скорочу[SCOPE.sCountry('actor').Custom('end_yeyut')] титули округу"

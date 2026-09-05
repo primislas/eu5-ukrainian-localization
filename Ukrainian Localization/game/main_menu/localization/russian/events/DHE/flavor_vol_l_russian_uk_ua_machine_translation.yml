@@ -10,7 +10,7 @@
   flavor_vol.2.title: "Зв'язки із заходом"
   flavor_vol.2.entry: "$flavor_vol.2.title$"
   flavor_vol.2.desc: "#TOOLTIP:LOCATION,sanok,X #L Сянок#!#!, що біля підніжжя Карпатських гір, — важлива частина [ROOT.GetCountry.Custom('rank_ua_GEN')|l]: тут нерідко зупиняються купці, які прямують до #TOOLTIP:LOCATION,krakow,X #L Кракова#!#! та #TOOLTIP:AREA,slovakia_area,X #L Словаччини#!#! або у зворотному напрямку, і по дорозі торгують з нашими жителями. Згодом Сянок може стати важливим торговим вузлом для наших та закордонних купців, якщо ми посприяємо цьому грошима."
-  flavor_vol.2.a: "Інвестуємо в новий центр для наших купців!"
+  flavor_vol.2.a: "Вкладемося в новий осередок для наших купців!"
   flavor_vol.2.b: "Немає сенсу витрачати на це гроші."
   flavor_vol.3.title: "[target_location.GetNameWithNoTooltip] обіцяє велику вигоду"
   flavor_vol.3.entry: "Регіональна столиця у Львові"

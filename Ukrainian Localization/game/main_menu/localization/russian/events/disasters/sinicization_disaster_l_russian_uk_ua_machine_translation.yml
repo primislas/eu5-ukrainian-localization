@@ -9,7 +9,7 @@
   sinicization_disaster.1.b: "Ми повинні відстояти суверенітет!"
   chi_may_be_sympathetic_tt: "#Y [target_emperor_scope.GetNameWithNoTooltip]#! може проявити до нас милість у ці важкі часи"
   sinicization_disaster.2.title: "Симпатія до чужинців"
-  sinicization_disaster.2.desc: "При дворі шепочуться про злочинні змови, таємні угоди та цінні дари, отримані в нагороду за політичну підтримку. У центрі цих тривожних чуток знаходиться видатний член нашої ради на ім'я [target_character.GetName]. І справді, останнім часом [Select_CString(target_character.IsFemale,'її', 'його')] думка з різних питань багато в чому збігається з точкою зору [target_emperor_scope.GetAdjectiveWithNoTooltip|l]их посланців…"
+  sinicization_disaster.2.desc: "При дворі шепочуться про злочинні змови, таємні угоди та цінні дари, отримані в нагороду за політичну підтримку. Серед цих тривожних чуток знаходиться видатний член нашої ради на ім'я [target_character.GetName]. І справді, останнім часом [Select_CString(target_character.IsFemale,'її', 'його')] думка з різних питань багато в чому збігається з точкою зору [target_emperor_scope.GetAdjectiveWithNoTooltip|l]их посланців…"
   sinicization_disaster.2.a: "Ми не станемо [Select_CString(target_character.IsFemale,'їй', 'йому')] перешкоджати."
   sinicization_disaster.2.b: "Настав час вигнати [Select_CString(target_character.IsFemale,'її', 'його')] з країни."
   sinicization_disaster.2.c: "Стратити [Select_CString(target_character.IsFemale,'її', 'його')] негайно!"

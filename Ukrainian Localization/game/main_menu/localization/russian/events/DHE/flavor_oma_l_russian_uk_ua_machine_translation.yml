@@ -97,7 +97,7 @@
   flavor_oma.13.b: "Краще зайнятися укріпленням сухопутних кордонів."
   flavor_oma.14.title: "[target_location.GetNameWithNoTooltip]: укріплення оборони"
   flavor_oma.14.entry: "Зміцнення Ормуза"
-  flavor_oma.14.desc: "Наші давні суперники залишили [target_location.Custom('LR_ACC')], і [target_location.GetRank.GetName] тепер належить нам. Настав час розпорядитися новим придбанням. Якщо відкинути старі образи, варто визнати, що цей порт — важливий центр торгівлі в #TOOLTIP:REGION,persia_region,X #L Персії#!#! та Перській затоці."
+  flavor_oma.14.desc: "Наші давні суперники залишили [target_location.Custom('LR_ACC')], і [target_location.GetRank.GetName] тепер належить нам. Настав час розпорядитися новим надбанням. Якщо відкинути старі образи, варто визнати, що цей порт — важливий осередок торгівлі в #TOOLTIP:REGION,persia_region,X #L Персії#!#! та Перській затоці."
   flavor_oma.14.a: "Цей острів відіграє значущу роль у торгівлі з Персією."
   flavor_oma.14.b: "[ROOT.GetCountry.GetCapital.GetNameWithNoTooltip] більше потребує розвитку."
   flavor_oma.14.b.entry: "Краще займімося розвитком столиці."

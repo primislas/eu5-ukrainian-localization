@@ -119,7 +119,7 @@
   flavor_jap.106.a: "[ymn_clan.GetLongNameWithNoTooltip] — серйозна загроза."
   flavor_jap.106.a.entry: "Ямана — серйозна загроза."
   flavor_jap.106.b: "Потрібно негайно атакувати!"
-  flavor_jap.106.tt: "[GetCountry('YMN').GetLongName] і [GetCountry('STC').GetLongName] — перша країна підтримає другу з центром у місті [GetCountry('STC').GetCapital.GetNameWithNoTooltip]."
+  flavor_jap.106.tt: "[GetCountry('YMN').GetLongName] і [GetCountry('STC').GetLongName] — перша країна підтримає другу зі столицею у місті [GetCountry('STC').GetCapital.GetNameWithNoTooltip]."
   variable_supports_northern_court_tt: "Клан підтримує північний двір"
   flavor_jap.107.title: "Компроміс в обмін на покору"
   flavor_jap.107.entry: "$flavor_jap.107.title$"

@@ -55,7 +55,7 @@
   flavor_kbo.12.bad.desc: "Для нас настали темні часи. [ROOT.GetCountry.GetLongName] — ця країна колись була непереможною, а тепер страждає від кризи, яка торкнулася всього нашого народу. Деякі кажуть, що наша країна перетворилася на привид самої себе, і, можливо, вони мають рацію, адже ми нещодавно втратили #TOOLTIP:PROVINCE_DEFINITION,kanem_province,X #L Канем#!#! та #TOOLTIP:PROVINCE_DEFINITION,bornu_province,X #L Борну#!#! — ці провінції були невід'ємною частиною нашого суспільства та ідентичності. Невже ми приречені канути в небуття? Чи нам все ж вдасться відродитися з попелу?"
   flavor_kbo.12.a: "Наша доля вирішена."
   flavor_kbo.12.b: "Ще не все втрачено."
-  flavor_kbo.12_become_bornu_tt: "Наше майбутнє — #W [GetCountry('KBO').GetFlavorRank|l] з центром у Борну#!"
+  flavor_kbo.12_become_bornu_tt: "Наше майбутнє — #W [GetCountry('KBO').GetFlavorRank|l] зі столицею у Борну#!"
   flavor_kbo.13.title: "Ми відвойовуємо #TOOLTIP:PROVINCE_DEFINITION,kanem_province,X #L Канем#!#!"
   flavor_kbo.13.entry: "Відвоювання Канему"
   flavor_kbo.13.desc: "Ми з ганьбою втратили #TOOLTIP:PROVINCE_DEFINITION,kanem_province,X #L Канем#!#!, свою споконвічну територію, і нас вже майже списали з рахунків, проте нам все-таки вдалося відбити ці землі у ворога. Тепер, коли #TOOLTIP:PROVINCE_DEFINITION,kanem_province,X #L Канем#!#! та #TOOLTIP:LOCATION,njimi,X #L Нджимі#!#! знову знаходяться в наших руках, ми можемо відновити нашу колишню велич і повернути собі повний контроль над усіма землями, що оточують озеро Чад."

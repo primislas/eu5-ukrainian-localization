@@ -36,7 +36,7 @@
   destabilize_our_realm: "Наше неприйняття нових віянь дестабілізує [ROOT.GetCountry.Custom('rank_ua_ACC')|l]"
   perceived_as_weakness: "Боротьба з проникненням чужоземних звичаїв сприймається як слабкість"
   latinization_vs_hellenization.8.title: "Реорганізація провінцій"
-  latinization_vs_hellenization.8.desc: "Чиновники з [ROOT.GetCountry.GetCapital.Custom('LR_GEN')|l] [ROOT.GetCountry.GetCapital.GetName] пропонують провести всеосяжну реорганізацію таких провінцій, як [target_province.GetName]. Їхнє законодавство та адміністративний устрій потрібно привести у відповідність до порядків, що діють у культурному та політичному центрі країни. Ці реформи допоможуть зміцнити контроль над провінціями, проте ми ризикуємо порушити політичну рівновагу, що склалася на місцях."
+  latinization_vs_hellenization.8.desc: "Чиновники з [ROOT.GetCountry.GetCapital.Custom('LR_GEN')|l] [ROOT.GetCountry.GetCapital.GetName] пропонують провести всеосяжну реорганізацію таких провінцій, як [target_province.GetName]. Їхнє законодавство та урядовий устрій потрібно привести у відповідність до порядків, що діють у культурному та політичному осередку країни. Ці реформи допоможуть зміцнити контроль над провінціями, проте ми ризикуємо порушити політичну рівновагу, що склалася на місцях."
   latinization_vs_hellenization.8.a: "Запровадимо нові порядки, чого б це не коштувало."
   latinization_vs_hellenization.8.b: "Місцевим динатам нема про що турбуватися — ми поважатимемо звичаї провінцій."
   pops_in_selected_provinces_will_gain_mild_bonus_satisfaction_tt: "Наші [Concept('pops', 'громади')|e] в охоплених [Concept('provinces', 'провінціях')|e] отримають [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] до вдоволення"
