@@ -10,7 +10,7 @@
   byzantine_succ_crisis.2.a: "Добре. Ми потребуємо їхньої підтримки."
   byzantine_succ_crisis.2.b: "Ми не підемо на перемови з цими негідниками!"
   byzantine_succ_crisis.3.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] підтриму[ROOT.GetCountry.Custom('nobles_yeyut')] претендента!"
-  byzantine_succ_crisis.3.desc: "Владолюбн[ROOT.GetCountry.Custom('nobles_yiaei')] та амбітн[ROOT.GetCountry.Custom('nobles_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] чимось схож[ROOT.GetCountry.Custom('nobles_yiaei')] на неслухняних дітей — анархія та безлад їм тільки в радість. Тепер вони звинувачують центральну владу в слабкості та відкрито заявляють, що [target_character.GetName] стане [Select_CString(target_character.IsFemale,'кращою правителькою', 'кращим правителем')], ніж [target_character2.GetShortName]."
+  byzantine_succ_crisis.3.desc: "Владолюбн[ROOT.GetCountry.Custom('nobles_yiaei')] та амбітн[ROOT.GetCountry.Custom('nobles_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] чимось схож[ROOT.GetCountry.Custom('nobles_yiaei')] на неслухняних дітей — непокора та безлад їм тільки в радість. Тепер вони звинувачують столичну владу в слабкості та відкрито заявляють, що [target_character.GetName] стане [Select_CString(target_character.IsFemale,'кращою правителькою', 'кращим правителем')], ніж [target_character2.GetShortName]."
   byzantine_succ_crisis.3.a: "Ми не потребуємо їхньої допомоги."
   byzantine_succ_crisis.3.b: "Може, нові привілеї допоможуть їм одуматися?"
   byzantine_succ_crisis.4.title: "Спілка мореплавців міста Фессалоніки"

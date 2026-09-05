@@ -1,5 +1,5 @@
 ﻿l_russian:
-  colonial_federation_events.1000.title: "Централізація об'єднання «[target_io.GetNameWithNoTooltip]»"
+  colonial_federation_events.1000.title: "Підпорядкування об'єднання «[target_io.GetNameWithNoTooltip]»"
   colonial_federation_events.1000.desc: "Від початку об'єднання «[target_io.GetName]» являло собою лише союз між колоніями іноземних країн, однак на сьогоднішній день це вже повноцінна країна з єдиною внутрішньою політикою та кордонами. У зв'язку з цим [target_io.GetNameWithNoTooltip] приймає рішення офіційно об'єднати всі суб'єкти союзу в одну країну, яка стане відома як [target_country.GetName], а очолить її [target_character.GetName]."
   colonial_federation_events.1000.a: "Нехай у майбутньому всіх нас чекає лише процвітання!"
   colonial_federation_unify_the_io_tt: "Об'єднання «[target_io.GetName]» стане єдиною країною"
