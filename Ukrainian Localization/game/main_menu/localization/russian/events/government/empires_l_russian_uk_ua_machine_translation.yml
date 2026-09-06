@@ -5,7 +5,7 @@
   empires.1.b: "Знайдемо дипломатичний компроміс."
   empires.2.title: "Національна роздробленість"
   empires.2.desc: "Попри велику територію #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, політично ця країна доволі сильно роздроблена. Різні місцеві правителі сильно обмежують владу, якою володіє [ROOT.GetCountry.GetGovernment.GetFullRulerName|l], і [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'їй', 'йому')] все складніше керувати великою імперією. Розрізнена суміш культур з різними цінностями та віруваннями породжує конфлікти з найнезначніших приводів."
-  empires.2.a: "Приділимо більше уваги централізації."
+  empires.2.a: "Приділимо більше уваги зосередженню влади."
   empires.2.b: "Залишимо все як є."
   empires.3.title: "[target_minister.GetNameWithNoTooltip] пропонує реформи"
   empires.3.desc: "Врядування такою великою імперією, як [ROOT.GetCountry.GetName], вимагає довгого господарського планування. Досвід показав, що без хорошого скарбового радника нас чекають руйнівні наслідки. Однак [target_minister.GetName], [Select_CString(target_minister.IsFemale,'призначена', 'призначений')] до нашої ради, [Select_CString(target_minister.IsFemale,'допомогла', 'допоміг')] врятувати становище. [Select_CString(target_minister.IsFemale,'Вона представила', 'Він представив')] кілька проєктів змін, зокрема справедливіший податковий устрій та план забезпечення державного займу."
