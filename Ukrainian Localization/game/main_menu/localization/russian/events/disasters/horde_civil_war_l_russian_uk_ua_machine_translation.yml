@@ -28,7 +28,7 @@
   horde_civil_war.6.a: "Нехай тільки спробують!"
   horde_civil_war.7.title: "Повстання в провінції [target_province.GetNameWithNoTooltip]"
   horde_civil_war.7.title.generic: "Повстання в провінції"
-  horde_civil_war.7.desc: "Розпочавши міжусобну боротьбу, [target_ruler.GetName] та узурпатор [target_character.GetName] підірвали багаторічні зусилля з централізації #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_GEN')|L]#!#!, і тепер воїни в провінції [target_province.GetName] вимагають незалежності. Якщо [target_ruler.GetShortNameWithNoTooltip] не піде їм назустріч, група заколотників «[target_rebel.GetName]» отримає нових союзників…"
+  horde_civil_war.7.desc: "Розпочавши міжусобну боротьбу, [target_ruler.GetName] та узурпатор [target_character.GetName] підірвали багаторічні зусилля з підпорядкування #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_GEN')|L]#!#!, і тепер воїни в провінції [target_province.GetName] вимагають незалежности. Якщо [target_ruler.GetShortNameWithNoTooltip] не піде їм назустріч, група заколотників «[target_rebel.GetName]» отримає нових союзників…"
   horde_civil_war.7.a: "Ніхто не поставить нас на коліна!"
   horde_civil_war.7.a.tt: "Група заколотників «[target_rebel.GetName]» отримає підтримку всіх [Concept('pop', 'громад')|e] в провінції [target_province.GetName]"
   horde_civil_war.7.b: "Іншого виходу в нас немає…"
