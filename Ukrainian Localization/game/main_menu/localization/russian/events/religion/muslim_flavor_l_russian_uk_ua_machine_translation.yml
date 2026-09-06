@@ -78,7 +78,7 @@
   muslim_flavor.18.a: "Підтримати [Select_CString(reza_abbasi.IsFemale, 'її', 'його' )] та [Select_CString(reza_abbasi.IsFemale, 'її', 'його' )] творчість."
   muslim_flavor.18.b: "Нехай увесь світ дізнається про [Select_CString(reza_abbasi.IsFemale, 'її', 'його' )] талант!"
   muslim_flavor.19.title: "[baha_al_din.GetNameWithNoTooltip]"
-  muslim_flavor.19.desc: "[Select_CString(baha_al_din.IsFemale, 'Видатна мислителька', 'Видатний мислитель' )], філософ, архітектор, математик, астроном і поет [baha_al_din.GetName] поширює нову оригінальну ідею про те, що Сонце знаходиться в центрі всесвіту, а Земля рухається навколо нього. У своєму трактаті «Ташрі аль-Афлак» («Анатомія небесних сфер») [Select_CString(baha_al_din.IsFemale, 'вона', 'він' )] докладно пояснює цю теорію."
+  muslim_flavor.19.desc: "[Select_CString(baha_al_din.IsFemale, 'Видатна мислителька', 'Видатний мислитель' )], філософ, зодчий, математик, астроном і поет [baha_al_din.GetName] поширює нову оригінальну ідею про те, що Сонце знаходиться в середині всесвіту, а Земля рухається довкола нього. У своєму трактаті «Ташрі аль-Афлак» («Анатомія небесних сфер») [Select_CString(baha_al_din.IsFemale, 'вона', 'він')] докладно пояснює цю теорію."
   muslim_flavor.19.a: "[Select_CString(baha_al_din.IsFemale, 'Вона', 'Він' )] отримає нашу підтримку і зможе завершити свою працю."
   muslim_flavor.19.b: "Не звертати на [Select_CString(baha_al_din.IsFemale, 'неї', 'нього' )] уваги."
   muslim_flavor.21.title: "[ShowBuildingTypeNameWithNoTooltip('madrasa')]"
