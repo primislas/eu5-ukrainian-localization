@@ -7,7 +7,7 @@
   flavor_ben.2.title: "Врядування містами"
   flavor_ben.2.entry: "$flavor_ben.2.title$"
   flavor_ben.2.desc: "Усе врядування #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_INST')|L]#!#! було зосереджено в [ROOT.GetCountry.GetCapital.Custom('LR_PREP')|l] [ROOT.GetCountry.GetCapital.GetName] — чиновники не розподілені по країні рівномірно. Замість того щоб просто запропонувати захист решті поселень, ми можемо збудувати [GetBuildingName('eghabho_nore_mansion')|l] — єдину установу, якою відатиме [Select_CString(target_character.IsFemale, 'сама', 'сам')] [target_character.GetName]."
-  flavor_ben.2.a: "На території [ROOT.GetCountry.Custom('CL_GEN')] буде централізована влада!"
+  flavor_ben.2.a: "На теренах [ROOT.GetCountry.Custom('CL_GEN')] буде єдина влада!"
   flavor_ben.2.a.entry: "У нас буде підпорядкування!"
   flavor_ben.2.b: "Чинна система і так працює непогано."
   flavor_ben.3.title: "Мирська влада духовенства"
