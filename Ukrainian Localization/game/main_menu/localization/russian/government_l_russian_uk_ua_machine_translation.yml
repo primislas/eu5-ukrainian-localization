@@ -473,7 +473,7 @@
   CONVERT_RELIGION_NON_PRIMARY_HEADER: "Щомісячне [Concept('conversion_with_icon', 'навернення')|e] до #L [RELIGION.GetAdjective|l]ої#! віри: $VAL$. Причини:"
   CONVERT_RELIGION_PRIMARY_DESCRIPTION: "Це [Concept('state_religion_with_icon', 'панівна віра')|e] у #ONCLICK:COUNTRY,[COUNTRY.GetKey] #TOOLTIP:COUNTRY,[COUNTRY.GetKey],X [COUNTRY.Custom('CL_PREP')|L]#!#!. [Concept('pops', 'Громади')|e], що належать до інших [Concept('religions', 'віросповідань')|e] у цій [Concept('location', 'місцевості')|e], можуть переходити до #L [RELIGION.GetAdjective|l]ої#! віри щомісяця."
   centralization_vs_decentralization: "Підпорядкування — Самоврядність"
-  centralization_vs_decentralization_desc: "Країна з централізованим підпорядкованим врядуванням може бути ефективнішою, а децентралізована самоврядна більш стійка."
+  centralization_vs_decentralization_desc: "Країна з зосередженим підпорядкованим врядуванням може бути дієздатнішою, а розосереджена самоврядна більш стійка."
   centralization_focus: "Підпорядкування"
   decentralization_focus: "Самоврядність"
   traditionalist_vs_innovative: "Старина — Новина"
