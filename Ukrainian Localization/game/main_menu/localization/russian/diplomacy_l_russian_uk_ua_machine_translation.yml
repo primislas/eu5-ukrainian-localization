@@ -920,7 +920,7 @@
   INFILTRATE_ADMINISTRATION_CATEGORY: "CATEGORY_COVERT_ACTIONS"
   INFILTRATE_ADMINISTRATIONTITLE: "Проникнути у владу"
   INFILTRATE_ADMINISTRATION_DESC: "Ви хочете проникнути у владу країни $COUNTRY$? Це прибере [Concept('fog_of_war', 'туман війни')|e] з усієї її території на $MONTHS|Y$ міс."
-  INFILTADMINDESC: "Ми проникнемо в адміністрацію країни $COUNTRY$."
+  INFILTADMINDESC: "Ми проникнемо в уряд країни $COUNTRY$."
   INFILTRATE_ADMINISTRATION_TOOLTIP_HEADER: "Проникнути у владу #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!"
   INFILTRATE_ADMINISTRATION_TOOLTIP_HEADER_NO_TARGET: "Проникнути у владу [Concept('country', 'країни')|e]"
   INFILTRATE_ADMINISTRATION_FLAVOR: "Ця дія прибере [Concept('fog_of_war', 'туман війни')|e] з усієї території цієї країни на кілька місяців!"

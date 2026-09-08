@@ -179,4 +179,4 @@
   AUTO_MODIFIER_NAME_country_total_army_levy_size: "Розмір [Concept('army_levies', 'військового ополчення')|e]"
   AUTO_MODIFIER_NAME_country_total_navy_levy_size: "Розмір [Concept('navy_levies', 'морського ополчення')|e]"
   AUTO_MODIFIER_NAME_used_fort_limit: "Використана [Concept('fort_limit', 'межа фортець')|e]"
-  AUTO_MODIFIER_NAME_scaled_gov_power_monthly_nahualt_reform_progress: "[Concept('government_power', 'Влада уряду')|e] нашої адміністрації, що сповідує #TOOLTIP:RELIGION,$nahuatl_tt$,X #L науаську#!#! [Concept('religion', 'віру')|e]"
+  AUTO_MODIFIER_NAME_scaled_gov_power_monthly_nahualt_reform_progress: "[Concept('government_power', 'Влада уряду')|e], що сповідує #TOOLTIP:RELIGION,$nahuatl_tt$,X #L науаську#!#! [Concept('religion', 'віру')|e]"
