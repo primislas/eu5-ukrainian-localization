@@ -98,7 +98,7 @@
   has_opted_to_side_with_china_in_events_tt: "Успішне #G просування#! [GetCountry('CHI').GetAdjective|l]ого впливу при нашому дворі під час [Concept('events', 'подій')|e] ([THIS.GetVariable('china_side').GetValue] з 30)"
   has_opted_to_stay_sovereign_from_china_in_events_tt: "Успішне #G обмеження#! [GetCountry('CHI').GetAdjective|l]ого впливу при нашому дворі під час [Concept('events', 'подій')|e] ([THIS.GetVariable('sovereign_side').GetValue] з 30)"
   crisis_of_the_chinese_dynasty: "Криза в [GetCountry('CHI').Custom('longname_ua_wntt_PREP')]"
-  crisis_of_the_chinese_dynasty_desc: "Небеса потемніли. Ми ось-ось втратимо божественну благодать! Внутрішній та зовнішній тиск посилюються, бюрократія деградує, а невдачі в сільському господарстві тільки множаться — все складається проти нас. Народ більше не визнає нас законними правителями [GetCountry('CHI').Custom('rank_ua_GEN')|l]."
+  crisis_of_the_chinese_dynasty_desc: "Небеса потемніли. Ми ось-ось втратимо божественну благодать! Внутрішній та зовнішній тиск посилюються, чиновництво розкладається, а невдачі в сільському господарстві тільки множаться — все складається проти нас. Народ більше не визнає нас законними правителями [GetCountry('CHI').Custom('rank_ua_GEN')|l]."
   ccd_celestial_authority_trigger: "Наш [Concept('celestial_authority_gc', 'небесний авторитет')|e] становить не нижче #Y 90#! (зараз: #Y [GetUniqueInternationalOrganization('middle_kingdom').MakeScope.GetVariable('celestial_authority').GetValue|V1]#!)"
   cmd_has_reformed_cabinet_tt: "Застосовано [Concept('action', 'дію')|e] «[ShowGenericActionName('cmd_reform_the_cabinet')]»"
   cmd_has_restored_stability_tt: "Застосовано [Concept('action', 'дію')|e] «[ShowGenericActionName('cmd_restore_stability')]»"

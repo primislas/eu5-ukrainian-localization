@@ -170,7 +170,7 @@
   AUTO_MODIFIER_DESC_below_half_fort_limit: "Наша оборонна мережа розвинена набагато гірше, ніж можна очікувати."
   AUTO_MODIFIER_NAME_over_fort_limit: "Перевищення [Concept('fort_limit', 'межі фортець')|E]"
   AUTO_MODIFIER_DESC_over_fort_limit: "Наша оборонна мережа розвинена краще, ніж можна очікувати."
-  AUTO_MODIFIER_NAME_over_bureaucracy_limit: "Перевищено [Concept('bureaucracy', 'бюрократичний')|e] ліміт"
+  AUTO_MODIFIER_NAME_over_bureaucracy_limit: "Перевищено ліміт [Concept('bureaucracy', 'установ')|e]"
   AUTO_MODIFIER_DESC_over_bureaucracy_limit: "Чинних [Concept('bureaucracies', 'установ')|e] більше, ніж осередків!"
   AUTO_MODIFIER_NAME_country_tax_base: "[Concept('tax_base', 'Податкова база')|e]"
   AUTO_MODIFIER_NAME_regular_army_size: "Розмір [Concept('regular', 'постійного')|e] [Concept('army', 'війська')|e]"

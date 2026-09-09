@@ -318,7 +318,7 @@
   byz_court_wants_to_force_societal_changes: "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] бажає, щоб ми примусово вводили зміни в суспільстві"
   flavor_byz.48.title: "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] пропонує допомогу в питаннях врядування"
   flavor_byz.48.desc: "В останні роки чиновники #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! ледь справляються зі своїми обов’язками. Для усунення проблеми [target_character.GetName] [Select_CString(target_character.IsFemale,'повинна', 'повинен')] ухвалити нові закони, а [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] заздалегідь заявляє про свою готовність підтримати будь-які [Select_CString(target_character.IsFemale,'її', 'його')] ініціативи."
-  flavor_byz.48.a: "Від ефективної [ROOT.GetCountry.GetGovernment.GetAdjective|l]ої бюрократії [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] тільки виграє."
+  flavor_byz.48.a: "Від справного [ROOT.GetCountry.GetGovernment.GetAdjective|l]ого чиновництва [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] лише виграє."
   flavor_byz.48.b: "Золото — це все, що потрібно країні."
   flavor_byz.49.title: "[ROOT.GetCountry.GetGovernment.GetCourtTitle|U] будує підступи проти [ROOT.GetCountry.GetGovernment.GetAdjective|l]ого чиновництва"
   flavor_byz_49_desc_common: "Останнім часом наші чиновники чудово справляються зі своїми обов'язками, але дехто вважає, що чиновництво явно нехтує інтересами придворних."

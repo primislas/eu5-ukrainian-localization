@@ -274,6 +274,16 @@ IMPORTANT! When presented with several alternative translation options, choose t
     * администратор -> урядовець, чиновник, керівник
     * translate adjective "эффективный" when applied to администрация, администратор as: справний ("неефективний" can be called несправним, недолугим, невмілим), дієвий (when action is stressed), (не)дієздатний (when (in)ability to take action is stressed), вправний (when individual administrator's skill is discussed)
 
+    * бюрократия:
+    ** чиновництво as bureaucracy in general, bureaucracy as a system or a collection of individual government officials
+    ** бюрократический аппарат -> simply чиновництво, урядництво, on rare occasions it could mean government as a whole - уряд
+    ** діловодство in the meaning of managing papers, documents
+    ** "чиновницька, урядова тяганина" in pejorative sense of long, stalled bureaucratic processes
+    ** урядовий in a sense of governance
+    * бюрократ -> чиновник
+    ** сановник for the highest, state or government-level bureaucrats, civil servants
+    ** in rare cases when it means "manager" - керівник, e.g.: він природжений керівник
+
     * институт, орган in the sense of a government institution, office -> установа
     * юридическая система, структура -> правовий устрій
     * судовая система -> судовий устрій, судочинство
@@ -936,6 +946,7 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
 
     * музикант - музика
     * потенциал - спроможність (in the sense of capability, capacity), здібності (in a sense of potential personal ability)
+    * парализованный -> закостенілий, заклякий, заціпенілий, закам'янілий, задерев'янілий
     * провизия, провізія, провиант, провіант, продовольство -> харчі, в розповідних приземлено-побутових текстах припускається форма "харч"; продовольчий - харчовий
     ** food, еда - завжди "харчі", коли мова про військові потреби в їжі
     ** АЛЕ "supply depot", "продовольственный склад" - "військова комора"

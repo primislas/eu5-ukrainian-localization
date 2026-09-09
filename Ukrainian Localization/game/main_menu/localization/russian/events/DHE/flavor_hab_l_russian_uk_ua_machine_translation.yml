@@ -36,7 +36,7 @@
   flavor_hab.6.a.entry: "$common_string_brilliant$"
   flavor_hab.7.title: "[ShowGovernmentReformNameWithNoTooltip('reichshofrat_reform')]"
   flavor_hab.7.entry: "Надвірна рада"
-  flavor_hab.7.desc: "Перебуваючи на чолі #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської імперії#!#!, ми можемо заснувати [ShowGovernmentReformName('reichshofrat_reform')] — спеціальний орган, який відповідатиме за всю імперську бюрократію, але при цьому повністю підкорятиметься нам. Він буде тісно пов'язаний з урядом, виконуючи при цьому функції суду для всіх підданих нашої імперії."
+  flavor_hab.7.desc: "Перебуваючи на чолі #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської імперії#!#!, ми можемо заснувати [ShowGovernmentReformName('reichshofrat_reform')] — спеціальну установу, яка відповідатиме за все імперське чиновництво, але при цьому повністю підкорятиметься нам. Він буде тісно пов'язаний з урядом, займаючись при цьому судочинством для всіх підданих нашої імперії."
   flavor_hab.7.a: "Це послужить на благо імперії та наших інтересів."
   flavor_hab.7.b: "Яка безглузда ідея…"
   flavor_hab.8.title: "Реформаторський рух у Мельку"
