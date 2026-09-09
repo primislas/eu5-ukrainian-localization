@@ -189,6 +189,7 @@ IMPORTANT! When presented with several alternative translation options, choose t
     * range, дистанция -> досяжність
     * vegetation, флора -> рослинність
     * subject territory connectivity, cвязанность территорий ленника -> досяжність володінь васала
+
     * disease, эпидемия -> пошесть
     ** in case of lethal outbursts, such as black death or smallpox, to stress lethality "эпидемия" should be translated as "мор", "моровиця" (plural only "моровиці" not "мори"); be mindful of tautologies "мор чорної смерти" -> "чорний мор", "смертоносний мор" -> "смертоносна пошесть" ("мор" already implies death and lethality)
     ** fixed expression "эпидемия чумы" -> "чумний мор"
@@ -228,6 +229,55 @@ IMPORTANT! When presented with several alternative translation options, choose t
     ** "непокірний" should also be used for estates (nobles, clergy, peasants, etc.)
     * sow disloyalty, распространять нелояльность -> поширювати непокору
     * disloyal(ty), "нелояльность", "нелояльный" outside of fixed expressions and combinations listed above and depending on context can be best translated as "непокора", "невірність", "зрадливість", "непевність", "зрада", "підступність", "крамола" (when related to subversive actions and revolts), "бунтівний" and associated adjectives; pick the best fitting depending on context, fallback to "нелояльность", "нелояльный" when in doubt;
+
+    * "центр" should be avoided and can be replaced with:
+    ** "осередок" for institutions, administration, buildings, anything that does not deal with specifically measurable geographical or geometrical centers
+    ** "осердя" when clearly in the meaning of the one, singular, the most important center of smth above all others, e.g. "духовне осердя країни", "Персія слугувала осердям ісламського світу", "Константинополь - осердя православного світу", "Земля - осердя Всесвіту", "Венеція - осердя торгівлі в регіоні"
+    ** "осідок" when it means residence or seat of power: центр городской администрации - осідок міського врядування, осідок у новому князівстві
+    ** "середина" for geographical or geometrical centers: середина міста, Балтійського моря, Анатолійського плато; fixed expression "в самом центре" -> "в самісінькій середині"
+    ** в центре - see potential translations and samples below
+    *** у (самісінькій) середині (strict geographical center): у середині цієї лінії, в самісінькій середині Анатолії, сонце знаходиться в середині всесвіту
+    *** посередині - geographical center or geometric center: з лагуною посередині, з вежею чи куполом посередині
+    *** посеред - more narrative and casual tone that does not suggest strictness, also in the meaning of (in-)between, e.g. "розташування посеред монгольських країн": височіє на пагорбі посеред плоскогір'я, посеред Теночтітлана розміщений храмовий комплекс
+    *** всередині, всередину (inside): всередині регіону, міста, встікали всередину, вглиб острова
+    *** у серці (high-prose): у серці протистояння
+    *** серед (между, between): серед цих тривожних чуток
+    ** (быть) в центре внимания, в центрі уваги -> брати на себе (всі) очі, пригорнути до себе очі, прикувати очі
+    ** (оказался) в центре скандала -> укрився гучною ганьбою, опинився на язиках (всього двору і т.п.), постав перед осудом загалу, упав в безчестя
+    ** sometimes "центр" clearly means "столиця" and should be translated as such ("країна зі столицею у ...", NOT "з центром у", "провінції розривають зв’язок зі столицею")
+    ** sometimes in high-prose narrative texts it could mean "серце": серце країни, серце нашого уряду і т.і.
+    ** occasionally it means "осідок" in a sense of the main residence, seat, source
+
+    * "центральний" could be replaced with one of the following: головний, державний, чільний, провідний, урядовий, столичний, внутрішній, вищий; see details below:
+    ** sometimes "центральний" clearly means "внутрішній" (втікають до внутрішніх регіонів, зміцнити внутрішні регіони)
+    ** city locations: центральная площадь, улица, мечеть - головна площа, вулиця, мечеть, лікарня, фортеця, etc.
+    ** government fixed expressions for government insitituions: головна рада, головні збори
+    ** occasionally clearly means "державний": центральная казна - державна скарбниця
+    ** центральная власть, central authority - see below
+    *** столична влада, especially when differences between provinces, borderlands, independent cities with central government are stressed: столична влада у віддалених провінціях ослабла, столична влада ніяк не проявляє себе, клани живуть без огляду на столицю
+    *** влада уряду in the meaning of central government
+    *** державна влада in the meaning of the state, when dealing with state-building, empires, advanced kingdoms or republics: даймьо підкорилися єдиній державній владі
+    *** влада корони, престолу, княжа влада when clearly about monarchies or principalities
+    *** вища влада in the meaning of "higher authority": беї відмовляються визнавати вищу владу над собою
+    *** sometimes can be simplified simply as корона, уряд, престол, держава, князь: корона вимагає покори, провінції не визнають зазіхання корони
+    ** центральная фигура, роль -> провідна постать, роль
+    ** центральное место -> чільне місце
+
+    * централизация, централизованный:
+    ** in general case translate (de)centralized, (de)centralization as "(ро)зосереджений", "(ро)зосередження"
+    ** централизация власти -> зосередження влади
+    ** централизация страны, международной организации -> підпорядкування країни, міжнародного об'єднання, суспільства, федерації, племінного союзу
+    ** централизованная страна, держава, служба, бюрократия, подход, организация -> впорядкована; use "підпорядкована" if being subjected to a single ruler or central government is stressed;
+    *** when unity aspect is stressed, in rare cases "згуртованість" fits better (as opposed to disunited, scattered): згуртованість міжнародного об'єднання, Священної Римської імперії, згуртуємо племена в єдину країну
+    ** in rare cases the best fit is simply об'єднаний, спільний: спільний звід законів об'єднання (НЕ центральний), об'єднані племена
+
+    * BUT keep "центр", "центральний" in the following cases:
+    ** geographical names, such as "Центральна Європа, Азія, Лігурія", "центральна частина архіпелагу", etc.
+    ** "центральний банк" is a fixed expression for central banks
+    ** "геоцентричний", "геліоцентричний"
+    * "center"-related terms:
+    ** концентрировать, концентрувати, to concentrate -> зосереджувати
+    ** эпицентр, епіцентр, epicenter -> осердя
 
     * event option, вариант события -> вибір у події
     ** NOT "обрати ... варіант" ("выбрать ... вариант") BUT "зробити вибір"
@@ -966,55 +1016,6 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * социальный - суспільний
     * термин(ы) - строк(и)
     * фактор - чинник
-
-    * "центр" should be avoided and can be replaced with:
-    ** "осередок" for institutions, administration, buildings, anything that does not deal with specifically measurable geographical or geometrical centers
-    ** "осердя" when clearly in the meaning of the one, singular, the most important center of smth above all others, e.g. "духовне осердя країни", "Персія слугувала осердям ісламського світу", "Константинополь - осердя православного світу", "Земля - осердя Всесвіту", "Венеція - осердя торгівлі в регіоні"
-    ** "осідок" when it means residence or seat of power: центр городской администрации - осідок міського врядування, осідок у новому князівстві
-    ** "середина" for geographical or geometrical centers: середина міста, Балтійського моря, Анатолійського плато; fixed expression "в самом центре" -> "в самісінькій середині"
-    ** в центре - see potential translations and samples below
-    *** у (самісінькій) середині (strict geographical center): у середині цієї лінії, в самісінькій середині Анатолії, сонце знаходиться в середині всесвіту
-    *** посередині - geographical center or geometric center: з лагуною посередині, з вежею чи куполом посередині
-    *** посеред - more narrative and casual tone that does not suggest strictness, also in the meaning of (in-)between, e.g. "розташування посеред монгольських країн": височіє на пагорбі посеред плоскогір'я, посеред Теночтітлана розміщений храмовий комплекс
-    *** всередині, всередину (inside): всередині регіону, міста, встікали всередину, вглиб острова
-    *** у серці (high-prose): у серці протистояння
-    *** серед (между, between): серед цих тривожних чуток
-    ** (быть) в центре внимания, в центрі уваги -> брати на себе (всі) очі, пригорнути до себе очі, прикувати очі
-    ** (оказался) в центре скандала -> укрився гучною ганьбою, опинився на язиках (всього двору і т.п.), постав перед осудом загалу, упав в безчестя
-    ** sometimes "центр" clearly means "столиця" and should be translated as such ("країна зі столицею у ...", NOT "з центром у", "провінції розривають зв’язок зі столицею")
-    ** sometimes in high-prose narrative texts it could mean "серце": серце країни, серце нашого уряду і т.і.
-    ** occasionally it means "осідок" in a sense of the main residence, seat, source
-
-    * "центральний" could be replaced with one of the following: зосереджений, головний, державний, чільний, провідний, урядовий, столичний, внутрішній, вищий, чільний; see details below:
-    ** sometimes "центральний" clearly means "внутрішній" (втікають до внутрішніх регіонів, зміцнити внутрішні регіони)
-    ** city locations: центральная площадь, улица, мечеть - головна площа, вулиця, мечеть, лікарня, фортеця, etc.
-    ** government fixed expressions for government insitituions: головна рада, головні збори
-    ** occasionally clearly means "державний": центральная казна - державна скарбниця
-    ** центральная власть, central authority - see below
-    *** столична влада, especially when differences between provinces, borderlands, independent cities with central government are stressed: столична влада у віддалених провінціях ослабла, столична влада ніяк не проявляє себе, клани живуть без огляду на столицю
-    *** влада уряду in the meaning of central government
-    *** державна влада in the meaning of the state, when dealing with state-building, empires, advanced kingdoms or republics: даймьо підкорилися єдиній державній владі
-    *** влада корони, престолу, княжа влада when clearly about monarchies or principalities
-    *** вища влада in the meaning of "higher authority": беї відмовляються визнавати вищу владу над собою
-    *** sometimes can be simplified simply as корона, уряд, престол, держава, князь: корона вимагає покори, провінції не визнають зазіхання корони
-    ** центральная фигура, роль -> провідна постать, роль
-    ** центральное место -> чільне місце
-
-    * централизация, централизованный:
-    ** in general case translate (de)centralized, (de)centralization as "(ро)зосереджений", "(ро)зосередження"
-    ** централизация власти -> зосередження влади
-    ** централизация страны, международной организации -> підпорядкування країни, міжнародного об'єднання, суспільства, федерації, племінного союзу
-    ** централизованная страна, держава, служба, бюрократия, подход, организация -> впорядкована; use "підпорядкована" if being subjected to a single ruler or central government is stressed;
-    *** when unity aspect is stressed, in rare cases "згуртованість" fits better (as opposed to disunited, scattered): згуртованість міжнародного об'єднання, Священної Римської імперії, згуртуємо племена в єдину країну
-    ** in rare cases the best fit is simply об'єднаний, спільний: спільний звід законів об'єднання (НЕ центральний), об'єднані племена
-
-    * BUT keep "центр", "центральний" in the following cases:
-    ** geographical names, such as "Центральна Європа, Азія, Лігурія", "центральна частина архіпелагу", etc.
-    ** "центральний банк" is a fixed expression for central banks
-    ** "геоцентричний", "геліоцентричний"
-    * "center"-related terms:
-    ** концентрировать, концентрувати -> зосереджувати
-    ** эпицентр, епіцентр -> осердя
 
     * шанс, chance -> depending on context "нагода", "змога", "можливість" (only when clearly the most appropriate option), "ймовірність" (when talking about percentages and probabilities); fixed expressions:
     ** все шансы -> depending on context "чудова нагода" or "виключна нагода" (without "всі"), "всі підстави"
