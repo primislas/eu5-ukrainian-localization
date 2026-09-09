@@ -67,7 +67,7 @@
   latinization_vs_hellenization.13.b: "Вони залишаться під прямим врядуванням стольного двору."
   upper_class_pops_in_these_cities_angry: "Наші [Concept('pops', 'громади')|e] з [Concept('upper_class', 'вищого суспільства')|e] в уражених [Concept('locations', 'місцевостях')|e] будуть незадоволені відмовою. Вони отримають [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e]"
   latinization_vs_hellenization.14.title: "Святкування у провінції [target_province.GetNameWithNoTooltip]"
-  latinization_vs_hellenization.14.desc: "Динати з провінції [target_province.GetName] пропонують влаштувати пишне торжество — свято на честь місцевих звичаїв та родючості. Ці гуляння здатні знизити напруженість та зміцнити почуття спільності, проте вимагатимуть чималих вкладень як від самої провінції, так і з державної скарбниці — що навряд чи потішить радників."
+  latinization_vs_hellenization.14.desc: "Архонти з провінції [target_province.GetName] пропонують влаштувати пишне торжество — свято на честь місцевих звичаїв та родючості. Ці гуляння здатні знизити напруженість та зміцнити почуття спільності, проте вимагатимуть чималих вкладень як від самої провінції, так і з державної скарбниці — що навряд чи потішить радників."
   latinization_vs_hellenization.14.a: "Влаштуємо свято лише в провінції [target_province.GetNameWithNoTooltip]."
   latinization_vs_hellenization.14.b: "Нехай сусідні провінції теж гуляють!"
   latinization_vs_hellenization.14.c: "Якщо в них є час святкувати, значить, є час і працювати."
