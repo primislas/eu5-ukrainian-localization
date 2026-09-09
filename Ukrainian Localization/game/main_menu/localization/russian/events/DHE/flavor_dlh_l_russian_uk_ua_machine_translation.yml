@@ -251,7 +251,7 @@
   flavor_dlh.40.a: "Створимо цей загін."
   flavor_dlh.40.b: "[ROOT.GetCountry.GetGovernment.GetAdjective|U]а надвірна варта славиться чим завгодно, тільки не захистом довірених їй правителів…"
   flavor_dlh.40.b.entry: "Особиста надвірна варта славиться чим завгодно, тільки не захистом своїх правителів..."
-  flavor_dlh.41.title: "Корупція серед варти-невільників"
+  flavor_dlh.41.title: "Хабарництво серед варти-невільників"
   flavor_dlh.41.entry: "$flavor_dlh.41.title$"
   flavor_dlh.41.desc: "Оскільки [target_character.GetNameWithNoTooltip] — недалекоглядний і невмілий правитель. Ходять чутки, що гуламан-і-фіруз шахі готує переворот. [ROOT.GetCountry.GetGovernment.GetRulerTitle|U] втратить престол, а замість [Select_CString(target_character.IsFemale, 'неї', 'нього' )] правитиме більш поступлива людина."
   flavor_dlh.41.a: "[ROOT.GetCountry.Custom('common_string_negative')]"

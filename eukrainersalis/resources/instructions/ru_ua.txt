@@ -284,6 +284,10 @@ IMPORTANT! When presented with several alternative translation options, choose t
     ** сановник for the highest, state or government-level bureaucrats, civil servants
     ** in rare cases when it means "manager" - керівник, e.g.: він природжений керівник
 
+    * коррупция, corruption -> хабарництво, продажність, лихоїмство (high prose or when dealing with clerical matters), підкупність (in a sense of being able to buy their loyalty)
+    * коррумпированный, corrupt -> продажний, нечистий на руку (when more or something else other than just taking bribes is implied), підкупний (in a sense of being able to buy their loyalty)
+    * коррупционный скандал, corruption scandal -> ганьба через хабарництво
+
     * институт, орган in the sense of a government institution, office -> установа
     * юридическая система, структура -> правовий устрій
     * судовая система -> судовий устрій, судочинство
@@ -372,6 +376,9 @@ IMPORTANT! When presented with several alternative translation options, choose t
     ** "скарбова скрута", "скарбова нестача", "збитки скарбниці" when specifically dealing with budget deficits
     ** спор о бюджете -> cуперечки про видатки
     ** пополнять казну, бюджет -> наповнювати скарбницю
+
+    * taxes, налоги -> податки; and associated forms: податковий, оподаткування, etc.
+    * система налогооблажения, налоговая система, tax(ation) system -> податковий устрій, податкові порядки
 
     * maintenance, содержание -> утримання
     ** cultural maintenance, вложения в культуру -> видатки на культуру
