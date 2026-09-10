@@ -562,7 +562,7 @@
   nick_the_monk: "[Select_CString(Character.IsFemale, 'Черниця', 'Чернець' )]"
   nick_mourtzouphlos: "Мурзуфл"
   nick_the_noble: "[Select_CString(Character.IsFemale, 'Шляхетна', 'Шляхетний' )]"
-  nick_the_old_mastin: "[Select_CString(Character.IsFemale, 'Стара собака', 'Старий мастиф' )]"
+  nick_the_old_mastin: "[Select_CString(Character.IsFemale, 'Старий собака', 'Старий мастиф' )]"
   nick_the_pilgrim: "[Select_CString(Character.IsFemale, 'Паломниця', 'Пілігрим' )]"
   nick_the_restorer: "[Select_CString(Character.IsFemale, 'Відновителька', 'Відновитель' )]"
   nick_scanciotto: "Сканчотто"

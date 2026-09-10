@@ -10,7 +10,7 @@
   TRADE_ORDER_CANCEL_TT: "Видалити це торгове замовлення"
   TRADE_ORDER_OPEN_TRADES_TAB_TITLE_IMPORT: "Відкрити привіз на цьому ринку"
   TRADE_ORDER_OPEN_TRADES_TAB_TITLE_EXPORT: "Відкрити вивіз на цьому ринку"
-  TRADE_ORDER_OPEN_TRADES_TAB_DESC: "Відкриває вкладку торгових угод для цього ринку з інформацією лише щодо вашої [Concept('trade', 'торгівлі')|e] та купецьких засобів від цього ринку, а також щодо привозу чи вивозу згідно з цим [Concept('trade_order', 'торговим замовленням')|e]."
+  TRADE_ORDER_OPEN_TRADES_TAB_DESC: "Відкриває вкладку торгових угод для цього ринку з відомостями лише щодо вашої [Concept('trade', 'торгівлі')|e] та купецьких засобів від цього ринку, а також щодо привозу чи вивозу згідно з цим [Concept('trade_order', 'торговим замовленням')|e]."
   TRADE_ORDER_CREATE_IMPORT: "Створити замовлення на [Concept('import', 'привіз')|e]"
   TRADE_ORDER_CREATE_EXPORT: "Створити замовлення на [Concept('export', 'вивіз')|e]"
   TRADE_ORDER_CREATE_IE_TT_IMPORT: "Дозволяє виділити [Concept('merchant_capacity', 'купецькі засоби')|e] на [Concept('import', 'привіз')|e] цього товару найкращим шляхом."

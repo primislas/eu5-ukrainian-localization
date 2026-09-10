@@ -133,7 +133,7 @@
   INCOMING_OFFER_TITLE_appeal_to_circle_diet: "$appeal_to_circle_diet$"
   appeal_to_circle_diet_timeout_tt: "Протягом останніх 2 років жодна країна не використовувала [Concept('diplomatic_action', 'посольську дію')|e] «$appeal_to_circle_diet$»"
   request_circle_infrastructure_expansion: "Прохання про розширення військової інфраструктури"
-  request_circle_infrastructure_expansion_desc: "Попросити капітана округу про дозвіл використовувати наші резерви як робочу силу для розширення інфраструктури."
+  request_circle_infrastructure_expansion_desc: "Попросити капітана округу про дозвіл використовувати наших вояків запасу як робочу силу для розширення інфраструктури."
   request_circle_infrastructure_expansion_act: "$request_circle_infrastructure_expansion_desc$"
   request_circle_infrastructure_expansion_effect_text: "[SCOPE.sCountry('actor').GetName] запиту[SCOPE.sCountry('actor').Custom('end_yeyut')] розширення військової інфраструктури."
   request_circle_infrastructure_expansion_effect_text_past: "[SCOPE.sCountry('actor').GetName] запроси[SCOPE.sCountry('actor').Custom('end_vlaloly')] розширення військової інфраструктури."

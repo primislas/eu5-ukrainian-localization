@@ -38,7 +38,7 @@
   FORD_TOOLTIP: "Брід між місцевостями $FROM|H$ та $TO|H$"
   STRAIT_TOOLTIP: "Протока між місцевостями $FROM|H$ та $TO|H$"
   UNIT_IS_IN_COMBAT: "#R Зараз загін не може вийти з бою.#!"
-  UNIT_IS_IN_ASSAULT: "#R Спочатку нам потрібно перечекати штурм!#!"
+  UNIT_IS_IN_ASSAULT: "#R Спочатку нам потрібно перечекати приступ!#!"
   UNIT_IS_ON_MOVING_SHIP: "#R Загін знаходиться на рухомому [Concept('ship', 'кораблі')|e] і не може [Concept('disembark', 'висадитися')|e].#!"
   UNIT_HAS_ARMIES_DISEMBARKING: "#R Цей [Concept('navy', 'флот')|e] не може рухатися, доки з нього [Concept('disembarking', 'висаджуються')|e] [Concept('armies', 'війська')|e].#!"
   PORT_TOOLTIP: ""

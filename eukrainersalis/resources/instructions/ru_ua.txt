@@ -124,6 +124,11 @@ Historical Tone:
        * Use "у" if the next word starts with a consonant cluster (e.g., "у Швецію").
        * Use "в" if the next word starts with a vowel (e.g., "в Одесу").
 
+12. Linguistic rule: Some/Некоторые as a subject -> Дехто
+    A common construct is "some say, think, do, etc.", where some (normally translated into Russian as "некоторые") serves as the sole primary subject. In these cases, and only when it refers to humans (not objects or concepts), translate it as "дехто": дехто вважає, дехто каже, дехто вирішив і т.і.
+
+    Another common scenario for this case are sentences like "Some X ... and others Y" or "Some X ... and some Y".
+
 
 
 # Glossary
@@ -285,6 +290,8 @@ IMPORTANT! When presented with several alternative translation options, choose t
     ** NOT "обрати історично достеменний вибір" but correctly "зробити історично достеменний вибір"
     * historical ai choices, историческая достоверность -> історична достеменність; робитимуть історично достеменний вибір
 
+    * "собака" in Ukrainian language is a masculine word, so: старий собака, добродушний собака, собака прийшов etc.
+
 ## Government
 
     * governing family, правящая семья -> правляча родина
@@ -399,6 +406,9 @@ IMPORTANT! When presented with several alternative translation options, choose t
     * Кингитанга -> Кінгітанга
     * Shitsuji, сицудзи -> сіцудзі
     * shugo, shogun, shogunate -> сюґо, сьоґун, сьоґунат (alawys with letter "ґ")
+    * Kanrei council, совет канрэя -> рада канреїв (singular councillor is "канрей", hence "рада канреїв", Russian localization often erroneously translates it as a "совет канрэя")
+    * Восточное, Западное бюро -> these Chinese institutions should be translated as "Східна/Західна палата"
+
 
 ## Money and Budget
 
@@ -532,6 +542,14 @@ IMPORTANT! When presented with several alternative translation options, choose t
     ** when "presitigous" is meant to stress respect, occasionally "шанований" fits
     ** all of this applies to other forms of these adjectives, for example "найславетніший", "найповажніший", "найшанованіший"
 
+    * spy network, шпионская сеть, агентурная сеть -> шпигунська мережа
+    * counter espionage, контрразведка -> викриття шпигунів
+    * spy, шпион, разведчик, агент -> шпигун (general case), вивідач (if specifically deals with learning secrets and other information), засланець (when used as a pejorative for undercover agents), нишпорки (casual narrative tone)
+    ** in the meaning of "agent of the crown/state/entity" -> посланець, представник: посланець корони, страховий представник
+    ** in the meaning of internal secret service agent -> службовець
+    * информатор -> вивідач
+    * информация, information -> відомості; in rare cases "знання" (знання - це сила, джерело знань and other established expressions), "звістки", "новини", "повідомлення"
+
 ## Military, Armies, and Fleets
 
     * war score, военный счёт -> воєнний рахунок
@@ -543,7 +561,13 @@ IMPORTANT! When presented with several alternative translation options, choose t
     * admiral, адмірал -> "флотоводець", allowed to use "адмірал" when obviously more modern and/or European armies are discussed
     * fleet levies, флотское ополчение -> морське ополчення
     * regular army, unit, regiment, регулярная армия, полк, подразделение -> постійне військо, полк, загін
-    * regular fleet, ship, регулярнй флот, корабль -> військовий флот, корабель
+    * regular fleet, ship, регулярный флот, корабль -> військовий флот, корабель
+    * military/navy tradition, военные/морские традиции -> військовий/морський хист
+    * militarization, милитаризация -> воєнізація
+    ** to militarize, милитаризировать -> воєнізувати
+    ** militarized, милитаризированный -> воєнізований
+    ** militarism, милитаризм -> войовничість (as a posture), воєнізація (as a state of the country)
+
     * ополчення скликають
     * союзників закликають на війну чи до зброї
     * війська чи загони набирають, кораблі споруджають (НЕ створюють, будують чи набирають)
@@ -563,6 +587,10 @@ IMPORTANT! When presented with several alternative translation options, choose t
     * unit template, шаблон отряда -> стрій (simply "стрій", NOT "стрій загону" when discussed as a template)
     ** "набор шаблона", "набор в шаблон" - only "набір за строєм"
     * підрозділи, загони набирають (NOT "будують")
+    * manpower, рекруты -> новобранці
+    ** in the meaning of maximal capacity or current reserve -> запас новобранців, e.g.: максимальний, поточний запас новобранців, збільшення запасу новобранців, поповнення запасу новобранців
+    ** when "recruits" (рекруты) are used to describe already serving soldiers on active duty or in military action, translate them as "вояки": недостатньо вояків для того щоб почати облогу
+    ** avoid tautologies: набрати нових новобранців -> набрати новобранців, набрати свіжих новобранців
 
     * cavalry, кавалерия -> кіннота
     * кавалерийский -> кінний
@@ -590,8 +618,11 @@ IMPORTANT! When presented with several alternative translation options, choose t
     ** the text clearly refers to lategame modernized militaries and talks of military in academic organized fashion
 
     * garrison, гарнизон -> залога
-    * гарнизонный -> залоговий
-    * to garrison, вводить гарнизони -> ставити залогу, вводити залогу
+    ** гарнизонный -> залоговий
+    ** to garrison, вводить гарнизони -> ставити залогу, вводити залогу
+    * assault, штурм - приступ
+    ** to assault, штурмовать -> брати приступом, йти на приступ, приступати до (стін, фортеці)
+    ** штурмовой -> ударний (загін, кіннота тощо)
 
     * судно -> only and always "корабель"
     ** "військові кораблі", NOT "воєнні"
@@ -608,6 +639,11 @@ IMPORTANT! When presented with several alternative translation options, choose t
 
     * налёт, нальот -> "набіг" if on land, "напад" on sea, "наскок" if stressing unexpected nature
     * налётчик, нальотчик -> грабіжник, розбійник in negative connotations, нападник in neutral (our raiders - наші нападники); make sure to interchange to avoid repetition (e.g. "розбійники розграбували", not "грабіжники розграбували")
+
+Apply the following translations only if they are NOT in the context of European armies (excluding Russian principalities)
+    * (маршал)-квартирмейстер -> генеральний обозний
+    * інтендант -> шафар, доглядач запасів
+
 
 ## Religion
 
@@ -845,6 +881,7 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * квасцы -> галун
     * spices, специи -> ALWAYS and ONLY "прянощі", replace singular "спеція" with plural "прянощі" as well, be mindful of a city "Спеція" and do not translate its name
     * porcelain, фарфор -> порцеляна
+    * mercury patio, амальгамационный цех -> амальгамаційне подвір'я
 
     * slave(s), раб(ы) -> невільник(и), unless one of the exceptions specified below
     ** associated words that could be used depending on context: "поневолювати", "захоплювати бранців", "обертати на невільників", "невільничий ринок", "воїни-невільники", "невільники на галерах"
@@ -907,9 +944,13 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
 
 Уникай канцеляризмів, анахронізмів, запозичень там, де це можливо. Надавай перевагу питомим українським відповідникам, якщо такі існують. Втім, текст має залишатися зрозумілим сучасному читачеві. Якщо зміст слова сильно змінився, чи слово геть вийшло з ужитку, то вживаємо сучасні варіанти. Приклади вдалої адаптації:
 
+    * абсурд - безглуздя, нісенітниця, маячня, глупство, дурощі
+    ** абсурдний - безглуздий (when making no practical sense), нісенітний (silly, absurd in general)
     * авантюрист - pick best depending on context between "відчайдух", "шукач пригод", "пройдисвіт"
     ** авантюра - depending on context could mean "ризикований/відчайдушний вчинок/витівка/дія/пригода"
     ** авантюризм - зухвалість
+    * адаптация - пристосування, прилаштування
+    ** адаптировать(ся) - пристосовувати(ся), прилаштовувати(ся), підлаштовувати(ся)
 
     * акцент - наголос
     ** делать, ставить акцент, акцентировать - "наголошувати на чому, на що"; "робити ... наголос" if there are extra words in-between these two in the original sentence; sometimes "підкреслювати" is stylistically better
@@ -939,14 +980,18 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     ** "дух" for more abstract concepts, like intrigues or progress: дух інтриг, дух поступу
     * ароматный, ароматический: "духмяний" для прянощів, вишуканих чи екзотичних запахів, пахощів; "запашний" для більш приземлених і побутових запахів (зокрема пива)
 
+    * auction, аукцион - торг
+
     * бандит - харциз, розбійник
     * бандитский - розбійницький
 
-    * биография, биографический - життєпис, життєписний
-    ** автобиография, автобиографический - саможиттєпис, саможиттєписний
-    ** биографическая рукопись - рукописний життєпис
+    * биография, биографический -> життєпис, життєписний
+    ** автобиография, автобиографический -> саможиттєпис, саможиттєписний
+    ** биографическая рукопись -> рукописний життєпис
     ** "житіє" when about ancient kings or important religious figures, saints
+    * вакантний, vacant -> вільний
 
+    * газета - часопис
     * global, глобальный -> всесвітній
     ** sometimes "світовий" fits better, in particular in such expressions as "світовий ринок"
     ** when used in the meaning of full, total, translate as "повний", "цілковитий", for example "требует полной реконструкции" -> "потребує повної перебудови"
@@ -957,6 +1002,7 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     ** fixed expression "земля на горизонті" -> "земля на видноколі"
     ** in astronomical, geographical and geometrical texts keep "горизонт"
 
+    * депутати - представники
     * deficit, дефицит -> strive to avoid "дефіцит", depending on context use the following alternatives:
     ** "нестача", especially in menus
     ** "брак", "бракує" as an extra alternative to diversify narrative and event texts
@@ -964,8 +1010,8 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     ** "скарбова скрута", "скарбова нестача", "збитки скарбниці" when specifically dealing with budget deficits
     ** "торгові збитки" when specifically about trade deficits
 
-    * депутати - представники
-    * газета - часопис
+    * интерпретация, interpretation - тлумачення
+
     * комфорт, комфортный - затишок, затишний
     * контрабанда - перемитництво, як діяльність, "перемитні товари", якщо про товари
     * контрабандист - перемитник
@@ -976,6 +1022,7 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * кошмар - жахіття
     ** кошмарный - страхітливий, жахливий
     ** какой кошмар - який жах
+    * куртезанка - коханка, наложниця, шльондра (pejorative)
 
     * лидер - "лідер" окрім усталених словосполучень наведених нижче
     ** лидер наёмников - ватажок найманців
@@ -1007,13 +1054,30 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * провизия, провізія, провиант, провіант, продовольство -> харчі, в розповідних приземлено-побутових текстах припускається форма "харч"; продовольчий - харчовий
     ** food, еда - завжди "харчі", коли мова про військові потреби в їжі
     ** АЛЕ "supply depot", "продовольственный склад" - "військова комора"
-    * проспонсировать, профинансировать - узяти на власний кошт
     * рабочая сила - робочі руки
+    * ревизия - облік, перевірка
+    * резерв(ы), reserve(s) - запас(и), BUT for anything dealing with army or navy combat/battle reserves (units in reserve, reserve units entering battle, etc) keep "резерв"
+    ** резервный - запасний, BUT for combat/battle reserves and reserve banking keep "резервний", "резервування"
+    ** gold reserves, золотые запасы - золотий запас (always singular)
+    * рентабельный - прибутковий
+
     * секрет, секретный - таємниця, таємний
     ** не секрет, не является секретом - не є таємницею
     ** посвящать в, делиться секретом, по секрету - утаємничувати (кого-що в), таємно; however, be mindful of translations such as "утаємничувати в таємниці", "ділитися таємницями таємно" - use "приховано (ділитися, повідомляти)", "таємницю ... тримали під сімома печатями, замками" instead of "таємно, утаємничувати" to avoid tautology
     ** королевский секрет - королівський секрет (established name of the French secret service)
     * социальный - суспільний
+    * спонсор - покровитель, благодійник (especially for arts, architecture, helping the needy), коштодавець (for dry primarily financial relations, e.g. "ми стали коштодавцями піднесення власного суперника"), опікун (when talking of relations of continuous investment in internal affairs, buildings, education, crafts etc.)
+    ** спонсировать - взяти на власний кошт
+    *** опікуватися, e.g. опікувався школами, книговидавництвом, притулками для нужденних
+    *** надати опіку, e.g. надати опіку його роботі
+    *** утримувати, e.g. діяльність місіонерів утримує церква
+    *** забезпечувати, e.g. експедиції, піратів забезпечували
+    *** споряджати, e.g. експедиції і т.і.
+    *** плекати (творчість, мистецтва)
+    *** оплачувати, e.g. війни, or in general for financial affairs when no other word fits well
+    ** проспонсировать, профинансировать - узяти на власний кошт, [do something] коштом скарбниці / власним коштом
+    ** it is allowed to transform phrases like "sponsor something" to "<do something> власним коштом": "проспонсировать перенос торговли" -> "перенести торгівлю власним коштом", "коштом скарбниці" (for state funding); "проспонсируем его образование" -> "візьмемо його освіту на власний кошт"
+    ** fixed expression "спонсор лиги" (Italian league sponsor) -> коштодавець ліги
     * термин(ы) - строк(и)
     * фактор - чинник
 

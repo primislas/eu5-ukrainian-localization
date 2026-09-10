@@ -13,7 +13,7 @@
   flavor_kor.2.title: "Вимоги монгольських аристократів"
   flavor_kor.2.desc: "#TOOLTIP:CULTURE,$mongolian_culture_tt$,X #L Монгольські#!#! аристократи обіймають ключові посади в уряді, і ресурси нашої країни перебувають у їхніх руках…"
   flavor_kor.2.desc.demand: "[target_character.GetName], [Select_CString(target_character.IsFemale, 'яка', 'який')] наразі представляє #L [target_country.GetAdjective|l]і#! інтереси в нашій країні, [Select_CString(target_character.IsFemale, 'озвучила', 'озвучив')] нову вимогу своїх володарів."
-  flavor_kor.2.desc.gold: "$flavor_kor.2.desc$\n\n$flavor_kor.2.desc.demand$ [target_country.GetGovernment.GetRulerTitle|U] збирається витратити наші золоті резерви на власні потреби."
+  flavor_kor.2.desc.gold: "$flavor_kor.2.desc$\n\n$flavor_kor.2.desc.demand$ [target_country.GetGovernment.GetRulerTitle|U] збирається витратити наш золотий запаси на власні потреби."
   flavor_kor.2.desc.prestige: "$flavor_kor.2.desc$\n\n$flavor_kor.2.desc.demand$ [target_country.GetAdjectiveWithNoTooltip|U]і влада цікавиться нашими найціннішими артефактами. Вони хочуть привласнити їх собі заради підвищення слави."
   flavor_kor.2.desc.diplomatic_actions: "$flavor_kor.2.desc$\n\n$flavor_kor.2.desc.demand$ Наші посли потрібні при [target_country.GetAdjectiveWithNoTooltip|l]ому дворі."
   flavor_kor.2.desc.estate_satisfaction: "$flavor_kor.2.desc$\n\n$flavor_kor.2.desc.demand$ [target_country.GetGovernment.GetRulerTitle|U] [target_country.Custom('CL_GEN')] вимагає беззаперечного підпорядкування від усіх наших станів. Наші піддані, звісно, будуть від цього не в захваті."

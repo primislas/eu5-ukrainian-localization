@@ -9,7 +9,7 @@
   flavor_tim_governor.2.b: "Це ми можемо."
   tim_governor_maintain_governance_tt: "Землі в області [target_area.GetName] залишаться під контролем [prev_country.Custom('CL_GEN')]"
   flavor_tim_governor.3.title: "Допомога з [target_country.Custom('CL_GEN')]"
-  flavor_tim_governor_3_desc_shared: "Останнім часом [target_country.GetName], наш сюзерен, практично не надає нам жодної підтримки. [target_character2.GetName] бажає виправити цю ситуацію та запросити допомогу у вигляді поставок золота або рекрутів."
+  flavor_tim_governor_3_desc_shared: "Останнім часом [target_country.GetName], наш сюзерен, практично не надає нам жодної підтримки. [target_character2.GetName] бажає виправити це становище та запросити допомогу у вигляді поставок золота або новобранців."
   flavor_tim_governor.3.desc.a: "$flavor_tim_governor_3_desc_shared$ Крім того, ми можемо попросити, щоб [target_character3.GetName] [Select_CString(target_character3.IsFemale,'приєдналася', 'приєднався')] до нашого двору."
   flavor_tim_governor.3.desc.b: "$flavor_tim_governor_3_desc_shared$"
   flavor_tim_governor.3.a: "У нас занадто мало воїнів."
