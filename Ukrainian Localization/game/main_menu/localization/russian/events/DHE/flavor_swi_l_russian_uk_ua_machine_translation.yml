@@ -118,7 +118,7 @@
   zwingli_support_rebels_joining: "Усі #L [ShowReligionAdjective('lutheran')|l]і#! [Concept('pops', 'громади')|e] у [ROOT.GetCountry.Custom('CL_PREP')] втратять [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [Concept('pop_satisfaction', 'задоволення')|e] та приєднаються до фракції «[target_zwingli_support_rebels.GetName]»."
   flavor_swi.1200.title: "[ShowBuildingTypeNameWithNoTooltip('swi_collegium_helveticum')]"
   flavor_swi.1200.entry: "Швейцарський колегіум у Мілані"
-  flavor_swi.1200.desc: "Наш[ROOT.GetCountry.Custom('clergy_aei')] [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] досі не ма[ROOT.GetCountry.Custom('clergy_yeyut')] можливості отримувати належну духовну освіту. На щастя, нещодавно влада #TOOLTIP:LOCATION,milano,X #L Мілана#!#! запропонувала заснувати в місті спеціальний богословський навчальний заклад, де зможуть навчатися священнослужителі #TOOLTIP:CULTURE,$high_alemannic_tt$,X #L верхньоалеманнського#!#! походження."
+  flavor_swi.1200.desc: "Наш[ROOT.GetCountry.Custom('clergy_aei')] [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] досі не ма[ROOT.GetCountry.Custom('clergy_yeyut')] можливості отримувати належну духовну освіту. На щастя, нещодавно влада #TOOLTIP:LOCATION,milano,X #L Мілана#!#! запропонувала заснувати в місті спеціальний богословський навчальний заклад, де зможуть навчатися священнослужителі #TOOLTIP:CULTURE,$high_alemannic_tt$,X #L верхньоалеманського#!#! походження."
   flavor_swi.1200.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   flavor_swi.1200.a.entry: "$common_string_brilliant$"
   swi_collegium_helveticum_explanation_tt: "Поки існує ця споруда, у #TOOLTIP:CULTUREGROUP,swiss_group,X #L швейцарських#!#! країнах з'являтимуться талановиті священники."
