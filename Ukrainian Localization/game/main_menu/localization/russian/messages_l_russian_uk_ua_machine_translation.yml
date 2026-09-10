@@ -496,7 +496,7 @@
   SIEGEOVER_LOST_MAP: "Облога програна!"
   SIEGE_REASON_DESC_KILL: "була повністю знищена"
   SIEGE_REASON_DESC_LIVE: "була відпущена"
-  SIEGE_ASSAULT: "штурм"
+  SIEGE_ASSAULT: "приступ"
   SIEGEOVER_WON_SETUP: "Коли ми перемагаємо в облозі"
   SIEGEOVER_WON_HEADER: "$MESSENGER$"
   SIEGEOVER_WON_TITLE: "$NAME$ УСПІШНА!"
