@@ -1526,7 +1526,7 @@
   FOREIGN_REL_NAVY_SIZE: "Розмір [Concept('navy', 'флоту')] [Country.Custom('CL_GEN')]"
   FOREIGN_REL_UNIT_STRENGTH_ITEM: "[UNIT.GetNameWithNoTooltip]: $STRENGTH|0$"
   FOREIGN_REL_MANPOWER: "Максимальний [Concept('manpower', 'запас новобранців')] [Country.Custom('CL_GEN')]"
-  FOREIGN_REL_SAILORS: "Максимальне число [Concept('sailors', 'моряків')] [Country.Custom('CL_GEN')]"
+  FOREIGN_REL_SAILORS: "Максимальний [Concept('sailors', 'запас моряків')] [Country.Custom('CL_GEN')]"
   REL_ARMY_LEVY_POWER: "Бойова міць [Concept('army_levies', 'військового ополчення')] [Country.Custom('CL_GEN')]"
   FOREIGN_REL_NAVY_LEVY_POWER: "[Concept('navy_levies', 'Морське ополчення')] [Country.Custom('CL_GEN')]"
   FOREIGN_REL_INCOME: "[Concept('income', 'дохід')|e] [Player.Custom('CL_GEN')]"

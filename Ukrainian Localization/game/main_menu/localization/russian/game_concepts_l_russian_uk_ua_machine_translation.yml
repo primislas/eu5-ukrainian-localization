@@ -1249,7 +1249,7 @@
   game_concept_military_strength: "Військова чисельність"
   game_concept_military_strength_desc: "Військова чисельність [Concept('country', 'країни')|e] розраховується на основі її максимального [Concept('manpower', 'запасу новобранців')|e], розміру [Concept('army', 'війська')|e] та чисельности [Concept('levy', 'ополчення')|e]."
   game_concept_naval_strength: "Чисельність флоту"
-  game_concept_naval_strength_desc: "Чисельність флоту [Concept('country', 'країни')|e] розраховується на основі максимального числа [Concept('sailors', 'моряків')|e], розміру [Concept('navy', 'флоту')|e] та чисельности [Concept('navy_levy', 'морського ополчення')|e]."
+  game_concept_naval_strength_desc: "Чисельність флоту [Concept('country', 'країни')|e] розраховується на основі максимального [Concept('sailors', 'запасу моряків')|e], розміру [Concept('navy', 'флоту')|e] та чисельности [Concept('navy_levy', 'морського ополчення')|e]."
   game_concept_privateer: "Капер"
   game_concept_privateers: "Капери"
   game_concept_privateer_desc: "Капер — це підприємлива людина, що відгукнулася на заклик [Concept('country', 'країни')|e] посіяти хаос там, де є потенційно [Concept('hostile', 'ворожа')|e] [Concept('maritime_presence', 'морська присутність')|e]. Для тих, хто зустрівся з каперами, вони нічим не відрізняються від [Concept('pirates', 'піратів')|e]."
