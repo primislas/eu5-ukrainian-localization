@@ -543,8 +543,12 @@ IMPORTANT! When presented with several alternative translation options, choose t
     * admiral, адмірал -> "флотоводець", allowed to use "адмірал" when obviously more modern and/or European armies are discussed
     * fleet levies, флотское ополчение -> морське ополчення
     * regular army, unit, regiment, регулярная армия, полк, подразделение -> постійне військо, полк, загін
-    * regular fleet, ship, регулярнй флот, корабль -> військовий флот, корабель
+    * regular fleet, ship, регулярный флот, корабль -> військовий флот, корабель
     * military/navy tradition, военные/морские традиции -> військовий/морський хист
+    * militarization, милитаризация -> воєнізація
+    ** to militarize, милитаризировать -> воєнізувати
+    ** militarized, милитаризированный -> воєнізований
+    ** militarism, милитаризм -> войовничість (as a posture), воєнізація (as a state of the country)
 
     * ополчення скликають
     * союзників закликають на війну чи до зброї
@@ -854,6 +858,7 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * квасцы -> галун
     * spices, специи -> ALWAYS and ONLY "прянощі", replace singular "спеція" with plural "прянощі" as well, be mindful of a city "Спеція" and do not translate its name
     * porcelain, фарфор -> порцеляна
+    * mercury patio, амальгамационный цех -> амальгамаційне подвір'я
 
     * slave(s), раб(ы) -> невільник(и), unless one of the exceptions specified below
     ** associated words that could be used depending on context: "поневолювати", "захоплювати бранців", "обертати на невільників", "невільничий ринок", "воїни-невільники", "невільники на галерах"

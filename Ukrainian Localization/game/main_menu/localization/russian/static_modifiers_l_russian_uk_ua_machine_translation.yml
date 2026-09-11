@@ -717,7 +717,7 @@
   STATIC_MODIFIER_NAME_parliament_approved_law_changes: "Збори схвалили зміни в законодавстві"
   STATIC_MODIFIER_NAME_parliament_declared_holidays: "Збори оголосили свята"
   STATIC_MODIFIER_NAME_has_ongoing_colonial_charter_migration: "Походження колоніального поселення"
-  STATIC_MODIFIER_NAME_parliament_approved_militarization: "Збори схвалили мілітаризацію"
+  STATIC_MODIFIER_NAME_parliament_approved_militarization: "Збори схвалили воєнізацію"
   STATIC_MODIFIER_NAME_recently_negotiated_succession_law: "Нещодавно обговорено порядок престолонаслідування"
   STATIC_MODIFIER_DESC_recently_negotiated_succession_law: "Наш [Concept('union_partner', 'партнер по унії')|e] нещодавно нав’язав нам зміни, що стосуються [Concept('heir_selection', 'порядку престолонаслідування')|e] або #TOOLTIP:LAW,heir_religion_law,X #L віросповідання спадкоємця#!#!. Оскільки ми пов’язані угодою, змінити ці закони неможливо до закінчення дії модифікатора."
   STATIC_MODIFIER_NAME_trade_vs_tax: "[Concept('trade_income', 'Доходи від торгівлі')|e] відносно [Concept('tax_base', 'податкової бази')|e]"
