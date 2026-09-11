@@ -638,7 +638,7 @@
   MODIFIER_TYPE_NAME_diplomatic_capacity_modifier: "$MODIFIER_TYPE_NAME_diplomatic_capacity$"
   MODIFIER_TYPE_DESC_diplomatic_capacity_modifier: "$MODIFIER_TYPE_DESC_diplomatic_capacity$"
   MODIFIER_TYPE_NAME_max_diplomats: "Максимум послів"
-  MODIFIER_TYPE_DESC_max_diplomats: "Впливає на те, скільки [Concept('diplomats', 'послів')|e] може бути в резерві [Concept('country', 'країни')|e]."
+  MODIFIER_TYPE_DESC_max_diplomats: "Впливає на те, скільки [Concept('diplomats', 'послів')|e] може бути в запасі [Concept('country', 'країни')|e]."
   MODIFIER_TYPE_NAME_monthly_diplomats: "Посли на місяць"
   MODIFIER_TYPE_DESC_monthly_diplomats: "Впливає на те, скільки [Concept('diplomats', 'послів')|e] [Concept('country', 'країна')|e] може отримати на місяць."
   MODIFIER_TYPE_NAME_alliance_weight: "Вага в союзі"

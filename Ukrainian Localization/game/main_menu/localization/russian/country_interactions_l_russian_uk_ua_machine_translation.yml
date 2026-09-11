@@ -1332,7 +1332,7 @@
   RIVAL_OR_ENEMY_OF_FOREIGN_LEAGUE_IBERIA: "Суперник або ворог іберійської ліги"
   RIVAL_OR_ENEMY_OF_FOREIGN_LEAGUE_BALKAN: "Суперник або ворог балканської ліги"
   COMFORTABLE_MONTHLY_BALANCE: "Сприятливий щомісячний баланс"
-  COMFORTABLE_MANPOWER: "Достатній людський резерв"
+  COMFORTABLE_MANPOWER: "Достатній людський запас"
   violate_italian_sovereignty: "Порушити італійський суверенітет"
   violate_italian_sovereignty_desc: "Ми запропонуємо [Concept('gold', 'гроші')|e] італійській країні або учаснику ліги, щоб ті приєдналися до нашої ліги, попри чинні договори."
   dip_violate_italian_sovereignty_CATEGORY: "CATEGORY_ACCESS_ACTIONS"
