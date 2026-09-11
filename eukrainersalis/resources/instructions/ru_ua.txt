@@ -404,6 +404,8 @@ IMPORTANT! When presented with several alternative translation options, choose t
     * Кингитанга -> Кінгітанга
     * Shitsuji, сицудзи -> сіцудзі
     * shugo, shogun, shogunate -> сюґо, сьоґун, сьоґунат (alawys with letter "ґ")
+    * Восточное, Западное бюро -> these Chinese institutions should be translated as "Східна/Західна палата"
+
 
 ## Money and Budget
 
@@ -537,6 +539,13 @@ IMPORTANT! When presented with several alternative translation options, choose t
     ** when "presitigous" is meant to stress respect, occasionally "шанований" fits
     ** all of this applies to other forms of these adjectives, for example "найславетніший", "найповажніший", "найшанованіший"
 
+    * spy network, шпионская сеть, агентурная сеть -> шпигунська мережа
+    * counter espionage, контрразведка -> викриття шпигунів
+    * spy, шпион, разведчик, агент -> шпигун (general case), вивідач (if specifically deals with learning secrets and other information), засланець (when used as a pejorative for undercover agents), нишпорки (casual narrative tone)
+    ** in the meaning of "agent of the crown/state/entity" -> посланець, представник: посланець корони, страховий представник
+    ** in the meaning of internal secret service agent -> службовець
+    * информатор -> вивідач
+
 ## Military, Armies, and Fleets
 
     * war score, военный счёт -> воєнний рахунок
@@ -626,6 +635,11 @@ IMPORTANT! When presented with several alternative translation options, choose t
 
     * налёт, нальот -> "набіг" if on land, "напад" on sea, "наскок" if stressing unexpected nature
     * налётчик, нальотчик -> грабіжник, розбійник in negative connotations, нападник in neutral (our raiders - наші нападники); make sure to interchange to avoid repetition (e.g. "розбійники розграбували", not "грабіжники розграбували")
+
+Apply the following translations only if they are NOT in the context of European armies (excluding Russian principalities)
+    * (маршал)-квартирмейстер -> генеральний обозний
+    * інтендант -> шафар, доглядач запасів
+
 
 ## Religion
 
@@ -1028,6 +1042,7 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     ** АЛЕ "supply depot", "продовольственный склад" - "військова комора"
     * проспонсировать, профинансировать - узяти на власний кошт
     * рабочая сила - робочі руки
+    * ревизия - облік, перевірка
     * резерв(ы), reserve(s) - запас(и), BUT for anything dealing with army or navy combat/battle reserves (units in reserve, reserve units entering battle, etc) keep "резерв"
     ** резервный - запасний, BUT for combat/battle reserves and reserve banking keep "резервний", "резервування"
     ** gold reserves, золотые запасы - золотий запас (always singular)

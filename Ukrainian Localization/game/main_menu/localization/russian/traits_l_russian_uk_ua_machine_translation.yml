@@ -270,7 +270,7 @@
   well_connected_die_desc: "Напевно [Select_CString(CHARACTER.IsFemale,'вона', 'він')] вже заводить цінні знайомства в потойбічному світі."
   calm_die_desc: "[Select_CString(CHARACTER.IsFemale,'Вона домоглася', 'Він домігся')], щоб у нашій країні був мир і порядок."
   secretive_die_desc: "Без жодного сумніву, [Select_CString(CHARACTER.IsFemale,'вона забрала', 'він забрав')] із собою в могилу безліч таємниць."
-  intricate_web_weaver_die_desc: "[Select_CString(CHARACTER.IsFemale,'Її', 'Його')] кончина стала великим ударом для інформаторів."
+  intricate_web_weaver_die_desc: "[Select_CString(CHARACTER.IsFemale,'Її', 'Його')] кончина стала великим ударом для вивідачів."
   well_advised_die_desc: "[Select_CString(CHARACTER.IsFemale,'Її', 'Його')] радники запевняють нас, що це був найкращий результат."
   benevolent_die_desc: "Наші піддані оплакують кончину [Select_CString(CHARACTER.IsFemale,'своєї милосердної покровительки', 'свого милосердного покровителя')]."
   zealot_die_desc: "[Select_CString(CHARACTER.IsFemale,'Її', 'Його')] запал і непохитність переконали багатьох скептиків."

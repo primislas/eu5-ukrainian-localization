@@ -312,7 +312,7 @@
   random_event.74.b: "[fortification.GetNameWithNoTooltip] потребує нових укріплень — нехай майстри працюють там."
   random_event.75.title: "Наївний родич"
   random_event.75.desc: "[Select_CString(naive.IsFemale,'Близька родичка', 'Близький родич')] сімейства [target_ruler.GetName], [naive.GetName], через наївність розбовтує іноземцям важливу інформацію. Суворо кажучи, це державна зрада, але, якщо ми стратимо члена [ROOT.GetCountry.GetGovernment.GetAdjective|l]ої родини, в суспільстві можуть початися заворушення."
-  random_event.75.a: "Нехай з [Select_CString(naive.IsFemale,'нею', 'ним')] розберуться наші агенти."
+  random_event.75.a: "Нехай з [Select_CString(naive.IsFemale,'нею', 'ним')] розберуться наші службовці."
   random_event.75.b: "[Select_CString(naive.IsFemale,'Вона', 'Він')] все ж рідня…"
   random_event.76.title: "Перемитники розперезалися"
   random_event.76.desc: "Наші піддані знаходять все нові способи уникати податків і мит на перевезення товарів, провозять їх потайки повз наших чиновників. Це завдає шкоди державним доходам, але боротьба з перемитниками в короткостроковій перспективі обійдеться нам недешево."
