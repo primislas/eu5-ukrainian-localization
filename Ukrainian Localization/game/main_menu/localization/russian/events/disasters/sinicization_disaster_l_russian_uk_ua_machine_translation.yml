@@ -34,7 +34,7 @@
   sinicization_disaster.7.a: "Настав час викинути їх у вікно!"
   sinicization_disaster.7.b: "Добре, ми заплатимо цього разу."
   sinicization_disaster.8.title: "Реакція на загрозу"
-  sinicization_disaster.8.desc: "Радники і навіть прості придворні вважають за потрібне висловити свою думку щодо ситуації, в якій сьогодні перебуває [ROOT.GetCountry.GetGovernment.GetCourtTitle|l]. Деякі з них вітають зростаючий вплив наших #L [target_emperor_scope.GetAdjective|l]их#! сусідів, тоді як інші вбачають у ньому загрозу для нашої незалежності…"
+  sinicization_disaster.8.desc: "Радники і навіть прості придворні вважають за потрібне висловити свою думку щодо становища, в якому сьогодні перебуває [ROOT.GetCountry.GetGovernment.GetCourtTitle|l]. Дехто з них вітає зростаючий вплив наших #L [target_emperor_scope.GetAdjective|l]их#! сусідів, тоді як інші вбачають у ньому загрозу для нашої незалежности…"
   sinicization_disaster.8.a: "Ми повинні чинити опір зовнішньому впливу."
   sinicization_disaster.8.b: "Ми повинні довіряти [target_emperor_scope.Custom('CL_DAT')]."
   until_disaster_ends: "доки не закінчиться [Concept('disaster', 'лихо')|e]"

@@ -124,6 +124,11 @@ Historical Tone:
        * Use "у" if the next word starts with a consonant cluster (e.g., "у Швецію").
        * Use "в" if the next word starts with a vowel (e.g., "в Одесу").
 
+12. Linguistic rule: Some/Некоторые as a subject -> Дехто
+    A common construct is "some say, think, do, etc.", where some (normally translated into Russian as "некоторые") serves as the sole primary subject. In these cases, and only when it refers to humans (not objects or concepts), translate it as "дехто": дехто вважає, дехто каже, дехто вирішив і т.і.
+
+    Another common scenario for this case are sentences like "Some X ... and others Y" or "Some X ... and some Y".
+
 
 
 # Glossary

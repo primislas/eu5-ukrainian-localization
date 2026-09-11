@@ -110,7 +110,7 @@
   STATIC_MODIFIER_DESC_kingdom_of_god_slot_modifier: "Духовний вплив Царства Божого змусить крутитися навіть іржаві шестерні чиновницького механізму."
   flavor_pap.21.title: "[GetCountry('PAP').GetGovernment.GetRulerTitle] запідозрений у зачатті дітей"
   flavor_pap.21.entry: "Папу запідозрили в зачатті дітей"
-  flavor_pap.21.desc: "Ходять чутки, що у папи римського, який колись дав обітницю безшлюбності, насправді є діти. Деякі вважають, що це просто наклеп, спрямований на ослаблення впливу #TOOLTIP:INTERNATIONAL_ORGANIZATION,$catholic_church_tt$,X #L католицької церкви#!#!, тоді як інші підтверджують ці домисли і навіть наводять імена папських нащадків. Розгублені кардинали та інш[ROOT.GetCountry.Custom('clergy_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] стоять перед непростим вибором: провести розслідування чи по-тихому зам'яти цю незручну ситуацію?"
+  flavor_pap.21.desc: "Ходять чутки, що у папи римського, який колись дав обітницю безшлюбности, насправді є діти. Дехто вважає, що це просто наклеп, спрямований на ослаблення впливу #TOOLTIP:INTERNATIONAL_ORGANIZATION,$catholic_church_tt$,X #L католицької церкви#!#!, тоді як інші підтверджують ці домисли і навіть наводять імена папських нащадків. Розгублені кардинали та інш[ROOT.GetCountry.Custom('clergy_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] стоять перед непростим вибором: провести розслідування чи по-тихому зам'яти цю незручну ситуацію?"
   flavor_pap.21.a: "Постараємося це зам'яти."
   flavor_pap.21.b: "Занадто пізно — чутки вже розходяться."
   STATIC_MODIFIER_NAME_sinner_pope: "Репутація зганьблена"
