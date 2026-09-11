@@ -70,7 +70,7 @@
   guelphs_and_ghibellines.1100.a: "Нам потрібні гроші, щоб поповнити скарбницю."
   guelphs_and_ghibellines.1100.a.tt: "Ми запросимо [Concept('gold', 'гроші')|e] у #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_GEN')|L]#!#! (зараз у її скарбниці #Y [target_country.GetCurrencyValue('gold')] од. золота#!. Ми отримаємо #G [root_country.MakeScope.GetVariable('gold_to_transfer').GetValue|2] од.#!)"
   guelphs_and_ghibellines.1100.b: "Нам потрібно більше вояків."
-  guelphs_and_ghibellines.1100.b.tt: "Ми запросимо [Concept('manpower', 'рекрутів')|e] у #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_GEN')|L]#!#! (зараз у неї #Y [target_country.GetCurrencyValue('manpower')] од. живої сили#!. Ми отримаємо #G [root_country.MakeScope.GetVariable('manpower_to_transfer').GetValue] од.#!)"
+  guelphs_and_ghibellines.1100.b.tt: "Ми запросимо [Concept('manpower', 'новобранців')|e] у #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_GEN')|L]#!#! (зараз у неї #Y [target_country.GetCurrencyValue('manpower')] од. живої сили#!. Ми отримаємо #G [root_country.MakeScope.GetVariable('manpower_to_transfer').GetValue] од.#!)"
   guelphs_and_ghibellines.1100.c: "Ми хотіли б укласти дипломатичний союз."
   guelphs_and_ghibellines.1100.c.tt: "Ми попросимо #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_ACC')|L]#!#! вступити з нами в [Concept('alliance', 'союз')|e]"
   guelphs_and_ghibellines.1100.zzz: "Якщо подумати, то…"

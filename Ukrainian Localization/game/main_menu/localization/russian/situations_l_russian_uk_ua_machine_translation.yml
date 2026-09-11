@@ -310,7 +310,7 @@
   invade_neighbor_beylik_price: "Ціна вторгнення в сусідський бейлик"
   create_uc_bey: "Створити удж-бея"
   create_uc_bey_desc: "Прикордоння захищає наш народ від натиску можливих завойовників. Відтепер їхнім захистом займеться $rank_duchy_turkish$."
-  urban_manpower_location_tt: "Хоча б 1 [Concept('location', 'місцевість')|e] в обраній [Concept('province', 'провінції')|e] є [Concept('town_and_city', 'містом')|e] і надає [Concept('manpower', 'рекрутів')|e]"
+  urban_manpower_location_tt: "Хоча б одна [Concept('location', 'місцевість')|e] в обраній [Concept('province', 'провінції')|e] є [Concept('town_and_city', 'містом')|e] і надає [Concept('manpower', 'новобранців')|e]"
   no_location_is_capital_tt: "@trigger_no! Жодна [Concept('location', 'місцевість')|e] в обраній [Concept('province', 'провінції')|e] не є нашою [Concept('capital', 'столицею')|e]."
   hundred_years_war: "Столітня війна"
   hundred_years_war_info: "Внаслідок цього конфлікту [GetCountry('ENG').GetName] та [GetCountry('FRA').GetName] розпочнуть між собою [Concept('wars', 'війну')|e]. Вона закінчиться, коли одна зі сторін досягне поставлених цілей."

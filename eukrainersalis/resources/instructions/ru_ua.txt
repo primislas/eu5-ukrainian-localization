@@ -545,9 +545,6 @@ IMPORTANT! When presented with several alternative translation options, choose t
     * regular army, unit, regiment, регулярная армия, полк, подразделение -> постійне військо, полк, загін
     * regular fleet, ship, регулярнй флот, корабль -> військовий флот, корабель
     * military/navy tradition, военные/морские традиции -> військовий/морський хист
-    * assault, штурм - приступ
-    ** to assault, штурмовать -> брати приступом, йти на приступ, приступати до (стін, фортеці)
-    ** штурмовой -> ударний (загін, кіннота тощо)
 
     * ополчення скликають
     * союзників закликають на війну чи до зброї
@@ -568,6 +565,10 @@ IMPORTANT! When presented with several alternative translation options, choose t
     * unit template, шаблон отряда -> стрій (simply "стрій", NOT "стрій загону" when discussed as a template)
     ** "набор шаблона", "набор в шаблон" - only "набір за строєм"
     * підрозділи, загони набирають (NOT "будують")
+    * manpower, рекруты -> новобранці
+    ** in the meaning of maximal capacity or current reserve -> запас новобранців, e.g.: максимальний, поточний запас новобранців, збільшення запасу новобранців, поповнення запасу новобранців
+    ** when "recruits" (рекруты) are used to describe already serving soldiers on active duty or in military action, translate them as "вояки": недостатньо вояків для того щоб почати облогу
+    ** avoid tautologies: набрати нових новобранців -> набрати новобранців, набрати свіжих новобранців
 
     * cavalry, кавалерия -> кіннота
     * кавалерийский -> кінний
@@ -595,8 +596,11 @@ IMPORTANT! When presented with several alternative translation options, choose t
     ** the text clearly refers to lategame modernized militaries and talks of military in academic organized fashion
 
     * garrison, гарнизон -> залога
-    * гарнизонный -> залоговий
-    * to garrison, вводить гарнизони -> ставити залогу, вводити залогу
+    ** гарнизонный -> залоговий
+    ** to garrison, вводить гарнизони -> ставити залогу, вводити залогу
+    * assault, штурм - приступ
+    ** to assault, штурмовать -> брати приступом, йти на приступ, приступати до (стін, фортеці)
+    ** штурмовой -> ударний (загін, кіннота тощо)
 
     * судно -> only and always "корабель"
     ** "військові кораблі", NOT "воєнні"
