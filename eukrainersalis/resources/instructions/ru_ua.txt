@@ -404,6 +404,7 @@ IMPORTANT! When presented with several alternative translation options, choose t
     * Кингитанга -> Кінгітанга
     * Shitsuji, сицудзи -> сіцудзі
     * shugo, shogun, shogunate -> сюґо, сьоґун, сьоґунат (alawys with letter "ґ")
+    * Kanrei council, совет канрэя -> рада канреїв (singular councillor is "канрей", hence "рада канреїв", Russian localization often erroneously translates it as a "совет канрэя")
     * Восточное, Западное бюро -> these Chinese institutions should be translated as "Східна/Західна палата"
 
 
@@ -975,10 +976,11 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * бандит - харциз, розбійник
     * бандитский - розбійницький
 
-    * биография, биографический - життєпис, життєписний
-    ** автобиография, автобиографический - саможиттєпис, саможиттєписний
-    ** биографическая рукопись - рукописний життєпис
+    * биография, биографический -> життєпис, життєписний
+    ** автобиография, автобиографический -> саможиттєпис, саможиттєписний
+    ** биографическая рукопись -> рукописний життєпис
     ** "житіє" when about ancient kings or important religious figures, saints
+    * вакантний, vacant -> вільний
 
     * global, глобальный -> всесвітній
     ** sometimes "світовий" fits better, in particular in such expressions as "світовий ринок"
