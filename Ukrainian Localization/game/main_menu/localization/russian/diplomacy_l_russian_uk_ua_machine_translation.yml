@@ -971,7 +971,7 @@
   CANCEL_BUILD_SPYNETWORK_TOOLTIP_HEADER_NO_TARGET: "Згортання активної шпигунської мережі в [Concept('country', 'країні')|e]"
   CANCEL_BUILD_SPYNETWORK_FLAVOR: "Ми припинимо створювати нашу [Concept('spy_network', 'шпигунську мережу')|e] в цій країні, і вона поступово скорочуватиметься."
   CANCEL_BUILD_SPYNETWORKDESC: "Ми точно хочемо скасувати спробу створити [Concept('spy_network', 'шпигунську мережу')|e] в країні $COUNTRY$?"
-  CANCEL_BUILD_SPYNETWORKTITLE: "Скасувати розбудови шпигунської мережі"
+  CANCEL_BUILD_SPYNETWORKTITLE: "Скасувати розбудову шпигунської мережі"
   CANCEL_BUILD_SPYNETWORK_DESC: "Ця дія скасує нашу поточну спробу створити [Concept('spy_network', 'шпигунську мережу')|e] в країні $COUNTRY$."
   CANCEL_BUILD_SPYNETWORK_CATEGORY: "CATEGORY_COVERT_ACTIONS"
   BUILD_SPYNETWORK_NO_SPYNETWORK: "@trigger_no! Ми не створюємо [Concept('spy_network', 'шпигунську мережу')|e] в #ONCLICK:COUNTRY,[COUNTRY.GetKey] #TOOLTIP:COUNTRY,[COUNTRY.GetKey],X [COUNTRY.Custom('CL_PREP')|L]#!#!."

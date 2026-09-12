@@ -290,6 +290,8 @@ IMPORTANT! When presented with several alternative translation options, choose t
     ** NOT "обрати історично достеменний вибір" but correctly "зробити історично достеменний вибір"
     * historical ai choices, историческая достоверность -> історична достеменність; робитимуть історично достеменний вибір
 
+    * "собака" in Ukrainian language is a masculine word, so: старий собака, добродушний собака, собака прийшов etc.
+
 ## Government
 
     * governing family, правящая семья -> правляча родина

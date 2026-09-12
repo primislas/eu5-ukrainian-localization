@@ -228,7 +228,7 @@
   start_exploration_no_characters: "@trigger_no! Немає вільних дослідників."
   market: "Ринок"
   distance_to_target_area: "Відстань до обраної області"
-  start_exploration_select_launch_point: "Оберіть, у якому [Concept('location', 'місцевості')|e] підготувати експедицію:"
+  start_exploration_select_launch_point: "Оберіть, у якій [Concept('location', 'місцевості')|e] підготувати експедицію:"
   start_exploration_no_launch_point: "@trigger_no! Немає [Concept('locations', 'місцевостей')|e], придатних для підготовки експедиції."
   change_explorer_select_area: "Оберіть, у якій [Concept('area', 'області')|e] змінити дослідника:"
   cancel_exploration_select_area: "Оберіть, яку [Concept('area', 'область')|e] припинити досліджувати:"
