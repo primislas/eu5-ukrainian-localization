@@ -29,7 +29,7 @@
   flavor_usa.7.b: "Залишимо їх у спокої."
   flavor_usa.8.title: "[ShowBuildingTypeNameWithNoTooltip('usa_academy_of_arts_and_sciences')]"
   flavor_usa.8.desc: "Досі в питаннях освіти ми покладалися на іноземні країни, але з огляду на останні зміни це стало неприйнятним. Нам потрібен власний інститут для навчання громадян та розвитку культури #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!."
-  flavor_usa.8.a: "Проспонсорувати створення інституту."
+  flavor_usa.8.a: "Заснувати інститут коштом скарбниці."
   flavor_usa.8.b: "Проігнорувати."
   flavor_usa.9.title: "Несправедливі податки"
   flavor_usa.9.desc: "Підвищення податків, які змушен[ROOT.GetCountry.Custom('peasants_yiaei')] платити наш[ROOT.GetCountry.Custom('peasants_aei')] [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l], викликало заворушення в [unrest_location.Custom('LR_PREP')|l] [unrest_location.GetName]. Важкі побори обурюють не тільки самих селян, а й інших жителів провінції [unrest_location.GetProvince.GetName]. Якщо ми не приділимо увагу цій проблемі, вона може вийти з-під контролю."

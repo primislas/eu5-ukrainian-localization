@@ -52,7 +52,7 @@
   POPS_existing-steam-to-account-connection: "Обліковий запис уже підключено до облікового запису Steam"
   POPS_third-party-exception: "Час очікування виконання запиту вичерпано"
   POPS_not-authorized: "Введені вами адреса електронної пошти та пароль не збігаються"
-  POPS_missing-required-account-details-keys: "Ви не вказали обов’язкову інформацію"
+  POPS_missing-required-account-details-keys: "Ви не вказали обов’язкові відомості"
   POPS_invalid-country-code: "Код країни недійсний"
   POPS_invalid-language-code: "Код мови недійсний"
   POPS_invalid-ISO-8601-format: "Формат дати недійсний"

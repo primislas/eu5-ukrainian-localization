@@ -24,7 +24,7 @@
   rise_of_the_szlachta.5.desc: "Засідання [ROOT.GetCountry.Custom('parliament_ua_GEN')|l] — основний засіб політичних махінацій для багатьох впливових магнатів нашої країни. [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|U] та [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] незадоволені тим, що ми давно не скликали делегатів на нові засідання."
   rise_of_the_szlachta.5.a: "Добре, ми зберемо [ROOT.GetCountry.Custom('parliament_ua_ACC')|l]"
   rise_of_the_szlachta.5.b: "Ми влаштуємо засідання, але [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] запрошення не отрима[ROOT.GetCountry.Custom('nobles_yeyut')]!"
-  rise_of_the_szlachta.5.c: "Ці дешеві куртизанки нам не указ."
+  rise_of_the_szlachta.5.c: "Ці дешеві шльондри нам не указ."
   based_on_crown_estate_power_tt: "З урахуванням [Concept('estate_power', 'влади')|e] стану «[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('crown_estate')|l]»:"
   rise_of_the_szlachta.6.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] святку[ROOT.GetCountry.Custom('nobles_yeyut')] перемогу"
   rise_of_the_szlachta.6.desc: "Країна на багато років загрузла в міжусобицях, [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')|l] ста[ROOT.GetCountry.Custom('crown_vlaloly')] блідою тінню сам[ROOT.GetCountry.Custom('crown_ohooyiyh')] себе. За допомогою нескінченних хитросплетінь, таємних угод і повсюдного хабарництва, що пронизало суспільство згори донизу, [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] зумі[ROOT.GetCountry.Custom('nobles_vlaloly')] відтіснити інші стани і перетвори[ROOT.GetCountry.Custom('nobles_vlaloly')]ся на єдину панівну силу в країні."

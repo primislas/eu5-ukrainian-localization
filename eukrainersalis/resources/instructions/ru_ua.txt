@@ -546,6 +546,7 @@ IMPORTANT! When presented with several alternative translation options, choose t
     ** in the meaning of "agent of the crown/state/entity" -> посланець, представник: посланець корони, страховий представник
     ** in the meaning of internal secret service agent -> службовець
     * информатор -> вивідач
+    * информация, information -> відомості; in rare cases "знання" (знання - це сила, джерело знань and other established expressions), "звістки", "новини", "повідомлення"
 
 ## Military, Armies, and Fleets
 
@@ -941,9 +942,13 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
 
 Уникай канцеляризмів, анахронізмів, запозичень там, де це можливо. Надавай перевагу питомим українським відповідникам, якщо такі існують. Втім, текст має залишатися зрозумілим сучасному читачеві. Якщо зміст слова сильно змінився, чи слово геть вийшло з ужитку, то вживаємо сучасні варіанти. Приклади вдалої адаптації:
 
+    * абсурд - безглуздя, нісенітниця, маячня, глупство, дурощі
+    ** абсурдний - безглуздий (when making no practical sense), нісенітний (silly, absurd in general)
     * авантюрист - pick best depending on context between "відчайдух", "шукач пригод", "пройдисвіт"
     ** авантюра - depending on context could mean "ризикований/відчайдушний вчинок/витівка/дія/пригода"
     ** авантюризм - зухвалість
+    * адаптация - пристосування, прилаштування
+    ** адаптировать(ся) - пристосовувати(ся), прилаштовувати(ся), підлаштовувати(ся)
 
     * акцент - наголос
     ** делать, ставить акцент, акцентировать - "наголошувати на чому, на що"; "робити ... наголос" if there are extra words in-between these two in the original sentence; sometimes "підкреслювати" is stylistically better
@@ -973,6 +978,8 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     ** "дух" for more abstract concepts, like intrigues or progress: дух інтриг, дух поступу
     * ароматный, ароматический: "духмяний" для прянощів, вишуканих чи екзотичних запахів, пахощів; "запашний" для більш приземлених і побутових запахів (зокрема пива)
 
+    * auction, аукцион - торг
+
     * бандит - харциз, розбійник
     * бандитский - розбійницький
 
@@ -982,6 +989,7 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     ** "житіє" when about ancient kings or important religious figures, saints
     * вакантний, vacant -> вільний
 
+    * газета - часопис
     * global, глобальный -> всесвітній
     ** sometimes "світовий" fits better, in particular in such expressions as "світовий ринок"
     ** when used in the meaning of full, total, translate as "повний", "цілковитий", for example "требует полной реконструкции" -> "потребує повної перебудови"
@@ -992,6 +1000,7 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     ** fixed expression "земля на горизонті" -> "земля на видноколі"
     ** in astronomical, geographical and geometrical texts keep "горизонт"
 
+    * депутати - представники
     * deficit, дефицит -> strive to avoid "дефіцит", depending on context use the following alternatives:
     ** "нестача", especially in menus
     ** "брак", "бракує" as an extra alternative to diversify narrative and event texts
@@ -999,8 +1008,8 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     ** "скарбова скрута", "скарбова нестача", "збитки скарбниці" when specifically dealing with budget deficits
     ** "торгові збитки" when specifically about trade deficits
 
-    * депутати - представники
-    * газета - часопис
+    * интерпретация, interpretation - тлумачення
+
     * комфорт, комфортный - затишок, затишний
     * контрабанда - перемитництво, як діяльність, "перемитні товари", якщо про товари
     * контрабандист - перемитник
@@ -1011,6 +1020,7 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * кошмар - жахіття
     ** кошмарный - страхітливий, жахливий
     ** какой кошмар - який жах
+    * куртезанка - коханка, наложниця, шльондра (pejorative)
 
     * лидер - "лідер" окрім усталених словосполучень наведених нижче
     ** лидер наёмников - ватажок найманців
@@ -1042,17 +1052,30 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * провизия, провізія, провиант, провіант, продовольство -> харчі, в розповідних приземлено-побутових текстах припускається форма "харч"; продовольчий - харчовий
     ** food, еда - завжди "харчі", коли мова про військові потреби в їжі
     ** АЛЕ "supply depot", "продовольственный склад" - "військова комора"
-    * проспонсировать, профинансировать - узяти на власний кошт
     * рабочая сила - робочі руки
     * ревизия - облік, перевірка
     * резерв(ы), reserve(s) - запас(и), BUT for anything dealing with army or navy combat/battle reserves (units in reserve, reserve units entering battle, etc) keep "резерв"
     ** резервный - запасний, BUT for combat/battle reserves and reserve banking keep "резервний", "резервування"
     ** gold reserves, золотые запасы - золотий запас (always singular)
+    * рентабельный - прибутковий
+
     * секрет, секретный - таємниця, таємний
     ** не секрет, не является секретом - не є таємницею
     ** посвящать в, делиться секретом, по секрету - утаємничувати (кого-що в), таємно; however, be mindful of translations such as "утаємничувати в таємниці", "ділитися таємницями таємно" - use "приховано (ділитися, повідомляти)", "таємницю ... тримали під сімома печатями, замками" instead of "таємно, утаємничувати" to avoid tautology
     ** королевский секрет - королівський секрет (established name of the French secret service)
     * социальный - суспільний
+    * спонсор - покровитель, благодійник (especially for arts, architecture, helping the needy), коштодавець (for dry primarily financial relations, e.g. "ми стали коштодавцями піднесення власного суперника"), опікун (when talking of relations of continuous investment in internal affairs, buildings, education, crafts etc.)
+    ** спонсировать - взяти на власний кошт
+    *** опікуватися, e.g. опікувався школами, книговидавництвом, притулками для нужденних
+    *** надати опіку, e.g. надати опіку його роботі
+    *** утримувати, e.g. діяльність місіонерів утримує церква
+    *** забезпечувати, e.g. експедиції, піратів забезпечували
+    *** споряджати, e.g. експедиції і т.і.
+    *** плекати (творчість, мистецтва)
+    *** оплачувати, e.g. війни, or in general for financial affairs when no other word fits well
+    ** проспонсировать, профинансировать - узяти на власний кошт, [do something] коштом скарбниці / власним коштом
+    ** it is allowed to transform phrases like "sponsor something" to "<do something> власним коштом": "проспонсировать перенос торговли" -> "перенести торгівлю власним коштом", "коштом скарбниці" (for state funding); "проспонсируем его образование" -> "візьмемо його освіту на власний кошт"
+    ** fixed expression "спонсор лиги" (Italian league sponsor) -> коштодавець ліги
     * термин(ы) - строк(и)
     * фактор - чинник
 

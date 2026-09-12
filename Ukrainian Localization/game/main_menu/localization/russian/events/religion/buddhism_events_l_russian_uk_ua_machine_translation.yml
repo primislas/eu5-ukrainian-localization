@@ -151,7 +151,7 @@
   STATIC_MODIFIER_NAME_influx_of_tibetan_monks: "Приплив тибетських ченців"
   STATIC_MODIFIER_DESC_influx_of_tibetan_monks: "Сюди прибула група тибетських ченців з метою поширювати #TOOLTIP:RELIGIONGROUP,buddhist,X #L буддизм#!#! в усіх куточках країни."
   buddhism_events.1202.title: "Смерть лами"
-  buddhism_events.1202.desc: "[Select_CString(SCOPE.sCharacter('target_character').IsFemale, 'Наша шанована та благочестива', 'Наш шанований та благочестивий')] лама [Select_CString(SCOPE.sCharacter('target_character').IsFemale, 'померла', 'помер')], і пошуки [target_character.GetHerHis] реінкарнації вже почалися. Хоча [target_character.GetHerHis] орден впевнений, що пошуки нового втілення лами не займуть багато часу, можливо, країні слід допомогти їм, проспонсорувавши експедицію."
+  buddhism_events.1202.desc: "[Select_CString(SCOPE.sCharacter('target_character').IsFemale, 'Наша шанована та благочестива', 'Наш шанований та благочестивий')] лама [Select_CString(SCOPE.sCharacter('target_character').IsFemale, 'померла', 'помер')], і пошуки [target_character.GetHerHis] переродження вже почалися. Хоча [target_character.GetHerHis] орден впевнений, що пошуки нового втілення лами не займуть багато часу, можливо, країні слід допомогти їм, спорядивши експедицію."
   buddhism_events.1202.a: "Давайте їм допоможемо."
   buddhism_events.1202.b: "Вони впораються самі."
   buddhism_events.1203.title: "Реінкарнацію виявлено"

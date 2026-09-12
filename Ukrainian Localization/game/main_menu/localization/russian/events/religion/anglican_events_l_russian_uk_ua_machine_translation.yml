@@ -26,7 +26,7 @@
   anglican_events.6.a: "Скасуємо нову редакцію та поступимося традиціоналістам."
   anglican_events.6.b: "Ми не потерпимо цього папістського заколоту!"
   anglican_events.7.title: "[Select_CString(minister.IsFemale,'Таємна католичка', 'Таємний католик')]"
-  anglican_events.7.desc: "#L [ROOT.GetCountry.GetAdjective]а#! реформація переконала не все населення країни. Навіть при дворі багато хто продовжує відчувати симпатію до #TOOLTIP:RELIGION,$catholic_tt$,X #L католицтва#!#!. Нещодавно ми дізналися, що [minister.GetName] таємно відвідує #TOOLTIP:RELIGION,$catholic_tt$,X #L католицькі#!#! меси, що суворо заборонено законом. Якщо ця інформація дійде до громадськості, [minister.GetName] позбудеться всіх своїх земель та майна, а також більше не зможе обіймати державні посади."
+  anglican_events.7.desc: "#L [ROOT.GetCountry.GetAdjective]а#! реформація переконала не все населення країни. Навіть при дворі багато хто продовжує відчувати симпатію до #TOOLTIP:RELIGION,$catholic_tt$,X #L католицтва#!#!. Нещодавно ми дізналися, що [minister.GetName] таємно відвідує #TOOLTIP:RELIGION,$catholic_tt$,X #L католицькі#!#! меси, що суворо заборонено законом. Якщо ця новина стане надбанням громадськости, [minister.GetName] позбудеться всіх своїх земель та майна, а також більше не зможе обіймати державні посади."
   anglican_events.7.a: "Поки що [Select_CString(minister.IsFemale,'вона', 'він')] надто [Select_CString(minister.IsFemale,'цінна', 'цінний')] для нас."
   anglican_events.7.b: "При нашому дворі немає місця католикам!"
   anglican_events.7.c: "Відрубати [Select_CString(minister.IsFemale,'їй', 'йому')] голову!"

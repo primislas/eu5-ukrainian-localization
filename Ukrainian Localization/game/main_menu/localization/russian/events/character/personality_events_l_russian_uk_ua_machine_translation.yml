@@ -74,7 +74,7 @@
   personality_events.18.a: "Нас просто невірно зрозуміли."
   personality_events.18.a.tt: "Усі сусідні [Concept('countries', 'країни')|e], що мають негативну думку про нашу країну в мирний час, отримують [ShowBiasValue('careful_diplomatic_manouvering')|+=] до [Concept('opinion', 'думки')|e] про нас."
   personality_events.19.title: "[target_ruler.GetNameWithNoTooltip] і [Select_CString(target_ruler.IsFemale,'її', 'його')] шифр"
-  personality_events.19.desc: "[target_ruler.GetName] з дитинства [Select_CString(target_ruler.IsFemale,'захоплювалася', 'захоплювався')] шифрувальною справою, тому з роками [Select_CString(target_ruler.IsFemale,'навчилася', 'навчився')] вельми ретельно зберігати свої таємниці. Нещодавно з'ясувалося, що хтось періодично розкриває листи з посланнями намісникам і читає те, що йому не належить. У зв'язку з цим [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] бажає створити новий шифр. Виділивши на це кошти, ми зможемо значно підвищити збереження важливої інформації."
+  personality_events.19.desc: "[target_ruler.GetName] з дитинства [Select_CString(target_ruler.IsFemale,'захоплювалася', 'захоплювався')] шифрувальною справою, тому з роками [Select_CString(target_ruler.IsFemale,'навчилася', 'навчився')] вельми ретельно зберігати свої таємниці. Нещодавно з'ясувалося, що хтось періодично розкриває листи з посланнями намісникам і читає те, що йому не належить. У зв'язку з цим [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] бажає створити новий шифр. Виділивши на це кошти, ми зможемо значно підвищити збереження важливих відомостей."
   personality_events.19.a: "Варто негайно цим зайнятися!"
   personality_events.19.b: "Це безглуздо. Будь-який шифр можна розгадати."
   personality_events.20.title: "Скрізь свої люди"

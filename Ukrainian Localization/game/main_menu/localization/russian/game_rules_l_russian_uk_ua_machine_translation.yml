@@ -219,7 +219,7 @@
   setting_inmersion_mode_hide_events_desc: "Забороняє гравцеві доступ до вкладки [Concept('dynamic_historical_events', 'динамічних історичних подій')|e]."
   rule_spy_network_fog: "Туман шпигунської мережі"
   setting_spy_network_fog_off: "Без туману шпигунської мережі"
-  setting_spy_network_fog_off_desc: "Гравці можуть бачити будь-яку інформацію про країни."
+  setting_spy_network_fog_off_desc: "Гравці можуть бачити будь-які відомості про країни."
   setting_spy_network_fog_active: "Туман шпигунської мережі активний"
   setting_spy_network_fog_active_desc: "Спонукає гравців розвивати [Concept('spy_network', 'шпигунську мережу')|e] в інших [Concept('countries', 'країнах')|e], щоб таким чином отримувати про них відомості."
   rule_holy_roman_empire_rank_restriction: "Рангові обмеження для Священної Римської Імперії"
