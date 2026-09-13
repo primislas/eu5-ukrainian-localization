@@ -332,7 +332,7 @@
   flavor_mos.39.b: "Захоплення їхніх територій нічого не дасть."
   flavor_mos.39.c: "Краще витратити гроші на підготовку нашого війська."
   flavor_mos.39.tt1: "Буде проведено серію військових навчань"
-  flavor_mos.39.historical_info: "У XV—XVI століттях Велике князівство Московське організувало кілька воєнних походів проти кримських татар. У ті роки Москва нерідко зазнавала спустошливих набігів ногаїв. Щоб підірвати воєнні можливості кочівників, було ухвалено рішення перенести бойові дії на територію противника."
+  flavor_mos.39.historical_info: "У XV—XVI століттях Велике князівство Московське організувало кілька воєнних походів проти кримських татар. У ті роки Москва нерідко зазнавала спустошливих набігів ногаїв. Щоб підірвати воєнні можливості кочівників, було ухвалено рішення перенести бойові дії на землі противника."
   flavor_mos.40.title: "Погане поводження"
   flavor_mos.40.entry: "$flavor_mos.40.title$"
   flavor_mos.40.desc: "З #ONCLICK:COUNTRY,[GetCountry('LIT').GetKey] #TOOLTIP:COUNTRY,[GetCountry('LIT').GetKey],X [GetCountry('LIT').Custom('CL_GEN')|L]#!#! прийшли тривожні вісті — [GetCountry('LIT').GetGovernment.GetRuler.GetName] вимагає, щоб [target_character.GetName] з династії [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName] [Select_CString(target_character.IsFemale,'прийняла', 'прийняв')] #TOOLTIP:RELIGION,$catholic_tt$,X #L католицьку#!#! віру. Подібне поводження вимагає рішучої відповіді… і може посприяти досягненню далекосяжних стратегічних цілей."

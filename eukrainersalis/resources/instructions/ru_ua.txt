@@ -194,7 +194,7 @@ IMPORTANT! When presented with several alternative translation options, choose t
     *** sometimes it's applied to a specific location, usually when discussing forts or armies acting on a specific location territory (especially in terms of game mechanics), in such cases translate as "в місцевості" ("на території" can be dropped altogeher): рівень форту в місцевості, загін не допомагатиме на території сусідніх місцевостей -> загін не допомагатиме у прилеглих місцевостях
     ** "на территорию", especially when followed by a country name (in GENinitive case), can almost always be replaced with simple "до": відправили до Франції, прибули до Єгипту
     *** BUT for more official or governmental relations "у володіння" could be more appropriate: відправити шпигуна у володіння противника, наши торговці можуть повернутися у володіння Туреччини
-    *** for smaller scale territories or when land aspect is stressed translate as "на землі": на землі монастиря, на землі на північ від столиці, на землях, які опиняться під нашим впливом
+    *** for smaller scale territories or when land aspect is stressed translate as "на землі": на землі монастиря, на землі на північ від столиці, на землях, які опиняться під нашим впливом; also for expressions like "перенести війну на землі противника", "в обмін на землі на кордоні", "загін має повернутися на дружні землі" and similar
     ** административно-территориальные единицы, деление -> земельний устрій
     ** административно-территориальная единица (singular) -> земля, провінція
     * "core location / region", "национальний район, регион" -> "корінна місцевість, регіон"

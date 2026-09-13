@@ -445,7 +445,7 @@
   flavor_brapru.2000.desc: "Смутні роки, спричинені питанням успадкування престолу #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, добігли кінця. Ми наочно переконалися, до чого призводить нехтування обов'язками, і тепер готові зробити все можливе, щоб династія [root_dynasty.GetName] зберегла за собою престол, а катастрофа, що сталася, ніколи більше не повторилася. [ROOT.GetCountry.Custom('rank_ua_ACC')] роздирають міжусобиці, а зрадники таяться на кожному кроці. Настав час відновлювати постраждалу країну."
   flavor_brapru.2000.a: "Спочатку примиримося зі станами."
   flavor_brapru.2000.b: "Постараємося повторно утвердити свою владу."
-  flavor_brapru.2000.c: "Найважливіше повернути порядок на територію [ROOT.GetCountry.Custom('rank_ua_GEN')|l]."
+  flavor_brapru.2000.c: "Найважливіше повернути порядок на землі [ROOT.GetCountry.Custom('rank_ua_GEN')|l]."
   flavor_brapru.2000.c.entry: "Найважливіше — повернути в країну лад."
   flavor_brapru.2000.d: "Займемося оновленням та вдосконаленням."
   had_turmoil_in_brandenburg_disaster_variable_tt: "Бранденбург зіткнувся з лихом «Бранденбурзька смута»"

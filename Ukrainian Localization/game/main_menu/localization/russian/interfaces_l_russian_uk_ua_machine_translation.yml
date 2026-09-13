@@ -1944,7 +1944,7 @@
   EXPLO_FINISHED_WHEN: "#T Експедицію завершено#!\nМи очікуємо, що до завершення [Concept('exploration', 'експедиції')|e] залишилося близько [Exploration.GetEstimatedTimeLeft|V]."
   EXPLORATION_CONSTRUCTION_FINISHED_WHEN: "#T Будівництво для експедиції завершено#!\nМи очікуємо, що приготування будуть завершені [PossibleExplorationItem.GetExplorationConstruction.GetFinishedDateIncludingQueue|V], і потім ця [Concept('exploration', 'експедиція')|e] вирушить у путь."
   EXPLORATION_CONSTRUCTION_DURATION: "[Construction.GetDurationInDays] д."
-  EXPLORATION_CONSTRUCTION_HEADER: "Підготовка [Concept('exploration', 'експедиції')|e] на територію області [Construction.GetExplorationArea.GetNameWithNoTooltip] у [Construction.GetLocation.Custom('LR_PREP')|l] [Construction.GetLocation.GetNameWithNoTooltip]"
+  EXPLORATION_CONSTRUCTION_HEADER: "Підготовка [Concept('exploration', 'експедиції')|e] до області [Construction.GetExplorationArea.GetNameWithNoTooltip] у [Construction.GetLocation.Custom('LR_PREP')|l] [Construction.GetLocation.GetNameWithNoTooltip]"
   EXPL_PROGRESS_HEADER_TT: "Прогрес експедиції «[Exploration.GetNameWithNoTooltip]» на місяць"
   EXPL_TOTAL_PROGRESS_HEADER_TT: "Поточний прогрес експедиції «[Exploration.GetNameWithNoTooltip]»"
   EXPLO_MONTHLY_PROG_TITLE: "Прогрес на місяць: [Exploration.GetMonthlyProgress|+=2]. Причини:"
