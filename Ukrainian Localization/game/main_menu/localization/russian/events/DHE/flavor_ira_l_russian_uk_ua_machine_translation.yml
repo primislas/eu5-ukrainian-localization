@@ -322,7 +322,7 @@
   flavor_ira.1010.a.entry: "Підтримаємо їхніх кизилбашів."
   flavor_ira.1010.b: "Нехай справляються самі."
   flavor_ira.1011.title: "Заколот кизилбашів-шиїтів"
-  flavor_ira.1011.desc: "Останнім часом #TOOLTIP:RELIGION,$shia_tt$,X #L шиїтські#!#! єретики [root_country.Custom('GetQizilbashEstateName')] влаштовують заворушення в місцевості [target_location.GetName]. Схоже, їхні спроби розпалити заколот фінансує [root_country.GetLongName]. Тепер ці фанатики вимагають більшої автономії для провінції [target_province.GetName] та інших займаних ними земель."
+  flavor_ira.1011.desc: "Останнім часом #TOOLTIP:RELIGION,$shia_tt$,X #L шиїтські#!#! єретики [root_country.Custom('GetQizilbashEstateName')] влаштовують заворушення в місцевості [target_location.GetName]. Схоже, їхні спроби розпалити заколот оплачує [root_country.GetLongName]. Тепер ці шаленці вимагають більшої самоврядности для провінції [target_province.GetName] та інших займаних ними земель."
   qizilbash_uprising: "Повстання кизилбашів"
   flavor_ira.1011.a: "Покінчимо з цією єрессю раз і назавжди!"
   flavor_ira.1011.a.tt: "Усі #TOOLTIP:RELIGION,$shia_tt$,X #L шиїтські#!#! [Concept('pop', 'громади')|e] провінції [THIS.GetProvince.GetName] будуть насильно навернені в #TOOLTIP:RELIGION,$sunni_tt$,X #L сунізм#!#!. Це призведе до #R втрати#! #Y 10%#! місцевого населення."

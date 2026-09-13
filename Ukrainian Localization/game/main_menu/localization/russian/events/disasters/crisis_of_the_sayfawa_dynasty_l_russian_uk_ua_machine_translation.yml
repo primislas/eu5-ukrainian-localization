@@ -31,7 +31,7 @@
   crisis_of_the_sayfawa_dynasty.7.desc: "Наша країна вже давно страждає від безчинних #TOOLTIP:CULTURE,$bilala_culture_tt$,X #L білальських#!#! розбійників. Вони сміливішають з кожним набігом, і їх стає все більше. Недавнє вторгнення білала в [target_location.Custom('LR_ACC')|l] [target_location.GetName] підштовхнуло багатьох їхніх родичів переселитися вглиб нашої території. Якщо так піде й далі, ми будемо не в силах їх зупинити."
   crisis_of_the_sayfawa_dynasty.7.a: "[ROOT.GetCountry.Custom('common_string_negative')]"
   crisis_of_the_sayfawa_dynasty.7.b: "Заплатимо, щоб вони забралися геть."
-  gave_autonomy_to_the_bulala_and_sao_tt: "Дає автономію народам #Y білала#! та #Y сао#!"
+  gave_autonomy_to_the_bulala_and_sao_tt: "Дарує самоврядність народам #Y білала#! та #Y сао#!"
   kbo_join_tt: "[kbo_strong_general_scope.GetNameWithNoTooltip] очолить наші війська та розгромить ворога"
   sao_and_bilala_reduced_control_tt: "Усі [Concept('location', 'місцевості')|e] з #TOOLTIP:CULTURE,$bilala_culture_tt$,X #L білальськими#!#! або #TOOLTIP:CULTURE,$sao_culture_tt$,X #L саоськими#!#! [Concept('pops', 'громадами')|e] отримають [ShowNamedValue('control_severe_penalty')|+=2%] до [Concept('control', 'контролю')|e]"
   had_csd_disaster_variable_tt: "Перше зіткнення з цим лихом"

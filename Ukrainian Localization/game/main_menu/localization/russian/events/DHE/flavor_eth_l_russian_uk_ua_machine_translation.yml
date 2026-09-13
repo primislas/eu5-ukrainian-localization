@@ -286,5 +286,5 @@
   flavor_eth.271.b: "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]"
   flavor_eth.271.b.entry: "$common_string_nothing_we_can_do_about_it$"
   variable_tt_portuguese_embassy: "В Ефіопії засновано португальське посольство"
-  variable_tt_not_eth_autonomous_church: "Ефіопська православна церква не добилася автономії від Александрії"
+  variable_tt_not_eth_autonomous_church: "Ефіопська православна церква не домоглася самоврядности від Александрії"
   variable_tt_not_abandoned_stele_construction: "Будівництво обеліска в Аксумі не було припинено"

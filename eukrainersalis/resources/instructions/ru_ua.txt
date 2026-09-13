@@ -399,6 +399,13 @@ IMPORTANT! When presented with several alternative translation options, choose t
     ** alternatives for narrative texts: "міжусобиця" (more casual), "братовбивча війна" (stressed strife), "розкол" (stressed division)
     ** use "громадянська війна" for wars which are historically known by this name, such as "Англійська громадянська війна", civil wars that happen in republics, or when parliaments, revolutions and revolutionaries are mentioned
 
+    * autonomy, автономия -> самоврядність, самоврядний
+    ** for nobility, burghers, peasants, clergy use "вольності" when appropriate
+    ** for humans in the meaning of autonomy of action, right to act of their own volition, based on their own judgment, use: самостійність, свобода (дії, прийняття рішень тощо)
+    ** when autonomy is used to mean full freedom of political action (including a country) or outright independence, sometimes "самостійність" is the best fit
+    ** автономия личности -> особиста свобода, свобода волі
+    ** дипломатическая автономия -> право на зносини
+
     * Страна Хулагуидов -> Ільханат
     * Молдавия, молдавский -> always with "o" - "Молдова", "молдовський", "молдовани", etc.
     * махараджа -> магараджа
