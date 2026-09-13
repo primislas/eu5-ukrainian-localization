@@ -966,7 +966,7 @@
   BUILD_SPYNETWORK_RECENTLY_DISCOVERED: "@trigger_no! Наших шпигунів розкрили, тому ми не можемо відправити нових до $WHEN|Y$."
   BUILD_SPYNETWORK_SUBJECT: "@trigger_no! [COUNTRY.GetName] — [Concept('subject', 'васал')|e] країни $OVERLORD$, шпигувати потрібно за останньою."
   BUILD_SPYNETWORK_DESC_TT: "Це призведе до того, що ми щомісяця отримуватимемо $VAL|+=2$ до своєї [Concept('spy_network', 'шпигунської мережі')|e] в країні $COUNTRY$."
-  BUILD_SPYNETWORKDESC: "Ми хочемо створити [Concept('spy_network', 'шпигунську мережу')|e] в країні $COUNTRY$? Вона отримуватиме $VAL|+=2$ до свого розміру щомісяця та дозволить нам здійснювати різні таємні дії на території цієї країни. При цьому кожна мережа, яку ми активно підтримуємо, накладає такі ефекти:\n$EFFECT$"
+  BUILD_SPYNETWORKDESC: "Ми хочемо створити [Concept('spy_network', 'шпигунську мережу')|e] в країні $COUNTRY$? Вона отримуватиме $VAL|+=2$ до свого розміру щомісяця та дозволить нам здійснювати різні таємні дії у володіннях цієї країни. При цьому кожна мережа, яку ми активно підтримуємо, накладає такі ефекти:\n$EFFECT$"
   CANCEL_BUILD_SPYNETWORK_TOOLTIP_HEADER: "Згортання активної шпигунської мережі в #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_PREP')|L]#!#!"
   CANCEL_BUILD_SPYNETWORK_TOOLTIP_HEADER_NO_TARGET: "Згортання активної шпигунської мережі в [Concept('country', 'країні')|e]"
   CANCEL_BUILD_SPYNETWORK_FLAVOR: "Ми припинимо створювати нашу [Concept('spy_network', 'шпигунську мережу')|e] в цій країні, і вона поступово скорочуватиметься."

@@ -18,7 +18,7 @@
   calvinist.sent_reformed_ministers: "[target_country.GetLongName] — країна, куди вирушать наші #TOOLTIP:BUILDING_TYPE,calvinist_preachers,X #L кальвіністські проповідники#!#!#!"
   sent_reformed_ministers: "Відправлено кальвіністських проповідників"
   calvinist.5.b: "Нам є чим зайнятися вдома."
-  calvinist.6.title: "Іноземні проповідники на території #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!"
+  calvinist.6.title: "Іноземні проповідники на теренах #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!"
   calvinist.6.desc: "Нам повідомляють, що на землях #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! з'явилися кальвіністські проповідники. Схоже, їхня батьківщина — [from.GetLongName], і вони підбурюють місцеве населення чинити опір нашим спробам викорінити цю єресь."
   calvinist.6.a: "Обурливо!"
   calvinist.7.title: "Приречення"

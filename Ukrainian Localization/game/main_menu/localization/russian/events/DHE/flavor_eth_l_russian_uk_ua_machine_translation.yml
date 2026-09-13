@@ -135,7 +135,7 @@
   flavor_eth.151.b: "Він не повернеться, доки живий."
   flavor_eth.153.title: "Дебре-Ігзіабер"
   flavor_eth.153.entry: "$flavor_eth.153.title$"
-  flavor_eth.153.desc: "Дебре-Ігзіабер, одна з найдавніших церков #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, давно забута та занедбана. Одного разу, милуючись озером у [target_location.Custom('LR_PREP')|l] [target_location.GetName], [target_character.GetName] [Select_CString(target_character.IsFemale, 'задумалася', 'задумався' )] про те, щоб відновити її заради зміцнення #L [ROOT.GetCountry.GetReligion.GetAdjective|l]ої#! віри на території [ROOT.GetCountry.Custom('rank_ua_GEN')|l]."
+  flavor_eth.153.desc: "Дебре-Ігзіабер, одна з найдавніших церков #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, давно забута та занедбана. Одного разу, милуючись озером у [target_location.Custom('LR_PREP')|l] [target_location.GetName], [target_character.GetName] [Select_CString(target_character.IsFemale, 'задумалася', 'задумався' )] про те, щоб відновити її заради зміцнення #L [ROOT.GetCountry.GetReligion.GetAdjective|l]ої#! віри на теренах [ROOT.GetCountry.Custom('rank_ua_GEN')|l]."
   flavor_eth.153.a: "Відновимо цю церкву."
   flavor_eth.153.b: "Ми не станемо цього робити, навіть якщо [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] прогніва[ROOT.GetCountry.Custom('clergy_yetsayutsa')]."
   flavor_eth.153.b.entry: "Ми не станемо цього робити, навіть якщо священники прогніваються."

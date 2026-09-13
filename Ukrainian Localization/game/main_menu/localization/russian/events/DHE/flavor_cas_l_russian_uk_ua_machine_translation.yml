@@ -99,7 +99,7 @@
   flavor_cas.16.b: "Що за дурниці?"
   flavor_cas.17.title: "«Книга про полювання»"
   flavor_cas.17.entry: "$flavor_cas.17.title$"
-  flavor_cas.17.desc: "[target_artist.GetName] [Select_CString(target_artist.IsFemale,'написала', 'написав')] всеосяжну працю, присвячену мисливським угіддям #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, а також розведенню мисливських собак. Цей трактат не просто свідчить про різнобічні здібності [Select_CString(target_artist.IsFemale,'нашої правительки', 'нашого правителя')] — завдяки йому ми зможемо розширити видобуток #TOOLTIP:GOODS,wild_game,X #L дичини#!#! на території [ROOT.GetCountry.Custom('rank_ua_GEN')|l]."
+  flavor_cas.17.desc: "[target_artist.GetName] [Select_CString(target_artist.IsFemale,'написала', 'написав')] всеосяжну працю, присвячену мисливським угіддям #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, а також розведенню мисливських собак. Цей трактат не просто свідчить про різнобічні здібності [Select_CString(target_artist.IsFemale,'нашої правительки', 'нашого правителя')] — завдяки йому ми зможемо розширити видобуток #TOOLTIP:GOODS,wild_game,X #L дичини#!#! на теренах [ROOT.GetCountry.Custom('rank_ua_GEN')|l]."
   flavor_cas.17.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   flavor_cas.17.a.entry: "$common_string_brilliant$"
   flavor_cas.18.title: "[target_ruler.GetNameWithNoTooltip] успадковує престол"
