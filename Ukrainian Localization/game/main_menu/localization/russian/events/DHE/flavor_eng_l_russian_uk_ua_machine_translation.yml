@@ -73,7 +73,7 @@
   flavor_eng.9.tt2: "#TOOLTIP:POPTYPE,peasants,X #L Селяни#!#! з #TOOLTIP:PROVINCE_DEFINITION,norfolk_province,X #L Норфолка#!#! об'єднається з незадоволеними землеробами по всій країні, і почнеться збройне повстання"
   kett_rebellion: "Повстання Кета"
   flavor_eng.9.b: "Вимагатимемо прибрати всі огорожі."
-  flavor_eng.9.tt3: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|U]-землевласники протестуватимуть проти порушення прав на свої території"
+  flavor_eng.9.tt3: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|U]-землевласники протестуватимуть проти порушення прав на свої володіння"
   flavor_eng.9.historical_info: "Повстання Кета відбулося в англійському графстві Норфолк. Народне невдоволення було викликане політикою обгороджування сільськогосподарських земель — фермери не могли обробляти свої угіддя, що завдало серйозної шкоди як англійському суспільству, так і господарству країни. Заколотники захопили Норідж, однак незабаром зазнали поразки від королівського війська."
   every_location_norfolk_kett_rebellion_tt: "Кожна належна нам [Concept('location', 'місцевість')|e] #TOOLTIP:PROVINCE_DEFINITION,norfolk_province,X #L Норфолка#!#! отримує модифікатор «[ShowModifier('kett_rebellion')]» на #W 5 років#!"
   flavor_eng.10.title: "Погляд згори"

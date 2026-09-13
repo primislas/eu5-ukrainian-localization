@@ -177,7 +177,7 @@
   flavor_boh.34.tt: "[GetCountry('BOH').GetLongName] — ця країна отримає від нас пропозицію ціни"
   flavor_boh.35.title: "Відповідь [GetCountry('BRA').Custom('longname_ua_wntt_GEN')]"
   flavor_boh.35.desc_no_heir: "$flavor_boh.35.desc$\n\nОднак прийняти цю пропозицію у нас нікому, оскільки [ROOT.GetCountry.GetGovernment.GetHeirTitle|l] відсутній."
-  flavor_boh.35.desc: "[GetCountry('BRA').GetLongName] — влада цієї країни надсилає відповідь, вказавши в ній суму, яку вважає допустимим відшкодуванням за продаж частини своєї території та воцаріння іншого правителя, адже тоді [GetCountry('BRA').GetGovernment.GetRulerTitle|l] позбудеться свого престолу, а сидіти на ньому буде [ROOT.GetCountry.GetGovernment.GetHeirTitle|l] нашої країни."
+  flavor_boh.35.desc: "[GetCountry('BRA').GetLongName] — влада цієї країни надсилає відповідь, вказавши в ній суму, яку вважає допустимим відшкодуванням за продаж частини своїх земель та воцаріння іншого правителя, адже тоді [GetCountry('BRA').GetGovernment.GetRulerTitle|l] позбудеться свого престолу, а сидіти на ньому буде [ROOT.GetCountry.GetGovernment.GetHeirTitle|l] нашої країни."
   flavor_boh.35.a: "Це прийнятно."
   flavor_boh.35.b: "На жаль, це неприйнятно."
   flavor_boh.36.title: "Чотири статті [ROOT.GetCountry.GetCapital.Custom('CL_GEN')]"

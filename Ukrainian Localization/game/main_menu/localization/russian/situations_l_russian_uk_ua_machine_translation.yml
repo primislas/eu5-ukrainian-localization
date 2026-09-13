@@ -499,7 +499,7 @@
   dissolution_of_delhi_started_tt: "Починається [Concept('disaster', 'лихо')|e] «[ShowDisasterName('dissolution_of_delhi')]»"
   until_the_end_of_the_situation_desc: "До закінчення ситуації"
   fall_of_delhi_plea_neighbors: "Відправлення послів"
-  fall_of_delhi_plea_neighbors_desc: "Країна [GetCountry('DLH').GetFlavorRank] вкрай акуратно розпоряджається своїми печатками. Посли з документами, скріпленими такою печаткою, у супроводі найкращої охорони — це вже саме по собі підтвердження нашої могутності, здатне охолодити гарячі голови всіх, хто зазіхає на наші території."
+  fall_of_delhi_plea_neighbors_desc: "Країна [GetCountry('DLH').GetFlavorRank] вкрай акуратно розпоряджається своїми печатками. Посли з документами, скріпленими такою печаткою, у супроводі найкращої охорони — це вже саме по собі підтвердження нашої могутности, здатне охолодити гарячі голови всіх, хто зазіхає на наші землі."
   fall_of_delhi_appoint_governors: "Призначення намісників"
   fall_of_delhi_appoint_governors_desc: "[GetCountry('DLH').GetFlavorRank], де ми живемо, простягається далеко й широко. Нам відчайдушно потрібні вмілі та віддані керівники шляхетного походження, здатні забезпечити провінціям процвітання та придушити інакомислення."
   fall_of_delhi_reaffirm_vassal_relations: "Вимога данини"

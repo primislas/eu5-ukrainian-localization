@@ -1056,7 +1056,7 @@
   MODIFIER_TYPE_NAME_rural_settlement_upgrade_cost_modifier: "НЕ ВИКОРИСТОВУЄТЬСЯ"
   MODIFIER_TYPE_DESC_rural_settlement_upgrade_cost_modifier: "НЕ ВИКОРИСТОВУЄТЬСЯ"
   MODIFIER_TYPE_NAME_rural_settlement_downgrade_cost_modifier: "Вартість пониження до сільської місцевості"
-  MODIFIER_TYPE_DESC_rural_settlement_downgrade_cost_modifier: "Впливає на [Concept('costs', 'вартість')|e] пониження #TOOLTIP:LOCATIONRANK,city,X #L міста#!#! або #TOOLTIP:LOCATIONRANK,town,X #L містечка#!#! до #TOOLTIP:LOCATIONRANK,rural_settlement,X #L сільської території#!#!."
+  MODIFIER_TYPE_DESC_rural_settlement_downgrade_cost_modifier: "Впливає на [Concept('costs', 'вартість')|e] пониження #TOOLTIP:LOCATIONRANK,city,X #L міста#!#! або #TOOLTIP:LOCATIONRANK,town,X #L містечка#!#! до #TOOLTIP:LOCATIONRANK,rural_settlement,X #L сільських земель#!#!."
   MODIFIER_TYPE_NAME_hre_army_building_cost_modifier: "Модифікатор витрат на імперську військову споруду"
   MODIFIER_TYPE_DESC_hre_army_building_cost_modifier: "Впливає на [Concept('cost', 'вартість')|e] будівництва споруди «[ShowBuildingTypeName('hre_imperial_armory_foreign')]»."
   MODIFIER_TYPE_NAME_hre_imperial_armory_level: "Доступний рівень імперської військової споруди"

@@ -726,7 +726,7 @@
   diplomatic_endeavors_action_progress_long_wordier: "@diplomatic_reputation! [SCOPE.sCountry('actor').GetModifierValue('diplomatic_reputation')] \n\n@improve_relation_impact! [SCOPE.sCountry('actor').GetModifierValue('improve_relation_impact')]"
   diplomatic_endeavors_action_progress_tooltip: "[Concept('diplomatic_reputation', 'Добре ім’я')|e]: [SCOPE.sCountry('actor').GetModifierValue('diplomatic_reputation')] \n\n[Concept('improve_relations', 'Поліпшення відносин')|e]: [SCOPE.sCountry('actor').GetModifierValue('improve_relation_impact')]"
   counter_espionage_action: "Викрити шпигунів"
-  counter_espionage_action_desc: "Ця дія захистить нашу [Concept('country', 'країну')|e] від інших країн, що намагаються створити свої [Concept('spy_network', 'шпигунські мережі')|e] на нашій території."
+  counter_espionage_action_desc: "Ця дія захистить нашу [Concept('country', 'країну')|e] від інших країн, що намагаються створити свої [Concept('spy_network', 'шпигунські мережі')|e] у наших володіннях."
   counter_espionage_action_action: "Провести викриття шпигунів"
   counter_espionage_action_active: "Викриття шпигунів"
   counter_espionage_action_action_progress: ""
