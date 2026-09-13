@@ -81,7 +81,7 @@
   pardon_desc_specific: "[recipient.GetName] отримує прощення #ONCLICK:COUNTRY,[SCOPE.sCountry('actor').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('actor').GetKey],X [SCOPE.sCountry('actor').Custom('CL_GEN')|L]#!#!."
   pardon_desc: "[Concept('character', 'Персонаж')|e] отримує прощення."
   pardon_past: "[recipient.GetName] [Select_CString(recipient.IsFemale,'прощена', 'прощений')]"
-  pardon_act_past: "[recipient.GetName] [Select_CString(recipient.IsFemale,'отримала', 'отримав')] прощення на території #ONCLICK:COUNTRY,[SCOPE.sCountry('actor').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('actor').GetKey],X [SCOPE.sCountry('actor').Custom('CL_GEN')|L]#!#!."
+  pardon_act_past: "[recipient.GetName] [Select_CString(recipient.IsFemale,'отримала', 'отримав')] прощення на теренах #ONCLICK:COUNTRY,[SCOPE.sCountry('actor').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('actor').GetKey],X [SCOPE.sCountry('actor').Custom('CL_GEN')|L]#!#!."
   appoint_as_heir: "Призначити спадкоємцем"
   appoint_as_heir_concept: "[Concept('heir', 'спадкоємець')|e]"
   appoint_as_heir_act: "$appoint_as_heir$"

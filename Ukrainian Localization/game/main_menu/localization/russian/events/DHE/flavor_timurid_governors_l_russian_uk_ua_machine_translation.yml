@@ -4,7 +4,7 @@
   flavor_tim_governor.1.a: "Час розлучатися з владою."
   flavor_tim_governor.1.b: "Може, домовимося про продовження?"
   flavor_tim_governor.2.title: "Прохання [prev_country.Custom('CL_GEN')]"
-  flavor_tim_governor.2.desc: "[target_character3.GetName] [Select_CString(target_character3.IsFemale,'померла', 'помер')] і тепер землі #ONCLICK:COUNTRY,[prev_country.GetKey] #TOOLTIP:COUNTRY,[prev_country.GetKey],X [prev_country.Custom('CL_GEN')|L]#!#! належать нам. Однак [target_character2.GetName] [Select_CString(target_character2.IsFemale,'звернулася', 'звернувся')] до нас із проханням дозволити [Select_CString(target_character2.IsFemale,'їй', 'йому')] зберегти за собою ці території."
+  flavor_tim_governor.2.desc: "[target_character3.GetName] [Select_CString(target_character3.IsFemale,'померла', 'помер')] і тепер землі #ONCLICK:COUNTRY,[prev_country.GetKey] #TOOLTIP:COUNTRY,[prev_country.GetKey],X [prev_country.Custom('CL_GEN')|L]#!#! належать нам. Однак [target_character2.GetName] [Select_CString(target_character2.IsFemale,'звернулася', 'звернувся')] до нас із проханням дозволити [Select_CString(target_character2.IsFemale,'їй', 'йому')] зберегти за собою ці володіння."
   flavor_tim_governor.2.a: "Нам все одно."
   flavor_tim_governor.2.b: "Це ми можемо."
   tim_governor_maintain_governance_tt: "Землі в області [target_area.GetName] залишаться під контролем [prev_country.Custom('CL_GEN')]"

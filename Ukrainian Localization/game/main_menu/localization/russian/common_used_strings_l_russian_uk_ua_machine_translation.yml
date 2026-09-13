@@ -73,6 +73,6 @@
   genghis_khan_name: "#TOOLTIP:CHARACTER,[GetCharacter('genghis_khan').GetID],X #L [GetCharacter('genghis_khan').GetNicknameWithNoTooltip] $rank_kingdom_horde_ruler_suffix_male$#!#!"
   genghis_khan_name_no_tooltip: "$name_genghis$ $rank_kingdom_horde_ruler_suffix_male$"
   AREA_PREFERENCES_INFO_TITLE: "Пріоритетні області ШІ:"
-  AREA_PREFERENCE_TYPE_EXPLORATION: "Прагне [Concept('explore', 'відправити експедицію')|e] та [Concept('colonize', 'колонізувати')|e] територію $SCOPE$."
-  AREA_PREFERENCE_TYPE_CONQUEST: "Прагне [Concept('conquer', 'завоювати')|e] територію $SCOPE$."
+  AREA_PREFERENCE_TYPE_EXPLORATION: "Прагне [Concept('explore', 'відправити експедицію')|e] та [Concept('colonize', 'колонізувати')|e] землю $SCOPE$."
+  AREA_PREFERENCE_TYPE_CONQUEST: "Прагне [Concept('conquer', 'завоювати')|e] землю $SCOPE$."
   AREA_PREFERENCE_HOME_REGION: "свій рідний регіон"

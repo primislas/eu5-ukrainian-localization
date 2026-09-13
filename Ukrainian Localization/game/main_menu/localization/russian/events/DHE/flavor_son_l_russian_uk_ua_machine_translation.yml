@@ -42,7 +42,7 @@
   son_all_clergy_pops_in_location_gain_satisfaction_tt: "Усі [Concept('pops', 'громади')|e] зі стану «[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]» отримають [ShowNamedValue('pop_satisfaction_ultimate_bonus')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e]"
   flavor_son.7.title: "[ShowPolicyNameWithNoTooltip('sharia_law_policy')]"
   flavor_son.7.entry: "Шаріатське право"
-  flavor_son.7.desc: "Постійні розбіжності між #TOOLTIP:RELIGIONGROUP,muslim,X #L мусульманами#!#! та невірними в #TOOLTIP:REGION,guinea_region,X #L Гвінеї#!#! призвели до того, що [target_character.GetName] [Select_CString(target_character.IsFemale,'запропонувала', 'запропонував')] зобов'язати всіх язичників виконувати #TOOLTIP:POLICY,sharia_law_policy,X #L закони шаріату#!#!. Цей суворий, але необхідний захід дозволить нам забезпечити суворий порядок на території країни."
+  flavor_son.7.desc: "Постійні розбіжності між #TOOLTIP:RELIGIONGROUP,muslim,X #L мусульманами#!#! та невірними в #TOOLTIP:REGION,guinea_region,X #L Гвінеї#!#! призвели до того, що [target_character.GetName] [Select_CString(target_character.IsFemale,'запропонувала', 'запропонував')] зобов'язати всіх язичників виконувати #TOOLTIP:POLICY,sharia_law_policy,X #L закони шаріату#!#!. Цей суворий, але необхідний захід дозволить нам забезпечити суворий порядок на теренах країни."
   flavor_son.7.a: "Усі жителі [ROOT.GetCountry.Custom('CL_GEN')] повинні дотримуватися мусульманських законів."
   flavor_son.7.a.entry: "Всі жителі повинні дотримуватися мусульманських законів."
   flavor_son.7.b: "Будемо поважати закони невірних."

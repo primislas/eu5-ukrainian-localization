@@ -4,7 +4,7 @@
   church_aspects.1.a: "Ми поважаємо їхні переконання."
   church_aspects.1.b: "Усі призвані мають служити."
   church_aspects.2.title: "Блаженні миротворці"
-  church_aspects.2.desc: "Роки миру призвели до посилення пацифістського руху серед прихильників #L [ROOT.GetCountry.GetReligion.GetAdjective|l]ої#! віри на території #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Шанований пацифістський богослов виступив перед народом зі словами підтримки нашої благодійної влади та закликом до всіх християн наслідувати приклад, який подає [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]."
+  church_aspects.2.desc: "Роки миру призвели до посилення пацифістського руху серед прихильників #L [ROOT.GetCountry.GetReligion.GetAdjective|l]ої#! віри на теренах #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Шанований пацифістський богослов виступив перед народом зі словами підтримки нашої благодійної влади та закликом до всіх християн наслідувати приклад, який подає [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]."
   church_aspects.2.a: "Ми всі діти Господа."
   church_aspects.3.title: "Обітниця нестяжання"
   church_aspects.3.desc: "Багато #L [ROOT.GetCountry.GetReligion.GetAdjective|l]их#! напрямків відкидають накопичення багатств церквою — ця практика у багатьох асоціюється з гріховним занепадом католицької церкви. Дедалі більше священників приймають обітницю нестяжання, і #L [ROOT.GetCountry.GetAdjective|l]а#! церква дедалі більше обмежує себе духовними питаннями та відмовляється від втручань у мирські справи."

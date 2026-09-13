@@ -16,7 +16,7 @@
   flavor_mug.2.b: "У цих реформах немає потреби."
   flavor_mug.3.title: "Поділ на суби"
   flavor_mug.3.entry: "$flavor_mug.3.title$"
-  flavor_mug.3.desc: "Нинішні розміри [ROOT.GetCountry.Custom('rank_ua_GEN')|l] не дозволяють ефективно керувати всією країною з [ROOT.GetCountry.GetCapital.Custom('LR_GEN')|l] [ROOT.GetCountry.GetCapital.GetName], тому нам запропонували новий спосіб територіального поділу. [ShowGovernmentReformName('subah_organization_reform')] дозволяє будь-якому впливовому жителю [ROOT.GetCountry.GetCapital.Custom('LR_GEN')|l] стати намісником у регіоні."
+  flavor_mug.3.desc: "Нинішні розміри [ROOT.GetCountry.Custom('rank_ua_GEN')|l] не дозволяють справно керувати всією країною з [ROOT.GetCountry.GetCapital.Custom('LR_GEN')|l] [ROOT.GetCountry.GetCapital.GetName], тому нам запропонували новий спосіб поділу земель. [ShowGovernmentReformName('subah_organization_reform')] дозволяє будь-якому впливовому жителю [ROOT.GetCountry.GetCapital.Custom('LR_GEN')|l] стати намісником у регіоні."
   flavor_mug.3.a: "Головне, щоб усі суби були під нашим контролем."
   flavor_mug.3.b: "Наші регіони й без того добре керуються."
   flavor_mug.4.title: "[target_character.GetNameWithNoTooltip] проводить грошову реформу"
