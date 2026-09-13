@@ -16,7 +16,7 @@
   diplomatic_status_infiltrate_administration_target_name: "Іноземні вивідачі у владі країни"
   diplomatic_status_infiltrate_administration_target_tooltip: "#T Іноземні вивідачі у владі країни#!\nУ місцеву владу проникли шпигуни з цих [Concept('countries', 'країн')|e]. Вони бачать те, що відбувається в землях, оповитих [Concept('fog_of_war', 'туманом війни')|e]."
   infiltrate_administration_target_list_who_tt: "Вивідачі ($LIST$) проникають у владу країни $WHO$"
-  infiltrate_administration_ongoing_tooltip: "[Concept('fog_of_war', 'Туман війни')|e] над їхніми територіями розвіюється до $DATE$."
+  infiltrate_administration_ongoing_tooltip: "[Concept('fog_of_war', 'Туман війни')|e] над їхніми володіннями розвіюється до $DATE$."
   diplomatic_status_curry_favors_name: "Пошук прихильності"
   diplomatic_status_curry_favors_tooltip: "#T Пошук прихильності#!\nКраїна зараз шукає [Concept('favors', 'прихильності')|e] цих [Concept('countries', 'країн')|e]."
   diplomatic_status_union_name: "Унії"

@@ -2034,7 +2034,7 @@
   NO_COMMANDER_TO_REMOVE: "У цьому [Concept('army', 'війську')|e] немає полководця, якого можна було б зняти"
   NO_ALMIRANT_TO_REMOVE: "У цьому [Concept('navy', 'флоті')|e] немає флотоводця, якого можна було б зняти"
   BLOCKADE_CAPACITY_FROM_SHIPS: "Кораблі: $VAL|2+=$"
-  UNIT_BLOCKADE_TOOLTIP: "Загальний внесок цього загону в [Concept('blockade', 'блокаду')|e] становить $PERCENT|0Y%$; він розподілений між територіями ($CITIES|Y$)."
+  UNIT_BLOCKADE_TOOLTIP: "Загальний внесок цього загону в [Concept('blockade', 'блокаду')|e] становить $PERCENT|0Y%$; він розподілений між місцевостями ($CITIES|Y$)."
   MOTHBALL_IS_ON_TT: "[Concept('navy', 'Флот')|e] законсервований"
   MOTHBALL_IS_ON_TT_INFO: "При [Concept('mothball', 'розконсервації')|e] флоту «[UNIT.GetName]» ви знову станете платити повну вартість його утримання та відновите його [Concept('repair', 'лагодження')|e]."
   MOTHBALL_IS_ON_TT_CTA: "$NAMES$: [Concept('mothball', 'розконсервуйте')|e]."

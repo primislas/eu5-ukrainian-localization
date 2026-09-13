@@ -41,7 +41,7 @@
   flavor_dlh.7.desc: "Наш так званий сюзерен перебуває при смерті. Його країна — лише бліда подоба себе колишньої. Намагаючись купити нашу відданість і налагодити торгівлю #TOOLTIP:GOODS,silver,X #L сріблом#!#!, влада [GetCountry('DLH').Custom('rank_ua_GEN')|l] відправляє до нас пишний караван із посланцями та сановниками, який привезе новини із самого серця країни — [GetCountry('DLH').GetCapital.Custom('LR_GEN')|l] [GetCountry('DLH').GetCapital.GetName]…"
   flavor_dlh.7.a: "Купити нашу відданість? Хм-м-м…"
   flavor_dlh.7.b: "Вони напрошуються на відкритий заколот?"
-  gained_delhi_lands_tt: "[GetCountry('DLH').GetName] поступ[GetCountry('DLH').Custom('end_ytlyat')]ся своїми територіями в #TOOLTIP:AREA,bengal_area,X #L Бенгалії#!#!, щоб умилостивити нас і заручитися нашою підтримкою"
+  gained_delhi_lands_tt: "[GetCountry('DLH').GetName] поступ[GetCountry('DLH').Custom('end_ytlyat')]ся своїми володіннями в #TOOLTIP:AREA,bengal_area,X #L Бенгалії#!#!, щоб умилостивити нас і заручитися нашою підтримкою"
   flavor_dlh.8.title: "Місячний володар [ROOT.GetCountry.Custom('CL_GEN')]"
   flavor_dlh.8.entry: "$flavor_dlh.8.title$"
   flavor_dlh.8.desc: "Наша культура має давнє коріння, вона багата на легенди та перекази. Деякі з них оповідають про великих людей, яким вдалося вибитися з бруду в князі. Мабуть, найяскравіший приклад — це [GetCharacter('dlh_qutb_ud_in_aibak').GetName]. У цій історії колишній невільник стає засновником нашої великої держави. На жаль, [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], як[ROOT.GetCountry.Custom('nobles_yiaei')] виступа[ROOT.GetCountry.Custom('nobles_yeyut')] за жорстку ієрархію, бач[ROOT.GetCountry.Custom('nobles_ytat')] у ній загрозу своєму становищу…"

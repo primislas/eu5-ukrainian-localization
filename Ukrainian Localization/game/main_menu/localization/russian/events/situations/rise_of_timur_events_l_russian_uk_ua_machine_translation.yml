@@ -108,7 +108,7 @@
   rise_of_timur.1020.b: "[ROOT.GetCountry.GetLongNameWithNoTooltip] не розділ[ROOT.GetCountry.Custom('endlong_ytyat')] долю полеглих імперій."
   rise_of_timur.1020.b.tt: "Ми отримаємо [Concept('casus_belli', 'привід для війни')|e] #TOOLTIP:CASUS_BELLI,cb_timurs_conquests,X #L «Завоювання Тимура»#!#! з усіма [Concept('country', 'країнами')|e], чиї столиці розташовані в #TOOLTIP:REGION,anatolia_region,X #L Анатолії#!#!"
   rise_of_timur.1021.title: "Пропозиція від [from_country.Custom('CL_GEN')]"
-  rise_of_timur.1021.desc: "[from_country.GetLongName] — це країна, яка володіє серйозною військовою міццю і швидко приростає територіями. Тепер її влада звернула увагу на #TOOLTIP:REGION,anatolia_region,X #L Анатолію#!#! і запропонувала нам добровільно підкоритися і стати одним із їхніх васалів. Якщо ми відмовимося, вони не залишать своїх домагань на наші землі і спробують їх захопити."
+  rise_of_timur.1021.desc: "[from_country.GetLongName] — це країна, яка володіє серйозною військовою міццю і швидко приростає землями. Тепер її влада звернула увагу на #TOOLTIP:REGION,anatolia_region,X #L Анатолію#!#! і запропонувала нам добровільно підкоритися і стати одним із їхніх васалів. Якщо ми відмовимося, вони не залишать своїх домагань на наші землі і спробують їх захопити."
   rise_of_timur.1021.a: "Ми схилимо коліна."
   rise_of_timur.1021.b: "Нехай висунуть свої вимоги на полі бою."
   rise_of_timur.1022.title: "Влада [target_country.Custom('CL_GEN')] погоджується зробити країну нашим васалом"

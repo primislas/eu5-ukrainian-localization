@@ -170,7 +170,7 @@
   flavor_tur.27.a: "Він і буде нашою столицею."
   flavor_tur.27.b: "Розграбуємо місто та оголосимо про свою перемогу!"
   flavor_tur.27.c: "Черговий діамант у нашій короні. Не більше того."
-  tur_byzantion_becomes_core_tt: "Усі належні нам [Concept('locations', 'місцевості')|e] у Візантіоні стануть нашими [Concept('core', 'корінними')|e] територіями"
+  tur_byzantion_becomes_core_tt: "Усі належні нам [Concept('locations', 'місцевості')|e] у Візантіоні стануть нашими [Concept('core', 'корінними')|e] землями"
   flavor_tur.28.title: "Похорон Кьосе Міхала"
   flavor_tur.28.entry: "$flavor_tur.28.title$"
   flavor_tur.28.desc: "Колишній [GetCountry('BYZ').GetAdjectiveWithNoTooltip|l]ий намісник Кьосе Міхал був відомий тим, що одного разу йому уві сні з'явився пророк, який переконав його прийняти #TOOLTIP:RELIGIONGROUP,muslim,X #L іслам#!#! і присягнути на вірність бею на ім'я [GetCharacter('tur_osman').GetName]. З тих самих пір Кьосе був його найвірнішим прихильником, і за час своєї служби досяг великих успіхів. Серед іншого, він брав участь у взятті #TOOLTIP:LOCATION,bursa,X #L Бурси#!#!, де згодом провів решту своїх днів. Під час похорону його сини повинні будуть виголосити надгробні промови, проте ми ще не вирішили, яким буде їхній зміст.\nМи можемо наголосити на його #TOOLTIP:CULTURE,$greek_culture_tt$,X #L грецькому#!#! походженні, щоб показати, що в нашій країні у кожного є можливість досягти успіху. Водночас [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] наполяга[ROOT.GetCountry.Custom('clergy_yeyut')], щоб ми підкреслили його відданість #TOOLTIP:RELIGION,$sunni_tt$,X #L сунітській#!#! вірі."

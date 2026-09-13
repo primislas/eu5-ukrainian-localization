@@ -125,7 +125,7 @@
   game_concept_sea_current_desc: "$game_concept_sea_current$ — особливість певної [Concept('seazones', 'акваторії')|e], що дозволяє [Concept('navies', 'флотам')|e] швидше переміщатися в тому чи іншому напрямку."
   game_concept_frozen: "Замерзла акваторія"
   game_concept_frozen_freeze_over: "Замерзати"
-  game_concept_frozen_desc: "Замерзлою [Concept('seazone', 'акваторією')|e] можуть пересуватися [Concept('armies', 'війська')|e], що полегшує контроль над прилеглими територіями. Однак [Concept('navies', 'флоти')|e] застрягають у льоду і змушені чекати відлиги. Будьте уважні до зміни погоди: якщо на льоду [Concept('army', 'військо')|e], відлига може його погубити."
+  game_concept_frozen_desc: "Замерзлою [Concept('seazone', 'акваторією')|e] можуть пересуватися [Concept('armies', 'війська')|e], що полегшує контроль над прилеглими землями. Однак [Concept('navies', 'флоти')|e] застрягають у льоду і змушені чекати відлиги. Будьте уважні до зміни погоди: якщо на льоду [Concept('army', 'військо')|e], відлига може його погубити."
   game_concept_impassable: "Непрохідна територія"
   game_concept_passable: "Прохідна територія"
   game_concept_wasteland: "Пустка"

@@ -65,7 +65,7 @@
   AI_DISPOSITION_FRIENDLY_MAPMODE_TITLE: "[COUNTRY.GetName] виявля[COUNTRY.Custom('end_yeyut')] до вас прихильність"
   AI_DISPOSITION_REASON_ECO: "Ви маєте значну перевагу в господарстві."
   AI_DISPOSITION_REASON_MILITARY: "Ви маєте значну перевагу у військовій чисельності."
-  AI_DISPOSITION_REASON_COVETS_COUNT: "Країна хоче заволодіти вашими територіями ($COUNT|Y$)."
+  AI_DISPOSITION_REASON_COVETS_COUNT: "Країна хоче заволодіти вашими землями ($COUNT|Y$)."
   AI_DISPOSITION_REASON_DOMINEERING: "Ви як країна набагато слабші і можете лише підкоритися."
   AI_DISPOSITION_REASON_SUBJUGATION: "Ця країна вирішує зробити вашу своїм васалом."
   AI_DISPOSITION_REASON_RIVALS_FORMAL: "Вас офіційно оголосили суперником."

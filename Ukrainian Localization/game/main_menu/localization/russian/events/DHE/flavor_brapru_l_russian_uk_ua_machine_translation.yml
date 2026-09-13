@@ -156,7 +156,7 @@
   BRA_move_away_from_prosperity_silesia_tt: "Кожен [Concept('owned', 'належний')|e] нам [Concept('location', 'місцевість')|e] у #TOOLTIP:AREA,silesia_area,X #L Сілезії#!#! на #r 25%#! віддаляється від [Concept('prosperity', 'процвітання')|e]."
   flavor_brapru.28.title: "Претензії на Королівську Пруссію"
   flavor_brapru.28.entry: "Зазіхання на Королівську Пруссію"
-  flavor_brapru.28.desc: "Коридор між #L [ROOT.GetCountry.GetAdjective|l]ою#! #TOOLTIP:AREA,pomerania_area,X #L Померанією#!#! та [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ою #TOOLTIP:AREA,prussia_area,X #L Пруссією#!#! став би важливою частиною нашої країни — будь він у наших руках. Сполучення між нашими територіями зараз ведеться або через кордони з іншими країнами, або за допомогою кораблів, а це значно послаблює нашу владу над Пруссією."
+  flavor_brapru.28.desc: "Коридор між #L [ROOT.GetCountry.GetAdjective|l]ою#! #TOOLTIP:AREA,pomerania_area,X #L Померанією#!#! та [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ою #TOOLTIP:AREA,prussia_area,X #L Пруссією#!#! став би важливою частиною нашої країни — будь він у наших руках. Сполучення між нашими володіннями зараз ведеться або через кордони з іншими країнами, або за допомогою кораблів, а це значно послаблює нашу владу над Пруссією."
   flavor_brapru.28.a: "З'єднання територій — серйозне завдання."
   flavor_brapru.28.b: "Порушувати усталений порядок надто небезпечно."
   STATIC_MODIFIER_NAME_PRU_justifying_conquest_of_royal_prussia: "Виправдання завоювання Королівської Пруссії"
