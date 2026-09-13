@@ -84,7 +84,7 @@
   flavor_bng.1000.desc: "#TOOLTIP:INTERNATIONAL_ORGANIZATION,$middle_kingdom_tt$,X #L Серединна Країна#!#! з #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_INST')|L]#!#! як лідером може виявитися цінним союзником. Поки не до кінця зрозуміло, чи зуміємо ми переконати їх допомагати нам у будь-яких конфліктах, однак ми точно можемо відправити туди послів і зміцнити відносини між нами."
   flavor_bng.1000.a: "Варто спробувати."
   flavor_bng.1000.b: "Обійдемося без таких союзників."
-  bng_no_diplomatic_ties_tt: "Ми не станемо відправляти послів на територію #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_GEN')|L]#!#!"
+  bng_no_diplomatic_ties_tt: "Ми не станемо відправляти послів до #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_GEN')|L]#!#!"
   flavor_bng.1001.title: "$flavor_bng_1000_shared$"
   flavor_bng.1001.desc: "З #ONCLICK:COUNTRY,[target_country2.GetKey] #TOOLTIP:COUNTRY,[target_country2.GetKey],X [target_country2.Custom('CL_GEN')|L]#!#! до [ROOT.GetCountry.GetCapital.Custom('LR_GEN')|l] [ROOT.GetCountry.GetCapital.GetName] прибули посли. За їхніми словами, вони сподіваються встановити між нашими країнами добрі відносини і, можливо, пізнати наше мистецтво державного врядування. Завдяки цьому ми можемо спробувати збільшити свій вплив, однак, можливо, було б не надто розумно розкривати чужоземцям особливості нашого устрою."
   flavor_bng.1001.a: "Люб'язно приймемо їх!"

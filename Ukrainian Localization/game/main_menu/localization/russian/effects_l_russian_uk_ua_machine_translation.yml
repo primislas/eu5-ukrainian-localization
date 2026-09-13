@@ -1531,7 +1531,7 @@
   PAST_THIRD_LOSE_ABILITY_EFFECT: "[CHARACTER.GetName] [Select_CString(CHARACTER.IsFemale, 'втратила', 'втратив' )] $VALUE|0R$ од. здібності «$ABILITY$»"
   MOVE_CHARACTER_EFFECT: "Персонаж переїжджає до [TARGET_COUNTRY.Custom('longname_ua_GEN')]"
   THIRD_MOVE_CHARACTER_EFFECT: "[CHARACTER.GetName] переїжджає до [TARGET_COUNTRY.Custom('longname_ua_GEN')]"
-  PAST_MOVE_CHARACTER_EFFECT: "Здійснено переїзд на територію #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!"
+  PAST_MOVE_CHARACTER_EFFECT: "Здійснено переїзд до #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!"
   PAST_THIRD_MOVE_CHARACTER_EFFECT: "[CHARACTER.GetName] [Select_CString(CHARACTER.IsFemale, 'переїхала', 'переїхав' )] до [TARGET_COUNTRY.Custom('longname_ua_GEN')]"
   ADD_TRAIT_EFFECT: "Отримує [Concept('trait', 'рису')|e] «[TARGET_TRAIT.GetName]»"
   THIRD_ADD_TRAIT_EFFECT: "[CHARACTER.GetName] отримує [Concept('trait', 'рису')|e] «[TARGET_TRAIT.GetName]»"

@@ -367,7 +367,7 @@
   flavor_dlh.62.a.entry: "Запросимо його."
   flavor_dlh.62.b: "Ми не потребуємо [Select_CString(target_character.IsFemale,'її', 'його')] послуг."
   flavor_dlh.62.b.entry: "Ми не потребуємо його послуг."
-  flavor_dlh.63.title: "[target_character.GetNameWithNoTooltip] переїжджає на територію [from_country.Custom('CL_GEN')]"
+  flavor_dlh.63.title: "[target_character.GetNameWithNoTooltip] переїжджає до [from_country.Custom('CL_GEN')]"
   flavor_dlh.63.entry: "Підкуп та зрада члена династії"
   flavor_dlh.63.desc: "[target_character.GetName], член правлячої династії [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName], [Select_CString(TARGET_CHARACTER.IsFemale, 'покинула', 'покинув' )] нашу країну. Ми не знаємо, навіщо [Select_CString(TARGET_CHARACTER.IsFemale, 'вона', 'він' )] це [Select_CString(TARGET_CHARACTER.IsFemale, 'зробила', 'зробив' )], але [Select_CString(TARGET_CHARACTER.IsFemale, 'її', 'його' )] поведінка нас дуже засмутила. Кажуть, [Select_CString(TARGET_CHARACTER.IsFemale, 'вона зрадила', 'він зрадив' )] своїх рідних заради великого земельного наділу."
   flavor_dlh.63.a: "Що б це означало?"

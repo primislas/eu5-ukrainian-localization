@@ -704,7 +704,7 @@
   flavor_hab.1300.b: "Марна трата грошей."
   flavor_hab.1301.title: "[target_character.GetNameWithNoTooltip] пропонує заснувати Колегіум поетів"
   flavor_hab.1301.entry: "Колегіум поетів — Конрад Цельтіс"
-  flavor_hab.1301.desc: "[Select_CString(target_character.IsFemale,'Відома поетеса', 'Відомий поет')] [target_character.GetName] [Select_CString(target_character.IsFemale,'запропонувала', 'запропонував')] розширити #TOOLTIP:BUILDING_TYPE,university,X #L університет#!#!, заснувавши в ньому окрему колегію для гуманістичних студій. Якщо [target_ruler.GetName|l] прийме цю пропозицію, ми залучимо на територію #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! більше митців і підкреслимо свою вірність ідеям гуманізму."
+  flavor_hab.1301.desc: "[Select_CString(target_character.IsFemale,'Відома поетеса', 'Відомий поет')] [target_character.GetName] [Select_CString(target_character.IsFemale,'запропонувала', 'запропонував')] розширити #TOOLTIP:BUILDING_TYPE,university,X #L університет#!#!, заснувавши в ньому окрему колегію для гуманістичних студій. Якщо [target_ruler.GetName|l] прийме цю пропозицію, ми залучимо до #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! більше митців і підкреслимо свою вірність ідеям гуманізму."
   flavor_hab.1301.a: "Чудовий план!"
   flavor_hab.1301.b: "Яка дурна ідея!"
   variable_habsburg_renaissance_prince_tt: "Габсбурги опікуються мистецтвом Відродження"
