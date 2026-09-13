@@ -184,7 +184,7 @@
   cb_claim_timurids: "Боротьба за імперію Тимуридів"
   cb_claim_timurids_desc: "Внутрішній конфлікт в імперії Тимуридів, викликаний боротьбою за владу."
   cb_dlh_invasion_of_china: "Напад Китаю"
-  cb_dlh_invasion_of_china_desc: "Між #TOOLTIP:INTERNATIONAL_ORGANIZATION,$middle_kingdom_tt$,X #L Серединною країною#!#! та Індією є невирішений конфлікт. Час організувати військовий похід і остаточно розчавити наших старих ворогів.\n\nЦей [Concept('casus_belli', 'привід для війни')|e] робить дешевшим приєднання захоплених [Concept('locations', 'місцевостей')|e] на території #TOOLTIP:SUB_CONTINENT,east_asia,X #L Східної Азії#!#!."
+  cb_dlh_invasion_of_china_desc: "Між #TOOLTIP:INTERNATIONAL_ORGANIZATION,$middle_kingdom_tt$,X #L Серединною країною#!#! та Індією є невирішений конфлікт. Час спорядити військовий похід і остаточно розчавити наших старих ворогів.\n\nЦей [Concept('casus_belli', 'привід для війни')|e] робить дешевшим приєднання захоплених [Concept('locations', 'місцевостей')|e] на теренах #TOOLTIP:SUB_CONTINENT,east_asia,X #L Східної Азії#!#!."
   cb_lodi_claims: "Претензії Лоді"
   cb_lodi_claims_desc: "Династія [ShowDynastyName('lodi_dynasty')] має цілком обґрунтовані претензії на #TOOLTIP:LOCATION,delhi,X #L Делі#!#!, тож ми можемо оголосити себе істинними правителями Індії!\n\n#Y Дозволяє включити в умови [Concept('peace_treaty', 'мирного договору')|e] #TOOLTIP:SCRIPTED_PEACE_TREATY,peace_claim_delhi,X #L претензію#!#! на #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_ACC')L]#!#!#!#!"
   cb_reclaim_andalucia: "Відновлення Андалусії"

@@ -220,7 +220,7 @@
   flavor_lit.33.a: "Настав час залишити ці звичаї в минулому."
   flavor_lit.33.b: "Давайте хоча б віддамо шану цим старим звичаям."
   lit_all_primary_culture_pops_gain_satisfaction_tt: "[Concept('pop_satisfaction', 'Задоволення')|e] всіх #L [ROOT.GetCountry.GetCulture.GetName|l]их#! [Concept('pops', 'громад')|e] в #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! підвищиться на [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%]"
-  flavor_lit.34.title: "Руський звід законів на території [ROOT.GetCountry.Custom('CL_GEN')]"
+  flavor_lit.34.title: "Руський звід законів на теренах [ROOT.GetCountry.Custom('CL_GEN')]"
   flavor_lit.34.entry: "Руське право в Литві"
   flavor_lit.34.desc: "Наші володіння в #TOOLTIP:REGION,ruthenia_region,X #L Русі#!#! послуговуються іншим зводом законів, ніж #L [ROOT.GetCountry.GetAdjective|l]і#! землі. Відомий як «$russkaya_pravda_policy$», він визначає права, якими володі[ROOT.GetCountry.Custom('nobles_yeyut')] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], яке становище займа[ROOT.GetCountry.Custom('peasants_yeyut')] [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')], а також державну віру. Хоча багато з цих норм незастосовні в серці [ROOT.GetCountry.Custom('rank_ua_GEN')|l], ми могли б запозичити з них деякі ідеї — а можливо, навіть включити їх до нашого права."
   flavor_lit.34.a: "Закони Київської Руси стануть гідним доповненням нашого права."

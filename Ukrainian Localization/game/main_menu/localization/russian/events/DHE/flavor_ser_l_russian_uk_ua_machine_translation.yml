@@ -81,7 +81,7 @@
   flavor_ser.80.a: "Офіційно запросимо допомогу."
   flavor_ser.80.b: "Брати по вірі не залишать нас у біді…"
   flavor_ser.80.c: "Це ще не кінець!"
-  ser_target_country_gets_flavor_ser.82_tt: "На території [target_country.Custom('CL_GEN')] відбудеться подія #Y «Братська допомога?»#!"
+  ser_target_country_gets_flavor_ser.82_tt: "На теренах [target_country.Custom('CL_GEN')] відбудеться подія #Y «Братська допомога?»#!"
   flavor_ser_desc_key: "До нашого двору прибув #L [GetCountry('SER').GetAdjective|l]ий#! посланець. Його країна опинилася в найтяжчому становищі — [GetCountry('TUR').GetLongName] продовжує тиснути, захисники [GetCountry('SER').Custom('CL_GEN')] тримаються з останніх сил. Якщо Балкани впадуть, загарбникам зі Сходу відкриється шлях у серце Європи. Посол смиренно просить нас про допомогу…"
   flavor_ser.81.title: "[GetCountry('SER').GetNameWithNoTooltip] просить допомоги"
   flavor_ser.81.desc: "$flavor_ser_desc_key$"

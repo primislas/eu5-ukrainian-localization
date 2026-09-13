@@ -317,7 +317,7 @@
   assume_union_senority_entry_short: "$assume_union_senority$"
   assume_union_senority_desc: "Об'єднанню «[TARGET_COUNTRY.GetDiplomacy.GetUnion.GetName]» потрібні більш гідні лідери, ніж [TARGET_COUNTRY.GetName]! Нам час взяти цей тягар на себе. #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,union,X #L Унія#!#! тепер буде під нашим старшинством."
   reinstate_the_monarchy: "Відновлення монархії"
-  reinstate_the_monarchy_entry: "Відновлення монархії на території @[TARGET_COUNTRY.GetFlag]!#ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!"
+  reinstate_the_monarchy_entry: "Відновлення монархії на теренах @[TARGET_COUNTRY.GetFlag]!#ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!"
   reinstate_the_monarchy_entry_short: "$reinstate_the_monarchy_entry$"
   force_revolution: "Розпалювання революції"
   force_revolution_entry: "Передача влади народу @[TARGET_COUNTRY.GetFlag]! #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!"

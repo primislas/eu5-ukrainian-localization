@@ -187,7 +187,11 @@ IMPORTANT! When presented with several alternative translation options, choose t
     * modernize, модернизировать -> осучаснювати
 
     * "map", "карта" in the sense of a world or area map -> мапа
-    * territory, территория -> try to avoid "територія", prefer "земля", "землі" (in general and local sense, e.g. "сільські, міські землі", "на тих землях", "наші, їхні землі" тощо), "володіння" (in a more official high prose governmental sense), "терени" (for large spaces or in very colloquial texts), "кордони" (when border is implied or stressed), "край, краї" (in a poetic or narrative context), or any other context-fitting synonym
+    * territory, территория -> try to avoid "територія", prefer "терени" (especially for large spaces, countries or whole regions, colloquial or casual non-specific texts), "земля", "землі" (in general and local sense, e.g. "сільські, міські землі", "на тих землях", "наші, їхні землі" тощо), "володіння" (in a more official high prose governmental sense), "терени", "кордони" (when border is implied or stressed), "край, краї" (in a poetic or narrative context), or any other context-fitting synonym
+    ** на территории -> "на теренах" as a default translation, BUT prefer other options in the following cases:
+    *** for the following expressions (and in general when official ownership status, or specifics is important) translate as "у володіннях" (plural), e.g.: місцевості / міста у володіннях, шпигунська мережа у володіннях, право на розміщення флоту / проходу війська у володіннях, у володіннях проводиться збір ополчень, будівництво у володіннях заборонене тощо
+    *** when it comes to small-scale landholders, such as abbeys, temples, palaces, fortresses and so on, translate as "на землях" or "в межах": на землях аббатства, на землях Оксфорду, на землях палацу, в межах місцевості, в межах провінції
+    *** sometimes it's applied to a specific location, usually when discussing forts or armies acting on a specific location territory (especially in terms of game mechanics), in such cases translate as "в місцевості" ("на території" can be dropped altogeher): рівень форту в місцевості, загін не допомагатиме на території сусідніх місцевостей -> загін не допомагатиме у прилеглих місцевостях
     ** административно-территориальные единицы, деление -> земельний устрій
     ** административно-территориальная единица (singular) -> земля, провінція
     * "core location / region", "национальний район, регион" -> "корінна місцевість, регіон"

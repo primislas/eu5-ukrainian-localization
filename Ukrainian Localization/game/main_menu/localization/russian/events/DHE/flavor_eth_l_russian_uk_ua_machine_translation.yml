@@ -259,7 +259,7 @@
   eth_target_country_must_accept_tt: "Щоб ефекти подіяли, #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_DAT')|L]#!#! потрібно погодитися"
   flavor_eth.251.title: "$flavor_eth_250_shared$"
   flavor_eth.251.entry: "$flavor_eth.251.title$"
-  flavor_eth.251.desc: "До двору з'явилися посли з [target_country2.Custom('CL_GEN')] з проханням надати ремісників для роботи на території їхнього [target_country2.Custom('rank_ua_GEN')|l]."
+  flavor_eth.251.desc: "До двору з'явилися посли з [target_country2.Custom('CL_GEN')] з проханням надати ремісників для роботи на теренах їхнього [target_country2.Custom('rank_ua_GEN')|l]."
   flavor_eth.251.a: "Відправимо їм когось."
   flavor_eth.251.b: "Проженемо цих жебраків."
   flavor_eth_260_shared: "Таємниця нафти"

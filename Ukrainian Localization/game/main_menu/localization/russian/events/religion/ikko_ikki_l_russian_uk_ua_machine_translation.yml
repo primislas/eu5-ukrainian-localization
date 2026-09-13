@@ -3,7 +3,7 @@
   ikko_ikki.1.desc: "Невдоволені нескінченними війнами, селяни, ченці та дрібні землевласники з числа послідовників #TOOLTIP:RELIGIONGROUP,buddhist,X #L буддійського#!#! шляху «[target_io.GetName]» відкрито виступили проти того, як [target_character.GetName] править своїми володіннями. Ми повинні швидко й рішуче покінчити з цим набродом, доки заворушення не охопили й інші наші землі."
   ikko_ikki.1.a: "Поставимо їх на місце!"
   ikko_ikki.1.b: "Не будемо погіршувати ситуацію."
-  ikko_ikki.2.title: "Ікко-іккі вже на території [ROOT.GetCountry.Custom('CL_GEN')]!"
+  ikko_ikki.2.title: "Ікко-іккі вже у володіннях [ROOT.GetCountry.Custom('CL_GEN')]!"
   ikko_ikki.2.desc: "Уряд [target_country.Custom('rank_ua_GEN')|l] по сусідству не забажав терпіти Ікко-іккі та кинув проти них свої війська. Рятуючись від жорстокої різанини, вцілілі адепти Дзьодо-сінсю кинулися на землі #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! та прийняли до своїх лав чимало селян, ченців і дрібних землевласників з числа наших власних невдоволених підданих. Якщо ми не будемо діяти швидко й рішуче, вони можуть завдати нам чимало проблем."
   ikko_ikki.2.a: "$ikko_ikki.1.a$"
   ikko_ikki.2.b: "$ikko_ikki.1.b$"

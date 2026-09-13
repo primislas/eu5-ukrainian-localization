@@ -122,7 +122,7 @@
   JOIN_WAR_REASON_Overlord: "Сюзерен #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!"
   JOIN_WAR_REASON_DESC_Overlord: "[COUNTRY.GetName] є сюзереном #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!."
   JOIN_WAR_REASON_SupportRevolt: "Підтримка повстанців"
-  JOIN_WAR_REASON_DESC_SupportRevolt: "[COUNTRY.GetName] підтримує повстання на території #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!."
+  JOIN_WAR_REASON_DESC_SupportRevolt: "[COUNTRY.GetName] підтримує повстання на теренах #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!."
   JOIN_WAR_REASON_SupportRevoltToReunite: "Підтримка наших повстанців-сецесіоністів"
   JOIN_WAR_REASON_DESC_SupportRevoltToReunite: "[COUNTRY.GetName] бажає відділення #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!, розраховуючи приєднати територію цієї країни."
   JOIN_WAR_REASON_Intervene: "Втручання"

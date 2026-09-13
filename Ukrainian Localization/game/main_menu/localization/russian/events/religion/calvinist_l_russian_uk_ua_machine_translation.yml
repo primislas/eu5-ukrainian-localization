@@ -32,6 +32,6 @@
   calvinist.8.a: "Видамо заборону."
   calvinist.8.b: "Проігноруємо їхні думки."
   calvinist.9.title: "Розгул іконоборців"
-  calvinist.9.desc: "На території #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! тут і там спалахують погроми: натовпи послідовників #TOOLTIP:RELIGION,$calvinist_tt$,X #L кальвінізму#!#! громлять церкви та знищують предмети #TOOLTIP:RELIGION,$catholic_tt$,X #L католицького#!#! мистецтва. Більшість католиків #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! вимагає від уряду негайно втрутитися та припинити безчинства."
+  calvinist.9.desc: "На теренах #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! тут і там спалахують погроми: натовпи послідовників #TOOLTIP:RELIGION,$calvinist_tt$,X #L кальвінізму#!#! громлять церкви та знищують предмети #TOOLTIP:RELIGION,$catholic_tt$,X #L католицького#!#! мистецтва. Більшість католиків #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! вимагає від уряду негайно втрутитися та припинити безчинства."
   calvinist.9.a: "Нехай війська наведуть лад!"
   calvinist.9.b: "Підтримати погромників!"
