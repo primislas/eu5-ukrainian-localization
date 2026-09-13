@@ -32,7 +32,7 @@
   refund_the_cost_of_the_action_tt: "Вартість цієї [Concept('action', 'дії')|e] буде відшкодована."
   crisis_of_the_chinese_dynasty.6.a: "Ну гаразд, знизимо для них податки."
   crisis_of_the_chinese_dynasty.6.b: "Давайте підемо на деякі поступки."
-  crisis_of_the_chinese_dynasty.6.c: "Дамо їм тимчасову автономію."
+  crisis_of_the_chinese_dynasty.6.c: "Дамо їм тимчасову самоврядність."
   crisis_of_the_chinese_dynasty.6.d: "Прислухаємося до їхніх вимог."
   crisis_of_the_chinese_dynasty.6.e: "Все ж таки краще не варто..."
   crisis_of_the_chinese_dynasty.7.title: "Податкова реформа [GetCurrentYear] року"

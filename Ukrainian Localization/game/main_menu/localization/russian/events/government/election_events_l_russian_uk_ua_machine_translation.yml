@@ -8,7 +8,7 @@
   election.1.d: "[candidate_d.GetNameWithNoTooltip] — [Select_CString(candidate_d.IsFemale, 'нова обрана правителька', 'новий обраний правитель')]."
   election.1.e: "[candidate_e.GetNameWithNoTooltip] — [Select_CString(candidate_e.IsFemale, 'нова обрана правителька', 'новий обраний правитель')]."
   election.1.f: "Будемо сподіватися, що відповідальні люди зроблять правильний вибір…"
-  election.2.title: "Випадковий вибір на території [ROOT.GetCountry.Custom('CL_GEN')]"
+  election.2.title: "Випадковий вибір на теренах [ROOT.GetCountry.Custom('CL_GEN')]"
   election.2.desc: "[ROOT.GetCountry.GetLongName] без правителя. [ROOT.GetCountry.GetGovernment.GetRulerTitle] [Select_CString(ROOT.GetCountry.GetGovernment.IsFemale,'померла', 'помер')], і нам потрібно проводити вибори. Обрання більшістю голосів залишає простір для хабарництва або, що ще гірше, для популізму. Після багатоетапного таємного вибору кандидатів ми вирішили, хто буде нами правити. Вибори відбувалися практично випадковим чином."
   election.2.a: "[candidate_a.GetNameWithNoTooltip] — [Select_CString(candidate_a.IsFemale,'нова', 'новий')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l], [Select_CString(candidate_a.IsFemale,'обрана', 'обраний')] випадковим чином"
   election.3.title: "Вибори капітана народу"

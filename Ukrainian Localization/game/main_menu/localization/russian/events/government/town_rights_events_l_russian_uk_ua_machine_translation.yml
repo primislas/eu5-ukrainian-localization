@@ -105,7 +105,7 @@
   town_rights_events.17.b: "Їхній рівень має стати взірцем для інших."
   town_rights_events.17.c: "Слава цих майстрів підносить нашу країну."
   town_rights_events.18.title: "Майстри [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip] старіють"
-  town_rights_events.18.desc: "Багато досвідчених ремісників з #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_GEN')|l]#!#! [target_location.GetName] вже постаріли й відійшли від справ, а учні, що приходять їм на зміну, поки не можуть похвалитися такими ж сильними навичками та бездоганною репутацією. Якщо ми найближчим часом не залучимо до країни талановитих ремісників, дохід від наших майстерень помітно знизиться."
+  town_rights_events.18.desc: "Багато досвідчених ремісників з #L #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_GEN')|l]#!#! [target_location.GetName] вже постаріли й відійшли від справ, а учні, що приходять їм на зміну, поки не можуть похвалитися такими ж сильними навичками та бездоганною славою. Якщо ми найближчим часом не залучимо до країни обдарованих ремісників, дохід від наших майстерень помітно знизиться."
   town_rights_events.18.a: "Виділимо кошти на залучення мігрантів."
   town_rights_events.18.b: "Наша скарбниця витримає ці втрати."
   town_rights_events.18.c: "Жителям провінції доведеться змиритися зі спадом."

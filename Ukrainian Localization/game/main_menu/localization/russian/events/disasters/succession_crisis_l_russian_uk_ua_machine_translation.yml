@@ -24,7 +24,7 @@
   succession_crisis.6.title: "Прохання до [target_country.Custom('CL_GEN')]"
   succession_crisis.6.desc: "У [ROOT.GetCountry.Custom('longname_ua_GEN')] важкі часи: #TOOLTIP:DISASTER_TYPE,succession_crisis,X #L криза престолонаслідування#!#! загрожує розколоти [ROOT.GetCountry.Custom('rank_ua_ACC')|l] на частини. Претенденти набирають силу, готуючись завдати удару в саме серце країни. [ROOT.GetCountry.GetGovernment.GetGovernmentType.GetName] в небезпеці. Падіння [ROOT.GetCountry.Custom('rank_ua_GEN')|l] призведе до того, що [target_character1.GetName] та [Select_CString(target_character_1.IsFemale,'її', 'його')] [ROOT.GetCountryGetGovernment.GetCourtTitle|l] загинуть. Відчайдушно потребуючи союзників, ми звернулися за допомогою до #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_GEN')|L]#!#!."
   succession_crisis.6.a: "Запросити вигідну позику."
-  succession_crisis.6.b: "Запропонувати в обмін свою територію."
+  succession_crisis.6.b: "Запропонувати в обмін свої землі."
   succession_crisis.6.c: "Ми не потребуємо допомоги."
   if_they_accept_a_tt: "Якщо вони погодяться, станеться таке:"
   sc_seek_foreign_aid_tt: "Обрана [Concept('country', 'країна')|e] може запропонувати умовну підтримку або перемир'я в обмін на щось"

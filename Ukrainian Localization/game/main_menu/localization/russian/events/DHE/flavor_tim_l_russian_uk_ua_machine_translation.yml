@@ -107,7 +107,7 @@
   flavor_tim.15.b.entry: "У чому сенс укладати шлюб із місцевою знаттю?"
   flavor_tim.16.title: "[target_character.GetNameWithNoTooltip]"
   flavor_tim.16.entry: "Астроном Джамшид аль-Каші"
-  flavor_tim.16.desc: "З настанням [ROOT.GetCountry.Custom('preposition_uv')] #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! золотої доби мистецтв і наук до нашого двору почали стікатися багато видатних діячів. Один із них, талановитий астроном і математик на ім’я [target_character.GetName], бажає вступити до нас на службу. Він має великі знання з геометрії та здатен розв’язувати навіть найскладніші математичні задачі."
+  flavor_tim.16.desc: "З настанням [ROOT.GetCountry.Custom('preposition_uv')] #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! золотої доби мистецтв і наук до нашого двору почали стікатися багато видатних діячів. Один із них, обдарований астроном і математик на ім’я [target_character.GetName], бажає вступити до нас на службу. Він має великі знання з геометрії та здатен розв’язувати навіть найскладніші математичні задачі."
   flavor_tim.16.a: "Наймімо його."
   flavor_tim.16.b: "Суцільні хибні обіцянки."
   flavor_tim.17.title: "$gur_e_amir$"

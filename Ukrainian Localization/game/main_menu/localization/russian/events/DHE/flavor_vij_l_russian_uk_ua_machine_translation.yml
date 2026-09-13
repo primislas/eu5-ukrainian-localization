@@ -202,7 +202,7 @@
   flavor_vij.1000.a: "Час перейти в наступ."
   flavor_vij.1000.b: "Варто утриматися від подібної агресії."
   flavor_vij.1001.title: "[ROOT_country.GetNameWithNoTooltip] вимагає підкорення"
-  flavor_vij.1001.desc: "[ROOT_country.GetLongName] вимагає від нас підкоритися! Якщо ми не виконаємо цю вимогу, нам погрожують війною. Схоже, причиною для такого брязкання зброєю стали #TOOLTIP:RELIGION,$hindu_tt$,X #L індуїстські#!#! храми на території нашої країни."
+  flavor_vij.1001.desc: "[ROOT_country.GetLongName] вимагає від нас підкоритися! Якщо ми не виконаємо цю вимогу, нам погрожують війною. Схоже, причиною для такого брязкання зброєю стали #TOOLTIP:RELIGION,$hindu_tt$,X #L індуїстські#!#! храми на теренах нашої країни."
   flavor_vij.1001.a: "Нехай приходять."
   flavor_vij.1001.b: "Краще підкоритися їм."
   flavor_vij.1002.title: "[target_country.GetLongNameWithNoTooltip] відмовляється"

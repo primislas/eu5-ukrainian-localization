@@ -55,7 +55,7 @@
   french_wars_religion.10.a: "Розкол у вірі скоро буде подолано!"
   french_wars_religion.11.title: "#L [target_religion.GetAdjective]і#! фанатики зміцнюють [target_location.Custom('LR_ACC')|l] [target_location.GetNameWithNoTooltip]"
   french_wars_religion.11.desc: "Група #L [target_religion.GetAdjective]их#! шаленців захопила владу в [target_location.Custom('LR_PREP')|l] [target_location.GetName], побудувала там укріплення та чинить опір усім нашим спробам повернути ці землі під свою владу. Вони розносять єретичні ідеї по навколишніх теренах і заручаються підтримкою місцевого населення. Прямий приступ укріплень обійдеться нам дорого, але якщо залишити єретиків без уваги, то їхні обурливі ідеї поширяться ще далі."
-  french_wars_religion.11.a: "Проявити повагу до їхньої автономії."
+  french_wars_religion.11.a: "Проявити повагу до їхньої самоврядности."
   french_wars_religion.11.a.tt: "[Concept('pops', 'Населення')|e] провінції [target_province.GetName] навернеться до іншої віри — [target_religion.GetName|l]"
   french_wars_religion.11.b: "Розгромити їх."
   french_wars_religion.11.c: "Зберегти нейтралітет."

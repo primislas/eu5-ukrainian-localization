@@ -1,6 +1,6 @@
 ﻿l_russian:
   hussite_flavor.1.title: "Людина культури"
-  hussite_flavor.1.desc: "[GetCharacter('boh_jan_hus').GetName] навчає своїх послідовників засновувати нові місця для поклоніння, щоб закарбовувати образи божества та шукати сутність віри в благочестивому мистецтві й богословських дебатах.\n\nЗнаючи, як ми цінуємо творчість і талант, [Select_CString(target_artist.IsFemale, 'художниця', 'художник' )] [target_artist.GetName] пропонує нам свої послуги."
+  hussite_flavor.1.desc: "[GetCharacter('boh_jan_hus').GetName] навчає своїх послідовників засновувати нові місця для поклоніння, щоб закарбовувати образи божества та шукати сутність віри в благочестивому мистецтві й богословських дебатах.\n\nЗнаючи, як ми цінуємо творчість і хист, [Select_CString(target_artist.IsFemale, 'художниця', 'художник' )] [target_artist.GetName] пропонує нам свої послуги."
   hussite_flavor.1.a: "[Select_CString(target_artist.IsFemale, 'Її', 'Його' )] праці будуть для нас корисні."
   hussite_flavor.1.b: "У нас немає зайвих грошей."
   hussite_flavor.2.title: "Численн[ROOT.GetCountry.Custom('clergy_yiaei')] видатн[ROOT.GetCountry.Custom('clergy_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] не згод[ROOT.GetCountry.Custom('clergy_ennanoni')] з нашою політикою"
@@ -72,5 +72,5 @@
   hussite_flavor.15.title: "Захисники гуситства"
   hussite_flavor.15.desc: "У наших землях продовжує лютувати війна. Противники #TOOLTIP:RELIGION,$hussite_tt$,X #L гуситської#!#! віри невблаганно насуваються, і на заклик захистити своє віросповідання відгукуються все нові жителі [ROOT.GetCountry.Custom('rank_ua_GEN')|l]. Селяни, ремісники та міщани, які почули від проповідників славне ім'я «[GetCharacter('boh_jan_hus').GetName]», готові братися за зброю, щоб відстояти батьківщину. Дехто пропонує зібрати з них народне ополчення та послати його на підмогу військам, що б'ються на передовій. Противники цього підходу, навпаки, стверджують, що ополченцям краще доручити укріплення міст та підготовку барикад, щоб наступ ворога розбився об нашу оборону."
   hussite_flavor.15.a: "Вони встановлять мир — силою!"
-  hussite_flavor.15.b: "Відправити їх укріплювати наші території."
+  hussite_flavor.15.b: "Відправити їх укріплювати наші землі."
   scales_with_tolerance_own_tt: "[Concept('manpower', 'Кількість отриманих новобранців')|e] залежить від нашої [Concept('tolerance', 'терпимості')|e] до гуситської [Concept('religion', 'віри')|e]"
