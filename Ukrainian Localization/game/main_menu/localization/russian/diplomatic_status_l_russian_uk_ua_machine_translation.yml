@@ -12,7 +12,7 @@
   diplomatic_status_building_spy_network_name: "Діючі шпигунські мережі"
   diplomatic_status_building_spy_network_tooltip: "#T Діючі шпигунські мережі#!\nУ країни зараз діють [Concept('spy_networks', 'шпигунські мережі')|e] в цих [Concept('countries', 'країнах')|e]."
   diplomatic_status_infiltrate_administration_name: "Вивідачі країни в іноземній владі"
-  diplomatic_status_infiltrate_administration_tooltip: "#T Вивідачі країни в іноземній владі#!\nМісцеві шпигуни проникли у владні структури цих [Concept('countries', 'країн')|e] і розвіяли [Concept('fog_of_war', 'туман війни')|e] на своїх територіях."
+  diplomatic_status_infiltrate_administration_tooltip: "#T Вивідачі країни в іноземній владі#!\nМісцеві шпигуни проникли у владні установи цих [Concept('countries', 'країн')|e] і розвіяли [Concept('fog_of_war', 'туман війни')|e] над їхніми володіннями."
   diplomatic_status_infiltrate_administration_target_name: "Іноземні вивідачі у владі країни"
   diplomatic_status_infiltrate_administration_target_tooltip: "#T Іноземні вивідачі у владі країни#!\nУ місцеву владу проникли шпигуни з цих [Concept('countries', 'країн')|e]. Вони бачать те, що відбувається в землях, оповитих [Concept('fog_of_war', 'туманом війни')|e]."
   infiltrate_administration_target_list_who_tt: "Вивідачі ($LIST$) проникають у владу країни $WHO$"
