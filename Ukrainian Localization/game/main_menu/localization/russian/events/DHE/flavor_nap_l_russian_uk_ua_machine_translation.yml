@@ -219,7 +219,7 @@
   flavor_nap.103.tt1: "[GetCountry('NAP').GetName] отримає нашу відповідь."
   flavor_nap.103.tt2: "[GetCountry('ARA').GetName] отримає нашу відповідь і, можливо, спробує змусити нас вступити до [Concept('union', 'унії')|e]."
   flavor_nap.104.title: "$flavor_nap.102.title$"
-  flavor_nap.104.desc: "[GetCountry('PAP').GetGovernment.GetRuler.GetName] влаштовує так, що [GetCountry('NAP').GetLongName] стає сюзереном, а країна [GetCountry('SIC').GetLongName], якою керує [GetCountry('SIC').GetGovernment.GetRuler.GetName] — васалом. [GetCountry('SIC').GetLongNameWithNoTooltip] належить нам відтоді, як [GetCharacter('ara_pere_iii_arago').GetName] з #ONCLICK:COUNTRY,[GetCountry('ARA').GetKey] #TOOLTIP:COUNTRY,[GetCountry('ARA').GetKey],X [GetCountry('ARA').Custom('CL_GEN')|L]#!#! завоював острів, і ми повинні щось зробити, щоб ця територія знову не стала #L [GetCountry('NAP').GetCulture.GetName]ою#!."
+  flavor_nap.104.desc: "[GetCountry('PAP').GetGovernment.GetRuler.GetName] влаштовує так, що [GetCountry('NAP').GetLongName] стає сюзереном, а країна [GetCountry('SIC').GetLongName], якою керує [GetCountry('SIC').GetGovernment.GetRuler.GetName] — васалом. [GetCountry('SIC').GetLongNameWithNoTooltip] належить нам відтоді, як [GetCharacter('ara_pere_iii_arago').GetName] з #ONCLICK:COUNTRY,[GetCountry('ARA').GetKey] #TOOLTIP:COUNTRY,[GetCountry('ARA').GetKey],X [GetCountry('ARA').Custom('CL_GEN')|L]#!#! завоював острів, і ми повинні щось зробити, щоб ця земля знову не стала #L [GetCountry('NAP').GetCulture.GetName]ою#!."
   flavor_nap.104.a: "Ми повернемо собі [GetCountry('SIC').Custom('CL_ACC')]."
   flavor_nap.104.a.entry: "Ми повернемо собі Сицилію."
   flavor_nap.104.b: "Що ж, нічого не вдієш."

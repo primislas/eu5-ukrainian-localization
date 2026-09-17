@@ -342,7 +342,7 @@
   flavor_dlh.57.b: "Поки нам це не потрібно."
   flavor_dlh.58.title: "Наймання мамлюків"
   flavor_dlh.58.entry: "$flavor_dlh.58.title$"
-  flavor_dlh.58.desc: "Набір #TOOLTIP:CULTUREGROUP,turkic_group,X #L тюркських#!#! невільників — стандартна практика для нашої країни. Більше того, територія під назвою [ROOT.GetCountry.GetLongName] пишається своїми мамлюками, адже саме вони заснували першу правлячу династію [ROOT.GetCountry.Custom('rank_ua_GEN')]. Члени #L [ROOT.GetCountry.GetAdjective|l]ого#! двору в один голос заявляють, що нам потрібно найняти більше мамлюків."
+  flavor_dlh.58.desc: "Набір #TOOLTIP:CULTUREGROUP,turkic_group,X #L тюркських#!#! невільників — звичний порядок для нашої країни. Ба більше, земля під назвою [ROOT.GetCountry.GetLongName] пишається своїми мамлюками, адже саме вони заснували перший правлячий дім [ROOT.GetCountry.Custom('rank_ua_GEN')]. Члени #L [ROOT.GetCountry.GetAdjective|l]ого#! двору в один голос заявляють, що нам потрібно найняти більше мамлюків."
   flavor_dlh.58.a: "Відправимо їх служити в наше військо."
   flavor_dlh.58.b: "З них вийдуть тямущі чиновники."
   flavor_dlh.59.title: "Провал Карачильської кампанії"

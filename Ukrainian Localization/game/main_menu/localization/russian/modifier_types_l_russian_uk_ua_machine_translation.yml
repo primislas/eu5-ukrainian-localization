@@ -1563,7 +1563,7 @@
   MODIFIER_TYPE_NAME_war_good_relations_cost_modifier: "Вартість оголошення війни за добрих відносин"
   MODIFIER_TYPE_DESC_war_good_relations_cost_modifier: "Впливає на те, скільки [Concept('costs', 'коштує')|e] оголосити [Concept('war', 'війну')|e], маючи добру [Concept('opinion', 'думку')|e] про протилежну [Concept('country', 'країну')|e]."
   MODIFIER_TYPE_NAME_war_when_military_acces_cost_modifier: "Вартість оголошення війни при праві на прохід військ"
-  MODIFIER_TYPE_DESC_war_when_military_acces_cost_modifier: "Впливає на те, скільки [Concept('costs', 'коштує')|e] оголосити [Concept('war', 'війну')|e], маючи [Concept('military_access', 'право на прохід військ')|e] через територію протилежної [Concept('country', 'країни')|e]."
+  MODIFIER_TYPE_DESC_war_when_military_acces_cost_modifier: "Впливає на те, скільки [Concept('costs', 'коштує')|e] оголосити [Concept('war', 'війну')|e], маючи [Concept('military_access', 'право на прохід військ')|e] через землі протилежної [Concept('country', 'країни')|e]."
   MODIFIER_TYPE_NAME_war_no_cb_cost_modifier: "Вартість оголошення війни без приводу"
   MODIFIER_TYPE_DESC_war_no_cb_cost_modifier: "Впливає на те, скільки [Concept('costs', 'коштує')|e] оголосити [Concept('war', 'війну')|e] без [Concept('casus_belli', 'приводу')|e]."
   MODIFIER_TYPE_NAME_war_on_subject_cost_modifier: "Штраф за оголошення війни васалу"

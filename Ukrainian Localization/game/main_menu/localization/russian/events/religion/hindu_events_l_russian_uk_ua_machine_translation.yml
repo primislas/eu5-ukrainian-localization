@@ -173,7 +173,7 @@
   hindu_events.2400.b: "[ROOT.GetCountry.GetGovernment.GetRulerTitle] правитиме ще багато років!"
   hindu_events.2401.desc_common: "[target_last_ruler.GetName], [Select_CString(target_last_ruler.IsFemale, 'колишня правителька', 'колишній правитель' )] #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, [Select_CString(target_last_ruler.IsFemale, 'померла', 'помер' )] зовсім нещодавно. Після вогняного поховання [Select_CString(target_last_ruler.IsFemale, 'її', 'його' )] прах був ретельно зібраний, а потім відповідно до [Select_CString(target_last_ruler.IsFemale, 'її', 'його' )] волі занурений у води священної річки Ганг."
   hindu_events.2401.title: "Похорон у Гангу"
-  hindu_events.2401.desc: "$hindu_events.2401.desc_common$\n\nХоча ми шануємо священну річку Ганг, вона не протікає через територію #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Паломництво до Гангу займе чимало часу, але дозволить нам зміцнити духовний зв'язок із цією річкою."
+  hindu_events.2401.desc: "$hindu_events.2401.desc_common$\n\nХоча ми шануємо священну річку Ганг, вона не протікає через землі #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Паломництво до Гангу займе чимало часу, але дозволить нам зміцнити духовний зв'язок із цією річкою."
   hindu_events.2401.a: "[target_ruler.GetNameWithNoTooltip] подбає, щоб прах був туди доставлений."
   STATIC_MODIFIER_NAME_hindu_ganges_pilgrimage: "Паломництво до Гангу"
   hindu_events.2401.b: "Розвіємо його над місцевою річкою."

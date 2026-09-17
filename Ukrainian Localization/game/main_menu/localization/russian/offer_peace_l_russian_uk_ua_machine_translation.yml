@@ -134,7 +134,7 @@
   peace_expand_clan_influence_entry: "Розширення впливу нашого клану на #ONCLICK:COUNTRY,[target.GetKey] #TOOLTIP:COUNTRY,[target.GetKey],X [target.Custom('CL_ACC')|L]#!#!"
   peace_expand_clan_influence_entry_short: "Розширення впливу нашого клану на [target.Custom('CL_ACC')]"
   expand_clan_influence_other.tt: "Ми отримаємо володіння #ONCLICK:COUNTRY,[loser.GetKey] #TOOLTIP:COUNTRY,[loser.GetKey],X [loser.Custom('CL_GEN')|L]#!#! [target.Custom('preposition_uv')] #ONCLICK:COUNTRY,[target.GetKey] #TOOLTIP:COUNTRY,[target.GetKey],X [target.Custom('CL_PREP')|L]#!#!"
-  expand_clan_influence_no_target_tt: "Ми отримаємо у володіння їхню територію в зазначеній [Concept('location', 'місцевості')|e]"
+  expand_clan_influence_no_target_tt: "Ми отримаємо у володіння їхню землі в зазначеній [Concept('location', 'місцевості')|e]"
   peace_revoke_clan_autonomy: "Зниження самоврядности клану"
   peace_revoke_clan_autonomy_entry: "Зниження самоврядности @[TARGET_COUNTRY.GetFlag]!#ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! та повернення статусу [Concept('extraterritorial_country', 'екстериторіальної країни')|e]"
   peace_revoke_clan_autonomy_entry_short: "Зниження самоврядности @[TARGET_COUNTRY.GetFlag]! [TARGET_COUNTRY.Custom('CL_GEN')]"
