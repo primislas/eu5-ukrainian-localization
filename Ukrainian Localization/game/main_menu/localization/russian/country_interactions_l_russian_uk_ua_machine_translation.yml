@@ -1344,7 +1344,7 @@
   violate_italian_sovereignty_effect_text_past: "[SCOPE.sCountry('actor').GetName] запропонува[SCOPE.sCountry('actor').Custom('end_vlaloly')] #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').GetKey],X [SCOPE.sCountry('recipient').Custom('CL_DAT')|L]#!#! [Concept('gold', 'гроші')|e] за вступ до своєї ліги."
   violate_italian_sovereignty_reject_effect_text: "$generic_reject_offer_effect_string$"
   violate_italian_sovereignty_reject_effect_text_past: "$generic_reject_offer_effect_string_past$"
-  PROPOSE_violate_italian_sovereignty: "Порушити територіальний суверенітет країни $RECIPIENT$?\\n\\nМи отримаємо [Concept('military_access', 'право проходу військ')|e] та [Concept('food_access', 'доступ до харчів')|e] в їхній країні на 5 років"
+  PROPOSE_violate_italian_sovereignty: "Порушити кордони країни $RECIPIENT$?\n\nМи отримаємо [Concept('military_access', 'право проходу військ')|e] та [Concept('food_access', 'доступ до харчів')|e] в їхній країні на 5 років"
   italian_wars_bribe_country: "Підкупити для вступу до ліги"
   italian_wars_bribe_country_desc: "Ми запропонуємо [Concept('gold', 'гроші')|e] італійській країні, яка ще не перебуває в жодній лізі, щоб схилити її до вступу в нашу."
   size_of_our_league_tt: "Розмір нашої ліги"

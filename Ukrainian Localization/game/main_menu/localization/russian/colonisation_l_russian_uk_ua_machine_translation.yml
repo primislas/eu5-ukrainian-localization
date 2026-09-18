@@ -7,7 +7,7 @@
   ABANDON_BUTTON: "Покинути колоніальне поселення"
   NO_COLONIAL_CHARTER_EXCLUSIVE: "Зайнято #ONCLICK:COUNTRY,[COUNTRY.GetKey] #TOOLTIP:COUNTRY,[COUNTRY.GetKey],X [COUNTRY.Custom('CL_INST')|L]#!#!, причина: $NAME$."
   NO_COLONIAL_CHARTER_RELIGION: "$NAME|Y$ — причина, через яку лише країна [COUNTRY.GetName] може колонізувати ці землі, тоді як іншим #L [COUNTRY.GetReligion.GetAdjective|l]им#! країнам це заборонено."
-  treaty_of_noteborg: "За #Y Оріхівським#! миром Новгород і Швеція владнали територіальні суперечки у Фінляндії та Карелії"
+  treaty_of_noteborg: "За #Y Оріхівським#! миром Новгород і Швеція владнали земельні суперечки у Фінляндії та Карелії"
   COLONIAL_PROGRESS_POT_HEADER: "Колоніальний прогрес"
   COLONIAL_MIGRATION_HEADER_TT: "Міграція на місяць до колоніального поселення [ColonialCharter.GetNameWithNoTooltip]"
   COLONIAL_CHARTER_TOTAL_MIGRATION: "Загальна [Concept('migration', 'міграція')|e] [Concept('pops', 'громад')|e] — $VAL|y$ на місяць."
