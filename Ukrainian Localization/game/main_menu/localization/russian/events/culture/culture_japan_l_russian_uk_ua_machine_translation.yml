@@ -121,7 +121,7 @@
   culture_japan.1102.b.tt: "Вони можуть чинити нам опір і отримати [Concept('casus_belli', 'привід для війни')|e]"
   culture_japan.1102.c: "Вони будуть служити нам вірою і правдою."
   culture_japan.1103.title: "Перевищення повноважень"
-  culture_japan.1103.desc: "[target_shogunate.GetLongName] обурливим чином перевищує свої повноваження і під приводом того, що [target_ruler.GetName] нещодавно [Select_CString(target_ruler.IsFemale, 'була призначена', 'був призначений')] на посаду [target_shogunate.GetGovernment.GetAdjective|l]ого чиновника, відбирає частину територій, які по праву повинні належати нам. Ми не потерпимо такої образи!"
+  culture_japan.1103.desc: "[target_shogunate.GetLongName] обурливим чином перевищує свої повноваження і під приводом того, що [target_ruler.GetName] нещодавно [Select_CString(target_ruler.IsFemale, 'була призначена', 'був призначений')] на посаду [target_shogunate.GetGovernment.GetAdjective|l]ого чиновника, відбирає частину земель, які по праву повинні належати нам. Ми не потерпимо такої образи!"
   culture_japan.1103.a: "Ми готові відстоювати свої інтереси навіть силою!"
   culture_japan.1103.b: "Зрештою, [target_shogun.GetNameWithNoTooltip] — це [target_shogunate.GetGovernment.GetRulerTitle|l]."
   culture_japan.1104.title: "[target_clan.GetLongNameWithNoTooltip] відмови[target_clan.Custom('endlong_vlaloly')]ся служити"
