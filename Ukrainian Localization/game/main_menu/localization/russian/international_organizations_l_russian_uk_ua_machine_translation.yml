@@ -946,7 +946,7 @@
   foreign_league_iberia: "Іберійська ліга"
   foreign_league_iberia_desc: "Це ліга, створена в столиці країни [GetUniqueInternationalOrganization('foreign_league_iberia').GetLeaderCountry.GetName]. Головне прагнення цих вихідців із Західної Європи — завоювання півострова та підкорення #L [ShowCultureGroupName('italian_group')]ого#! народу."
   foreign_league_hre: "Імперська ліга"
-  foreign_league_hre_desc: "Це ліга, створена в столиці країни [GetUniqueInternationalOrganization('foreign_league_hre').GetLeaderCountry.GetName]. Попри всі зусилля імператора, [ShowRegionName('italy_region')] і сьогодні залишається спірною територією, де розгортаються конфлікти між країнами Священної Римської Імперії та всіма іншими."
+  foreign_league_hre_desc: "Це ліга, створена в столиці країни [GetUniqueInternationalOrganization('foreign_league_hre').GetLeaderCountry.GetName]. Попри всі зусилля імператора, [ShowRegionName('italy_region')] і сьогодні залишається спірними теренами, де розгортаються війни між країнами Священної Римської Імперії та всіма іншими."
   italian_league_1: "Перша італійська ліга"
   italian_league_1_desc: "Це ліга, створена в столиці країни [GetUniqueInternationalOrganization('italian_league_1').GetLeaderCountry.GetName].$italian_league_key_desc$"
   italian_league_key_desc: "Країни, що складають лігу, поклялися захищати суверенні кордони її учасників і бути готовими чинити опір впливу та потенційним вторгненням іноземних країн."
