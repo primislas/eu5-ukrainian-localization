@@ -329,7 +329,7 @@
   ALERT_INEFFICIENT_MINTING_TITLE: "Неефективне карбування"
   ALERT_INEFFICIENT_MINTING: "Ефективність нашого карбування — лише $EFFICIENCY|V2%R$. Через брак необхідних матеріалів ми карбуємо менше грошей, ніж могли б."
   ALERT_CLAN_CAN_SETTLE_TITLE: "Клан може стати осілим"
-  ALERT_CLAN_CAN_SETTLE: "Ці [Concept('members', 'учасники')|e] можуть стати [Concept('settled', 'осілими')|e] і таким чином взяти під контроль наші [Concept('locations', 'місцевості')|e]:\n[Concept('opinion', 'Думка')|e] [Concept('building_based', 'екстериторіальних країн')|e]\n"
+  ALERT_CLAN_CAN_SETTLE: "Ці [Concept('members', 'учасники')|e] можуть стати [Concept('settled', 'осілими')|e] і таким чином взяти під контроль наші [Concept('locations', 'місцевості')|e]:\n[Concept('opinion', 'Думка')|e] [Concept('building_based', 'позаземельних країн')|e]\n"
   ALERT_CLAN_CAN_SETTLE_ENTRY: "[COUNTRY.GetName]: $OPINION|+=$"
   ALERT_CLAN_CAN_SETTLE_LEFT_CLICK: "Перемкнутися між [Concept('countries', 'країнами')|e]"
   ALERT_HAS_LOW_PURITY: "Нестача чистоти"
