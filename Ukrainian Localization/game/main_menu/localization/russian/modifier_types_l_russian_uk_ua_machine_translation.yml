@@ -55,7 +55,7 @@
   MODIFIER_TYPE_DESC_move_to_assist_on_adjacent_combat: "Впливає на те, чи почне [Concept('unit', 'загін')|e] автоматично переміщатися в сусідню [Concept('location', 'місцевість')|e] для допомоги в [Concept('battle', 'битві')|e]."
   MODIFIER_TYPE_NAME_movement_speed_when_attached_to_another_unit: "Час у дорозі при приєднанні до іншого загону"
   MODIFIER_TYPE_DESC_movement_speed_when_attached_to_another_unit: "Впливає на те, як довго [Concept('unit', 'загін')|e] переміщається через [Concept('location', 'місцевість')|e] при приєднанні до іншого загону."
-  MODIFIER_TYPE_NAME_morale_recovery_in_friendly: "Відновлення бойового духу на дружній території"
+  MODIFIER_TYPE_NAME_morale_recovery_in_friendly: "Відновлення бойового духу на дружніх землях"
   MODIFIER_TYPE_DESC_morale_recovery_in_friendly: "Впливає на те, як швидко відновлюється [Concept('morale', 'бойовий дух')|e] [Concept('regiment', 'полку')|e] в [Concept('friendly', 'дружніх')|e] [Concept('locations', 'місцевостях')|e]."
   MODIFIER_TYPE_NAME_land_morale_recovery: "Швидкість відновлення бойового духу війська"
   MODIFIER_TYPE_DESC_land_morale_recovery: "Впливає на те, як швидко відновлюється [Concept('morale', 'бойовий дух')|e] [Concept('regiment', 'полку')|e], ще не досягнувши максимального значення."

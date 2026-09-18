@@ -904,7 +904,7 @@
   coastal_settlements: "Прибережне поселення"
   coastal_settlements_desc: "$coastal_settlements$ привабить туди значну частину нашого [Concept('pops', 'люду')|e]."
   dutch_trade_outpost: "Голландський торговий аванпост"
-  dutch_trade_outpost_desc: "Щоб посилити свій вплив у #TOOLTIP:REGION,japan_region,X #L Японії#!#! та мати змогу вільно торгувати на її території, багато #italic голландських купців#! підтримують добрі стосунки з місцевими правителями."
+  dutch_trade_outpost_desc: "Щоб посилити свій вплив у #TOOLTIP:REGION,japan_region,X #L Японії#!#! та мати змогу вільно торгувати на її землях, багато #italic голландських купців#! підтримують добрі стосунки з місцевими правителями."
   dutch_admiralty_desc_common: "Численні адміралтейства роз'єднали країну, зате тепер усі наші провінції мають у розпорядженні власні військово-морські сили."
   friesland_admiralty: "Адміралтейство Фрисландії"
   friesland_admiralty_desc: "$dutch_admiralty_desc_common$"

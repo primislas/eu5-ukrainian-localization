@@ -1821,7 +1821,7 @@
   game_concept_explorer_desc: "Дослідник — це [Concept('character', 'персонаж')|e] з певними [Concept('traits', 'рисами')|e], корисними в [Concept('exploration', 'експедиції')|e]."
   game_concept_conquistador: "Конкістадор"
   game_concept_conquistadors: "Конкістадори"
-  game_concept_conquistador_desc: "Конкістадор — це [Concept('character', 'персонаж')|e], якому доручено завоювати чужі землі та створити на їхній території нового [Concept('subject', 'васала')|e] для нашої [Concept('country', 'країни')|e]."
+  game_concept_conquistador_desc: "Конкістадор — це [Concept('character', 'персонаж')|e], якому доручено завоювати чужі краї та створити на тих землях нового [Concept('subject', 'васала')|e] для нашої [Concept('country', 'країни')|e]."
   game_concept_budget: "Баланс"
   game_concept_balance: "Баланс"
   game_concept_finances: "Фінанси"

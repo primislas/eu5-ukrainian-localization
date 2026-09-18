@@ -585,7 +585,7 @@
   assimilate_area_select_area: "Оберіть область для асиміляції"
   assimilate_area_no_areas: "@trigger_no! Немає [Concept('areas', 'областей')|e], які можна було б асимілювати."
   assimilate_area: "Асимілювати область"
-  assimilate_area_desc: "Як #TOOLTIP:HEGEMONY,cultural_hegemon,X культурний гегемон, ми можемо просувати культуру на більшій території країни."
+  assimilate_area_desc: "Як #TOOLTIP:HEGEMONY,cultural_hegemon,X культурний гегемон, ми можемо просувати культуру на більшій кількості земель країни одночасно."
   assimilate_area_active: "Асиміляція області [SCOPE.sArea('target').GetNameWithHighlightOnly]"
   assimilate_area_action: "Асимілювати область [SCOPE.sArea('target').GetNameWithNoTooltip]"
   assimilate_area_action_progress: "[SCOPE.sArea('target').GetCulturePercentage(SCOPE.sCountry('actor'),SCOPE.sCulture('target_culture'))|2%]"

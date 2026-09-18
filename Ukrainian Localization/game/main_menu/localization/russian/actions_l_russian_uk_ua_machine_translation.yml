@@ -137,7 +137,7 @@
   restore_ecumenical_patriarchate_tt: "[ShowHolySiteTypeName('episcopal_see')]: ми відновлюємо патріархат"
   take_estate_loan: "Взяти позику у станів"
   take_estate_loan_desc: "[Player.GetTakeLoanInfo]\n\nЩе ми можемо попросити позику у [Concept('country', 'країни')|e], яка є нашим державним банком."
-  settle_country: "Заселення території"
+  settle_country: "Заселення земель"
   settle_country_desc: "Ми поширили свої віру та культуру в цих землях, залишилося узаконити зміни та [Concept('settle', 'осісти')|e] тут, щоб обробляти поля та зводити споруди, які покращать наше життя."
   hire_advisor: "Запросити придворного"
   hire_advisor_desc: "Запросіть нового [Concept('character', 'персонажа')|e] до нашого двору, витративши [Concept('government_power', 'владний вплив')|e]."
