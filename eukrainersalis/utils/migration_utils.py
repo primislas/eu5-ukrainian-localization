@@ -15,8 +15,9 @@ class MigrationManager:
     have been processed - and as such can be omitted from subsequent runs.
     """
 
-    file_set_id: str
-    data_dir: str = _DEFAULT_MIGRATION_DATA_DIR
+    migration_id: str
+    migration_tracker_dir: str = _DEFAULT_MIGRATION_DATA_DIR
+    migration_tracker_tag: str = "migration"
     
     _processed_files_loaded: bool = False
     _processed_files: set[str] = field(default_factory=set)
@@ -26,13 +27,13 @@ class MigrationManager:
         pass
 
     def _get_tracker_file_path(self) -> Path:
-        return Path(f"{self.data_dir}/migration-{self.file_set_id}.txt")
+        return Path(f"{self.migration_tracker_dir}/{self.migration_tracker_tag}-{self.migration_id}.txt")
 
     def _ensure_tracker_file_exists(self):
         file_path = self._get_tracker_file_path()
         if not file_path.exists():
-            if not os.path.exists(self.data_dir):
-                os.makedirs(self.data_dir)
+            if not os.path.exists(self.migration_tracker_dir):
+                os.makedirs(self.migration_tracker_dir)
             with open(file_path, "w", encoding="utf-8") as f:
                 f.write("")
 

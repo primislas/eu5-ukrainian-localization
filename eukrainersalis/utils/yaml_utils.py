@@ -5,9 +5,6 @@ import re
 import aiofiles
 import yaml
 
-from eukrainersalis.utils.log_utils import logger
-from eukrainersalis.utils.translation_utils import text_is_not_translated, Language
-
 
 class DoubleQuotedDumper(yaml.SafeDumper):
     def __init__(self, *args, **kwargs):
@@ -80,6 +77,7 @@ async def load_eu5_yaml_async(file_path: str) -> dict:
         content_str = await file_handle.read()
         return yaml.load(content_str, Loader=NoBoolSafeLoader)
 
+
 def write_eu5_localization_yaml(data: dict, output_file_path: str, indent: int = 2) -> int:
     dumped = yaml.dump(
         data,
@@ -91,6 +89,7 @@ def write_eu5_localization_yaml(data: dict, output_file_path: str, indent: int =
     )
     with open(output_file_path, "w", encoding="utf-8-sig") as output_file_handle:
         return output_file_handle.write(dumped.strip())
+
 
 async def write_eu5_localization_yaml_async(data: dict, output_file_path: str, indent: int = 2) -> int:
     dumped = yaml.dump(
@@ -105,18 +104,6 @@ async def write_eu5_localization_yaml_async(data: dict, output_file_path: str, i
     async with aiofiles.open(output_file_path, "w", encoding="utf-8-sig") as output_file_handle:
         return await output_file_handle.write(dumped.strip())
 
-def validate_localization_file(file_path: str, language: Language | str = Language.ENGLISH) -> bool:
-    """Validate a YAML localization file by parsing it and checking for errors."""
-    try:
-        content = load_eu5_yaml(file_path)
-        content_key = Language(language).localization_key
-        has_english_content = content_key in content and bool(content.get(content_key))
-        if not has_english_content:
-            logger.debug(f"{file_path} has no {language} localization")
-        return has_english_content
-    except Exception:
-        logger.exception(f"Error parsing {file_path}")
-        return False
 
 def fix_concept_declarations(text: str) -> str:
     """
@@ -140,37 +127,3 @@ def fix_concept_declarations(text: str) -> str:
         return f"[{inner_text}]{between}[Concept('{dangling_text}', 'CONCEPT_PLACEHOLDER')|e]"
 
     return re.sub(pattern, replacement, text, flags=re.DOTALL)
-
-
-def file_is_untranslated(input_file_path, output_file_path, language: Language | str | None = None, language_key: str | None = None) -> bool:
-    """
-    Check if a localization file contains untranslated keys.
-    """
-    localization_key = language_key or Language(language or Language.ENGLISH).localization_key
-    input_content = load_eu5_yaml(input_file_path)
-    input_localization: dict[str, str] = input_content.get(localization_key, {})
-    output_content = load_eu5_yaml(output_file_path)
-    output_localization: dict[str, str] = output_content.get(localization_key, {})
-
-    # Key mismatch - re-translation is required
-    if input_localization.keys() != output_localization.keys():
-        return True
-
-    for k, v in output_localization.items():
-        if text_is_not_translated(v):
-            return True
-    return False
-
-
-def file_is_translated(input_file_path, output_file_path, language: Language | str | None = None, language_key: str | None = None) -> bool:
-    return not file_is_untranslated(input_file_path, output_file_path, language, language_key)
-
-
-async def get_untranslated_keys(file_path, language: Language | str | None = None, language_key: str | None = None) -> dict[str, str]:
-    """
-    Check if a localization file contains untranslated keys.
-    """
-    localization_key = language_key or Language(language or Language.ENGLISH).localization_key
-    content = await load_eu5_yaml_async(file_path)
-    localization: dict[str, str] = content.get(localization_key, {})
-    return {k: v for k, v in localization.items() if text_is_not_translated(v)}

@@ -16,9 +16,9 @@ from eukrainersalis.utils.log_utils import logger
 from eukrainersalis.utils.migration_utils import MigrationManager
 from eukrainersalis.utils.translation_utils import POSTEDIT_EMPTY_TRANSLATION, PENDING_TRANSLATION, \
     text_is_not_translated, translation_is_required, translation_not_required, Language, SystemInstruction, \
-    TranslationResult
+    TranslationResult, split_into_batches, file_is_translated
 from eukrainersalis.utils.yaml_utils import write_eu5_localization_yaml_async, load_eu5_yaml_async, \
-    validate_localization_file, file_is_translated, load_eu5_yaml, write_eu5_localization_yaml
+    validate_localization_file, load_eu5_yaml, write_eu5_localization_yaml
 
 _NEWLINE_REPLANCEMENT = "#NL!#"
 _DEFAULT_SOURCE_LANGUAGE = Language.ENGLISH
@@ -227,16 +227,7 @@ async def create_starting_output_file(content: dict[str, dict], source_language:
     return untranslated_content
 
 
-def _split_into_batches(items: list, batch_size: int, min_last_batch_size: int = 10) -> list[list]:
-    """Split items into batches. Merges the last batch into the previous one if it's too small."""
-    batches = [items[i:i + batch_size] for i in range(0, len(items), batch_size)]
-    if len(batches) > 1 and len(batches[-1]) < min_last_batch_size:
-        last_batch = batches.pop()
-        batches[-1].extend(last_batch)
-    return batches
-
-
-async def _translate_and_save_batch(
+async def translate_and_save_batch(
         batch: list[tuple[str, str]],
         localization: dict[str, str],
         translated_localization: dict[str, str],
@@ -251,7 +242,7 @@ async def _translate_and_save_batch(
 ) -> TranslationResult:
     """Translate one batch and immediately save progress to file."""
     batch_size = len(batch)
-    result = TranslationResult(total_records=batch_size, submitted_records=batch_size)
+    result = TranslationResult(total_records=batch_size, total_submitted_records=batch_size)
     async with api_semaphore:
         lines = [json.dumps({k: v}, ensure_ascii=False) for k, v in batch]
         try:
@@ -394,14 +385,14 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
                 _migration_manager.mark_processed(input_file_path)
             return TranslationResult(total_records=len(translated_localization))
 
-        batches = _split_into_batches(list(untranslated_keys.items()), batch_size)
+        batches = split_into_batches(list(untranslated_keys.items()), batch_size)
         total_batches = len(batches)
         write_lock = asyncio.Lock()
 
         logger.info(f"Translating {file_name}: {len(untranslated_keys)} phrases in {total_batches} batches")
 
         tasks = [
-            _translate_and_save_batch(
+            translate_and_save_batch(
                 batch, in_localization, translated_localization, translated_content,
                 output_file_path, translator, api_semaphore, write_lock,
                 batch_idx, total_batches, file_name,
@@ -418,7 +409,7 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
             if change_reference_source_dir:
                 _migration_manager.mark_processed(input_file_path)
         else:
-            logger.warning(f"Partial translation {file_name}: {result.translated_records}/{result.submitted_records} declarations succeeded")
+            logger.warning(f"Partial translation {file_name}: {result.translated_records}/{result.total_submitted_records} declarations succeeded")
         return result
 
     except Exception as e:

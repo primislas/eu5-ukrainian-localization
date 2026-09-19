@@ -7,9 +7,9 @@ from dotenv import load_dotenv
 from google import genai
 from google.genai.types import GenerateContentConfig, HttpOptions, HttpRetryOptions
 
-from eukrainersalis.utils.log_utils import logger
 from eukrainersalis.translators.translator_api import Translator
-from eukrainersalis.utils.translation_utils import POSTEDIT_TRANSLATION_FAILURE, SystemInstruction, is_valid_json_object
+from eukrainersalis.utils.log_utils import logger
+from eukrainersalis.utils.translation_utils import SystemInstruction, is_valid_json_object
 
 load_dotenv()
 DEFAULT_GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
@@ -24,9 +24,15 @@ def _load_instruction(name: str) -> str:
 
 
 class GeminiTranslator(Translator):
-    def __init__(self, model: str = DEFAULT_GEMINI_MODEL, system_instruction_config: SystemInstruction = SystemInstruction.RU_UA):
+    def __init__(self, model: str = DEFAULT_GEMINI_MODEL, system_instruction_config: SystemInstruction | None = None, system_instruction_text: str | None = None):
         self.model = model
-        self.system_instruction = _load_instruction(system_instruction_config)
+        if system_instruction_config is not None:
+            self.system_instruction = _load_instruction(system_instruction_config)
+        elif system_instruction_text is not None:
+            self.system_instruction = system_instruction_text
+        else:
+            raise ValueError("Either system_instruction_config or system_instruction_text must be provided")
+
         self._gemini: genai.Client | None = None
         self._current_loop: asyncio.AbstractEventLoop | None = None
 

@@ -1,0 +1,72 @@
+# Replace anachronistic loan-word "territory" ("територія")
+
+
+## General Guidelines
+
+Avoid the word "територія", "території" and their derivatives. In almost all cases they can be replaced by one of the following:
+    1. "Терени", especially for large spaces, countries or whole regions, colloquial or casual non-specific texts, generally unspecified large spaces. A colloquial phrase "на ... (цих, тих, наших, чужих, французьких і т.і.) теренах" is often applicable.
+    2. "Земля", "землі" should be treated as the general default translation. When the territory is more specific than "терени" - an established province or region, specific lands a war is waged over, lands changing hands or belonging to someone or some nation/country/tribe/etc, land in general and local sense (e.g. "сільські, міські землі", "на тих землях", "наші, їхні землі"), etc.
+    3. "Володіння" when ownership is stressed, or territory is discussed in a formal context or high prose. Normally used in plural: "у цих володіннях", "примножити наші володіння", "у ворожих володіннях". Unless a specific item such as a city is discussed, e.g. "Кент ... пропонує нам це володіння".
+    4. "Край", "краї" also applies to large spaces or regions (the word "region" / "регіон" can often be replaced with "край" in narrative texts, not strict game mechanics texts), in poetic and narrative contexts when "терени" is less appropriate. Common colloquial expressions "в ... (цих, тих, наших, чужих, французьких) краях", "ці краї" could fit.
+    5. "Місцевість" is occasionally meant when game mechanics in a small territory are discussed. For example, a for effect or a building effect in a territory would often mean it's a "місцевість" - the game's smallest land unit. An English word "location" in localization scripts or keys is usually a solid indicator that "місцевість" is discussed.
+    6. "Межі", "кордони" when boundaries or borders are implied. E.g. "Не території міста" -> "в межах міста, провінції".
+    7. "Простори" is occasionally useful to stress the vastness of a territory. "На цих просторах", "канадські простори", etc.
+
+The word "територія" in narrative texts can often imply some unspecified lands, and could be translated as plural "землі", "терени", "краї" (based on a common expression "в ... краях"), "володіння".
+
+When the correct translation is not obvious, and none of the specific recommendations apply, follow general guidelines and any insight derived from specific examples, and pick any of the best fitting translations.
+
+Be certain to pay attention to the proper grammatical form of surrounding words after the change: endings, prepositions and so on should be adapted to correctly accommodate the selected substitution.
+
+
+## Repetition, Tautology, Polyptotons Guidelines
+
+Try to make sure that there's not much tautology, repetition, polyptotons after translation. The text may already include some of the words we translate "territory" to, and they are important to keep in mind.
+    1. You are allowed to re-arrange already translated words "земля", "землі", "володіння", "терени" and their various forms along with your translation of "territory" in the sentence to avoid repetition and to produce the most naturally sounding and appropriate translation.
+    2. In most cases it is fine to interchange words "землі", "терени", "володіння", "край", "краї" to avoid repetition.
+    3. However, if all potential synonyms are indeed not appropriate, or if the style clearly calls for it, do keep the same word several times in a row.
+
+Polyptoton and repetition examples:
+    * заволодіти володіннями, заволодіти частиною володінь, володіннями заволоділи - these are polyptoton around the root "володіти/володіння", instead translate similar combinations as "заволодіти землями" and other appropriate forms ("заволодіти частиною земель", "землями заволоділи" and so on)
+    * земельні суперечки через землі - could be simplified as "суперечки/чвари через землі", "земельні чвари"
+
+
+## Fixed Expressions
+
+There are fixed expressions that must always be translated as specified:
+    * екстериторіальна країна -> позаземельна країна
+    * територіальна цілісність -> цілісність земель
+    * територіальний суверенітет -> непорушність кордонів
+    ** порушити територіальний суверенітет -> порушити кордони
+    * територіальна експансія -> примноження земель (narrative and high-prose, neutral or positive sentiment), земельні надбання (neutral or positive tone), захоплення / завоювання земель (when conquest is implied or stressed), загарбання земель (negative sentiment)
+    * (im)passable terrain, (не)проходимая территория, (не)прохідна територія -> (не)прохідна місцевість
+    * subject territory connectivity, cвязанность территорий ленника, зв'язність територій васала -> досяжність володінь васала
+    * unlawful territory, незаконна територія -> незаконні володіння
+    * core territory, корінні території -> корінні землі
+
+
+## Adjective "Територіальний"
+
+Adjective "територіальний" can be replaced with "земельний" in most cases. Oftentimes an expression can be flipped to noun to sound more natural. Pick whichever fits the paragraph best. For example:
+    * територіальні суперечки -> суперечки / чвари / усобиці через землю / володіння, земельні суперечки
+    * територіальні права -> земельні права, права на землю
+    * територіальні втрати, надбання -> втрата землі / земель
+    * and so on
+
+
+## Specific Scenarios
+
+Specific scenarios:
+    * на/в/по всій території, всім територіям -> на всіх теренах
+    * на території -> "на теренах" as a default translation, BUT prefer other options in the following cases:
+    ** for the following expressions (and in general when official ownership status, or specifics is important) translate as "у володіннях" (plural), e.g.: місцевості / міста у володіннях, шпигунська мережа у володіннях, право на розміщення флоту / проходу війська у володіннях, військо може проходити по володінням союзника, у володіннях проводиться збір ополчень, будівництво у володіннях заборонене тощо
+    ** when it comes to small-scale landholdings, such as abbeys, temples, palaces, fortresses and so on, translate as "на землях" or "в межах": на землях абатства, на землях Оксфорду, на землях палацу, в межах місцевості, в межах провінції
+    * sometimes "територія" is applied to a specific location, usually when discussing forts or armies acting on a specific location territory (especially in terms of game mechanics), in such cases translate as "в місцевості" ("на території" can be dropped altogether): рівень форту в місцевості, загін не допомагатиме на території сусідніх місцевостей -> загін не допомагатиме у прилеглих місцевостях
+    * "на територію", especially when followed by a country name (in GENinitive case), can almost always be replaced with simple "до": відправили до Франції, прибули до Єгипту
+    ** BUT for more official or governmental relations "у володіння" could be more appropriate: відправити шпигуна у володіння противника, наші торговці можуть повернутися у володіння Туреччини
+    ** for smaller scale territories or when land aspect is stressed translate as "на землі": на землі монастиря, на землі на північ від столиці, на землях, які опиняться під нашим впливом; also for expressions like "перенести війну на землі противника", "в обмін на землі на кордоні", "загін має повернутися на дружні землі" and similar
+    * when militaries operating on friendly or hostile territories are discussed, translate as "не землях": на дружніх землях, на ворожих землях, etc.
+    * великі, обширні території -> просторі краї, просторі терени, великі простори, великі землі
+    * адміністративно-територіальні одиниці, поділ -> земельний устрій
+    * адміністративно-територіальна одиниця (singular) -> земля, провінція
+    * суходільні території -> суходільні терени or володіння, NOT "суходільні землі"
