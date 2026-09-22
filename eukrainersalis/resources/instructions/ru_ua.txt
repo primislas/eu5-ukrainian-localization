@@ -409,6 +409,7 @@ IMPORTANT! When presented with several alternative translation options, choose t
 
     * Страна Хулагуидов -> Ільханат
     * Молдавия, молдавский -> always with "o" - "Молдова", "молдовський", "молдовани", etc.
+    * венецианский (adjective) -> венеційський (NOT венеціанський)
     * махараджа -> магараджа
     * Махараджья -> Магараджія
     * Кингитанга -> Кінгітанга
