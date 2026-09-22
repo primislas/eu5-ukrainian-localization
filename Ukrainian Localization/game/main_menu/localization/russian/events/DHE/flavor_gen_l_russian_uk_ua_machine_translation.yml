@@ -147,7 +147,7 @@
   flavor_gen.24.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   flavor_gen.24.a.entry: "$common_string_brilliant$"
   flavor_gen.24.b: "Вони що, хочуть програти війну?"
-  flavor_gen.25.title: "Венеціансько-генуезька війна"
+  flavor_gen.25.title: "Венеційсько-генуезька війна"
   flavor_gen.25.entry: "$flavor_gen.25.title$"
   flavor_gen.25.desc: "Ворожнеча між #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_INST')|L]#!#! та #ONCLICK:COUNTRY,[GetCountry('VEN').GetKey] #TOOLTIP:COUNTRY,[GetCountry('VEN').GetKey],X [GetCountry('VEN').Custom('CL_INST')|L]#!#! не вщухає відтоді, як наші країни почали боротьбу за панування в Середземному морі в 1256 році.\n\nОстання війна закінчилася в 1299 році, проте останнім часом відносини між країнами знову стали погіршуватися. Причиною цьому послужило те, що через нашу політику [GetCountry('VEN').GetAdjectiveWithNoTooltip|l]і купці втратили доступ до Чорного моря, і тепер [GetCountry('VEN').GetNameWithNoTooltip] погрожує нам заходами у відповідь."
   flavor_gen.25.a: "До зброї!"
