@@ -278,7 +278,7 @@
   flavor_jap.147.title: "[target_character.GetNameWithNoTooltip]"
   flavor_jap.147.entry: "Сюбун Тенсьо"
   flavor_jap.147.desc: "За час свого перебування в #TOOLTIP:WORK_OF_ART,$shokoku_ji_tt$,X #L Сьококу-дзі#!#! [target_character.GetName] досконало опанував техніку #italic суйбоку#! під керівництвом таких майстрів, як [josetsu.GetName]. Надалі він зробив карколомну кар’єру, ставши провідним придворним живописцем столиці. [target_character.GetNameWithNoTooltip] написав безліч робіт, найпопулярнішою серед них вважається #TOOLTIP:WORK_OF_ART,$reading_in_a_bamboo_grove_tt$,X #L «Читання в бамбуковому гаю»#!#!."
-  flavor_jap.147.a: "У [Select_CString(target_character.IsFemale, 'неї', 'нього' )] справжній талант!"
+  flavor_jap.147.a: "У [Select_CString(target_character.IsFemale, 'неї', 'нього' )] справжній хист!"
   flavor_jap.148.title: "[target_character.GetNameWithNoTooltip]"
   flavor_jap.148.entry: "Тойо Сессю"
   flavor_jap.148.desc: "Ще один видатний живописець сучасності, [target_character.GetName], ішов стопами таких майстрів, як його наставник [tensho_shubun.GetName] та великий [josetsu.GetName]. Успішне поєднання #TOOLTIP:CULTUREGROUP,japanese_group,X #L японської#!#! та #TOOLTIP:CULTUREGROUP,chinese_group,X #L китайської#!#! технік роботи тушшю принесли йому відомість по всій #TOOLTIP:REGION,japan_region,X #L Японії#!#!. Яскравим прикладом його характерного стилю є #TOOLTIP:WORK_OF_ART,$jap_winter_landscape_tt$,X #L «Зимовий пейзаж»#!#!."

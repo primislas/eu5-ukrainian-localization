@@ -28,7 +28,7 @@
   flavor_lit.4.tt1: "Через свої слабкі здібності до дипломатії [target_root_country.GetGovernment.GetRuler.GetName|l] домагається лише повного розриву відносин"
   flavor_lit.4.b: "Давайте не будемо гарячкувати."
   flavor_lit.4.c: "Це найкращий можливий результат."
-  flavor_lit.4.tt2: "Завдяки своїм дипломатичним талантам [target_root_country.GetGovernment.GetRuler.GetName|l] домовляється про розлучення, зумівши уникнути війни"
+  flavor_lit.4.tt2: "Завдяки своєму перемовницькому хисту [target_root_country.GetGovernment.GetRuler.GetName|l] домовляється про розлучення, зумівши уникнути війни"
   flavor_lit.5.title: "Шлюбний союз із Заходом"
   flavor_lit.5.entry: "$flavor_lit.5.title$"
   flavor_lit.5.desc: "Коли ми завершили перехід до #TOOLTIP:RELIGION,$catholic_tt$,X #L католицтва#!#!, стало цілком зрозуміло, що нам ще слід здобути визнання права на владу в очах нового набожного суспільства. Витративши кілька днів на листування, ми отримали звістку, що [target_character2.GetName] має [Select_CString(target_character3.IsFemale, 'незаміжню родичку', 'неодруженого родича')] на ім'я [target_character3.GetName]. Укладення шлюбу не тільки допоможе нам влитися в західний #TOOLTIP:RELIGION,$catholic_tt$,X #L католицький#!#! світ, а й посприяє подальшому процвітанню нашого народу."

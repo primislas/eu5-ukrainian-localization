@@ -46,7 +46,7 @@
   flavor_ser.40.title: "[target_character.GetNameWithNoTooltip] переходить на наш бік"
   flavor_ser.40.entry: "Іоанн Кантакузин переходить на наш бік"
   flavor_ser.40.desc: "Не є таємницею, що при дворі нашого ворога вистачає жадібних стерв’ятників, готових розірвати свою країну на частини за першої ж ознаки слабкості. З початком війни хистке становище #ONCLICK:COUNTRY,[GetCountry('BYZ').GetKey] #TOOLTIP:COUNTRY,[GetCountry('BYZ').GetKey],X [GetCountry('BYZ').Custom('CL_GEN')|L]#!#! стало очевидним для всіх придворних з честолюбними прагненнями. Одним із них став [target_character.GetName]. Втративши прихильників і надію захопити трон, він вирішив перекинутися на наш бік."
-  flavor_ser.40.a: "При дворі знадобився б такий талановитий митець."
+  flavor_ser.40.a: "При дворі знадобився б такий обдарований митець."
   flavor_ser.40.b: "Перебіжчикам у нас не раді!"
   flavor_ser.40_for_byz_tt: "[GetCountry('BYZ').GetLongNameWithNoTooltip] дізнається про те, що [target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale,'перейшла', 'перейшов')] на бік ворога"
   flavor_ser.41.title: "Ніж у спину"

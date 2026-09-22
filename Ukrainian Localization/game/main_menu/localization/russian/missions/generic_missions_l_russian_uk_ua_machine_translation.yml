@@ -288,7 +288,7 @@
   requirements_for_this_task_arent_available_yet_tt: "Умови цього [Concept('task', 'етапу')|e] будуть доступні лише після початку відповідного [Concept('mission', 'завдання')|e]"
   capable_cabinet: "Досвідчені радники"
   capable_cabinet_DESCRIPTION: "Мудрі радники допоможуть нам ефективніше керувати країною та вести її до процвітання."
-  capable_cabinet_CRITERIA_DESCRIPTION: "Наша рада складається з талановитих людей, які добре знають свою справу."
+  capable_cabinet_CRITERIA_DESCRIPTION: "Наша рада складається зі здібних людей, які добре знають свою справу."
   capable_cabinet_BUTTON_TOOLTIP: "Призначення вмілих радників має вирішальне значення для грамотного врядування землями."
   capable_cabinet_BUTTON_DETAILS: "$capable_cabinet_BUTTON_TOOLTIP$"
   mission_create_cabinet: "Утворення ради"
