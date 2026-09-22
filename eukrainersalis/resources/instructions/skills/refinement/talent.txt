@@ -1,0 +1,15 @@
+# Replace anachronistic loan-word "talent" ("талант", "талановитий")
+
+
+## General Guidelines
+
+Avoid the word "талант", "талановитий" and their derivatives. In almost all cases they can be replaced by one of the following:
+    1. "Хист" when about skill and ability, including natural talent
+    2. "Дарування", "обдаровання", "обдарованість" when talking about natural talent, aptitude
+    3. "Здібності" in the meaning of aptitude and skill
+    3. "Дар" when stressing exceptional natural talent
+    4. "таланти" as in plural of people -> "обдаровані люди", "здібні люди", "майстерні люди" or "майстри" (when talking about exception practical skill, masters of their craft)
+    5. "таланти" plural in general -> хист, здібності
+    6. талановитий, талантливый -> обдарований, здібний, "з хистом до", "має хист до"
+
+Pick best fit based on context, and modern Ukrainian stylistic guidelines.

@@ -134,7 +134,7 @@
   castilian_civil_war.1020.b: "[Select_CString(pretender_mother.IsFemale,'Її', 'Його')] злочини не заслуговують смертної кари."
   castilian_civil_war.1020.b.tt: "[ruler_mother.GetName] покине #ONCLICK:COUNTRY,[from_country.GetKey] #TOOLTIP:COUNTRY,[from_country.GetKey],X [from_country.Custom('CL_ACC')|L]#!#!, разом з нею у вигнання вирушать до #Y 3#! наших найкращих [Concept('characters', 'персонажів')|e]"
   castilian_civil_war.1020.c: "[pretender_mother.GetShortNameWithNoTooltip] буде [Select_CString(pretender_mother.IsFemale,'вигнана', 'вигнаний')] з [from_country.Custom('CL_GEN')]!"
-  castilian_civil_war.1020.d: "[Select_CString(pretender_mother.IsFemale,'Вона', 'Він')] лише марно струшує повітря, а ми все ще потребуємо [Select_CString(pretender_mother.IsFemale,'її', 'його')] талантів."
+  castilian_civil_war.1020.d: "[Select_CString(pretender_mother.IsFemale,'Вона', 'Він')] лише марно струшує повітря, а ми все ще потребуємо [Select_CString(pretender_mother.IsFemale,'її', 'його')] здібностей."
   castilian_civil_war.1020.d.tt: "Це рішення може спричинити наслідки для персонажа [ruler_mother.GetName] та [Select_CString(ruler_mother.IsFemale,'її', 'його')] дітей…"
   castilian_civil_war.1020.f: "Добре, що на теренах [from_country.Custom('CL_GEN')] немає жодних усобиць."
   castilian_civil_war.1021.title: "Вбивство при дворі"
