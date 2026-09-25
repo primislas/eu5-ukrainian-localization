@@ -16,9 +16,9 @@ from eukrainersalis.utils.log_utils import logger
 from eukrainersalis.utils.migration_utils import MigrationManager
 from eukrainersalis.utils.translation_utils import POSTEDIT_EMPTY_TRANSLATION, PENDING_TRANSLATION, \
     text_is_not_translated, translation_is_required, translation_not_required, Language, SystemInstruction, \
-    TranslationResult, split_into_batches, file_is_translated
+    TranslationResult, split_into_batches, file_is_translated, validate_localization_file
 from eukrainersalis.utils.yaml_utils import write_eu5_localization_yaml_async, load_eu5_yaml_async, \
-    validate_localization_file, load_eu5_yaml, write_eu5_localization_yaml
+    load_eu5_yaml, write_eu5_localization_yaml
 
 _NEWLINE_REPLANCEMENT = "#NL!#"
 _DEFAULT_SOURCE_LANGUAGE = Language.ENGLISH
@@ -297,7 +297,7 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
     Returns:
         True if all batches translated successfully, False otherwise.
     """
-    file_name = os.path.basename(input_file_path)
+    input_file_name = os.path.basename(input_file_path)
     output_file_name = os.path.basename(output_file_path)
     localization_key = Language(source_language).localization_key
     target_localization_key = Language(target_language).localization_key
@@ -375,10 +375,10 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
                              text_is_not_translated(v)}
         if len(untranslated_keys) == 0:
             if translation_key_diff:
-                logger.info(f"Translated {file_name} -> {output_file_name}, no changes requiring translation, detected key diff of ({len(translation_key_diff)}): {list(translation_key_diff)[:10]}")
+                logger.info(f"Translated {input_file_name} -> {output_file_name}, no changes requiring translation, detected key diff of ({len(translation_key_diff)}): {list(translation_key_diff)[:10]}")
                 await write_eu5_localization_yaml_async(translated_content, output_file_path)
             else:
-                logger.info(f"Translated {file_name} -> {output_file_name}, no changes")
+                logger.info(f"Translated {input_file_name} -> {output_file_name}, no changes")
 
             _translation_manager.mark_processed(input_file_path)
             if change_reference_source_dir:
@@ -389,13 +389,13 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
         total_batches = len(batches)
         write_lock = asyncio.Lock()
 
-        logger.info(f"Translating {file_name}: {len(untranslated_keys)} phrases in {total_batches} batches")
+        logger.info(f"Translating {input_file_name}: {len(untranslated_keys)} phrases in {total_batches} batches")
 
         tasks = [
             translate_and_save_batch(
                 batch, in_localization, translated_localization, translated_content,
                 output_file_path, translator, api_semaphore, write_lock,
-                batch_idx, total_batches, file_name,
+                batch_idx, total_batches, input_file_name,
             )
             for batch_idx, batch in enumerate(batches)
         ]
@@ -404,16 +404,16 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
         result.file_path = input_file_path
 
         if result.is_success():
-            logger.info(f"Translated {file_name} -> {output_file_name} ({result.translated_records}/{len(translated_localization)} records updated)")
+            logger.info(f"Translated {input_file_name} -> {output_file_name} ({result.translated_records}/{len(translated_localization)} records updated)")
             _translation_manager.mark_processed(input_file_path)
             if change_reference_source_dir:
                 _migration_manager.mark_processed(input_file_path)
         else:
-            logger.warning(f"Partial translation {file_name}: {result.translated_records}/{result.total_submitted_records} declarations succeeded")
+            logger.warning(f"Partial translation {input_file_name}: {result.translated_records}/{result.total_submitted_records} declarations succeeded")
         return result
 
     except Exception as e:
-        logger.exception(f"Error processing {file_name}: {e}")
+        logger.exception(f"Error processing {input_file_name}: {e}")
         return TranslationResult(file_path=input_file_path).add_error(e)
 
 
@@ -450,9 +450,9 @@ def _find_untranslated_files(max_translations: int, overwrite_existing_translati
 
         if file_name.startswith("customizable_localization_ru_goods"):
             pass
-
         if file_name == "religion_l_russian.yml":
             pass
+
         if has_reference_file and migration_diff_detected(input_file_path, reference_file_path):
             files_to_translate.append((input_file_path, output_file_path, output_dir_path))
             continue

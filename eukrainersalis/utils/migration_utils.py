@@ -17,8 +17,7 @@ class MigrationManager:
 
     migration_id: str
     migration_tracker_dir: str = _DEFAULT_MIGRATION_DATA_DIR
-    migration_tracker_tag: str = "migration"
-    
+
     _processed_files_loaded: bool = False
     _processed_files: set[str] = field(default_factory=set)
     _lock: threading.Lock = field(default_factory=threading.Lock)
@@ -27,7 +26,7 @@ class MigrationManager:
         pass
 
     def _get_tracker_file_path(self) -> Path:
-        return Path(f"{self.migration_tracker_dir}/{self.migration_tracker_tag}-{self.migration_id}.txt")
+        return Path(f"{self.migration_tracker_dir}/{self.migration_id}.txt")
 
     def _ensure_tracker_file_exists(self):
         file_path = self._get_tracker_file_path()

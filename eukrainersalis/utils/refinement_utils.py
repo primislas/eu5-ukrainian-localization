@@ -1,5 +1,6 @@
 import asyncio
 import json
+import os
 from dataclasses import dataclass
 from enum import StrEnum
 from importlib import resources
@@ -25,14 +26,31 @@ def _get_refinement_skill_file(file_name_without_extension: str) -> Traversable:
     return resources.files(_INSTRUCTION_PACKAGE).joinpath(f"{_INSTRUCTION_SKILL_REL_PATH}/{file_name_without_extension}.txt")
 
 
+def select_none(_: str) -> bool:
+    return False
+
+
+def select_administration_refinement(text: str) -> bool:
+    return "адміністра" in text
+
+
+def select_center_refinement(text: str) -> bool:
+    return "центр" in text
+
+
+def select_talent_refinement(text: str) -> bool:
+    return "талант" in text or "талановит" in text
+
+
 def select_territory_refinement(text: str) -> bool:
     return "територі" in text
 
 
 class RefinementSkill(StrEnum):
-    TERRITORY = "territory"
-    CENTER = "center"
     ADMINISTRATION = "administration"
+    CENTER = "center"
+    TALENT = "talent"
+    TERRITORY = "territory"
 
     def get_filter(self) -> Callable[[str], bool]:
         match self:
@@ -58,14 +76,14 @@ class RefinementManager:
     language: Language = Language.RUSSIAN
     max_concurrency: int = 1
 
-    def __init__(self, refinement_id: str, refinement_skill: RefinementSkill):
+    def __init__(self, refinement_id: str, refinement_skill: RefinementSkill, entries_threshold: int = 85):
         self.refinement_id = refinement_id
         self.refinement_skill = refinement_skill
         self._refinement_tracker = MigrationManager(
             migration_id=self.refinement_id,
             migration_tracker_dir=self.refinement_tracker_dir,
-            migration_tracker_tag="refinement"
         )
+        self.entries_threshold = entries_threshold
 
         self._translator = GeminiTranslator(system_instruction_text=self.refinement_skill.get_system_instruction())
 
@@ -172,20 +190,39 @@ class RefinementManager:
 
         return translation
 
-    async def refine(self):
-        api_semaphore = asyncio.Semaphore(self.max_concurrency)
+    def select_filter(self):
+        match self.refinement_skill:
+            case RefinementSkill.TERRITORY:
+                return select_territory_refinement
+            case RefinementSkill.TALENT:
+                return select_talent_refinement
+            case RefinementSkill.CENTER:
+                return select_center_refinement
+            case RefinementSkill.ADMINISTRATION:
+                return select_administration_refinement
 
-        territory_files = self.select_files(select_territory_refinement, max_files=500)
+
+    async def refine(self):
+        logger.info(f"Refining: {self.refinement_id}...")
+        api_semaphore = asyncio.Semaphore(self.max_concurrency)
+        refinement_filter = self.select_filter()
+
+        skill_files = self.select_files(refinement_filter, max_files=500)
+        if not skill_files:
+            logger.info(f"Found no files in need of refinement.")
+            return
+
+        logger.info(f"Selected {len(skill_files)} files for refinement with {sum([len(t_file.selected_keys) for t_file in skill_files])} loc keys.")
         file_by_key = {}
         unrefined_values = {}
-        for t_file in territory_files:
+        for t_file in skill_files:
             for key in t_file.selected_keys:
                 file_by_key[key] = t_file
             unrefined_values = unrefined_values | t_file.select_values()
 
         batches = split_into_batches(list(unrefined_values.items()), self.batch_size)
         batches_count = len(batches)
-        translation_mgr = TranslationLocKeyFileManager(territory_files)
+        translation_mgr = TranslationLocKeyFileManager(skill_files)
         tasks = [
             self.translate_and_save_batch(
                 batch,
@@ -196,11 +233,19 @@ class RefinementManager:
             )
             for batch_idx, batch in enumerate(batches)
         ]
-        await asyncio.gather(*tasks, return_exceptions=True)
+        completed_tasks = await asyncio.gather(*tasks, return_exceptions=True)
+
+        results: list[TranslationResult] = [t for t in completed_tasks if isinstance(t, TranslationResult)]
+        total_submitted_records = sum([r.total_submitted_records for r in results])
+        total_refined_records = sum([r.translated_records for r in results])
+        logger.info(f"Refinement {self.refinement_id} completed with {total_refined_records}/{total_submitted_records} refined keys across {len(skill_files)} files.")
 
 
 if __name__ == "__main__":
 
     load_dotenv()
-    _refinement_mgr = RefinementManager(RefinementSkill.TERRITORY, RefinementSkill.TERRITORY)
+    _refinement_skill = RefinementSkill.TALENT
+    _version = os.getenv("MIGRATION_TO")
+    _refinement_id = f"refinement-{_refinement_skill.value}-{_version}"
+    _refinement_mgr = RefinementManager(_refinement_id, RefinementSkill.TALENT, entries_threshold=20)
     asyncio.run(_refinement_mgr.refine())

@@ -13,7 +13,12 @@ You will receive inputs as a list of key-values, where only values are to be ref
 
 Each submitted key-value is encoded as jsonl: one line - one json object with one key-value pair.
 
-It's ESSENTIAL to look for remaining untranslated Russian words. It's absolutely critical to not let any of the Russian words through, that would be an unacceptable defect. Russian letters, such as 'ы', 'э', 'ъ', 'ё' are also a clear sign of a failed translation and should be cleaned up. Fix all the found issues, translate remaining Russian words, and return cleaned up result. Especially frequently missed words seem to be: также - також, мы - ми, среди - серед.
+It's ESSENTIAL to look for remaining untranslated Russian words. It's absolutely critical to not let any of the Russian words through, that would be an unacceptable defect. Russian letters, such as 'ы', 'э', 'ъ', 'ё' are also a clear sign of a failed translation and should be cleaned up. Fix all the found issues, translate remaining Russian words, and return cleaned up result. Especially frequently missed words seem to be:
+    * также - також
+    * мы - ми
+    * среди - серед
+    * наши - наші
+    * заодно - заразом
 
 
 # Non-negotiable Output Contract
