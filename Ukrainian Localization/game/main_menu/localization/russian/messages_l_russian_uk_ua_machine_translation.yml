@@ -607,7 +607,7 @@
   ADD_BUREAUCRACY_SETUP: "Коли ми додаємо [Concept('bureaucracy', 'установу')|e]"
   ADD_BUREAUCRACY_HEADER: "$MESSENGER$"
   ADD_BUREAUCRACY_TITLE: "Запроваджено установу!"
-  ADD_BUREAUCRACY_DESC: "$GOVERNMENT$ чекають чудові зміни — ми додаємо нову установу типу «$BUREAUCRACY_TYPE$»."
+  ADD_BUREAUCRACY_DESC: "$GOVERNMENT$ переживає чудові зміни — ми додаємо нову установу типу «$BUREAUCRACY_TYPE$»."
   ADD_BUREAUCRACY_FLAVOR: "Завдяки цьому ми ще сильніше вкоротимо повідок, на якому тримаємо свій народ."
   ADD_BUREAUCRACY_LOG: "$GOVERNMENT$ — зміни вже тут, ми додали установу типу «$BUREAUCRACY_TYPE$»."
   ADD_BUREAUCRACY_BTN1: "Гаразд"

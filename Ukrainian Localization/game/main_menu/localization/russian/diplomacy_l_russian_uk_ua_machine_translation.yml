@@ -273,7 +273,7 @@
   SUBJECT_TYPE_TOOLTIP_TEXT: "[Country.GetName] — [Country.GetSubjectTypeLabel|l] #ONCLICK:COUNTRY,[Country.GetDiplomacy.GetOverlord.GetKey] #TOOLTIP:COUNTRY,[Country.GetDiplomacy.GetOverlord.GetKey],X [Country.GetDiplomacy.GetOverlord.Custom('CL_GEN')|L]#!#!."
   SUBJECT_TYPE2_TOOLTIP_TEXT: "[RelationDescItem.GetCountry.GetName] — [RelationDescItem.GetCountry.GetSubjectTypeLabel|l] #ONCLICK:COUNTRY,[RelationDescItem.GetCountry.GetDiplomacy.GetOverlord.GetKey] #TOOLTIP:COUNTRY,[RelationDescItem.GetCountry.GetDiplomacy.GetOverlord.GetKey],X [RelationDescItem.GetCountry.GetDiplomacy.GetOverlord.Custom('CL_GEN')|L]#!#!."
   SUBJECT_TYPE_TOOLTIP_TEXT_TITLE: "[RelationTypeItem.GetName] [RelationTypeItem.GetCountry.Custom('CL_GEN')]"
-  SUBJECTS_COUNTRY_TOOLTIP: "$game_concept_subjects$ [Country.Custom('longname_ua_nott_GEN')]"
+  SUBJECTS_COUNTRY_TOOLTIP: "$game_concept_subjects$ [Country.Custom('longname_ua_wntt_GEN')]"
   COLONIAL_SUBJECTS_TOOLTIP_TEXT_TITLE: "Колонія [Country.GetDiplomacy.GetOverlord.Custom('CL_GEN')]"
   COLONIAL_SUBJECT_LOYALTY_TEXT: "[Country.GetName] — [Country.GetDiplomacy.GetSubjectType.GetName] \nВірність #ONCLICK:COUNTRY,[Country.GetDiplomacy.GetOverlord.GetKey] #TOOLTIP:COUNTRY,[Country.GetDiplomacy.GetOverlord.GetKey],X [Country.GetDiplomacy.GetOverlord.Custom('CL_DAT')|L]#!#!: [Country.GetDiplomacy.GetSubjectLoyalty|%]"
   RELATION_TYPE_ITEM_TOOLTIP_TITLE_DEFAULT: "[RelationTypeItem.GetName|e]"

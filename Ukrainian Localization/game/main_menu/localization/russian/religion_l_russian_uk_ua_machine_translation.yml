@@ -5,7 +5,7 @@
   religious_influence_lutheran: "Церковна влада"
   religious_influence_anglican: "Церковна влада"
   rite_power: "Сила обрядів"
-  GODS_OF_THE_COUNTRY: "Боги [Player.Custom('longname_ua_nott_GEN')]"
+  GODS_OF_THE_COUNTRY: "Боги [Player.Custom('longname_ua_wntt_GEN')]"
   CORE_TENETS_OF: "$NAME$ — основні догмати"
   RELIGIOUS_UNITY_EFFECT: "Середня єдність у вірі у #ONCLICK:COUNTRY,[COUNTRY.GetKey] #TOOLTIP:COUNTRY,[COUNTRY.GetKey],X [COUNTRY.Custom('CL_PREP')|L]#!#! становить $VAL|%2Y$, що має такий ефект:\n\n$EFFECT$"
   PROPOSE: "Запропонувати"
