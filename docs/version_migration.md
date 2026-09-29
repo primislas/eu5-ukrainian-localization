@@ -12,6 +12,7 @@ To perform migration do the following:
     MIGRATION_REFERENCE_DIR=/home/primislas/workspace/eu5-modding-prev-version
     ```
 3. Move new version files to the project directory.
+
    ```python -m eukrainersalis.move_game_localization_to_project```
 4. Oftentimes it's a good idea to set MAX_FILES_TO_TRANSLATE to a smaller value, like 4, 8, 20,
 to process smaller manageable commits, and have an opportunity to edit ru_ua system instructions

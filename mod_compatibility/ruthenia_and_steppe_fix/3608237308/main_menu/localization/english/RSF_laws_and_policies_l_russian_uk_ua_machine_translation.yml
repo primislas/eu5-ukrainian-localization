@@ -1,0 +1,10 @@
+﻿l_english:
+
+ russkaya_pravda_policy_russian: "Русская Правда"
+ russkaya_pravda_policy_belarusian: "Руская Праўда"
+ russkaya_pravda_policy_ukrainian: "Правда Руська"
+ the_rus_justice_policy: "Правосуддя Руси"
+ russkaya_pravda_policy: "[Custom('GetRusJustice')]"
+
+ cossack_traditions_policy: "Козацькі звичаї"
+ cossack_traditions_policy_desc: "Козацьке Військо керується давніми звичаями громад та неписаним законом Степу. Правосуддя здійснюється через козацькі ради та суди, де права й вольності Війська відстоюються за звичаєм, а не за статутами далеких правителів."

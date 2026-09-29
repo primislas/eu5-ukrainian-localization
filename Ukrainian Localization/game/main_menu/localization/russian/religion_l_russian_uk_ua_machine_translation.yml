@@ -54,7 +54,7 @@
   periphora_select_icon: "Оберіть ікону для хресної ходи"
   periphora_select_destination: "Оберіть кінцеву точку хресної ходи"
   PERIPHORA_NAME: "Хода з іконою «[WORK_OF_ART.GetName]» з [LOCATION.Custom('LR_GEN')|l] [LOCATION.GetName] до [LOCATION.Custom('LR_GEN')|l] [TARGET_LOCATION.GetName]"
-  invite_patriarch_delegation: "Запрошення делегації патріарха"
+  invite_patriarch_delegation: "Запросити посольство патріарха"
   invite_patriarch_delegation_desc: "Ми запросимо до себе посольство патріарха, оскільки хочемо покращити взаємини з ним, а також обговорити питання віри та врядування."
   canonize: "Канонізувати"
   canonize_desc: "[Concept('canonize', 'Канонізувати')|e] [Concept('character', 'персонажа')|e], зарахувавши його до лику святих. Це принесе нашій країні бонуси залежно від того, наскільки видатним персонаж був за життя."

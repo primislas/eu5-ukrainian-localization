@@ -13,6 +13,7 @@ project_script_dir = project_dir / "eukrainersalis"
 project_script_resources_dir = project_script_dir / "resources"
 project_mod_dir = project_dir / "mod"
 translation_dir = project_dir / "Ukrainian Localization"
+mod_compatibility_dir = project_dir / "mod_compatibility"
 custom_localization_translation_dir_path = translation_dir / "game" / "in_game" / "common" / "customizable_localization"
 custom_localization_mod_dir_path = project_mod_dir / "in_game" / "common" / "customizable_localization"
 
@@ -28,8 +29,14 @@ estate_ending_custom_loc_file_path = custom_localization_mod_dir_path / "380_ua_
 
 game_dir = Path(os.getenv("GAME_DIR", "./"))
 mod_dir = Path(os.getenv("MOD_DIR", "./"))
+steam_workshop_dir = Path(os.getenv("STEAM_WORKSHOP_DIR", "./"))
 
 custom_localization_game_dir_path = game_dir / "game" / "in_game" / "common" / "customizable_localization"
+
+rasf_steam_mod_id = "3608237308"
+rasf_workshop_dir = steam_workshop_dir / rasf_steam_mod_id
+rasf_project_dir = mod_compatibility_dir / "ruthenia_and_steppe_fix" / rasf_steam_mod_id
+rasf_local_game_mod_dir = mod_dir.parent / "RaSF-Ukrainersalis-Compatibility"
 
 
 _EMPTY_LIST = []
