@@ -1,13 +1,28 @@
 ﻿l_english:
- kyiv_pech_lavra: "Kyiv-Pechersk Lavra"
- kyiv_pech_lavra_desc: "Established in 1051 by the monks Anthony and Theodosius, the Kyiv Pechersk Lavra, or #italic Monastery of the Caves#!, is one of the oldest and most important centers of Eastern Orthodox Christianity. Built partly underground, its cave complexes served as both monastic dwellings and burial sites. Over time, it grew into a vast religious and cultural complex, with theological study and manuscript production. By the 14th century, the Lavra was a central part of Kievan Rus' spirituality and learning."
- kyiv_pech_lavra_maintenance: "Lavra maintenance"
+ kyiv_pech_lavra: "Києво-Печерська лавра"
+ kyiv_pech_lavra_desc: "Заснована у 1051 році ченцями Антонієм і Феодосієм, Києво-Печерська лавра, або #italic Печерський монастир#!, є одним із найдавніших і найважливіших осередків східного православного християнства. Збудовані частково під землею, її печерна мережа слугувала як чернечими обителями, так і місцями поховань. З часом вона перетворилася на великий духовний та культурний комплекс із богословською освітою та переписуванням рукописів. До XIV століття Лавра стала осередком віри та просвітництва Київської Руси."
 
- settlement_standard: "Settlement"
- cossack_sloboda: "Sloboda"
+ steppe_outpost: "Степова залога"
+ steppe_outpost_desc: "Степова залога слугує головною спорудою для збору того, що дає Великий Степ. Багато селян і козаків шукають ці будівлі у рівнинній дичині у надії заробити на життя торгівлею."
+
+ # Cossacks Estate buildings
+ cossacks_colony: "Козацька осада"
+ cossacks_colony_desc: "Козацькі осади, засновані у Дикому Полі, слугують прихистком для вільних поселенців і базою для оборони, походів та освоєння навколишнього степу."
+
+ cossacks_training_grounds: "Козацький вишкільний табір"
+ cossacks_training_grounds_desc: "Оскільки порубіжні громади звикли до зброї, місцеві вишкільні табори дають змогу козакам вдосконалювати навички стрільби, верхової їзди та ближнього бою, підтримуючи готовність стати до зброї будь-якої миті."
+
+ cossacks_hunting_grounds: "Козацькі мисливські угіддя"
+ cossacks_hunting_grounds_desc: "Козаки швидко облаштовують окремі угіддя для полювання, щоб самовільно використовувати дичину будь-яких місцевих лісів."
+
+
+ # Other
+
+ # Seems to be missing from the error log
+ scientific_revolution_advance: "Наукова революція"
+
+ settlement_standard: "Поселення"
+ cossack_sloboda: "Слобода"
  #settlement_building: "[Custom('GetSettlement')]"
 
- # seems to be missing from the error log
- scientific_revolution_advance: "Scientific Revolution"
-
- ostrog_maintenance_1: "Ostrogs"
+ ostrog_maintenance_1: "Остроги"

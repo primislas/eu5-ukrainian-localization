@@ -1,10 +1,10 @@
 ﻿l_english:
- #
- ukrainian_group: "Ukrainian"
- ukrainian_group_desc: "Emerging from the legacy of Kyivan Rus, the Ukrainian cultures reflect a civilization shaped by fertile lands, shifting borders, and diverse influences. Its people developed strong traditions of local self-governance, communal rights, and military organization – most notably embodied by the Cossack hosts."
- belarusian_group: "Belarusian"
- belarusian_group_desc: "Developing in the forested heartlands of Eastern Europe, Belarusian cultures took shape under the enduring institutions of the Grand Duchy of Lithuania. Less exposed to the steppe’s turbulence, it evolved within a framework of law, noble privilege, and administrative continuity. Its traditions emphasize social harmony, legal order, and coexistence among faiths and peoples."
- ruthene_group: "Ruthene"
- ruthene_group_desc: "The Ruthene culture group represents the East Slavic peoples, united by the legacy of medieval western and southern Rus' while shaped by centuries of regional political, religious, and cultural development. Influenced by states such as the Grand Duchy of Lithuania, the Kingdom of Poland, and various Ruthenian principalities, these cultures share common roots yet developed distinct identities over time."
- zalessian_group: "Russian"
- zalessian_group_desc: "The Russian culture group represents the East Slavic peoples of northern and northeastern Rus, shaped by centuries of political, religious, and cultural development."
+  #
+  ukrainian_group: "Українськ"
+  ukrainian_group_desc: "Українські культури, що постали з спадщини Київської Руси, відображають цивілізацію, сформовану родючими землями, мінливими кордонами та різноманітними впливами. Цей народ розвинув міцні звичаї місцевого самоврядування, вольностей громад та особливого військового устрою — найвиразніше втілених козацькими військами-державами."
+  belarusian_group: "Білоруськ"
+  belarusian_group_desc: "Білоруські культури, що розвивалися у лісистому серці Східної Європи, сформувалися під впливом тривалих установ Великого князівства Литовського. Менш вразливі для степових буревіїв, вони розвивалися у межах права, шляхетських привілеїв та спадкоємности врядування. Їхні звичаї підкреслюють соціальну гармонію, правовий порядок та співіснування віросповідань і народів."
+  ruthene_group: "Русинськ"
+  ruthene_group_desc: "Русинська культурна група представляє східнослов'янські народи, об'єднані спадщиною середньовічної західної та південної Руси та сформовані століттями регіонального політичного, духовного та культурного розвитку. Зазнавши впливу таких держав, як Велике князівство Литовське, Королівство Польське та різноманітні руські князівства, ці культури мають спільні корені, але з часом розвинули власну самобутність."
+  zalessian_group: "Заліськ"
+  zalessian_group_desc: "Заліська культурна група представляє східнослов'янські народи північної та північно-східної Русі, сформовані століттями політичного, релігійного та культурного розвитку."

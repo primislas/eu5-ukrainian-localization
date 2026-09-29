@@ -1,43 +1,43 @@
 ﻿l_english:
 
- ATR: "Great Steppe"
- ATR_ADJ: "Tartar"
+ ATR: "Великий Степ"
+ ATR_ADJ: "Татарськ"
  ATR_THE: "$common_string_prefix_article$"
- ATR_horde: "Great Horde"
- ATR_horde_ADJ: "Great"
+ ATR_horde: "Велика Орда"
+ ATR_horde_ADJ: "Ординськ"
 
- KZN: "Qazan"
- KZN_ADJ: "Qazani"
+ KZN: "Казань"
+ KZN_ADJ: "Казанський"
 
- KSM: "Qasim"
- KSM_ADJ: "Qasimi"
+ KSM: "Касимов"
+ KSM_ADJ: "Касимовський"
 
- UZB: "Uzbeq"
- UZB_ADJ: "Uzbeq"
+ UZB: "Узбек"
+ UZB_ADJ: "Узбецький"
 
- POD: "Podolia"
- POD_ADJ: "Podolian"
+ POD: "Поділля"
+ POD_ADJ: "Подільський"
 
- URS: "Kursk"
- URS_ADJ: "Kurian"
+ URS: "Курськ"
+ URS_ADJ: "Курський"
 
- PRS: "Pereiaslav"
- PRS_ADJ: "Pereiaslavan"
+ PRS: "Переяслав"
+ PRS_ADJ: "Переяславський"
 
- QQY: "Qirq Yer"
- QQY_ADJ: "Qirq Yer"
+ QQY: "Кирк-Єр"
+ QQY_ADJ: "Кирк-Єрський"
 
- SSO: "Sobay"
- SSO_ADJ: "Sobay"
+ SSO: "Собай"
+ SSO_ADJ: "Собайський"
 
- MLR: "Malkar"
- MLR_ADJ: "Malkar"
+ MLR: "Малкар"
+ MLR_ADJ: "Малкарський"
 
- ISC: "Saqçi"
- ISC_ADJ: "Saqçi"
+ ISC: "Сакчі"
+ ISC_ADJ: "Сакчинський"
 
- ZAZ: "Zaporizhian Sich"
- ZAZ_ADJ: "Zaporizhian"
- 
- HTM: "Hetmanate"
- HTM_ADJ: "Cossack"
+ ZAZ: "Військо Запорозьке"
+ ZAZ_ADJ: "Запорозький"
+
+ HTM: "Гетьманщина"
+ HTM_ADJ: "Козацький"

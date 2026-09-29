@@ -1,24 +1,31 @@
 ﻿l_english:
 
  # Hordes
- nomadic_societies_reform: "Nomadic Societies"
- nomadic_societies_reform_desc: "In the aftermath of Mongol fragmentation, nomadic polities increasingly prioritize internal organization over external diplomacy, consolidating authority within tribal and noble hierarchies. This shift strengthens the mobilization capacity of both tribal and aristocratic levies, reflecting a more structured distribution of obligations within the steppe."
+ nomadic_societies_reform: "Кочові суспільства"
+ nomadic_societies_reform_desc: "Унаслідок розпаду Монгольської імперії кочові держави дедалі більше зосереджуються на внутрішньому устрої, а не на зовнішніх зносинах, зміцнюючи владу всередині племінних та шляхетських ієрархій. Зсув підвищує мобілізаційну спроможність як племінних, так і аристократичних ополчень, відображаючи чіткіший розподіл обов'язків у степу."
+
+ # Rus Appanages
+ rus_appanage_reform: "Удільний устрій Руси"
+ rus_appanage_reform_desc: "Землі Руси розділені між князями правлячого дому, кожен з яких править власним уділом, визнаючи старшинство великого князя. Пов'язані родинними зв'язками та звичаєм, князі Рюриковичі ділять спільну державу, проте ревно бережуть права та привілеї власних володінь."
 
  # Cossacks & Ukraine
- frontier_liberties_reform: "Frontier Liberties"
- frontier_liberties_reform_desc: "The people who settle the exposed frontier are granted broad freedoms in return for defending their homes. Accustomed to bearing arms and governing their own communities, these settlers grow prosperous and independent, gradually giving the free towns and frontier communities a greater voice in the affairs of the realm."
+ frontier_liberties_reform: "Порубіжні вольності"
+ frontier_liberties_reform_desc: "Людям, які заселяють незахищене порубіжжя, надаються широкі свободи в обмін на захист рідних домівок. Звиклі до зброї та самоврядности, ці поселенці процвітають і здобувають незалежність, поступово надаючи вільним містам та порубіжним громадам вагоміший голос у справах держави."
 
- kurin_kish_reform: "Kurin-Kish Administration"
- kurin_kish_reform_desc: "The Cossack Host was organized into kurins, close-knit military communities whose members shared provisions, quarters and military duties. The kish served as the Host's camp and administrative center, where the Cossacks gathered for campaigns and chose their commanders according to established custom. This organization provided the frontier communities with a degree of military self-government distinct from the surrounding feudal order."
- 
- valok_reform_belarus: "Ustava na Vałoki"
- valok_reform_belarus_desc: "Our [ShowEstateTypeName('nobles_estate')] are more regulated in their behavior towards our subjects. This supports the [ShowEstateTypeName('peasants_estate')] within our realm, while also solidifying their status as an independent estate."
- 
- the_hetmanate_reform: "The Hetmanate"
- the_hetmanate_reform_desc: "The Cossack Hetmanate emerged during the Khmelnytsky Uprising as a Cossack state governed by the Hetman, the General Military Council, and a hierarchy of regimental and company officers. Its political order combined military organization with the traditional liberties of the Cossack Host."
+ kurin_kish_reform: "Курінно-кошовий устрій"
+ kurin_kish_reform_desc: "Козацьке Військо було організоване в курені — згуртовані військові спільноти, члени яких спільно відали харчами, житлом та військовими обов'язками. Кіш слугував табором і урядовим осередком Війська, де козаки збиралися для походів та обирали своїх отаманів згідно звичаю. Такий устрій забезпечував порубіжним громадам рівень військового самоврядування, що вирізнявся на тлі навколишнього феодального ладу."
 
- regimental_administration_reform: "Regimental Administration"
- regimental_administration_reform_desc: "The Hetmanate is divided into regimental districts, each commanded by a colonel elected by the Cossack officer corps. Regiments serve as both military formations and territorial administrations, with their colonels overseeing justice, taxation, local government, and the mobilization of Cossack troops through the subordinate sotnias."
+ valok_reform_belarus: "Устава на волоки"
+ valok_reform_belarus_desc: "Наші [ShowEstateTypeName('nobles_estate')] більш впорядковані у своїй поведінці щодо підданих. Це підтримує [ShowEstateTypeName('peasants_estate')] в нашій державі, водночас зміцнюючи їхній статус як незалежного стану."
 
- starshyna_reform: "Starshyna Council"
- starshyna_reform_desc: "The General Starshyna forms the highest circle of Cossack officers, entrusted with the administration of the Hetmanate and the command of its armies. From the Hetman’s court, they oversee the state’s most important affairs."
+ the_hetmanate_reform: "Гетьманщина"
+ the_hetmanate_reform_desc: "Козацька Гетьманщина виникла під час повстання Хмельницького як козацька держава під проводом гетьмана, Генеральної військової ради та ієрархії полкової й сотницької старшини. Її політичний лад поєднував військовий устрій із звичаєвими вольностями козацького війська."
+
+ regimental_administration_reform: "Полковий устрій"
+ regimental_administration_reform_desc: "Гетьманщина поділяється на полкові округи, кожним з яких командує полковник, обраний козацькою старшиною. Полки слугують як військовими формуваннями, так і земельно-урядовими одиницями, а полковники здійснюють судочинство, оподаткування, місцеве врядування та скликання козацьких військ через підпорядковані сотні."
+
+ starshyna_reform: "Рада старшини"
+ starshyna_reform_desc: "Генеральна старшина формує вище коло козацьких урядовців, яким довірено управління Гетьманщиною та командування її арміями. З двору гетьмана вони керують найважливішими справами держави."
+
+ orlyk_constitution_reform: "Козацька конституція"
+ orlyk_constitution_reform_desc: "Написана після бурхливої боротьби за незалежність, Конституція Пилипа Орлика передбачає рівновагу між гетьманом, Козацьким Військом та ширшою політичною спільнотою. Визначаючи права, обов'язки та межі влади, вона зміцнює довіру між станами й сприяє більш стабільному порядку."

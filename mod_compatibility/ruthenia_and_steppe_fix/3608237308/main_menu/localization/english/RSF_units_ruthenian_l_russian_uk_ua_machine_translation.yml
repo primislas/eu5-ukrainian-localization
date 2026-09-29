@@ -1,46 +1,47 @@
 ﻿l_english:
 
- subunit_type_army_infantry_ukrainian: "Pikhota"
- subunit_type_army_cavalry_knights_ukrainian: "Druzhyna"
- subunit_type_army_cavalry_ukrainian: "Kinnota"
- subunit_type_army_artillery_ukrainian: "Artyleria"
- subunit_type_army_auxiliary_ukrainian: "Oboz"
+ subunit_type_army_infantry_ukrainian: "Піхота"
+ subunit_type_army_cavalry_knights_ukrainian: "Дружина"
+ subunit_type_army_cavalry_ukrainian: "Кіннота"
+ subunit_type_army_artillery_ukrainian: "Гармати"
+ subunit_type_army_auxiliary_ukrainian: "Обоз"
 
  # Cossack Unit chain
- cossacks: "Cossacks"
- a_discovery_cossacks: "Early Cossacks"
- a_discovery_cossacks_desc: "Cossacks emerged as frontier communities of free warriors, settlers, and adventurers on the steppe. They defended the borderlands, raided enemy lands, and gradually developed their own military traditions and institutions. Their mobility, self-government, and skill in irregular warfare made them a distinctive force in Eastern Europe."
- a_reformation_cossacks: "Sich Cossacks"
+ cossacks: "Козаки"
+ a_discovery_cossacks: "Ранні козаки"
+ a_discovery_cossacks_desc: "Козаки виникли як порубіжні громади вільних воїнів, поселенців та шукачів пригод у Степу. Вони обороняли рубежі, здійснювали походи на ворожі землі й поступово сформували власні військові традиції та інституції. Мобільність, самоврядування та майстерність у веденні партизанської війни зробили їх визначною силою у Східній Європі."
+ a_reformation_cossacks: "Січові козаки"
  a_reformation_cossacks_desc: "$a_discovery_cossacks_desc$"
- a_absolutism_cossacks: "Cossack Infantry"
+ a_absolutism_cossacks: "Козацька піхота"
  a_absolutism_cossacks_desc: "$a_discovery_cossacks_desc$"
- a_revolutions_cossacks: "Line Cossack Infantry"
+ a_revolutions_cossacks: "Лінійна козацька піхота"
  a_revolutions_cossacks_desc: "$a_discovery_cossacks_desc$"
 
  # Infantry units
- a_opryshky: "Opryshky"
- a_opryshky_desc: "From the 16th to 19th centuries, Opryshky were mountain partisans and outlaws of the Carpathians. Moving through forests and mountain passes, they fought landlords and authorities and became a lasting symbol of resistance in the Ruthenian highlands."
- a_registered_cossacks: "Registered Cossacks"
+ a_opryshky: "Опришки"
+ a_opryshky_desc: "З XVI по XIX століття опришки були гірськими партизанами та повстанцями Карпат. Пересуваючись лісами й гірськими перевалами, вони боролися проти шляхти та влади, ставши вічним символом опору русинського високогір'я."
+ a_registered_cossacks: "Реєстрові козаки"
  a_registered_cossacks_desc: "$a_discovery_cossacks_desc$"
- a_serdiuks: "Serdiuk Infantry"
- a_serdiuks_desc: "Since the 17th century, serdiuky formed the professional infantry of the Cossack Hetmanate. Maintained directly by the Hetmans, these disciplined troops served as a reliable force alongside the registered Cossack regiments."
- 
+ a_serdiuks: "Сердюки"
+ a_serdiuks_desc: "З XVII століття сердюки складали фахову піхоту Козацького Гетьманату. Ці дисципліновані війська, які утримувалися безпосередньо гетьманами, слугували надійною силою поряд із реєстровими козацькими полками."
+
  # Cavalry units
- a_cossack_raiders: "Cossack Raiders"
+ a_cossack_raiders: "Козацькі загонники"
  a_cossack_raiders_desc: "$a_discovery_cossacks_desc$"
- a_cossack_cavalry: "Cossack Cavalry"
+ a_cossack_cavalry: "Козацька кіннота"
  a_cossack_cavalry_desc: "$a_discovery_cossacks_desc$"
- a_panzer_boyars: "Panzer Boyars"
- a_panzer_boyars_desc: "From the 14th to 16th centuries, Panzer Boyars were military landholders of the Ruthenian lands who served as armoured cavalry. Holding their estates in return for military service, they preserved an older tradition of local warrior nobility."
- a_kompaniytsi: "Kompaniytsi"
- a_kompaniytsi_desc: "From the late 17th to 18th centuries, Kompaniytsi were professional cavalry companies maintained by the Hetmans. Recruited from Cossacks and other free men, they provided the Hetmanate with a permanent force independent of the general Cossack levy."
- a_ukrainian_hussars: "Ukrainian Hussars"
- a_ukrainian_hussars_desc: "From the 1770s to the early 19th century, the former Ukrainian Cossack regiments were reorganised into hussar formations. Adopting the distinctive dress and tactics of light cavalry, they carried the military traditions of the old Cossack regimental system into a new era."
+ a_panzer_boyars: "Панцирні бояри"
+ a_panzer_boyars_desc: "З XIV по XVI століття панцирні бояри були військовозобов'язаними землевласниками руських земель, які служили як важка кіннота. Вони володіли своїми маєтками в обмін на військову службу, зберігаючи давню традицію місцевої воїнської шляхти."
+ a_kompaniytsi: "Компанійці"
+ a_kompaniytsi_desc: "З кінця XVII по XVIII століття компанійці були фаховими кавалерійськими полками, які утримувалися гетьманами. Набрані з козаків та інших вільних людей, вони забезпечували Гетьманат постійним військом, незалежним від загального козацького рушення."
+ a_ukrainian_hussars: "Українські гусари"
+ a_ukrainian_hussars_desc: "З 1770-х років до початку XIX століття колишні українські козацькі полки були реорганізовані в гусарські формування. Прийнявши характерний одяг і тактику легкої кінноти, вони перенесли військові традиції старої козацької полкової системи у нову епоху."
 
  # Navy units
- n_chaika: "Chaika"
- n_chaika_desc: "From the 16th to 18th centuries, the Chaika was the swift riverine and seagoing boat of the Zaporizhian Cossacks. Light and manoeuvrable, these boats carried Cossack raiders down the Dnieper and across the Black Sea, enabling daring raids and the sacking of Ottoman coastal cities."
- 
+ n_chaika: "Чайка"
+ n_chaika_desc: "З XVI по XVIII століття чайка була швидким річковим і морським човном запорозьких козаків. Легкі та маневрені, ці човни відносили козаків-рейдерів униз Дніпром і через Чорне море, уможливлюючи сміливі напади та здобуття османських прибережних міст."
+
  # Vanilla localisation
- a_noble_cavalry.ruthenian_language: "Druzhyna"
- a_plated_knights.ruthenian_language: "Late Druzhyna"
+ a_noble_cavalry.ruthenian_language: "Княжа дружина"
+ a_armored_horsemen.ruthenian_language: "Дружина"
+ a_heavy_cavalrymen.ruthenian_language: "Пізня дружина"

@@ -21,138 +21,138 @@
 
 
  # name_albert: "Albert"
- name_albert.czechslovak_language: "Vojtěch"
- name_albert.slovak_dialect: "Vojtech"
- name_albert.west_slavic_language: "Wojciech"
+ name_albert.czechslovak_language: "Войтех"
+ name_albert.slovak_dialect: "Войтех"
+ name_albert.west_slavic_language: "Войцех"
 
  # name_anthony: "Anthony"
- name_anthony.slovak_dialect: "Anton"
+ name_anthony.slovak_dialect: "Антон"
 
  # name_andrew: "Andrew"
- name_andrew.slovak_dialect: "Andrej"
+ name_andrew.slovak_dialect: "Андрей"
 
  # name_bohuslav: "Bohuslav"
- name_bohuslav.west_slavic_language: "Bogusław"
+ name_bohuslav.west_slavic_language: " Богуслав"
 
  # name_catherine: "Catherine"
- name_catherine.slovak_dialect: "Katarína"
+ name_catherine.slovak_dialect: "Катаріна"
 
  # name_claire: "Claire"
- name_claire.czechslovak_language: "Klára"
- 
+ name_claire.czechslovak_language: "Клара"
+
  # name_dorothy: "Dorothy"
- name_dorothy.west_slavic_language: "Dorota"
+ name_dorothy.west_slavic_language: "Дорота"
 
  # name_elizabeth: "Elizabeth"
- name_elizabeth.slovak_dialect: "Alžbeta"
+ name_elizabeth.slovak_dialect: "Альжбета"
 
  # name_francis: "Francis"
- name_francis.czechslovak_language: "František"
+ name_francis.czechslovak_language: "Франтішек"
 
  # name_george: "George"
- name_george.slovak_dialect: "Juraj"
- 
+ name_george.slovak_dialect: "Юрай"
+
  # name_gregory: "Gregory"
- name_gregory.west_slavic_language: "Grzegorz"
+ name_gregory.west_slavic_language: "Ґжеґож"
 
  # name_helen: "Helen"
- name_helen.czechslovak_language: "Helena"
+ name_helen.czechslovak_language: "Гелена"
 
  # name_henry: "Henrik"
- name_henry.slovak_dialect: "Jano"
+ name_henry.slovak_dialect: "Яно"
 
  # name_james: "James"
- name_james.czechslovak_language: "Jakub"
- name_james.czechslovak_language.diminutive: "Kuba"
+ name_james.czechslovak_language: "Якуб"
+ name_james.czechslovak_language.diminutive: "Куба"
 
  # name_joanna: "Joanna"
- name_joanna.czechslovak_language: "Jana"
- name_joanna.czechslovak_language.alternative: "Ivana"
+ name_joanna.czechslovak_language: "Яна"
+ name_joanna.czechslovak_language.alternative: "Івана"
 
  # name_john: "Johan"
- name_john.slovak_dialect: "Ján"
- name_john.slovak_dialect.diminutive: "Jano"
+ name_john.slovak_dialect: "Ян"
+ name_john.slovak_dialect.diminutive: "Яно"
 
  # name_joseph: "Joseph"
- name_joseph.czechslovak_language: "Josef"
- name_joseph.slovak_dialect: "Jozef"
+ name_joseph.czechslovak_language: "Йозеф"
+ name_joseph.slovak_dialect: "Йозеф"
 
  # name_judith: "Judith"
- name_judith.slovak_dialect: "Judita"
+ name_judith.slovak_dialect: "Юдіта"
 
  # name_lucia: "Lucia"
- name_lucia.czechslovak_language: "Lucie"
- name_lucia.slovak_dialect: "Lucia"
- 
+ name_lucia.czechslovak_language: "Луціє"
+ name_lucia.slovak_dialect: "Луція"
+
  # name_mark: "Mark"
- name_mark.czechslovak_language: "Marek"
- name_mark.west_slavic_language: "Marek"
+ name_mark.czechslovak_language: "Марек"
+ name_mark.west_slavic_language: "Марек"
 
  # name_martha: "Martha"
- name_martha.czechslovak_language: "Marta"
+ name_martha.czechslovak_language: "Марта"
 
  # name_matthew: "Matthew"
- name_matthew.slovak_dialect: "Matej"
+ name_matthew.slovak_dialect: "Матей"
 
  # name_methodius: "Methodius"
- name_methodius.slovak_dialect: "Metod"
+ name_methodius.slovak_dialect: "Метод"
 
  # name_michael: "Michael"
- name_michael.czechslovak_language: "Michal"
+ name_michael.czechslovak_language: "Міхал"
 
  # name_monica: "Monica"
- name_monica.czechslovak_language: "Monika"
+ name_monica.czechslovak_language: "Моніка"
 
  # name_paul: "Paul"
- name_paul.czechslovak_language: "Pavel"
- name_paul.slovak_dialect: "Pavol"
+ name_paul.czechslovak_language: "Павел"
+ name_paul.slovak_dialect: "Павол"
 
  # name_paula: "Paula"
- name_paula.czechslovak_language: "Pavla"
+ name_paula.czechslovak_language: "Павла"
 
  # name_peter: "Peter"
- name_peter.czechslovak_language: "Petr"
- name_peter.slovak_dialect: "Peter"
+ name_peter.czechslovak_language: "Петр"
+ name_peter.slovak_dialect: "Петер"
 
  # name_radoslav: "Radoslav"
- name_radoslav.west_slavic_language: "Radosław"
- 
+ name_radoslav.west_slavic_language: "Радослав"
+
  # name_stephen: "Stefan"
- name_stephen.west_slavic_language: "Stefan"
- name_stephen.west_slavic_language.alternative: "Szczepan"
+ name_stephen.west_slavic_language: "Стефан"
+ name_stephen.west_slavic_language.alternative: "Щепан"
 
  # name_thaddeus: "Thaddeus"
- name_thaddeus.west_slavic_language: "Tadeusz"
+ name_thaddeus.west_slavic_language: "Тадеуш"
 
  # name_veronica: "Veronica"
- name_veronica.czechslovak_language: "Veronika"
+ name_veronica.czechslovak_language: "Вероніка"
 
  # name_vitazoslav: "Vitazoslav"
- name_vitazoslav.czechslovak_language: "Vítězslav"
- name_vitazoslav.slovak_dialect: "Víťazoslav"
+ name_vitazoslav.czechslovak_language: "Вітєзслав"
+ name_vitazoslav.slovak_dialect: "Вітязослав"
 
  # name_vitus: "Vitus"
- name_vitus.czechslovak_language: "Vít"
+ name_vitus.czechslovak_language: "Віт"
 
  # name_waldemar: "Waldemar"
- name_waldemar.czechslovak_language: "Vladimír"
+ name_waldemar.czechslovak_language: "Владимир"
 
  # name_yvonne: "Yvonne"
- name_yvonne.czechslovak_language: "Iveta"
- 
+ name_yvonne.czechslovak_language: "Івета"
 
 
- Dobieslaw: "Dobiesław"
- Mieczyslaw: "Mieczysław"
- Slawomir: "Sławomir"
- Witold: "Witold"
 
- Aldona: "Aldona"
- Michalina: "Michalina"
+ Dobieslaw: "Добєслав"
+ Mieczyslaw: "Мечислав"
+ Slawomir: "Славомир"
+ Witold: "Вітольд"
 
- name_zdenek: "Zdenek"
- name_zdenek.czechslovak_language: "Zdeněk"
- name_zdenek.slovak_dialect: "Zdenek"
+ Aldona: "Альдона"
+ Michalina: "Міхаліна"
 
- Vladimira: "Vladimíra"
- Romana: "Romana"
+ name_zdenek: "Зденек"
+ name_zdenek.czechslovak_language: "Зденєк"
+ name_zdenek.slovak_dialect: "Зденек"
+
+ Vladimira: "Владимира"
+ Romana: "Романа"

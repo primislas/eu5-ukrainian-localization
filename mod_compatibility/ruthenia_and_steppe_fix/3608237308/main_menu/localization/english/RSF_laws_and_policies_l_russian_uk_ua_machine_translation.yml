@@ -1,10 +1,10 @@
 ﻿l_english:
 
- russkaya_pravda_policy_russian: "Russkaya Pravda"
- russkaya_pravda_policy_belarusian: "Ruskaja Praŭda"
- russkaya_pravda_policy_ukrainian: "Pravda Ruska"
- the_rus_justice_policy: "The Rus Justice" 
+ russkaya_pravda_policy_russian: "Русская Правда"
+ russkaya_pravda_policy_belarusian: "Руская Праўда"
+ russkaya_pravda_policy_ukrainian: "Правда Руська"
+ the_rus_justice_policy: "Правосуддя Руси"
  russkaya_pravda_policy: "[Custom('GetRusJustice')]"
 
- cossack_traditions_policy: "Cossack Customary Law"
- cossack_traditions_policy_desc: "The Cossack Host governs itself according to ancient customs, communal traditions, and the unwritten law of the steppe. Justice is exercised through Cossack councils and courts, where the rights and liberties of the Host are upheld by custom rather than the statutes of distant rulers."
+ cossack_traditions_policy: "Козацькі звичаї"
+ cossack_traditions_policy_desc: "Козацьке Військо керується давніми звичаями громад та неписаним законом Степу. Правосуддя здійснюється через козацькі ради та суди, де права й вольності Війська відстоюються за звичаєм, а не за статутами далеких правителів."

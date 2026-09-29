@@ -1,40 +1,40 @@
 ﻿l_english:
  # Overwrite balkan changes
- plovdiv: "Alexiopol"
- stanimaka: "Plovdiv"
- 
+ plovdiv: "Алексіополь"
+ stanimaka: "Пловдив"
+
  # Georgian default correct
- sukhumi: "Tskhumi"
- batumi: "Batomi"
+ sukhumi: "Цхумі"
+ batumi: "Батомі"
 
  # Ruthenia. More important historical locations or correct historical name
- glushkovo: "Khotin" # Хотінь – way older, 14th century
- iziaslav: "Zaslav" # Historical name
- petrove: "Zhovti Vody" # Way more important, battle of 1648
- pavlohrad: "Matviiv Khutir" # Historical name
- horoshino: "Horoshyn" # Historical name
- znobov: "Znoba" # Historical name
- opishnya: "Hlynske" # More known – seat of Hlynskyi/Glinski princes
- ternivka: "Lozova" # More known, less generic
+ glushkovo: "Хотінь" # Хотінь – way older, 14th century
+ iziaslav: "Заслав" # Historical name
+ petrove: "Жовті Води" # Way more important, battle of 1648
+ pavlohrad: "Матвіїв Хутір" # Historical name
+ horoshino: "Горошин" # Historical name
+ znobov: "Зноба" # Historical name
+ opishnya: "Глинське" # More known – seat of Hlynskyi/Glinski princes
+ ternivka: "Лозова" # More known, less generic
 
  # Ruthenia. Spelling corrections
- bereschany: "Berezhany" # Was in German 
- bielska_sloboda: "Bilska Sloboda" # Was in Polish, but it's in the Eastern Ukraine 
- ugrovesk: "Uhrovesk" # g -> h
- zdvizhen: "Zdvyzhen" # i -> y
- tykhomel: "Tykhomel" # l' -> l
- turiisk: "Turiysk" # ii -> iy
- desnyanskyi_horodok: "Desnianskyi Horodok" # ya -> ia
- novohrad_volynskyi: "Zviahel" # ya -> ia
- peresopnytsya: "Peresopnytsia" # ya -> ia
- chernyany: "Cherniany" # ya -> ia
- melnytsya: "Melnytsia" # ya -> ia
- melnya: "Melnia" # ya -> ia
+ bereschany: "Бережани" # Was in German
+ bielska_sloboda: "Більська Слобода" # Was in Polish, but it's in the Eastern Ukraine
+ ugrovesk: "Угровськ" # g -> h
+ zdvizhen: "Здвижень" # i -> y
+ tykhomel: "Тихомель" # l' -> l
+ turiisk: "Турійськ" # ii -> iy
+ desnyanskyi_horodok: "Деснянський Городок" # ya -> ia
+ novohrad_volynskyi: "Звягель" # ya -> ia
+ peresopnytsya: "Пересопниця" # ya -> ia
+ chernyany: "Черняни" # ya -> ia
+ melnytsya: "Мельниця" # ya -> ia
+ melnya: "Мельня" # ya -> ia
 
  # Steppes
- sarai_al_jadid: "Bexima" # Mod uses another capital location. Bexima is from historic maps
- aqmecit_prybuzhzhya: "Rozdol" # There is another one Aqmecit nearby in the Crimea
- rohat_kermen: "Rohat-Kermen" # Dash for consistency
- velyka_oleksandrivka: "Dudchany" # Shorter, simpler
- velyka_lepetykha: "Lepetykha" # Shorter, simpler 
- nyzhnia_duvanka: "Duvanka" # Shorter, simpler
+ sarai_al_jadid: "Бексіма" # Mod uses another capital location. Bexima is from historic maps
+ aqmecit_prybuzhzhya: "Роздол" # There is another one Aqmecit nearby in the Crimea
+ rohat_kermen: "Рогат-Кермен" # Dash for consistency
+ velyka_oleksandrivka: "Дудчани" # Shorter, simpler
+ velyka_lepetykha: "Лепетиха" # Shorter, simpler
+ nyzhnia_duvanka: "Дуванка" # Shorter, simpler

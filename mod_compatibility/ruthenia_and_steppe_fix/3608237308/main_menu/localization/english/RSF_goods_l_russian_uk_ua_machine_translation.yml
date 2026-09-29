@@ -1,4 +1,8 @@
 ﻿l_english:
 
- chaika_4_construction: "Chaika Construction"
- chaika_4_maintenance: "Chaika Maintenance"
+ chaika_4_construction: "Будівництво чайки"
+ chaika_4_maintenance: "Утримання чайки"
+
+ kyiv_pech_lavra_maintenance: "Утримання Києво-Печерської лаври"
+ steppe_outpost_maintenance: "Утримання степових залог"
+ ostrog_maintenance_1: "Утримання острогів"
