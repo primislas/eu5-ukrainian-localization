@@ -13,6 +13,7 @@ project_script_dir = project_dir / "eukrainersalis"
 project_script_resources_dir = project_script_dir / "resources"
 project_mod_dir = project_dir / "mod"
 translation_dir = project_dir / "Ukrainian Localization"
+mod_compatibility_dir = project_dir / "mod_compatibility"
 custom_localization_translation_dir_path = translation_dir / "game" / "in_game" / "common" / "customizable_localization"
 custom_localization_mod_dir_path = project_mod_dir / "in_game" / "common" / "customizable_localization"
 

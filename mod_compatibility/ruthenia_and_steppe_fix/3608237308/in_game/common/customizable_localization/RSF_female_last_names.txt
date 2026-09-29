@@ -1,0 +1,131 @@
+﻿# ----- FEMALE LAST NAMES -----
+# Ukrainian adjective
+UkrGenderSuffixAdj = { 
+	type = character
+	log_loc_errors = no
+	
+	text = {
+		localization_key = ukr_suffix_a_female
+		trigger = {
+			exists = this
+			is_female = yes
+		}
+	}
+	
+	text = {
+		localization_key = ukr_suffix_yi_male
+		fallback = yes
+	}
+}
+
+# Belarusian adjective
+BelGenderSuffixAdj = {
+	type = character
+	log_loc_errors = no
+	
+	text = {
+		localization_key = bel_suffix_aja_female
+		trigger = { is_female = yes }
+	}
+	
+	text = {
+		localization_key = bel_suffix_i_male
+		fallback = yes
+	}
+}
+
+# Polish adjective
+PolGenderSuffixAdj = {
+	type = character
+	log_loc_errors = no
+	
+	text = {
+		localization_key = pol_suffix_a_female
+		trigger = { is_female = yes }
+	}
+	
+	text = {
+		localization_key = pol_suffix_i_male
+		fallback = yes
+	}
+}
+
+# Czech and Slovak adjective
+CzeSvkGenderSuffixAdj = {
+	type = character
+	log_loc_errors = no
+	
+	text = {
+		localization_key = cze_svk_suffix_a_female
+		trigger = { is_female = yes }
+	}
+	
+	text = {
+		localization_key = cze_svk_suffix_y_male
+		fallback = yes
+	}
+}
+
+# Czech and Slovak noun 1
+CzeSvkGenderSuffix1 = {
+	type = character
+	log_loc_errors = no
+	
+	text = {
+		localization_key = cze_svk_suffix_ova_female
+		trigger = { is_female = yes }
+	}
+	
+	text = {
+		localization_key = cze_svk_suffix_no_male
+		fallback = yes
+	}
+}
+
+# Czech and Slovak noun 2
+CzeSvkGenderSuffix2 = {
+	type = character
+	log_loc_errors = no
+	
+	text = {
+		localization_key = cze_svk_suffix_ova_female
+		trigger = { is_female = yes }
+	}
+	
+	text = {
+		localization_key = cze_svk_suffix_a_male
+		fallback = yes
+	}
+}
+
+# Russian adjective
+RusGenderSuffixAdj = {
+	type = character
+	log_loc_errors = no
+	
+	text = {
+		localization_key = rus_suffix_aya_female
+		trigger = { is_female = yes }
+	}
+	
+	text = {
+		localization_key = rus_suffix_iy_male
+		fallback = yes
+	}
+}
+
+# Bulgarian and Russian noun
+BulRusGenderSuffix = {
+	type = character
+	log_loc_errors = no
+	
+	text = {
+		localization_key = bul_rus_suffix_a_female
+		trigger = { is_female = yes }
+	}
+	
+	text = {
+		localization_key = bul_rus_suffix_no_male
+		fallback = yes
+	}
+}
