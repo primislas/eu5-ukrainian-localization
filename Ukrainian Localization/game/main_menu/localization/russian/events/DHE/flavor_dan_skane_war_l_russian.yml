@@ -29,4 +29,4 @@
  flavor_dan_skane_war.6.b: "Отклоним предложение!"
  flavor_dan_skane_war.7.title: "Власти [GetCountry('SWE').Custom('CL_GEN')] принимают наше предложение"
  flavor_dan_skane_war.7.desc: "[GetCountry('SWE').GetName] согласил[GetCountry('SWE').Custom('end_assya')] продать нам права на владение #ONCLICK:COUNTRY,[GetCountry('SKE').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('SKE').Custom('CL_tt')],X [GetCountry('SKE').Custom('CL_INST')|L]#!#!. Хотя ряд формальностей пока не выполнен, договор уже ратифицирован и вступил в силу."
- flavor_dan_skane_war.7.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
+ flavor_dan_skane_war.7.a: "$common_string_brilliant$"

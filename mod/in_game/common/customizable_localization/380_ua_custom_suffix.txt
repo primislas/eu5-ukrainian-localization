@@ -991,7 +991,7 @@ country_flavor = {
 			government_type = government_type:theocracy
 		}
 	}
-	
+
 	# Horde
 	text = {
 		localization_key = rank_empire_horde
@@ -1060,7 +1060,7 @@ country_flavor = {
 			culture = culture:jurchen_culture
 		}
 	}
-	
+
 	text = {
 		localization_key = rank_empire_korean
 		trigger = {
@@ -1072,7 +1072,7 @@ country_flavor = {
 			}
 		}
 	}
-	
+
 	# Default
 
 	text = {
@@ -1152,7 +1152,7 @@ country_flavor = {
 		localization_key = rank_empire_muslim_nasrids
 		trigger = {
 			tag = GRA
-			ruler_or_heir_if_regent.dynasty ?= { dynasty:nasrid_dynasty ?= this } 
+			ruler_or_heir_if_regent.dynasty ?= { dynasty:nasrid_dynasty ?= this }
 			country_rank_is_empire = yes
 			religion.group = religion_group:muslim
 		}
@@ -1165,6 +1165,10 @@ country_flavor = {
 			OR = {
 				has_reform = government_reform:tsardom
 				culture = { has_culture_group = culture_group:russian_group }
+				AND = {
+    				culture = { has_culture_group = culture_group:south_slavic_group }
+                    religion = religion:orthodox
+				}
 			}
 		}
 	}
@@ -1182,7 +1186,7 @@ country_flavor = {
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = rank_empire_ethiopia
 		trigger = {
@@ -1229,7 +1233,7 @@ country_flavor = {
 			has_reform = government_reform:shogunate
 		}
 	}
-	
+
 	text = {
 		localization_key = rank_empire_catholic_spain
 		trigger = {
@@ -1259,7 +1263,7 @@ country_flavor = {
 			country_rank_is_empire = yes
 			culture = { has_culture_group = culture_group:greek_group }
 		}
-	}	
+	}
 
 	text = {
 		localization_key = rank_empire_turkish
@@ -1399,7 +1403,7 @@ country_flavor = {
 			tag = GEN
 		}
 	}
-	
+
 	text = {
 		localization_key = rank_kingdom_psihipqua
 		trigger = {
@@ -1426,7 +1430,7 @@ country_flavor = {
 		}
 	}
 
-		
+
 	text = {
 		localization_key = rank_empire_signoria
 		trigger = {
@@ -1480,6 +1484,15 @@ country_flavor = {
 	}
 
 	text = {
+		localization_key = rank_kingdom_republic_muslim
+		trigger = {
+			country_rank_is_kingdom = yes
+			government_type = government_type:republic
+		    religion.group = religion_group:muslim
+		}
+	}
+
+	text = {
 		localization_key = rank_kingdom_republic
 		trigger = {
 
@@ -1487,7 +1500,7 @@ country_flavor = {
 			government_type = government_type:republic
 		}
 	}
-	
+
 	text = {
 		localization_key = rank_kingdom_catholic_spain
 		trigger = {
@@ -1510,7 +1523,7 @@ country_flavor = {
 	}
 
 	# Theocracy
-	
+
 	text = {
 		localization_key = rank_kingdom_papacy
 		trigger = {
@@ -1558,6 +1571,25 @@ country_flavor = {
 			country_rank_is_kingdom = yes
 			government_type = government_type:theocracy
 			religion.group = religion_group:dharmic
+		}
+	}
+
+	text = {
+		localization_key = rank_duchy_sharifate
+		trigger = {
+            OR = {
+                tag = MEC
+                tag = MDA
+            }
+			religion.group = religion_group:muslim
+		}
+	}
+
+	text = {
+		localization_key = rank_duchy_theocracy_muslim
+		trigger = {
+			government_type = government_type:theocracy
+			religion.group = religion_group:muslim
 		}
 	}
 
@@ -1726,14 +1758,14 @@ country_flavor = {
 						language_family ?= language_family:dravidian_language_family
 						this = language:malay_language
 					}
-				} 
+				}
 				court_language ?= {
 					OR = {
 						language_family ?= language_family:indic_language_family
 						language_family ?= language_family:dravidian_language_family
 						this = language:malay_language
 					}
-				} 
+				}
 			}
 		}
 	}
@@ -1906,7 +1938,7 @@ country_flavor = {
 			government_type = government_type:republic
 		}
 	}
-	
+
 	text = {
 		localization_key = rank_duchy_republic_revolutionary
 		trigger = {
@@ -1944,7 +1976,7 @@ country_flavor = {
 			tag = NED
 		}
 	}
-	
+
 	text = {
 		localization_key = rank_duchy_ajawil
 		trigger = {
@@ -2037,7 +2069,7 @@ country_flavor = {
 			culture = culture:high_alemannic
 		}
 	}
-	
+
 	text = {
 		localization_key = rank_duchy_republic_novgorod
 		trigger = {
@@ -2045,6 +2077,15 @@ country_flavor = {
 			country_rank_is_duchy = yes
 			tag = NOV
 			government_type = government_type:republic
+		}
+	}
+
+	text = {
+		localization_key = rank_duchy_republic_muslim
+		trigger = {
+			country_rank_is_duchy = yes
+			government_type = government_type:republic
+		    religion.group = religion_group:muslim
 		}
 	}
 
@@ -2068,7 +2109,7 @@ country_flavor = {
 			religion.group = religion_group:muslim
 		}
 	}
-	
+
 	text = {
 		localization_key = rank_kingdom_papacy
 		trigger = {
@@ -2193,7 +2234,23 @@ country_flavor = {
 
 			country_rank_is_duchy = yes
 			government_type = government_type:tribe
-			culture = { has_culture_group = culture_group:haudenosaunee_group } 
+			culture = { has_culture_group = culture_group:haudenosaunee_group }
+		}
+	}
+
+	text = {
+		localization_key = rank_county_tribe_arabic
+		trigger = {
+			country_rank_is_duchy = yes
+			government_type = government_type:tribe
+			OR = {
+				court_language ?= language:arabic_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:arabic_language
+				}
+			}
 		}
 	}
 
@@ -2205,7 +2262,7 @@ country_flavor = {
 			government_type = government_type:tribe
 		}
 	}
-	
+
 	# Default
 
 	text = {
@@ -2341,14 +2398,14 @@ country_flavor = {
 						language_family ?= language_family:dravidian_language_family
 						this = language:malay_language
 					}
-				} 
+				}
 				court_language ?= {
 					OR = {
 						language_family ?= language_family:indic_language_family
 						language_family ?= language_family:dravidian_language_family
 						this = language:malay_language
 					}
-				} 
+				}
 			}
 		}
 	}
@@ -2433,7 +2490,7 @@ country_flavor = {
 					capital.area ?= area:wales_area
 				}
 				AND = {
-					OR = {	
+					OR = {
 						country_rank_is_duchy = yes
 						country_rank_is_county = yes
 					}
@@ -2576,7 +2633,7 @@ country_flavor = {
 	}
 
 	text = {
-		localization_key = rank_duchy
+		localization_key = rank_duchy_christian
 		trigger = {
 			country_rank_is_duchy = yes
 			religion.group = religion_group:christian
@@ -2584,7 +2641,7 @@ country_flavor = {
 	}
 
 	text = {
-		localization_key = rank_duchy_principality
+		localization_key = rank_duchy
 		trigger = {
 			country_rank_is_duchy = yes
 		}
@@ -2715,6 +2772,15 @@ country_flavor = {
 	}
 
 	text = {
+		localization_key = rank_county_republic_muslim
+		trigger = {
+			country_rank_is_county = yes
+			government_type = government_type:republic
+		    religion.group = religion_group:muslim
+		}``
+	}
+
+	text = {
 		localization_key = rank_county_republic
 		trigger = {
 
@@ -2725,7 +2791,7 @@ country_flavor = {
 
 
 	# Theocracy
-	
+
 	text = {
 		localization_key = rank_kingdom_papacy
 		trigger = {
@@ -2847,7 +2913,7 @@ country_flavor = {
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = rank_county_amazigh
 		trigger = {
@@ -2913,14 +2979,14 @@ country_flavor = {
 							this = language:malay_language
 						}
 					}
-				} 
+				}
 				court_language ?= {
 					OR = {
 						language_family ?= language_family:indic_language_family
 						language_family ?= language_family:dravidian_language_family
 						this = language:malay_language
 					}
-				} 
+				}
 			}
 		}
 	}
@@ -3113,7 +3179,7 @@ country_flavor = {
 	}
 
 	text = {
-	    localization_key = rank_county
+	    localization_key = rank_county_christian
 	    trigger = {
 			country_rank_is_county = yes
 	        religion.group = religion_group:christian
@@ -3129,7 +3195,7 @@ country_flavor = {
 	}
 
 	text = {
-		localization_key = rank_duchy_principality
+		localization_key = rank_county
 		fallback = yes
 	}
 	if_invalid_loc = return_empty
@@ -3238,31 +3304,31 @@ Get_ua_OrderOfChivalry = {
 	type = country
 	log_loc_errors = no
 	text = {
-		trigger = { has_policy = order_of_saint_george_policy }
+		trigger = { country_has_order = chivalric_order:order_of_saint_george }
 		localization_key = order_of_saint_george_policy
 	}
 	text = {
-		trigger = { has_policy = order_of_the_ermine_policy }
+		trigger = { country_has_order = chivalric_order:order_of_the_ermine }
 		localization_key = order_of_the_ermine_policy
 	}
 	text = {
-		trigger = { has_policy = order_of_the_dragon_policy }
+		trigger = { country_has_order = chivalric_order:order_of_the_dragon }
 		localization_key = order_of_the_dragon_policy
 	}
 	text = {
-		trigger = { has_policy = order_of_the_band_policy }
+		trigger = { country_has_order = chivalric_order:order_of_the_band }
 		localization_key = order_of_the_band_policy
 	}
 	text = {
-		trigger = { has_policy = order_of_the_swan_policy }
+		trigger = { country_has_order = chivalric_order:order_of_the_swan }
 		localization_key = order_of_the_swan_policy
 	}
 	text = {
-		trigger = { has_policy = order_of_the_black_eagle_policy }
+		trigger = { country_has_order = chivalric_order:order_of_the_black_eagle }
 		localization_key = order_of_the_black_eagle_policy
 	}
 	text = {
-		trigger = { has_policy = order_of_the_white_eagle_policy }
+		trigger = { country_has_order = chivalric_order:order_of_the_white_eagle }
 		localization_key = order_of_the_white_eagle_policy
 	}
 	text = {
@@ -4192,6 +4258,12 @@ endlong_eut = {
 	suffix = "_endlong_eut"
 	if_invalid_loc = return_empty
 }
+endlong_etsautsa = {
+	log_loc_errors = no
+	parent = country_flavor
+	suffix = "_endlong_etsautsa"
+	if_invalid_loc = return_empty
+}
 endlong_yeyut = {
 	log_loc_errors = no
 	parent = country_flavor
@@ -4244,6 +4316,12 @@ endrank_eut = {
 	log_loc_errors = no
 	parent = country_flavor
 	suffix = "_endrank_eut"
+	if_invalid_loc = return_empty
+}
+endrank_etsautsa = {
+	log_loc_errors = no
+	parent = country_flavor
+	suffix = "_endrank_etsautsa"
 	if_invalid_loc = return_empty
 }
 endrank_yeyut = {

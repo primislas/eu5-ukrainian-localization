@@ -115,7 +115,7 @@ def adapt_ru_custom_loc():
         to = ec["to"]
         template = declarations["end_fem"] if not to.startswith("pre") else declarations["predlog_kko"]
         migrated_lines = [adapt_ru_to_ua(l).replace("_fem", f"_{to}").replace("predlog_kko", to) for l in template]
-        fname = f"ua_custom_loc_end_{to}.txt" if not to.startswith("pre") else f"ua_custom_loc_{to}.txt"
+        fname = f"380_ua_custom_loc_end_{to}.txt" if not to.startswith("pre") else f"380_ua_custom_loc_{to}.txt"
         fpath = custom_localization_mod_dir_path / fname
         write_lines_to_file(fpath, migrated_lines)
 

@@ -1,0 +1,61 @@
+﻿# Києво-Могилянська академія
+
+l_english:
+ flavor_kie.1.title: "[ShowBuildingTypeName('kyiv_mohyla_academy')]"
+ flavor_kie.1.desc: "З метою збереження надбань руської історії та традицій [target_ruler.GetName] отримав пропозицію від київського митрополита Петра Могили про об’єднання Братської школи зі школою Києво-Печерської лаври, створивши таким чином вищий навчальний заклад — Києво-Могилянську академію. Планується, що місцем розташування цього навчального центру стане будівля Київського Братства, яка відкриє двері для багатьох громадян нашої країни та іноземців, щоб вони могли вивчати історію Київської держави.\n\nЦе, безсумнівно, зміцнить [ShowRegionName('ruthenia_region')], але водночас це буде дороге починання. Можливо, нашому правителю слід дозволити поступово будувати таку академію без будь-якої підтримки з боку Корони."
+ flavor_kie.1.historical_info: "Києво-Могилянська академія була заснована 1632 року з ініціативи митрополита Петра Могили шляхом об’єднання Київських Братської та Лаврської шкіл. Відповідно до умов Гадяцького договору 1658 року отримала університетський статус.\n\nАкадемія стала провідним інтелектуальним центром України та всієї Східної Європи. Щороку заклад випускав багато освічених інтелектуалів, які згодом обіймали високі посади в державній, церковній, науковій та культурній сферах в Україні та сусідніх країнах. Серед видатних випускників академії були гетьмани Іван Виговський, Іван Мазепа та Пилип Орлик, церковні діячі Єпіфаній Славинецький, Симеон Полоцький, Інокентій Ґізель, Дмитро Туптало та Стефан Яворський, державний діяч Олександр Безбородько, композитор Артем Ведель, архітектор Іван Григорович-Барський, епідеміолог Данило Самойлович та філософ Григорій Сковорода."
+ flavor_kie.1.a: "Наша скарбниця завжди готова до розбудови Києва."
+ flavor_kie.1.b: "Він не матиме нашого дозволу на будівництво."
+ flavor_kie.1.c: "Ми використаємо всі наші ресурси, щоб допомогти йому."
+ flavor_kie.1.d: "Він зможе це побудувати, тільки якщо ми за це не заплатимо."
+
+ flavor_kie.2.title: "Майбутнє стану холопів"
+ flavor_kie.2.desc: "До стану холопів завжди ставилися не краще, ніж до [ShowPopTypeName('slaves')], що змушувало значну частину нашого [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] у [ShowRegionName('ruthenia_region')] терпіти жорстоке поводження з боку вищих станів, таких як [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]. Усередині [ROOT.GetCountry.GetName] зростає прагнення скасувати цю визискувальну практику, яка шкодить панщинній економіці. Це навряд чи сподобається впливовому [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')], проте неодмінно підвищить народну прихильність до [target_character.GetName]."
+ flavor_kie.2.historical_info: "Холопи становили основу руської економіки ще з XI століття. Перебуваючи у становищі, близькому до рабства, їхній власник мав над ними безмежну владу, але водночас ніс відповідальність за їхні вчинки. У Києві вони складали більшість нижчого стану аж до XV століття, коли їм надали більше прав, наблизивши їхній статус до європейських кріпаків."
+ flavor_kie.2.a: "Якщо вони прагнуть кращого ставлення, ми їм його гарантуємо."
+ flavor_kie.2.b: "Ми тут не для того, щоб викликати гнів [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]."
+ flavor_kie.2.c: "Ці кріпаки вимагають забагато — будьмо суворішими з ними!"
+ flavor_kie.2.d: "Ця реформа стане нашим найвищим пріоритетом."
+
+ flavor_kie.3.title: "[target_character.GetNameWithNoTooltip]"
+ flavor_kie.3.desc_common: "З огляду на потребу посилити вплив на [target_location.GetName], наша держава шукає нового митрополита для управління [target_location.GetRank.GetName]. Однією з відповідних кандидатур є [target_character.GetName], уродженець цих земель."
+ flavor_kie.3.desc_RUS: "$flavor_kie.3.desc_common$ Чимало людей у [ROOT.GetCountry.GetFlavorRank] вважають, що [target_character.GetWomanMan] завдасть шкоди нашим зусиллям зі зміцнення впливу на [target_location.GetRank.GetNameWithNoTooltip] [target_location.GetNameWithNoTooltip]. Саме тому виникла вимога призначити [target_character.GetHerHim] очільником місцевої митрополії."
+ flavor_kie.3.desc_ZAZ: "$flavor_kie.3.desc_common$ Користуючись прихильністю [target_character2.GetName], багатьом здається, що [target_character.GetWomanMan] стане чудовим митрополитом — лояльним підданим, який дозволить нам краще контролювати [target_location.GetNameWithNoTooltip] та розбудовувати його вулиці."
+ flavor_kie.3.desc: "$flavor_kie.3.desc_common$ [ROOT.GetCountry.GetGovernment.GetCourtTitle] вважає, що така постать також стане чудовим доповненням для нашої [ROOT.GetCountry.GetGovernment.GetCabinetTitle], хоча утримання [target_character.GetHerHis] посади в обох місцях може виявитися витратним."
+ flavor_kie.3.a: "Наймімо [target_character.GetHerHim]."
+ flavor_kie.3.b: "У нас немає потреби в новому митрополитові."
+ flavor_kie.3.c: "Прихильність як [target_character2.GetNameWithNoTooltip], так і [target_location.GetNameWithNoTooltip] — це велика перевага."
+ flavor_kie.3.d: "[target_character.GetSheHe|U] допоможе нам підірвати вплив [target_location.GetNameWithNoTooltip]."
+
+ flavor_kie.4.title: "[target_character.GetNameWithNoTooltip]"
+ flavor_kie.4.desc: "Перетворення [target_location.GetName] на культурний центр, відкритий для всього [ROOT.GetCountry.GetAdjective] народу, також зумовило розквіт багатьох митців. Один із них — [target_character.GetName], відомий [ShowArtistTypeName('iconographer')] серед [ShowReligionName('orthodox')] громади [target_location.GetRank.GetName]. Прагнучи відійти від традиційних іконописних канонів та розвивати власний стиль, [target_character.GetSheHe] бажає стати на службу при нашому [ROOT.GetCountry.GetGovernment.GetCourtTitle] — можливо, щоб здобути нашу прихильність для заснування власного мистецького закладу в [ROOT.GetCountry.GetNameWithNoTooltip], а також сприяти поширенню [ROOT.GetCountry.GetCulture.GetName] культури по всій [ShowContinentName('europe')]."
+ flavor_kie.4.a: "Ми приймаємо всі види мистецтва, навіть ті, що не зовсім відповідають уподобанням [ROOT.GetCountry.GetNameWithNoTooltip]."
+ flavor_kie.4.b: "[target_character.GetSheHe|U] отримає свій заклад."
+ flavor_kie.4.c: "[target_character.GetSheHe|U] не має права перебувати в [ROOT.GetCountry.GetNameWithNoTooltip]."
+
+ flavor_kie.5.title: "$st_andrew_church$"
+ flavor_kie.5.desc: "Оскільки народ [ROOT.GetCountry.GetName] пишається своїми [ROOT.GetCountry.GetReligion.GetAdjective] традиціями, від жителів [target_location.GetRank.GetName] [target_location.GetName] надійшло прохання збудувати нову церкву, де вони зможуть молитися до [ROOT.GetCountry.GetReligion.GetGodName]. Ця ідея зацікавила [target_character2.GetName], [target_character2.GetWomanMan] прагне облаштувати там нову резиденцію. [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] також підтримує цю ініціативу та рекомендує найняти [target_character.GetName] — відомого [target_character.GetArtistType.GetName], який допоможе нам розробити проєкт такої споруди.\n\nХрам, який мають посвятити Святому Андрію — апостолу Русі, також дозволить здобути прихильність Патріарха та продемонструє нашу відданість іншим [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip] країнам."
+ flavor_kie.5.a: "Ми допоможемо з будівництвом цієї нової церкви."
+ flavor_kie.5.b: "Такий проєкт буде надто дорогим."
+
+ flavor_kie.6.title: "Митрополія всієї Русі"
+ flavor_kie.6.desc: "Розквіт [target_location.GetName] привабив багатьох послідовників [ShowReligionAdjective('orthodox')] та [ShowReligionAdjective('catholic')] віри. Хоча обидві конфесії вірять у того самого [ROOT.GetCountry.GetReligion.GetGodName], релігійні догмати ніколи не дозволяли їм повноцінно співіснувати, постійно спричиняючи суперечки довкола вчення про Святу Трійцю. [target_character.GetName] прагне виправити це, зміцнивши [ShowCultureName('ruthenian')] [ShowReligionNameWithNoTooltip('orthodox')] Церкву та віддаливши її від впливу [ShowCultureGroupName('russian_group')] традицій."
+ flavor_kie.6.a: "Зміцнімо [target_location.GetRank.GetNameWithNoTooltip]."
+ flavor_kie.6.b: "Краще залишити це суто релігійною справою."
+
+ flavor_kie.7.title: "Проблеми в [ShowLocationNameWithNoTooltip('kyiv')]"
+ flavor_kie.7.desc: "Нещодавні розслідування у [target_location.GetRank.GetName] [target_location.GetName] показали, що митрополит, призначений [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')], втратив прихильність місцевого населення. Причиною стало скасування нами їхніх прав, що було сприйняте як нетерпимість до їхнього [ShowReligionName('orthodox')] віросповідання. Тепер вони прагнуть відокремитися від [ROOT.GetCountry.GetName] та приєднатися до будь-якої [ShowReligionNameWithNoTooltip('orthodox')] держави, яка захистить їхні права."
+ flavor_kie.7.a: "Ми непохитно стоятимемо на своїх позиціях у [target_location.GetNameWithNoTooltip]."
+ flavor_kie.7.b: "Можливо, настав час послабити наш контроль над митрополією."
+ kie_all_kiev_pops_become_angrier_tt: "Усі [ShowReligionAdjective('orthodox')] [pops|e] у [target_location.GetName] втратять [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%] [pop_satisfaction|e]"
+
+ flavor_kie.8.title: "Новий митрополит для [ShowLocationNameWithNoTooltip('kyiv')]"
+ flavor_kie.8.desc: "[ShowRegionName('ruthenia_region')] тривалий час не мала митрополита, який міг би вести її народ. Прагнучи виправити це, [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] звернулося до [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')] з проханням призначити очільника з-поміж їхніх лав. Вони стверджують, що це єдиний спосіб забезпечити належне управління регіоном без втручання з боку держави. Ми могли б надати їм це право, хоча це загрожує зростанням їхнього впливу в [target_location.GetName]."
+ flavor_kie.8.a: "Якщо вони вимагають — ми виконаємо."
+ flavor_kie.8.b: "Ми не дозволимо їм контролювати [target_location.GetRank.GetNameWithNoTooltip]."
+
+ flavor_kie.9.title: "Розквіт неокласицизму в малярстві [ROOT.GetCountry.GetNameWithNoTooltip]"
+ flavor_kie.9.desc: "У [ROOT.GetCountry.GetName] низка маловідомих митців прагне створити новий мистецький стиль, натхненний естетикою античності. Серед них — [target_character.GetName], німий маляр із [ShowLocationName('hlukhiv')], який навчався та створив кілька визначних робіт. Прагнучи сприяти поширенню нового неокласичного руху, [target_character.GetSheHe] шукає служби під керівництвом [target_character2.GetName] при [ROOT.GetCountry.GetGovernment.GetCourtTitle]."
+ flavor_kie.9.a: "Приймімо на службу [target_character.GetWomanMan]."
+ flavor_kie.9.b: "Нехай [target_character.GetHerHim] розпише увесь [ROOT.GetCountry.GetGovernment.GetCourtTitle]."
+ flavor_kie.9.c: "Ми зупинимо цей рух, поки він не зіпсував наше мистецтво, починаючи з [target_character.GetHerHim]."

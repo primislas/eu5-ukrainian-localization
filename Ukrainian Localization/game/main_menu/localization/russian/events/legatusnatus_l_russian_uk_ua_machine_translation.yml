@@ -1,7 +1,7 @@
 ﻿l_russian:
   legatusnatus.1.title: "Папський легат"
   legatusnatus.1.entry: "$legatusnatus.1.title$"
-  legatusnatus.1.desc: "[home_ruler.GetName] давно [Select_CString(emperor_character.IsFemale, 'удостоїлася', 'удостоївся')] честі бути представником папи римського, яким нині є [pope_ruler.GetName], у землях на північ від Альп.\nПочесний титул #TOOLTIP:GOVERNMENT_REFORM,legatus_natus,X #L папського легата#!#! можуть носити лише гідні люди, тому ми зобов'язані підтримувати наш престиж і дбати про те, щоб [GetCountry('PAP').GetGovernment.GetRulerTitle|l] [GetCountry('PAP').GetGovernment.GetRuler.IsFemale, 'була', 'був'] доброї про нас думки."
+  legatusnatus.1.desc: "[home_ruler.GetName] давно [Select_CString(emperor_character.IsFemale, 'удостоїлася', 'удостоївся')] честі бути представником папи римського, яким нині є [pope_ruler.GetName], у землях на північ від Альп.\nПочесний титул #TOOLTIP:GOVERNMENT_REFORM,legatus_natus,X #L папського легата#!#! можуть носити лише гідні люди, тому ми зобов'язані підтримувати нашу славу і дбати про те, щоб [GetCountry('PAP').GetGovernment.GetRulerTitle|l] [GetCountry('PAP').GetGovernment.GetRuler.IsFemale, 'була', 'був'] доброї про нас думки."
   legatusnatus.1.a: "Усе в руках Господа."
   legatusnatus.2.title: "Втрата титулу папського легата"
   legatusnatus.2.desc: "Останнім часом наше становище в #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священній Римській Імперії#!#! та стосунки з папою римським, яким зараз є [pope_ruler.GetName], суттєво погіршилися. [GetCountry('PAP').GetGovernment.GetRulerTitle], схоже, більше не впевнений у тому, що ми гідні бути #TOOLTIP:GOVERNMENT_REFORM,legatus_natus,X #L папським легатом#!#! в імперії, і, на жаль, вирішив позбавити нас цього титулу."

@@ -3,6 +3,8 @@
   nobles_estate_panirytiri: "Пани та лицарі"
   # Germany, Scandinavia: Adel
   nobles_estate_adel: "Адель"
+  # Cossacks, Ukraine: Starshyna
+  nobles_estate_starshyna: "Старшина"
   # Germany: Bürgers
   burghers_estate_german: "Бюргери"
   # Italy: Popolani

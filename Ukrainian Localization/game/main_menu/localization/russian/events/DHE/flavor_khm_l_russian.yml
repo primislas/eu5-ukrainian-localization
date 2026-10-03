@@ -9,6 +9,7 @@
  flavor_khm.1001.desc: "Теперь состояние #TOOLTIP:BUILDING_TYPE,khmer_baray,X #L барая#!#! настолько плачевно, что этот огромный резервуар больше нельзя использовать для снабжения."
  flavor_khm.1001.a: "[ROOT.GetCountry.Custom('common_string_negative')]"
  flavor_khm.1001.a.entry: "$common_string_curses$"
+ variable_khm_baray_in_disrepair_tt: "#TOOLTIP:LOCATION,angkor,X #L Ангкорские#!#! бараи пришли в негодность"
  flavor_khm.1100.title: "Утрата памятника искусства"
  flavor_khm.1100.entry: "Изумрудный Будда в осаде"
  flavor_khm.1100.desc: "В ходе осады [target_location.Custom('LR_GEN')|l] [target_location.GetName], которую предприняли [siege_leader.GetName] и [Select_CString(siege_leader.IsFemale, 'её', 'его')] войско, [target_art.GetName] лишается одного из своих ценнейших сокровищ. Нам остаётся лишь оплакивать потерю прекрасной статуи, олицетворявшей силу нашей веры."
@@ -16,4 +17,4 @@
  flavor_khm.1100.a.entry: "$common_string_this_is_disappointing$"
  flavor_khm.1101.title: "Кража памятника искусства"
  flavor_khm.1101.desc: "Во время осады [target_location.Custom('LR_GEN')|l] [target_location.GetName] к нам в руки попадает [target_art.GetName] — знаменитый памятник искусства. Прекрасная статуя уже направляется в столицу: [ROOT.GetCountry.GetCapital.GetRank.GetNameWithNoTooltip|l] [ROOT.GetCountry.GetCapital.GetName] станет ей новым домом."
- flavor_khm.1101.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
+ flavor_khm.1101.a: "$common_string_brilliant$"

@@ -6,7 +6,7 @@
   country_description_category_name_diplomatic: "Політика"
   country_description_category_desc_diplomatic: "Ця [Concept('country', 'країна')|e] зосереджена на внутрішніх справах та міжнародній [Concept('diplomacy', 'дипломатії')|e]."
   country_description_category_name_military: "Експансія"
-  country_description_category_desc_military: "Ця [Concept('country', 'країна')|e] зосереджена на [Concept('conquer', 'завоюваннях')|e] для розширення території."
+  country_description_category_desc_military: "Ця [Concept('country', 'країна')|e] зосереджена на [Concept('conquer', 'завоюваннях')|e] для розширення володінь."
   DIFFICULTY_LEVEL_DESC: "Наскільки складно починати гру за цю країну."
   DIFFICULTY_LEVEL_LABEL: "Рівень складності"
   difficulty_level_name_1: "#G Дуже низька #!"

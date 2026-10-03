@@ -16,9 +16,9 @@ from eukrainersalis.utils.log_utils import logger
 from eukrainersalis.utils.migration_utils import MigrationManager
 from eukrainersalis.utils.translation_utils import POSTEDIT_EMPTY_TRANSLATION, PENDING_TRANSLATION, \
     text_is_not_translated, translation_is_required, translation_not_required, Language, SystemInstruction, \
-    TranslationResult
+    TranslationResult, split_into_batches, file_is_translated, validate_localization_file
 from eukrainersalis.utils.yaml_utils import write_eu5_localization_yaml_async, load_eu5_yaml_async, \
-    validate_localization_file, file_is_translated, load_eu5_yaml, write_eu5_localization_yaml
+    load_eu5_yaml, write_eu5_localization_yaml
 
 _NEWLINE_REPLANCEMENT = "#NL!#"
 _DEFAULT_SOURCE_LANGUAGE = Language.ENGLISH
@@ -27,8 +27,9 @@ _DEFAULT_MACHINE_SUFFIX = "machine_translation"
 
 # TODO: original file cleanup - remove \t or replace with a space
 
-_PREPROC_MAPPINGS = {
-    # 1.0
+_MIGRATION_MAPPING = {
+    # 1.0; one reason to normalize keys is to make it simpler
+    # to find all alternative translations when searching by key
     "_RU_": "_UA_",
     "_ru_": "_ua_",
     "RU_rank_": "UA_rank_",
@@ -45,11 +46,15 @@ _PREPROC_MAPPINGS = {
     "'ityat'": "'end_ityat'",
     "'assya'": "'end_assya'",
     "'youtyut'": "'end_youtyut'",
-    "…": "...",
+    "...": "…",
     "','": "', '",
     "_wth_icon": "_with_icon",
     "SOCIEALVALUE": "SOCIETALVALUE",
     "' )]": "')]",
+}
+
+_TRANSLATION_POSTPROC_MAPPING = {
+    ".Custom('CL_tt')": ".GetKey",
 }
 
 _KEYS_MAPPING = {
@@ -72,7 +77,7 @@ _translation_manager = MigrationManager(os.environ["MIGRATION_TO"])
 
 def migrated_text_preprocessing(value: str) -> str:
     preprocessed = value
-    for k, v in _PREPROC_MAPPINGS.items():
+    for k, v in _MIGRATION_MAPPING.items():
         preprocessed = preprocessed.replace(k, v)
     return preprocessed
 
@@ -88,7 +93,7 @@ def postprocess_text_that_does_not_require_translation(value: str) -> str:
     """Automatic transformations for text that is not submitted for
     auto-translation. Most commonly, it remaps "OK" to "Гаразд"."""
     postprocessed = value
-    postprocessed = postprocessed if postprocessed != "OK" else "Гаразд"
+    postprocessed = translation_postprocessing(postprocessed) if postprocessed != "OK" else "Гаразд"
     return postprocessed
 
 
@@ -204,7 +209,8 @@ def translation_postprocessing(line: str) -> str:
     # line = expand_concepts(line)
     # line = expand_adjectives(line)
     # line = line.replace(_NEWLINE_REPLANCEMENT, "\n")
-    line = line.replace("\\", "\\\\")
+    for k, v in _TRANSLATION_POSTPROC_MAPPING.items():
+        line = line.replace(k, v)
     return line
 
 
@@ -221,16 +227,7 @@ async def create_starting_output_file(content: dict[str, dict], source_language:
     return untranslated_content
 
 
-def _split_into_batches(items: list, batch_size: int, min_last_batch_size: int = 10) -> list[list]:
-    """Split items into batches. Merges the last batch into the previous one if it's too small."""
-    batches = [items[i:i + batch_size] for i in range(0, len(items), batch_size)]
-    if len(batches) > 1 and len(batches[-1]) < min_last_batch_size:
-        last_batch = batches.pop()
-        batches[-1].extend(last_batch)
-    return batches
-
-
-async def _translate_and_save_batch(
+async def translate_and_save_batch(
         batch: list[tuple[str, str]],
         localization: dict[str, str],
         translated_localization: dict[str, str],
@@ -245,11 +242,16 @@ async def _translate_and_save_batch(
 ) -> TranslationResult:
     """Translate one batch and immediately save progress to file."""
     batch_size = len(batch)
-    result = TranslationResult(total_records=batch_size, submitted_records=batch_size)
+    result = TranslationResult(total_records=batch_size, total_submitted_records=batch_size)
     async with api_semaphore:
         lines = [json.dumps({k: v}, ensure_ascii=False) for k, v in batch]
         try:
-            translated_lines = await translator.translate_batch_async(lines)
+            unrefined_lines = lines
+            # unrefined_lines = await translator.translate_batch_async(lines)
+            # refining translation - 2nd pass works as a Ukrainian editor with the current
+            # system instructions. The same instructions are used to take advantage of
+            # instruction cache and cost optimization.
+            translated_lines = await translator.translate_batch_async(unrefined_lines)
         except Exception as e:
             logger.error(f"Batch {batch_idx + 1}/{total_batches} of {file_name} failed: {e}")
             result.add_error(e)
@@ -258,13 +260,15 @@ async def _translate_and_save_batch(
     successful_translations = 0
     async with write_lock:
         for line in translated_lines:
+            line = translation_postprocessing(line)
             lkv: dict[str, str] = {}
             try:
                 lkv = json.loads(line)
             except Exception:
                 try:
                     # sometimes running into failing escape sequences
-                    lkv = json.loads(translation_postprocessing(line))
+                    line = line.replace("\\", "\\\\")
+                    lkv = json.loads(line)
                 except Exception as e:
                     logger.error(f"Expected a JSON but received: " + line)
                     result.add_error(e)
@@ -293,7 +297,7 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
     Returns:
         True if all batches translated successfully, False otherwise.
     """
-    file_name = os.path.basename(input_file_path)
+    input_file_name = os.path.basename(input_file_path)
     output_file_name = os.path.basename(output_file_path)
     localization_key = Language(source_language).localization_key
     target_localization_key = Language(target_language).localization_key
@@ -371,27 +375,27 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
                              text_is_not_translated(v)}
         if len(untranslated_keys) == 0:
             if translation_key_diff:
-                logger.info(f"Translated {file_name} -> {output_file_name}, no changes requiring translation, detected key diff of ({len(translation_key_diff)}): {list(translation_key_diff)[:10]}")
+                logger.info(f"Translated {input_file_name} -> {output_file_name}, no changes requiring translation, detected key diff of ({len(translation_key_diff)}): {list(translation_key_diff)[:10]}")
                 await write_eu5_localization_yaml_async(translated_content, output_file_path)
             else:
-                logger.info(f"Translated {file_name} -> {output_file_name}, no changes")
+                logger.info(f"Translated {input_file_name} -> {output_file_name}, no changes")
 
             _translation_manager.mark_processed(input_file_path)
             if change_reference_source_dir:
                 _migration_manager.mark_processed(input_file_path)
             return TranslationResult(total_records=len(translated_localization))
 
-        batches = _split_into_batches(list(untranslated_keys.items()), batch_size)
+        batches = split_into_batches(list(untranslated_keys.items()), batch_size)
         total_batches = len(batches)
         write_lock = asyncio.Lock()
 
-        logger.info(f"Translating {file_name}: {len(untranslated_keys)} phrases in {total_batches} batches")
+        logger.info(f"Translating {input_file_name}: {len(untranslated_keys)} phrases in {total_batches} batches")
 
         tasks = [
-            _translate_and_save_batch(
+            translate_and_save_batch(
                 batch, in_localization, translated_localization, translated_content,
                 output_file_path, translator, api_semaphore, write_lock,
-                batch_idx, total_batches, file_name,
+                batch_idx, total_batches, input_file_name,
             )
             for batch_idx, batch in enumerate(batches)
         ]
@@ -400,16 +404,16 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
         result.file_path = input_file_path
 
         if result.is_success():
-            logger.info(f"Translated {file_name} -> {output_file_name} ({result.translated_records}/{len(translated_localization)} records updated)")
+            logger.info(f"Translated {input_file_name} -> {output_file_name} ({result.translated_records}/{len(translated_localization)} records updated)")
             _translation_manager.mark_processed(input_file_path)
             if change_reference_source_dir:
                 _migration_manager.mark_processed(input_file_path)
         else:
-            logger.warning(f"Partial translation {file_name}: {result.translated_records}/{result.submitted_records} declarations succeeded")
+            logger.warning(f"Partial translation {input_file_name}: {result.translated_records}/{result.total_submitted_records} declarations succeeded")
         return result
 
     except Exception as e:
-        logger.exception(f"Error processing {file_name}: {e}")
+        logger.exception(f"Error processing {input_file_name}: {e}")
         return TranslationResult(file_path=input_file_path).add_error(e)
 
 
@@ -446,9 +450,9 @@ def _find_untranslated_files(max_translations: int, overwrite_existing_translati
 
         if file_name.startswith("customizable_localization_ru_goods"):
             pass
-
         if file_name == "religion_l_russian.yml":
             pass
+
         if has_reference_file and migration_diff_detected(input_file_path, reference_file_path):
             files_to_translate.append((input_file_path, output_file_path, output_dir_path))
             continue

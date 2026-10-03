@@ -1,0 +1,47 @@
+﻿l_english:
+
+ subunit_type_army_infantry_ukrainian: "Піхота"
+ subunit_type_army_cavalry_knights_ukrainian: "Дружина"
+ subunit_type_army_cavalry_ukrainian: "Кіннота"
+ subunit_type_army_artillery_ukrainian: "Гармати"
+ subunit_type_army_auxiliary_ukrainian: "Обоз"
+
+ # Cossack Unit chain
+ cossacks: "Козаки"
+ a_discovery_cossacks: "Ранні козаки"
+ a_discovery_cossacks_desc: "Козаки виникли як порубіжні громади вільних воїнів, поселенців та шукачів пригод у Степу. Вони обороняли рубежі, здійснювали походи на ворожі землі й поступово сформували власні військові традиції та інституції. Мобільність, самоврядування та майстерність у веденні партизанської війни зробили їх визначною силою у Східній Європі."
+ a_reformation_cossacks: "Січові козаки"
+ a_reformation_cossacks_desc: "$a_discovery_cossacks_desc$"
+ a_absolutism_cossacks: "Козацька піхота"
+ a_absolutism_cossacks_desc: "$a_discovery_cossacks_desc$"
+ a_revolutions_cossacks: "Лінійна козацька піхота"
+ a_revolutions_cossacks_desc: "$a_discovery_cossacks_desc$"
+
+ # Infantry units
+ a_opryshky: "Опришки"
+ a_opryshky_desc: "З XVI по XIX століття опришки були гірськими партизанами та повстанцями Карпат. Пересуваючись лісами й гірськими перевалами, вони боролися проти шляхти та влади, ставши вічним символом опору русинського високогір'я."
+ a_registered_cossacks: "Реєстрові козаки"
+ a_registered_cossacks_desc: "$a_discovery_cossacks_desc$"
+ a_serdiuks: "Сердюки"
+ a_serdiuks_desc: "З XVII століття сердюки складали фахову піхоту Козацького Гетьманату. Ці дисципліновані війська, які утримувалися безпосередньо гетьманами, слугували надійною силою поряд із реєстровими козацькими полками."
+
+ # Cavalry units
+ a_cossack_raiders: "Козацькі загонники"
+ a_cossack_raiders_desc: "$a_discovery_cossacks_desc$"
+ a_cossack_cavalry: "Козацька кіннота"
+ a_cossack_cavalry_desc: "$a_discovery_cossacks_desc$"
+ a_panzer_boyars: "Панцирні бояри"
+ a_panzer_boyars_desc: "З XIV по XVI століття панцирні бояри були військовозобов'язаними землевласниками руських земель, які служили як важка кіннота. Вони володіли своїми маєтками в обмін на військову службу, зберігаючи давню традицію місцевої воїнської шляхти."
+ a_kompaniytsi: "Компанійці"
+ a_kompaniytsi_desc: "З кінця XVII по XVIII століття компанійці були фаховими кавалерійськими полками, які утримувалися гетьманами. Набрані з козаків та інших вільних людей, вони забезпечували Гетьманат постійним військом, незалежним від загального козацького рушення."
+ a_ukrainian_hussars: "Українські гусари"
+ a_ukrainian_hussars_desc: "З 1770-х років до початку XIX століття колишні українські козацькі полки були реорганізовані в гусарські формування. Прийнявши характерний одяг і тактику легкої кінноти, вони перенесли військові традиції старої козацької полкової системи у нову епоху."
+
+ # Navy units
+ n_chaika: "Чайка"
+ n_chaika_desc: "З XVI по XVIII століття чайка була швидким річковим і морським човном запорозьких козаків. Легкі та маневрені, ці човни відносили козаків-рейдерів униз Дніпром і через Чорне море, уможливлюючи сміливі напади та здобуття османських прибережних міст."
+
+ # Vanilla localisation
+ a_noble_cavalry.ruthenian_language: "Княжа дружина"
+ a_armored_horsemen.ruthenian_language: "Дружина"
+ a_heavy_cavalrymen.ruthenian_language: "Пізня дружина"

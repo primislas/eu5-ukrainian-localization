@@ -423,6 +423,13 @@ nobles_estate = {
 	}
 
 	text = {
+		localization_key = nobles_estate_starshyna
+		trigger = {
+		    has_reform = government_reform:cossacks_reform
+		}
+	}
+
+	text = {
 		localization_key = nobles_estate
 		fallback = yes
 	}

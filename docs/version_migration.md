@@ -12,6 +12,7 @@ To perform migration do the following:
     MIGRATION_REFERENCE_DIR=/home/primislas/workspace/eu5-modding-prev-version
     ```
 3. Move new version files to the project directory.
+
    ```python -m eukrainersalis.move_game_localization_to_project```
 4. Oftentimes it's a good idea to set MAX_FILES_TO_TRANSLATE to a smaller value, like 4, 8, 20,
 to process smaller manageable commits, and have an opportunity to edit ru_ua system instructions
@@ -22,6 +23,8 @@ until all files are exhausted.
 7. Run "estate_ending_generator.py" to generate estate endings
 8. Run "estate_case_generator.py" to detect missing estate grammatical cases and autogenerate estate cases from config file.
 9. Run "ending_patching.py" in a separate commit, to detect dangling cases of Russian endings and prepositions.
+10. Run "table_patching.py" in a separate commit to detect tables in English localization that haven't been correctly carried over.
 
 Various post-migration checks:
 * Check correct 'GetAdjective' endings with a regex search `GetAdjective[^\]]*][^а-яіїє\[\$]`
+* Check correct grammatical cases after 'до' (should be Genitive, not Dative or Accusative) `[Дд]о[^а-я].*DAT'` `[Дд]о[^а-я].*ACC'`

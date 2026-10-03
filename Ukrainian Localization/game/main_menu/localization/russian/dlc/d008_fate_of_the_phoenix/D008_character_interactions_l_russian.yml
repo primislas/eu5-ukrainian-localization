@@ -29,3 +29,5 @@
  blind_character_desc_specific: "Позволяет отдать приказ на ослепление [Concept('character', 'персонажа')|e], что даст ему свойство #TOOLTIP:TRAIT,blind,X #L «Слепота»#!#!."
  blind_character_past: "[SCOPE.sCharacter('recipient').GetName] [Select_CString(SCOPE.sCharacter('recipient').IsFemale,'была ослеплена', 'был ослеплён')] согласно императорскому указу"
  blind_character_act_past: "[SCOPE.sCharacter('recipient').GetName] [Select_CString(SCOPE.sCharacter('recipient').IsFemale,'была ослеплена', 'был ослеплён')] согласно императорскому указу"
+ blind_pretender_removed_tt: "[SCOPE.sCharacter('recipient').GetName] отказывается от своих претензий на трон, поскольку слепой наследник не может править"
+ blind_new_pretender_emerges_tt: "Возникает заговор вокруг нового претендента: [SCOPE.sCharacter('new_pretender_scope').GetName]"

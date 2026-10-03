@@ -13,12 +13,15 @@ project_script_dir = project_dir / "eukrainersalis"
 project_script_resources_dir = project_script_dir / "resources"
 project_mod_dir = project_dir / "mod"
 translation_dir = project_dir / "Ukrainian Localization"
+mod_compatibility_dir = project_dir / "mod_compatibility"
 custom_localization_translation_dir_path = translation_dir / "game" / "in_game" / "common" / "customizable_localization"
 custom_localization_mod_dir_path = project_mod_dir / "in_game" / "common" / "customizable_localization"
 
 estate_localization_file_path = translation_dir / "game" / "main_menu" / "localization" / "russian" / "estate_l_russian_uk_ua_machine_translation.yml"
-estate_grammatical_case_output_file_path = translation_dir / "game" / "main_menu" / "localization" / "russian" / "EU5_customizable_localization_ru_estate_l_russian_uk_ua_machine_translation.yml"
 estate_grammatical_case_config_file_path = project_script_resources_dir / "estate_grammatical_cases.json"
+estate_grammatical_case_output_file_path = translation_dir / "game" / "main_menu" / "localization" / "russian" / "EU5_customizable_localization_ru_estate_l_russian_uk_ua_machine_translation.yml"
+goods_grammatical_case_config_file_path = project_script_resources_dir / "goods_grammatical_cases.json"
+goods_grammatical_case_output_file_path = project_mod_dir / "main_menu" / "localization" / "russian" / "ua_goods_grammatical_cases_l_russian_uk_ua_machine_translation.yml"
 modded_estate_localization_file_path = project_mod_dir / "main_menu" / "localization" / "russian" / "ua_estate_l_russian_uk_ua_machine_translation.yml"
 customized_estate_ending_file_path = project_mod_dir / "main_menu" / "localization" / "russian" / "assets" / "ua_estates_ending_l_russian_uk_ua_machine_translation.yml"
 generated_estate_ending_file_path = project_mod_dir / "main_menu" / "localization" / "russian" / "ua_estates_ending_l_russian_uk_ua_machine_translation.yml"
@@ -26,8 +29,14 @@ estate_ending_custom_loc_file_path = custom_localization_mod_dir_path / "380_ua_
 
 game_dir = Path(os.getenv("GAME_DIR", "./"))
 mod_dir = Path(os.getenv("MOD_DIR", "./"))
+steam_workshop_dir = Path(os.getenv("STEAM_WORKSHOP_DIR", "./"))
 
 custom_localization_game_dir_path = game_dir / "game" / "in_game" / "common" / "customizable_localization"
+
+rasf_steam_mod_id = "3608237308"
+rasf_workshop_dir = steam_workshop_dir / rasf_steam_mod_id
+rasf_project_dir = mod_compatibility_dir / "ruthenia_and_steppe_fix" / rasf_steam_mod_id
+rasf_local_game_mod_dir = mod_dir.parent / "RaSF-Ukrainersalis-Compatibility"
 
 
 _EMPTY_LIST = []
@@ -47,6 +56,17 @@ def list_localization_files(languages: Language | str | list[Language | str] | N
                 localization_files.append(os.path.join(root, file))
 
     return localization_files
+
+
+def list_gui_files(source_dir: Path = project_dir) -> list[str]:
+    gui_files = []
+    # Walking depth-first
+    for root, dirs, files in os.walk(source_dir):
+        for file in files:
+            if file.endswith(".gui"):
+                gui_files.append(os.path.join(root, file))
+
+    return gui_files
 
 
 def list_translation_files(languages: Language | str | list[Language | str] | None = None, source_dir: Path = translation_dir) -> list[str]:

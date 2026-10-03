@@ -18,6 +18,7 @@
   nobles_estate_znat_nobles_estend_ytyat: "ить"
   nobles_estate_szlachta_nobles_estend_ytyat: "ить"
   nobles_estate_plemstvo_nobles_estend_ytyat: "ить"
+  nobles_estate_starshyna_nobles_estend_ytyat: "ить"
   # міщанство
   burghers_estate_mescanstvo_burghers_estend_ytyat: "ить"
   # простолюд
@@ -43,6 +44,7 @@
   nobles_estate_znat_nobles_estend_vlaloly: "ла"
   nobles_estate_szlachta_nobles_estend_vlaloly: "ла"
   nobles_estate_plemstvo_nobles_estend_vlaloly: "ло"
+  nobles_estate_starshyna_nobles_estend_vlaloly: "ла"
   # міщанство
   burghers_estate_mescanstvo_burghers_estend_vlaloly: "ло"
   # простолюд
@@ -68,6 +70,7 @@
   nobles_estate_znat_nobles_estend_aei: "а"
   nobles_estate_szlachta_nobles_estend_aei: "а"
   nobles_estate_plemstvo_nobles_estend_aei: "е"
+  nobles_estate_starshyna_nobles_estend_aei: "а"
   # міщанство
   burghers_estate_mescanstvo_burghers_estend_aei: "е"
   # простолюд
@@ -93,6 +96,7 @@
   nobles_estate_znat_nobles_estend_yiaei: "а"
   nobles_estate_szlachta_nobles_estend_yiaei: "а"
   nobles_estate_plemstvo_nobles_estend_yiaei: "е"
+  nobles_estate_starshyna_nobles_estend_yiaei: "а"
   # міщанство
   burghers_estate_mescanstvo_burghers_estend_yiaei: "е"
   # простолюд
@@ -118,6 +122,7 @@
   nobles_estate_znat_nobles_estend_eut: "е"
   nobles_estate_szlachta_nobles_estend_eut: "е"
   nobles_estate_plemstvo_nobles_estend_eut: "е"
+  nobles_estate_starshyna_nobles_estend_eut: "е"
   # міщанство
   burghers_estate_mescanstvo_burghers_estend_eut: "е"
   # простолюд
@@ -143,6 +148,7 @@
   nobles_estate_znat_nobles_estend_yeyut: "є"
   nobles_estate_szlachta_nobles_estend_yeyut: "є"
   nobles_estate_plemstvo_nobles_estend_yeyut: "є"
+  nobles_estate_starshyna_nobles_estend_yeyut: "є"
   # міщанство
   burghers_estate_mescanstvo_burghers_estend_yeyut: "є"
   # простолюд
@@ -168,6 +174,7 @@
   nobles_estate_znat_nobles_estend_ihlaloly: "огла"
   nobles_estate_szlachta_nobles_estend_ihlaloly: "огла"
   nobles_estate_plemstvo_nobles_estend_ihlaloly: "огло"
+  nobles_estate_starshyna_nobles_estend_ihlaloly: "огла"
   # міщанство
   burghers_estate_mescanstvo_burghers_estend_ihlaloly: "огло"
   # простолюд
@@ -193,6 +200,7 @@
   nobles_estate_znat_nobles_estend_ytlyat: "ить"
   nobles_estate_szlachta_nobles_estend_ytlyat: "ить"
   nobles_estate_plemstvo_nobles_estend_ytlyat: "ить"
+  nobles_estate_starshyna_nobles_estend_ytlyat: "ить"
   # міщанство
   burghers_estate_mescanstvo_burghers_estend_ytlyat: "ить"
   # простолюд
@@ -218,6 +226,7 @@
   nobles_estate_znat_nobles_estend_etsautsa: "еться"
   nobles_estate_szlachta_nobles_estend_etsautsa: "еться"
   nobles_estate_plemstvo_nobles_estend_etsautsa: "еться"
+  nobles_estate_starshyna_nobles_estend_etsautsa: "еться"
   # міщанство
   burghers_estate_mescanstvo_burghers_estend_etsautsa: "еться"
   # простолюд
@@ -243,6 +252,7 @@
   nobles_estate_znat_nobles_estend_ohooyiyh: "ої"
   nobles_estate_szlachta_nobles_estend_ohooyiyh: "ої"
   nobles_estate_plemstvo_nobles_estend_ohooyiyh: "ого"
+  nobles_estate_starshyna_nobles_estend_ohooyiyh: "ої"
   # міщанство
   burghers_estate_mescanstvo_burghers_estend_ohooyiyh: "ого"
   # простолюд
@@ -268,6 +278,7 @@
   nobles_estate_znat_nobles_estend_iyyayei: "я"
   nobles_estate_szlachta_nobles_estend_iyyayei: "я"
   nobles_estate_plemstvo_nobles_estend_iyyayei: "є"
+  nobles_estate_starshyna_nobles_estend_iyyayei: "я"
   # міщанство
   burghers_estate_mescanstvo_burghers_estend_iyyayei: "є"
   # простолюд
@@ -293,6 +304,7 @@
   nobles_estate_znat_nobles_estend_essyasesi: "ся"
   nobles_estate_szlachta_nobles_estend_essyasesi: "ся"
   nobles_estate_plemstvo_nobles_estend_essyasesi: "се"
+  nobles_estate_starshyna_nobles_estend_essyasesi: "ся"
   # міщанство
   burghers_estate_mescanstvo_burghers_estend_essyasesi: "се"
   # простолюд
@@ -318,6 +330,7 @@
   nobles_estate_znat_nobles_estend_eyyaei: "я"
   nobles_estate_szlachta_nobles_estend_eyyaei: "я"
   nobles_estate_plemstvo_nobles_estend_eyyaei: "е"
+  nobles_estate_starshyna_nobles_estend_eyyaei: "я"
   # міщанство
   burghers_estate_mescanstvo_burghers_estend_eyyaei: "е"
   # простолюд
@@ -343,6 +356,7 @@
   nobles_estate_znat_nobles_estend_ihohlaloly: "огла"
   nobles_estate_szlachta_nobles_estend_ihohlaloly: "огла"
   nobles_estate_plemstvo_nobles_estend_ihohlaloly: "огло"
+  nobles_estate_starshyna_nobles_estend_ihohlaloly: "огла"
   # міщанство
   burghers_estate_mescanstvo_burghers_estend_ihohlaloly: "огло"
   # простолюд
@@ -368,6 +382,7 @@
   nobles_estate_znat_nobles_estend_ymoyuymy: "ою"
   nobles_estate_szlachta_nobles_estend_ymoyuymy: "ою"
   nobles_estate_plemstvo_nobles_estend_ymoyuymy: "им"
+  nobles_estate_starshyna_nobles_estend_ymoyuymy: "ою"
   # міщанство
   burghers_estate_mescanstvo_burghers_estend_ymoyuymy: "им"
   # простолюд
@@ -393,6 +408,7 @@
   nobles_estate_znat_nobles_estend_ytat: "ить"
   nobles_estate_szlachta_nobles_estend_ytat: "ить"
   nobles_estate_plemstvo_nobles_estend_ytat: "ить"
+  nobles_estate_starshyna_nobles_estend_ytat: "ить"
   # міщанство
   burghers_estate_mescanstvo_burghers_estend_ytat: "ить"
   # простолюд
@@ -418,6 +434,7 @@
   nobles_estate_znat_nobles_estend_yityat: "їть"
   nobles_estate_szlachta_nobles_estend_yityat: "їть"
   nobles_estate_plemstvo_nobles_estend_yityat: "їть"
+  nobles_estate_starshyna_nobles_estend_yityat: "їть"
   # міщанство
   burghers_estate_mescanstvo_burghers_estend_yityat: "їть"
   # простолюд
@@ -443,6 +460,7 @@
   nobles_estate_znat_nobles_estend_ovlaloly: "ла"
   nobles_estate_szlachta_nobles_estend_ovlaloly: "ла"
   nobles_estate_plemstvo_nobles_estend_ovlaloly: "ло"
+  nobles_estate_starshyna_nobles_estend_ovlaloly: "ла"
   # міщанство
   burghers_estate_mescanstvo_burghers_estend_ovlaloly: "ло"
   # простолюд
@@ -468,11 +486,38 @@
   nobles_estate_znat_nobles_estend_ennanoni: "на"
   nobles_estate_szlachta_nobles_estend_ennanoni: "на"
   nobles_estate_plemstvo_nobles_estend_ennanoni: "но"
+  nobles_estate_starshyna_nobles_estend_ennanoni: "на"
   # міщанство
   burghers_estate_mescanstvo_burghers_estend_ennanoni: "но"
   # простолюд
   peasants_estate_peasants_estend_ennanoni: "ен"
   peasants_estate_prostoliud_peasants_estend_ennanoni: "ен"
 
-  Estate_GetEnd_aei: "[AddTextIf(EndsWith(Estate.GetNameWithNoTooltip, 'тво'), 'е')][AddTextIf(EndsWith(Estate.GetNameWithNoTooltip, 'она'), 'а')][AddTextIf(EndsWith(Estate.GetNameWithNoTooltip, 'уна'), 'а')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Шляхта'), 'а')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Знать'), 'а')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Простолюд'), '')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Нобілітет'), '')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Клір'), '')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Клан'), '')][AddTextIf(Not(Or(Or(Or(Or(Or(Or(Or(Or(EqualTo_string(Estate.GetNameWithNoTooltip, 'Шляхта'), EqualTo_string(Estate.GetNameWithNoTooltip, 'Знать')), EqualTo_string(Estate.GetNameWithNoTooltip, 'Простолюд')), EndsWith(Estate.GetNameWithNoTooltip, 'тво')), EndsWith(Estate.GetNameWithNoTooltip, 'она')), EndsWith(Estate.GetNameWithNoTooltip, 'уна')), EqualTo_string(Estate.GetNameWithNoTooltip, 'Нобілітет')), EqualTo_string(Estate.GetNameWithNoTooltip, 'Клір')), EqualTo_string(Estate.GetNameWithNoTooltip, 'Клан'))), 'і')]"
-  Estate_GetEnd_yiaei: "[AddTextIf(EndsWith(Estate.GetNameWithNoTooltip, 'тво'), 'е')][AddTextIf(EndsWith(Estate.GetNameWithNoTooltip, 'она'), 'а')][AddTextIf(EndsWith(Estate.GetNameWithNoTooltip, 'уна'), 'а')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Шляхта'), 'а')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Знать'), 'а')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Простолюд'), 'ий')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Нобілітет'), 'ий')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Клір'), 'ий')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Клан'), 'ий')][AddTextIf(Not(Or(Or(Or(Or(Or(Or(Or(Or(EqualTo_string(Estate.GetNameWithNoTooltip, 'Шляхта'), EqualTo_string(Estate.GetNameWithNoTooltip, 'Знать')), EqualTo_string(Estate.GetNameWithNoTooltip, 'Простолюд')), EndsWith(Estate.GetNameWithNoTooltip, 'тво')), EndsWith(Estate.GetNameWithNoTooltip, 'она')), EndsWith(Estate.GetNameWithNoTooltip, 'уна')), EqualTo_string(Estate.GetNameWithNoTooltip, 'Нобілітет')), EqualTo_string(Estate.GetNameWithNoTooltip, 'Клір')), EqualTo_string(Estate.GetNameWithNoTooltip, 'Клан'))), 'і')]"
+  # yetsayutsa
+  estend_yetsayutsa_def: "ються"
+  # корона
+  crown_estate_crown_estend_yetsayutsa: "ється"
+  crown_estate_clan_crown_estend_yetsayutsa: "ється"
+  crown_estate_kruna_crown_estend_yetsayutsa: "ється"
+  crown_estate_korona_crown_estend_yetsayutsa: "ється"
+  crown_estate_krona_crown_estend_yetsayutsa: "ється"
+  # духовенство
+  clergy_estate_clergy_estend_yetsayutsa: "ється"
+  clergy_estate_klir_clergy_estend_yetsayutsa: "ється"
+  clergy_estate_kler_clergy_estend_yetsayutsa: "ється"
+  # знать
+  nobles_estate_nobles_estend_yetsayutsa: "ється"
+  # нобілітет
+  nobles_estate_patricians_nobles_estend_yetsayutsa: "ється"
+  nobles_estate_znat_nobles_estend_yetsayutsa: "ється"
+  nobles_estate_szlachta_nobles_estend_yetsayutsa: "ється"
+  nobles_estate_plemstvo_nobles_estend_yetsayutsa: "ється"
+  # міщанство
+  burghers_estate_mescanstvo_burghers_estend_yetsayutsa: "ється"
+  # простолюд
+  peasants_estate_peasants_estend_yetsayutsa: "ється"
+  peasants_estate_prostoliud_peasants_estend_yetsayutsa: "ється"
+
+
+  Estate_GetEnd_aei: "[AddTextIf(EndsWith(Estate.GetNameWithNoTooltip, 'тво'), 'е')][AddTextIf(EndsWith(Estate.GetNameWithNoTooltip, 'она'), 'а')][AddTextIf(EndsWith(Estate.GetNameWithNoTooltip, 'уна'), 'а')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Шляхта'), 'а')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Знать'), 'а')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Старшина'), 'а')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Простолюд'), '')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Нобілітет'), '')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Клір'), '')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Клан'), '')][AddTextIf(Not(Or(Or(Or(Or(Or(Or(Or(Or(Or(EqualTo_string(Estate.GetNameWithNoTooltip, 'Старшина'), EqualTo_string(Estate.GetNameWithNoTooltip, 'Шляхта')), EqualTo_string(Estate.GetNameWithNoTooltip, 'Знать')), EqualTo_string(Estate.GetNameWithNoTooltip, 'Простолюд')), EndsWith(Estate.GetNameWithNoTooltip, 'тво')), EndsWith(Estate.GetNameWithNoTooltip, 'она')), EndsWith(Estate.GetNameWithNoTooltip, 'уна')), EqualTo_string(Estate.GetNameWithNoTooltip, 'Нобілітет')), EqualTo_string(Estate.GetNameWithNoTooltip, 'Клір')), EqualTo_string(Estate.GetNameWithNoTooltip, 'Клан'))), 'і')]"
+  Estate_GetEnd_yiaei: "[AddTextIf(EndsWith(Estate.GetNameWithNoTooltip, 'тво'), 'е')][AddTextIf(EndsWith(Estate.GetNameWithNoTooltip, 'она'), 'а')][AddTextIf(EndsWith(Estate.GetNameWithNoTooltip, 'уна'), 'а')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Шляхта'), 'а')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Старшина'), 'а')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Знать'), 'а')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Простолюд'), 'ий')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Нобілітет'), 'ий')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Клір'), 'ий')][AddTextIf(EqualTo_string(Estate.GetNameWithNoTooltip, 'Клан'), 'ий')][AddTextIf(Not(Or(Or(Or(Or(Or(Or(Or(Or(Or(EqualTo_string(Estate.GetNameWithNoTooltip, 'Старшина'), EqualTo_string(Estate.GetNameWithNoTooltip, 'Шляхта')), EqualTo_string(Estate.GetNameWithNoTooltip, 'Знать')), EqualTo_string(Estate.GetNameWithNoTooltip, 'Простолюд')), EndsWith(Estate.GetNameWithNoTooltip, 'тво')), EndsWith(Estate.GetNameWithNoTooltip, 'она')), EndsWith(Estate.GetNameWithNoTooltip, 'уна')), EqualTo_string(Estate.GetNameWithNoTooltip, 'Нобілітет')), EqualTo_string(Estate.GetNameWithNoTooltip, 'Клір')), EqualTo_string(Estate.GetNameWithNoTooltip, 'Клан'))), 'і')]"

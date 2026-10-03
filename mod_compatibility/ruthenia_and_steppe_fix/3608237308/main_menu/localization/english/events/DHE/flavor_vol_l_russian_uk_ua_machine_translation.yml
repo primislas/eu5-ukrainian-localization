@@ -1,0 +1,63 @@
+﻿# flavor_vol.4.desc - Київська Русь ....
+
+l_english:
+ flavor_vol.1.title: "Правити чужою країною"
+ flavor_vol.1.desc: "Перед [target_ruler.GetName] стоїть складне завдання — правити країною, де лише незначна частина населення поділяє [target_ruler.GetHerHis] віру. Щоб полегшити проблеми, які виникають через це, ми могли б запросити кількох [ShowReligionAdjective('catholic')] радників із [ShowCultureGroupName('slavic_group')] земель [ShowContinentName('europe')], де вже дотримуються [ShowReligionAdjectiveWithNoTooltip('catholic')] віросповідання."
+ flavor_vol.1.historical_info: "Король Русі Юрій II виводив свій рід із польської династії П'ястів, а по материнській лінії був нащадком Рюриковичів, оскільки його мати була сестрою Лева II Галицького. Після смерті Лева II престол Русі перейшов до Юрія II, який, утім, залишався чужинцем і католиком. Це зробило його вкрай непопулярним серед православного населення Русі й зрештою призвело до його вбивства у 1340 році."
+ flavor_vol.1.a: "Нам потрібна їхня допомога, щоб розбудувати [ROOT.GetCountry.GetFlavorRank]."
+ flavor_vol.1.b: "Ми не можемо ризикувати й викликати гнів [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]."
+
+ flavor_vol.2.title: "Зв’язок із Заходом"
+ flavor_vol.2.desc: "[ShowLocationName('sanok')] у підніжжі Карпатських гір займає важливе місце в нашому [ROOT.GetCountry.GetFlavorRank]. Численні купці, які прямують до [ShowLocationName('krakow')] та [ShowAreaName('slovakia_area')] або повертаються звідти, зупиняються в [ShowLocationNameWithNoTooltip('sanok')], торгуючи з місцевим населенням. За умов належного інвестування [ShowLocationNameWithNoTooltip('sanok')] може перетворитися на важливий торговий осередок як для вітчизняних, так і для іноземних купців."
+ flavor_vol.2.a: "Інвестувати в новий осередок для наших купців!"
+ flavor_vol.2.b: "Це не варте витрачених коштів."
+
+ flavor_vol.3.title: "Потенціал [target_location.GetNameWithNoTooltip]"
+ flavor_vol.3.desc: "У самому центрі [ShowAreaName('red_ruthenia_area')] лежить [target_location.GetName] — [target_location.GetRank.GetName], що чудово підходить на роль осередку нашого [ROOT.GetCountry.GetFlavorRank]. На жаль, місцевому населенню бракує коштів для покращення умов. Ми могли б підвищити привабливість [target_location.GetNameWithNoTooltip], скориставшись привілеями [ShowEstatePrivilegeName('novi_fori')] та додавши власні інвестиції."
+ flavor_vol.3.a: "[target_location.GetNameWithNoTooltip] процвітатиме."
+ flavor_vol.3.b: "Безглузда марнотратність."
+ flavor_vol.3.c: "Наша столиця піднесеться до нових висот."
+
+ flavor_vol.4.title: "Відновлений літопис"
+ flavor_vol.4.desc: "Один із представників нашого духовенства під час роботи в монастирі зробив цікаве відкриття. Він виявив рукопис, написаний церковнослов'янською мовою, в якому зібрані різні літописи, що фіксують та переказують історію стародавньої Київської Русі від часів Рюрика й навіть до нього. Ми повинні подбати, щоб безцінна історична спадщина русинів збереглася на століття."
+ flavor_vol.4.a: "Захоплива повість минулих літ."
+ flavor_vol.4.b: "Це звучить неправдоподібно."
+
+ flavor_vol.1000.title: "Престолонаслідування за [target_ruler.GetNameWithNoTooltip]"
+ flavor_vol.1000.desc: "На [ROOT.GetCountry.GetName|U] та [target_ruler.GetName] чекає невизначене майбутнє через відсутність спадкоємця й нестабільну політичну ситуацію. Наш [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] вимагає, щоб кандидатом оголосили одного з їхніх лав, доки [target_ruler.GetNameWithNoTooltip] не матиме власного сина. З огляду на додатковий тиск, якого [target_ruler.GetNameWithNoTooltip] зазнає з боку [GetCountry('POL').GetName] та [GetCountry('LIT').GetName], ця ситуація здається безвихідною без наражання на гнів щонайменше однієї зі сторін."
+ flavor_vol.1000.historical_info: "Будучи представником польської династії П'ястів, король Русі Юрій II також одружився з донькою великого князя литовського Гедиміна, яка була сестрою дружини Казимира III Польського. У 1338 році Юрій запропонував право престолонаслідування Галичини Казимиру, однак Лива також мала претензії на ці землі, що після вбивства Юрія в 1340 році спровокувало війни за Галицько-Волинську спадщину."
+ flavor_vol.1000.a: "[GetCharacter('pol_casimir_iii_piast').GetNameWithNoTooltip] стане нашим кандидатом."
+ flavor_vol.1000.a.tt: "Ми підтримаємо [GetCharacter('pol_casimir_iii_piast').GetName] як нашого майбутнього [ROOT.GetCountry.GetGovernment.GetRulerTitle]"
+ flavor_vol.1000.b: "[GetCharacter('lit_liubartas_gediminds').GetNameWithNoTooltip] має сильні претензії."
+ flavor_vol.1000.b.tt: "Ми підтримаємо [GetCharacter('lit_liubartas_gediminds').GetName] як нашого майбутнього [ROOT.GetCountry.GetGovernment.GetRulerTitle]"
+ flavor_vol.1000.c: "[GetCharacter('vol_dmytro_dedko').GetNameWithNoTooltip] задовольнить [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]."
+ flavor_vol.1000.c.tt: "Ми підтримаємо [GetCharacter('vol_dmytro_dedko').GetName] як нашого майбутнього [ROOT.GetCountry.GetGovernment.GetRulerTitle]"
+ flavor_vol.1000.d: "[target_ruler.GetNameWithNoTooltip] згодом дасть країні спадкоємця."
+
+ flavor_vol.1001.title: "Спадкоємець для [target_country.GetNameWithNoTooltip]"
+ flavor_vol.1001.desc: "[target_country.GetGovernment.GetEstateName('nobles_estate')] країни [target_country.GetName] переконав [target_ruler.GetName] проголосити кандидатом на престолонаслідування [target_heir.GetName]. Маючи династичні зв'язки з [target_ruler.GetShortNameWithNoTooltip], ми розраховували здобути значний вплив у [target_country.GetFlavorRank] після [target_ruler.GetHerHis] смерті, проте ці сподівання виявилися марними через такий перебіг подій. Якщо [target_country.GetNameWithNoTooltip] заперечить наше право на спадщину, ми заберемо її силою."
+ flavor_vol.1001.a: "Готуйте військо!"
+
+ flavor_vol.1002.title: "Віросповідання [target_ruler.GetNameWithNoTooltip]"
+ flavor_vol.1002.desc: "Наш [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] залишається глибоко занепокоєним релігійними поглядами [target_ruler.GetName]. Через його явну прихильність до іноземного [ShowReligionAdjective('catholic')] впливу [ShowReligionAdjective('orthodox')] [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] нашого [ROOT.GetCountry.GetFlavorRank] побоюється, що [target_ruler.GetNameWithNoTooltip] прагне поширити [ShowReligionAdjectiveWithNoTooltip('catholic')] віру в [ROOT.GetCountry.GetName]. Публічне навернення в [ShowReligionNameWithNoTooltip('orthodox')] умиротворило б їх, однак це зашкодить нашим відносинам із [ShowReligionAdjectiveWithNoTooltip('catholic')] сусідами."
+ flavor_vol.1002.historical_info: "Будучи католиком у православному королівстві, король Русі Юрій II часто зіштовхувався з опором галицького бояртва та духовенства, особливо коли намагався поширювати католицизм у державі. Зрештою це призвело до відкритого невдоволення з боку частини бояр та вбивства короля."
+ flavor_vol.1002.a: "[target_ruler.GetNameWithNoTooltip] не поступатиметься цим дріб'язковим вимогам."
+ flavor_vol.1002.b: "[target_ruler.GetNameWithNoTooltip] прийме [ShowReligionNameWithNoTooltip('orthodox')] віру."
+
+ flavor_vol.1003.title: "Непокірний [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]"
+ flavor_vol.1003.desc: "[target_ruler.GetName] дуже обурив [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] своїми рішеннями та заступництвом [ShowReligionAdjective('catholic')] діячів. У розпачливій спробі повернути прихильність [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] ми могли б розширити їхні привілеї та сподіватися, що це згладить наші відносини."
+ flavor_vol.1003.a: "Надати їм більше привілеїв."
+ flavor_vol.1003.b: "Це неприпустимо!"
+
+ flavor_vol.1100.title: "Отруєння [pol_the_dead_monarch.GetNameWithNoTooltip]"
+ flavor_vol.1100.desc: "[ROOT.GetCountry.GetGovernment.GetAdjective] династія в жалобі: придворний лікар оголосив [pol_the_dead_monarch.GetName] мертвим. Можна було б очікувати, що придворні тонутимуть у сльозах, але це не так. Гірка правда полягає в тому, що такий кінець був цілком очікуваним — [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] тривалий час відчував невдоволення через [pol_the_dead_monarch.GetHisHer] іноземне походження та відкриту прихильність до [ShowReligionAdjective('catholic')] радників. Тому вердикт про отруєння видається аж ніяк не несподіваним. Значно більше за саму смерть тривожить доля нашої коханої [ROOT.GetCountry.GetLongName] і те, хто тепер візьме її кермо до своїх рук."
+ flavor_vol.1100.historical_info: "Отруєння Юрія II Руського спровокувало війни за Галицько-Волинську спадщину між Польщею та Литвою, яких підтримували відповідно Угорщина та Золота Орда, а також різні фракції руських бояр, що воювали з обох боків. Війни тривали пів століття, з 1340 по 1392 рік, і завершилися розділом Галицько-Волинської держави між Польщею та Литвою."
+ flavor_vol.1100.a: "[GetCharacter('pol_casimir_iii_piast').GetNameWithNoTooltip] — законний спадкоємець."
+ flavor_vol.1100.b: "Обраним кандидатом був [GetCharacter('lit_liubartas_gediminds').GetNameWithNoTooltip]."
+ flavor_vol.1100.c: "[GetCharacter('vol_dmytro_dedko').GetNameWithNoTooltip] заслужив довіру [pol_the_dead_monarch.GetNameWithNoTooltip]."
+ flavor_vol.1100.d: "[ROOT.GetCountry.GetNameWithNoTooltip] сумує за [pol_the_dead_monarch.GetNameWithNoTooltip]"
+
+ flavor_vol.1101.title: "Престолонаслідування за [pol_the_dead_monarch.GetNameWithNoTooltip]"
+ flavor_vol.1101.desc: "До нас дійшли чутки, що [pol_the_dead_monarch.GetName] з [GetCountry('VOL').GetName] загинув унаслідок отруєння, влаштованого інтригами його ж [GetCountry('VOL').GetGovernment.GetEstateName('nobles_estate')]. Завдяки династичним зв'язкам із нашим [ROOT.GetCountry.GetFlavorRank] ми тепер маємо повну свободу дій щодо [GetCountry('VOL').GetLongNameWithNoTooltip]."
+ flavor_vol.1101.a: "І ми цим скористаємося!"
+ flavor_vol.1101.b: "Краще переймаймося нашим [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]."

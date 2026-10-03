@@ -44,6 +44,7 @@
  flavor_kni.11.entry: "$flavor_kni.11.title$"
  flavor_kni.11.desc: "Наш генерал [target_character.GetName] [Select_CString(target_character.IsFemale, 'была удостоена', 'был удостоен')] звания [Select_CString(target_character.IsFemale, 'защитницы', 'защитника')] веры, #italic Fidei Defensor#!. Святой Престол одобрил нашу смиренную просьбу о награждении. Мы считаем, что [target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale, 'внесла', 'внёс')] выдающийся вклад в поддержку христианства, и армии под [Select_CString(target_character.IsFemale, 'её', 'его')] началом распространят нашу веру по всему свету."
  flavor_kni.11.a: "Заслуженная награда!"
+ variable_knights_battles_won_tt: "Орден выиграл множество битв"
  flavor_kni.12.title: "Рыцари Нового Света"
  flavor_kni.12.entry: "$flavor_kni.12.title$"
  flavor_kni.12.desc: "Колонисты — гордость [ROOT.GetCountry.Custom('rank_ua_GEN')|l] — основали первую нашу колонию на #TOOLTIP:REGION,caribbean_region,X #L Карибах#!#!. Отныне она будет оплотом веры и приютом для всех #TOOLTIP:RELIGIONGROUP,christian,X #L христианских#!#! переселенцев, спасающихся от охвативших #TOOLTIP:CONTINENT,europe,X #L Европу#!#! волнений. Это поселение — символ наших устремлений: не только стратегически важное место, но и новый рубеж, завоёванный [ROOT.GetCountry.Custom('rank_ua_INST')|l]. Однако, несмотря на всю ценность колонии, пока ещё нет единого мнения, стоит ли вообще заниматься дальнейшей колонизацией."
