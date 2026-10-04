@@ -368,7 +368,7 @@
   qa_debug.31.desc: "Remove the cooldown for voting on another law from the IO."
   qa_debug.31.a: "Cleanse the cooldown."
   qa_debug.32.title: "Mission Menu"
-  qa_debug.32.desc: "Missions are a contentious topic..."
+  qa_debug.32.desc: "Missions are a contentious topic…"
   qa_debug.32.a: "Complete the current mission task."
   qa_debug.32.b: "Bypass the current mission task."
   qa_debug.32.c: "Complete the whole mission tree."

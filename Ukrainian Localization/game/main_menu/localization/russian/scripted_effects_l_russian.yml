@@ -63,7 +63,7 @@
  is_elector_tt: "Это [Concept('elector', 'выборщик')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священной Римской Империи#!#!"
  move_building_tt: "Перемещает [Concept('building', 'сооружение')|e] в [THIS.GetLocation.Custom('LR_ACC')|l] [THIS.GetLocation.GetName]"
  owner_owns_no_copies_of_building_tt: "У владельца больше НЕТ других [Concept('location', 'районов')|e] с этим сооружением"
- erratic_tooltip: "Пока действует этот [Concept('modifier', 'модификатор')|e], [THIS.GetCharacter.GetName] будет время от времени вести себя иначе..."
+ erratic_tooltip: "Пока действует этот [Concept('modifier', 'модификатор')|e], [THIS.GetCharacter.GetName] будет время от времени вести себя иначе…"
  lock_current_government_reforms_tt: "Закрепляет текущие [Concept('government_reforms', 'государственные принципы')|e], не позволяя вручную заменить их другими"
  lock_current_policy_tt: "Закрепляет текущую [Concept('policy', 'политику')|e], не позволяя вручную заменить её другой"
  lock_current_heir_selection_tt: "Закрепляет текущее [Concept('heir_selection', 'правило престолонаследия')|e], не позволяя вручную заменить его другим"

@@ -335,7 +335,7 @@
  LOCATION_OCCUPIED: "\nРайон принадлежит @[LOCATION.GetOwner.GetFlag]! [LOCATION.GetOwner.Custom('longname_ua_DAT')], но [Concept('occupied', 'оккупирован')|e] @[LOCATION.GetController.GetFlag]! [LOCATION.GetController.Custom('longname_ua_INST')]"
  WINTER_INFO: "[Concept('winter_level', 'Уровень зимы')|e]: $LEVEL|Y$\n"
  NOT_POSSIBLE_WHILE_EVENT_WINDOW_SHOWN: "@trigger_no! Невозможно выполнить это действие. Сначала разберитесь с событием.\n"
- EDIT_NEWBORN_FIRST_NAME_EDITBOX: "Введите имя..."
+ EDIT_NEWBORN_FIRST_NAME_EDITBOX: "Введите имя…"
  EDIT_NEWBORN_FIRST_NAME: "#T Смена имени#!\nВведите желаемое имя [Concept('child', 'ребёнка')|e]. Имя изменится после подтверждения."
  EDIT_NEWBORN_RANDOM_FIRST_NAME: "Позволяет дать [Concept('child', 'ребёнку')|e] другое случайное имя."
  PROXIMITY_INFO: "[Concept('proximity', 'Досягаемость')|e] столицы: $VAL|Y$"

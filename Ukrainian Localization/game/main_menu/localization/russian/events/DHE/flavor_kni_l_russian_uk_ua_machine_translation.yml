@@ -7,7 +7,7 @@
   flavor_kni.4.title: "[target_character.GetNameWithNoTooltip]"
   flavor_kni.4.entry: "Інженер Габріеле Тадіно"
   flavor_kni.4.desc: "На континенті [target_location.GetRegion.GetSubContinent.GetContinent.GetName] [target_character.GetName] вважається одним із найкращих проєктувальників укріплень, тому його призначили провести покращення #TOOLTIP:LOCATION,rodos,X #L родоських#!#! фортець. У [GetCurrentYear] році, щойно прибувши до нашої столиці й ще не встигнувши приступити до роботи, він був настільки зачарований нашими людьми та їхніми цінностями, що на колінах благав правителя посвятити його в лицарі. Тепер [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] у розгубленості: важко відмовити людині, що володіє такою завидною завзятістю та неперевершеними інженерними навичками."
-  flavor_kni.4.a: "Він нам дуже знадобиться..."
+  flavor_kni.4.a: "Він нам дуже знадобиться…"
   flavor_kni.5.title: "[target_character.GetNameWithNoTooltip]"
   flavor_kni.5.entry: "Укріплення Мальти"
   flavor_kni.5.desc: "Після того, як [ShowLocationName('malta')] перейшла до нас, вона уподібнилася #TOOLTIP:LOCATION,rodos,X #L Родосу#!#!, перетворившись на справжнісіньку фортецю. [target_character.GetName] та [Select_CString(target_character.IsFemale, 'її', 'його')] вишколена залога неодноразово доблесно відваджували загарбників. Це нове місто, забудоване величними палацами та потужними укріпленнями, буде багатіти та розвиватися за рахунок морських операцій проти наших численних ворогів."

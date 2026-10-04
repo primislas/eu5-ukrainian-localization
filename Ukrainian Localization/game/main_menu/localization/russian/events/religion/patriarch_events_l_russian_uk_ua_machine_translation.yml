@@ -6,7 +6,7 @@
   STATIC_MODIFIER_DESC_saints_enforced: "Ми змусили жителів цієї провінції слідувати нашим звичаям віросповідання. Це викликало деяке невдоволення нашим правлінням, але з часом ці люди зможуть краще влитися в наше суспільство."
   patriarch_events.1.b: "Примусом ми нічого не доб'ємося."
   patriarch_events.2.title: "Літургійний вплив"
-  patriarch_events.2.desc: "Коли [target_character.GetName] [Select_CString(target_character.IsFemale, 'влаштував', 'влаштувала' )] надмірно пишну церемонію освячення собору в провінції [local_see_province.GetProvince.GetName], місцевий єпископ виступив із засудженням. Він стверджує, що вдячний нам за щедрі пожертви, але незадоволений тим, як ми порушуємо літургійний канон в інтересах країни."
+  patriarch_events.2.desc: "Коли [target_character.GetName] [Select_CString(target_character.IsFemale, 'влаштував', 'влаштувала')] надмірно пишну церемонію освячення собору в провінції [local_see_province.GetProvince.GetName], місцевий єпископ виступив із засудженням. Він стверджує, що вдячний нам за щедрі пожертви, але незадоволений тим, як ми порушуємо літургійний канон в інтересах країни."
   patriarch_events.2.a: "Він повинен знати своє місце!"
   patriarch_events.2.b: "На знак покаяння ми зробимо ще одну пожертву церкві."
   patriarch_events.3.title: "Кафедральний собор у провінції [local_see_province.GetNameWithNoTooltip]"

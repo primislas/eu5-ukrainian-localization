@@ -65,7 +65,7 @@
  flavor_ori.11.a: "Мы решимся на такой шаг."
  flavor_ori.11.b: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] нам этого не простят."
  flavor_ori.11.b.entry: "Мы не пойдём против горожан."
- flavor_ori.11.c: "Мы можем подсластить пилюлю..."
+ flavor_ori.11.c: "Мы можем подсластить пилюлю…"
  flavor_ori.12.title: "Охота на слонов"
  flavor_ori.12.entry: "Охота на слонов"
  flavor_ori.12.desc: "В связи с избытком #TOOLTIP:GOODS,elephants,X #L слонов#!#!! в [ROOT.GetCountry.Custom('CL_PREP')] многие стали задумываться об увеличении числа полков, укомплектованных этими могучими животными. Однако в наших #TOOLTIP:BUILDING_TYPE,elephant_hunting_grounds,X #L местах охоты на слонов#!#! не хватает ресурсов для отлова большего числа зверей и производства необходимого снаряжения. Возможно, пришло время привести эти угодья в порядок. [target_character.GetName] и [ROOT.GetCountry.GetGovernment.GetCourtTitle] даже готовы вложить в такие улучшения свои личные средства."

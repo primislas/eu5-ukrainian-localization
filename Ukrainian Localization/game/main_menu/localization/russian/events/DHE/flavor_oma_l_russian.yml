@@ -91,7 +91,7 @@
  flavor_oma.12.c: "Пиратам не место на наших берегах."
  flavor_oma.13.title: "[target_location.GetNameWithNoTooltip] и замок"
  flavor_oma.13.entry: "Крепость Эр-Рустак"
- flavor_oma.13.desc: "[target_location.GetRank.GetName] [target_location.GetName] — последняя остановка, которую делают наши [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] на своём пути к побережью. Здесь уже существует ряд укреплений, но этого недостаточно для защиты караванов. Возможно, [target_character.GetName] решится вложить средства в оборону [target_location.Custom('LR_GEN')|l]..."
+ flavor_oma.13.desc: "[target_location.GetRank.GetName] [target_location.GetName] — последняя остановка, которую делают наши [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] на своём пути к побережью. Здесь уже существует ряд укреплений, но этого недостаточно для защиты караванов. Возможно, [target_character.GetName] решится вложить средства в оборону [target_location.Custom('LR_GEN')|l]…"
  flavor_oma.13.historical_info: "$flavor_oma_forts_historical_info$"
  flavor_oma.13.a: "Замок защитит наших купцов в новом порту."
  flavor_oma.13.b: "Лучше заняться укреплением сухопутных границ."

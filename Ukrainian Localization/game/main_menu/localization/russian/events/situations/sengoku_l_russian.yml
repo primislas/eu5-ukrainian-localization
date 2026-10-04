@@ -69,7 +69,7 @@
  sengoku.19.title: "Вызов к [actor.GetGovernment.GetAdjective|l]ому двору"
  sengoku.19.desc: "[actor.GetLongName] — явно уже не та могучая держава, что раньше: всё больше и больше кланов живут без оглядки на центральную власть. Пытаясь удержать кланы под контролем, [actor.GetFlavorRank|l] вызывает их глав в столицу с требованием обосновать свою политику перед [actor.GetGovernment.GetAdjective|l]им двором. Недавно такой вызов [Select_CString(target_ruler.IsFemale,'получила', 'получил')] и [target_ruler.GetName|l]. Мы обязаны подчиниться, однако такое решение запятнает наш собственный авторитет."
  sengoku.19.a: "Нам остаётся только подчиниться."
- sengoku.19.b: "Да, мы явимся... когда-нибудь..."
+ sengoku.19.b: "Да, мы явимся… когда-нибудь…"
  sengoku.20.title: "Власти [target_country.Custom('CL_GEN')] подчиняются"
  sengoku.20.desc: "[target_country.GetLongName] — [target_ruler.GetName|l] из этой державы [Select_CString(target_ruler.IsFemale,'вняла', 'внял')] нашему призыву и [Select_CString(target_ruler.IsFemale,'отправилась', 'отправился')] в столицу держать ответ за свои действия. Это значит, что кланы всё ещё признают наш авторитет, хоть и стремятся к независимости."
  sengoku.20.a: "В конце концов, мы ими правим."

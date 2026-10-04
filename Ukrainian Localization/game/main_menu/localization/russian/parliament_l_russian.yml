@@ -663,7 +663,7 @@
  pa_hre_lessen_tax_burden_desc: "Мы обещаем сократить повинность по #TOOLTIP:PAYMENT,imperial_contribution,X #L вкладу империи#!#! в обмен на их поддержку."
  pa_hre_elevate_prussia_to_kingdom: "Возведение Пруссии в ранг королевства"
  pa_hre_elevate_prussia_to_kingdom_simple: "Возведение Пруссии в ранг королевства"
- pa_hre_elevate_prussia_to_kingdom_desc: "Правители #ONCLICK:COUNTRY,[GetCountry('PRU').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('PRU').Custom('CL_tt')],X [GetCountry('PRU').Custom('CL_GEN')|L]#!#! всегда были крайне амбициозны. Многие из них даже просили предоставить им формальные титулы королей, хотя у них и не было собственного королевства. Возможно, возведя эту державу в ранг #TOOLTIP:COUNTRY_RANK,rank_kingdom,X #L королевства#!#!, мы сможем заручиться её полной поддержкой..."
+ pa_hre_elevate_prussia_to_kingdom_desc: "Правители #ONCLICK:COUNTRY,[GetCountry('PRU').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('PRU').Custom('CL_tt')],X [GetCountry('PRU').Custom('CL_GEN')|L]#!#! всегда были крайне амбициозны. Многие из них даже просили предоставить им формальные титулы королей, хотя у них и не было собственного королевства. Возможно, возведя эту державу в ранг #TOOLTIP:COUNTRY_RANK,rank_kingdom,X #L королевства#!#!, мы сможем заручиться её полной поддержкой…"
  pa_hre_elevate_prussia_to_kingdom_tt: "В связи с нашим решением в #ONCLICK:COUNTRY,[GetCountry('PRU').Custom('CL_tt')] #TOOLTIP:COUNTRY,[GetCountry('PRU').Custom('CL_tt')],X [GetCountry('PRU').Custom('CL_PREP')|L]#!#! произойдёт соответствующее [Concept('event', 'событие')|e]."
  pa_hre_grant_imperial_titles: "Присвоение имперских титулов"
  pa_hre_grant_imperial_titles_simple: "$pa_hre_grant_imperial_titles$"

@@ -1611,7 +1611,7 @@
  STATIC_MODIFIER_NAME_kor_support_jeol_eui_modifier: "Чолый"
  STATIC_MODIFIER_NAME_kor_support_gwan_hak_modifier: "Гванхак"
  STATIC_MODIFIER_NAME_erratic: "Непредсказуемость"
- STATIC_MODIFIER_DESC_erratic: "[Select_CString(CHARACTER.IsFemale,'Эта правительница печально известна', 'Этот правитель печально известен')] своими необдуманными решениями, которые зачастую противоречат интересам разных сословий.\n\n#R Поведение этого персонажа в любой момент может измениться самым неожиданным образом..."
+ STATIC_MODIFIER_DESC_erratic: "[Select_CString(CHARACTER.IsFemale,'Эта правительница печально известна', 'Этот правитель печально известен')] своими необдуманными решениями, которые зачастую противоречат интересам разных сословий.\n\n#R Поведение этого персонажа в любой момент может измениться самым неожиданным образом…"
  STATIC_MODIFIER_NAME_erratic_paranoid: "Паранойя"
  STATIC_MODIFIER_NAME_erratic_passive: "Безынициативность"
  STATIC_MODIFIER_NAME_erratic_confusing: "Растерянность"

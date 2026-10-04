@@ -1224,7 +1224,7 @@
   PEACE_TREATY_GRANT_INDEPENDENCE_SEPARATE_short: "[COUNTRY.GetNameWithFlagWithNoTooltip] гаранту[COUNTRY.Custom('end_yeyut')] їх незалежність"
   PEACE_TREATY_BLOCKED_NO_UNION_CB: "@trigger_no! Не можна створити особисту унію з цією країною без [Concept('casus_belli', 'приводу для війни')|e] #TOOLTIP:CASUS_BELLI,cb_claim_throne,X #L «Претензія на престол»#!#!."
   PEACE_TREATY_BLOCKED_WAR_GOAL: "@trigger_no! [Concept('war_goal', 'Ціль війни')|e] «$NAME|Y$» забороняє такий договір."
-  PEACE_TREATY_NO_RULER: "@trigger_no! Претендент на трон, [CHARACTER.GetName], [Select_CString(CHARACTER.IsFemale, 'мертва', 'мертвий' )]."
+  PEACE_TREATY_NO_RULER: "@trigger_no! Претендент на трон, [CHARACTER.GetName], [Select_CString(CHARACTER.IsFemale, 'мертва', 'мертвий')]."
   PEACE_TREATY_ALREADY_RULER: "@trigger_no! Претендент на трон — [CHARACTER.GetName] — вже є [Concept('ruler', 'правителем')|e]."
   PEACE_TREATY_NOT_SAME_RELIGION_GROUP: "@trigger_no![COUNTRY.GetLongName] — не [RELIGION_GROUP.GetAdjective|l]а країна."
   PEACE_TREATY_WAR_GOAL_TRIGGER_BLOCK_TAKE_LOCATIONS: "@trigger_no! Ми не можемо забрати землі #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!. Причини:\n$WHY$"

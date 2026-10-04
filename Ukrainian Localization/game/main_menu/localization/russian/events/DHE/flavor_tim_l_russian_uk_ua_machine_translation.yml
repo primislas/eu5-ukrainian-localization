@@ -169,7 +169,7 @@
   flavor_tim.1101.a.entry: "Ми будемо раді його прийняти."
   flavor_tim.1101.b: "Вигнати [Select_CString(target_character.IsFemale,'її', 'його')]!"
   flavor_tim.1101.b.entry: "Вигнати його негайно!"
-  flavor_tim.1101.c: "Стратити [Select_CString(target_character.IsFemale, 'її', 'його' )]."
+  flavor_tim.1101.c: "Стратити [Select_CString(target_character.IsFemale, 'її', 'його')]."
   flavor_tim.1101.c.entry: "Стратимо його."
   flavor_tim.1102.title: "$flavor_tim_1100_shared$"
   flavor_tim.1102.desc: "[target_character.GetName] та [Select_CString(target_character.IsFemale,'її', 'його')] вчення здобули нечувану популярність, і багато жителів нашої країни також почали приєднуватися до хуруфітів. Стихійний характер цього руху викликає серйозне занепокоєння серед членів #L [ROOT.GetCountry.GetAdjective|l]ого#! двору. Справа дійшла до того, що [target_character.GetNameWithNoTooltip] та [Select_CString(target_character.IsFemale,'її', 'його')] послідовники оточили нашу столицю, вимагаючи, щоб [target_character2.GetNameWithNoTooltip] [Select_CString(target_character2.IsFemale,'склала свої повноваження і поступилася', 'склав свої повноваження і поступився')] владою."

@@ -263,7 +263,7 @@
  ESTATE_SATISFACTION_POST_HIT: "@button_simple! $VAL|%$@satisfaction_neutral!"
  ESTATE_SATISFACTION_POST_HIT_G: "@button_simple! $VAL|+%$@satisfaction_happy!"
  ESTATE_SATISFACTION_POST_HIT_R: "@button_simple! $VAL|-%$@satisfaction_sad!"
- INSTANTLY_ALSO: "За этим немедленно следует..."
+ INSTANTLY_ALSO: "За этим немедленно следует…"
  GRANT_PRIVILEDGE: "Предоставить привилегию"
  GRANT_PRIVILEGE_ACTION: "Предоставить привилегию «$NAME$»"
  REVOKE_PRIVILEDGE: "Отменить привилегию"

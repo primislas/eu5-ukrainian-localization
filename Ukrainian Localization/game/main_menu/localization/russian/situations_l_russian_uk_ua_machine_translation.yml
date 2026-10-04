@@ -88,7 +88,7 @@
   REFORMATION_CATHOLIC_POPS: "#TOOLTIP:RELIGION,$catholic_tt$,X #L Католики#!#!"
   REFORMATION_TOTAL_NUMBERS_LUTHERAN_PREACHERS: "#TOOLTIP:BUILDING_TYPE,lutheran_preachers,X #L Будівлі лютеранських проповідників#!#! ([SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('reformation_lutheran_preachers_counter').GetValue|Y0]) активно працюють"
   REFORMATION_TOTAL_NUMBERS_CALVINIST_PREACHERS: "#TOOLTIP:BUILDING_TYPE,calvinist_preachers,X #L Будівлі кальвіністських проповідників#!#! ([SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('reformation_calvinist_preachers_counter').GetValue|Y0]) активно працюють"
-  REFORMATION_RELIGION_TT_AND_MORE: "...та ще [Subtract_int32(GetDataModelSize(ReformationReligionItem.GetReligion.GetCountries), '(int32)4')]."
+  REFORMATION_RELIGION_TT_AND_MORE: "…та ще [Subtract_int32(GetDataModelSize(ReformationReligionItem.GetReligion.GetCountries), '(int32)4')]."
   REFORMATION_PIE_SLICE_TT: "Загалом у світі [ReformationPieSliceItem.GetPercentage|%2] ([ReformationPieSliceItem.GetDisplayPopCount]) громад, які сповідують цю віру."
   REFORMATION_POP_PIE_SLICE_TT: "У вашій країні [ReformationPopReligionSlice.GetPercentage|%2] ([ReformationPopReligionSlice.GetDisplayPopCount]) громад з цього стану, які сповідують цю віру."
   REFORMATION_COUNTRIES_TAB: "Країни"

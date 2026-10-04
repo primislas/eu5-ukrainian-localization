@@ -1,6 +1,6 @@
 ﻿l_russian:
   flavor_tim_governor.1.title: "Смерть нашого правителя"
-  flavor_tim_governor.1.desc: "Зі смертю [Select_CString(target_character.IsFemale, 'нашої правительки', 'нашого правителя' )], область [target_area.GetName] віднині перебуває під де-юре владою #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_GEN')|L]#!#!. Відповідно до цього [target_character2.GetName] [Select_CString(target_character2.IsFemale, 'потребувала', 'потребував')] від нашого поточного правителя повернути їх назад у [target_country.GetAdjectiveWithNoTooltip|l]і руки."
+  flavor_tim_governor.1.desc: "Зі смертю [Select_CString(target_character.IsFemale, 'нашої правительки', 'нашого правителя')], область [target_area.GetName] віднині перебуває під де-юре владою #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_GEN')|L]#!#!. Відповідно до цього [target_character2.GetName] [Select_CString(target_character2.IsFemale, 'потребувала', 'потребував')] від нашого поточного правителя повернути їх назад у [target_country.GetAdjectiveWithNoTooltip|l]і руки."
   flavor_tim_governor.1.a: "Час розлучатися з владою."
   flavor_tim_governor.1.b: "Може, домовимося про продовження?"
   flavor_tim_governor.2.title: "Прохання [prev_country.Custom('CL_GEN')]"

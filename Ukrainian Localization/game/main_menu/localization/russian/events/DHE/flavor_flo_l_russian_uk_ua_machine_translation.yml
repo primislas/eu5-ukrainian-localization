@@ -252,7 +252,7 @@
   flavor_flo.62.b: "Щоб правити країною, тугого гаманця недостатньо."
   flavor_flo.63.title: "[target_character.GetNameWithNoTooltip]"
   flavor_flo.63.entry: "Англійський кондотьєр Джон Хоквуд"
-  flavor_flo.63.desc: "[target_character.GetName] — досвідчений найманець із #TOOLTIP:REGION,great_britain_region,X #L Великої Британії#!#!, що брав участь у багатьох конфліктах на боці свого монарха. Однак тепер він бажає вступити на службу одній із багатих республік #TOOLTIP:REGION,italy_region,X #L Італії#!#!. Нам би знадобилися послуги загартованого #italic кондотьєра#!..."
+  flavor_flo.63.desc: "[target_character.GetName] — досвідчений найманець із #TOOLTIP:REGION,great_britain_region,X #L Великої Британії#!#!, що брав участь у багатьох конфліктах на боці свого монарха. Однак тепер він бажає вступити на службу одній із багатих республік #TOOLTIP:REGION,italy_region,X #L Італії#!#!. Нам би знадобилися послуги загартованого #italic кондотьєра#!…"
   flavor_flo.63.a: "Наймемо цього митця."
   flavor_flo.63.b: "У нас немає зайвих коштів."
   flavor_vlt.1.title: "Нова синьйорія"

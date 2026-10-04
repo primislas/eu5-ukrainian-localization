@@ -35,5 +35,5 @@
  unionevents.98.b: "Настало время выйти из объединения «[ROOT.GetCountry.GetDiplomacy.GetUnion.GetNameWithNoTooltip]»."
  unionevents.98.c: "[ROOT.GetCountry.GetLongNameWithNoTooltip] — навсегда!"
  unionevents.100.title: "[breakaway_ruler.GetShortNameWithNoTooltip] приходит к власти [root_country.Custom('predlog_vvo')] [root_country.Custom('CL_PREP')]"
- unionevents.100.desc: "По независящим от нас обстоятельствам [breakaway_ruler.GetName] [breakaway_ruler.IsFemale, 'сумела', 'сумел')] захватить власть [root_country.Custom('predlog_vvo')] #ONCLICK:COUNTRY,[root_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[root_country.Custom('CL_tt')],X [root_country.Custom('CL_PREP')|L]#!#!. Как следствие, наша уния с этой державой утратила силу, поскольку нашими странами управляют разные правители..."
+ unionevents.100.desc: "По независящим от нас обстоятельствам [breakaway_ruler.GetName] [breakaway_ruler.IsFemale, 'сумела', 'сумел')] захватить власть [root_country.Custom('predlog_vvo')] #ONCLICK:COUNTRY,[root_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[root_country.Custom('CL_tt')],X [root_country.Custom('CL_PREP')|L]#!#!. Как следствие, наша уния с этой державой утратила силу, поскольку нашими странами управляют разные правители…"
  unionevents.100.a: "Ну и пусть! Мы прекрасно справимся и без [breakaway_ruler.IsFemale( 'неё', 'него')]."

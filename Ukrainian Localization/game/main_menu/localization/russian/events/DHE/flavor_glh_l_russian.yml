@@ -12,7 +12,7 @@
  flavor_glh.2.a: "Мы учтём эту преданность."
  flavor_glh.2.tt1: "[GetCountry('GLH').GetGovernment.GetRulerTitle] и #TOOLTIP:SPECIAL_STATUS,tatar_tax_collector,X #L Великий князь Владимирский#!#! укрепят взаимное доверие"
  STATIC_MODIFIER_NAME_kalita: "Калита"
- flavor_glh.2.b: "Мы ничего не забываем и не прощаем..."
+ flavor_glh.2.b: "Мы ничего не забываем и не прощаем…"
  flavor_glh.2.c: "Воистину, это благородный поступок."
  flavor_glh.3.title: "Борьба князей"
  flavor_glh.3.desc_direct_appeal_to_khan: "Правители подчинённых нам княжеств могут занимать престол лишь в том случае, если хан даст на это одобрение. Однако, несмотря на то, что [target_root_country.GetGovernment.GetRuler.GetName|l] получил от нас право на княжение, на территории #ONCLICK:COUNTRY,[target_root_country.Custom('CL_tt')] #TOOLTIP:COUNTRY,[target_root_country.Custom('CL_tt')],X [target_root_country.Custom('CL_GEN')|L]#!#! началась борьба за власть между ним и его родственником. В связи с этим [target_root_country.GetGovernment.GetRuler.GetShortNameWithNoTooltip|l] отправил к нам посла с просьбой вновь подтвердить его назначение."

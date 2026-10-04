@@ -38,7 +38,7 @@
  parliaments.10.desc_b: "Похоже, представители [ROOT.GetCountry.Custom('parliament_ua_GEN')|l] из [target_location.Custom('LR_GEN')|l] [target_location.GetName] поняли, что в случае принятия обсуждаемая инициатива создаст им большие проблемы. Их поддержка даст большое преимущество нашим противникам."
  parliaments.10.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
  parliaments.11.desc: "Похоже, представители [ROOT.GetCountry.Custom('parliament_ua_GEN')|l] из [target_location.Custom('LR_GEN')|l] [target_location.GetName], которые совсем недавно горячо поддерживали нашу идею, кардинально изменили своё мнение по обсуждаемому вопросу. Нам неизвестно, почему они передумали, но ясно одно: мы больше не можем рассчитывать на их голос."
- parliaments.11.a: "Возможно, их охватила жадность..."
+ parliaments.11.a: "Возможно, их охватила жадность…"
  parliaments.12.title: "Отказ от поддержки крестьян"
  parliaments.12.desc: "Хотя наши [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] имеют право подавать прошения в [ROOT.GetCountry.GetGovernment.GetParliament.GetName], это не даёт им такой власти над данным учреждением, какая есть у других сословий. В ходе недавних дискуссий стало ясно, что простолюдины #ONCLICK:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')] #TOOLTIP:COUNTRY,[ROOT.GetCountry.Custom('CL_tt')],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! фактически бесправны по сравнению с представителями высших сословий. Те же, в свою очередь, выступают против предложения, которое выдвинули [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')|l]."
  parliaments.12.a: "[ROOT.GetCountry.Custom('common_string_negative')]"

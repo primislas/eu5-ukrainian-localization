@@ -123,5 +123,5 @@
  court_flavor_events.41.desc: "[heathen_advisor_country.GetLongName] и [heathen_advisor_country.GetGovernment.GetRulerTitle|l] этой державы приносят извинения. Еретика закуют в цепи и доставят к нам, чтобы пресечь распространение вредных учений."
  court_flavor_events.41.a: "$common_string_good$"
  court_flavor_events.42.title: "[heathen_advisor_country.GetLongNameWithNoTooltip] сопротивля[heathen_advisor_country.Custom('endlong_etyut')]ся"
- court_flavor_events.42.desc: "[heathen_advisor_country.GetLongName] и [heathen_advisor_country.GetGovernment.GetRulerTitle|l] этой державы возмущаются и заявляют, что у нас нет полномочий чего-либо требовать. Похоже, #L [heathen_advisor_country.GetAdjective|l]ие#! власти отрицают авторитет папы в вопросах христианской веры. Воистину, ими овладело зло..."
+ court_flavor_events.42.desc: "[heathen_advisor_country.GetLongName] и [heathen_advisor_country.GetGovernment.GetRulerTitle|l] этой державы возмущаются и заявляют, что у нас нет полномочий чего-либо требовать. Похоже, #L [heathen_advisor_country.GetAdjective|l]ие#! власти отрицают авторитет папы в вопросах христианской веры. Воистину, ими овладело зло…"
  court_flavor_events.42.a: "Они сошли с истинного пути."
