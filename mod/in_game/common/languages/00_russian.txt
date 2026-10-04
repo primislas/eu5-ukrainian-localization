@@ -6,11 +6,14 @@ east_slavic_language = {
 	color = map_RUS
 
 	male_names = {
+	    name_adam
 		name_alexander
 		name_alexis
 		name_anatoly
 		name_andrew
 		name_arkady
+		name_arsenios
+		name_artemios
 		name_athanasius
 		name_basil
 		name_boris
@@ -19,8 +22,10 @@ east_slavic_language = {
 		name_bronislav
 		name_briachislav
 		name_constantine
+		name_cornelius
 		name_cosmas
 		name_cyril
+		name_damian
 		name_daniel
 		name_david
 		name_demetrius
@@ -47,10 +52,12 @@ east_slavic_language = {
 		name_joachim
 		name_john
 		name_joseph
+		name_justus
 		name_karp
 		name_laurence
 		name_leon
 		name_macarius
+        name_mark
 		name_matthew
 		name_maximus
 		name_metrophanes
@@ -92,8 +99,10 @@ east_slavic_language = {
 		name_theodore
 		name_theodosius
 		name_theophylact
+		name_thomas
 		name_tryphon
 		name_valerian
+		name_victor
 		name_vissarion
 		name_vladislav
 		name_voislav
@@ -120,7 +129,7 @@ east_slavic_language = {
 		name_helen
 		name_hope
 		name_irene
-		name_julie name_julianne
+		name_julianne name_julie
 		name_lyubov name_ludmila
 		name_marine name_martha name_mary
 		name_olga
@@ -128,7 +137,7 @@ east_slavic_language = {
 		name_ragnhild
 		name_sophia name_stanislava name_svetlana name_svyatoslava name_snezhana
 		name_tatiana name_theodora name_theodosia
-		name_vasilisa name_vaclava
+		name_vaclava name_valeria name_victoria name_vasilisa
 		name_yaroslava
 		name_xenia
 		name_zenobia
@@ -172,19 +181,24 @@ ruthenian_language = {
 	color = rgb { 81 123 210 }
 
 	male_names = {
+	    name_adam
 		name_alexander
 		name_alexis
 		name_anatoly
 		name_andrew
 		name_arkady
+		name_arsenios
+		name_artemios
 		name_athanasius
 		name_basil
 		name_boris
 		name_bratislav
 		name_briachislav
 		name_constantine
+		name_cornelius
 		name_cosmas
 		name_cyril
+		name_damian
 		name_daniel
 		name_david
 		name_demetrius
@@ -211,10 +225,13 @@ ruthenian_language = {
 		name_joachim
 		name_john
 		name_joseph
+		name_justus
 		name_karp
 		name_laurence
 		name_leon
 		name_macarius
+		name_mark
+		name_martin
 		name_matthew
 		name_maximus
 		name_metrophanes
@@ -240,6 +257,7 @@ ruthenian_language = {
 		name_rostislav
 		name_ruslan
 		name_sabellus
+		name_samuel
 		name_sergius
 		name_severyn
 		name_simeon
@@ -254,8 +272,10 @@ ruthenian_language = {
 		name_theodore
 		name_theodosius
 		name_theophylact
+		name_thomas
 		name_tryphon
 		name_valerian
+		name_victor
 		name_vladislav
 		name_voislav
 		name_volodar
@@ -281,7 +301,7 @@ ruthenian_language = {
 		name_helen
 		name_hope
 		name_irene
-		name_julie name_julianne
+		name_julianne name_julie
 		name_lyubov name_ludmila
 		name_marine name_martha name_mary
 		name_oksana
@@ -290,7 +310,7 @@ ruthenian_language = {
 		name_ragnhild
 		name_sophia name_stanislava name_svetlana name_svyatoslava
 		name_tatiana name_theodora name_theodosia
-		name_vasilisa name_vaclava
+		name_vaclava name_valeria name_victoria name_vasilisa
 		name_yaroslava
 		name_xenia
 		name_zenobia
