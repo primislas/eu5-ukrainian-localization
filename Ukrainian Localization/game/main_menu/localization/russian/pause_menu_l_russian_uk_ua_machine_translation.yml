@@ -1,4 +1,6 @@
 ﻿l_russian:
+  HIDE_OUTDATED_SAVES_IS_OFF: "#T Показувати лише сумісні збереження #!\nПриховати збереження, несумісні з поточною версією гри."
+  HIDE_OUTDATED_SAVES_IS_ON: "#T Показувати всі збереження #!\nТакож показувати збереження, несумісні з поточною версією гри."
   SAVE_BUTTON_DISABLED: "@trigger_no! Автозбереження працює лише в режимі «Залізна воля»."
   SAVE_BUTTON_DISABLED_BY_TUTORIAL: "@trigger_no! Під час демонстрації гру зберігати не можна."
   LOAD_INGAME_BUTTON_DISABLED: "@trigger_no! У мережевій грі не можна завантажити гру."
