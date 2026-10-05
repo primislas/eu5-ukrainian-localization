@@ -1,0 +1,5 @@
+﻿l_russian:
+  gra_expand_seda_de_granada.title: "Розширення [ShowGoodsNameWithNoTooltip('silk')]ових промислів у провінції [ShowLocationNameWithNoTooltip('granada')]"
+  gra_expand_seda_de_granada.desc: "Після завоювання місцевості [ShowLocationName('murcia')] у нас з’явилася змога розширити наші славетні [ShowGoodsName('silk')]ові промисли і постачати шовк у ще більшій кількості до решти [ShowContinentName('europe')]."
+  gra_expand_seda_de_granada.a: "Розширимо виробництво."
+  gra_expand_seda_de_granada.b: "Не на часі."

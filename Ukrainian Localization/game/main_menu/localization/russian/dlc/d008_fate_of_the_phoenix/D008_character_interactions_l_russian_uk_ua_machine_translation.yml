@@ -29,5 +29,5 @@
   blind_character_desc_specific: "Дозволяє віддати наказ на осліплення [Concept('character', 'персонажа')|e], що дасть йому властивість #TOOLTIP:TRAIT,blind,X #L «Сліпота»#!#!."
   blind_character_past: "[SCOPE.sCharacter('recipient').GetName] [Select_CString(SCOPE.sCharacter('recipient').IsFemale,'була осліплена', 'був осліплений')] згідно з імператорським указом"
   blind_character_act_past: "[SCOPE.sCharacter('recipient').GetName] [Select_CString(SCOPE.sCharacter('recipient').IsFemale,'була осліплена', 'був осліплений')] згідно з імператорським указом"
-  blind_pretender_removed_tt: "[SCOPE.sCharacter('recipient').GetName] forfeits [SCOPE.sCharacter('recipient').GetHerHis] claim to the throne, as a blinded heir cannot rule"
-  blind_new_pretender_emerges_tt: "The conspiracy rallies behind a new claimant: [SCOPE.sCharacter('new_pretender_scope').GetName]"
+  blind_pretender_removed_tt: "[SCOPE.sCharacter('recipient').GetName] втрачає права на престол, оскільки [Select_CString(SCOPE.sCharacter('recipient').IsFemale, 'осліплена спадкоємиця', 'осліплений спадкоємець')] не може правити"
+  blind_new_pretender_emerges_tt: "Змовники гуртуються довкола нов[Select_CString(SCOPE.sCharacter('new_pretender_scope').IsFemale, 'ої претендентки', 'ого претендента')]: [SCOPE.sCharacter('new_pretender_scope').GetName]"

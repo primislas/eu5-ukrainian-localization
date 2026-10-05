@@ -26,3 +26,4 @@
   CANCEL_JOIN_SERVER: "Скасувати з'єднання"
   PASSWORD_REQUIRED: "Потрібен пароль"
   ENTER_TO_CONTINUE: "Щоб продовжити, введіть пароль"
+  HARDWARE_CHECKER_DISK_SPACE: "$JOM_BULLET_WITH_TAB$Недостатньо вільного місця на диску: у вас доступно $DISK_SPACE$ ГБ, а потрібно щонайменше 20 ГБ.\n"

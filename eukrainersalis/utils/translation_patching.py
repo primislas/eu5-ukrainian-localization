@@ -17,7 +17,7 @@ if __name__ == "__main__":
         _content = load_eu5_yaml(file)
         _ucontent = {_localization_key: {}}
         for k, v in _content.get(_localization_key, {}).items():
-            if "CL_tt" in v:
+            if "end_clean" in v:
             # if "'religion'" in v or "_RU_" in v or "_ru_" in k or "_RU_" in k:
             # if "ru_rank_" in v or "RU_rank_" in v or "RU_rn" in v or "ru_rank_" in k or "RU_rank_" in k or "RU_rn" in k:
                 uv = v
@@ -45,7 +45,7 @@ if __name__ == "__main__":
                 # uv = uv.replace("Concept('religion', 'Релігії')", "Concept('religion', 'Віри')")
                 # uv = uv.replace("Concept('religion', 'Релігією')", "Concept('religion', 'Вірою')")
 
-                uv = uv.replace(".Custom('CL_tt')", ".GetKey")
+                uv = uv.replace("'end_clean'", "'end_yiaei'")
 
                 # uv = uv.replace("тонке сукно", "коштовні тканини")
                 # uv = uv.replace("тонкого сукна", "коштовних тканин")

@@ -1,0 +1,9 @@
+﻿l_russian:
+  MODIFIER_TYPE_DESC_mozabite_azzaba_bureaucracy_impact_modifier: "Визначає впливовість [Concept('bureaucracy', 'установи')|e] в [Concept('country', 'країні')|e]."
+  MODIFIER_TYPE_DESC_nav_diputacion_navarra_bureaucracy_impact_modifier: "Визначає впливовість [Concept('bureaucracy', 'установи')|e] в [Concept('country', 'країні')|e]."
+  MODIFIER_TYPE_DESC_por_desembargo_do_paco_bureaucracy_impact_modifier: "Визначає впливовість [Concept('bureaucracy', 'установи')|e] в [Concept('country', 'країні')|e]."
+  MODIFIER_TYPE_DESC_por_mesa_da_consciencia_e_ordens_bureaucracy_impact_modifier: "Визначає впливовість [Concept('bureaucracy', 'установи')|e] в [Concept('country', 'країні')|e]."
+  MODIFIER_TYPE_NAME_mozabite_azzaba_bureaucracy_impact_modifier: "Вплив установи «$mozabite_azzaba_bureaucracy$»"
+  MODIFIER_TYPE_NAME_nav_diputacion_navarra_bureaucracy_impact_modifier: "Вплив установи «$nav_diputacion_navarra_bureaucracy$»"
+  MODIFIER_TYPE_NAME_por_desembargo_do_paco_bureaucracy_impact_modifier: "Вплив установи «$por_desembargo_do_paco_bureaucracy$»"
+  MODIFIER_TYPE_NAME_por_mesa_da_consciencia_e_ordens_bureaucracy_impact_modifier: "Вплив установи «$por_mesa_da_consciencia_e_ordens_bureaucracy$»"
