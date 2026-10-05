@@ -71,7 +71,6 @@ vbox = {
 	
 	input_context = "scene_editor"
 	disable_input_fallthrough = yes    # <--- Disable rest of the input stack
-    disable_common_context = no       # <--- Disable the common input context ("under" the stack) 
 
 	hbox = {
 		layoutpolicy_horizontal = expanding

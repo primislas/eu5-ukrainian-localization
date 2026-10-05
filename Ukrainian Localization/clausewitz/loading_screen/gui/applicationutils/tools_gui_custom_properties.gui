@@ -75,6 +75,23 @@ types ToolsProperyTypes
 		}
 	}
 	
+	type custom_property_fixed = custom_property {
+		blockoverride "content"
+		{
+			editor_textinput = {
+				using = custom_property_size
+				text = "[ToolPropertyFixed.GetFixed]"
+				oneditingfinished_with_changes = "[ToolPropertyFixed.SetFixed]"
+				fontcolor = "[ToolPropertyFixed.GetValueColor]"
+				align = right
+			}
+
+			widget = {
+				layoutpolicy_horizontal = expanding
+			}
+		}
+	}
+	
 	type custom_property_int = custom_property {
 		blockoverride "content"
 		{
@@ -190,6 +207,53 @@ types ToolsProperyTypes
 		}
 	}
 	
+	type custom_property_vec4Fixed = custom_property {
+		blockoverride "content"
+		{
+			hbox = {
+				layoutpolicy_horizontal = preferred
+				
+				spacing = 8
+				
+				editor_textinput = {
+					size = { 58 24 }
+					text = "[ToolPropertyVec4F.GetX]"
+					oneditingfinished_with_changes = "[ToolPropertyVec4F.SetX]"
+					fontcolor = "[ToolPropertyVec4F.GetValueColor]"
+					align = right
+				}
+				
+				editor_textinput = {
+					size = { 58 24 }
+					text = "[ToolPropertyVec4F.GetY]"
+					oneditingfinished_with_changes = "[ToolPropertyVec4F.SetY]"
+					fontcolor = "[ToolPropertyVec4F.GetValueColor]"
+					align = right
+				}
+				
+				editor_textinput = {
+					size = { 58 24 }
+					text = "[ToolPropertyVec4F.GetZ]"
+					oneditingfinished_with_changes = "[ToolPropertyVec4F.SetZ]"
+					fontcolor = "[ToolPropertyVec4F.GetValueColor]"
+					align = right
+				}
+				
+				editor_textinput = {
+					size = { 58 24 }
+					text = "[ToolPropertyVec4F.GetW]"
+					oneditingfinished_with_changes = "[ToolPropertyVec4F.SetW]"
+					fontcolor = "[ToolPropertyVec4F.GetValueColor]"
+					align = right
+				}
+
+				widget = {
+					layoutpolicy_horizontal = expanding
+				}
+			}
+		}
+	}
+
 	type custom_property_vec3f = custom_property {
 		blockoverride "content"
 		{
@@ -229,6 +293,45 @@ types ToolsProperyTypes
 		}
 	}
 	
+	type custom_property_vec3Fixed = custom_property {
+		blockoverride "content"
+		{
+			hbox = {
+				layoutpolicy_horizontal = preferred
+				
+				spacing = 8
+				
+				editor_textinput = {
+					size = { 58 24 }
+					text = "[ToolPropertyVec3F.GetX]"
+					oneditingfinished_with_changes = "[ToolPropertyVec3F.SetX]"
+					fontcolor = "[ToolPropertyVec3F.GetValueColor]"
+					align = right
+				}
+				
+				editor_textinput = {
+					size = { 58 24 }
+					text = "[ToolPropertyVec3F.GetY]"
+					oneditingfinished_with_changes = "[ToolPropertyVec3F.SetY]"
+					fontcolor = "[ToolPropertyVec3F.GetValueColor]"
+					align = right
+				}
+				
+				editor_textinput = {
+					size = { 58 24 }
+					text = "[ToolPropertyVec3F.GetZ]"
+					oneditingfinished_with_changes = "[ToolPropertyVec3F.SetZ]"
+					fontcolor = "[ToolPropertyVec3F.GetValueColor]"
+					align = right
+				}
+
+				widget = {
+					layoutpolicy_horizontal = expanding
+				}
+			}
+		}
+	}
+
 	type custom_property_vec3i = custom_property {
 		blockoverride "content"
 		{
@@ -299,6 +402,38 @@ types ToolsProperyTypes
 		}
 	}
 	
+
+	type custom_property_vec2Fixed = custom_property {
+		blockoverride "content"
+		{
+			hbox = {
+				layoutpolicy_horizontal = preferred
+				
+				spacing = 8
+				
+				editor_textinput = {
+					using = custom_property_size
+					text = "[ToolPropertyVec2F.GetX]"
+					oneditingfinished_with_changes = "[ToolPropertyVec2F.SetX]"
+					fontcolor = "[ToolPropertyVec2F.GetValueColor]"
+					align = right
+				}
+				
+				editor_textinput = {
+					using = custom_property_size
+					text = "[ToolPropertyVec2F.GetY]"
+					oneditingfinished_with_changes = "[ToolPropertyVec2F.SetY]"
+					fontcolor = "[ToolPropertyVec2F.GetValueColor]"
+					align = right
+				}
+
+				widget = {
+					layoutpolicy_horizontal = expanding
+				}
+			}
+		}
+	}
+
 	type custom_property_vec2i = custom_property {
 		blockoverride "content"
 		{

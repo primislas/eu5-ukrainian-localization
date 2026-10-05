@@ -199,10 +199,15 @@ types EditorSettings
 					}
 
 					scrollwidget = {
-						dynamicgridbox = {
-							name = "editor_settings"
-							setitemsizefromcell = yes
-						}
+						vbox = {
+							vbox = {
+								name = "editor_settings"
+							}
+							#spacer
+							widget = {
+								layoutpolicy_vertical = expanding
+							}
+						}				
 					}
 
 					scrollbar_vertical = {

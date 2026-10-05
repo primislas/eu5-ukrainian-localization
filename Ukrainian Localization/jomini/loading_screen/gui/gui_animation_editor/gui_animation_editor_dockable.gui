@@ -403,7 +403,7 @@ types GuiAnimationEditorTypes
 				size = { 20 20 }
 			}
 			onclick = "[GuiAnimationEditorPlayer.ToggleLoopEnabled]"
-			shortcut = "gui_animation_editor_loop"
+			input_action = "gui_animation_editor_loop"
 			checked = "[GuiAnimationEditorPlayer.IsLoopEnabled]"
 			raw_tooltip = "Toggle animation playback loop."
 			tooltipwidget = { using = dockable_tooltip }
@@ -417,7 +417,7 @@ types GuiAnimationEditorTypes
 			}
 			size = { @gui_animation_editor_common_btn_size @gui_animation_editor_common_btn_size }
 			onclick = "[GuiAnimationEditorPlayer.SetCurrentTime('(float)0')]"
-			shortcut = "gui_animation_editor_rollback"
+			input_action = "gui_animation_editor_rollback"
 			raw_tooltip = "Rollback Animation"
 			tooltipwidget = { using = dockable_tooltip }
 		}
@@ -431,7 +431,7 @@ types GuiAnimationEditorTypes
 			size = { @gui_animation_editor_common_btn_size @gui_animation_editor_common_btn_size }
 			onclick = "[GuiAnimationEditorPlayer.StepBackwards]"
 			enabled = "[Not(GuiAnimationEditorPlayer.IsPlaying)]"
-			shortcut = "gui_animation_editor_step_backwards"
+			input_action = "gui_animation_editor_step_backwards"
 			raw_tooltip = "Step forward in the animation"
 			tooltipwidget = { using = dockable_tooltip }
 		}
@@ -453,7 +453,7 @@ types GuiAnimationEditorTypes
 				raw_tooltip = "Resume Animation"
 				tooltipwidget = { using = dockable_tooltip }
 			}
-			shortcut = "gui_animation_editor_play_pause"
+			input_action = "gui_animation_editor_play_pause"
 			onclick = "[GuiAnimationEditorPlayer.ToggleIsPlaying]"
 			size = { @gui_animation_editor_common_btn_size @gui_animation_editor_common_btn_size }
 		}
@@ -467,7 +467,7 @@ types GuiAnimationEditorTypes
 			size = { @gui_animation_editor_common_btn_size @gui_animation_editor_common_btn_size }
 			enabled = "[Not(GuiAnimationEditorPlayer.IsPlaying)]"
 			onclick = "[GuiAnimationEditorPlayer.StepForward]"
-			shortcut = "gui_animation_editor_step_forward"
+			input_action = "gui_animation_editor_step_forward"
 			raw_tooltip = "Step forward 1 frame in the animation"
 			tooltipwidget = { using = dockable_tooltip }
 		}
@@ -479,7 +479,7 @@ types GuiAnimationEditorTypes
 				texture = "gfx/editor_gui/rollforward.dds"
 			}
 			onclick = "[GuiAnimationEditorPlayer.SetCurrentTime( GuiAnimationEditorPlayer.GetMaxDuration )]"
-			shortcut = "gui_animation_editor_rollforward"
+			input_action = "gui_animation_editor_rollforward"
 			raw_tooltip = "Rollforward Animation"
 			tooltipwidget = { using = dockable_tooltip }
 		}
@@ -576,6 +576,7 @@ types GuiAnimationEditorTypes
 
 vbox = {
 	name = "gui_animation_editor"
+	input_context = "gui_animation_editor"
 	layoutpolicy_horizontal = expanding
 	layoutpolicy_vertical = expanding
 
@@ -590,7 +591,7 @@ vbox = {
 		{
 			toolbox_button = {
 				name = "save_btn"
-				shortcut = "gui_animation_editor_save"
+				input_action = "tools_save"
 				#enabled = "[MapEditor.IsSavable]"
 				onclick = "[GuiAnimationEditor.OnSave]"
 				raw_tooltip = "Save changes back to gui animation files."
@@ -601,7 +602,7 @@ vbox = {
 
 			toolbox_button = {
 				name = "save_as_btn"
-				shortcut = "gui_animation_editor_save_as"
+				input_action = "tools_save_as"
 				onclick = "[GuiAnimationEditor.OnSaveAs]"
 				raw_tooltip = "Open a save dialog to cherry pick and/or alternate the paths of the gui animation files to be saved to."
 				toolbox_icon = {
@@ -860,7 +861,7 @@ vbox = {
 				size = { 23 94 }
 				checked = "[GuiAnimationEditorMetadataCtx.IsAnimationsTabCollapsed]"
 				onclick = "[GuiAnimationEditorMetadataCtx.ToggleAnimationsTabCollapsed]"
-				shortcut = gui_animation_editor_toggle_animations_tab
+				input_action = gui_animation_editor_toggle_animations_tab
 			}
 
 			# Right column
@@ -897,7 +898,7 @@ vbox = {
 										gui_animation_editor_button = {
 											name = "btn_add_keyframes"
 											onclick = "[GuiAnimationEditor.AddKeyframesAtCurrentTime]"
-											shortcut = "gui_animation_editor_add_keys"
+											input_action = "gui_animation_editor_add_keys"
 											raw_tooltip = "Adds keyframes to all visible tracks at current time. Alternatively user may double-click anywhere on the track to create a new keyframe on that single track."
 											toolbox_icon = {
 												texture = "gfx/gui_animation_editor/add_keyframe.png"
@@ -907,7 +908,7 @@ vbox = {
 											name = "btn_delete_selected_keyframes"
 											onclick = "[GuiAnimationEditor.DeleteSelectedKeyframes]"
 											enabled = "[GuiAnimationEditorMetadataCtx.HasSelectedAnyKeyframes]"
-											shortcut = gui_animation_editor_delete_selected_keyframes
+											input_action = gui_animation_editor_delete_selected_keyframes
 											raw_tooltip = "Delete all selected keyframes."
 											toolbox_icon = {
 												texture = "gfx/gui_animation_editor/delete_selected_keyframes.png"
@@ -916,7 +917,7 @@ vbox = {
 										gui_animation_editor_button = {
 											name = "btn_select_all_keyframes"
 											onclick = "[GuiAnimationEditorMetadataCtx.SelectAllKeyframes]"
-											shortcut = gui_animation_editor_select_all_keyframes
+											input_action = gui_animation_editor_select_all_keyframes
 											raw_tooltip = "Selects all keyframes."
 											toolbox_icon = {
 												texture = "gfx/gui_animation_editor/select_all_keyframes.png"
@@ -925,7 +926,7 @@ vbox = {
 										gui_animation_editor_button = {
 											name = "btn_deselect_all_keyframes"
 											onclick = "[GuiAnimationEditorMetadataCtx.DeselectAllKeyframes]"
-											shortcut = gui_animation_editor_deselect_all_keyframes
+											input_action = gui_animation_editor_deselect_all_keyframes
 											enabled = "[GuiAnimationEditorMetadataCtx.HasSelectedAnyKeyframes]"
 											raw_tooltip = "Deselects all keyframes. Alternatively user may click anywhere on the tracks to deselect."
 											toolbox_icon = {
@@ -995,7 +996,7 @@ vbox = {
 								gui_animation_editor_toggle_button = {
 									checked = "[GuiAnimationEditorPlayer.ShouldMoveNeedleWithKeyframe]"
 									onclick = "[GuiAnimationEditorPlayer.ToggleMoveNeedleWithKeyframe]"
-									shortcut = "entity_viewer_keyframe_needle_lock_toggle"
+									# input_action = "entity_viewer_keyframe_needle_lock_toggle"
 									raw_tooltip = "Toggle the moving of the needle when moving keyframes"
 									toolbox_icon = {
 										texture = "gfx/editor_gui/editor_keyframe_player_lock.dds"
@@ -1078,4 +1079,3 @@ vbox = {
 		}
 	}
 }
- 

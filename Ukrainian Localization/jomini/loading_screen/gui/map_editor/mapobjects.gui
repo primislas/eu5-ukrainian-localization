@@ -235,16 +235,6 @@ types MapEditor
 		tooloptions_divider = {
 		}
 
-		toolbox_button = {
-			input_action = "mapobjects_tool_focus_view"
-			onclick = "[Nudger.FocusCameraOnSelection]"
-			raw_tooltip = "Focus camera on currently selected objects or territories."
-			toolbox_icon = {
-				texture = "gfx/tools/focus_view_icon.dds"
-				size = { 32 32 }
-			}
-		}
-
 		toolbox_checkbutton = {
 			raw_tooltip = "Toggle camera limits."
 			checked = "[IsCameraRestrictionsEnabled]"
@@ -270,6 +260,13 @@ widget = {
 	alwaystransparent = no
 	size = { 100% 100% }
 	name = "nudger_viewport"
+
+	map_editor_viewport_common_content = {
+		blockoverride "toolbar" {
+			using = map_editor_viewport_bg
+		}
+		blockoverride "views" {}
+	}
 
 	map_editor_viewport_tooltip = {
 		datacontext = "[MapObjectTool.GetTooltip]"

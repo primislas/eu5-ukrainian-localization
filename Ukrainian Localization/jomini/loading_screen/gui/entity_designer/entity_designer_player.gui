@@ -26,7 +26,6 @@ types EntityDesigner
                 using = tools_centred_anchor
                 visible = "[EntityDesignerPlayer.IsPlaying]"
                 texture = "gfx/editor_gui/pause.dds"
-                input_action = "entity_designer_play_pause"
                 raw_tooltip = "Pause Animation"
                 tooltipwidget = {
                     using = dockable_tooltip
@@ -37,7 +36,6 @@ types EntityDesigner
                 using = tools_centred_anchor
                 visible = "[Not( EntityDesignerPlayer.IsPlaying )]"
                 texture = "gfx/editor_gui/play.dds"
-                input_action = "entity_designer_play_pause"
                 raw_tooltip = "Resume Animation"
                 tooltipwidget = { 
                     using = dockable_tooltip

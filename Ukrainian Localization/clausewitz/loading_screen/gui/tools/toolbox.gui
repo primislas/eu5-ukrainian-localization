@@ -17,6 +17,7 @@ types ToolsTypes
 vbox = {
 	name = "toolbox_widget"
     layoutpolicy_vertical = expanding
+	spacing = 4
 
 	vbox = {
 	    layoutpolicy_vertical = preferred

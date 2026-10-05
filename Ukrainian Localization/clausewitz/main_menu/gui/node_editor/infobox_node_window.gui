@@ -105,19 +105,19 @@ widget = {
 			# Color button 
 			# ...
 
-			# Description button
-			#node_window_button = {
-			#	layoutpolicy_horizontal = fixed
-			#	blockoverride "button" { onclick = [NodeWindow.DescriptionDialog] }
-			#	blockoverride "icon" { texture = "gfx/editor_gui/editor_icon_edit_box.dds" }
-			#}
-
 			# Name button
 			node_window_button = {
 				layoutpolicy_horizontal = fixed
 				blockoverride "button" { onclick = [NodeWindow.NameDialog] }
 				blockoverride "icon" { texture = "gfx/editor_gui/16px/node_editor_icon_edit_name.png" }
 			} 
+
+			# Edit description button
+			node_window_button = {
+				layoutpolicy_horizontal = fixed
+				blockoverride "button" { onclick = [NodeWindow.EnterDescriptionEditingMode] }
+				blockoverride "icon" { texture = "gfx/editor_gui/16px/node_editor_icon_edit_description.png" }
+			}
 
 			# Close button
 			node_window_button = {
@@ -128,24 +128,26 @@ widget = {
 		}
 
 		editor_editbox = {
-			name = "comment_desc"
+			name = "comment_desc" # Do not rename. Expected by application.
+			background = {
+				visible = "[NodeWindow.IsDescriptionEditingMode]"
+				texture = "gfx/interface/white.dds"
+				tintcolor = { 0.3 0.3 0.15 0.5 }
+			}
 			fontsize = 17
-			text = [Node.Description]
+			text = "[Node.Description]"
 			fontcolor = { 0.95 0.8 0.7 1 }
-			raw_tooltip = "Comment section"
-			oneditingfinished = "[NodeWindow.SetDescription]"
-			alwaystransparent = no
+			oneditingfinished = "[NodeWindow.ExitDescriptionEditingMode]"
+			alwaystransparent = yes # prevent entering focus mode when clicking on the description
 			margin = { 0 4 }
 			font = "standard_cw_font"
 			align = top|left
 			tooltipwidget = { using = editor_tooltip }
 			multiline = yes
-			layoutpolicy_vertical = fixed
+			layoutpolicy_vertical = expanding
 			layoutpolicy_horizontal = preferred
-			size = { 0 240 }
+			min_height = 30
 		}
-
-		widget = { layoutpolicy_vertical = expanding }
 
 		hbox = {
 			layoutpolicy_horizontal = expanding
@@ -153,7 +155,7 @@ widget = {
 			margin_bottom = 4
 			icon = {
 				name = "resize_icon" # Do not rename. Expected by application.
-				size = { 20 20 }
+				size = { 26 26 }
 				texture = "gfx/tools/resize_window.dds"
 				alwaystransparent = no # Icon by default has yes but we need to override. We can't use button because it eats mouse events.
 			}

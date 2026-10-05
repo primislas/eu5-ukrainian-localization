@@ -36,6 +36,42 @@ types ToolPropertyDraggableTypes
 		}
 	}
 
+	type dialog_grid_property_draggable_value_fixed = dialog_grid_property {
+		blockoverride "content"
+		{
+			using = tools_property_draggable_value
+
+			blockoverride "editbox"
+			{
+				using = tools_property_draggable_value_editbox_callbacks_fixed
+			}
+		}
+	}
+
+    type tools_property_draggable_value_fixed = tools_property {
+		blockoverride "content"
+		{
+			using = tools_property_draggable_value
+
+			blockoverride "editbox"
+			{
+				using = tools_property_draggable_value_editbox_callbacks_fixed
+			}
+		}
+	}
+
+	type dialog_property_draggable_value_fixed = dialog_property {
+		blockoverride "content"
+		{
+			using = tools_property_draggable_value
+
+			blockoverride "editbox"
+			{
+				using = tools_property_draggable_value_editbox_callbacks_fixed
+			}
+		}
+	}
+
 	type dialog_grid_property_draggable_value_int = dialog_grid_property {
 		blockoverride "content"
 		{
@@ -93,6 +129,27 @@ types ToolPropertyDraggableTypes
 		}
 	}
 
+	type dialog_grid_property_draggable_value_vec2Fixed = dialog_grid_property {
+		blockoverride "content"
+		{
+			using = tools_property_draggable_value_vec2Fixed_template
+		}
+	}
+
+	type dialog_property_draggable_value_vec2Fixed = dialog_property {
+		blockoverride "content"
+		{
+			using = tools_property_draggable_value_vec2Fixed_template
+		}
+	}
+
+	type tools_property_draggable_value_vec2Fixed = tools_property {
+		blockoverride "content"
+		{
+			using = tools_property_draggable_value_vec2Fixed_template
+		}
+	}
+
 	type dialog_grid_property_draggable_value_vec3f = dialog_grid_property {
 		blockoverride "content"
 		{
@@ -111,6 +168,27 @@ types ToolPropertyDraggableTypes
 		blockoverride "content"
 		{
 			using = tools_property_draggable_value_vec3f_template
+		}
+	}
+
+	type dialog_grid_property_draggable_value_vec3Fixed = dialog_grid_property {
+		blockoverride "content"
+		{
+			using = tools_property_draggable_value_vec3Fixed_template
+		}
+	}
+
+	type dialog_property_draggable_value_vec3Fixed = dialog_property {
+		blockoverride "content"
+		{
+			using = tools_property_draggable_value_vec3Fixed_template
+		}
+	}
+
+	type tools_property_draggable_value_vec3Fixed = tools_property {
+		blockoverride "content"
+		{
+			using = tools_property_draggable_value_vec3Fixed_template
 		}
 	}
 
@@ -242,6 +320,30 @@ template tools_property_draggable_value_vec2f_template
 	}
 }
 
+template tools_property_draggable_value_vec2Fixed_template
+{
+	using = tools_property_draggable_value_vec2
+	blockoverride "editbox1"
+	{
+		text = "[ToolsPropertyDraggableValueVector2F.GetX]"
+		oneditingfinished_with_changes = "[ToolsPropertyDraggableValueVector2F.SetX]"
+		onmousedragstarted = "[ToolsPropertyDraggableValueVector2F.OnMouseDragStartedX]"
+		onmousedragged = "[ToolsPropertyDraggableValueVector2F.UpdateValueX]"
+		onmousedragfinished = "[ToolsPropertyDraggableValueVector2F.OnMouseDragFinishedX]"
+		text_validator = "[ToolsPropertyDraggableValueVector2F.GetValidatorX]"
+	}
+	
+	blockoverride "editbox2"
+	{
+		text = "[ToolsPropertyDraggableValueVector2F.GetY]"
+		oneditingfinished_with_changes = "[ToolsPropertyDraggableValueVector2F.SetY]"
+		onmousedragstarted = "[ToolsPropertyDraggableValueVector2F.OnMouseDragStartedY]"
+		onmousedragged = "[ToolsPropertyDraggableValueVector2F.UpdateValueY]"
+		onmousedragfinished = "[ToolsPropertyDraggableValueVector2F.OnMouseDragFinishedY]"
+		text_validator = "[ToolsPropertyDraggableValueVector2F.GetValidatorY]"
+	}
+}
+
 template tools_property_draggable_value_vec3f_template
 {
 	using = tools_property_draggable_value_vec3
@@ -273,6 +375,40 @@ template tools_property_draggable_value_vec3f_template
 		onmousedragged = "[ToolsPropertyDraggableValueVector3f.UpdateValueZ]"
 		onmousedragfinished = "[ToolsPropertyDraggableValueVector3f.OnMouseDragFinishedZ]"
 		text_validator = "[ToolsPropertyDraggableValueVector3f.GetValidatorZ]"
+	}
+}
+
+template tools_property_draggable_value_vec3Fixed_template
+{
+	using = tools_property_draggable_value_vec3
+	blockoverride "editbox1"
+	{
+		text = "[ToolsPropertyDraggableValueVector3F.GetX]"
+		oneditingfinished_with_changes = "[ToolsPropertyDraggableValueVector3F.SetX]"
+		onmousedragstarted = "[ToolsPropertyDraggableValueVector3F.OnMouseDragStartedX]"
+		onmousedragged = "[ToolsPropertyDraggableValueVector3F.UpdateValueX]"
+		onmousedragfinished = "[ToolsPropertyDraggableValueVector3F.OnMouseDragFinishedX]"
+		text_validator = "[ToolsPropertyDraggableValueVector3F.GetValidatorX]"
+	}
+	
+	blockoverride "editbox2"
+	{
+		text = "[ToolsPropertyDraggableValueVector3F.GetY]"
+		oneditingfinished_with_changes = "[ToolsPropertyDraggableValueVector3F.SetY]"
+		onmousedragstarted = "[ToolsPropertyDraggableValueVector3F.OnMouseDragStartedY]"
+		onmousedragged = "[ToolsPropertyDraggableValueVector3F.UpdateValueY]"
+		onmousedragfinished = "[ToolsPropertyDraggableValueVector3F.OnMouseDragFinishedY]"
+		text_validator = "[ToolsPropertyDraggableValueVector3F.GetValidatorY]"
+	}
+
+	blockoverride "editbox3"
+	{
+		text = "[ToolsPropertyDraggableValueVector3F.GetZ]"
+		oneditingfinished_with_changes = "[ToolsPropertyDraggableValueVector3F.SetZ]"
+		onmousedragstarted = "[ToolsPropertyDraggableValueVector3F.OnMouseDragStartedZ]"
+		onmousedragged = "[ToolsPropertyDraggableValueVector3F.UpdateValueZ]"
+		onmousedragfinished = "[ToolsPropertyDraggableValueVector3F.OnMouseDragFinishedZ]"
+		text_validator = "[ToolsPropertyDraggableValueVector3F.GetValidatorZ]"
 	}
 }
 
@@ -458,6 +594,16 @@ template tools_property_draggable_value_editbox_callbacks_float
 	onmousedragged = "[ToolsPropertyDraggableValueFloat.UpdateValue]"
 	onmousedragfinished = "[ToolsPropertyDraggableValueFloat.OnMouseDragFinished]"
 	text_validator = "[ToolsPropertyDraggableValueFloat.GetValidator]"
+}
+
+template tools_property_draggable_value_editbox_callbacks_fixed
+{
+	raw_text = "[ToolsPropertyDraggableValueFixed.GetValue]"
+	oneditingfinished_with_changes = "[ToolsPropertyDraggableValueFixed.SetValueFromText]"
+	onmousedragstarted = "[ToolsPropertyDraggableValueFixed.OnMouseDragStarted]"
+	onmousedragged = "[ToolsPropertyDraggableValueFixed.UpdateValue]"
+	onmousedragfinished = "[ToolsPropertyDraggableValueFixed.OnMouseDragFinished]"
+	text_validator = "[ToolsPropertyDraggableValueFixed.GetValidator]"
 }
 
 template tools_property_draggable_value_editbox_callbacks_int

@@ -1435,6 +1435,24 @@ types EditorTypes
 		}
 	}
 
+	type editor_toolbox_divider = vbox {
+		margin = { 0 10 }
+		layoutpolicy_horizontal = expanding
+		layoutpolicy_vertical = fixed
+
+		icon = {
+			size = { 0 2 }
+
+			texture = "gfx/editor_gui/editor_white_pixel.png"
+			color = { 0.3 0.3 0.3 1.0 }
+
+			alwaystransparent = no
+
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = fixed
+		}
+	}
+
 	type editor_toolbar_textbox = editor_textbox {
 		using = editor_toolbar_font
 		autoresize = yes
@@ -1715,7 +1733,6 @@ template WidgetSelectionEditorContextMenuItem
 		button_trigger = none
 
 		icon = {
-			margin = { 2 -1 }
 			size = { 19 19 }
 			texture = "[ContextMenuItem.GetIcon]"
 		}

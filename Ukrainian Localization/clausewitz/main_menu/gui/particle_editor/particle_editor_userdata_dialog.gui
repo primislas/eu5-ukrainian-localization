@@ -11,8 +11,17 @@ types ToolsTypes
 
 			layoutpolicy_horizontal = expanding
 			layoutpolicy_vertical = expanding
-
-			scrollwidget = {
+			
+			blockoverride "Properties"
+			{
+				viewportwidget = {
+					widget = {
+					}
+				}
+			}
+			
+			blockoverride "content"
+			{
 				fixedgridbox = {
 					addcolumn = 100%
 					addrow = 32
@@ -88,11 +97,6 @@ types ToolsTypes
 										size = { 16 16 }
 										position = { 8 8 }
 									}
-								}
-
-								# FIXME(TS): This is a hack since the scrollbar width is not accounted for in the item width...
-								widget = {
-									size = { 16 32 }
 								}
 							}
 						}

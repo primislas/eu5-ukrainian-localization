@@ -247,12 +247,12 @@ types "ToolsSaveDialog" {
 							layoutpolicy_horizontal = expanding
 							layoutpolicy_vertical = preferred
 							autoresizescrollarea = yes
-							#autoresizeviewport = yes
-							#preferscrollwidgetsize = yes
-
-							scrollbarpolicy_horizontal = always_off
 
 							maximumsize = { -1 128 }
+
+							scrollbarpolicy_horizontal = always_off
+							scrollbarpolicy_vertical = always_on
+							scrollbaralign_vertical = right
 
 							scrollbar_vertical = {
 								using = editor_vertical_scrollbar
@@ -262,24 +262,24 @@ types "ToolsSaveDialog" {
 								using = editor_horizontal_scrollbar
 							}
 
-							scrollbaralign_vertical = right
-
 							viewportwidget = {
 								widget = {
 									size = { 100% 100% }
+									scissor = yes
 								}
 							}
 
 							scrollwidget = {
 								fixedgridbox = {
-									addcolumn = 1040
+									alwaystransparent = no
+									addcolumn = 1040 # 100% will not work in the way the whole window layout is designed.
 									addrow = 36
 									setitemsizefromcell = yes
-
 									datamodel = "[SavableGroup.Savables]"
-
+									datamodel_reuse_widgets = yes
 									item = {
 										widget = {
+											size = { 100% 32 }
 											hbox = {
 												spacing = 4
 
@@ -312,7 +312,7 @@ types "ToolsSaveDialog" {
 												editor_textinput = {
 													#using = property_editbox
 													text = "[Savable.Filename]"
-													size = { 300 28 }
+													size = { 330 28 }
 													oneditingfinished = "[Savable.SetFilename]"
 													enabled = "[Savable.IsFilenameModifiable]"
 													tooltip = "[Savable.AbsoluteLocationText]"
@@ -365,7 +365,7 @@ types "ToolsSaveDialog" {
 												}
 
 												dockable_button = {
-													minimumsize = { 320 32 }
+													minimumsize = { 260 32 }
 													enabled = "[Not(Savable.IsDeletable)]"
 													tooltip = "[Savable.LocationTooltip]"
 													onclick = "[SaveDialog.FindLocation(PdxGuiWidget.Self, Savable.AccessSelf)]"
@@ -421,6 +421,9 @@ types "ToolsSaveDialog" {
 													visible = "[Savable.AllowsFileDialog]"
 													onclick = "[Savable.FolderSelect]"
 												}
+
+												widget = { size = { 12 1 } } # make space for scrollbar
+											}
 											}
 										}
 									}

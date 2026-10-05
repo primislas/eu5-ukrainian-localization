@@ -224,8 +224,27 @@ types "SplineStripTool" {
 	        }
 	    }
 
-	    block "tool_other" {}
+		tooloptions_button = {
+			size = { 180 32 }
+			onclick = "[MapEditorGui.RebuildSplines]"
+			enabled = "[Not(MapEditorGui.IsRebuildingSplines)]"
+			editor_textbox = {
+				raw_text = "Rebuild Game Splines"
+				#fontsize = @province_paint_ext_important_button_font_size
+				autoresize = yes
+				parentanchor = center
+				visible = "[Not(MapEditorGui.IsRebuildingSplines)]"
+			}
+			tooloptions_progress_spinner = {
+				visible = "[MapEditorGui.IsRebuildingSplines]"
+				parentanchor = center
+			}
+			raw_tooltip = "Click to begin the process of rebuilding the splines navmesh."
+			tooltipwidget = { using = dockable_tooltip }
+		}
 
+	    block "tool_other" {}
+	    
 		widget = {
 			layoutpolicy_horizontal = expanding
 		}

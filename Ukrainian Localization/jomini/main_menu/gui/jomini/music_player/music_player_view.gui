@@ -276,7 +276,7 @@ window = {
 		raw_text = "x"
 		align = center|nobaseline
 		onclick = "[OnToggleMusicPlayer]"
-		input_action = "close"
+		input_action = "close_window"
 		shortcut = "close_window"
 	}
 }

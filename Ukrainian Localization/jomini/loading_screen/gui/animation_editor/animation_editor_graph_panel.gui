@@ -47,6 +47,8 @@ types AnimationEditor
 	# Type name used in code.
 	type state_connection = widget
 	{
+	  input_context = "animation_editor::state_connection"
+
 		allow_outside = yes
 		size = { 100% 100% }
 

@@ -1,5 +1,6 @@
 @common_property_enum_height = 20
 @common_property_height = 20
+@common_property_width = 100
 
 template common_property_size {
 	size = { 0 @common_property_height }
@@ -115,11 +116,21 @@ types CommonProperyTypes
 				using = common_property_text_input
 				text = "[ToolPropertyFloat.GetFloat]"
 				oneditingfinished_with_changes = "[ToolPropertyFloat.SetFloat]"
-				#onreturnpressed = "[ToolInputDialog.Confirm]"
 			}
 		}
 	}
 	
+	type common_property_fixed = common_property {
+		blockoverride "content"
+		{
+			editor_textinput = {
+				using = common_property_text_input
+				text = "[ToolPropertyFixed.GetFixed]"
+				oneditingfinished_with_changes = "[ToolPropertyFixed.SetFixed]"
+			}
+		}
+	}
+
 	type common_property_int8 = common_property {
 		blockoverride "content"
 		{
@@ -228,6 +239,47 @@ types CommonProperyTypes
 		}
 	}
 	
+	type common_property_vec4Fixed = common_property {
+		blockoverride "content"
+		{
+			flowcontainer = {
+				spacing = 8
+
+				editor_textinput = {
+					using = common_property_text_input
+					size = { 58 @common_property_height }
+					text = "[ToolPropertyVec4F.GetX]"
+					oneditingfinished_with_changes = "[ToolPropertyVec4F.SetX]"
+					#onreturnpressed = "[ToolInputDialog.Confirm]"
+				}
+				
+				editor_textinput = {
+					using = common_property_text_input
+					size = { 58 @common_property_height }
+					text = "[ToolPropertyVec4F.GetY]"
+					oneditingfinished_with_changes = "[ToolPropertyVec4F.SetY]"
+					#onreturnpressed = "[ToolInputDialog.Confirm]"
+				}
+				
+				editor_textinput = {
+					using = common_property_text_input
+					size = { 58 @common_property_height }
+					text = "[ToolPropertyVec4F.GetZ]"
+					oneditingfinished_with_changes = "[ToolPropertyVec4F.SetZ]"
+					#onreturnpressed = "[ToolInputDialog.Confirm]"
+				}
+				
+				editor_textinput = {
+					using = common_property_text_input
+					size = { 58 @common_property_height }
+					text = "[ToolPropertyVec4F.GetW]"
+					oneditingfinished_with_changes = "[ToolPropertyVec4F.SetW]"
+					#onreturnpressed = "[ToolInputDialog.Confirm]"
+				}
+			}
+		}
+	}
+
 	type common_property_vec4i = common_property {
 		blockoverride "content"
 		{
@@ -302,6 +354,39 @@ types CommonProperyTypes
 		}
 	}
 	
+	type common_property_vec3Fixed = common_property {
+		blockoverride "content"
+		{
+			flowcontainer = {
+				spacing = 8
+
+				editor_textinput = {
+					using = common_property_text_input
+					size = { 58 @common_property_height }
+					text = "[ToolPropertyVec3F.GetX]"
+					oneditingfinished_with_changes = "[ToolPropertyVec3F.SetX]"
+					#onreturnpressed = "[ToolInputDialog.Confirm]"
+				}
+				
+				editor_textinput = {
+					using = common_property_text_input
+					size = { 58 @common_property_height }
+					text = "[ToolPropertyVec3F.GetY]"
+					oneditingfinished_with_changes = "[ToolPropertyVec3F.SetY]"
+					#onreturnpressed = "[ToolInputDialog.Confirm]"
+				}
+				
+				editor_textinput = {
+					using = common_property_text_input
+					size = { 58 @common_property_height }
+					text = "[ToolPropertyVec3F.GetZ]"
+					oneditingfinished_with_changes = "[ToolPropertyVec3F.SetZ]"
+					#onreturnpressed = "[ToolInputDialog.Confirm]"
+				}
+			}
+		}
+	}
+
 	type common_property_vec3i = common_property {
 		blockoverride "content"
 		{
@@ -354,6 +439,31 @@ types CommonProperyTypes
 					size = { 92 @common_property_height }
 					text = "[ToolPropertyVec2f.GetY]"
 					oneditingfinished_with_changes = "[ToolPropertyVec2f.SetY]"
+					#onreturnpressed = "[ToolInputDialog.Confirm]"
+				}
+			}
+		}
+	}
+
+	type common_property_vec2Fixed = common_property {
+		blockoverride "content"
+		{
+			flowcontainer = {
+				spacing = 8
+
+				editor_textinput = {
+					using = common_property_text_input
+					size = { 92 @common_property_height }
+					text = "[ToolPropertyVec2F.GetX]"
+					oneditingfinished_with_changes = "[ToolPropertyVec2F.SetX]"
+					#onreturnpressed = "[ToolInputDialog.Confirm]"
+				}
+				
+				editor_textinput = {
+					using = common_property_text_input
+					size = { 92 @common_property_height }
+					text = "[ToolPropertyVec2F.GetY]"
+					oneditingfinished_with_changes = "[ToolPropertyVec2F.SetY]"
 					#onreturnpressed = "[ToolInputDialog.Confirm]"
 				}
 			}

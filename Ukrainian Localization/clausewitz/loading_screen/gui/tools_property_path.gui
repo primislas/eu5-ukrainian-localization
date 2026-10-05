@@ -47,6 +47,7 @@ types ToolsPathProperyTypes
 			onclick = "[ToolsPropertyVfsMountPath.ToggleDisplayMode]"
 			checked = "[ToolsPropertyVfsMountPath.IsDisplayModeFullPath]"
 			raw_tooltip = "Toggle Display Mode between (Full Path) and (Vfs Mount Path)."
+			enabled = "[Not(ToolsPropertyVfsMountPath.AreBundleValuesMixed)]"
 			size = { 24 24 }
 			icon = {
 				size = { 24 24 }
@@ -166,6 +167,9 @@ types ToolsPathProperyTypes
 			oneditingfinished_with_changes = "[ToolsPropertyVfsMountPath.SetVfsPathFromText]"
 			tooltipwidget = { using = editor_tooltip }
 			tooltip = "[ToolsPropertyVfsMountPath.GetFullPath]"
+			bundle_standard_multiple_values_overlay = {
+					visible = "[ToolsPropertyVfsMountPath.AreBundleValuesMixed]"
+			}
 		}
 
 		editor_textinput = {
@@ -176,6 +180,9 @@ types ToolsPathProperyTypes
 			minimumsize = { 260 24 }
 			text = "[ToolsPropertyVfsMountPath.GetFullPath]"
 			fontcolor = "[ToolsPropertyVfsMountPath.GetPathFontColor]"
+			bundle_standard_multiple_values_overlay = {
+					visible = "[ToolsPropertyVfsMountPath.AreBundleValuesMixed]"
+			}
 		}
 
 		editor_toolbar_checkbutton = {

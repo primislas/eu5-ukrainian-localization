@@ -36,6 +36,8 @@ types NodeToolsPropertyTypes
 	}
 
 	type node_property_float = tools_property_float { }
+
+	type node_property_fixed = tools_property_fixed { }
 	
 	type node_property_int8 = tools_property_int8 { }
 	
@@ -58,12 +60,18 @@ types NodeToolsPropertyTypes
 	type node_property_ccolor = tools_property_ccolor { }
 	
 	type node_property_vec4i = tools_property_vec4i { }
+
+	type node_property_vec4Fixed = tools_property_vec4Fixed { }
 	
 	type node_property_vec3f = tools_property_vec3f { }
+
+	type node_property_vec3Fixed = tools_property_vec3Fixed { }
 	
 	type node_property_vec3i = tools_property_vec3i { }
 	
 	type node_property_vec2f = tools_property_vec2f { }
+
+	type node_property_vec2Fixed = tools_property_vec2Fixed { }
 	
 	type node_property_vec2i = tools_property_vec2i { }
 	
@@ -72,6 +80,8 @@ types NodeToolsPropertyTypes
 	type node_property_undoable_searchlist = tools_property_undoable_searchlist { }
 	
 	type node_property_filterable_property_list = tools_property { }
+
+	type node_property_searchlist_2 = tools_property_searchlist_2 { }
 
 	type node_property_use_proxy_searchlist = dialog_property {
 		blockoverride "content"

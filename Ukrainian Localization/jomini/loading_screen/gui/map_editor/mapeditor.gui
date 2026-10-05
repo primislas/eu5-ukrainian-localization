@@ -205,6 +205,14 @@ types "MapEditorStandardTypes" {
                 }
             }
 
+			tooloptions_divider = {}
+
+			custom_ui_toolbox_buttons_hbox = {
+				blockoverride "datacontext" {
+					datacontext = "[MapEditorCustomGui.GetCustomizationRegistry.GetCommon.GetOptionsTopbarButtonsRegistry]"
+				}
+			}
+
 			block "tools" {}
 
 			widget = {
@@ -307,12 +315,15 @@ widget = {
 			}
 		}
 
-		widget = {
-			name = "spacer"
+		tooloptions_divider = {}
 
-			layoutpolicy_vertical = expanding
-			layoutpolicy_horizontal = expanding
+		custom_ui_toolbox_buttons_hbox = {
+			blockoverride "datacontext" {
+				datacontext = "[MapEditorCustomGui.GetCustomizationRegistry.GetCommon.GetMenuButtonsRegistry]"
+			}
 		}
+
+		widget = { layoutpolicy_horizontal = expanding }
 	}
 }
 
@@ -328,4 +339,30 @@ vbox = {
 widget = {
 	name = "terrain_editor_gui"
 	size = { 0 0 }
+}
+
+vbox = {
+	name = "map_editor_toolbox_widget"
+    layoutpolicy_vertical = expanding
+	spacing = 4
+
+	vbox = {
+	    layoutpolicy_vertical = preferred
+		name = "toolbox"
+		spacing = 4
+
+		# Registered tools will be added here
+	}
+
+	editor_toolbox_divider = {}
+
+	custom_ui_toolbox_buttons_vbox = {
+		blockoverride "datacontext" {
+			datacontext = "[MapEditorCustomGui.GetCustomizationRegistry.GetCommon.GetToolboxButtonsRegistry]"
+		}
+	}
+
+    widget = {
+        layoutpolicy_vertical = expanding
+    }
 }

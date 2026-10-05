@@ -62,10 +62,6 @@ types AnimationEditor
             parentanchor = vcenter|hcenter
             visible = "[AnimationEditorViewer.IsMachinePlaying]"
             texture = "gfx/editor_gui/pause.dds"
-            raw_tooltip = "Pause  #T [LocalizeInputAction( PdxGuiWidget.Parent )]"
-            tooltipwidget = {
-                using = dockable_tooltip
-            }
             size = { @viewer_control_button_icon_dimension @viewer_control_button_icon_dimension }
         }
 
@@ -73,10 +69,6 @@ types AnimationEditor
             parentanchor = vcenter|hcenter
             visible = "[Not(AnimationEditorViewer.IsMachinePlaying)]"
             texture = "gfx/editor_gui/play.dds"
-            raw_tooltip = "Resume  #T [LocalizeInputAction( PdxGuiWidget.Parent )]"
-            tooltipwidget = { 
-                using = dockable_tooltip
-            }
             size = { @viewer_control_button_icon_dimension @viewer_control_button_icon_dimension }
         }
 
@@ -87,6 +79,10 @@ types AnimationEditor
         }
         focus_on_visible = yes
         input_action = "animation_editor_pause_play"
+        raw_tooltip = "[Select_CString(AnimationEditorViewer.IsMachinePlaying, 'Pause', 'Resume')]"
+        tooltipwidget = {
+            using = dockable_tooltip
+        }
     }
     
     type animation_editor_viewer_fit_button = gui_editor_button {

@@ -232,6 +232,9 @@ types NodeEditor
 							size = { 16 16 }
 							color = [Node.TextColor]
 							tooltip = [Node.ErrorTooltip]
+							tooltipwidget = { 
+								using = editor_tooltip 
+							}
 							texture = "gfx/tools/material/circle.dds"
 
 							vbox = {
@@ -265,7 +268,7 @@ types NodeEditor
 
 								blockoverride "button"
 								{
-									onclick = [NodeWindow.DescriptionDialog]
+									onclick = [NodeWindow.EnterDescriptionEditingMode]
 								}
 
 								blockoverride "icon"
@@ -350,32 +353,29 @@ types NodeEditor
 						}
 					}
 
-					hbox = {
-						name = "hbox_desc"
-						visible = [Node.HasDescription]
-						layoutpolicy_horizontal = expanding
-						margin_top = 10
-						margin_left = 12
-						margin_right = 6
-
-						editor_editbox = {
-							name = "comment_desc"
-							text = [Node.Description]
-							raw_tooltip = "Comment section"
-							oneditingfinished = "[NodeWindow.SetDescription]"
-							autoresize = yes
-							alwaystransparent = no
-							font = "standard_cw_font"
-							fontsize = 12
-							align = top|left
-							tooltipwidget = { using = editor_tooltip }
-							multiline = yes
+					editor_editbox = {
+						name = "comment_desc" # Do not rename. Expected by application.
+						background = {
+							visible = "[NodeWindow.IsDescriptionEditingMode]"
+							texture = "gfx/interface/white.dds"
+							tintcolor = { 0.3 0.3 0.15 0.5 }
 						}
-						widget = { layoutpolicy_horizontal = expanding }
-					}
-					widget = { 
-						visible = [Node.HasDescription]
-						layoutpolicy_vertical = expanding 
+						text = "[Node.Description]"
+						raw_tooltip = "Comment section"
+						oneditingfinished = "[NodeWindow.ExitDescriptionEditingMode]"
+						autoresize = yes
+						alwaystransparent = yes # prevent entering focus mode when clicking on the description
+						font = "standard_cw_font"
+						fontsize = 12
+						align = top|left
+						tooltipwidget = { using = editor_tooltip }
+						multiline = yes
+						layoutpolicy_vertical = expanding
+						layoutpolicy_horizontal = preferred
+						min_height = "[Select_int32(Or(Node.HasDescription, NodeWindow.IsDescriptionEditingMode), '(int32)30', '(int32)0')]"
+						margin_top = "[Select_int32(Or(Node.HasDescription, NodeWindow.IsDescriptionEditingMode), '(int32)10', '(int32)0')]"
+						margin_left = 4
+						margin_right = 4
 					}
 					
 					block "after_desc"

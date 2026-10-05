@@ -157,6 +157,25 @@ types ToolsProperyBundleTypes
 		}
 	}
 	
+	type bundle_property_fixed = bundle_property {
+		blockoverride "content"
+		{
+			editor_textinput = {
+				using = bundle_property_size
+				text = "[ToolsUndoableValueBundleFixed.GetTextboxDisplayValue]"
+				oneditingstart = "[ToolsUndoableValueBundleFixed.SetIsFocused('(bool)yes')]"
+				onfocusout = "[ToolsUndoableValueBundleFixed.SetIsFocused('(bool)no')]"
+				onfocusout = "[ToolsUndoableValueBundleFixed.SetValueOnFocusOut]"
+				onreturnpressed = "[ToolPropertyFixed.SetFixed]"
+
+				bundle_standard_multiple_values_overlay = {
+					visible = "[ToolsUndoableValueBundleFixed.ShouldDisplayMixedValuesOverlay]"
+				}
+			}
+			block "extension" {}
+		}
+	}
+
 	type bundle_property_int = bundle_property {
 		blockoverride "content"
 		{
@@ -330,6 +349,35 @@ types ToolsProperyBundleTypes
 		}
 	}
 
+	type bundle_property_vec2Fixed = bundle_property {
+		blockoverride "content"
+		{
+			editor_textinput = {
+				using = bundle_property_size
+				text = "[ToolsUndoableValueBundleVec2F.GetTextboxDisplayValue('(int32)0')]"
+				oneditingstart = "[ToolsUndoableValueBundleVec2F.SetIsFocused('(int32)0','(bool)yes')]"
+				onfocusout = "[ToolsUndoableValueBundleVec2F.SetIsFocused('(int32)0','(bool)no')]"
+				onfocusout = "[ToolsUndoableValueBundleVec2F.SetValueOnFocusOut('(int32)0')]"
+				onreturnpressed = "[ToolsUndoableValueBundleVec2F.SetValue('(int32)0')]"
+				bundle_standard_multiple_values_overlay = {
+					visible = "[ToolsUndoableValueBundleVec2F.ShouldDisplayMixedValuesOverlay('(int32)0')]"
+				}
+			}
+			editor_textinput = {
+				using = bundle_property_size
+				text = "[ToolsUndoableValueBundleVec2F.GetTextboxDisplayValue('(int32)1')]"
+				oneditingstart = "[ToolsUndoableValueBundleVec2F.SetIsFocused('(int32)1','(bool)yes')]"
+				onfocusout = "[ToolsUndoableValueBundleVec2F.SetIsFocused('(int32)1','(bool)no')]"
+				onfocusout = "[ToolsUndoableValueBundleVec2F.SetValueOnFocusOut('(int32)1')]"
+				onreturnpressed = "[ToolsUndoableValueBundleVec2F.SetValue('(int32)1')]"
+				bundle_standard_multiple_values_overlay = {
+					visible = "[ToolsUndoableValueBundleVec2F.ShouldDisplayMixedValuesOverlay('(int32)1')]"
+				}
+			}
+			block "extension" {}
+		}
+	}
+
 	type bundle_property_vec3i = bundle_property {
 		blockoverride "content"
 		{
@@ -434,6 +482,46 @@ types ToolsProperyBundleTypes
 		}
 	}
 
+	type bundle_property_vec3Fixed = bundle_property {
+		blockoverride "content"
+		{
+			editor_textinput = {
+				using = bundle_property_size
+				text = "[ToolsUndoableValueBundleVec3F.GetTextboxDisplayValue('(int32)0')]"
+				oneditingstart = "[ToolsUndoableValueBundleVec3F.SetIsFocused('(int32)0','(bool)yes')]"
+				onfocusout = "[ToolsUndoableValueBundleVec3F.SetIsFocused('(int32)0','(bool)no')]"
+				onfocusout = "[ToolsUndoableValueBundleVec3F.SetValueOnFocusOut('(int32)0')]"
+				onreturnpressed = "[ToolsUndoableValueBundleVec3F.SetValue('(int32)0')]"
+				bundle_standard_multiple_values_overlay = {
+					visible = "[ToolsUndoableValueBundleVec3F.ShouldDisplayMixedValuesOverlay('(int32)0')]"
+				}
+			}
+			editor_textinput = {
+				using = bundle_property_size
+				text = "[ToolsUndoableValueBundleVec3F.GetTextboxDisplayValue('(int32)1')]"
+				oneditingstart = "[ToolsUndoableValueBundleVec3F.SetIsFocused('(int32)1','(bool)yes')]"
+				onfocusout = "[ToolsUndoableValueBundleVec3F.SetIsFocused('(int32)1','(bool)no')]"
+				onfocusout = "[ToolsUndoableValueBundleVec3F.SetValueOnFocusOut('(int32)1')]"
+				onreturnpressed = "[ToolsUndoableValueBundleVec3F.SetValue('(int32)1')]"
+				bundle_standard_multiple_values_overlay = {
+					visible = "[ToolsUndoableValueBundleVec3F.ShouldDisplayMixedValuesOverlay('(int32)1')]"
+				}
+			}
+			editor_textinput = {
+				using = bundle_property_size
+				text = "[ToolsUndoableValueBundleVec3F.GetTextboxDisplayValue('(int32)2')]"
+				oneditingstart = "[ToolsUndoableValueBundleVec3F.SetIsFocused('(int32)2','(bool)yes')]"
+				onfocusout = "[ToolsUndoableValueBundleVec3F.SetIsFocused('(int32)2','(bool)no')]"
+				onfocusout = "[ToolsUndoableValueBundleVec3F.SetValueOnFocusOut('(int32)2')]"
+				onreturnpressed = "[ToolsUndoableValueBundleVec3F.SetValue('(int32)2')]"
+				bundle_standard_multiple_values_overlay = {
+					visible = "[ToolsUndoableValueBundleVec3F.ShouldDisplayMixedValuesOverlay('(int32)2')]"
+				}
+			}
+			block "extension" {}
+		}
+	}
+
 	type bundle_property_vec4i = bundle_property {
 		blockoverride "content"
 		{
@@ -482,6 +570,65 @@ types ToolsProperyBundleTypes
 				}
 			}
 			block "extension" {}
+		}
+	}
+
+
+	type bundle_property_vec4Fixed = bundle_property {
+		blockoverride "content"
+		{
+			editor_textinput = {
+				using = bundle_property_size
+				text = "[ToolsUndoableValueBundleVec4F.GetTextboxDisplayValue('(int32)0')]"
+				oneditingstart = "[ToolsUndoableValueBundleVec4F.SetIsFocused('(int32)0','(bool)yes')]"
+				onfocusout = "[ToolsUndoableValueBundleVec4F.SetIsFocused('(int32)0','(bool)no')]"
+				onfocusout = "[ToolsUndoableValueBundleVec4F.SetValueOnFocusOut('(int32)0')]"
+				onreturnpressed = "[ToolsUndoableValueBundleVec4F.SetValue('(int32)0')]"
+				bundle_standard_multiple_values_overlay = {
+					visible = "[ToolsUndoableValueBundleVec4F.ShouldDisplayMixedValuesOverlay('(int32)0')]"
+				}
+			}
+			editor_textinput = {
+				using = bundle_property_size
+				text = "[ToolsUndoableValueBundleVec4F.GetTextboxDisplayValue('(int32)1')]"
+				oneditingstart = "[ToolsUndoableValueBundleVec4F.SetIsFocused('(int32)1','(bool)yes')]"
+				onfocusout = "[ToolsUndoableValueBundleVec4F.SetIsFocused('(int32)0','(bool)no')]"
+				onfocusout = "[ToolsUndoableValueBundleVec4F.SetValueOnFocusOut('(int32)1')]"
+				onreturnpressed = "[ToolsUndoableValueBundleVec4F.SetValue('(int32)1')]"
+				bundle_standard_multiple_values_overlay = {
+					visible = "[ToolsUndoableValueBundleVec4F.ShouldDisplayMixedValuesOverlay('(int32)1')]"
+				}
+			}
+			editor_textinput = {
+				using = bundle_property_size
+				text = "[ToolsUndoableValueBundleVec4F.GetTextboxDisplayValue('(int32)2')]"
+				oneditingstart = "[ToolsUndoableValueBundleVec4F.SetIsFocused('(int32)2','(bool)yes')]"
+				onfocusout = "[ToolsUndoableValueBundleVec4F.SetIsFocused('(int32)2','(bool)no')]"
+				onfocusout = "[ToolsUndoableValueBundleVec4F.SetValueOnFocusOut('(int32)2')]"
+				onreturnpressed = "[ToolsUndoableValueBundleVec4F.SetValue('(int32)2')]"
+				bundle_standard_multiple_values_overlay = {
+					visible = "[ToolsUndoableValueBundleVec4F.ShouldDisplayMixedValuesOverlay('(int32)2')]"
+				}
+			}
+			editor_textinput = {
+				using = bundle_property_size
+				text = "[ToolsUndoableValueBundleVec4F.GetTextboxDisplayValue('(int32)3')]"
+				oneditingstart = "[ToolsUndoableValueBundleVec4F.SetIsFocused('(int32)3','(bool)yes')]"
+				onfocusout = "[ToolsUndoableValueBundleVec4F.SetIsFocused('(int32)3','(bool)no')]"
+				onfocusout = "[ToolsUndoableValueBundleVec4F.SetValueOnFocusOut('(int32)3')]"
+				onreturnpressed = "[ToolsUndoableValueBundleVec4F.SetValue('(int32)3')]"
+				bundle_standard_multiple_values_overlay = {
+					visible = "[ToolsUndoableValueBundleVec4F.ShouldDisplayMixedValuesOverlay('(int32)3')]"
+				}
+			}
+			block "extension" {}
+		}
+	}
+
+	type bundle_property_vfs_mount_path = bundle_property {
+		blockoverride "content"
+		{
+			vfs_mount_path_content = {}
 		}
 	}
 }

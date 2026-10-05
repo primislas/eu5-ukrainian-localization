@@ -47,6 +47,12 @@ types DecalsEditorPropertyPresetsTypes
 		}
 	}
 
+	type decal_set_property_preset_fixed = decal_set_property_preset {
+		blockoverride "property" {
+			common_property_fixed = {}
+		}
+	}
+
 	type decal_set_property_preset_int8 = decal_set_property_preset {
 		blockoverride "property" {
 			common_property_int8 = {}
@@ -107,9 +113,21 @@ types DecalsEditorPropertyPresetsTypes
 		}
 	}
 
+	type decal_set_property_preset_vec4Fixed = decal_set_property_preset {
+		blockoverride "property" {
+			common_property_vec4Fixed = {}
+		}
+	}
+
 	type decal_set_property_preset_vec3f = decal_set_property_preset {
 		blockoverride "property" {
 			common_property_vec3f = {}
+		}
+	}
+
+	type decal_set_property_preset_vec3Fixed = decal_set_property_preset {
+		blockoverride "property" {
+			common_property_vec3Fixed = {}
 		}
 	}
 
@@ -120,6 +138,12 @@ types DecalsEditorPropertyPresetsTypes
 	}
 
 	type decal_set_property_preset_vec2f = decal_set_property_preset {
+		blockoverride "property" {
+			common_property_vec2f = {}
+		}
+	}
+
+	type decal_set_property_preset_vec2Fixed = decal_set_property_preset {
 		blockoverride "property" {
 			common_property_vec2f = {}
 		}

@@ -6,12 +6,12 @@ template Newsfeed_Animation_Curve
 types Newsfeed
 {
 	type "newsfeed_carousel" = button
-	{ 
+	{
+		# Expects MarketingSlot data context provided
 		name = "newsfeed_slot_template"
 		visible = "[MarketingSlot.HasContent]"
 		alwaystransparent = no
 		scissor = yes
-		datacontext = "[FrontEndMainView.AccessMarketingContainer.GetSlotByName('main')]" # override for other slots
 		widget = {
 			size = { 902 230 }
 			widgetanchor = bottom|left
@@ -110,6 +110,7 @@ types Newsfeed
 				name = "newsfeed_slot_main"
 				size = { 451 230 }
 				align = left
+				datacontext = "[FrontEndMainView.AccessMarketingContainer.AccessSlotByName('main')]"
 				parentanchor = top|left
 				widgetanchor = top|left
 			}
@@ -118,6 +119,7 @@ types Newsfeed
 				name = "newsfeed_slot_secondary_1"
 				size = { 245 230 }
 				align = left
+				datacontext = "[FrontEndMainView.AccessMarketingContainer.AccessSlotByName('secondary-1')]"
 				parentanchor = top|left
 				widgetanchor = top|left
 				blockoverride "offset_x" {
@@ -136,6 +138,7 @@ types Newsfeed
 				name = "newsfeed_slot_secondary_2"
 				size = { 245 230 }
 				align = left
+				datacontext = "[FrontEndMainView.AccessMarketingContainer.AccessSlotByName('secondary-2')]"
 				parentanchor = top|left
 				widgetanchor = top|left
 				blockoverride "offset_x" {

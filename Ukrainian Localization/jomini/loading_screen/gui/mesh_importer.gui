@@ -62,7 +62,17 @@ types MeshImporterTypes {
 			state = {
 				name = "init_list"
 				trigger_on_create = yes
-				on_start = "[MeshImporterMaterialEntry.InjectPropertyList(PdxGuiWidget.AccessSelf, 'dialog_grid_property')]"
+				on_start = "[MeshImporterMaterialEntry.InjectPropertyList(PdxGuiWidget.AccessSelf, MeshImporter.IsTargetMesh2, 'dialog_grid_property')]"
+			}
+			state = {
+				name = "mesh_type_changed"
+				trigger_when = "[MeshImporter.IsTargetMesh2]"
+				on_start = "[MeshImporterMaterialEntry.InjectPropertyList(PdxGuiWidget.AccessSelf, '(bool)yes', 'dialog_grid_property')]"
+			}
+			state = {
+				name = "mesh_type_changed_to_mesh1"
+				trigger_when = "[Not(MeshImporter.IsTargetMesh2)]"
+				on_start = "[MeshImporterMaterialEntry.InjectPropertyList(PdxGuiWidget.AccessSelf, '(bool)no', 'dialog_grid_property')]"
 			}
 		}
 		icon = { # TODO: This is defined in horizontal_separator = {} in entity_editor. Let's move these into a general place.
@@ -135,6 +145,17 @@ vbox= {
 					icon = {
 						size = { 26 26 }
 						texture = "gfx/tools/side_panel.png"
+						parentanchor = hcenter|vcenter
+					}
+				}
+
+				dockable_togglebutton = {
+					onclick = "[MeshImporter.OpenImporterSettings]"
+					checked = "[MeshImporter.IsEditorSettingsOpen]"
+					size = { 30 30 }
+					icon = {
+						size = { 26 26 }
+						texture = "gfx/tools/material/settings.png"
 						parentanchor = hcenter|vcenter
 					}
 				}
@@ -280,7 +301,40 @@ vbox= {
 						blockoverride "content"
 						{
 							tools_properties_dialog = {
-								name = "mesh_settings_properties"
+								name = "basic_settings_properties"
+							}
+						}
+					}
+					
+					editor_frame = {
+						layoutpolicy_horizontal = expanding
+						
+						blockoverride "label"
+						{
+							raw_text = "Mesh Optimization Settings"
+						}
+
+						blockoverride "content"
+						{
+							tools_properties_dialog = {
+								name = "mesh_optimization_settings"
+							}
+						}
+					}
+
+					editor_frame = {
+						visible = "[MeshImporter.IsTargetMesh2]"
+						layoutpolicy_horizontal = expanding
+						
+						blockoverride "label"
+						{
+							raw_text = "Mesh Data Process Settings"
+						}
+
+						blockoverride "content"
+						{
+							tools_properties_dialog = {
+								name = "mesh_process_settings_properties"
 							}
 						}
 					}

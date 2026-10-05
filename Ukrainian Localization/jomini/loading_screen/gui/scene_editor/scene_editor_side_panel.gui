@@ -70,6 +70,8 @@ types SceneEditor
 		focuspolicy = click
 		button_ignore = none
 		onclick = "[SceneSelection.Select( SceneEditorHierarchyEntry.Id, PdxGuiWidget.Self )]"
+		ondoubleclick = "[SceneHierarchy.StartEntityRename( SceneEditorHierarchyEntry.AccessSelf )]"
+		input_action = "scene_editor_rename_entity"
 		onrightclick = "[SceneHierarchy.OnEntityRightClick( SceneEditorHierarchyEntry.AccessSelf )]"
 
 		hbox = {
@@ -103,15 +105,6 @@ types SceneEditor
 					text = "[SceneEditorHierarchyEntry.Name]"
 					elide = right
 					visible = "[Not(SceneEditorHierarchyEntry.IsNameBeingEdited)]"
-					button = {
-						using = scene_entity_hovered_states
-						size = { 100% 100% }
-						visible = "[SceneSelection.IsClickable( SceneEditorHierarchyEntry.Id )]"
-						onclick = "[SceneHierarchy.StartEntityRename( SceneEditorHierarchyEntry.AccessSelf )]"
-						input_action = "scene_editor_rename_entity"
-						button_ignore = none
-						onrightclick = "[SceneHierarchy.OnEntityRightClick( SceneEditorHierarchyEntry.AccessSelf )]"
-					}
 				}
 				editor_textinput = {
 					size = { 100% 100% }
@@ -145,11 +138,11 @@ types SceneEditor
 			widget = {
 				layoutpolicy_vertical = expanding
 				layoutpolicy_horizontal = expanding
-				# drop-in-center
+				# drop-as-child
 				drop_target = {
 					accept_draggable_id = "[SceneEditor.GetEditorId]"		
-					on_receive_drop = "[SceneHierarchy.OnEntryDroppedAtCenterOf( SceneEditorHierarchyEntry.Id )]"
-					on_drag_enter = "[SceneEditorHierarchyEntry.OnCenterDropTargetEnter]"
+					on_receive_drop = "[SceneHierarchy.OnEntryDroppedAsChild( SceneEditorHierarchyEntry.Id )]"
+					on_drag_enter = "[SceneHierarchy.OnEntryDropAsChildEnter( SceneEditorHierarchyEntry.Id )]"
 					on_drag_exit = "[SceneEditorHierarchyEntry.SetIsDropTargetIndicatorVisible( '(bool)no' )]"
 				}
 			}
@@ -157,12 +150,12 @@ types SceneEditor
 			widget = {
 				layoutpolicy_vertical = fixed
 				layoutpolicy_horizontal = expanding
-				# drop-below
+				# drop-as-sibling
 				size = { @entity_item_name_width 7 }
 				drop_target = {
 					accept_draggable_id = "[SceneEditor.GetEditorId]"		
-					on_receive_drop = "[SceneHierarchy.OnEntryDroppedAtBottomOf( SceneEditorHierarchyEntry.Id )]"
-					on_drag_enter = "[SceneEditorHierarchyEntry.OnBottomDropTargetEnter]"
+					on_receive_drop = "[SceneHierarchy.OnEntryDroppedAsSibling( SceneEditorHierarchyEntry.Id )]"
+					on_drag_enter = "[SceneHierarchy.OnEntryDropAsSiblingEnter( SceneEditorHierarchyEntry.Id )]"
 					on_drag_exit = "[SceneEditorHierarchyEntry.SetIsDropTargetIndicatorVisible( '(bool)no' )]"
 				}
 
@@ -180,11 +173,11 @@ types SceneEditor
 						size = { 21 1 }
 					}
 
-					widget = {
-						layoutpolicy_horizontal = fixed
-						min_width = 15
-						visible = "[Not(SceneEditorHierarchyEntry.IsBottomDropTargetEntered)]"
-					}
+				widget = {
+					layoutpolicy_horizontal = fixed
+					min_width = 15
+					visible = "[Not(SceneEditorHierarchyEntry.IsSiblingDropTargetEntered)]"
+				}
 
 					widget = {
 						size = { @entity_item_name_width 7 }

@@ -27,6 +27,7 @@ types ToolsListProperyTypes
 			editor_toolbar_button = {
 				layoutpolicy_horizontal = Preferred
 				layoutpolicy_vertical = Preferred
+				visible = "[ToolsPropertyValueList.CanAddOrRemoveItems]"
 				size = { 40 24 }
 				raw_text = "Add item"
 				onclick = "[ToolsPropertyValueList.AddItem]"
@@ -79,6 +80,7 @@ types ToolsListProperyTypes
 		editor_toolbar_button = {
 			layoutpolicy_horizontal = Preferred
 			layoutpolicy_vertical = Preferred
+			visible = "[ToolsPropertyValueList.CanAddOrRemoveItems]"
 			size = { 20 20 }
 			onclick = "[ToolsPropertyValueList.RemoveItem( ToolsPropertyValueListEntry.GetIndex )]"
 			raw_tooltip = "Remove this item from the list."

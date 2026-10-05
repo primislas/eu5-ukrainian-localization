@@ -517,6 +517,7 @@ widget = {
 
 			layoutpolicy_horizontal = expanding
 			layoutpolicy_vertical = expanding
+			
 			state = {
 			  name = "_zoom_changed"
 			  duration = 0.1
@@ -546,12 +547,6 @@ widget = {
 					scissor = yes
 					alwaystransparent = no
 					allow_outside = yes
-
-					# We use this to organize the line widgets under a single parent and so it is rendered bellow the nodes.
-					widget = {
-						size = { 100% 100% }
-						name = "pin_connections"
-					}
 				}
 			}
 
@@ -560,6 +555,29 @@ widget = {
 					allow_outside = yes
 					name = "node_graph_panel_scroll"
 					focuspolicy = click
+
+					# Layering under zoomwidget: infoboxes (bottom), pin_connections (middle), regular nodes (top)
+					widget = {
+						name = "infobox_nodes"
+						allow_outside = yes
+						focuspolicy = click
+						position = { 0 0 }
+						size = { 0 0 }
+					}
+					widget = {
+						name = "pin_connections"
+						allow_outside = yes
+						focuspolicy = click
+						position = { 0 0 }
+						size = { 0 0 }
+					}
+					widget = {
+						name = "regular_nodes"
+						allow_outside = yes
+						focuspolicy = click
+						position = { 0 0 }
+						size = { 0 0 }
+					}
 
 					editor_selection = {
 						name = "selection"

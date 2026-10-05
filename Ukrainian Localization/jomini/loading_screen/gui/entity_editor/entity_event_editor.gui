@@ -53,30 +53,6 @@ template audio_event_specific_fields
 			layoutpolicy_horizontal = expanding
 			layoutpolicy_vertical = expanding
 		}
-
-		editor_button = {
-			using = audio_event_button
-			raw_text = "Add Sound Parameter"
-			size = { 155 25 }
-			onclick = "[EntityEditorAudioEventHandler.AddSoundParamter( EntityEditorKeyframe.AccessSelf )]"
-			raw_tooltip = "Add a Sound Paramter to this event"
-			icon = {
-				parentanchor = vcenter
-				texture = "gfx/editor_gui/add.dds"
-			}
-		}
-
-		editor_button = {
-			using = audio_event_button
-			raw_text = "Remove Last"
-			size = { 115 25 }
-			onclick = "[EntityEditorAudioEventHandler.RemoveLastSoundParameter( EntityEditorKeyframe.AccessSelf )]"
-			raw_tooltip = "Remove last added Sound Parameter from this event"
-			icon = {
-				parentanchor = vcenter
-				texture = "gfx/editor_gui/remove.dds"
-			}
-		}
 	}
 }
 

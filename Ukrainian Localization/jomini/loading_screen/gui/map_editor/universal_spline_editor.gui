@@ -1,71 +1,31 @@
+@universal_spline_editor_viewport_button_transparency = 0.75
+
+template universal_spline_editor_outliner_entry_hover_state {
+	state = {
+		name = _mouse_enter
+		on_start = "[SplineEntryUi.SetHovered( '(bool)yes' )]"
+	}
+	state = {
+		name = _mouse_leave
+		on_start = "[SplineEntryUi.SetHovered( '(bool)no' )]"
+	}
+}
+
+
 types UniversalSplineEditorTypes
 {
-	# TODO(Tomasz): [PSGE-???] We shall clean up these button types once we make absolutely all tools using uniform style.
-	#               Notice that gui animation editor is a solid base for target UI style.
-	#               I've already begun doing it on my old PDT branch.
-
-	type universal_spline_editor_button = button {
-		using = editor_toolbar_font
-		texture = "gfx/tools/common_button_bg.tga"
-		gfxtype = framedbuttongfx
-		spriteType = CorneredStretched
-		spriteborder = { 8 8 }
-		framesize = { 26 26 }
-		upframe = 1
-		downframe = 3
-		overframe = 2
-		disableframe = 4
-		intersectionmask = no
-		default_format = "#editor_formatting"
-		focuspolicy = click
-		tooltipwidget = {
-			using = dockable_tooltip
-		}
-		size = { 24 24 }
-	}
-
-	type universal_spline_editor_icon_in_button = icon {
-		parentanchor = vcenter|hcenter
-		size = { 90% 90% }
-	}
-
-	# Note: This toggle button is not a checkbutton, because checkbuttons has limited hardcoded
-	#       behavior regarding the background frame index, and our desired style should keep
-	#		the background frame index behavior the same as button, but using different image instead.
-	type universal_spline_editor_toggle_button = universal_spline_editor_button {
-		universal_spline_editor_icon_in_button = {
-			block "frame_1" {}
-			framesize = { 64 64 }
-			frame = 1
-		}
-		universal_spline_editor_icon_in_button = {
-			block "frame_2" {}
-			framesize = { 64 64 }
-			frame = 2		
-		}
-	}
-
-	# Different variant of above button type, but instead of 2 frames image, it's changing the
-	# background image to the same as in ordinary tool checkboxes.
-	type universal_spline_editor_toggle_button_highlighted = universal_spline_editor_button {
-		icon = {
-			size = { 100% 100% }
-			texture = "gfx/tools/common_checkbutton_bg.tga"
-			#gfxtype = framedbuttongfx
-			#spriteType = CorneredStretched
-			framesize = { 26 26 }
-			frame = 2
-			block "checked" {
-				visible = no
-			}
-		}
-	}
-
-
 	# Spline entry in Outliner
 	type universal_spline_editor_entry = button {
 		layoutpolicy_vertical = fixed
 		size = { 100% 26 }
+
+		using = universal_spline_editor_outliner_entry_hover_state
+
+		# Clicking via outliner interface, supports also range selection logic.
+		focuspolicy = click
+		button_ignore = none
+		onclick = "[UniversalSplineEditorOutliner.OnSplineEntryUiClick(SplineEntryUi.Self)]"
+		onrightclick = "[UniversalSplineEditorOutliner.OnSplineEntryUiRightClick(SplineEntryUi.Self)]"
 
 		# Striped background
 		background = {
@@ -77,14 +37,18 @@ types UniversalSplineEditorTypes
 			shaderfile = "gfx/FX/pdxgui_default.shader"
 			alpha = 0.25
 		}
+
 		background = {
 			visible = "[SplineEntryUi.IsSelected]"
 			texture = "gfx/interface/white.dds"
 			tintcolor = { 0.5137 0.647 0.647 1.0 }
 		}
 
-		# Clicking via outliner interface, supports also range selection logic.
-		onclick = "[UniversalSplineEditorOutliner.OnSplineEntryUiClick(SplineEntryUi.Self)]"
+		background = {
+			visible = "[SplineEntryUi.IsHovered]"
+			texture = "gfx/interface/white.dds"
+			tintcolor = { 0.647 0.647 0.647 1.0 }
+		}
 		
 		hbox = {
 			layoutpolicy_horizontal = expanding
@@ -93,10 +57,11 @@ types UniversalSplineEditorTypes
 			spacing = 2
 
 			# Expand/Collapse button
-			universal_spline_editor_toggle_button = {
+			map_editor_toggle_button = {
 				visible = "[SplineEntryUi.IsCollection]"
 				onclick = "[SplineEntryUi.ToggleExpanded]"
 				size = { 20 20 }
+				using = universal_spline_editor_outliner_entry_hover_state
 				blockoverride "frame_1" {
 					visible = "[Not(SplineEntryUi.IsExpanded)]"
 					texture = "gfx/tools/collapsed.png"
@@ -124,6 +89,24 @@ types UniversalSplineEditorTypes
 				size = { 20 20 }
 			}
 
+			# Asterisk for modifications tracking
+			editor_textbox = {
+				visible = "[SplineEntryUi.ContainsModifications]"
+				raw_text = "#COLOR:{0.9,0.9,0.2} * #!"
+				using = terraineditor_font
+				autoresize = yes
+				margin = { 0 5 }
+			}
+
+			# (New) indicator
+			editor_textbox = {
+				visible = "[Not(SplineEntryUi.IsSerialized)]"
+				raw_text = "#COLOR:{0.9,0.9,0.2};ITALIC New #!"
+				using = terraineditor_font
+				autoresize = yes
+				margin = { 0 5 }
+			}
+
 			# Display name
 			editor_textbox = {
 				alpha = "[Select_float(SplineEntryUi.IsHidden,'(float)0.5', '(float)1.0')]"
@@ -137,62 +120,108 @@ types UniversalSplineEditorTypes
 				margin = { 8 5 }
 			}
 
-			# Icon indicating if this spline is a "game spline"
-			icon = {
-				visible = "[SplineEntryUi.IsGameSpline]"
-				texture = "gfx/editor_terrain/decals_editor_output_game_dir.png" # TODO: Better "game spline" icon
-				size = { 24 24 }
-				raw_tooltip = "This spline will be exported to the game."
-				tooltipwidget = { using = dockable_tooltip }
+			# Lock button
+			widget = {
+				size = { 20 20 } # Reserve space for button even if it's not visible
+				map_editor_toggle_button = {
+					size = { 100% 100% }
+					using = universal_spline_editor_outliner_entry_hover_state
+					visible = "[Or(SplineEntryUi.IsLockedExplicitly, SplineEntryUi.IsHovered)]"
+					onclick = "[SplineEntryUi.ToggleLock]"
+					blockoverride "frame_1" {
+						visible = "[Not(SplineEntryUi.IsLockedExplicitly)]"
+						texture = "gfx/tools/lock_checkbox.dds"
+						framesize = { 64 64 }
+						frame = 1
+						size = { 80% 80% }
+					}
+					blockoverride "frame_2" {
+						visible = "[SplineEntryUi.IsLockedExplicitly]"
+						texture = "gfx/tools/lock_checkbox.dds"
+						framesize = { 64 64 }
+						frame = 2
+						size = { 80% 80% }
+						alpha = "[Select_float(SplineEntryUi.IsLockedExplicitly,'(float)0.5', '(float)1.0')]"
+					}
+					raw_tooltip = "Click to unlock this spline. Locked status is serialized, meaning that all project participants will not be able to edit locked instances, but they can always unlock it."
+				}
 			}
 
-			# Id
-			editor_textbox = {
-				alpha = "[Select_float(SplineEntryUi.IsHidden,'(float)0.5', '(float)1.0')]"
-				layoutpolicy_horizontal = expanding
-				layoutpolicy_vertical = fixed
-				layoutstretchfactor_horizontal = 20
-				size = { 0 26 }
-				raw_text = "[SplineEntryUi.GetIdAsString]"
-				using = terraineditor_font
-				autoresize = yes
-				margin = { 8 5 }
-				fontsize = 8
-				color = { 0.88 0.69 0.36 1.0 }
-				align = right
+			# Hidden button
+			widget = {
+				size = { 20 20 } # Reserve space for button even if it's not visible
+				map_editor_toggle_button = {
+					size = { 100% 100% }
+					using = universal_spline_editor_outliner_entry_hover_state
+					visible = "[Or(SplineEntryUi.IsHiddenExplicitly, SplineEntryUi.IsHovered)]"
+					onclick = "[SplineEntryUi.ToggleHidden]"
+					blockoverride "frame_1" {
+						visible = "[Not(SplineEntryUi.IsHiddenExplicitly)]"
+						texture = "gfx/tools/hidden_2.png"
+					}
+					blockoverride "frame_2" {
+						visible = "[SplineEntryUi.IsHiddenExplicitly]"
+						texture = "gfx/tools/hidden_2.png"
+						alpha = "[Select_float(SplineEntryUi.IsHiddenExplicitly,'(float)0.5', '(float)1.0')]"
+					}
+					raw_tooltip = "Toggle selected spline visibility state."
+				}
 			}
+		}
 
-			# Lock button - mutual exclusive with Hidden button
-			universal_spline_editor_button = {
-				size = { 20 20 }
-				visible = "[SplineEntryUi.IsLocked]"
-				onclick = "[SplineEntryUi.ToggleLock]"
-				enabled = "[Or(SplineEntryUi.IsCollection,Not(SplineEntryUi.IsParentLocked))]"
-				toolbox_icon = {
-					texture = "gfx/tools/lock_checkbox.dds"
-					framesize = { 64 64 }
-					frame = 2
-					size = { 80% 80% }
+		draggable_behavior = {
+			draggable_id = "universal_spline_editor_outliner_drag_id"
+			on_drag_start = "[UniversalSplineEditorOutliner.OnEntryDragStart(SplineEntryUi.Self)]"
+			on_drag_end = "[UniversalSplineEditorOutliner.OnEntryDragEnd(SplineEntryUi.Self)]"
+			drag_widget = {
+				widget = {
+					position = "[GuiCurrentDrag.CurrentPosition]"
+					size = { 150 28 }
+					
+					background = {
+						visible = "[Not(UniversalSplineEditorOutliner.IsDraggingOnTargetPossible)]"
+						texture = "gfx/interface/white.dds"
+						tintcolor = { 0.9 0.2 0.2 0.5 }
+					}
+
+					background = {
+						visible = "[UniversalSplineEditorOutliner.IsDraggingOnTargetPossible]"
+						texture = "gfx/editor_gui/editor_toolbar_background.dds"
+						spriteType = CorneredStretched
+						spriteborder = { 5 5 }
+						margin = { -1 0 }
+						shaderfile = "gfx/FX/pdxgui_default.shader"
+						alpha = 0.5
+					}
+
+					editor_textbox = {
+						raw_text = "[UniversalSplineEditorOutliner.GetCurrentlyDraggingMessage]"
+						using = terraineditor_font
+						margin = { 2 5 }
+						align = top|right
+						parentanchor = top|right
+					}
 				}
-				raw_tooltip = "Click to unlock this spline. Locked status is serialized, meaning that all project participants will not be able to edit locked instances, but they can always unlock it."
-				tooltipwidget = { using = dockable_tooltip }
 			}
+		}
 
-			# Hidden button - mutual exclusive with Lock button
-			universal_spline_editor_toggle_button = {
-				visible = "[Not(SplineEntryUi.IsLocked)]"
-				onclick = "[SplineEntryUi.ToggleHidden]"
-				size = { 20 20 }
-				blockoverride "frame_1" {
-					visible = "[Not(SplineEntryUi.IsHidden)]"
-					texture = "gfx/tools/hidden_2.png"
-				}
-				blockoverride "frame_2" {
-					visible = "[SplineEntryUi.IsHidden]"
-					texture = "gfx/tools/hidden_2.png"
-				}
-				raw_tooltip = "Toggle visibility state. Hiding is a temporary status that is not saved with the project. Hidden instances are still active. If you want to exclude an instance from exporting to game, then use the disable button instead."
-				tooltipwidget = { using = dockable_tooltip }
+		widget = {
+			size = { 100% 50% }
+			drop_target = {
+				accept_draggable_id = "universal_spline_editor_outliner_drag_id"		
+				on_receive_drop = "[UniversalSplineEditorOutliner.OnEntryDropped(SplineEntryUi.Self, '(bool)no')]"
+				on_drag_enter = "[UniversalSplineEditorOutliner.OnEntryDragEnter(SplineEntryUi.Self, '(bool)no')]"
+				on_drag_exit = "[UniversalSplineEditorOutliner.OnEntryDragExit(SplineEntryUi.Self, '(bool)no')]"
+			}
+		}
+		widget = {
+			position = { 0 50% }
+			size = { 100% 50% }
+			drop_target = {
+				accept_draggable_id = "universal_spline_editor_outliner_drag_id"		
+				on_receive_drop = "[UniversalSplineEditorOutliner.OnEntryDropped(SplineEntryUi.Self, '(bool)yes')]"
+				on_drag_enter = "[UniversalSplineEditorOutliner.OnEntryDragEnter(SplineEntryUi.Self, '(bool)yes')]"
+				on_drag_exit = "[UniversalSplineEditorOutliner.OnEntryDragExit(SplineEntryUi.Self, '(bool)yes')]"
 			}
 		}
 	}
@@ -201,6 +230,16 @@ types UniversalSplineEditorTypes
 	type universal_spline_editor_primivite = button {
 		layoutpolicy_vertical = fixed
 		size = { 100% 18 }
+
+		state = {
+			name = _mouse_enter
+			on_start = "[SPrimitiveEntryUi.SetPrimitiveHovered('(bool)yes')]"
+		}
+
+		state = {
+			name = _mouse_leave
+			on_start = "[SPrimitiveEntryUi.SetPrimitiveHovered('(bool)no')]"
+		}
 
 		# Expecting datacontext to be an array of uint32[] that corresponds to the primitive indices.
 
@@ -214,14 +253,17 @@ types UniversalSplineEditorTypes
 			shaderfile = "gfx/FX/pdxgui_default.shader"
 			alpha = 0.25
 		}
+
 		background = {
-			visible = "[UniversalSplineEditorStructure.IsPrimitiveSelected(uint32.GetUint)]"
+			visible = "[SPrimitiveEntryUi.IsPrimitiveSelected]"
 			texture = "gfx/interface/white.dds"
 			tintcolor = { 0.5137 0.647 0.647 1.0 }
 		}
 
-		# Clicking via outliner interface, supports also range selection logic.
-		onclick = "[UniversalSplineEditorStructure.OnPrimitiveEntryUiClick(uint32.GetUint)]"
+		# Clicking via structure dockable interface, supports also range selection logic.
+		focuspolicy = click
+		onclick = "[SPrimitiveEntryUi.OnPrimitiveEntryUiClick]"
+		onrightclick = "[SPrimitiveEntryUi.OnPrimitiveEntryUiRightClick]"
 		
 		hbox = {
 			layoutpolicy_horizontal = expanding
@@ -233,55 +275,114 @@ types UniversalSplineEditorTypes
 			icon = {
 				texture = "gfx/tools/spline_structure_points.png"
 				framesize = { 64 64 }
-				frame = "[UniversalSplineEditorStructure.GetPrimitiveSpriteIndex(uint32.GetUint)]"
+				frame = "[SPrimitiveEntryUi.GetPrimitiveSpriteIndex]"
 				size = { 14 14 }
+			}
+
+			background = {
+				visible = "[SPrimitiveEntryUi.IsPrimitiveHovered]"
+				frame = "[SPrimitiveEntryUi.GetPrimitiveSpriteIndex]"
+				texture = "gfx/interface/white.dds"
+				tintcolor = { 0.647 0.647 0.647 1.0 }
 			}
 
 			# Text: "Point 123" - only on points
 			editor_textbox = {
-				visible = "[UniversalSplineEditorStructure.IsPrimitivePoint(uint32.GetUint)]"
-				layoutpolicy_horizontal = expanding
+				visible = "[SPrimitiveEntryUi.IsPrimitivePoint]"
 				layoutpolicy_vertical = fixed
-				layoutstretchfactor_horizontal = 60
 				size = { 0 14 }
-				raw_text = "[Concatenate('Point ', ToString_uint32(UniversalSplineEditorStructure.GetPointIndex(uint32.GetUint)))]"
+				raw_text = "[Concatenate('Point ', ToString_uint32(SPrimitiveEntryUi.GetPointIndex))]"
 				using = terraineditor_font
 				autoresize = yes
 				margin = { 8 1 }
 			}
 
-			# Id
+			# This point is connected to another point
 			editor_textbox = {
-				visible = "[UniversalSplineEditorStructure.IsPrimitivePoint(uint32.GetUint)]"
-				layoutpolicy_horizontal = expanding
+				visible = "[And(SPrimitiveEntryUi.IsPrimitivePoint, SPrimitiveEntryUi.IsConnectedToOtherPoint)]"
 				layoutpolicy_vertical = fixed
-				layoutstretchfactor_horizontal = 20
 				size = { 0 14 }
-				raw_text = "[UniversalSplineEditorStructure.GetPrimitiveIdHash(uint32.GetUint)]"
+				raw_text = "[SPrimitiveEntryUi.GetConnectedToOtherPointDesc]"
 				using = terraineditor_font
 				autoresize = yes
 				margin = { 8 2 }
-				fontsize = 8
 				color = { 0.88 0.69 0.36 1.0 }
-				align = right
+			}
+
+			# This point is referenced by another point(s)
+			editor_textbox = {
+				visible = "[And(SPrimitiveEntryUi.IsPrimitivePoint, SPrimitiveEntryUi.IsReferencedByOtherPoints)]"
+				layoutpolicy_vertical = fixed
+				size = { 0 14 }
+				raw_text = "[SPrimitiveEntryUi.GetReferencedByOtherPointsDesc]"
+				using = terraineditor_font
+				autoresize = yes
+				margin = { 8 2 }
+				color = { 0.88 0.88 0.36 1.0 }
 			}
 
 			widget = {
-				visible = "[Not(UniversalSplineEditorStructure.IsPrimitivePoint(uint32.GetUint))]"
 				layoutpolicy_horizontal = expanding
 			}
 		}
 	}
-}
 
-template universal_spline_editor_viewport_bg {
-	background = {
-		texture = "gfx/editor_gui/editor_layout_window.dds"
-		spriteType = CorneredStretched
-		spriteborder = { 5 5 }
-		shaderfile = "gfx/FX/pdxgui_default.shader"
-		framesize = { 16 16 }
-		alpha = 0.5
+	type universal_spline_editor_property_category = vbox {
+		visible = "[Not(UniversalSplineEditorPropertyCategory.IsEmpty)]"
+		margin = { 2 2 }
+		spacing = 4
+		layoutpolicy_horizontal = expanding
+		
+		widget = {
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = fixed
+			size = { 0 26 }
+			
+			background = {
+				texture = "gfx/interface/white.dds"
+				tintcolor = { 0.647 0.647 0.647 0.5 }
+			}
+		
+			hbox = {
+				layoutpolicy_horizontal = expanding
+				spacing = 4
+				margin_left = 4
+
+				map_editor_toggle_button = {
+					onclick = "[UniversalSplineEditorPropertyCategory.ToggleExpanded]"
+					size = { 20 20 }
+					blockoverride "frame_1" {
+						visible = "[Not(UniversalSplineEditorPropertyCategory.IsExpanded)]"
+						texture = "gfx/tools/collapsed.png"
+					}
+					blockoverride "frame_2" {
+						visible = "[UniversalSplineEditorPropertyCategory.IsExpanded]"
+						texture = "gfx/tools/expanded.png"
+					}
+					raw_tooltip = "Expand or collapse this category."
+					tooltipwidget = { using = dockable_tooltip }
+				}
+
+				editor_textbox = { 
+					layoutpolicy_horizontal = expanding
+					#size = { 0 26 }
+					autoresize = yes
+					raw_text = "[UniversalSplineEditorPropertyCategory.GetName]"
+				}
+			}
+		}
+		vbox = {
+			visible = "[UniversalSplineEditorPropertyCategory.IsExpanded]"
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = expanding
+			margin = { 4 4 }
+			spacing = 4
+			state = {
+				name = "init_datamodel"
+				trigger_on_create = yes
+				block "inject_properties" {}
+			}
+		}
 	}
 }
 
@@ -312,27 +413,25 @@ widget = {
 		on_finish = "[UniversalSplineEditorViewport.OnMouseLeave]"
 	}
 
-	vbox = {
-		layoutpolicy_horizontal = expanding
-		layoutpolicy_vertical = expanding
-		hbox = {
-			layoutpolicy_horizontal = expanding
-			layoutpolicy_vertical = shrinking
-			
+	map_editor_viewport_common_content = {
+		blockoverride "toolbar" {
 			hbox = {
-				using = universal_spline_editor_viewport_bg
+				using = map_editor_viewport_bg
+				layoutpolicy_horizontal = expanding
 
-				# Selection modes doesn't matter in pen mode, so hide them.
-				visible = "[Not(EqualTo_string(UniversalSplineEditorMode.GetCurrentToolType, 'Pen'))]"
+				# Selection modes doesn't matter in all tool modes, so hide them.
+				visible = "[Or(EqualTo_string(UniversalSplineEditorMode.GetCurrentToolType, 'Selector'),
+							   EqualTo_string(UniversalSplineEditorMode.GetCurrentToolType, 'Transform'))]"
 
 				# Spline selection mode
-				universal_spline_editor_toggle_button_highlighted = {
+				map_editor_toggle_button_highlighted = {
 					size = { 32 32 }
 					onclick = "[UniversalSplineEditorMode.SetCurrentSelectionMode('(int32)1')]"
+					input_action = "universal_spline_editor_select_splines"
 					blockoverride "checked" {
 						visible = "[EqualTo_int32(UniversalSplineEditorMode.GetCurrentSelectionMode, '(int32)1')]"
 					}
-					universal_spline_editor_icon_in_button = {
+					map_editor_icon_in_button = {
 						texture = "gfx/tools/spline_selection_mode_1.png"
 					}
 					raw_tooltip = "Spline selection mode."
@@ -340,13 +439,14 @@ widget = {
 				}
 
 				# Point selection mode
-				universal_spline_editor_toggle_button_highlighted = {
+				map_editor_toggle_button_highlighted = {
 					size = { 32 32 }
 					onclick = "[UniversalSplineEditorMode.SetCurrentSelectionMode('(int32)2')]"
+					input_action = "universal_spline_editor_select_points"
 					blockoverride "checked" {
 						visible = "[EqualTo_int32(UniversalSplineEditorMode.GetCurrentSelectionMode, '(int32)2')]"
 					}
-					universal_spline_editor_icon_in_button = {
+					map_editor_icon_in_button = {
 						texture = "gfx/tools/spline_selection_mode_2.png"
 					}
 					raw_tooltip = "Point selection mode."
@@ -354,13 +454,14 @@ widget = {
 				}
 
 				# Edge selection mode
-				universal_spline_editor_toggle_button_highlighted = {
+				map_editor_toggle_button_highlighted = {
 					size = { 32 32 }
 					onclick = "[UniversalSplineEditorMode.SetCurrentSelectionMode('(int32)3')]"
+					input_action = "universal_spline_editor_select_edges"
 					blockoverride "checked" {
 						visible = "[EqualTo_int32(UniversalSplineEditorMode.GetCurrentSelectionMode, '(int32)3')]"
 					}
-					universal_spline_editor_icon_in_button = {
+					map_editor_icon_in_button = {
 						texture = "gfx/tools/spline_selection_mode_3.png"
 					}
 					raw_tooltip = "Edge selection mode."
@@ -368,36 +469,167 @@ widget = {
 				}
 			}
 
-			widget = { layoutpolicy_horizontal = expanding }
-
 			hbox = {
-				using = universal_spline_editor_viewport_bg
+				layoutpolicy_horizontal = expanding
+				using = map_editor_viewport_bg
 
-				# Draw Water
-				universal_spline_editor_button = {
+				# Pen mode viewport toolbar
+				visible = "[EqualTo_string(UniversalSplineEditorMode.GetCurrentToolType, 'Pen')]"
+
+				# Pen snap mode
+				map_editor_toggle_button_highlighted = {
 					size = { 32 32 }
-					onclick = "[ExecuteConsoleCommand('Draw.Water')]"
-					universal_spline_editor_icon_in_button = {
-						texture = "gfx/tools/water.png"
+					onclick = "[UniversalSplineEditorMode.TogglePenSnappingMode]"
+					input_action = "universal_spline_editor_point_snap_mode"
+					blockoverride "checked" {
+						visible = "[UniversalSplineEditorMode.IsPenSnappingMode]"
 					}
-					raw_tooltip = "Toggle visibility of water."
-					tooltipwidget = { using = dockable_tooltip }
+					map_editor_icon_in_button = {
+						texture = "gfx/tools/snap_points_mode.png"
+					}
+					raw_tooltip = "Toggle points snapping mode. When active, drag points near other points to snap currently dragged point."
 				}
 
-				# Frame selection
-				universal_spline_editor_button = {
+				# Pen binding mode (works like snapping, but also binds points together)
+				map_editor_toggle_button_highlighted = {
 					size = { 32 32 }
-					onclick = "[UniversalSplineEditorMode.FrameCameraToSelection]"
-					enabled = "[UniversalSplineEditorMode.CanFrameCameraToSelection]"
-					universal_spline_editor_icon_in_button = {
-						texture = "gfx/tools/frame_camera.png"
+					onclick = "[UniversalSplineEditorMode.TogglePenBindingMode]"
+					input_action = "universal_spline_editor_bind_points_mode"
+					blockoverride "checked" {
+						visible = "[UniversalSplineEditorMode.IsPenBindingMode]"
 					}
-					raw_tooltip = "Edge selection mode."
+					map_editor_icon_in_button = {
+						texture = "gfx/tools/merge_points_mode.png"
+					}
+					raw_tooltip = "Toggle points binding mode. When active, drag points near other points to bind them together. Right click to unbind. Bound points acts as one, using other point as a reference for all kind of properties."
+				}
+
+				custom_ui_toolbox_buttons_hbox = {
+					blockoverride "datacontext" {
+						datacontext = "[MapEditorCustomGui.GetCustomizationRegistry.GetSplineEditor.GetViewportPenToolbarButtonsRegistry]"
+					}
+				}
+			}
+
+			hbox = {
+				visible = "[Or(EqualTo_string(UniversalSplineEditorMode.GetCurrentToolType, 'Pen'), EqualTo_string(UniversalSplineEditorMode.GetCurrentToolType, 'Transform'))]"
+				using = map_editor_viewport_bg
+				spacing = 1
+				margin = { 4 4 }
+
+				editor_textbox = {
+					raw_text = "Axis:"
+					autoresize = yes
+					align = right|vcenter
+					fontsize = 11
+					alpha = @universal_spline_editor_viewport_button_transparency
+					margin_right = 4
+					margin_left = 4
+				}
+
+				map_editor_toggle_text_button = {
+					raw_text = "XZ"
+					size = { 32 24 }
+					checked = "[Not(UniversalSplineEditorMode.IsVerticalEdit)]"
+					onclick = "[UniversalSplineEditorMode.SetVerticalEdit('(bool)no')]"
+					raw_tooltip = "Mouse interaction with points will be performed along XZ axis."
 					tooltipwidget = { using = dockable_tooltip }
+					alpha = @universal_spline_editor_viewport_button_transparency
+				}
+
+				map_editor_toggle_text_button = {
+					raw_text = "Y"
+					size = { 32 24 }
+					checked = "[UniversalSplineEditorMode.IsVerticalEdit]"
+					onclick = "[UniversalSplineEditorMode.SetVerticalEdit('(bool)yes')]"
+					raw_tooltip = "Mouse interaction with points will be performed along Y axis. You can also hold ALT to switch temporarily into this state."
+					tooltipwidget = { using = dockable_tooltip }
+					alpha = @universal_spline_editor_viewport_button_transparency
+				}
+			}
+
+			hbox = {
+				visible = "[And(Not(UniversalSplineEditorMode.IsVerticalEdit),
+							  Or(EqualTo_string(UniversalSplineEditorMode.GetCurrentToolType, 'Pen'), 
+							     EqualTo_string(UniversalSplineEditorMode.GetCurrentToolType, 'Transform')))]"
+				using = map_editor_viewport_bg
+				spacing = 1
+				margin = { 4 4 }
+
+				editor_textbox = {
+					raw_text = "Point Placing:"
+					autoresize = yes
+					align = right|vcenter
+					fontsize = 11
+					alpha = @universal_spline_editor_viewport_button_transparency
+					margin_right = 4
+					margin_left = 4
+				}
+
+				datamodel = "[UniversalSplineEditorMode.GetPointPlacingStrategyStrings]"
+				item = {
+					map_editor_toggle_text_button = {
+						raw_text = "[CString.GetString]"
+						size = { 96 24 }
+						checked = "[EqualTo_string(UniversalSplineEditorMode.GetCurrentPointPlacingStrategy, CString.GetString)]"
+						onclick = "[UniversalSplineEditorMode.SetCurrentPointPlacingStrategy(CString.GetString)]"
+						tooltip = "[UniversalSplineEditorMode.GetPointPlacingStrategyDescription(CString.GetString)]"
+						tooltipwidget = { using = dockable_tooltip }
+						alpha = @universal_spline_editor_viewport_button_transparency
+					
+						editor_textinput = {
+							visible = "[And(EqualTo_string(CString.GetString, 'Flat'), EqualTo_string(UniversalSplineEditorMode.GetCurrentPointPlacingStrategy, 'Flat'))]"
+							size = { 28 20 }
+							position = { -2 0 }
+							parentanchor = vcenter|right
+							align = center
+							text = "[UniversalSplineEditorMode.GetPointPlacingStrategyFlatValue]"
+							oneditingfinished_with_changes = "[UniversalSplineEditorMode.SetPointPlacingStrategyFlatValueFromText]"
+						}
+					}
+				}
+			}
+
+			hbox = {
+				layoutpolicy_horizontal = expanding
+				using = map_editor_viewport_bg
+
+				# Edit dropdown button
+				map_editor_toggle_button_highlighted = {
+					size = { 64 32 }
+					visible = "[UniversalSplineEditorViewport.CanToggleEditDropdown]"
+					onclick = "[UniversalSplineEditorViewport.ToggleEditDropdown(PdxGuiWidget.Self)]"
+					hbox = {
+						layoutpolicy_horizontal = expanding
+						margin_left = 2
+						margin_right = 2
+						editor_textbox = {
+							size = { 44 32 }
+							raw_text = "Edit"
+							align = center
+						}
+						icon = {
+							size = { 16 16 }
+							texture = "gfx/tools/collapsed.png"
+						}
+					}
+					raw_tooltip = "Open list of available edit options for currently selected splines, points or edges."
 				}
 			}
 		}
-		widget = { layoutpolicy_vertical = expanding }
+
+		blockoverride "views" {
+		}
+	}
+
+	editor_contextmenu = {
+		name = "viewport_edit_contextmenu"
+		item = {
+			using = WidgetSelectionEditorContextMenuItem
+		}
+		expand_item = {
+			using = WidgetSelectionEditorContextMenuItem
+		}
 	}
 }
 
@@ -412,44 +644,92 @@ hbox = {
 	layoutpolicy_vertical = expanding
 
 	# Topbar tool: Selector
-	universal_spline_editor_toggle_button_highlighted = {
+	map_editor_toggle_button_highlighted = {
 		size = { 32 32 }
 		onclick = "[UniversalSplineEditorMode.SetCurrentToolType('Selector')]"
+		input_action = "universal_spline_editor_select_mode"
 		blockoverride "checked" {
 			visible = "[EqualTo_string(UniversalSplineEditorMode.GetCurrentToolType, 'Selector')]"
 		}
-		universal_spline_editor_icon_in_button = {
+		map_editor_icon_in_button = {
 			texture = "gfx/tools/select_tool.png"
 		}
-		raw_tooltip = "Tool for interactive on-map selection of splines, points or edges."
+		raw_tooltip = "Select splines, points or edges, interactively on the map."
 		tooltipwidget = { using = dockable_tooltip }
 	}
 
 	# Topbar tool: Transform
-	universal_spline_editor_toggle_button_highlighted = {
+	map_editor_toggle_button_highlighted = {
 		size = { 32 32 }
 		onclick = "[UniversalSplineEditorMode.SetCurrentToolType('Transform')]"
+		input_action = "universal_spline_editor_trasnform"
 		blockoverride "checked" {
 			visible = "[EqualTo_string(UniversalSplineEditorMode.GetCurrentToolType, 'Transform')]"
 		}
-		universal_spline_editor_icon_in_button = {
+		map_editor_icon_in_button = {
 			texture = "gfx/tools/transform_point_tool.png"
 		}
-		raw_tooltip = "Tool for interactive moving, rotating and scaling selected splines, points or edges."
+		raw_tooltip = "Move, rotate and scale selected splines, points or edges, interactively on the map."
 		tooltipwidget = { using = dockable_tooltip }
 	}
 
 	# Topbar tool: Pen
-	universal_spline_editor_toggle_button_highlighted = {
+	map_editor_toggle_button_highlighted = {
 		size = { 32 32 }
 		onclick = "[UniversalSplineEditorMode.SetCurrentToolType('Pen')]"
+		input_action = "universal_spline_editor_pen_tool"
 		blockoverride "checked" {
 			visible = "[EqualTo_string(UniversalSplineEditorMode.GetCurrentToolType, 'Pen')]"
 		}
-		universal_spline_editor_icon_in_button = {
+		map_editor_icon_in_button = {
 			texture = "gfx/tools/pen_tool.png"
 		}
-		raw_tooltip = "Tool for interactive adding or removing spline points."
+		raw_tooltip = "Add, remove, transform, snap or bind spline points, interactively on the map."
+		tooltipwidget = { using = dockable_tooltip }
+	}
+
+	# Topbar tool: Split tool
+	map_editor_toggle_button_highlighted = {
+		size = { 32 32 }
+		onclick = "[UniversalSplineEditorMode.SetCurrentToolType('Split')]"
+		input_action = "universal_spline_editor_split_tool"
+		blockoverride "checked" {
+			visible = "[EqualTo_string(UniversalSplineEditorMode.GetCurrentToolType, 'Split')]"
+		}
+		map_editor_icon_in_button = {
+			texture = "gfx/tools/split_tool.png"
+		}
+		raw_tooltip = "Split splines at their points, interactively on the map."
+		tooltipwidget = { using = dockable_tooltip }
+	}
+
+	# Topbar tool: Merge tool
+	map_editor_toggle_button_highlighted = {
+		size = { 32 32 }
+		onclick = "[UniversalSplineEditorMode.SetCurrentToolType('Merge')]"
+		input_action = "universal_spline_editor_merge_tool"
+		blockoverride "checked" {
+			visible = "[EqualTo_string(UniversalSplineEditorMode.GetCurrentToolType, 'Merge')]"
+		}
+		map_editor_icon_in_button = {
+			texture = "gfx/tools/merge_tool.png"
+		}
+		raw_tooltip = "Merge two splines at their ending points, interactively on the map."
+		tooltipwidget = { using = dockable_tooltip }
+	}
+
+	# Topbar tool: Nridge tool
+	map_editor_toggle_button_highlighted = {
+		size = { 32 32 }
+		onclick = "[UniversalSplineEditorMode.SetCurrentToolType('Bridge')]"
+		input_action = "universal_spline_editor_bridge_tool"
+		blockoverride "checked" {
+			visible = "[EqualTo_string(UniversalSplineEditorMode.GetCurrentToolType, 'Bridge')]"
+		}
+		map_editor_icon_in_button = {
+			texture = "gfx/tools/bridge_tool.png"
+		}
+		raw_tooltip = "Bridge two splines at their ending points, interactively on the map."
 		tooltipwidget = { using = dockable_tooltip }
 	}
 
@@ -457,22 +737,49 @@ hbox = {
 
 	tooloptions_divider = {}
 
+	toolbox_checkbutton = {
+		checked = "[UniversalSplineEditorMode.IsBakeSplinesOnSave]"
+		onclick = "[UniversalSplineEditorMode.ToggleBakeSplinesOnSave]"
+		size = { 200 32 }
+		hbox = {
+			spacing = 1
+			widget = {
+				size = { 24 24 }
+				toolbox_icon = {
+					visible = "[UniversalSplineEditorMode.IsSplineDatabaseModified]"
+					texture = "gfx/editor_terrain/decals_editor_bake_notice.png"
+					size = { 20 20 }
+					raw_tooltip = "There are modifications found and Baking Spline Database is necessary to see those changes in game."
+					tooltipwidget = { using = dockable_tooltip }
+				}
+			}
+			widget = {
+				size = { 24 24 }
+				toolbox_icon = {
+					texture = "gfx/editor_terrain/decals_editor_bake_on_save.png"
+					size = { 24 24 }
+				}
+			}
+			editor_textbox = {
+				raw_text = "Export Splines on save"
+				autoresize = yes
+				align = nobaseline
+			}
+		}
+		raw_tooltip = "Export splines to (.splnet) file on save. Note: This can cause file conflicts if others are editing. Sync with teammates before saving."
+		tooltipwidget = { using = dockable_tooltip }
+	}
+
+	tooloptions_divider = {}
+
 	tooloptions_button = {
-		size = { 180 32 }
-		onclick = "[MapEditorGui.RebuildSplines]"
-		enabled = "[Not(MapEditorGui.IsRebuildingSplines)]"
-		editor_textbox = {
-			raw_text = "Rebuild Game Splines"
-			#fontsize = @province_paint_ext_important_button_font_size
-			autoresize = yes
-			parentanchor = center
-			visible = "[Not(MapEditorGui.IsRebuildingSplines)]"
+		size = { 32 32 }
+		onclick = "[UniversalSplineEditorMode.OnSettingsClick]"
+	    toolbox_icon = {
+			texture = "gfx/tools/material/settings.png"
+			size = { 24 24 }
 		}
-		tooloptions_progress_spinner = {
-			visible = "[MapEditorGui.IsRebuildingSplines]"
-			parentanchor = center
-		}
-		raw_tooltip = "Click to begin the process of rebuilding the splines navmesh."
+		raw_tooltip = "Universal Spline Editor Settings"
 		tooltipwidget = { using = dockable_tooltip }
 	}
 }
@@ -487,7 +794,7 @@ vbox = {
 	layoutpolicy_horizontal = expanding
 	layoutpolicy_vertical = expanding
 
-	# Outliner Toolbar
+	# Outliner Toolbar - Visibility bar
 	hbox = {
 		layoutpolicy_horizontal = expanding
 		layoutpolicy_vertical = fixed
@@ -495,49 +802,16 @@ vbox = {
 		margin = { 3 2 }
 		spacing = 2
 
-		universal_spline_editor_button = {
-			universal_spline_editor_icon_in_button = {
-				texture = "gfx/tools/collection_new.png"
-			}
-			raw_tooltip = "Create new, empty collection of splines."
-			tooltipwidget = { using = dockable_tooltip }
-			onclick = "[UniversalSplineEditorMode.CreateNewCollection]"
+		search_field = {
+			datacontext = "[UniversalSplineEditorOutliner.AccessFilter]"
 		}
-
-		universal_spline_editor_button = {
-			universal_spline_editor_icon_in_button = {
-				texture = "gfx/tools/spline_new.png"
-			}
-			raw_tooltip = "Create new spline."
-			tooltipwidget = { using = dockable_tooltip }
-			onclick = "[UniversalSplineEditorMode.CreateNewSpline]"
-		}
-		universal_spline_editor_button = {
-			universal_spline_editor_icon_in_button = {
-				texture = "gfx/editor_terrain/decals_editor_delete.png"
-			}
-			raw_tooltip = "Delete selected splines."
-			tooltipwidget = { using = dockable_tooltip }
-			enabled = "[GreaterThan_int32(UniversalSplineEditorMode.GetNumSelectedObjects, '(int32)0')]"
-			onclick = "[UniversalSplineEditorMode.DeleteSelectedObjects]"
-		}
-		universal_spline_editor_button = {
-			universal_spline_editor_icon_in_button = {
-				texture = "gfx/editor_terrain/rename.png"
-			}
-			raw_tooltip = "Rename selected splines."
-			tooltipwidget = { using = dockable_tooltip }
-			enabled = "[GreaterThan_int32(UniversalSplineEditorMode.GetNumSelectedObjects, '(int32)0')]"
-			onclick = "[UniversalSplineEditorMode.RenameSelectedObjects]"
-		}
-
-		widget = { layoutpolicy_horizontal = expanding }
 
 		tooloptions_divider = {}
 
-		universal_spline_editor_toggle_button = {
+		map_editor_toggle_button = {
 			enabled = "[GreaterThan_int32(UniversalSplineEditorMode.GetNumSelectedObjects, '(int32)0')]"
 			onclick = "[UniversalSplineEditorMode.SetSelectedObjectsLocked(Not(UniversalSplineEditorMode.IsAnySelectedObjectLocked))]"
+			input_action = "universal_spline_editor_lock_splines"
 			size = { 24 24 }
 			blockoverride "frame_1" {
 				visible = "[Not(UniversalSplineEditorMode.IsAnySelectedObjectLocked)]"
@@ -550,9 +824,10 @@ vbox = {
 			raw_tooltip = "Toggle the lock state of currently selected splines. Locked status is serialized meaning that all project participants will not be able to edit locked instances, but they can always unlock it."
 			tooltipwidget = { using = dockable_tooltip }
 		}
-		universal_spline_editor_toggle_button = {
+		map_editor_toggle_button = {
 			enabled = "[GreaterThan_int32(UniversalSplineEditorMode.GetNumSelectedObjects, '(int32)0')]"
 			onclick = "[UniversalSplineEditorMode.SetSelectedObjectsHidden(Not(UniversalSplineEditorMode.IsAnySelectedObjectHidden))]"
+			input_action = "universal_spline_editor_hide_splines"
 			size = { 24 24 }
 			blockoverride "frame_1" {
 				visible = "[Not(UniversalSplineEditorMode.IsAnySelectedObjectHidden)]"
@@ -562,9 +837,72 @@ vbox = {
 				visible = "[UniversalSplineEditorMode.IsAnySelectedObjectHidden]"
 				texture = "gfx/tools/hidden_2.png"
 			}
-			raw_tooltip = "Toggle visibility state of currently selected splines. Hiding is a temporary status that is not saved with the project. Hidden instances are still active. If you want to exclude an instance from exporting to game, then use the disable button instead."
+			raw_tooltip = "Toggle visibility state of currently selected splines."
 			tooltipwidget = { using = dockable_tooltip }
 		}
+	}
+
+	# Outliner Toolbar - Operations bar
+	hbox = {
+		layoutpolicy_horizontal = expanding
+		layoutpolicy_vertical = fixed
+		size = { 0 32 }
+		margin = { 3 2 }
+		spacing = 2
+
+		map_editor_button = {
+			map_editor_icon_in_button = {
+				texture = "gfx/tools/collection_new.png"
+			}
+			raw_tooltip = "Create new, empty collection of splines."
+			tooltipwidget = { using = dockable_tooltip }
+			onclick = "[UniversalSplineEditorMode.CreateNewCollection]"
+		}
+
+		map_editor_button = {
+			map_editor_icon_in_button = {
+				texture = "gfx/tools/spline_new.png"
+			}
+			input_action = "universal_spline_editor_new_spline"
+			raw_tooltip = "Create new spline."
+			tooltipwidget = { using = dockable_tooltip }
+			onclick = "[UniversalSplineEditorMode.CreateNewSpline]"
+		}
+
+		tooloptions_divider = {}
+
+		map_editor_button = {
+			map_editor_icon_in_button = {
+				texture = "gfx/editor_terrain/decals_editor_clone.png"
+			}
+			raw_tooltip = "Clone selected splines."
+			input_action = "universal_spline_editor_duplicate_splines"
+			tooltipwidget = { using = dockable_tooltip }
+			enabled = "[GreaterThan_int32(UniversalSplineEditorMode.GetNumSelectedObjects, '(int32)0')]"
+			onclick = "[UniversalSplineEditorMode.CloneSelectedObjects]"
+		}
+
+		tooloptions_divider = {}
+
+		custom_ui_toolbox_buttons_hbox = {
+			blockoverride "datacontext" {
+				datacontext = "[MapEditorCustomGui.GetCustomizationRegistry.GetSplineEditor.GetOutlinerToolbarButtonsRegistry]"
+			}
+		}
+
+		widget = { layoutpolicy_horizontal = expanding }
+
+		map_editor_button = {
+			map_editor_icon_in_button = {
+				texture = "gfx/editor_terrain/decals_editor_delete.png"
+			}
+			raw_tooltip = "Delete selected splines."
+			input_action = "universal_spline_editor_delete_splines"
+			tooltipwidget = { using = dockable_tooltip }
+			enabled = "[GreaterThan_int32(UniversalSplineEditorMode.GetNumSelectedObjects, '(int32)0')]"
+			onclick = "[UniversalSplineEditorMode.DeleteSelectedObjects]"
+		}
+
 	}
 
 	editor_scrollarea = {
@@ -573,7 +911,16 @@ vbox = {
 		alwaystransparent = yes
 		viewportwidget = {
 			widget = {
+				name = "outliner_widget" # Don't rename! Spline Outliner dockable refers to it to deselect items.
+				alwaystransparent = no
 				scissor = yes
+
+				# Support dropping onto an empty area.
+				drop_target = {
+					accept_draggable_id = "universal_spline_editor_outliner_drag_id"		
+					on_receive_drop = "[UniversalSplineEditorOutliner.OnEntryDroppedOnEmptyArea]"
+					on_drag_enter = "[UniversalSplineEditorOutliner.OnEntryDragEnterOnEmptyArea]"
+				}
 			}
 		}
 
@@ -589,6 +936,16 @@ vbox = {
 				}
 			}
 		}
+
+		editor_contextmenu = {
+			name = "universal_spline_contextmenu"
+			item = {
+				using = WidgetSelectionEditorContextMenuItem
+			}
+			expand_item = {
+				using = WidgetSelectionEditorContextMenuItem
+			}
+		}
 	}
 }
 
@@ -596,11 +953,11 @@ vbox = {
 vbox = {
 	name = "universal_spline_editor_properties"
 	margin = { 2 2 }
-	spacing = 4
+	spacing = 8
 	layoutpolicy_horizontal = expanding
 	layoutpolicy_vertical = expanding
 
-	enabled = "[Not(UniversalSplineEditorProperties.AreAllSelectedSplinesLocked)]"
+	enabled = "[Not(UniversalSplineEditorSplinesProperties.AreAllSelectedSplinesLocked)]"
 
 	hbox = {
 		layoutpolicy_horizontal = expanding
@@ -612,8 +969,8 @@ vbox = {
 		} 
 		
 		icon = {
-			visible = "[And(GreaterThan_int32(UniversalSplineEditorProperties.GetNumAffectedSplines, '(int32)0'),
-							UniversalSplineEditorProperties.AreAllSelectedSplinesLocked)]"
+			visible = "[And(GreaterThan_int32(UniversalSplineEditorSplinesProperties.GetNumAffectedSplines, '(int32)0'),
+							UniversalSplineEditorSplinesProperties.AreAllSelectedSplinesLocked)]"
 			alpha = 0.5
 			texture = "gfx/tools/lock_checkbox.dds"
 			framesize = { 64 64 }
@@ -624,7 +981,7 @@ vbox = {
 		}
 
 		editor_textbox = {
-			visible = "[EqualTo_int32(UniversalSplineEditorProperties.GetNumAffectedSplines, '(int32)0')]"
+			visible = "[EqualTo_int32(UniversalSplineEditorSplinesProperties.GetNumAffectedSplines, '(int32)0')]"
 			layoutpolicy_horizontal = expanding
 			layoutpolicy_vertical = fixed
 			size = { 0 26 }
@@ -632,47 +989,46 @@ vbox = {
 			align = center
 		}
 		editor_textbox = {
-			visible = "[EqualTo_int32(UniversalSplineEditorProperties.GetNumAffectedSplines, '(int32)1')]"
+			visible = "[EqualTo_int32(UniversalSplineEditorSplinesProperties.GetNumAffectedSplines, '(int32)1')]"
 			layoutpolicy_horizontal = expanding
 			size = { 0 26 }
-			raw_text = "[Concatenate(Concatenate('Selected: #bold ', UniversalSplineEditorProperties.GetFirstAffectedSplineName), ' #!')]"
+			raw_text = "[Concatenate(Concatenate('Selected: #bold ', UniversalSplineEditorSplinesProperties.GetFirstAffectedSplineName), ' #!')]"
 			align = center
 		}
 		editor_textbox = {
-			visible = "[GreaterThan_int32(UniversalSplineEditorProperties.GetNumAffectedSplines, '(int32)1')]"
+			visible = "[GreaterThan_int32(UniversalSplineEditorSplinesProperties.GetNumAffectedSplines, '(int32)1')]"
 			layoutpolicy_horizontal = expanding
 			layoutpolicy_vertical = fixed
 			size = { 0 26 }
-			raw_text = "[Concatenate(Concatenate('Selected #bold ', ToString_int32(UniversalSplineEditorProperties.GetNumAffectedSplines)), ' #!splines')]"
+			raw_text = "[Concatenate(Concatenate('Selected #bold ', ToString_int32(UniversalSplineEditorSplinesProperties.GetNumAffectedSplines)), ' #!splines')]"
 			align = center
 		}
 	}
 
 	widget = { size = { 0 2 } }
 
-	editor_frame = {
-		layoutpolicy_horizontal = expanding
-		blockoverride "label" { raw_text = "General properties:" }
-		blockoverride "content" {
-			vbox = {
-				name = "properties_list" # Don't rename - properties injection point
-				margin = { 2 2 }
-				spacing = 4
-				layoutpolicy_horizontal = expanding
-			}
+	# General properties (uncategorized)
+	vbox = {
+		state = {
+			name = "init_datamodel"
+			trigger_on_create = yes
+			on_start = "[UniversalSplineEditorSplinesProperties.InjectPropertiesUncategorized( PdxGuiWidget.AccessSelf )]"
 		}
+		margin = { 2 2 }
+		spacing = 4
+		layoutpolicy_horizontal = expanding
 	}
 
-	editor_frame = {
-		visible = "[UniversalSplineEditorProperties.IsGameSplinePropertiesVisible]"
+	# Dynamic properties (all categories)
+	vbox = {
 		layoutpolicy_horizontal = expanding
-		blockoverride "label" { raw_text = "Game properties:" }
-		blockoverride "content" {
-			vbox = {
-				name = "game_spline_properties_list" # Don't rename - properties injection point
-				margin = { 2 2 }
-				spacing = 4
-				layoutpolicy_horizontal = expanding
+		spacing = 8
+		datamodel = "[UniversalSplineEditorSplinesProperties.AccessPropertyCategories]"
+		item = {
+			universal_spline_editor_property_category = {
+				blockoverride "inject_properties" {
+					on_start = "[UniversalSplineEditorSplinesProperties.InjectProperties( PdxGuiWidget.AccessSelf, UniversalSplineEditorPropertyCategory.AccessSelf )]"
+				}
 			}
 		}
 	}
@@ -742,8 +1098,8 @@ vbox = {
 		enabled = "[And(UniversalSplineEditorStructure.IsAffectedSplineValid,
 					    Not(UniversalSplineEditorStructure.IsAffectedSplineLocked))]"
 
-		universal_spline_editor_button = {
-			universal_spline_editor_icon_in_button = {
+		map_editor_button = {
+			map_editor_icon_in_button = {
 				texture = "gfx/tools/add_spline_point.png"
 			}
 			raw_tooltip = "Insert spline point at currently selected point or edge, or append new point at the end if nothing is selected."
@@ -751,8 +1107,8 @@ vbox = {
 			enabled = "[UniversalSplineEditorStructure.CanInsertNewPoint]"
 			onclick = "[UniversalSplineEditorStructure.InsertNewPoint]"
 		}
-		universal_spline_editor_button = {
-			universal_spline_editor_icon_in_button = {
+		map_editor_button = {
+			map_editor_icon_in_button = {
 				texture = "gfx/tools/remove_spline_point.png"
 			}
 			raw_tooltip = "Remove selected spline points and edges. Notice, removing an edge will remove both its points."
@@ -769,6 +1125,8 @@ vbox = {
 		alwaystransparent = yes
 		viewportwidget = {
 			widget = {
+				name = "structure_widget" # Don't rename! Spline structure dockable refers to it to deselect items.
+				alwaystransparent = no
 				scissor = yes
 			}
 		}
@@ -785,6 +1143,16 @@ vbox = {
 				}
 			}
 		}
+		
+		editor_contextmenu = {
+			name = "universal_spline_contextmenu"
+			item = {
+				using = WidgetSelectionEditorContextMenuItem
+			}
+			expand_item = {
+				using = WidgetSelectionEditorContextMenuItem
+			}
+		}
 	}
 }
 
@@ -793,7 +1161,7 @@ vbox = {
 vbox = {
 	name = "universal_spline_editor_points_properties"
 	margin = { 2 2 }
-	spacing = 4
+	spacing = 8
 	layoutpolicy_horizontal = expanding
 	layoutpolicy_vertical = expanding
 
@@ -839,11 +1207,30 @@ vbox = {
 		}
 	}
 
+	# General properties (uncategorized)
 	vbox = {
-		name = "points_properties_list" # Don't rename - properties injection point
+		state = {
+			name = "init_datamodel"
+			trigger_on_create = yes
+			on_start = "[UniversalSplineEditorPointsProperties.InjectPropertiesUncategorized( PdxGuiWidget.AccessSelf )]"
+		}
 		margin = { 2 2 }
 		spacing = 4
 		layoutpolicy_horizontal = expanding
+	}
+
+	# Dynamic properties (all categories)
+	vbox = {
+		layoutpolicy_horizontal = expanding
+		spacing = 8
+		datamodel = "[UniversalSplineEditorPointsProperties.AccessPropertyCategories]"
+		item = {
+			universal_spline_editor_property_category = {
+				blockoverride "inject_properties" {
+					on_start = "[UniversalSplineEditorPointsProperties.InjectProperties( PdxGuiWidget.AccessSelf, UniversalSplineEditorPropertyCategory.AccessSelf )]"
+				}
+			}
+		}
 	}
 
 	widget = { layoutpolicy_vertical = expanding }
@@ -853,19 +1240,19 @@ vbox = {
 vbox = {
 	name = "universal_spline_editor_edges_properties"
 	margin = { 2 2 }
-	spacing = 4
+	spacing = 8
 	layoutpolicy_horizontal = expanding
 	layoutpolicy_vertical = expanding
 
-	enabled = "[Not(UniversalSplineEditorEdgeProperties.AreAllSelectedEdgeSplinesLocked)]"
+	enabled = "[Not(UniversalSplineEditorEdgesProperties.AreAllSelectedEdgeSplinesLocked)]"
 
 	hbox = {
 		layoutpolicy_horizontal = expanding
 		layoutpolicy_vertical = fixed
 
 		icon = {
-			visible = "[And(UniversalSplineEditorEdgeProperties.AreAllSelectedEdgeSplinesLocked,
-						    GreaterThan_int32(UniversalSplineEditorEdgeProperties.GetNumberOfAffectedEdges, '(int32)0'))]"
+			visible = "[And(UniversalSplineEditorEdgesProperties.AreAllSelectedEdgeSplinesLocked,
+						    GreaterThan_int32(UniversalSplineEditorEdgesProperties.GetNumberOfAffectedEdges, '(int32)0'))]"
 			alpha = 0.5
 			texture = "gfx/tools/lock_checkbox.dds"
 			framesize = { 64 64 }
@@ -876,16 +1263,16 @@ vbox = {
 		}
 		# Display number of edges selected
 		editor_textbox = {
-			visible = "[GreaterThan_int32(UniversalSplineEditorEdgeProperties.GetNumberOfAffectedEdges, '(int32)0')]"
+			visible = "[GreaterThan_int32(UniversalSplineEditorEdgesProperties.GetNumberOfAffectedEdges, '(int32)0')]"
 			layoutpolicy_horizontal = expanding
 			layoutpolicy_vertical = fixed
 			size = { 0 22 }
-			raw_text = "[Concatenate(Concatenate('Selected #bold ', ToString_int32(UniversalSplineEditorEdgeProperties.GetNumberOfAffectedEdges)), ' #!edges')]"
+			raw_text = "[Concatenate(Concatenate('Selected #bold ', ToString_int32(UniversalSplineEditorEdgesProperties.GetNumberOfAffectedEdges)), ' #!edges')]"
 			align = center
 		}
 		# Or message that there are no edges selected
 		editor_textbox = {
-			visible = "[EqualTo_int32(UniversalSplineEditorEdgeProperties.GetNumberOfAffectedEdges, '(int32)0')]"
+			visible = "[EqualTo_int32(UniversalSplineEditorEdgesProperties.GetNumberOfAffectedEdges, '(int32)0')]"
 			layoutpolicy_horizontal = expanding
 			layoutpolicy_vertical = fixed
 			size = { 0 22 }
@@ -898,11 +1285,30 @@ vbox = {
 		} 
 	}
 
+	# General properties (uncategorized)
 	vbox = {
-		name = "edges_properties_list" # Don't rename - properties injection point
+		state = {
+			name = "init_datamodel"
+			trigger_on_create = yes
+			on_start = "[UniversalSplineEditorEdgesProperties.InjectPropertiesUncategorized( PdxGuiWidget.AccessSelf )]"
+		}
 		margin = { 2 2 }
 		spacing = 4
 		layoutpolicy_horizontal = expanding
+	}
+
+	# Dynamic properties (all categories)
+	vbox = {
+		layoutpolicy_horizontal = expanding
+		spacing = 8
+		datamodel = "[UniversalSplineEditorEdgesProperties.AccessPropertyCategories]"
+		item = {
+			universal_spline_editor_property_category = {
+				blockoverride "inject_properties" {
+					on_start = "[UniversalSplineEditorEdgesProperties.InjectProperties( PdxGuiWidget.AccessSelf, UniversalSplineEditorPropertyCategory.AccessSelf )]"
+				}
+			}
+		}
 	}
 
 	widget = { layoutpolicy_vertical = expanding }

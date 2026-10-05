@@ -54,7 +54,7 @@ types ToolsProperyTypes
 				visible = "[ToolProperty.HasDefaultValue]"
 					
 				editor_button = {
-					visible = "[Not(ToolProperty.IsValueDefault)]"
+					enabled = "[Not(ToolProperty.IsValueDefault)]"
 					onclick = "[ToolProperty.SetValueToDefault]"
 					size = { 100% 100% }
 					icon = {
@@ -125,6 +125,18 @@ types ToolsProperyTypes
 		}
 	}
 	
+	type dialog_grid_property_fixed = dialog_grid_property {
+		blockoverride "content"
+		{
+			editor_textinput = {
+				using = property_grid_value_column_size
+				text = "[ToolPropertyFixed.GetFixed]"
+				oneditingfinished_with_changes = "[ToolPropertyFixed.SetFixed]"
+				#onreturnpressed = "[ToolInputDialog.Confirm]"
+			}
+		}
+	}
+
 	type dialog_grid_property_int8 = dialog_grid_property {
 		blockoverride "content"
 		{
@@ -280,6 +292,43 @@ types ToolsProperyTypes
 		}
 	}
 	
+	type dialog_grid_property_vec4Fixed = dialog_grid_property {
+		blockoverride "content"
+		{
+			flowcontainer = {
+				spacing = 8
+
+				editor_textinput = {
+					size = { 58 24 }
+					text = "[ToolPropertyVec4F.GetX]"
+					oneditingfinished_with_changes = "[ToolPropertyVec4F.SetX]"
+					#onreturnpressed = "[ToolInputDialog.Confirm]"
+				}
+				
+				editor_textinput = {
+					size = { 58 24 }
+					text = "[ToolPropertyVec4F.GetY]"
+					oneditingfinished_with_changes = "[ToolPropertyVec4F.SetY]"
+					#onreturnpressed = "[ToolInputDialog.Confirm]"
+				}
+				
+				editor_textinput = {
+					size = { 58 24 }
+					text = "[ToolPropertyVec4F.GetZ]"
+					oneditingfinished_with_changes = "[ToolPropertyVec4F.SetZ]"
+					#onreturnpressed = "[ToolInputDialog.Confirm]"
+				}
+				
+				editor_textinput = {
+					size = { 58 24 }
+					text = "[ToolPropertyVec4F.GetW]"
+					oneditingfinished_with_changes = "[ToolPropertyVec4F.SetW]"
+					#onreturnpressed = "[ToolInputDialog.Confirm]"
+				}
+			}
+		}
+	}
+
 	type dialog_grid_property_vec3f_as_color = dialog_grid_property {
 		blockoverride "content"
 		{
@@ -333,7 +382,37 @@ types ToolsProperyTypes
 			}
 		}
 	}
-	
+
+	type dialog_grid_property_vec3Fixed = dialog_grid_property {
+		blockoverride "content"
+		{
+			flowcontainer = {
+				spacing = 8
+
+				editor_textinput = {
+					size = { 58 24 }
+					text = "[ToolPropertyVec3F.GetX]"
+					oneditingfinished_with_changes = "[ToolPropertyVec3F.SetX]"
+					#onreturnpressed = "[ToolInputDialog.Confirm]"
+				}
+				
+				editor_textinput = {
+					size = { 58 24 }
+					text = "[ToolPropertyVec3F.GetY]"
+					oneditingfinished_with_changes = "[ToolPropertyVec3F.SetY]"
+					#onreturnpressed = "[ToolInputDialog.Confirm]"
+				}
+				
+				editor_textinput = {
+					size = { 58 24 }
+					text = "[ToolPropertyVec3F.GetZ]"
+					oneditingfinished_with_changes = "[ToolPropertyVec3F.SetZ]"
+					#onreturnpressed = "[ToolInputDialog.Confirm]"
+				}
+			}
+		}
+	}
+		
 	type dialog_grid_property_vec3i_as_color = dialog_grid_property {
 		blockoverride "content"
 		{
@@ -404,6 +483,29 @@ types ToolsProperyTypes
 					size = { 92 24 }
 					text = "[ToolPropertyVec2f.GetY]"
 					oneditingfinished_with_changes = "[ToolPropertyVec2f.SetY]"
+					#onreturnpressed = "[ToolInputDialog.Confirm]"
+				}
+			}
+		}
+	}
+
+	type dialog_grid_property_vec2Fixed = dialog_grid_property {
+		blockoverride "content"
+		{
+			flowcontainer = {
+				spacing = 8
+
+				editor_textinput = {
+					size = { 92 24 }
+					text = "[ToolPropertyVec2F.GetX]"
+					oneditingfinished_with_changes = "[ToolPropertyVec2F.SetX]"
+					#onreturnpressed = "[ToolInputDialog.Confirm]"
+				}
+				
+				editor_textinput = {
+					size = { 92 24 }
+					text = "[ToolPropertyVec2F.GetY]"
+					oneditingfinished_with_changes = "[ToolPropertyVec2F.SetY]"
 					#onreturnpressed = "[ToolInputDialog.Confirm]"
 				}
 			}

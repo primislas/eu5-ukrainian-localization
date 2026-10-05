@@ -69,6 +69,18 @@ types ToolsProperyTypes
 		}
 	}
 	
+	type tools_property_fixed = tools_property {
+		blockoverride "content"
+		{
+			editor_textinput = {
+				size = { 48 16 }
+				fontsize = 10
+				text = "[ToolPropertyFixed.GetFixed]"
+				oneditingfinished_with_changes = "[ToolPropertyFixed.SetFixed]"
+			}
+		}
+	}
+
 	type tools_property_int8 = tools_property {
 		blockoverride "content"
 		{
@@ -222,6 +234,39 @@ types ToolsProperyTypes
 		}
 	}
 	
+	type tools_property_vec4Fixed = tools_property {
+		blockoverride "content"
+		{
+			editor_textinput = {
+				size = { 48 16 }
+				fontsize = 10
+				text = "[ToolPropertyVec4F.GetX]"
+				oneditingfinished_with_changes = "[ToolPropertyVec4F.SetX]"
+			}
+			
+			editor_textinput = {
+				size = { 48 16 }
+				fontsize = 10
+				text = "[ToolPropertyVec4F.GetY]"
+				oneditingfinished_with_changes = "[ToolPropertyVec4F.SetY]"
+			}
+			
+			editor_textinput = {
+				size = { 48 16 }
+				fontsize = 10
+				text = "[ToolPropertyVec4F.GetZ]"
+				oneditingfinished_with_changes = "[ToolPropertyVec4F.SetZ]"
+			}
+			
+			editor_textinput = {
+				size = { 48 16 }
+				fontsize = 10
+				text = "[ToolPropertyVec4F.GetW]"
+				oneditingfinished_with_changes = "[ToolPropertyVec4F.SetW]"
+			}
+		}
+	}
+	
 	type tools_property_vec3f = tools_property {
 		blockoverride "content"
 		{
@@ -248,6 +293,32 @@ types ToolsProperyTypes
 		}
 	}
 	
+	type tools_property_vec3Fixed = tools_property {
+		blockoverride "content"
+		{
+			editor_textinput = {
+				size = { 48 16 }
+				fontsize = 10
+				text = "[ToolPropertyVec3F.GetX]"
+				oneditingfinished_with_changes = "[ToolPropertyVec3F.SetX]"
+			}
+			
+			editor_textinput = {
+				size = { 48 16 }
+				fontsize = 10
+				text = "[ToolPropertyVec3F.GetY]"
+				oneditingfinished_with_changes = "[ToolPropertyVec3F.SetY]"
+			}
+			
+			editor_textinput = {
+				size = { 48 16 }
+				fontsize = 10
+				text = "[ToolPropertyVec3F.GetZ]"
+				oneditingfinished_with_changes = "[ToolPropertyVec3F.SetZ]"
+			}
+		}
+	}
+
 	type tools_property_vec3i = tools_property {
 		blockoverride "content"
 		{
@@ -293,6 +364,25 @@ types ToolsProperyTypes
 		}
 	}
 	
+	type tools_property_vec2Fixed = tools_property {
+		blockoverride "content"
+		{
+			editor_textinput = {
+				size = { 48 16 }
+				fontsize = 10
+				text = "[ToolPropertyVec2F.GetX]"
+				oneditingfinished_with_changes = "[ToolPropertyVec2F.SetX]"
+			}
+			
+			editor_textinput = {
+				size = { 48 16 }
+				fontsize = 10
+				text = "[ToolPropertyVec2F.GetY]"
+				oneditingfinished_with_changes = "[ToolPropertyVec2F.SetY]"
+			}
+		}
+	}
+
 	type tools_property_vec2i = tools_property {
 		blockoverride "content"
 		{
@@ -321,6 +411,19 @@ types ToolsProperyTypes
 				text = "[ToolPropertySearchList.GetSelectedText]"
 				onclick = "[ToolPropertySearchList.OpenSearchList]"
 				elide = right
+			}
+		}
+	}
+
+	type tools_property_searchlist_2 = tools_property {
+		blockoverride "content"
+		{
+			editor_toolbar_button = {
+				size = { 120 16 }
+				text = "[ToolProperty2SearchList.GetSelectedLabel]"
+				onclick = "[ToolProperty2SearchList.OpenSearchList]"
+				elide = middle
+				tooltip = "[ToolProperty.GetTooltip]"
 			}
 		}
 	}
@@ -425,7 +528,7 @@ types ToolsProperyTypes
 						}
 
 						editor_textbox = {
-							layoutpolicy_horizontal = growing
+							#layoutpolicy_horizontal = growing
 							fontsize = 13
 							fontweight = bold
 							autoresize = yes

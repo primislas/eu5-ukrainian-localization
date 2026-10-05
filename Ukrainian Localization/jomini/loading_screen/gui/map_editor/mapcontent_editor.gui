@@ -108,6 +108,14 @@ types "MapContentEditorTypes" {
 			}
 		}
 	}
+	type map_content_bundle_property_fixed = bundle_property_fixed {
+		blockoverride "extension" {
+			map_content_editor_property_paint_checkbutton = {
+				checked = "[MapContentPropertyGroupsGui.IsInPropertyPaintingModeForFloat( ToolsUndoableValueBundleFixed.Self )]"
+				onclick = "[MapContentPropertyGroupsGui.TogglePropertyPaintingModeFloat( ToolsUndoableValueBundleFixed.AccessSelf )]"
+			}
+		}
+	}
 	type map_content_bundle_property_int = bundle_property_int {
 		blockoverride "extension" {
 			map_content_editor_property_paint_checkbutton = {
@@ -158,11 +166,29 @@ types "MapContentEditorTypes" {
 		}
 	}
 
+	type map_content_bundle_property_vec4Fixed = bundle_property_vec4Fixed {
+		blockoverride "extension" {
+			map_content_editor_property_paint_checkbutton = {
+				checked = "[MapContentPropertyGroupsGui.IsInPropertyPaintingModeForVec4F( ToolsUndoableValueBundleVec4F.Self )]"
+				onclick = "[MapContentPropertyGroupsGui.TogglePropertyPaintingModeVec4F( ToolsUndoableValueBundleVec4F.AccessSelf )]"
+			}
+		}
+	}
+
 	type map_content_bundle_property_vec3f = bundle_property_vec3f {
 		blockoverride "extension" {
 			map_content_editor_property_paint_checkbutton = {
 				checked = "[MapContentPropertyGroupsGui.IsInPropertyPaintingModeForVec3f( ToolsUndoableValueBundleVec3f.Self )]"
 				onclick = "[MapContentPropertyGroupsGui.TogglePropertyPaintingModeVec3f( ToolsUndoableValueBundleVec3f.AccessSelf )]"
+			}
+		}
+	}
+
+	type map_content_bundle_property_vec3Fixed = bundle_property_vec3Fixed {
+		blockoverride "extension" {
+			map_content_editor_property_paint_checkbutton = {
+				checked = "[MapContentPropertyGroupsGui.IsInPropertyPaintingModeForVec3F( ToolsUndoableValueBundleVec3F.Self )]"
+				onclick = "[MapContentPropertyGroupsGui.TogglePropertyPaintingModeVec3F( ToolsUndoableValueBundleVec3F.AccessSelf )]"
 			}
 		}
 	}
@@ -185,7 +211,14 @@ types "MapContentEditorTypes" {
 		}
 	}
 
-
+	type map_content_bundle_property_vec2Fixed = bundle_property_vec2Fixed {
+		blockoverride "extension" {
+			map_content_editor_property_paint_checkbutton = {
+				checked = "[MapContentPropertyGroupsGui.IsInPropertyPaintingModeForVec2F( ToolsUndoableValueBundleVec2F.Self )]"
+				onclick = "[MapContentPropertyGroupsGui.TogglePropertyPaintingModeVec2F( ToolsUndoableValueBundleVec2F.AccessSelf )]"
+			}
+		}
+	}
 	type map_content_bundle_property_vec2i = bundle_property_vec2i {
 		blockoverride "extension" {
 			map_content_editor_property_paint_checkbutton = {
