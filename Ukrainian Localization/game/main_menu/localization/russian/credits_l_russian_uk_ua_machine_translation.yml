@@ -203,7 +203,7 @@
   STUDIO_DECCAN_MUSIC: "#credits_discipline DECCAN MUSIC#!"
   ROLE_CONTRACTOR: "#credits_role Контрагент#!"
   ROLE_ORCHESTRATION_SCORE_PREPARATION: "#credits_role Підготовка партитури для оркестру#!"
-  ROLE_SCORE_PARTS_PREPARATION: "#credits_role Підготовка партитури та партій#!"
+  ROLE_SCORE_PARTS_PREPARATION: "#credits_role Підготовка партитури#!"
   ROLE_VEENA: "#credits_role Віна#!"
   ROLE_MRIDANGAM: "#credits_role Мріданга#!"
   ROLE_MUSIC_COMPOSITION: "#credits_role Написання музики#!"

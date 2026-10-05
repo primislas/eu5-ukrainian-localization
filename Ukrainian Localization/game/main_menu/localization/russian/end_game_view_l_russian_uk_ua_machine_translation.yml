@@ -8,5 +8,8 @@
   CONTINUE_PAST_END_DATE: "Продовжити гру"
   CONTINUE_PAST_END_DATE_TOOLTIP: "Ви можете продовжити гру.\nУсі досягнення буде вимкнено."
   END_GAME_VIEW_QUIT_TOOLTIP: "Закінчіть гру та поверніться до головного меню."
+  END_GAME_VIEW_PLAY_TIMELINE: "Відтворити хроніку кампанії"
   END_GAME_VIEW_OBSERVE: "Спостерігати"
   END_GAME_VIEW_OBSERVE_TOOLTIP: "Продовжіть у режимі спостерігача."
+  TOGGLE_LEFT_PANEL: "Показати/приховати панель"
+  TOGGLE_LEFT_PANEL_DESC: "Показати або приховати бічну панель"

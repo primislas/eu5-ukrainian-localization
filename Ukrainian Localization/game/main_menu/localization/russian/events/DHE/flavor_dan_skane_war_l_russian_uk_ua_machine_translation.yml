@@ -29,4 +29,7 @@
   flavor_dan_skane_war.6.b: "Відхилимо пропозицію!"
   flavor_dan_skane_war.7.title: "Влада [GetCountry('SWE').Custom('CL_GEN')] приймає нашу пропозицію"
   flavor_dan_skane_war.7.desc: "[GetCountry('SWE').GetName] погоди[GetCountry('SWE').Custom('end_vlaloly')]ся продати нам права на володіння #ONCLICK:COUNTRY,[GetCountry('SKE').GetKey] #TOOLTIP:COUNTRY,[GetCountry('SKE').GetKey],X [GetCountry('SKE').Custom('CL_INST')|L]#!#!. Хоча низка формальностей поки не виконана, договір вже ратифікований і набув чинності."
-  flavor_dan_skane_war.7.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
+  flavor_dan_skane_war.7.a: "$common_string_brilliant$"
+  flavor_dan_skane_war.8.title: "[GetCountry('SWE').GetNameWithNoTooltip] відкидає нашу пропозицію"
+  flavor_dan_skane_war.8.desc: "[GetCountry('SWE').Custom('end_fem')] відкинула нашу пропозицію про купівлю сюзеренітету над [GetCountry('SKE').GetName]. Цей прикрий поворот подій не залишає нам іншого вибору, окрім як шукати інших засобів, якщо ми хочемо продовжити справу придбання [GetCountry('SKE').Custom('CL_GEN')]."
+  flavor_dan_skane_war.8.a: "[ROOT.GetCountry.Custom('common_string_negative')]"

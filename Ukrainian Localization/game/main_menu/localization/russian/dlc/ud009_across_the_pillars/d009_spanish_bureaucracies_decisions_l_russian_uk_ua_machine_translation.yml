@@ -1,0 +1,13 @@
+﻿l_russian:
+  spa_seize_control_of_the_orders.title: "Вилучити володіння орденів"
+  spa_seize_control_of_the_orders.desc: "Духовні ордени краю [ShowRegionName('iberia_region')] відіграли найважливішу роль у відбитті мусульманської загрози та відновленні нашого панування на півострові. Проте тепер, коли наша #italic Реконкіста#! звершилася, ми мусимо підпорядкувати ці ордени прямому контролю нашого уряду й спрямувати їх до нового покликання — бути державними мужами та урядовцями, а не вояками й лицарями."
+  spa_seize_control_of_the_orders.a: "Вилучити всі їхні володіння!"
+  spa_seize_control_of_the_orders.b: "Дозволити їм зберегти більшість своїх земель."
+  establish_council_of_military_orders_tt: "Заснувати [ShowBureaucracyTypeName('spa_council_of_military_orders_bureaucracy')]"
+  established_council_of_military_orders_tt: "Ми заснували установу [ShowBureaucracyTypeName('spa_council_of_military_orders_bureaucracy')] рішенням $spa_seize_control_of_the_orders.title$."
+  spa_council_of_crusade_decision.title: "Заснувати $spa_council_of_crusade_bureaucracy$"
+  spa_council_of_crusade_decision.desc: "Захист нашої віри, навіть на чужих берегах, має бути благословенний найвищою владою. Заручившись схваленням [Concept('pope', 'Папи')|e], ми станемо першим оплотом [ShowReligionAdjective('catholic')]ої віри!"
+  spa_council_of_crusade_decision.a: "Попросити схвалення Папи."
+  establish_council_of_crusade_tt: "Заснувати [ShowBureaucracyTypeName('spa_council_of_crusade_bureaucracy')]"
+  established_council_of_crusade_tt: "Ми заснували установу [ShowBureaucracyTypeName('spa_council_of_crusade_bureaucracy')] рішенням $spa_council_of_crusade_decision.title$."
+  spa_seize_control_of_the_orders_tt: "Кожна [location|e], якою ми володіємо в краї [ShowRegionName('iberia_region')], перестане бути володінням іспанського військового [Concept('religious_order', 'духовного ордену')|e]"
