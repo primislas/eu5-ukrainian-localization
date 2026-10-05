@@ -63,3 +63,4 @@
   WINTER_BLOCKED_TOOLTIP_TEXT: "Перешкода: зима"
   DESERT_CONNECTOR_TOOLTIP: "Прилягання до пустелі"
   DESERT_CONNECTOR_TOOLTIP_TEXT: "[LOCATION.GetRank.GetNameWithNoTooltip] [LOCATION.GetName] пов'язує наступні [Concept('locations', 'місцевості')|e]:"
+  CANAL_CONNECTOR_TOOLTIP_TEXT: "$CANAL_LOCATION_DESC$\nЦей канал пов'язує наступні [Concept('locations', 'місцевості')|e]:"
