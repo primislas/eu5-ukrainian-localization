@@ -42,3 +42,4 @@
   POP_TYPE_SCALE_FOR_PROMOTE_PRO: "[Concept('promotes', 'Підвищує')|e] зі швидкістю $VAL|2%V$"
   POP_TYPE_SCALE_FOR_MIGRATE_PRO: "[Concept('migrates', 'Мігрує')|e] зі швидкістю $VAL|2%V$"
   POP_TYPE_SCALE_FOR_PROMOTE_PRO_BY_TYPE: "[POP_TYPE.GetName] — швидкість [Concept('promote', 'підвищення')|e]: $SPEED|2%V$.\n"
+  POP_TYPE_SCALE_FOR_PROMOTE_PRO_BY_TYPE_MODIFIED: "[POP_TYPE.GetName] — швидкість [Concept('promote', 'підвищення')|e]: #TOOLTIP:$BREAKDOWN_TAG$ $SPEED|2%L$#!.\n"
