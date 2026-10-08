@@ -43,7 +43,7 @@
   cossack_estate_events.11.a: "Воістину сміливі люди."
   cossack_estate_events.11.b: "Це нісенітниця — ніхто не переселиться без нашого дозволу."
   cossack_estate_events.12.title: "Розвиток козацької культури"
-  cossack_estate_events.12.desc: "Наші піддані заселяють степові місцевості біля кордонів, і їм доводиться пристосовуватися до місцевих суворих умов. Перейнявши досвід [ShowCultureGroupName('tatar_group')]ого народу, який кочував у цих краях, вони поступово змінили свої традиції та спосіб життя настільки, що він разюче відрізняється від попереднього. По суті, ці переселенці в провінції [target_cossack_conversion.GetName] вже ототожнюють себе не з [ROOT.GetCountry.GetCulture.GetName|l]ою, а з [ShowCultureName('cossack_culture')|l]ою культурою."
+  cossack_estate_events.12.desc: "Наші піддані заселяють степові землі біля кордонів, і їм доводиться пристосовуватися до тамтешніх суворих умов. Перейнявши досвід #L [ShowCultureGroupName('tatar_group')|l]ого#! народу, що кочував у цих краях, вони поступово змінили свої звичаї та спосіб життя настільки, що він разюче відрізняється від колишнього. По суті, ці переселенці в провінції [target_cossack_conversion.GetName] уже ототожнюють себе не з #L [ROOT.GetCountry.GetCulture.GetName|l]ою#!, а з #L [ShowCultureName('cossack_culture')|l]ою#! культурою."
   cossack_estate_events.12.a: "Який цікавий поворот подій."
   cossack_estate_events.12.tt: "#L [ShowCultureName('cossack_culture')]і#! [ShowPopTypeName('tribesmen')|l] поглине багатьох представників наших [Concept('pops', 'громад')|e] в провінції [target_cossack_conversion.GetName]"
   cossack_estate_events.1000.title: "[cossack_origin_country.GetGovernment.GetEstateNameWithNoTooltip('cossacks_estate')] влаштовують набіги"
