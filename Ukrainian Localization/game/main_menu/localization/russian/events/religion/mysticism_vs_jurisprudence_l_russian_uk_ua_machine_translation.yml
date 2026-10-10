@@ -54,7 +54,7 @@
   mysticism_vs_jurisprudence.14.title: "Кава та тютюн"
   mysticism_vs_jurisprudence.14.desc: "#TOOLTIP:GOODS,coffee,X #L Кава#!#! та #TOOLTIP:GOODS,tobacco,X #L тютюн#!#! відомі нам порівняно недавно, але їх популярність зростає з кожним днем: незліченними кав'ярнями тепер може похвалитися не тільки місто [ROOT.GetCountry.GetCapital.GetName], а й провінція [coffee_province.GetName]. Особливою популярністю вони користуються у суфіїв, а офіційні богослови ще не мають єдиної думки про них.\n\nПрихильники суворого ісламу закликають обмежити вживання кави та тютюну, тоді як люди більш поміркованих поглядів нагадують про їх популярність у нашій країні. Нещодавно до нас звернувся намісник провінції [coffee_province.GetNameWithNoTooltip]: він хоче закрити всі кав'ярні у своїх володіннях, стверджуючи, що там збираються люди, незадоволені владою."
   mysticism_vs_jurisprudence.14.a: "Каву та тютюн слід заборонити."
-  mysticism_vs_jurisprudence.14.b: "Нехай п'ють свою каву."
+  mysticism_vs_jurisprudence.14.b: "Нехай п’ють свою каву!"
   mysticism_vs_jurisprudence.15.title: "Популярність суфіїв у провінції [new_province.GetNameWithNoTooltip]"
   mysticism_vs_jurisprudence.15.desc: "Деякі з великих суфійських орденів #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! розгорнули бурхливу діяльність у нещодавно приєднаній провінції [new_province.GetName]. Місцеві жителі поки сумніваються в [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ій владі, але вже довіряють суфіям, що помітно полегшує інтеграцію нових земель у нашу країну."
   mysticism_vs_jurisprudence.15.a: "Замість цього ми повинні зміцнювати законну владу."

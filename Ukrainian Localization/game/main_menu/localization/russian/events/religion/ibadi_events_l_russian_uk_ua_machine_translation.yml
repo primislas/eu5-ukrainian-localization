@@ -1,0 +1,13 @@
+﻿l_russian:
+  shurat: "Шурат"
+  ibadi_events.1.title: "$legacy_of_rustamids$"
+  ibadi_events.1.desc: "$legacy_of_rustamids_desc$\n\nУ дусі давнього імамату [target_character.GetName] щойно був проголошений першим [ShowPolicyName('ibadi_zuhur_imam_policy')], який правитиме в [ShowRegionName('maghreb_region')]. Віряни більше не будуть змушені жити в [ShowPolicyNameWithNoTooltip('ibadi_kitman_imam_policy')]."
+  ibadi_events.1.a: "Світає нова доба."
+  ibadi_events.1.b: "Воістину, [ROOT.GetCountry.GetReligion.GetGodName] усміхається нам."
+  may_adopt_a_different_color: "Ми можемо обрати #Y глибокий синій колір#! як колір нашої країни"
+  rustamids_adopt_different_color: "Ми обираємо #Y глибокий синій колір#! як колір нашої країни"
+  ibadi_events.2.title: "Слабкий імам"
+  ibadi_events.2.desc: "[target_estate.GetName] дедалі більше невдоволені правителем [target_character.GetName], який є [ShowPolicyName('ibadi_daif_imam_policy')]. Зрештою, владу слабкого імама терплять лише в часи кризи, а [ShowReligionAdjective('ibadi')]і віряни у [ROOT.GetCountry.Custom('CL_PREP')] більше не перебувають під загрозою."
+  ibadi_events.2.a: "Ми маємо знайти кращого кандидата, який очолить нас."
+  ibadi_weak_imam_penalty_tt: "[ShowPolicyName('ibadi_daif_imam_policy')] накладатиме прогресивні штрафи, доки ми не змінимо нашого [Concept('ruler', 'правителя')|e] за допомогою дії [ShowGenericActionName('return_to_zuhur_imamate')]"
+  has_penalty_for_weak_imam: "Більше не відповідає вимогам, і спрацювала [Concept('event', 'подія')|e] «#Y $ibadi_events.2.title$#!»"

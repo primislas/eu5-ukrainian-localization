@@ -6,3 +6,5 @@
   SETTING_DOF: "Глибина різкості"
   SETTING_LENS_FLARE: "Бліки"
   SETTING_SECONDARY_LENS_FLARE: "Вторинні бліки"
+  SETTING_VOLUMETRIC_FOG: "Об'ємний туман"
+  SETTING_VOLUMETRIC_FOG_TOOLTIP: "#T $SETTING_VOLUMETRIC_FOG$\n#!Увімкнути ефекти об'ємного туману в грі.\n\nВимкнення цього параметра може підвищити продуктивність."
