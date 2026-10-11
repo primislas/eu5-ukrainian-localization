@@ -1821,7 +1821,7 @@
   game_concept_combat_speed_desc: "Це здатність переміщатися з [Concept('reserves', 'резерву')|e] в іншу [Concept('section', 'частину бойового порядку')|e] посеред [Concept('battle', 'битви')|e]. У [Concept('ships', 'кораблів')|e] бойова швидкість також впливає на те, як швидко пошкоджений корабель може покинути свою [Concept('section', 'частину бойового порядку')|e] та відступити."
   game_concept_blockade_capacity: "Блокадний потенціал"
   game_concept_blockade_capacity_desc: "Характеризує ефективність, з якою [Concept('ship', 'корабель')|e] проводить блокаду. Безпосередньо порівнюється зі значенням у блокованій [Concept('location', 'місцевості')|e], яке залежить від її [Concept('development', 'розвитку')|e], [Concept('population', 'населення')|e], [Concept('imports', 'привозу')|e] та [Concept('exports', 'вивозу')|e]."
-  game_concept_crew_size: "Екіпаж"
+  game_concept_crew_size: "Чисельність моряків"
   game_concept_crew_size_desc: "Визначає кількість [Concept('sailors', 'моряків')|e], необхідну для використання [Concept('ship', 'корабля')|e]."
   game_concept_maximum_strength: "Максимальна чисельність"
   game_concept_max_strength: "Макс. чисельність"
