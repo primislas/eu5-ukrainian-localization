@@ -1273,7 +1273,6 @@
   REPAIR_AT_OPENS_SEA: "У відкритому морі: #R ×0#!"
   REPAIR_NO_PORT_FACILITIES: "У цьому [Concept('port', 'порті')|e] немає потужностей для ремонту [Concept('ships', 'кораблів')|e]: #R x0#!"
   REPAIR_NO_ABILITY_AT_SEA: "Ми не можемо ремонтувати [Concept('ships', 'кораблі')|e] за межами [Concept('port', 'порту')|e]: #R x0#!"
-
   SUPPLY_LIMIT_UNIT_ATTR: "[Concept('supply_limit', 'Межа постачання')|e]: [LOCATION.GetSupplyLimitLabel]"
   REINFORCE_GOODS_ACCESS_MISS: "Брак [Concept('goods', 'товарів')|e]: #TOOLTIP:$BREAKDOWN_TAG$ x$VAL|L2$#!"
   REINFORCE_HOME: "[Concept('owned', 'Ваша')|e] [Concept('location', 'місцевість')|e]: ×$VAL|2V$"
