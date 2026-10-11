@@ -1117,7 +1117,7 @@
   SUB_TRANSPORT_CAPACITY: "[Concept('transport_capacity_with_icon', 'Підйом війська')|e]"
   SUB_MARITIME_PRESENCE: "[Concept('maritime_presence_with_icon', 'Морська присутність')|e]"
   SUB_MAX_STRENGTH: "[Concept('maximum_strength_with_icon', 'Максимальна чисельність')|e]"
-  SUB_CREW_SIZE: "[Concept('crew_size_with_icon', 'Екіпаж')|e]"
+  SUB_CREW_SIZE: "[Concept('crew_size_with_icon', 'Чисельність моряків')|e]"
   SUB_BLOCKADE_CAPACITY: "[Concept('blockade_capacity_with_icon', 'Блокадний потенціал')|e]"
   SUB_COMBAT_SPEED: "[Concept('combat_speed_with_icon', 'Бойова швидкість')|e]"
   SUB_INITIATIVE: "[Concept('initiative_with_icon', 'Ініціатива')|e]"
