@@ -8,7 +8,7 @@
   pilgrimage_expedition_events.2.title: "The Eternal City"
   pilgrimage_expedition_events.2.desc: "[target_location.GetName] rises slowly out of the plain, its domes and towers catching the afternoon light as [target_ruler.GetName]'s retinue crosses the last bridge over the Tiber. The city is vast and ancient, its streets crowded with pilgrims from every corner of Christendom, each drawn by the same invisible current.\n\nAt the summit of the Vatican hill, Saint Peter's rises against the sky. Here is the throne of the Vicar of Christ, the living authority of the Church on earth. [target_ruler.GetNameWithNoTooltip] is in awe of being at the center of [ShowReligionAdjective('catholic')] spirituality."
   pilgrimage_expedition_events.2.a: "Смиренно визнати божественну владу."
-  pilgrimage_expedition_events.2.b: "Зробити пожертву, гідну [ROOT.GetCountry.GetGovernment.Custom('CL_GEN')]."
+  pilgrimage_expedition_events.2.b: "Зробити пожертву, гідну [ROOT.GetCountry.Custom('CL_GEN')]."
   pilgrimage_expedition_events.2.c: "Ми віддали належну шану. Наш люд потребує нашого повернення."
   pilgrimage_expedition_events.2.historical_info: "Рим став осередком християнської влади з перших століть існування Церкви завдяки мученицькій кончині апостола Петра, чия гробниця спочиває під величного базилікою, що носить його ім’я. Папство здобуло як духовну, так і мирську владу, приваблюючи володарів і паломників з усієї Європи, які шукали відпущення гріхів, визнання свого права на владу та благословення наступника Петра. Ювілейні роки, започатковані в 1300 році папою Боніфацієм VIII, привабили сотні тисяч паломників і закріпили за Римом місце головної мети католицького паломництва."
   pilgrimage_expedition_events.3.title: "Кінець Каміно"

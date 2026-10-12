@@ -114,7 +114,7 @@
   opinion_interfering_pope: "Втручання папи"
   court_flavor_events.39.b: "Це нас не стосується."
   court_flavor_events.40.title: "Вимоги папи"
-  court_flavor_events.40.desc: "Прибула до нас #L [GetCountry('PAP').GetAdjective|l]а#! делегація передає слова свого керівництва, зберігаючи при цьому вкрай серйозний вигляд: «[Select_CString(target_pope.IsFemale,'Її', 'Його')] Святість [target_pope.GetName] знає, що ви прихищаєте у себе в [ROOT.GetCountry.GetGovernment.Custom('rank_ua_PREP')|l] єретика». Посланці вимагають, щоб ми негайно передали [Select_CString(advisor.IsFemale,'її', 'його')] інквізиції, інакше [target_pope.GetShortNameWithNoTooltip] вважатиме нас відступниками від істинного шляху і буде [Select_CString(target_pope.IsFemale,'змушена', 'змушений')] вжити проти нас усіх необхідних заходів."
+  court_flavor_events.40.desc: "Прибула до нас #L [GetCountry('PAP').GetAdjective|l]а#! делегація передає слова свого керівництва, зберігаючи при цьому вкрай серйозний вигляд: «[Select_CString(target_pope.IsFemale,'Її', 'Його')] Святість [target_pope.GetName] знає, що ви прихищаєте у себе в [ROOT.GetCountry.Custom('rank_ua_PREP')|l] єретика». Посланці вимагають, щоб ми негайно передали [Select_CString(advisor.IsFemale,'її', 'його')] інквізиції, інакше [target_pope.GetShortNameWithNoTooltip] вважатиме нас відступниками від істинного шляху і буде [Select_CString(target_pope.IsFemale,'змушена', 'змушений')] вжити проти нас усіх необхідних заходів."
   court_flavor_events.40.a: "Видамо єретика."
   opinion_bowed_to_papal_demand_advisor: "Виконали вимоги папи"
   court_flavor_events.40.b: "Ми не будемо підкорятися папським вимогам."
