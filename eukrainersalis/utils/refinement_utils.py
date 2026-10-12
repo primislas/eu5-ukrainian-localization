@@ -1,6 +1,7 @@
 import asyncio
 import json
 import os
+import re
 from dataclasses import dataclass
 from enum import StrEnum
 from importlib import resources
@@ -8,9 +9,10 @@ from importlib.resources.abc import Traversable
 from typing import Callable
 
 from dotenv import load_dotenv
+from langdetect import detect_langs, DetectorFactory
 
 from eukrainersalis.translators.gemini_translator import GeminiTranslator
-from eukrainersalis.utils.file_utils import list_localization_files, project_dir
+from eukrainersalis.utils.file_utils import list_localization_files, project_dir, system_instructions_ru_ua_file_path
 from eukrainersalis.utils.log_utils import logger
 from eukrainersalis.utils.migration_utils import MigrationManager
 from eukrainersalis.utils.translation_utils import Language, LocFile, split_into_batches, TranslationResult, \
@@ -20,6 +22,11 @@ from eukrainersalis.utils.yaml_utils import load_eu5_yaml
 _INSTRUCTION_PACKAGE = "eukrainersalis.resources.instructions"
 _INSTRUCTION_SKILL_REL_PATH = "skills/refinement"
 _INSTRUCTION_ROLE_FILE = "role"
+_INSTRUCTION_ROLE_EN_UA_FILE = "role_en_ua"
+
+
+# Enforce deterministic results for short/ambiguous text
+DetectorFactory.seed = 0
 
 
 def _get_refinement_skill_file(file_name_without_extension: str) -> Traversable:
@@ -38,6 +45,46 @@ def select_center_refinement(text: str) -> bool:
     return "центр" in text
 
 
+def select_english_translation_refinement(text: str) -> bool:
+    normalized_text = re.sub(r'\$[^\$]+\$', '', text)
+    normalized_text = re.sub(r'\[[^\]]+\]', '', normalized_text)
+    normalized_text = re.sub(r'#[a-z_]+', '', normalized_text)
+    normalized_text = normalized_text.replace("é", "e")
+    normalized_text = re.sub(r'[^a-z\s]', '', normalized_text)
+    normalized_text = re.sub(r'\s+', ' ', normalized_text)
+    normalized_text = normalized_text.strip()
+    if len(normalized_text) == 0:
+        return False
+
+    langs = detect_langs(normalized_text)
+    # Because there is a lot of historical terminology, the detector often hiccups
+    # on short sentences with such words and with special characters, such as diacritics etc.
+    # So in practice we ended up with detecting translation by making sure there's no
+    # Ukrainian or Russian inside the translation.
+    lang_codes = {l.lang for l in langs}
+    # needs_translation = len(langs) == 1 and langs[0].lang == "en"
+    needs_translation = "ru" not in lang_codes and "uk" not in lang_codes
+    if not needs_translation:
+        return False
+    return needs_translation
+
+
+def select_english_translation_file_refinement(text: str) -> bool:
+    fdir, fname = os.path.split(text)
+    return fname.startswith("culture_iberian_events") or fname.startswith("culture_maghrebi_events") or \
+            fname.startswith("flavor_gra") or fname.startswith("flavor_mll") or fname.startswith("flavor_nav") or \
+            fname.startswith("flavor_por") or fname.startswith("flavor_tle") or fname.startswith("flavor_tun")
+
+
+def select_estate_ending_refinement(text: str) -> bool:
+    return "_estate')" in text
+
+
+def select_estate_ending_file_refinement(text: str) -> bool:
+    fname = os.path.basename(text)
+    return fname.startswith("flavor_decisions")
+
+
 def select_talent_refinement(text: str) -> bool:
     return "талант" in text or "талановит" in text
 
@@ -49,6 +96,8 @@ def select_territory_refinement(text: str) -> bool:
 class RefinementSkill(StrEnum):
     ADMINISTRATION = "administration"
     CENTER = "center"
+    ENGLISH_TRANSLATION = "english_translation"
+    ESTATE_ENDINGS = "estate_endings"
     TALENT = "talent"
     TERRITORY = "territory"
 
@@ -60,6 +109,12 @@ class RefinementSkill(StrEnum):
                 return lambda text: False
 
     def get_system_instruction(self) -> str:
+        if self == RefinementSkill.ENGLISH_TRANSLATION:
+            role = _get_refinement_skill_file(_INSTRUCTION_ROLE_EN_UA_FILE).read_text()
+            skill_task = system_instructions_ru_ua_file_path.read_text()
+            return role + "<task_instructions>\n" + skill_task + "\n</task_instructions>"
+
+
         role = _get_refinement_skill_file(_INSTRUCTION_ROLE_FILE).read_text()
         skill_task = _get_refinement_skill_file(self).read_text()
         return role + "<task_instructions>\n" + skill_task + "\n</task_instructions>"
@@ -88,8 +143,8 @@ class RefinementManager:
         self._translator = GeminiTranslator(system_instruction_text=self.refinement_skill.get_system_instruction())
 
 
-    def select_files(self, filter_func: Callable[[str], bool], max_files: int | None = None, entries_threshold: int | None = None) -> list[LocFile]:
-        if not filter_func:
+    def select_files(self, text_filter_func: Callable[[str], bool], file_name_filter_func: Callable[[str], bool] | None = None, max_files: int | None = None, entries_threshold: int | None = None) -> list[LocFile]:
+        if not text_filter_func:
             return []
 
         max_files = self.max_files if max_files is None else max_files
@@ -101,15 +156,15 @@ class RefinementManager:
         for file in list_localization_files(Language.UK_UA_MACHINE_TRANSLATION):
             if self._refinement_tracker.is_processed(file):
                 continue
+            if file_name_filter_func is not None and not file_name_filter_func(file):
+                continue
 
             matching_keys = []
             content = load_eu5_yaml(file)
             localization: dict[str, str] = content.get(localization_key, {})
             for k, v in localization.items():
                 v_lower = v.lower()
-                if "територі" in v_lower:
-                    print(k)
-                if filter_func(v_lower):
+                if text_filter_func(v_lower):
                     matching_keys.append(k)
             if matching_keys:
                 loc_file = LocFile(file, matching_keys, content, localization_key)
@@ -190,7 +245,7 @@ class RefinementManager:
 
         return translation
 
-    def select_filter(self):
+    def select_filter(self) -> Callable[[str], bool] | None:
         match self.refinement_skill:
             case RefinementSkill.TERRITORY:
                 return select_territory_refinement
@@ -200,14 +255,32 @@ class RefinementManager:
                 return select_center_refinement
             case RefinementSkill.ADMINISTRATION:
                 return select_administration_refinement
+            case RefinementSkill.ESTATE_ENDINGS:
+                return select_estate_ending_refinement
+            case RefinementSkill.ENGLISH_TRANSLATION:
+                return select_english_translation_refinement
+
+
+    def select_file_filter(self) -> Callable[[str], bool] | None:
+        match self.refinement_skill:
+            case RefinementSkill.ESTATE_ENDINGS:
+                return select_estate_ending_file_refinement
+            case RefinementSkill.ENGLISH_TRANSLATION:
+                return select_english_translation_file_refinement
+            case _:
+                return None
 
 
     async def refine(self):
         logger.info(f"Refining: {self.refinement_id}...")
         api_semaphore = asyncio.Semaphore(self.max_concurrency)
         refinement_filter = self.select_filter()
+        if not refinement_filter:
+            logger.info(f"No refinement filter is configured, exiting.")
+            return
+        refinement_file_filter = self.select_file_filter()
 
-        skill_files = self.select_files(refinement_filter, max_files=500)
+        skill_files = self.select_files(refinement_filter, file_name_filter_func=refinement_file_filter, max_files=500)
         if not skill_files:
             logger.info(f"Found no files in need of refinement.")
             return
@@ -241,11 +314,23 @@ class RefinementManager:
         logger.info(f"Refinement {self.refinement_id} completed with {total_refined_records}/{total_submitted_records} refined keys across {len(skill_files)} files.")
 
 
-if __name__ == "__main__":
-
-    load_dotenv()
-    _refinement_skill = RefinementSkill.TALENT
+def _refine_estates():
+    _refinement_skill = RefinementSkill.ESTATE_ENDINGS
     _version = os.getenv("MIGRATION_TO")
     _refinement_id = f"refinement-{_refinement_skill.value}-{_version}"
-    _refinement_mgr = RefinementManager(_refinement_id, RefinementSkill.TALENT, entries_threshold=20)
+    _refinement_mgr = RefinementManager(_refinement_id, _refinement_skill, entries_threshold=20)
     asyncio.run(_refinement_mgr.refine())
+
+
+def _translate_from_english():
+    _refinement_skill = RefinementSkill.ENGLISH_TRANSLATION
+    _version = os.getenv("MIGRATION_TO")
+    _refinement_id = f"refinement-{_refinement_skill.value}-{_version}"
+    _refinement_mgr = RefinementManager(_refinement_id, _refinement_skill, entries_threshold=20)
+    asyncio.run(_refinement_mgr.refine())
+
+
+if __name__ == "__main__":
+    load_dotenv()
+    # _refine_estates()
+    _translate_from_english()

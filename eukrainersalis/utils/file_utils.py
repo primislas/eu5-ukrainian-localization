@@ -27,6 +27,9 @@ customized_estate_ending_file_path = project_mod_dir / "main_menu" / "localizati
 generated_estate_ending_file_path = project_mod_dir / "main_menu" / "localization" / "russian" / "ua_estates_ending_l_russian_uk_ua_machine_translation.yml"
 estate_ending_custom_loc_file_path = custom_localization_mod_dir_path / "380_ua_custom_loc_estates_end.txt"
 
+system_instructions_ru_ua_file_path = project_script_resources_dir / "instructions" / "ru_ua.txt"
+
+
 game_dir = Path(os.getenv("GAME_DIR", "./"))
 mod_dir = Path(os.getenv("MOD_DIR", "./"))
 steam_workshop_dir = Path(os.getenv("STEAM_WORKSHOP_DIR", "./"))
