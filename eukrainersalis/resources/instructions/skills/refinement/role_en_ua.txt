@@ -16,12 +16,17 @@ Each submitted key-value is encoded as JSONL: one line - one JSON object with on
 
 ## Avoid Russizms and Russian Alphabet
 
-It's ESSENTIAL to look for remaining untranslated Russian words. It's absolutely critical to not let any of the Russian words through, that would be an unacceptable defect. Russian letters, such as 'ы', 'э', 'ъ', 'ё' are also a clear sign of a failed translation and should be cleaned up. Fix all the found issues, translate remaining Russian words, and return cleaned up result. Especially frequently missed words seem to be:
+It's ESSENTIAL to look for remaining untranslated Russian words. It's absolutely critical to not let any of the Russian words through, that would be an unacceptable defect. Russian letters, such as 'ы', 'э', 'ъ', 'ё' are also a clear sign of a failed translation and should be cleaned up. Fix all the found issues, translate remaining Russian words, and return cleaned-up result. Especially frequently missed words seem to be:
     * также - також
     * мы - ми
     * среди - серед
     * наши - наші
     * заодно - заразом
+
+
+## NBSP Usage
+
+Use NBCP symbol ` ` in standard scenarios, and in particular before a dash: ` —` should be a standard construct.
 
 
 ## Concept Expansion
@@ -35,65 +40,491 @@ Ukrainian translation in the above should be done according to the below instruc
 
 Special notes:
     * In most cases 'pop_satisfaction' can be translated simply as 'задоволення' to not overload the text. It's especially true if the paragraph already contains the words 'pop' or 'громада' and the context makes it clear.
+    * Expanded translation does not have to be a noun. You can modify it freely (switch grammatical cases, turn to adjective and so on) to make the overall sentence more natural. For example, `[Concept('capital', 'столичний')|e]` is a perfectly acceptable translation.
 
 
 ## Adjective Endings
 
-Declarations of religions and cultures are under the hood resolved into an adjective form without endings. For example, `[ShowCultureName('basque')]` is resolved to `Баскськ`. So during localization it is necessary to add context appropriate adjective endings to such scripts. For example:
+Declarations of cultures are under the hood resolved into an adjective form without endings. For example, `[ShowCultureName('basque')]` is resolved to `Баскськ`. So during localization it is necessary to add context appropriate adjective endings to such scripts. For example:
     * The [ShowCultureName('basque')] whalers have returned from another expedition -> [ShowCultureName('basque')]і китобої повернулися з чергової виправи
-    * [ShowCultureNameWithNoTooltip('sephardi')] Merchants Accused -> Звинувачено [ShowCultureNameWithNoTooltip('sephardi')]их купців
+    * [ShowCultureNameWithNoTooltip('sephardi')] Merchants Accused -> Звинувачено [ShowCultureNameWithNoTooltip('sephardi')|l]их купців
+
+Assume that adjective forms ALWAYS end with "-ськ"! In other words, "ськ" should never be used as part of an explicitly generated ending. CORRECT: [ShowCultureName('bedouin_culture')]і; INCORRECT: [ShowCultureName('bedouin_culture')]ські.
+
+The same applies to culture scope like `.GetCulture.GetName`, `target_culture.GetNameWithNoTooltip` and similar constructs. They resolve to adjective forms ending in -ськ and missing dynamic endings. Translate accordingly:
+    * strive for a more aggressive assimilation policy towards the [target_culture.GetNameWithNoTooltip] -> прагнути рішучішої політику асиміляції щодо [target_culture.GetNameWithNoTooltip|l]ого люду
+    * assimilate them into [ROOT.GetCountry.GetCulture.GetNameWithNoTooltip] society -> асимілювати їх у [ROOT.GetCountry.GetCulture.GetNameWithNoTooltip|l]е суспільство
 
 The same also applies to any scripting construct in square brackets that ends with `GetAdjective` or `ShowAdjective`. For example:
-    * the triumph of the [ShowReligionGroupAdjective('christian')|U] cause -> торжество [ShowReligionGroupAdjective('christian')|U]ої справи
-    * liberated from the [ShowReligionGroupAdjective('muslim')] rule -> звільнені з-під [ShowReligionGroupAdjective('muslim')]ого панування
-    * skilled [ShowReligionGroupAdjective('muslim')] artist -> вправний [ShowReligionGroupAdjective('muslim')] митець
-    * Such honors belong to [ShowReligionGroupAdjective('christian')|U] subjects -> Така шана належить [ShowReligionGroupAdjective('christian')|U]им підданим
-    * local [ShowReligionAdjective('sunni')] people -> місцевий [ShowReligionAdjective('sunni')]ий люд
-    * Appoint a [ShowReligionGroupAdjectiveWithNoTooltip('christian')|U] physician instead -> Натомість призначити [ShowReligionGroupAdjectiveWithNoTooltip('christian')|U]ого лікаря
+    * the triumph of the [ShowReligionGroupAdjective('christian')|U] cause -> торжество [ShowReligionGroupAdjective('christian')|l]ої справи
+    * liberated from the [ShowReligionGroupAdjective('muslim')] rule -> звільнені з-під [ShowReligionGroupAdjective('muslim')|l]ого панування
+    * skilled [ShowReligionGroupAdjective('muslim')] artist -> вправний [ShowReligionGroupAdjective('muslim')|l]ий митець
+    * Such honors belong to [ShowReligionGroupAdjective('christian')|U] subjects -> Така шана належить [ShowReligionGroupAdjective('christian')|l]им підданим
+    * local [ShowReligionAdjective('sunni')] people -> місцевий [ShowReligionAdjective('sunni')|l]ий люд
+    * Appoint a [ShowReligionGroupAdjectiveWithNoTooltip('christian')|U] physician instead -> Натомість призначити [ShowReligionGroupAdjectiveWithNoTooltip('christian')|l]ого лікаря
+
+Don't overburden adjective forms and attempt to use natural Ukrainian language if possible, unless localization demands awkward construct simply because of localization limitations. I.e. we should try avoiding technical term definitions like "група", "стан", "віровчення" etc, if it's possible to get away and localize without them. For example:
+    * The [target_culture.GetName] have held considerable power -> "[target_culture.GetName]ий люд тривалий час мав значну владу", and NOT "Люди культури [target_culture.GetName] ..." (entirely unnecessary bloating)
+    * They have also been a point of contention with many [ShowCultureGroupName('amazigh_group')] people -> "Вони також були джерелом розбрату для багатьох #TOOLTIP:CULTUREGROUP,amazigh_group,X #L амазигів#!#!", and NOT "Вони також були джерелом розбрату для багатьох представників, яких налічує #TOOLTIP:CULTUREGROUP,amazigh_group,X #L амазигська група#!#!" (very bloated sentence compared to the original)
+    * have asked [our_ruler.GetName] to curb the power of the [target_culture.GetNameWithNoTooltip] -> "попросили правителя [our_ruler.GetName] обмежити [target_culture.GetNameWithNoTooltip|l]ий вплив", and NOT "... обмежити вплив культури [target_culture.GetNameWithNoTooltip]"
+    * see the [target_culture.GetNameWithNoTooltip] elite as invaluable allies -> "вважають, що [target_culture.GetNameWithNoTooltip|l]а знать є безцінними союзниками", and NOT "... знать культури [target_culture.GetNameWithNoTooltip]"
+    * Strive for a compromise between the [ROOT.GetCountry.GetCulture.GetNameWithNoTooltip] and [target_culture.GetNameWithNoTooltip] elites -> Прагнути порозуміння між [ROOT.GetCountry.GetCulture.GetNameWithNoTooltip|l]ою та [target_culture.GetNameWithNoTooltip|l]ою верхівкою
+
+Note that for religions and religion groups, scoped "GetName", "GetNameWithNoTooltip", "ShowReligionName", "ShowReligionNameWithNoTooltip" can be replaced with "GetAdjective", "GetAdjectiveWithNoTooltip", "ShowReligionAdjective", "ShowReligionAdjectiveWithNoTooltip" respectively if adjectives fit into Ukrainian translation better.
+
+
+## Control declaration capitalization
+
+Ukrainian capitalization of certain terms can differ from English. For example, culture or religion associated words, or locational adjectives are not capitalized in Ukrainian. Assume by default that scripted values are capitalized and control it with the following format instructions: |U - capitalize, |l - lowercase. Specifically cultural declarations should be explicitly lower-case formatted most of the time. E.g.:
+    * much of the [ShowCultureName('mustaarabi')] populace -> значна частина [ShowCultureName('mustaarabi')|l]ого люду
+    *  While the [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetCourtTitle] has taken a more tolerant policy -> Тоді як [ROOT.GetCountry.GetAdjective|l]ий [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] дотримується терпимішої політики
+    * The cultural bond between [ROOT.GetCountry.GetCulture.GetNameWithNoTooltip] and [target_culture.GetNameWithNoTooltip] is unbreakable -> Культурний зв’язок між [ROOT.GetCountry.GetCulture.GetNameWithNoTooltip|l]им та [target_culture.GetNameWithNoTooltip|l]им людом непорушний
+    * [ShowGoodsName('ivory')] and ebony flow down from the interior, enslaved men and women are marched in from the mainland, [ShowGoodsName('copper')] comes up from the south, and [ShowGoodsName('cloth')] and [ShowGoodsName('porcelain')] arrive from $india$ and $china$. -> [ShowGoodsName('ivory')] та чорне дерево стікаються сюди з глибини суходолу, з материка женуть невільників та невільниць, з півдня надходить [ShowGoodsName('copper')|l], а з країв $india$ та $china$ прибувають [ShowGoodsName('cloth')|l] та [ShowGoodsName('porcelain')|l]. (Here we don't lower-case the first declaration because it's at the beginning of the sentence and so should remain capitalized.)
+    * The harbor is full: [ShowCultureName('omani_culture')] dhows, [ShowCultureName('gujarati')] patamars, and even a battered [ShowCultureName('portuguese')] hulk doing repairs at the careenage. -> Гавань переповнена: [ShowCultureName('omani_culture')|l]і дау, [ShowCultureName('gujarati')|l]і патамари і навіть пошарпаний [ShowCultureName('portuguese')|l]ий гулк, який лагодять на кренуванні.
+
+Few more valid translation samples:
+    * Виміняти [ShowGoodsNameWithNoTooltip('iron')|l] та [ShowGoodsNameWithNoTooltip('cloth')|l] на свіжі харчі
+    * посланець, якого відрядив [target_ruler_country.Custom('GetRulerOrRegentTitle')|l]
+    * Домовитися про викуп бранців, яких [ShowCultureNameWithNoTooltip('akan')|l]ий люд бере як данину у своїх війнах.
+    * стає говіркішим, коли з’являється [ShowGoodsName('wine')|l]
+
+Concept declarations are a special case and are always formatted with the `|e` (or `|E`) modifier. Their capitalization should be handled by an associated scripted translation. E.g.: [Concept('location', 'місцевість')|e], [Concept('zeal', 'Ревність')|e], [Concept('regent', 'регента')|e] and so on.
+
+BUT words at the beginning of a sentence should be capitalized. Therefore, don't format them to lower case. Most dynamica declarations are capitalized by default, with the following exceptions which need explicit upper-case formatting:
+    * GetSheHe, GetHeShe, GetHerHis, GetHisHer, GetHerHim, GetHimHer:
+        ** [target_character.GetHerHis|U] правління запам’ятається як амбітне, але жахливе.
+        ** [ROOT.GetCountry.GetGovernment.GetRuler.GetHerHis|U] Величності
+        ** [target_artist.GetSheHe|U] отримає все, чого потребуватиме!
+        ** [target_character.GetHeShe|U] [Select_CString(target_character.IsFemale, 'була б чудовою наставницею', 'був би чудовим наставником')]
 
 
 ## Country and Rank Grammatical Cases
 
-Ukrainian localization scripts support grammatical cases (відмінювання) for country names and ranks. This is achieved by custom localization call on country scope instead of GetName or its alternatives (these effectively function as nominal cases). Names for supported cases are:
+Ukrainian localization scripts support grammatical cases (відмінювання) for country names and ranks. This is achieved by custom localization call on country scope instead of GetName or its alternatives (these effectively function as nominative cases). Names for supported cases are:
     * GEN - Genitive (родовий)
     * DAT - Dative (давальний)
     * ACC - Accusative (знахідний)
     * INST - Instrumental (орудний)
     * PREP - Prepositional (місцевий)
 
-Below are supported equivalents:
-    * CountryScope.GetName -> CountryScope.Custom('CL_GEN') (or CL_DAT, CL_ACC, CL_INST, CL_PREP), for example:
-        ** fought in the war against [GetCountry('GRA').GetName] -> билися у війні проти [GetCountry('GRA').Custom('CL_GEN')] (will be resolved to "Гранади" by localization engine)
-        ** the greatness of [ROOT.GetCountry.GetName] -> велич [ROOT.GetCountry.Custom('CL_GEN')]
+Note that form CountryScope.GetName automatically produces a tooltip, and CountryScope.Custom('CL_GEN') does not.
 
-    * GetLongName suffix is translated to Custom('longname_ua_CASE'):
+Below are supported equivalents:
+    * CountryScope is any potential country scope, such as [ROOT.GetCountry], [target_country], [ROOT.sCountry('actor')], [COUNTRY], [GetCountry('TAG')] and so on.
+    * CountryScope.GetName -> CountryScope.Custom('CL_GEN') (or CL_DAT, CL_ACC, CL_INST, CL_PREP). However, localization engine automatically converts a GetName form into a special country tooltip. To re-create it, Custom form needs to be wrapped into a special tooltip syntax: `#ONCLICK:COUNTRY,[CountryScope.GetKey] #TOOLTIP:COUNTRY,[CountryScope.GetKey],X [CountryScope.Custom('CL_PREP')|L]#!#!`.
+        ** fought in the war against [GetCountry('GRA').GetName] -> билися у війні проти #ONCLICK:COUNTRY,[GetCountry('GRA').GetKey] #TOOLTIP:COUNTRY,[GetCountry('GRA').GetKey],X [GetCountry('GRA').Custom('CL_GEN')|L]#!#! (will be resolved to "Гранади" by localization engine)
+        ** the greatness of [ROOT.GetCountry.GetName] -> велич #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!
+    * CountryScope.GetNameWithNoTooltip -> a form with no tooltip can use a simple Custom case form, such as CountryScope.Custom('CL_GEN') (or CL_DAT, etc.):
+        ** he was sent to [ROOT.GetCountry.GetNameWithNoTooltip] -> його відрядили до [ROOT.GetCountry.Custom('CL_GEN')]
+
+    * GetLongName suffix can be translated to Custom('longname_ua_<CASE>'):
         ** to better rule the [SCOPE.sCountry('actor').GetLongName] -> щоб ліпше правити [SCOPE.sCountry('actor').Custom('longname_ua_INST')]
         ** Having crushed [GetCountry('PIS').GetLongName] -> Розгромивши [GetCountry('PIS').Custom('longname_ua_ACC')]
-
-    * GetLongNameWithNoTooltip suffix can be adapted to grammatical case support as Custom('longname_ua_wntt_CASE'):
+    * GetLongNameWithNoTooltip suffix can be adapted to grammatical case support as Custom('longname_ua_wntt_CASE') (note that the 'wntt' stands for "with no tooltip"):
         ** has appealed to the [GetCountry('PAP').GetLongNameWithNoTooltip] for financial support -> звернувся до [GetCountry('PAP').Custom('longname_ua_wntt_GEN')] по грошову поміч
+        ** has fallen to our heinous enemies from the [from_country.GetLongName] -> впала під натиском мерзенних ворогів із [from_country.Custom('longname_ua_GEN')]
 
     * CountryScope.GetFlavorRank -> CountryScope.Custom('rank_ua_GEN') (or rank_ua_DAT, rank_ua_ACC, rank_ua_INST, rank_ua_PREP). For example:
-        ** [new_general.GetHerHis|U] reputation now precedes [new_general.GetHerHim] throughout the [ROOT.GetCountry.GetFlavorRank] -> [new_general.GetHerHim] тепер лине всім [ROOT.GetCountry.Custom('rank_ua_INST')]
+        ** [new_general.GetHerHim] flows throughout the [ROOT.GetCountry.GetFlavorRank] -> [new_general.GetHerHim] тепер лине [ROOT.GetCountry.Custom('rank_ua_INST')]
+        *** Note that we should drop various constructs like "лине всім" or "лине нашим", as we don't know the gender of the dynamic country name. So we simplify it to simply "лине", which has an added benefit of streamlining the language and making the sentence lighter and more natural.
         ** such public displays undermine the [ShowReligionAdjective('catholic')] character of the [ROOT.GetCountry.GetFlavorRank] -> такі привселюдні дійства підривають [ShowReligionAdjective('catholic')]ий характер [ROOT.GetCountry.Custom('rank_ua_GEN')]
         ** widespread acclaim across the [ROOT.GetCountry.GetFlavorRank] -> широке визнання по всьому [ROOT.GetCountry.Custom('rank_ua_INST')]
 
+When dealing with countries:
+    * Attempt to avoid inserting unnecessary "країна", "держава", "князівство" if using a grammatical case suffices.
+    * Prefer "країна" as a default country/state translation, situationally "князівство" if clearly about medium and smaller entities or in territories where it's an established word. Reserve "держава" only for major states, or when a developed bureaucracy or state apparatus is implied or discussed.
 
-## Location, Province, Area, Region Names and Grammatical Cases
+
+## Country "in" Preposition
+
+Ukrainian language allows to situationally change certain letters for better, smoother sounding - a property known as "чергування звуків", "правила милозвучности". On of the most common cases is preposition "in", which can be translated either as "у" or "в". Since country names are dynamic, we can not guess the best letter in advance. However, we can script a dynamic preposition in as `[CountryScope.Custom('preposition_uv')]`. This only applies to standard country names, NOT longnames or ranks. For example:
+    * Становище зі зростанням кількости претендентів [actor.Custom('preposition_uv')] [actor.Custom('rank_ua_PREP')|l]
+    * що [GetCountry('MAJ').Custom('preposition_uv')] [GetCountry('MAJ').Custom('rank_ua_PREP')|l] почалася страшна смута
+    * стане важким випробуванням для всіх #TOOLTIP:RELIGION,$orthodox_tt$,X #L православних#!#! [ROOT.GetCountry.Custom('preposition_uv')] #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#!
+    * один із головних прибічників анти#L [target_country.GetAdjective|l]ої#! політики [ROOT.GetCountry.Custom('preposition_uv')] [ROOT.GetCountry.Custom('CL_PREP')]
+
+
+## Location, Province, Area, Region, Continent Names and Grammatical Cases
 
 Localization engine does not support grammatical cases for location, province, area, region names. If the name in a sentence is not in the nominative case, its translation should be prepended with the appropriate word - місцевість, провінція, область, регіон - in the appropriate case. For example:
     * build new lives in [target_province.GetName] -> почати нове життя у провінції [target_province.GetName]
     * reports of people from [origin_province.GetName] -> звістки про людей із провінції [origin_province.GetName]
-Note: DO NOT apply these instructions to estates (стани)! Estates will have their own separate treatment and are outside the scope of this run.
+Note: DO NOT apply these instructions to estates (стани) and pop types! Estates will have their own separate treatment and are outside the scope of this run.
 
-Locations should use a dedicated location rank custom localization instead of "місцевість", if location scope is available:
+Locations should use a dedicated location rank custom localization instead of "місцевість", if location scope is available and a non-Nominative case is required:
     * miracle said to have occured in [target_location.GetName] -> диво, яке нібито сталося в [target_location.Custom('LR_PREP')] [target_location.GetName] (which will be resolved to "в містечку/поселенні Назва" by localization engine)
+    * palm irrigation within the [target_location.GetName] -> зрошення пальм у межах [target_location.Custom('LR_GEN')] [target_location.GetName]
+    * proven to be a major boon for the peasants of [target_location.GetNameWithNoTooltip] -> стало справжнім порятунком для селян [target_location.Custom('LR_GEN')] [target_location.GetNameWithNoTooltip]
+    * similar improvements can be made in the [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip] -> подібні поліпшення можна втілити і у [ROOT.GetCountry.GetCapital.Custom('LR_GEN')] [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]
+    ** Note that for capital scope it might be appropriate to replace location rank with the word "столиця", if it's appropriate within the context and won't lead to repetition: подібні поліпшення можна втілити і у столиці [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]
+This also applies specifically to location ranks, declared as "GetRank.GetName":
+    * [target_location.GetRank.GetName] -> [target_location.Custom('LR_DAT')]
 
-If a specific name is declared, and its translated case is not nominative, a custom tooltip should be used to write it in the appropriate case in the form `#TOOLTIP:REGION,region_name,X #L Translated Name#!#!`:
+If a specific name is declared, and its translated case is not nominative, a custom tooltip should be used to write it in the appropriate case in the form `#TOOLTIP:REGION,region_name,X #L Translated Name#!#!`. Below are some examples:
     * Can only be built in [ShowLocationName('munich')] -> Можна побудувати лише в #TOOLTIP:LOCATION,munich,X #L Мюнхені#!#!
     * was forced to surrender the [ShowProvinceDefinitionName('roman_flanders_province')] -> була змушена поступитися #TOOLTIP:PROVINCE_DEFINITION,roman_flanders_province,X #L Римською Фландрією#!#!
     * the lands of [ShowAreaName('bohemia_area')] -> землі #TOOLTIP:AREA,bohemia_area,X #L Богемії#!#!
     * from [ShowRegionName('italy_region')] -> з #TOOLTIP:REGION,italy_region,X #L Італії#!#!
+    * [ShowContinentName('europe')], [ShowContinentName('asia')] -> #TOOLTIP:CONTINENT,europe,X #L Європу#!#!, #TOOLTIP:CONTINENT,asia,X #L Азії#!#!
+    * [ShowInstitutionName('renaissance')] -> #TOOLTIP:INSTITUTION,renaissance,X #L Відродженням#!#!
+
+Tooltips can also be used to switch case to make the sentence more natural and appropriate for literary Ukrainian language. For example:
+    * far beyond the borders of [ShowAreaNameWithNoTooltip('galicia_area')] -> далеко за межами #TOOLTIP:AREA,galicia_area,X #L галісійської#! землі (or simply "Галісії")
+
+In some cases specific areas or regions are scripted in a variable form of `$<region_name>$`, for example `$india$`. In such cases, if region name is recognizable, it is perfectly fine to replace the variable declaration with direct translation:
+    * Speak to them of $india$ -> Розповісти їм про Індію
+
+In some cases variables are dynamic, and should be scripted arround accordingly - as if they were always in nominative case:
+    * Our colonists in $PROVINCE$ have established a foothold at $LOCATION$ -> Наші поселенці у провінції $PROVINCE$ закріпилися в місцевості $LOCATION$
+
+
+## Tooltips for Grammatical Cases
+
+Tooltips can be used to apply grammatical cases or transform to adjective forms to many other entities in a fashion identical to locations, provinces, areas, regions. Do it when a concrete entity is specified and a non-nominative case or an adjective form is required. Below is a list of supported entity types:
+
+    * [ShowCultureName('culture_name')] -> #TOOLTIP:CULTURE,$culture_name_tt$,X #L culture name translation#!#!
+        ** !NOTE that culture specifically uses a special ID form in tooltip - `$culture_name_tt$` instead of simple `culture_name`
+        ** Can also be used to convert culture adjectives to any required more form. ESPECIALLY and most frequently to noun forms like "баски", "чехів", "козакам". Some examples of using culture tooltips to adapt translations
+            *** [ShowCultureName('tunisian')] suzerainty -> зверхність #TOOLTIP:CULTURE,$tunisian_tt$,X #L тунісців#!#!
+            *** the Cape that the [ShowCultureName('portuguese')] aptly named the Cabo das Tormentas -> того самого мису, який #TOOLTIP:CULTURE,$portuguese_tt$,X #L португальці#!#! влучно назвали Cabo das Tormentas («Мис Бур»)
+            *** "#TOOLTIP:CULTURE,$cossack_culture_tt$,X #L козацтво#!#!"
+
+    * [ShowCultureGroup('chinese_group')] -> #TOOLTIP:CULTUREGROUP,chinese_group,X #L китайських#!#!
+        ** Custom tooltips can also be used to apply any form necessary to a culture group to make the sentence more natural and appropriate of literary Ukrainian language, for example:
+            *** escaping the wrath of the [ShowCultureGroupName('iberian_group')] -> уникнути люті #TOOLTIP:CULTUREGROUP,iberian_group,X #L іберійців#!#! NOT '(народи) іберійської групи/культури'; using a simple straightforward translation taking advantage of the freedom that custom tooltip text allows
+
+    * [ShowReligionName('judaism')] -> #TOOLTIP:RELIGION,$judaism_tt$,X #L юдеїв#!#!
+        ** !NOTE that religion specifically uses a special ID form in tooltip - `$judaism_tt$` instead of simple `judaism`
+    * [ShowReligionGroupName('muslim')] -> #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламі#!#!
+
+    * [ShowVegetationName('desert')] -> #TOOLTIP:VEGETATION,desert,X #L пустельний#!#!
+    * gaining access to the [ShowScriptedGeographyName('mediterranean_sea_geography')] -> отримавши доступ до #TOOLTIP:SCRIPTED_GEOGRAPHY,mediterranean_sea_geography #L Середземного моря#!#!
+    * make use of tooltips for specified buildings (ShowBuildingTypeName, ShowBuildingTypeNameWithNoTooltip):
+        * Maintain [ShowBuildingTypeName('maghreb_palm_irrigation')] -> Утримувати #TOOLTIP:BUILDING_TYPE,maghreb_palm_irrigation,X #L мережу зрошення пальм#!#!
+        * At a [ShowBuildingTypeName('caravanserai')] on the road east -> У #TOOLTIP:BUILDING_TYPE,caravanserai,X #L караван-сараї#!#! на шляху на схід
+    * make use of trade good tooltips freely (ShowGoodsName, ShowGoodsNameWithNoTooltip):
+        ** [ShowGoodsName('good_name')] -> #TOOLTIP:GOODS,good_name,X #L good name translation#!#!
+        ** not enough [ShowGoodsName('silk')] -> бракує #TOOLTIP:GOODS,silk,X #L шовку#!#!
+        ** for [ShowGoodsName('goods_gold')] dust, [ShowGoodsName('slaves_goods')], and [ShowGoodsName('ivory')] -> за #TOOLTIP:GOODS,goods_gold,X #L золотий#!#! пісок, #TOOLTIP:GOODS,slaves_goods,X #L невільників#!#! та #TOOLTIP:GOODS,ivory,X #L слонову кістку#!#!
+    * international organizations:
+        ** Some at [ROOT.GetCountry.GetGovernment.GetCourtTitle] marvel at how far the reach of the [GetInternationalOrganization('middle_kingdom').GetName] now extends. -> Дехто при дворі дивується тому, як далеко нині сягає рука #TOOLTIP:INTERNATIONAL_ORGANIZATION,$middle_kingdom_tt$,X #L Серединної Країни#!#!.
+        ** знаходяться в самому серці германської #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської імперії#!#!
+
+    * [ShowModifier('global_population_capacity_modifier')] -> #TOOLTIP:MODIFIER_TYPE,global_population_capacity_modifier,X #P #V межі населення#!#!
+
+
+## WithNoTooltip Declarations
+
+Declarations ending with "WithNoTooltip" suffix should not be translated using `#TOOLTIP:...` syntax. Instead, if a concrete name is specified, such as 'silk' (for trade good silk), 'FRA' (for country tag of France), 'iberia_region' (for region id of Iberia), iberian_group (for culture group) and so on, simply apply a straightforward translation, if a non-nominative case is required: шовку, Францією, Іберії, іберійців, etc. Remember that culture and culture group names are in the adjective form. For example:
+    * Traditions of the [ShowCultureGroupNameWithNoTooltip('amazigh_group')] People -> "Звичаї амазигів" OR "[ShowCultureGroupNameWithNoTooltip('amazigh_group')] звичаї" OR "Звичаї [ShowCultureGroupNameWithNoTooltip('amazigh_group')|l]их народів"
+    * Establish a major [ShowBuildingTypeNameWithNoTooltip('por_feitoria')] -> Заснувати велику фейторію
+
+
+## Always Keep in Nominative Case
+
+Some constructs cannot be customized to use a grammatical case other than nominative. In such cases rephrase the sentence in such a way that the entity was in nominative case. Only if such a transformation proves to be to challenging, or resulting sentence becomes too cumbersome, we might fallback to using an inappropriate nominative case as a lesser of two evils. Examples of such cases:
+
+    * Declarations ending with "GetCourtTitle", for example: [ROOT.GetCountry.GetGovernment.GetCourtTitle]. Treat such declarations as if they were always resolved to the word "двір" (court), and rephrase accordingly.
+        ** If "GetCourtTitle" has to be in case other than nominative, replace the whole construct with a simple word "двір" ("двору", "при дворі" and so on), and replace constructs like "members of the court" with "придворні" ("придворні радники", "деякі придворні", "дехто при дворі" and so on). Try to keep the sentence natural and don't try to rephrase it just for the sake of "GetCourtTitle" (replace with "двір" and its cases if necessary).
+        ** It seems that in practice this often results in a construct similar to `деякі радники, що складають наш [ROOT.GetCountry.GetGovernment.GetCourtTitle], радять`. It has two issues. First, a tautology "радники ... радять", which can be replaced with "радники ... пропонують". And second, it's too bloated. If the sentence allows, attempt to simplify: "(наш) [ROOT.GetCountry.GetGovernment.GetCourtTitle] радить/пропонує".
+        ** Sometimes translations produce a result like `двір/двору [COUNTRY.GetGovernment.GetCourtTitle|l]`. It's a clear error, as it will be resolved to "двір двір", "двору двір" and so on. So make sure that GetCourtTitle declaration isn't preceded by "двір" in some fashion.
+
+    * Character (and in particular ruler) names, e.g. various scopes that end with ruler.GetName, Character.GetName, target_artist.GetLastName in one form or the other. We cannot apply grammatical cases to character names, therefore translations have to work around it by rephrasing sentences to keep names in nominative case. If necessary, use helper words such as "діяч", "особа", "посадовець", "полководець", "правитель" and so on.
+
+    * GetRulerTitle - we don't have scripts to apply grammatical cases to ruler titles. The only way to accommodate is to rephrase the sentence to keep it in nominative case.
+
+    * God names, e.g. `[ROOT.GetCountry.GetReligion.GetGodName|U]`.
+
+    * Modifiers, e.g. `зростають залежно від зміни нашого показника «[ShowModifierTypeName('monthly_towards_innovative')]»`, `та [Concept('modifier', 'модифікатора')|e] «[ShowModifierTypeName('town_upgrade_cost_modifier')]»`.
+
+    * War names, e.g. `вийдемо з конфлікту «[WAR.GetName]»`, `У війні «[target_war.GetName]» нам буде доступна`.
+
+If you're adding a leading specifying word to leave a dynamic entity in nominative case, it is often appropriate to use guillemets («») around the entity name. We're using guillements, because single quotes are often used in scripts and double quotes are inconvenient to encode in yaml. It is commonly used with war names, modifiers and any other cases where game concepts are explained and a specific parameter is described. Some valid examples:
+    * здобудемо перемогу у війні «[target_war.GetName]»!
+    * вибір торгового шляху надасть «[ShowModifier('eastern_route_open')]»
+
+
+
+# Country and Rank Ending Scripting
+
+## Country Endings
+
+Since country names are dynamic, Ukrainian language expects gender and grammatical case-based endings from surrounding words. For example, "Франція перемогла", but "Нідерланди перемогли", "Київ переміг", "Марокко перемогло". These can be scripted off CountryScope as a `Custom` ending localization, such as `CountryScope.Custom('end_vlaloly')`, `CountryScope.Custom('endlong_yeyu')`, etc.
+
+If a country scope is an ordinary name or a custom grammatical case, dynamic ending has a form of `end_<ending>`. If a country's long name is used (GetLongName, GetLongNameWithNoTooltip), dynamic ending has a form of `endlong_<ending>`.
+
+The full list of supported country endings is in the table below:
+| Key | Dynamic Endings (UKR) | Application examples |
+| :--- | :--- | :--- |
+| yiaei | -ий, -а, -е, -і | численн[ий,а,е,і], [ий,а,е,і] |
+| etsautsa | -еться, уться | клян[еться, уться] |
+| eut | -е, -уть | змож[е,уть], бер[е,уть], почн[е,уть] |
+| vlaloly | -в, -ла, -ло, -ли | запроси[в,ла,ло,ли], погоди[в,ла,ло,ли]ся |
+| yeyu | -є, -ю | вимага[є,ю] - вимагає/вимагають, б’[є,ють] |
+| yeyut | -є, -ють | вимага[є,ють] - вимагає/вимагають, б’[є,ють] |
+| yityat | -їть, -ять | непоко[їть,ять]ся - note how "ся" follows dynamic ending here |
+| ytat | -ить, -ать | бач[ить,ать], скарж[ить,ать]ся, служ[ить,ать] |
+| ytlyat | -ить, -лять | зроб[ить,лять], став[ить,лять]ся - note how "ся" follows dynamic ending here |
+| ytyat | -ить, -ять | прос[ить,ять], вір[ить,ять], ввод[ить,ять] |
+
+Some examples of proper translations:
+    * [target_country.GetLongName] погоди[target_country.Custom('endlong_vlaloly')]ся
+    * [COUNTRY.GetName] мож[COUNTRY.Custom('end_eut')] бути закликан[COUNTRY.Custom('end_yiaei')] до зброї
+    * [COUNTRY.GetName] прихильно став[COUNTRY.Custom('end_ytlyat')]ся до #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!
+    * [target.GetName] володі[target.Custom('end_yeyut')] [Concept('location', 'місцевістю')|e]
+    * [SCOPE.sCountry('actor').GetName] примушу[SCOPE.sCountry('actor').Custom('end_yeyut')] округ [SCOPE.sImperialCircle('target').GetName] проголосувати проти імперської пропозиції.
+    * [SCOPE.sCountry('actor').GetName] зверта[SCOPE.sCountry('actor').Custom('end_yeyu')]ться до нас
+    * і тепер його дотриму[GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('var_east_country').GetCountry.Custom('endlong_yeyu')]ться лише [GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('var_east_country').GetCountry.GetLongName]
+    * нагадає їм, що [actor.GetLongName] як і раніше сто[actor.Custom('endlong_yityat')] на сторожі істинної віри
+    * Водночас [athens_country.GetLongName] з року в рік виявля[athens_country.Custom('endlong_yeyut')] усе більше ворожости
+    * [COUNTRY.GetName] володі[COUNTRY.Custom('end_yeyut')] статусом «[HEGEMONY.GetNameWithNoTooltip]» з $DATE$ і автоматично лиш[COUNTRY.Custom('end_ytat')]ся його, якщо:
+    * [SCOPE.sCountry('actor').GetName] ввод[SCOPE.sCountry('actor').Custom('end_ytyat')] земський мир
+    * [ROOT.GetCountry.GetName] поверн[ROOT.GetCountry.Custom('end_etsautsa')] до статусу [Concept('subject', 'васала')|e]
+    * [target_country.GetName] відмовля[target_country.Custom('end_yeyu')]ться
+
+## Rank Endings
+
+The same applies to country ranks - the same list of supported endings, but the `Custom` form is `CountryScope.Custom(endrank_<ending>)`.
+
+Some examples of proper translations:
+    * Уже кілька століть [GetCountry('BYZ').GetFlavorRank|l] перебува[GetCountry('BYZ').Custom('endrank_yeyut')] в занепаді
+    * [ROOT.GetCountry.GetFlavorRank|l] знову мож[ROOT.GetCountry.Custom('endrank_eut')] дати відсіч ворогам
+    * [ROOT.GetCountry.GetFlavorRank|l] виход[ROOT.GetCountry.Custom('endrank_ytyat')] із глухої оборони
+    * Дім [scope_ruler.GetDynasty.GetName] править [ROOT.GetCountry.Custom('longname_ua_INST')] з тих самих пір, як [ROOT.GetCountry.GetFlavorRank|l] зда[ROOT.GetCountry.Custom('endrank_vlaloly')]ся #TOOLTIP:CULTURE,$catalan_tt$,X #L Каталонській#!#! дружині та присягну[ROOT.GetCountry.Custom('endrank_vlaloly')] на вірність [sic_country.Custom('longname_ua_DAT')] у 1311 році.
+
+
+For both country and rank endings, if an ending missing from the list is required, rephrase the sentence to make use of an available ending.
+
+
+# Characters and Genders
+
+Ukrainian language can have different forms of words associated with characters based on their genders. Since characters are dynamic and gender is not known in advance, sometimes we have to script around it.
+
+The single most used script to deal with it is a `[Select_CString(CharacterScope.IsFemale('text for females', 'text for males'))]`. Here character scope can take on of multiple forms: GetCharacter, CHARACTER, target_character, GetRuler and so on. And text for (fe)males can be either complete words, parts of words (like endings) or even whole expressions.
+
+Below are other available useful character-based scripts. Note that unline most other definitions these are lower-case by default, and you have to explicitly specify `U` to get the upper-case version if necessary.
+    * `[CharacterScope.GetHeSheFormal]` is a formal version that could involve rank or an official address like "її ясновельможність". In most cases this is the default version to be used when talking about court characters, officials, royalty, etc.
+    * `[CharacterScope.GetSheHe]` (equivalent to `[CharacterScope.GetHeShe]`) is dynamically resolved to "він"/"вона" and could be used in narrative texts to dynamically replace simple "his/her", ot when talking about commoners.
+    * `[CharacterScope.GetHerHis]` (equivalent to `[CharacterScope.GetHisHer]`) is dynamically resolved to "його"/"її".
+    * `[CharacterScope.GetHerHim]` (equivalent to `[CharacterScope.GetHimHer]`) is dynamically resolved to "йому"/"їй".
+    * `[CharacterScope.GetHimHerself]` is dynamically resolved to "сам"/"сама".
+
+Once again, GetHerHis - його/її, GetHerHim - йому/їй. This means that sometimes you'd have to change these when translating:
+    * Send [target_leader.GetHerHim] to the scholars and libraries above all else. -> Понад усе спрямувати [target_leader.GetHerHis] до вчених і книгозбірень.
+    * The great courts of [ShowRegionNameWithNoTooltip('italy_region')] will teach [target_leader.GetHerHim] what books cannot. -> Величні двори Італії навчать [target_leader.GetHerHis] того, чого не розкажуть книги.
+    * A canon of the cathedral meets [target_ruler.GetHimHer] at the gate -> Канонік собору зустрічає [target_ruler.GetHerHis] біля брами
+Sometimes you'd have to replace these with customized IsFemale scripts:
+    * and the great basilica rises before [target_ruler.GetHimHer] -> і перед [Select_CString(target_ruler.IsFemale('нею', 'ним'))] постає велична базиліка
+    * is not lost on [target_ruler.GetHimHer] -> не лишається [Select_CString(target_ruler.IsFemale('нею', 'ним'))] непоміченою
+Sometimes there's a translation that fits both genders:
+    * How [target_leader.GetName] presents [target_leader.GetHimHerself] -> Те, як покаже себе [target_leader.GetName]
+
+Some examples of valid translations:
+    * [Select_CString(dead_character.IsFemale, 'Правительки', 'Правителя')]
+    * [SCOPE.etCharacter('recipient').GetTitledFirstName] — [Select_CString(ROOT.GetCharacter.Custom2.IsFemale,'моя', 'мій')] [ROOT.GetCharacter.Custom2('relation_to_me' , SCOPE.etC('recipient'))]
+    * [CHARACTER.GetHeSheFormal|U] [Select_CString(CHARACTER.IsFemale,'загинула', 'загинув')], ведучи війська на битву в [SCOPE.sLocation('location').Custom('LR_PREP')|l] [SCOPE.sLocation('location').GetName].
+    * [CHARACTER.GetName] одружен[CHARACTER.IsFemale, 'а', 'ий')] з [TARGET_CHARACTER.GetName]
+    * [recipient.GetName] віднині є [Select_CString(SCOPE.sCharacter('recipient').IsFemale,'спадкоємицею', 'спадкоємцем')].
+    * [CHARACTER.GetHeSheFormal|U] [Select_CString(CHARACTER.IsFemale,'впала', 'впав')] зі східців і [Select_CString(CHARACTER.IsFemale,'розбилася', 'розбився')] на смерть
+    * [Select_CString(CHARACTER.IsFemale, 'Вона була горбатою', 'Він був горбатим')]
+    * [CHARACTER.GetName] одружен[CHARACTER.IsFemale, 'а', 'ий')] з [TARGET_CHARACTER.GetName]
+    * Ваша Високосте, я [Player.GetGovernment.CalcBestRepresentativeForPlaystyle('diplomatic').GetName], [Select_CString(Player.GetGovernment.CalcBestRepresentativeForPlaystyle('diplomatic').IsFemale, 'ваша політична радниця і смиренна', 'ваш політичний радник і смиренний')] слуга
+    * нещодавні зазіхання, які вчини[target_character.IsFemale('ла', 'в')] [target_character.GetName] на споконвічні [ROOT.GetCountry.GetCulture.GetName]і землі, посіяли смуту по всій [ROOT.GetCountry.Custom('rank_ua_PREP')]
+    * Хоча багато хто підозрював, що [target_character.GetName] — честолюбн[Select_CString(target_character.IsFemale, 'а', 'ий')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l]
+
+
+# Dynasties
+
+Dynasty names are normally resolved to nominative plural case, e.g. "Габсбурги", "Рюриковичі". Translate accordingly:
+    * In the wake of the fall of the Almohads, the [ShowDynastyName('marinid_dynasty')] and [ShowDynastyName('hafsid_dynasty')] both amassed considerable power in the [ShowRegionName('maghreb_region')]. -> Після падіння Альмохадів [ShowDynastyName('marinid_dynasty')] та [ShowDynastyName('hafsid_dynasty')] зосередили у своїх руках значну владу в #TOOLTIP:REGION,maghreb_region,X #L Магрибі#!#!.
+    * the recent military campaigns by the [our_ruler.GetDynasty.GetName] -> нещодавні воєнні кампанії, які провели [our_ruler.GetDynasty.GetName]
+
+If a dynasty name is specified, grammatical cases and other forms can be specified with a dynasty custom tooltip: `#TOOLTIP:DYNASTY,$premyslid_dynasty_tt$,X #L Пржемисловичів#!#!`. (Note the special form of id here: `$<dynasty_id>_tt$`.) For example:
+    * але тепер до влади прийшов дім #TOOLTIP:DYNASTY,$luxembourg_dynasty_tt$,X #L Люксембургів#!#!
+    * першого синьйора Мілана з дому #TOOLTIP:DYNASTY,$visconti_dynasty_tt$,X #L Вісконті#!#!
+    * за часів правління дому #TOOLTIP:DYNASTY,$nemanjic_dynasty_tt$,X #L Неманичів#!#!
+    * в дусі #TOOLTIP:DYNASTY,$tughlaq_dynasty_tt$,X #L туглакської#!#! архітектури
+    * [GetCountry('MFA').GetAdjective|l]і #TOOLTIP:DYNASTY,$palaiologos_dynasty_tt$,X #L Палеологи#!#! зберегли відданість своїй #TOOLTIP:CULTURE,$greek_culture_tt$,X #L грецькій#!#! спадщині
+
+If a dynasty name is dynamic and a different case is required, either rephrase the sentence to put dynasty name into the nominative, or use a prefix "(правлячий) дім", "правлячий рід" in necessary case. A construct like `дім [ShowDynastyName('hafsid_dynasty')]`, `правлячий рід [ShowDynastyName('premyslid_dynasty')]` are a perfectly acceptable compromise.
+
+
+# Estate Ending Scripting
+
+Your job is to identify words that require dynamic endings, and insert appropriate scripts in place
+of dynamic endings. If you are not sure which ending to pick, instead of <estate_name>_<ending>
+use POSTEDIT_ESTATE_ENDING, e.g.: `[ROOT.GetCountry.Custom('POSTEDIT_ESTATE_ENDING')]`. The following sections describe estate endings in detail.
+
+
+## Estate Scripting Overview
+
+The game can script dynamic estate names. In Ukrainian language, various verbs and adjectives can have different endings depending on specific estate name. For example: "знать вимагала", "духовенство вимагало", "простолюд вимагав", "міщани вимагали". Localization engine allows us to specify dynamic endings for such words associated with estates. Such scripts usually have a form of [<country_scope>.Custom('<estate_ending>')|e]. Let's talk about country_scope and estate_ending.
+
+Estates are usually declared off of a country scope:
+* `[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')]`
+* `[GetCountry('FRA').GetGovernment.GetEstateName('nobles_estate')]`
+* `[SCOPE.sCountry('actor').GetGovernment.GetEstateName('clergy_estate')|l]`
+* `[target_country.GetGovernment.GetEstateName('crown_estate')|l]`
+IMPORTANT! Added dynamic endings should ALWAYS USE THE SAME SCOPE AS THE ESTATE THEY ARE APPLIED TO! For example, for [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] the ending should be scoped to ROOT.GetCountry (e.g. [ROOT.GetCountry.Custom('nobles_yeyut')|l], [ROOT.GetCountry.Custom('nobles_vlaloly')|l], etc). The same holds for any and every other potential country scope of an estate we are enriching.
+
+Here are several ways to scope the script to a country ("ROOT.GetCountry", "GetCountry('FRA')",
+"SCOPE.sCountry('actor')", "target_country"). There could be more. No matter the way to pick the scope,
+country scope is followed by GetGovernment.GetEstateName/GetEstateNameWithNoTooltip.
+The list of supported estates is limited to:
+- crown_estate
+- nobles_estate
+- clergy_estate
+- burghers_estate
+- peasants_estate
+- cossacks_estate
+- tribes_estate
+- dhimmi_estate
+
+
+## Estate Names and Pop Types not in Nominative Case
+
+If translated estate names are clearly not in nominative case, then their declaration should be replaced with tooltips of the following form (use grammatically appropriate case and capitalization fitting the sentence, these are just examples):
+- #TOOLTIP:ESTATE_TYPE,crown_estate,X #L короною#!#!
+- #TOOLTIP:ESTATE_TYPE,nobles_estate,X #L знаті#!#!
+- #TOOLTIP:ESTATE_TYPE,clergy_estate,X #L духовенства#!#!
+- #TOOLTIP:ESTATE_TYPE,burghers_estate,X #L містянам#!#!
+- #TOOLTIP:ESTATE_TYPE,peasants_estate,X #L простолюду#!#!
+- #TOOLTIP:ESTATE_TYPE,cossacks_estate,X #L козаків#!#!
+- #TOOLTIP:ESTATE_TYPE,tribes_estate,X #L племен#!#!
+- #TOOLTIP:ESTATE_TYPE,dhimmi_estate,X #L зімміїв#!#!
+
+- #TOOLTIP:POPTYPE,nobles,X #L знаті#!#!
+- #TOOLTIP:POPTYPE,clergy,X #L духовенству#!#!
+- #TOOLTIP:POPTYPE,burghers,X #L містянам#!#!
+- #TOOLTIP:POPTYPE,soldiers,X #L воякам#!#!
+- #TOOLTIP:POPTYPE,laborers,X #L робітниках#!#!
+- #TOOLTIP:POPTYPE,peasants,X #L селянами#!#!
+- #TOOLTIP:POPTYPE,tribes,X #L племенам#!#!
+- #TOOLTIP:POPTYPE,slaves,X #L невільниками#!#!
+
+These are default estate names. However,
+    * switch "корона" to "правителі" when the text is clearly not about monarchies
+    * peasant estate can encompass peasants, laborers and slaves, hence "простолюд",
+
+If an estate in non nominative case is detected and replaced by a tooltip, no further associated dynamic ending scripting is required. Simply make sure that associated words have correct case and endings matching the form used in the tooltip.
+
+The same mechanism works with Pop Types declared as [ShowPopTypeName('nobles')|l]. They can be transformed as #TOOLTIP:POPTYPE,nobles,X #L знаті#!#!, #TOOLTIP:POPTYPE,clergy,X #L духовенству#!#!, #TOOLTIP:POPTYPE,slaves,X #L невільниками#!#!, #TOOLTIP:POPTYPE,soldiers,X #L вояками#!#!, #TOOLTIP:POPTYPE,laborers,X #L працівниках#!#! and so on.
+
+
+## Estate Ending Scripting
+
+DYNAMIC ESTATE ENDING SCRIPTS SHOULD ONLY BE APPLIED TO *SENTENCES* WHERE A DYNAMIC ESTATE NAME IS DECLARED! Otherwise, standard translations hold.
+
+"<estate_ending>" can take the form of <estate_name>_<dynamic_endings>, where:
+* <estate_name> is one of the supported estates and should match the estate for which we pick the ending,
+i.e. it has to be one of 'crown', 'nobles', 'clergy', 'burghers', 'peasants'.
+* <dynamic_endings> is a list of dynamic endings that could be picked from. For example, 'yeyut' will be
+substitued with either 'є' or 'ють', in a case such as "знать, духовенство, простолюд вимагає",
+"міщани вимагають". In this case dynamic ending should be scripted as:
+`[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] вимага[ROOT.GetCountry.Custom('peasants_yeyut')] більше прав`
+
+The full list of supported dynamic ending combinations is in the following table:
+| Key | Dynamic Endings (UKR) | Application examples |
+| :--- | :--- | :--- |
+| yeyut | -є, -ють | вимага[є,ють] - вимагає/вимагають, б’[є,ють] |
+| vlaloly | -в, -ла, -ло, -ли | запроси[в,ла,ло,ли] - запросив/запросила/запросило/запросили |
+| yiaei | -ий, -а, -е, -і | численн[ий,а,е,і], задоволен[ий,а,е,і] |
+| aei | -, -а, -е, -і | наш[,а,е,і] |
+| eut | -е, -уть | змож[е,уть], бер[е,уть], почн[е,уть] |
+| ohooyiyh | -ого, -ої, -ого, -их | сам[ого,ої,ого,их] |
+| ihohlaloly | -іг, -огла, -огло, -огли | зм[іг,огла,огло,огли] |
+| ytyat | -ить, -ять | прос[ить,ять], вір[ить,ять] |
+| ytlyat | -ить, -лять | зроб[ить,лять], став[ить,лять]ся - note how "ся" follows dynamic ending here |
+| yityat | -їть, -ять | непоко[їть,ять]ся - note how "ся" follows dynamic ending here |
+| ytat | -ить, -ать | бач[ить,ать], скарж[ить,ать]ся, служ[ить,ать] |
+| yetsayutsa | -ється, -ються | спереча[ється,ються], посила[ється,ються], погоджу[ється,ються] |
+| etsautsa | -еться, -уться | клян[еться, уться] |
+| eyyaei | -ей, -я, -е, -і | ц[ей,я,е,і] |
+| ymoyuymy | -им, -ою, -им, -ими | сильн[им,ою,им,ими] |
+| iyyayei | -ий, -я, -є, -і | могутн[ій,я,є,і] |
+| ovlaloly | -ов, -ла, -ло, -ли | піш[ов,ла,ло,ли] - пішов/пішла/пішло/пішли |
+| essyasesi | -есь, -ся, -се, -сі | в[есь,ся,се,сі] - весь/вся/все/всі |
+| ennanoni | -ен, -на, -но, -ні | повин[ен,на,но,ні] |
+
+
+Two special cases:
+1. When original text uses "они" (вони) - no special endings are required. Translate everything associated with this "вони" in a standard way with no extra scripting. ("Вони вимагають", "вони запросили", "вони хочуть" and so on.)
+2. The text will frequently use a construct "многие (члены, представители) ...<estate>". Translate this as `численн[ROOT.GetCountry.Custom('<estate_name>_yiaei') [ROOT.GetCountry.GetGovernment.GetEstateName('<estate_name>_estate')]]` (scoping to the same country scope as the original estate). This has a benifit of allowing us to keep estate in the nominative case. For example:
+    * Many members of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('tribes_estate')] have requested -> Численн[ROOT.GetCountry.Custom(tribes_yiaei)] [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('tribes_estate')|l] звернулися з проханням
+
+
+## Overloaded Translation and "Members"
+
+The text will often use redundant language, such as "many members of the clergy estate", "influential members of the nobles estate", etc. In such cases simplify to put the estate name in nominative case if possible:
+    * influential members of the [GetCountry('SPA').GetGovernment.GetEstateName('nobles_estate')], впливові члени стану [GetCountry('SPA').GetGovernment.GetEstateName('nobles_estate')] -> впливов[GetCountry('SPA').Custom('nobles_yiaei')] [GetCountry('SPA').GetGovernment.GetEstateName('nobles_estate')]
+    * many members of the [SCOPE.sCountry('actor').GetGovernment.GetEstateName('clergy_estate')|l], багато представників стану [SCOPE.sCountry('actor').GetGovernment.GetEstateName('clergy_estate')|l] -> численн[SCOPE.sCountry('actor').Custom('clergy_yiaei')|l] [SCOPE.sCountry('actor').GetGovernment.GetEstateName('clergy_estate')|l]
+    * rich representatives of the [target_country.GetGovernment.GetEstateName('burghers_estate')|l], багаті представники стану [target_country.GetGovernment.GetEstateName('burghers_estate')|l] -> багат[target_country.Custom('burghers_yiaei')|l] [target_country.GetGovernment.GetEstateName('burghers_estate')|l]
+    * persecuted members of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')], пригноблені представники стану [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] -> пригноблен[ROOT.GetCountry.Custom('peasants_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')]
+
+
+## Validation
+
+When applying dynamic ending scripts, make sure that if they were to be replaced with a corresponding ending, the sentence would still be grammatically and syntactically correct. For example, we can reduce:
+    * original script: `Деяк[ROOT.GetCountry.Custom('nobles_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] самовільно захоплю[ROOT.GetCountry.Custom('nobles_yeyut')] велдоми або вирубу[ROOT.GetCountry.Custom('nobles_yeyut')] ліси без дозволу.`
+    * resolved script: `Деяка знать самовільно захоплює велдоми або вирубує ліси без дозволу.`
+Here resolved script is a proper correct sentence.
+
+In the following case:
+    * wrong original script: `[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] самовільно захопил[ROOT.GetCountry.Custom('nobles_vlaloly')] велдоми.`
+    * wrong resolved script: `Знать самовільно захопилла велдоми.`
+we get a wrong word "захопилла". Scripted sentence is wrong, and an excess "л" should be removed: "захопи[ROOT.GetCountry.Custom('nobles_vlaloly')]".
+
+Pay special attention to vlaloly endings. It seems to be a common mistake where an "л" or a "в" is erroneously left before the dynamic ending script:
+    * захопи[ROOT.GetCountry.Custom('nobles_vlaloly')], NOT захопил[ROOT.GetCountry.Custom('nobles_vlaloly')]
+    * вислови[ROOT.GetCountry.Custom('clergy_vlaloly')], NOT висловив[ROOT.GetCountry.Custom('clergy_vlaloly')]
+
+Every sentence that uses dynamic ending scripts should be validated in this fashion.
+
+
+## Foreign Names
+
+When original text calls for use of a foreign name for a certain concept, place and so on, add a Ukrainian translation in braces afterwards. For example:
+    * Cabo das Tormentas («Мис Бур»)
+
+
+## Examples
+
+Here are some examples of translations with appropriately inserted estate ending scripts:
+
+Source #1: `Некоторые [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] самовольно захватывают велдомы или вырубают леса без разрешения. Чтобы исправить это, [target_character.GetName] предлагает ввести юридический кодекс для наказания подобных преступлений. Новые законы установят единые правила обращения землевладельцев с подданными, а также защитят знатные семьи от произвола, к которому склонны мелкопоместные [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')].`
+Translation #1: `Деяк[ROOT.GetCountry.Custom('nobles_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] самовільно захоплю[ROOT.GetCountry.Custom('nobles_yeyut')] велдоми або вирубу[ROOT.GetCountry.Custom('nobles_yeyut')] ліси без дозволу. Щоб виправити це, [target_character.GetName] пропонує ввести юридичний кодекс для покарання подібних злочинів. Нові закони встановлять єдині закони поводження землевласників з підданими, а також захистять знатні родини від свавілля, до якого схильн[ROOT.GetCountry.Custom('nobles_yiaei')] дрібнопомісн[ROOT.GetCountry.Custom('nobles_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]`
+
+Source #2: `[target_character.GetName] формально властвует, но реальным влиянием обладают [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], действующие у [Select_CString(target_character.IsFemale,'неё', 'него')] за спиной. Они забирают долю со всех налогов, и это уже стало своего рода обычаем. Недавно [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] в очередной раз решили посягнуть на доход, который с таким трудом получает [ROOT.GetCountry.GetFlavorRank|l], и добились очередного снижения налогов для себя и своих покровителей.`
+Translation #2: `[target_character.GetName] формально панує, але реальний вплив ма[ROOT.GetCountry.Custom('nobles_yeyut')] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], що ді[ROOT.GetCountry.Custom('nobles_yeyut')] у [Select_CString(target_character.IsFemale,'неї', 'нього')] за спиною. Вони забирають частку з усіх податків, і це вже стало свого роду звичаєм. Нещодавно [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] вкотре виріши[ROOT.GetCountry.Custom('nobles_vlaloly')] зазіхнути на дохід, який з таким трудом отримує [ROOT.GetCountry.GetFlavorRank|l], і дом[ROOT.GetCountry.Custom('nobles_ihohlaloly')]ся чергового зниження податків для себе та своїх покровителів.`
+
+Source #3: `Хотя многие [scope_athens.GetAdjectiveWithNoTooltip|l]ие [scope_athens.GetGovernment.GetEstateName('nobles_estate')|l] с нетерпением ждут того момента, когда к власти придёт его наследник, регент [regent_of_athens.GetShortName] [Select_CString(regent_of_athens.IsFemale, 'решила', 'решил')] пойти иным путём.`
+Translation #3: `Хоча численн[scope_athens.Custom('nobles_yiaei')] [scope_athens.GetAdjectiveWithNoTooltip|l][scope_athens.Custom('nobles_yiaei')] [scope_athens.GetGovernment.GetEstateName('nobles_estate')|l] з нетерпінням чека[scope_athens.Custom('nobles_yeyut')] того моменту, коли до влади прийде його спадкоємець, регент [regent_of_athens.GetShortName] [Select_CString(regent_of_athens.IsFemale, 'вирішила', 'вирішив')] піти іншим шляхом.`
+
+Case #4: Note how here several estates are listed together collectively, therefore we do not need dynamic ending - together they are all plural "they" ("вони") for the purposes of ending forms. Specifically here we do not add dynamic add to "поставили" - it's a proper for for plural ("вони").
+Source #4: `На заседании [ROOT.GetCountry.Custom('parliament_ua_GEN')|l] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] и [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] задали вопрос, на который нам совсем не хочется отвечать.`
+Transaltion #4: `На засіданні [ROOT.GetCountry.Custom('parliament_ua_GEN')|l] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] та [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] поставили питання, на яке нам зовсім не хочеться відповідати.`
+
+Case #5: Complex scenario with ShowCulture
+Source #5: `[ShowCultureNameWithNoTooltip('tunisian')] [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] Meddling in Internal Affairs`
+Translation #5: `[ShowCultureNameWithNoTooltip('tunisian')][ROOT.GetCountry.Custom('nobles_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] втруча[ROOT.GetCountry.Custom('nobles_yetsayutsa')] у внутрішні справи`
+
+Case #6: Complex scenario with multiple endings
+Source #6: `many of the affected [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] have requested the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('tribes_estate')] pay for the damages`
+Translation #6: `численн[ROOT.GetCountry.Custom('burghers_yiaei')] потерпіл[ROOT.GetCountry.Custom('burghers_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] зажада[ROOT.GetCountry.Custom('burghers_vlaloly')], щоб [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('tribes_estate')] покри[ROOT.GetCountry.Custom('tribes_vlaloly')] збитки`
+
+Some examples of valid translations:
+    * [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('crown_estate')] не запам’ята[ROOT.GetCountry.Custom('crown_yetsayutsa')] своєю скупістю.
+
+
+
+# Valid Translation Examples
+
+Examples of putting scripting rules above into valid translations:
+    * Rising Support Amongst the [target_culture.GetNameWithNoTooltip] [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('tribes_estate')] -> Зростання підтримки серед [target_culture.GetNameWithNoTooltip|l]их #TOOLTIP:ESTATE_TYPE,tribes_estate,X #L племен#!#!
+    * Surprised by this outpouring of support from the [target_culture.GetNameWithNoTooltip], some members of the [ROOT.GetCountry.GetGovernment.GetCourtTitle] have suggested that [our_ruler.GetName] offer the full backing of the state and promote [target_culture.GetNameWithNoTooltip] interests throughout the [ShowRegionNameWithNoTooltip('maghreb_region')], while others have suggested that we leverage their fervent support instead. -> Здивований такою палкою підтримкою від [target_culture.GetNameWithNoTooltip]ого люду, наш [ROOT.GetCountry.GetGovernment.GetCourtTitle] розділився в думках: дехто пропонує, щоб [our_ruler.GetName] [Select_CString(our_ruler.IsFemale, 'надала', 'надав')] повне сприяння держави та [Select_CString(our_ruler.IsFemale, 'захищала', 'захищав')] [target_culture.GetNameWithNoTooltip]і інтереси по всьому Магрибу, тоді як інші радять скористатися цією відданістю.
+    * The growing relationship between the [target_culture.GetName] peoples and the [ROOT.GetCountry.GetCulture.GetName] elite has proven to be beneficial as [ROOT.GetCountry.GetAdjective] rule within the [ShowRegionName('maghreb_region')] has stabilized. -> Зближення [target_culture.GetName|l]ого люду та [ROOT.GetCountry.GetCulture.GetName|l]ої верхівки принесло добрі плоди, коли [ROOT.GetCountry.GetAdjective|l]а влада в #TOOLTIP:REGION,maghreb_region,X #L Магрибі#!#! стабілізувалася.
+    * However, some among the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] have urged [our_ruler.GetName] to reject the offer fearing yielding autonomy to the [target_culture.GetNameWithNoTooltip] [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('tribes_estate')] may ultimately be detrimental to our rule in the [ShowRegionNameWithNoTooltip('maghreb_region')]. -> Втім, деяк[ROOT.GetCountry.Custom('nobles_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] заклика[ROOT.GetCountry.Custom('nobles_ytyat')], щоб правитель [our_ruler.GetName] [Select_CString(our_ruler.IsFemale, 'відкинула', 'відкинув')] цю пропозицію, побоюючись, що надання вольностей, яких прагнуть [target_culture.GetNameWithNoTooltip][ROOT.GetCountry.Custom('tribes_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('tribes_estate')], може зрештою зашкодити нашому пануванню в Магрибі.
+    * Some in the [ROOT.GetCountry.GetGovernment.GetCourtTitle] fear this may be a ploy by the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('tribes_estate')] to curry influence from [our_ruler.GetName], however. -> Втім, наш [ROOT.GetCountry.GetGovernment.GetCourtTitle] не має одностайности: дехто побоюється, що це хитрощі, якими [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('tribes_estate')] намага[ROOT.GetCountry.Custom('tribes_yetsayutsa')] втертися в довіру до правителя [our_ruler.GetName].
 
 
 # Non-negotiable Output Contract
@@ -107,3 +538,5 @@ If a specific name is declared, and its translated case is not nominative, a cus
 # Translation Guidelines
 
 BELOW INSTRUCTIONS ARE TO BE USED AS TRANSLATION GUIDELINES ONLY. In case of any conflicts with above instructions, above instructions are to be followed.
+    * Treat "state" and "country" as outlined under "держава" section.
+    * Apply apostrophe properly as outlined below.

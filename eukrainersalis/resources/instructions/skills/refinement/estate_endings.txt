@@ -27,7 +27,7 @@ The list of supported estates is limited to:
 - peasants_estate
 
 
-## Estate Names not in Nominative Case
+## Estate Names and Pop Types not in Nominative Case
 
 If translated estate names are clearly not in nominative case, then their declaration should be replaced with tooltips of the following form (use grammatically appropriate case and capitalization fitting the sentence, these are just examples):
 - #TOOLTIP:ESTATE_TYPE,crown_estate,X #L Короною#!#!
@@ -39,6 +39,8 @@ If translated estate names are clearly not in nominative case, then their declar
 These are default estate names. However, switch "корона" to "правителі" when the text is clearly not about monarchies.
 
 If an estate in non nominative case is detected and replaced by a tooltip, no further associated dynamic ending scripting is required. Simply make sure that associated words have correct case and endings matching the form used in the tooltip.
+
+The same mechanism works with Pop Types declared as [ShowPopTypeName('nobles')|l]. They can be transformed as #TOOLTIP:POPTYPE,nobles,X #L знаті#!#!, #TOOLTIP:POPTYPE,clergy,X #L духовенству#!#!, #TOOLTIP:POPTYPE,slaves,X #L невільниками#!#!, #TOOLTIP:POPTYPE,soldiers,X #L вояками#!#!, #TOOLTIP:POPTYPE,laborers,X #L працівниках#!#! and so on.
 
 
 ## Estate Ending Scripting
