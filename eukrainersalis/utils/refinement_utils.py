@@ -46,11 +46,13 @@ def select_center_refinement(text: str) -> bool:
 
 
 def select_english_translation_refinement(text: str) -> bool:
-    normalized_text = re.sub(r'\$[^\$]+\$', '', text)
+    normalized_text = re.sub(r'#[^#]+#[^!]+#!#!', '', text)
+    normalized_text = re.sub(r'#[^#]+#!', '', normalized_text)
+    normalized_text = re.sub(r'\$[^\$]+\$', '', normalized_text)
     normalized_text = re.sub(r'\[[^\]]+\]', '', normalized_text)
-    normalized_text = re.sub(r'#[a-z_]+', '', normalized_text)
     normalized_text = normalized_text.replace("é", "e")
-    normalized_text = re.sub(r'[^a-z\s]', '', normalized_text)
+    # normalized_text = re.sub(r'[^a-z\sа-яіїєґ]', '', normalized_text)
+    normalized_text = re.sub(r'[\.,:;?!=+\-%#0-9«» —]', ' ', normalized_text)
     normalized_text = re.sub(r'\s+', ' ', normalized_text)
     normalized_text = normalized_text.strip()
     if len(normalized_text) == 0:
@@ -63,17 +65,19 @@ def select_english_translation_refinement(text: str) -> bool:
     # Ukrainian or Russian inside the translation.
     lang_codes = {l.lang for l in langs}
     # needs_translation = len(langs) == 1 and langs[0].lang == "en"
-    needs_translation = "ru" not in lang_codes and "uk" not in lang_codes
+
+    # Normalized Ukrainian text is often confused for Macedonian (mk) or Bulgarian (bg)
+    # by langdetect.
+    needs_translation = "ru" not in lang_codes and "uk" not in lang_codes and "mk" not in lang_codes and "bg" not in lang_codes
     if not needs_translation:
         return False
+    logger.debug(f"Discovered loc in need of translation, detected languages: {lang_codes}, text: {normalized_text}")
     return needs_translation
 
 
 def select_english_translation_file_refinement(text: str) -> bool:
     fdir, fname = os.path.split(text)
-    return fname.startswith("culture_iberian_events") or fname.startswith("culture_maghrebi_events") or \
-            fname.startswith("flavor_gra") or fname.startswith("flavor_mll") or fname.startswith("flavor_nav") or \
-            fname.startswith("flavor_por") or fname.startswith("flavor_tle") or fname.startswith("flavor_tun")
+    return fdir.endswith("expeditions")
 
 
 def select_estate_ending_refinement(text: str) -> bool:
