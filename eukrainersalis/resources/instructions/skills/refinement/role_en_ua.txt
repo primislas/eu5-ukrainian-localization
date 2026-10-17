@@ -197,11 +197,16 @@ Tooltips can be used to apply grammatical cases or transform to adjective forms 
 
     * [ShowVegetationName('desert')] -> #TOOLTIP:VEGETATION,desert,X #L пустельний#!#!
     * gaining access to the [ShowScriptedGeographyName('mediterranean_sea_geography')] -> отримавши доступ до #TOOLTIP:SCRIPTED_GEOGRAPHY,mediterranean_sea_geography #L Середземного моря#!#!
-    * [ShowBuildingTypeName('maghreb_palm_irrigation')] -> #TOOLTIP:BUILDING_TYPE,maghreb_palm_irrigation,X #L мережі зрошення пальм#!#!
-    * make use of trade good tooltips freely
+    * make use of tooltips for specified buildings (ShowBuildingTypeName, ShowBuildingTypeNameWithNoTooltip):
+        * Maintain [ShowBuildingTypeName('maghreb_palm_irrigation')] -> Утримувати #TOOLTIP:BUILDING_TYPE,maghreb_palm_irrigation,X #L мережу зрошення пальм#!#!
+        * At a [ShowBuildingTypeName('caravanserai')] on the road east -> У #TOOLTIP:BUILDING_TYPE,caravanserai,X #L караван-сараї#!#! на шляху на схід
+    * make use of trade good tooltips freely (ShowGoodsName, ShowGoodsNameWithNoTooltip):
         ** [ShowGoodsName('good_name')] -> #TOOLTIP:GOODS,good_name,X #L good name translation#!#!
         ** not enough [ShowGoodsName('silk')] -> бракує #TOOLTIP:GOODS,silk,X #L шовку#!#!
         ** for [ShowGoodsName('goods_gold')] dust, [ShowGoodsName('slaves_goods')], and [ShowGoodsName('ivory')] -> за #TOOLTIP:GOODS,goods_gold,X #L золотий#!#! пісок, #TOOLTIP:GOODS,slaves_goods,X #L невільників#!#! та #TOOLTIP:GOODS,ivory,X #L слонову кістку#!#!
+    * international organizations:
+        ** Some at [ROOT.GetCountry.GetGovernment.GetCourtTitle] marvel at how far the reach of the [GetInternationalOrganization('middle_kingdom').GetName] now extends. -> Дехто при дворі дивується тому, як далеко нині сягає рука #TOOLTIP:INTERNATIONAL_ORGANIZATION,$middle_kingdom_tt$,X #L Серединної Країни#!#!.
+        ** знаходяться в самому серці германської #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської імперії#!#!
 
     * [ShowModifier('global_population_capacity_modifier')] -> #TOOLTIP:MODIFIER_TYPE,global_population_capacity_modifier,X #P #V межі населення#!#!
 
@@ -300,10 +305,17 @@ Below are other available useful character-based scripts. Note that unline most 
     * `[CharacterScope.GetSheHe]` (equivalent to `[CharacterScope.GetHeShe]`) is dynamically resolved to "він"/"вона" and could be used in narrative texts to dynamically replace simple "his/her", ot when talking about commoners.
     * `[CharacterScope.GetHerHis]` (equivalent to `[CharacterScope.GetHisHer]`) is dynamically resolved to "його"/"її".
     * `[CharacterScope.GetHerHim]` (equivalent to `[CharacterScope.GetHimHer]`) is dynamically resolved to "йому"/"їй".
+    * `[CharacterScope.GetHimHerself]` is dynamically resolved to "сам"/"сама".
 
 Once again, GetHerHis - його/її, GetHerHim - йому/їй. This means that sometimes you'd have to change these when translating:
     * Send [target_leader.GetHerHim] to the scholars and libraries above all else. -> Понад усе спрямувати [target_leader.GetHerHis] до вчених і книгозбірень.
     * The great courts of [ShowRegionNameWithNoTooltip('italy_region')] will teach [target_leader.GetHerHim] what books cannot. -> Величні двори Італії навчать [target_leader.GetHerHis] того, чого не розкажуть книги.
+    * A canon of the cathedral meets [target_ruler.GetHimHer] at the gate -> Канонік собору зустрічає [target_ruler.GetHerHis] біля брами
+Sometimes you'd have to replace these with customized IsFemale scripts:
+    * and the great basilica rises before [target_ruler.GetHimHer] -> і перед [Select_CString(target_ruler.IsFemale('нею', 'ним'))] постає велична базиліка
+    * is not lost on [target_ruler.GetHimHer] -> не лишається [Select_CString(target_ruler.IsFemale('нею', 'ним'))] непоміченою
+Sometimes there's a translation that fits both genders:
+    * How [target_leader.GetName] presents [target_leader.GetHimHerself] -> Те, як покаже себе [target_leader.GetName]
 
 Some examples of valid translations:
     * [Select_CString(dead_character.IsFemale, 'Правительки', 'Правителя')]
