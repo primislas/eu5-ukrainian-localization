@@ -1028,7 +1028,7 @@
   swe_slash_and_burn_new_farms_action_progress: "[SCOPE.sProvince('target').GetTotalPopulation]@population!"
   swe_slash_and_burn_new_farms_action_progress_wordier: "$swe_slash_and_burn_new_farms_action_progress$"
   swe_slash_and_burn_new_farms_action_progress_tooltip: "Сукупне [Concept('population', 'населення')|e] провінції [SCOPE.sProvince('target').GetName]\n[SCOPE.sProvince('target').GetTotalPopulation]@population!"
-  swe_slash_and_burn_new_farms_action_progress_tooltip_1: "#T Поточний місяць#!\nPopulation Change: [SCOPE.sProvince('target').GetProvincePopulationChangeWithTooltip]\n[Concept('population_growth', 'Приріст населення')|e]: [SCOPE.sProvince('target').GetProvincePopGrowthWithTooltip]\n[Concept('migration_attraction', 'Міграційна привабливість')|e]: [SCOPE.sProvince('target').GetProvinceMigrationAttractionWithTooltip]"
+  swe_slash_and_burn_new_farms_action_progress_tooltip_1: "#T Поточний місяць#!\nЗміна населення: [SCOPE.sProvince('target').GetProvincePopulationChangeWithTooltip]\n[Concept('population_growth', 'Приріст населення')|e]: [SCOPE.sProvince('target').GetProvincePopGrowthWithTooltip]\n[Concept('migration_attraction', 'Міграційна привабливість')|e]: [SCOPE.sProvince('target').GetProvinceMigrationAttractionWithTooltip]"
   swe_slash_and_burn_new_farms_select_province: "Оберіть, яку провінцію підтримати"
   kbo_pop_promote_action: "Рівноправна інтеграція"
   kbo_pop_promote_action_desc: "Завдяки цій дії наше [Concept('population', 'населення')|e] зможе швидше отримати [Concept('promoted', 'підвищення')|e] та [Concept('assimilated', 'асимілюватися')|e], тим самим поповнивши чисельність наших військ."
