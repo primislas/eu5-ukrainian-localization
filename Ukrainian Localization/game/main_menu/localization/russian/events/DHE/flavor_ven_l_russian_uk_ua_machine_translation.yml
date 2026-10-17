@@ -32,7 +32,7 @@
   flavor_ven.6.entry: "$flavor_ven.6.title$"
   flavor_ven.6.desc: "У 1516 році влада [ROOT.GetCountry.Custom('rank_ua_GEN')|l] зобов'язала всіх #TOOLTIP:RELIGION,$judaism_tt$,X #L юдеїв#!#! селитися в районі міста, де раніше були розташовані ливарні — «геті» (geti) #L [ROOT.GetCountry.GetAdjective|l]ою#! мовою. Усім жителям цього району наказувалося носити з собою знаки відмінності та займатися лихварством виключно за тими ставками, які встановлювала Серенісіма. В обмін на захист під час війни та можливість сповідувати свою віру юдеї виявилися змушені дотримуватися й безлічі інших обтяжливих обмежень.\n\nЯк нам слід вчинити сьогодні?"
   flavor_ven.6.a: "Дайте їм власне місце для життя!"
-  flavor_ven.6.b: "Тільки не в нас [ROOT.GetCountry.Custom('end_predlog_vvo')] [ROOT.GetCountry.Custom('CL_PREP')]!"
+  flavor_ven.6.b: "Тільки не в нас [ROOT.GetCountry.Custom('preposition_uv')] [ROOT.GetCountry.Custom('CL_PREP')]!"
   flavor_ven.6.b.entry: "Тільки не в нашій країні!"
   flavor_ven.7.title: "[Select_CString(target_character.IsFemale, 'Дослідниця', 'Дослідник')] на ім'я [target_character.GetNameWithNoTooltip]"
   flavor_ven.7.entry: "Мореплавець Антоніо Пігафетта"

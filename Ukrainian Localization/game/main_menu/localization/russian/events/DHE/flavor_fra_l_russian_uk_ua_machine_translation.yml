@@ -361,7 +361,7 @@
   flavor_fra.1170_bri_annexed.desc: "З наших #TOOLTIP:AREA,brittany_area,X #L бретонських#!#! володінь до [ROOT.GetCountry.GetCapital.Custom('LR_GEN')|l] [ROOT.GetCountry.GetCapital.GetName] прибула делегація, яку очолив генерал [bertrand_guesclin.GetName]. Він уже встиг прославитися низкою перемог над #L [GetCountry('ENG').GetAdjective|l]ими#! військами, за що заслужив визнання народу в рідній Бретані. Тепер генерал звертається до двору з тим, щоб [fra_ruler.GetName] прийняв його до себе на службу. [bertrand_guesclin.GetShortNameWithNoTooltip] проявив себе як умілий воєначальник, його хист безсумнівно знадобиться нам у боротьбі проти #ONCLICK:COUNTRY,[GetCountry('ENG').GetKey] #TOOLTIP:COUNTRY,[GetCountry('ENG').GetKey],X [GetCountry('ENG').Custom('CL_GEN')|L]#!#!."
   flavor_fra.1170.a: "Він повинен очолити наше військо!"
   flavor_fra.1170.a.entry: "Він повинен очолити наше військо!"
-  flavor_fra.1170.b: "Бертран дю Геклен принесе більше користі [GetCountry('BRI').Custom('end_predlog_vvo')] [GetCountry('BRI').Custom('CL_PREP')]."
+  flavor_fra.1170.b: "Бертран дю Геклен принесе більше користі [GetCountry('BRI').Custom('preposition_uv')] [GetCountry('BRI').Custom('CL_PREP')]."
   flavor_fra.1170.b.entry: "Бертран дю Геклен принесе більше користі у себе на батьківщині."
   flavor_fra.1170.c: "Відправимо його у відставку."
   flavor_fra.1170.historical_info: "Завдяки чималому бойовому досвіду у Війні за бретонську спадщину Бертран заслужив визнання французького короля і був призначений командувати французькими військами під час Столітньої війни. Завдяки його вмілому керівництву Франції вдалося повернути втрачені землі, а також відбити набіги Чорного Принца."

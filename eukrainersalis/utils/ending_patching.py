@@ -23,9 +23,9 @@ ending_mappings = {
     "'end_gegu'": "'end_eut'",
     "'endrank_gegu'": "'endrank_eut'",
 
-    "'endlong_enna'": "'endlong_clean'",
-    "'end_enna'": "'end_clean'",
-    "'endrank_enna'": "'endrank_clean'",
+    "'endlong_enna'": "'endlong_yiaei'",
+    "'end_enna'": "'end_yiaei'",
+    "'endrank_enna'": "'endrank_yiaei'",
 
     "'endlong_itat'": "'endlong_ytyat'",
     "'end_itat'": "'end_ytyat'",

@@ -85,7 +85,7 @@
   DEATH_REASON_disease_location: "[CHARACTER.GetHeSheFormal|U] [Select_CString(CHARACTER.IsFemale,'померла', 'помер')] від хвороби в [SCOPE.sLocation('location').Custom('LR_PREP')|l] [SCOPE.sLocation('location').GetName]."
   DEATH_REASON_disease_disease_outbreak: "[CHARACTER.GetHeSheFormal|U] [Select_CString(CHARACTER.IsFemale,'померла', 'помер')] від хвороби. [SCOPE.sDiseaseOutbreak('disease_outbreak').GetName|U] забирає всіх підряд…"
   DEATH_REASON_disease_location_disease_outbreak: "[CHARACTER.GetHeSheFormal|U] [Select_CString(CHARACTER.IsFemale,'померла', 'помер')] від хвороби. [SCOPE.sDiseaseOutbreak('disease_outbreak').GetName|U] забирає всіх підряд, і [SCOPE.sLocation('location').GetName] — не виняток…"
-  DEATH_REASON_choking_accident: "[CHARACTER.GetHeSheFormal|U] [Select_CString(CHARACTER.IsFemale,'померла', 'помер')], випадково задихнувшись."
+  DEATH_REASON_choking_accident: "[CHARACTER.GetHeSheFormal|U] [Select_CString(CHARACTER.IsFemale,'померла', 'помер')], випадково вдавившись галушкою."
   DEATH_REASON_sporting_accident: "[CHARACTER.GetHeSheFormal|U] [Select_CString(CHARACTER.IsFemale,'померла', 'помер')] від рани, отриманої на полюванні."
   DEATH_REASON_fell_down_stairs: "[CHARACTER.GetHeSheFormal|U] [Select_CString(CHARACTER.IsFemale,'впала', 'впав')] зі східців і [Select_CString(CHARACTER.IsFemale,'розбилася', 'розбився')] на смерть."
   DEATH_REASON_burst_ulcer: "[CHARACTER.GetHeSheFormal|U] раптово [Select_CString(CHARACTER.IsFemale,'померла', 'помер')] від виразки, що прорвалася."
