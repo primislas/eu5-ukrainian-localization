@@ -162,7 +162,7 @@ IMPORTANT! When presented with several alternative translation options, choose t
     * dynasty, династия -> дім, sometimes can be prefixed as "правлячий дім" if necessary to stress and separate it from the other houses in the sentence or paragraph
     ** if necessary to avoid tautology, interchange with "(правлячий) рід"
     ** династичний -> родовий: родові чвари, родові усобиці, внутрішньородові справи
-    ** династичний шлюб -> міжродовий шлюб, союз домів (high prose)
+    ** династичний шлюб, династична унія -> міжродовий шлюб, родовий союз, союз домів (high prose)
 
     * economy, экономика -> господарство
     ** economic, экономический -> господарський
@@ -662,6 +662,10 @@ Apply the following translations only if they are NOT in the context of European
     * state_religion, primary_religion, official_religion, основная религия, главная религия -> панівна віра
     * religious (in)tolerance, религиозная (не)терпимость -> віро(не)терпимість, but only when in combination with "religious/религиозная" - "religious (in)tolerance", "религиозная (не)терпимость" - otherwise simply "терпимість"
     * НЕ "того ж/те ж віросповідання, віровчення", а "спільного/спільне віросповідання, віровчення"; АЛЕ у випадках заперечення ("не з тієї ж") залишаємо як є
+
+For muslim names, prefer established letter 'х' in translations instead of 'г'. For example:
+    * jihad -> джихад (NOT джигад)
+    * hajj -> хадж (NOT гадж)
 
 Game concepts with the adjective 'religious', 'религиозный':
 

@@ -173,7 +173,9 @@ Tooltips can also be used to switch case to make the sentence more natural and a
 
 In some cases specific areas or regions are scripted in a variable form of `$<region_name>$`, for example `$india$`. In such cases, if region name is recognizable, it is perfectly fine to replace the variable declaration with direct translation:
     * Speak to them of $india$ -> Розповісти їм про Індію
-    *
+
+In some cases variables are dynamic, and should be scripted arround accordingly - as if they were always in nominative case:
+    * Our colonists in $PROVINCE$ have established a foothold at $LOCATION$ -> Наші поселенці у провінції $PROVINCE$ закріпилися в місцевості $LOCATION$
 
 
 ## Tooltips for Grammatical Cases
@@ -382,14 +384,14 @@ The list of supported estates is limited to:
 ## Estate Names and Pop Types not in Nominative Case
 
 If translated estate names are clearly not in nominative case, then their declaration should be replaced with tooltips of the following form (use grammatically appropriate case and capitalization fitting the sentence, these are just examples):
-- #TOOLTIP:ESTATE_TYPE,crown_estate,X #L Короною#!#!
+- #TOOLTIP:ESTATE_TYPE,crown_estate,X #L короною#!#!
 - #TOOLTIP:ESTATE_TYPE,nobles_estate,X #L знаті#!#!
 - #TOOLTIP:ESTATE_TYPE,clergy_estate,X #L духовенства#!#!
 - #TOOLTIP:ESTATE_TYPE,burghers_estate,X #L містянам#!#!
-- #TOOLTIP:ESTATE_TYPE,peasants_estate,X #L Простолюду#!#!
+- #TOOLTIP:ESTATE_TYPE,peasants_estate,X #L простолюду#!#!
 - #TOOLTIP:ESTATE_TYPE,cossacks_estate,X #L козаків#!#!
 - #TOOLTIP:ESTATE_TYPE,tribes_estate,X #L племен#!#!
-- #TOOLTIP:ESTATE_TYPE,dhimmi_estate,X #L Зімміїв#!#!
+- #TOOLTIP:ESTATE_TYPE,dhimmi_estate,X #L зімміїв#!#!
 
 - #TOOLTIP:POPTYPE,nobles,X #L знаті#!#!
 - #TOOLTIP:POPTYPE,clergy,X #L духовенству#!#!
@@ -511,7 +513,7 @@ Source #6: `many of the affected [ROOT.GetCountry.GetGovernment.GetEstateName('b
 Translation #6: `численн[ROOT.GetCountry.Custom('burghers_yiaei')] потерпіл[ROOT.GetCountry.Custom('burghers_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] зажада[ROOT.GetCountry.Custom('burghers_vlaloly')], щоб [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('tribes_estate')] покри[ROOT.GetCountry.Custom('tribes_vlaloly')] збитки`
 
 Some examples of valid translations:
-    * [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('crown_estate')] не запам’ята[ROOT.GetCountry.Custom('crown_yetsautsa')] своєю скупістю.
+    * [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('crown_estate')] не запам’ята[ROOT.GetCountry.Custom('crown_yetsayutsa')] своєю скупістю.
 
 
 
