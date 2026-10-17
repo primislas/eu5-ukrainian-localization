@@ -97,7 +97,7 @@
   TRADE_ORDER_MARKET_GROUP_COLONIAL: "Колоніальні ринки"
   TRADE_ORDER_MARKET_GROUP_DOMESTIC: "Внутрішні ринки"
   TRADE_ORDER_MARKET_GROUP_SUBJECT: "Ринки васалів"
-  TRADE_ORDER_MARKET_GROUP_MISSING_INSTITUTION: "[institution] Sources"
+  TRADE_ORDER_MARKET_GROUP_MISSING_INSTITUTION: "[Concept('institution', 'Інституційні')] джерела"
   TRADE_ORDER_MARKET_GROUP_OWNED_TT: "Розглядаються лише [Concept('markets', 'ринки')], які належать вам безпосередньо. Постійно перераховується в міру того, як ви здобуваєте чи втрачаєте ринки."
   TRADE_ORDER_MARKET_GROUP_COLONIAL_TT: "Розглядаються лише [Concept('markets', 'ринки')], які належать вашим колоніальним васалам. Постійно перераховується в міру того, як васали здобувають чи втрачають ринки."
   TRADE_ORDER_MARKET_GROUP_DOMESTIC_TT: "Розглядаються лише [Concept('markets', 'ринки')], де ви маєте [Concept('pops', 'громади')|e]. Постійно перераховується в міру того, як ваш люд оселяється на місцях чи залишає їх."

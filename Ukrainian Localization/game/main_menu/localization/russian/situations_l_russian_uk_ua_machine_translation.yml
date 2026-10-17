@@ -103,7 +103,7 @@
   REFORMATION_POP_PIE_SLICE_TT: "У вашій країні [ReformationPopReligionSlice.GetPercentage|%2] ([ReformationPopReligionSlice.GetDisplayPopCount]) громад з цього стану, які сповідують цю віру."
   REFORMATION_COUNTRIES_TAB: "Країни"
   REFORMATION_COUNTRIES_TAB_TT: "Усі країни, чия панівна віра — західне християнство."
-  REFORMATION_RELIGION_FILTER_CATEGORY: "Religion"
+  REFORMATION_RELIGION_FILTER_CATEGORY: "Віросповідання"
   REFORMATION_MOVEMENTS_HEADER: "Активні духовні [Concept('movements', 'рухи')|e]"
   REFORMATION_MOVEMENTS_COUNTRIES_TT: "охоплені країни в усьому світі"
   REFORMATION_MOVEMENT_LOCATIONS: "Поширюється в $AMOUNT$ @location!"

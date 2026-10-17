@@ -1081,7 +1081,7 @@
   independence_movement_join_war_def_always_tt_during: "Вони борються за незалежність від [Concept('overlord', 'сюзерена')|e]"
   independence_subject: "Васал прагне незалежности"
   independence_subject_desc: "[subject|e], який прагне незалежності від свого [Concept('overlord', 'сюзерена')|e].\n\n$independence_movement_hint_1$"
-  independence_overlord: "The $game_concept_overlord$"
+  independence_overlord: "$game_concept_overlord$"
   independence_overlord_desc: "$independence_overlord$, чий [subject|e] прагне звільнити себе."
   PAPAL_HOLY_LEAGUE_NAME: "Священна ліга"
   protestant_union: "Євангелічна унія"

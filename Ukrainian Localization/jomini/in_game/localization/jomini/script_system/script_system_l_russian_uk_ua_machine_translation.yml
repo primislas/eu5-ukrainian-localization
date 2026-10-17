@@ -59,4 +59,4 @@
   TRIGGER_AND: "Все з переліченого:"
   TRIGGER_OR: "Хоча б одне з переліченого:"
   SUPPRESS: ""
-  JOMINI_TRIGGER_ERROR_NO_UNEVALUATED: "trigger_if may not be used in an unevaluated context, we cannot determine which path to go down since we lack a context to evaluate with, use a custom_description or custom_tooltip instead"
+  JOMINI_TRIGGER_ERROR_NO_UNEVALUATED: "trigger_if не можна використовувати в неоціненому контексті, оскільки неможливо визначити шлях виконання без контексту для оцінювання; натомість використайте custom_description або custom_tooltip"
