@@ -11,7 +11,7 @@
   INSTITUTION_SPREAD_OWNER_CONTROL: "[Concept('control', 'Контроль')|e] у [Concept('location', 'місцевості')|e], де [Concept('embraced', 'впроваджено')|e] інститут «[INSTITUTION.GetNameWithNoTooltip]»: $VAL|+=2$"
   INSTITUTION_SPREAD_EMBRACED_TO_CAPITAL: "Присутність у [Concept('capital', 'столиці')|e] [Concept('country', 'країни')|e]: $VAL|+=2$"
   INSTITUTION_SPREAD_FROM_MARKET_CENTER: "Присутність у [Concept('market_center', 'ринковому осередку')|e]: $VAL|+=2$"
-  INSTITUTION_SPREAD_TO_MARKET_CENTER: "[LOCATION.GetName] is in [market|e]: $VAL|+=2$"
+  INSTITUTION_SPREAD_TO_MARKET_CENTER: "[LOCATION.GetName] у межах [Concept('market', 'ринку')|e]: $VAL|+=2$"
   INSTITUTION_SPREAD_SIZE: "Розмір [Concept('location', 'місцевості')|E]: $VAL|+=%2$"
   UNLOCKS_DEFAULT: "Відкриває:"
   UNLOCKS_UNIT_LN_SHORT: "[SUBUNITDEFINITION.GetName]"

@@ -38,7 +38,7 @@
   lesson_basics_wrap_up_0: "@caesar! Основні панелі"
   lesson_basics_wrap_up_0_desc: "Давайте розглянемо базові елементи інтерфейсу. У верхньому лівому куті розташовані вісім панелей — їм ви приділятимете найпильнішу увагу під час гри.\n\nЦе @government_panel![Link('government', '', 'уряд')], @economy_panel![Link('economy', '', 'господарство')], @production_panel![Link('production', '', 'виробництво')], @society_panel![Link('country_culture', '', 'суспільство')], @diplomacy_panel![Link('diplomacy', '', 'дипломатія')], @military_panel![Link('unit_overview', '', 'військо')], @geopolitics_panel![Link('expansion', '', 'геополітика')] та @advances_panel![Link('advances', '', 'поступи')]."
   lesson_basics_wrap_up_2: "@hint! Поради"
-  lesson_basics_wrap_up_2b: "Hints 2b"
+  lesson_basics_wrap_up_2b: "Підказки 2b"
   lesson_basics_wrap_up_2_desc: "Крім вікон з ігровими поняттями, які зустрічаються в грі повсюдно, деякі елементи ігрової механіки супроводжуються порадами — це більш докладні описи з прикладами.\n\nОтримати пораду можна в будь-який момент через @hint![Link('hints', '', 'панель порад')].\n\n@hint! Якщо ви бачите цей значок у підказці, клацніть по ньому, щоб відкрити відповідну пораду."
   lesson_basics_open_hints: "Відкрийте панель порад"
   lesson_basics_close_hints: "Закрийте панель порад"
