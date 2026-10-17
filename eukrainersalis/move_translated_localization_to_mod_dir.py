@@ -69,6 +69,26 @@ def move_translated_localization_to_mod_dir() -> int:
     return moved_file_count
 
 
+def move_gui_files_to_mod_dir():
+    moved_file_count = 0
+    for root, dirs, files in os.walk(translation_dir):
+        for file in files:
+            if not file.endswith("_uk_ua.gui"):
+                continue
+
+            from_file = os.path.join(root, file)
+
+            rel_path = os.path.relpath(root, translation_dir / "game")
+            to_dir = os.path.join(mod_dir, rel_path)
+            to_file = os.path.join(to_dir, file.replace("_uk_ua.gui", ".gui"))
+
+            os.makedirs(to_dir, exist_ok=True)
+            shutil.copy(from_file, to_file)
+            moved_file_count += 1
+            logger.info(f"Moved {rel_path}/{file}\n   -> {os.path.relpath(to_file, mod_dir)}")
+    return moved_file_count
+
+
 def move_modded_files_to_mod_dir():
     moved_file_count = 0
     for root, dirs, files in os.walk(project_mod_dir):
@@ -98,6 +118,7 @@ def move_modded_localization_to_mod_dir():
     moved_file_count = 0
     moved_file_count += move_translated_localization_to_mod_dir()
     moved_file_count += move_modded_files_to_mod_dir()
+    moved_file_count += move_gui_files_to_mod_dir()
 
     logger.info(f"Moved {moved_file_count} files")
 
