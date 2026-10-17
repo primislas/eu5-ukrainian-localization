@@ -175,7 +175,7 @@
   flavor_plc.2001.a: "Це чудова нагода."
   flavor_plc.2001.b: "Відхилити пропозицію."
   flavor_plc.2002.title: "[livonian_scope.GetNameWithNoTooltip] знаходить союзників"
-  flavor_plc.2002.desc: "Сподіваючись убезпечити себе, [livonian_scope.GetLongName|l] укла[livonian_scope.Custom('endlong_fem')] васальну угоду [nation_helping.Custom('preposition_zzi')] #ONCLICK:COUNTRY,[nation_helping.GetKey] #TOOLTIP:COUNTRY,[nation_helping.GetKey],X [nation_helping.Custom('CL_INST')|L]#!#!. Цей союз загрожує нашим інтересам у #TOOLTIP:AREA,baltic_area,X #L Балтійському#!#! краї — ми маємо негайно втрутитися, доки зв’язок між цими країнами не став надто міцним."
+  flavor_plc.2002.desc: "Сподіваючись убезпечити себе, [livonian_scope.GetLongName|l] укла[livonian_scope.Custom('endlong_vlaloly')] васальну угоду [nation_helping.Custom('preposition_zzi')] #ONCLICK:COUNTRY,[nation_helping.GetKey] #TOOLTIP:COUNTRY,[nation_helping.GetKey],X [nation_helping.Custom('CL_INST')|L]#!#!. Цей союз загрожує нашим інтересам у #TOOLTIP:AREA,baltic_area,X #L Балтійському#!#! краї — ми маємо негайно втрутитися, доки зв’язок між цими країнами не став надто міцним."
   flavor_plc.2002.historical_info: "$flavor_plc.2000.historical_info$"
   flavor_plc.2002.a: "Ми повинні втрутитися."
   flavor_plc.2002.b: "Ми не в тому становищі, щоб вести війни."
