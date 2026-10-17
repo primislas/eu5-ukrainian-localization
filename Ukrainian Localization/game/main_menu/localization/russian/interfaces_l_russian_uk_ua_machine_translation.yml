@@ -5871,7 +5871,7 @@
   CHAR_TT_HEADER: "#T $NAME$#!"
   CHAR_BIRTH_DATE: "$WHEN$"
   MARRIAGE_FINDER: "Влаштувати династичний шлюб"
-  MARRIAGE_FINDER_BETROTHAL: "Укладання заручин"
+  MARRIAGE_FINDER_BETROTHAL: "Заручитися"
   MARRIAGE_FIND_NOT_TYPE: "@trigger_no! [COUNTRY.GetGovernment.GetGovernmentType.GetName] не підтримує укладення [Concept('royal_marriages', 'династичних шлюбів')|e]."
   MARRIAGE_FIND_BLOCKED: "@trigger_no! [COUNTRY.Custom('preposition_uv')|U] #ONCLICK:COUNTRY,[COUNTRY.GetKey] #TOOLTIP:COUNTRY,[COUNTRY.GetKey],X [COUNTRY.Custom('CL_PREP')|L]#!#! заборонені [Concept('royal_marriages', 'династичні шлюби')|e] та [Concept('betrothals', 'заручини')|e]."
   MARRIAGE_FIND_NOT_ADULT: "@trigger_no![CHARACTER.GetName] не є [Concept('adult', 'дорослим')|e]."

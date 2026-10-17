@@ -119,7 +119,7 @@
   ACHIEVEMENTS_CONDITION_OBSERVER: "Ви не в режимі Спостерігача"
   ACHIEVEMENTS_CONDITION_OBSERVER_PASS: "@trigger_yes! $ACHIEVEMENTS_CONDITION_OBSERVER$"
   ACHIEVEMENTS_CONDITION_OBSERVER_FAIL: "@trigger_no! $ACHIEVEMENTS_CONDITION_OBSERVER$"
-  ACHIEVEMENTS_CONDITION_MP_SAVE: "You have never played this save in Multiplayer"
+  ACHIEVEMENTS_CONDITION_MP_SAVE: "Ви жодного разу не грали в цьому збереженні в мережевому режимі"
   ACHIEVEMENTS_CONDITION_MP_SAVE_PASS: "@trigger_yes! $ACHIEVEMENTS_CONDITION_MP_SAVE$"
   ACHIEVEMENTS_CONDITION_MP_SAVE_FAIL: "@trigger_no! $ACHIEVEMENTS_CONDITION_MP_SAVE$"
   ACHIEVEMENTS_CONDITION_RULES_SAVE: "Ви не використовували правила гра, які унеможливлюють досягнення, в цьому збереженні"

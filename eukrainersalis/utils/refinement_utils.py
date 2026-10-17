@@ -46,7 +46,8 @@ def select_center_refinement(text: str) -> bool:
 
 
 def select_english_translation_refinement(text: str) -> bool:
-    normalized_text = re.sub(r'#[^#]+#[^!]+#!#!', '', text)
+    normalized_text = re.sub(r'@[^!]+!', '', text)
+    normalized_text = re.sub(r'#[^#]+#[^!]+#!#!', '', normalized_text)
     normalized_text = re.sub(r'#[^#]+#!', '', normalized_text)
     normalized_text = re.sub(r'\$[^\$]+\$', '', normalized_text)
     normalized_text = re.sub(r'\[[^\]]+\]', '', normalized_text)
@@ -81,10 +82,11 @@ def select_english_translation_refinement(text: str) -> bool:
 
 def select_english_translation_file_refinement(text: str) -> bool:
     fdir, fname = os.path.split(text)
-    return fname.startswith("flavor_decisions") or fname.startswith("d009") or fname.startswith("ud009") \
-           or fname.startswith("crisis_of_faith") or fname.startswith("oligarchic_capture") \
-           or fname.startswith("holy_war_events") or fname.startswith("religious_order_events") \
-           or fname.startswith("flavor_iberian_union") or fname.startswith("colony_feedback") or fname.startswith("expedition_types")
+    return True
+    # return fname.startswith("flavor_decisions") or fname.startswith("d009") or fname.startswith("ud009") \
+    #        or fname.startswith("crisis_of_faith") or fname.startswith("oligarchic_capture") \
+    #        or fname.startswith("holy_war_events") or fname.startswith("religious_order_events") \
+    #        or fname.startswith("flavor_iberian_union") or fname.startswith("colony_feedback") or fname.startswith("expedition_types")
 
 
 def select_estate_ending_refinement(text: str) -> bool:
