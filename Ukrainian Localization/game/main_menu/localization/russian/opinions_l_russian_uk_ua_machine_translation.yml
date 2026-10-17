@@ -21,7 +21,7 @@
   RELATION_VALUES: "$VAL|=+$"
   COUNTRY_OPINION_OF_SELF: "#T Думка про країну $WHO$#!\nОчевидно, країна $TARGET|Y$ прихильно ставиться до себе."
   COUNTRY_OPINION_OF_SELF_PLAYER: "#T Думка про країну $WHO$#!\n$TARGET|Y$ — це наша країна!"
-  COUNTRY_OPINION_OF: "#T [COUNTRY.GetAdjectiveWithNoTooltip]а думка [TARGET_COUNTRY.Custom('predlog_obo')] [TARGET_COUNTRY.Custom('longname_ua_wntt_ACC')]#!\n[Select_CString(TARGET_COUNTRY.IsPlayer, 'Їхня', 'Наша')] думка: $OPINION|2+=$. Причини:"
+  COUNTRY_OPINION_OF: "#T [COUNTRY.GetAdjectiveWithNoTooltip]а думка про [TARGET_COUNTRY.Custom('longname_ua_wntt_ACC')]#!\n[Select_CString(TARGET_COUNTRY.IsPlayer, 'Їхня', 'Наша')] думка: $OPINION|2+=$. Причини:"
   COUNTRY_OPINION_OF_TT: "Поточна думка — $OPINION|2+=$. Причини:"
   COUNTRY_TRUST_OF_SELF: "#T Довіра до країни $WHO$#!\nОчевидно, країна $TARGET|Y$ довіряє собі беззастережно."
   COUNTRY_TRUST_OF_SELF_PLAYER: "#T Довіра до країни $TARGET$#!\n$TARGET|Y$ — це наша країна!"

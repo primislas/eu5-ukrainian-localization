@@ -14,7 +14,7 @@
   GOLD_PAY_SINGLE: "[TARGET_COUNTRY.GetLongNameWithFlag] перед[TARGET_COUNTRY.Custom('endlong_astadut')] @[COUNTRY.GetFlag]![COUNTRY.Custom('longname_ua_DAT')] $VAL|+=2$[gold_i]."
   GOLD_PAY_MULTIPLE_short: "[COUNTRY.GetLongNameWithFlagWithNoTooltip] і [Concept('allies', 'союзники')|e] отримають від @[TARGET_COUNTRY.GetFlag]![TARGET_COUNTRY.Custom('longname_ua_wntt_GEN')]$VAL|+=2$[gold_i]."
   GOLD_PAY_SINGLE_short: "[TARGET_COUNTRY.GetLongNameWithFlagWithNoTooltip] перед[TARGET_COUNTRY.Custom('endlong_astadut')] @[COUNTRY.GetFlag]![COUNTRY.Custom('longname_ua_wntt_DAT')] $VAL|+=2$[gold_i]."
-  GET_PART_OF_CASH: "[COUNTRY.GetLongNameWithFlag] получ[COUNTRY.Custom('endlong_itat')] $VAL|+=2$[gold_i] із цієї суми."
+  GET_PART_OF_CASH: "[COUNTRY.GetLongNameWithFlag] отрима[COUNTRY.Custom('endlong_yeyut')] $VAL|+=2$[gold_i] із цієї суми."
   GOLD_INFLATION: "У результаті [Concept('inflation', 'інфляція')|e] валюти @[COUNTRY.GetFlag]![COUNTRY.Custom('longname_ua_GEN')] зросте на $INFLATION$."
   GOLD_ENTRY: "$VAL|+=2$[gold_i]"
   SUGGEST_PEACE: "Пропозиція про мир"

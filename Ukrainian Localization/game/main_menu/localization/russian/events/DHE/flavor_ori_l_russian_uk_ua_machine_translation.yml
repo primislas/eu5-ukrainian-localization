@@ -42,7 +42,7 @@
   flavor_ori.7.b: "Це занадто дорого."
   flavor_ori.8.title: "[target_character2.GetNameWithNoTooltip]"
   flavor_ori.8.entry: "Орійський поет Пурушоттама Даса"
-  flavor_ori.8.desc: "Нещодавно [target_character.GetName] та [Select_CString(target_character.IsFemale,'її', 'його')] [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] дізналися про людину на ім’я [target_character2.GetName]. Його твори не здобули широкої відомости серед народу #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, однак вони написані чудовою #L [ROOT.GetCountry.GetCourtLanguage.GetName|l]ою#! мовою. Можна з упевненістю сказати, що це найкращий зразок елітарної поезії [ROOT.GetCountry.Custom('endrank_predlog_vvo')] [ROOT.GetCountry.Custom('rank_ua_PREP')|l]."
+  flavor_ori.8.desc: "Нещодавно [target_character.GetName] та [Select_CString(target_character.IsFemale,'її', 'його')] [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] дізналися про людину на ім’я [target_character2.GetName]. Його твори не здобули широкої відомости серед народу #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!, однак вони написані чудовою #L [ROOT.GetCountry.GetCourtLanguage.GetName|l]ою#! мовою. Можна з упевненістю сказати, що це найкращий зразок елітарної поезії [ROOT.GetCountry.Custom('preposition_uv')] [ROOT.GetCountry.Custom('rank_ua_PREP')|l]."
   flavor_ori.8.a: "Підтримаємо його."
   flavor_ori.8.b: "Нам нецікава така творчість."
   flavor_ori.8.b.entry: "Його творчості тут не місце."
