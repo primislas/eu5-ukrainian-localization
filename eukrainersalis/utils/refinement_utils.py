@@ -52,13 +52,17 @@ def select_english_translation_refinement(text: str) -> bool:
     normalized_text = re.sub(r'\[[^\]]+\]', '', normalized_text)
     normalized_text = normalized_text.replace("é", "e")
     # normalized_text = re.sub(r'[^a-z\sа-яіїєґ]', '', normalized_text)
-    normalized_text = re.sub(r'[\.,:;?!=+\-%#0-9«» —]', ' ', normalized_text)
+    normalized_text = re.sub(r'[\.,:;?!=+\-%#0-9«» —~]•', ' ', normalized_text)
     normalized_text = re.sub(r'\s+', ' ', normalized_text)
     normalized_text = normalized_text.strip()
     if len(normalized_text) == 0:
         return False
 
-    langs = detect_langs(normalized_text)
+    try:
+        langs = detect_langs(normalized_text)
+    except Exception as e:
+        logger.error(f"Error while detecting language for '{text}': {e}")
+        return False
     # Because there is a lot of historical terminology, the detector often hiccups
     # on short sentences with such words and with special characters, such as diacritics etc.
     # So in practice we ended up with detecting translation by making sure there's no
@@ -77,7 +81,10 @@ def select_english_translation_refinement(text: str) -> bool:
 
 def select_english_translation_file_refinement(text: str) -> bool:
     fdir, fname = os.path.split(text)
-    return fdir.endswith("expeditions")
+    return fname.startswith("flavor_decisions") or fname.startswith("d009") or fname.startswith("ud009") \
+           or fname.startswith("crisis_of_faith") or fname.startswith("oligarchic_capture") \
+           or fname.startswith("holy_war_events") or fname.startswith("religious_order_events") \
+           or fname.startswith("flavor_iberian_union") or fname.startswith("colony_feedback") or fname.startswith("expedition_types")
 
 
 def select_estate_ending_refinement(text: str) -> bool:

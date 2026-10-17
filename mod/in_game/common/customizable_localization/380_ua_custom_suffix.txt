@@ -4246,10 +4246,10 @@ endlong_vlaloly = {
 	suffix = "_endlong_vlaloly"
 	if_invalid_loc = return_empty
 }
-endlong_clean = {
+endlong_yiaei = {
 	log_loc_errors = no
 	parent = country_flavor
-	suffix = "_endlong_clean"
+	suffix = "_endlong_yiaei"
 	if_invalid_loc = return_empty
 }
 endlong_eut = {
@@ -4306,10 +4306,10 @@ endrank_vlaloly = {
 	suffix = "_endrank_vlaloly"
 	if_invalid_loc = return_empty
 }
-endrank_clean = {
+endrank_yiaei = {
 	log_loc_errors = no
 	parent = country_flavor
-	suffix = "_endrank_clean"
+	suffix = "_endrank_yiaei"
 	if_invalid_loc = return_empty
 }
 endrank_eut = {
