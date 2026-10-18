@@ -303,7 +303,7 @@
   chi_recapture_emperor: "Повернення імператорського титулу"
   chi_recapture_emperor_entry: "$chi_recapture_emperor$"
   chi_recapture_emperor_entry_short: "$chi_recapture_emperor$"
-  punish_chinese_expedition_foes: "Покарання ворогів експедиції"
+  punish_chinese_expedition_foes: "Покарання ворогів виправи"
   punish_chinese_expedition_foes_entry: "$punish_chinese_expedition_foes$"
   punish_chinese_expedition_foes_entry_short: "$punish_chinese_expedition_foes_entry$"
   punish_chinese_expedition_foes_entry_desc: "#L [TARGET_COUNTRY.GetAdjective]і#! мерзотники відкрито чинять опір впливу наших правителів і перешкоджають місії золотого флоту. Настав час поставити їх на місце."
