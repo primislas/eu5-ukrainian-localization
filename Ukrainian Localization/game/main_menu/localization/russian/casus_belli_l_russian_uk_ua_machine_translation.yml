@@ -17,7 +17,7 @@
   cb_insulted_us: "Нанесена образа"
   cb_rebel_support: "Підтримка повстанців"
   cb_declined_call_to_arms: "Відмова взятися за зброю"
-  cb_exploration: "Експедиція"
+  cb_exploration: "Виправа"
   cb_imperial_ban: "Імперська опала"
   cb_imperial_ban_PROV: "$cb_imperial_ban$ ([PROVINCE.GetName])"
   cb_independence_war_PROV: "$cb_independence_war$"

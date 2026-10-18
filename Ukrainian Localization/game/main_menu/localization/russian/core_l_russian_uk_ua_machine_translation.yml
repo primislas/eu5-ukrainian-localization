@@ -221,7 +221,7 @@
   SCOPE_DEBUG_CONTINENT: "Континент $NAME$ ($ID$)"
   SCOPE_DEBUG_LANGUAGE: "Мова «$NAME$» ($ID$)"
   SCOPE_DEBUG_PRIVATEER: "Капер «$NAME$» ($ID$)"
-  SCOPE_DEBUG_EXPLORATION: "Експедиція «$NAME$» ($ID$)"
+  SCOPE_DEBUG_EXPLORATION: "Виправа «$NAME$» ($ID$)"
   SCOPE_DEBUG_MERCENARY: "Найманці «$NAME$» ($ID$)"
   SCOPE_DEBUG_LOCATION: "Місцевість $NAME$ ($ID$)"
   SCOPE_DEBUG_LAW: "Закон «$NAME$» ($ID$)"
