@@ -1,8 +1,8 @@
 ﻿{
 	"name":	"Європа УкраЇнерсаліс V",
 	"id": "europa.ukrainersalis.v",
-	"version":	"1.3.11.10",
-	"supported_game_version": "1.3.*",
+	"version":	"1.4.1.1",
+	"supported_game_version": "1.4.*",
 	"short_description": "Brings Ukraїnian localization to EU5.",
 	"tags":	[ "User Interface", "Localization", "Translation" ],
 	"relationships": [],
