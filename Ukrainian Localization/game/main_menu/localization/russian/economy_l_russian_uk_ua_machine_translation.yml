@@ -628,7 +628,7 @@
   rank_kingdom_upgrade: "Вартість проголошення королівства"
   rank_duchy_upgrade: "Вартість проголошення герцогства"
   UPGRADE_COUNTRY: "Дозволяє підвищити ранг нашої країни до «[COUNTRY_RANK.GetNameWithNoTooltip|l]»."
-  FORM_COUNTRY: "Створити країну [FORMABLE_COUNTRY.GetNameWithNoTooltip]"
+  FORM_COUNTRY: "Проголосити країну [FORMABLE_COUNTRY.GetNameWithNoTooltip]"
   FORM_COUNTRY_TITLE: "[FORMABLE_COUNTRY.GetNameWithNoTooltip|U]"
   FORM_COUNTRY_LOCATION_PROGRESS_SUFFICIENT: "#P $PROGRESS$#!/$TOTAL$"
   FORM_COUNTRY_LOCATION_PROGRESS_NONE: "#N $PROGRESS$#!/$TOTAL$"
