@@ -71,8 +71,8 @@ _EXCLUDED_FILES = [
     "EU5_customizable_localization_ru_end_l_russian.yml",
 ]
 
-_migration_manager = MigrationManager(os.environ["MIGRATION_FROM"])
-_translation_manager = MigrationManager(os.environ["MIGRATION_TO"])
+_migration_manager = MigrationManager("migration-" + os.environ["MIGRATION_FROM"])
+_translation_manager = MigrationManager("migration-" + os.environ["MIGRATION_TO"])
 
 
 def migrated_text_preprocessing(value: str) -> str:
