@@ -939,6 +939,6 @@
   iw_militarize_country_desc: "Закликати [Concept('parliament', 'збори')|e] підтримати негайне нарощування військ, що дасть змогу підвищити [Concept('army_tradition', 'військовий хист')|e] та зміцнити найдосвідченіші частини нашого [Concept('army', 'війська')|e]."
   pa_endow_order_holding: "Дарувати нове володіння ордену"
   pa_endow_order_holding_simple: "Підкуп стану"
-  pa_endow_order_holding_desc: "Наш [Concept('estate', 'стан')|e] вимагає, щоб країна дарувала нове [Concept('holding', 'володіння')|e] одному з духовних орденів."
+  pa_endow_order_holding_desc: "[Concept('estate', 'Стан')|e] вимагає, щоб країна дарувала нове [Concept('holding', 'володіння')|E] одному зі своїх духовних орденів."
   crown_expel_order_holding: "Вигнати духовний орден"
-  crown_expel_order_holding_desc: "Корона має намір вигнати духовний орден з одного з наших [Concept('holdings', 'володінь')|e], обмеживши його вплив на країну."
+  crown_expel_order_holding_desc: "Корона вирішує вигнати духовний орден з одного з наших [Concept('holdings', 'володінь')|E], тим самим обмеживши його вплив на країну."
