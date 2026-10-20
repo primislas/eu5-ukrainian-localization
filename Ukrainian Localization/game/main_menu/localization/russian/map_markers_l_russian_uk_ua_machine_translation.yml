@@ -48,6 +48,7 @@
   OCCUPATION_X_DAYS_LEFT: "Залишилося $VAL|Y$ д."
   OCCUPATION_X_DAYS_LEFT_SHORT: "$VAL|Y$ д."
   OCCUPATION_FINISHED_IN_X_DAYS: "Окупація завершиться через $VAL|Y$ д.\nПричини:\n$WHY$"
+  OCCUPATION_FINISHED_IN_X_DAYS_NO_GARRISON: "Owing to a lack of [garrison|e] in this fort, the occupation will be finished in $VAL|Y$ day(s).\nThe length of this occupation is due to:\n$WHY$"
   SIEGE_IS_OVER: "Облога закінчена"
   MAPICON_CREATE_MARKET_TT: "$NAME|Y$: будівництво завершиться $WHEN|Y$."
   MAPICON_BUILD_CAPITAL_TT: "$NAME|Y$: будівництво завершиться $WHEN|Y$."
@@ -63,4 +64,4 @@
   WINTER_BLOCKED_TOOLTIP_TEXT: "Перешкода: зима"
   DESERT_CONNECTOR_TOOLTIP: "Прилягання до пустелі"
   DESERT_CONNECTOR_TOOLTIP_TEXT: "[LOCATION.GetRank.GetNameWithNoTooltip] [LOCATION.GetName] пов'язує наступні [Concept('locations', 'місцевості')|e]:"
-  CANAL_CONNECTOR_TOOLTIP_TEXT: "$CANAL_LOCATION_DESC$\nЦей канал пов'язує наступні [Concept('locations', 'місцевості')|e]:"
+  CANAL_CONNECTOR_TOOLTIP_TEXT: "$CANAL_LOCATION_DESC$\nЦей канал сполучає такі [Concept('locations', 'місцевості')|e]:"
