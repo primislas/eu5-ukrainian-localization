@@ -14,7 +14,7 @@ ESTATE_KEY_MAPPINGS = {
 
 
 def extract_estate_cases_from_localization_file(localization_file_path):
-    localization_data = load_eu5_yaml(localization_file_path).get(Language.RUSSIAN.localization_key, {})
+    localization_data = load_eu5_yaml(localization_file_path).get(Language.RUSSIAN.language_loc_key, {})
     estate_cases = []
     for key, value in localization_data.items():
         if key.startswith("ESTATE") or key.startswith("Estate"):
@@ -125,7 +125,7 @@ def generate_estate_cases_localization():
                 localization[loc_key] = "".join(estate_locs)
 
     output = load_eu5_yaml(estate_grammatical_case_output_file_path)
-    output_loc = output.get(Language.RUSSIAN.localization_key, {})
+    output_loc = output.get(Language.RUSSIAN.language_loc_key, {})
     output_loc.update(localization)
     write_eu5_localization_yaml(output, estate_grammatical_case_output_file_path)
 

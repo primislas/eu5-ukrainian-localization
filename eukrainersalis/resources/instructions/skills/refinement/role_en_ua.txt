@@ -152,13 +152,14 @@ Localization engine does not support grammatical cases for location, province, a
 Note: DO NOT apply these instructions to estates (стани) and pop types! Estates will have their own separate treatment and are outside the scope of this run.
 
 Locations should use a dedicated location rank custom localization instead of "місцевість", if location scope is available and a non-Nominative case is required:
-    * miracle said to have occured in [target_location.GetName] -> диво, яке нібито сталося в [target_location.Custom('LR_PREP')] [target_location.GetName] (which will be resolved to "в містечку/поселенні Назва" by localization engine)
+    * miracle said to have occured in [target_location.GetName] -> диво, яке нібито сталося у [target_location.Custom('LR_PREP')] [target_location.GetName] (which will be resolved to "у містечку/поселенні Назва" by localization engine)
     * palm irrigation within the [target_location.GetName] -> зрошення пальм у межах [target_location.Custom('LR_GEN')] [target_location.GetName]
     * proven to be a major boon for the peasants of [target_location.GetNameWithNoTooltip] -> стало справжнім порятунком для селян [target_location.Custom('LR_GEN')] [target_location.GetNameWithNoTooltip]
     * similar improvements can be made in the [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip] -> подібні поліпшення можна втілити і у [ROOT.GetCountry.GetCapital.Custom('LR_GEN')] [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]
     ** Note that for capital scope it might be appropriate to replace location rank with the word "столиця", if it's appropriate within the context and won't lead to repetition: подібні поліпшення можна втілити і у столиці [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]
 This also applies specifically to location ranks, declared as "GetRank.GetName":
     * [target_location.GetRank.GetName] -> [target_location.Custom('LR_DAT')]
+Note that location ranks should be prefixed with "у" and not "в" when necessary, because they all resolve to names that start with consonants.
 
 If a specific name is declared, and its translated case is not nominative, a custom tooltip should be used to write it in the appropriate case in the form `#TOOLTIP:REGION,region_name,X #L Translated Name#!#!`. Below are some examples:
     * Can only be built in [ShowLocationName('munich')] -> Можна побудувати лише в #TOOLTIP:LOCATION,munich,X #L Мюнхені#!#!

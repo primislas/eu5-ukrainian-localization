@@ -18,7 +18,7 @@ class Language(StrEnum):
     def __new__(cls, value):
         member = str.__new__(cls, value)
         member._value_ = value
-        member.localization_key = f"l_{value}"
+        member.language_loc_key = f"l_{value}"
         return member
 
 
@@ -33,7 +33,7 @@ class LocFile:
     file_path: str
     selected_keys: list[str] = field(default_factory=list)
     content: dict[str, dict[str, str]] = field(default_factory=dict)
-    localization_key: str = Language.RUSSIAN.localization_key
+    localization_key: str = Language.RUSSIAN.language_loc_key
     processed_keys: list[str] = field(default_factory=list)
 
     def contains(self, key: str) -> bool:
@@ -194,7 +194,7 @@ def file_is_untranslated(input_file_path, output_file_path, language: Language |
     """
     Check if a localization file contains untranslated keys.
     """
-    localization_key = language_key or Language(language or Language.ENGLISH).localization_key
+    localization_key = language_key or Language(language or Language.ENGLISH).language_loc_key
     input_content = load_eu5_yaml(input_file_path)
     input_localization: dict[str, str] = input_content.get(localization_key, {})
     output_content = load_eu5_yaml(output_file_path)
@@ -218,7 +218,7 @@ async def get_untranslated_keys(file_path, language: Language | str | None = Non
     """
     Check if a localization file contains untranslated keys.
     """
-    localization_key = language_key or Language(language or Language.ENGLISH).localization_key
+    localization_key = language_key or Language(language or Language.ENGLISH).language_loc_key
     content = await load_eu5_yaml_async(file_path)
     localization: dict[str, str] = content.get(localization_key, {})
     return {k: v for k, v in localization.items() if text_is_not_translated(v)}
@@ -228,7 +228,7 @@ def validate_localization_file(file_path: str, language: Language | str = Langua
     """Validate a YAML localization file by parsing it and checking for errors."""
     try:
         content = load_eu5_yaml(file_path)
-        content_key = Language(language).localization_key
+        content_key = Language(language).language_loc_key
         has_english_content = content_key in content and bool(content.get(content_key))
         if not has_english_content:
             logger.debug(f"{file_path} has no {language} localization")
