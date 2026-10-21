@@ -165,7 +165,7 @@ class RefinementManager:
 
         matching_files = []
         matching_keys_total = 0
-        localization_key = self.language.localization_key
+        localization_key = self.language.language_loc_key
         for file in list_localization_files(Language.UK_UA_MACHINE_TRANSLATION):
             if self._refinement_tracker.is_processed(file):
                 continue

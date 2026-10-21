@@ -124,7 +124,7 @@ def migration_diff_detected(input_file_path, reference_file_path, language_key: 
     if _migration_manager.is_processed(input_file_path):
         return False
 
-    localization_key = language_key or Language.RUSSIAN.localization_key
+    localization_key = language_key or Language.RUSSIAN.language_loc_key
     input_localization = load_eu5_yaml(input_file_path).get(localization_key, {}) or {}
     ref_localization = load_eu5_yaml(reference_file_path).get(localization_key, {}) or {}
     source_file_path = str(input_file_path).replace("/russian", "/english").replace("_l_russian", "_l_english")
@@ -216,7 +216,7 @@ def translation_postprocessing(line: str) -> str:
 
 async def create_starting_output_file(content: dict[str, dict], source_language: Language | str, output_file_path: str) -> dict[
     str, dict[str, str]]:
-    localization_key = Language(source_language).localization_key
+    localization_key = Language(source_language).language_loc_key
     localization: dict[str, str] = copy.copy(content.get(localization_key, {}))
     for key, value in localization.items():
         if translation_is_required(value):
@@ -297,36 +297,38 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
     Returns:
         True if all batches translated successfully, False otherwise.
     """
-    input_file_name = os.path.basename(input_file_path)
-    output_file_name = os.path.basename(output_file_path)
-    localization_key = Language(source_language).localization_key
-    target_localization_key = Language(target_language).localization_key
+    ru_file_name = os.path.basename(input_file_path)
+    ru_loc_key = Language(source_language).language_loc_key
+
+    ua_file_name = os.path.basename(output_file_path)
+    ua_loc_key = Language(target_language).language_loc_key
 
     rel_path = Path(input_file_path).relative_to(project_dir)
     reference_file_path = change_reference_source_dir / rel_path if change_reference_source_dir else None
     reference_file_path = reference_file_path if reference_file_path and os.path.exists(reference_file_path) else None
     has_reference_file = reference_file_path is not None
 
-    source_file_path = str(input_file_path).replace("/russian", "/english").replace("_l_russian", "_l_english")
-    has_source_file = os.path.exists(source_file_path)
+    en_file_path = str(input_file_path).replace("/russian", "/english").replace("_l_russian", "_l_english")
+    en_loc_key = Language.ENGLISH.language_loc_key
+    has_en_file = os.path.exists(en_file_path)
 
     try:
-        content = await load_eu5_yaml_and_preprocess_async(input_file_path, localization_key)
-        in_localization: dict[str, str] = content.get(localization_key, {})
+        ru_content = await load_eu5_yaml_and_preprocess_async(input_file_path, ru_loc_key)
+        ru_localization: dict[str, str] = ru_content.get(ru_loc_key, {})
 
-        ref_content = await load_eu5_yaml_and_preprocess_async(str(reference_file_path), localization_key) if has_reference_file else {}
-        ref_localization: dict[str, str] = ref_content.get(localization_key, {})
+        prev_ru_content = await load_eu5_yaml_and_preprocess_async(str(reference_file_path), ru_loc_key) if has_reference_file else {}
+        prev_ru_localization: dict[str, str] = prev_ru_content.get(ru_loc_key, {})
 
-        source_content = await load_eu5_yaml_and_preprocess_async(source_file_path, localization_key) if has_source_file else {}
-        source_localization: dict[str, str] = source_content.get(Language.ENGLISH.localization_key, {})
+        en_content = await load_eu5_yaml_and_preprocess_async(en_file_path, en_loc_key) if has_en_file else {}
+        en_localization: dict[str, str] = en_content.get(en_loc_key, {})
 
         translation_key_diff = set()
         # Setting up translated content
         if not os.path.exists(output_file_path):
-            translated_content = await create_starting_output_file(content, source_language, output_file_path)
+            translated_content = await create_starting_output_file(ru_content, source_language, output_file_path)
         else:
             translated_content = await load_eu5_yaml_async(output_file_path)
-            translated_localization = translated_content.get(target_localization_key, {})
+            translated_localization = translated_content.get(ua_loc_key, {})
 
             # if we detect PENDING_TRANSLATION, we assume the translation started and was not complete,
             # most likely due to service unavailability
@@ -334,13 +336,13 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
                 # merging source and target, making sure that source structure is preserved
                 def merge_key_value(key):
                     # in_value = migrated_text_preprocessing(in_localization[key])
-                    in_value = in_localization.get(key, source_localization.get(key))
+                    in_value = ru_localization.get(key, en_localization.get(key))
                     if translation_not_required(in_value):
                         return in_value
 
                     # remapped_key = key_preprocessing(key)
-                    if key in ref_localization and key in translated_localization:
-                        ref_value = ref_localization[key]
+                    if key in prev_ru_localization and key in translated_localization:
+                        ref_value = prev_ru_localization[key]
                         translated_value = translated_localization[key]
                         if in_value == ref_value:
                             return translated_value
@@ -363,22 +365,22 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
                     else:
                         return PENDING_TRANSLATION
 
-                key_source = source_localization or in_localization
+                key_source = en_localization or ru_localization
                 merged_localization = {k: merge_key_value(k) for k in key_source.keys()}
-                translated_content[target_localization_key] = merged_localization
+                translated_content[ua_loc_key] = merged_localization
                 translation_key_diff = merged_localization.keys() ^ translated_localization.keys()
 
-        translated_localization = translated_content.get(target_localization_key, {})
+        translated_localization = translated_content.get(ua_loc_key, {})
         for k in translated_localization.keys():
             translated_localization[k] = postprocess_text_that_does_not_require_translation(translated_localization[k])
-        untranslated_keys = {k: in_localization.get(k, v) for k, v in translated_localization.items() if
+        untranslated_keys = {k: ru_localization.get(k, v) for k, v in translated_localization.items() if
                              text_is_not_translated(v)}
         if len(untranslated_keys) == 0:
             if translation_key_diff:
-                logger.info(f"Translated {input_file_name} -> {output_file_name}, no changes requiring translation, detected key diff of ({len(translation_key_diff)}): {list(translation_key_diff)[:10]}")
+                logger.info(f"Translated {ru_file_name} -> {ua_file_name}, no changes requiring translation, detected key diff of ({len(translation_key_diff)}): {list(translation_key_diff)[:10]}")
                 await write_eu5_localization_yaml_async(translated_content, output_file_path)
             else:
-                logger.info(f"Translated {input_file_name} -> {output_file_name}, no changes")
+                logger.info(f"Translated {ru_file_name} -> {ua_file_name}, no changes")
 
             _translation_manager.mark_processed(input_file_path)
             if change_reference_source_dir:
@@ -389,13 +391,13 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
         total_batches = len(batches)
         write_lock = asyncio.Lock()
 
-        logger.info(f"Translating {input_file_name}: {len(untranslated_keys)} phrases in {total_batches} batches")
+        logger.info(f"Translating {ru_file_name}: {len(untranslated_keys)} phrases in {total_batches} batches")
 
         tasks = [
             translate_and_save_batch(
-                batch, in_localization, translated_localization, translated_content,
+                batch, ru_localization, translated_localization, translated_content,
                 output_file_path, translator, api_semaphore, write_lock,
-                batch_idx, total_batches, input_file_name,
+                batch_idx, total_batches, ru_file_name,
             )
             for batch_idx, batch in enumerate(batches)
         ]
@@ -404,16 +406,16 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
         result.file_path = input_file_path
 
         if result.is_success():
-            logger.info(f"Translated {input_file_name} -> {output_file_name} ({result.translated_records}/{len(translated_localization)} records updated)")
+            logger.info(f"Translated {ru_file_name} -> {ua_file_name} ({result.translated_records}/{len(translated_localization)} records updated)")
             _translation_manager.mark_processed(input_file_path)
             if change_reference_source_dir:
                 _migration_manager.mark_processed(input_file_path)
         else:
-            logger.warning(f"Partial translation {input_file_name}: {result.translated_records}/{result.total_submitted_records} declarations succeeded")
+            logger.warning(f"Partial translation {ru_file_name}: {result.translated_records}/{result.total_submitted_records} declarations succeeded")
         return result
 
     except Exception as e:
-        logger.exception(f"Error processing {input_file_name}: {e}")
+        logger.exception(f"Error processing {ru_file_name}: {e}")
         return TranslationResult(file_path=input_file_path).add_error(e)
 
 
@@ -429,17 +431,17 @@ def _find_untranslated_files(max_translations: int, overwrite_existing_translati
         if max_translations and len(files_to_translate) >= max_translations:
             break
 
-        input_dir_path, file_name = os.path.split(input_file_path)
-        if any(file_name == excluded_file for excluded_file in _EXCLUDED_FILES):
-            logger.info(f"Skipping {file_name} (excluded)")
+        input_dir_path, input_file_name = os.path.split(input_file_path)
+        if any(input_file_name == excluded_file for excluded_file in _EXCLUDED_FILES):
+            logger.info(f"Skipping {input_file_name} (excluded)")
             continue
         if _translation_manager.is_processed(input_file_path):
-            logger.info(f"Skipping {file_name} (already translated)")
+            logger.info(f"Skipping {input_file_name} (already translated)")
             continue
 
 
         output_dir_path = input_dir_path.replace(f"/{source_language}", f"/{target_language}")
-        output_file_name = file_name.replace(f"_l_{source_language}.yml",
+        output_file_name = input_file_name.replace(f"_l_{source_language}.yml",
                                              f"_l_{target_language}_{translation_suffix}.yml")
         output_file_path = os.path.join(output_dir_path, output_file_name)
 
@@ -448,32 +450,35 @@ def _find_untranslated_files(max_translations: int, overwrite_existing_translati
         reference_file_path = reference_file_path if reference_file_path and os.path.exists(reference_file_path) else None
         has_reference_file = reference_file_path is not None
 
-        if file_name.startswith("customizable_localization_ru_goods"):
+        if input_file_name.startswith("customizable_localization_ru_goods"):
             pass
-        if file_name == "religion_l_russian.yml":
+        if input_file_name == "religion_l_russian.yml":
             pass
 
         if has_reference_file and migration_diff_detected(input_file_path, reference_file_path):
             files_to_translate.append((input_file_path, output_file_path, output_dir_path))
+            logger.info(f"Identified a file for translation: {input_file_name}")
             continue
 
         english_language_file_path = input_file_path.replace(f"/{source_language}", f"/{Language.ENGLISH}").replace("_l_russian", "_l_english")
         if os.path.exists(english_language_file_path):
-            eng_keys = (load_eu5_yaml(english_language_file_path).get(Language.ENGLISH.localization_key) or {}).keys()
+            eng_keys = (load_eu5_yaml(english_language_file_path).get(Language.ENGLISH.language_loc_key) or {}).keys()
             input_keys = (load_eu5_yaml(input_file_path).get(f"l_{source_language}") or {}).keys()
             if eng_keys != input_keys:
                 files_to_translate.append((input_file_path, output_file_path, output_dir_path))
+                logger.info(f"Identified a file for translation: {input_file_name}")
                 continue
 
         if os.path.exists(output_file_path) and not overwrite_existing_translation and file_is_translated(
                 input_file_path, output_file_path, language=target_language):
-            logger.info(f"Skipping {file_name} -> {output_file_name} (already translated)")
+            logger.info(f"Skipping {input_file_name} -> {output_file_name} (already translated)")
             continue
         if not validate_localization_file(input_file_path, source_language):
-            logger.info(f"Skipping {file_name} -> {output_file_name} (invalid localization file)")
+            logger.info(f"Skipping {input_file_name} -> {output_file_name} (invalid localization file)")
             continue
 
         files_to_translate.append((input_file_path, output_file_path, output_dir_path))
+        logger.info(f"Identified a file for translation: {input_file_name}")
     logger.info(f"Identified {len(files_to_translate)} files to translate")
     return files_to_translate
 

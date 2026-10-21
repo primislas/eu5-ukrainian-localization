@@ -197,9 +197,9 @@ def normalize_localization_files(source_dir: Path):
         try:
             validate_and_fix_localization_file(Path(file))
             content = load_eu5_yaml(file)
-            localization = content.get(Language.RUSSIAN.localization_key, {}) or {}
+            localization = content.get(Language.RUSSIAN.language_loc_key, {}) or {}
             migrated_localization = {key_preprocessing(k): migrated_text_preprocessing(v) for k, v in localization.items()}
-            content[Language.RUSSIAN.localization_key] = migrated_localization
+            content[Language.RUSSIAN.language_loc_key] = migrated_localization
             write_eu5_localization_yaml(content, file, indent=1)
         except Exception as e:
             logger.error(f"Error processing {file}: {e}")

@@ -740,7 +740,9 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * religious procession, религиозная процессия -> священна хода
     * религиозные доктрины, догматы -> доктрини, догмати віри
     * релігійна реформа -> реформа віросповідання, церковна реформа якщо про реформацію чи християн
-    * релігійний орден -> духовний орден
+    * релігійний орден -> духовний орден; associated concepts:
+        ** zeal, рвение -> ревність
+        ** standing, положение -> вплив (духовного ордену)
     * релігійні мотиви, сюжети, музика, мистецтво -> духовні мотиви, духовні сюжети, духовна музика, духовне мистецтво
     * релігійні тексти -> pick best fitting by context from "священні", "богословські", "духовні"
 
@@ -970,11 +972,12 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     ** исторические аргументы - історичні підстави
 
     * аромат - depending on context:
-    ** "пахощі" when clearly about pleasant exotic aromas: пахощі гвоздики, квітки, парфумів
-    ** "ароматы и благоухания/благовония" -> simply "пахощі"
-    ** "запах" when it's just a stand-in for a smell in general, to describe unpleasant smells, or to avoid repetition in "аромат благовоний"-"пахощі пахощів": приємний запах пахощів, дивний запах, відомий своїм запахом
-    ** "дух" for more abstract concepts, like intrigues or progress: дух інтриг, дух поступу
+        ** "пахощі" when clearly about pleasant exotic aromas: пахощі гвоздики, квітки, парфумів
+        ** "ароматы и благоухания/благовония" -> simply "пахощі"
+        ** "запах" when it's just a stand-in for a smell in general, to describe unpleasant smells, or to avoid repetition in "аромат благовоний"-"пахощі пахощів": приємний запах пахощів, дивний запах, відомий своїм запахом
+        ** "дух" for more abstract concepts, like intrigues or progress: дух інтриг, дух поступу
     * ароматный, ароматический: "духмяний" для прянощів, вишуканих чи екзотичних запахів, пахощів; "запашний" для більш приземлених і побутових запахів (зокрема пива)
+    * "атмосфера" in a sense of general feeling or mood -> дух
 
     * auction, аукцион - торг
 
@@ -998,7 +1001,8 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     ** fixed expression "земля на горизонті" -> "земля на видноколі"
     ** in astronomical, geographical and geometrical texts keep "горизонт"
 
-    * депутати - представники
+    * депутати -> представники
+    * десант -> висадка
     * deficit, дефицит -> strive to avoid "дефіцит", depending on context use the following alternatives:
     ** "нестача", especially in menus
     ** "брак", "бракує" as an extra alternative to diversify narrative and event texts
@@ -1077,7 +1081,8 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     ** it is allowed to transform phrases like "sponsor something" to "<do something> власним коштом": "проспонсировать перенос торговли" -> "перенести торгівлю власним коштом", "коштом скарбниці" (for state funding); "проспонсируем его образование" -> "візьмемо його освіту на власний кошт"
     ** fixed expression "спонсор лиги" (Italian league sponsor) -> коштодавець ліги
     * термин(ы) - строк(и)
-    * фактор - чинник
+    * фактор -> чинник
+    * форсирование (реки, пролива) -> переправа
 
     * шанс, chance -> depending on context "нагода", "змога", "можливість" (only when clearly the most appropriate option), "ймовірність" (when talking about percentages and probabilities); fixed expressions:
     ** все шансы -> depending on context "чудова нагода" or "виключна нагода" (without "всі"), "всі підстави"

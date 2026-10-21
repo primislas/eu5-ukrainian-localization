@@ -15,7 +15,7 @@ _TRADE_GOOD_CASE = {
 if __name__ == "__main__":
     _fixed_declaration = 0
     _fixed_files = 0
-    _localization_key = Language.RUSSIAN.localization_key
+    _localization_key = Language.RUSSIAN.language_loc_key
     _goods_regex = r"\$(?P<scope>Goods|GOODS)_GetName(?P<no_tooltip>WithNoTooltip)?_UA_(?P<grammatical_case>GEN|DAT|ACC|INST|PREP)(?P<is_lower_case>_lower)?\$"
 
     def replace_match(match: re.Match) -> str:
