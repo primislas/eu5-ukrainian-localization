@@ -196,7 +196,7 @@
   GREAT_PESTILENCE_PRESENT_IN_LOCATION: "[THIS.GetLocation.GetName|Y]\nПоточне населення: [THIS.GetLocation.GetTotalPopulation|Y]\n#R Великий мор#! спіткав [THIS.GetLocation.GetDiseaseInfectionPercentage('great_pestilence')|R2%] нашого населення."
   move_good_to_new_location: "Перенести [Concept('goods', 'товар')|e] в нову місцевість"
   columbian_exchange: "Колумбів обмін"
-  timeline_note_columbian_exchange: "Розпочинається #TOOLTIP:SITUATION,columbian_exchange,X #L Колумбійський обмін#!#!, поєднуючи Старий і Новий світ."
+  timeline_note_columbian_exchange: "Розпочинається #TOOLTIP:SITUATION,columbian_exchange,X #L Колумбів обмін#!#!, поєднуючи Старий і Новий світ."
   timeline_note_columbian_exchange_end: "#TOOLTIP:SITUATION,columbian_exchange,X #L Колумбів обмін#!#! завершується."
   columbian_exchange_desc: "Контакт із заморськими чужинцями приніс у нашу країну нові сільськогосподарські культури та тварин із далеких земель, а також подарував можливість вибудувати нові торгові відносини, завдяки чому наші купці отримають доступ до нових екзотичних та незвичайних товарів."
   columbian_exchange_old_world_goods_traded_tt: "Ми виробляємо або продаємо на ринку товари зі Старого Світу"
