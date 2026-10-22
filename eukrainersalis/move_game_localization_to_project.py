@@ -205,6 +205,33 @@ def normalize_localization_files(source_dir: Path):
             logger.error(f"Error processing {file}: {e}")
 
 
+def rearrange_keys():
+    for file_path in list_localization_files(Language.ENGLISH):
+        dir_path, fname = os.path.split(file_path)
+
+        en_content = load_eu5_yaml(file_path)
+        en_loc = en_content.get(Language.ENGLISH.language_loc_key) or {}
+
+        ua_file_path = file_path.replace("/english/", "/russian/").replace(Language.ENGLISH.file_suffix, Language.UK_UA_MACHINE_TRANSLATION.file_suffix)
+        if not os.path.exists(ua_file_path):
+            ua_content = {}
+        else:
+            ua_content = load_eu5_yaml(ua_file_path)
+        ua_loc = ua_content.get(Language.UK_UA_MACHINE_TRANSLATION.language_loc_key, {})
+
+        rearranged_ua_loc = {}
+        for k, v in en_loc.items():
+            rearranged_ua_loc[k] = ua_loc.get(k, v)
+
+        ua_content[Language.UK_UA_MACHINE_TRANSLATION.language_loc_key] = rearranged_ua_loc
+        if ua_loc:
+            write_eu5_localization_yaml(ua_content, ua_file_path)
+            print(f"Rearranged {fname}")
+        elif os.path.exists(ua_file_path):
+            os.remove(ua_file_path)
+            print(f"Removed empty after rearrangement {fname}")
+
+
 if __name__ == "__main__":
     _languages = [Language.ENGLISH, Language.RUSSIAN]
     copy_localizations(game_dir, translation_dir, _languages)
@@ -213,3 +240,4 @@ if __name__ == "__main__":
     copy_custom_loc()
     copy_gui_files(game_dir, translation_dir)
     remove_deleted_gui_files(game_dir, translation_dir)
+    rearrange_keys()

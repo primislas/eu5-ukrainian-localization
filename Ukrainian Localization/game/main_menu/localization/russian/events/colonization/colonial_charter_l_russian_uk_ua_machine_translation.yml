@@ -38,7 +38,7 @@
   CHARTER_GOAL_EXPAND_TO: "Результат: Передача країні $SUBJECT$"
   CHARTER_GOAL_EXPAND_AUTO: "Результат: Передача найвідповіднішому васалу"
   CHARTER_GOAL_KEEP_TERRITORY_LABEL: "Результат: Збереження як володіння"
-  CHARTER_GOAL_AUTO_NAME: "Автоматичний"
+  CHARTER_GOAL_AUTO_NAME: "Автоматизовано"
   CHARTER_GOAL_FORM_NATION_NAME: "Створення колоніального намісництва"
   CHARTER_GOAL_EXPAND_SUBJECT_NAME: "Передача колоніальному васалу"
   CHARTER_GOAL_KEEP_TERRITORY_NAME: "Збереження як володіння"

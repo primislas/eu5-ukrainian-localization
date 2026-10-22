@@ -15,7 +15,7 @@
   DEFENDERS_HUSSITISM: "Оборонний [Concept('alliance', 'союз')|e] проти Риму"
   HUSSITE_WARS_NO_SUPPORTERS: "Жодна з [Concept('country', 'країн')|e] не пристала на цей бік"
   bohemia_and_emperor_at_war_with_both_being_leaders_tt: "[GetCountry('BOH').GetName] і [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetName] воюють одне з одним, причому кожна з цих [Concept('country', 'країн')|e] є [Concept('war_leader', 'лідером війни')|e] для своєї сторони"
-  not_on_opposing_hussite_wars_sides_tt: "We are not on opposing sides of the [ShowSituationName('hussite_wars')]"
+  not_on_opposing_hussite_wars_sides_tt: "Ми не перебуваємо по різні боки #TOOLTIP:SITUATION,hussite_wars,X #L Гуситських воєн#!#!"
   HERETICS_KILLED: "Убиті на трибуналі"
   HERETICS_CONVERTED: "Навернені на трибуналі"
   loc_key_desc_tribunal: "У ході [Concept('situation', 'ситуації')|e] #TOOLTIP:SITUATION,hussite_wars,X #L «Гуситські війни»#!#! ворогам #TOOLTIP:RELIGION,$hussite_tt$,X #L гуситства#!#! доступна унікальна [Concept('action', 'дія')|e] [Concept('unit', 'загону')|e] «[ShowUnitAbilityName('hussite_tribunal')]». Скористатися нею можна в тих [Concept('locations', 'місцевостях')|e], які перебувають під контролем [Concept('enemy', 'ворогів')|e]-#TOOLTIP:RELIGION,$catholic_tt$,X #L католиків#!#!. Частина [Concept('pops', 'населення')|e], що сповідує гуситство, буде [Concept('convert', 'навернена')|e], решта — віддана мечу."

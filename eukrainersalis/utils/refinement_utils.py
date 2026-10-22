@@ -53,10 +53,17 @@ def select_english_translation_refinement(text: str) -> bool:
     normalized_text = re.sub(r'\[[^\]]+\]', '', normalized_text)
     normalized_text = normalized_text.replace("é", "e")
     # normalized_text = re.sub(r'[^a-z\sа-яіїєґ]', '', normalized_text)
-    normalized_text = re.sub(r'[\.,:;?!=+\-×%#0-9«»<> —~•/\|\$\(\)ᵃᵈᵉᶠᵍʰⁱˡᵐⁿʳˢᵗᵛʸªº]', ' ', normalized_text)
+    normalized_text = re.sub(r'[\.,:;?!=+\-*×%#0-9«»<> —~•/\|\$\(\)ᵃᵈᵉᶠᵍʰⁱˡᵐⁿʳˢᵗᵛʸªº]', ' ', normalized_text)
     normalized_text = re.sub(r'\s+', ' ', normalized_text)
     normalized_text = normalized_text.strip()
     if len(normalized_text) == 0:
+        return False
+
+    if normalized_text in {"category_hostile_actions", "category_friendly_actions", "category_covert_actions", "category_economy_actions", "category_subject_actions"}:
+        return False
+    if normalized_text.endswith("_law_category"):
+        return False
+    if normalized_text.startswith("category_") and normalized_text.endswith("_actions"):
         return False
 
     try:
@@ -339,7 +346,7 @@ def _translate_from_english():
     _refinement_skill = RefinementSkill.ENGLISH_TRANSLATION
     _version = os.getenv("MIGRATION_TO")
     _refinement_id = f"refinement-{_refinement_skill.value}-{_version}"
-    _refinement_mgr = RefinementManager(_refinement_id, _refinement_skill, entries_threshold=20)
+    _refinement_mgr = RefinementManager(_refinement_id, _refinement_skill, entries_threshold=200)
     asyncio.run(_refinement_mgr.refine())
 
 

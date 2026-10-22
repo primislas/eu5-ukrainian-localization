@@ -59,7 +59,7 @@
   flavor_pis.1001.a.entry: "Чудова нагода наростити вплив."
   flavor_pis.1001.b: "Подібні зв’язки стануть для нас зайвим тягарем."
   flavor_pis.1100.entry: "$flavor_pis.1100.title$"
-  flavor_pis.1100.title: "In Supremae Dignitatis"
+  flavor_pis.1100.title: "In Supremae Dignitatis («На вершині гідности»)"
   flavor_pis.1100.desc: "#TOOLTIP:LOCATION,pisa,X #L Пізанські#!#! вчені користуються повагою в усій #TOOLTIP:REGION,italy_region,X #L Італії#!#!, однак у #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! досі немає офіційного навчального закладу. [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|U] запропонува[ROOT.GetCountry.Custom('clergy_vlaloly')] наступне: нехай [target_character.GetName] подасть прохання, щоб [target_character2.GetName] [Select_CString(target_character2.IsFemale, 'визнала', 'визнав')] Пізу «Studium Generale» («домом загального навчання») — у такому разі університети почнуть процвітати як ніколи."
   flavor_pis.1100.a: "Вирядимо послів, нехай [GetCountry('PAP').GetCapital.GetNameWithNoTooltip] розгляне наше прохання."
   flavor_pis.1100.a.entry: "Вирядимо послів, нехай Рим розгляне наше прохання."

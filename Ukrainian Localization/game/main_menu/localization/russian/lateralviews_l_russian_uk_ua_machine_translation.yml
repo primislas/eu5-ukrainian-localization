@@ -124,7 +124,7 @@
   lateralview_country_specific_advances_entry_name: "Панель унікальних поступів"
   lateralview_add_io_locations_entry_name: "Додати місцевості"
   ADD_IO_LOCATIONS_TITLE: "Включення місцевостей до об’єднання"
-  ADD_IO_LOCATIONS_BUTTON_DESC: "Виберіть будь-яку кількість наших [Concept('locations', 'місцевостей')|e] зі списку або просто на мапі, потім додайте їх усі одночасно. Вибір [Concept('location', 'місцевости')|e] також дозволяє вибрати сусідні з нею, завдяки чому ми можемо крок за кроком просуватися вглиб. [Concept('locations', 'Місцевості')|e], які ми просто [Concept('conquered', 'завоювали')|e], додати не можна."
+  ADD_IO_LOCATIONS_BUTTON_DESC: "Виберіть будь-яку кількість наших [Concept('locations', 'місцевостей')|e] зі списку або просто на мапі, а потім додайте їх усі одночасно. Вибір [Concept('location', 'місцевости')|e] також дозволяє вибрати сусідні з нею, завдяки чому ми можемо крок за кроком просуватися вглиб. [Concept('locations', 'Місцевості')|e], які ми просто [Concept('conquered', 'завоювали')|e], додати не можна."
   ADD_IO_LOCATIONS_SELECT_ALL: "Вибрати все"
   ADD_IO_LOCATIONS_CLEAR: "Очистити"
   ADD_IO_LOCATIONS_CONFIRM: "Додати вибрані"

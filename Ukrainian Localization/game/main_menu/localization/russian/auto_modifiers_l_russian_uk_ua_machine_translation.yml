@@ -238,6 +238,6 @@
   AUTO_MODIFIER_DESC_placitum_regium_inter_gravissimas: "$ignores_papal_bulls_generic_desc$"
   AUTO_MODIFIER_DESC_placitum_regium_inter_gravissimas_zealous: "$ignores_papal_bulls_generic_desc$"
   AUTO_MODIFIER_NAME_heretic_ruler_penalty: "Правитель-єретик"
-  AUTO_MODIFIER_DESC_heretic_ruler_penalty: "Наш [Concept('ruler', 'правитель')|e] сповідує єретичну віру й підриває авторитет панівної віри."
+  AUTO_MODIFIER_DESC_heretic_ruler_penalty: "Наш [Concept('ruler', 'правитель')|e] сповідує єретичну віру та підриває авторитет панівної віри."
   AUTO_MODIFIER_NAME_heathen_ruler_penalty: "Правитель-іновірець"
-  AUTO_MODIFIER_DESC_heathen_ruler_penalty: "Наш [Concept('ruler', 'правитель')|e] сповідує чужовірство й підриває авторитет панівної віри."
+  AUTO_MODIFIER_DESC_heathen_ruler_penalty: "Наш [Concept('ruler', 'правитель')|e] сповідує чужовірство та підриває авторитет панівної віри."

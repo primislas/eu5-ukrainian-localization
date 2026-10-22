@@ -84,7 +84,7 @@
   flavor_brapru.15.title: "«Практика благочестя в піснях»"
   flavor_brapru.15.entry: "$flavor_brapru.15.title$"
   flavor_brapru.15.desc: "Кантор і викладач у #TOOLTIP:LOCATION,berlin,X #L берлінській#!#! гімназії «Цум грауен клостер» [target_artist.GetName] здобув певну славу як композитор і письменник на тему музичної освіти. У роки своєї служби кантором [target_artist.GetNameWithNoTooltip] також випустив збірку з 240 гімнів, виданих під назвою Praxis Pietatis Melica, тобто «Практика благочестя в піснях». Його прагнення не тільки виконувати старі гімни, а й писати нові на благо правовірних по всій Німеччині заслуговує на повагу, а тому видання збірки слід підтримати."
-  flavor_brapru.15.a: "Nun danket alle Gott."
+  flavor_brapru.15.a: "Nun danket alle Gott («Тепер усі дякуйте Богові»)."
   flavor_brapru.16.title: "[target_artist.GetNameWithNoTooltip]"
   flavor_brapru.16.entry: "«Федон» Мозеса Мендельсона"
   flavor_brapru.16.desc: "Єврейський вчений-поліглот і мислитель [target_artist.GetName] — людина скромного походження. Спочатку він мав намір стати рабином, однак дорожнеча богословської освіти привела його до провінції [berlin_province.GetName], де [target_artist.GetName] став відомим автором, однаково шанованим як серед #TOOLTIP:RELIGIONGROUP,christian,X #L християн#!#!, так і серед #TOOLTIP:RELIGIONGROUP,israelite_group,X #L юдеїв#!#!. Він видає праці #TOOLTIP:LANGUAGE,german_language,X #L німецькою#!#! та #TOOLTIP:LANGUAGE,hebrew_language,X #L івритом#!#!, а також проводить у себе вдома відкриті обговорення на різні теми. Ніхто з колишніх жителів #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! ніколи так не сприяв зміцненню терпимості між народами, як він."

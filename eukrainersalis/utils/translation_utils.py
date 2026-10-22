@@ -18,7 +18,11 @@ class Language(StrEnum):
     def __new__(cls, value):
         member = str.__new__(cls, value)
         member._value_ = value
-        member.language_loc_key = f"l_{value}"
+        if value == "russian_uk_ua_machine_translation":
+            member.language_loc_key = "l_russian"
+        else:
+            member.language_loc_key = f"l_{value}"
+        member.file_suffix = f"l_{value}"
         return member
 
 

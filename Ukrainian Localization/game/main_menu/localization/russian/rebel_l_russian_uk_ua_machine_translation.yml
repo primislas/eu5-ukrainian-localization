@@ -32,6 +32,7 @@
   rsi_primary: "[Concept('primary_culture', 'Панівна культура')|e]"
   rsi_accepted: "[Concept('accepted_culture', 'Визнана культура')|e]"
   rsi_tolerated: "[Concept('tolerated_culture', 'Прийнятна культура')|e]"
+  rsi_discriminated: "[discriminated_culture|e]"
   rsi_estate: "[Concept('estate', 'Стан')|e]"
   rsi_unrest: "Місцеві [Concept('unrest', 'заворушення')|e]"
   rsi_tolerance: "[Concept('tolerance', 'Терпимість')|e]"
