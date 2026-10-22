@@ -125,6 +125,7 @@
   crusade_privileges_bull: "Булла про привілеї хрестоносців"
   crusade_privileges_bull_active: "Булла про привілеї хрестоносців"
   crusade_privileges_bull_desc: "Папа проголошує буллу, яка наділяє всіх учасників [Concept('crusade', 'хрестового походу')|e] привілеями хрестоносців. Поки вона діє, кожен учасник хрестового походу здобуває славу в християнському світі та прихильність церкви."
+  crusade_privileges_bull_effect_tt: "Every member of the [crusade|e] gains [ROOT.GetStaticModifier('crusade_privileges').GetNameWithTooltip] for 5 years"
   crusade_privileges_bull_specific: "Представити буллу про привілеї хрестоносців"
   crusade_privileges_bull_specific_desc: "Розпочати дебати про надання учасникам [Concept('crusade', 'хрестового походу')|e] привілеїв із папської булли"
   vote_in_crusade_privileges_bull: "Голосувати щодо булли про привілеї хрестоносців"
