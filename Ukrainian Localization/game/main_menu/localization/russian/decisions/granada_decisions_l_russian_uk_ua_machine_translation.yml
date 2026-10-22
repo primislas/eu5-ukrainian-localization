@@ -1,5 +1,4 @@
 ﻿l_russian:
-  gra_expand_seda_de_granada.title: "Розширення [ShowGoodsNameWithNoTooltip('silk')]ових промислів у провінції [ShowLocationNameWithNoTooltip('granada')]"
-  gra_expand_seda_de_granada.desc: "Після завоювання місцевості [ShowLocationName('murcia')] у нас з’явилася змога розширити наші славетні [ShowGoodsName('silk')]ові промисли і постачати шовк у ще більшій кількості до решти [ShowContinentName('europe')]."
-  gra_expand_seda_de_granada.a: "Розширимо виробництво."
-  gra_expand_seda_de_granada.b: "Не на часі."
+  gra_expand_seda_de_granada.title: "Розширити шовкові промисли в Гранаді"
+  gra_expand_seda_de_granada.desc: "Завоювавши #TOOLTIP:LOCATION,murcia,X #L Мурсію#!#!, ми здобули змогу розширити промисли свого славетного #TOOLTIP:GOODS,silk,X #L шовку#!#! та збільшити обсяги його вивозу до решти #TOOLTIP:CONTINENT,europe,X #L Європи#!#!."
+  gra_expand_seda_de_granada.a: "Час розширювати виробництво."
