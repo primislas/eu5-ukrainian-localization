@@ -395,7 +395,7 @@
   LOCATION_MOVEMENTS_INFO_HEADER: "#col_t Послідовники#! #col_t руху#! #col_t у місцевості#!"
   LOCATION_NO_MOVEMENTS_INFO: "У [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetNameWithNoTooltip] зараз немає рухів."
   WINTER_BLOCKS_MOVEMENT: "@trigger_no! Тут [TOPOGRAPHY.GetName|l] — пересування війська таким рельєфом неможливе під час звичайної або суворої зими."
-  MOVEMENT_BLOCKED_MODIFIER: "@trigger_no! Неможливо перемістити військо до цієї місцевості, оскільки в ній [ShowModifierTypeName('movement_blocked')]."
+  MOVEMENT_BLOCKED_MODIFIER: "@trigger_no! Неможливо перемістити військо до цієї місцевості, оскільки в ній #TOOLTIP:MODIFIER_TYPE,movement_blocked,X #P #V заблоковано рух#!#!#!."
   ZOC_BLOCKS_MOVEMENT: "@trigger_no! Військо не може минути [Concept('zone_of_control', 'зону контролю')|e] [Concept('fort', 'фортеці')|e], розташованої поблизу."
   NO_PATH_AVAILABLE: "@trigger_no! Немає доступних шляхів до вказаної місцевості."
   NO_TRANSPORT_SHIPS_AVAILABLE: "@trigger_no! Ані в нас, ані в наших союзників немає кораблів для перевезення наших військ."

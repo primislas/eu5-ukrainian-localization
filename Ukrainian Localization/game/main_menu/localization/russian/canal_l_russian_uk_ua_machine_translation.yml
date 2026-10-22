@@ -8,6 +8,6 @@
   panama_canal_advance_desc: "Провести дослідження й розпочати будівництво каналу через Панамський перешийок, щоб сполучити Атлантичний і Тихий океани."
   CANAL_LOCATION: "Канал"
   CANAL_LOCATION_DESC: "Через цю місцевість проходить судноплавний канал, що сполучає два моря."
-  CANAL_LOCATION_RESTRICTED: "Право проходу каналом мають лише кораблі союзників і васалів його володаря."
+  CANAL_LOCATION_RESTRICTED: "Право проходу каналом мають лише кораблі союзників та васалів його власника."
   CANAL_LOCATION_RESTRICTED_FOR_US: "We do not qualify, and cannot currently pass through this canal."
   CANAL_LOCATION_NOT_RESTRICTED: "We may currently pass through this canal."
