@@ -46,6 +46,7 @@
   flavor_zmw.1101.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   flavor_zmw.1101.a.entry: "$common_string_brilliant$"
   flavor_zmw.1101.b: "Нас це не цікавить."
+  flavor_zmw.1101.c: "A man who knows these lands belongs at our [ROOT.GetCountry.GetGovernment.GetCourtTitle]."
   flavor_zmw.1200.title: "[target_character.GetNameWithNoTooltip] та [Select_CString(target_character.IsFemale, 'її', 'його')] місія"
   flavor_zmw.1200.entry: "Християнські місіонери в Зімбабве"
   flavor_zmw.1200.desc: "[target_character.GetName] з #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_GEN')|L]#!#! служив своїй рідній країні на посаді посла та намісника, але потім зрозумів, що його покликання — бути #TOOLTIP:RELIGION,$catholic_tt$,X #L католицьким#!#! місіонером. Сьогодні [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] вислуховує його прохання: [target_character.GetName] хоче заснувати в нашій країні католицьку місію, а заодно цікавиться, чи не хоче [target_ruler.GetName] особисто навернутися до католицтва."

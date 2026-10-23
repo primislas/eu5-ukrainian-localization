@@ -43,7 +43,7 @@
   flavor_gra.10.title: "[target_character.GetNameWithNoTooltip] [Select_CString(target_character.IsFemale,'убита', 'убитий')]"
   flavor_gra.10.desc: "У #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#! сталася трагедія!\n\nНевідомий шаленець, дочекавшись, коли [target_character.GetName] завершить молитву у [target_location.Custom('LR_PREP')|l] [target_location.GetName], напав на [Select_CString(target_character.IsFemale, 'неї', 'нього')] та завдав кількох жахливих ударів. Навіть найкращі придворні лікарі виявилися безсилими зцілити страшні рани, і лише за кілька годин [Select_CString(target_character.IsFemale, 'нещасну', 'нещасного')] спіткала смерть.\n\nНаш [ROOT.GetCountry.GetGovernment.GetCourtTitle|l] у жалобі. Дехто певен, що напад було підлаштовано заздалегідь: за їхніми словами, супротивники [Select_CString(target_character.IsFemale, 'убитої', 'убитого')] зумисне відвернули увагу [Select_CString(target_character.IsFemale, 'її', 'його')] охоронців, щоби вбивця міг скористатися нагодою. Правди, втім, не знає ніхто. Краще не ворушити минуле."
   flavor_gra.10.a: "Що тепер буде з [ROOT.GetCountry.Custom('CL_INST')]?"
-  leader_is_scarred: "#Y [target_character.GetName] виживає, але залишається зі шрамами#!"
+  leader_is_scarred: "#Y [target_character.GetName] виживає, але наслідки поранення залишаться з [Select_CString(target_character.IsFemale, 'нею', 'ним')] назавжди#!"
   leader_dies: "#Y [target_character.GetName] не виживає#!"
   flavor_gra.11.entry: "$flavor_gra.11.title$"
   flavor_gra.11.title: "Гранадський шовк"

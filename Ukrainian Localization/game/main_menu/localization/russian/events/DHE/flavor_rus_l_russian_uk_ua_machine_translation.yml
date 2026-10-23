@@ -101,6 +101,7 @@
   flavor_rus.15.tt1: "Енергійний та красномовний [nikita_minin.GetName] проведе сміливі перетворення, чим буд[ROOT.GetCountry.Custom('clergy_eut')] вкрай незадоволен[ROOT.GetCountry.Custom('clergy_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l]"
   flavor_rus.15.b: "Підтримаємо старі обряди."
   flavor_rus.15.c: "Нікіта Мінін має втратити владу."
+  flavor_rus.15.c.entry: "$name_nicetas.east_slavic_language$ $Minin$ має втратити владу."
   flavor_rus.15.tt2: "[nikita_minin.GetName] постане перед соборним судом, який позбавить його священного сану"
   flavor_rus.15.historical_info: "Розкол Руської церкви був викликаний реформами патріарха Нікона, які багато сучасників визнали занадто різкими та протилежними православним звичаям. Сформувалися цілі громади так званих старообрядців (вони ж розкольники). Згодом вони розділилися на безліч об'єднань меншого розміру — згод."
   flavor_rus.16.title: "Великі перетворення"
