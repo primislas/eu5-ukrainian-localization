@@ -198,7 +198,7 @@
   tun_take_over_throne: "Узурпація @[TARGET_COUNTRY.GetFlag]! #L [TARGET_COUNTRY.GetAdjective|l]ого#! престолу"
   tun_take_over_throne_entry: "Узурпація @[TARGET_COUNTRY.GetFlag]! #L [TARGET_COUNTRY.GetAdjective|l]ого#! престолу"
   tun_take_over_throne_entry_short: "$tun_take_over_throne_entry$"
-  tun_take_over_throne_desc: "Дві країни об’єднаються під владою одного монарха, поклавши край розколу на землях #TOOLTIP:DYNASTY,$hafsid_dynasty_tt$,X #L Хафсидів#!#!."
+  tun_take_over_throne_desc: "Дві країни об’єднаються під владою одного монарха, поклавши край розколу на землях #TOOLTIP:DYNASTY,$hafsid_dynasty_tt$,X #L Хафсідів#!#!."
   annex_target_tun: "Обрана [Concept('country', 'країна')|e] буде [Concept('annexed', 'поглинена')|e]"
   force_convert: "[COUNTRY.GetReligion.GetNameWithNoTooltip] — примусове навернення @[TARGET_COUNTRY.GetFlag]! [TARGET_COUNTRY.Custom('CL_GEN')]"
   force_convert_entry: "[COUNTRY.GetReligion.GetName] — примусове навернення @[TARGET_COUNTRY.GetFlag]! #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!"
