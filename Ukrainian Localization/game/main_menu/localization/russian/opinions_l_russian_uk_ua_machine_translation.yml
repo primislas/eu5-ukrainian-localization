@@ -30,7 +30,7 @@
   COUNTRY_ANTAGONISM_TOWARDS_SELF: "#T #L [COUNTRY.GetAdjective]а#! ворожість#!\nОчевидно, жителі #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! ставляться до самих себе без ворожості."
   COUNTRY_ANTAGONISM_TOWARDS_SELF_PLAYER: "#T Ворожість до #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!\n[TARGET_COUNTRY.GetName] — це наша країна!"
   COUNTRY_ANTAGONISM_TOWARDS: "#L [COUNTRY.GetAdjective]а#! [Concept('antagonism', 'ворожість')|e] до #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!: $ANTAGONISM|-=$. Причини:"
-  COUNTRY_NO_ANTAGONISM_TOWARDS: "#L [COUNTRY.GetAdjective]а#! сторона не відчуває [Concept('antagonism', 'ворожости')|e] до #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!"
+  COUNTRY_NO_ANTAGONISM_TOWARDS: "#L [COUNTRY.GetAdjective]а#! сторона не відчуває [Concept('antagonism', 'ворожости')|e] до #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!"
   COUNTRY_FAVORS_OF_TT: "[Concept('favors', 'Прихильність')|e] країни $WHO|Y$ до країни $TARGET|Y$: $FAVORS|+=$. Причини:"
   COUNTRY_LOYALTY_OF_SELF: "#T Вірність країні $WHO$#!\nОчевидно, $TARGET|Y$ не зрадить себе."
   COUNTRY_LOYALTY_OF_SELF_PLAYER: "#T Вірність країні $WHO$#!\n$TARGET|Y$ — це наша країна!"

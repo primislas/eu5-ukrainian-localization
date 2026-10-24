@@ -119,7 +119,7 @@
   flavor_plc.18.b.entry: "Ми не будемо цього робити — столиця надто багата."
   STATIC_MODIFIER_NAME_plc_capital_change_modifier: "Зміна столиці"
   flavor_plc.19.title: "[ShowEstatePrivilegeNameWithNoTooltip('liberum_veto')]"
-  flavor_plc.19.entry: "Liberum veto"
+  flavor_plc.19.entry: "Liberum veto («Довільне вето»)"
   flavor_plc.19.desc: "Усвідомлюючи, що уряд багато в чому покладається на їхню підтримку, [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l] зважи[ROOT.GetCountry.Custom('nobles_vlaloly')]ся на немислиму підлість і вда[ROOT.GetCountry.Custom('nobles_vlaloly')]ся до шантажу. Тепер вони вимагають, щоб [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'дарувала', 'дарував')] їм [ShowEstatePrivilegeName('liberum_veto')|l] — право на припинення обговорення будь-якого питання в сеймі."
   flavor_plc.19.a: "Надати привілеї."
   flavor_plc.19.b: "Ми не піддамося на шантаж!"

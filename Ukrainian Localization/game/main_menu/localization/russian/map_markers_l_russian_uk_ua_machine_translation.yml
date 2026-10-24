@@ -48,7 +48,7 @@
   OCCUPATION_X_DAYS_LEFT: "Залишилося $VAL|Y$ д."
   OCCUPATION_X_DAYS_LEFT_SHORT: "$VAL|Y$ д."
   OCCUPATION_FINISHED_IN_X_DAYS: "Окупація завершиться через $VAL|Y$ д.\nПричини:\n$WHY$"
-  OCCUPATION_FINISHED_IN_X_DAYS_NO_GARRISON: "Owing to a lack of [garrison|e] in this fort, the occupation will be finished in $VAL|Y$ day(s).\nThe length of this occupation is due to:\n$WHY$"
+  OCCUPATION_FINISHED_IN_X_DAYS_NO_GARRISON: "Через брак [Concept('garrison', 'залоги')|e] у цій фортеці окупація завершиться за $VAL|Y$ дн.\nТривалість цієї окупації зумовлена:\n$WHY$"
   SIEGE_IS_OVER: "Облога закінчена"
   MAPICON_CREATE_MARKET_TT: "$NAME|Y$: будівництво завершиться $WHEN|Y$."
   MAPICON_BUILD_CAPITAL_TT: "$NAME|Y$: будівництво завершиться $WHEN|Y$."

@@ -35,7 +35,7 @@
   oligarchic_capture.7.desc.ready: "Тепер, коли [oligarchic_ringleader_scope.GetName] викритий, ми можемо діяти проти нього безпосередньо. Влада корони відновилася достатньою мірою, щоб фракцію можна було швидко здолати."
   oligarchic_capture.7.desc.not_ready: "Тепер, коли [oligarchic_ringleader_scope.GetName] викритий, ми могли б діяти проти нього безпосередньо, проте влада корони ще не відновилася достатньою мірою. Поквапливий удар може лише дужче згуртувати фракцію."
   oligarchic_capture.7.a: "Виступити проти них."
-  oligarchic_capture.7.a.success_tt: "Our [crown_power|e] has reached 30% or more, so the attempt succeeds"
+  oligarchic_capture.7.a.success_tt: "Наш [Concept('crown_power', 'влада')|e] сягнула 30% або більше, тому спроба вдалася"
   oligarchic_capture.7.a.fail_tt: "Наша [crown_power|e] ще не досягла 30%, тому спроба провалиться, а удар у відповідь дорого коштуватиме нашій стабільності"
   oligarchic_capture.8.title: "Перемовини зі станом про поступки"
   oligarchic_capture.8.desc: "Замість того щоб відкрито протистояти фракції, ми відкриваємо таємний канал перемовин, пропонуючи гроші та незначні поступки, аби пом’якшити її невдоволення й сповільнити зростання."

@@ -75,7 +75,7 @@
   hre.910.title: "Князівство в лещатах іновірців"
   hre.910.desc: "Князівство #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#! [enslaved_hre_member.GetName] потрапляє в руки варварів з #ONCLICK:COUNTRY,[foreign_overlord.GetKey] #TOOLTIP:COUNTRY,[foreign_overlord.GetKey],X [foreign_overlord.Custom('CL_GEN')|L]#!#!.\n\nВи як [GetUniqueInternationalOrganization('hre').GetLeaderTitle|l] зобов’язані на це відповісти, а [GetUniqueInternationalOrganization('hre').GetName] вас підтримає."
   hre.910.a: "Таку образу не можна ігнорувати. Збираємо князів!"
-  hre.910.a.tt: "Every [ShowReligionGroupAdjective('christian')] member of the [GetUniqueInternationalOrganization('hre').GetName] gains [ShowBiasValue('antagonism_hre_member_under_infidel_domination')|+=0] [antagonism|e] toward [foreign_overlord.GetName]"
+  hre.910.a.tt: "Кожен [ShowReligionGroupAdjective('christian')|l]ий учасник #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської імперії#!#! отримує [ShowBiasValue('antagonism_hre_member_under_infidel_domination')|+=0] [Concept('antagonism', 'ворожости')|e] до #ONCLICK:COUNTRY,[foreign_overlord.GetKey] #TOOLTIP:COUNTRY,[foreign_overlord.GetKey],X [foreign_overlord.Custom('CL_GEN')|L]#!#!"
   hre.911.title: "Князівство присягає чужинцям"
   hre.911.desc: "Князівство #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#! [enslaved_hre_member.GetName] поступається тиску варварів з #ONCLICK:COUNTRY,[foreign_overlord.GetKey] #TOOLTIP:COUNTRY,[foreign_overlord.GetKey],X [foreign_overlord.Custom('CL_GEN')|L]#!#!. [GetUniqueInternationalOrganization('hre').GetLeaderTitle] отримує звістки про цей факт, образливий для імперії."
   hre.911.a: "Християнський світ зазнав великої втрати."

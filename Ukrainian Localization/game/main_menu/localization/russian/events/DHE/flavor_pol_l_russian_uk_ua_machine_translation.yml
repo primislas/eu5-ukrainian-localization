@@ -11,7 +11,7 @@
   flavor_pol.2.a: "Наймемо робітників і розпочнемо будівництво."
   flavor_pol.2.b: "Якщо подумати, [ROOT.GetCountry.GetGovernment.GetPreviousRuler.GetShortNameWithNoTooltip] обійдеться без монумента."
   flavor_pol.2.b.entry: "З іншого боку, він обійдеться без монумента."
-  flavor_pol.3.title: "Merkuriusz Polski Ordynaryjny"
+  flavor_pol.3.title: "Merkuriusz Polski Ordynaryjny («Польський щотижневий вісник»)"
   flavor_pol.3.entry: "$flavor_pol.3.title$"
   flavor_pol.3.desc: "Європою стрімко поширюються друковані видання, що називаються часописами. Чим гірша [ROOT.GetCountry.GetLongName]? Нам час випускати власні часописи.\n\nЩоб видання нашої країни користувалися успіхом і добрим ім'ям, а також були вірні короні, очолити це починання має королівський секретар і дипломат [hieronymus_pinocci_scope.GetNameWithNoTooltip]. Якщо [ROOT.GetCountry.GetGovernment.GetRuler.GetName] дасть на це своє благословення, влада [ROOT.GetCountry.Custom('CL_GEN')] зможе своєчасно повідомляти новини кожному своєму підданому."
   flavor_pol.3.historical_info: "Перший щотижневий польський часопис #italic Merkuriusz Polski Ordynaryjny#! («Меркурій польський»), що висвітлювала сучасну політику, взаємини європейських династій та війни монархів, видавався коштом королеви Марії Луїзи Гонзаги та короля Яна II Казимира. Він виступала за проведення політичних реформ та зміцнення королівської влади. Завідував часописом головний редактор Ієронім Піноччі; випускався ж він друкарським домом Яна Горчина."
