@@ -2,7 +2,7 @@
   flavor_byz.1.title: "Розорення та руйнування Венеції"
   flavor_byz.1.entry: "$flavor_byz.1.title$"
   flavor_byz.1.desc: "Колись велике місто #TOOLTIP:LOCATION,venice,X #L Венеція#!#! зазнало всієї сили гніву #L [ROOT.GetCountry.GetAdjective|l]их#! вояків, що прагнули помститися за зраджених хрестоносців. Імперські полководці ніколи не приховували своїх справжніх намірів: відібрати майно та почесті у сімей патриціїв і повернути скарби, колись вкрадені у василевса.\n\nЖахлива картина, що розгорнулася на очах у тих, хто спостерігав за вступом [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ого війська до міста на воді, вражає уяву: на війні справді немає місця співчуттю. За ті кілька днів, що [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]і вояки провели в місті, вони, підкоряючись наказам своїх кровожерливих полководців, розграбували та розгромили церкви, палаци і навіть венеційський арсенал."
-  flavor_byz.1.a: "Oderint dum metuant."
+  flavor_byz.1.a: "Oderint dum metuant («Нехай ненавидять, аби боялися»)."
   flavor_byz.1.b: "Припинити грабунок!"
   variable_venice_acquired_peacefully_variable_tt: "#TOOLTIP:LOCATION,venice,X #L Венеція#!#! придбана мирним шляхом"
   STATIC_MODIFIER_NAME_chastening_of_venice: "Покарання Венеції"

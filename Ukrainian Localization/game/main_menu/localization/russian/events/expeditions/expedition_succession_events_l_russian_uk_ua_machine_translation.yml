@@ -7,7 +7,7 @@
   expedition_succession_events.2.title: "Новий капітан-генерал"
   expedition_succession_events.2.desc: "До столиці [ROOT.GetCountry.GetCapital.GetName] надходить звістка, що адмірал флоту помер. Флот не може пливти цими водами без очільника, але, на щастя, один із офіцерів достатньо старший і здібний, аби решта сприйняла його слово як закон, і він уже зайняв капітанський місток.\n\nОфіцери затверджують його новим командувачем флоту, і плавання продовжується під його проводом."
   expedition_succession_events.2.a: "Хай буде так. Флот іде далі."
-  expedition_succession_events.generic_new_leader_tt: "[target.GetName] takes command of the expedition"
+  expedition_succession_events.generic_new_leader_tt: "[target.GetName] перебирає командування виправою"
   expedition_succession_events.3.title: "Командування переходить далі"
   expedition_succession_events.3.desc: "Донесення, доправлене додому останнім човном, що повертався, сповіщає, що [former_leader.GetName], [Select_CString(former_leader.IsFemale, 'яка очолювала виправу, загинула', 'який очолював виправу, загинув')] в дорозі. Загін не став чекати на розпорядження; на той час, як листа запечатали, вцілілі вже вирішили це питання між собою, як зазвичай і чинять люди, далекі від будь-якого двору.\n\n[target.GetName] [Select_CString(target.IsFemale, 'перейняла', 'перейняв')] командування, і виправа продовжує шлях."
   expedition_succession_events.3.a: "Справа важливіша за будь-яку окрему людину."

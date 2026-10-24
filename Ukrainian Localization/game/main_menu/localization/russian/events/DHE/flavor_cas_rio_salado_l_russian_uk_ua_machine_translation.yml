@@ -15,7 +15,7 @@
   flavor_cas_rio_salado_response.34.a: "Наші [target_ally.GetAdjectiveWithNoTooltip|l]і друзі отримають всю необхідну допомогу."
   flavor_cas_rio_salado_response.34.a.entry: "Наші союзники отримають усю необхідну допомогу."
   flavor_cas_rio_salado_response.34.b: "Відмовимо в їхньому проханні."
-  castile_less_likely_to_conquer_portugal_tt: "[target_ally.GetName] will be far less likely to [conquer|e] [ShowAreaName('north_portugal_area')] or [ShowAreaName('south_portugal_area')]"
+  castile_less_likely_to_conquer_portugal_tt: "[target_ally.GetName] значно рідше намагатим[target_ally.Custom('end_etsautsa')] [Concept('conquer', 'підкорити')|e] #TOOLTIP:AREA,north_portugal_area,X #L Північну Португалію#!#! або #TOOLTIP:AREA,south_portugal_area,X #L Південну Португалію#!#!"
   flavor_cas_rio_salado.5.title: "[GetCountry('MOR').GetAdjectiveWithNoTooltip]і загарбники вигнані з Іберії"
   flavor_cas_rio_salado.5.entry: "Битва при Ріо-Саладо виганяє Марокко з Іберії"
   flavor_cas_rio_salado.5.desc: "Ми здобули велику перемогу над військами #ONCLICK:COUNTRY,[GetCountry('MOR').GetKey] #TOOLTIP:COUNTRY,[GetCountry('MOR').GetKey],X [GetCountry('MOR').Custom('CL_GEN')|L]#!#!! #TOOLTIP:LOCATION,algeciras,X #L Альхесірас#!#! тепер наш, а #TOOLTIP:LOCATION,strait_of_gibraltar,X #L Гібралтарська протока#!#! нарешті визволена від #L [GetCountry('MOR').GetAdjective|l]ого#! панування. Ми не тільки захопили багату здобич, але й отримали значну контрибуцію, нав'язавши ворогу мир на вигідних нам умовах. Ця перемога прославить нас у віках!"

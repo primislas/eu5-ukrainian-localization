@@ -29,7 +29,7 @@
   flavor_cro.1102.a.entry: "$common_string_nothing_we_can_do_about_it$"
   flavor_cro.1102.b: "Анулюємо Pacta Conventa, а корону нехай забере [target_character.GetLastNameWithNoTooltip]!"
   flavor_cro.1102.b.entry: "Анулюємо Pacta Conventa та коронуємо його!"
-  flavor_cro.1103.title: "[GetCountry('CRO').GetNameWithNoTooltip] анулю[GetCountry('CRO').Custom('end_yeyut')] Pacta Conventa"
+  flavor_cro.1103.title: "[GetCountry('CRO').GetNameWithNoTooltip] анулю[GetCountry('CRO').Custom('end_yeyut')] Pacta Conventa («Договірні статті»)"
   flavor_cro.1103.desc: "Після нашої відмови визнавати владу [Select_CString(target_character.IsFemale, 'цієї узурпаторки', 'цього узурпатора')] над #ONCLICK:COUNTRY,[GetCountry('CRO').GetKey] #TOOLTIP:COUNTRY,[GetCountry('CRO').GetKey],X [GetCountry('CRO').Custom('CL_INST')|L]#!#! [target_character.GetName] [Select_CString(target_character.IsFemale, 'вирішила', 'вирішив')] піти на куди радикальніші заходи, ніж будь-хто міг передбачити. [GetCountry('CRO').GetName] оголоси[GetCountry('CRO').Custom('end_vlaloly')] про угоду Pacta Conventa, завдяки якій анульована #L [GetCountry('HUN').GetAdjective|l][GetCountry('HUN').Custom('crown_yiaei')]#! [GetCountry('HUN').GetGovernment.GetEstateNameWithNoTooltip('crown_estate')|l] буде пов’язан[ROOT.GetCountry.Custom('crown_yiaei')] з цією частиною нашої держави. Крім того, тепер [target_character.GetLastNameWithNoTooltip] — їхн[Select_CString(target_character.IsFemale, 'я нова', 'ій новий')] [GetCountry('CRO').GetGovernment.GetRulerTitle|l]!"
   flavor_cro.1103.a: "Ми не допустимо подібного свавілля!"
   flavor_cro.1103.b: "Ми не будемо втручатися."

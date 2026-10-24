@@ -9,5 +9,5 @@
   CANAL_LOCATION: "Канал"
   CANAL_LOCATION_DESC: "Через цю місцевість проходить судноплавний канал, що сполучає два моря."
   CANAL_LOCATION_RESTRICTED: "Право проходу каналом мають лише кораблі союзників та васалів його власника."
-  CANAL_LOCATION_RESTRICTED_FOR_US: "We do not qualify, and cannot currently pass through this canal."
-  CANAL_LOCATION_NOT_RESTRICTED: "We may currently pass through this canal."
+  CANAL_LOCATION_RESTRICTED_FOR_US: "Ми не відповідаємо вимогам і наразі не можемо проходити цим каналом."
+  CANAL_LOCATION_NOT_RESTRICTED: "Наразі ми можемо проходити цим каналом."
