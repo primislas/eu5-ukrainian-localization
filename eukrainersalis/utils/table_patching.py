@@ -20,7 +20,7 @@ def fix_column_declarations_from_english_source():
             continue
 
         _en_content = load_eu5_yaml(en_file)
-        _en_loc = _en_content.get(_en_localization_key, {})
+        _en_loc = _en_content.get(_en_localization_key) or {}
 
         _ua_content = None
         _ua_loc = None
