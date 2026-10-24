@@ -2931,6 +2931,7 @@
   FORMABLE_MANY_PROVINCEDEFINITIONS: "[Concept('provinces', 'Провінції')|e]"
   FORMABLE_FULL_PROVINCEDEFINITION: "[Concept('province', 'Провінція')|e] "
   FORMABLE_FULL_LOCATION: "[Concept('locations', 'Місцевості')|e]"
+  FORMABLE_PLACES_SEPARATOR: "; "
   FORMABLE_DEBUG_TAG: "тег: $STRING$"
   FORMABLE_DEBUG_RULE: "правило: $STRING$"
   FORMABLE_REQUIRED_CONTINENTS: "[Concept('continents', 'континенти')|e] $LIST$"

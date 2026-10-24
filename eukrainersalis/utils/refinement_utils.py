@@ -53,7 +53,7 @@ def select_english_translation_refinement(text: str) -> bool:
     normalized_text = re.sub(r'\[[^\]]+\]', '', normalized_text)
     normalized_text = normalized_text.replace("é", "e")
     # normalized_text = re.sub(r'[^a-z\sа-яіїєґ]', '', normalized_text)
-    normalized_text = re.sub(r'[\.,:;?!=+\-×%#0-9«»<> —~•/\|\$\(\)ᵃᵈᵉᶠᵍʰⁱˡᵐⁿʳˢᵗᵛʸªº]', ' ', normalized_text)
+    normalized_text = re.sub(r'[\.,:;?!=+\-*×%#0-9«»<> —~•/\|\$\(\)ᵃᵈᵉᶠᵍʰⁱˡᵐⁿʳˢᵗᵛʸªº]', ' ', normalized_text)
     normalized_text = re.sub(r'\s+', ' ', normalized_text)
     normalized_text = normalized_text.strip()
     if len(normalized_text) == 0:

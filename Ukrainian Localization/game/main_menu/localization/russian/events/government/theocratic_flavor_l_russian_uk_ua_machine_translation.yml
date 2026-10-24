@@ -10,7 +10,7 @@
   theocratic_flavor.2.a: "Божественне слово — закон."
   STATIC_MODIFIER_NAME_the_rule_of_god: "Влада від Бога"
   STATIC_MODIFIER_DESC_the_rule_of_god: "Бойовий дух військ зріс при вигляді нашого благословенного лідера."
-  theocratic_flavor.3.title: "Auctoritas"
+  theocratic_flavor.3.title: "Auctoritas («Авторитет»)"
   theocratic_flavor.3.desc: "[target_ruler.GetName] користується великою повагою у нашого народу. [Select_CString(target_ruler.IsFemale,'Її', 'Його')] авторитет можна порівняти лише з найвеличнішими героями минулого, праведний погляд пронизує тіла ворогів подібно до стріл відплати, а грізний голос подібний до грому. [target_ruler.GetNameWithNoTooltip] — людина непохитної волі, і [Select_CString(target_ruler.IsFemale,'її', 'його')] цілеспрямованість буде для наших військ джерелом натхнення."
   theocratic_flavor.3.a: "Наше військо знає, що робити."
   theocratic_flavor.4.title: "Відверни смертні очі свої"

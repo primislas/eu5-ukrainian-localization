@@ -38,7 +38,7 @@
   COUNTRY_VOTING_BIAS_OF_SELF: "#T Упередженість до країни $WHO$ під час голосування#!\nОчевидно, за першої нагоди $TARGET|Y$ проголосує за себе."
   COUNTRY_VOTING_BIAS_OF_SELF_PLAYER: "#T Упередженість до країни $TARGET$ під час голосування#!\n$TARGET|Y$ — це наша країна!"
   COUNTRY_VOTING_BIAS_OF: "#T Упередженість до країни $TARGET$ під час голосування#!\nУпередженість країни $WHO|Y$ до країни $TARGET|Y$ під час голосування: $VOTINGBIAS|+=$. Причини:"
-  COUNTRY_OPINION_OF_MYSELF: "Amandi te ipsum non est vanitas. Est sanitatem reducamus."
+  COUNTRY_OPINION_OF_MYSELF: "Amandi te ipsum non est vanitas. Est sanitatem reducamus. («Любити себе — не марнославство. Це повернення здорового глузду.»)"
   OPINION_ENTRY: "$NAME$: $VAL|2=+$\n"
   OPINION_RELIGIOUS_ASPECT_ENTRY: "$SOURCE$ -> $TARGET$: $VAL|2=+$\n"
   OPINION_ANTAGONISM_ENTRY: "$NAME$: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+2$#!\n"

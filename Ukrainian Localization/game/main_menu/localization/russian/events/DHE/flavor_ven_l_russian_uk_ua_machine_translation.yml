@@ -19,7 +19,7 @@
   ven_venetian_first: "Насамперед венецієць, по-друге — християнин"
   flavor_ven.3.b: "Ми справжні католики!"
   ven_christian_first: "Насамперед усі — християни!"
-  flavor_ven.4.title: "Arte dell’Abbaco"
+  flavor_ven.4.title: "Arte dell’Abbaco («Мистецтво абака»)"
   flavor_ven.4.entry: "$flavor_ven.4.title$"
   flavor_ven.4.desc: "«Деякі юнаки, вельми мені цікаві та прагнучі купецького життя, неодноразово просили мене викласти письмово основні положення арифметики, що нерідко називається „абак“». Arte dell'Abbaco — перший друкований підручник математики, виданий у Європі. Написаний #L [ROOT.GetCountry.GetAdjective|l]ою#! мовою та віддрукований у 1478 році в [ShowLocationName('treviso')]."
   flavor_ven.4.a: "Це нам знадобиться!"

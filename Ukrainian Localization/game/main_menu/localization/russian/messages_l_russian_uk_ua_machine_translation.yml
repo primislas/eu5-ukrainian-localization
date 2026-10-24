@@ -11836,7 +11836,7 @@
   GAIN_HEGEMON_US_HEADER: "Наш писар доповідає"
   GAIN_HEGEMON_US_DESC: "Нас проголошують гегемоном. Ми впевнені, що зможемо самотужки вистояти проти всього світу і стати панівною країною. Навіть Александр і $genghis_khan_name_no_tooltip$ потьмяніють поруч з нами!"
   GAIN_HEGEMON_US_EFFECTS: "$LOST$"
-  GAIN_HEGEMON_US_FLAVOR: "Oderint dum metuant!"
+  GAIN_HEGEMON_US_FLAVOR: "Oderint dum metuant! («Нехай ненавидять, аби боялися!»)"
   GAIN_HEGEMON_US_LOG: "Нас проголосили гегемоном."
   GAIN_HEGEMON_US_BTN1: "Гаразд"
   GAIN_HEGEMON_US_BTN2: "Гаразд"

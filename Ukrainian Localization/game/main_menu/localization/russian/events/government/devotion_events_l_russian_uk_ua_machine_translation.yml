@@ -113,7 +113,7 @@
   devotion_events.117.title: "Конфіскація кальвіністської церкви"
   devotion_events.117.desc: "[target_location.GetName] не вірить своїм очам: група ченців конфіскувала #TOOLTIP:RELIGION,$calvinist_tt$,X #L кальвіністську#!#! церкву! [target_ruler.GetName] не [Select_CString(target_ruler.IsFemale, 'схвалювала', 'схвалював')] це рішення, і знай ми заздалегідь, що вони задумали, ми б переконали ченців обрати для каплиці іншу будівлю. Звісно, жителі [target_location.Custom('LR_GEN')|l] засмучені, і хоча ми змусили повернути церкву, розгнівані [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] та [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] не забудуть цей неповажний жест."
   devotion_events.117.a: "Чого ще вони хочуть?"
-  devotion_events.118.title: "Hallesches Heilthum"
+  devotion_events.118.title: "Hallesches Heilthum («Галльські святині»)"
   devotion_events.118.desc: "[Select_CString(old_ruler.IsFemale, 'Покійна', 'Покійний')] [old_ruler.GetName] [Select_CString(old_ruler.IsFemale, 'боялася', 'боявся')] за свою долю в надгробному світі і [Select_CString(old_ruler.IsFemale, 'зібрала', 'зібрав')] безліч реліквій, щоб провести якомога менше часу в чистилищі. Слуги, що збирали [Select_CString(old_ruler.IsFemale, 'її', 'його')] речі, виявили 8100 мощей та 42 скелети святих, які [old_ruler.GetNameWithNoTooltip] дбайливо [Select_CString(old_ruler.IsFemale, 'зберігала', 'зберігав')] у своїй резиденції."
   devotion_events.118.a: "[ROOT.GetCountry.GetReligion.GetNameWithNoTooltip]ої віри не було б, якби не продаж індульгенцій! Краще їх сховати."
   devotion_events.118.b: "Можливо, з їх допомогою [old_ruler.GetNameWithNoTooltip] [Select_CString(old_ruler.IsFemale, 'вознеслася', 'вознісся')] на небо?"

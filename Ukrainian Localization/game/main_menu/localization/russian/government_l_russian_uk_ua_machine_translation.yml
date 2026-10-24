@@ -700,7 +700,7 @@
   increase_control_province_action_progress_wordier: "Середній показник [Concept('control', 'контролю')|e] в провінції [SCOPE.sProvince('selected_province').GetNameWithNoTooltip]: [SCOPE.sProvince('selected_province').GetAverageControl|V%2]"
   increase_control_province_action_progress_long_wordier: "@monthly_control! [SCOPE.sProvince('selected_province').GetAverageControl|V%2] \n\n@max_control! [SCOPE.sProvince('selected_province').GetProvinceLocationModifier('local_max_control')|+=2%]"
   increase_control_province_action_progress_tooltip: "[SCOPE.sProvince('selected_province').GetAverageControlInfo]"
-  noblesse_oblige_cabinet_action: "Noblesse Oblige"
+  noblesse_oblige_cabinet_action: "Noblesse Oblige («Шляхетність зобов’язує»)"
   noblesse_oblige_cabinet_action_desc: "$increase_control_province_desc$"
   noblesse_oblige_cabinet_action_action: "Посилити контроль у провінції [SCOPE.sProvince('selected_province').GetName]"
   noblesse_oblige_cabinet_action_select_province: "Оберіть, у якій [Concept('province', 'провінції')|e] посилити [Concept('control', 'контроль')|e]:"
