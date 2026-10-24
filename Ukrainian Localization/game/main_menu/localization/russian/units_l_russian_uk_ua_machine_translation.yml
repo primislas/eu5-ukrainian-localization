@@ -2,7 +2,7 @@
   balanced_army: "Збалансоване військо"
   balanced_army_desc: "Дозволяє сформувати збалансоване військо зі схожими типами [Concept('regiments', 'полків')|e] у [Concept('center', 'середині')|e] та на [Concept('flanks', 'флангах')|e]."
   cav_inf_cav: "Кіннота на флангах"
-  cav_inf_cav_desc: "Дозволяє розташувати #TOOLTIP:UNITCATEGORY,army_heavy_cavalry,X $tt_op_L$важку$tt_cl_2$ та #TOOLTIP:UNITCATEGORY,army_light_cavalry,X $tt_op_L$легку кінноту$tt_cl_2$ на [Concept('flanks', 'флангах')|e], а #TOOLTIP:UNITCATEGORY,army_heavy_infantry,X $tt_op_L$важку$tt_cl_2$ та #TOOLTIP:UNITCATEGORY,army_light_infantry,X $tt_op_L$легку піхоту$tt_cl_2$ в [Concept('center', 'середині')|e]."
+  cav_inf_cav_desc: "Дозволяє розташувати #TOOLTIP:UNITCATEGORY,army_heavy_cavalry,X $tt_op_L$важку$tt_cl_2$ та #TOOLTIP:UNITCATEGORY,army_light_cavalry,X $tt_op_L$легку кінноту$tt_cl_2$ на [Concept('flanks', 'флангах')|e], а #TOOLTIP:UNITCATEGORY,army_heavy_infantry,X $tt_op_L$важку$tt_cl_2$ та #TOOLTIP:UNITCATEGORY,army_light_infantry,X $tt_op_L$легку піхоту$tt_cl_2$ у [Concept('center', 'середині')|e]."
   balanced_navy: "Збалансований флот"
   balanced_navy_desc: "Дозволяє сформувати збалансований флот зі схожими типами [Concept('ships', 'кораблів')|e] у [Concept('center', 'середині')|e] та на [Concept('flanks', 'флангах')|e]."
   balance_formation_button_name: "Збалансувати стрій"

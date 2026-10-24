@@ -598,6 +598,13 @@ Strictly apply these rules to ensure the Ukrainian text sounds natural, authenti
     ** Keep Belarusian symbols 'Ў', 'ў' in Belarusian names
     * When you encounter names of famous Russian historical figures, apply the same phonetic rules as for Russian names. For example, Алєксандр Пушкін, Пьотр Великий, Єкатєріна II, Рубльов, Васнєцов і т.і.
 
+9. For Latin names and phrases specifically, and other names of institutions, laws, principles, works of art, etc. in foreign non-English languages keep them and add Ukrainian translation in braces afterward, e.g.:
+    * Nihil Novi («Нічого нового»)
+    * Placitum Regium («Королівське схвалення»)
+    * De Heretico Comburendo («Спалення єретиків»)
+    * Nun danket alle Gott («Нині всі дякуйте Богові»)
+    * Consejo de las Indias («Рада Індій»)
+
 
 
 # Style Policy
@@ -730,6 +737,7 @@ IMPORTANT! When presented with several alternative translation options, choose t
     ** прилегающие районы -> поблизу, довкола, навколо, в околицях, на підступах
     * megalopolis, мегалополис -> мегаполіс
     * estuary, эстуарий -> гирло
+    * proximity, достижимость -> досяжність
 
     * attempt to replace "tradition(al)", "традиция", "традиционный" with synonyms, so as to avoid the root "tradition" ("традиция") altogether; more specifically prefer words and expressions like:
     ** традиция -> (усталений, сталий) звичай, спадщина, культура, уклад, порядок, устрій, стиль (архітектурний, літературний, мистецький і т.і.), прийняті норми, усталені погляди, переконання, смак, стиль, надбання, доробки, тощо
