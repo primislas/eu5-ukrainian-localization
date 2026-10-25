@@ -1238,6 +1238,7 @@ Apply the following translations only if they are NOT in the context of European
 For muslim names, prefer established letter 'х' in translations instead of 'г'. For example:
     * jihad -> джихад (NOT джигад)
     * hajj -> хадж (NOT гадж)
+    * Ḏimmī, зимми -> зіммії (зімміїв, зімміям, etc.)
 
 Game concepts with the adjective 'religious', 'религиозный':
 
