@@ -1,6 +1,6 @@
 ﻿l_russian:
   dynastic.1.title: "Плотські гріхи"
-  dynastic.1.desc: "[ROOT.GetCountry.GetGovernment.GetRulerTitle] перебуває під владою чарів [Select_CString(devil_char.IsFemale, 'підступної спокусниці', 'підступного спокусника')]. [devil_char.GetName] з'являється навіть ночами, коли закінчуються [ROOT.GetCountry.GetGovernment.GetAdjective|l]і справи та порожніють зали, — але тільки у снах, від чого [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] страшенно терзається. З кожним днем боротися зі спокусою стає складніше. Нікому не відомо, чи попросить [ruler_char.GetShortName] цієї неділі пробачити [Select_CString(ruler_char.IsFemale, 'їй, 'йому')] не тільки грішні помисли…"
+  dynastic.1.desc: "[ROOT.GetCountry.GetGovernment.GetRulerTitle] перебуває під владою чарів [Select_CString(devil_char.IsFemale, 'підступної спокусниці', 'підступного спокусника')]. [devil_char.GetName] з'являється навіть ночами, коли закінчуються [ROOT.GetCountry.GetGovernment.GetAdjective|l]і справи та порожніють зали, — але тільки у снах, від чого [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] страшенно мучиться. З кожним днем боротися зі спокусою стає складніше. Нікому не відомо, чи попросить [ruler_char.GetShortName] цієї неділі пробачити [Select_CString(ruler_char.IsFemale, 'їй', 'йому')] не тільки грішні помисли…"
   dynastic.1.a: "[ROOT.GetCountry.GetGovernment.GetHeirTitle] для країни важливіший за відпущення гріхів."
   dynastic.1.b: "Це шлях прямісінько до диявола."
   dynastic.2.title: "Народ сумує: помирає [ROOT.GetCountry.GetGovernment.GetHeirTitle|l]"
