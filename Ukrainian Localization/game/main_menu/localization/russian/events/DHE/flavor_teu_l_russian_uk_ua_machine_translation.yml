@@ -36,7 +36,7 @@
   flavor_teu.6.a: "Збудуємо замок для контролю провінції [target_location.GetProvince.GetNameWithNoTooltip]."
   flavor_teu.6.a.entry: "Збудуємо замок, щоб контролювати провінцію."
   flavor_teu.6.b: "Накажемо місцевому #italic комтуру#! з цим розібратися."
-  teuton_6_event_trigger_information: "Ця [Concept('event', 'подія')|e] може розпочатися з таких причин:\n[ShowTriggerConditionsForScope('teu_event_6_trigger', SCOPE.sLocation('target_location').GetLocation.MakeScope.Self))]"
+  teuton_6_event_trigger_information: "Ця [Concept('event', 'подія')|e] може розпочатися з таких причин:\n[ShowTriggerConditionsForScope('teu_event_6_trigger', SCOPE.sLocation('target_location').GetLocation.MakeScope.Self)]"
   flavor_teu.7.title: "Право міста [target_location.GetNameWithNoTooltip]"
   flavor_teu.7.entry: "Закони Ґданська"
   flavor_teu.7.desc: "[target_location.GetRank.GetName|U] [target_location.GetName] є одним зі стовпів господарства та ключовим торговим портом на теренах під назвою [ROOT.GetCountry.GetLongName]. [target_country.GetLongName] — місцевість тісно пов'язана з цією країною, тому там, як і раніше, діє любецьке право, чим вкрай незадоволені його [ROOT.GetCountry.GetGovernment.GetAdjective|l]і пани. Щоб покласти край конфлікту, влада [ROOT.GetCountry.Custom('CL_GEN')] пропонує [target_location.Custom('LR_DAT')|l] [target_location.GetNameWithNoTooltip] #TOOLTIP:ESTATE_PRIVILEGE,kulm_law,X #L кульмське право#!#!. Воно частково збереже поточний стан справ, але наділить місцеву раду більшою владою та надасть їй додаткову самостійність. Завдяки цьому [target_location.GetRank.GetNameWithNoTooltip|l] зможе процвітати за рахунок торгівлі в такому місці, як [target_location.GetMarket.GetName|l]."

@@ -5366,7 +5366,7 @@
   Roger_Bernard: "Рожер Бернат"
   Guy: "Гі"
   Amaury: "Аморі"
-  Flamme: "[Select_CString(Character.IsFemale, 'Полум’яна’, 'Полум’яний')]"
+  Flamme: "[Select_CString(Character.IsFemale, 'Полум’яна', 'Полум’яний')]"
   Sancia: "Танчія"
   Pacific: "[Select_CString(Character.IsFemale, 'Миролюбна', 'Миролюбний')]"
   Amedee: "Амедей"

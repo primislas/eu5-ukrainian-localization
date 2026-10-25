@@ -144,7 +144,7 @@
   flavor_eth.155.title: "Мирська влада духовенства"
   flavor_eth.155.entry: "$flavor_eth.155.title$"
   flavor_eth.155.desc: "Відтоді, як на трон #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! [Select_CString(target_character.IsFemale,'зійшла', 'зійшов')] [target_character.GetName], значну частину земель цієї країни контролю[ROOT.GetCountry.Custom('clergy_yeyut')] [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l]. [target_character2.GetName] хоче змінити стан справ та обмежити мирську владу духовенства, однак самі священники навряд чи будуть цим задоволені."
-  flavor_eth.155.a: "Земля належить [ROOT.GetCountry.[ROOT.GetCountry.Custom('CL_DAT')]."
+  flavor_eth.155.a: "Земля належить [ROOT.GetCountry.Custom('CL_DAT')]."
   flavor_eth.155.a.entry: "Земля належить нам."
   flavor_eth.155.b: "Не варто допускати, щоб [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')|l] засмучува[ROOT.GetCountry.Custom('clergy_vlaloly')]ся."
   flavor_eth.155.b.entry: "Не варто допускати, щоб священники засмучувалися."

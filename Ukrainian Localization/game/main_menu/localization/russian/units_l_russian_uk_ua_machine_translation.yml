@@ -2236,7 +2236,7 @@
   UPGRADE_ARMY_PRISONERS_CAN_ROT: "@trigger_no! Підрозділ «[SUBUNIT.GetName]» у [Concept('prisoner', 'полоні')|e]."
   UPGRADE_SUBUNIT: "Вдосконалити підрозділ «[SubUnit.GetName]» до «[GetUpgradeSubUnitName(SubUnit.Self)]» за [GetUpgradeSubUnitCostValue(SubUnit.Self)|2]@gold!"
   REFILL_GARRISON: "Поповнити залогу"
-  REFILL_GARRISON_INFO: "Concept('garrison', 'Залога')|e] [Concept('fort', 'фортеці')|e] поповниться за рахунок нашого [Concept('army', 'війська')|e]."
+  REFILL_GARRISON_INFO: "[Concept('garrison', 'Залога')|e] [Concept('fort', 'фортеці')|e] поповниться за рахунок нашого [Concept('army', 'війська')|e]."
   REFILL_GARRISON_CTA: "Поповніть нашу [Concept('garrison', 'залогу')|e]."
   REFILL_GARRISON_SHIP: "@trigger_no![Concept('ships', 'Кораблями')|e] не можна поповнювати [Concept('garrisons', 'залоги')|e]."
   REFILL_GARRISON_MERC: "@trigger_no![Concept('mercenaries', 'Наймачами')|e] не можна поповнювати [Concept('garrisons', 'залоги')|e]."

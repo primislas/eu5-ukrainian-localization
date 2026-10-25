@@ -121,7 +121,7 @@
   offer_deny_market_access_CATEGORY: "CATEGORY_ECONOMY_ACTIONS"
   offer_deny_market_access_cta: "Відмовте #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').GetKey],X [SCOPE.sCountry('recipient').Custom('CL_DAT')|L]#!#! в доступі до ринку"
   offer_deny_market_access_desc: "Ринку країни буде набагато складніше контролювати наші землі."
-  offer_deny_market_access_cta_to_unknown: "Відмовте [Concept('country',[Concept('country', 'країні')|e] в доступі до ринку"
+  offer_deny_market_access_cta_to_unknown: "Відмовте [Concept('country', 'країні')|e] в доступі до ринку"
   offer_deny_market_access_desc_to_unknown: "Ринку країни буде набагато складніше контролювати наші землі."
   offer_deny_market_access_happened_title: "Заборона для ринків"
   offer_deny_market_access_happened_desc: "[SCOPE.sCountry('actor').GetName] заборони[SCOPE.sCountry('actor').Custom('end_vlaloly')] [Concept('markets', 'ринкам')|e] #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').GetKey],X [SCOPE.sCountry('recipient').Custom('CL_GEN')|L]#!#! доступ у свої володіння."
