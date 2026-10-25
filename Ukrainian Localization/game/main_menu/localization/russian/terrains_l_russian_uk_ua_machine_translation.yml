@@ -41,7 +41,7 @@
   mesa_wasteland: "Меза-пустка"
   atoll: "Атол"
   TERRAIN_MOVEMENT_COST: "Вартість пересування [Concept('units', 'загонів')|e]: $VALUE|-=%V$"
-  TERRAIN_PROXIMITY_COST: "Вплив поширення досяжності: $VALUE|+=%$"
+  TERRAIN_PROXIMITY_COST: "Вплив поширення досяжности: $VALUE|+=%$"
   TERRAIN_PROXIMITY_COST_SPECIFIC: "Вплив ефективности досяжности ([TOPOGRAPHY.GetName]): $VALUE|+=%$"
   TERRAIN_ATTACKER_PENALTY: "Штраф для атакуючої сторони під час [Concept('combat', 'бою')|e]: $VALUE|-=$"
   TERRAIN_ATTACKER_PENALTY_TT: "Цей [Concept('location', 'місцевість')|e] дає [Concept('attacker', 'атакуючій стороні')|e] в [Concept('combat', 'бою')|e] [Location.GetAttackerPenalty|-=] до штрафу."
