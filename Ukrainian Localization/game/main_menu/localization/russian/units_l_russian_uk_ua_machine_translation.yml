@@ -2151,7 +2151,7 @@
   CONSOLIDATE_REGULARS_CONFIRM_TITLE: "Об’єднати полки"
   CONSOLIDATE_REGULARS_CONFIRM_DESC: "У цьому війську є [Concept('regulars', 'постійні війська')|e]. Об’єднання може призвести до поглинання та знищення якоїсь їх частини. Ви впевнені, що хочете продовжити?"
   CONSOLIDATE_NON_REGULARS_BUTTON: "Об’єднати ополчення"
-  CONSOLIDATE_NON_REGULARS_BUTTON_INFO: "Це об’єднає [Concept('regiments', 'полки')|e] ополчення, де це можливо, не чіпаючи постійні [Concept('regiments', 'полки')|e]."
+  CONSOLIDATE_NON_REGULARS_BUTTON_INFO: "Це об’єднає [Concept('regiments', 'полки')|e] ополчення там, де це можливо, не торкаючись [Concept('regulars', 'постійних')|e] полків."
   CONSOLIDATE_NON_REGULARS_NONE_AROUND: "@trigger_no! У цьому [Concept('army', 'війську')|e] немає [Concept('regiments', 'полків')|e] ополчення, які можна було б об’єднати."
   LACK_OF_LEADER_TT: "#T Немає полководця#!\nДля цього загону не призначено [Concept('character', 'персонажа')|e], який його очолює. Це спричиняє такі ефекти:\n$EFFECT$."
   CHANGE_LEADER_TT: "#T Змінити полководця#!\n"
