@@ -27,6 +27,8 @@ customized_estate_ending_file_path = project_mod_dir / "main_menu" / "localizati
 generated_estate_ending_file_path = project_mod_dir / "main_menu" / "localization" / "russian" / "ua_estates_ending_l_russian_uk_ua_machine_translation.yml"
 estate_ending_custom_loc_file_path = custom_localization_mod_dir_path / "380_ua_custom_loc_estates_end.txt"
 
+tag_grammatical_cases_file_path = project_mod_dir / "main_menu" / "localization" / "russian" / "replace" / "ua_countries_grammatical_cases_l_russian_uk_ua_machine_translation.yml"
+
 system_instructions_ru_ua_file_path = project_script_resources_dir / "instructions" / "ru_ua.txt"
 
 
@@ -59,6 +61,21 @@ def list_localization_files(languages: Language | str | list[Language | str] | N
                 localization_files.append(os.path.join(root, file))
 
     return localization_files
+
+
+def list_loc_files_with_file_name_prefix(file_name_prefix: str, languages: Language | list[Language] | None = None, source_dir: Path = translation_dir):
+    if isinstance(languages, (str, Language)):
+        languages = [languages]
+    matching_files = []
+    for file_path in list_localization_files(languages, source_dir):
+        file_dir_path, file_name = os.path.split(file_path)
+        if not file_name.startswith(file_name_prefix):
+            continue
+        if languages and not any(f"_{l.file_suffix}.yml" in file_name for l in languages):
+            continue
+        matching_files.append(file_path)
+
+    return matching_files
 
 
 def list_gui_files(source_dir: Path = project_dir) -> list[str]:

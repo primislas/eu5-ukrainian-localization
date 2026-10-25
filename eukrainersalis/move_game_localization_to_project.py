@@ -197,9 +197,9 @@ def normalize_localization_files(source_dir: Path):
         try:
             validate_and_fix_localization_file(Path(file))
             content = load_eu5_yaml(file)
-            localization = content.get(Language.RUSSIAN.language_loc_key, {}) or {}
+            localization = content.get(Language.RUSSIAN.lang_key, {}) or {}
             migrated_localization = {key_preprocessing(k): migrated_text_preprocessing(v) for k, v in localization.items()}
-            content[Language.RUSSIAN.language_loc_key] = migrated_localization
+            content[Language.RUSSIAN.lang_key] = migrated_localization
             write_eu5_localization_yaml(content, file, indent=1)
         except Exception as e:
             logger.error(f"Error processing {file}: {e}")
@@ -210,20 +210,20 @@ def rearrange_keys():
         dir_path, fname = os.path.split(file_path)
 
         en_content = load_eu5_yaml(file_path)
-        en_loc = en_content.get(Language.ENGLISH.language_loc_key) or {}
+        en_loc = en_content.get(Language.ENGLISH.lang_key) or {}
 
         ua_file_path = file_path.replace("/english/", "/russian/").replace(Language.ENGLISH.file_suffix, Language.UK_UA_MACHINE_TRANSLATION.file_suffix)
         if not os.path.exists(ua_file_path):
             ua_content = {}
         else:
             ua_content = load_eu5_yaml(ua_file_path)
-        ua_loc = ua_content.get(Language.UK_UA_MACHINE_TRANSLATION.language_loc_key, {})
+        ua_loc = ua_content.get(Language.UK_UA_MACHINE_TRANSLATION.lang_key, {})
 
         rearranged_ua_loc = {}
         for k, v in en_loc.items():
             rearranged_ua_loc[k] = ua_loc.get(k, v)
 
-        ua_content[Language.UK_UA_MACHINE_TRANSLATION.language_loc_key] = rearranged_ua_loc
+        ua_content[Language.UK_UA_MACHINE_TRANSLATION.lang_key] = rearranged_ua_loc
         if ua_loc:
             write_eu5_localization_yaml(ua_content, ua_file_path)
             print(f"Rearranged {fname}")

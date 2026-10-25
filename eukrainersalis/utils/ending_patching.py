@@ -63,7 +63,7 @@ if __name__ == "__main__":
 
     _fixed_declaration = 0
     _unfixed_dangling_concept = 0
-    _localization_key = Language.RUSSIAN.language_loc_key
+    _localization_key = Language.RUSSIAN.lang_key
     for file in list_localization_files("russian_uk_ua_machine_translation"):
         _content = load_eu5_yaml(file)
         for k, v in _content.get(_localization_key, {}).items():

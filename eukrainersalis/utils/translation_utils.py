@@ -19,9 +19,9 @@ class Language(StrEnum):
         member = str.__new__(cls, value)
         member._value_ = value
         if value == "russian_uk_ua_machine_translation":
-            member.language_loc_key = "l_russian"
+            member.lang_key = "l_russian"
         else:
-            member.language_loc_key = f"l_{value}"
+            member.lang_key = f"l_{value}"
         member.file_suffix = f"l_{value}"
         return member
 
@@ -37,8 +37,18 @@ class LocFile:
     file_path: str
     selected_keys: list[str] = field(default_factory=list)
     content: dict[str, dict[str, str]] = field(default_factory=dict)
-    localization_key: str = Language.RUSSIAN.language_loc_key
+    language: Language = Language.ENGLISH
     processed_keys: list[str] = field(default_factory=list)
+
+    def load(self) -> "LocFile":
+        if not self.content:
+            self.content = load_eu5_yaml(self.file_path) or {}
+            lang = os.path.basename(self.file_path).split("_l_")[-1].split(".")[0]
+            self.language = Language(lang)
+        return self
+
+    def name(self) -> str:
+        return os.path.basename(self.file_path)
 
     def contains(self, key: str) -> bool:
         return key in self.selected_keys
@@ -48,10 +58,10 @@ class LocFile:
         return {key: localization.get(key, "") for key in self.selected_keys}
 
     def get_localization(self) -> dict[str, str]:
-        return self.content.get(self.localization_key, {})
+        return self.content.get(self.language.lang_key) or {}
 
     def set_localization(self, localization: dict[str, str]):
-        self.content[self.localization_key] = localization
+        self.content[self.language.lang_key] = localization
 
     def set_localization_value(self, loc_key: str, loc_value: str):
         localization = self.get_localization()
@@ -198,7 +208,7 @@ def file_is_untranslated(input_file_path, output_file_path, language: Language |
     """
     Check if a localization file contains untranslated keys.
     """
-    localization_key = language_key or Language(language or Language.ENGLISH).language_loc_key
+    localization_key = language_key or Language(language or Language.ENGLISH).lang_key
     input_content = load_eu5_yaml(input_file_path)
     input_localization: dict[str, str] = input_content.get(localization_key, {})
     output_content = load_eu5_yaml(output_file_path)
@@ -222,7 +232,7 @@ async def get_untranslated_keys(file_path, language: Language | str | None = Non
     """
     Check if a localization file contains untranslated keys.
     """
-    localization_key = language_key or Language(language or Language.ENGLISH).language_loc_key
+    localization_key = language_key or Language(language or Language.ENGLISH).lang_key
     content = await load_eu5_yaml_async(file_path)
     localization: dict[str, str] = content.get(localization_key, {})
     return {k: v for k, v in localization.items() if text_is_not_translated(v)}
@@ -232,7 +242,7 @@ def validate_localization_file(file_path: str, language: Language | str = Langua
     """Validate a YAML localization file by parsing it and checking for errors."""
     try:
         content = load_eu5_yaml(file_path)
-        content_key = Language(language).language_loc_key
+        content_key = Language(language).lang_key
         has_english_content = content_key in content and bool(content.get(content_key))
         if not has_english_content:
             logger.debug(f"{file_path} has no {language} localization")
