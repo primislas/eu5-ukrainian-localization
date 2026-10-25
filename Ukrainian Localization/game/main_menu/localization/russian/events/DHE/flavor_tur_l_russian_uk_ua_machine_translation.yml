@@ -1494,7 +1494,7 @@
   flavor_tur.1003.b.entry: "Ми йому не довіряємо."
   tur_grant_all_of_albania_to_skanderbeg_as_uc_bey: "Ми створимо посаду «[ShowSubjectTypeName('uc_bey')]» у провінції [ShowProvinceDefinitionName('albania_province')], на яку буде [Select_CString(target_character.IsFemale, 'призначена', 'призначений')] [target_character.GetName]"
   tur_no_lands_for_skanderbeg_tt: "[target_character.GetName] не отримає жодних земель"
-  tur_skanderbeg_exists: "#Y $name_george$ $nick_skanderbeg$#! перебуває при нашому [ROOT.GetCountry.GetGovernment.GetCourtTitle]"
+  tur_skanderbeg_exists: "#Y $name_george$ $nick_skanderbeg$#! перебуває при нашому [ROOT.GetCountry.GetAdjective|l]ому дворі"
   flavor_tur.1004.title: "[target_character2.GetNameWithNoTooltip] рветься до влади"
   flavor_tur.1004.entry: "Сходження Скандербега"
   flavor_tur.1004.desc: "[target_character2.GetName], багато років [Select_CString(target_character2.IsFemale, 'прослуживши', 'прослуживши')] #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_DAT')|L]#!#!, [Select_CString(target_character2.IsFemale, 'отримала', 'отримав')] титул у #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_PREP')|L]#!#! і з цієї причини [Select_CString(target_character2.IsFemale, 'впала', 'впав')] у немилість [ROOT.GetCountry.GetAdjective|l]ого двору. [Select_CString(target_character2.IsFemale, 'Вона', 'Він')] хоче створити для #TOOLTIP:CULTURE,$albanian_tt$,X #L албанців#!#! незалежну країну і сподівається здійснити свою мрію всупереч нашій волі."

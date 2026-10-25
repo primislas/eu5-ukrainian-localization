@@ -293,7 +293,7 @@
   flavor_rus.43.entry: "Григорій Орлов"
   flavor_rus.43.desc_empress: "Цього хвацького офіцера й багатого землевласника [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'помітила сама', 'помітив сам')] [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] та [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'запросила', 'запросив')] його до себе на службу. $flavor_rus.43.desc_common$"
   flavor_rus.43.desc_artillery_yard: "Досвідчений офіцер і багатий землевласник, що служить при #TOOLTIP:BUILDING_TYPE,moscow_artillery_yard,X #L Московському гарматному дворі#!#!, зацікавив вищі чини, і йому було запропоновано взяти на себе нові завдання. $flavor_rus.43.desc_common$"
-  flavor_rus.43.desc_default: "Хвацький офіцер і багатий поміщик привернули увагу впливових придворних, які запропонували йому взяти на себе додаткові обов’язки. $flavor_rus.43.desc_common$"
+  flavor_rus.43.desc_default: "Блискучий офіцер і багатий землевласник зацікавив впливових осіб при дворі, і йому запропонували взяти на себе нові обов’язки. $flavor_rus.43.desc_common$"
   flavor_rus.43.desc_common: "[grigory_orlov.GetName] раніше вже зарекомендував себе як людина, що однаково добре розбирається і в засобах ведення війни на морі, і в державних справах, а тому йому знайдеться застосування як на флоті, так і в раді."
   flavor_rus.43.a: "Він природжений керівник."
   flavor_rus.43.tt2: "При призначенні до [Concept('cabinet', 'ради')|e] він зможе сам висунути деякі програми"

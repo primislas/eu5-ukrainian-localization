@@ -11517,7 +11517,7 @@
   RIVAL_SET_ON_US_MAP3: ""
   RIVAL_SET_SETUP: "Коли [Concept('country', 'країна')|e] починає [Concept('rival', 'суперництво')|e] з іншою [Concept('country', 'країною')|e]"
   RIVAL_SET_HEADER: "Нове суперництво!"
-  RIVAL_SET_TITLE: "Нове суперництво"
+  RIVAL_SET_TITLE: "Нове суперництво!"
   RIVAL_SET_DESC: "Країна $THEM$ оголошує країну $RIVAL$ своїм новим [Concept('rival', 'суперником')|e]."
   RIVAL_SET_EFFECT: "$EFFECT$"
   RIVAL_SET_LOG: "Країна $THEM$ тепер вважає країну $RIVAL$ [Concept('rival', 'суперником')|e]."

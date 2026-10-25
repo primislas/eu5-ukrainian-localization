@@ -114,5 +114,5 @@
   laws.0030.a: "Знесемо барикади."
   laws.0030.b: "Нехай барикади залишаються."
   laws.0031.t: "Мандрівний двір"
-  laws.0031.desc: "Оскільки [target_location.GetName] більше не перебуває у нашій владі, [ShowBuildingTypeName('itinerant_court_seat')] було відновлено у [ROOT.GetCountry.GetCapital.Custom('LR_INST')] [ROOT.GetCountry.GetCapital.GetName]."
-  laws.0031.a: "Най буде так."
+  laws.0031.desc: "[target_location.GetName] нам більше не належить, і [ShowBuildingTypeName('itinerant_court_seat')|l] повертається назад у [ROOT.GetCapital.Custom('LR_ACC')|l] [ROOT.GetCapital.GetName]."
+  laws.0031.a: "Нехай буде так."

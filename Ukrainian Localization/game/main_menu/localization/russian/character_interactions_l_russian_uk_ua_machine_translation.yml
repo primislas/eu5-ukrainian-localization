@@ -40,7 +40,7 @@
   marry_noble_desc: "[Concept('character', 'Персонаж')|e] укладе шлюб із кимось із місцевої знаті."
   marry_noble_recipient_effect: "[CHARACTER.GetName] вступить [Concept('married', 'у шлюб')|e] з обраним нами представником знаті."
   marry_noble_desc_specific: "[SCOPE.sCharacter('recipient').GetName] укладе шлюб із кимось із місцевої знаті."
-  marry_noble_effect: "[CHARACTER.GetName] одружен[Select_CString(CHARACTER.IsFemale, 'а', 'ий')] з [TARGET_CHARACTER.GetName]."
+  marry_noble_effect: "[CHARACTER.GetName] та [TARGET_CHARACTER.GetName] перебувають у шлюбі."
   marry_noble_past: "[SCOPE.sCharacter('recipient').GetName] укладає шлюб!"
   marry_noble_act_past: "Завдяки шлюбу зі знатною людиною [SCOPE.sCharacter('recipient').GetName] вирішить питання престолонаслідування в нашій [Concept('country', 'країні')|e] без участі чужинців!"
   MARRY_NOBLE_SELECT_CHARACTER: "Шлюб із персонажем $CHARACTER$"
