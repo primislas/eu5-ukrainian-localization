@@ -68,7 +68,7 @@ def generate_loc_estate_endings():
     """Generates estate ending localization, based on the customized ending localization,
     and applying default values for the rest."""
     estate_keys = get_estate_keys()
-    customized_endings = load_eu5_yaml(customized_estate_ending_file_path).get(Language.RUSSIAN.language_loc_key, {})
+    customized_endings = load_eu5_yaml(customized_estate_ending_file_path).get(Language.RUSSIAN.lang_key, {})
 
     current_ending_key = ""
     current_ending_key_default_value = ""
@@ -85,7 +85,7 @@ def generate_loc_estate_endings():
             current_ending_key = k.replace("_def", "") if is_def else ""
             current_ending_key_default_value = v if is_def else ""
         output[k] = v
-    output_loc = {Language.RUSSIAN.language_loc_key: output}
+    output_loc = {Language.RUSSIAN.lang_key: output}
     write_eu5_localization_yaml(output_loc, generated_estate_ending_file_path)
     print(f"{len(output)} estate endings generated to {generated_estate_ending_file_path}")
 

@@ -124,7 +124,7 @@ def migration_diff_detected(input_file_path, reference_file_path, language_key: 
     if _migration_manager.is_processed(input_file_path):
         return False
 
-    localization_key = language_key or Language.RUSSIAN.language_loc_key
+    localization_key = language_key or Language.RUSSIAN.lang_key
     input_localization = load_eu5_yaml(input_file_path).get(localization_key, {}) or {}
     ref_localization = load_eu5_yaml(reference_file_path).get(localization_key, {}) or {}
     source_file_path = str(input_file_path).replace("/russian", "/english").replace("_l_russian", "_l_english")
@@ -216,7 +216,7 @@ def translation_postprocessing(line: str) -> str:
 
 async def create_starting_output_file(content: dict[str, dict], source_language: Language | str, output_file_path: str) -> dict[
     str, dict[str, str]]:
-    localization_key = Language(source_language).language_loc_key
+    localization_key = Language(source_language).lang_key
     localization: dict[str, str] = copy.copy(content.get(localization_key, {}))
     for key, value in localization.items():
         if translation_is_required(value):
@@ -298,10 +298,10 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
         True if all batches translated successfully, False otherwise.
     """
     ru_file_name = os.path.basename(input_file_path)
-    ru_loc_key = Language(source_language).language_loc_key
+    ru_loc_key = Language(source_language).lang_key
 
     ua_file_name = os.path.basename(output_file_path)
-    ua_loc_key = Language(target_language).language_loc_key
+    ua_loc_key = Language(target_language).lang_key
 
     rel_path = Path(input_file_path).relative_to(project_dir)
     reference_file_path = change_reference_source_dir / rel_path if change_reference_source_dir else None
@@ -309,7 +309,7 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
     has_reference_file = reference_file_path is not None
 
     en_file_path = str(input_file_path).replace("/russian", "/english").replace("_l_russian", "_l_english")
-    en_loc_key = Language.ENGLISH.language_loc_key
+    en_loc_key = Language.ENGLISH.lang_key
     has_en_file = os.path.exists(en_file_path)
 
     try:
@@ -462,7 +462,7 @@ def _find_untranslated_files(max_translations: int, overwrite_existing_translati
 
         english_language_file_path = input_file_path.replace(f"/{source_language}", f"/{Language.ENGLISH}").replace("_l_russian", "_l_english")
         if os.path.exists(english_language_file_path):
-            eng_keys = (load_eu5_yaml(english_language_file_path).get(Language.ENGLISH.language_loc_key) or {}).keys()
+            eng_keys = (load_eu5_yaml(english_language_file_path).get(Language.ENGLISH.lang_key) or {}).keys()
             input_keys = (load_eu5_yaml(input_file_path).get(f"l_{source_language}") or {}).keys()
             if eng_keys != input_keys:
                 files_to_translate.append((input_file_path, output_file_path, output_dir_path))

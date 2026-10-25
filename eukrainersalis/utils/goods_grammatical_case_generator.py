@@ -77,7 +77,7 @@ def generate_estate_cases_localization():
         for case in GRAMMATICAL_CASES:
             loc_key = get_good_case_localization_key(good, case)
             localization[loc_key] = goods_cases[case][good]
-    file_content = {Language.RUSSIAN.language_loc_key: localization}
+    file_content = {Language.RUSSIAN.lang_key: localization}
     write_eu5_localization_yaml(file_content, goods_grammatical_case_output_file_path)
     print(f"Generated goods grammatical case localization file: {goods_grammatical_case_output_file_path}")
 

@@ -9,12 +9,12 @@ from eukrainersalis.utils.yaml_utils import write_eu5_localization_yaml, load_eu
 def fix_column_declarations_from_english_source():
     _fixed_files = 0
     _fixed_declaration = 0
-    _en_localization_key = Language.ENGLISH.language_loc_key
-    _ru_localization_key = Language.RUSSIAN.language_loc_key
+    _en_localization_key = Language.ENGLISH.lang_key
+    _ru_localization_key = Language.RUSSIAN.lang_key
     col_pattern = r"#col[\s_\[]"
 
     for en_file in list_localization_files(Language.ENGLISH):
-        ua_file = en_file.replace(Language.ENGLISH.language_loc_key, Language.UK_UA_MACHINE_TRANSLATION.language_loc_key).replace(Language.ENGLISH, Language.RUSSIAN)
+        ua_file = en_file.replace(Language.ENGLISH.lang_key, Language.UK_UA_MACHINE_TRANSLATION.lang_key).replace(Language.ENGLISH, Language.RUSSIAN)
         if not os.path.exists(ua_file):
             print(f"UA file does not exist for: {en_file}")
             continue
