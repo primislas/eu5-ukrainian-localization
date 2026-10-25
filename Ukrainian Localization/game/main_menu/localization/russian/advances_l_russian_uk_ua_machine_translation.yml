@@ -999,6 +999,8 @@
   reduce_inflations_advance_desc: "Невігласи вважають, що при нестачі грошей треба просто випустити ще, але насправді це тільки посилює проблеми. Суворий контроль над карбуванням монет дозволить зупинити і навіть знизити інфляцію."
   direct_domestic_migration_advance: "Внутрішні переселення"
   direct_domestic_migration_advance_desc: "Наші чиновники стверджують, що багатство країни полягає не стільки в її землях, скільки в людях, здатних їх обробляти. Забезпечивши переселення [Concept('pops', 'людей')|e] з переповнених центральних земель до малозаселених порубіжних, ми розподілимо наш люд так, як потрібно країні."
+  direct_domestic_migration_middle_kingdom_advance: "Imperial Resettlement"
+  direct_domestic_migration_middle_kingdom_advance_desc: "The Son of Heaven is responsible for the well-being of all under heaven. Where the old heartlands are crowded and the borderlands lie empty, it is the duty of the imperial court to move households from one to the other, so that every field is tilled and no region bears more mouths than it can feed."
   rgo_size_advance_reformation: "Прялки"
   rgo_size_advance_reformation_desc: "Нові та досконаліші засоби видобутку сировини підвищать темпи виробництва й наповнять нашу скарбницю грошима."
   riches_of_foreign_coasts: "Багаті чужоземні береги"

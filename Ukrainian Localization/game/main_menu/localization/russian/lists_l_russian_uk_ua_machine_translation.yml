@@ -758,6 +758,8 @@
   search_filter_location_has_town_rights_desc: "Відображатимуться лише місцевості, де є [Concept('town_rights', 'міські права')|e]."
   search_filter_location_has_no_town_rights_name: "[town_rights_icon] Немає [Concept('town_rights', 'міських прав')]"
   search_filter_location_has_no_town_rights_desc: "Відображатимуться лише місцевості, де немає [Concept('town_rights', 'міських прав')|e]."
+  search_filter_location_has_industry_promotion_name: "Has [industry_promotion]"
+  search_filter_location_has_industry_promotion_desc: "Show only locations in an area where an [industry_promotion|e] is active"
   search_filter_location_is_urban_name: "Міські"
   search_filter_location_is_urban_desc: "Відображатимуться лише міські місцевості."
   search_filter_location_is_not_urban_name: "Не міські"

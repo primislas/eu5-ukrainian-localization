@@ -1,4 +1,5 @@
 ﻿l_russian:
+  exploration_unfunded_penalty_tt: "With no funds set aside for exploration, our explorers cannot act on this and our reputation suffers"
   exploration_monthly.1.title: "Випробування в області [ROOT.GetExploration.GetArea.GetNameWithNoTooltip]"
   exploration_monthly.1.desc: "Намагаючись знайти придатні провінції для наших майбутніх колоній, ми натрапили на #L #TOOLTIP:LOCATIONRANK,[ROOT.GetExploration.GetLocation.Custom('LR_tt')],X [ROOT.GetExploration.GetLocation.Custom('LR_ACC')]#!#! [ROOT.GetExploration.GetLocation.GetName]. Місцеві жителі не відрізняються дружелюбністю, але землі тут багаті на ресурси. На торгівлі з цією провінцією можна було б багато заробити. Щоправда, для цього знадобиться підкупити пару вождів…"
   exploration_monthly.1.a: "Укладемо з ними чесну угоду."

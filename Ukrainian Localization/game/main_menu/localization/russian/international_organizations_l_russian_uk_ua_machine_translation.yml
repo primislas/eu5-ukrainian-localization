@@ -4,6 +4,7 @@
   TARGET_NOT_RELEVANT_TO_US: "Не сусід чи суперник"
   RECENTLY_PREACHED_TO: "Нещодавні проповіді:"
   UNAWARE_OF_TARGET: "Немає відомостей про вказану країну"
+  HOLY_WAR_ALREADY_OVERWHELMING: "Holy warriors already far outmatch the target"
   INTERNATIONAL_ORGANIZATIONS: "Міжнародні об'єднання"
   LEADER_DEFAULT: "Лідер"
   LEADERSHIP_CRITERIA: "Країна, що бажає стати кандидатом, повинна відповідати наступним критеріям:\n[INTERNATIONAL_ORGANIZATION.GetLeadershipCriteria]"
