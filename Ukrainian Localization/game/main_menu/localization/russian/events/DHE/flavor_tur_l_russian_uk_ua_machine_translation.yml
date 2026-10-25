@@ -1379,7 +1379,7 @@
   flavor_tur.203.a: "Що більше наших підданих прийме [ROOT.GetCountry.GetReligion.GetAdjectiveWithNoTooltip|l]у віру, то краще."
   flavor_tur.203.a.entry: "Що більше наших підданих прийме іслам, то краще."
   flavor_tur.203.b: "Не будемо засмучувати [GetEstateNameWithNoTooltip('dhimmi_estate')|l]."
-  flavor_tur.203.b.entry: "Не будемо засмучувати зіммі."
+  flavor_tur.203.b.entry: "Не будемо засмучувати зімміїв."
   tur_convert_bulgarian_pops_to_islam_tt: "#Y 10%#! #TOOLTIP:CULTURE,$bulgarian_tt$,X #L болгарського#!#! або #TOOLTIP:RELIGION,$orthodox_tt$,X #L православного#!#! [Concept('pops', 'населення')|e] #TOOLTIP:AREA,bulgaria_area,X #L Болгарії#!#! прийме іншу віру ([ROOT.GetCountry.GetReligion.GetName|l])"
   tur_unrest_in_bulgarian_pops_tt: "[Concept('pop_satisfaction', 'Вдоволення')|e] усіх #TOOLTIP:CULTURE,$bulgarian_tt$,X #L болгарських#!#! [Concept('pops', 'громад')|e] знизиться на [ShowNamedValue('pop_satisfaction_weak_penalty')|-=2%]"
   flavor_tur.204.title: "Доля халіфа"
