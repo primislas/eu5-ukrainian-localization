@@ -60,7 +60,7 @@
   mfa_offer_few_provinces: "Ми запропонуємо #ONCLICK:COUNTRY,[from_country.GetKey] #TOOLTIP:COUNTRY,[from_country.GetKey],X [from_country.Custom('CL_DAT')|L]#!#! [Concept('provinces', 'провінції')|e] #TOOLTIP:PROVINCE_DEFINITION,chalkidiki_province,X #L Халкідікі#!#!, #TOOLTIP:PROVINCE_DEFINITION,lower_macedonia_province,X #L Нижня Македонія#!#! та #TOOLTIP:PROVINCE_DEFINITION,central_macedonia_province,X #L Центральна Македонія#!#!, щоб умиротворити цю країну"
   mfa_offer_entire_geography: "Ми запропонуємо #ONCLICK:COUNTRY,[from_country.GetKey] #TOOLTIP:COUNTRY,[from_country.GetKey],X [from_country.Custom('CL_DAT')|L]#!#! всі свої землі на теренах #TOOLTIP:SCRIPTED_GEOGRAPHY,TBD #L Королівства Фессалоніки#!#!"
   mfa_start_war_against_byz_decision.title: "$flavor_mfa.1002.title$"
-  mfa_start_war_against_byz_decision.desc.entry: "Настав час закликати наших союзників і нарешті зійтися в бою з нашими родичами у [ShowScriptedGeographyName('greece_geography')]."
+  mfa_start_war_against_byz_decision.desc.entry: "Настав час закликати наших союзників і нарешті повернути зброю проти власної рідні у Греції."
   mfa_start_war_against_byz_decision.desc: "$flavor_mfa.1002.desc$"
   flavor_mfa.1002.title: "Вдала нагода"
   flavor_mfa.1002.desc: "Багато років минуло відтоді, як ми почали збирати союзників у похід проти [target_country.Custom('longname_ua_GEN')]. Наші ослаблені міжусобицею вороги навряд чи чинитимуть серйозний опір. Під наші знамена стікаються все нові країни; ще трохи — і тоді ми доведемо всьому світу, що саме наша гілка династії [target_dynasty.GetName] сильніша за інших."

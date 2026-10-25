@@ -187,12 +187,12 @@ def text_is_translated(text: str) -> bool:
     return not text_is_not_translated(text)
 
 
-def translation_not_required(text: str) -> bool:
+def text_is_ascii_or_empty(text: str) -> bool:
     return text.isascii() or len(text) == 0
 
 
 def translation_is_required(text: str) -> bool:
-    return not translation_not_required(text)
+    return not text_is_ascii_or_empty(text)
 
 
 def is_valid_json_object(value: str) -> bool:

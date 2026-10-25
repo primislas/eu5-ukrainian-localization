@@ -73,7 +73,7 @@ def adapt_ru_custom_suffix():
             if dec.startswith("endlong") or dec.startswith("endrank"):
                 continue
 
-            migrated_lines = [adapt_ru_to_ua(l) for l in lines]
+            migrated_lines = [adapt_ru_to_ua(l).replace("country_ua_flavor", "country_flavor").rstrip() for l in lines]
             write_lines_to_fpointer(f, migrated_lines)
 
         for prefix in ["endlong", "endrank"]:
@@ -85,7 +85,7 @@ def adapt_ru_custom_suffix():
                 lines = [
                     f"{tag} = {{",
                     "	log_loc_errors = no",
-                    "	parent = country_ua_flavor",
+                    "	parent = country_flavor",
                     f"	suffix = \"_{tag}\"",
                     "	if_invalid_loc = return_empty",
                     "}",

@@ -53,7 +53,7 @@
   proclaim_jihad_privileges: "Оголосити привілеї джихаду"
   proclaim_jihad_privileges_desc: "Оголосити привілеї та нагороди, які чекають на кожного, хто зі зброєю в руках долучиться до священної війни. Кожен учасник [Concept('jihad', 'джихаду')|e] отримає тривале зростання [Concept('prestige', 'слави')|e] та [Concept('religious_influence', 'впливу віри')|e]."
   proclaim_jihad_privileges_price: "Вартість оголошення"
-  proclaim_jihad_privileges_tt: "Усі учасники об’єднання «[SCOPE.sInternationalOrganization('recipient').GetName]» отримують переваги модифікатора «[ShowModifier('jihad_privileges')]» на #Y 5#! років"
+  proclaim_jihad_privileges_tt: "Всі [Concept('member', 'учасники')|e] об’єднання «[SCOPE.sInternationalOrganization('recipient').GetName]» отримують переваги модифікатора «[ShowModifier('jihad_privileges')]» на #Y 5#! років"
   ACTION_COST: "Витратьте $PRICE$ та отримайте такі ефекти:"
   estate_emergency_action: "Надзвичайна дія стану"
   estate_emergency_war_defender_discount: "Під час оборонної війни"

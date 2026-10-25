@@ -943,6 +943,7 @@ IMPORTANT! When presented with several alternative translation options, choose t
     * Omeyads, Омейяды -> Омеяди, омеядський (NOT Омейяди)
     * Andalus(ia), Андалус(ия) -> Андалус(ія), андалуський (NOT андалузький)
     * Молдавия, молдавский -> always with "o" - "Молдова", "молдовський", "молдовани", etc.
+    * Ifriqiya, Ифрикия -> Іфрикія
     * венецианский (adjective) -> венеційський (NOT венеціанський)
     * махараджа -> магараджа
     * Махараджья -> Магараджія
@@ -1381,6 +1382,7 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * discriminated_culture, дискриминируемая культура -> пригноблена культура
 
     * jewish, еврей, еврейский -> юдей, юдейський
+    * Животворящий Крест -> Животворний Хрест
 
 ## Trade
 
