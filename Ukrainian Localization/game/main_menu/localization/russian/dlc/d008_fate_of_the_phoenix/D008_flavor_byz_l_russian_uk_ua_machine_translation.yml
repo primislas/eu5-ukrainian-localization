@@ -21,6 +21,7 @@
   d008_flavor_byz.5.a.entry: "Ми перетворимо тагми на передові сили Риму."
   d008_flavor_byz.5.b: "Ці полки вже показали, на що здатні у війні."
   variable_won_fate_of_the_phoenix_disaster_variable_tt: "Ми подолали лихо #TOOLTIP:DISASTER_TYPE,fate_of_the_phoenix,X #L «Доля фенікса»#!#!"
+  variable_not_won_fate_of_the_phoenix_disaster_variable_tt: "The [ShowDisasterName('fate_of_the_phoenix')] has not yet been overcome"
   d008_flavor_byz.4.title: "[target.GetNameWithNoTooltip] не досягає успіху"
   d008_flavor_byz.4.desc: "На жаль, [target.GetName] передчасно [Select_CString(target_artist.IsFemale, 'померла', 'помер')], так і не завершивши пошуки грецького вогню. [target.GetHerHis|U] учні та інші видатні алхіміки вивчили [target_artist.GetHerHis] записи, щоб зрозуміти, чи можна продовжити [target_artist.GetHerHis] дослідження, але невдовзі стало зрозуміло, що весь цей час [Select_CString(target_artist.IsFemale, 'вона тупцювала', 'він тупцював')] на місці й ні на крок не [Select_CString(target_artist.IsFemale, 'наблизилася', 'наблизився')] до шуканої мети. Судячи з усього, нам ніколи не вдасться розгадати таємницю грецького вогню…"
   d008_flavor_byz.4.a: "Нічого не вдієш…"
