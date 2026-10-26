@@ -2,7 +2,7 @@
 	type = country
 	log_loc_errors = no
 
-	
+
 	text = {
 		localization_key = country_flavor_parliament_jewish_theocracy
 		trigger = {
@@ -153,7 +153,7 @@
 	}
 	text = {
 		localization_key = country_flavor_parliament_senate
-		trigger = {			
+		trigger = {
 			tag = VEN
 			NOR = {
 				current_age = age_1_traditions
@@ -333,14 +333,14 @@
 			culture = culture:norse_gael
 		}
 	}
-	
+
 	text = {
 		localization_key = country_flavor_parliament_sejm
 		trigger = {
 			culture.dialect = dialect:polish_dialect
 		}
 	}
-	
+
 	text = {
 		localization_key = country_flavor_parliament_riksdag
 		trigger = {
@@ -359,7 +359,7 @@
 			culture = culture:norwegian
 		}
 	}
-	
+
 	text = {
 		localization_key = country_flavor_parliament_uijeongbu
 		trigger = {
