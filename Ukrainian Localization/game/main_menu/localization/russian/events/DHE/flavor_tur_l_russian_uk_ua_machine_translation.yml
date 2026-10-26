@@ -1286,7 +1286,7 @@
   flavor_tur.189.title: "Фанаріоти"
   flavor_tur.189.entry: "$flavor_tur.189.title$"
   flavor_tur.189.desc: "Хоча Візантійська імперія впала, у [target_location.Custom('LR_PREP')|l] [target_location.GetName] досі відчувається вплив її колишніх господарів. Особливо це стосується #TOOLTIP:CULTURE,$greek_culture_tt$,X #L греків#!#!, які хоч і схилилися перед нами, але продовжують дотримуватися своїх звичаїв тією мірою, якою ми їм дозволяємо. Більшість цих греків, що називають себе фанаріотами, — заможні торговці, хоча серед них є й кілька #TOOLTIP:RELIGION,$orthodox_tt$,X #L православних#!#! єпископів. Вони добре освічені та мають чималу вагу серед жителів [ROOT.GetCountry.Custom('rank_ua_GEN')|l]. Можливо, якщо ми виділимо їм окрему частину [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip], вони зможуть посприяти його розвитку."
-  flavor_tur.189.a: "Вони отримають свій район."
+  flavor_tur.189.a: "Вони отримають свій квартал."
   flavor_tur.189.b: "Це ні до чого: вони й так живуть у [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]."
   flavor_tur.189.b.entry: "Це ні до чого: вони й так живуть у Константинополі."
   tur_lose_greek_satisfaction_in_constantinople_tt: "[Concept('pop_satisfaction', 'Задоволення')] всіх #TOOLTIP:CULTURE,$greek_culture_tt$,X #L грецьких#!#! [Concept('pops', 'громад')|e] у #TOOLTIP:LOCATION,constantinople,X #L Константинополі#!#! знизиться на [ShowNamedValue('pop_satisfaction_mild_penalty')|-=2%]"

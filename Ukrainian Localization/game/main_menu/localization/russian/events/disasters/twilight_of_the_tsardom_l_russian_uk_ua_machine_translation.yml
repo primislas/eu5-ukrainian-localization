@@ -9,7 +9,7 @@
   twilight_of_the_tsardom.2.title: "Царство вистояло"
   twilight_of_the_tsardom.2.desc: "Всупереч усьому царство пережило добу колотнечі, підступів та занепаду. Минуле залишило шрами, а держава ще не встигла повністю відновитися, але ми вижили, що багатьом здавалося неможливим. Сутінки добігли кінця, але ще не ясно, чи чекає на нас новий світанок."
   twilight_of_the_tsardom.2.a: "Ми відновимо все, що було втрачено."
-  twilight_of_the_tsardom_modifier_removal_tt: "Кожен район, що перебуває у володінні, з модифікатором «[ShowModifier('bul_powerful_local_elites')]» втратить його"
+  twilight_of_the_tsardom_modifier_removal_tt: "Кожна місцевість, що перебуває у володінні, з модифікатором «[ShowModifier('bul_powerful_local_elites')]» втратить його"
   twilight_of_the_tsardom.3.title: "Зростаюча могутність [GetCountry('BUL').Custom('CL_GEN')]"
   twilight_of_the_tsardom.3.desc: "Навіть затяжна смута не змогла погубити #ONCLICK:COUNTRY,[GetCountry('BUL').GetKey] #TOOLTIP:COUNTRY,[GetCountry('BUL').GetKey],X [GetCountry('BUL').Custom('CL_ACC')|L]#!#!: ми повстали сповнені сил, ми відновили країну, що опинилася на межі загибелі. Захоплення #TOOLTIP:LOCATION,constantinople,X #L Константинополя#!#! — подвиг, здійснити який під силу не кожному, а тим паче — у нестерпно важкі роки. Сьогодні немає на #TOOLTIP:REGION,balkan_region,X #L Балканах#!#! такої сили, яка могла б протистояти нашому царству, і зважати на нього тепер доведеться кожному, хто раніше не вважав нас гідними."
   twilight_of_the_tsardom.3.a: "Ми явимо світові свою міць!"

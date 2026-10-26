@@ -1,7 +1,7 @@
 ﻿l_russian:
   MODS_GUI_MODS_TOOL: "Керування модами"
   MODS_GUI_OPEN_IN_FOLDER_TT: "Відкрити теку, якщо мод встановлено локально (наприклад, через підписку)."
-  OPEN_MOD_TOOLS: "Відкрити керування модами"
+  OPEN_MOD_TOOLS: "Керування модами"
   MOD_TOOLS: "Керування модами"
   MOD_NAME: "Назва:"
   MOD_EDITBOX_NAME: "Назва моду"

@@ -3251,7 +3251,7 @@
   MODIFIER_TYPE_NAME_n_panokseon_build_cost_modifier: "Видатки на спорудження пханоксона"
   MODIFIER_TYPE_DESC_n_panokseon_build_cost_modifier: "Впливає на те, скільки коштує [Concept('recruit', 'спорудити')|e] пханоксон."
   MODIFIER_TYPE_NAME_n_panokseon_reinforce_cost_modifier: "Витрати на лагодження пханоксона"
-  MODIFIER_TYPE_DESC_n_panokseon_reinforce_cost_modifier: "Впливає на те, скільки коштує [Concept('recruit', '[Concept('repair', 'лагодження')|e]')|e] пханоксона."
+  MODIFIER_TYPE_DESC_n_panokseon_reinforce_cost_modifier: "Впливає на те, скільки коштує [Concept('repair', 'лагодження')|e] пханоксона."
   MODIFIER_TYPE_NAME_n_panokseon_maintenance_cost_modifier: "Утримання пханоксона"
   MODIFIER_TYPE_DESC_n_panokseon_maintenance_cost_modifier: "Впливає на те, скільки коштує [Concept('maintain', 'утримувати')|e] пханоксон."
   MODIFIER_TYPE_NAME_a_clan_retainers_build_cost_modifier: "Витрати на набір дружинників клану"
