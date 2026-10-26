@@ -472,7 +472,7 @@
   PAST_THIRD_LOCK_PARLIAMENT_TYPE_EFFECT: "[COUNTRY.GetName] закріпи[COUNTRY.Custom('end_vlaloly')] [Concept('parliament_type', 'вид зборів')|e] «[PARLIAMENT_TYPE.GetName]»"
   UNLOCK_PEACE_TREATY_EFFECT: "Розблоковується [Concept('peace_treaty', 'мирний договір')|e] «[PEACE_TREATY.GetName]»"
   WE_UNLOCK_PEACE_TREATY_EFFECT: "Ми розблоковуємо [Concept('peace_treaty', 'мирний договір')|e] «[PEACE_TREATY.GetName]»"
-  THIRD_UNLOCK_PEACE_TREATY_EFFECT: "[COUNTRY.GetName] розблокову[COUNTRY.Custom('end_yeyut')] [Concept('parliament_issue', '[Concept('peace_treaty', 'мирний договір')|e]')|e] «[PEACE_TREATY.GetName]»"
+  THIRD_UNLOCK_PEACE_TREATY_EFFECT: "[COUNTRY.GetName] розблокову[COUNTRY.Custom('end_yeyut')] [Concept('peace_treaty', 'мирний договір')|e] «[PEACE_TREATY.GetName]»"
   PAST_UNLOCK_PEACE_TREATY_EFFECT: "Розблоковано [Concept('peace_treaty', 'мирний договір')|e] «[PEACE_TREATY.GetName]»"
   PAST_WE_UNLOCK_PEACE_TREATY_EFFECT: "Ми розблокували [Concept('peace_treaty', 'мирний договір')|e] «[PEACE_TREATY.GetName]»"
   PAST_THIRD_UNLOCK_PEACE_TREATY_EFFECT: "[COUNTRY.GetName] розблокува[COUNTRY.Custom('end_vlaloly')] [Concept('peace_treaty', 'мирний договір')|e] «[PEACE_TREATY.GetName]»"

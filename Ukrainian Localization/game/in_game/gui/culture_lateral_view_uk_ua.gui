@@ -317,7 +317,7 @@ types CultureOverview {
 						align = right|nobaseline
 					}
 					blockoverride "top_text_setup" {
-						text = "game_concept_work_of_art"
+						text = "game_concept_works_of_art"
 						default_format = "#explanation_link_overview"
 					}
 					blockoverride "bottom_text_setup" {

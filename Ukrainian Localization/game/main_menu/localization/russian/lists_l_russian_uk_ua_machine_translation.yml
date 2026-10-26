@@ -960,7 +960,7 @@
   CUSTOM_SEARCH_FILTER_MARKETS_CONTINENT_NAME: "Ринки континенту [MARKET.GetCenterLocation.GetContinent.GetNameWithNoTooltip]"
   CUSTOM_SEARCH_FILTER_MARKETS_CONTINENT_DESC: "Дозволяє фільтрувати за ринками на одному [Concept('continent', 'континенті')|e] з [MARKET.GetCenterLocation.Custom('LR_INST')|l] [MARKET.GetCenterLocation.GetName]."
   CUSTOM_SEARCH_FILTER_PRESENCE_MARKETS_NAME: "Ринки з присутністю @[GetPlayer.GetFlag]! [GetPlayer.Custom('CL_GEN')]"
-  CUSTOM_SEARCH_FILTER_PRESENCE_MARKETS_DESC: "Дозволяє фільтрувати за ринками, де є [GetPlayer.GetNameWithFlag], тобто хоча б частково присутні купецькі засоби або райони у володінні цієї країни."
+  CUSTOM_SEARCH_FILTER_PRESENCE_MARKETS_DESC: "Дозволяє фільтрувати за ринками, де є [GetPlayer.GetNameWithFlag], тобто хоча б частково присутні купецькі засоби або місцевості у володінні цієї країни."
   CUSTOM_SEARCH_FILTER_NOT_THIS_MARKETS_NAME: "Виключення ринку #L #TOOLTIP:LOCATIONRANK,[MARKET.GetCenterLocation.Custom('LR_tt')],X [MARKET.GetCenterLocation.Custom('LR_GEN')|l]#!#! [MARKET.GetCenterLocation.GetOwner.GetFlagIcon] [MARKET.GetShortNameWithNoTooltip]"
   CUSTOM_SEARCH_FILTER_NOT_THIS_MARKETS_DESC: "Ринок #L #TOOLTIP:LOCATIONRANK,[MARKET.GetCenterLocation.Custom('LR_tt')],X [MARKET.GetCenterLocation.Custom('LR_GEN')|l]#!#! [MARKET.GetCenterLocation.GetOwner.GetFlagIcon] [MARKET.GetShortName] буде виключено з результатів пошуку."
   CUSTOM_SEARCH_FILTER_ADJACENT_MARKETS_NAME: "Суміжні ринки"

@@ -732,9 +732,20 @@ IMPORTANT! When presented with several alternative translation options, choose t
     ** in some rare cases when "social" is used in the meaning of taking care of the needy and the poor, translate it as "благодійний"
 
     * район -> avoid this word as much as possible, depending on context apply the following translations: "місцевість" (specifically ALWAYS when dealing with a game Concept of "location"), землі, терени (esp. when large spaces are stressed), володіння (when ownership or belonging is stressed), округи, області, регіони
-    ** use "квартал" for a city district in general, or "двір", "подвір’я" for district quarters with a distinct legal status, such as trade, ethnic or religious ethnic quarters, e.g. "гостиний двір", "купецьке подвір’я", "двір фанаріотів"
-    ** внутренние районы, внутрішні райони -> глибина, терени, землі, край ("глибинні землі Балкан", "у глибині Балкан", "у балканській глибині", "на внутрішніх теренах Балкан", "у внутрішніх балканських землях", "у внутрішніх балканських краях")
-    ** прилегающие районы -> поблизу, довкола, навколо, в околицях, на підступах
+        ** use "квартал" for a city district in general, or "двір", "подвір’я" for district quarters with a distinct legal status, such as trade, ethnic or religious ethnic quarters, e.g. "гостиний двір", "купецьке подвір’я", "двір фанаріотів"
+        ** внутренние районы, внутрішні райони -> глибина, терени, землі, край ("глибинні землі Балкан", "у глибині Балкан", "у балканській глибині", "на внутрішніх теренах Балкан", "у внутрішніх балканських землях", "у внутрішніх балканських краях")
+        ** прилегающие районы -> поблизу, довкола, навколо, в околицях, на підступах
+        ** more examples:
+            *** в районі рибних промислів -> на ділянках рибних промислів
+            *** в районі Кабу-ді-Санту-Агостінью -> поблизу Кабу-ді-Санту-Агостінью
+            *** Аттіка. Деякі члени уряду підтримують каталонців та їхні інтереси в цьому районі. -> Аттіка. Деякі члени уряду підтримують каталонців та їхні інтереси в цьому краю.
+            *** представників від окремих парафій або районів -> представників від окремих парафій або округів
+            *** монастир може стати важливим духовним осередком у районі Білого моря -> монастир може стати важливим духовним осередком у краях Білого моря (can't use "терени" or "землі" in relation to seas and oceans)
+            *** бажання звести в районі старих доків палац -> бажання звести на теренах старих доків
+            *** виправи в краях #TOOLTIP:AREA,gulf_of_africa_sea,X #L Гвінейської затоки#!#!
+            *** досліджують гори в районі #TOOLTIP:LOCATION,glubocica,X #L Глубочиці#!#! -> досліджують гори в околицях #TOOLTIP:LOCATION,glubocica,X #L Глубочиці#!#!
+            *** Устрій #italic кантонів#! ділить країну на райони врядування. -> Устрій #italic кантонів#! ділить країну на округи врядування.
+
     * megalopolis, мегалополис -> мегаполіс
     * estuary, эстуарий -> гирло
     * proximity, достижимость -> досяжність

@@ -27,15 +27,33 @@ def regenerate_gui_file_endings():
     for root, dirs, files in os.walk(translation_dir):
         for file in files:
             if file.endswith(".gui"):
+                file_modified = False
                 path = os.path.join(root, file)
                 content = Path(path).read_text(encoding="utf-8")
-                modified_content, replaced_count = re.subn(replacement_regex, replace_match, content)
+
+                # Проголосити державу Німеччина, а не Проголосити Німеччина
+                modified_content = content.replace("[Localize('FORM')] [NewCountryCandidate", "[Localize('FORM')] державу [NewCountryCandidate")
+                if modified_content != content:
+                    modifications += 1
+                    file_modified = True
+                    print(f"Modified country formation declaration in {file}")
+
+                if "culture_lateral_view.gui" in file:
+                    modified_content = modified_content.replace('text = "game_concept_work_of_art"', 'text = "game_concept_works_of_art"')
+                    modifications += 1
+                    file_modified = True
+                    print(f"Modified culture lateral view in {file}")
+
+                modified_content, replaced_count = re.subn(replacement_regex, replace_match, modified_content)
                 if replaced_count > 0:
                     modifications += replaced_count
+                    file_modified = True
+                    print(f"Modified {replaced_count} declarations in {file}")
+
+                if file_modified:
                     out_path = os.path.join(root, file.replace(".gui", "_uk_ua.gui"))
                     Path(out_path).write_text(modified_content, encoding="utf-8")
                     modified_files += 1
-                    print(f"Modified {replaced_count} declarations in {file}")
 
     print(f"Modified {modifications} declarations in {modified_files} files")
 
