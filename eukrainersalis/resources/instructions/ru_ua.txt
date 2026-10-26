@@ -1430,35 +1430,37 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * industry, промшыленность -> "промисли" (plural), UNLESS it clearly refers to industrialization age and more modern industrial processes, in which case translate as "промисловість"
 
     * mine, шахта - копальня
-    ** never use "шахта" чи "шахтар"
-    ** "рудник" is a preferable alternative, when clearly talking about metal and ore mining, or deposits, e.g. "ці рудники вельми багаті золотом"
-    ** "рудня" is an acceptable informal alternative, when clearly talking about metals and ores, especially when talking about extraction in general (e.g. "ці рудні - головне джерело срібла"), also could be used to avoid tautologies
-    ** prefer "штольня" whenever appropriate (especially when clearly talking about tunnels from technical perspective)
+        ** never use "шахта" чи "шахтар"
+        ** "рудник" is a preferable alternative, when clearly talking about metal and ore mining, or deposits, e.g. "ці рудники вельми багаті золотом"
+        ** "рудня" is an acceptable informal alternative, when clearly talking about metals and ores, especially when talking about extraction in general (e.g. "ці рудні - головне джерело срібла"), also could be used to avoid tautologies
+        ** prefer "штольня" whenever appropriate (especially when clearly talking about tunnels from technical perspective)
     * miner, шахтер, старатель - "гірник", "рудокоп" if clearly talking about metal extraction, never use "шахтар" or "старатель"
-    ** use adjective "гірничий" for mining-related affairs, e.g. "гірничі промисли", "гірничі містечка", "гірничі закони"; but in more informal text feel free to use alternative to avoid tautologies, such as "містечка рудокопів", "закони щодо копалень" тощо
+        ** use adjective "гірничий" for mining-related affairs, e.g. "гірничі промисли", "гірничі містечка", "гірничі закони"; but in more informal text feel free to use alternative to avoid tautologies, such as "містечка рудокопів", "закони щодо копалень" тощо
 
     * rgo, resource gathering operations, добыча ресурсов -> сировинні промисли
     * raw material(s), ресурс(ы) -> сировина
-    ** сировину видобувають, but depending on context you can use "вирощують", "збирають", "виробляють", etc. if appropriate
-    ** prefer "сировина" to "ресурс(ы)", "сырьевые материалы, товары" whenever clearly talking about gathering, obtaining, using, processing raw resources or materials, in particular "rgo"s also deal with "сировина"
-    ** food raw materials, ресурсы для производства еды - "харчова сировина", "харчові товари", "продовольство", pick depending on context
-    ** ресурсный -> сировинний
-    ** raw material, сырьевой товар -> prefer simple "сировина" over "сировинний товар"
-    ** NOT to be confused with general sense of resources as supplies (including money, goods) that are to be used for some affair or enterprise. In this case resources/ресурс(ы) should be translated as "засоби": громада просить виділити засоби на зведення храму, засоби на спорядження виправи, бракує засобів, військові засоби, etc.
+        ** сировину видобувають, but depending on context you can use "вирощують", "збирають", "виробляють", etc. if appropriate
+        ** prefer "сировина" to "ресурс(ы)", "сырьевые материалы, товары" whenever clearly talking about gathering, obtaining, using, processing raw resources or materials, in particular "rgo"s also deal with "сировина"
+        ** food raw materials, ресурсы для производства еды - "харчова сировина", "харчові товари", "продовольство", pick depending on context
+        ** ресурсный -> сировинний
+        ** raw material, сырьевой товар -> prefer simple "сировина" over "сировинний товар"
+        ** NOT to be confused with general sense of resources as supplies (including money, goods) that are to be used for some affair or enterprise. In this case resources/ресурс(ы) should be translated as "засоби": громада просить виділити засоби на зведення храму, засоби на спорядження виправи, бракує засобів, військові засоби, etc.
 
     * farm, ферма - avoid translating it as "ферма", unless it's clearly about Anglosphere, prefer the following options instead: угіддя - a general translation, нива - when clearly about agriculture, стадниця - when clearly about horses, пасовище - when clearly about animal husbandry, плантації - when clearly fits, etc.
     * farmer, фермер - avoid translating it as "фермер", unless it's clearly about Anglosphere, prefer the following options instead: селянин - a general translation, землероб - when clearly about agriculture, стадник - when clearly about horses, пастух - when clearly about animal husbandry, плантатор - when clearly about plantations, etc.
     * farming, фермерство - "сільське господарство" in general, "землеробство" when clearly about agriculture, "тваринництво" when clearly about animal husbandry, "розведення коней" when clearly about horses, "скотарство" when clearly about cows, etc.
 
     * зерно:
-    ** when about "grain" in general as grain crops, such as wheat, millet, rice, etc, use "збіжжя";
-    ** in narrative texts and in context of food shortages or high prices, you can use alternative "хліб" ("брак хліба", "високі ціни на хліб", "вивіз хліба", "подбати про наявність хліба", "не вистачає хліба прогодувати себе", "хліб для бідноти", "вирощування хліба", "запаси хліба", "зберігання хліба" тощо);
-    ** BUT "grain of truth", "coffee/cocoa grain", "pressing grains", etc. - when talking about individual or exotic grains or in fixed expressions - it remains "зерно" ("зерно правди", "зерна впали у родючий грунт", "кавове зерно", "молоти зерна" тощо);
-    ** "grain market", "зерновой рынок" -> "житній ринок", "ринок хліба";
+        ** when about "grain" in general as grain crops, such as wheat, millet, rice, etc, use "збіжжя";
+        ** in narrative texts and in context of food shortages or high prices, you can use alternative "хліб" ("брак хліба", "високі ціни на хліб", "вивіз хліба", "подбати про наявність хліба", "не вистачає хліба прогодувати себе", "хліб для бідноти", "вирощування хліба", "запаси хліба", "зберігання хліба" тощо);
+        ** BUT "grain of truth", "coffee/cocoa grain", "pressing grains", etc. - when talking about individual or exotic grains or in fixed expressions - it remains "зерно" ("зерно правди", "зерна впали у родючий грунт", "кавове зерно", "молоти зерна" тощо);
+        ** "grain market", "зерновой рынок" -> "житній ринок", "ринок хліба";
     * granary, амбар, зернохранилище -> "комора";
-    ** in poetic sense as "granary of the region/country" use "житниця" ("житниця Європи", "житниця Угорщини");
-    ** "granary town", "зерновой центр" -> "житниця";
+        ** in poetic sense as "granary of the region/country" use "житниця" ("житниця Європи", "житниця Угорщини");
+        ** "granary town", "зерновой центр" -> "житниця";
     * millet, просо -> невибагливі злаки
+    * aqueduct system, irrigation system, система акведуков, ирригации -> мережа акведуків, зрошувальна мережа (NOT "система")
+    * irrigation, ирригация -> зрошування
 
     * квасцы -> галун
     * spices, специи -> ALWAYS and ONLY "прянощі", replace singular "спеція" with plural "прянощі" as well, be mindful of a city "Спеція" and do not translate its name
@@ -1467,33 +1469,33 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * ivory, поделочная кость -> слонова кістка
 
     * slave(s), раб(ы) -> невільник(и), unless one of the exceptions specified below
-    ** associated words that could be used depending on context: "поневолювати", "захоплювати бранців", "обертати на невільників", "невільничий ринок", "воїни-невільники", "невільники на галерах"
-    ** slavery, рабство -> неволя
-    ** slave trade, работорговля -> торгівля невільниками
-    ** рабский -> невільничий, BUT "рабская экономика" -> "невільницьке господарство"
-    ** slave raids, набеги за рабами -> людоловство
-    ** slave market, невольничий рынок -> невільничий ринок
-    ** slave center, центр работорговли -> великий невільничий торг
-    ** рабыня -> невільниця
-    ** рабовладение -> володіння невільниками
-    ** keep "раби", "работоргівля", "рабовласництво" when clearly about specifically US slavery, or in descriptions of triangular trans-Atlantic trade
-    ** keep "раби" when clearly dealing with Christian holy texts, usually in form of a fixed expression "раб Божий"
-    ** when dealing with slavery, prefer "бранці" over "полонені" (пленные); also use "бранці" when necessary to reduce tautologies instead of "невільники";
-    ** for Turkish, Crimean, Tatar and Maghrebi lands in narrative texts Christian European a bulk of traded or captured slaves (Usually taken from Ukraine, Georgia, Spain, Italy, Greece, Armenia) can be called "ясир": ясир можна захопити, набрати, увести, погнати; ясиром можна торгувати, продавати, викупити;
+        ** associated words that could be used depending on context: "поневолювати", "захоплювати бранців", "обертати на невільників", "невільничий ринок", "воїни-невільники", "невільники на галерах"
+        ** slavery, рабство -> неволя
+        ** slave trade, работорговля -> торгівля невільниками
+        ** рабский -> невільничий, BUT "рабская экономика" -> "невільницьке господарство"
+        ** slave raids, набеги за рабами -> людоловство
+        ** slave market, невольничий рынок -> невільничий ринок
+        ** slave center, центр работорговли -> великий невільничий торг
+        ** рабыня -> невільниця
+        ** рабовладение -> володіння невільниками
+        ** keep "раби", "работоргівля", "рабовласництво" when clearly about specifically US slavery, or in descriptions of triangular trans-Atlantic trade
+        ** keep "раби" when clearly dealing with Christian holy texts, usually in form of a fixed expression "раб Божий"
+        ** when dealing with slavery, prefer "бранці" over "полонені" (пленные); also use "бранці" when necessary to reduce tautologies instead of "невільники";
+        ** for Turkish, Crimean, Tatar and Maghrebi lands in narrative texts Christian European a bulk of traded or captured slaves (Usually taken from Ukraine, Georgia, Spain, Italy, Greece, Armenia) can be called "ясир": ясир можна захопити, набрати, увести, погнати; ясиром можна торгувати, продавати, викупити;
 
     * tools, инструмент(ы) -> "знаряддя", but only when talking about mechanical or industrial tools; when clearly about heavier devices, use "приладдя"; more mechanical and specialized instruments - "пристрої" ("пневматичний пристрій кровообігу", "за допомогою таких пристроїв, як астролябія та секстант"); BUT depending on context it can also mean "засіб", "спосіб", "важіль", "інструмент":
-    ** музкальные инструменты -> музичні інструменти
-    ** финансовые, политические, дипломатические инструменты -> фінансові, політичні, дипломатичні засоби; "засіб політичних махінацій", "засіб управління королівством"; depending on context of diplomacy, when semantically meaning leverage, you can translate as "важіль", "важелі"
-    ** depending on context it can sometimes mean "спосіб", e.g. "стало способом підвищення престижу", "спосіб контролю", "спосіб плетіння інтриг", "спосіб навчання" тощо
-    ** "знаряддя влади", "знаряддя боротьби"
-    ** otherwise preferable general term for "instrument" in a wider sense is "засіб"
+        ** музкальные инструменты -> музичні інструменти
+        ** финансовые, политические, дипломатические инструменты -> фінансові, політичні, дипломатичні засоби; "засіб політичних махінацій", "засіб управління королівством"; depending on context of diplomacy, when semantically meaning leverage, you can translate as "важіль", "важелі"
+        ** depending on context it can sometimes mean "спосіб", e.g. "стало способом підвищення престижу", "спосіб контролю", "спосіб плетіння інтриг", "спосіб навчання" тощо
+        ** "знаряддя влади", "знаряддя боротьби"
+        ** otherwise preferable general term for "instrument" in a wider sense is "засіб"
 
     * cloth, textile, текстиль -> тканини
-    ** текстильные мануфактуры, гильдии, etc. -> ткацькі ("ткацька мануфактура", "ткацька спілка" і т.і.)
-    ** текстильная промышленность -> ткацькі промисли
-    ** HOWEVER, when text clearly deals with wool, sheep (шерсть овец) or countries known for wool cloths (such as Netherlands, England), then translate as "суконні" - "суконні промисли", "суконна мануфактура", "суконна спілка" тощо
-    ** avoid tautologies, e.g. "дорогие текстильне изделия из сукна и шелка" -> "дорогі вироби з сукна та шовку", extra "textile" is redundant here
-    ** BUT "текстиль" and "промисловість" when the context is clearly about XVIII century, industrialization, factories and mills
+        ** текстильные мануфактуры, гильдии, etc. -> ткацькі ("ткацька мануфактура", "ткацька спілка" і т.і.)
+        ** текстильная промышленность -> ткацькі промисли
+        ** HOWEVER, when text clearly deals with wool, sheep (шерсть овец) or countries known for wool cloths (such as Netherlands, England), then translate as "суконні" - "суконні промисли", "суконна мануфактура", "суконна спілка" тощо
+        ** avoid tautologies, e.g. "дорогие текстильне изделия из сукна и шелка" -> "дорогі вироби з сукна та шовку", extra "textile" is redundant here
+        ** BUT "текстиль" and "промисловість" when the context is clearly about XVIII century, industrialization, factories and mills
 
     * local governor, дом местного губернатора -> палац намісника
     * bailiff, бейлифф -> управа, when about the insitution or building; when about an appointed person -> управ (singular), управи (plural);
@@ -1517,7 +1519,7 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * glass mill, стеклянный завод -> склоробний завод
     * dyes guild -> "фарбарня"; masters, who dye -> "фарбарі", NOT "барвники"
     * jewelry, jewelers, ювелир(ы) -> золотарі
-    ** "гильдия ювелиров" -> спілка золотарів
+        ** "гильдия ювелиров" -> спілка золотарів
     * shipyard, судостроительная верфь -> корабельня
     * entrepot, пакгауз -> торгова комора
     * trading hub, торговый узел -> великий торг
