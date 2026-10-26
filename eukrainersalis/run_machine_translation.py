@@ -15,7 +15,7 @@ from eukrainersalis.utils.file_utils import list_localization_files, project_dir
 from eukrainersalis.utils.log_utils import logger
 from eukrainersalis.utils.migration_utils import MigrationManager
 from eukrainersalis.utils.translation_utils import POSTEDIT_EMPTY_TRANSLATION, PENDING_TRANSLATION, \
-    text_is_not_translated, translation_is_required, translation_not_required, Language, SystemInstruction, \
+    text_is_not_translated, translation_is_required, text_is_ascii_or_empty, Language, SystemInstruction, \
     TranslationResult, split_into_batches, file_is_translated, validate_localization_file
 from eukrainersalis.utils.yaml_utils import write_eu5_localization_yaml_async, load_eu5_yaml_async, \
     load_eu5_yaml, write_eu5_localization_yaml
@@ -125,10 +125,10 @@ def migration_diff_detected(input_file_path, reference_file_path, language_key: 
         return False
 
     localization_key = language_key or Language.RUSSIAN.lang_key
-    input_localization = load_eu5_yaml(input_file_path).get(localization_key, {}) or {}
-    ref_localization = load_eu5_yaml(reference_file_path).get(localization_key, {}) or {}
+    input_localization = load_eu5_yaml(input_file_path).get(localization_key) or {}
+    ref_localization = load_eu5_yaml(reference_file_path).get(localization_key) or {}
     source_file_path = str(input_file_path).replace("/russian", "/english").replace("_l_russian", "_l_english")
-    source_localization = load_eu5_yaml(source_file_path).get(localization_key, {}) or {} if os.path.exists(source_file_path) else {}
+    source_localization = load_eu5_yaml(source_file_path).get(localization_key) or {} if os.path.exists(source_file_path) else {}
 
     migrated_localization = {}
     input_remapped = False
@@ -163,7 +163,7 @@ def migration_diff_detected(input_file_path, reference_file_path, language_key: 
 
 async def load_eu5_yaml_and_preprocess_async(file_path, localization_key: str) -> dict[str, dict[str, str]]:
     content = await load_eu5_yaml_async(file_path)
-    localization = content.get(localization_key, {})
+    localization = content.get(localization_key) or {}
     pp_localization = {key_preprocessing(k): migrated_text_preprocessing(v) for k, v in localization.items()}
     content[localization_key] = pp_localization
     return content
@@ -217,7 +217,7 @@ def translation_postprocessing(line: str) -> str:
 async def create_starting_output_file(content: dict[str, dict], source_language: Language | str, output_file_path: str) -> dict[
     str, dict[str, str]]:
     localization_key = Language(source_language).lang_key
-    localization: dict[str, str] = copy.copy(content.get(localization_key, {}))
+    localization: dict[str, str] = copy.copy(content.get(localization_key) or {})
     for key, value in localization.items():
         if translation_is_required(value):
             localization[key] = PENDING_TRANSLATION
@@ -303,24 +303,31 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
     ua_file_name = os.path.basename(output_file_path)
     ua_loc_key = Language(target_language).lang_key
 
-    rel_path = Path(input_file_path).relative_to(project_dir)
-    reference_file_path = change_reference_source_dir / rel_path if change_reference_source_dir else None
-    reference_file_path = reference_file_path if reference_file_path and os.path.exists(reference_file_path) else None
-    has_reference_file = reference_file_path is not None
+    prev_ru_path = Path(input_file_path).relative_to(project_dir)
+    prev_ru_file_path = change_reference_source_dir / prev_ru_path if change_reference_source_dir else None
+    prev_ru_file_path = prev_ru_file_path if prev_ru_file_path and os.path.exists(prev_ru_file_path) else None
+    has_prev_ru_file = prev_ru_file_path is not None
 
     en_file_path = str(input_file_path).replace("/russian", "/english").replace("_l_russian", "_l_english")
     en_loc_key = Language.ENGLISH.lang_key
     has_en_file = os.path.exists(en_file_path)
 
+    prev_en_file_path = change_reference_source_dir / str(prev_ru_path).replace("/russian", "/english").replace("_l_russian", "_l_english") if change_reference_source_dir else None
+    prev_en_file_path = prev_en_file_path if prev_en_file_path and os.path.exists(prev_en_file_path) else None
+    has_prev_en_file = prev_en_file_path is not None
+
     try:
         ru_content = await load_eu5_yaml_and_preprocess_async(input_file_path, ru_loc_key)
-        ru_localization: dict[str, str] = ru_content.get(ru_loc_key, {})
+        ru_localization: dict[str, str] = ru_content.get(ru_loc_key) or {}
 
-        prev_ru_content = await load_eu5_yaml_and_preprocess_async(str(reference_file_path), ru_loc_key) if has_reference_file else {}
-        prev_ru_localization: dict[str, str] = prev_ru_content.get(ru_loc_key, {})
+        prev_ru_content = await load_eu5_yaml_and_preprocess_async(str(prev_ru_file_path), ru_loc_key) if has_prev_ru_file else {}
+        prev_ru_localization: dict[str, str] = prev_ru_content.get(ru_loc_key) or {}
 
         en_content = await load_eu5_yaml_and_preprocess_async(en_file_path, en_loc_key) if has_en_file else {}
-        en_localization: dict[str, str] = en_content.get(en_loc_key, {})
+        en_localization: dict[str, str] = en_content.get(en_loc_key) or {}
+
+        prev_en_content = await load_eu5_yaml_and_preprocess_async(en_file_path, en_loc_key) if has_en_file else {}
+        prev_en_localization: dict[str, str] = en_content.get(en_loc_key) or {}
 
         translation_key_diff = set()
         # Setting up translated content
@@ -328,26 +335,47 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
             translated_content = await create_starting_output_file(ru_content, source_language, output_file_path)
         else:
             translated_content = await load_eu5_yaml_async(output_file_path)
-            translated_localization = translated_content.get(ua_loc_key, {})
+            translated_localization = translated_content.get(ua_loc_key) or {}
 
             # if we detect PENDING_TRANSLATION, we assume the translation started and was not complete,
             # most likely due to service unavailability
             if not any(v == PENDING_TRANSLATION for v in translated_localization.values()):
                 # merging source and target, making sure that source structure is preserved
                 def merge_key_value(key):
+                    en_value = en_localization.get(key)
+                    prev_en_value = prev_en_localization.get(key)
+                    en_change_detected = en_value != prev_en_value
+
+                    ru_value = ru_localization.get(key)
+                    prev_ru_value = prev_ru_localization.get(key)
+                    ru_change_detected = ru_value != prev_ru_value
+                    change_detected = en_change_detected or ru_change_detected
+                    translated_value = translated_localization.get(key)
+
+                    # Keeping for debugging purposes
+                    all_values = {
+                        'en_value': en_value,
+                        'prev_en_value': prev_en_value,
+                        'en_change_detected': en_change_detected,
+                        'ru_value': ru_value,
+                        'prev_ru_value': prev_ru_value,
+                        'ru_change_detected': ru_change_detected,
+                        'translated_value': translated_value
+                    }
+                    if not change_detected:
+                        return translated_value
+
                     # in_value = migrated_text_preprocessing(in_localization[key])
-                    in_value = ru_localization.get(key, en_localization.get(key))
-                    if translation_not_required(in_value):
+                    in_value = ru_value if ru_value else en_value
+                    if text_is_ascii_or_empty(in_value):
                         return in_value
 
                     # remapped_key = key_preprocessing(key)
                     if key in prev_ru_localization and key in translated_localization:
-                        ref_value = prev_ru_localization[key]
-                        translated_value = translated_localization[key]
-                        if in_value == ref_value:
+                        if in_value == prev_ru_value:
                             return translated_value
                         else:
-                            if is_equal_normalized(in_value, ref_value):
+                            if is_equal_normalized(in_value, prev_ru_value):
                                 return translated_value
 
                             # there can be very minor tweaks, like extra spaces, fixed endings or punctuation,
@@ -370,7 +398,7 @@ async def translate_file(input_file_path: str, output_file_path: str, output_dir
                 translated_content[ua_loc_key] = merged_localization
                 translation_key_diff = merged_localization.keys() ^ translated_localization.keys()
 
-        translated_localization = translated_content.get(ua_loc_key, {})
+        translated_localization = translated_content.get(ua_loc_key) or {}
         for k in translated_localization.keys():
             translated_localization[k] = postprocess_text_that_does_not_require_translation(translated_localization[k])
         untranslated_keys = {k: ru_localization.get(k, v) for k, v in translated_localization.items() if
