@@ -473,7 +473,7 @@
   dip_lordship_of_ireland_surrender_and_regrant_CATEGORY: "CATEGORY_FRIENDLY_ACTIONS"
   lordship_of_ireland_surrender_and_regrant: "Уступки та зміна титулу"
   lordship_of_ireland_surrender_and_regrant_act: "Запропонувати #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').GetKey],X [SCOPE.sCountry('recipient').Custom('CL_DAT')|L]#!#! здатися і повернутися під владу законного власника."
-  lordship_of_ireland_surrender_and_regrant_desc: "Ми запропонуємо їм відмовитися від своєї незалежності та стати нашою частиною у вигляді нових феодальних титулів, захищених нашою правовою системою."
+  lordship_of_ireland_surrender_and_regrant_desc: "Ми запропонуємо їм відмовитися від своєї незалежности та стати нашою частиною у вигляді нових феодальних титулів, захищених нашим правовим ладом."
   lordship_of_ireland_surrender_and_regrant_effect_text: "[SCOPE.sCountry('actor').GetName] пропону[SCOPE.sCountry('actor').Custom('end_yeyut')] #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').GetKey],X [SCOPE.sCountry('recipient').Custom('CL_DAT')|L]#!#! здатися і підкоритися."
   lordship_of_ireland_surrender_and_regrant_effect_text_past: "[SCOPE.sCountry('actor').GetName] запропонува[SCOPE.sCountry('actor').Custom('end_vlaloly')] #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').GetKey],X [SCOPE.sCountry('recipient').Custom('CL_DAT')|L]#!#! здатися і підкоритися."
   lordship_of_ireland_surrender_and_regrant_reject_effect_text: "$generic_reject_demand_effect_string$"
