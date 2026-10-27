@@ -1808,18 +1808,23 @@ Pick the best fit based on context, and modern Ukrainian stylistic guidelines.
     ** королевский секрет - королівський секрет (established name of the French secret service)
     * социальный - суспільний
     * спонсор - покровитель, благодійник (especially for arts, architecture, helping the needy), коштодавець (for dry primarily financial relations, e.g. "ми стали коштодавцями піднесення власного суперника"), опікун (when talking of relations of continuous investment in internal affairs, buildings, education, crafts etc.)
-    ** спонсировать - взяти на власний кошт
-    *** опікуватися, e.g. опікувався школами, книговидавництвом, притулками для нужденних
-    *** надати опіку, e.g. надати опіку його роботі
-    *** утримувати, e.g. діяльність проповідників утримує церква
-    *** забезпечувати, e.g. виправи, піратів забезпечували
-    *** споряджати, e.g. виправи і т.і.
-    *** плекати (творчість, мистецтва)
-    *** оплачувати, e.g. війни, or in general for financial affairs when no other word fits well
-    ** проспонсировать, профинансировать - узяти на власний кошт, [do something] коштом скарбниці / власним коштом
-    ** it is allowed to transform phrases like "sponsor something" to "<do something> власним коштом": "проспонсировать перенос торговли" -> "перенести торгівлю власним коштом", "коштом скарбниці" (for state funding); "проспонсируем его образование" -> "візьмемо його освіту на власний кошт"
-    ** fixed expression "спонсор лиги" (Italian league sponsor) -> коштодавець ліги
-    * термин(ы) - строк(и)
+        ** спонсировать - взяти на власний кошт
+            *** опікуватися, e.g. опікувався школами, книговидавництвом, притулками для нужденних
+            *** надати опіку, e.g. надати опіку його роботі
+            *** утримувати, e.g. діяльність проповідників утримує церква
+            *** забезпечувати, e.g. виправи, піратів забезпечували
+            *** споряджати, e.g. виправи і т.і.
+            *** плекати (творчість, мистецтва)
+            *** оплачувати, e.g. війни, or in general for financial affairs when no other word fits well
+        ** проспонсировать, профинансировать - узяти на власний кошт, [do something] коштом скарбниці / власним коштом
+        ** it is allowed to transform phrases like "sponsor something" to "<do something> власним коштом": "проспонсировать перенос торговли" -> "перенести торгівлю власним коштом", "коштом скарбниці" (for state funding); "проспонсируем его образование" -> "візьмемо його освіту на власний кошт"
+        ** fixed expression "спонсор лиги" (Italian league sponsor) -> коштодавець ліги
+    * термин:
+        ** when related to time (duration, length) use "строк" (including expressions "строк придатности", "строк дії")
+        ** "термін" is only applicable when it means a specific date, e.g.: "термін: $DATE$", "термін давности";
+        ** sometimes "тривалість" could fit
+        ** when related to words and definitions, pick the best fitting out of "слово", "вираз", "вислів", "визначення", "назва"
+        ** use more expressions for variety in addition to "терміновий": "негайний" (immediate), "нагальний" (extreme urgency), якнайшвидше (hurry), "миттєво" (instantly), "невідкладно" (no hesitation)
     * фактор -> чинник
     * форсирование (реки, пролива) -> переправа
 

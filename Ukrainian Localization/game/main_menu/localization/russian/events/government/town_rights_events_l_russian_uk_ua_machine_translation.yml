@@ -120,7 +120,7 @@
   town_rights_events.20.b: "Нехай скаржаться. Торгові інтереси важливіші."
   town_rights_events.20.c: "Таким невмілим керівництвом [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')|l] накликають ганьбу і на себе, і на всю нашу країну."
   town_rights_events.21.title: "Нові способи мурування в [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
-  town_rights_events.21.desc: "Будівельники та каменярі з [target_location.Custom('LR_GEN')|l] [target_location.GetName] представили покращену техніку #TOOLTIP:GOODS,masonry,X #L кам’яної кладки#!#!. Завдяки їхнім напрацюванням наші споруди стануть помітно міцнішими, терміни будівництва скоротяться, а провінція [target_province.GetName] незабаром перетвориться за рахунок нових кам’яних будівель. Можливо, саме із застосування цих технологій почнеться нова доба для нашої архітектури."
+  town_rights_events.21.desc: "Будівельники та каменярі з [target_location.Custom('LR_GEN')|l] [target_location.GetName] представили покращену техніку #TOOLTIP:GOODS,masonry,X #L кам’яної кладки#!#!. Завдяки їхнім напрацюванням наші споруди стануть помітно міцнішими, строки будівництва скоротяться, а провінція [target_province.GetName] незабаром перетвориться за рахунок нових кам’яних будівель. Можливо, саме із застосування цих технологій почнеться нова доба для нашої архітектури."
   town_rights_events.21.a: "Впровадимо ці способи на всіх будівництвах [ROOT.GetCountry.Custom('rank_ua_GEN')|l]."
   town_rights_events.21.b: "Нехай провінція [target_province.GetNameWithNoTooltip] стане осередком нашого зодчества."
   town_rights_events.21.c: "Вкладемо кошти в подальший розвиток #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_GEN')|l]#!#!."

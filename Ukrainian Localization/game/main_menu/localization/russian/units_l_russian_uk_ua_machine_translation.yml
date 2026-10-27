@@ -2104,7 +2104,7 @@
   SELECT_ONBOARDED_UNIT: "Обрати загін «[Unit.GetFirstUnitOnBoard.GetName]»"
   SELECT_LOADED_UNITS: "Вибрати всі загони на борту"
   EMARKED_ARMIES_TT: "Війська на борту:"
-  CURRENT_CONTRACT_LENGTH: "[Mercenary.GetName]: до закінчення терміну контракту залишилося [Mercenary.GetMonthsLeftOnContract] міс."
+  CURRENT_CONTRACT_LENGTH: "[Mercenary.GetName]: до закінчення строку контракту залишилося [Mercenary.GetMonthsLeftOnContract] міс."
   NO_HIRED_MERCENARY: "Найманий загін «[Mercenary.GetName]» ще не завербований"
   All_MERCENARY_CONTRACTS: "У цьому загоні є [Concept('mercenaries', 'найманці')|e] ($AMOUNT$):"
   SHOW_MERCENARY_CONTRACTS: "Відкрити контракти з найманцями"

@@ -177,7 +177,7 @@
   MERCENARY_SORT_BY_COUNTRY_OWNER: "Сортувати за [Concept('country', 'країною')|e]-власником"
   MERCENARY_SORT_BY_COUNTRY_CUSTOMER: "Сортувати за [Concept('country', 'країною')|e]-наймачем"
   MERCENARY_SORT_BY_COST: "Сортувати за вартістю [Concept('mercenary', 'найманців')|e]"
-  MERCENARY_SORT_BY_LENGTH: "Сортувати за терміном контракту з [Concept('mercenary', 'найманцями')|e]"
+  MERCENARY_SORT_BY_LENGTH: "Сортувати за строком контракту з [Concept('mercenary', 'найманцями')|e]"
   MERCENARY_SORT_BY_SIZE: "Сортувати за кількістю [Concept('regiments', 'полків')|e] або [Concept('ships', 'кораблів')|e]"
   MERCENARY_SORT_BY_TPC: "Сортувати за військовим підйомом для [Concept('ships', 'кораблів')|e]"
   SORT_BY_MERCENARY_MAX_SUBUNIT: "Сортувати за максимальною кількістю підрозділів [Concept('mercenary', 'найманців')|e]"
