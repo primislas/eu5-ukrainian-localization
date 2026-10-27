@@ -46,7 +46,7 @@
   succession.100.c: "[ROOT.GetCountry.GetGovernment.GetGovernmentType.GetNameWithNoTooltip] не допустить розколу!"
   succession.100.d: "[new_ruler.GetNameWithNoTooltip] нестиме цей тягар самотужки."
   succession.100.e: "Позбудемося цих законів…"
-  succession.100.f: "У минулому престол успадковувався без жодного порядку. Час позбутися цієї системи."
+  succession.100.f: "У минулому престол успадковувався без жодного порядку. Час позбутися цього безладу."
   succession.101.title: "Унія корон"
   succession.101.desc: "Наш попередній монарх уклав договір із владою #ONCLICK:COUNTRY,[union_partner.GetKey] #TOOLTIP:COUNTRY,[union_partner.GetKey],X [union_partner.Custom('CL_GEN')|L]#!#!: той, хто переживе іншого монарха, успадкує трон свого партнера за договором. Таким чином, [Select_CString(new_ruler.IsFemale,'велика', 'великий')] [new_ruler.GetName] отримає #L [junior_partner.GetAdjective|l]у#! корону."
   succession.101.a: "Хай живе [junior_partner.GetGovernment.GetRulerTitle|l]!"
