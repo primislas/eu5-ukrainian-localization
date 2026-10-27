@@ -89,7 +89,7 @@
   personality_events.23.d: "[target_heir.GetNameWithNoTooltip] і без того [Select_CString(arget_heir.IsFemale,'готова', 'готовий')] до правління!"
   personality_events.24.title: "Вчитися ніколи не пізно"
   personality_events.24.desc: "Уміння визнавати свої недоліки та покладатися на обізнаних людей — це ключ до успішного правління. [target_ruler.GetName] завжди прислухається до порад більш досвідчених прихильників, щоб розвиватися та отримувати нові знання. Таким чином можна навчитися будь-чому, навіть не маючи до цього схильности. Якщо [target_ruler.GetNameWithNoTooltip] повністю присвятить себе навчанню та докладе необхідних зусиль, то зможе краще опанувати різні сторони врядування #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_INST')|L]#!#!."
-  personality_events.24.a: "Нехай вивчає #L [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]у#! систему врядування."
+  personality_events.24.a: "Нехай вивчає #L [ROOT.GetCountry.GetAdjectiveWithNoTooltip|l]ий#! урядовий устрій."
   personality_events.24.b: "Нехай вивчає дипломатію."
   personality_events.24.c: "Нехай вивчає військову справу."
   personality_events.24.d: "[target_ruler.GetNameWithNoTooltip] не потребує наставників!"

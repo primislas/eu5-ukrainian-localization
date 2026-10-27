@@ -14,7 +14,7 @@
   revolutionary_chaos.2.a: "Одна країна, одна віра."
   revolutionary_chaos.2.b: "Ми будемо терпимі до всіх вір."
   revolutionary_chaos.3.title: "$serfdom_focus$"
-  revolutionary_chaos.3.desc: "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] у нашому суспільстві наріка[ROOT.GetCountry.Custom('peasants_yeyut')] на свою нестерпну долю. Їхнє невдоволення маноріальною системою, високими податками та частим голодом вилилося в кілька повстань по всій нашій землі."
+  revolutionary_chaos.3.desc: "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] у нашому суспільстві наріка[ROOT.GetCountry.Custom('peasants_yeyut')] на свою нестерпну долю. Їхнє невдоволення маноріальним ладом, високими податками та частим голодом вилилося в кілька повстань по всій нашій землі."
   revolutionary_chaos.3.a: "Обмежити $serfdom_focus$."
   revolutionary_chaos.3.a.tt: "#TOOLTIP:POPTYPE,peasants,X #L Селяни#!#! та #TOOLTIP:POPTYPE,laborers,X #L робітники#!#! в області [ROOT.GetCountry.GetCapital.GetRegion.GetName] приєднаються до повстанців ([target_rebel.GetName]), а їхнє [Concept('pop_satisfaction', 'задоволення')|e] знизиться на [target_pop_for_loc.MakeScope.ScriptValue('pop_satisfaction_ultimate_penalty')|+2%]"
   revolutionary_chaos.3.b: "Маси залишаться в ланцюгах."
