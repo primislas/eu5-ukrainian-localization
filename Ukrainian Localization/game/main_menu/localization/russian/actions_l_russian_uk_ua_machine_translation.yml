@@ -632,7 +632,7 @@
   PROVIDES_POWER_OPPORTUNITY: "Дає нагоду захопити владу"
   BENEFITS_US: "Принесе нам користь"
   OPINION_OF_OTHER_MEMBERS: "Думка інших учасників"
-  YEARS_OF_ORGANIZATION_EXISTENCE: "Термін існування об'єднання"
+  YEARS_OF_ORGANIZATION_EXISTENCE: "Тривалість існування об'єднання"
   IS_ELECTOR: "Є [Concept('elector', 'виборщиком')|e]"
   OPINION_OF_ELECTORS: "Думка інших [Concept('electors', 'виборщиків')|e]"
   OPINION_OF_FREE_CITIES: "Що думають інші [ShowSpecialStatusNamePlural('free_city')|l]"

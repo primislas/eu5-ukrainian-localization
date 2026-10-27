@@ -2191,7 +2191,7 @@
   OFFER_LOAN_SELECT: "Оберіть умови пропонованої позики:"
   OFFER_LOAN_AMOUNT: "Сума ([gold_i])"
   OFFER_LOAN_INTEREST: "Лихва (%)"
-  OFFER_LOAN_DURATION: "Термін (міс.)"
+  OFFER_LOAN_DURATION: "Строк (міс.)"
   OFFER_LOAN_TOOLTIP_HEADER: "Запропонувати [Concept('loan', 'позику')|e] #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_DAT')|L]#!#!"
   OFFER_LOAN_TOOLTIP_HEADER_NO_TARGET: "Запропонувати [Concept('loan', 'позику')|e] [Concept('country', 'країні')|e]"
   OFFER_LOAN_FLAVOR: "Ми запропонуємо [Concept('loan', 'позику')|e] іншій країні, яку їй доведеться виплачувати з лихвою."

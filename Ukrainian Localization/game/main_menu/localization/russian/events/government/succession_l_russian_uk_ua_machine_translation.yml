@@ -52,7 +52,7 @@
   succession.101.a: "Хай живе [junior_partner.GetGovernment.GetRulerTitle|l]!"
   succession.102.desc: "[union_partner.GetName] одного разу укла[union_partner.Custom('end_vlaloly')] договір із #ONCLICK:COUNTRY,[junior_partner.GetKey] #TOOLTIP:COUNTRY,[junior_partner.GetKey],X [junior_partner.Custom('CL_GEN')|L]#!#!: якщо один монарх переживе іншого, він успадкує трони обох країн, об'єднавши їх в [Concept('union', 'унію')|e]. Тепер же, коли [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] [junior_partner.Custom('CL_GEN')] більше не з нами, [junior_partner.GetAdjectiveWithNoTooltip|l]ий трон отримає [new_ruler.GetName]."
   succession.102.a: "Нехай [Select_CString(new_ruler.IsFemale,'її', 'його')] правління покладе початок ері процвітання унії."
-  joint_ruling.100.title.a: "Термін закінчився"
+  joint_ruling.100.title.a: "Строк закінчився"
   joint_ruling.100.title.b: "Долина сліз"
   joint_ruling.100.desc.a: "[ROOT.GetCountry.GetGovernment.GetRuler.GetName] іде на спочинок, а трон займає [pretender_brother.GetName], як того вимагають #L [ROOT.GetCountry.GetAdjective|l]і#! закони та угода між співправителями. [ROOT.GetCountry.GetNameWithNoTooltip] і династія [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName] збережуть свою добру репутацію, якщо передача влади пройде спокійно."
   joint_ruling.100.desc.b: "[ROOT.GetCountry.GetGovernment.GetRuler.GetName] не може передати престол братам — їх немає. Таким чином, [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] залишається єдиним правителем #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!."

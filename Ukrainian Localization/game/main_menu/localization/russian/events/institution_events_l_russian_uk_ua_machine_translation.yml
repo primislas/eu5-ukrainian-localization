@@ -255,7 +255,7 @@
   institution_events.161.title: "Урбанізація"
   institution_events.161.desc: "Сім'ї ремісників переїхали з сіл до #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_GEN')|L]#! [target_location.GetName], щоб влаштуватися на одну з численних процвітаючих мануфактур. Згодом [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetNameWithNoTooltip] став ще більш привабливим місцем. Ця так звана #italic урбанізація#!, мабуть, цим не закінчиться, оскільки чергова хвиля переселенців вже прямує з провінції [rural_province.GetName] до провінції [urbanization_province.GetName]."
   institution_events.161.a: "Це нормальний процес, так і має бути."
-  institution_events.161.b: "Ми повинні зупинити цю хвилю міграції в найкоротші терміни."
+  institution_events.161.b: "Ми повинні зупинити цю хвилю міграції в найкоротші строки."
   institution_events.170.title: "Почуття спільноти"
   institution_events.170.desc: "Захист [ROOT.GetCountry.Custom('rank_ua_GEN')|l] завжди хвилював лише правлячу еліту та її озброєну обслугу. Звичайн[ROOT.GetCountry.Custom('peasants_yiaei')] [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] мало дба[ROOT.GetCountry.Custom('peasants_vlaloly')] про те, хто годується з їхніх податків. Проте зі зростанням військової могутності [ROOT.GetCountry.Custom('rank_ua_GEN')|l] та числа вояків на полі бою, а також з поширенням почуття національної єдності та гордості ставлення звичайних людей до безпеки [ROOT.GetCountry.Custom('rank_ua_GEN')|l] змінилося. Інтереси та захист країни тепер стали обов'язком народу, а тому почуття спільноти стало головним символом доби."
   institution_events.170.a: "Хоробрість народу — наша зброя."
