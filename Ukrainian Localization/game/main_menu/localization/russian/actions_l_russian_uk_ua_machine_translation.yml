@@ -1124,7 +1124,7 @@
   cmd_restore_stability_desc: "Нещодавнє лихо, яке спіткало наш великий народ, сильно підірвало нашу стабільність. Щоб пережити цей смутний час, ми повинні приділити більше уваги внутрішній політиці."
   cmd_strengthen_crown: "Зміцнити престол"
   cmd_strengthen_crown_desc: "Наше право на владу як власників Небесного мандату опинилося під питанням. Ми повинні заткнути роти критикам і повернути собі колишню велич."
-  has_completed_revised_tax_code_tt: "Завершено [Concept('cabinet_action', 'доручення')|e] #TOOLTIP:CABINET_ACTION,reform_taxation_system,X #L «Реформа податкової системи»#!#!"
+  has_completed_revised_tax_code_tt: "Завершено [Concept('cabinet_action', 'доручення')|e] #TOOLTIP:CABINET_ACTION,reform_taxation_system,X #L «Реформа податкового устрою»#!#!"
   has_not_already_enacted_this_action_during_the_disaster_tt: "Ця [Concept('action', 'дія')|e] ще не застосовувалася під час поточного [Concept('disaster', 'лиха')|e]"
   peranakan_trading_rights: "Торгові права перанакан"
   restrict_peranakan_trading_rights: "Обмежити торгові права перанакан"

@@ -5166,7 +5166,7 @@
   MODIFIER_TYPE_DESC_kephalai_bureaucracy_impact_modifier: "Визначає впливовість [Concept('bureaucracy', 'установи')|e] в [Concept('country', 'країні')|e]."
   MODIFIER_TYPE_NAME_magister_militum_bureaucracy_impact_modifier: "Вплив Magister militum"
   MODIFIER_TYPE_DESC_magister_militum_bureaucracy_impact_modifier: "Визначає впливовість [Concept('bureaucracy', 'установи')|e] в [Concept('country', 'країні')|e]."
-  MODIFIER_TYPE_NAME_themata_bureaucracy_impact_modifier: "Вплив фемної системи"
+  MODIFIER_TYPE_NAME_themata_bureaucracy_impact_modifier: "Вплив фемного устрою"
   MODIFIER_TYPE_DESC_themata_bureaucracy_impact_modifier: "Визначає впливовість [Concept('bureaucracy', 'установи')|e] в [Concept('country', 'країні')|e]."
   MODIFIER_TYPE_NAME_allelengyon_bureaucracy_impact_modifier: "Вплив алліленгія"
   MODIFIER_TYPE_DESC_allelengyon_bureaucracy_impact_modifier: "Визначає впливовість [Concept('bureaucracy', 'установи')|e] в [Concept('country', 'країні')|e]."
