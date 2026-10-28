@@ -41,7 +41,7 @@
   order_abandons_a_house_desc: "Залишившись без нових послушників, орден змушений закрити один зі своїх капітулів"
   order_withers_for_want_of_novices_desc: "Орден уперто тримається за свої високі стандарти, однак без притоку свіжої крови його колишня міць і запал згасають"
   religious_orders.101.title: "Герой ордену"
-  religious_orders.101.desc: "Серед братів ордену служить уславлений лицар, чиє ім’я оспівують жителі прикордонних сіл. [target_order.GetName] не забуває про те, кому завдячує своїм високим становищем, і його провід пропонує, щоб [target_character.GetName] [Select_CString(target_character.IsFemale, 'билася', 'бився')] під нашим стягом, поки ми потребуємо [Select_CString(target_character.IsFemale, 'її', 'його')] послуг."
+  religious_orders.101.desc: "Серед братів ордену служить уславлений лицар, чиє ім’я оспівують жителі порубіжних сіл. [target_order.GetName] не забуває про те, кому завдячує своїм високим становищем, і його провід пропонує, щоб [target_character.GetName] [Select_CString(target_character.IsFemale, 'билася', 'бився')] під нашим стягом, поки ми потребуємо [Select_CString(target_character.IsFemale, 'її', 'його')] послуг."
   religious_orders.101.a: "Дамо [Select_CString(target_character.IsFemale, 'їй', 'йому')] посаду, гідну [Select_CString(target_character.IsFemale, 'її', 'його')] слави."
   religious_orders.101.b: "[Select_CString(target_character.IsFemale, 'Її', 'Його')] місце на кордоні."
   religious_orders.102.title: "Набіг через кордон"

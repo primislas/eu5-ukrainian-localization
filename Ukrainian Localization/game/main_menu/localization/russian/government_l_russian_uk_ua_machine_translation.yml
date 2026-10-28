@@ -1232,7 +1232,7 @@
   maintain_trunk_road_cabinet_action_action_progress: "Утримання Великого колісного шляху"
   maintain_trunk_road_cabinet_action_action_progress_wordier: "Утримання Великого колісного шляху"
   maintain_trunk_road_cabinet_action_action_progress_tooltip: "Утримання Великого колісного шляху"
-  settle_the_frontier: "Заселення прикордоння"
+  settle_the_frontier: "Заселення порубіжжя"
   settle_the_frontier_desc: "[Concept('cabinet', 'Рада')|e] докладе зусиль до заселення неколонізованої [Concept('province', 'провінції')|e] [Concept('pops', 'громадами')|e]."
   settle_the_frontier_action: "Оселитися в провінції [SCOPE.sProvinceDefinition('target').GetNameWithNoTooltip]"
   settle_the_frontier_select_province_definition: "Оберіть [Concept('province', 'провінцію')|e] для заселення:"

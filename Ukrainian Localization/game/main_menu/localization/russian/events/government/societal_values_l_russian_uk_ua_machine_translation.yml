@@ -290,7 +290,7 @@
   STATIC_MODIFIER_NAME_reduced_dip_reputation: "Погана репутація"
   STATIC_MODIFIER_DESC_reduced_dip_reputation: "Наші балагури, що прикидаються послами, зіпсували нашу репутацію."
   societal_values.700.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] занепокоєн[ROOT.GetCountry.Custom('nobles_yiaei')]"
-  societal_values.700.desc: "Наш[ROOT.GetCountry.Custom('nobles_aei')] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], що володі[ROOT.GetCountry.Custom('nobles_yeyut')] прикордонними маєтками, занепокоєн[ROOT.GetCountry.Custom('nobles_yiaei')] тим, що ми нехтуємо обороною. Вони висловлюють свої побоювання всім підряд."
+  societal_values.700.desc: "Наш[ROOT.GetCountry.Custom('nobles_aei')] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')|l], що володі[ROOT.GetCountry.Custom('nobles_yeyut')] порубіжними маєтками, занепокоєн[ROOT.GetCountry.Custom('nobles_yiaei')] тим, що ми нехтуємо обороною. Вони висловлюють свої побоювання всім підряд."
   societal_values.700.a: "Але найкращий захист — це напад!"
   societal_values.701.title: "Кругом боягузтво"
   societal_values.701.desc: "Через нашу зростаючу увагу до наступальних дій стало важче знаходити хоробрих селян для поповнення війська. Наші вербувальники постійно отримують безглузді скарги на те, що їх відправляють у бій, немов гарматне м'ясо."
