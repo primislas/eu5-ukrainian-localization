@@ -1,0 +1,10 @@
+﻿l_russian:
+  ara_unite_barcelona_dynasty.title: "Об’єднання дому"
+  ara_unite_barcelona_dynasty.desc: "Після того як [ShowCultureName('sicilian')|l]а вечірня закріпила трон за нашим домом, наш вплив у #TOOLTIP:REGION,italy_region,X #L Італії#!#! зріс. Попри це, #TOOLTIP:AREA,sicily_area,X #L Сицилія#!#! й надалі зберігає незалежність, тримаючись осторонь нашої родової політики. Замість того щоб марнувати цю нагоду, нам, либонь, варто звернутися до наших тамтешніх родичів, щоб зміцнити союз домів і, можливо, покласти початок нашим зазіханням в Італії."
+  ara_unite_barcelona_dynasty.a: "Спробуймо об’єднати обидві корони."
+  ara_unite_barcelona_dynasty.b: "Вони стануть нашими підданими."
+  ara_effects_only_take_place_if_sic_accepts_tt: "Ефекти набудуть чинности, лише якщо [GetCountry('SIC').GetName] погод[GetCountry('SIC').Custom('end_ytyat')]ся"
+  ara_vassalize_bosnia.title: "Вимагати васалітету від [GetCountry('BOS').Custom('CL_GEN')]"
+  ara_vassalize_bosnia.desc: "Великий правитель #ONCLICK:COUNTRY,[GetCountry('BOS').GetKey] #TOOLTIP:COUNTRY,[GetCountry('BOS').GetKey],X [GetCountry('BOS').Custom('CL_GEN')|L]#!#! тривалий час боровся за збереження суверенітету країни перед лицем зажерливих сусідів. Не маючи змоги захиститися самотужки, численн[GetCountry('BOS').Custom('nobles_yiaei')] [GetCountry('BOS').GetGovernment.GetEstateName('nobles_estate')] зверну[GetCountry('BOS').Custom('nobles_vlaloly')]ся до нашого правителя та двору з проханням про захист від будь-якого вторгнення. Вони б воліли стати нашими підданими, ніж потрапити до рук іновірців, і цим ми можемо скористатися у власних інтересах."
+  ara_vassalize_bosnia.a: "Настав час вимагати їхнього підпорядкування."
+  ara_ask_bosnia_for_vassalization: "Ми вимагатимемо підпорядкування від #ONCLICK:COUNTRY,[GetCountry('BOS').GetKey] #TOOLTIP:COUNTRY,[GetCountry('BOS').GetKey],X [GetCountry('BOS').Custom('CL_GEN')|L]#!#!"

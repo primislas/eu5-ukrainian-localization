@@ -1,0 +1,4 @@
+﻿l_russian:
+  court_favorite: "Придворний фаворит"
+  desc_court_favorite: "Цілком завдячуючи нам своїм становищем та багатством, ця людина працює не покладаючи рук, щоб іще більше зміцнити нашу владу. Якщо [Concept('cabinet_member', 'радник')|e] з цією [Concept('trait', 'рисою')|e] стане [Concept('head_of_the_cabinet', 'головою ради')|e], наша країна отримає модифікатор «[GetAutoModifier('court_favorite_head_of_cabinet').GetName]»."
+  court_favorite_die_desc: "За своє становище й багатство [Select_CString(CHARACTER.IsFemale, 'ця жінка', 'цей чоловік')] сповна [Select_CString(CHARACTER.IsFemale, 'віддячила', 'віддячив')] цілковитою вірністю. За [Select_CString(CHARACTER.IsFemale, 'нею', 'ним')] тужитимуть усі стани."

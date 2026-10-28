@@ -1,0 +1,5 @@
+﻿l_russian:
+  AUTO_MODIFIER_NAME_gra_sovereignty_country_effects: "[Concept('granadan_sovereignty', 'Гранадський суверенітет')|e]"
+  AUTO_MODIFIER_DESC_gra_sovereignty_country_effects: "Змінюється пропорційно до нашого [Concept('granadan_sovereignty', 'гранадського суверенітету')|e] під час [Concept('situation', 'ситуації')|e] «[GetSituationByKey('battle_for_the_strait').GetName]»"
+  AUTO_MODIFIER_NAME_court_favorite_head_of_cabinet: "Голова ради — придворний фаворит"
+  AUTO_MODIFIER_DESC_court_favorite_head_of_cabinet: "Надається, коли наш [Concept('head_of_the_cabinet', 'голова ради')|e] має рису «[ShowTraitName('court_favorite')]»"
