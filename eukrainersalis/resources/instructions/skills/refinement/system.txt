@@ -1,0 +1,46 @@
+# Replace anachronistic loan-word "territory" ("система")
+
+In many cases the word "system" can be replaced with a more appropriate word:
+    * Use "устрій" for various systems of societal or administrative organization. For example: правовий устрій, судовий устрій, податковий устрій, урядовий устрій, устрій урядування, полковий устрій, владний устрій.
+        ** It can also be applied to administrative systems, e.g.: фемний устрій, кантонний устрій, устрій ніябатів
+        ** система письма, писемности, правопису -> правописний устрій
+    * Use "лад" where "устрій" does not fit, and a more concrete way of doing things is implied. Most commonly in expressions like: феодальний лад, виборний лад, монархічний лад. Some examples:
+        ** Використання фахових постійних військ. Цей лад поступово шириться Європою.
+        ** нова ідея самовладдя — ладу, що дозволить нам позбутися цих паразитів і правити одноосібно
+        ** Рехім’єнто — це лад місцевого самоврядування
+    * Use "порядок" when it means a specific law, policy, or implies a specific order of execution. For example: порядок успадкування/престолонаслідування, порядок збору данини, порядок набору та утримання вояків.
+        ** Sometimes "system" can be replaced with plural "порядки", e.g.: "необхідність у стійких і сталих порядках правління", "час позбутися старих порядків".
+        ** система літочислення -> порядок літочислення, порядок запису років
+        ** Some more examples:
+            *** Суперечки щодо нових порядків оподаткування
+            *** Цей порядок, також відомий під назвою #italic боннахт#!, приписує молодшим вождям надавати за свій рахунок постій
+            *** Порядок алондігас був створений для зручности контролю за зберіганням та збутом хліба
+            *** #TOOLTIP:LAW,imperial_examination_law,X #L Порядок іспитів#!#! більше не діє.
+            *** Порядок #italic малікяне#! дозволяє придбати таке довічне право
+            *** більш точний порядок високосних років
+            *** Кормління — порядок утримання посадових осіб
+            *** Єдиний порядок оподаткування за перевезення товарів
+    * Use "мережа" when "system" implies a working network, and also in the following expressions: торгова мережа, мережа зрошення (NOT "система зрошення") / водопостачання / водогонів, шпигунська мережа (NOT "шпигунська система"), транспортна мережа, мережа залог, мережа мурів і бастіонів.
+    * Use "поділ" when "system" implies administrative territorial division.
+    * Sometimes it clearly relates to "установа" or "установи".
+    * Sometimes it means "ретельний" or "послідовний". E.g.: ретельне дослідження, ретельне вивчення, послідовне застосування цих принципів.
+    * Sometimes the word "система" is redundant and can be dropped. E.g.:
+        ** заснувати систему чотирьох рад -> заснувати чотири ради
+        ** система лазаретів -> лазарети
+    * Fixed expressions:
+        ** економічна система -> господарський уклад
+
+Sometimes the distinction is very fine and fuzzy. Generally "устрій" relates to how systems are arranged, "лад" - how they are executed, "порядок" - more specific and narrow than "лад", related to specific laws, policies, ways of doing a thing.
+
+Words "систематичний", "систематизований" can often be translated as "упорядкований", "впорядкований", "послідовний", "сталий". E.g.:
+    * Його праця є першим упорядкованим оглядом життя юдейського народу
+    * цей документ погано впорядкований, а його положення навряд чи застосовні для всієї країни
+    * вчення було впорядковане у формі П'яти пунктів Ремонстрації
+
+"Систематизувати" could be replaced with "упорядкувати", "впорядкувати". E.g.:
+    * Прагнучи впорядкувати привілеї знаті
+    * він упорядкував науковий підхід до богослов’я
+
+However, in some cases there's no fitting replacement for "система". For example, when discussing various scientific systems, more modern systematic and scientific approaches, in the context of Enlightenment and Industrial Revolution. Also true for game setting. In these contexts and when in doubt, leave the word "система" (or its derivatives). E.g.:
+    * система мір і ваг
+    * геліоцентрична система
