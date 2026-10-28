@@ -799,7 +799,7 @@
   antagonism_attempt_to_justify_backfired: "Спроба виправдати [Concept('antagonism', 'ворожість')|e] спричинила проблеми"
   antagonism_tzompantli_further_aggression: "Після зведення цомпантлі можливе зростання агресії"
   antagonism_maintained_subjugation: "Зберігають володарювання над [GetCountry('LUX').Custom('CL_INST')]"
-  antagonism_defused_border_disputes: "Послабили напруженість у прикордонних суперечках"
+  antagonism_defused_border_disputes: "Послабили напруженість у порубіжних суперечках"
   antagonism_fortifying: "Укріплюють наші землі"
   antagonism_heretic_segregation: "Ізоляція єретиків"
   antagonism_declaring_independence: "Оголошення незалежності"

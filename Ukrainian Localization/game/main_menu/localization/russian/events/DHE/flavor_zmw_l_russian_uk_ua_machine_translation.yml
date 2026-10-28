@@ -30,7 +30,7 @@
   flavor_zmw.1000.a.tt: "Ми відкриємо [Concept('event', 'подію')|e] #Y «$flavor_zmw.1001.title$»#!, яка щорічно приваблює нових [Concept('courtiers', 'придворних')|e], якщо їх буде менше 10"
   flavor_zmw.1001.title: "Відчайдухи, відгукніться"
   flavor_zmw.1001.entry: "$flavor_zmw.1001.title$"
-  flavor_zmw.1001.desc: "Після того як [target_character.GetName] [Select_CString(target_character.IsFemale, 'оголосила', 'оголосив')] про свої наміри, до #L [target_country.GetAdjective|l]ого#! двору почали десятками прибувати сміливці, готові вирушити #TOOLTIP:CABINET_ACTION,settle_the_frontier,X #L заселяти прикордоння#!#! заради інтересів рідної країни."
+  flavor_zmw.1001.desc: "Після того як [target_character.GetName] [Select_CString(target_character.IsFemale, 'оголосила', 'оголосив')] про свої наміри, до #L [target_country.GetAdjective|l]ого#! двору почали десятками прибувати сміливці, готові вирушити #TOOLTIP:CABINET_ACTION,settle_the_frontier,X #L заселяти порубіжжя#!#! заради інтересів рідної країни."
   flavor_zmw.1001.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
   flavor_zmw.1001.a.entry: "$common_string_brilliant$"
   flavor_zmw.1001.a.tt: "В #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_PREP')|L]#!#! з'являється новий [Concept('character', 'персонаж')|e]"

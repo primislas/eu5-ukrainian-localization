@@ -745,6 +745,9 @@ IMPORTANT! When presented with several alternative translation options, choose t
             *** виправи в краях #TOOLTIP:AREA,gulf_of_africa_sea,X #L Гвінейської затоки#!#!
             *** досліджують гори в районі #TOOLTIP:LOCATION,glubocica,X #L Глубочиці#!#! -> досліджують гори в околицях #TOOLTIP:LOCATION,glubocica,X #L Глубочиці#!#!
             *** Устрій #italic кантонів#! ділить країну на райони врядування. -> Устрій #italic кантонів#! ділить країну на округи врядування.
+    * border, граница -> "кордон" generally and always when game mechanics is discussed, but in narrative texts can be varied with "межі", "рубежі" (especially for wild lawless or militarized regions with fluid or no fixed borders)
+        ** "Прикордонний", "прикордоння" can in most cases be replaced with "порубіжний", "порубіжжя", with rare exceptions when established specific borders in modern sense or game mechanics are discussed ("прикордонний контроль", [в описі механіки] "усі прикордонні місцевості", "зафіксували кордон між князівствами", "прикордонники").
+            *** Sometimes it is stylistically better to flip the order, e.g. "порубіжні гусари" -> "гусари порубіжжя"
 
     * megalopolis, мегалополис -> мегаполіс
     * estuary, эстуарий -> гирло
