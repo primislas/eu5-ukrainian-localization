@@ -1,0 +1,8 @@
+﻿l_russian:
+  d009_iberian_policy.1.title: "Статут [ShowLocationNameWithNoTooltip('toledo')]"
+  d009_iberian_policy.1.entry: "Статут Толедо"
+  d009_iberian_policy.1.desc: "Обговорення в #TOOLTIP:LOCATION,toledo,X #L Толедо#!#! такого нагального питання, як [ShowLawName('limpieza_de_sangre_law')|l], досягло апогею. [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|U] здебільшого вимага[ROOT.GetCountry.Custom('clergy_yeyut')], щоб вищі церковні посади й бенефіції надавалися тільки старим християнам, а нащадки тих, чиї пращури колись сповідували [ShowReligionName('judaism')|l] або #TOOLTIP:RELIGIONGROUP,muslim,X #L іслам#!#!, були усунуті від них. Ця пропозиція спричинила глибокий розкол: представники університетів і міських рад оголошують її несправедливою. Дійшло до того, що для залагодження суперечки змушен[ROOT.GetCountry.Custom('crown_yiaei')] втрутитися [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')|l]."
+  d009_iberian_policy.1.a: "[ROOT.GetCountry.GetReligion.GetGodName|U] та [ROOT.GetCountry.GetFlavorRank|l] бажають, щоб їм служили тільки носії чистої крови!"
+  d009_iberian_policy.1.b: "Впровадимо його з усією розважливістю та обачністю."
+  d009_iberian_policy.1.c: "Спробуймо досягти порозуміння між обома таборами."
+  d009_iberian_policy.1.historical_info: "У 1546 році новообраний архієпископ Толедо Хуан Мартінес Сілісео започаткував ухвалення нового статуту про чистоту крови у відповідь на призначення новонаверненого на посаду каноніка собору. Сілісео зміг переконати самого Папу скасувати це призначення. Попри протести багатьох архідияконів, міських рад і представників університетів, його статут про чистоту крови затвердив король Філіп, і згодом він став зразком для подібних законів, ухвалених по всій Іспанії."

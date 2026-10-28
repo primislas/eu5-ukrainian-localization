@@ -1,0 +1,4 @@
+﻿l_russian:
+  cas_alcabala_tax: "Алькабала"
+  cas_alcabala_tax_desc: "Офіційне запровадження цього регулярного податку забезпечить сталий приплив грошей до скарбниці, що зміцнить фінансове становище нашої країни та стане джерелом коштів для майбутніх воєн."
+  crown_castile_reform_bfts_victory_tt: "Здобуто перемогу в [Concept('situation', 'ситуації')|e] «[GetSituationByKey('battle_for_the_strait').GetName]»"

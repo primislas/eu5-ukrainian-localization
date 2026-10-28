@@ -1,7 +1,7 @@
 ﻿l_russian:
-  DELETE_PLAYTHROUGH_CONFIRMATION_DESC: "#T $SAVE_NAME$#! — це проходження буде видалено з усіма збереженнями."
-  DELETE_SAVE_CONFIRMATION_DESC: "#T $SAVE_NAME$#! — збереження буде видалено."
+  DELETE_PLAYTHROUGH_CONFIRMATION_DESC: "Гра #T $SAVE_NAME$#! та збереження, що містяться в ній, будуть видалені."
+  DELETE_SAVE_CONFIRMATION_DESC: "#T $SAVE_NAME$#! буде видалено."
   FRONTEND_SAVE_EXIT_TEXT: "Зберегти гру як автозбереження #high $SAVE_NAME$#!"
-  FRONTEND_END_GAME_TEXT: "Якщо ви, як організатор, покинете гру, мережева гра завершиться, і решта гравців не зможуть продовжувати грати разом."
-  FRONTEND_LEAVE_GAME_TEXT: "Якщо ви покинете гру, мережева гра продовжиться без вас."
-  OVERWRITE_SAVE_CONFIRMATION_DESC: "#T $SAVE_NAME$#! — це збереження буде перезаписано."
+  FRONTEND_END_GAME_TEXT: "Якщо ви як хост залишите гру, багатокористувацька партія завершиться, і решта гравців більше не зможуть продовжити її разом."
+  FRONTEND_LEAVE_GAME_TEXT: "Якщо ви залишите гру, багатокористувацька партія продовжиться без вас"
+  OVERWRITE_SAVE_CONFIRMATION_DESC: "#T $SAVE_NAME$ #! буде перезаписано."

@@ -1,0 +1,3 @@
+﻿l_russian:
+  change_granadan_sovereignty_effect_tt: "[Concept('granadan_sovereignty', 'Гранадський суверенітет')|e] збільшується на $VALUE|+$"
+  reduce_granadan_sovereignty_effect_tt: "[Concept('granadan_sovereignty', 'Гранадський суверенітет')|e] зменшується на $VALUE|-$"

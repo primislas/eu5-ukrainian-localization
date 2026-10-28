@@ -1,0 +1,13 @@
+﻿l_russian:
+  por_assumed_grandmastership_of_military_orders_tt: "Відкриває [Concept('decision', 'рішення')|e] «[ShowDecisionName('por_mesa_da_consciencia_e_ordens_decision')]»"
+  por_assumed_grandmastership_of_military_orders_requirement_tt: "Країна мала набути статусу великого магістра військових орденів"
+  por_mesa_da_consciencia_e_ordens_decision.title: "Заснуємо $por_mesa_da_consciencia_e_ordens_bureaucracy$"
+  por_mesa_da_consciencia_e_ordens_decision.desc: "Наші ордени володіють командорствами та багатствами, недоступними для звичайних управлінь, а їхніми справами окремо опікується той священник чи капітан, кому пощастить здобути найбільшу монаршу ласку. Ми маємо створити постійний трибунал — Палату сумління та орденів — для розгляду їхніх прохань і надання командорств, щоб іще тісніше пов’язати їхню духовну владу з цілями корони."
+  por_mesa_da_consciencia_e_ordens_decision.a: "Заснувати трибунал."
+  establish_mesa_da_consciencia_e_ordens_tt: "Відкривається [ShowBureaucracyTypeName('por_mesa_da_consciencia_e_ordens_bureaucracy')]"
+  established_mesa_da_consciencia_e_ordens_tt: "Ми заснували [ShowBureaucracyTypeName('por_mesa_da_consciencia_e_ordens_bureaucracy')] рішенням $por_mesa_da_consciencia_e_ordens_decision.title$."
+  por_estado_da_india_decision.title: "Ештаду да Індія"
+  por_estado_da_india_decision.desc: "#italic Каcа да Індія#! відповідає за нашу торгівлю, але наші фортеці та фейторії від Індії до Південнокитайського моря й досі не мають єдиного врядування. Нам надійшла пропозиція зробити Гоа осідком офіційного віцекоролівства — #italic Ештаду#! — якому будуть підзвітні всі залоги, флоти та митні палати на схід від мису Доброї Надії."
+  por_estado_da_india_decision.desc.entry: "Каcа да Індія відає нашими обліковими книгами, але залоги, флоти та фейторії на схід від мису Доброї Надії не мають єдиного проводу. Віцекороль у Гоа об’єднає їх в одне Ештаду."
+  por_estado_da_india_decision.a: "Нехай Гоа править сходом."
+  por_estado_da_india_decision.a.tt: "Відкриває доступ до [Concept('government_reform', 'державної реформи')|e] «[ShowGovernmentReformName('por_estado_da_india_reform')]»"

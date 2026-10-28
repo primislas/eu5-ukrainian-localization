@@ -1,0 +1,5 @@
+﻿l_russian:
+  expand_the_alhambra.title: "Розширити Альгамбру"
+  expand_the_alhambra.desc: "Над пагорбом Сабіка височіє чергове крило палацу. Там, де колишні правителі зводили перші подвір’я та вежі, ми добудовуємо власні зали, прикрашаємо їхні склепіння #italic мукарнасами#! і вкриваємо стіни віршами. Кожен посол, що прибуває до двору, має бачити в цьому камені свідчення вічности й непорушности нашого дому.\n\nБудь-які витрати мармуру — ніщо порівняно з посланням, яке ми шлемо світові: держава, що зводить споруди на віки, має намір і існувати віками. Кожен завершений ярус — це нові сади, це збільшення залоги фортеці, це демонстрація #ONCLICK:COUNTRY,[GetCountry('CAS').GetKey] #TOOLTIP:COUNTRY,[GetCountry('CAS').GetKey],X [GetCountry('CAS').Custom('CL_DAT')|L]#!#! та #ONCLICK:COUNTRY,[GetCountry('MOR').GetKey] #TOOLTIP:COUNTRY,[GetCountry('MOR').GetKey],X [GetCountry('MOR').Custom('CL_DAT')|L]#!#! нашої рішучости самостійно розпоряджатися своєю землею."
+  expand_the_alhambra.a: "Закласти підвалини."
+  expand_the_alhambra_construct_tt: "[ShowBuildingTypeName('alhambra')] буде розширено"
