@@ -36,7 +36,7 @@
   d009_iberian_order_events.12.c: "Нехай Сіто розсудить табори."
   d009_iberian_order_events.13.title: "Поле під Альмагро"
   d009_iberian_order_events.13.entry: "$d009_iberian_order_events.13.title$"
-  d009_iberian_order_events.13.desc: "Альмагро — найбагатша комтурія [target_order.GetName], розташована на самісінькому роздоріжжі Ла-Манчі. Доки наша [ROOT.GetCountry.Custom('end_fem')] воює, той, хто тримає Альмагро, тримає хліб, запасних коней і переправу.\n\nТамтешній командор нікому не заявляв про свою відданість. Він чекає, доки його запитають, а питаємо його не ми одні."
+  d009_iberian_order_events.13.desc: "Альмагро — найбагатша комтурія [target_order.GetName], розташована на самісінькому роздоріжжі Ла-Манчі. Доки [ROOT.GetCountry.GetFlavorRank] воює, той, хто тримає Альмагро, тримає хліб, запасних коней і переправу.\n\nТамтешній командор нікому не заявляв про свою відданість. Він чекає, доки його запитають, а питаємо його не ми одні."
   d009_iberian_order_events.13.a: "Альмагро виступить на боці #TOOLTIP:ESTATE_TYPE,crown_estate,X #L корони#!#!."
   d009_iberian_order_events.13.a.entry: "Альмагро виступить на боці $crown_estate$."
   d009_iberian_order_events.13.b: "Нехай комтурія чинить за власним сумлінням."
