@@ -24,13 +24,13 @@ _INSTRUCTION_SKILL_REL_PATH = "skills/refinement"
 _INSTRUCTION_ROLE_FILE = "role"
 _INSTRUCTION_ROLE_EN_UA_FILE = "role_en_ua"
 
-
 # Enforce deterministic results for short/ambiguous text
 DetectorFactory.seed = 0
 
 
 def _get_refinement_skill_file(file_name_without_extension: str) -> Traversable:
-    return resources.files(_INSTRUCTION_PACKAGE).joinpath(f"{_INSTRUCTION_SKILL_REL_PATH}/{file_name_without_extension}.txt")
+    return resources.files(_INSTRUCTION_PACKAGE).joinpath(
+        f"{_INSTRUCTION_SKILL_REL_PATH}/{file_name_without_extension}.txt")
 
 
 def select_none(_: str) -> bool:
@@ -59,7 +59,8 @@ def select_english_translation_refinement(text: str) -> bool:
     if len(normalized_text) == 0:
         return False
 
-    if normalized_text in {"category_hostile_actions", "category_friendly_actions", "category_covert_actions", "category_economy_actions", "category_subject_actions"}:
+    if normalized_text in {"category_hostile_actions", "category_friendly_actions", "category_covert_actions",
+                           "category_economy_actions", "category_subject_actions"}:
         return False
     if normalized_text.endswith("_law_category"):
         return False
@@ -105,6 +106,10 @@ def select_estate_ending_file_refinement(text: str) -> bool:
     return fname.startswith("flavor_decisions")
 
 
+def select_system_refinement(text: str) -> bool:
+    return "систем" in text
+
+
 def select_talent_refinement(text: str) -> bool:
     return "талант" in text or "талановит" in text
 
@@ -118,6 +123,7 @@ class RefinementSkill(StrEnum):
     CENTER = "center"
     ENGLISH_TRANSLATION = "english_translation"
     ESTATE_ENDINGS = "estate_endings"
+    SYSTEM = "system"
     TALENT = "talent"
     TERRITORY = "territory"
 
@@ -133,7 +139,6 @@ class RefinementSkill(StrEnum):
             role = _get_refinement_skill_file(_INSTRUCTION_ROLE_EN_UA_FILE).read_text()
             skill_task = system_instructions_ru_ua_file_path.read_text()
             return role + "<task_instructions>\n" + skill_task + "\n</task_instructions>"
-
 
         role = _get_refinement_skill_file(_INSTRUCTION_ROLE_FILE).read_text()
         skill_task = _get_refinement_skill_file(self).read_text()
@@ -162,8 +167,9 @@ class RefinementManager:
 
         self._translator = GeminiTranslator(system_instruction_text=self.refinement_skill.get_system_instruction())
 
-
-    def select_files(self, text_filter_func: Callable[[str], bool], file_name_filter_func: Callable[[str], bool] | None = None, max_files: int | None = None, entries_threshold: int | None = None) -> list[LocFile]:
+    def select_files(self, text_filter_func: Callable[[str], bool],
+                     file_name_filter_func: Callable[[str], bool] | None = None, max_files: int | None = None,
+                     entries_threshold: int | None = None) -> list[LocFile]:
         if not text_filter_func:
             return []
 
@@ -187,7 +193,7 @@ class RefinementManager:
                 if text_filter_func(v_lower):
                     matching_keys.append(k)
             if matching_keys:
-                loc_file = LocFile(file, matching_keys, content, localization_key)
+                loc_file = LocFile(file, matching_keys, content, self.language)
                 matching_files.append(loc_file)
                 matching_keys_total += len(matching_keys)
             else:
@@ -196,7 +202,6 @@ class RefinementManager:
                 break
 
         return matching_files
-
 
     async def translate_batch(
             self,
@@ -207,7 +212,8 @@ class RefinementManager:
     ) -> TranslationResult:
         """Translate one batch and immediately save progress to file."""
         batch_size = len(batch)
-        result = TranslationResult(total_records=batch_size, total_submitted_records=batch_size, submitted_records=batch)
+        result = TranslationResult(total_records=batch_size, total_submitted_records=batch_size,
+                                   submitted_records=batch)
         async with api_semaphore:
             lines = [json.dumps({k: v}, ensure_ascii=False) for k, v in batch]
             try:
@@ -248,7 +254,6 @@ class RefinementManager:
         result.translated_localizations = translated_batch
         return result
 
-
     async def translate_and_save_batch(
             self,
             batch: list[tuple[str, str]],
@@ -267,19 +272,20 @@ class RefinementManager:
 
     def select_filter(self) -> Callable[[str], bool] | None:
         match self.refinement_skill:
-            case RefinementSkill.TERRITORY:
-                return select_territory_refinement
-            case RefinementSkill.TALENT:
-                return select_talent_refinement
-            case RefinementSkill.CENTER:
-                return select_center_refinement
             case RefinementSkill.ADMINISTRATION:
                 return select_administration_refinement
+            case RefinementSkill.CENTER:
+                return select_center_refinement
             case RefinementSkill.ESTATE_ENDINGS:
                 return select_estate_ending_refinement
             case RefinementSkill.ENGLISH_TRANSLATION:
                 return select_english_translation_refinement
-
+            case RefinementSkill.SYSTEM:
+                return select_system_refinement
+            case RefinementSkill.TALENT:
+                return select_talent_refinement
+            case RefinementSkill.TERRITORY:
+                return select_territory_refinement
 
     def select_file_filter(self) -> Callable[[str], bool] | None:
         match self.refinement_skill:
@@ -289,7 +295,6 @@ class RefinementManager:
                 return select_english_translation_file_refinement
             case _:
                 return None
-
 
     async def refine(self):
         logger.info(f"Refining: {self.refinement_id}...")
@@ -305,7 +310,8 @@ class RefinementManager:
             logger.info(f"Found no files in need of refinement.")
             return
 
-        logger.info(f"Selected {len(skill_files)} files for refinement with {sum([len(t_file.selected_keys) for t_file in skill_files])} loc keys.")
+        logger.info(
+            f"Selected {len(skill_files)} files for refinement with {sum([len(t_file.selected_keys) for t_file in skill_files])} loc keys.")
         file_by_key = {}
         unrefined_values = {}
         for t_file in skill_files:
@@ -331,26 +337,18 @@ class RefinementManager:
         results: list[TranslationResult] = [t for t in completed_tasks if isinstance(t, TranslationResult)]
         total_submitted_records = sum([r.total_submitted_records for r in results])
         total_refined_records = sum([r.translated_records for r in results])
-        logger.info(f"Refinement {self.refinement_id} completed with {total_refined_records}/{total_submitted_records} refined keys across {len(skill_files)} files.")
+        logger.info(
+            f"Refinement {self.refinement_id} completed with {total_refined_records}/{total_submitted_records} refined keys across {len(skill_files)} files.")
 
 
-def _refine_estates():
-    _refinement_skill = RefinementSkill.ESTATE_ENDINGS
+def _refine(skill: RefinementSkill, entries_threshold: int = 20):
     _version = os.getenv("MIGRATION_TO")
-    _refinement_id = f"refinement-{_refinement_skill.value}-{_version}"
-    _refinement_mgr = RefinementManager(_refinement_id, _refinement_skill, entries_threshold=20)
-    asyncio.run(_refinement_mgr.refine())
-
-
-def _translate_from_english():
-    _refinement_skill = RefinementSkill.ENGLISH_TRANSLATION
-    _version = os.getenv("MIGRATION_TO")
-    _refinement_id = f"refinement-{_refinement_skill.value}-{_version}"
-    _refinement_mgr = RefinementManager(_refinement_id, _refinement_skill, entries_threshold=200)
+    _refinement_id = f"refinement-{skill.value}-{_version}"
+    _refinement_mgr = RefinementManager(_refinement_id, skill, entries_threshold=entries_threshold)
     asyncio.run(_refinement_mgr.refine())
 
 
 if __name__ == "__main__":
     load_dotenv()
-    # _refine_estates()
-    _translate_from_english()
+    # _refine(RefinementSkill.ENGLISH_TRANSLATION)
+    _refine(RefinementSkill.SYSTEM)

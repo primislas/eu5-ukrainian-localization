@@ -10,7 +10,7 @@
   RELIGIOUS_UNITY_EFFECT: "Середня єдність у вірі у #ONCLICK:COUNTRY,[COUNTRY.GetKey] #TOOLTIP:COUNTRY,[COUNTRY.GetKey],X [COUNTRY.Custom('CL_PREP')|L]#!#! становить $VAL|%2Y$, що має такий ефект:\n\n$EFFECT$"
   PROPOSE: "Запропонувати"
   RELIGIONS_CARDINAL: "Чинні кардинали"
-  CARDINAL_DESC: "Резиденція: [CARDINAL.GetLocation.GetName]\nКраїна: [CARDINAL.GetOwner.GetLongNameWithFlag]\nВіра: [CARDINAL.GetReligion.GetName]"
+  CARDINAL_DESC: "Осідок: [CHARACTER.GetLocation.GetName]\nКраїна: [CHARACTER.GetCourtCountry.GetLongNameWithFlag]\nВіра: [CHARACTER.GetReligion.GetName]"
   RELIGIOUS_SCHOOL_OPINION: "Ставлення вчення «$OUR_NAME$» до вчення «$NAME$»: $OPINION|Y$"
   RELIGIOUS_SCHOOL_OTHER_OPINION: "Ставлення вчення «$NAME$» до вчення «$OUR_NAME$»: $OPINION|Y$"
   INVITED_RELIGIOUS_FIGURES: "[Concept('religious_figures', 'Духовні наставники')|e] інших вчень"
