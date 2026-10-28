@@ -1,0 +1,29 @@
+template golden_century_castile_arch_texture {
+	texture = "gfx/interface/icons/situations/golden_century/golden_century_castile_arch.dds"
+	texture_density = 2
+}
+
+template golden_century_castile_banner_top_texture {
+	texture = "gfx/interface/icons/situations/golden_century/golden_century_castile_banner_top.dds"
+	texture_density = 2
+}
+
+template golden_century_castile_middle_block_texture {
+	texture = "gfx/interface/icons/situations/golden_century/golden_century_castile_middle_block.dds"
+	texture_density = 2
+}
+
+template golden_century_morrocco_arch_texture {
+	texture = "gfx/interface/icons/situations/golden_century/golden_century_morocco_arch.dds"
+	texture_density = 2
+}
+
+template golden_century_morrocco_banner_top_texture {
+	texture = "gfx/interface/icons/situations/golden_century/golden_century_morrocco_banner_top.dds"
+	texture_density = 2
+}
+
+template golden_century_morrocco_middle_block_texture {
+	texture = "gfx/interface/icons/situations/golden_century/golden_century_morrocco_middle_block.dds"
+	texture_density = 2
+}
