@@ -237,7 +237,7 @@
   lenape_group_desc: "$lenape_group$а $group_text$ $lenape_language$ої мови."
   lule_group: "Лулеанськ"
   lule_group_desc: "$lule_group$а $group_text$ $lule_language$ої мови."
-  macro_je_group: "Макро-жесськ"
+  macro_je_group: "Макро-жеськ"
   macro_je_group_desc: "$macro_je_group$а $group_text$ $macro_je_language$ої мови."
   malibu_group: "Малібуанськ"
   malibu_group_desc: "$malibu_group$а $group_text$ $malibu_language$ої мови."
