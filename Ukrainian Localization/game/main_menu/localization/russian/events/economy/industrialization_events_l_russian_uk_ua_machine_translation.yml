@@ -77,7 +77,7 @@
   industrialization_events.20.title: "[mining_province.GetNameWithNoTooltip]: нещасний випадок у копальні"
   industrialization_events.20.desc: "Завдяки новим досягненням технічного поступу нам вдалося значно розширити копальні в провінції [mining_province.GetName] та збільшити обсяги видобутку так, що ці цифри вразили б наших попередників. Однак не обійшлося й без ризиків: через вибух одна з копалень обвалилася. Під завалами залишилися гірники, а темпи виробництва різко впали."
   industrialization_events.20.a: "[ROOT.GetCountry.Custom('common_string_negative')]"
-  industrialization_events.21.title: "Пожежа в провінції [famine_province.GetNameWithNoTooltip]"
+  industrialization_events.21.title: "Пожежа в провінції [fire_province.GetNameWithNoTooltip]"
   industrialization_events.21.desc: "Пожежа, що спалахнула на місцевій фабриці, швидко охопила притиснуті одна до одної будинки в #L #L #TOOLTIP:LOCATIONRANK,[fire_province.Custom('LR_tt')],X [fire_province.Custom('LR_PREP')|l]#!#! [fire_province.GetName]. Тепер у противників урбанізації та індустріалізації з'явився ще один доказ проти цих починань."
   industrialization_events.21.a: "Нехай [fire_province.GetRank.GetNameWithNoTooltip|l] відбудовується в тому числі за допомогою фабрикантів."
   industrialization_events.21.a.tt: "Кожен [Concept('location', 'місцевість')|e] в області [target_area.GetName] отримує модифікатор «[ShowModifier('fire_compensation')]» на #Y 10#! років"
