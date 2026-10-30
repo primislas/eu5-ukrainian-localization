@@ -52,6 +52,9 @@ def move_translated_localization_to_mod_dir() -> int:
         post_edited_translations = list_localization_files("russian_uk_ua_post_edited", source_dir=source_dir_path)
         for mt_file in post_edited_translations + machine_translations:
             moved_file = mt_file
+            if "jomini/in_game/localization/jomini/script_system/trigger_system" in moved_file:
+                continue
+
             relative_path = os.path.relpath(mt_file, source_dir_path)
             if relative_path.startswith("dlc/"):
                 # It appears the game has special handling for dlc folder.
@@ -61,7 +64,7 @@ def move_translated_localization_to_mod_dir() -> int:
                 relative_path = PurePosixPath(*PurePosixPath(relative_path).parts[2:]).as_posix()
             output_path = os.path.join(mod_dir, relative_path)
             output_file_dir, output_file_name = os.path.split(output_path)
-            if is_replacement_file(output_file_name) and not output_file_name.endswith("replace"):
+            if is_replacement_file(output_file_name) and not output_file_dir.endswith("replace"):
                 output_path = os.path.join(output_file_dir, "replace", output_file_name)
                 # output_path = os.path.join(output_file_dir, output_file_name)
             _move_localization_file(moved_file, output_path, relative_path)

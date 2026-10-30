@@ -34,7 +34,7 @@
 # 		}
 
 # 		blockoverride "title_text" {
-# 			text = "[Country.GetCourtLanguage.GetNameWithNoTooltip]а"
+# 			raw_text = "[Country.GetCourtLanguage.GetNameWithNoTooltip]а"
 # 		}
 
 # 		blockoverride "concept_link" {

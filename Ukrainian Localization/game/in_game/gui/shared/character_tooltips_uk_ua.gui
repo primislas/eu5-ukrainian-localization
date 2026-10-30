@@ -845,7 +845,7 @@ types TooltipCharacterTypes
 		
 							allow_outside = yes
 							tagtooltip_enabled = yes
-							tooltip = "[Character.GetCulture.GetName]а"
+							tooltip = "[Character.GetCulture.GetName]"
 
 							icon = {
 								size = { 25 25 }
@@ -857,7 +857,7 @@ types TooltipCharacterTypes
 							text_single = {
 								align = nobaseline|right
 								autoresize = yes
-								text = "[Character.GetCulture.GetName]а"
+								raw_text = "[Character.GetCulture.GetName]а"
 							}
 
 							expand = {}
@@ -869,7 +869,7 @@ types TooltipCharacterTypes
 
 							allow_outside = yes
 							tagtooltip_enabled = yes
-							tooltip = "[Character.GetReligion.GetAdjective]а"
+							tooltip = "[Character.GetReligion.GetAdjective]"
 
 							icon = {
 								size = { 25 25 }
@@ -879,7 +879,7 @@ types TooltipCharacterTypes
 							text_single = {
 								align = right|nobaseline
 								autoresize = yes
-								text = "[Character.GetReligion.GetAdjective]а"
+								raw_text = "[Character.GetReligion.GetAdjective]а"
 							}
 
 							expand = {}

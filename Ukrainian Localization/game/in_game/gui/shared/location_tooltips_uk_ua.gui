@@ -1116,7 +1116,7 @@ types LocationDetailsTypes {
                 text_single = {
                     autoresize = yes
                     align = right
-                    text = "[Location.GetDominantCulture.GetNameWithNoTooltip]а"
+                    raw_text = "[Location.GetDominantCulture.GetNameWithNoTooltip]а"
                     datacontext = "[Location.GetDominantCulture]"
                     # default_format = "#subtle_name"
                     default_format = "#yellow_titles"
@@ -2443,7 +2443,7 @@ template population_location_tooltip {
                                     pie_chart_legend = {
                                         blockoverride "datamodel" {	datamodel = "[Location.GetPopulationChart.GetPopsPiechartWidget.GetCultures]" }
                                         blockoverride "color" { color = "[PopCultureItem.GetColor]" }
-                                        blockoverride "leftside_info" {text = "[PopCultureItem.GetName]а"}
+                                        blockoverride "leftside_info" {raw_text = "[PopCultureItem.GetName]а"}
                                         blockoverride "middle_info" {
                                             text = "[PopCultureItem.GetAbsoluteSize]"
                                         }

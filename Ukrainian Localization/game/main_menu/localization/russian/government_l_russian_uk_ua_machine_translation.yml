@@ -385,7 +385,7 @@
   ADD_REFORM_TT: "Впровадити державну реформу «[GOVERNMENT_REFORM.GetName]» у межах нашого уряду"
   ADD_REFORM_TT_UNIQUE: "Унікальна [Concept('government_reform', 'державна реформа')|e] для країни [Player.GetName]"
   GOVERNMENT_REFORM_EXCLUSIVE_FOR_COUNTRY: "Ця реформа доступна лише #ONCLICK:COUNTRY,[Country.GetKey] #TOOLTIP:COUNTRY,[Country.GetKey],X [Country.Custom('CL_DAT')|L]#!#!"
-  GOVERNMENT_REFORM_EXCLUSIVE_FOR_CULTURE: "Ця державна реформа доступна лише [Country.GetCulture.GetAdjectiveWithNoTooltip|l]ій [Concept('culture', 'культурі')|e]"
+  GOVERNMENT_REFORM_EXCLUSIVE_FOR_CULTURE: "Ця державна реформа доступна лише [Country.GetCulture.GetNameWithNoTooltip|l]ій [Concept('culture', 'культурі')|e]"
   GOVERNMENT_REFORM_EXCLUSIVE_FOR_RELIGION: "Ця державна реформа доступна лише [Country.GetReligion.GetAdjectiveWithNoTooltip|l]ій [Concept('religion', 'вірі')|e]"
   ADD_REFORM_MAJOR: "@trigger_no! У нас вже є [Concept('major_reform', 'засаднича реформа')|e] — «[GOVERNMENT_REFORM.GetName]»."
   ADD_REFORM_ALREADY: "@trigger_no! У нас вже є державна реформа «[GOVERNMENT_REFORM.GetName]»."

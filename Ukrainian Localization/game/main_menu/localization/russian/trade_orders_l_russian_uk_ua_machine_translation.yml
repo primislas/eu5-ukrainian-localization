@@ -16,7 +16,7 @@
   TRADE_ORDER_CREATE_TT: "Виділити [Concept('merchant_capacity', 'купецькі засоби')|e] на [Concept('import', 'привіз')|e] або [Concept('export', 'вивіз')|e] цього товару найкращим шляхом."
   TRADE_ORDER_CAPACITY_LABEL: "Витрата [Concept('merchant_capacity', 'купецьких засобів')|e]:"
   TRADE_ORDER_CAPACITY_TOOLTIP_TITLE: "Автоматичний розподіл"
-  TRADE_ORDER_CAPACITY_TOOLTIP_SUMMARY: "Це [Concept('trade_order', 'торгове замовлення')|e] виділяє [TradeOrderItem.GetAllocatedCapacity|2Y]@trade_capacity! на товар «[TradeOrderItem.GetGoods.GetNameWithNoTooltip]»."
+  TRADE_ORDER_CAPACITY_TOOLTIP_SUMMARY: "Це [Concept('trade_order', 'торгове замовлення')|e] використає до [TradeOrderItem.GetEffectiveTC|2Y]@trade_capacity! (#W [TradeOrderItem.GetEffectivePercentage|0]%#! наших [Concept('merchant_capacity', 'купецьких засобів')|e] на цьому [Concept('market', 'ринку')]), щоб задовольнити [Concept('trades', 'угоди')|e].\n\nНаразі воно використовує [TradeOrderItem.GetUsedTC|<2Y]@trade_capacity! на [TradeOrderItem.GetTradeCount|W] діючих [Concept('trades', 'угод')|e], заробляючи [TradeOrderItem.GetTotalProfit|+=2Y]@gold! прибутку ([TradeOrderItem.GetProfitPerCapacity|+=2] на одиницю використаних [Concept('merchant_capacity', 'купецьких засобів')|e])."
   TRADE_ORDER_CAPACITY_TOTAL: "На торгові замовлення йде [GetTradeOrderTotalCapacity] з [GetAutomatedCapacity] од. [Concept('merchant_capacity', 'купецьких засобів')|e]"
   TRADE_ORDER_UNUSED_CAPACITY_LABEL: "Невикористані купецькі засоби:"
   TRADE_ORDER_ROUTE_LINE: "[TRADE.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ [TRADE.GetProfit|+=2]@gold!#!"

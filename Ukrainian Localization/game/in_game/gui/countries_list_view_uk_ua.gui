@@ -408,7 +408,7 @@ lateralview_full = {
 											autoresize = no
 											align = center|nobaseline
 
-											text = "[Country.GetCulture.GetNameWithNoTooltip|L]а"
+											raw_text = "[Country.GetCulture.GetNameWithNoTooltip|L]а"
 											
 											datacontext = "[Country.GetCulture]"
 											tooltipwidget = {

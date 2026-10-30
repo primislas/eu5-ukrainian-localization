@@ -3647,7 +3647,7 @@ types MultiplayerLobby
 													fontsize = 15
 												}
 												blockoverride "subheader_unified_bottom_text" {
-													text = "[GameLobby.GetSelectedCountry.GetCulture.GetNameWithNoTooltip]а"
+													raw_text = "[GameLobby.GetSelectedCountry.GetCulture.GetNameWithNoTooltip]а"
 													align = nobaseline
 													fontsize = 15
 												}
@@ -3721,7 +3721,7 @@ types MultiplayerLobby
 											fontsize = 15
 										}
 										blockoverride "subheader_unified_bottom_text" {
-											text = "[GameLobby.GetSelectedCountry.GetCourtLanguage.GetNameWithNoTooltip]а"
+											raw_text = "[GameLobby.GetSelectedCountry.GetCourtLanguage.GetNameWithNoTooltip]а"
 											align = nobaseline
 											fontsize = 15
 										}
@@ -3751,7 +3751,7 @@ types MultiplayerLobby
 											fontsize = 15
 										}
 										blockoverride "subheader_unified_bottom_text" {
-											text = "[GameLobby.GetSelectedCountry.GetLiturgicalLanguage.GetNameWithNoTooltip]а"
+											raw_text = "[GameLobby.GetSelectedCountry.GetLiturgicalLanguage.GetNameWithNoTooltip]а"
 											align = right|nobaseline
 											fontsize = 15
 										}

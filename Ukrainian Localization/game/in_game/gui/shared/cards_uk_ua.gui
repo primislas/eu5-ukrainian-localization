@@ -269,7 +269,7 @@
 			text_single = {
 				minimumsize = { 115 -1 }
 				maximumsize = { 115 -1 }
-				text = "[Country.GetCulture.GetName]а"
+				raw_text = "[Country.GetCulture.GetName]а"
 				datacontext = "[Country.GetCulture]"
 				tooltipwidget = { using = culture_tooltip }
 				sort_by_highlight = { name = "culture" }

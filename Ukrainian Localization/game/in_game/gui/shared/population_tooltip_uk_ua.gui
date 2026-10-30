@@ -10,7 +10,7 @@ template PopulationCultureTooltipChart {
 			datacontext = "[PopCultureItem.GetCulture]"
 			onmousehierarchyenter = "[PdxGuiWidget.SetHighlightCulture(Culture.Self)]"
 			onmousehierarchyenter = "[PdxGuiWidget.PushMapModeOverride('culture_data')]"
-			tooltip = "[PopCultureItem.GetName]а"
+			tooltip = "[PopCultureItem.GetName]"
 		}
 		blockoverride "SliceValue" { value = "[PopCultureItem.GetPercentage]" }
 		blockoverride "SliceColor" { color = "[PopCultureItem.GetColor]" }
@@ -36,7 +36,7 @@ template PopulationCultureTooltipChart {
         }
 		blockoverride "datamodel" {	datamodel = "[PopsPiechartWidget.GetCultures]" }
 		blockoverride "color" { color = "[PopCultureItem.GetColor]" }
-		blockoverride "leftside_info" {text = "[PopCultureItem.GetName]а"}
+		blockoverride "leftside_info" {raw_text = "[PopCultureItem.GetName]а"}
 		blockoverride "rightside_info" {raw_text = "[PopCultureItem.GetPercentage|%2] ([PopCultureItem.GetAbsoluteSize])"}
 	}
 }
@@ -51,7 +51,7 @@ template PopulationCultureTooltipChartCompact {
 			datacontext = "[PopCultureItem.GetCulture]"
 			onmousehierarchyenter = "[PdxGuiWidget.SetHighlightCulture(Culture.Self)]"
 			onmousehierarchyenter = "[PdxGuiWidget.PushMapModeOverride('culture_data')]"
-			tooltip = "[PopCultureItem.GetName]а"
+			tooltip = "[PopCultureItem.GetName]"
 		}
 		blockoverride "SliceValue" { value = "[PopCultureItem.GetPercentage]" }
 		blockoverride "SliceColor" { color = "[PopCultureItem.GetColor]" }
@@ -79,7 +79,7 @@ template PopulationCultureTooltipChartCompact {
 		blockoverride "color" { color = "[PopCultureItem.GetColor]" }
 		blockoverride "leftside_icon" { texture = "[GetConceptTexture('primary_culture')]"}
 		blockoverride "leftside_title" { text = "[primary_culture|e]"}
-		blockoverride "leftside_info" { text = "[PopsPiechartWidget.GetOwner.GetCulture.GetName]а" }
+		blockoverride "leftside_info" { raw_text = "[PopsPiechartWidget.GetOwner.GetCulture.GetName]а" }
 	}
 }
 
@@ -868,7 +868,7 @@ template LocationPopulationCultureTooltipChart {
 			datacontext = "[PopCultureItem.GetCulture]"
 			onmousehierarchyenter = "[PdxGuiWidget.SetHighlightCulture(Culture.Self)]"
 			onmousehierarchyenter = "[PdxGuiWidget.PushMapModeOverride('culture_data')]"
-			tooltip = "[PopCultureItem.GetName]а"
+			tooltip = "[PopCultureItem.GetName]"
 		}
 		blockoverride "SliceValue" { value = "[PopCultureItem.GetPercentage]" }
 		blockoverride "SliceColor" { color = "[PopCultureItem.GetColor]" }
@@ -896,7 +896,7 @@ template LocationPopulationCultureTooltipChart {
 
 		blockoverride "datamodel" {	datamodel = "[PopsPiechartWidget.GetCultures]" }
 		blockoverride "color" { color = "[PopCultureItem.GetColor]" }
-		blockoverride "leftside_info" {text = "[PopCultureItem.GetName]а"}
+		blockoverride "leftside_info" {raw_text = "[PopCultureItem.GetName]а"}
 		blockoverride "middle_info" {text = "[PopCultureItem.GetAbsoluteSize]"}
 		blockoverride "rightside_info" {text = "[PopCultureItem.GetPercentage|%2]"}
 	}

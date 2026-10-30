@@ -10108,7 +10108,7 @@ lateralview = {
 														layoutpolicy_horizontal = expanding
 														autoresize = no
 														align = left|nobaseline
-														text = "[PopCultureItem.GetNameWithNoTooltip]а"
+														raw_text = "[PopCultureItem.GetNameWithNoTooltip]а"
 														default_format = "#yellow_titles"
 													}
 												}

@@ -436,7 +436,7 @@
   IO_VARIABLE_VALUE: "$VARIABLE|Y$ зараз — $AMOUNT$"
   IO_VARIABLE_TITLE: "$VARIABLE_NAME$ — $TEXT|V$."
   IO_VARIABLE_VALUE_TYPE_TITLE: "$VARIABLE_NAME$ у кількості: $TEXT|V$."
-  IO_VARIABLE_MONTHLY_CHANGE_TITLE: "Щомісячна зміна: [InternationalOrganizationTypeVariable.GetMonthlyChangeValue(InternationalOrganizationsView.GetInternationalOrganization)|+=2]. Причини:"
+  IO_VARIABLE_MONTHLY_CHANGE_TITLE: "Щомісячна зміна: [MonthlySavedVariable.GetMonthlyChangeValue(InternationalOrganizationsView.GetInternationalOrganization.GetBaseClass)|+=2]. Причини:"
   VARIABLE_CHANGE_FORMAT: "$KEY$: $VALUE|+=2$"
   MULTIPLIER_CHANGE_FORMAT: "$KEY$ множить усе це на: $VALUE|+%2$"
   PERCENTAGE_CHANGE_FORMAT: "$KEY$: $VALUE|+2%$"
