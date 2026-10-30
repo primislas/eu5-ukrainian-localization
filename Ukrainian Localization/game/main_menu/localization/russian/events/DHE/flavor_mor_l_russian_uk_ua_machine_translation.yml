@@ -193,6 +193,7 @@
   flavor_mor.38.a: "Вони збережуть свободу, лише пішовши в небуття!"
   flavor_mor.38.b: "Ми поки не готові."
   mor_deny_submission_may_lead_to_war_tt: "Відмова призведе до війни з #ONCLICK:COUNTRY,[prev_country.GetKey] #TOOLTIP:COUNTRY,[prev_country.GetKey],X [prev_country.Custom('CL_INST')|L]#!#!"
+  mor_granada_loses_strait_protection_tt: "[locations|e] #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_GEN')|L]#!#! більше не отримуватимуть переваг від модифікатора «$STATIC_MODIFIER_NAME_contested_in_the_battle_for_the_strait$»"
   flavor_mor.1000.title: "[target_country.GetAdjectiveWithNoTooltip]і найманці"
   flavor_mor.1000.entry: "Послуги османських найманців"
   flavor_mor.1000.desc: "Наші союзники в #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_PREP')|L]#!#! давно процвітають, ставши великою державою на світовій арені. Тепер багато їхніх вояків хочуть поповнити наші лави. Однак це можливо тільки за двох умов — ми будемо платити їм, а їхній [target_country.GetGovernment.GetRulerTitle|l] надасть нам підтримку."
