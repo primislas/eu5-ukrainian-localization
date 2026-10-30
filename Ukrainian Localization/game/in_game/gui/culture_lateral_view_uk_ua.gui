@@ -22,7 +22,7 @@ types CultureOverview {
 					align = nobaseline
 				}
 				blockoverride "subheader_unified_bottom_text" {
-					text = "[CountryCultureLateralView.GetCulture.GetNameWithNoTooltip]а"
+					raw_text = "[CountryCultureLateralView.GetCulture.GetNameWithNoTooltip]а"
 					align = nobaseline
 				}
 			}
@@ -473,7 +473,7 @@ types CultureOverview {
 									autoresize = no
 									align = left|nobaseline
 
-									text = "[ImportantCultureItem.GetCulture.GetNameWithNoTooltip]а"
+									raw_text = "[ImportantCultureItem.GetCulture.GetNameWithNoTooltip]а"
 									default_format = "#yellow_titles"
 
 									sort_by_highlight = {
@@ -492,7 +492,7 @@ types CultureOverview {
 												autoresize = yes
 												using = Font_Size_Very_Small
 												align = left|nobaseline
-												text = "[CultureGroup.GetName]а"
+												raw_text = "[CultureGroup.GetName]а"
 												fontsize_min = 11
 											}
 										}

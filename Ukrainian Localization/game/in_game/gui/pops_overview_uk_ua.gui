@@ -541,7 +541,7 @@ lateralview_full = {
 							blockoverride "pie_datamodel" {	datamodel = "[PopsOverview.GetCultures]" }
 
 							###Slices and Icon
-							blockoverride "SliceTooltip" { tooltip = "[PopCultureItem.GetName]а" tagtooltip_enabled = yes }
+							blockoverride "SliceTooltip" { tooltip = "[PopCultureItem.GetName]" tagtooltip_enabled = yes }
 							blockoverride "SliceValue" { value = "[PopCultureItem.GetPercentage]" }
 							blockoverride "SliceColor" { color = "[PopCultureItem.GetColor]" }
 							blockoverride "Icon" {
@@ -550,7 +550,7 @@ lateralview_full = {
 							}
 							blockoverride "datamodel" {	datamodel = "[PopsOverview.GetCultures]" }
 							blockoverride "color" { color = "[PopCultureItem.GetColor]" }
-							blockoverride "leftside_info" {text = "[PopCultureItem.GetName]а"}
+							blockoverride "leftside_info" {raw_text = "[PopCultureItem.GetName]а"}
 							blockoverride "rightside_info" {raw_text = "[PopCultureItem.GetPercentage|%2] ([PopCultureItem.GetAbsoluteSize])"}
 						}
 								
@@ -729,7 +729,7 @@ lateralview_full = {
 
 													text_single = {
 														using = layoutpolicy_expanding
-														text = "[Pop.GetReligion.GetAdjectiveWithNoTooltip]а"
+														raw_text = "[Pop.GetReligion.GetAdjectiveWithNoTooltip]а"
 														datacontext = "[Pop.GetReligion]"
 														default_format = "#subtle_name"
 														tooltipwidget = { using = religion_tooltip	}
@@ -748,7 +748,7 @@ lateralview_full = {
 												text_single = {
 													autoresize = no
 													size = { 100% 100% }
-													text = "[Pop.GetCulture.GetNameWithNoTooltip]а"
+													raw_text = "[Pop.GetCulture.GetNameWithNoTooltip]а"
 													datacontext = "[Pop.GetCulture]"
 													tooltipwidget = {
 														using = culture_tooltip

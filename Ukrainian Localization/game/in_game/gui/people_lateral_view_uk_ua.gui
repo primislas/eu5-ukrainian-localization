@@ -2424,7 +2424,7 @@ template pop_entry {
 				layoutpolicy_horizontal = expanding
 				autoresize = no
 				align = center|nobaseline
-				text = "[PeoplePopItem.GetPop.GetCulture.GetName]а"
+				raw_text = "[PeoplePopItem.GetPop.GetCulture.GetName]а"
 				fontsize = 13
 				elide = right
 				

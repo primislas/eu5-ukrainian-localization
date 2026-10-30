@@ -85,7 +85,7 @@ lateralview_full = {
 											align = left|nobaseline
 											margin_left = 5
 
-											text = "[CultureItem.GetCulture.GetNameWithNoTooltip]а"
+											raw_text = "[CultureItem.GetCulture.GetNameWithNoTooltip]а"
 											default_format = "#yellow_titles"
 											
 											tooltipwidget = {
@@ -112,7 +112,7 @@ lateralview_full = {
 											autoresize = no
 											align = left|nobaseline
 
-											text = "[CultureItem.GetCulture.GetLanguage.GetNameWithNoTooltip]а"
+											raw_text = "[CultureItem.GetCulture.GetLanguage.GetNameWithNoTooltip]а"
 											datacontext = "[CultureItem.GetCulture.GetLanguage]"
 											
 											tooltipwidget = {

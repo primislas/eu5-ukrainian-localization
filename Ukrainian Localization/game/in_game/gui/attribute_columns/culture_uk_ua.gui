@@ -58,12 +58,12 @@
 				layoutpolicy_horizontal = expanding
 				align = nobaseline
 				default_format = "#yellow_titles"
-				text = "[InteractionTarget.GetCulture.GetNameWithNoTooltip|L]а"
+				raw_text = "[InteractionTarget.GetCulture.GetNameWithNoTooltip|L]а"
 			}
 		}
 
 		tagtooltip_enabled = yes
-		tooltip = "[InteractionTarget.GetCulture.GetName]а"
+		tooltip = "[InteractionTarget.GetCulture.GetName]"
 	}
 
 	type culture_percentage_in_country = select_cell_default {
@@ -92,6 +92,6 @@
 		}
 
 		tagtooltip_enabled = yes
-		tooltip = "[InteractionTarget.GetCulture.GetName]а"
+		tooltip = "[InteractionTarget.GetCulture.GetName]"
 	}
 }

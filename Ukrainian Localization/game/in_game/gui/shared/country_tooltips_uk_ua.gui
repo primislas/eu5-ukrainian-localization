@@ -929,7 +929,7 @@ template CountryTooltip {
 						text_single = {
 							autoresize = yes
 							align = right
-							text = "[Country.GetCulture.GetName]а"
+							raw_text = "[Country.GetCulture.GetName]а"
 							datacontext = "[Country.GetCulture]"
 							tooltipwidget = {
 								using = culture_tooltip

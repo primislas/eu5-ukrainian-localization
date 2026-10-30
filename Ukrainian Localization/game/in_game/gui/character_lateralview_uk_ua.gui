@@ -508,7 +508,7 @@
 										hbox = {
 											layoutpolicy_horizontal = expanding
 											text_single = {
-												text = "[CharacterLateralview.GetCharacter.GetCulture.GetNameWithNoTooltip]а"
+												raw_text = "[CharacterLateralview.GetCharacter.GetCulture.GetNameWithNoTooltip]а"
 											}
 											expand = {}
 										}
@@ -574,7 +574,7 @@
 											layoutpolicy_horizontal = expanding
 											expand = {}
 											text_single = {
-												text = "[CharacterLateralview.GetCharacter.GetReligion.GetAdjectiveWithNoTooltip]а"
+												raw_text = "[CharacterLateralview.GetCharacter.GetReligion.GetAdjectiveWithNoTooltip]а"
 											}
 										}
 									}

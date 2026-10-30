@@ -79,7 +79,7 @@
 				}
 
 				blockoverride "text_bottom" {
-					text = "[CountryReligionLateralView.GetCountry.GetLiturgicalLanguage.GetNameWithNoTooltip]а"
+					raw_text = "[CountryReligionLateralView.GetCountry.GetLiturgicalLanguage.GetNameWithNoTooltip]а"
 					align = right|nobaseline
 					maximumsize = { 150 -1 }
 				}

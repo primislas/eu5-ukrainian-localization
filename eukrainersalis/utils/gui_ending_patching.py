@@ -16,10 +16,12 @@ def regenerate_gui_file_endings():
         os.remove(file)
         print(f"Removed {file}")
 
-    replacement_regex = r"(Religion\.GetAdjective|(Language(Family)?|Dialect|Culture(Group)?|PopCultureItem)\.GetName)(WithNoTooltip)?(\|[lL])?\]"
+    replacement_regex = r"(raw_)?text = .*(Religion\.GetAdjective|(Language(Family)?|Dialect|Culture(Group)?|PopCultureItem)\.GetName)(WithNoTooltip)?(\|[lL])?\]"
     def replace_match(match: re.Match) -> str:
         matched_text = match.group(0)
         replacement = matched_text + "а" if "Dialect" not in matched_text else matched_text + "ий"
+        if "raw_text =" not in matched_text:
+            replacement = replacement.replace("text = ", "raw_text = ")
         return replacement
 
     modifications = 0

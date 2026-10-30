@@ -137,7 +137,7 @@ types MarketOverview {
 						# 		default_format = "#explanation_link_overview"
 						# 	}
 						# 	blockoverride "bottom_text_setup" {
-						# 		text = "[Market.GetLanguage.GetNameWithNoTooltip]а"
+						# 		raw_text = "[Market.GetLanguage.GetNameWithNoTooltip]а"
 						# 	}
 						# }
 

@@ -1,7 +1,7 @@
 template culture_group_tooltip {
 	ContextualTooltipType = {
 		blockoverride "title_text" {
-			text = "[CultureGroup.GetNameWithNoTooltip]а"
+			raw_text = "[CultureGroup.GetNameWithNoTooltip]а"
 		}
 
 		blockoverride "title_icon"	{
@@ -140,7 +140,7 @@ template culture_groups_tooltip {
 template language_family_tooltip {
 	ContextualTooltipType = {
 		blockoverride "title_text" {
-			text = "[LanguageFamily.GetNameWithNoTooltip]а"
+			raw_text = "[LanguageFamily.GetNameWithNoTooltip]а"
 		}
 
 
@@ -189,7 +189,7 @@ template language_family_tooltip {
 template dialect_tooltip {
 	ContextualTooltipType = {
 		blockoverride "title_text" {
-			text = "[Dialect.GetNameWithNoTooltip]ий"
+			raw_text = "[Dialect.GetNameWithNoTooltip]ий"
 		}
 
 		blockoverride "concept_link" {
@@ -339,7 +339,7 @@ template culture_in_country_tooltip { #Culture in Country Piechart
 				blockoverride "pie_datamodel" {	datamodel = "[CountryCultureLateralView.GetPopsPiechartWidget.GetCultures]" }
 
 				###Slices and Icon
-				blockoverride "SliceTooltip" { tooltip = "[PopCultureItem.GetName]а" }
+				blockoverride "SliceTooltip" { tooltip = "[PopCultureItem.GetName]" }
 				blockoverride "SliceValue" { value = "[PopCultureItem.GetPercentage]" }
 				blockoverride "SliceColor" { color = "[PopCultureItem.GetColor]" }
 				blockoverride "Icon" {
@@ -364,7 +364,7 @@ template culture_in_country_tooltip { #Culture in Country Piechart
 				}
 				blockoverride "datamodel" {	datamodel = "[CountryCultureLateralView.GetPopsPiechartWidget.GetCultures]" }
 				blockoverride "color" { color = "[PopCultureItem.GetColor]" }
-				blockoverride "leftside_info" {text = "[PopCultureItem.GetName]а"}
+				blockoverride "leftside_info" {raw_text = "[PopCultureItem.GetName]а"}
 				blockoverride "rightside_info" {raw_text = "[PopCultureItem.GetPercentage|%2] ([PopCultureItem.GetAbsoluteSize])"}
 			}
 		}
@@ -522,7 +522,7 @@ template culture_tooltip {
 		}
 		
 		blockoverride "title_text" {
-			text = "[Culture.GetNameWithNoTooltip]а"
+			raw_text = "[Culture.GetNameWithNoTooltip]а"
 		}
 
 		blockoverride "concept_link" {
@@ -573,7 +573,7 @@ template graphical_culture_map_tooltip {
 		}
 
 		blockoverride "title_text" {
-			text = "[Culture.GetNameWithNoTooltip]а"
+			raw_text = "[Culture.GetNameWithNoTooltip]а"
 		}
 
 		blockoverride "tooltip_content" {
@@ -597,7 +597,7 @@ template culture_list_tooltip {
 		}
 		
 		blockoverride "title_text" {
-			text = "[Culture.GetNameWithNoTooltip]а"
+			raw_text = "[Culture.GetNameWithNoTooltip]а"
 		}
 
 		blockoverride "concept_link" {
@@ -886,7 +886,7 @@ template LanguageTooltip {
 	ContextualTooltipType = {
 	
 		blockoverride "title_text" {
-			text = "[Language.GetNameWithNoTooltip]а"
+			raw_text = "[Language.GetNameWithNoTooltip]а"
 		}
 		
 		blockoverride "title_icon" {
@@ -911,7 +911,7 @@ template LanguageTooltipBreakdown {
 	ContextualTooltipType = {
 
 		blockoverride "title_text" {
-			text = "[Language.GetNameWithNoTooltip]а"
+			raw_text = "[Language.GetNameWithNoTooltip]а"
 		}
 
 		blockoverride "title_icon" {

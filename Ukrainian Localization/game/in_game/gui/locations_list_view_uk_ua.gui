@@ -448,7 +448,7 @@ lateralview_full = {
 											autoresize = no
 											align = center|nobaseline
 
-											text = "[LocationsListViewItem.GetLocation.GetDominantCulture.GetNameWithNoTooltip|L]а"
+											raw_text = "[LocationsListViewItem.GetLocation.GetDominantCulture.GetNameWithNoTooltip|L]а"
 											
 											datacontext = "[LocationsListViewItem.GetLocation.GetDominantCulture]"
 											tooltipwidget = {

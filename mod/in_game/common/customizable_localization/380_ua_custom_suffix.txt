@@ -2777,7 +2777,7 @@ country_flavor = {
 			country_rank_is_county = yes
 			government_type = government_type:republic
 		    religion.group = religion_group:muslim
-		}``
+		}
 	}
 
 	text = {

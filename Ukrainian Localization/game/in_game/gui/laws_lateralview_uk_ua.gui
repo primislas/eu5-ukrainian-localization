@@ -192,7 +192,7 @@
 
 									blockoverride "text_bottom" {
 										layoutpolicy_horizontal = expanding
-										text = "[Player.GetCourtLanguage.GetNameWithNoTooltip]а"
+										raw_text = "[Player.GetCourtLanguage.GetNameWithNoTooltip]а"
 									}
 
 									name = "change court language button"
@@ -244,7 +244,7 @@
 
 									blockoverride "text_bottom" {
 										layoutpolicy_horizontal = expanding
-										text = "[Player.GetLiturgicalLanguage.GetNameWithNoTooltip]а"
+										raw_text = "[Player.GetLiturgicalLanguage.GetNameWithNoTooltip]а"
 									}
 
 									name = "change liturgical language button"

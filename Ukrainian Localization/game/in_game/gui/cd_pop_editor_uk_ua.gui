@@ -47,8 +47,8 @@ template choose_culture_list {
 										align = left|nobaseline
 
 										tagtooltip_enabled = yes
-										tooltip = "[Culture.GetName]а"
-										text = "[Culture.GetNameWithNoTooltip]а"
+										tooltip = "[Culture.GetName]"
+										raw_text = "[Culture.GetNameWithNoTooltip]а"
 										default_format = "#yellow_titles"
 
 										sort_by_highlight = {
@@ -293,7 +293,7 @@ types CDCDPopEditor
 												autoresize = no
 												layoutpolicy_horizontal = expanding
 
-												text = "[PopEntry.GetCulture.GetNameWithNoTooltip]а"
+												raw_text = "[PopEntry.GetCulture.GetNameWithNoTooltip]а"
 												onclick = "[CDPopEditor.SelectPop(PopEntry.AccessSelf)]"
 												onrightclick = "[CDPopEditor.PickCultureFrom(PopEntry.AccessSelf)]"
 												
@@ -306,7 +306,7 @@ types CDCDPopEditor
 												autoresize = no
 												layoutpolicy_horizontal = expanding
 
-												text = "[PopEntry.GetReligion.GetAdjectiveWithNoTooltip]а"
+												raw_text = "[PopEntry.GetReligion.GetAdjectiveWithNoTooltip]а"
 												onclick = "[CDPopEditor.SelectPop(PopEntry.AccessSelf)]"
 												onrightclick = "[CDPopEditor.PickReligionFrom(PopEntry.AccessSelf)]"
 

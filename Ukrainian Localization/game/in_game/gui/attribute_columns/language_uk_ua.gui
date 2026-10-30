@@ -13,7 +13,7 @@
 			margin = { 10 0 }
 			autoresize = no
 			align = nobaseline
-			text = "[InteractionTarget.GetLanguage.GetName]а"
+			raw_text = "[InteractionTarget.GetLanguage.GetName]а"
 		}
 	}
 

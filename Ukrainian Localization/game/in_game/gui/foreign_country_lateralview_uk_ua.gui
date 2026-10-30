@@ -51,7 +51,7 @@ types SubheaderTypes {
 							fontsize = 15
 						}
 						blockoverride "subheader_unified_bottom_text" {
-							text = "[Country.GetCulture.GetNameWithNoTooltip]а"
+							raw_text = "[Country.GetCulture.GetNameWithNoTooltip]а"
 							align = nobaseline
 							fontsize = 15
 						}
@@ -3707,7 +3707,7 @@ lateralview = {
 													fontsize = 15
 												}
 												blockoverride "subheader_unified_bottom_text" {
-													text = "[ForeignCountryView.GetCountry.GetCourtLanguage.GetNameWithNoTooltip]а"
+													raw_text = "[ForeignCountryView.GetCountry.GetCourtLanguage.GetNameWithNoTooltip]а"
 													align = nobaseline
 													fontsize = 15
 												}
@@ -3739,7 +3739,7 @@ lateralview = {
 													fontsize = 15
 												}
 												blockoverride "subheader_unified_bottom_text" {
-													text = "[ForeignCountryView.GetCountry.GetLiturgicalLanguage.GetNameWithNoTooltip]а"
+													raw_text = "[ForeignCountryView.GetCountry.GetLiturgicalLanguage.GetNameWithNoTooltip]а"
 													align = right|nobaseline
 													fontsize = 15
 												}
