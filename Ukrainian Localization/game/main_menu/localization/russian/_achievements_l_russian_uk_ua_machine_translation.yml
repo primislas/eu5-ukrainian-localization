@@ -212,7 +212,7 @@
   ACHIEVEMENT_DESC_live_forever: "Ухвалити рішення «Володарі Сахари»."
   ACHIEVEMENT_the_catalan_atlas: "Каталонський атлас"
   ACHIEVEMENT_DESC_the_catalan_atlas: "Граючи за Арагон, Мальорку або Сицилію, возз’єднайте напряму, через васалів або за допомогою молодших партнерів в особистій унії всі землі «Арагонських титулярних володінь»."
-  the_catalan_atlas_owner_tt: "Owned by us, by one of our [subjects|e], by a [junior_partner|e] in a [personal_union|e] with us, or by a subject of such a [junior_partner|e]"
+  the_catalan_atlas_owner_tt: "Належить нам, одному з наших [Concept('subjects', 'васалів')|e], [Concept('junior_partner', 'молодшому партнеру')|e] в [Concept('personal_union', 'особистій унії')|e] з нами або васалу такого [Concept('junior_partner', 'молодшого партнера')|e]"
   ACHIEVEMENT_family_matters: "Родинні справи"
   ACHIEVEMENT_DESC_family_matters: "Почавши за Туніс, скасуйте реформу «Хафсідський родинний намісник» і не майте жодного васала зі статусом «Родинний намісник»."
   ACHIEVEMENT_endured_atlas: "Незламний Атлас"

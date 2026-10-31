@@ -52,7 +52,7 @@
   marry_lowborn_past: "[SCOPE.sCharacter('recipient').GetName] ганьбить своє добре ім'я!"
   marry_lowborn_act_past: "[SCOPE.sCharacter('recipient').GetName] укладає шлюб із [Concept('lowborn', 'селянами')|e]."
   marry_lowborn_choose_estate: "З представником якого [Concept('estate', 'стану')|e] варто укласти шлюб?"
-  marry_lowborn_close_relative_tt: "Is a close relative of the [ruler|e], or of the [heir|e] if the ruler is a [regent|e]"
+  marry_lowborn_close_relative_tt: "Є близьким родичем [Concept('ruler', 'правителя')|e] або [Concept('heir', 'спадкоємця')|e], якщо правитель є [Concept('regent', 'регентом')|e]"
   move_child_to_court: "Запросити дитину до двору"
   move_child_to_court_concept: "[Concept('character', 'персонаж')|e]"
   move_child_to_court_act: "$move_child_to_court$"

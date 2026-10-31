@@ -13,7 +13,7 @@
   flavor_cas.143.a_tt: "[ShowRoadTypeName('paved_road')] буде споруджена в кожній [Concept('location', 'місцевості')|e] в межах [Concept('province', 'провінцій')|e] [target_province1.GetName] та [target_province2.GetName] за ціною в [Concept('gold', 'грошах')|e], що залежить від рельєфу та вже прокладених доріг"
   flavor_cas.143.b: "Ніщо не загрожує нашому флоту."
   flavor_cas.143.historical_info: "Іспанська дорога являла собою воєнний та обозний коридор, прокладений у середині XVI століття, що сполучав іспанські володіння в Італії з Іспанськими Нідерландами через союзні землі, здебільшого в межах Священної Римської імперії. Її проклали, щоб уникнути небезпечних вод Ла-Маншу, де ворожі флоти могли легко перехоплювати іспанські кораблі."
-  flavor_cas.148.title: "Empresa de China"
+  flavor_cas.148.title: "Empresa de China («Китайська справа»)"
   flavor_cas.148.entry: "$flavor_cas.148.title$"
   flavor_cas.148.desc: "Відтоді як ми прибули до #TOOLTIP:REGION,indonesia_region,X #L Індонезії#!#!, багато хто стверджує, що завоювання Китаю не лише можливе, а й визначене самою долею. Купці та посли повідомляють, що країни, загрузлі в хабарництві, не зможуть протистояти могутності #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Наші шпигуни невпинно працюють, проникаючи до #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_GEN')|L]#!#!, і вважають, що [target_location.GetName] стане ідеальним плацдармом для нашого майбутнього підкорення всього Китаю."
   flavor_cas.148.a: "Розпочати підготовку до вторгнення."

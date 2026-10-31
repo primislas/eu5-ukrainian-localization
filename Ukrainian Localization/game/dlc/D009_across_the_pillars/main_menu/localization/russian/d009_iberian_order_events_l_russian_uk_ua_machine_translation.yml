@@ -51,7 +51,7 @@
   d009_iberian_order_events.22.entry: "Останній магістр Алькантари"
   d009_iberian_order_events.22.desc: "Магістр [target_order.GetName] — старий чоловік, радше вчений, ніж воїн, і останній у своєму роді, хто дістав сан через вільне обрання браттями.\n\n[target_ruler.GetName] не криється з тим, що станеться по його смерті. Питання лише в тому, чи [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')] дочека[ROOT.GetCountry.Custom('crown_etsautsa')] цього, чи дідусеві варто запропонувати відійти вбік уже зараз, доки йому стане гідности зробити це зі шляхетністю."
   d009_iberian_order_events.22.a: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('crown_estate')] признач[ROOT.GetCountry.Custom('crown_eut')] наступника вже зараз."
-  d009_iberian_order_events.22.a.entry: "The $crown_estate$ will now name his successor."
+  d009_iberian_order_events.22.a.entry: "Тепер $crown_estate$ назве його наступника."
   d009_iberian_order_events.22.b: "Нехай зберігає сан магістра до самої смерти."
   d009_iberian_order_events.22.c: "Нехай із пошаною піде на спочинок до своєї книгозбірні."
   d009_iberian_order_events.23.title: "Скарбниця в [ShowLocationNameWithNoTooltip('brozas')]"
