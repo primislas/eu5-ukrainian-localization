@@ -295,7 +295,7 @@
   flavor_mam.53.a: "Нам потрібні бойові кораблі."
   flavor_mam.53.b: "Нам потрібні кораблі, які перевозитимуть наше військо."
   flavor_mam.54.title: "Піднесення Баркука"
-  flavor_mam.54.entry: "Сходження Баркука"
+  flavor_mam.54.entry: "Піднесення Баркука"
   flavor_mam.54.desc: "Бездарний [target_ruler.GetName] вкинув [ROOT.GetCountry.Custom('rank_ua_GEN')|l] у хаос. Незадоволені його правлінням почали шукати лідера, здатного повернути стабільність, і їхній вибір припав на людину на ім'я [scope_barquq.GetName]. Ходять чутки, що [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] скоро втратить трон, а його місце займе [scope_barquq.GetNameWithNoTooltip]."
   barquq_supporters: "Прихильники Баркука"
   flavor_mam.54.a: "Нехай [ROOT.GetCountry.GetGovernment.GetRulerTitle|l] позбудеться влади!"

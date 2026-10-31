@@ -40,7 +40,7 @@
   flavor_tim.7.b: "Це марна трата грошей."
   flavor_tim.7.historical_info: "Життя Тимура — великого та могутнього засновника династії Тимуридів — незмінно викликало інтерес у сучасників. Першим хроністом, що склав життєпис завойовника, став Нізам ад-Дін Шамі. Його праця лягла в основу іншої хроніки за авторством Шарафа ад-Діна Язді; вона й сьогодні вважається одним із найдокладніших джерел відомостей про життя Тамерлана."
   flavor_tim.8.title: "[target_character.GetShortNameWithNoTooltip] рветься до влади"
-  flavor_tim.8.entry: "Сходження Тимура"
+  flavor_tim.8.entry: "Піднесення Тимура"
   flavor_tim.8.desc: "[target_character.GetName] — справжній військовий геній і непереможний завойовник, якого веде мрія про відродження [GetCountry('MGE').Custom('longname_ua_GEN')]. Зібравши значне військо своїх вірних прихильників, він захопив [target_location.Custom('LR_ACC')|l] [target_location.GetName] разом з навколишніми землями та заснував там [target_country.Custom('longname_ua_ACC')]."
   flavor_tim.8.a: "Це обурливо! Це несправедливо!"
   flavor_tim.8.a.at: "Усі [Concept('location', 'місцевості')|e] навколо [target_location.Custom('LR_GEN')|l] [target_location.GetName] відділяться та увійдуть до складу #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_GEN')|L]#!#!"

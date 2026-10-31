@@ -849,7 +849,7 @@
   flavor_fra.333.a: "Ми повинні терміново вжити заходів!"
   flavor_fra.333.b: "Гоніння на гугенотів не призведуть ні до чого доброго."
   flavor_fra.340.title: "[consort_fra.GetNameWithNoTooltip] та [Select_CString(consort_fra.IsFemale,'її', 'його')] влада"
-  flavor_fra.340.entry: "Сходження королеви-консорта"
+  flavor_fra.340.entry: "Піднесення королеви-консорта"
   flavor_fra.340.desc: "У цей період неспокою, що охопив #ONCLICK:COUNTRY,[GetCountry('FRA').GetKey] #TOOLTIP:COUNTRY,[GetCountry('FRA').GetKey],X [GetCountry('FRA').Custom('CL_ACC')|L]#!#!, [consort_fra.GetNameWithNoTooltip] [Select_CString(consort_fra.IsFemale,'зуміла', 'зумів')] здобути значний вплив у раді, і [ruler_fra.GetName|l] по праву вважає [Select_CString(consort_fra.IsFemale,'її своєю вірною прихильницею', 'його своїм вірним прихильником')]. Ми можемо надати [Select_CString(consort_fra.IsFemale,'їй', 'йому')] ще більшу владу, щоб за необхідності [Select_CString(consort_fra.IsFemale,'вона могла', 'він міг')] самостійно вирішувати складні завдання."
   flavor_fra.340.a: "Розширимо [Select_CString(consort_fra.IsFemale,'її', 'його')] особисті повноваження."
   flavor_fra.340.a.entry: "Нехай сама розпоряджається своєю владою."
