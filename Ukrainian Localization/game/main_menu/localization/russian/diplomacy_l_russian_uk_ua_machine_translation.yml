@@ -245,7 +245,7 @@
   EXCOM_WAR_NAME: "$NUM$-а війна відлучення $FIRSTNAME$–$SECONDNAME$"
   HUNDRED_YEARS_WAR_NAME: "$NUM$-й етап Столітньої війни"
   TAKE_SHOGUNATE_NAME: "$NUM$-а війна за сьоґунат"
-  DISSOLVE_TATAR_YOKE_NAME: "$NUM$-а війна проти татарського іга"
+  DISSOLVE_TATAR_YOKE_NAME: "$NUM$-а війна проти татарського ярма"
   LEAGUE_OF_PUBLIC_WEAL_NAME: "Війна Ліги суспільного блага"
   SENGOKU_WAR_NAME: "$NUM$-а війна проти країни $SECONDNAME$ періоду Сенгоку"
   CLAN_EXPANSION_WAR_NAME: "$NUM$-а війна за розширення клану проти країни $SECONDNAME$"
