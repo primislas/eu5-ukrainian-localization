@@ -482,7 +482,7 @@
   TIME_TO_LAW: "[Policy.GetImplementableTooltip]"
   CHANGE_POLICY_TOOLTIP: "#TOOLTIP:$BREAKDOWN_TAG$ $VAL|2+=$#!"
   UNIQUE_POLICY_TITLE: "Унікальна політика"
-  UNIQUE_POLICY_DESC: "Ця політика унікальна для [Country.Custom('CL_GEN')]"
+  UNIQUE_POLICY_DESC: "Ця політика унікальна для [Policy.GetUniqueSubjectName]"
   NO_INTEGRATION_PROGRESS: "Наразі змін в інтеграції немає"
   INTEGRATION_STALLED_DUE_TO: "Інтеграція зупинилася. Причини:\n$WHY$"
   INTEGRATE_AMOUNT: "У провінцію [PROVINCE.GetName] можна інтегрувати таку кількість [Concept('locations', 'місцевостей')|e]: $VAL|V0$."

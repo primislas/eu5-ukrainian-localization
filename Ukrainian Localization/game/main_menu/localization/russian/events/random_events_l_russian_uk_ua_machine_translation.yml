@@ -203,7 +203,7 @@
   random_event.48.b: "Передусім треба захищати своїх!"
   random_event.48.c: "Суперництво допоможе найкращим представникам обох шкіл проявити себе."
   random_event.49.title: "Придворний художник"
-  random_event.49.desc: "Останнім часом ми шукали обдарованого художника, який зумів би закарбувати велич і славу засновників нашої країни. І саме [Select_CString(SCOPE.sCharacter('the_artist').IsFemale,'така художниця', 'такий художник')] на ім'я [SCOPE.sCharacter('the_artist').GetName] пропонує нам свої послуги."
+  random_event.49.desc: "Останнім часом ми шукали обдарованого художника, який зумів би закарбувати велич і славу засновників нашої країни. І саме [Select_CString(the_artist.IsFemale, 'така художниця', 'такий художник')] на ім'я [the_artist.GetName] пропонує нам свої послуги."
   random_event.49.a: "Найняти [Select_CString(the_artist.IsFemale,'її', 'його')]."
   random_event.49.b: "Відмовитися від [Select_CString(the_artist.IsFemale,'її', 'його')] послуг."
   random_event.50.title: "Великий бал у місті [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]"

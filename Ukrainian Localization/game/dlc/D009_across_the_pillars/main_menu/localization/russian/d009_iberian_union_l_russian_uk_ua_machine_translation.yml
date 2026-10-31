@@ -57,7 +57,7 @@
   iberian_wedding_pact_relation_desc: "Ці дві [Concept('countries', 'країни')|e] пов’язує іберійський шлюбний союз, за умовами якого вони колись можуть утворити [Concept('union', 'унію')|e]."
   offer_iberian_wedding_pact: "Погодитися укласти іберійський шлюбний союз"
   offer_iberian_wedding_pact_CATEGORY: "CATEGORY_FRIENDLY_ACTIONS"
-  offer_iberian_wedding_pact_cta: "Запропонувати #ONCLICK:COUNTRY,[recipient.GetKey] #TOOLTIP:COUNTRY,[recipient.GetKey],X [recipient.Custom('CL_DAT')|L]#!#! укласти іберійський шлюбний союз"
+  offer_iberian_wedding_pact_cta: "Запропонувати #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').GetKey],X [SCOPE.sCountry('recipient').Custom('CL_DAT')|L]#!#! укласти іберійський шлюбний союз"
   offer_iberian_wedding_pact_desc: "Ця дія гарантує спільне спадкоємство влади в наших країнах."
   offer_iberian_wedding_pact_cta_to_unknown: "Запропонувати [Concept('country', 'країні')|e] укласти іберійський шлюбний союз"
   offer_iberian_wedding_pact_desc_to_unknown: "$offer_iberian_wedding_pact_desc$"

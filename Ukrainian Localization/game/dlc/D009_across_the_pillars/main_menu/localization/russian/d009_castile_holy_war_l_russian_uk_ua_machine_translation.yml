@@ -1,7 +1,7 @@
 ﻿l_russian:
   petition_for_the_bula_de_cruzada: "Прохання видати буллу про хрестовий похід"
-  petition_for_the_bula_de_cruzada_desc: "Як світський провідник [Concept('crusade', 'хрестового походу')|e], попросити папу видати [Concept('crusade', 'хрестоносну')] буллу. Впродовж трьох років [Concept('catholic', 'католицька')|e] [Concept('tithe', 'десятина')|e], сплачувана нашими станами, надходитиме короні, а не папі чи до скарбниці [Concept('crusade', 'хрестового походу')]."
-  petition_for_the_bula_de_cruzada_tt: "Впродовж #G 3#! років [Concept('catholic', 'католицька')|e] [Concept('tithe', 'десятина')|e], сплачувана нашими станами, надходитиме короні, а не папі чи [Concept('crusade', 'хрестоносцям')|e]"
+  petition_for_the_bula_de_cruzada_desc: "Як світський провідник [Concept('crusade', 'хрестового походу')|e], попросити папу видати [Concept('crusade', 'хрестоносну')] буллу. Впродовж трьох років [ShowReligionAdjective('catholic')|l]а [Concept('tithe', 'десятина')|e], сплачувана нашими станами, надходитиме короні, а не папі чи до скарбниці [Concept('crusade', 'хрестового походу')]."
+  petition_for_the_bula_de_cruzada_tt: "Впродовж #G 3#! років [ShowReligionAdjective('catholic')|l]а [Concept('tithe', 'десятина')|e], сплачувана нашими станами, надходитиме короні, а не папі чи [Concept('crusade', 'хрестоносцям')|e]"
   summon_iberian_military_orders_crusade: "Скликати іберійські лицарські ордени"
   summon_iberian_military_orders_crusade_desc: "Закликати лицарський орден до [Concept('crusade', 'хрестового походу')|e] та набрати велике військо (залежить від сили ордену). Витрачається менше вірности ордену й зростає завзяття у вірі [Concept('crusade', 'хрестового походу')]."
   summon_iberian_military_orders_effect_tt: "Набирається велике військо хрестоносців, чисельність якого залежить від сили ордену. #Y Завзяття у вірі#! [Concept('crusade', 'хрестового походу')|e] збільшується на #G 5#!"

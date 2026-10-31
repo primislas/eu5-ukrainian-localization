@@ -90,7 +90,7 @@
   woods_desc: "Гаї — це місцевість з менш щільною рослинністю, ніж у лісах."
   forest_desc: "Ліси — це місцевість з щільною рослинністю."
   jungle_desc: "Джунглі — це місцевість із густим лісом та переплетенням рослинності, що ускладнює будь-які види діяльності."
-  WEATHER_SYSTEM_NAME: "$TYPE$ у [Location.Custom('LR_PREP')|l] [Location.GetNameWithNoTooltip]"
+  WEATHER_SYSTEM_NAME: "$TYPE$ у [LOCATION.Custom('LR_PREP')|l] [LOCATION.GetNameWithNoTooltip]"
   WEATHER_FRONT: "Атмосферний фронт"
   WEATHER_CYCLONE: "Циклон"
   WEATHER_TORNADO: "Торнадо"

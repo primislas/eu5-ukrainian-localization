@@ -858,7 +858,7 @@
   request_cardinal_seat_opinion_tt: "[GetCountry('PAP').GetName] недостатньо доброї думки про нас"
   recently_requested_cardinal: "Країна нещодавно запросила кардинала"
   appoint_dynasty_cardinal: "Призначити родича кардиналом"
-  appoint_dynasty_cardinal_desc: "У нашій країні є давній звичай: [ROOT.GetCountry.GetGovernment.GetRulerTitle] прилаштовує одного зі своїх родичів до колегії кардиналів. Ми можемо висунути на цю роль підхожого члена дому, заплативши частиною своєї слави."
+  appoint_dynasty_cardinal_desc: "У нашій країні є давній звичай: [actor.GetGovernment.GetRulerTitle] прилаштовує одного зі своїх родичів до колегії кардиналів. Ми можемо висунути на цю роль підхожого члена дому, заплативши частиною своєї слави."
   appoint_dynasty_cardinal_select_character: "Оберіть, якого члена дому призначити кардиналом"
   remove_cardinal_seat: "Прибрати кафедру кардинала"
   remove_cardinal_seat_desc: "Очевидно, що членство в колегії кардиналів не приносить нам жодної користі. Час прибрати з наших земель #TOOLTIP:BUILDING_TYPE,seat_of_cardinal,X #L кафедру кардинала#!#!, щоб убезпечити країну від зайвого впливу."

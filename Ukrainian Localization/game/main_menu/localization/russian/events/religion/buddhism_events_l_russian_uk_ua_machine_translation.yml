@@ -155,7 +155,7 @@
   buddhism_events.1202.a: "Давайте їм допоможемо."
   buddhism_events.1202.b: "Вони впораються самі."
   buddhism_events.1203.title: "Реінкарнацію виявлено"
-  buddhism_events.1203.desc: "Орден [Select_CString(SCOPE.sCharacter('target_character').IsFemale, 'нашої верховної', 'нашого верховного')] лами зумів знайти [target_character.GetHerHis] нове втілення та доставив [target_character.GetHerHis] до їхнього #TOOLTIP:BUILDING_TYPE,tibetan_great_monastery,X #L великого тибетського монастиря#!#!#!."
+  buddhism_events.1203.desc: "Орден [Select_CString(SCOPE.sCharacter('target_old_lama').IsFemale, 'нашої верховної', 'нашого верховного')] лами зумів знайти [target_old_lama.GetHerHis] нове втілення та доставив [target_character.GetHerHis] до їхнього #TOOLTIP:BUILDING_TYPE,tibetan_great_monastery,X #L великого тибетського монастиря#!#!#!."
   buddhism_events.1203.a: "Довгих [target_character.GetHerHim] років життя."
   buddhism_events.1204.title: "Сумніви в істинності реінкарнації"
   buddhism_events.1204.desc: "Тонкощі переродження часом виявляються вищими за розуміння простих людей. Хоча орден лами наполягає на тому, що їхній новий лідер — реінкарнація старого, деякі сільські жителі не горять бажанням прийняти цей факт. Вони не визнають нового ламу, боячись обману, і подекуди протести навіть переросли у збройні конфлікти."

@@ -187,7 +187,7 @@
   artist_events.44.a: "Добрий пастир приймає заблудлих овець."
   artist_events.44.b: "Скористаємося нагодою і примусово нав'яжемо їм свою культуру!"
   pacify_rebel_pops_surrender_tt: "[Concept('rebellion', 'Заколот')|e] придушено, його учасники складають зброю"
-  every_supporter_pop_gains_20_satisfaction_tt: "Усі [Concept('pop', 'громади')|e], що підтримують [Concept('rebellion', 'заколот')|e], на чию підтримку спирається [target_rebel.GetName], отримають [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e]"
+  every_supporter_pop_gains_20_satisfaction_tt: "Усі [Concept('pop', 'громади')|e], що підтримують [Concept('rebellion', 'заколот')|e], на чию підтримку спирається [ROOT.GetRebel.GetName], отримають [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] до [Concept('pop_satisfaction', 'задоволення')|e]"
   artist_events.45.title: "Вдалий правовий збіг"
   artist_events.45.desc: "Схоже, нещодавно [target_character.GetName] [Select_CString(target_character.IsFemale,'підтримала', 'підтримав')] інтереси видатних особистостей у суді, домігшись вигідного їм результату. На знак вдячності ці [target_estate.GetName|l] поповнили наші скрині щедрим підношенням. Безперечно, ці гроші зміцнять наш добробут, і наші радники пропонують незліченні стратегії вкладення новонабутих монет."
   artist_events.45.a: "Ми вдячні їм за цей подарунок."

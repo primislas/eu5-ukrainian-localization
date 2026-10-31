@@ -103,6 +103,6 @@
   hre.801.a: "Який сумний день!"
   hre_the_emperor_is_dead_tt: "У #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священній Римській Імперії#!#! після виборів знову з'явиться [GetUniqueInternationalOrganization('hre').GetLeaderTitle|l]!"
   hre.20.title: "Пропозиція статусу королівства"
-  hre.20.desc: "[scope:bestowing_emperor.GetName] пропонує #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_DAT')|L]#!#! статус королівства в #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священній Римській Імперії#!#!. Якщо ми погодимося, то станемо королівством і зміцнимо зв’язки з імперією."
+  hre.20.desc: "[bestowing_emperor.GetName] пропонує #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_DAT')|L]#!#! статус королівства в #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священній Римській Імперії#!#!. Якщо ми погодимося, то станемо королівством і зміцнимо зв’язки з імперією."
   hre.20.a: "Ми з вдячністю приймемо пропозицію."
   hre.20.b: "Ми змушені відмовитися."
