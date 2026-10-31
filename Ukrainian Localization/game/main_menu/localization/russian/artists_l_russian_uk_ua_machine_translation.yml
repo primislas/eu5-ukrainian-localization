@@ -151,7 +151,7 @@
   WORK_OF_ART_MODIFIER_BASE: "$BULLET_WITH_TAB$За [Concept('art_quality', 'майстерність витвору')|e]: $VAL|%+=Y$"
   WORK_OF_ART_MODIFIER_SCALE_DESC: "На переваги, які дає витвір типу «[WORK_OF_ART_TYPE.GetName]», впливають такі модифікатори:"
   WORK_OF_ART_COUNTRY_RELIGION_SCALE_MODIFIER: "$BULLET_WITH_TAB$Від [Concept('country', 'країни')|e]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|%+=Y$#!"
-  CHAR_WORKING_ON: "[CHARACTER.GetSheHe|U] працює над новим витвором типу «[CHARACTER.GetArtInProgress.GetName]», його завершено на [CHARACTER.GetArtProgress|%0Y].\nХід роботи над [Concept('work_of_art', 'витвором')|e] залежить від [Concept('court_maintenance', 'утримання двору')|e]."
+  CHAR_WORKING_ON: "[CHARACTER.GetSheHe|U] працює над новим витвором типу «[CHARACTER.GetArtInProgress.GetName]», його завершено на [CHARACTER.GetArtProgress|%0Y].\nХід роботи над [Concept('work_of_art', 'витвором')|e] залежить від [Concept('cultural_maintenance', 'плекання культури')|e]."
   CHAR_WORK_OF_ART_HEADER: "[Concept('works_of_art', 'Витвори')|e]"
   CHAR_WORK_OF_ART_HEADER_S: "Створено витвір під назвою"
   CHAR_WORK_OF_ART_HEADER_P: "Створено такі витвори"

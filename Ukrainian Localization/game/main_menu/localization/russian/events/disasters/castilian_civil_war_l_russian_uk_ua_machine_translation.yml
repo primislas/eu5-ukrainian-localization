@@ -54,7 +54,7 @@
   castilian_civil_war.202.a: "Вони пошкодують про свою віроломність!"
   castilian_civil_war.301.title: "[target_country.GetNameWithNoTooltip] підтримує заколотників!"
   castilian_civil_war.301.desc: "$castilian_civil_war.201.desc.common$ [target_country.GetLongNameWithNoTooltip] виконає свої зобов'язання перед союзником, і [target_pretender.GetName] отримає обіцяну допомогу."
-  castilian_civil_war.301.desc.join_war: "$castilian_civil_war.301.desc$ [target_country.GetAdjectiveWithNoTooltip]і війська ось-ось вступлять у війну на боці заколотників!"
+  castilian_civil_war.301.desc.join_war: "$castilian_civil_war.301.desc$ Вони вступили у війну на боці самозванця [target_pretender.GetNameWithNoTooltip] і ось-ось вступлять у війну на боці заколотників!"
   castilian_civil_war.301.desc.mercs: "$castilian_civil_war.301.desc$ Вони направили великий загін найманців битися на боці заколотників!"
   castilian_civil_war.301.desc.gold: "$castilian_civil_war.301.desc$ Вони надіслали значну суму золота, яке допоможе заколотникам оплатити їхні військові витрати!"
   castilian_civil_war.301.a: "Прокляті заколотники!"

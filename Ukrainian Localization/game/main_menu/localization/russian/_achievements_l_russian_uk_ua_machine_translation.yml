@@ -225,7 +225,7 @@
   ACHIEVEMENT_GROUP_medium_achievements: "Середні"
   ACHIEVEMENT_GROUP_hard_achievements: "Складні"
   ACHIEVEMENT_GROUP_very_hard_achievements: "Найскладніші"
-  PLAY_BUTTON_IRONMAN_MODE_TOOLTIP: "Залізна воля\n[SelectLocalization(GameIsIronman, 'IRONMAN_ENABLED_NO_HEADER', 'IRONMAN_DISABLED_NO_HEADER')]"
+  PLAY_BUTTON_IRONMAN_MODE_TOOLTIP: "Залізна воля\n[SelectLocalization(GameWouldBeIronman, 'IRONMAN_ENABLED_NO_HEADER', 'IRONMAN_DISABLED_NO_HEADER')]"
   PLAY_BUTTON_ACHIEVEMENTS_TOOLTIP: "Досягнення [SelectLocalization(CanGetAchievements, 'ACHIEVEMENTS_ENABLED_NO_HEADER', 'ACHIEVEMENTS_DISABLED_NO_HEADER_PLAY_BUTTON')]"
   has_emerged_victorious_during_rise_of_ottomans_situation_tt: "У ході [Concept('situation', 'ситуації')|e] #TOOLTIP:SITUATION,rise_of_the_ottomans,X #L «Піднесення турків»#!#! ми здобули перемогу та проявили себе найсильнішим бейликом."
   had_timur_as_past_ruler_tt: "Одним із наших попередніх [Concept('rulers', 'правителів')|e] був [GetCharacter('chg_timur_lame_borjigin').GetName]"

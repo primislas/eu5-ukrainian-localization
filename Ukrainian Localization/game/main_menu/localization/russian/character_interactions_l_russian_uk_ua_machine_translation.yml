@@ -37,7 +37,7 @@
   marry_noble: "Укласти шлюб зі знатною особою"
   marry_noble_concept: "[Concept('marriage', 'шлюб')|e]"
   marry_noble_select_title: "Оберіть гідну партію"
-  marry_noble_desc: "[Concept('character', 'Персонаж')|e] укладе шлюб із кимось із місцевої знаті."
+  marry_noble_desc: "[CHARACTER.GetName] укладе шлюб із кимось із місцевої знаті."
   marry_noble_recipient_effect: "[CHARACTER.GetName] вступить [Concept('married', 'у шлюб')|e] з обраним нами представником знаті."
   marry_noble_desc_specific: "[CHARACTER.GetName] та [TARGET_CHARACTER.GetName] укладуть шлюб."
   marry_noble_effect: "[CHARACTER.GetName] та [TARGET_CHARACTER.GetName] перебувають у шлюбі."

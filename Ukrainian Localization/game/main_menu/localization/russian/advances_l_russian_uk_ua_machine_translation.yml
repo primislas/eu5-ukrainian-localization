@@ -1,7 +1,7 @@
 ﻿l_russian:
   BASE_SPREAD: "Базове значення: $VALUE|Y$"
   INSTITUTION_SPREAD_WAS_POSSIBLE_SPAWN: "Ймовірність появи інституту: $VAL|+=2$"
-  INSTITUTION_SPREAD_DIPLOMACY: "Від [Concept('alliances', 'союзів')|E]: $VAL|+=2$"
+  INSTITUTION_SPREAD_DIPLOMACY: "Від [Concept('diplomacy', 'зносин')|E]: $VAL|+=2$"
   INSTITUTION_SPREAD_OVERLORD: "Від [Concept('overlord', 'сюзерена')|E]: $VAL|+=2$"
   INSTITUTION_SPREAD_SUBJECTS: "Від [Concept('subjects', 'васалів')|E]: $VAL|+=2$"
   INSTITUTION_SPREAD_FRIENDLY_COASTAL: "Найближчі [Concept('locations', 'місцевості')|e], у [Concept('owner', 'власника')|e] яких позитивне [Concept('opinion', 'ставлення')|e]: $VAL|+=2$"
@@ -4558,7 +4558,7 @@
   sankore_madrassah_desc: "Нам не раз казали, що медресе Санкоре — найвеличніший навчальний заклад у всій Африці. З цим складно не погодитися, адже мало кого не вразить вигляд мудреців з далекої Аравії та Магрибу, які обговорюють тонкощі філософії та богослов'я."
   the_hajj: "Хадж"
   the_hajj_desc: "Наші правителі, наслідуючи приклад малійського манси Муси, також можуть вирушити до Мекки, віддавши таким чином належне п'ятому стовпу ісламу. З собою вони візьмуть золото — символ багатства та влади. Нехай світ дивується розкоші та величі країни Сонгай."
-  improves_diwan_al_hajj_bureaucracy_tt: "Підвищує справність [Concept('bureaucracy', 'установи')|e] «[ShowBureaucracyTypeName('diwan_al_haji_bureaucracy')]» на #G 50%#!"
+  improves_diwan_al_hajj_bureaucracy_tt: "Підвищує справність [Concept('bureaucracy', 'установи')|e] «[ShowBureaucracyTypeName('diwan_al_hajj_bureaucracy')]» на #G 50%#!"
   sharia: "Шаріат"
   sharia_desc: "Священний закон Пророка, встановлений у роки його правління Мединою, повинен лягти в основу всіх законів нашого суспільства. Переписавши кримінальне уложення так, щоб воно відповідало вченням Пророка, ми досягнемо згоди та справедливості."
   trans_sahara_trade: "Торгівля через Сахару"

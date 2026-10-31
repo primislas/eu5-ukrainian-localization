@@ -209,7 +209,7 @@
   RELIGION_GROUP_INACTIVE_REL_HEADER_DETAIL: "[RELIGION.GetIcon] [RELIGION.GetName]"
   RELIGION_GROUP_REL_HEADER: "До [RELIGION_GROUP.GetAdjectiveWithNoTooltip|l]ого [Concept('religion_group', 'віровчення')|e] входять такі [Concept('religions', 'віросповідання')|e]"
   SELECTED_RELIGION_OUR_OPINION: "Ставлення послідовників [CountryReligionLateralView.GetReligion.GetAdjectiveWithNoTooltip|l]ої віри до інших"
-  OTHER_ON_SELECTED_RELIGION_OPINION: "Ставлення послідовників інших [Concept('religion', 'вір')|e] до [CountryReligionLateralView.GetReligion.GetAdjectiveWithNoTooltip|l]ого сповідання"
+  OTHER_ON_SELECTED_RELIGION_OPINION: "Ставлення послідовників інших [Concept('cultures', 'культур')|e] до [CountryReligionLateralView.GetReligion.GetAdjectiveWithNoTooltip|l]ого сповідання"
   RELIGION_OPINION_TOOLTIP: "#T Ставлення до віри#!\nСтавлення послідовників однієї [Concept('religion', 'віри')|e] до послідовників іншої впливає на взаємодію [Concept('countries', 'країн')|e]. Від нього залежить, як віряни сприйматимуть правління чужовірців."
   religion_opinion_enemy: "#R Вороже#!"
   religion_opinion_negative: "#R Неприхильне#!"

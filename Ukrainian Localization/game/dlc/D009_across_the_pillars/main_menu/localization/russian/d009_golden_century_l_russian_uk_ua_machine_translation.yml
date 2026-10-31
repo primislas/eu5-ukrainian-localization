@@ -228,7 +228,7 @@
   golden_century_events.4.title: "Єдина віра та культура"
   golden_century_events.4.desc: "Час нашим намісникам в області [target.GetName] перехопити ініціативу та видати указ про уніфікацію. Як запевняють наші радники, прагнення до однаковості життєво необхідне, якщо ми хочемо, щоб у наших землях панували одна віра й одна культура. Молитовні будинки іновірців буде зачинено, а їхні діти в наступні роки виховуватимуться за нашими звичаями.\n\nПопереду важка праця, і наслідки її відчуватимуться ще довго, але люд, об’єднаний спільною вірою та спільним укладом, значно легше тримати в шорах."
   golden_century_events.4.a: "Усе це на користь вірі."
-  enforce_conformity_result_tt: "Кожна [Concept('location', 'місцевість')|e] у провінції [target.GetName] отримує модифікатор «[ShowModifier('agricultural_revolution')]» на #Y 10#! років"
+  enforce_conformity_result_tt: "Кожна [Concept('location', 'місцевість')|e] у провінції [target.GetName] отримує модифікатор «[ShowModifier('enforce_conformity_modifier')]» на #Y 10#! років"
   explain_enforce_conformity_tt: "Усі [Concept('locations', 'місцевості')|e] в обраній [Concept('area', 'області')|e] отримають [Concept('modifier', 'модифікатор')|e] «[ShowModifier('enforce_conformity_modifier')]» на #Y 10#! років"
   golden_century_events.5.title: "Проголошення фетви"
   golden_century_events.5.desc: "[target_ruler.GetName] скликає духовенство, і [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] готов[ROOT.GetCountry.Custom('clergy_yiaei')] наділити уряд авторитетом віри. Яке ж питання буде винесено на розгляд?\n\nХоч би яким був указ, віряни не смітимуть йому перечити: рішення, скріплене іменем віри, значно вагоміше за будь-який інший урядовий указ."

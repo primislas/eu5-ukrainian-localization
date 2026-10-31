@@ -149,7 +149,7 @@
   MANPOWER_INCOME_WITH_BREAKDOWN: "[Concept('manpower', 'Новобранців')|e] на місяць: #TOOLTIP:$BREAKDOWN_TAG$ $VAL$ [manpower_i|e]#!"
   SAILORS_INCOME_WITH_BREAKDOWN: "[Concept('sailors', 'Моряків')|e] на місяць: #TOOLTIP:$BREAKDOWN_TAG$ $VAL$ [sailors_i|e]#!"
   EXPENSE_FROM_MERCENARIES: "[Concept('mercenary_expense', 'Витрати на найманців')|e]: $VAL|<+=2$[gold_i]"
-  INCOME_FROM_MERCENARIES: "[Concept('mercenary_expense', 'Доходи від найманців')|e]: $VAL|<+=2$[gold_i]"
+  INCOME_FROM_MERCENARIES: "[Concept('mercenary_income', 'Доходи від найманців')|e]: $VAL|<+=2$[gold_i]"
   EXPENSE_FROM_SUBSIDIZE: "[Concept('subsidy_expense', 'Субсидії на споруди')|e]: $VAL|<+=2$[gold_i]"
   INCOME_FROM_INFLATION: "[Concept('minting', 'Карбування')|e]: $VAL|<+=2$[gold_i]"
   EXPENSE_FROM_EXPLORATION: "Виправи: $VAL|<+=2$[gold_i]"
