@@ -1941,6 +1941,7 @@ Pick the best fit based on context, and modern Ukrainian stylistic guidelines.
     * стартовый - початковий
     * стражник - вартовий; якщо контекст дозволяє, множина "стражники" - "варта" (в інших випадках множина "вартові")
     * суахільськ - суахілійськ (прикметник до суахілі)
+    * cходження, восхождение - "піднесення" in the sense of "rise of N", e.g. "Піднесення турків", "Піднесення Тимура", etc. However, in case of dynasties that ascend the throne "сходження (на престол, трон)" is still applicable. For characters who quickly gain in prominence, if not necessarily power, in narrative texts "зліт" could fit best.
     * с (большим) интересом - з (великою) цікавістю, зацікавлено і т.і.
     * точити кинджали - гострити ножі
     * труд - праця
