@@ -1247,7 +1247,7 @@
   lordship_of_ireland_form_kingdom_desc: "Нарешті ми отримали титул короля Ірландії, який зміцнить нашу владу та надасть нам правочинности в очах народу."
   lordship_of_ireland_form_kingdom_region_tt: "Кожною [Concept('location', 'місцевістю')|e] в #TOOLTIP:REGION,ireland_region,X #L ірландському#!#! [Concept('region', 'регіоні')|e] повинен [Concept('owned', 'володіти')|e] [Concept('member', 'учасник')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$lordship_of_ireland_tt$,X #L манору Ірландія#!#!."
   IRE_f_lordship_tt: "Тільки [Concept('international_organization_leader_short', 'лідер')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$lordship_of_ireland_tt$,X #L манору Ірландія#!#! може виконати дію «[ShowGenericActionName('lordship_of_ireland_form_kingdom')]». Звичайним [Concept('member', 'учасникам')|e] вона недоступна."
-  neither_highkingship_nor_lordship_exist_tt: "[GetUniqueInternationalOrganization('lordship_of_ireland').GetName] та [GetUniqueInternationalOrganization('high_kingship').GetName] не існують."
+  neither_highkingship_nor_lordship_exist_tt: "[GetUniqueInternationalOrganization('lordship_of_ireland').GetName] та [GetInternationalOrganizationType('high_kingship').GetName] не існують."
   IRE_f_sole_high_kingship_tt: "Ми — останній учасник Верховного Королівства Ірландія, що залишився."
   IRE_high_kingship_f_leader_tt: "Ми маємо стояти [Concept('international_organization_leader_short', 'на чолі')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,high_kingship,X #L Верховного королівства#!#! #TOOLTIP:REGION,ireland_region,X #L Ірландії#!#!"
   IRE_lordship_of_ireland_f_leader_tt: "Ми повинні мати статус #TOOLTIP:SPECIAL_STATUS,lord_of_ireland,X #L лорда#!#! #TOOLTIP:INTERNATIONAL_ORGANIZATION,$lordship_of_ireland_tt$,X #L манору Ірландії#!#!"

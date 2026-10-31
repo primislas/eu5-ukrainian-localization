@@ -65,7 +65,7 @@
   KARMA_TT_IF_NEUTRAL_T: "Якщо [karma|Vl] знаходиться між #V −33#! та #V 33#! од., ми отримуємо:"
   KARMA_TT_IF_HIGH_T: "Якщо [karma|Vl] вище #V 33#! од., ми отримуємо:"
   KARMA_TT_IF_LOW_T: "Якщо [karma|Vl] нижче #V −33#! од., ми отримуємо:"
-  RIGHTEOUSNESS_TT_TEXT: "Наша [righteousness|Vl]: [CountryReligionLateralView.GetCountry.GetFixedPointCurrencyValue('righteousness')|W]. Щомісячна зміна: [CountryReligionLateralView.GetCountry.GetModifierValue('monthly_righteousness')]."
+  RIGHTEOUSNESS_TT_TEXT: "Наша [righteousness|Vl]: [Country.GetFixedPointCurrencyValue('righteousness')|W]. Щомісячна зміна: [Country.GetModifierValue('monthly_righteousness')]."
   RIGHTEOUSNESS_TT_EFFECTS_TEXT: "Коли [righteousness|Vl] становить [Country.GetFixedPointCurrencyValue('righteousness')|W] од., ми отримуємо такі ефекти:"
   RIGHTEOUSNESS_TT_EFFECTS_TEXT_HIGH: "Коли [righteousness|Vl] становить [Country.GetFixedPointCurrencyValue('righteousness')|W] од., ми отримуємо такі ефекти:\n#V [GetAutoModifier('high_righteousness').GetName]#!:\n[Localize(ShowAutoModifierEffectForCountry(Country.Self, 'righteousness'))]"
   RIGHTEOUSNESS_TT_EFFECTS_TEXT_HIGH_LOW: "Коли [righteousness|Vl] становить [Country.GetFixedPointCurrencyValue('righteousness')|W] од., ми отримуємо такі ефекти:\n#V [GetAutoModifier('low_righteousness').GetName]#!:\n[Localize(ShowAutoModifierEffectForCountry(Country.Self, 'righteousness'))]"

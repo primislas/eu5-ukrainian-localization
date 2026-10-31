@@ -9,7 +9,7 @@
   kirishitan.2.a: "[target_heir.GetNameWithNoTooltip] з радістю дізнаватиметься нове про їхнього бога."
   kirishitan.2.b: "Не можна допустити, щоб вони поширювали тут свої вірування."
   kirishitan.2.c: "Захистимо віру наших предків!"
-  catholic_pop_conversion.tt: "Частина [Concept('pops', 'населення')|e] [target_location.Custom('LR_GEN')|l] [target_location.GetName] навернеться в #TOOLTIP:RELIGION,$catholic_tt$,X #L католицтво#!#!"
+  catholic_pop_conversion.tt: "Частина [Concept('pops', 'населення')|e] [THIS.GetLocation.Custom('LR_GEN')|l] [THIS.GetLocation.GetName] навернеться в #TOOLTIP:RELIGION,$catholic_tt$,X #L католицтво#!#!"
   kirishitan.3.title: "Торгові привілеї"
   kirishitan.3.desc: "[target_ruler.GetName] приймає у себе місіонерів-кірісітан: вони просять дозволити їм заснувати приморську громаду для тих, хто прийняв їхнє вчення, обіцяючи натомість направляти торгові кораблі, що відпливли з їхніх країв, у наші порти. Над цією пропозицією слід подумати, оскільки вона обіцяє чималу вигоду нашим купцям."
   kirishitan.3.a: "Нехай приходять!"

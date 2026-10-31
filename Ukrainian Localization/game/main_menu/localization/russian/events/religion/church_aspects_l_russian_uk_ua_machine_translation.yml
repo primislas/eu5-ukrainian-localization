@@ -33,7 +33,7 @@
   church_aspects.9.title: "Рівне покарання"
   church_aspects.9.desc: "Наш[ROOT.GetCountry.Custom('clergy_aei')] [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')|l] гучно схвалю[ROOT.GetCountry.Custom('clergy_yeyut')] покарання для всіх грішників незалежно від стану, і завдяки церкві всі жителі #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! почуваються рівними перед Богом. За належного наставництва такі настрої можна звернути на зниження міжстанових бар'єрів у нашому суспільстві."
   church_aspects.9.a: "Ця ситуація принесе нам усім користь."
-  church_aspects.9.b: "Це зробить [rivalling_country.Custom('CL_ACC')] стабільнішим."
+  church_aspects.9.b: "Це зробить [ROOT.GetCountry.Custom('CL_ACC')] стабільнішим."
   church_aspects.10.title: "Місцеве вино для наших служб"
   church_aspects.10.desc: "Цього року [ROOT.GetCountry.GetCapital.GetMarket.GetName|l] був благословенний багатими врожаями, і тому наші винні склади переповнені. Це означає, що в найближчому майбутньому наша церква може вільно звершувати таїнство причастя без страху спустошити винні льохи."
   church_aspects.10.a: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] буд[ROOT.GetCountry.Custom('peasants_eut')] у захваті."
