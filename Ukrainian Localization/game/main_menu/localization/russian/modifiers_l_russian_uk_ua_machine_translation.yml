@@ -7,7 +7,7 @@
   no_less_left_than_right: "не менше $LEFT|Y$, ніж $RIGHT|Y$"
   potential_modifier_desc: "За виконання умов ($REQUIREMENTS$) ми б мали:\n$MODIFIER|Y$:\n$EFFECTS$"
   potential_modifier_scale: "(залежить від показника: $FACTORS$)"
-  auto_modifier_current_scale: "Effects currently multiplied by $VALUE|2Y$ due to $FACTORS$"
+  auto_modifier_current_scale: "Нині ефекти помножено на $VALUE|2Y$ через $FACTORS$"
   crown_estate_satisfaction: "[Concept('estate_satisfaction', 'Вдоволення')|e] правителів"
   nobles_estate_satisfaction: "[Concept('estate_satisfaction', 'Вдоволення')|e] #TOOLTIP:ESTATE_TYPE,nobles_estate,X #L знаті#!#!"
   clergy_estate_satisfaction: "[Concept('estate_satisfaction', 'Вдоволення')|e] #TOOLTIP:ESTATE_TYPE,clergy_estate,X #L духовенства#!#!"

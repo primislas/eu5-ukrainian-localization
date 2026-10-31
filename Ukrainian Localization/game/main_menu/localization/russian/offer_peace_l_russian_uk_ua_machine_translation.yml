@@ -178,7 +178,7 @@
   peace_take_over_market_center_group_short: "Захопити [target_market.GetName] у країни [TARGET_COUNTRY.GetNameWithFlagWithNoTooltip]"
   peace_take_over_market_center_entry: "Захопити ринковий осередок @[TARGET_COUNTRY.GetFlag]!#ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#! та перемістити його до [target_location.Custom('LR_GEN')] [target_location.GetName]"
   peace_take_over_market_center_entry_short: "Перемістити ринок [target_market.GetName] до [target_location.Custom('LR_GEN')] [target_location.GetNameWithNoTooltip]"
-  peace_take_over_market_center_select_location: "Select [location|e] to move the [market|e] to:"
+  peace_take_over_market_center_select_location: "Оберіть [Concept('location', 'місцевість')|e], куди перенести [Concept('market', 'ринок')|e]:"
   peace_take_over_market_center_no_locations: "$no_valid_locations$"
   execute_ruler: "Страта правителя"
   execute_ruler_entry: "$execute_ruler$"

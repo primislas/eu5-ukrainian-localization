@@ -101,7 +101,7 @@
   AUTO_MODIFIER_NAME_byz_ruler_religion_catholic: "Віра [Concept('ruler', 'правителя')|e] — #TOOLTIP:RELIGION,$catholic_tt$,X #L католицизм#!#!#!"
   AUTO_MODIFIER_NAME_byz_consort_religion_orthodox: "Віра [Concept('consort', 'консорта')|e] — #TOOLTIP:RELIGION,$orthodox_tt$,X #L православ'я#!#!#!"
   AUTO_MODIFIER_NAME_byz_consort_religion_catholic: "Віра [Concept('consort', 'консорта')|e] — #TOOLTIP:RELIGION,$catholic_tt$,X #L католицизм#!#!#!"
-  AUTO_MODIFIER_NAME_rom_capital_rome: "Roma Caput Mundi"
+  AUTO_MODIFIER_NAME_rom_capital_rome: "Roma Caput Mundi («Рим — столиця світу»)"
   AUTO_MODIFIER_NAME_byz_trading_romance_market: "#TOOLTIP:LANGUAGE_FAMILY,romance_language_family,X #L Романські#!#! [Concept('merchants', 'купці')|e] на [Concept('capital', 'столичному')|e] [Concept('market', 'ринку')|e]"
   AUTO_MODIFIER_DESC_byz_trading_romance_market: "#TOOLTIP:LANGUAGE_FAMILY,romance_language_family,X #L Романомовні#!#! [Concept('merchants', 'купці')|e] торгують на [Concept('market', 'ринку')|e] нашої [Concept('capital', 'столиці')|e], приносячи туди чужий культурний вплив."
   AUTO_MODIFIER_NAME_byz_trading_greek_market: "#TOOLTIP:LANGUAGE,greek_language,X #L Грецькі#!#! [Concept('merchants', 'купці')|e] на [Concept('capital', 'столичному')|e] [Concept('market', 'ринку')|e]"
