@@ -794,7 +794,7 @@
   AUTOCEPHALOUS_PATRIARCHATE_SEAT_NAME: "Автокефальний патріархат [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]"
   autocephalous_patriarchate_desc: "Автокефальний (тобто #italic самоочолюваний#!) патріархат — це помісна православна церква, очолювана митрополитом. Вона діє самостійно і не відповідає перед жодними іншими церковними владами. Усі рішення, що стосуються врядування кожним патріархатом, приймаються його синодом — зборами єпископів."
   CATHOLIC_PATRIARCHATE_NAME: "Католицький патріархат [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]"
-  ECUMENICAL_PATRIARCHATE_NAME: "Вселенський патріархат [ROOT.GetVariable('seat').GetLocation.Custom('LR_GEN')|l] [ROOT.GetVariable('seat').GetLocation.GetName|W]"
+  ECUMENICAL_PATRIARCHATE_NAME: "Вселенський патріархат [ROOT.GetVariable('seat').GetLocation.GetName|W]"
   AUTOCEPHALOUS_PATRIARCHY_NAME: "Автокефальний патріархат [ROOT.GetVariable('seat').GetLocation.GetNameWithNoTooltip]"
   seat: "Кафедра"
   seat_desc: "$seat$ — це місце, де засідає єпископ, якому підпорядковується [GetInternationalOrganizationType('autocephalous_patriarchate').GetName|l]. Звідси він вершить свою владу."
