@@ -17,7 +17,7 @@ To perform migration do the following:
 
    ```python -m eukrainersalis.move_game_localization_to_project```
 
-   ```python -m eukrainersalis.utils.gui_ending_patching```
+   ```python -m eukrainersalis.utils.gui_file_generator```
 
 4. Oftentimes it's a good idea to set MAX_FILES_TO_TRANSLATE to a smaller value, like 4, 8, 20,
 to process smaller manageable commits, and have an opportunity to edit ru_ua system instructions

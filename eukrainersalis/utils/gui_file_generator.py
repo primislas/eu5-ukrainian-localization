@@ -52,6 +52,12 @@ def regenerate_gui_file_endings():
                     file_modified = True
                     print(f"Modified {replaced_count} declarations in {file}")
 
+                if "raw_text = \"Hints\"" in modified_content:
+                    modified_content = modified_content.replace('raw_text = "Hints"', 'raw_text = "Поради"')
+                    modifications += 1
+                    file_modified = True
+                    print(f"Modified hints in {file}")
+
                 if file_modified:
                     out_path = os.path.join(root, file.replace(".gui", "_uk_ua.gui"))
                     Path(out_path).write_text(modified_content, encoding="utf-8")
