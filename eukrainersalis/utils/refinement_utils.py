@@ -6,7 +6,7 @@ from dataclasses import dataclass
 from enum import StrEnum
 from importlib import resources
 from importlib.resources.abc import Traversable
-from typing import Callable
+from typing import Callable, Pattern
 
 from dotenv import load_dotenv
 from langdetect import detect_langs, DetectorFactory
@@ -23,6 +23,7 @@ _INSTRUCTION_PACKAGE = "eukrainersalis.resources.instructions"
 _INSTRUCTION_SKILL_REL_PATH = "skills/refinement"
 _INSTRUCTION_ROLE_FILE = "role"
 _INSTRUCTION_ROLE_EN_UA_FILE = "role_en_ua"
+_UA_PATTERN: Pattern[str] = re.compile(r"[а-яєїґ«’]")
 
 # Enforce deterministic results for short/ambiguous text
 DetectorFactory.seed = 0
@@ -46,6 +47,10 @@ def select_center_refinement(text: str) -> bool:
 
 
 def select_english_translation_refinement(text: str) -> bool:
+    if _UA_PATTERN.search(text):
+        # Assuming that UA symbols indicate text has already been translated
+        return False
+
     normalized_text = re.sub(r'@[^!]+!', '', text)
     normalized_text = re.sub(r'#[^#]+#[^!]+#!#!', '', normalized_text)
     normalized_text = re.sub(r'#[^#]+#!', '', normalized_text)
@@ -55,8 +60,11 @@ def select_english_translation_refinement(text: str) -> bool:
     # normalized_text = re.sub(r'[^a-z\sа-яіїєґ]', '', normalized_text)
     normalized_text = re.sub(r'[\.,:;?!=+\-*×%#0-9«»<> —~•/\|\$\(\)ᵃᵈᵉᶠᵍʰⁱˡᵐⁿʳˢᵗᵛʸªº]', ' ', normalized_text)
     normalized_text = re.sub(r'\s+', ' ', normalized_text)
+    normalized_text = normalized_text.replace("tooltip_subheading", "")
     normalized_text = normalized_text.strip()
     if len(normalized_text) == 0:
+        return False
+    if "lorem ipsum" in normalized_text:
         return False
 
     if normalized_text in {"category_hostile_actions", "category_friendly_actions", "category_covert_actions",
@@ -65,6 +73,14 @@ def select_english_translation_refinement(text: str) -> bool:
     if normalized_text.endswith("_law_category"):
         return False
     if normalized_text.startswith("category_") and normalized_text.endswith("_actions"):
+        return False
+    if normalized_text.endswith("_TAG"):
+        return False
+    # TODO: ideally should filter out key 'megalopolis_tt_LR'
+    if normalized_text == "megalopolis":
+        return False
+    # Assuming it's a variable declaration with underscores
+    if len(normalized_text.split(" ")) == 1 and "_" in normalized_text:
         return False
 
     try:
@@ -81,9 +97,14 @@ def select_english_translation_refinement(text: str) -> bool:
 
     # Normalized Ukrainian text is often confused for Macedonian (mk) or Bulgarian (bg)
     # by langdetect.
-    needs_translation = "ru" not in lang_codes and "uk" not in lang_codes and "mk" not in lang_codes and "bg" not in lang_codes
+    needs_translation = "ru" not in lang_codes and "uk" not in lang_codes and "mk" not in lang_codes and "bg" not in lang_codes and "et" not in lang_codes
     if not needs_translation:
         return False
+
+    if len(text) <= 5:
+        logger.debug(f"Skipping short loc, most likely noise, detected languages: {lang_codes}, text: {normalized_text}")
+        return False
+
     logger.debug(f"Discovered loc in need of translation, detected languages: {lang_codes}, text: {normalized_text}")
     return needs_translation
 
@@ -191,6 +212,8 @@ class RefinementManager:
             for k, v in localization.items():
                 v_lower = v.lower()
                 if text_filter_func(v_lower):
+                    if self.refinement_skill == RefinementSkill.ENGLISH_TRANSLATION:
+                        logger.debug(f"Discovered loc key in need of translation: {k} = {v}")
                     matching_keys.append(k)
             if matching_keys:
                 loc_file = LocFile(file, matching_keys, content, self.language)
@@ -350,5 +373,5 @@ def _refine(skill: RefinementSkill, entries_threshold: int = 20):
 
 if __name__ == "__main__":
     load_dotenv()
-    # _refine(RefinementSkill.ENGLISH_TRANSLATION)
-    _refine(RefinementSkill.SYSTEM)
+    _refine(RefinementSkill.ENGLISH_TRANSLATION, 2000)
+    # _refine(RefinementSkill.SYSTEM)
