@@ -22,7 +22,7 @@
   flavor_tle.12.title: "Зречення племінного коріння"
   flavor_tle.12.entry: "$flavor_tle.12.title$"
   flavor_tle.12.desc: "Підвалини [target_country.GetAdjective|l]ої держави тримаються на [target_government_reform.GetName] — найчисленнішому племені в околицях [target_location.Custom('LR_GEN')] [target_location.GetName]. Саме з цього племені вийшов рід [target_dynasty.GetName], який започаткував той [target_country.GetFlavorRank|l], яким ми є сьогодні. Проте останнім часом вплив стану [target_estate.GetName] поступово слабшає, що загрожує рівновазі сил при дворі. Якщо не вжити заходів для зміцнення $banu_al_wad$, їхні політичні привілеї підуть у небуття."
-  flavor_tle.12.a: "Нам слід шукати [Concept('legitimacy', 'право на владу')|e] не лише в племен."
+  flavor_tle.12.a: "Нам слід шукати визнання влади не лише в племен."
   flavor_tle.12.b: "Першість $banu_al_wad$ має бути збережена!"
   tle_empower_banu_al_wad_reform: "[ShowGovernmentReformName('tle_support_of_banu_al_wad')] також надасть немасштабований [ShowNamedValue('small_stability_investment')|+=] [Concept('modifier', 'модифікатор')|e] «[ShowModifierTypeName('stability_investment')]»"
   tle_empower_banu_al_wad_reform_unlock_tt: "Відкривається завдяки [Concept('event', 'події')|e] #Y«$flavor_tle.12.title$»#!"

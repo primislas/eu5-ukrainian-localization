@@ -14,7 +14,7 @@
   crown_settlement_law_desc: "Нам необхідно вирішити, якої подоби зрештою набуде наша унія. Наші країни можуть і надалі існувати як рівні партнери, але за бажання ми також можемо об’єднатися в єдину велику неподільну державу зі спільними законами та порядками."
   union_of_arms_law: "Союз військ"
   union_of_arms_law_desc: "Оборона унії — це обов’язок кожної країни, що входить до неї. Усі королівства мають робити свій внесок у наш спільний захист: добровільно або згідно з обов’язковими частками."
-  iu_tanto_monta_policy: "Tanto Monta"
+  iu_tanto_monta_policy: "Tanto Monta («Одне варте іншого»)"
   iu_tanto_monta_policy_desc: "#italic Tanto monta, monta tanto#! означає «одне й те саме». Цей девіз вказує на рівність двох суверенів, які спільно правлять державою. Саме засади взаємної поваги та визнання лежать в основі унії, що скріплює наші країни."
   iu_tanto_monta_no_seniority_tt: "Для цієї [Concept('union', 'унії')|e] не призначено #TOOLTIP:SPECIAL_STATUS,senior_partner,X #L старшого партнера#!#! та не діють політики «[ShowPolicyName('union_establish_seniority_policy')]» і «[ShowPolicyName('union_senior_succession_law')]»"
   iu_dynastic_primacy_policy: "Родова першість"

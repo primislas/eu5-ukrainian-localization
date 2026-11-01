@@ -85,7 +85,7 @@
   cas_dismantled_forts_salvage: "Розібрані гранадські укріплення"
   opinion_dismantled_our_forts: "Розібрані наші укріплення"
   cas_reduce_granadan_sovereignty: "Обмежити гранадський суверенітет"
-  cas_reduce_granadan_sovereignty_desc: "Вчинивши тиск на нашого #L [GetCountry('GRA').GetAdjective|l]ого#! #TOOLTIP:SUBJECT_TYPE,vassal,X #L васала#!#!, ми позбавимо його частини незалежних установ та приєднаємо чиновників його [GetCountry('GRA').Custom('rank_ua_GEN')|l] до нашої власної ієрархії. Однак у результаті цього [GetCountry('GRA').GetGovernment.GetCourtTitle] [GetCountry('GRA').Custom('CL_GEN')] почне ставитися до нас суттєво гірше, а узи вірности стануть крихкими."
+  cas_reduce_granadan_sovereignty_desc: "Вчинивши тиск на #ONCLICK:COUNTRY,[GetCountry('GRA').GetKey] #TOOLTIP:COUNTRY,[GetCountry('GRA').GetKey],X [GetCountry('GRA').Custom('CL_ACC')|L]#!#!, ми позбавимо їх частини незалежних установ та приєднаємо чиновників їхнього [GetCountry('GRA').Custom('rank_ua_GEN')|l] до нашої власної ієрархії. Однак у результаті цього [GetCountry('GRA').GetGovernment.GetCourtTitle] [GetCountry('GRA').Custom('CL_GEN')] почне ставитися до нас суттєво гірше, а узи вірности стануть крихкими."
   BFTS_REDUCE_SOVEREIGNTY_REQUIRES_HOLD: "[GetCountry('GRA').GetName] має бути нашим васалом, або ж наш вплив у протоці має сягнути #Y панування#!"
   opinion_pressured_our_sovereignty: "Вчинено тиск на наш суверенітет"
   battle_for_the_strait_sovereignty_consolidated: "Суверенітет над #ONCLICK:COUNTRY,[GetCountry('GRA').GetKey] #TOOLTIP:COUNTRY,[GetCountry('GRA').GetKey],X [GetCountry('GRA').Custom('CL_INST')|L]#!#! закріплено."
