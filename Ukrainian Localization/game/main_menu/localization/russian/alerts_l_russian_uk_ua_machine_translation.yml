@@ -157,7 +157,7 @@
   ALERT_CABINET_ENTRY: "$BULLET_WITH_TAB$[CABINET.GetName]"
   ALERT_NON_CROWN_ESTATE_IN_CABINET_TITLE: "Радник з іншого стану"
   ALERT_NON_CROWN_ESTATE_IN_CABINET: "Ці [Concept('characters', 'персонажі')|e] призначені до ради не зі [Concept('estates', 'стану')|e] #TOOLTIP:ESTATE_TYPE,crown_estate,X #L правителів#!#!:"
-  ALERT_CABINET_MEMBER_ENTRY: "$BULLET_WITH_TAB$[CHARACTER.GetName]"
+  ALERT_CABINET_MEMBER_ENTRY: "$LEFT$: $VALUE|V2%$ @power!"
   ALERT_NO_CURRENT_RESEARCH_TITLE: "Дослідження не проводяться"
   ALERT_NO_CURRENT_RESEARCH: "Не досліджується жоден [Concept('advances', 'поступ')|e]."
   ALERT_NEARLY_MAXED_OUT_STORED_RESEARCH_PROGRESS_TITLE: "Близька межа досліджень"

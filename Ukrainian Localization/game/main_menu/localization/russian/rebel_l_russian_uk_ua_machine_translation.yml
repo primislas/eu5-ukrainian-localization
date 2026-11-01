@@ -427,7 +427,7 @@
   REBEL_LEGEND_WILL_REVOLT: "Приєднається до повстання"
   REBEL_LEGEND_HAS_SUPPORT: "Отримує підтримку повстанців"
   REBEL_LOCATION_FACTIONS_HEADER: "Бунтівні фракції:"
-  REBEL_MAPMODE_COUNTRY_TITLE: "Бунтівники в [Location.Custom('LR_PREP')|l] [Country.GetNameWithNoTooltip]"
+  REBEL_MAPMODE_COUNTRY_TITLE: "Бунтівники в [Country.Custom('CL_PREP')]"
   REBEL_FACTION_MAPMODE_ENTRY: "#T [REBEL.GetName] ($PROGRESS|%$)#!"
   REBEL_FACTION_LOCATION_ENTRY: "[LOCATION.GetName]: $POP|Y$ [Concept('people', 'ос.')|e]"
   REBEL_LEGEND_SELECTED_COUNTRY: "Немає активних бунтівників"
