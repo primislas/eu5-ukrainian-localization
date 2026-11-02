@@ -36,7 +36,7 @@
   INDUSTRY_PROMOTION_COUNTRY_LABEL: "Для країни:"
   INDUSTRY_PROMOTION_FOR_AREA: "Для місцевостей області: $EFFECTS$"
   INDUSTRY_PROMOTION_FOR_COUNTRY: "Для країни: $EFFECTS$"
-  INDUSTRY_PROMOTION_NAME: "[INDUSTRY_TYPE.GetNameWithNoTooltip] у [Building.GetLocation.Custom('LR_PREP')|l] [AREA.GetNameWithNoTooltip]"
+  INDUSTRY_PROMOTION_NAME: "[INDUSTRY_TYPE.GetNameWithNoTooltip] в області [AREA.GetNameWithNoTooltip]"
   INDUSTRY_PROMOTION_TT: "[Concept('area', 'Область')|e]: [INDUSTRY_PROMOTION.GetArea.GetName]\n[INDUSTRY_PROMOTION.GetType.GetTooltip]"
   INDUSTRY_PROMOTION_DEBUG: "Підтримка галузі: $ID$"
   INDUSTRY_PROMOTION_NOT_CAPABLE: "@trigger_no! Ми не можемо підтримувати галузі промисловості."

@@ -564,7 +564,7 @@
   game_concept_dynasty_founder_desc: "Засновник цієї [Concept('dynasty', 'династії')|e]."
   game_concept_dynasty_head: "Глава династії"
   game_concept_dynasty_head_desc: "Це найповажніший і найзначущий [Concept('character', 'персонаж')|e] у [Concept('dynasty', 'династії')|e]. [Concept('dialect', 'Діалект')|e] династії визначається діалектом її глави. Деякі [Concept('events', 'події')|e] та інші ігрові механіки можуть вимагати участі глави династії."
-  game_concept_dynasty_seat: "Резиденція династії"
+  game_concept_dynasty_seat: "Осідок династії"
   game_concept_dynasty_seat_desc: "У кожної династії в певній [Concept('location', 'місцевості')|e] є своє родове помістя. У [Concept('locations', 'місцевостях')], де розташовуються такі помістя, живе більше #TOOLTIP:POPTYPE,nobles,X #L знаті#!#!."
   game_concept_lowborn: "Простолюдин"
   game_concept_lowborn_desc: "Це [Concept('character', 'персонаж')|e], який не належить до жодної вартої уваги [Concept('dynasty', 'династії')|e]."

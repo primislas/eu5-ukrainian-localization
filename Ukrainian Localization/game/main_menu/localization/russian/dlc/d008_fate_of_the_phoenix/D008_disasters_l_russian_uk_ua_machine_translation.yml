@@ -17,7 +17,7 @@
   fate_of_the_phoenix.2.b: "Відновимо ринки та склади."
   building_set_to_max_level_tt: "Рівень [Concept('building', 'споруди')|e] буде підвищено до максимального"
   fate_of_the_phoenix.3.title: "$fate_of_the_phoenix.2.title$"
-  fate_of_the_phoenix.3.desc: "[target_location.GetRank.GetNameWithNoTooltip] [target_location.GetName] — прихисток імператорів та гарант спадкоємності влади після катастрофи 1204 року — повертається в рідну гавань. Ці стіни захищали вигнаних правителів [ROOT.GetCountry.Custom('rank_ua_GEN')|l], служили оплотом закону та давали надію на майбутнє. Їх відновлення має глибоко символічне значення. [ROOT.GetCountry.GetFlavorRank] відроджу[ROOT.GetCountry.Custom('endrank_yeyut')]ся з праху та попелу."
+  fate_of_the_phoenix.3.desc: "[target_location.GetRank.GetNameWithNoTooltip] [target_location.GetName] — прихисток імператорів та гарант спадкоємности влади після катастрофи 1204 року — повертається під стяг імперії. Ці стіни захищали вигнаних правителів [ROOT.GetCountry.Custom('rank_ua_GEN')|l], служили оплотом закону та давали надію на майбутнє. Їх відновлення має глибоко символічне значення. [ROOT.GetCountry.GetFlavorRank] відроджу[ROOT.GetCountry.Custom('endrank_yeyu')]ться з праху та попелу."
   fate_of_the_phoenix.3.a: "[ROOT.GetCountry.GetGovernment.GetRulerOrRegent.GetNameWithNoTooltip] особисто куруватиме цей проєкт!"
   fate_of_the_phoenix.3.b: "Це метафора відродження імперії!"
   fate_of_the_phoenix.3.c: "Час відновити нашу владу над Анатолією!"

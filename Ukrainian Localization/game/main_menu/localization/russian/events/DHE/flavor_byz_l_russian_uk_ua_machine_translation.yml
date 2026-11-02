@@ -177,7 +177,7 @@
   flavor_byz.27.a: "Зараз у нас немає коштів на художників."
   flavor_byz.27.b: "[ROOT.GetCountry.GetAdjectiveWithNoTooltip]а скарбниця покриє всі витрати!"
   flavor_byz.27.b.entry: "Наша скарбниця покриє всі видатки!"
-  flavor_byz.27.c: "Нехай [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] сплат[ROOT.GetCountry.Custom('nobles_ytyat')] усі витрати."
+  flavor_byz.27.c: "Нехай [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')|l] візьм[ROOT.GetCountry.Custom('nobles_eut')] це на власний кошт."
   flavor_byz.27.c.entry: "Нехай знать візьме на свій кошт."
   flavor_byz.27.d: "[target_location.GetNameWithNoTooltip] стане колискою #TOOLTIP:INSTITUTION,renaissance,X #L Відродження#!#!."
   flavor_byz.27.d.entry: "Ця місцевість стане колискою Відродження."
