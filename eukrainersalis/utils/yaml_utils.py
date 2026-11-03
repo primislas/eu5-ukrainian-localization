@@ -1,6 +1,7 @@
 import asyncio
 import os
 import re
+from pathlib import Path
 
 import aiofiles
 import yaml
@@ -67,19 +68,24 @@ NoBoolSafeLoader.yaml_implicit_resolvers = {
 }
 
 
-def load_eu5_yaml(file_path: str) -> dict:
+def localization_from_yaml(data: str) -> dict:
+    return yaml.load(data, Loader=NoBoolSafeLoader)
+
+
+def load_eu5_yaml(file_path: str | Path) -> dict:
     with open(file_path, "r") as file_handle:
-        return yaml.load(file_handle, Loader=NoBoolSafeLoader)
+        content_string = file_handle.read()
+        return localization_from_yaml(content_string)
 
 
 async def load_eu5_yaml_async(file_path: str) -> dict:
     async with aiofiles.open(file_path, "r") as file_handle:
         content_str = await file_handle.read()
-        return yaml.load(content_str, Loader=NoBoolSafeLoader)
+        return localization_from_yaml(content_str)
 
 
-def write_eu5_localization_yaml(data: dict, output_file_path: str, indent: int = 2) -> int:
-    dumped = yaml.dump(
+def localization_to_yaml(data: dict, indent: int = 2) -> str:
+    return yaml.dump(
         data,
         Dumper=DoubleQuotedDumper,
         allow_unicode=True,
@@ -87,19 +93,16 @@ def write_eu5_localization_yaml(data: dict, output_file_path: str, indent: int =
         width=float('inf'),
         indent=indent,
     )
+
+
+def write_eu5_localization_yaml(data: dict, output_file_path: str | Path, indent: int = 2) -> int:
+    dumped = localization_to_yaml(data, indent)
     with open(output_file_path, "w", encoding="utf-8-sig") as output_file_handle:
         return output_file_handle.write(dumped.strip())
 
 
 async def write_eu5_localization_yaml_async(data: dict, output_file_path: str, indent: int = 2) -> int:
-    dumped = yaml.dump(
-        data,
-        Dumper=DoubleQuotedDumper,
-        allow_unicode=True,
-        sort_keys=False,
-        width=float('inf'),
-        indent=indent,
-    )
+    dumped = localization_to_yaml(data, indent)
     await asyncio.to_thread(os.makedirs, os.path.dirname(output_file_path), exist_ok=True)
     async with aiofiles.open(output_file_path, "w", encoding="utf-8-sig") as output_file_handle:
         return await output_file_handle.write(dumped.strip())

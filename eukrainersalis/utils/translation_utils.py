@@ -5,7 +5,8 @@ from enum import StrEnum
 from pathlib import Path
 
 from eukrainersalis.utils.log_utils import logger
-from eukrainersalis.utils.yaml_utils import write_eu5_localization_yaml_async, load_eu5_yaml_async, load_eu5_yaml
+from eukrainersalis.utils.yaml_utils import write_eu5_localization_yaml_async, load_eu5_yaml_async, load_eu5_yaml, \
+    write_eu5_localization_yaml
 
 
 class Language(StrEnum):
@@ -34,7 +35,7 @@ class SystemInstruction(StrEnum):
 @dataclass
 class LocFile:
     """Encompasses a file path and keys that need to be processed."""
-    file_path: str
+    file_path: str | Path
     selected_keys: list[str] = field(default_factory=list)
     content: dict[str, dict[str, str]] = field(default_factory=dict)
     language: Language = Language.ENGLISH
@@ -43,12 +44,15 @@ class LocFile:
     def load(self) -> "LocFile":
         if not self.content:
             self.content = load_eu5_yaml(self.file_path) or {}
-            lang = os.path.basename(self.file_path).split("_l_")[-1].split(".")[0]
+            lang = Path(self.file_path).name.split("_l_")[-1].split(".")[0]
             self.language = Language(lang)
         return self
 
+    def save(self):
+        write_eu5_localization_yaml(self.content, self.file_path)
+
     def name(self) -> str:
-        return os.path.basename(self.file_path)
+        return Path(self.file_path).name
 
     def contains(self, key: str) -> bool:
         return key in self.selected_keys
@@ -120,7 +124,7 @@ class TranslationLocKeyFileManager:
         self._file_by_loc_key: dict[str, LocFile] = {}
         self._file_by_file_path: dict[str, LocFile] = {}
         for loc_file in loc_files:
-            self._file_by_file_path[loc_file.file_path] = loc_file
+            self._file_by_file_path[str(loc_file.file_path)] = loc_file
             for loc_key in loc_file.selected_keys:
                 self._file_by_loc_key[loc_key] = loc_file
 
@@ -144,7 +148,7 @@ class TranslationLocKeyFileManager:
     async def write_translated_keys(self, translated_keys: dict[str, str]) -> list[LocFile]:
         loc_files = self.add_translated_keys(translated_keys)
         for loc_file in loc_files:
-            file_name = os.path.basename(loc_file.file_path)
+            file_name = Path(loc_file.file_path).name
             logger.info(f"Translated {len(loc_file.processed_keys)}/{len(loc_file.selected_keys)} keys in {file_name}")
             await write_eu5_localization_yaml_async(loc_file.content, loc_file.file_path)
         return loc_files

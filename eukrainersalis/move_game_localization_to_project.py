@@ -62,9 +62,10 @@ def remove_deleted_localizations(source_dir: Path, target_dir: Path, languages: 
             if "_ua_end_" in file:
                 # Keeping ending files close to source because it's just more convenient to manage
                 continue
-            mtr_source_file = str(source_file).replace("_l_russian_uk_ua_machine_translation", "_l_russian")
-            if not os.path.exists(mtr_source_file):
-                logger.info(f"Deleting {rel}")
+            mtr_ru_source_file = str(source_file).replace("_l_russian_uk_ua_machine_translation", "_l_russian")
+            mtr_en_source_file = mtr_ru_source_file.replace("_l_russian", "_l_english").replace("/russian/", "/english/")
+            if not (os.path.exists(mtr_ru_source_file) or os.path.exists(mtr_en_source_file)):
+                logger.info(f"Deleting removed {rel}")
                 os.remove(file)
         elif not os.path.exists(source_file):
             logger.info(f"Deleting {rel}")

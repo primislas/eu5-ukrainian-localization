@@ -1,6 +1,5 @@
 import asyncio
 import copy
-import json
 import os
 import re
 from functools import reduce
@@ -9,7 +8,7 @@ from typing import Tuple
 
 from dotenv import load_dotenv
 
-from eukrainersalis.translators.gemini_translator import GeminiTranslator
+from eukrainersalis.translators.gemini_translator import GeminiTranslator, TranslatorEncoder, JSONLTranslatorEncoder
 from eukrainersalis.translators.translator_api import Translator
 from eukrainersalis.utils.file_utils import list_localization_files, project_dir
 from eukrainersalis.utils.log_utils import logger
@@ -239,19 +238,21 @@ async def translate_and_save_batch(
         batch_idx: int,
         total_batches: int,
         file_name: str,
+        encoder: TranslatorEncoder = JSONLTranslatorEncoder(),
 ) -> TranslationResult:
     """Translate one batch and immediately save progress to file."""
     batch_size = len(batch)
     result = TranslationResult(total_records=batch_size, total_submitted_records=batch_size)
     async with api_semaphore:
-        lines = [json.dumps({k: v}, ensure_ascii=False) for k, v in batch]
+        # lines = [json.dumps({k: v}, ensure_ascii=False) for k, v in batch]
         try:
-            unrefined_lines = lines
+            # unrefined_lines = lines
             # unrefined_lines = await translator.translate_batch_async(lines)
             # refining translation - 2nd pass works as a Ukrainian editor with the current
             # system instructions. The same instructions are used to take advantage of
             # instruction cache and cost optimization.
-            translated_lines = await translator.translate_batch_async(unrefined_lines)
+            text = encoder.encode(batch)
+            translated_text = await translator.translate_batch_async(text)
         except Exception as e:
             logger.error(f"Batch {batch_idx + 1}/{total_batches} of {file_name} failed: {e}")
             result.add_error(e)
@@ -259,26 +260,15 @@ async def translate_and_save_batch(
 
     successful_translations = 0
     async with write_lock:
-        for line in translated_lines:
-            line = translation_postprocessing(line)
-            lkv: dict[str, str] = {}
-            try:
-                lkv = json.loads(line)
-            except Exception:
-                try:
-                    # sometimes running into failing escape sequences
-                    line = line.replace("\\", "\\\\")
-                    lkv = json.loads(line)
-                except Exception as e:
-                    logger.error(f"Expected a JSON but received: " + line)
-                    result.add_error(e)
-            if lkv:
-                for k, v in lkv.items():
-                    if len(v) == 0 and len(localization.get(k, "")) > 0:
-                        translated_localization[k] = POSTEDIT_EMPTY_TRANSLATION
-                    else:
-                        translated_localization[k] = v
-                        successful_translations += 1
+        # line = translation_postprocessing(line)
+        lkv, errors = encoder.decode(translated_text)
+
+        for k, v in lkv.items():
+            if len(v) == 0 and len(localization.get(k, "")) > 0:
+                translated_localization[k] = POSTEDIT_EMPTY_TRANSLATION
+            else:
+                translated_localization[k] = v
+                successful_translations += 1
 
         await write_eu5_localization_yaml_async(translated_content, output_file_path)
         logger.debug(f"Saved batch {batch_idx + 1}/{total_batches} of {file_name}")

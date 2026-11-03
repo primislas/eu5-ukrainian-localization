@@ -25,11 +25,29 @@ goods_grammatical_case_output_file_path = project_mod_dir / "main_menu" / "local
 modded_estate_localization_file_path = project_mod_dir / "main_menu" / "localization" / "russian" / "ua_estate_l_russian_uk_ua_machine_translation.yml"
 customized_estate_ending_file_path = project_mod_dir / "main_menu" / "localization" / "russian" / "assets" / "ua_estates_ending_l_russian_uk_ua_machine_translation.yml"
 generated_estate_ending_file_path = project_mod_dir / "main_menu" / "localization" / "russian" / "ua_estates_ending_l_russian_uk_ua_machine_translation.yml"
+generated_country_names_file_path = project_mod_dir / "main_menu" / "localization" / "russian" / "380_ua_country_names_l_russian_uk_ua_machine_translation.yml"
 estate_ending_custom_loc_file_path = custom_localization_mod_dir_path / "380_ua_custom_loc_estates_end.txt"
 
 tag_grammatical_cases_file_path = project_mod_dir / "main_menu" / "localization" / "russian" / "replace" / "ua_countries_grammatical_cases_l_russian_uk_ua_machine_translation.yml"
 
-system_instructions_ru_ua_file_path = project_script_resources_dir / "instructions" / "ru_ua.txt"
+instructions_dir = project_script_resources_dir / "instructions"
+system_instructions_ru_ua_file_path = instructions_dir / "ru_ua.txt"
+skill_instructions_dir = instructions_dir / "skills"
+refinement_instructions_dir = skill_instructions_dir / "refinement"
+
+game_dir = translation_dir / "game"
+main_menu_dir = game_dir / "main_menu"
+localization_dir = main_menu_dir / "localization"
+en_localization_dir = localization_dir / "english"
+ru_localization_dir = localization_dir / "russian"
+
+def get_localization_dir(language: Language = Language.ENGLISH) -> Path:
+    if language == Language.UK_UA_MACHINE_TRANSLATION:
+        language = Language.RUSSIAN
+    return localization_dir / language.value
+
+def get_main_menu_localization_file(file_name_prefix: str, language: Language = Language.ENGLISH) -> Path:
+    return get_localization_dir(language) / f"{file_name_prefix}_{language.file_suffix}.yml"
 
 
 game_dir = Path(os.getenv("GAME_DIR", "./"))
