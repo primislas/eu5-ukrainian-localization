@@ -158,7 +158,7 @@
   ALLIANCE_FAVORS_BASE: "Союз (щороку)"
   ALLIANCE_FAVORS_RELATIVE_STRENGTH: "Відносна військова міць (щороку)"
   FAVOR_CHANGE_TT: "Базове значення: $BASE|Y$\n#L [COUNTRY.GetCulture.GetName]ий#! [Concept('cultural_influence', 'культурний вплив')|e] проти #L [TARGET_COUNTRY.GetCulture.GetName|l]ої#! [Concept('cultural_tradition', 'культурної спадщини')|e]: $CULTURE|+=2%$"
-  CURRY_FAVORSBUILD: "Країна $ACTOR$ активно шукає [Concept('favors', 'прихильності')|e] країни $RECIPIENT$. Країна $WHO$ щомісяця отримує $VAL|+=2$ од. Причини:\n"
+  CURRY_FAVORSBUILD: "Пошук [Concept('favors', 'прихильности')|e] країни $RECIPIENT$. Країна $WHO$ щомісяця отримує $VAL|+=2$ од. Причини:\n"
   CURRY_FAVORSBUILD_NOT: "Зараз [Concept('favors', 'прихильність')|e] між країнами $ACTOR$ і $RECIPIENT$ не змінюється."
   CURRY_FAVORS_DESC_TT: "У результаті країна $COUNTRY$ отримає $VAL|+=2$, а ми — $VAL2|+=$ до [Concept('favors', 'прихильності')|e] на місяць щодо одне одного.\n$LIMIT_DESC$"
   CURRY_FAVORSDESC: "Ми хочемо домогтися [Concept('favors', 'прихильности')|e] країни $COUNTRY$? Ми будемо отримувати $VAL|+=2$ до прихильности на місяць і зможемо витрачати її на допомогу цієї країни в різних дипломатичних починаннях."
