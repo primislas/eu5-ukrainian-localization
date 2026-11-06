@@ -5,11 +5,11 @@ from pathlib import Path
 from eukrainersalis.run_machine_translation import key_preprocessing, migrated_text_preprocessing
 from eukrainersalis.utils.file_utils import game_dir, translation_dir, list_localization_files, \
     custom_localization_game_dir_path, custom_localization_translation_dir_path, list_gui_files
+from eukrainersalis.utils.gui_file_generator import regenerate_gui_file_endings
 from eukrainersalis.utils.log_utils import simple_logger as logger
 from eukrainersalis.utils.migration_utils import normalize_double_quotes
 from eukrainersalis.utils.translation_utils import Language
 from eukrainersalis.utils.yaml_utils import load_eu5_yaml, write_eu5_localization_yaml
-
 
 _KEEP_AS_IS_FILES: set[str] = {
     "cw_localize_l_russian.yml",
@@ -63,7 +63,8 @@ def remove_deleted_localizations(source_dir: Path, target_dir: Path, languages: 
                 # Keeping ending files close to source because it's just more convenient to manage
                 continue
             mtr_ru_source_file = str(source_file).replace("_l_russian_uk_ua_machine_translation", "_l_russian")
-            mtr_en_source_file = mtr_ru_source_file.replace("_l_russian", "_l_english").replace("/russian/", "/english/")
+            mtr_en_source_file = mtr_ru_source_file.replace("_l_russian", "_l_english").replace("/russian/",
+                                                                                                "/english/")
             if not (os.path.exists(mtr_ru_source_file) or os.path.exists(mtr_en_source_file)):
                 logger.info(f"Deleting removed {rel}")
                 os.remove(file)
@@ -199,7 +200,8 @@ def normalize_localization_files(source_dir: Path):
             validate_and_fix_localization_file(Path(file))
             content = load_eu5_yaml(file)
             localization = content.get(Language.RUSSIAN.lang_key, {}) or {}
-            migrated_localization = {key_preprocessing(k): migrated_text_preprocessing(v) for k, v in localization.items()}
+            migrated_localization = {key_preprocessing(k): migrated_text_preprocessing(v) for k, v in
+                                     localization.items()}
             content[Language.RUSSIAN.lang_key] = migrated_localization
             write_eu5_localization_yaml(content, file, indent=1)
         except Exception as e:
@@ -213,7 +215,9 @@ def rearrange_keys():
         en_content = load_eu5_yaml(file_path)
         en_loc = en_content.get(Language.ENGLISH.lang_key) or {}
 
-        ua_file_path = file_path.replace("/english/", "/russian/").replace(Language.ENGLISH.file_suffix, Language.UK_UA_MACHINE_TRANSLATION.file_suffix)
+        ua_file_path = file_path.replace("/english/", "/russian/").replace(Language.ENGLISH.file_suffix,
+                                                                           Language.UK_UA_MACHINE_TRANSLATION.file_suffix)
+        ua_fname = os.path.basename(ua_file_path)
         if not os.path.exists(ua_file_path):
             ua_content = {}
         else:
@@ -227,10 +231,10 @@ def rearrange_keys():
         ua_content[Language.UK_UA_MACHINE_TRANSLATION.lang_key] = rearranged_ua_loc
         if ua_loc:
             write_eu5_localization_yaml(ua_content, ua_file_path)
-            print(f"Rearranged {fname}")
+            print(f"Rearranged {ua_fname}")
         elif os.path.exists(ua_file_path):
             os.remove(ua_file_path)
-            print(f"Removed empty after rearrangement {fname}")
+            print(f"Removed empty after rearrangement {ua_fname}")
 
 
 if __name__ == "__main__":
@@ -242,3 +246,4 @@ if __name__ == "__main__":
     copy_gui_files(game_dir, translation_dir)
     remove_deleted_gui_files(game_dir, translation_dir)
     rearrange_keys()
+    regenerate_gui_file_endings()

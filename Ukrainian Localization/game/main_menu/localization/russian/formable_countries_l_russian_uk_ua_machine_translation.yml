@@ -280,7 +280,7 @@
   HUN_f: "$HUN$"
   HUN_f_desc: "Старе королівство Угорщина колись було головною силою #TOOLTIP:REGION,carpathia_region,X #L Карпатії#!#! і багато років тримало цей регіон у вузді. Але навіть найміцніші стіни не стоять вічно, і стара країна одного разу розпалася від чужоземних навал і захоплень земель. Однак тепер ми знову стоїмо на порозі величі, і час відродити Угорщину нарешті настав. Нехай же вона знову підніметься до вершин імперської величі, адже ми заслуговуємо на це!"
   KRS_f: "$KRS$"
-  KRS_f_desc: "Ці краї ще з давніх часів населені #TOOLTIP:CULTURE,$kurdish_culture_tt$,X #L курдським#!#! народом — першим серед інших великих представників династії #ONCLICK:COUNTRY,[GetCountry('HSN').GetKey] #TOOLTIP:COUNTRY,[GetCountry('HSN').GetKey],X [GetCountry('HSN').Custom('CL_GEN')|L]#!#!. Якщо об'єднати цих людей під єдиним стягом, вони зможуть нав'язати свою волю всьому регіону."
+  KRS_f_desc: "The [ShowCultureName('kurdish_culture')] people have always lived in autonomous tribes, without a central unifying figure to lead them. But if we were to establish a [ShowCultureNameWithNoTooltip('kurdish_culture')] nation, and to bring our scattered groups together as one, we could easily become the authoritative power in the region."
   SOI_f: "$SOI$"
   SOI_f_desc: "#TOOLTIP:CULTURE,$somali_culture_tt$,X #L Сомалійський#!#! народ ніколи не був прив'язаний до якогось одного місця: його можна знайти всюди — від просторів #TOOLTIP:CONTINENT,africa,X #L Африки#!#! до пісків #TOOLTIP:REGION,arabia_region,X #L Аравії#!#! та берегів Індії. Єдина #TOOLTIP:REGION,somalia_region,X #L сомалійська#!#! країна, поза всяких сумнівів, стане воістину могутньою, оскільки її народи пізнали світ."
   CRO_f: "$CRO$"

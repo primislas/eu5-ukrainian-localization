@@ -267,6 +267,7 @@
   BFTS_ACTION_REQUIRES_MOROCCO: "Ми маємо бути #ONCLICK:COUNTRY,[GetCountry('MOR').GetKey] #TOOLTIP:COUNTRY,[GetCountry('MOR').GetKey],X [GetCountry('MOR').Custom('CL_INST')|L]#!#!"
   BFTS_ACTION_REQUIRES_GRANADA: "Ми маємо бути #ONCLICK:COUNTRY,[GetCountry('GRA').GetKey] #TOOLTIP:COUNTRY,[GetCountry('GRA').GetKey],X [GetCountry('GRA').Custom('CL_INST')|L]#!#!"
   BFTS_ACTION_REQUIRES_GRANADA_OR_MOROCCO: "Ми маємо бути #ONCLICK:COUNTRY,[GetCountry('GRA').GetKey] #TOOLTIP:COUNTRY,[GetCountry('GRA').GetKey],X [GetCountry('GRA').Custom('CL_INST')|L]#!#! або #ONCLICK:COUNTRY,[GetCountry('MOR').GetKey] #TOOLTIP:COUNTRY,[GetCountry('MOR').GetKey],X [GetCountry('MOR').Custom('CL_INST')|L]#!#!"
+  BFTS_ACTION_GRANADA_NOT_RECENTLY_VICTORIOUS: "[GetCountry('GRA').GetName] has not defeated us in war within the last 10 years"
   BFTS_THRESHOLD_CAS_25_TITLE: "Кастильський вплив у Гранаді"
   BFTS_THRESHOLD_CAS_25_DESC: "#ONCLICK:COUNTRY,[GetCountry('CAS').GetKey] #TOOLTIP:COUNTRY,[GetCountry('CAS').GetKey],X [GetCountry('CAS').Custom('CL_INST')|L]#!#! може бути призначений [ShowCharacterInteractionName('cas_appoint_adelantado_mayor')], що зміцнює залоги провінцій на кордоні з #ONCLICK:COUNTRY,[GetCountry('GRA').GetKey] #TOOLTIP:COUNTRY,[GetCountry('GRA').GetKey],X [GetCountry('GRA').Custom('CL_INST')|L]#!#!. Якщо вплив країни слабшає, ця посада звільняється."
   BFTS_THRESHOLD_MOR_25_TITLE: "Марокканський вплив у Гранаді"
