@@ -866,7 +866,7 @@
   flavor_eng.122.tt3: "[ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] будуть раді бачити при дворі впливового купця"
   flavor_eng.122.b: "Нехай залишається депутатом."
   flavor_eng.122.tt4: "[thomas_cromwell.GetNameWithNoTooltip] і надалі представлятиме в Палаті громад інтереси стану «[ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')]»"
-  flavor_eng.122.tt5: "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] з ворожістю ставитим[ROOT.GetCountry.Custom('clergy_yeyut')]ся до спроб Томаса Кромвеля законодавчо обмежити вплив церкви"
+  flavor_eng.122.tt5: "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] з ворожістю ставитим[ROOT.GetCountry.Custom('clergy_etsautsa')] до спроб Томаса Кромвеля законодавчо обмежити вплив церкви"
   flavor_eng.122.historical_info: "Томас Кромвель — вправний державний діяч та адвокат. За короля Генріха VIII обіймав посаду першого радника. Попри своє просте походження, при дворі користувався чималим впливом, оскільки зумів вразити кардинала Томаса Волсі. Згодом став одним із наймогутніших людей у країні. Кромвель відіграв важливу роль в англійській Реформації та розпуску монастирів, які позбулися накопичених багатств і земель на користь корони."
   flavor_eng.124.title: "Доля Анни Болейн"
   flavor_eng.124.entry: "Доля Анни Болейн"

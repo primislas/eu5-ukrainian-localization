@@ -2304,7 +2304,7 @@
   war_goal_superiority_livonian_wars_desc: "$generic_war_goal_superiority_desc$"
   war_goal_recover_defaulted_debt_wargoal: "$generic_war_goal_superiority$"
   war_goal_recover_defaulted_debt_wargoal_desc: "$generic_war_goal_superiority_desc$"
-  war_goal_enforce_tariff_exemption: "Enforce Tariff Exemption"
+  war_goal_enforce_tariff_exemption: "Домогтися звільнення від мит"
   war_goal_enforce_tariff_exemption_desc: "$generic_war_goal_superiority_desc$"
   war_goal_humiliate: "Приниження"
   war_goal_independence: "$generic_war_goal_independence$"

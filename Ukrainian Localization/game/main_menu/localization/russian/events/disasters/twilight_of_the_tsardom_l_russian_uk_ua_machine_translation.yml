@@ -30,7 +30,7 @@
   twilight_of_the_tsardom.7.b: "Нам це не по кишені."
   twilight_of_the_tsardom.7.c: "Придушимо бунт, поки він не розрісся!"
   twilight_of_the_tsardom.8.title: "Бунтівний васал"
-  twilight_of_the_tsardom.8.desc: "До столиці дійшли чутки, що верхівка суспільства в #ONCLICK:COUNTRY,[subject_target.GetKey] #TOOLTIP:COUNTRY,[subject_target.GetKey],X [subject_target.Custom('CL_PREP')|L]#!#! все рідше починає нам коритися; подейкують навіть, що там склалася змова, учасники якої хочуть випробувати межі дозволеного. І хоча справа поки не дійшла до відкритого бунту, довірені джерела повідомляють, що [subject_target.GetGovernment.GetCourtTitle|l] бунтівників усе більше схиля[ROOT.GetCountry.Custom('nobles_yeyut')]ся до думки оголосити незалежність."
+  twilight_of_the_tsardom.8.desc: "До столиці дійшли чутки, що верхівка суспільства в #ONCLICK:COUNTRY,[subject_target.GetKey] #TOOLTIP:COUNTRY,[subject_target.GetKey],X [subject_target.Custom('CL_PREP')|L]#!#! все рідше починає нам коритися; подейкують навіть, що там склалася змова, учасники якої хочуть випробувати межі дозволеного. І хоча справа поки не дійшла до відкритого бунту, довірені джерела повідомляють, що [subject_target.GetGovernment.GetCourtTitle|l] бунтівників усе більше схиля[ROOT.GetCountry.Custom('nobles_yeyu')]ться до думки оголосити незалежність."
   twilight_of_the_tsardom.8.a: "Підемо на поступки, щоб умиротворити їх."
   twilight_of_the_tsardom.8.b: "Зараз ми мало що можемо зробити."
   twilight_of_the_tsardom.9.title: "Залога без платні"

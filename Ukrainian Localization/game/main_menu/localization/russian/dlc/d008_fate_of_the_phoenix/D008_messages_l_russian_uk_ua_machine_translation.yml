@@ -159,7 +159,7 @@
   OTHER_PERFORMS_mend_schism_ACTION_SETUP: "Коли інша [Concept('country', 'країна')|e] намагається усунути розкол віри"
   OTHER_PERFORMS_mend_schism_ACTION_HEADER: "$MESSENGER$"
   OTHER_PERFORMS_mend_schism_ACTION_TITLE: "Подолання розколу!"
-  OTHER_PERFORMS_mend_schism_ACTION_EFFECTS: "[SCOPE.sCountry('actor').GetLongName] користу[SCOPE.sCountry('actor').Custom('endlong_yeyut')]ся своїм впливом на пентархію, щоб скоротити прірву, що розділила #TOOLTIP:RELIGIONGROUP,christian,X #L християн#!#!."
+  OTHER_PERFORMS_mend_schism_ACTION_EFFECTS: "[SCOPE.sCountry('actor').GetLongName] користу[SCOPE.sCountry('actor').Custom('endlong_yeyu')]ться своїм впливом на пентархію, щоб скоротити прірву, що розділила #TOOLTIP:RELIGIONGROUP,christian,X #L християн#!#!."
   OTHER_PERFORMS_mend_schism_ACTION_LOG: "[SCOPE.sCountry('actor').GetLongName] скориста[SCOPE.sCountry('actor').Custom('endlong_vlaloly')]ся своїм впливом на пентархію, щоб скоротити прірву, що розділила #TOOLTIP:RELIGIONGROUP,christian,X #L християн#!#!."
   OTHER_PERFORMS_mend_schism_ACTION_BTN1: "Гаразд"
   OTHER_PERFORMS_mend_schism_ACTION_BTN2: "Гаразд"
