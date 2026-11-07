@@ -119,7 +119,7 @@
   institution_events.92.title: "Богословські суперечки"
   institution_events.92.desc: "Богословські питання #L [ROOT.GetCountry.GetReligion.GetGroup.GetAdjective|l]ої#! віри стали причиною безлічі запеклих і гарячих суперечок при #L [ROOT.GetCountry.GetAdjective|l]ому#! дворі. Зокрема [true_faith_advisor.GetName] і [false_faith_advisor.GetName], два найдовіреніші радники, яких [Select_CString(target_ruler.IsFemale,'прийняла', 'прийняв')] до себе на службу [target_ruler.GetHimHerFormal] [target_ruler.GetName], постійно сперечаються про численні аспекти того, що становить добре #L [ROOT.GetCountry.GetReligion.GetGroup.GetAdjective|l]е#! життя. [ROOT.GetCountry.GetGovernment.GetRulerTitle] мало цінує подібні розмови, а члени [Select_CString(target_ruler.IsFemale,'її', 'його')] ради вважають своїм обов’язком переконати один одного в істинності своєї віри. У підсумку вони звернулися до [Select_CString(target_ruler.IsFemale,'нашої мудрої правительки', 'нашого мудрого правителя')], щоб знайти рішення їхніх нескінченних суперечок."
   institution_events.92.a: "[Select_CString(true_faith_advisor.IsFemale,'Права', 'Прав')] [true_faith_advisor.GetNameWithNoTooltip]."
-  institution_events.92.b: "Очевидно, що [Select_CString(true_faith_advisor.IsFemale,'права', 'прав')] [false_faith_advisor.GetNameWithNoTooltip]."
+  institution_events.92.b: "Очевидно, що [Select_CString(false_faith_advisor.IsFemale, 'права', 'правий')] [false_faith_advisor.GetNameWithNoTooltip]."
   institution_events.92.c: "Спробуємо знайти компроміс."
   institution_events.92.d: "Сьогодні [ROOT.GetCountry.GetGovernment.GetCabinetTitle|l] позбудеться одразу двох радників."
   institution_events.100.title: "Велика подорож"

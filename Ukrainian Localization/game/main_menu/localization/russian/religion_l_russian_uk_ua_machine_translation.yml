@@ -865,7 +865,7 @@
   remove_cardinal_tt: "З позначеної [Concept('location', 'місцевості')|e] буде прибрана #TOOLTIP:BUILDING_TYPE,seat_of_cardinal,X #L кафедра кардинала#!#!"
   invite_foreign_cleric: "Залучити чужоземного священнослужителя"
   invite_foreign_cleric_desc: "До нас направлять досвідченого священника з іншої країни. Місцев[ROOT.GetCountry.Custom('clergy_yiaei')] [actor.GetGovernment.GetEstateName('clergy_estate')|l] буд[actor.Custom('clergy_eut')] незадоволен[actor.Custom('clergy_yiaei')], проте знання чужоземця можуть виявитися безцінними."
-  invite_foreign_cleric_tt: "До нашої [Concept('country', 'країни')|e] прибуде [Concept('character', 'персонаж')|e]-іноземець #L [actor.GetReligion.GetAdjective|l]ої#! віри зі стану #TOOLTIP:ESTATE_TYPE,clergy_estate,X #L духовенства#!#!. У нього високий [Concept('adm', 'господарський хист')|e], середній [Concept('dip', 'перемовницький хист')|e] і низький [Concept('mil', 'військовий хист')|e]."
+  invite_foreign_cleric_tt: "До нашого [Concept('court', 'двору')|e] прибуде [Concept('character', 'персонаж')|e] зі стану #TOOLTIP:ESTATE_TYPE,clergy_estate,X #L духовенства#!#! з обраної [Concept('country', 'країни')|e], що поліпшить взаємну [Concept('opinion', 'думку')|e]"
   invite_foreign_cleric_no_countries_tt: "Інша #L [recipient.GetAdjective|l]а#! [Concept('country', 'країна')|e] в межах [Concept('diplomatic_range', 'посольської досяжности')|e]"
   anti_reformation: "Відкидання Реформації"
   anti_reformation_severe: "Всеосяжна протидія Реформації"

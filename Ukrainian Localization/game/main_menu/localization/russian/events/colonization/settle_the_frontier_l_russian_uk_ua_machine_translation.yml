@@ -4,7 +4,7 @@
   settle_the_frontier.1.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
   settle_the_frontier.1.a.tt: "[recipient.GetName] спробує оселитися в [target.Custom('LR_PREP')|l] [target.GetName]. На це може піти до #Y 10 років#!"
   settle_the_frontier.2.title: "Подорож до [target.Custom('LR_GEN')|l] [target.GetNameWithNoTooltip]"
-  settle_the_frontier.2.desc: "[from_province.GetName] — столична провінція #ONCLICK:COUNTRY,[actor.GetKey] #TOOLTIP:COUNTRY,[actor.GetKey],X [actor.Custom('CL_GEN')|L]#!#!, але деякі її жителі хочуть спробувати щастя в [target_province.Custom('LR_PREP')|l] [target_province.GetName] — на новій землі, яку зараз досліджує [recipient.GetName]."
+  settle_the_frontier.2.desc: "[from_province.GetName] — столична провінція #ONCLICK:COUNTRY,[actor.GetKey] #TOOLTIP:COUNTRY,[actor.GetKey],X [actor.Custom('CL_GEN')|L]#!#!, але деякі її жителі хочуть спробувати щастя в [target.Custom('LR_PREP')|l] [target.GetName] — на новій землі, яку зараз досліджує [recipient.GetName]."
   settle_the_frontier.2.a: "Дозволимо їм почати нове життя в цій провінції."
   settle_the_frontier.2.b: "Покращимо їхнє становище в столиці."
   settle_the_frontier.2.b.tt: "Наступного року [Concept('pops', 'громади')|e] не мігруватимуть до [target.Custom('LR_GEN')|l] [target.GetName]"

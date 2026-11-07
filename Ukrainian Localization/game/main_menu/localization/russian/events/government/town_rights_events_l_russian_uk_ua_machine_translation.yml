@@ -111,7 +111,7 @@
   town_rights_events.18.c: "Жителям провінції доведеться змиритися зі спадом."
   town_rights_events.19.title: "Створення броварних стандартів у [target_location.Custom('LR_PREP')|l] [target_location.GetNameWithNoTooltip]"
   town_rights_events.19.desc: "Броварі #TOOLTIP:LOCATIONRANK,[target_location.Custom('LR_tt')],X [target_location.Custom('LR_GEN')|l]#!#! [target_location.GetName] узгодили та затвердили суворі правила виробництва, зберігання та продажу місцевого пива. Тепер відвідувачі шинків вкрай схвально відгукуються про якість пінного напою, а купці задовольняються його справними поставками. Завдяки грамотному підходу ремісники не лише принесли відомість [target_location.Custom('LR_ACC')|l], а й зробили свій внесок у порядок та процвітання навколишніх земель."
-  town_rights_events.19.a: "Впровадимо ці стандарти на всіх броварнях [target_location.Custom('LR_GEN')|l]."
+  town_rights_events.19.a: "Впровадимо ці стандарти на всіх броварнях [ROOT.GetCountry.Custom('rank_ua_GEN')|l]."
   town_rights_events.19.b: "Ці успіхи безсумнівно посприяють розвитку [ROOT.GetCountry.Custom('rank_ua_ACC')|l]"
   town_rights_events.19.c: "Наші [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')|l] високо оцінять ці досягнення."
   town_rights_events.20.title: "Броварні [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip] виснажують запаси збіжжя"

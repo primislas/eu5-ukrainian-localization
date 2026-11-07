@@ -14,7 +14,7 @@
   REBEL_PROGRESS_MODIFIER: "Модифікатор прогресу повстанців «$REBEL$»"
   RELATIVE_REBEL_SIZE: "Розмір заколоту відносно населення"
   REBEL_HOUSE_SUPPORT: "Підтримка династії [DYNASTY.GetName]: $VAL|2-=%$"
-  REBEL_POWER_OF_SUPPORT: "Базова [Concept('political_power', 'політична вага')|e] повстанців: $VAL|-2V$\nЗагальна [Concept('political_power', 'політична вага')|e] [Concept('primary_culture', 'панівної культури')|e]: #G −#!$SIZE|V2+$\nФактор [Concept('political_power', 'політичної ваги')|e] [Concept('primary_culture', 'панівної культури')|e]: $SIZE_FACTOR|V2+%$\nМасштаб: $SCALE|V2%$\nПовстанці отримують прогрес, якщо їхня політична вага перевершує $PERC|%2V$ політичної ваги панівної культури."
+  REBEL_POWER_OF_SUPPORT: "[Concept('political_power', 'Політична вага')|e] заколотників: $VAL|V2$\nПотрібна [Concept('political_power', 'політична вага')]: $REQUIRED_POWER|V2$\nНестача політичної ваги: $SHORTFALL|V2$\nЩомісячний поступ: $PROGRESS|+=2%$"
   REBEL_STALLED_CIVIL_WAR: "Зупинено через [Concept('civil_war', 'міжусобну війну')|e]."
   REBEL_STALLED_NOT_ENOUGH: "Зупинено через недостатню підтримку: #V +/−0.0%#!"
   REBEL_PROGRESS_ESTATE: "[Concept('estate_power', 'Станова влада')|e]: $VAL|2-=%$"

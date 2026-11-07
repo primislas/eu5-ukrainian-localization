@@ -458,7 +458,7 @@
   BUILDING_CONSTRUCTION_RISK_LABEL_RED_BUILDING_CANDIDATE: "#R #italic Високий ризик [SelectLocalization(BuildingCandidate.HasGoodsImpactedByConstruction, 'BUILDING_CONSTRUCTION_IMPACT_MARKER', '')]#!#!"
   BUILDING_CONSTRUCTION_IMPACT_MARKER: "*"
   BUILDING_CONSTRUCTION_IMPACT_WARNING: "На цьому [Concept('market', 'ринку')|e] триває активне будівництво, яке може змінити [Concept('prices', 'ціни')|e] і вплинути на [Concept('profit', 'прибутковість')|e] цього розширення в майбутньому."
-  BUILDING_CONSTRUCTION_IMPACT_MARKER_EXPLANATION: "Зірочка (*) поруч з іконкою означає, що на цьому [Concept('market', 'ринку')|e] триває активне будівництво, яке може змінити [Concept('prices', 'ціни')|e] і вплинути на [Concept('profit', 'прибутковість')|e] цього розширення в майбутньому."
+  BUILDING_CONSTRUCTION_IMPACT_MARKER_EXPLANATION: "Зірочка (*) поруч з іконкою означає, що на цьому [Concept('market', 'ринку')|e] триває будівництво, яке може змінити [Concept('prices', 'ціни')|e] на споживані та випущені спорудою товари ."
   BUILDING_CONSTRUCTION_PROFITABILITY_ESTIMATE_TEXT_TITLE: "Розширення споруди «[BuildingType.GetName]» на один рівень, якщо там застосовується спосіб «[GetBuildingExpansionProductionMethodsLabel(BuildingType.Self, Location.Self)]», за наступні пів року зможе змінити її прибутковість приблизно на [GetBuildingExpansionProfitabilityDrop(BuildingType.Self, Location.Self)|V2=+%]"
   CURRENT_PROFIT_BUILDING: "Поточний прибуток: $VAL|V=2+$@gold!"
   ESTIMATED_PROFIT_TARGET_PRICES_BUILDING_LABEL: "Очікувані ціни через 18 місяців з активним будівництвом"

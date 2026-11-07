@@ -219,7 +219,7 @@ def smart_compare_calls(left_calls: set[str], right_calls: set[str]) -> Tuple[se
 
             # plural declarations are a common source of differences
             shorter, longer = sorted([cl, cr], key=len)
-            if longer == shorter + "s" or longer == shorter + "_plural" or longer.endswith("ies") and shorter.endswith("y"):
+            if longer == shorter + "s" or longer == shorter + "es" or longer == shorter + "ing" or longer == shorter + "_plural" or longer.endswith("ies") and shorter.endswith("y"):
                 cleaned_up_left.discard(cl)
                 cleaned_up_right.discard(cr)
                 continue

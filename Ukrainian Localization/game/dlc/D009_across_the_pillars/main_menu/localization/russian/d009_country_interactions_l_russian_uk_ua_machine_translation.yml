@@ -12,7 +12,7 @@
   cas_encomienda_visitation_effect_text_past: "[SCOPE.sCountry('actor').GetName] відряди[SCOPE.sCountry('actor').Custom('end_vlaloly')] візитадора до енком’єнд #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').GetKey],X [SCOPE.sCountry('recipient').Custom('CL_GEN')|L]#!#!"
   PROPOSE_cas_encomienda_visitation: "Відрядити візитадора до енком’єнд країни $RECIPIENT$?\n\n$INFO$"
   cas_demand_war_entry: "Вимога про вступ у війну"
-  cas_demand_war_entry_desc: "Натиснути на #ONCLICK:COUNTRY,[GetCountry('GRA').GetKey] #TOOLTIP:COUNTRY,[GetCountry('GRA').GetKey],X [GetCountry('GRA').Custom('CL_ACC')|L]#!#! з вимогою вступити у війни, які зараз вед[GetCountry('CAS').Custom('end_eut')] [GetCountry('CAS').GetName]. Оскільки [GetCountry('CAS').GetNameWithNoTooltip] — провідна сила на осі «$influence_over_granada$», відмова малоймовірна."
+  cas_demand_war_entry_desc: "Натиснути на #ONCLICK:COUNTRY,[GetCountry('GRA').GetKey] #TOOLTIP:COUNTRY,[GetCountry('GRA').GetKey],X [GetCountry('GRA').Custom('CL_ACC')|L]#!#! з вимогою вступити у війни, які ми ведемо проти суперників по той бік Протоки. З нашим рівнем впливу на Гранаду, їхні посли не зможуть відмовити."
   dip_cas_demand_war_entry_CATEGORY: "CATEGORY_HOSTILE_ACTIONS"
   cas_demand_war_entry_act: "Вимагати від #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').GetKey],X [SCOPE.sCountry('recipient').Custom('CL_GEN')|L]#!#! приєднатися до наших воєн"
   cas_demand_war_entry_effect_text: "[SCOPE.sCountry('recipient').GetName] вступа[SCOPE.sCountry('recipient').Custom('end_yeyut')] у кожну війну, яку вед[SCOPE.sCountry('actor').Custom('end_eut')] [SCOPE.sCountry('actor').GetName]"

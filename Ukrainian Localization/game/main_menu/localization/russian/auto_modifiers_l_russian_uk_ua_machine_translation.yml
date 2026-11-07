@@ -60,7 +60,7 @@
   AUTO_MODIFIER_NAME_byz_roman_culture: "#TOOLTIP:CULTURE,$roman_culture_tt$,X #L Римська#!#! [Concept('primary_culture', 'панівна культура')|e]"
   AUTO_MODIFIER_NAME_byz_romance_culture: "[Concept('language', 'Мова')|e] [Concept('primary_culture', 'панівної культури')|e] — #TOOLTIP:LANGUAGE_FAMILY,romance_language_family,X #L романська#!#!"
   AUTO_MODIFIER_NAME_byz_capital_constantinople: "[Concept('capital', 'Столиця')|e] — #TOOLTIP:LOCATION,constantinople,X #L Константинополь#!#!"
-  AUTO_MODIFIER_NAME_byz_capital_rome: "[Concept('capital', 'Столиця')|e] — [ShowCityName('rome')]"
+  AUTO_MODIFIER_NAME_byz_capital_rome: "[Concept('capital', 'Столиця')|e] — [ShowLocationName('rome')]"
   AUTO_MODIFIER_NAME_byz_capital_balkans_or_anatolia: "[Concept('capital', 'Столиця')|e] в [Concept('regions', 'регіоні')|e] #TOOLTIP:REGION,balkan_region,X #L Балкани#!#! або #TOOLTIP:REGION,anatolia_region,X #L Анатолія#!#!"
   AUTO_MODIFIER_NAME_byz_capital_italy: "[Concept('capital', 'Столиця')|e] в [Concept('region', 'регіоні')|e] #TOOLTIP:REGION,italy_region,X #L Італія#!#!"
   AUTO_MODIFIER_NAME_byz_capital_eastern_europe: "[Concept('capital', 'Столиця')|e] в #TOOLTIP:SUB_CONTINENT,eastern_europe,X #L Східній Європі#!#!"

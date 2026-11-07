@@ -53,7 +53,7 @@
   flavor_ser.41.entry: "$flavor_ser.41.title$"
   flavor_ser.41.desc: "До нас дійшли звістки, що [target_character.GetName] [Select_CString(target_character.IsFemale,'залишила', 'залишив')] свій пост і по суті [Select_CString(target_character.IsFemale,'переметнулася', 'переметнувся')] на бік ворога в розпал військових дій. [Select_CString(target_character.IsFemale,'Її', 'Його')] зрада не буде прощена або забута. Подібну образу нашої влади можна змити тільки кров'ю!"
   flavor_ser.41.a: "[Select_CString(target_character.IsFemale,'Мерзенна зрадниця', 'Мерзенний зрадник')]!"
-  flavor_ser.50.title: "[ROOT.GetCountry.GetAdjectiveWithNoTooltip]ий «Законник»"
+  flavor_ser.50.title: "[target_character.GetNameWithNoTooltip] укладає «Законник»"
   flavor_ser.50.entry: "«Законник» Стефана Душана"
   flavor_ser.50.desc: "Нові завоювання та великі перемоги, які [Select_CString(target_character.IsFemale,'здобула', 'здобув')] [target_character.GetName], сприяли настанню доби небаченого процвітання. Але за всяким руйнуванням повинно слідувати відродження, і тому ми склали новий звід законів для більш справного врядування країною, що значно розрослася. Ухвалення цього законодавства призведе до радикальних змін в органах влади та до перевпорядкування наших провінцій по всьому Балканському краю."
   flavor_ser.50.a: "Наша велика держава потребує цих законів!"

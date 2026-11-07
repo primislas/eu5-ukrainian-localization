@@ -147,7 +147,7 @@
   flavor_fra.25.title: "Вражаюче проявлення могутності"
   flavor_fra.25.desc_common: "пропонує дотепний задум. У разі успіху #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_DAT')|L]#!#! вдасться не тільки продемонструвати своє багатство та могутність, а й налагодити стосунки з владою [target_root_country.Custom('CL_GEN')|L].\n\nБіля [target_root_country.GetAdjectiveWithNoTooltip|l]ого кордону відбудеться зустріч двох монархів. Для неї вже обрано місце — [summit_location.GetName]. Звісно, облаштовано все буде так, як і належить королівським особам.\n\nПропонується встановити розшиті золотом шатра або навіть звести тимчасовий палац."
   flavor_fra.25.desc: "Вірний радник #L [target_root_country.GetAdjective|l]ого#! двору $flavor_fra.25.desc_common$"
-  flavor_fra.25.desc_wolsey: "Хитрий радник [GetCharacter('eng_thomas_wolsey').GetName] $flavor_fra.25.desc_common$"
+  flavor_fra.25.desc_wolsey: "Хитрий радник [thomas_wolsey.GetName] $flavor_fra.25.desc_common$"
   flavor_fra.25.a: "Чудовий план."
   flavor_fra.25.tt1: "Найближчим часом на «полі золотої парчі» відбудеться зустріч, організована ціною величезних витрат"
   flavor_fra.25.tt2: "Завдяки такому дорогому заходу значущість [ROOT.GetCountry.Custom('CL_GEN')] на міжнародній арені підвищиться"

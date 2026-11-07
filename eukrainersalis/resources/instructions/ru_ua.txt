@@ -282,16 +282,15 @@ Ukrainian language allows to situationally change certain letters for better, sm
 Localization engine does not support grammatical cases for location, province, area, region names. If the name in a sentence is not in the nominative case, its translation should be prepended with the appropriate word - місцевість, провінція, область, регіон - in the appropriate case. For example:
     * build new lives in [target_province.GetName] -> почати нове життя у провінції [target_province.GetName]
     * reports of people from [origin_province.GetName] -> звістки про людей із провінції [origin_province.GetName]
-Note: DO NOT apply these instructions to estates (стани) and pop types! Estates will have their own separate treatment and are outside the scope of this run.
 
 Locations should use a dedicated location rank custom localization instead of "місцевість", if location scope is available and a non-Nominative case is required:
-    * miracle said to have occured in [target_location.GetName] -> диво, яке нібито сталося у [target_location.Custom('LR_PREP')] [target_location.GetName] (which will be resolved to "у містечку/поселенні Назва" by localization engine)
-    * palm irrigation within the [target_location.GetName] -> зрошення пальм у межах [target_location.Custom('LR_GEN')] [target_location.GetName]
-    * proven to be a major boon for the peasants of [target_location.GetNameWithNoTooltip] -> стало справжнім порятунком для селян [target_location.Custom('LR_GEN')] [target_location.GetNameWithNoTooltip]
-    * similar improvements can be made in the [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip] -> подібні поліпшення можна втілити і у [ROOT.GetCountry.GetCapital.Custom('LR_GEN')] [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]
-    ** Note that for capital scope it might be appropriate to replace location rank with the word "столиця", if it's appropriate within the context and won't lead to repetition: подібні поліпшення можна втілити і у столиці [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]
+    * miracle said to have occurred in [target_location.GetName] -> диво, яке нібито сталося у [target_location.Custom('LR_PREP')|l] [target_location.GetName] (which will be resolved to "у містечку/поселенні Назва" by localization engine)
+    * palm irrigation within the [target_location.GetName] -> зрошення пальм у межах [target_location.Custom('LR_GEN')|l] [target_location.GetName]
+    * proven to be a major boon for the peasants of [target_location.GetNameWithNoTooltip] -> стало справжнім порятунком для селян [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip]
+    * similar improvements can be made in the [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip] -> подібні поліпшення можна втілити і у [ROOT.GetCountry.GetCapital.Custom('LR_GEN')|l] [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]
+    ** Note that for capital scope it might be appropriate to replace location rank with the word "столиця", if it's appropriate within the context and won't lead to repetition: подібні поліпшення можна втілити й у столиці [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]
 This also applies specifically to location ranks, declared as "GetRank.GetName":
-    * [target_location.GetRank.GetName] -> [target_location.Custom('LR_DAT')]
+    * at [target_location.GetRank.GetName] -> у [target_location.Custom('LR_DAT')|l]
 Note that location ranks should be prefixed with "у" and not "в" when necessary, because they all resolve to names that start with consonants.
 
 If a specific name is declared, and its translated case is not nominative, a custom tooltip should be used to write it in the appropriate case in the form `#TOOLTIP:REGION,region_name,X #L Translated Name#!#!`. Below are some examples:
@@ -331,11 +330,13 @@ Tooltips can be used to apply grammatical cases or transform to adjective forms 
         ** !NOTE that religion specifically uses a special ID form in tooltip - `$judaism_tt$` instead of simple `judaism`
     * [ShowReligionGroupName('muslim')] -> #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламі#!#!
 
-    * [ShowVegetationName('desert')] -> #TOOLTIP:VEGETATION,desert,X #L пустельний#!#!
-    * gaining access to the [ShowScriptedGeographyName('mediterranean_sea_geography')] -> отримавши доступ до #TOOLTIP:SCRIPTED_GEOGRAPHY,mediterranean_sea_geography #L Середземного моря#!#!
+    * ShowVegetationName can be adapted with VEGETATION tooltip:
+        ** [ShowVegetationName('desert')] -> #TOOLTIP:VEGETATION,desert,X #L пустельний#!#!
+    * ShowScriptedGeographyName can be adapted with SCRIPTED_GEOGRAPHY tooltip:
+        ** gaining access to the [ShowScriptedGeographyName('mediterranean_sea_geography')] -> отримавши доступ до #TOOLTIP:SCRIPTED_GEOGRAPHY,mediterranean_sea_geography #L Середземного моря#!#!
     * make use of tooltips for specified buildings (ShowBuildingTypeName, ShowBuildingTypeNameWithNoTooltip):
-        * Maintain [ShowBuildingTypeName('maghreb_palm_irrigation')] -> Утримувати #TOOLTIP:BUILDING_TYPE,maghreb_palm_irrigation,X #L мережу зрошення пальм#!#!
-        * At a [ShowBuildingTypeName('caravanserai')] on the road east -> У #TOOLTIP:BUILDING_TYPE,caravanserai,X #L караван-сараї#!#! на шляху на схід
+        ** Maintain [ShowBuildingTypeName('maghreb_palm_irrigation')] -> Утримувати #TOOLTIP:BUILDING_TYPE,maghreb_palm_irrigation,X #L мережу зрошення пальм#!#!
+        ** At a [ShowBuildingTypeName('caravanserai')] on the road east -> У #TOOLTIP:BUILDING_TYPE,caravanserai,X #L караван-сараї#!#! на шляху на схід
     * make use of trade good tooltips freely (ShowGoodsName, ShowGoodsNameWithNoTooltip):
         ** [ShowGoodsName('good_name')] -> #TOOLTIP:GOODS,good_name,X #L good name translation#!#!
         ** not enough [ShowGoodsName('silk')] -> бракує #TOOLTIP:GOODS,silk,X #L шовку#!#!
@@ -344,11 +345,16 @@ Tooltips can be used to apply grammatical cases or transform to adjective forms 
         ** Some at [ROOT.GetCountry.GetGovernment.GetCourtTitle] marvel at how far the reach of the [GetInternationalOrganization('middle_kingdom').GetName] now extends. -> Дехто при дворі дивується тому, як далеко нині сягає рука #TOOLTIP:INTERNATIONAL_ORGANIZATION,$middle_kingdom_tt$,X #L Серединної Країни#!#!.
         ** знаходяться в самому серці германської #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської імперії#!#!
         ** other tributaries of the [GetUniqueInternationalOrganization('tatar_yoke').GetName] -> інші данники, що опинилися під #TOOLTIP:INTERNATIONAL_ORGANIZATION,$tatar_yoke_tt$,X #L татарським ярмом#!#!
+    * DO NOT CONFUSE INTERNATIONAL ORGANIZATION WITH INTERNATIONAL ORGANIZATION TYPES! These are different entities. International organization types are usually declared with "GetInternationalOrganizationType" keyword:  [GetInternationalOrganizationType('grand_alliance').GetName|l]. International organization type tooltip keys do not require a tooltip ID form (not "$<id>_tt$", but simply "<id>"):
+        ** Деякі учасники #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,union,X #L унії#!#!
+        ** [Concept('international_organization_leader_short', 'очільник')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,japanese_shogunate,X #L Японського Шьоґунату#!#!
+        ** організувати #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,crusade,X #L хрестовий похід#!#!
 
     * Government type (GovType) tooltip examples (feel free to change to adjectives or any other forms if it stylistically improves translated text):
         ** nearly every [ShowGovernmentTypeName('monarchy')] will have their rule challenged by the people -> жителі майже всіх #TOOLTIP:GOVTYPE,monarchy,X #L монархічних#!#! країн кинуть виклик правителям
         ** Expected [army|e] for a [ShowGovernmentTypeName('steppe_horde')] -> Очікуване [Concept('army', 'військо')|e] #TOOLTIP:GOVTYPE,steppe_horde,X #L кочової орди#!#!
-    * [ShowModifier('global_population_capacity_modifier')] -> #TOOLTIP:MODIFIER_TYPE,global_population_capacity_modifier,X #P #V межі населення#!#!#!
+    * Modifiers can be represented and their wording edited with a MODIFIER_TYPE tooltip, for example:
+        ** [ShowModifier('global_population_capacity_modifier')] -> #TOOLTIP:MODIFIER_TYPE,global_population_capacity_modifier,X #P #V межі населення#!#!#!
     * Special status examples:
         ** [ShowSpecialStatusName('senior_partner')]-> #TOOLTIP:SPECIAL_STATUS,senior_partner,X #L старший партнер#!#!
         ** [SCOPE.sCountry('actor').GetName] bestow [ShowSpecialStatusName('free_city')] status on [SCOPE.sCountry('recipient').GetName] -> [SCOPE.sCountry('actor').GetName] наділя[SCOPE.sCountry('actor').Custom('end_yeyut')] #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').GetKey],X [SCOPE.sCountry('recipient').Custom('CL_ACC')|L]#!#! статусом #TOOLTIP:SPECIAL_STATUS,free_city,X #L вільного імперського міста#!#!
@@ -356,10 +362,16 @@ Tooltips can be used to apply grammatical cases or transform to adjective forms 
     * Situation tooltip examples:
         ** Measures how inflamed the [ShowSituationName('italian_wars')] have become -> Відображає, наскільки палко розгорілося полум’я #TOOLTIP:SITUATION,italian_wars,X #L Італійських воєн#!#!
         ** The [GetSituationByKey('columbian_exchange').GetName] begins -> Розпочинається #TOOLTIP:SITUATION,columbian_exchange,X #L Колумбів обмін#!#!
+    * Generic action tooltips:
+        ** We will gain access to unique [actions|e] such as [ShowGenericActionName('influence_french_subject')] and [ShowGenericActionName('request_papal_delegates')] -> ми отримаємо доступ до унікальних [Concept('actions', 'дій')|e], таких як #TOOLTIP:GENERIC_ACTION,influence_french_subject,X #L підкуп французьких васалів#!#! та #TOOLTIP:GENERIC_ACTION,request_papal_delegates,X #L запрошення папських представників#!#!
+        ** [GetCountry('FRA').GetNameWithNoTooltip] can shield subjects with [ShowGenericActionName('fra_diplomacy_with_subjects')] -> [GetCountry('FRA').GetNameWithNoTooltip] мож[GetCountry('FRA').Custom('end_eut')] захистити васалів дією #TOOLTIP:GENERIC_ACTION,fra_diplomacy_with_subjects,X #L присвоєння титулів васалам#!#!
 
 The game has several ages (діб): tradition (доба Звичаїв), renaissance (Відродження), exploration (Відкриттів), reformation (Реформації), absolutism (Самовладдя), revoluion (Революцій). They can also be replaced with tooltips. For example:
     * especially during the [ShowAgeName('age_3_discovery')] -> особливо в добу #TOOLTIP:AGE,age_3_discovery,X #L Відкриттів#!#!
     * neither faction reaches 100% before the [ShowAgeName('age_3_discovery')] -> жоден з таборів не набере 100% до початку доби #TOOLTIP:AGE,age_3_discovery,X #L Відкриттів#!#!
+
+In most cases customized tooltip text can be derived from the id and surrounding context. However, if in doubt, simply replace expected customized text with "POSTEDIT_CUSTOM_TEXT_<tooltip_id>", to mark it for human review. For example:
+    * with [ShowGenericActionName('cryptic_action_name')] -> з #TOOLTIP:GENERIC_ACTION,cryptic_action_name,X #L POSTEDIT_CUSTOM_TEXT_cryptic_action_name#!#!
 
 ## Societal value tooltips
 
@@ -396,7 +408,7 @@ Declarations ending with "WithNoTooltip" suffix should not be translated using `
 
 ## Always Keep in Nominative Case
 
-Some constructs cannot be customized to use a grammatical case other than nominative. In such cases rephrase the sentence in such a way that the entity was in nominative case. Only if such a transformation proves to be to challenging, or resulting sentence becomes too cumbersome, we might fallback to using an inappropriate nominative case as a lesser of two evils. Examples of such cases:
+Some constructs cannot be customized to use a grammatical case other than nominative. In such cases rephrase the sentence in such a way that the entity was in nominative case. Only if such a transformation proves to be to challenging, or resulting sentence becomes too cumbersome, we might fall back to using an inappropriate nominative case as a lesser of two evils. Examples of such cases:
 
     * Declarations ending with "GetCourtTitle", for example: [ROOT.GetCountry.GetGovernment.GetCourtTitle]. Treat such declarations as if they were always resolved to the word "двір" (court), and rephrase accordingly.
         ** If "GetCourtTitle" has to be in case other than nominative, replace the whole construct with a simple word "двір" ("двору", "при дворі" and so on), and replace constructs like "members of the court" with "придворні" ("придворні радники", "деякі придворні", "дехто при дворі" and so on). Try to keep the sentence natural and don't try to rephrase it just for the sake of "GetCourtTitle" (replace with "двір" and its cases if necessary).
@@ -413,9 +425,9 @@ Some constructs cannot be customized to use a grammatical case other than nomina
 
     * War names, e.g. `вийдемо з конфлікту «[WAR.GetName]»`, `У війні «[target_war.GetName]» нам буде доступна`.
 
-If you're adding a leading specifying word to leave a dynamic entity in nominative case, it is often appropriate to use guillemets («») around the entity name. We're using guillements, because single quotes are often used in scripts and double quotes are inconvenient to encode in yaml. It is commonly used with war names, modifiers and any other cases where game concepts are explained and a specific parameter is described. Some valid examples:
+One of the simplest and most common ways to keep a declaration in nominative case is to add a leading specifying word to it. If you do that, it is often appropriate to use guillemets («») around the entity name. We're using guillements, because single quotes are often used in scripts and double quotes are inconvenient to encode in yaml. It is commonly used with war names, modifiers, actions and any other cases where game concepts are explained and a specific parameter is described. Some valid examples:
     * здобудемо перемогу у війні «[target_war.GetName]»!
-    * вибір торгового шляху надасть «[ShowModifier('eastern_route_open')]»
+    * вибір торгового шляху надасть модифікатор «[ShowModifier('eastern_route_open')]»
 
 
 
@@ -505,7 +517,7 @@ Sometimes there's a translation that fits both genders:
 Some examples of valid translations:
     * [Select_CString(dead_character.IsFemale, 'Правительки', 'Правителя')]
     * [SCOPE.etCharacter('recipient').GetTitledFirstName] — [Select_CString(ROOT.GetCharacter.Custom2.IsFemale,'моя', 'мій')] [ROOT.GetCharacter.Custom2('relation_to_me' , SCOPE.etC('recipient'))]
-    * [CHARACTER.GetHeSheFormal|U] [Select_CString(CHARACTER.IsFemale,'загинула', 'загинув')], ведучи війська на битву в [SCOPE.sLocation('location').Custom('LR_PREP')|l] [SCOPE.sLocation('location').GetName].
+    * [CHARACTER.GetHeSheFormal|U] [Select_CString(CHARACTER.IsFemale,'загинула', 'загинув')], ведучи війська на битву у [SCOPE.sLocation('location').Custom('LR_PREP')|l] [SCOPE.sLocation('location').GetName].
     * [CHARACTER.GetName] одружен[CHARACTER.IsFemale, 'а', 'ий')] з [TARGET_CHARACTER.GetName]
     * [recipient.GetName] віднині є [Select_CString(SCOPE.sCharacter('recipient').IsFemale,'спадкоємицею', 'спадкоємцем')].
     * [CHARACTER.GetHeSheFormal|U] [Select_CString(CHARACTER.IsFemale,'впала', 'впав')] зі східців і [Select_CString(CHARACTER.IsFemale,'розбилася', 'розбився')] на смерть
@@ -566,32 +578,48 @@ The list of supported estates is limited to:
 
 ## Estate Names and Pop Types not in Nominative Case
 
-If translated estate names are clearly not in nominative case, then their declaration should be replaced with tooltips of the following form (use grammatically appropriate case and capitalization fitting the sentence, these are just examples):
-- #TOOLTIP:ESTATE_TYPE,crown_estate,X #L короною#!#!
-- #TOOLTIP:ESTATE_TYPE,nobles_estate,X #L знаті#!#!
-- #TOOLTIP:ESTATE_TYPE,clergy_estate,X #L духовенства#!#!
-- #TOOLTIP:ESTATE_TYPE,burghers_estate,X #L містянам#!#!
-- #TOOLTIP:ESTATE_TYPE,peasants_estate,X #L простолюду#!#!
-- #TOOLTIP:ESTATE_TYPE,cossacks_estate,X #L козаків#!#!
-- #TOOLTIP:ESTATE_TYPE,tribes_estate,X #L племен#!#!
-- #TOOLTIP:ESTATE_TYPE,dhimmi_estate,X #L зімміїв#!#!
-
-- #TOOLTIP:POPTYPE,nobles,X #L знаті#!#!
-- #TOOLTIP:POPTYPE,clergy,X #L духовенству#!#!
-- #TOOLTIP:POPTYPE,burghers,X #L містянам#!#!
-- #TOOLTIP:POPTYPE,soldiers,X #L воякам#!#!
-- #TOOLTIP:POPTYPE,laborers,X #L робітниках#!#!
-- #TOOLTIP:POPTYPE,peasants,X #L селянами#!#!
-- #TOOLTIP:POPTYPE,tribes,X #L племенам#!#!
-- #TOOLTIP:POPTYPE,slaves,X #L невільниками#!#!
+Scripted estate names (normally with "GetEstateName" or "ShowEstateTypeName" function) should ALWAYS be replaced with tooltips of the following form (use grammatically appropriate case and capitalization fitting the sentence, these are just examples):
+    - #TOOLTIP:ESTATE_TYPE,crown_estate,X #L короною#!#!
+    - #TOOLTIP:ESTATE_TYPE,nobles_estate,X #L знаті#!#!
+    - #TOOLTIP:ESTATE_TYPE,clergy_estate,X #L духовенства#!#!
+    - #TOOLTIP:ESTATE_TYPE,burghers_estate,X #L містянам#!#!
+    - #TOOLTIP:ESTATE_TYPE,peasants_estate,X #L простолюду#!#!
+    - #TOOLTIP:ESTATE_TYPE,cossacks_estate,X #L козаків#!#!
+    - #TOOLTIP:ESTATE_TYPE,tribes_estate,X #L племен#!#!
+    - #TOOLTIP:ESTATE_TYPE,dhimmi_estate,X #L зімміїв#!#!
 
 These are default estate names. However,
     * switch "корона" to "правителі" when the text is clearly not about monarchies
-    * peasant estate can encompass peasants, laborers and slaves, hence "простолюд",
+    * peasant estate can encompass peasants, laborers and slaves, hence "простолюд"
+        ** however, if text makes it clear that specifically peasants (or laborers, etc.) are targeted, appropriate translation should be used - "селяни", "робітники" and so on
+IF AND ONLY IF context makes clear and exact what kind of estate types is used, generic names can be replaced with more specific ones. For example:
+    * Generic "духовенство" can be replaced with a more appropriate "улеми", "рабини", "брахмани", etc.
+    * Generic "знать" can be replaced with better fitting "бояри", "лорди", "пани та лицарі", "шляхта", "еміри", "кшатрії", "барони", "дворяни", "аристократи", "старшина" and so on.
 
-If an estate in non nominative case is detected and replaced by a tooltip, no further associated dynamic ending scripting is required. Simply make sure that associated words have correct case and endings matching the form used in the tooltip.
+If an estate in non-nominative case is detected and replaced by a tooltip, no further associated dynamic ending scripting is required. Simply make sure that associated words have correct case and endings matching the form used in the tooltip. For example:
+    * Allow rich [ShowEstateTypeName('burghers_estate')] to build [roads|e]. -> Дозволити багатим #TOOLTIP:ESTATE_TYPE,burghers_estate,X #L міщанам#!#! будувати [Concept('roads', 'дороги')|e].
+    * [estate_power|e] of [GetEstateName('nobles_estate')] in [target.GetNameWithNoTooltip] -> [Concept('estate_power', 'Станова влада')|e] #TOOLTIP:ESTATE_TYPE,nobles_estate,X #L знаті#!#! [target.Custom('preposition_uv')] [target.Custom('CL_PREP')]
+    * новгородські #TOOLTIP:ESTATE_TYPE,nobles_estate,X #L бояри#!#! вирішили знищити віче (here we can deduce that "бояри" is a better place-, period-, culture- and/or religion-appropriate alternative)
+    * празькі #TOOLTIP:ESTATE_TYPE,nobles_estate,X #L пани та лицарі#!#! пристають на бік гуситів
+    * #TOOLTIP:ESTATE_TYPE,nobles_estate,X #L шляхта#!#! зібралася на сеймі для обговорення своїх вольностей
 
 The same mechanism works with Pop Types declared as [ShowPopTypeName('nobles')|l]. They can be transformed as #TOOLTIP:POPTYPE,nobles,X #L знаті#!#!, #TOOLTIP:POPTYPE,clergy,X #L духовенству#!#!, #TOOLTIP:POPTYPE,slaves,X #L невільниками#!#!, #TOOLTIP:POPTYPE,soldiers,X #L вояками#!#!, #TOOLTIP:POPTYPE,laborers,X #L працівниках#!#! and so on.
+    - #TOOLTIP:POPTYPE,nobles,X #L знаті#!#!
+    - #TOOLTIP:POPTYPE,clergy,X #L духовенству#!#!
+    - #TOOLTIP:POPTYPE,burghers,X #L міщанам#!#!
+    - #TOOLTIP:POPTYPE,soldiers,X #L воякам#!#!
+    - #TOOLTIP:POPTYPE,laborers,X #L робітниках#!#!
+    - #TOOLTIP:POPTYPE,peasants,X #L селянами#!#!
+    - #TOOLTIP:POPTYPE,tribesmen,X #L племенам#!#!
+    - #TOOLTIP:POPTYPE,slaves,X #L невільниками#!#!
+
+For example:
+    * This is the [language|e] spoken by the majority of the [ShowPopTypeName('burghers')] -> Це [Concept('language', 'мова')|e], якою розмовляє більшість #TOOLTIP:POPTYPE,burghers,X #L міщан#!#!
+    * depending on how many [ShowPopTypeName('tribesmen')] it has -> залежно від чисельности #TOOLTIP:POPTYPE,tribesmen,X #L племінного люду#!#!
+    * reject the labor of [ShowPopTypeName('slaves')] in their plantations -> відмовитися від #TOOLTIP:POPTYPE,slaves,X #L невільницької#!#! праці на плантаціях
+
+Note that if you choose original ShowPopTypeName and GetEstateName, because it's a game mechanics breakdown, nominative case is a natural fit AND these declarations have no dependent words that could change depending on resolved estate name value (має/мають, зробив/зробила/зробили and such), you will frequently need to add lower-case formatting to them (unless they are at the beginning of a sentence). For example:
+    * Ваше [Concept('population', 'населення')] поділене на різні [Concept('pop_types_with_icon', 'верстви')|e], кожна з яких підтримує певний [Concept('estate', 'стан')]:\n\n$BULLET_WITH_TAB$Опорою для стану [GetEstateName('nobles_estate')|l] є @nobles! [ShowPopTypeName('nobles')|l]\n$BULLET_WITH_TAB$Опорою для стану [GetEstateName('clergy_estate')|l] є @clergy! [ShowPopTypeName('clergy')|l]\n$BULLET_WITH_TAB$Опорою для стану [GetEstateName('burghers_estate')|l] є @burghers! [ShowPopTypeName('burghers')|l]\n$BULLET_WITH_TAB$Опорою для стану [GetEstateName('peasants_estate')|l] є:\n$TAB$$BULLET_WITH_TAB$@peasants! [ShowPopTypeName('peasants')|l], @laborers! [ShowPopTypeName('laborers')|l] та @soldiers! [ShowPopTypeName('soldiers')|l].\n\nУ деяких [Concept('countries', 'країнах')|e] є додаткові [Concept('estates', 'стани')], як-от [ShowEstateTypeName('dhimmi_estate')|l], [ShowEstateTypeName('tribes_estate')|l] чи [ShowEstateTypeName('cossacks_estate')|l].
 
 
 ## Estate Ending Scripting
@@ -725,19 +753,21 @@ IMPORTANT! When presented with several alternative translation options, choose t
 ## Game Concepts and General Terms
 
     * country, держава -> "країна", attempt to avoid the word "держава" as much as possible, unless it's without a doubt a superior or more fitting option, most commonly when discussing "держава" as a bureaucratic, modern mechanism of government, legal political entity, empires and tsardoms, countries known for well-developed bureaucracy, etc.
-    ** adjective "державний" is allowed
-    ** "держава" is allowed to be used to avoid tautologies and repetitiveness with "країна" in the same paragraph
-    ** keep "держава", "державний" in fixed expressions, for example "місто-держава", "великі, суверенні, централізовані, сучасні держави", "від імені держави", "держава і піддані", "Папська держава"
-    ** used fixed expression for "иностранное государство/держава" -> "чужоземна країна"
-    ** when used in plural ("державы", "государства"), as a collection of smaller states, it is sometimes appropriate to translate as "князівства" - "латинські князівства", "князівства хрестоносців", "франкократичні князівства", "румунські князівства", "балканські князівства", "князівства Епіру", "німецькі князівства" тощо
-    ** sometimes in narrative texts "государство", "держава" could be replaced with "князівство" (when clearly talking about smaller principalities) or "край" (e.g. "за межами краю", "прославляючи військову звитягу нашого краю за його межами")
-    ** sometimes in narrative texts "государство", "держава" could be replaced with "влада", e.g. "влада почала видавати ліцензії", "влада організовує програми, процесії"
-    ** when in doubt whether to choose "країна" or "держава", favor "країна", but remember to avoid repetitiveness
+        ** adjective "державний" is allowed
+        ** "держава" is allowed to be used to avoid tautologies and repetitiveness with "країна" in the same paragraph
+        ** keep "держава", "державний" in fixed expressions, for example "місто-держава", "великі, суверенні, централізовані, сучасні держави", "від імені держави", "держава і піддані", "Папська держава"
+        ** used fixed expression for "иностранное государство/держава" -> "чужоземна країна"
+        ** when used in plural ("державы", "государства"), as a collection of smaller states, it is sometimes appropriate to translate as "князівства" - "латинські князівства", "князівства хрестоносців", "франкократичні князівства", "румунські князівства", "балканські князівства", "князівства Епіру", "німецькі князівства" тощо
+        ** sometimes in narrative texts "государство", "держава" could be replaced with "князівство" (when clearly talking about smaller principalities) or "край" (e.g. "за межами краю", "прославляючи військову звитягу нашого краю за його межами")
+        ** sometimes in narrative texts "государство", "держава" could be replaced with "влада", e.g. "влада почала видавати ліцензії", "влада організовує програми, процесії"
+        ** when in doubt whether to choose "країна" or "держава", favor "країна", but remember to avoid repetitiveness
     * "age", "epoch", "эпоха" -> "доба"
     * dynasty, династия -> дім, sometimes can be prefixed as "правлячий дім" if necessary to stress and separate it from the other houses in the sentence or paragraph
-    ** if necessary to avoid tautology, interchange with "(правлячий) рід"
-    ** династичний -> родовий: родові чвари, родові усобиці, внутрішньородові справи
-    ** династичний шлюб, династична унія -> шлюбний союз, родовий союз, союз домів (high prose)
+        ** if necessary to avoid tautology, interchange with "(правлячий) рід"
+        ** династичний -> родовий: родові чвари, родові усобиці, внутрішньородові справи
+        ** династичний шлюб, династична унія -> шлюбний союз, родовий союз, союз домів (high prose)
+    * political power -> політична вага
+    * power projection -> міжнародна вага
 
     * economy, экономика -> господарство
     ** economic, экономический -> господарський
@@ -832,7 +862,7 @@ IMPORTANT! When presented with several alternative translation options, choose t
     * disloyal vassal, нелояльный вассал -> непокірний васал
     ** "непокірний" should also be used for estates (nobles, clergy, peasants, etc.)
     * sow disloyalty, распространять нелояльность -> поширювати непокору
-    * disloyal(ty), "нелояльность", "нелояльный" outside of fixed expressions and combinations listed above and depending on context can be best translated as "непокора", "невірність", "зрадливість", "непевність", "зрада", "підступність", "крамола" (when related to subversive actions and revolts), "бунтівний" and associated adjectives; pick the best fitting depending on context, fallback to "нелояльность", "нелояльный" when in doubt;
+    * disloyal(ty), "нелояльность", "нелояльный" outside of fixed expressions and combinations listed above and depending on context can be best translated as "непокора", "невірність", "зрадливість", "непевність", "зрада", "підступність", "крамола" (when related to subversive actions and revolts), "бунтівний" and associated adjectives; pick the best fitting depending on context, fall back to "нелояльность", "нелояльный" when in doubt;
 
     * event option, вариант события -> вибір у події
     ** NOT "обрати ... варіант" ("выбрать ... вариант") BUT "зробити вибір"
@@ -1076,8 +1106,15 @@ IMPORTANT! When presented with several alternative translation options, choose t
 
 ## Diplomacy
 
+In narrative texts anachronistic loan word "diplomacy" can often be replaced with more appropriate alternatives. But apply these only if they fit impeccably, otherwise stick with "дипломатія", "дипломатичний".
+    * "посольська справа"  in a sense of a field, craft and practice of diplomacy as a whole
+    * "зносини" in a sense of relations and associated activities
+    * "перемови", "перемовини" in a sense of negotiations, attempts to reach a diplomatic solution
+    * adjectives "перемовницький" or "посольський" can occasionally be more fitting than "дипломатичний"
+
+Diplomatic glossary:
     * дипломатичні відносини -> зносини
-    * diplomat, дипломат -> посол; посольські установи, споруди, місії, відстань тощо; але дипломатичний хист, відносини, навичка, вплив, гнучкість і т.і.
+    * diplomat, дипломат -> посол; посольські установи, споруди, місії, відстань тощо; але дипломатичний вплив, гнучкість і т.і.
     * diplomatic action, дипломатическое действие -> посольська дія
     * diplomatic range, дипломатическая дистанция -> посольська досяжність
     * diplomatic capacity, дипломатический потенциал -> "посольські засоби"; if necessary to avoid repetition in text, "посольська спроможність" is allowed
@@ -1085,48 +1122,48 @@ IMPORTANT! When presented with several alternative translation options, choose t
     * diplomatic opinion, мнение -> думка
     * diplomatic reputation, дипломатическая репутация -> добре ім’я
     * power projection, дипломатический вес -> дипломатична вага
-    * infiltrate administration, внедрение во власть, впровадження в адміністрацію -> проникнення у владу, адміністрацію
+    * infiltrate administration, внедрение во власть, впровадження в адміністрацію -> проникнення у владу, в уряд
     * casus belli, казус белли, повод для войны -> привід для війни
-    ** привід для війни шукають, "знайти привід для війни", not "створити", when actively sought after
-    ** "отримати привід для війни", "надає привід для війни" when various actions unlock or enable a casus belli
+        ** привід для війни шукають, "знайти привід для війни", not "створити", when actively sought after
+        ** "отримати привід для війни", "надає привід для війни" when various actions unlock or enable a casus belli
     * antagonism, неприязнь -> ворожість
     * vassal, subject, ленник -> васал; never use "ленник", always prefer "васал"
     * colonian nation, колониальная нация -> колоніальне намісництво
     * loyal (subject), лояльный (вассал) -> вірний (васал)
-    * (cb) disloyal subject, нелояльный вассал -> бунтівний васал
-    ** when the text doesn't talk about or imply rebellion, but just about general disloyalty, "нелояльний" can be translated as "непокірний"
+    * (cb) disloyal subject, нелояльный вассал -> непокірний васал
+        ** when the text talks about or implies rebellion, "нелояльний" can be translated as "бунтівний"
     * annex, аннексия, присоединение -> prefer "поглинання", especially when talking about vassals and/or diplomatic annexation, otherwise use "приєднання" when it's clearly a better fit, avoid "анексія" та "анексований" if possible
     * scutage, скутагий -> щитовий збір
     * international organization, международная организация -> міжнародне об’єднання (НЕ "організація")
 
     * переговоры, переговори -> "перемовини" in official texts, menus, as a Concept, and when a long duration is stressed
-    ** in narrative and less formal texts prefer "перемови", also when dealing with revolts
-    ** переговоров -> always "перемовин", not "перемов"
-    ** сесть за стол переговоров, вступить в переговоры -> зійтися на перемови, розпочати перемови(ни)
-    ** переговорческий -> перемовний
-    ** переговорщик -> перемовник
-    ** "не ведем переговоры с ..." -> "з ... перемов не буде"
+        ** in narrative and less formal texts prefer "перемови", also when dealing with revolts
+        ** переговоров -> always "перемовин", not "перемов"
+        ** сесть за стол переговоров, вступить в переговоры -> зійтися на перемови, розпочати перемови(ни)
+        ** переговорческий -> перемовний
+        ** переговорщик -> перемовник
+        ** "не ведем переговоры с ..." -> "з ... перемов не буде"
     * конфликт -> oftentimes war ("війна") is incorrectly translated as "конфликт" in Russian localization; if the text makes it clear that the word refers to a war (especially if there's "...war.GetName" scripting present) then translate "конфликт" as "війна", however, you can alternate "війна" and "конфлікт" to avoid repetitiveness
     ** for smaller petty conflicts translate as "чвари"
     ** for internal conflicts use "усобиця, усобиці, міжусобиця, міжусобиці"
 
     * prestige, престиж -> слава
-    ** specifically ALWAYS "слава" as a game concept and mechanics
-    ** fixed expression "престиж и слава" -> "честь і слава" (make sure translation doesn't end up looking as "слава і слава"), however, "принести престиж и славу" -> "принести повагу та славу"
-    ** military unit prestige -> "звитяга", e.g. in expressions like "звитяга кінноти", "звитяга яничарів", "звитяга мамлюків", BUT keep "слава" for ships and other fleet-related items
-    ** occasionally and depending on context the following translations could fit better: "повага", "авторитет", "пошана", "поважність", "честь"
+        ** specifically ALWAYS "слава" as a game concept and mechanics
+        ** fixed expression "престиж и слава" -> "честь і слава" (make sure translation doesn't end up looking as "слава і слава"), however, "принести престиж и славу" -> "принести повагу та славу"
+        ** military unit prestige -> "звитяга", e.g. in expressions like "звитяга кінноти", "звитяга яничарів", "звитяга мамлюків", BUT keep "слава" for ships and other fleet-related items
+        ** occasionally and depending on context the following translations could fit better: повага, пошана, поважність, честь, авторитет
     * престижный -> славетний, with the following exceptions
-    ** престижные школы, университеты, учебные заведения, ученые -> поважні школи, університети, навчальні заклади, вчені
-    ** престижные должности, служба, титулы, назначение -> поважні посади, служба, титули, призначення; also applies to various bureaucrats, administrators, diplomats and other servants of the state
-    ** престижные здания -> урочисті споруди
-    ** when "presitigous" is meant to stress respect, occasionally "шанований" fits
-    ** all of this applies to other forms of these adjectives, for example "найславетніший", "найповажніший", "найшанованіший"
+        ** престижные школы, университеты, учебные заведения, ученые -> поважні школи, університети, навчальні заклади, вчені
+        ** престижные должности, служба, титулы, назначение -> поважні посади, служба, титули, призначення; also applies to various bureaucrats, administrators, diplomats and other servants of the state
+        ** престижные здания -> урочисті споруди
+        ** when "presitigous" is meant to stress respect, occasionally "шанований" fits
+        ** all of this applies to other forms of these adjectives, for example "найславетніший", "найповажніший", "найшанованіший"
 
     * spy network, шпионская сеть, агентурная сеть -> шпигунська мережа
     * counter espionage, контрразведка -> викриття шпигунів
     * spy, шпион, разведчик, агент -> шпигун (general case), вивідач (if specifically deals with learning secrets and other information), засланець (when used as a pejorative for undercover agents), нишпорки (casual narrative tone)
-    ** in the meaning of "agent of the crown/state/entity" -> посланець, представник: посланець корони, страховий представник
-    ** in the meaning of internal secret service agent -> службовець
+        ** in the meaning of "agent of the crown/state/entity" -> посланець, представник: посланець корони, страховий представник
+        ** in the meaning of internal secret service agent -> службовець
     * информатор -> вивідач
     * информация, information -> відомості; in rare cases "знання" (знання - це сила, джерело знань and other established expressions), "звістки", "новини", "повідомлення"
 
@@ -1146,12 +1183,13 @@ IMPORTANT! When presented with several alternative translation options, choose t
     * private army, unit, regiment, приватная армия, полк, подразделение -> власне військо, полк, загін
     * military/navy tradition, военные/морские традиции -> військовий/морський хист
     * militarization, милитаризация -> воєнізація
-    ** to militarize, милитаризировать -> воєнізувати
-    ** militarized, милитаризированный -> воєнізований
-    ** militarism, милитаризм -> войовничість (as a posture), воєнізація (as a state of the country)
+        ** to militarize, милитаризировать -> воєнізувати
+        ** militarized, милитаризированный -> воєнізований
+        ** militarism, милитаризм -> войовничість (as a posture), воєнізація (as a state of the country)
+    * mercenary range -> досяжність вербування найманців
 
     * expedition, экспедиция -> виправа
-    ** экспедиционный -> "похідний" if related to military expeditions, "дослідницький" if related specifically to exploration
+        ** экспедиционный -> "похідний" if related to military expeditions, "дослідницький" if related specifically to exploration
 
     * ополчення скликають
     * союзників закликають на війну чи до зброї
@@ -1171,55 +1209,55 @@ IMPORTANT! When presented with several alternative translation options, choose t
     * unit category, род войск -> рід військ
     * crew size, экипаж -> чисельність моряків
     * unit template, шаблон отряда -> стрій (simply "стрій", NOT "стрій загону" when discussed as a template)
-    ** "набор шаблона", "набор в шаблон" - only "набір за строєм"
+        ** "набор шаблона", "набор в шаблон" - only "набір за строєм"
     * підрозділи, загони набирають (NOT "будують")
     * manpower, рекруты -> новобранці
-    ** in the meaning of maximal capacity or current reserve -> запас новобранців, e.g.: максимальний, поточний запас новобранців, збільшення запасу новобранців, поповнення запасу новобранців
-    ** when "recruits" (рекруты) are used to describe already serving soldiers on active duty or in military action, translate them as "вояки": недостатньо вояків для того щоб почати облогу
-    ** avoid tautologies: набрати нових новобранців -> набрати новобранців, набрати свіжих новобранців
+        ** in the meaning of maximal capacity or current reserve -> запас новобранців, e.g.: максимальний, поточний запас новобранців, збільшення запасу новобранців, поповнення запасу новобранців
+        ** when "recruits" (рекруты) are used to describe already serving soldiers on active duty or in military action, translate them as "вояки": недостатньо вояків для того щоб почати облогу
+        ** avoid tautologies: набрати нових новобранців -> набрати новобранців, набрати свіжих новобранців
 
     * cavalry, кавалерия -> кіннота
     * кавалерийский -> кінний
-    ** BUT "кіннотні шаблі, зброя"
-    ** BUT "товариства, спілки вершників", not "кінні товариства"
+        ** BUT "кіннотні шаблі, зброя"
+        ** BUT "товариства, спілки вершників", not "кінні товариства"
     * cavalryman, кавалерист -> вершник, use "кіннотник" if necessary to avoid repetition of "вершник"
     * do not use "кіннота" or "кінний" for elephants (слони), instead translate as "слонові загони", "слонові вершники" і т.і.
 
     * броня -> обладунки; for specifically heavy armor use "лати"
     * маневренность, маневренный -> маневровість, маневровий
-    ** for cavalry (кавалерия, кіннота) use "рухливість", "рухливий"
-    ** for ships use "повороткість", "повороткий"
+        ** for cavalry (кавалерия, кіннота) use "рухливість", "рухливий"
+        ** for ships use "повороткість", "повороткий"
     * слабоманевренный -> неповороткий
     * unless otherwise specified, keep "маневри", "маневрувати", etc. in all the other cases
     * боевая эффективность, эффективность на поле боя -> shorten these and similar fixed expressions to "боєздатність"
 
     * artillery, артиллерия, артиллерийский -> гармати, гарматний
-    ** гарматна справа, as a field of study or work
+        ** гарматна справа, as a field of study or work
     * артиллерист -> гармаш
     * artillery bonus, бонус артиллерии -> гарматна перевага
     * artillery barrage, артиллерийский залп -> гарматний вогонь
     * BUT keep "артилерія", "артилерійський" when:
-    ** clearly dealing with Napoleon or Napoleonic wars
-    ** French, Spanish, Portuguese, or English military
-    ** the text clearly mentions "artillery" in a name (such as a historical institution name, academic work, building, etc.)
-    ** the text clearly refers to lategame modernized militaries and talks of military in academic organized fashion
+        ** clearly dealing with Napoleon or Napoleonic wars
+        ** French, Spanish, Portuguese, or English military
+        ** the text clearly mentions "artillery" in a name (such as a historical institution name, academic work, building, etc.)
+        ** the text clearly refers to lategame modernized militaries and talks of military in academic organized fashion
 
     * garrison, гарнизон -> залога
-    ** гарнизонный -> залоговий
-    ** to garrison, вводить гарнизони -> ставити залогу, вводити залогу
+        ** гарнизонный -> залоговий
+        ** to garrison, вводить гарнизони -> ставити залогу, вводити залогу
     * assault, штурм - приступ
-    ** to assault, штурмовать -> брати приступом, йти на приступ, приступати до (стін, фортеці)
-    ** штурмовой -> ударний (загін, кіннота тощо)
+        ** to assault, штурмовать -> брати приступом, йти на приступ, приступати до (стін, фортеці)
+        ** штурмовой -> ударний (загін, кіннота тощо)
 
     * судно -> only and always "корабель"
-    ** "військові кораблі", NOT "воєнні"
-    ** transport ship (fleet), транспортное судно (флот) -> вантажний корабель (флот)
-    ** судостроение -> кораблебудування
-    ** (судостроительная) верфь -> корабельня
-    ** судостроитель -> корабельник
-    ** судостроительный -> корабельний (in particular "судостроительны материалы" -> "корабельні матеріали")
-    ** судоплавание -> мореплавство; but if and only if the text clearly talks about river sailing, "судноплавство" should be used
-    ** судоходный шлюз -> гребля зі шлюзом
+        ** "військові кораблі", NOT "воєнні"
+        ** transport ship (fleet), транспортное судно (флот) -> вантажний корабель (флот)
+        ** судостроение -> кораблебудування
+        ** (судостроительная) верфь -> корабельня
+        ** судостроитель -> корабельник
+        ** судостроительный -> корабельний (in particular "судостроительны материалы" -> "корабельні матеріали")
+        ** судоплавание -> мореплавство; but if and only if the text clearly talks about river sailing, "судноплавство" should be used
+        ** судоходный шлюз -> гребля зі шлюзом
     * naval range, мореходная дистанция -> морехідна досяжність
     * colonial range, колонизационная дистанция -> колонізаційна досяжність
     * transport capacity, предел транспортировки -> військовий підйом
@@ -1267,6 +1305,7 @@ Apply the following translations only if they are NOT in the context of European
     * state_religion, primary_religion, official_religion, основная религия, главная религия -> панівна віра
     * religious (in)tolerance, религиозная (не)терпимость -> віро(не)терпимість, but only when in combination with "religious/религиозная" - "religious (in)tolerance", "религиозная (не)терпимость" - otherwise simply "терпимість"
     * НЕ "того ж/те ж віросповідання, віровчення", а "спільного/спільне віросповідання, віровчення"; АЛЕ у випадках заперечення ("не з тієї ж") залишаємо як є
+    * papal authority -> папський авторитет
 
 For muslim names, prefer established letter 'х' in translations instead of 'г'. For example:
     * jihad -> джихад (NOT джигад)
@@ -1423,13 +1462,13 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * export, экспорт -> вивіз (вивізний, вивозити, вивозитиметься тощо)
     * BUT "импорт/экспорт ... услуг" -> "купівля/продаж ... послуг", e.g. "продаж військових послуг"
     * "товары" -> in narrative texts and when not about a game concept, translate as "крам"
-    ** "ценные товары" -> коштовний крам
+        ** "ценные товары" -> коштовний крам
     * "импортный/экспортный рынок" -> "ринок, що купує/продає"
     * trade order, торговый приказ -> торгова угода
-    ** торгові угоди укладають, а не створюють
+        ** торгові угоди укладають, а не створюють
     * trade capacity, merchant capacity, торговый потенциал -> "купецькі засоби" (only plural form)
-    ** "сукупні купецькі засоби", not "сумарні"
-    ** "купецькі засоби" "збільшують та зменшують", not "підвищують та знижують"
+        ** "сукупні купецькі засоби", not "сумарні"
+        ** "купецькі засоби" "збільшують та зменшують", not "підвищують та знижують"
     * trade range, торговая дистанция -> купецька досяжність
     * trade routes, торговые пути, маршруты -> торгові шляхи
     * merchant power, торговое преимущество -> "купецька перевага" as a game Concept, and when it's clearly a text describing game mechanics; conversely in narrative texts "торгова перевага" is often correct
@@ -1440,9 +1479,9 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * staplerecht right, складочное право -> "складове право", або "право складу" when it better fits in the sentence
     * sound toll(s), плата за проход -> "мито на прохід", depending on context could be "оплаті за прохід", "сплачувати за прохід" and so on, if it fits better
     * компания -> "товариство", with the following exceptions:
-    ** established historical names of mercenary companies, such as "Наваррська компанія", "Афінська компанія"
-    ** established names of historical international trading companies, for example "Ост-Індійська компанія"
-    ** "companies", "компании" of Catholic and Protestant countries (England, France, Scotland, Spain, Italy, Germany, etc.) remain "компанії"
+        ** established historical names of mercenary companies, such as "Наваррська компанія", "Афінська компанія"
+        ** established names of historical international trading companies, for example "Ост-Індійська компанія"
+        ** "companies", "компании" of Catholic and Protestant countries (England, France, Scotland, Spain, Italy, Germany, etc.) remain "компанії"
 
 
 ## Resources, Goods, Buildings

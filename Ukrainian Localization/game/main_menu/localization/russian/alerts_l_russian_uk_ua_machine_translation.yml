@@ -326,7 +326,7 @@
   ALERT_EXPLORATION_MISSING_EXPLORER_ENTRY: "[EXPLORATION.GetArea.GetName]"
   ALERT_MISSING_EXPLORER_LEFT_CLICK: "Відкрити вкладку [Concept('exploration', 'виправ')|e]"
   ALERT_HAS_UNMARRIED_CHILDREN_TITLE: "Діти не в шлюбі"
-  ALERT_HAS_UNMARRIED_CHILDREN: "[COUNTRY.GetGovernment.GetFullRulerName] має [Concept('children', 'дітей')|e], які не перебувають у шлюбі:\n"
+  ALERT_HAS_UNMARRIED_CHILDREN: "[COUNTRY.GetGovernment.GetFullRulerName] має дітей, які не перебувають у шлюбі:\n"
   ALERT_HAS_UNMARRIED_CHILDREN_ENTRY: "[CHARACTER.GetName] ([CHARACTER.GetAgeInYears])"
   ALERT_HAS_UNMARRIED_CHILDREN_LEFT_CLICK: "Відкрити пошук шлюбів"
   ALERT_CAN_ARRANGE_INTERNATIONAL_MARRIAGE_TITLE: "Доступний міжнародний шлюб"

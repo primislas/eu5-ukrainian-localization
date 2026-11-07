@@ -5,7 +5,7 @@
   REVOKE_LOCATION_TOWN_RIGHT: "Відкликання [Concept('town_rights', 'міських прав')|e] у [Location.Custom('LR_GEN')|l] [Location.GetName]"
   upgrade_town_rights: "Розширення міських прав"
   UPGRADE_TOWN_RIGHTS_TO: "Надати місцевості [TownRightsItem.GetFirstLocationName] статус «[TownRightsItem.GetType.GetUpgradesTo.GetName]»"
-  UPGRADE_LOCATION_TOWN_RIGHT: "Надати місцевості [TownRightsItem.GetFirstLocationName] статус «[TownRights.GetType.GetUpgradesTo.GetName]»"
+  UPGRADE_LOCATION_TOWN_RIGHT: "Надати місцевості [TownRights.GetLocation.GetName] статус «[TownRights.GetType.GetUpgradesTo.GetName]»"
   staple_port: "Порт примусового торгу"
   staple_port_desc: "Цій [Concept('location', 'місцевості')|e] даровані привілеї, які розширюють права #TOOLTIP:ESTATE_TYPE,burghers_estate,X #L містян#!#! у сфері місцевої [Concept('trade', 'торгівлі')|e]. Торговці, що мандрують через такий порт, зобов’язані виставляти свій крам на продаж на певний час. В деяких країнах для кращого обліку вивіз товарів був дозволений лише через обмежене число портових міст, яким було даровано такий привілей.\n\nВ Європі подібне право часто називали «складовим», «складським» (крам складався для обліку, зберігання та продажу) або «штапельним» (від голландського «staplerecht») правом."
   granary_town: "Житниця"

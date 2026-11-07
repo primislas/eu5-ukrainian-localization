@@ -97,7 +97,7 @@
   steppe_horde.18.a: "Не звертайте уваги на цей набрід, брехливі собаки гавкають, але не кусають."
   steppe_horde.18.b: "Бували часи й кращі."
   steppe_horde.19.title: "Підрив авторитету"
-  steppe_horde.19.desc: "$steppe_horde_small_armies_common_desc$ багато вождів племен та старійшин відкрито сумніваються в тому, що [target_ruler.GetName] може вести нас. [ROOT.GetCountry.GetGovernment.GetRulerTitle] [Rtarget_ruler.GetName]? Та над нами будуть глузувати! На їхню думку, [target_heir.GetName] набагато краще впорається з цією роллю."
+  steppe_horde.19.desc: "$steppe_horde_small_armies_common_desc$ багато вождів племен та старійшин відкрито сумніваються в тому, що [target_ruler.GetName] може вести нас. [ROOT.GetCountry.GetGovernment.GetRulerTitle] [target_ruler.GetName]? Та над нами будуть глузувати! На їхню думку, [target_heir.GetName] набагато краще впорається з цією роллю."
   steppe_horde.19.a: "Їхні слова нічого не значать."
   steppe_horde.19.b: "Може, вони й мають рацію."
   steppe_horde.20.title: "Зневага до військового хисту"
