@@ -87,8 +87,7 @@ def translate_country_names():
     generated_file = LocFile(generated_country_names_file_path).load()
     localization = generated_file.get_localization()
 
-    # TODO: remove 525:
-    tag_pairs = [(k, v) for k, v in tags.items()][525:]
+    tag_pairs = [(k, v) for k, v in tags.items()]
     batches = split_into_batches(tag_pairs, batch_size)
 
     system_instruction_text = _get_country_names_system_instruction()
@@ -118,5 +117,5 @@ def translate_country_names():
 
 
 if __name__ == "__main__":
-    prepare_generated_file()
-    # translate_country_names()
+    # prepare_generated_file()
+    translate_country_names()

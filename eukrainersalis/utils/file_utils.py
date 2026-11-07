@@ -25,7 +25,7 @@ goods_grammatical_case_output_file_path = project_mod_dir / "main_menu" / "local
 modded_estate_localization_file_path = project_mod_dir / "main_menu" / "localization" / "russian" / "ua_estate_l_russian_uk_ua_machine_translation.yml"
 customized_estate_ending_file_path = project_mod_dir / "main_menu" / "localization" / "russian" / "assets" / "ua_estates_ending_l_russian_uk_ua_machine_translation.yml"
 generated_estate_ending_file_path = project_mod_dir / "main_menu" / "localization" / "russian" / "ua_estates_ending_l_russian_uk_ua_machine_translation.yml"
-generated_country_names_file_path = project_mod_dir / "main_menu" / "localization" / "russian" / "380_ua_country_names_l_russian_uk_ua_machine_translation.yml"
+generated_country_names_file_path = project_mod_dir / "main_menu" / "localization" / "russian" / "replace" / "ua_country_names_l_russian_uk_ua_machine_translation.yml"
 estate_ending_custom_loc_file_path = custom_localization_mod_dir_path / "380_ua_custom_loc_estates_end.txt"
 
 tag_grammatical_cases_file_path = project_mod_dir / "main_menu" / "localization" / "russian" / "replace" / "ua_countries_grammatical_cases_l_russian_uk_ua_machine_translation.yml"
