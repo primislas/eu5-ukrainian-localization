@@ -1,22 +1,24 @@
 import asyncio
-import json
 import os
 import re
 from dataclasses import dataclass
 from enum import StrEnum
 from importlib import resources
 from importlib.resources.abc import Traversable
+from pathlib import Path
 from typing import Callable, Pattern
 
 from dotenv import load_dotenv
 from langdetect import detect_langs, DetectorFactory
 
-from eukrainersalis.translators.gemini_translator import GeminiTranslator
-from eukrainersalis.utils.file_utils import list_localization_files, project_dir, system_instructions_ru_ua_file_path
+from eukrainersalis.run_machine_translation import translation_postprocessing
+from eukrainersalis.translators.gemini_translator import GeminiTranslator, YAMLTranslatorEncoder, TranslatorEncoder
+from eukrainersalis.utils.file_utils import list_localization_files, project_dir, system_instructions_ru_ua_file_path, \
+    translation_dir
 from eukrainersalis.utils.log_utils import logger
 from eukrainersalis.utils.migration_utils import MigrationManager
 from eukrainersalis.utils.translation_utils import Language, LocFile, split_into_batches, TranslationResult, \
-    TranslationLocKeyFileManager
+    TranslationLocKeyFileManager, POSTEDIT_EMPTY_TRANSLATION
 from eukrainersalis.utils.yaml_utils import load_eu5_yaml
 
 _INSTRUCTION_PACKAGE = "eukrainersalis.resources.instructions"
@@ -24,6 +26,15 @@ _INSTRUCTION_SKILL_REL_PATH = "skills/refinement"
 _INSTRUCTION_ROLE_FILE = "role"
 _INSTRUCTION_ROLE_EN_UA_FILE = "role_en_ua"
 _UA_PATTERN: Pattern[str] = re.compile(r"[а-яєїґ«’]")
+
+_ENGLISH_TRANSLATION_IGNORED_KEYS = { "" }
+_ENGLISH_TRANSLATION_ACCEPTABLE_PHRASES = {
+    "dlc", "steam", "steam workshop", "id",
+    "megalopolis", "to do", "todo", "ó", "spqr", "s p q r", "yesman",
+    "intel® ess", "nvidia dlss", "amd fidelityf super resolution", "f aa",
+    "category_hostile_actions", "category_friendly_actions", "category_covert_actions",
+    "category_economy_actions", "category_subject_actions"
+}
 
 # Enforce deterministic results for short/ambiguous text
 DetectorFactory.seed = 0
@@ -54,11 +65,16 @@ def select_english_translation_refinement(text: str) -> bool:
     normalized_text = re.sub(r'@[^!]+!', '', text)
     normalized_text = re.sub(r'#[^#]+#[^!]+#!#!', '', normalized_text)
     normalized_text = re.sub(r'#[^#]+#!', '', normalized_text)
-    normalized_text = re.sub(r'\$[^\$]+\$', '', normalized_text)
+    normalized_text = re.sub(r'\$[^$]+\$', '', normalized_text)
     normalized_text = re.sub(r'\[[^\]]+\]', '', normalized_text)
+    normalized_text = re.sub(r'\<[a-z0-0_]+\>', '', normalized_text)
+    # identifiers with underscores
+    normalized_text = re.sub(r'[a-z0-9]+_[a-z_0-9]+', '', normalized_text)
+    # formatting prefixed with #
+    normalized_text = re.sub(r'#[a-z0-9_]+', '', normalized_text)
     normalized_text = normalized_text.replace("é", "e")
     # normalized_text = re.sub(r'[^a-z\sа-яіїєґ]', '', normalized_text)
-    normalized_text = re.sub(r'[\.,:;?!=+\-*×%#0-9«»<> —~•/\|\$\(\)ᵃᵈᵉᶠᵍʰⁱˡᵐⁿʳˢᵗᵛʸªº]', ' ', normalized_text)
+    normalized_text = re.sub(r'[\.,:;?!=+\-−x÷*×%#0-9«»<> —–~•/\|\$\(\)]', ' ', normalized_text)
     normalized_text = re.sub(r'\s+', ' ', normalized_text)
     normalized_text = normalized_text.replace("tooltip_subheading", "")
     normalized_text = normalized_text.strip()
@@ -76,8 +92,7 @@ def select_english_translation_refinement(text: str) -> bool:
         return False
     if normalized_text.endswith("_TAG"):
         return False
-    # TODO: ideally should filter out key 'megalopolis_tt_LR'
-    if normalized_text == "megalopolis":
+    if normalized_text in _ENGLISH_TRANSLATION_ACCEPTABLE_PHRASES:
         return False
     # Assuming it's a variable declaration with underscores
     if len(normalized_text.split(" ")) == 1 and "_" in normalized_text:
@@ -109,13 +124,20 @@ def select_english_translation_refinement(text: str) -> bool:
     return needs_translation
 
 
-def select_english_translation_file_refinement(text: str) -> bool:
-    fdir, fname = os.path.split(text)
+def select_english_translation_file_refinement(file_path: str) -> bool:
+    fdir, fname = os.path.split(file_path)
     return True
     # return fname.startswith("flavor_decisions") or fname.startswith("d009") or fname.startswith("ud009") \
     #        or fname.startswith("crisis_of_faith") or fname.startswith("oligarchic_capture") \
     #        or fname.startswith("holy_war_events") or fname.startswith("religious_order_events") \
     #        or fname.startswith("flavor_iberian_union") or fname.startswith("colony_feedback") or fname.startswith("expedition_types")
+
+
+def select_english_translation_key_refinement(loc_key: str) -> bool:
+    if loc_key.endswith("_TAG") or loc_key.endswith("_tt_LR"):
+        return False
+
+    return True
 
 
 def select_estate_ending_refinement(text: str) -> bool:
@@ -157,9 +179,10 @@ class RefinementSkill(StrEnum):
 
     def get_system_instruction(self) -> str:
         if self == RefinementSkill.ENGLISH_TRANSLATION:
-            role = _get_refinement_skill_file(_INSTRUCTION_ROLE_EN_UA_FILE).read_text()
-            skill_task = system_instructions_ru_ua_file_path.read_text()
-            return role + "<task_instructions>\n" + skill_task + "\n</task_instructions>"
+            # role = _get_refinement_skill_file(_INSTRUCTION_ROLE_EN_UA_FILE).read_text()
+            # skill_task = system_instructions_ru_ua_file_path.read_text()
+            # return role + "<task_instructions>\n" + skill_task + "\n</task_instructions>"
+            return system_instructions_ru_ua_file_path.read_text()
 
         role = _get_refinement_skill_file(_INSTRUCTION_ROLE_FILE).read_text()
         skill_task = _get_refinement_skill_file(self).read_text()
@@ -186,10 +209,14 @@ class RefinementManager:
         )
         self.entries_threshold = entries_threshold
 
-        self._translator = GeminiTranslator(system_instruction_text=self.refinement_skill.get_system_instruction())
+        system_instruction = self.refinement_skill.get_system_instruction()
+        self._translator = GeminiTranslator(system_instruction_text=system_instruction)
+        self.encoder: TranslatorEncoder = YAMLTranslatorEncoder()
 
     def select_files(self, text_filter_func: Callable[[str], bool],
-                     file_name_filter_func: Callable[[str], bool] | None = None, max_files: int | None = None,
+                     file_name_filter_func: Callable[[str], bool] | None = None,
+                     loc_key_filter_func: Callable[[str], bool] | None = None,
+                     max_files: int | None = None,
                      entries_threshold: int | None = None) -> list[LocFile]:
         if not text_filter_func:
             return []
@@ -210,6 +237,9 @@ class RefinementManager:
             content = load_eu5_yaml(file)
             localization: dict[str, str] = content.get(localization_key, {})
             for k, v in localization.items():
+                if loc_key_filter_func is not None and not loc_key_filter_func(k):
+                    continue
+
                 v_lower = v.lower()
                 if text_filter_func(v_lower):
                     if self.refinement_skill == RefinementSkill.ENGLISH_TRANSLATION:
@@ -238,9 +268,9 @@ class RefinementManager:
         result = TranslationResult(total_records=batch_size, total_submitted_records=batch_size,
                                    submitted_records=batch)
         async with api_semaphore:
-            lines = [json.dumps({k: v}, ensure_ascii=False) for k, v in batch]
             try:
-                translated_lines = await self._translator.translate_batch_async(lines)
+                text = self.encoder.encode(batch)
+                translated_text = await self._translator.translate_batch_async(text)
             except Exception as e:
                 logger.error(f"Batch {batch_idx + 1}/{total_batches} failed: {e}")
                 batch_keys = [t[0] for t in batch]
@@ -252,26 +282,18 @@ class RefinementManager:
         successful_translations = 0
         # async with write_lock:
         translated_batch: dict[str, str] = {}
-        for line in translated_lines:
-            # line = translation_postprocessing(line)
-            json_line: dict[str, str] = {}
-            try:
-                json_line = json.loads(line)
-            except Exception:
-                try:
-                    # sometimes running into failing escape sequences
-                    line = line.replace("\\", "\\\\")
-                    json_line = json.loads(line)
-                except Exception as e:
-                    logger.error(f"Expected a JSON but received: " + line)
-                    result.add_error(e)
-            if json_line:
-                for k, v in json_line.items():
-                    if len(v) == 0:
-                        translated_batch[k] = "POSTEDIT_EMPTY_TRANSLATION"
-                    else:
-                        translated_batch[k] = v
-                        successful_translations += 1
+        translated_text = translation_postprocessing(translated_text)
+        lkv, errors = self.encoder.decode(translated_text)
+        for k, v in lkv.items():
+            if len(v) == 0:
+                translated_batch[k] = POSTEDIT_EMPTY_TRANSLATION
+            else:
+                translated_batch[k] = v
+                successful_translations += 1
+        for t in batch:
+            loc_key = t[0]
+            if loc_key not in translated_batch:
+                translated_batch[loc_key] = POSTEDIT_EMPTY_TRANSLATION
 
         result.translated_records = successful_translations
         result.translated_localizations = translated_batch
@@ -293,7 +315,14 @@ class RefinementManager:
 
         return translation
 
-    def select_filter(self) -> Callable[[str], bool] | None:
+    def select_loc_key_filter(self) -> Callable[[str], bool] | None:
+        match self.refinement_skill:
+            case RefinementSkill.ENGLISH_TRANSLATION:
+                return select_english_translation_key_refinement
+            case _:
+                return None
+
+    def select_loc_value_filter(self) -> Callable[[str], bool] | None:
         match self.refinement_skill:
             case RefinementSkill.ADMINISTRATION:
                 return select_administration_refinement
@@ -322,13 +351,18 @@ class RefinementManager:
     async def refine(self):
         logger.info(f"Refining: {self.refinement_id}...")
         api_semaphore = asyncio.Semaphore(self.max_concurrency)
-        refinement_filter = self.select_filter()
-        if not refinement_filter:
+        loc_key_filter = self.select_loc_key_filter()
+        loc_value_filter = self.select_loc_value_filter()
+        if not loc_value_filter:
             logger.info(f"No refinement filter is configured, exiting.")
             return
         refinement_file_filter = self.select_file_filter()
 
-        skill_files = self.select_files(refinement_filter, file_name_filter_func=refinement_file_filter, max_files=500)
+        skill_files = self.select_files(
+            file_name_filter_func=refinement_file_filter,
+            loc_key_filter_func=loc_key_filter,
+            text_filter_func=loc_value_filter,
+            max_files=500)
         if not skill_files:
             logger.info(f"Found no files in need of refinement.")
             return
@@ -371,7 +405,87 @@ def _refine(skill: RefinementSkill, entries_threshold: int = 20):
     asyncio.run(_refinement_mgr.refine())
 
 
+def reset_changed_loc_keys_to_english(remove_dangling_files: bool = False):
+    prev_version_dir = Path(os.getenv("MIGRATION_REFERENCE_DIR", "")) / "Ukrainian Localization"
+    updated_files = []
+    all_updated_keys = []
+    for file_path in list_localization_files(Language.UK_UA_MACHINE_TRANSLATION):
+        ua_fname = os.path.basename(file_path)
+        loc_file = LocFile(file_path).load()
+        ua_loc = loc_file.get_localization()
+
+        en_loc_file_path = file_path.replace("/russian/", "/english/").replace(Language.UK_UA_MACHINE_TRANSLATION.file_suffix, Language.ENGLISH.file_suffix)
+        en_loc_file = LocFile(en_loc_file_path)
+        ru_loc_file_path = file_path.replace(Language.UK_UA_MACHINE_TRANSLATION.file_suffix, Language.RUSSIAN.file_suffix)
+        ru_loc_file_exists = os.path.exists(ru_loc_file_path)
+        if not os.path.exists(en_loc_file.file_path):
+            logger.warning(f"English localization not found for {os.path.basename(file_path)}")
+            if not remove_dangling_files:
+                continue
+
+            if not ua_fname.startswith("EU5_customizable_localization") or ua_fname.startswith("customizable_localization_"):
+                os.remove(file_path)
+                logger.warning(f"Removed dangling file: {ua_fname}")
+                if ru_loc_file_exists:
+                    os.remove(ru_loc_file_path)
+                    logger.warning(f"Removed dangling file: {os.path.basename(ru_loc_file_path)}")
+            continue
+
+        prev_version_en_loc_file_path = prev_version_dir / Path(en_loc_file.file_path).relative_to(translation_dir)
+        prev_version_en_loc_file = LocFile(prev_version_en_loc_file_path).load()
+
+        ru_loc = {}
+        prev_ru_loc = {}
+        if ru_loc_file_exists:
+            ru_loc_file = LocFile(ru_loc_file_path).load()
+            ru_loc = ru_loc_file.get_localization()
+            prev_version_ru_loc_file_path = prev_version_dir / Path(ru_loc_file_path).relative_to(translation_dir)
+            prev_version_ru_loc_file = LocFile(prev_version_ru_loc_file_path).load()
+            prev_ru_loc = prev_version_ru_loc_file.get_localization()
+
+        updated_keys = set()
+        rebased_loc = {}
+        prev_loc = prev_version_en_loc_file.get_localization()
+        en_loc_file = en_loc_file.load()
+        for en_loc_key, en_val in en_loc_file.get_localization().items():
+            if en_loc_key not in prev_loc or en_loc_key not in ua_loc:
+                rebased_loc[en_loc_key] = en_val
+                updated_keys.add(en_loc_key)
+                all_updated_keys.append(en_loc_key)
+            elif en_val != prev_loc[en_loc_key]:
+                rebased_loc[en_loc_key] = en_val
+                updated_keys.add(en_loc_key)
+                all_updated_keys.append(en_loc_key)
+            elif ru_loc_file_exists:
+                if en_loc_key in ru_loc and en_loc_key in prev_ru_loc and ru_loc[en_loc_key] != prev_ru_loc[en_loc_key]:
+                    rebased_loc[en_loc_key] = en_val
+                    updated_keys.add(en_loc_key)
+                    all_updated_keys.append(en_loc_key)
+                else:
+                    rebased_loc[en_loc_key] = ua_loc[en_loc_key]
+            else:
+                rebased_loc[en_loc_key] = ua_loc[en_loc_key]
+
+        if updated_keys:
+            loc_file.set_localization(rebased_loc)
+            loc_file.save()
+            fname = Path(file_path).name
+            logger.debug(f"Updated {len(updated_keys)} in {fname}")
+            updated_files.append(file_path)
+
+    logger.info(f"Detected changes in {len(all_updated_keys)} across {len(updated_files)} files")
+
+
+
+def translate_english_diff():
+    _version = os.getenv("MIGRATION_TO")
+    _refinement_id = f"refinement-{RefinementSkill.ENGLISH_TRANSLATION.value}-{_version}"
+    _refinement_mgr = RefinementManager(_refinement_id, RefinementSkill.ENGLISH_TRANSLATION, entries_threshold=2000)
+    # reset_changed_loc_keys_to_english()
+    asyncio.run(_refinement_mgr.refine())
+
+
 if __name__ == "__main__":
     load_dotenv()
-    _refine(RefinementSkill.ENGLISH_TRANSLATION, 2000)
+    translate_english_diff()
     # _refine(RefinementSkill.SYSTEM)

@@ -260,7 +260,7 @@ async def translate_and_save_batch(
 
     successful_translations = 0
     async with write_lock:
-        # line = translation_postprocessing(line)
+        translated_text = translation_postprocessing(translated_text)
         lkv, errors = encoder.decode(translated_text)
 
         for k, v in lkv.items():

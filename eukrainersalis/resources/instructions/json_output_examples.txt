@@ -1,0 +1,17 @@
+# Examples
+
+Input:
+{"some.event.key": "[PROVINCE.GetName] отсутствует $COMPARATOR$ $NUM|V2$ [rebel|e] прогрес"}
+{"MENU_ITEM": "Это заглушка для меню\\n"}
+{"culture_languageKEY": "[Concept('language','Язык')|e]: #L [CountryCultureLateralView.GetCulture.GetLanguage.GetName|l]ое#!"}
+{"GLH_horde_ADJ": "Золотоордынск"}
+{"cotton.declension": "[AddTextIf(EqualTo_string('Хлопок', TARGET_GOODS.GetNameWithNoTooltip), 'хлопка')|l]"}
+{"Goods_GetNameWithNoTooltip_RU_GEN": "[AddTextIf(EqualTo_string('Лошади', TARGET_GOODS.GetNameWithNoTooltip), 'Лошадей')|l]"}
+
+Output:
+{"some.event.key": "[PROVINCE.GetName] відсутній $COMPARATOR$ $NUM|V2$ [rebel|e] прогрес"}
+{"MENU_ITEM": "Це заповнювач для меню\\n"}
+{"culture_languageKEY": "[Concept('language','Мова')|e]: #L [CountryCultureLateralView.GetCulture.GetLanguage.GetName|l]е#!"}
+{"GLH_horde_ADJ": "Золотоординськ"}
+{"cotton.declension": "[AddTextIf(EqualTo_string('Бавовна', TARGET_GOODS.GetNameWithNoTooltip), 'бавовни')|l]"}
+{"Goods_GetNameWithNoTooltip_RU_GEN": "[AddTextIf(EqualTo_string('Коні', TARGET_GOODS.GetNameWithNoTooltip), 'Коней')|l]"}

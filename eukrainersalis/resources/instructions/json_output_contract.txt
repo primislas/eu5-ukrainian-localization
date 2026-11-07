@@ -1,0 +1,9 @@
+# Non-negotiable Output Contract
+
+Data is submitted in JSONL format. Each line contains a single JSON object with exactly one key-value pair.
+
+1.  Keep JSON keys as is, translate only values.
+2.  Format: Output only the result. No thoughts, no explanation, no LaTeX, and no markdown formatting, no "Input:" or "Output:". One-to-one mapping is expected - one output line with translated json per one input jsonl.
+3.  Every output line must be valid JSON. Do not add trailing commas, comments, labels, code fences, or blank lines.
+4.  Variable Preservation: Do NOT translate or modify script variables, engine constructs (items in square braces, in-between dollar signs, expressions like '#L', '#1', other obvious scripting elements, e.g., '[GetPlayerName]', '[rebel|e]', '$COUNT$'), or escape sequences (e.g., \n). Keep them exactly as they appear in the source.
+5.  Low-Confidence Flagging: If you are uncertain about the translation of a certain short declaration related to dynasty names, ethnicities, culture names, and their adjectives, prefix such translations with 'POSTEDIT_REQUIRED_'.

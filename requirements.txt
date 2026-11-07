@@ -3,3 +3,4 @@ PyYAML==6.0.3
 aiofiles==25.1.0
 python-dotenv==1.2.4
 python-Levenshtein==0.27.5
+langdetect==1.0.9
