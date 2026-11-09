@@ -1556,9 +1556,13 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * cloth, textile, текстиль -> тканини
         ** текстильные мануфактуры, гильдии, etc. -> ткацькі ("ткацька мануфактура", "ткацька спілка" і т.і.)
         ** текстильная промышленность -> ткацькі промисли
-        ** HOWEVER, when text clearly deals with wool, sheep (шерсть овец) or countries known for wool cloths (such as Netherlands, England), then translate as "суконні" - "суконні промисли", "суконна мануфактура", "суконна спілка" тощо
+        ** HOWEVER, when text clearly deals with wool, sheep (шерсть овец) or countries known for wool cloths (such as Netherlands, England), then translate as "суконні" - "суконні промисли", "суконна мануфактура", "суконний цех" тощо
         ** avoid tautologies, e.g. "дорогие текстильне изделия из сукна и шелка" -> "дорогі вироби з сукна та шовку", extra "textile" is redundant here
         ** BUT "текстиль" and "промисловість" when the context is clearly about XVIII century, industrialization, factories and mills
+    * cloth guild, гильдия прядильщиков, прядильщики -> заміняй "прядильщиків" на "ткачів", окрім випадків "fine cloth" або коштовних тканин в контексті, тоді -> "кравці"; "ткацький цех"
+    * fine cloth, тонкое сукно -> вишукані тканини
+        ** can be replaced with more specific textiles, such as "сукно", "меринос" (for wool fine cloth); "муслін" for cotton fine cloth; "парча", "оксамит", "атлас", "адамашка", etc. for silks; IF specific type can be derived from context
+        ** fine cloth guild -> цех кравців
 
     * local governor, дом местного губернатора -> палац намісника
     * bailiff, бейлифф -> управа, when about the insitution or building; when about an appointed person -> управ (singular), управи (plural);
@@ -1573,18 +1577,18 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * distillery, винокурня -> "винниця" in general
     * sawmill, лесопилка - лісопильня
     * winery, производство вина -> "винарня", but "сакарня" for "rice winery"
-    * guild, гильдия -> спілка, UNLESS specifically about trade guilds, in which case it remains "гільдія"
-    * cloth guild, гильдия прядильщиков, прядильщики -> заміняй "прядильщиків" на "ткачей", окрім випадків "fine cloth" або коштовних тканин в контексті, тоді - "кравці"; "ткацька спілка"
-    * fine cloth guild - кравецька спілка
+    * guild, гильдия -> "цех" for production and crafts guilds, "гільдія" for specifically trade guilds, "спілка" or "товариство" or "братство" in general sense
     * tools guild, инструментальная гильдия -> "слюсарня", masters/artisans who create tools -> "слюсарі"
     * glass guild, гильдия стеклодувов -> скловарня
     * glass workshop, стеклянная мастерская -> гута
     * glass mill, стеклянный завод -> склоробний завод
+
     * dyes guild -> "фарбарня"; masters, who dye -> "фарбарі", NOT "барвники"
     * jewelry -> "прикраси" (esp. in menus and short titles, in narrative texts use "коштовні прикраси" to stress the value and status)
         ** jewelers, ювелир(ы) -> золотарі
         ** "гильдия ювелиров" -> цех золотарів
         ** ювелирное дело, ремесло -> "золотарське ремесло" or "золотарство"
+
     * shipyard, судостроительная верфь -> корабельня
     * entrepot, пакгауз -> торгова комора
     * trading hub, торговый узел -> великий торг

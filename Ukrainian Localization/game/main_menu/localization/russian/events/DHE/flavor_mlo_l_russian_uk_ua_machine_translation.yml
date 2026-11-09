@@ -268,5 +268,5 @@
   mlo_every_province_scope_province_tt: "Усі належні нам [Concept('location', 'місцевості')|e] у постраждалій [Concept('province', 'провінції')|e] отримають такі ефекти:"
   mlo_sforza_given_influence_tt: "[target_character.GetName] отримує контроль над нашими військами"
   mlo_sforza_joins_tt: "[target_character.GetName] приєднається до нашого двору"
-  produce_any_fine_cloth_or_silk_tt: "Ми виробляємо будь-яке #TOOLTIP:GOODS,fine_cloth,X #L тонке сукно#!#! або #TOOLTIP:GOODS,silk,X #L шовк#!#!"
+  produce_any_fine_cloth_or_silk_tt: "Ми виробляємо будь-яке #TOOLTIP:GOODS,fine_cloth,X #L тонке сукно#!#! або #TOOLTIP:GOODS,silk,X #L вишукані шовки#!#!"
   italian_cloth: "Попит на італійські тканини"
