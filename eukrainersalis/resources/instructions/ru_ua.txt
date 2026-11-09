@@ -1581,8 +1581,10 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * glass workshop, стеклянная мастерская -> гута
     * glass mill, стеклянный завод -> склоробний завод
     * dyes guild -> "фарбарня"; masters, who dye -> "фарбарі", NOT "барвники"
-    * jewelry, jewelers, ювелир(ы) -> золотарі
-        ** "гильдия ювелиров" -> спілка золотарів
+    * jewelry -> "прикраси" (esp. in menus and short titles, in narrative texts use "коштовні прикраси" to stress the value and status)
+        ** jewelers, ювелир(ы) -> золотарі
+        ** "гильдия ювелиров" -> цех золотарів
+        ** ювелирное дело, ремесло -> "золотарське ремесло" or "золотарство"
     * shipyard, судостроительная верфь -> корабельня
     * entrepot, пакгауз -> торгова комора
     * trading hub, торговый узел -> великий торг
