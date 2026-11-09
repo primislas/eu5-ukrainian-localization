@@ -104,7 +104,7 @@
   flavor_ven.1000.b: "Це не наша проблема."
   variable_MAM_POR_conflict_tt: "Конфлікт ставить під загрозу торгівлю #TOOLTIP:GOODS,pepper,X #L перцем#!#!"
   flavor_ven.1001.title: "[ven_scope.GetNameWithNoTooltip] надсилає допомогу"
-  flavor_ven.1001.desc: "Влада над торговими шляхами в #TOOLTIP:REGION,indian_ocean_region,X #L Індійському океані#!#! перейшла в #L [GetCountry('POR').GetAdjective|l]і#! руки, і тепер [ven_scope.GetGovernment.GetGovernmentType.GetName] [ven_scope.GetName], що існує переважно за рахунок торгівлі, відчуває серйозне занепокоєння. Але, оскільки нас пов’язують добрі стосунки, ми отримали допомогу у вигляді #TOOLTIP:GOODS,lumber,X #L лісоматеріалів#!#! на будівництво нових кораблів, а також різних ресурсів для купців."
+  flavor_ven.1001.desc: "Влада над торговими шляхами в #TOOLTIP:REGION,indian_ocean_region,X #L Індійському океані#!#! перейшла в #L [GetCountry('POR').GetAdjective|l]і#! руки, і тепер [ven_scope.GetGovernment.GetGovernmentType.GetName] [ven_scope.GetName], що існує переважно за рахунок торгівлі, відчуває серйозне занепокоєння. Але, оскільки нас пов’язують добрі стосунки, ми отримали допомогу у вигляді #TOOLTIP:GOODS,lumber,X #L деревини#!#! на будівництво нових кораблів, а також різних засобів для купців."
   flavor_ven.1001.a: "Добрі новини!"
   venetian_help: "Венеційська допомога"
   flavor_ven.19.title: "Нечестивий союз"

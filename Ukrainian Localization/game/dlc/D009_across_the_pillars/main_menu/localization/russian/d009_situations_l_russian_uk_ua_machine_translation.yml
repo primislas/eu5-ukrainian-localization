@@ -77,7 +77,7 @@
   cas_demand_muslim_converts_price_abilities: "Здібності персонажа"
   cas_demand_muslim_converts_effect_tt: "Обраний [Concept('character', 'персонаж')|e] прибуде до нашого двору, навернеться в християнство і вступить до нас на службу під час [Concept('event', 'події')|e], наслідки якої залежать від [Concept('abilities', 'здібностей')|e] цього персонажа"
   cas_dismantle_fortifications: "Знесення укріплень"
-  cas_dismantle_fortifications_desc: "Наказ нашому #L [GetCountry('GRA').GetAdjective|l]ому#! #TOOLTIP:SUBJECT_TYPE,vassal,X #L васалу#!#! розібрати укріплення у зазначеній місцевості. Отриманий камінь, лісоматеріали та оброблена кам’яна кладка будуть вивезені на північ і надійдуть на іберійські ринки, а [GetCountry('GRA').GetFlavorRank|l] стане ще трохи більше залежати від наших залог."
+  cas_dismantle_fortifications_desc: "Наказ нашому #L [GetCountry('GRA').GetAdjective|l]ому#! #TOOLTIP:SUBJECT_TYPE,vassal,X #L васалу#!#! розібрати укріплення у зазначеній місцевості. Отриманий камінь, деревина та оброблена кам’яна кладка будуть вивезені на північ і надійдуть на іберійські ринки, а [GetCountry('GRA').GetFlavorRank|l] стане ще трохи більше залежати від наших залог."
   cas_dismantle_fortifications_select_title: "Оберіть місцевість Гранади для розбирання укріплень"
   cas_dismantle_fortifications_no_locations: "@trigger_no! У Гранаді немає укріплених місцевостей"
   cas_dismantle_fortifications_effect_tt: "Усі [Concept('building', 'споруди')|e] класу «форт» в обраній [Concept('location', 'місцевості')|e] будуть зруйновані. Отримані при цьому товари надійдуть на наші [Concept('markets', 'ринки')|e], але [Concept('liberty_desire', 'прагнення волі')|e] нашого васала посилиться, а його думка про нас надовго погіршиться."

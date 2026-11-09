@@ -1525,6 +1525,10 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * aqueduct system, irrigation system, система акведуков, ирригации -> мережа акведуків, зрошувальна мережа (NOT "система")
     * irrigation, ирригация -> зрошування
 
+    * lumber, лесоматериалы -> деревина
+        ** in narrative texts can be interchanged with "ліс" in phrases like "продаж лісу", "лісозаготівля", "корабельні ліси"
+        ** деревину заготовляють (NOT "виробляють")
+
     * квасцы -> галун
     * spices, специи -> ALWAYS and ONLY "прянощі", replace singular "спеція" with plural "прянощі" as well, be mindful of a city "Спеція" and do not translate its name
     * porcelain, фарфор -> порцеляна
