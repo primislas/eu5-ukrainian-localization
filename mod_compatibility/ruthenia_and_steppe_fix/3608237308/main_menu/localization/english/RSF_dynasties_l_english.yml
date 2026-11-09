@@ -6,7 +6,7 @@
  location_suffix_west_slavic: "sk[Character.Custom('PolGenderSuffixAdj')]"
 
  
- # ----- UKRAINIAN -----
+ ##### UKRAINIAN #####
  ukr_suffix_a_female: "a"
  ukr_suffix_yi_male: "yi"
  
@@ -295,7 +295,7 @@
  Zyma: "Zyma"
 
 
- # ----- BELARUSIAN -----
+ ##### BELARUSIAN #####
  bel_suffix_aja_female: "aja"
  bel_suffix_i_male: "i"
 
@@ -320,7 +320,7 @@
  Vronski: "Vronsk[Character.Custom('BelGenderSuffixAdj')]"
  Zaslawski: "Zasłaŭsk[Character.Custom('BelGenderSuffixAdj')]"
 
- # Belarusian nobility both genders
+ # Belarusian nobility gender-neutral
  Alakhnovich: "Alachnovič"
  Alelkavich: "Alelkavič"
  Azheshka: "Ažeška"
@@ -477,7 +477,7 @@
  Zhukevich: "Žukievič"
 
 
- # ----- POLISH -----
+ ##### POLISH #####
  pol_suffix_a_female: "a"
  pol_suffix_i_male: "i"
 
@@ -486,6 +486,7 @@
  Branicki: "Branick[Character.Custom('PolGenderSuffixAdj')]"
  Czarniecki: "Czarnieck[Character.Custom('PolGenderSuffixAdj')]"
  Czartoryski: "Czartorysk[Character.Custom('PolGenderSuffixAdj')]"
+ Czetwertynski: "Czetwertyńsk[Character.Custom('PolGenderSuffixAdj')]"
  Domanski: "Domańsk[Character.Custom('PolGenderSuffixAdj')]"
  Gosiewski: "Gosiewsk[Character.Custom('PolGenderSuffixAdj')]"
  Gostomski: "Gostomsk[Character.Custom('PolGenderSuffixAdj')]"
@@ -573,7 +574,7 @@
  Zareba: "Zaręba"
 
 
- # ----- CZECH AND SLOVAK -----
+ ##### CZECH AND SLOVAK #####
  cze_svk_suffix_ova_female: "ová"
  cze_svk_suffix_no_male: ""
  cze_svk_suffix_a_male: "a"
@@ -581,7 +582,7 @@
  cze_svk_suffix_a_female: "á"
  cze_svk_suffix_y_male: "ý"
 
- # ----- CZECH -----
+ ##### CZECH #####
  # Predefined dynasties and characters
  dynasty_kinsky: "Kinsk[Character.Custom('CzeSvkGenderSuffixAdj')]"
  dynasty_kolowrat: "Kolovrat[Character.Custom('CzeSvkGenderSuffix1')]"
@@ -634,6 +635,7 @@
  Velisovsky: "Velišovsk[Character.Custom('CzeSvkGenderSuffixAdj')]" 
  
  # Czech dynasties nouns
+ Bavor: "Bavor[Character.Custom('CzeSvkGenderSuffix1')]"
  Cernin: "Černín[Character.Custom('CzeSvkGenderSuffix1')]"
  Hrabisic: "Hrabišic[Character.Custom('CzeSvkGenderSuffix1')]"
  Kaplir: "Kaplíř[Character.Custom('CzeSvkGenderSuffix1')]"
@@ -742,12 +744,13 @@
  Zelenka: "Zelenk[Character.Custom('CzeSvkGenderSuffix2')]"
 
 
- # ----- SLOVAK -----
+ ##### SLOVAK #####
  # Slovak dynasties adjectives
  Belansky: "Belánsk[Character.Custom('CzeSvkGenderSuffixAdj')]"
  Belopotocky: "Belopotock[Character.Custom('CzeSvkGenderSuffixAdj')]"
  Benicky: "Benick[Character.Custom('CzeSvkGenderSuffixAdj')]"
  Brezovicky: "Brezovick[Character.Custom('CzeSvkGenderSuffixAdj')]"
+ Briestensky: "Briestensk[Character.Custom('CzeSvkGenderSuffixAdj')]"
  Bulovsky: "Buľovsk[Character.Custom('CzeSvkGenderSuffixAdj')]"
  Cermansky: "Čermansk[Character.Custom('CzeSvkGenderSuffixAdj')]"
  Diviacky: "Diviack[Character.Custom('CzeSvkGenderSuffixAdj')]"
@@ -774,7 +777,7 @@
  Trstensky: "Trstensk[Character.Custom('CzeSvkGenderSuffixAdj')]"
  Zaborsky: "Záborsk[Character.Custom('CzeSvkGenderSuffixAdj')]"
  Zapolsky: "Zápolsk[Character.Custom('CzeSvkGenderSuffixAdj')]"
- Zaturecky: "Zátureck[Character.Custom('CzeSvkGenderSuffixAdj')]" 
+ Zaturecky: "Zátureck[Character.Custom('CzeSvkGenderSuffixAdj')]"
 
  # Slovak dynasties nouns
  Batan: "Baťán[Character.Custom('CzeSvkGenderSuffix1')]"
@@ -787,6 +790,9 @@
  Caplovic: "Čaplovič[Character.Custom('CzeSvkGenderSuffix1')]"
  Hadik: "Hadík[Character.Custom('CzeSvkGenderSuffix1')]"
  Hamuljak: "Hamuljak[Character.Custom('CzeSvkGenderSuffix1')]"
+ Kollar: "Kollár[Character.Custom('CzeSvkGenderSuffix1')]"
+ Kosut: "Košút[Character.Custom('CzeSvkGenderSuffix1')]"
+ Platy: "Platy[Character.Custom('CzeSvkGenderSuffix1')]"
  Pongrac: "Pongrác[Character.Custom('CzeSvkGenderSuffix1')]"
  Turzo: "Turzo[Character.Custom('CzeSvkGenderSuffix1')]"
  Zmeskal: "Zmeškal[Character.Custom('CzeSvkGenderSuffix1')]"
@@ -822,7 +828,6 @@
  Kocur: "Kocúr[Character.Custom('CzeSvkGenderSuffix1')]"
  Kolar_sk: "Kolár[Character.Custom('CzeSvkGenderSuffix1')]"
  Kolarik: "Kolárik[Character.Custom('CzeSvkGenderSuffix1')]"
- Kollar: "Kollár[Character.Custom('CzeSvkGenderSuffix1')]"
  Kovac: "Kováč[Character.Custom('CzeSvkGenderSuffix1')]"
  Kovacik: "Kováčik[Character.Custom('CzeSvkGenderSuffix1')]"
  Krajcir: "Krajčír[Character.Custom('CzeSvkGenderSuffix1')]"
@@ -856,7 +861,7 @@
  Varga: "Varg[Character.Custom('CzeSvkGenderSuffix2')]"
 
 
- # ----- BULGARIAN AND RUSSIAN -----
+ ##### BULGARIAN AND RUSSIAN #####
  bul_rus_suffix_a_female: "a"
  bul_rus_suffix_no_male: ""
 
@@ -901,6 +906,7 @@
  Rumyantsev: "Rumyantsev[Character.Custom('BulRusGenderSuffix')]"
  Saltykov: "Saltykov[Character.Custom('BulRusGenderSuffix')]"
  Sheremetev: "Sheremetev[Character.Custom('BulRusGenderSuffix')]"
+ Shuvalov: "Shuvalov[Character.Custom('BulRusGenderSuffix')]"
  Stroganov: "Stroganov[Character.Custom('BulRusGenderSuffix')]"
  Suvorov: "Suvorov[Character.Custom('BulRusGenderSuffix')]"
  Tatishev: "Tatishev[Character.Custom('BulRusGenderSuffix')]"
@@ -969,7 +975,11 @@
  Volkov: "Volkov[Character.Custom('BulRusGenderSuffix')]"
  Yakovlev: "Yakovlev[Character.Custom('BulRusGenderSuffix')]"
  Yashin: "Yashin[Character.Custom('BulRusGenderSuffix')]"
- Zaytsev: "Zaytsev[Character.Custom('BulRusGenderSuffix')]" 
+ Yashkin: "Yashin[Character.Custom('BulRusGenderSuffix')]"
+ Zavidov: "Zavidov[Character.Custom('BulRusGenderSuffix')]"
+ Zaytsev: "Zaytsev[Character.Custom('BulRusGenderSuffix')]"
+ Zimin: "Zimin[Character.Custom('BulRusGenderSuffix')]"
+ Zubov: "Zubov[Character.Custom('BulRusGenderSuffix')]"
 
  # Bulgarian lowborn 
  Aleksandrov: "Aleksandrov[Character.Custom('BulRusGenderSuffix')]"
@@ -1169,5 +1179,5 @@
  Zhivkov: "Zhivkov[Character.Custom('BulRusGenderSuffix')]"
  Zlatev: "Zlatev[Character.Custom('BulRusGenderSuffix')]"
 
- # ----- CRIMEAN -----
+ ##### CRIMEAN #####
  geray_dynasty: "Geray"

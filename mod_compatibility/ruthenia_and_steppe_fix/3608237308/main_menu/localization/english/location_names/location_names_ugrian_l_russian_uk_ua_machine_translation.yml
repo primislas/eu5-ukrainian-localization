@@ -1,5 +1,4 @@
 ﻿l_english:
- # Ural
  lower_aktanyshbash.ugrian_language: "Актанишбаш"
  verkhneyarkeyevo.ugrian_language: "Єркей"
  burayevo.ugrian_language: "Борай"
@@ -41,9 +40,6 @@
  polevskoy.ugrian_language: "Сисерть"
  troitsk.ugrian_language: "Карси"
  uyskoye.ugrian_language: "Уй"
-
-
- # West Siberia
  almenevo.ugrian_language: "Альмен"
  shchuchye.ugrian_language: "Чумляк"
  kargapolye.ugrian_language: "Чаши"

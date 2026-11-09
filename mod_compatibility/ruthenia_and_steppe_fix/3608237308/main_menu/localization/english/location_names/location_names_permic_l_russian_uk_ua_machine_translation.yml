@@ -1,5 +1,4 @@
 ﻿l_english:
- # Ural
  lower_aktanyshbash.permic_language: " Актанишбаш"
  verkhneyarkeyevo.permic_language: "Єркей"
  burayevo.permic_language: "Борай"
@@ -41,8 +40,6 @@
  polevskoy.permic_language: "Сисерть"
  troitsk.permic_language: "Карси"
  uyskoye.permic_language: "Уй"
-
- # Volga Bulgaria
  izhevsk.permic_language: "Іжкар"
  vyatskiye_polyany.permic_language: "Малмиш"
  chalninsky_pochinok.permic_language: "Зай"

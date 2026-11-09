@@ -1,5 +1,4 @@
 ﻿l_english:
- # West Siberia
  almenevo.nenets_language: "Альмен"
  shchuchye.nenets_language: "Чумляк"
  kargapolye.nenets_language: "Чаши"
@@ -86,8 +85,6 @@
  bolshoy_yugan.nenets_language: "Юган"
  pravaya_khetta.nenets_language: "Нида"
  levaya_khetta.nenets_language: "Хетта"
-
- # East Siberia
  yemelyanovo.nenets_language: "Міндерла"
  krasnoyarsk.nenets_language: "Кум-Тігей"
  kansk.nenets_language: "Чечеул"

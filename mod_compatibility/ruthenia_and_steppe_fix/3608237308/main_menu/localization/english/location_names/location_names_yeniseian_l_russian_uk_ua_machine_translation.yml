@@ -1,5 +1,4 @@
 ﻿l_english:
- # West Siberia
  almenevo.yeniseian_language: "Альмен"
  shchuchye.yeniseian_language: "Чумляк"
  kargapolye.yeniseian_language: "Чаши"
@@ -75,8 +74,6 @@
  nazimovo.yeniseian_language: "Айдара"
  selo_yartsevo.yeniseian_language: "Сим"
  ust_ozernoye.yeniseian_language: "Катайга"
-
- # East Siberia
  yemelyanovo.yeniseian_language: "Міндерла"
  krasnoyarsk.yeniseian_language: "Кум-Тігей"
  kansk.yeniseian_language: "Чечеул"

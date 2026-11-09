@@ -1,5 +1,4 @@
-﻿ # Added genitive forms and other locations
-l_english:
+﻿l_english:
  alba_iulia.slovak_dialect: "Юльський Белеград"
  alba_iulia.slovak_dialect.genitive: "Юльського Белеграду"
  antwerp.slovak_dialect: "Антверпи"
@@ -282,8 +281,6 @@ l_english:
  zalavar.slovak_dialect.genitive: "Блатнограду"
  zittau.slovak_dialect: "Жітава"
  zittau.slovak_dialect.genitive: "Жітави"
-
- # Slovak with genitive
  bardejov.slovak_dialect: "Бардейов"
  bardejov.slovak_dialect.genitive: "Бардейова"
  roznava.slovak_dialect: "Рожнява"

@@ -1,18 +1,14 @@
 ﻿l_english:
- # Added by Kotyk
- # Crimea
  solkhat.mongolian_language: " Солхат"
  kalay.mongolian_language: "Калай"
  jurchi.mongolian_language: "Джурчі"
- aqmecit.mongolian_language: "Акмечіт" #In Crimea
- or_qapi.mongolian_language: "Ор Капи" #Last letter corrected
+ aqmecit.mongolian_language: "Акмечіт"
+ or_qapi.mongolian_language: "Ор Капи"
  lusta.mongolian_language: "Алушта"
  soldaia.mongolian_language: "Судак"
  vosporo.mongolian_language: "Керіч"
  kaffa.mongolian_language: "Кефе"
  theodoro.mongolian_language: "Мангуп-Кале"
-
- # Dobruja
  isaccea.mongolian_language: "Сакчі"
  tulcea.mongolian_language: "Тулча"
  chilia.mongolian_language: "Кілія"
@@ -30,8 +26,6 @@
  cetatea_tetina.mongolian_language: "Тетін"
  cernauti.mongolian_language: "Кара-Керман"
  targu_lapusnei.mongolian_language: "Лапуш"
-
- # Ukraine
  okhtyrka.mongolian_language: "Ахтир"
  krasnopillia.mongolian_language: "Сага"
  khotmyzh.mongolian_language: "Хотмиш"
@@ -44,7 +38,6 @@
  chornukhy.mongolian_language: " Чорнух"
  lypova_dolyna.mongolian_language: "Юке-Вадій"
  kotelva.mongolian_language: "Котелва"
-
  kremenchuk.mongolian_language: "Керменчік"
  myrhorod.mongolian_language: "Тинч-Шеер"
  velyki_sorochyntsi.mongolian_language: "Бююк-Сорочин"
@@ -60,7 +53,6 @@
  oster.mongolian_language: "Естер"
  lutava.mongolian_language: "Лютав"
  kozelets.mongolian_language: "Козел"
-
  cherkasy.mongolian_language: "Чаркас"
  chyhyryn.mongolian_language: "Чигрин"
  lebedyn.mongolian_language: "Аккуш"
@@ -71,8 +63,6 @@
  sherbiv.mongolian_language: "Шербил"
  bila_tserkva.mongolian_language: "Ак-Мечет"
  kyiv.mongolian_language: "Манкерман"
-
- #Pontic Steppe
  aslan_horod.mongolian_language: "Іслам-Кермен"
  berestyn.mongolian_language: "Пархом-Байрак"
  cheboksary.mongolian_language: "Чабаксар"
@@ -89,7 +79,6 @@
  sarai_al_jadid.mongolian_language: "Сарай аль-Джадід"
  tavan.mongolian_language: "Кизи-Кермен"
  torhovytsia.mongolian_language: "Ябгу"
-
  myshuryn_rih.mongolian_language: "Мішур"
  tomakivka.mongolian_language: "Тумак"
  mykytyn_rih.mongolian_language: "Чартамлик"
@@ -104,7 +93,7 @@
  velyka_lepetykha.mongolian_language: "Аджи-Су"
  kryvyi_rih.mongolian_language: "Саксаган"
  kuyanlik.mongolian_language: "Куянлик"
- aqmecit_prybuzhzhya.mongolian_language: "Кешені" #In Prybuzhzhia
+ aqmecit_prybuzhzhya.mongolian_language: "Кешені"
  argamakli_sarai.mongolian_language: "Аргамакли"
  balikley.mongolian_language: "Баликлей"
  bashtanka.mongolian_language: "Баштан"
@@ -125,7 +114,7 @@
  sloviansk.mongolian_language: "Ямбол"
  shyrokyne.mongolian_language: "Чермалик"
  lysychansk.mongolian_language: "Байрак"
- taganrog.mongolian_language: "Кабарді" #From Portolans
+ taganrog.mongolian_language: "Кабарді"
  vasylivka.mongolian_language: "Сарабаш"
  rovenky.mongolian_language: "Міус"
  luhansk.mongolian_language: "Вергун"
@@ -148,8 +137,6 @@
  novopskov.mongolian_language: "Айдар"
  bilovodsk.mongolian_language: "Євсуг"
  konstantinovka.mongolian_language: "Тали"
-
- # Lower Don Steppe
  kalmius.mongolian_language: "Буран"
  kamenskaya.mongolian_language: "Качкан"
  shcherbinovka.mongolian_language: "Чумбур"
@@ -181,8 +168,6 @@
  bokovskaya.mongolian_language: "Ільїн"
  milyutinskaya.mongolian_language: "Скосна"
  boguchar.mongolian_language: "Богучар"
-
- # Upper Don Steppe
  anna_russia.mongolian_language: "Тойда"
  novaya_pokrovka.mongolian_language: "Ікорець"
  ostrogozhsk.mongolian_language: "Коротояк"
@@ -214,8 +199,6 @@
  novye_burasy.mongolian_language: " Бураси"
  tereshka.mongolian_language: "Терешка"
  petrovsk.mongolian_language: "Чунакі"
-
- # Moksha
  russky_kameshkir.mongolian_language: "Камешкір"
  serdobinskaya.mongolian_language: "Сердоба"
  chembar.mongolian_language: "Чембар"
@@ -238,8 +221,6 @@
  lukoyanov.mongolian_language: "Теша"
  krasnoslobodsk.mongolian_language: "Сівін"
  bolshoye_boldino.mongolian_language: "Азанка"
-
- # Lower Volga
  mechet.mongolian_language: "Мешет"
  stepanevka.mongolian_language: "Тортанли"
  zenzevatka.mongolian_language: "Баликлей"
@@ -275,8 +256,6 @@
  bolkhuny.mongolian_language: "Болхун"
  mikhaylovka_pontic.mongolian_language: "Сасиколі"
  rechnoye.mongolian_language: "Сарай-Бату"
-
- # Upper Volga
  piterka.mongolian_language: "Узень"
  krasny_kut_pontic.mongolian_language: " Ахмат"
  savinka.mongolian_language: "Торгун"
@@ -309,8 +288,6 @@
  tetyushi.mongolian_language: " Ашли"
  promsa.mongolian_language: "Тагай"
  melekess.mongolian_language: "Мелекес"
-
- # Volga Bulgaria
  sergiyevsk.mongolian_language: "Сок"
  koshki.mongolian_language: "Салаван"
  kamyshla.mongolian_language: " Камишли"
@@ -347,8 +324,6 @@
  alikovo.mongolian_language: "Алагаш"
  atishchevo.mongolian_language: " Тав Іле"
  sviyazhsk.mongolian_language: "Темте"
-
- # Caucasus
  dardeling.mongolian_language: "Сабра"
  kok_usn.mongolian_language: "Кок Усн"
  yashkul.mongolian_language: "Яшкул"
@@ -381,8 +356,6 @@
  novo_alexandrovskoye.mongolian_language: " Теджимбек"
  bezopasnoye.mongolian_language: " Акуа"
  ipatovo.mongolian_language: "Чиркас"
-
- # Ural
  lower_aktanyshbash.mongolian_language: " Актанишбаш"
  verkhneyarkeyevo.mongolian_language: "Еркей"
  chekmagush.mongolian_language: " Чекмагуш"
@@ -422,8 +395,6 @@
  chebarkul.mongolian_language: " Чебаркул"
  troitsk.mongolian_language: "Карси"
  uyskoye.mongolian_language: "Уй"
-
- # Siberia
  almenevo.mongolian_language: " Альмен"
  shchuchye.mongolian_language: "Чумляк"
  kurtamysh.mongolian_language: "Куртамиш"
@@ -503,8 +474,6 @@
  nazimovo.mongolian_language: "Айдара"
  selo_yartsevo.mongolian_language: "Сим"
  ust_ozernoye.mongolian_language: " Катайга"
-
- # East Siberia
  yemelyanovo.mongolian_language: "Міндерла"
  krasnoyarsk.mongolian_language: " Кум-Тігей"
  kansk.mongolian_language: "Чечеул"
@@ -546,8 +515,6 @@
  oktyabr_skii.mongolian_language: "Каримай"
  kamenskoie.mongolian_language: " Пенжина"
  tumanskaya.mongolian_language: "Туман"
-
- # Central Asia
  zhanybek.mongolian_language: "Женібек"
  botkul.mongolian_language: "Боткель"
  bokey.mongolian_language: " Бекей"
@@ -647,7 +614,6 @@
  kyzylsay.mongolian_language: " Кизилсай"
  moiynty.mongolian_language: " Моїнтом"
  mukur.mongolian_language: " Мукир"
-
  kulykol.mongolian_language: " Куликель"
  zhetykol.mongolian_language: "Джетикель"
  shoptikol.mongolian_language: " Шептікель"
@@ -665,7 +631,6 @@
  shoindykol.mongolian_language: "Шоїндикель"
  atbasar.mongolian_language: "Атбасар"
  kozhakol.mongolian_language: " Коджакель"
-
  emin.mongolian_language: " Еміл"
  ilanbalyk.mongolian_language: "Іланбалик"
  koktuma.mongolian_language: " Кектума"
@@ -699,7 +664,6 @@
  nuzket.mongolian_language: "Нузкет"
  sargau.mongolian_language: "Саргау"
  soltobe.mongolian_language: "Сортебе"
-
  ilibalyk.mongolian_language: "Ілібали"
  charyn.mongolian_language: " Шарин"
  chundzha.mongolian_language: " Шонджи"
@@ -716,7 +680,6 @@
  sagabuyen.mongolian_language: " Сагабюіен"
  tansyk.mongolian_language: " Тансик"
  tekeli.mongolian_language: "Текелі"
-
  merki.mongolian_language: " Меркі"
  aspara.mongolian_language: "Аспара"
  khantau.mongolian_language: "Хантау"
@@ -733,7 +696,6 @@
  tekabket.mongolian_language: "Текабкет"
  yangi.mongolian_language: " Іангікент"
  zherkorgan.mongolian_language: " Джаркоргон"
-
  masat_ata.mongolian_language: "Масат-Ата"
  beket_ata.mongolian_language: "Бекет-Ата"
  beki.mongolian_language: " Бекі"
@@ -752,7 +714,6 @@
  orta_kuyu.mongolian_language: " Ортакудик"
  talaikhan_ata.mongolian_language: " Талаїхан-Ата"
  uzboy.mongolian_language: " Озбой"
-
  takhir.mongolian_language: "Тахір"
  arkat.mongolian_language: "Аркат"
  zhanaarka.mongolian_language: " Джанаарка"
@@ -775,8 +736,6 @@
  zhalauly.mongolian_language: "Джалаули"
  chany.mongolian_language: " Шани"
  kargat.mongolian_language: " Коргат"
-
- # Khorasan
  kath.mongolian_language: "Кат"
  khurgancha.mongolian_language: " Корганча"
  pulzhai.mongolian_language: " Пулджаї"
@@ -880,8 +839,6 @@
  khoja_idat_kala.mongolian_language: "Ходжа-Ідат-Кала"
  nasaf.mongolian_language: "Насаф"
  navidakh.mongolian_language: "Навідах"
-
- # Russia
  belgorod.mongolian_language: "Топлін"
  muzhech.mongolian_language: " Мужеч"
  rakitnoye.mongolian_language: " Ракіт"

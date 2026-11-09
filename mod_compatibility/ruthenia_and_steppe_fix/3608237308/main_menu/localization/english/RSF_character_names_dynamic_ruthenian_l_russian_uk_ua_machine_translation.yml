@@ -1,25 +1,4 @@
 ﻿l_english:
- # valid formats:
- # name_NAME
- # name_NAME.[culture]
- # name_NAME.[language]
- # name_NAME.[language].[culture]
- # name_NAME.diminutive
- # name_NAME.genitive
- # name_NAME.[culture].diminutive
- # name_NAME.[culture].genitive
- # name_NAME.[language].diminutive
- # name_NAME.[language].genitive
- # name_NAME.[language].[culture].diminutive
- # name_NAME.[language].[culture].genitive
- #
- # diminutive is used when a character has no dynasty
- # genitive is used when a patronym, e.g. as in Irish usage
- #
- # you can also join compound names like this so they can have a unique form in some languages:
- # name_michael.name_angel.north_italian_language: "Michelangelo"
-
-
  name_abraham.belarusian_dialect: "Аўрам"
  name_abraham.east_slavic_language: "Авраам"
  name_abraham.ruthenian_language: "Авраам"
@@ -815,18 +794,14 @@
  name_yaroslava.belarusian_dialect: "Яраслаўа"
  name_yaroslava.east_slavic_language: "Ярослава"
  name_yaroslava.ruthenian_language: "Ярослава"
-
- # Unique names Ukrainian and Belarusian
  Herasym: "Герасим"
  Hordiy: "Гордій"
  Naum: "Наум"
  Taras: "Тарас"
  Zynoviy: "Зиновій"
-
  Alla: "Алла"
  Nadia: "Надія"
  Vira: "Віра"
-
  Herasim: "Гєрасім"
  Hardzej: "Гардзєй"
  Navum: "Навум"

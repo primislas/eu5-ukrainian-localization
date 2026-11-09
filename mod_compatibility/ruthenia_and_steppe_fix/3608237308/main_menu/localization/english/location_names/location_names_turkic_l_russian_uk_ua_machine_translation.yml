@@ -1,5 +1,4 @@
 ﻿l_english:
- # Ural
  lower_aktanyshbash.turkic_language: "Актанишбаш"
  verkhneyarkeyevo.turkic_language: "Яркей"
  chekmagush.turkic_language: "Чекмагуш"
@@ -39,8 +38,6 @@
  chebarkul.turkic_language: "Чебаркуль"
  troitsk.turkic_language: "Карси"
  uyskoye.turkic_language: "Уй"
-
- # Siberia
  almenevo.turkic_language: "Альмен"
  shchuchye.turkic_language: "Чумляк"
  kurtamysh.turkic_language: "Куртамиш"
@@ -118,8 +115,6 @@
  nazimovo.turkic_language: "Айдара"
  selo_yartsevo.turkic_language: "Сим"
  ust_ozernoye.turkic_language: "Катайга"
-
- # East Siberia
  yemelyanovo.turkic_language: "Міндерла"
  krasnoyarsk.turkic_language: "Кум-Тігей"
  kansk.turkic_language: "Чечеул"
@@ -162,8 +157,6 @@
  kamenskoie.turkic_language: "Пенжина"
  tumanskaya.turkic_language: "Туман"
  balagansk.turkic_language: "Балаган"
-
- # Central Asia 
  zhanybek.turkic_language: "Женібек"
  botkul.turkic_language: "Боткель"
  bokey.turkic_language: "Бекей"
@@ -263,7 +256,6 @@
  kyzylsay.turkic_language: "Кизилсай"
  moiynty.turkic_language: "Мойинти"
  mukur.turkic_language: "Мукир"
-
  kulykol.turkic_language: "Куликель"
  zhetykol.turkic_language: "Жетікель"
  shoptikol.turkic_language: "Шептікель"
@@ -281,7 +273,6 @@
  shoindykol.turkic_language: "Шоїндикель"
  atbasar.turkic_language: "Атбасар"
  kozhakol.turkic_language: "Кожакель"
-
  emin.turkic_language: "Еміль"
  ilanbalyk.turkic_language: "Іланбалик"
  koktuma.turkic_language: "Кектума"
@@ -315,7 +306,6 @@
  nuzket.turkic_language: "Нузкет"
  sargau.turkic_language: "Саргау"
  soltobe.turkic_language: "Сортебе"
-
  ilibalyk.turkic_language: "Ілібали"
  charyn.turkic_language: "Шарин"
  chundzha.turkic_language: "Шонжи"
@@ -332,7 +322,6 @@
  sagabuyen.turkic_language: "Сагабюєн"
  tansyk.turkic_language: "Тансик"
  tekeli.turkic_language: "Текелі"
-
  merki.turkic_language: "Меркі"
  aspara.turkic_language: "Аспара"
  khantau.turkic_language: "Хантау"
@@ -349,7 +338,6 @@
  tekabket.turkic_language: "Текабкет"
  yangi.turkic_language: "Іангікент"
  zherkorgan.turkic_language: "Жаркоргон"
-
  masat_ata.turkic_language: "Масат-Ата"
  beket_ata.turkic_language: "Бекет-Ата"
  beki.turkic_language: "Бекі"
@@ -368,7 +356,6 @@
  orta_kuyu.turkic_language: "Ортакудук"
  talaikhan_ata.turkic_language: "Талаїхан-Ата"
  uzboy.turkic_language: "Езбой"
-
  takhir.turkic_language: "Тахір"
  arkat.turkic_language: "Аркат"
  zhanaarka.turkic_language: "Жанаарка"
@@ -391,8 +378,6 @@
  zhalauly.turkic_language: "Жалаули"
  chany.turkic_language: "Шани"
  kargat.turkic_language: "Коргат"
-
- # Khorasan
  kath.turkic_language: "Кат"
  khurgancha.turkic_language: "Корганча"
  pulzhai.turkic_language: "Пулжай"

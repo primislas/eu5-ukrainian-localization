@@ -1,6 +1,4 @@
 ﻿l_english:
- # Added by Kotyk
- # Belarus
  bershty.lithuanian_dialect: "Берштап"
  grodek.lithuanian_dialect: "Гарделіс"
  masty.lithuanian_dialect: "Мастай"
@@ -123,8 +121,6 @@
  usvyaty.lithuanian_dialect: "Швентай"
  velizh.lithuanian_dialect: "Веліжас"
  vydreya.lithuanian_dialect: "Видрея"
-
- # Ukraine
  ichnia.lithuanian_dialect: "Ічня"
  hadiach.lithuanian_dialect: "Гадічас"
  romen.lithuanian_dialect: "Ромнай"

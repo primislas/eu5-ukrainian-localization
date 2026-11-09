@@ -1,5 +1,4 @@
-﻿# Copied from Kipchak for the respective regions
-l_english:
+﻿l_english:
  aslan_horod.alanic_language: "Іслам-Кермен"
  berestyn.alanic_language: "Пархом-Байрак"
  cheboksary.alanic_language: "Чабаксар"
@@ -16,15 +15,11 @@ l_english:
  sarai_al_jadid.alanic_language: "Бехіма"
  tavan.alanic_language: "Кизи-Кермен"
  torhovytsia.alanic_language: "Ябгу"
-
- # Crimea
  solkhat.alanic_language: "Солхат"
  kalay.alanic_language: "Калай"
  jurchi.alanic_language: "Сурчі"
- aqmecit.alanic_language: "Акмечіт" #In Crimea
- or_qapi.alanic_language: "Ор-Капи" #Last letter corrected
- 
- #Pontic Steppe
+ aqmecit.alanic_language: "Акмечіт"
+ or_qapi.alanic_language: "Ор-Капи"
  uman.alanic_language: "Ятрань"
  umanske.alanic_language: "Килтен"
  mala_vyska.alanic_language: "Вис"
@@ -36,7 +31,7 @@ l_english:
  velyka_lepetykha.alanic_language: "Аджи-Су"
  kryvyi_rih.alanic_language: "Саксагань"
  kuyanlik.alanic_language: "Куянлик"
- aqmecit_prybuzhzhya.alanic_language: "Кешені" #In Prybuzhzhia
+ aqmecit_prybuzhzhya.alanic_language: "Кешені"
  argamakli_sarai.alanic_language: "Аргамакли"
  balikley.alanic_language: "Баликлей"
  bashtanka.alanic_language: "Баштан"
@@ -57,7 +52,7 @@ l_english:
  sloviansk.alanic_language: "Ямбол"
  shyrokyne.alanic_language: "Чермалик"
  lysychansk.alanic_language: "Байрак"
- taganrog.alanic_language: "Кабарді" #From Portolans
+ taganrog.alanic_language: "Кабарді"
  vasylivka.alanic_language: "Сарабаш"
  rovenky.alanic_language: "Міус"
  luhansk.alanic_language: "Вергун"
@@ -80,8 +75,6 @@ l_english:
  novopskov.alanic_language: "Айдар"
  bilovodsk.alanic_language: "Євсуг"
  konstantinovka.alanic_language: "Тали"
-
- # Lower Don Steppe
  kalmius.alanic_language: "Буран"
  kamenskaya.alanic_language: "Качкан"
  shcherbinovka.alanic_language: "Чумбур"
@@ -113,8 +106,6 @@ l_english:
  bokovskaya.alanic_language: "Ільїн"
  milyutinskaya.alanic_language: "Скосна"
  boguchar.alanic_language: "Богучар"
- 
- # Upper Don Steppe
  anna_russia.alanic_language: "Тойда"
  novaya_pokrovka.alanic_language: "Ікорець"
  ostrogozhsk.alanic_language: "Коротояк"
@@ -146,8 +137,6 @@ l_english:
  novye_burasy.alanic_language: "Бураси"
  tereshka.alanic_language: "Терешка"
  petrovsk.alanic_language: "Чунаки"
-
- # Moksha
  russky_kameshkir.alanic_language: "Камешкір"
  serdobinskaya.alanic_language: "Сердоба"
  chembar.alanic_language: "Чембар"
@@ -170,8 +159,6 @@ l_english:
  lukoyanov.alanic_language: "Теша"
  krasnoslobodsk.alanic_language: "Сівін"
  bolshoye_boldino.alanic_language: "Азанка"
- 
- # Lower Volga
  mechet.alanic_language: "Мешет"
  stepanevka.alanic_language: "Тортанли"
  zenzevatka.alanic_language: "Баликлей"
@@ -207,8 +194,6 @@ l_english:
  bolkhuny.alanic_language: "Болхун"
  mikhaylovka_pontic.alanic_language: "Сасиколи"
  rechnoye.alanic_language: "Сарай аль-Джадід"
- 
- # Upper Volga
  piterka.alanic_language: "Узень"
  krasny_kut_pontic.alanic_language: "Ахмат"
  savinka.alanic_language: "Торгун"
@@ -241,8 +226,6 @@ l_english:
  tetyushi.alanic_language: "Ашли"
  promsa.alanic_language: "Тагай"
  melekess.alanic_language: "Мелекес"
- 
- # Volga Bulgaria
  sergiyevsk.alanic_language: "Сок"
  koshki.alanic_language: "Салаван"
  kamyshla.alanic_language: "Камишли"
@@ -279,8 +262,6 @@ l_english:
  alikovo.alanic_language: "Алагаш"
  atishchevo.alanic_language: "Тау-Іле"
  sviyazhsk.alanic_language: "Темте"
- 
- # Caucasus
  dardeling.alanic_language: "Сабра"
  kok_usn.alanic_language: "Кок-Усн"
  yashkul.alanic_language: "Яшкуль"
@@ -314,8 +295,6 @@ l_english:
  bezopasnoye.alanic_language: "Акуа"
  ipatovo.alanic_language: "Чиркас"
  akhtar.alanic_language: "Ахтар"
-
- # Ural
  lower_aktanyshbash.alanic_language: "Акталишбаш"
  verkhneyarkeyevo.alanic_language: "Яркей"
  chekmagush.alanic_language: "Чекмагуш"
@@ -355,8 +334,6 @@ l_english:
  chebarkul.alanic_language: "Чебаркуль"
  troitsk.alanic_language: "Карси"
  uyskoye.alanic_language: "Уй"
-
- # Siberia
  almenevo.alanic_language: "Альмен"
  shchuchye.alanic_language: "Чумляк"
  kurtamysh.alanic_language: "Куртамиш"

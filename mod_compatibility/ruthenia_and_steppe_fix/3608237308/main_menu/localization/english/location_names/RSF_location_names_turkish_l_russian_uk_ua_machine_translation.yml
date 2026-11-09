@@ -1,18 +1,14 @@
 ﻿l_english:
- # Added by Kotyk, mostly copied from the Kipchak file
- # Crimea
  solkhat.turkish_language: "Солхат"
  kalay.turkish_language: "Калай"
  jurchi.turkish_language: "Джурчі"
- aqmecit.turkish_language: "Акмечіт" #In Crimea
- or_qapi.turkish_language: "Ор-Капи" #Last letter corrected
+ aqmecit.turkish_language: "Акмечіт"
+ or_qapi.turkish_language: "Ор-Капи"
  lusta.turkish_language: "Алушта"
  soldaia.turkish_language: "Судак"
  vosporo.turkish_language: "Керіч"
  kaffa.turkish_language: "Кефе"
  theodoro.turkish_language: "Мангуп-Кале"
-
- # Dobruja
  isaccea.turkish_language: "Сакчі"
  tulcea.turkish_language: "Тулча"
  chilia.turkish_language: "Кілія"
@@ -30,8 +26,6 @@
  cetatea_tetina.turkish_language: "Тетін"
  cernauti.turkish_language: "Кара-Керман"
  targu_lapusnei.turkish_language: "Лапуш"
-
- # Ukraine
  tomakivka.turkish_language: "Тумак"
  mykytyn_rih.turkish_language: "Чартамлик"
  uman.turkish_language: "Ятран"
@@ -45,7 +39,7 @@
  velyka_lepetykha.turkish_language: "Аджи Су"
  kryvyi_rih.turkish_language: "Саксаган"
  kuyanlik.turkish_language: "Куянлик"
- aqmecit_prybuzhzhya.turkish_language: "Кешені" #In Prybuzhzhia
+ aqmecit_prybuzhzhya.turkish_language: "Кешені"
  argamakli_sarai.turkish_language: "Аргамакли"
  balikley.turkish_language: "Баликлей"
  bashtanka.turkish_language: "Баштан"
@@ -66,7 +60,7 @@
  sloviansk.turkish_language: "Ямбол"
  shyrokyne.turkish_language: "Чермалик"
  lysychansk.turkish_language: "Байрак"
- taganrog.turkish_language: "Кабарді" #From Portolans
+ taganrog.turkish_language: "Кабарді"
  vasylivka.turkish_language: "Сарабаш"
  rovenky.turkish_language: "Міус"
  luhansk.turkish_language: "Вергун"
@@ -89,8 +83,6 @@
  novopskov.turkish_language: "Айдар"
  bilovodsk.turkish_language: "Євсуг"
  konstantinovka.turkish_language: "Тали"
-
- # Lower Don Steppe
  kalmius.turkish_language: "Буран"
  kamenskaya.turkish_language: "Качкан"
  shcherbinovka.turkish_language: "Чумбур"
@@ -122,8 +114,6 @@
  bokovskaya.turkish_language: "Ільїн"
  milyutinskaya.turkish_language: "Скосна"
  boguchar.turkish_language: "Богучар"
-
- # Upper Don Steppe
  anna_russia.turkish_language: "Тойда"
  novaya_pokrovka.turkish_language: "Ікорет"
  ostrogozhsk.turkish_language: "Коротояк"
@@ -155,8 +145,6 @@
  novye_burasy.turkish_language: "Бураси"
  tereshka.turkish_language: "Терешка"
  petrovsk.turkish_language: "Чунак"
-
- # Moksha
  russky_kameshkir.turkish_language: "Камешкір"
  serdobinskaya.turkish_language: "Сердоб"
  chembar.turkish_language: "Чембар"
@@ -179,8 +167,6 @@
  lukoyanov.turkish_language: "Теша"
  krasnoslobodsk.turkish_language: "Сівін"
  bolshoye_boldino.turkish_language: "Азанка"
-
- # Lower Volga
  mechet.turkish_language: "Мешет"
  stepanevka.turkish_language: "Тортанли"
  zenzevatka.turkish_language: "Баликлей"
@@ -216,8 +202,6 @@
  bolkhuny.turkish_language: "Болхун"
  mikhaylovka_pontic.turkish_language: "Сасиколі"
  rechnoye.turkish_language: "Сарай аль-Джадід"
-
- # Upper Volga
  piterka.turkish_language: "Узень"
  krasny_kut_pontic.turkish_language: "Ахмат"
  savinka.turkish_language: "Торгун"
@@ -250,8 +234,6 @@
  tetyushi.turkish_language: "Ашли"
  promsa.turkish_language: "Тагай"
  melekess.turkish_language: "Мелекес"
-
- # Volga Bulgaria
  sergiyevsk.turkish_language: "Сок"
  koshki.turkish_language: "Салаван"
  kamyshla.turkish_language: "Камишли"
@@ -288,8 +270,6 @@
  alikovo.turkish_language: "Алагаш"
  atishchevo.turkish_language: "Тав Іле"
  sviyazhsk.turkish_language: "Темте"
-
- # Caucasus
  dardeling.turkish_language: "Сабра"
  kok_usn.turkish_language: "Кок Усн"
  yashkul.turkish_language: "Яшкул"
@@ -323,7 +303,6 @@
  bezopasnoye.turkish_language: "Акуа"
  ipatovo.turkish_language: "Чиркас"
  akhtar.turkish_language: "Ахтар"
-
  shad_kirman.turkish_language: "Шад-Кермен"
  adyukh.turkish_language: "Адюх"
  dzhulat.turkish_language: "Джулат"
@@ -337,8 +316,6 @@
  chatyun.turkish_language: "Чазюн"
  bzhedygu_kal.turkish_language: "Бджедиг-Кале"
  raguli.turkish_language: "Рагюль"
-
- # Ural
  lower_aktanyshbash.turkish_language: "Актамишбаш"
  verkhneyarkeyevo.turkish_language: "Яркекей"
  chekmagush.turkish_language: "Чекмагуш"
@@ -378,8 +355,6 @@
  chebarkul.turkish_language: "Чебаркул"
  troitsk.turkish_language: "Карси"
  uyskoye.turkish_language: "Уй"
-
- # Siberia
  almenevo.turkish_language: "Альмен"
  shchuchye.turkish_language: "Чумляк"
  kurtamysh.turkish_language: "Куртамиш"
@@ -457,8 +432,6 @@
  nazimovo.turkish_language: "Айдара"
  selo_yartsevo.turkish_language: "Сим"
  ust_ozernoye.turkish_language: "Катайга"
-
- # East Siberia
  yemelyanovo.turkish_language: "Міндерла"
  krasnoyarsk.turkish_language: "Кум-Тігей"
  kansk.turkish_language: "Чечеул"
@@ -500,8 +473,6 @@
  oktyabr_skii.turkish_language: "Каримай"
  kamenskoie.turkish_language: "Пенжина"
  tumanskaya.turkish_language: "Туман"
-
- # Central Asia
  zhanybek.turkish_language: "Женібек"
  botkul.turkish_language: "Боткьоль"
  bokey.turkish_language: "Бокей"
@@ -601,7 +572,6 @@
  kyzylsay.turkish_language: "Кизилсай"
  moiynty.turkish_language: "Мойинти"
  mukur.turkish_language: "Мукир"
-
  kulykol.turkish_language: "Куликоль"
  zhetykol.turkish_language: "Жетиколь"
  shoptikol.turkish_language: "Шоптіколь"
@@ -619,7 +589,6 @@
  shoindykol.turkish_language: "Шоїндиколь"
  atbasar.turkish_language: "Атбасар"
  kozhakol.turkish_language: "Кожаколь"
-
  emin.turkish_language: "Еміл"
  ilanbalyk.turkish_language: "Іланбалик"
  koktuma.turkish_language: "Коктума"
@@ -653,7 +622,6 @@
  nuzket.turkish_language: "Нузкет"
  sargau.turkish_language: "Саргау"
  soltobe.turkish_language: "Сортьобе"
-
  ilibalyk.turkish_language: "Ілібали"
  charyn.turkish_language: "Шарин"
  chundzha.turkish_language: "Шонжи"
@@ -670,7 +638,6 @@
  sagabuyen.turkish_language: "Сагабюєн"
  tansyk.turkish_language: "Тангсик"
  tekeli.turkish_language: "Текелі"
-
  merki.turkish_language: "Меркі"
  aspara.turkish_language: "Аспара"
  khantau.turkish_language: "Хантау"
@@ -687,7 +654,6 @@
  tekabket.turkish_language: "Текабкет"
  yangi.turkish_language: "Янгікент"
  zherkorgan.turkish_language: "Жаркоргон"
-
  masat_ata.turkish_language: "Масат-Ата"
  beket_ata.turkish_language: "Бекет-Ата"
  beki.turkish_language: "Бекі"
@@ -706,7 +672,6 @@
  orta_kuyu.turkish_language: "Ортакудук"
  talaikhan_ata.turkish_language: "Талаїхан-Ата"
  uzboy.turkish_language: "Озбой"
-
  takhir.turkish_language: "Тахір"
  arkat.turkish_language: "Аркат"
  zhanaarka.turkish_language: "Жанаарка"
@@ -729,8 +694,6 @@
  zhalauly.turkish_language: "Жалаули"
  chany.turkish_language: "Шани"
  kargat.turkish_language: "Коргат"
-
- # Khorasan
  kath.turkish_language: "Кат"
  khurgancha.turkish_language: "Корганча"
  pulzhai.turkish_language: "Пулджай"

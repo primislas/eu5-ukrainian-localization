@@ -1,6 +1,4 @@
 ﻿l_english:
- # Added by Kotyk for Ural and Siberia
- # Ural
  lower_aktanyshbash.hungarian_language: "Актанишбаш"
  verkhneyarkeyevo.hungarian_language: "Єркей"
  burayevo.hungarian_language: "Борай"
@@ -33,8 +31,6 @@
  polevskoy.hungarian_language: "Сисерт"
  troitsk.hungarian_language: "Карси"
  uyskoye.hungarian_language: "Уй"
-
- # West Siberia
  almenevo.hungarian_language: "Альмен"
  shchuchye.hungarian_language: "Чумляк"
  kargapolye.hungarian_language: "Чаши"

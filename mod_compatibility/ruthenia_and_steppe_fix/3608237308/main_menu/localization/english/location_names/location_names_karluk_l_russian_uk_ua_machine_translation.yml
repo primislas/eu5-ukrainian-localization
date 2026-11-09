@@ -1,5 +1,4 @@
 ﻿l_english:
- # Copied from the Kipchak language
  aslan_horod.karluk_language: "Іслам-Кермен"
  berestyn.karluk_language: "Пархом-Байрак"
  cheboksary.karluk_language: "Чабаксар"
@@ -16,25 +15,19 @@
  sarai_al_jadid.karluk_language: "Бехіма"
  tavan.karluk_language: "Кизи-Кермен"
  torhovytsia.karluk_language: "Ябгу"
-
- # Crimea
  solkhat.karluk_language: "Солхат"
  kalay.karluk_language: "Калай"
  jurchi.karluk_language: "Джурчі"
- aqmecit.karluk_language: "Акмечіт" #In Crimea
- or_qapi.karluk_language: "Ор-Капи" #Last letter corrected
+ aqmecit.karluk_language: "Акмечіт"
+ or_qapi.karluk_language: "Ор-Капи"
  lusta.karluk_language: "Алушта"
  soldaia.karluk_language: "Судак"
  vosporo.karluk_language: "Керіч"
  kaffa.karluk_language: "Кефе"
  theodoro.karluk_language: "Мангуп-Кале"
-
- # Dobruja
  isaccea.karluk_language: "Сакчі"
  tulcea.karluk_language: "Тулча"
  chilia.karluk_language: "Кілія"
-
- # Ukraine
  tomakivka.karluk_language: "Тумак"
  mykytyn_rih.karluk_language: " Чартамлик"
  uman.karluk_language: "Ятран"
@@ -48,7 +41,7 @@
  velyka_lepetykha.karluk_language: "Аджи Су"
  kryvyi_rih.karluk_language: "Саксаган"
  kuyanlik.karluk_language: "Куянлик"
- aqmecit_prybuzhzhya.karluk_language: "Кешені" #In Prybuzhzhia
+ aqmecit_prybuzhzhya.karluk_language: "Кешені"
  argamakli_sarai.karluk_language: "Аргамакли"
  balikley.karluk_language: "Баликлей"
  bashtanka.karluk_language: "Баштан"
@@ -69,7 +62,7 @@
  sloviansk.karluk_language: "Ямбол"
  shyrokyne.karluk_language: "Чермалик"
  lysychansk.karluk_language: "Байрак"
- taganrog.karluk_language: "Кабарді" #From Portolans
+ taganrog.karluk_language: "Кабарді"
  vasylivka.karluk_language: "Сарабаш"
  rovenky.karluk_language: "Міус"
  luhansk.karluk_language: "Вергун"
@@ -92,8 +85,6 @@
  novopskov.karluk_language: "Айдар"
  bilovodsk.karluk_language: "Євсуг"
  konstantinovka.karluk_language: "Тали"
-
- # Lower Don Steppe
  kalmius.karluk_language: "Буран"
  kamenskaya.karluk_language: "Качкан"
  shcherbinovka.karluk_language: "Чумбур"
@@ -125,8 +116,6 @@
  bokovskaya.karluk_language: "Ільїн"
  milyutinskaya.karluk_language: "Скосна"
  boguchar.karluk_language: "Богучар"
-
- # Upper Don Steppe
  anna_russia.karluk_language: "Тойда"
  novaya_pokrovka.karluk_language: "Ікорет"
  ostrogozhsk.karluk_language: "Коротояк"
@@ -158,8 +147,6 @@
  novye_burasy.karluk_language: "Бураси"
  tereshka.karluk_language: "Терешка"
  petrovsk.karluk_language: "Чунак"
-
- # Moksha
  russky_kameshkir.karluk_language: "Камешкир"
  serdobinskaya.karluk_language: "Сердоб"
  chembar.karluk_language: "Чембар"
@@ -182,8 +169,6 @@
  lukoyanov.karluk_language: "Теша"
  krasnoslobodsk.karluk_language: "Сівін"
  bolshoye_boldino.karluk_language: "Азанка"
-
- # Lower Volga
  mechet.karluk_language: "Мешет"
  stepanevka.karluk_language: "Тортанли"
  zenzevatka.karluk_language: "Баликлей"
@@ -219,8 +204,6 @@
  bolkhuny.karluk_language: "Болхун"
  mikhaylovka_pontic.karluk_language: "Сасиколі"
  rechnoye.karluk_language: "Сарай ал-Джадід"
-
- # Upper Volga
  piterka.karluk_language: "Узен"
  krasny_kut_pontic.karluk_language: "Ахмат"
  savinka.karluk_language: "Торгун"
@@ -253,8 +236,6 @@
  tetyushi.karluk_language: "Ашли"
  promsa.karluk_language: "Тагай"
  melekess.karluk_language: "Мялякяс"
-
- # Volga Bulgaria
  sergiyevsk.karluk_language: "Сок"
  koshki.karluk_language: "Салаван"
  kamyshla.karluk_language: "Камишлі"
@@ -291,8 +272,6 @@
  alikovo.karluk_language: "Алагаш"
  atishchevo.karluk_language: "Тау Іле"
  sviyazhsk.karluk_language: "Тямте"
-
- # Caucasus
  dardeling.karluk_language: "Сабра"
  kok_usn.karluk_language: "Кок Усн"
  yashkul.karluk_language: "Яшкул"
@@ -326,7 +305,6 @@
  bezopasnoye.karluk_language: "Акуа"
  ipatovo.karluk_language: "Чиркас"
  akhtar.karluk_language: "Ахтар"
-
  shad_kirman.karluk_language: "Шад-Кермен"
  adyukh.karluk_language: "Адюх"
  dzhulat.karluk_language: "Джулат"
@@ -340,8 +318,6 @@
  chatyun.karluk_language: "Чатюн"
  bzhedygu_kal.karluk_language: "Бжедиг-Кале"
  raguli.karluk_language: "Рагюль"
-
- # Ural
  lower_aktanyshbash.karluk_language: "Актанишбаш"
  verkhneyarkeyevo.karluk_language: "Яркяй"
  chekmagush.karluk_language: "Чекмагуш"
@@ -381,8 +357,6 @@
  chebarkul.karluk_language: "Чебаркул"
  troitsk.karluk_language: "Карси"
  uyskoye.karluk_language: "Уй"
-
- # Siberia
  almenevo.karluk_language: "Альмен"
  shchuchye.karluk_language: "Чумляк"
  kurtamysh.karluk_language: "Куртамиш"
@@ -460,8 +434,6 @@
  nazimovo.karluk_language: "Айдара"
  selo_yartsevo.karluk_language: "Сим"
  ust_ozernoye.karluk_language: "Катайга"
-
- # East Siberia
  yemelyanovo.karluk_language: "Міндерла"
  krasnoyarsk.karluk_language: "Кум-Тігей"
  kansk.karluk_language: "Чечеул"
@@ -504,8 +476,6 @@
  kamenskoie.karluk_language: "Пенжина"
  tumanskaya.karluk_language: "Туман"
  balagansk.karluk_language: "Балаган"
-
- # Central Asia
  zhanybek.karluk_language: "Джанибек"
  botkul.karluk_language: "Боткьоль"
  bokey.karluk_language: "Бьокей"
@@ -605,7 +575,6 @@
  kyzylsay.karluk_language: "Кизилсай"
  moiynty.karluk_language: "Мойинти"
  mukur.karluk_language: "Мукир"
-
  kulykol.karluk_language: "Куликьоль"
  zhetykol.karluk_language: "Джетікьоль"
  shoptikol.karluk_language: "Шоптікьоль"
@@ -623,7 +592,6 @@
  shoindykol.karluk_language: "Шоіндікьоль"
  atbasar.karluk_language: "Атбасар"
  kozhakol.karluk_language: "Коджакьоль"
-
  emin.karluk_language: "Еміл"
  ilanbalyk.karluk_language: "Іланбалик"
  koktuma.karluk_language: "Кьоктума"
@@ -657,7 +625,6 @@
  nuzket.karluk_language: "Нузкет"
  sargau.karluk_language: "Саргау"
  soltobe.karluk_language: "Сортьобе"
-
  ilibalyk.karluk_language: "Ілібали"
  charyn.karluk_language: "Шарин"
  chundzha.karluk_language: "Шонджи"
@@ -674,7 +641,6 @@
  sagabuyen.karluk_language: "Сагабюйен"
  tansyk.karluk_language: "Тансик"
  tekeli.karluk_language: "Текелі"
-
  merki.karluk_language: "Меркі"
  aspara.karluk_language: "Аспара"
  khantau.karluk_language: "Хантау"
@@ -691,7 +657,6 @@
  tekabket.karluk_language: "Текабкет"
  yangi.karluk_language: "Іангiкент"
  zherkorgan.karluk_language: "Джаркоргон"
-
  masat_ata.karluk_language: "Масат-Ата"
  beket_ata.karluk_language: "Бекет-Ата"
  beki.karluk_language: "Бекі"
@@ -710,7 +675,6 @@
  orta_kuyu.karluk_language: "Ортакудук"
  talaikhan_ata.karluk_language: "Талаїхан-Ата"
  uzboy.karluk_language: "Озбой"
-
  takhir.karluk_language: "Тахір"
  arkat.karluk_language: "Аркат"
  zhanaarka.karluk_language: "Джанаарка"
@@ -733,8 +697,6 @@
  zhalauly.karluk_language: "Джалаули"
  chany.karluk_language: "Шани"
  kargat.karluk_language: "Коргат"
-
- # Khorasan
  kath.karluk_language: "Кат"
  khurgancha.karluk_language: "Корганча"
  pulzhai.karluk_language: "Пулджай"
@@ -838,8 +800,6 @@
  khoja_idat_kala.karluk_language: "Ходжа-Ідат-Кала"
  nasaf.karluk_language: "Насаф"
  navidakh.karluk_language: "Навідах"
-
- # Russia
  belgorod.karluk_language: "Топлин"
  muzhech.karluk_language: "Мужеч"
  rakitnoye.karluk_language: "Ракіт"

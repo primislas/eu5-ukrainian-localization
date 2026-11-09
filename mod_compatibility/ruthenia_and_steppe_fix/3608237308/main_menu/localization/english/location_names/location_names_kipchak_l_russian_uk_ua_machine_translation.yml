@@ -1,5 +1,4 @@
 ﻿l_english:
- # Corrected to the Tatar alphabet
  aslan_horod.kipchak_language: "Іслам-Кермен"
  berestyn.kipchak_language: "Пархом-Байрак"
  cheboksary.kipchak_language: "Чабаксар"
@@ -16,21 +15,16 @@
  sarai_al_jadid.kipchak_language: "Бехіма"
  tavan.kipchak_language: "Кизил-Кермен"
  torhovytsia.kipchak_language: "Ябгу"
-
- # Added by Kotyk
- # Crimea
  solkhat.kipchak_language: "Солхат"
  kalay.kipchak_language: "Калай"
  jurchi.kipchak_language: "Джурчі"
- aqmecit.kipchak_language: "Акмечіт" #In Crimea
- or_qapi.kipchak_language: "Ор-Капи" #Last letter corrected 
+ aqmecit.kipchak_language: "Акмечіт"
+ or_qapi.kipchak_language: "Ор-Капи"
  lusta.kipchak_language: "Алушта"
  soldaia.kipchak_language: "Судак"
  vosporo.kipchak_language: "Керіч"
  kaffa.kipchak_language: "Кефе"
  theodoro.kipchak_language: "Мангуп-Кале"
- 
- # Dobruja and Moldova
  isaccea.kipchak_language: "Сакчі"
  tulcea.kipchak_language: "Тулча"
  chilia.kipchak_language: "Кілія"
@@ -48,8 +42,6 @@
  cetatea_tetina.kipchak_language: "Тетін"
  cernauti.kipchak_language: "Кара-Керман"
  targu_lapusnei.kipchak_language: "Лапуш"
- 
- # Ukraine
  okhtyrka.kipchak_language: "Ахтир"
  krasnopillia.kipchak_language: "Сага"
  khotmyzh.kipchak_language: "Хотмиш"
@@ -62,7 +54,6 @@
  chornukhy.kipchak_language: "Чорнух"
  lypova_dolyna.kipchak_language: "Юке-Вадій"
  kotelva.kipchak_language: "Котельва"
- 
  kremenchuk.kipchak_language: "Керменчік"
  myrhorod.kipchak_language: "Тинч-Шеер"
  velyki_sorochyntsi.kipchak_language: "Бююк-Сорочин"
@@ -78,7 +69,6 @@
  oster.kipchak_language: "Естер"
  lutava.kipchak_language: "Лютав"
  kozelets.kipchak_language: "Козел"
- 
  cherkasy.kipchak_language: "Чаркас"
  chyhyryn.kipchak_language: "Чигрин"
  lebedyn.kipchak_language: "Аккуш"
@@ -89,7 +79,6 @@
  sherbiv.kipchak_language: "Шербил"
  bila_tserkva.kipchak_language: "Ак-Мечет"
  kyiv.kipchak_language: "Манкерман"
-
  myshuryn_rih.kipchak_language: "Мішур"
  tomakivka.kipchak_language: "Тумак"
  mykytyn_rih.kipchak_language: "Чартамлик"
@@ -104,7 +93,7 @@
  velyka_lepetykha.kipchak_language: "Аджджи-Су"
  kryvyi_rih.kipchak_language: "Саксаган"
  kuyanlik.kipchak_language: "Куянлик"
- aqmecit_prybuzhzhya.kipchak_language: "Кешене" #In Prybuzhzhia
+ aqmecit_prybuzhzhya.kipchak_language: "Кешене"
  argamakli_sarai.kipchak_language: "Аргамак"
  balikley.kipchak_language: "Баликлей"
  bashtanka.kipchak_language: "Баштан"
@@ -125,7 +114,7 @@
  sloviansk.kipchak_language: "Ямбол"
  shyrokyne.kipchak_language: "Чермалик"
  lysychansk.kipchak_language: "Байрак"
- taganrog.kipchak_language: "Кабарді" #From Portolans
+ taganrog.kipchak_language: "Кабарді"
  vasylivka.kipchak_language: "Сарабаш"
  rovenky.kipchak_language: "Міус"
  luhansk.kipchak_language: "Вергун"
@@ -148,8 +137,6 @@
  novopskov.kipchak_language: "Айдар"
  bilovodsk.kipchak_language: "Евсуг"
  konstantinovka.kipchak_language: "Тали"
-
- # Lower Don Steppe
  kalmius.kipchak_language: "Буран"
  kamenskaya.kipchak_language: "Качкан"
  shcherbinovka.kipchak_language: "Чумбур"
@@ -181,8 +168,6 @@
  bokovskaya.kipchak_language: "Ільїн"
  milyutinskaya.kipchak_language: "Скосна"
  boguchar.kipchak_language: "Богучар"
- 
- # Upper Don Steppe
  anna_russia.kipchak_language: "Тойда"
  novaya_pokrovka.kipchak_language: "Ікорет"
  ostrogozhsk.kipchak_language: "Коротояк"
@@ -214,8 +199,6 @@
  novye_burasy.kipchak_language: "Бураси"
  tereshka.kipchak_language: "Терешка"
  petrovsk.kipchak_language: "Чунак"
-
- # Moksha
  russky_kameshkir.kipchak_language: "Камешкір"
  serdobinskaya.kipchak_language: "Сердоб"
  chembar.kipchak_language: "Чембар"
@@ -238,8 +221,6 @@
  lukoyanov.kipchak_language: "Теша"
  krasnoslobodsk.kipchak_language: "Сівін"
  bolshoye_boldino.kipchak_language: "Азанка"
- 
- # Lower Volga
  mechet.kipchak_language: "Мешет"
  stepanevka.kipchak_language: "Тортанли"
  zenzevatka.kipchak_language: "Баликлей"
@@ -276,8 +257,6 @@
  bolkhuny.kipchak_language: "Болхун"
  mikhaylovka_pontic.kipchak_language: "Сасиколі"
  rechnoye.kipchak_language: "Сарай аль-Джадід"
- 
- # Upper Volga
  piterka.kipchak_language: "Узень"
  krasny_kut_pontic.kipchak_language: "Ахмат"
  savinka.kipchak_language: "Торгун"
@@ -310,8 +289,6 @@
  tetyushi.kipchak_language: "Ашли"
  promsa.kipchak_language: "Тагай"
  melekess.kipchak_language: "Мелекес"
- 
- # Volga Bulgaria
  sergiyevsk.kipchak_language: "Сок"
  koshki.kipchak_language: "Салаван"
  kamyshla.kipchak_language: "Камиш"
@@ -348,8 +325,6 @@
  alikovo.kipchak_language: "Алагаш"
  atishchevo.kipchak_language: "Тау Іле"
  sviyazhsk.kipchak_language: "Тємте"
- 
- # Caucasus
  dardeling.kipchak_language: "Сабра"
  kok_usn.kipchak_language: "Кок Усн"
  yashkul.kipchak_language: "Яшкул"
@@ -383,7 +358,6 @@
  bezopasnoye.kipchak_language: "Акуа"
  ipatovo.kipchak_language: "Чиркас"
  akhtar.kipchak_language: "Ахтар"
- 
  shad_kirman.kipchak_language: "Шад-Кермен"
  adyukh.kipchak_language: "Адюх"
  dzhulat.kipchak_language: "Джулат"
@@ -397,8 +371,6 @@
  chatyun.kipchak_language: "Чатюн"
  bzhedygu_kal.kipchak_language: "Бжедиг-Кале"
  raguli.kipchak_language: "Рагюль"
-
- # Ural
  lower_aktanyshbash.kipchak_language: "Актанишбаш"
  verkhneyarkeyevo.kipchak_language: "Яркей"
  chekmagush.kipchak_language: "Чекмагуш"
@@ -438,8 +410,6 @@
  chebarkul.kipchak_language: "Чебаркул"
  troitsk.kipchak_language: "Карси"
  uyskoye.kipchak_language: "Уй"
-
- # Siberia
  almenevo.kipchak_language: "Альмен"
  shchuchye.kipchak_language: "Чумляк"
  kurtamysh.kipchak_language: "Куртамиш"
@@ -519,8 +489,6 @@
  nazimovo.kipchak_language: "Айдара"
  selo_yartsevo.kipchak_language: "Сим"
  ust_ozernoye.kipchak_language: "Катайга"
-
- # East Siberia
  yemelyanovo.kipchak_language: "Міндерла"
  krasnoyarsk.kipchak_language: "Кум-Тігей"
  kansk.kipchak_language: "Чечеул"
@@ -563,9 +531,6 @@
  kamenskoie.kipchak_language: "Пенжина"
  tumanskaya.kipchak_language: "Туман"
  balagansk.kipchak_language: "Балаган"
-
-
- # Central Asia, Kazakhstan and around
  zhanybek.kipchak_language: "Жєнібек"
  botkul.kipchak_language: "Боткьоль"
  bokey.kipchak_language: "Бьокей"
@@ -665,7 +630,6 @@
  kyzylsay.kipchak_language: "Кизилсаї"
  moiynty.kipchak_language: "Моійнти"
  mukur.kipchak_language: "Мукир"
-
  kulykol.kipchak_language: "Куликьоль"
  zhetykol.kipchak_language: "Жетікьоль"
  shoptikol.kipchak_language: "Шьоптікьоль"
@@ -683,7 +647,6 @@
  shoindykol.kipchak_language: "Шоіндикьоль"
  atbasar.kipchak_language: "Атбасар"
  kozhakol.kipchak_language: "Кожакьоль"
-
  emin.kipchak_language: "Еміль"
  ilanbalyk.kipchak_language: "Іланбалик"
  koktuma.kipchak_language: "Кьоктума"
@@ -717,7 +680,6 @@
  nuzket.kipchak_language: "Нузкет"
  sargau.kipchak_language: "Саргау"
  soltobe.kipchak_language: "Сортьобе"
-
  ilibalyk.kipchak_language: "Ілібали"
  charyn.kipchak_language: "Шарин"
  chundzha.kipchak_language: "Шонджи"
@@ -734,7 +696,6 @@
  sagabuyen.kipchak_language: "Сагабюйен"
  tansyk.kipchak_language: "Тансик"
  tekeli.kipchak_language: "Текелі"
-
  merki.kipchak_language: "Меркі"
  aspara.kipchak_language: "Аспара"
  khantau.kipchak_language: "Хантау"
@@ -751,7 +712,6 @@
  tekabket.kipchak_language: "Текабкет"
  yangi.kipchak_language: "Іангікент"
  zherkorgan.kipchak_language: "Джаркоргон"
-
  masat_ata.kipchak_language: "Масат-Ата"
  beket_ata.kipchak_language: "Бекет-Ата"
  beki.kipchak_language: "Бекі"
@@ -770,7 +730,6 @@
  orta_kuyu.kipchak_language: "Ортакудик"
  talaikhan_ata.kipchak_language: "Талаїхан-Ата"
  uzboy.kipchak_language: "Оьзбої"
-
  takhir.kipchak_language: "Тахір"
  arkat.kipchak_language: "Аркат"
  zhanaarka.kipchak_language: "Жанаарка"
@@ -793,8 +752,6 @@
  zhalauly.kipchak_language: "Жалаули"
  chany.kipchak_language: "Шани"
  kargat.kipchak_language: "Коргат"
-
- # Khorasan
  kath.kipchak_language: "Кат"
  khurgancha.kipchak_language: "Корганча"
  pulzhai.kipchak_language: "Пулджаї"
@@ -898,8 +855,6 @@
  khoja_idat_kala.kipchak_language: "Ходжа-Ідат-Кала"
  nasaf.kipchak_language: "Насаф"
  navidakh.kipchak_language: "Навідах"
-
- # Russia
  belgorod.kipchak_language: "Топлин"
  muzhech.kipchak_language: "Мужеч"
  rakitnoye.kipchak_language: "Ракіт"

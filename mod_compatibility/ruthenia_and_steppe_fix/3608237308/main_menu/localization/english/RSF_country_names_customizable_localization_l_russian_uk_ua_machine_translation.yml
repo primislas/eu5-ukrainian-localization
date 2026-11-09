@@ -1,5 +1,4 @@
 ﻿l_english:
-
  ATR_UA_GEN_CL: "Великого Степу"
  ATR_UA_DAT_CL: "Великому Степу"
  ATR_UA_ACC_CL: "Великий Степ"
@@ -17,7 +16,6 @@
  ATR_UA_end_ytyat_CL: "ить"
  ATR_UA_preposition_uv_CL: "у"
  ATR_UA_preposition_zzi_CL: "з"
-
  KZN_UA_GEN_CL: "Казані"
  KZN_UA_DAT_CL: "Казані"
  KZN_UA_ACC_CL: "Казань"
@@ -35,7 +33,6 @@
  KZN_UA_end_ytyat_CL: "ить"
  KZN_UA_preposition_uv_CL: "у"
  KZN_UA_preposition_zzi_CL: "з"
-
  KSM_UA_GEN_CL: "Касимова"
  KSM_UA_DAT_CL: "Касимову"
  KSM_UA_ACC_CL: "Касимов"
@@ -53,7 +50,6 @@
  KSM_UA_end_ytyat_CL: "ить"
  KSM_UA_preposition_uv_CL: "у"
  KSM_UA_preposition_zzi_CL: "з"
-
  UZB_UA_GEN_CL: "Узбека"
  UZB_UA_DAT_CL: "Узбеку"
  UZB_UA_ACC_CL: "Узбека"
@@ -71,7 +67,6 @@
  UZB_UA_end_ytyat_CL: "ить"
  UZB_UA_preposition_uv_CL: "в"
  UZB_UA_preposition_zzi_CL: "з"
-
  POD_UA_GEN_CL: "Поділля"
  POD_UA_DAT_CL: "Поділлю"
  POD_UA_ACC_CL: "Поділля"
@@ -89,7 +84,6 @@
  POD_UA_end_ytyat_CL: "ить"
  POD_UA_preposition_uv_CL: "у"
  POD_UA_preposition_zzi_CL: "з"
-
  URS_UA_GEN_CL: "Курська"
  URS_UA_DAT_CL: "Курську"
  URS_UA_ACC_CL: "Курськ"
@@ -107,7 +101,6 @@
  URS_UA_end_ytyat_CL: "ить"
  URS_UA_preposition_uv_CL: "в"
  URS_UA_preposition_zzi_CL: "з"
-
  PRS_UA_GEN_CL: "Переяслава"
  PRS_UA_DAT_CL: "Переяславу"
  PRS_UA_ACC_CL: "Переяслав"
@@ -125,7 +118,6 @@
  PRS_UA_end_ytyat_CL: "ить"
  PRS_UA_preposition_uv_CL: "в"
  PRS_UA_preposition_zzi_CL: "з"
-
  QQY_UA_GEN_CL: "Кирк-Єру"
  QQY_UA_DAT_CL: "Кирк-Єру"
  QQY_UA_ACC_CL: "Кирк-Єр"
@@ -143,7 +135,6 @@
  QQY_UA_end_ytyat_CL: "ить"
  QQY_UA_preposition_uv_CL: "в"
  QQY_UA_preposition_zzi_CL: "з"
-
  SSO_UA_GEN_CL: "Собаю"
  SSO_UA_DAT_CL: "Собаю"
  SSO_UA_ACC_CL: "Собай"
@@ -161,7 +152,6 @@
  SSO_UA_end_ytyat_CL: "ить"
  SSO_UA_preposition_uv_CL: "в"
  SSO_UA_preposition_zzi_CL: "з"
-
  MLR_UA_GEN_CL: "Малкару"
  MLR_UA_DAT_CL: "Малкару"
  MLR_UA_ACC_CL: "Малкар"
@@ -179,7 +169,6 @@
  MLR_UA_end_ytyat_CL: "ить"
  MLR_UA_preposition_uv_CL: "в"
  MLR_UA_preposition_zzi_CL: "з"
-
  ISC_UA_GEN_CL: "Сакчі"
  ISC_UA_DAT_CL: "Сакчі"
  ISC_UA_ACC_CL: "Сакчі"
@@ -197,7 +186,6 @@
  ISC_UA_end_ytyat_CL: "ить"
  ISC_UA_preposition_uv_CL: "в"
  ISC_UA_preposition_zzi_CL: "з"
-
  ZAZ_UA_GEN_CL: "Війська Запорозького"
  ZAZ_UA_DAT_CL: "Війську Запорозькому"
  ZAZ_UA_ACC_CL: "Військо Запорозьке"
@@ -215,7 +203,6 @@
  ZAZ_UA_end_ytyat_CL: "ить"
  ZAZ_UA_preposition_uv_CL: "в"
  ZAZ_UA_preposition_zzi_CL: "з"
-
  HTM_UA_GEN_CL: "Гетьманщини"
  HTM_UA_DAT_CL: "Гетьманщині"
  HTM_UA_ACC_CL: "Гетьманщину"

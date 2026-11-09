@@ -15,16 +15,11 @@
  sarai_al_jadid.circassian_language: "Бехіма"
  tavan.circassian_language: "Кизи-Кермен"
  torhovytsia.circassian_language: "Ябгу"
-
- # Added by Kotyk
- # Crimea
  solkhat.circassian_language: "Солхат"
  kalay.circassian_language: "Калай"
  jurchi.circassian_language: "Сурчі"
- aqmecit.circassian_language: "Акмечіт" #In Crimea
- or_qapi.circassian_language: "Ор-Капи" #Last letter corrected
-
- #Pontic Steppe
+ aqmecit.circassian_language: "Акмечіт"
+ or_qapi.circassian_language: "Ор-Капи"
  uman.circassian_language: "Ятрань"
  umanske.circassian_language: "Килтен"
  mala_vyska.circassian_language: "Вис"
@@ -36,7 +31,7 @@
  velyka_lepetykha.circassian_language: "Аджи-Су"
  kryvyi_rih.circassian_language: "Саксагань"
  kuyanlik.circassian_language: "Куянлик"
- aqmecit_prybuzhzhya.circassian_language: "Кешені" #In Prybuzhzhia
+ aqmecit_prybuzhzhya.circassian_language: "Кешені"
  argamakli_sarai.circassian_language: "Аргамакли"
  balikley.circassian_language: "Баликлей"
  bashtanka.circassian_language: "Баштан"
@@ -57,7 +52,7 @@
  sloviansk.circassian_language: "Ямбол"
  shyrokyne.circassian_language: "Чермалик"
  lysychansk.circassian_language: "Байрак"
- taganrog.circassian_language: "Кабарді" #From Portolans
+ taganrog.circassian_language: "Кабарді"
  vasylivka.circassian_language: "Сарабаш"
  rovenky.circassian_language: "Міус"
  luhansk.circassian_language: "Вергун"
@@ -80,8 +75,6 @@
  novopskov.circassian_language: "Айдар"
  bilovodsk.circassian_language: "Євсуг"
  konstantinovka.circassian_language: "Тали"
-
- # Lower Don Steppe
  kalmius.circassian_language: "Буран"
  kamenskaya.circassian_language: "Качкан"
  shcherbinovka.circassian_language: "Чумбур"
@@ -113,8 +106,6 @@
  bokovskaya.circassian_language: "Ільїн"
  milyutinskaya.circassian_language: "Скосна"
  boguchar.circassian_language: "Богучар"
-
- # Upper Don Steppe
  anna_russia.circassian_language: "Тойда"
  novaya_pokrovka.circassian_language: "Ікорець"
  ostrogozhsk.circassian_language: "Коротояк"
@@ -146,8 +137,6 @@
  novye_burasy.circassian_language: "Бураси"
  tereshka.circassian_language: "Терешка"
  petrovsk.circassian_language: "Чунаки"
-
- # Moksha
  russky_kameshkir.circassian_language: "Камешкір"
  serdobinskaya.circassian_language: "Сердоба"
  chembar.circassian_language: "Чембар"
@@ -170,8 +159,6 @@
  lukoyanov.circassian_language: "Теша"
  krasnoslobodsk.circassian_language: "Сівін"
  bolshoye_boldino.circassian_language: "Азанка"
-
- # Lower Volga
  mechet.circassian_language: "Мешет"
  stepanevka.circassian_language: "Тортанли"
  zenzevatka.circassian_language: "Баликлей"
@@ -207,8 +194,6 @@
  bolkhuny.circassian_language: "Болхун"
  mikhaylovka_pontic.circassian_language: "Сасиколи"
  rechnoye.circassian_language: "Сарай аль-Джадід"
-
- # Upper Volga
  piterka.circassian_language: "Узень"
  krasny_kut_pontic.circassian_language: "Ахмат"
  savinka.circassian_language: "Торгун"
@@ -241,8 +226,6 @@
  tetyushi.circassian_language: "Ашли"
  promsa.circassian_language: "Тагай"
  melekess.circassian_language: "Мелекес"
-
- # Volga Bulgaria
  sergiyevsk.circassian_language: "Сок"
  koshki.circassian_language: "Салаван"
  kamyshla.circassian_language: "Камишли"
@@ -279,8 +262,6 @@
  alikovo.circassian_language: "Алагаш"
  atishchevo.circassian_language: "Тау-Іле"
  sviyazhsk.circassian_language: "Темте"
-
- # Caucasus
  dardeling.circassian_language: "Сабра"
  kok_usn.circassian_language: "Кок-Усн"
  yashkul.circassian_language: "Яшкуль"
@@ -314,8 +295,6 @@
  bezopasnoye.circassian_language: "Акуа"
  ipatovo.circassian_language: "Чиркас"
  akhtar.circassian_language: "Ахтар"
-
- # Ural
  lower_aktanyshbash.circassian_language: "Акталишбаш"
  verkhneyarkeyevo.circassian_language: "Яркей"
  chekmagush.circassian_language: "Чекмагуш"
@@ -355,8 +334,6 @@
  chebarkul.circassian_language: "Чебаркуль"
  troitsk.circassian_language: "Карси"
  uyskoye.circassian_language: "Уй"
-
- # Siberia
  almenevo.circassian_language: "Альмен"
  shchuchye.circassian_language: "Чумляк"
  kurtamysh.circassian_language: "Куртамиш"

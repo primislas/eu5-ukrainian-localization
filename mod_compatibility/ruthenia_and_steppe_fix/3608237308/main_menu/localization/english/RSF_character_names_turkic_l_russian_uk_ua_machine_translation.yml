@@ -1,49 +1,25 @@
 ﻿l_english:
- # valid formats:
- # name_NAME
- # name_NAME.[culture]
- # name_NAME.[language]
- # name_NAME.[language].[culture]
- # name_NAME.diminutive
- # name_NAME.genitive
- # name_NAME.[culture].diminutive
- # name_NAME.[culture].genitive
- # name_NAME.[language].diminutive
- # name_NAME.[language].genitive
- # name_NAME.[language].[culture].diminutive
- # name_NAME.[language].[culture].genitive
-
  patronym_suffix_kipchak: "огуллари"
  patronym_suffix_kipchak_son: " огли"
  patronym_suffix_kipchak_daughter: " кизи"
-
  patronym_suffix_turkic: "огуллари"
  patronym_suffix_turkic_son: " оглу"
  patronym_suffix_turkic_daughter: " кизи"
-
  location_suffix_kipchak: "ли"
  location_suffix_oghuric: "ле"
  location_suffix_turkish: "ли"
  location_suffix_turkic: "лі"
-
  character_title_nobility_bey: "Бей"
  character_title_nobility_bey_female: "Ханим"
-
  character_title_nobility_mirza: "Мирза"
  character_title_nobility_mirza_female: ""
-
  character_title_nobility_bek: "Бек"
  character_title_nobility_bek_female: "Ханум"
-
  character_title_nobility_murza: "Мурза"
  character_title_nobility_murza_female: ""
-
  character_title_nobility_aga: "Ага"
  character_title_nobility_aga_female: "Хатун"
-
  CHARACTER_NAME_ORDER_KIPCHAK: "$NAME$ $PREFIX$ $NUMBER$ $LASTNAME$ $NICKNAME$ $SUFFIX$"
-
- # Unique names Eastern Kipchak male
  Adil: "Аділ"
  Aibek: "Айбек"
  Alikhan: "Аліхан"
@@ -94,8 +70,6 @@
  Ulan: "Улан"
  Umar: "Умар"
  Zamir: "Замір"
-
- # Unique names Eastern Kipchak female
  Aidana: "Айдана"
  Aigul: "Айгюль"
  Aima: "Айма"
@@ -133,8 +107,6 @@
  Zifa: "Зіфа"
  Zuhra: "Зухра"
  Zulfiya: "Зульфія"
-
- # Eastern Kipchak dynasties
  Alban: "Албан"
  Arabshah: "Арабшах"
  Argyn: "Аргин"
@@ -166,8 +138,6 @@
  Tuqay_Timur: "Тукай Тімур"
  Uisin: "Уйсін"
  Urys: "Урис"
-
- # Unique names Western Kipchak male
  Ahtem: "Ахтем"
  Amet: "Амет"
  Alim: "Алім"
@@ -232,8 +202,6 @@
  Yagya: "Яг'я"
  Yavuz: "Явуз"
  Yusuf: "Юсуф"
-
- # Unique names Western Kipchak female
  Adilye: "Аділє"
  Alie: "Аліє"
  Alime: "Аліме"
@@ -274,8 +242,6 @@
  Zeyneb: "Зейнеб"
  Zuhre: "Зюхре"
  Zulfiye: "Зульфіє"
-
- # Western Kipchak dynasties
  Aratuq: "Аратук"
  Arabat: "Арбатли"
  Argin: "Аргин"
@@ -303,8 +269,6 @@
  Shucun: "Шуджун"
  Yashlav: "Яшлав"
  Yedisan: "Єдисанли"
-
- # Unique names Oghutic male
  Ahtimer: "Ахтімер"
  Ahtirek: "Ахтірек"
  Akhtiyar: "Ахтіяр"
@@ -386,8 +350,6 @@
  Yakanat: "Яканат"
  Yukhma: "Юхма"
  Yuman: "Юман"
-
- # Unique names Oghutic female
  Anni: "Анні"
  Anukka: "Анукка"
  Arikhva: "Аріхва"

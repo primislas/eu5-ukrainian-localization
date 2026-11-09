@@ -1,6 +1,4 @@
 ﻿l_english:
-
- # Ukraine
  khadjibey_province: "Кодимія"
  qalancak_province: "Джамбуйлук"
  yelanets_province: "Інгул"
@@ -19,13 +17,9 @@
  torgovytsia_province: "Східне Поділля"
  chelm_province: "Західна Волинь"
  rivne_province: "Острог"
-
- # Steppe
  irek_province: "Ірек"
  perelyub_province: "Сакма"
  kumak_province: "Кумак"
-
- # Siberia
  tomsk_province: "Селькуп"
  bolshoy_uluy_province: "Улуй"
  krivoshchekovo_province: "Телеут"
@@ -39,8 +33,6 @@
  turinsk_province: "Мансі"
  kamyshlov_province: "Пишма"
  chastoozerye_province: "Аккуль"
-
- # Don and Volga
  aksay_don_province: "Аксай"
  akhtar_province: "Бжедуг"
  botkul_province: "Боткуль"
@@ -70,7 +62,6 @@
  troitskoye_kuroedovo_province: "Сизрань"
  mechetnaya_province: "Камелик"
  atkarsk_province: "Аткар"
-
  north_caucasus_province: "Балкарія"
  upper_kuban_province: "Верхня Кубань"
  stavropol_province: "Ессентук"

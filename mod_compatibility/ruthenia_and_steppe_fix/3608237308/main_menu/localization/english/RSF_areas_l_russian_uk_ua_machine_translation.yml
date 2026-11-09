@@ -1,12 +1,9 @@
 ﻿l_english:
- # Siberia
  irkutsk_area: "Іркут"
  tomsk_area: "Селькуп"
  omsk_area: "Іртиш"
  kansk_area: "Хакасія"
  bratsk_area: "Евенкія"
-
- # Don and Volga
  chervleny_yar_area: "Червлений Яр"
  tambov_area: "Укек"
  lower_don_area: "Волзький Степ"
@@ -15,6 +12,4 @@
  mordva_area: "Мордва"
  majar_area: "Кума"
  azov_area: "Нижній Дон"
-
- # Ukraine
  zaporizhzhia_area: "Запоріжжя"
