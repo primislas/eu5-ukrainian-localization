@@ -1521,7 +1521,7 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * granary, амбар, зернохранилище -> "комора";
         ** in poetic sense as "granary of the region/country" use "житниця" ("житниця Європи", "житниця Угорщини");
         ** "granary town", "зерновой центр" -> "житниця";
-    * millet, просо -> невибагливі злаки
+    * millet, просо -> стійкі злаки; but in narrative texts and depending on context could replaced with "невибагливі злаки" or a specific type of grain, most commonly "просо" and "ячмінь" (esp. for breweries), "жито", "овес" and so on
     * aqueduct system, irrigation system, система акведуков, ирригации -> мережа акведуків, зрошувальна мережа (NOT "система")
     * irrigation, ирригация -> зрошування
 
