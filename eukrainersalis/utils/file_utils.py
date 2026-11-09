@@ -1,4 +1,5 @@
 import os
+import shutil
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -110,6 +111,12 @@ def list_gui_files(source_dir: Path = project_dir) -> list[str]:
 def list_translation_files(languages: Language | str | list[Language | str] | None = None, source_dir: Path = translation_dir) -> list[str]:
     
     return list_localization_files(languages, source_dir)
+
+
+def remove_and_recreate_dir(dir_path: Path):
+    if dir_path.exists():
+        shutil.rmtree(dir_path)
+    dir_path.mkdir(parents=True)
 
 
 if __name__ == "__main__":

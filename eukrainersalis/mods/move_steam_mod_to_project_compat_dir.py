@@ -3,14 +3,13 @@ import shutil
 from pathlib import Path
 
 from eukrainersalis.run_machine_translation import key_preprocessing, migrated_text_preprocessing
-from eukrainersalis.utils.file_utils import game_dir, translation_dir, list_localization_files, \
-    custom_localization_game_dir_path, custom_localization_translation_dir_path, list_gui_files, steam_workshop_dir, \
-    mod_compatibility_dir, rasf_project_dir, rasf_workshop_dir
+from eukrainersalis.utils.file_utils import list_localization_files, \
+    custom_localization_game_dir_path, custom_localization_translation_dir_path, list_gui_files, rasf_project_dir, \
+    rasf_workshop_dir
 from eukrainersalis.utils.log_utils import simple_logger as logger
 from eukrainersalis.utils.migration_utils import normalize_double_quotes
 from eukrainersalis.utils.translation_utils import Language
 from eukrainersalis.utils.yaml_utils import load_eu5_yaml, write_eu5_localization_yaml
-
 
 _KEEP_AS_IS_FILES: set[str] = {
     "cw_localize_l_russian.yml",

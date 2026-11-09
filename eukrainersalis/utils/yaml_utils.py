@@ -84,7 +84,7 @@ async def load_eu5_yaml_async(file_path: str) -> dict:
         return localization_from_yaml(content_str)
 
 
-def localization_to_yaml(data: dict, indent: int = 2) -> str:
+def localization_to_yaml(data: dict, indent: int = 1) -> str:
     return yaml.dump(
         data,
         Dumper=DoubleQuotedDumper,
@@ -95,13 +95,13 @@ def localization_to_yaml(data: dict, indent: int = 2) -> str:
     )
 
 
-def write_eu5_localization_yaml(data: dict, output_file_path: str | Path, indent: int = 2) -> int:
+def write_eu5_localization_yaml(data: dict, output_file_path: str | Path, indent: int = 1) -> int:
     dumped = localization_to_yaml(data, indent)
     with open(output_file_path, "w", encoding="utf-8-sig") as output_file_handle:
         return output_file_handle.write(dumped.strip())
 
 
-async def write_eu5_localization_yaml_async(data: dict, output_file_path: str, indent: int = 2) -> int:
+async def write_eu5_localization_yaml_async(data: dict, output_file_path: str, indent: int = 1) -> int:
     dumped = localization_to_yaml(data, indent)
     await asyncio.to_thread(os.makedirs, os.path.dirname(output_file_path), exist_ok=True)
     async with aiofiles.open(output_file_path, "w", encoding="utf-8-sig") as output_file_handle:

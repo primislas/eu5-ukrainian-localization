@@ -366,6 +366,9 @@ Tooltips can be used to apply grammatical cases or transform to adjective forms 
         ** We will gain access to unique [actions|e] such as [ShowGenericActionName('influence_french_subject')] and [ShowGenericActionName('request_papal_delegates')] -> ми отримаємо доступ до унікальних [Concept('actions', 'дій')|e], таких як #TOOLTIP:GENERIC_ACTION,influence_french_subject,X #L підкуп французьких васалів#!#! та #TOOLTIP:GENERIC_ACTION,request_papal_delegates,X #L запрошення папських представників#!#!
         ** [GetCountry('FRA').GetNameWithNoTooltip] can shield subjects with [ShowGenericActionName('fra_diplomacy_with_subjects')] -> [GetCountry('FRA').GetNameWithNoTooltip] мож[GetCountry('FRA').Custom('end_eut')] захистити васалів дією #TOOLTIP:GENERIC_ACTION,fra_diplomacy_with_subjects,X #L присвоєння титулів васалам#!#!
 
+TODO: WORK_OF_ART and WORK_OF_ART_TYPE tooltips
+TODO: #TOOLTIP:CHIVALRIC_ORDER,order_of_the_dragon #L ордену Дракона#!#!"
+
 The game has several ages (діб): tradition (доба Звичаїв), renaissance (Відродження), exploration (Відкриттів), reformation (Реформації), absolutism (Самовладдя), revoluion (Революцій). They can also be replaced with tooltips. For example:
     * especially during the [ShowAgeName('age_3_discovery')] -> особливо в добу #TOOLTIP:AGE,age_3_discovery,X #L Відкриттів#!#!
     * neither faction reaches 100% before the [ShowAgeName('age_3_discovery')] -> жоден з таборів не набере 100% до початку доби #TOOLTIP:AGE,age_3_discovery,X #L Відкриттів#!#!
