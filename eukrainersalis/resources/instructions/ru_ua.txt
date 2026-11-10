@@ -1499,6 +1499,7 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
         ** prefer "штольня" whenever appropriate (especially when clearly talking about tunnels from technical perspective)
     * miner, шахтер, старатель - "гірник", "рудокоп" if clearly talking about metal extraction, never use "шахтар" or "старатель"
         ** use adjective "гірничий" for mining-related affairs, e.g. "гірничі промисли", "гірничі містечка", "гірничі закони"; but in more informal text feel free to use alternative to avoid tautologies, such as "містечка рудокопів", "закони щодо копалень" тощо
+    * bog iron smelter, плавильня болотной руды -> рудня
 
     * rgo, resource gathering operations, добыча ресурсов -> сировинні промисли
     * raw material(s), ресурс(ы) -> сировина
