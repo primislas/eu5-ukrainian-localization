@@ -1500,6 +1500,7 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * miner, шахтер, старатель - "гірник", "рудокоп" if clearly talking about metal extraction, never use "шахтар" or "старатель"
         ** use adjective "гірничий" for mining-related affairs, e.g. "гірничі промисли", "гірничі містечка", "гірничі закони"; but in more informal text feel free to use alternative to avoid tautologies, such as "містечка рудокопів", "закони щодо копалень" тощо
     * bog iron smelter, плавильня болотной руды -> рудня
+    * gems, драгоценные камни -> "самоцвіти" is strictly preferred, but can be interchanged with "дорогоцінне каміння", "коштовні камені", "каміння", "камені" to avoid repetition in narrative texts
 
     * rgo, resource gathering operations, добыча ресурсов -> сировинні промисли
     * raw material(s), ресурс(ы) -> сировина

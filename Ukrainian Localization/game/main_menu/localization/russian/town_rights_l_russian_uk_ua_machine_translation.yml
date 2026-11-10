@@ -78,7 +78,7 @@
   nuremberg_rights_town_rights_desc: "$magdeburg_rights_town_rights_desc$"
   upper_bergregal: "Вища гірнича регалія"
   upper_bergregal_desc: "Якщо передати міській владі право вести гірничодобувну діяльність, то це збільшить обсяг коштів на розвідку нових корисних копалин та підвищить привабливість міста для нових поселенців. На жаль, це також призведе до посилення обмежень для місцевих жителів та скоротить їхні можливості самим отримувати вигоду з рудників."
-  upper_bergregal_raw_material_tt: "Виробляє #TOOLTIP:GOODS,silver,X #L срібло#!#!, #TOOLTIP:GOODS,goods_gold,X #L золото#!#!, #TOOLTIP:GOODS,gems,X #L дорогоцінне каміння#!#! або #TOOLTIP:GOODS,salt,X #L сіль#!#!"
+  upper_bergregal_raw_material_tt: "Видобуває #TOOLTIP:GOODS,silver,X #L срібло#!#!, #TOOLTIP:GOODS,goods_gold,X #L золото#!#!, #TOOLTIP:GOODS,gems,X #L самоцвіти#!#! або #TOOLTIP:GOODS,salt,X #L сіль#!#!"
   unlock_bergregal_rights_tt: "Відкриває [Concept('town_rights', 'міські права')|e]: [ShowTownRightsName('upper_bergregal')|l] та [ShowTownRightsName('lower_bergregal')|l]"
   lower_bergregal: "Нижча гірнича регалія"
   lower_bergregal_desc: "$upper_bergregal_desc$"
