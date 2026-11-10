@@ -1522,12 +1522,17 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
         ** in poetic sense as "granary of the region/country" use "житниця" ("житниця Європи", "житниця Угорщини");
         ** "granary town", "зерновой центр" -> "житниця";
     * millet, просо -> стійкі злаки; but in narrative texts and depending on context could replaced with "невибагливі злаки" or a specific type of grain, most commonly "просо" and "ячмінь" (esp. for breweries), "жито", "овес" and so on
+    * legumes, бобовые культуры -> бобові
     * aqueduct system, irrigation system, система акведуков, ирригации -> мережа акведуків, зрошувальна мережа (NOT "система")
     * irrigation, ирригация -> зрошування
 
     * lumber, лесоматериалы -> деревина
         ** in narrative texts can be interchanged with "ліс" in phrases like "продаж лісу", "лісозаготівля", "корабельні ліси"
         ** деревину заготовляють (NOT "виробляють")
+    * fiber crops, прядильные культуры -> прядиво, especially as a trade good and in the meaning of refined fiber crops, however:
+        ** "прядивні культури" as actual crops that are grown, "вирощування прядивних культур", "урожай(ність) прядивних культур", "поля прядивних культур" etc.
+        ** sometimes this phrase can be used in the sense of "волокна", as in "рослинні волокна" as a produce of fiber crops, that is then refined into "прядиво"
+        ** pick "прядиво", "прядивні культури", "волокна" depending on context
 
     * квасцы -> галун
     * spices, специи -> ALWAYS and ONLY "прянощі", replace singular "спеція" with plural "прянощі" as well, be mindful of a city "Спеція" and do not translate its name
