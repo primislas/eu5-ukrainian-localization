@@ -61,15 +61,17 @@ class LocFile:
         localization = self.get_localization()
         return {key: localization.get(key, "") for key in self.selected_keys}
 
+    def _get_lang_key(self) -> str:
+        if self.content:
+            return list(self.content.keys())[0]
+        else:
+            return self.language.lang_key
+
     def get_localization(self) -> dict[str, str]:
-        lang_key = self.language.lang_key
-        if self.language == Language.UK_UA_MACHINE_TRANSLATION:
-            if not lang_key in self.content:
-                lang_key = Language.ENGLISH.lang_key
-        return self.content.get(lang_key) or {}
+        return self.content.get(self._get_lang_key()) or {}
 
     def set_localization(self, localization: dict[str, str]):
-        self.content[self.language.lang_key] = localization
+        self.content[self._get_lang_key()] = localization
 
     def set_localization_value(self, loc_key: str, loc_value: str):
         localization = self.get_localization()

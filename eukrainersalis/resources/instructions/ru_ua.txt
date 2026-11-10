@@ -1537,6 +1537,7 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
         ** pick "прядиво", "прядивні культури", "волокна" depending on context
     * beeswax, пчелиный воск -> бортні товари
         ** beeswax production, производство пчелиного воска -> бортництво, бортний промисел; e.g. "монополія на бортництво"
+        ** in narrative texts phrases like "обсяги виробництва бортних товарів" can be replaced with "плідність бортництва"
         ** sometimes depending on context you should use a custom tooltip to specify "мед" (when it concerns food, sweets, mead and fermented honey) or "воск" (e.g. Novgorodian Ivan's Hundred had a monopoly on wax, wax is used for candles, etc.) instead of more general "бортні товари"; and sometimes it is appropriate to use "мед і воск" in narrative texts, especially when various goods are named
 
     * квасцы -> галун
