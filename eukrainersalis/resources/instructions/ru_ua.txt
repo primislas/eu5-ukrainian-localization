@@ -1533,6 +1533,9 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
         ** "прядивні культури" as actual crops that are grown, "вирощування прядивних культур", "урожай(ність) прядивних культур", "поля прядивних культур" etc.
         ** sometimes this phrase can be used in the sense of "волокна", as in "рослинні волокна" as a produce of fiber crops, that is then refined into "прядиво"
         ** pick "прядиво", "прядивні культури", "волокна" depending on context
+    * beeswax, пчелиный воск -> бортні товари
+        ** beeswax production, производство пчелиного воска -> бортництво, бортний промисел; e.g. "монополія на бортництво"
+        ** sometimes depending on context you should use a custom tooltip to specify "мед" (when it concerns food, sweets, mead and fermented honey) or "воск" (e.g. Novgorodian Ivan's Hundred had a monopoly on wax, wax is used for candles, etc.) instead of more general "бортні товари"; and sometimes it is appropriate to use "мед і воск" in narrative texts, especially when various goods are named
 
     * квасцы -> галун
     * spices, специи -> ALWAYS and ONLY "прянощі", replace singular "спеція" with plural "прянощі" as well, be mindful of a city "Спеція" and do not translate its name

@@ -255,6 +255,6 @@
   flavor_nov.113.b: "Зараз у [ROOT.GetCountry.Custom('CL_GEN')] є важливіші справи."
   flavor_nov.113.b.entry: "У нас є важливіші справи."
   flavor_nov.114.title: "[ROOT.GetCountry.GetAdjectiveWithNoTooltip|U]а монополія на торгівлю воском і хутром"
-  flavor_nov.114.entry: "Новгородська монополія на торгівлю хутром та бджолиним воском"
-  flavor_nov.114.desc: "Наші купці вже давно утримують значну частку ринку #TOOLTIP:GOODS,beeswax,X #L бджолиного воску#!#! та #TOOLTIP:GOODS,fur,X #L хутра#!#!, а в останні десятиліття роль торгових асоціацій #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! в їхніх поставках тільки посилилася. Вбачаючи в цьому велику вигоду для країни, [our_ruler.GetName] та віче підготували указ про нові привілеї, з якими наші [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] зможуть домогтися монополії на ці товари в осяжному майбутньому."
+  flavor_nov.114.entry: "Новгородська монополія на торгівлю хутром та бортними товарами"
+  flavor_nov.114.desc: "Наші купці вже давно утримують значну частку ринку #TOOLTIP:GOODS,beeswax,X #L бджолиного воску#!#! та #TOOLTIP:GOODS,fur,X #L хутра#!#!, а в останні десятиліття роль торгових товариств #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! в їхніх поставках тільки посилилася. Вбачаючи в цьому велику вигоду для країни, [our_ruler.GetName] та віче підготували указ про нові привілеї, з якими наші [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] зможуть домогтися монополії на ці товари в осяжному майбутньому."
   flavor_nov.114.a: "Нам слід отримати максимальну вигоду з цієї монополії."
