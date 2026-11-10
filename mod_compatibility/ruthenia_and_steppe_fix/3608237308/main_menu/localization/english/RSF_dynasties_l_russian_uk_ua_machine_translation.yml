@@ -792,7 +792,7 @@
  bul_rus_suffix_a_female: "а"
  bul_rus_suffix_no_male: ""
  rus_suffix_aya_female: "ая"
- rus_suffix_iy_male: "ий"
+ rus_suffix_iy_male: "ій"
  Akinfov: "Акінфов[Character.Custom('BulRusGenderSuffix')]"
  Apraksin: "Апраксін[Character.Custom('BulRusGenderSuffix')]"
  Buturlin: "Бутурлін[Character.Custom('BulRusGenderSuffix')]"
