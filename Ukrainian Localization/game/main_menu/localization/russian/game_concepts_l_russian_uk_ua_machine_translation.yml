@@ -1290,7 +1290,7 @@
   game_concept_weather_system: "Погодне явище"
   game_concept_weather_systems: "Погодні явища"
   game_concept_weather_system_desc: "Це набори погодних умов, здатні викликати в різних [Concept('locations', 'місцевостях')|e] руйнівні природні катаклізми — сильні вітри, дощі, хуртовини та піщані бурі."
-  game_concept_mercenaries: "Наймані війська"
+  game_concept_mercenaries: "Найманці"
   game_concept_mercenary: "Найманець"
   game_concept_mercenary_desc: "Найманець — це приватна особа, яка воює за [Concept('gold', 'гроші')|e], але не є зацікавленою стороною конфлікту. [Concept('country', 'Країна')|e] може передавати свої загони іншим країнам як найманців.\n\nБазова вартість найманців на 50% вища, ніж вартість [Concept('regulars', 'постійних військ')|e]."
   game_concept_mercenary_hiring_fee: "Вартість найму"

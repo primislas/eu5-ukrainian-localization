@@ -155,7 +155,7 @@
   flavor_flo.4601.a: "Вичерпна праця"
   flavor_flo.4602.title: "[target_artist.GetNameWithNoTooltip] возносить хвалу"
   flavor_flo.4602.entry: "Похвала від Нікколо Макіавеллі"
-  flavor_flo.4602.desc: "[target_artist.GetName] у своїй книзі «[target_art.GetName]» неодноразово оспівує велич [ROOT.GetCountry.Custom('rank_ua_GEN')|l], вихваляє нас за вміння тримати країну під контролем та попереджає про те, наскільки небезпечно покладатися на наймані війська."
+  flavor_flo.4602.desc: "[target_artist.GetName] у своїй книзі «[target_art.GetName]» неодноразово оспівує велич [ROOT.GetCountry.Custom('rank_ua_GEN')|l], вихваляє нас за вміння тримати країну під контролем та попереджає про те, наскільки небезпечно покладатися на найманців."
   flavor_flo.4602.a: "Ми на правильному шляху"
   flavor_flo.47.title: "[target_character.GetNameWithNoTooltip] та [Select_CString(target_character.IsFemale,'її', 'його')] досягнення"
   flavor_flo.47.entry: "Золота доба Медічі"
