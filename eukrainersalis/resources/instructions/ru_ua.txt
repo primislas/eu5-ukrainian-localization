@@ -368,6 +368,7 @@ Tooltips can be used to apply grammatical cases or transform to adjective forms 
 
 TODO: WORK_OF_ART and WORK_OF_ART_TYPE tooltips
 TODO: #TOOLTIP:CHIVALRIC_ORDER,order_of_the_dragon #L ордену Дракона#!#!"
+TODO: ShowCountryInteractionName COUNTRY_INTERACTION
 
 The game has several ages (діб): tradition (доба Звичаїв), renaissance (Відродження), exploration (Відкриттів), reformation (Реформації), absolutism (Самовладдя), revoluion (Революцій). They can also be replaced with tooltips. For example:
     * especially during the [ShowAgeName('age_3_discovery')] -> особливо в добу #TOOLTIP:AGE,age_3_discovery,X #L Відкриттів#!#!
@@ -1587,6 +1588,8 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * khan ordu, ханская орда -> ханська ставка
     * scriptorium, скрипторий -> писарня
 
+    * tannery -> чинбарня
+
     * tavern, таверна -> prefer "шинок", "корчма", unless clearly about English-speaking world
     * brewery, пивоварня -> "броварня" in general
     * distillery, винокурня -> "винниця" in general
@@ -1596,7 +1599,8 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * tools guild, инструментальная гильдия -> "слюсарня", masters/artisans who create tools -> "слюсарі"
     * glass guild, гильдия стеклодувов -> скловарня
     * glass workshop, стеклянная мастерская -> гута
-    * glass mill, стеклянный завод -> склоробний завод
+    * glassworks -> склоробна мануфактура
+    * glass mill, стеклянный завод -> скловарний завод
 
     * dyes guild -> "фарбарня"; masters, who dye -> "фарбарі", NOT "барвники"
     * jewelry -> "прикраси" (esp. in menus and short titles, in narrative texts use "коштовні прикраси" to stress the value and status)

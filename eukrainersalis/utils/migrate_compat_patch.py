@@ -4,8 +4,8 @@ import shutil
 from dataclasses import dataclass
 from pathlib import Path
 
-from eukrainersalis.utils.file_utils import remove_and_recreate_dir, list_localization_files, project_dir, \
-    rasf_workshop_dir, rasf_project_dir, rasf_steam_mod_id
+from eukrainersalis.utils.file_utils import remove_and_recreate_dir, list_localization_files, rasf_workshop_dir, \
+    rasf_project_dir, rasf_steam_mod_id
 from eukrainersalis.utils.log_utils import logger
 from eukrainersalis.utils.translation_utils import Language, LocFile
 
@@ -86,9 +86,13 @@ class ModManager:
             ua_loc = ua_loc_file.get_localization()
             updated_keys = []
             for k,v in en_loc_file.get_localization().items():
+                ua_loc_key = k
                 if not k in ua_loc:
-                    updated_keys.append(k)
-                synced_localization[k] = ua_loc.get(k, v)
+                    if k.endswith("ukrainian_dialect"):
+                        ua_loc_key = k.replace("ukrainian_dialect", "ruthenian_language")
+                    elif k.endswith("ruthenian_language"):
+                        ua_loc_key = k.replace("ruthenian_language", "ukrainian_dialect")
+                synced_localization[k] = ua_loc.get(ua_loc_key, v)
             deleted_ua_keys = ua_loc.keys() - synced_localization.keys()
             updated_keys.extend(deleted_ua_keys)
 
