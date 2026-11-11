@@ -400,7 +400,7 @@
   REBEL_NAME_nationalist: "[CULTURE.GetNameWithNoTooltip]і патріоти"
   REBEL_NAME_slave: "Повстання [COUNTRY.GetAdjectiveWithNoTooltip|l]их невільників"
   REBEL_NAME_pretender: "[COUNTRY.GetAdjectiveWithNoTooltip]і претенденти"
-  REBEL_NAME_estate: "[ESTATE.GetNameWithNoTooltip] — інсургенти"
+  REBEL_NAME_estate: "[ESTATE.GetNameWithNoTooltip]-заколотники"
   REBELS_CATEGORY_estate: "Станові заколотники"
   REBELS_CATEGORY_nationalist: "Націоналістичні заколотники"
   REBELS_CATEGORY_pretender: "Заколотні претенденти"
