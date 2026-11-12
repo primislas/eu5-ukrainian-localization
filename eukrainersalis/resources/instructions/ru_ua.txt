@@ -826,6 +826,7 @@ IMPORTANT! When presented with several alternative translation options, choose t
     * unlawful territory, незаконная територия -> незаконні володіння
     * range, дистанция -> досяжність
     * vegetation, флора -> рослинність
+    * sparse (terrain), редколесье -> напівпустеля
     * subject territory connectivity, cвязанность территорий ленника -> досяжність володінь васала
 
     * disease, эпидемия -> пошесть
