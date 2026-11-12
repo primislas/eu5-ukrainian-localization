@@ -73,7 +73,7 @@
   flavor_dlh.12.a: "Нехай правлять провінцією."
   flavor_dlh.12.b: "Не варто довіряти їм цілу провінцію."
   dlh_release_lodi_as_governors_tt: "Династія [GetDynasty('lodi_dynasty').GetName] отримає владу над [Concept('province', 'провінцією')|e] [target_province.GetName] як наш #TOOLTIP:SUBJECT_TYPE,vassal,X #L васал#!#!"
-  dlh_all_afghani_pops_in_province_lose_30_satisfaction: "[Concept('pop_satisfaction', 'Вдоволення')|e] всіх #TOOLTIP:CULTURE,$afghan_culture_tt$,X #L афганських#!#! [Concept('pops', 'громад')|e] у [Concept('province', 'провінції')|e] [target_province.GetName] знизиться на [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%]"
+  dlh_all_afghani_pops_in_province_lose_30_satisfaction: "[Concept('pop_satisfaction', 'Задоволення')|e] всіх #TOOLTIP:CULTURE,$afghan_culture_tt$,X #L афганських#!#! [Concept('pops', 'громад')|e] у [Concept('province', 'провінції')|e] [target_province.GetName] знизиться на [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%]"
   flavor_dlh.13.title: "Династія [GetDynasty('lodi_dynasty').GetNameWithNoTooltip] захоплює нові володіння"
   flavor_dlh.13.entry: "Розширення володінь династії Лоді"
   flavor_dlh.13.desc: "Вплив династії [GetDynasty('lodi_dynasty').GetName] продовжує зростати. Вони зібрали безліч прихильників і тепер претендують на всю область [target_area.GetName]. Ми могли б піти їм назустріч, але не можна не зазначити, що це скромне #TOOLTIP:CULTURE,$afghan_culture_tt$,X #L афганське#!#! плем’я поступово перетворюється на загрозу для #L [ROOT.GetCountry.GetAdjective|l]ого#! трону…"

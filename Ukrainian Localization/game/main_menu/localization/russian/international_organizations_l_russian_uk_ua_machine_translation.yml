@@ -1131,7 +1131,7 @@
   HRE_CIRCLES_TAB: "Округи"
   HRE_CIRCLE_NO_LEADER: "Немає очільника округу"
   HRE_CIRCLE_MEMBERS_LABEL: "Учасники"
-  HRE_CIRCLE_SATISFACTION_LABEL: "Вдоволення"
+  HRE_CIRCLE_SATISFACTION_LABEL: "Задоволення"
   HRE_CIRCLE_VOTING_POWER_TITLE: "[ImperialCircle.GetNameWithNoTooltip]: вага голосу"
   HRE_CIRCLE_VOTING_POWER_HEADER: "Голоси: [ImperialCircle.GetCachedTotalVotingPower|0]"
   HRE_CIRCLE_VOTING_POWER_BREAKDOWN_TITLE: "Загальна вага голосу"

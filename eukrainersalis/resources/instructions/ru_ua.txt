@@ -1077,7 +1077,7 @@ IMPORTANT! When presented with several alternative translation options, choose t
     * commoners, common people, простой народ - простий люд or простолюд (prefer the latter when clearly talking about an estate)
     * estate enrichment, богатство стана -> збагачення стану
     * peasant enfranchisement, освобождение простолюдинов -> селянські вольності
-    * estate or pop (group) satisfaction, довольство -> задоволення, вдоволення
+    * estate or pop (group) satisfaction, довольство -> задоволення
 
     * pop, группа населения -> громада
     ** pop needs, demands, потребности групп населения -> потреби громад

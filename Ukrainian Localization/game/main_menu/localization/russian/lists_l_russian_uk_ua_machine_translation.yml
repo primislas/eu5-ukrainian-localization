@@ -1376,7 +1376,7 @@
   image: "Зображення"
   province_population: "Населення провінції"
   province_andalusi_population: "#TOOLTIP:CULTURE,$andalusi_tt$,X #L Андалуське#!#! населення"
-  province_satisfaction: "Задоволеність провінції"
+  province_satisfaction: "Задоволення провінції"
   province_tax_base: "Податкова база провінції"
   province_location_wealth: "Багатство місцевостей"
   province_uncontrolled_wealth: "Непідвладне багатство"

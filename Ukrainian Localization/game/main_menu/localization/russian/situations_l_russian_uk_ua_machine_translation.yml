@@ -1015,7 +1015,7 @@
   choose_province_to_send_food_to_target_province_taker: "Оберіть [Concept('province', 'провінцію')|e], яка відправить [Concept('food', 'їжу')|e] до провінції [target_province_taker.GetName]"
   due_to_no_road_network_tt: "Оскільки [Concept('province_capital', 'столиця провінції')|e] [target_province_giver.GetName] не з'єднана з новітньою [Concept('road', 'дорогою')|e] до [Concept('province_capital', 'столиці провінції')|e] [target_province_taker.GetName], частина [Concept('food', 'їжі')|e] буде втрачена дорогою"
   has_not_recently_given_food_tt: "Провінцію не обирали як відправника [Concept('food', 'їжі')|e] за останні 2 роки"
-  every_pop_in_target_province_taker_gains_10_satisfaction_tt: "[Concept('pop_satisfaction', 'Вдоволення ')|e] наших [Concept('pops', 'громад')|e] у провінції [target_province_taker.GetNameWithNoTooltip] підвищиться на [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%]"
+  every_pop_in_target_province_taker_gains_10_satisfaction_tt: "[Concept('pop_satisfaction', 'Задоволення ')|e] наших [Concept('pops', 'громад')|e] у провінції [target_province_taker.GetNameWithNoTooltip] підвищиться на [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%]"
   province_is_starving_tt: "[Concept('province', 'Провінція')|e] цієї [Concept('location', 'місцевості')|e] [Concept('starving', 'голодує')|e]!"
   market_negative_food_balance_tt: "На [Concept('market', 'ринку')|e] цієї [Concept('location', 'місцевості')|e] #R негативний#! баланс щомісячного залишку [Concept('food', 'їжі')|e]"
   affected_by_extended_winters_tt: "[Concept('area', 'Область')|e] цієї [Concept('location', 'місцевості')|e] страждає від суворої [Concept('winter', 'зими')|e]"

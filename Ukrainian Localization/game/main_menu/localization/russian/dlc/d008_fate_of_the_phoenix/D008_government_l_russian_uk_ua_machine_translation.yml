@@ -35,7 +35,7 @@
   THIRD_HAS_SIXTY_BOOKS_OF_THE_BASILIKA_TRIGGER: "Є «Василіки»"
   FATE_OF_THE_PHOENIX_DISASTER_ACTIVE_TRIGGER: "Відбувається [Concept('disaster', 'лихо')|e] «$fate_of_the_phoenix$»"
   THIRD_FATE_OF_THE_PHOENIX_DISASTER_ACTIVE_TRIGGER: "Відбувається [Concept('disaster', 'лихо')|e] «$fate_of_the_phoenix$»"
-  sixty_books_basilika_satisfaction_scale_tt: "Штраф до [Concept('estate_satisfaction', 'вдоволення')|e] простолюду залежить від змісту зводу «Василіки». (#R −5%#! за повного змісту і #R −20%#! за відсутності змісту)"
+  sixty_books_basilika_satisfaction_scale_tt: "Штраф до [Concept('estate_satisfaction', 'задоволення')|e] простолюду залежить від змісту зводу «Василіки». (#R −5%#! за повного змісту і #R −20%#! за відсутності змісту)"
   sixty_books_of_the_basilika_bureaucracy_desc: "Василіки, в основі яких лежить знаменитий труд #italic Corpus Juris Civilis#!, створений за Юстиніана, являють собою вичерпне переосмислення положень римського права #TOOLTIP:LANGUAGE,greek_language,X #L грецькою#!#! мовою. Цей звід уточнених, стандартизованих та осучаснених правових норм закріплює беззаперечність, авторитетність та універсальність імператорського закону."
   variable_tt_reformed_imperial_code_flag_via_flavor_byz_52: "$flavor_byz.52.title$"
   basilika_bigger_positive_tt: "Дія #G позитивного#! модифікатора [Concept('bureaucracy', 'установи')|e] «[ShowBureaucracyTypeName('sixty_books_of_the_basilika_bureaucracy')]» посилиться вдвічі"
