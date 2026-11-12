@@ -28,7 +28,7 @@
   CATEGORY_ACCESS_ACTIONS: "Дії з правом доступу"
   CATEGORY_INFLUENCE_ACTIONS: "Дії впливу"
   CATEGORY_PAPAL_ACTIONS: "Папські дії"
-  CATEGORY_SUBJECT_ACTIONS: "Взаємодія з васалами"
+  CATEGORY_SUBJECT_ACTIONS: "Дії з васалами"
   CATEGORY_UNION_ACTIONS: "Дії унії"
   CATEGORY_HRE_ACTIONS: "Дії імперії"
   CATEGORY_CHINA_ACTIONS: "Дії мандату"

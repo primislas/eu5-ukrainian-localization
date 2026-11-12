@@ -1,5 +1,5 @@
 ﻿l_russian:
-  MODIFIER_NONE: "Ні"
+  MODIFIER_NONE: "---"
   MODIFIER_ABSTAIN: "Неучасть"
   less_left_than_right: "менше $LEFT|Y$, ніж $RIGHT|Y$"
   no_more_left_than_right: "не більше $LEFT|Y$, ніж $RIGHT|Y$"
