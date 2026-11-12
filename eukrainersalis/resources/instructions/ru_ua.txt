@@ -1450,7 +1450,7 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * cultural capacity, культурный потенциал -> культурна спроможність
     * сultural tradition, культурные традиции -> культурна спадщина
     * cultural opinion/view, мнение про культуру -> ставлення до культури
-    * "dominant religion, culture, language, dialect", "доминирующая/доминантная религия, культура, язк, диалект" -> основна віра, культура, мова, діалект
+    * common language, общепринятый язык -> панівна мова
     * "dominant_country", "доминирующая страна" -> провідна країна
     * доминирует, доминирующий -> depending on context choose панує (панівний), переважає (переважний), основний or провідний (when about cultural or religious game concepts mentioned above)
     * non accepted culture, игнорируемая культура -> нехтувана культура

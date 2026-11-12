@@ -126,7 +126,7 @@
   AI_CONQUER_DESIRE_BREAKDOWN_RANK_HEADER: "Оцінка ґрунтується на ранзі країни ([COUNTRY.GetRank.GetName])"
   AI_CONQUER_DESIRE_BREAKDOWN_SAME_CULTURE: "[Concept('dominant_culture', 'Основна культура')|e] — наша [Concept('primary_culture', 'панівна культура')|e]: $VAL|2+=/%$"
   AI_CONQUER_DESIRE_BREAKDOWN_ACCEPTED_CULTURE: "[Concept('dominant_culture', 'Основна культура')|e] — наша [Concept('accepted_culture', 'визнана культура')|e]: $VAL|2+=/%$"
-  AI_CONQUER_DESIRE_BREAKDOWN_COMMON_LANGUAGE: "[Concept('common_language', 'Загальноприйнята мова')|e]: $VAL|2+=/%$"
+  AI_CONQUER_DESIRE_BREAKDOWN_COMMON_LANGUAGE: "[Concept('common_language', 'Панівна мова')|e]: $VAL|2+=/%$"
   AI_CONQUER_DESIRE_BREAKDOWN_CAPITAL_REGION: "[Concept('region', 'Регіон')|e] зі [Concept('capital', 'столицею')|e]: $VAL|2+=/%$"
   AI_CONQUER_DESIRE_BREAKDOWN_BASE: "Базове значення: $VAL|2+=/%$"
   AI_CONQUER_DESIRE_BREAKDOWN_CITY: "[urban_location|e]: $VAL|2+=/%$"
