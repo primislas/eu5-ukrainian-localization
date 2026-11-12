@@ -789,7 +789,7 @@
   language_of_pleading_desc: "Основи нашої суспільної ієрархії та принципи судочинства мають бути лаконічно й одноманітно викладені відповідною для нас мовою."
   language_of_pleading_court: "Придворна мова"
   language_of_pleading_court_desc: "Чернь не зможе втручатися у справи країни, якщо #TOOLTIP:ESTATE_TYPE,crown_estate,X #L правителі#!#! вестимуть судочинство виключно мовою еліт."
-  language_of_pleading_common: "Загальноприйнята мова"
+  language_of_pleading_common: "Народна мова"
   language_of_pleading_common_desc: "Якщо повсякденне судочинство вестиметься доступною мовою, простолюд рідше порушуватиме закон."
   multi_lingual_court: "Багатомовний двір"
   multi_lingual_court_desc: "Надаючи рівні права всім мовам нашої країни, ми підтримуємо #TOOLTIP:ESTATE_TYPE,peasants_estate,X #L простолюд#!#! та стабільність країни."
