@@ -111,9 +111,9 @@ Note that form CountryScope.GetName automatically produces a tooltip, and Countr
 
 Below are supported equivalents:
     * CountryScope is any potential country scope, such as [ROOT.GetCountry], [target_country], [ROOT.sCountry('actor')], [COUNTRY], [GetCountry('TAG')] and so on.
-    * CountryScope.GetName -> CountryScope.Custom('CL_GEN') (or CL_DAT, CL_ACC, CL_INST, CL_PREP). However, localization engine automatically converts a GetName form into a special country tooltip. To re-create it, Custom form needs to be wrapped into a special tooltip syntax: `#ONCLICK:COUNTRY,[CountryScope.GetKey] #TOOLTIP:COUNTRY,[CountryScope.GetKey],X [CountryScope.Custom('CL_PREP')|L]#!#!`.
-        ** fought in the war against [GetCountry('GRA').GetName] -> билися у війні проти #ONCLICK:COUNTRY,[GetCountry('GRA').GetKey] #TOOLTIP:COUNTRY,[GetCountry('GRA').GetKey],X [GetCountry('GRA').Custom('CL_GEN')|L]#!#! (will be resolved to "Гранади" by localization engine)
-        ** the greatness of [ROOT.GetCountry.GetName] -> велич #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!
+    * CountryScope.GetName -> CountryScope.Custom('CL_GEN') (or CL_DAT, CL_ACC, CL_INST, CL_PREP). However, localization engine automatically converts a GetName form into a special country tooltip. To re-create it, Custom form needs to be wrapped into a special tooltip syntax: `#ONCLICK:COUNTRY,[CountryScope.GetID] #TOOLTIP:COUNTRY,[CountryScope.GetID],X [CountryScope.Custom('CL_PREP')|L]#!#!`.
+        ** fought in the war against [GetCountry('GRA').GetName] -> билися у війні проти #ONCLICK:COUNTRY,[GetCountry('GRA').GetID] #TOOLTIP:COUNTRY,[GetCountry('GRA').GetID],X [GetCountry('GRA').Custom('CL_GEN')|L]#!#! (will be resolved to "Гранади" by localization engine)
+        ** the greatness of [ROOT.GetCountry.GetName] -> велич #ONCLICK:COUNTRY,[ROOT.GetCountry.GetID] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetID],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!
     * CountryScope.GetNameWithNoTooltip -> a form with no tooltip can use a simple Custom case form, such as CountryScope.Custom('CL_GEN') (or CL_DAT, etc.):
         ** he was sent to [ROOT.GetCountry.GetNameWithNoTooltip] -> його відрядили до [ROOT.GetCountry.Custom('CL_GEN')]
 
@@ -140,7 +140,7 @@ When dealing with countries:
 Ukrainian language allows to situationally change certain letters for better, smoother sounding - a property known as "чергування звуків", "правила милозвучности". On of the most common cases is preposition "in", which can be translated either as "у" or "в". Since country names are dynamic, we can not guess the best letter in advance. However, we can script a dynamic preposition in as `[CountryScope.Custom('preposition_uv')]`. This only applies to standard country names, NOT longnames or ranks. For example:
     * Становище зі зростанням кількости претендентів [actor.Custom('preposition_uv')] [actor.Custom('rank_ua_PREP')|l]
     * що [GetCountry('MAJ').Custom('preposition_uv')] [GetCountry('MAJ').Custom('rank_ua_PREP')|l] почалася страшна смута
-    * стане важким випробуванням для всіх #TOOLTIP:RELIGION,$orthodox_tt$,X #L православних#!#! [ROOT.GetCountry.Custom('preposition_uv')] #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#!
+    * стане важким випробуванням для всіх #TOOLTIP:RELIGION,$orthodox_tt$,X #L православних#!#! [ROOT.GetCountry.Custom('preposition_uv')] #ONCLICK:COUNTRY,[ROOT.GetCountry.GetID] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetID],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#!
     * один із головних прибічників анти#L [target_country.GetAdjective|l]ої#! політики [ROOT.GetCountry.Custom('preposition_uv')] [ROOT.GetCountry.Custom('CL_PREP')]
 
 
@@ -271,7 +271,7 @@ The full list of supported country endings is in the table below:
 Some examples of proper translations:
     * [target_country.GetLongName] погоди[target_country.Custom('endlong_vlaloly')]ся
     * [COUNTRY.GetName] мож[COUNTRY.Custom('end_eut')] бути закликан[COUNTRY.Custom('end_yiaei')] до зброї
-    * [COUNTRY.GetName] прихильно став[COUNTRY.Custom('end_ytlyat')]ся до #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetKey] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetKey],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!
+    * [COUNTRY.GetName] прихильно став[COUNTRY.Custom('end_ytlyat')]ся до #ONCLICK:COUNTRY,[TARGET_COUNTRY.GetID] #TOOLTIP:COUNTRY,[TARGET_COUNTRY.GetID],X [TARGET_COUNTRY.Custom('CL_GEN')|L]#!#!
     * [target.GetName] володі[target.Custom('end_yeyut')] [Concept('location', 'місцевістю')|e]
     * [SCOPE.sCountry('actor').GetName] примушу[SCOPE.sCountry('actor').Custom('end_yeyut')] округ [SCOPE.sImperialCircle('target').GetName] проголосувати проти імперської пропозиції.
     * [SCOPE.sCountry('actor').GetName] зверта[SCOPE.sCountry('actor').Custom('end_yeyu')]ться до нас

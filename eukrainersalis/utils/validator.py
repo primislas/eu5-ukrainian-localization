@@ -114,8 +114,8 @@ def extract_function_calls(text: str) -> set[str]:
             if tooltip_type == "GAME_CONCEPT":
                 continue
             if tooltip_type == "COUNTRY":
-                # Expectig a form like `[CountryScope.GetKey]`
-                tooltip_call = tooltip_key.replace(".GetKey]", "")[1:]
+                # Expectig a form like `[CountryScope.GetID]`
+                tooltip_call = tooltip_key.replace(".GetID]", "")[1:]
             elif tooltip_type == "LOCATIONRANK":
                 if ".Custom" in tooltip_key:
                     tooltip_call = ".".join(tooltip_key.split(".")[:-1])[1:]

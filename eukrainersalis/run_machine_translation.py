@@ -53,7 +53,7 @@ _MIGRATION_MAPPING = {
 }
 
 _TRANSLATION_POSTPROC_MAPPING = {
-    ".Custom('CL_tt')": ".GetKey",
+    ".Custom('CL_tt')": ".GetID",
 }
 
 _KEYS_MAPPING = {
