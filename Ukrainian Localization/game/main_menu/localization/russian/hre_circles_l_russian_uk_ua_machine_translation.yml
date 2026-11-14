@@ -72,7 +72,7 @@
  INCOMING_OFFER_TITLE_petition_imperial_diet: "Подати клопотання до райхстагу"
  petition_imperial_diet_reject_effect_text: "[SCOPE.sCountry('recipient').GetName] відхиля[SCOPE.sCountry('recipient').Custom('end_yeyut')] клопотання #ONCLICK:COUNTRY,[SCOPE.sCountry('actor').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('actor').GetKey],X [SCOPE.sCountry('actor').Custom('CL_GEN')|L]#!#! до райхстагу."
  petition_imperial_diet_reject_effect_text_past: "[SCOPE.sCountry('recipient').GetName] відхили[SCOPE.sCountry('recipient').Custom('end_vlaloly')] клопотання #ONCLICK:COUNTRY,[SCOPE.sCountry('actor').GetKey] #TOOLTIP:COUNTRY,[SCOPE.sCountry('actor').GetKey],X [SCOPE.sCountry('actor').Custom('CL_GEN')|L]#!#! до райхстагу."
- petition_imperial_diet_tt: "Ми попросимо провести голосування щодо політики в #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священній Римській Імперії#!#!"
+ petition_imperial_diet_tt: "Ми попросимо провести голосування щодо політики в #TOOLTIP:INTERNATIONAL_ORGANIZATION,[GetUniqueInternationalOrganization('hre').GetID],X #L Священній Римській Імперії#!#!"
  request_circle_privilege: "Просити привілеїв для округу"
  request_circle_privilege_desc: "Попросити в імператора особливих привілеїв для нашого округу."
  request_circle_privilege_act: "Попросити в імператора особливих привілеїв."

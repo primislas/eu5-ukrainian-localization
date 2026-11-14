@@ -49,7 +49,7 @@
  winter_events.11.b: "Невже холоди позбавили нас залишків здорового глузду?"
  based_on_traditionalist_vs_innovative_tt: "З урахуванням поточної спрямованості нашого суспільства між #TOOLTIP:SOCIETAL_VALUE,traditionalist_vs_innovative,X #L стариною#!#! та #TOOLTIP:SOCIETAL_VALUE,traditionalist_vs_innovative,X #L новиною#!#:"
  burn_witches_tt: "Спалимо кілька відьом — припустімо, #R [ROOT.GetVariable('display_burned_witches_variable').GetValue]#!!"
- cc_stance_on_witchcraft_tt: "Через погляди #TOOLTIP:INTERNATIONAL_ORGANIZATION,$catholic_church_tt$,X #L католицької церкви#!#! на чаклунство:"
+ cc_stance_on_witchcraft_tt: "Через погляди #TOOLTIP:INTERNATIONAL_ORGANIZATION,[GetUniqueInternationalOrganization('catholic_church').GetID],X #L католицької церкви#!#! на чаклунство:"
  winter_events.12.title: "Спустілі келихи"
  winter_events.12.desc: "Наше #TOOLTIP:GOODS,wine,X #L вино#!#! лежить в основі суспільного життя. Це важливий атрибут будь-яких зібрань — від веселих святкувань до скорботних поминок. Однак виноградники, що колись простягалися до самого обрію, тепер висохли й перестали плодоносити.\n\nПогода більше не дозволяє нам вирощувати культури, які колись приносили врожай нашим батькам. Попит зростає, але [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')|l] отримують усе менше винограду зі своїх угідь. Обурення швидко наростає, як і холод, що нагрянув у наш край."
  winter_events.12.a: "Жага до вина — це підступи диявола!"

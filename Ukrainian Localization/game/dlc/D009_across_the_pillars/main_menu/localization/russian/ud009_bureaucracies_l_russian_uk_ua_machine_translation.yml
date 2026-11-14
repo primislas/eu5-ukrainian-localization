@@ -40,7 +40,7 @@
  spa_viceroy_bureaucracy: "Палата віцекороля"
  spa_viceroy_bureaucracy_desc: "$spa_council_of_indies_bureaucracy_desc$"
  spa_council_of_crusade_bureaucracy: "Рада хрестового походу"
- spa_council_of_crusade_bureaucracy_desc: "Заснована за згодою #TOOLTIP:INTERNATIONAL_ORGANIZATION,$catholic_church_tt$,X #L Католицької церкви#!#! і самого [Concept('pope', 'папи')|e], #italic Рада хрестового походу#! опікуватиметься розширенням наших кордонів і повсюдним поширенням #L [ShowReligionAdjective('catholic')|l]ої#! віри."
+ spa_council_of_crusade_bureaucracy_desc: "Заснована за згодою #TOOLTIP:INTERNATIONAL_ORGANIZATION,[GetUniqueInternationalOrganization('catholic_church').GetID],X #L Католицької церкви#!#! і самого [Concept('pope', 'папи')|e], #italic Рада хрестового походу#! опікуватиметься розширенням наших кордонів і повсюдним поширенням #L [ShowReligionAdjective('catholic')|l]ої#! віри."
  spa_council_of_finance_bureaucracy: "Рада фінансів"
  spa_council_of_finance_bureaucracy_desc: "#italic $spa_council_of_finance_bureaucracy$#! замінює дві колишні лічильні палати й тим самим усуває розбіжності між ними, утворюючи єдину установу, яка опікується всіма скарбовими справами країни."
  spa_council_of_indies_bureaucracy: "Рада у справах Індій"

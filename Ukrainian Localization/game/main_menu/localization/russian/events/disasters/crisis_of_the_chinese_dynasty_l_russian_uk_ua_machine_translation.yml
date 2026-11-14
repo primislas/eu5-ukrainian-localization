@@ -2,7 +2,7 @@
  crisis_of_the_chinese_dynasty.1.title: "Слабнуча влада в країні [GetCountry('CHI').GetLongNameWithNoTooltip]"
  crisis_of_the_chinese_dynasty.1.desc: "У [ROOT.GetCountry.Custom('longname_ua_PREP')] — жахлива криза. Через свого невмілого правителя ми втратили Небесний мандат, а разом із ним — благодать і добру славу, які він уособлював.\n\nУ Китаї панують безгосподарність і бушують чвари. Серед населення зі швидкістю пожежі поширюється невдоволення: величезні маси вже підняли заколот. Нам потрібно пам'ятати про предків і намагатися вирощувати чесноти, адже великий Мандат утримати непросто."
  crisis_of_the_chinese_dynasty.1.a: "Нехай Мандат не піде з наших рук."
- every_member_of_mkio_loses_20_opinion_tt: "Кожен [Concept('member', 'учасник')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$middle_kingdom_tt$,X #L Серединної Країни#!#! отримає [ShowBiasValue('opinion_internal_crisis')|-=0] до [Concept('opinion', 'думки')|e] про нас"
+ every_member_of_mkio_loses_20_opinion_tt: "Кожен [Concept('member', 'учасник')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,[GetUniqueInternationalOrganization('middle_kingdom').GetID],X #L Серединної Країни#!#! отримає [ShowBiasValue('opinion_internal_crisis')|-=0] до [Concept('opinion', 'думки')|e] про нас"
  crisis_of_the_chinese_dynasty.2.title: "Сумний кінець"
  crisis_of_the_chinese_dynasty.2.desc: "Нам не вдалося відновити владу на наших землях, наш народ розколотий і деморалізований. Всі наші спроби виправити ситуацію виявилися безплідними, ми розгубили славу і втратили свій статус повелителів [ROOT.GetCountry.Custom('rank_ua_GEN')|l]. Ми навіть ще не усвідомили всю глибину нашого падіння."
  crisis_of_the_chinese_dynasty.2.a: "Яка темрява чекає нас попереду?"

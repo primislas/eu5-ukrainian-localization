@@ -1,6 +1,6 @@
 ﻿l_russian:
  spread_philhellenism: "Поширення філеллінізму"
- spread_philhellenism_desc: "#TOOLTIP:CULTUREGROUP,greek_group,X #L Еллінські#!#! наука, мистецтво та філософія повинні сформувати наш імідж як всередині країни, так і за кордоном. Вчені, митці та шанувальники #TOOLTIP:CULTURE,$greek_culture_tt$,X #L грецької#!#! культури звідусіль приїжджають до нас. Захоплення, а не сила — ось наш спосіб зміцнити вплив."
+ spread_philhellenism_desc: "#TOOLTIP:CULTUREGROUP,greek_group,X #L Еллінські#!#! наука, мистецтво та філософія повинні сформувати наш імідж як всередині країни, так і за кордоном. Вчені, митці та шанувальники #TOOLTIP:CULTURE,[GetCultureByKey('greek_culture').GetID],X #L грецької#!#! культури звідусіль приїжджають до нас. Захоплення, а не сила — ось наш спосіб зміцнити вплив."
  spread_philhellenism_action: "$spread_philhellenism$"
  spread_philhellenism_active: "Політика поширення філеллінізму"
  spread_philhellenism_action_progress: "[SCOPE.sCountry('actor').GetModifierValue('research_speed_modifier')]"
