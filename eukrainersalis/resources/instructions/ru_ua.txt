@@ -231,7 +231,7 @@ BUT words at the beginning of a sentence should be capitalized. Therefore, don't
         ** [target_character.GetHeShe|U] [Select_CString(target_character.IsFemale, 'була б чудовою наставницею', 'був би чудовим наставником')]
 
 
-## Country and Rank Grammatical Cases
+## Country, Rank, Parliament Grammatical Cases
 
 Ukrainian localization scripts support grammatical cases (відмінювання) for country names and ranks. This is achieved by custom localization call on country scope instead of GetName or its alternatives (these effectively function as nominative cases). Names for supported cases are:
     * GEN - Genitive (родовий)
@@ -257,11 +257,16 @@ Below are supported equivalents:
         ** has appealed to the [GetCountry('PAP').GetLongNameWithNoTooltip] for financial support -> звернувся до [GetCountry('PAP').Custom('longname_ua_wntt_GEN')] по грошову поміч
         ** has fallen to our heinous enemies from the [from_country.GetLongName] -> впала під натиском мерзенних ворогів із [from_country.Custom('longname_ua_GEN')]
 
+Country ranks also can use grammatical cases. Custom identifiers have a form of `rank_ua_CASE`.
     * CountryScope.GetFlavorRank -> CountryScope.Custom('rank_ua_GEN') (or rank_ua_DAT, rank_ua_ACC, rank_ua_INST, rank_ua_PREP). For example:
         ** [new_general.GetHerHim] flows throughout the [ROOT.GetCountry.GetFlavorRank] -> [new_general.GetHerHim] тепер лине [ROOT.GetCountry.Custom('rank_ua_INST')]
         *** Note that we should drop various constructs like "лине всім" or "лине нашим", as we don't know the gender of the dynamic country name. So we simplify it to simply "лине", which has an added benefit of streamlining the language and making the sentence lighter and more natural.
         ** such public displays undermine the [ShowReligionAdjective('catholic')] character of the [ROOT.GetCountry.GetFlavorRank] -> такі привселюдні дійства підривають [ShowReligionAdjective('catholic')]ий характер [ROOT.GetCountry.Custom('rank_ua_GEN')]
         ** widespread acclaim across the [ROOT.GetCountry.GetFlavorRank] -> широке визнання по всьому [ROOT.GetCountry.Custom('rank_ua_INST')]
+
+Country parliaments also can use grammatical cases. Just like country and rank grammatical cases, these are Custom calls off of a country scope, with a form of `parliament_ua_CASE`. For example:
+    * Asking [Player.GetGovernment.GetParliament.GetName] to allow us to collect more [tax|e] -> Попрохати [Player.Custom('parliament_ua_GEN')|l] дозволити нам зібрати більше [Concept('tax', 'податків')|e]
+    * Our recent motion to seize the reins of our [SCOPE.sCountry('actor').GetGovernment.GetParliament.GetName] has steered the halls of power across our [SCOPE.sCountry('actor').GetFlavorRank]. -> Недавні спроби взяти [SCOPE.sCountry('actor').Custom('parliament_ua_ACC')|l] під контроль сколихнули [SCOPE.sCountry('actor').Custom('rank_ua_ACC')|l].
 
 When dealing with countries:
     * Attempt to avoid inserting unnecessary "країна", "держава", "князівство" if using a grammatical case suffices.
@@ -309,6 +314,15 @@ In some cases specific areas or regions are scripted in a variable form of `$<re
 
 In some cases variables are dynamic, and should be scripted arround accordingly - as if they were always in nominative case:
     * Our colonists in $PROVINCE$ have established a foothold at $LOCATION$ -> Наші поселенці у провінції $PROVINCE$ закріпилися в місцевості $LOCATION$
+
+## International Organizations and grammatical cases
+
+Just like countries, international organizations support grammatical cases. The scope has to be an internation organization, Custom method is called. Supported Custom arguments:
+    * IO_GEN, IO_DAT, IO_ACC, IO_INST, IO_PREP for standard grammatical cases. ".GetName" displays a tooltip, whereas ".Custom()" does not. Wrap into `#TOOLTIP:INTERNATIONAL_ORGANIZATION,[my_international_organization_scope.GetID],X #L [my_international_organization_scope.Custom('IO_CASE')] #!#!` to display tooltip. Otherwise leave a simple Custom case form if source text invokes Show/GetNameWithNoTooltip.
+
+International organization parliaments also support grammatical cases.
+    * If source uses WithNoTooltip, on an international organization scope call custom with `parliament_io_ua_CASE`, where case can be any of the standard GEN, DAT, ACC, INST, PREP.
+    * Otherwise, wrap the parliament all into an international organization tooltip, e.g.: `#TOOLTIP:INTERNATIONAL_ORGANIZATION,[my_international_organization_scope.GetID],X #L [my_international_organization_scope.Custom('parliament_io_ua_GEN')] #!#!`
 
 
 ## Tooltips for Grammatical Cases
@@ -359,16 +373,27 @@ Tooltips can be used to apply grammatical cases or transform to adjective forms 
         ** [ShowSpecialStatusName('senior_partner')]-> #TOOLTIP:SPECIAL_STATUS,senior_partner,X #L старший партнер#!#!
         ** [SCOPE.sCountry('actor').GetName] bestow [ShowSpecialStatusName('free_city')] status on [SCOPE.sCountry('recipient').GetName] -> [SCOPE.sCountry('actor').GetName] наділя[SCOPE.sCountry('actor').Custom('end_yeyut')] #ONCLICK:COUNTRY,[SCOPE.sCountry('recipient').GetID] #TOOLTIP:COUNTRY,[SCOPE.sCountry('recipient').GetID],X [SCOPE.sCountry('recipient').Custom('CL_ACC')|L]#!#! статусом #TOOLTIP:SPECIAL_STATUS,free_city,X #L вільного імперського міста#!#!
         ** elevating us close to the status of [ShowSpecialStatusName('elector')] -> наблизивши нас до гідности #TOOLTIP:SPECIAL_STATUS,elector,X #L князя-виборника#!#!
+
     * Situation tooltip examples:
         ** Measures how inflamed the [ShowSituationName('italian_wars')] have become -> Відображає, наскільки палко розгорілося полум’я #TOOLTIP:SITUATION,italian_wars,X #L Італійських воєн#!#!
         ** The [GetSituationByKey('columbian_exchange').GetName] begins -> Розпочинається #TOOLTIP:SITUATION,columbian_exchange,X #L Колумбів обмін#!#!
-    * Generic action tooltips:
+    * ShowGenericActionName can be replaced with #TOOLTIP:GENERIC_ACTION tooltips, e.g.:
         ** We will gain access to unique [actions|e] such as [ShowGenericActionName('influence_french_subject')] and [ShowGenericActionName('request_papal_delegates')] -> ми отримаємо доступ до унікальних [Concept('actions', 'дій')|e], таких як #TOOLTIP:GENERIC_ACTION,influence_french_subject,X #L підкуп французьких васалів#!#! та #TOOLTIP:GENERIC_ACTION,request_papal_delegates,X #L запрошення папських представників#!#!
         ** [GetCountry('FRA').GetNameWithNoTooltip] can shield subjects with [ShowGenericActionName('fra_diplomacy_with_subjects')] -> [GetCountry('FRA').GetNameWithNoTooltip] мож[GetCountry('FRA').Custom('end_eut')] захистити васалів дією #TOOLTIP:GENERIC_ACTION,fra_diplomacy_with_subjects,X #L присвоєння титулів васалам#!#!
+    * Country interactions (ShowCountryInteractionName), can be represented with COUNTRY_INTERACTION tooltips, e.g.:
+        ** @arrow_bonus_tier_1! [ShowCountryInteractionName('enforce_landfriede')] - Force a [white_peace|e] upon a member -> #TOOLTIP:COUNTRY_INTERACTION,enforce_landfriede,X #L Запровадження земського миру#!#! дозволяє нав’язати учаснику [Concept('white_peace', 'мир на довоєнних умовах')|e]
+        ** @arrow_bonus_tier_1! [ShowCountryInteractionName('enforce_religious_unity')] - Force the Imperial Religion upon a member -> @arrow_bonus_tier_1! #TOOLTIP:COUNTRY_INTERACTION,enforce_religious_unity,X #L Встановлення єдности у вірі#!#! дозволяє нав’язати учаснику імперську віру
+        ** [ShowCountryInteractionName('demand_unlawful_territory')] - Request the return of a conquered [location|e] to its previous owner -> #TOOLTIP:COUNTRY_INTERACTION,demand_unlawful_territory,X #L Вимога незаконних володінь#!#! змушує учасника повернути завойовану [Concept('location', 'місцевість')|e] попередньому власнику
 
-TODO: WORK_OF_ART and WORK_OF_ART_TYPE tooltips
-TODO: #TOOLTIP:CHIVALRIC_ORDER,order_of_the_dragon #L ордену Дракона#!#!"
-TODO: ShowCountryInteractionName COUNTRY_INTERACTION
+    * WorkOfArtName (not to be confused with WorkOfArtType - different entities) does not have a corresponding tooltip. Sentences have to be rephrased to keep it in nominative case or use a leading word "витвір" (or context-dependent картина, статуя, споруда, etc.) to keep the name in nominative case, e.g.:
+        ** значні пошкодження собору [ShowWorkOfArtName('hagia_sophia')]
+        ** the remains of this once great [ShowWorkOfArtTypeName('monument')] stand amidst the glorious buildings of [target_location.GetNameWithNoTooltip] -> Руїни цього величного #TOOLTIP:WORK_OF_ART_TYPE,monument,X #L пам’ятника#!#! досі стоять серед чудових палаців [target_location.Custom('LR_GEN')|l] [target_location.GetNameWithNoTooltip]
+    * WorkOfArtTypeName can be represented with a #TOOLTIP:WORK_OF_ART_TYPE, e.g.:
+        ** compile a [ShowWorkOfArtTypeName('chronicle')] for the [actor GetGovernment.GetRulerOrRegent.GetDynasty.GetName] [dynasty|e] -> написати #TOOLTIP:WORK_OF_ART_TYPE,chronicle,X #L хроніку#!#! [Concept('dynasty', 'дому')|e] [actor GetGovernment.GetRulerOrRegent.GetDynasty.GetName]
+        ** Loan one [ShowWorkOfArtTypeName('icon')] to another [country|e] for a period of #Y 10#! years -> Позичте одну #TOOLTIP:WORK_OF_ART_TYPE,icon,X #L ікону#!#! іншій [Concept('country', 'країні')|e] на #Y 10#! років
+    * ChivalricOrderName can be represented with `#TOOLTIP:CHIVALRIC_ORDER,order_key` tooltip, e.g.:
+        ** discuss the establishment of the [ShowChivalricOrderName('order_of_the_dragon')] -> обговорити заснування #TOOLTIP:CHIVALRIC_ORDER,order_of_the_dragon #L ордену Дракона#!#!
+        ** [ROOT.GetCountry.GetGovernment.GetRuler.GetName] will join the [ShowChivalricOrderName('order_of_the_garter')] as a founding member -> [ROOT.GetCountry.GetGovernment.GetRuler.GetName] вступить до #TOOLTIP:CHIVALRIC_ORDER,order_of_the_garter #L Ордену Підв’язки#!#! як його [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale, 'засновниця', 'засновник')]
 
 The game has several ages (діб): tradition (доба Звичаїв), renaissance (Відродження), exploration (Відкриттів), reformation (Реформації), absolutism (Самовладдя), revoluion (Революцій). They can also be replaced with tooltips. For example:
     * especially during the [ShowAgeName('age_3_discovery')] -> особливо в добу #TOOLTIP:AGE,age_3_discovery,X #L Відкриттів#!#!
@@ -935,7 +960,7 @@ IMPORTANT! When presented with several alternative translation options, choose t
         ** "товариство" in the meaning of a commercial enterprise, trade association and any other similar organizational structure, "спілка" for smaller or more casual groups of people
         ** "установа" in the meaning of an institution
         ** "устрій" in the meaning of a government apparatus, way of doing things
-        ** "об'єднання" for international organizations
+        ** "об’єднання" for international organizations
 
     * коррупция, corruption -> хабарництво, продажність, лихоїмство (high prose or when dealing with clerical matters), підкупність (in a sense of being able to buy their loyalty)
     * коррумпированный, corrupt -> продажний, нечистий на руку (when more or something else other than just taking bribes is implied), підкупний (in a sense of being able to buy their loyalty)
@@ -956,11 +981,11 @@ IMPORTANT! When presented with several alternative translation options, choose t
     ** эффективное управление, эффективность управления -> справне врядування, справність врядування ("неефективне врядування" can be called несправним, недолугим, невмілим), дієве врядування (when action is stressed), (не)дієздатне врядування (when (in)ability to take action is stressed)
     ** as opposed to state governance, finance and trade "управление" is "відання", e.g. "відання скарбницею", "відання карбуванням", "відання торгівлею, грошима", "відання внутрішніми справами", also in fixed expression "відання васалами"
     ** in a sense of lower-level management translate as "відання", "под управление" - "у відання", e.g. "відання скарбницею", "у віданні купців", "у віданні наярів", "передати у відання"
-    ** "управление" as a specific office or magistrate - "відомство", e.g. "відомство охорони здоров'я", "колоніальне відомство"
+    ** "управление" as a specific office or magistrate - "відомство", e.g. "відомство охорони здоров’я", "колоніальне відомство"
     ** управление войсками, флотом -> командування військами, флотом, when about direct command; "керування" in a more general sense; however, if administrative aspect is stressed, then translate as "відання"
     ** at the lowest level could be "розпоряджання", e.g. "розпоряджання замком, прислугою"
     ** управление кораблем -> керівництво кораблем
-    ** под управлением компьютера, игрока -> під керуванням комп'ютера, гравця (when talking about game AI or player control)
+    ** под управлением компьютера, игрока -> під керуванням комп’ютера, гравця (when talking about game AI or player control)
     ** (Chinese) Censorate, цензурное управление -> вища наглядова управа
     * управлять -> use the same guidelines as for "управление" and pick "врядувати", "керувати", "правити", "володарювати" and so on, whichever's more appropriate; the word "управляти" should be avoided as an inappropriate anachronism
 
@@ -1340,7 +1365,7 @@ Game concepts with the adjective 'religious', 'религиозный':
     * french_wars_of_religion, французские религиозные войны -> французькі міжусобиці за віру, гугенотські війни
     * religious_league, религиозная лига -> конфесійна ліга
     * religious_turmoil, религиозные волнения -> заворушення за віру, смута через віру
-    * religious_organization, религиозная организация -> об'єднання віри
+    * religious_organization, религиозная организация -> об’єднання віри
 
     * when "религозный" and "светский" are mentioned together, prefer "духовний та мирський"
 
@@ -1546,7 +1571,7 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * квасцы -> галун
     * spices, специи -> ALWAYS and ONLY "прянощі", replace singular "спеція" with plural "прянощі" as well, be mindful of a city "Спеція" and do not translate its name
     * porcelain, фарфор -> порцеляна
-    * mercury patio, амальгамационный цех -> амальгамаційне подвір'я
+    * mercury patio, амальгамационный цех -> амальгамаційне подвір’я
     * ivory, поделочная кость -> слонова кістка
 
     * slave(s), раб(ы) -> невільник(и), unless one of the exceptions specified below
@@ -1627,7 +1652,7 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
     * в центре - see potential translations and samples below
     ** у (самісінькій) середині (strict geographical center): у середині цієї лінії, в самісінькій середині Анатолії, сонце знаходиться в середині всесвіту
     ** посередині - geographical center or geometric center: з лагуною посередині, з вежею чи куполом посередині
-    ** посеред - more narrative and casual tone that does not suggest strictness, also in the meaning of (in-)between, e.g. "розташування посеред монгольських країн": височіє на пагорбі посеред плоскогір'я, посеред Теночтітлана розміщений храмовий комплекс
+    ** посеред - more narrative and casual tone that does not suggest strictness, also in the meaning of (in-)between, e.g. "розташування посеред монгольських країн": височіє на пагорбі посеред плоскогір’я, посеред Теночтітлана розміщений храмовий комплекс
     ** всередині, всередину (inside): всередині регіону, міста, встікали всередину, вглиб острова
     ** у серці (high-prose): у серці протистояння
     ** серед (между, between): серед цих тривожних чуток
@@ -1655,10 +1680,10 @@ Adjective 'religious' is considered an inappropriate anachronism. In almost all 
 Централизация, централизованный, централізація, централізований:
     * in general case translate (de)centralized, (de)centralization as "(ро)зосереджений", "(ро)зосередження"
     * централизация власти, централізація влади -> зосередження влади
-    * централизация страны, международной организации, централізація країни, міжнародної організації -> підпорядкування країни, міжнародного об'єднання, суспільства, федерації, племінного союзу
+    * централизация страны, международной организации, централізація країни, міжнародної організації -> підпорядкування країни, міжнародного об’єднання, суспільства, федерації, племінного союзу
     * централизованная страна, держава, служба, бюрократия, подход, организация -> впорядкована; use "підпорядкована" if being subjected to a single ruler or central government is stressed;
-    ** when unity aspect is stressed, in rare cases "згуртованість" fits better (as opposed to disunited, scattered): згуртованість міжнародного об'єднання, Священної Римської імперії, згуртуємо племена в єдину країну
-    * in rare cases the best fit is simply об'єднаний, спільний: спільний звід законів об'єднання (НЕ центральний), об'єднані племена
+    ** when unity aspect is stressed, in rare cases "згуртованість" fits better (as opposed to disunited, scattered): згуртованість міжнародного об’єднання, Священної Римської імперії, згуртуємо племена в єдину країну
+    * in rare cases the best fit is simply об’єднаний, спільний: спільний звід законів об’єднання (НЕ центральний), об’єднані племена
 
 BUT keep "центр", "центральний" in the following cases:
     * geographical names, such as "Центральна Європа, Азія, Лігурія", "центральна частина архіпелагу", etc.
@@ -1712,7 +1737,7 @@ There are fixed expressions that must always be translated as specified:
     ** порушити територіальний суверенітет -> порушити кордони
     * територіальна експансія -> примноження земель (narrative and high-prose, neutral or positive sentiment), земельні надбання (neutral or positive tone), захоплення / завоювання земель (when conquest is implied or stressed), загарбання земель (negative sentiment)
     * (im)passable terrain, (не)проходимая территория, (не)прохідна територія -> (не)прохідна місцевість
-    * subject territory connectivity, cвязанность территорий ленника, зв'язність територій васала -> досяжність володінь васала
+    * subject territory connectivity, cвязанность территорий ленника, зв’язність територій васала -> досяжність володінь васала
     * unlawful territory, незаконна територія -> незаконні володіння
     * core territory, корінні території -> корінні землі
 
@@ -1877,7 +1902,7 @@ Pick the best fit based on context, and modern Ukrainian stylistic guidelines.
 
     * музикант - музика
     * потенциал - спроможність (in the sense of capability, capacity), здібності (in a sense of potential personal ability)
-    * парализованный -> закостенілий, заклякий, заціпенілий, закам'янілий, задерев'янілий
+    * парализованный -> закостенілий, заклякий, заціпенілий, закам’янілий, задерев’янілий
     * перспективный -> багатонадійний
     * провизия, провізія, провиант, провіант, продовольство -> харчі, в розповідних приземлено-побутових текстах припускається форма "харч"; продовольчий - харчовий
         ** food, еда - завжди "харчі", коли мова про військові потреби в їжі
