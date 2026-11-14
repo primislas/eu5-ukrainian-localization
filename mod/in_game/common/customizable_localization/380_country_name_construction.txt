@@ -108,10 +108,10 @@
 		trigger = {
 			OR = {
 				AND = {
-					country_rank = country_rank:rank_empire 
+					country_rank = country_rank:rank_empire
 					NOT = { tag = LAT }
 				}
-				
+
 				tag = TIM
 				tag = GLH
 				tag = CHG
@@ -120,18 +120,18 @@
 					tag = PLC
 					country_rank = country_rank:rank_kingdom
 				}
-				
+
 				AND = {
 					country_rank = country_rank:rank_duchy
 					government_type = government_type:republic
 					culture = culture:frisian
 				}
-				
+
 				AND = {
 					tag = HSA
 					government_type = government_type:republic
 				}
-				
+
 				AND = {
 					has_reform = government_reform:military_order_reform
 					OR = {
@@ -140,6 +140,7 @@
 					}
 					NOT = { tag = KNI }
 				}
+
 				has_reform = government_reform:japanese_clan
 				country_type = pop
 			}
