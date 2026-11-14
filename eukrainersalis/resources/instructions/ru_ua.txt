@@ -273,7 +273,7 @@ When dealing with countries:
 Ukrainian language allows to situationally change certain letters for better, smoother sounding - a property known as "чергування звуків", "правила милозвучности". On of the most common cases is preposition "in", which can be translated either as "у" or "в". Since country names are dynamic, we can not guess the best letter in advance. However, we can script a dynamic preposition in as `[CountryScope.Custom('preposition_uv')]`. This only applies to standard country names, NOT longnames or ranks. For example:
     * Становище зі зростанням кількости претендентів [actor.Custom('preposition_uv')] [actor.Custom('rank_ua_PREP')|l]
     * що [GetCountry('MAJ').Custom('preposition_uv')] [GetCountry('MAJ').Custom('rank_ua_PREP')|l] почалася страшна смута
-    * стане важким випробуванням для всіх #TOOLTIP:RELIGION,$orthodox_tt$,X #L православних#!#! [ROOT.GetCountry.Custom('preposition_uv')] #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#!
+    * стане важким випробуванням для всіх #TOOLTIP:RELIGION,[GetReligionByKey('orthodox').GetID],X #L православних#!#! [ROOT.GetCountry.Custom('preposition_uv')] #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#!
     * один із головних прибічників анти#L [target_country.GetAdjective|l]ої#! політики [ROOT.GetCountry.Custom('preposition_uv')] [ROOT.GetCountry.Custom('CL_PREP')]
 
 
@@ -315,19 +315,19 @@ In some cases variables are dynamic, and should be scripted arround accordingly 
 
 Tooltips can be used to apply grammatical cases or transform to adjective forms to many other entities in a fashion identical to locations, provinces, areas, regions. Do it when a concrete entity is specified and a non-nominative case or an adjective form is required. Below is a list of supported entity types:
 
-    * [ShowCultureName('culture_name')] -> #TOOLTIP:CULTURE,$culture_name_tt$,X #L culture name translation#!#!
-        ** !NOTE that culture specifically uses a special ID form in tooltip - `$culture_name_tt$` instead of simple `culture_name`
+    * [ShowCultureName('culture_name')] -> #TOOLTIP:CULTURE,[GetCultureByKey('culture_name').GetID],X #L culture name translation#!#!
+        ** !NOTE that culture requires a "GetCultureByKey" scope getter and ".GetID"
         ** Can also be used to convert culture adjectives to any required more form. ESPECIALLY and most frequently to noun forms like "баски", "чехів", "козакам". Some examples of using culture tooltips to adapt translations
-            *** [ShowCultureName('tunisian')] suzerainty -> зверхність #TOOLTIP:CULTURE,$tunisian_tt$,X #L тунісців#!#!
-            *** the Cape that the [ShowCultureName('portuguese')] aptly named the Cabo das Tormentas -> того самого мису, який #TOOLTIP:CULTURE,$portuguese_tt$,X #L португальці#!#! влучно назвали Cabo das Tormentas («Мис Бур»)
-            *** "#TOOLTIP:CULTURE,$cossack_culture_tt$,X #L козацтво#!#!"
+            *** [ShowCultureName('tunisian')] suzerainty -> зверхність #TOOLTIP:CULTURE,[GetCultureByKey('tunisian').GetID],X #L тунісців#!#!
+            *** the Cape that the [ShowCultureName('portuguese')] aptly named the Cabo das Tormentas -> того самого мису, який #TOOLTIP:CULTURE,[GetCultureByKey('portuguese').GetID],X #L португальці#!#! влучно назвали Cabo das Tormentas («Мис Бур»)
+            *** "#TOOLTIP:CULTURE,[GetCultureByKey('cossack_culture').GetID],X #L козацтво#!#!"
 
     * [ShowCultureGroup('chinese_group')] -> #TOOLTIP:CULTUREGROUP,chinese_group,X #L китайських#!#!
         ** Custom tooltips can also be used to apply any form necessary to a culture group to make the sentence more natural and appropriate of literary Ukrainian language, for example:
             *** escaping the wrath of the [ShowCultureGroupName('iberian_group')] -> уникнути люті #TOOLTIP:CULTUREGROUP,iberian_group,X #L іберійців#!#! NOT '(народи) іберійської групи/культури'; using a simple straightforward translation taking advantage of the freedom that custom tooltip text allows
 
-    * [ShowReligionName('judaism')] -> #TOOLTIP:RELIGION,$judaism_tt$,X #L юдеїв#!#!
-        ** !NOTE that religion specifically uses a special ID form in tooltip - `$judaism_tt$` instead of simple `judaism`
+    * [ShowReligionName('judaism')] -> #TOOLTIP:RELIGION,[GetReligionByKey('judaism').GetID],X #L юдеїв#!#!
+        ** !NOTE that religion requires a "GetReligionByKey" scope getter and ".GetID"
     * [ShowReligionGroupName('muslim')] -> #TOOLTIP:RELIGIONGROUP,muslim,X #L ісламі#!#!
 
     * ShowVegetationName can be adapted with VEGETATION tooltip:
@@ -341,11 +341,11 @@ Tooltips can be used to apply grammatical cases or transform to adjective forms 
         ** [ShowGoodsName('good_name')] -> #TOOLTIP:GOODS,good_name,X #L good name translation#!#!
         ** not enough [ShowGoodsName('silk')] -> бракує #TOOLTIP:GOODS,silk,X #L шовку#!#!
         ** for [ShowGoodsName('goods_gold')] dust, [ShowGoodsName('slaves_goods')], and [ShowGoodsName('ivory')] -> за #TOOLTIP:GOODS,goods_gold,X #L золотий#!#! пісок, #TOOLTIP:GOODS,slaves_goods,X #L невільників#!#! та #TOOLTIP:GOODS,ivory,X #L слонову кістку#!#!
-    * international organizations:
-        ** Some at [ROOT.GetCountry.GetGovernment.GetCourtTitle] marvel at how far the reach of the [GetInternationalOrganization('middle_kingdom').GetName] now extends. -> Дехто при дворі дивується тому, як далеко нині сягає рука #TOOLTIP:INTERNATIONAL_ORGANIZATION,$middle_kingdom_tt$,X #L Серединної Країни#!#!.
-        ** знаходяться в самому серці германської #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської імперії#!#!
-        ** other tributaries of the [GetUniqueInternationalOrganization('tatar_yoke').GetName] -> інші данники, що опинилися під #TOOLTIP:INTERNATIONAL_ORGANIZATION,$tatar_yoke_tt$,X #L татарським ярмом#!#!
-    * DO NOT CONFUSE INTERNATIONAL ORGANIZATION WITH INTERNATIONAL ORGANIZATION TYPES! These are different entities. International organization types are usually declared with "GetInternationalOrganizationType" keyword:  [GetInternationalOrganizationType('grand_alliance').GetName|l]. International organization type tooltip keys do not require a tooltip ID form (not "$<id>_tt$", but simply "<id>"):
+    * international organizations - use a "#TOOLTIP:INTERNATIONAL_ORGANIZATION,[GetUniqueInternationalOrganization('organization_key').GetID]" tooltip. You can apply to "GetUniqueInternationalOrganization" declarations on source side too. You can keep "GetInternationalOrganization" on source side as "[GetInternationalOrganization('middle_kingdom').GetName]" tooltip key, if so declared:
+        ** Some at [ROOT.GetCountry.GetGovernment.GetCourtTitle] marvel at how far the reach of the [GetInternationalOrganization('middle_kingdom').GetName] now extends. -> Дехто при дворі дивується тому, як далеко нині сягає рука #TOOLTIP:INTERNATIONAL_ORGANIZATION,[GetInternationalOrganization('middle_kingdom').GetID],X #L Серединної Країни#!#!.
+        ** знаходяться в самому серці германської #TOOLTIP:INTERNATIONAL_ORGANIZATION,[GetUniqueInternationalOrganization('hre').GetID],X #L Священної Римської імперії#!#!
+        ** other tributaries of the [GetUniqueInternationalOrganization('tatar_yoke').GetName] -> інші данники, що опинилися під #TOOLTIP:INTERNATIONAL_ORGANIZATION,[GetUniqueInternationalOrganization('tatar_yoke').GetID],X #L татарським ярмом#!#!
+    * DO NOT CONFUSE INTERNATIONAL ORGANIZATION WITH INTERNATIONAL ORGANIZATION TYPES! These are different entities. International organization types are usually declared with "GetInternationalOrganizationType" keyword:  [GetInternationalOrganizationType('grand_alliance').GetName|l]. International organization type tooltip keys do not require a dynamic "GetID" form, use type key directly:
         ** Деякі учасники #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,union,X #L унії#!#!
         ** [Concept('international_organization_leader_short', 'очільник')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,japanese_shogunate,X #L Японського Шьоґунату#!#!
         ** організувати #TOOLTIP:INTERNATIONAL_ORGANIZATION_TYPE,crusade,X #L хрестовий похід#!#!
@@ -477,7 +477,7 @@ Common mistakes:
     * It is very common to erroneously represent "-ться" for countries as `.Custom('end_yeyut')]ся`. In this case we can receive faulty "-єся" instead of "-ється". THE ONLY correct way to represent -ється/-ються for countries is through `.Custom('end_yeyu')]ться`. For example:
         ** усе більше схиля[ROOT.GetCountry.Custom('nobles_yeyu')]ться до думки оголосити незалежність
         ** розплачу[GetCountry('DLH').Custom('end_yeyu')]ться за поступку
-        ** [GetCountry('LAT').GetLongName] зобов’язу[GetCountry('LAT').Custom('endlong_yeyu')]ться закріпити привілейований статус місцевих #TOOLTIP:RELIGION,$catholic_tt$,X #L католиків#!#!
+        ** [GetCountry('LAT').GetLongName] зобов’язу[GetCountry('LAT').Custom('endlong_yeyu')]ться закріпити привілейований статус місцевих #TOOLTIP:RELIGION,[GetReligionByKey('catholic').GetID],X #L католиків#!#!
         ** [target_country3.GetLongName] постара[target_country3.Custom('endlong_yeyu')]ться відновити на троні
 
 ## Rank Endings
@@ -488,7 +488,7 @@ Some examples of proper translations:
     * Уже кілька століть [GetCountry('BYZ').GetFlavorRank|l] перебува[GetCountry('BYZ').Custom('endrank_yeyut')] в занепаді
     * [ROOT.GetCountry.GetFlavorRank|l] знову мож[ROOT.GetCountry.Custom('endrank_eut')] дати відсіч ворогам
     * [ROOT.GetCountry.GetFlavorRank|l] виход[ROOT.GetCountry.Custom('endrank_ytyat')] із глухої оборони
-    * Дім [scope_ruler.GetDynasty.GetName] править [ROOT.GetCountry.Custom('longname_ua_INST')] з тих самих пір, як [ROOT.GetCountry.GetFlavorRank|l] зда[ROOT.GetCountry.Custom('endrank_vlaloly')]ся #TOOLTIP:CULTURE,$catalan_tt$,X #L Каталонській#!#! дружині та присягну[ROOT.GetCountry.Custom('endrank_vlaloly')] на вірність [sic_country.Custom('longname_ua_DAT')] у 1311 році.
+    * Дім [scope_ruler.GetDynasty.GetName] править [ROOT.GetCountry.Custom('longname_ua_INST')] з тих самих пір, як [ROOT.GetCountry.GetFlavorRank|l] зда[ROOT.GetCountry.Custom('endrank_vlaloly')]ся #TOOLTIP:CULTURE,[GetCultureByKey('catalan').GetID],X #L Каталонській#!#! дружині та присягну[ROOT.GetCountry.Custom('endrank_vlaloly')] на вірність [sic_country.Custom('longname_ua_DAT')] у 1311 році.
     * Нехай [ROOT.GetCountry.GetFlavorRank] дізна[ROOT.GetCountry.Custom('endrank_yetsayutsa')] про це
 
 
@@ -538,12 +538,12 @@ Dynasty names are normally resolved to nominative plural case, e.g. "Габсб�
     * In the wake of the fall of the Almohads, the [ShowDynastyName('marinid_dynasty')] and [ShowDynastyName('hafsid_dynasty')] both amassed considerable power in the [ShowRegionName('maghreb_region')]. -> Після падіння Альмохадів [ShowDynastyName('marinid_dynasty')] та [ShowDynastyName('hafsid_dynasty')] зосередили у своїх руках значну владу в #TOOLTIP:REGION,maghreb_region,X #L Магрибі#!#!.
     * the recent military campaigns by the [our_ruler.GetDynasty.GetName] -> нещодавні воєнні кампанії, які провели [our_ruler.GetDynasty.GetName]
 
-If a dynasty name is specified, grammatical cases and other forms can be specified with a dynasty custom tooltip: `#TOOLTIP:DYNASTY,$premyslid_dynasty_tt$,X #L Пржемисловичів#!#!`. (Note the special form of id here: `$<dynasty_id>_tt$`.) For example:
-    * але тепер до влади прийшов дім #TOOLTIP:DYNASTY,$luxembourg_dynasty_tt$,X #L Люксембургів#!#!
-    * першого синьйора Мілана з дому #TOOLTIP:DYNASTY,$visconti_dynasty_tt$,X #L Вісконті#!#!
-    * за часів правління дому #TOOLTIP:DYNASTY,$nemanjic_dynasty_tt$,X #L Неманичів#!#!
-    * в дусі #TOOLTIP:DYNASTY,$tughlaq_dynasty_tt$,X #L туглакської#!#! архітектури
-    * [GetCountry('MFA').GetAdjective|l]і #TOOLTIP:DYNASTY,$palaiologos_dynasty_tt$,X #L Палеологи#!#! зберегли відданість своїй #TOOLTIP:CULTURE,$greek_culture_tt$,X #L грецькій#!#! спадщині
+If a dynasty name is specified, grammatical cases and other forms can be specified with a dynasty custom tooltip: `#TOOLTIP:DYNASTY,[GetDynasty('premyslid_dynasty').GetID],X #L Пржемисловичів#!#!`. (Note the special form of id here: `[GetDynasty('dynasty_id').GetID]`.) For example:
+    * але тепер до влади прийшов дім #TOOLTIP:DYNASTY,[GetDynasty('luxembourg_dynasty').GetID],X #L Люксембургів#!#!
+    * першого синьйора Мілана з дому #TOOLTIP:DYNASTY,[GetDynasty('visconti_dynasty').GetID],X #L Вісконті#!#!
+    * за часів правління дому #TOOLTIP:DYNASTY,[GetDynasty('nemanjic_dynasty').GetID],X #L Неманичів#!#!
+    * в дусі #TOOLTIP:DYNASTY,[GetDynasty('tughlaq_dynasty').GetID],X #L туглакської#!#! архітектури
+    * [GetCountry('MFA').GetAdjective|l]і #TOOLTIP:DYNASTY,[GetDynasty('palaiologos_dynasty').GetID],X #L Палеологи#!#! зберегли відданість своїй #TOOLTIP:CULTURE,[GetCultureByKey('greek_culture').GetID],X #L грецькій#!#! спадщині
 
 If a dynasty name is dynamic and a different case is required, either rephrase the sentence to put dynasty name into the nominative, or use a prefix "(правлячий) дім", "правлячий рід" in necessary case. A construct like `дім [ShowDynastyName('hafsid_dynasty')]`, `правлячий рід [ShowDynastyName('premyslid_dynasty')]` are a perfectly acceptable compromise.
 
