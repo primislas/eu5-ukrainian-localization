@@ -97,4 +97,4 @@
  italian_wars.400.desc: "Як ми не намагалися, нам не вдалося зрушити ситуацію з мертвої точки. Схоже, #TOOLTIP:SITUATION,italian_wars,X #L Італійські війни#!#! зайшли в глухий кут. Як країни півострова, так і іноземні загарбники не змогли об'єднати землі регіону та значно розширити свій вплив."
  italian_wars.400.a: "Який сенс продовжувати війну?"
  end_the_italian_wars_stalemate_tt: "Італійські війни зайдуть у глухий кут…"
- non_princes_become_princes_tt: "[Concept('countries', 'Країни')|e] зі статусом «[ShowSpecialStatusName('hre_foreign_league_member')]» стануть [Concept('members', 'учасниками')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,$hre_tt$,X #L Священної Римської Імперії#!#!"
+ non_princes_become_princes_tt: "[Concept('countries', 'Країни')|e] зі статусом «[ShowSpecialStatusName('hre_foreign_league_member')]» стануть [Concept('members', 'учасниками')|e] #TOOLTIP:INTERNATIONAL_ORGANIZATION,[GetUniqueInternationalOrganization('hre').GetID],X #L Священної Римської Імперії#!#!"

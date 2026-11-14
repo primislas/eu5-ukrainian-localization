@@ -52,4 +52,4 @@
  jewish_expulsion_threat.a: "Висунемо ультиматум."
  jewish_expulsion_threat_cooldown_tt: "$sponsor_a_cathedral_cooldown_tt$"
  STATIC_MODIFIER_NAME_jewish_expulsion_threat: "Загроза вигнання"
- jews_may_choose_to_leave_tt: "Більша частина наших [Concept('pops', 'громад')|e], що сповідують #TOOLTIP:RELIGION,$judaism_tt$,X #L юдаїзм#!#!, переселиться до сусідніх [Concept('countries', 'країн')|e]\n\nКожна покинута ними [Concept('location', 'місцевість')|e] отримає модифікатор «[ShowModifier('jewish_expulsion_threat')]», масштабований залежно від частки юдейських [Concept('pops', 'громад')]"
+ jews_may_choose_to_leave_tt: "Більша частина наших [Concept('pops', 'громад')|e], що сповідують #TOOLTIP:RELIGION,[GetReligionByKey('judaism').GetID],X #L юдаїзм#!#!, переселиться до сусідніх [Concept('countries', 'країн')|e]\n\nКожна покинута ними [Concept('location', 'місцевість')|e] отримає модифікатор «[ShowModifier('jewish_expulsion_threat')]», масштабований залежно від частки юдейських [Concept('pops', 'громад')]"

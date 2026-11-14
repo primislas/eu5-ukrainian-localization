@@ -32,6 +32,6 @@
  burhan_al_din_pretenders: "[GetCharacter('ere_burhan_al_din').GetShortNameWithNoTooltip] претендує на владу"
  flavor_ere.6.title: "Кьошк медресе"
  flavor_ere.6.entry: "$flavor_ere.6.title$"
- flavor_ere.6.desc: "Безчасна кончина [ere_suli_scope.GetName] підірвала дух нашого найдорожчого правителя: [ruler_scope.GetName|l] вважає, що звичайних похоронних ритуалів недостатньо для того, щоб належним чином вшанувати її пам'ять.\n\nВидатний #TOOLTIP:CULTURE,$armenian_culture_tt$,X #L вірменський#!#! архітектор [ere_kaluyan_scope.GetName] пропонує побудувати в #TOOLTIP:LOCATION,kayseri,X #L Кайсері#!#! #TOOLTIP:BUILDING_TYPE,madrasa,X #L медресе#!#! нового типу, яке увічнитиме ім'я [ere_suli_scope.GetShortNameWithNoTooltip] у віках."
+ flavor_ere.6.desc: "Безчасна кончина [ere_suli_scope.GetName] підірвала дух нашого найдорожчого правителя: [ruler_scope.GetName|l] вважає, що звичайних похоронних ритуалів недостатньо для того, щоб належним чином вшанувати її пам'ять.\n\nВидатний #TOOLTIP:CULTURE,[GetCultureByKey('armenian_culture').GetID],X #L вірменський#!#! архітектор [ere_kaluyan_scope.GetName] пропонує побудувати в #TOOLTIP:LOCATION,kayseri,X #L Кайсері#!#! #TOOLTIP:BUILDING_TYPE,madrasa,X #L медресе#!#! нового типу, яке увічнитиме ім'я [ere_suli_scope.GetShortNameWithNoTooltip] у віках."
  flavor_ere.6.a: "Наймемо його і побудуємо медресе."
  flavor_ere.6.b: "Нам це не по кишені."

@@ -24,7 +24,7 @@
  cultural_event.6.a: "Ми підтримаємо цей напрямок філософії."
  cultural_event.6.b: "Ні, нам це не по кишені."
  cultural_event.7.title: "[target_location.GetNameWithNoTooltip]: золотий вік живопису"
- cultural_event.7.desc: "Жителі [target_location.Custom('LR_GEN')|l] [target_location.GetName] нещодавно прийняли нову віру — [ROOT.GetCountry.GetReligion.GetName|l]. Сильні гуманістичні настрої, що панують у країні, втім, зберігаються тут і сьогодні та вже заклали основу для відходу від усталених художніх традицій та ідеалів старої #TOOLTIP:RELIGION,$catholic_tt$,X #L католицької#!#! #TOOLTIP:CONTINENT,europe,X #L Європи#!#!. Завдяки величезним доходам від торгівлі, які приносить [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetNameWithNoTooltip], ми зможемо проголосити золотий вік живопису!"
+ cultural_event.7.desc: "Жителі [target_location.Custom('LR_GEN')|l] [target_location.GetName] нещодавно прийняли нову віру — [ROOT.GetCountry.GetReligion.GetName|l]. Сильні гуманістичні настрої, що панують у країні, втім, зберігаються тут і сьогодні та вже заклали основу для відходу від усталених художніх традицій та ідеалів старої #TOOLTIP:RELIGION,[GetReligionByKey('catholic').GetID],X #L католицької#!#! #TOOLTIP:CONTINENT,europe,X #L Європи#!#!. Завдяки величезним доходам від торгівлі, які приносить [target_location.GetRank.GetNameWithNoTooltip|l] [target_location.GetNameWithNoTooltip], ми зможемо проголосити золотий вік живопису!"
  cultural_event.7.a: "Ну звісно! Підтримаємо мистецтво!"
  cultural_event.7.b: "У нас вистачає інших турбот."
  cultural_event.8.title: "$STATIC_MODIFIER_NAME_diwani_script$"

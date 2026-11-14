@@ -7,7 +7,7 @@
  may_adopt_a_different_color: "Ми можемо обрати барвою нашої країни #Y темно-синій#!"
  rustamids_adopt_different_color: "Ми обрали барвою нашої країни #Y темно-синій#!"
  ibadi_events.2.title: "Слабкий імам"
- ibadi_events.2.desc: "[target_estate.GetName|U] невдоволені тим, як править [target_character.GetName], [ShowPolicyName('ibadi_daif_imam_policy')|l]. З владою слабкого імама можна миритися лише в часи кризи, а нині #TOOLTIP:RELIGION,$ibadi_tt$,X #L ібадитам#!#! #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! ніщо не загрожує."
+ ibadi_events.2.desc: "[target_estate.GetName|U] невдоволені тим, як править [target_character.GetName], [ShowPolicyName('ibadi_daif_imam_policy')|l]. З владою слабкого імама можна миритися лише в часи кризи, а нині #TOOLTIP:RELIGION,[GetReligionByKey('ibadi').GetID],X #L ібадитам#!#! #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#! ніщо не загрожує."
  ibadi_events.2.a: "Нам потрібен гідніший провідник."
  ibadi_weak_imam_penalty_tt: "[ShowPolicyName('ibadi_daif_imam_policy')] накладатиме дедалі більші штрафи, доки ми не змінимо [Concept('ruler', 'правителя')|e] та не проголосимо [ShowGenericActionName('return_to_zuhur_imamate')|l]"
  has_penalty_for_weak_imam: "Вимоги більше не виконуються, і почалася [Concept('event', 'подія')|e] #Y «$ibadi_events.2.title$»#!"

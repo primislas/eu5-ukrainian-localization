@@ -146,7 +146,7 @@
  hellenism_religion.1.a: "Ми приймаємо це благословення."
  fertile_ruler_and_family_tt: "[target_character.GetName] та [Concept('consort', 'консорт')|e] стануть [Concept('fertility', 'фертильнішими')|e]"
  hellenism_religion.2.title: "[target_character.GetNameWithNoTooltip], яструб війни"
- hellenism_religion.2.desc: "[target_character.GetName] володіє блискучою тактичною майстерністю та продовжує славні воєнні традиції, закладені засновниками [ROOT.GetCountry.Custom('rank_ua_GEN')|l]. Мало хто може зрівнятися з Одіссеєм, Ясоном чи Аяксом у сміливості, завзятті та винахідливості.\n\n[target_character.GetShortNameWithNoTooltip] — гордий символ нашої прихильності #TOOLTIP:RELIGION,$hellenism_religion_tt$,X #L елліністським#!#! кореням, справжній яструб, що кружляє над полем бою!"
+ hellenism_religion.2.desc: "[target_character.GetName] володіє блискучою тактичною майстерністю та продовжує славні воєнні традиції, закладені засновниками [ROOT.GetCountry.Custom('rank_ua_GEN')|l]. Мало хто може зрівнятися з Одіссеєм, Ясоном чи Аяксом у сміливості, завзятті та винахідливості.\n\n[target_character.GetShortNameWithNoTooltip] — гордий символ нашої прихильності #TOOLTIP:RELIGION,[GetReligionByKey('hellenism_religion').GetID],X #L елліністським#!#! кореням, справжній яструб, що кружляє над полем бою!"
  hellenism_religion.2.a: "[Select_CString(target_character.IsFemale, 'Вона', 'Він')] так і залишиться в тіні?"
  hellenism_religion.2.b: "Нехай [Select_CString(target_character.IsFemale, 'вона', 'він')] викладає в академії!"
  hellenism_religion.3.title: "[target_location.GetNameWithNoTooltip] та меценат-філософ"

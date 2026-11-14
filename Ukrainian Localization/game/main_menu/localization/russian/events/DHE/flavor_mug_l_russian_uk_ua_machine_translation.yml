@@ -6,7 +6,7 @@
  flavor_mug.1.a: "Віра, що об'єднає весь наш народ — чудова ідея."
  flavor_mug.1.b: "[ROOT.GetCountry.GetReligiousSchool.GetNameWithNoTooltip] нічим не гірша. Навіщо відкидати колишні заповіді?"
  flavor_mug.1.b.entry: "Наша школа нічим не гірша. Навіщо відкидати колишні завіти?"
- mug_enable_din_i_ilahi_school_tt: "Доктрина «[ShowReligiousSchoolName('din_i_ilahi_school')]» буде відкрита для всіх #TOOLTIP:RELIGION,$sunni_tt$,X #L сунітських#!#! та #TOOLTIP:RELIGION,$ibadi_tt$,X #L ібадитських#!#! [Concept('countries', 'країн')|e]"
+ mug_enable_din_i_ilahi_school_tt: "Доктрина «[ShowReligiousSchoolName('din_i_ilahi_school')]» буде відкрита для всіх #TOOLTIP:RELIGION,[GetReligionByKey('sunni').GetID],X #L сунітських#!#! та #TOOLTIP:RELIGION,[GetReligionByKey('ibadi').GetID],X #L ібадитських#!#! [Concept('countries', 'країн')|e]"
  flavor_mug.2.title: "Поява порядку [ShowLawNameWithNoTooltip('dahsala_system')|l]"
  flavor_mug.2.entry: "Поява дахсали"
  flavor_mug.2.desc: "Нинішній податковий устрій став надто заплутаним через різні регіональні податки, які ми впровадили після завоювань. Очевидно, нам потрібно реформувати його та зробити більш впорядкованим. [target_character.GetName] хоче створити єдиний порядок під назвою [ShowLawName('dahsala_system')|l]. Він впорядкує збір податків, які сплачу[ROOT.GetCountry.Custom('peasants_yeyut')] [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')|l] з регіонів, що не є #L [ROOT.GetCountry.GetReligion.GetGroup.GetAdjective|l]ими#!, і замінить місцеві закони."
