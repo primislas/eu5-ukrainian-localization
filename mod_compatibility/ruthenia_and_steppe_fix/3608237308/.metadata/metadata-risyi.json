@@ -1,7 +1,7 @@
 ﻿{
   "name": "Русь і Степ",
   "id": "Ruthenia.Steppe.Ukrainersalis",
-  "version": "11.3.2.4",
+  "version": "11.3.5.1",
   "supported_game_version": "1.4.*",
   "short_description": "Патч сумісности між Європа УкраЇнерсаліс V та Ruthenia and Steppe Fix. Перекладає RaSF українською та узгоджує конфліктні файли. Порядок завантаження: Європа УкраЇнерсаліс, Ruthenia and Steppe Fix, Русь і Степ.\n\nМод також умовно підтримує Ruthenia Content Pack. Якщо хочете грати з ним, ставте його першим в порядку завантаження (всі інші поверх нього).",
   "tags": [
