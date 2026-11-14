@@ -17,11 +17,19 @@ if __name__ == "__main__":
         _content = load_eu5_yaml(file)
         _ucontent = {_localization_key: {}}
         for k, v in _content.get(_localization_key, {}).items():
-            if "end_clean" in v:
+            if ".GetKey]" in v:
             # if "'religion'" in v or "_RU_" in v or "_ru_" in k or "_RU_" in k:
             # if "ru_rank_" in v or "RU_rank_" in v or "RU_rn" in v or "ru_rank_" in k or "RU_rank_" in k or "RU_rn" in k:
                 uv = v
                 uk = k
+                uv = uv.replace("sCountry('recipient').GetKey]", "sCountry('recipient').GetID]")
+                uv = uv.replace("sCountry('actor').GetKey]", "sCountry('actor').GetID]")
+                uv = uv.replace("sCountry('target').GetKey]", "sCountry('target').GetID]")
+                uv = uv.replace("GetCountry.GetKey]", "GetCountry.GetID]")
+                uv = uv.replace("COUNTRY.GetKey]", "COUNTRY.GetID]")
+                uv = uv.replace("country.GetKey]", "country.GetID]")
+                uv = uv.replace("Country.GetKey]", "Country.GetID]")
+
 
                 # uv = uv.replace("_ru_", "_ua_")
                 # uv = uv.replace("_RU_", "_UA_")
@@ -44,8 +52,6 @@ if __name__ == "__main__":
                 # uv = uv.replace("Concept('religion', 'Релігію')", "Concept('religion', 'Віру')")
                 # uv = uv.replace("Concept('religion', 'Релігії')", "Concept('religion', 'Віри')")
                 # uv = uv.replace("Concept('religion', 'Релігією')", "Concept('religion', 'Вірою')")
-
-                uv = uv.replace("'end_clean'", "'end_yiaei'")
 
                 # uv = uv.replace("тонке сукно", "коштовні тканини")
                 # uv = uv.replace("тонкого сукна", "коштовних тканин")

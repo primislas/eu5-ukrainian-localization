@@ -68,7 +68,7 @@
  cancel_iberian_wedding_pact_desc_to_unknown: "$cancel_iberian_wedding_pact_desc$"
  cancel_iberian_wedding_pact_happened_title: "Розірвати $diplomatic_status_iberian_wedding_pact_name$"
  cancel_iberian_wedding_pact_happened_desc: "Розірвано $diplomatic_status_iberian_wedding_pact_name$ із країною [SCOPE.sCountry('recipient').GetName]. Наші корони більше не матимуть спільного порядку престолонаслідування."
- cancel_iberian_wedding_pact_proposal_question: "Розірвати $diplomatic_status_iberian_wedding_pact_name$ з #ONCLICK:COUNTRY,[COUNTRY.GetKey] #TOOLTIP:COUNTRY,[COUNTRY.GetKey],X [COUNTRY.Custom('CL_INST')|L]#!#!?\n$INFO$"
+ cancel_iberian_wedding_pact_proposal_question: "Розірвати $diplomatic_status_iberian_wedding_pact_name$ з #ONCLICK:COUNTRY,[COUNTRY.GetID] #TOOLTIP:COUNTRY,[COUNTRY.GetID],X [COUNTRY.Custom('CL_INST')|L]#!#!?\n$INFO$"
  break_iberian_wedding_pact: "$cancel_iberian_wedding_pact$"
  break_iberian_wedding_pact_CATEGORY: "CATEGORY_FRIENDLY_ACTIONS"
  break_iberian_wedding_pact_cta: "$cancel_iberian_wedding_pact_cta$"

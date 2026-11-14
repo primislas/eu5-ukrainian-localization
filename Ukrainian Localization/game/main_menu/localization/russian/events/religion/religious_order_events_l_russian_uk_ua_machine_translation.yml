@@ -45,7 +45,7 @@
  religious_orders.101.a: "Дамо [Select_CString(target_character.IsFemale, 'їй', 'йому')] посаду, гідну [Select_CString(target_character.IsFemale, 'її', 'його')] слави."
  religious_orders.101.b: "[Select_CString(target_character.IsFemale, 'Її', 'Його')] місце на кордоні."
  religious_orders.102.title: "Набіг через кордон"
- religious_orders.102.desc: "[target_order.GetName] без дозволу перейшов кордон #ONCLICK:COUNTRY,[target_country.GetKey] #TOOLTIP:COUNTRY,[target_country.GetKey],X [target_country.Custom('CL_GEN')|L]#!#! і викрав звідти череду худоби. Тепер нам загрожує війна, посланці сусідів уже в дорозі, і скачуть вони зовсім не для того, щоб помолитися."
+ religious_orders.102.desc: "[target_order.GetName] без дозволу перейшов кордон #ONCLICK:COUNTRY,[target_country.GetID] #TOOLTIP:COUNTRY,[target_country.GetID],X [target_country.Custom('CL_GEN')|L]#!#! і викрав звідти череду худоби. Тепер нам загрожує війна, посланці сусідів уже в дорозі, і скачуть вони зовсім не для того, щоб помолитися."
  religious_orders.102.a: "Виплатимо сусідам відшкодування і привселюдно покараємо орден."
  religious_orders.102.b: "Те, що відібрано в невірних, украденим не вважається."
  religious_orders.103.title: "Камінь за каменем"

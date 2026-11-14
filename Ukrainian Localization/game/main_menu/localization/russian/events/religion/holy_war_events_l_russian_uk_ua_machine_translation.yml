@@ -1,10 +1,10 @@
 ﻿l_russian:
  holy_war.1.title: "Заклик до священної війни"
- holy_war.1.desc: "До двору прибули проповідники. Охриплими від шалу віри голосами вони закликають усіх правовірних узятися до зброї та виступити проти #ONCLICK:COUNTRY,[preach_io.GetTarget.GetKey] #TOOLTIP:COUNTRY,[preach_io.GetTarget.GetKey],X [preach_io.GetTarget.Custom('CL_GEN')|L]#!#!. Усі погляди звернені на нас. Чи відповімо ми на заклик?"
+ holy_war.1.desc: "До двору прибули проповідники. Охриплими від шалу віри голосами вони закликають усіх правовірних узятися до зброї та виступити проти #ONCLICK:COUNTRY,[preach_io.GetTarget.GetID] #TOOLTIP:COUNTRY,[preach_io.GetTarget.GetID],X [preach_io.GetTarget.Custom('CL_GEN')|L]#!#!. Усі погляди звернені на нас. Чи відповімо ми на заклик?"
  holy_war.1.a: "Ми станемо до боротьби!"
  holy_war.1.b: "Не цього разу."
  holy_war.2.title: "Збір на священну війну"
- holy_war.2.desc: "До нас із проханням прибули посланці [levy_leader.Custom('longname_ua_GEN')]. Об’єднання «[levy_io.GetName]» веде священну війну проти #ONCLICK:COUNTRY,[levy_io.GetTarget.GetKey] #TOOLTIP:COUNTRY,[levy_io.GetTarget.GetKey],X [levy_io.GetTarget.Custom('CL_GEN')|L]#!#!, і війна ця коштує недешево. Ми їхні брати у вірі, тому нас просять наповнити їхню спустілу скарбницю. Чи готові ми відчинити свою скарбницю заради святої справи?"
+ holy_war.2.desc: "До нас із проханням прибули посланці [levy_leader.Custom('longname_ua_GEN')]. Об’єднання «[levy_io.GetName]» веде священну війну проти #ONCLICK:COUNTRY,[levy_io.GetTarget.GetID] #TOOLTIP:COUNTRY,[levy_io.GetTarget.GetID],X [levy_io.GetTarget.Custom('CL_GEN')|L]#!#!, і війна ця коштує недешево. Ми їхні брати у вірі, тому нас просять наповнити їхню спустілу скарбницю. Чи готові ми відчинити свою скарбницю заради святої справи?"
  holy_war.2.a: "Сплатимо невелику суму."
  holy_war.2.b: "Ми щедро підтримаємо їх коштами."
  holy_war.2.c: "Краще самі приєднаймося до війни."

@@ -1,5 +1,5 @@
 ﻿l_russian:
- french_wars_religion.1.title: "Міжусобні війни за віру у #ONCLICK:COUNTRY,[ROOT.GetCountry.GetKey] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetKey],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#!"
+ french_wars_religion.1.title: "Міжусобні війни за віру у #ONCLICK:COUNTRY,[ROOT.GetCountry.GetID] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetID],X [ROOT.GetCountry.Custom('CL_PREP')|L]#!#!"
  french_wars_religion.1.desc: "Серед населення стрімко поширюються нові течії віросповідання, їхні провідники нахабніють, і багатьох послідовників усталеної віри на теренах [ROOT.GetCountry.Custom('rank_ua_GEN')|l] така ситуація дедалі більше засмучує. На тлі збурення через віру почали спалахувати повстання, тут і там з'явилися напіввійськові товариства, які прагнуть захопити владу в країні.\n\nНе домігшись свого, вони стали вимагати значних свобод і прав, щоб убезпечити своє майбутнє. Тим часом, очільники #L [ROOT.GetCountry.GetReligion.GetAdjective|l]ої#! церкви дедалі наполегливіше вимагають не йти на жодні поступки і зауважують, що якщо [target_character.GetName] відступиться від істинної віри, це може призвести до сплеску насильства."
  french_wars_religion.1.a: "Настають лихі часи."
  fra_lutheran_rebels_explanation_tt: "Проти нас повстануть #TOOLTIP:RELIGION,[GetReligionByKey('lutheran').GetID],X #L лютеранські#!#! [Concept('rebels', 'заколотники')|e]"
