@@ -154,7 +154,7 @@
  AUTO_MODIFIER_NAME_num_of_advances_researched: "Досліджені [Concept('advances', 'поступи')|e]"
  AUTO_MODIFIER_DESC_AUTO_MODIFIER_NAME_num_advances_impact: "Загальна кількість досліджених [Concept('country', 'країною')|e] [Concept('advances', 'поступів')|e]."
  AUTO_MODIFIER_NAME_court_and_country_modifier: "[Concept('disaster', 'Лихо')|e] #TOOLTIP:DISASTER_TYPE,court_and_country,X #L «Країна і двір»#!#!"
- AUTO_MODIFIER_DESC_court_and_country_modifier: "Завдяки успішному подоланню [Concept('disaster', 'лиха')|e] #TOOLTIP:DISASTER_TYPE,court_and_country,X #L «Держава і двір»#!#! наша [Concept('crown_power', 'влада правителів')|e] зросте."
+ AUTO_MODIFIER_DESC_court_and_country_modifier: "Завдяки успішному подоланню [Concept('disaster', 'лиха')|e] #TOOLTIP:DISASTER_TYPE,court_and_country,X #L «Держава і двір»#!#! наша [Concept('crown_power', 'влада правителя')|e] зросте."
  AUTO_MODIFIER_NAME_international_organization_base_values: "Базове значення для кожного [Concept('international_organization', 'міжнародного об’єднання')|e]"
  AUTO_MODIFIER_NAME_dynasty_base_values: "Базове значення для кожної [Concept('dynasty', 'династії')|e]"
  AUTO_MODIFIER_NAME_in_regency: "[Concept('regency', 'Регентство')|e]"

@@ -55,7 +55,7 @@
  flavor_cas.9.desc: "За останні роки наше право на владу було неабияк підірвано, і зараз наша влада над #ONCLICK:COUNTRY,[ROOT.GetCountry.GetID] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetID],X [ROOT.GetCountry.Custom('CL_INST')|L]#!#! цілком залежить від схвалення станів. Знаючи про нашу слабкість, обрані делегати від усіх станів представили нам проєкт Конституції. Згідно з цим документом, стани зобов'язуються підтримувати наше правління, але влада правителя при цьому буде серйозно обмежена."
  flavor_cas.9.a: "Вибору у нас немає, доведеться піти їм назустріч."
  flavor_cas.9.b: "[ROOT.GetCountry.GetGovernment.GetRulerTitle|U] [Select_CString(ROOT.GetCountry.GetGovernment.GetRuler.IsFemale,'повинна', 'повинен')] володіти абсолютною владою!"
- flavor_cas.9.b.entry: "Влада правителів має бути абсолютною!"
+ flavor_cas.9.b.entry: "Влада правителя має бути абсолютною!"
  flavor_cas.10.title: "[target_artist.GetNameWithNoTooltip]"
  flavor_cas.10.entry: "Мігель де Сервантес"
  flavor_cas.10.desc: "Залишивши воїнське ремесло, [target_artist.GetName] присвятив себе літературній кар'єрі. Його роман #italic «Хитромудрий ідальго Дон Кіхот Ламанчський»#! вийшов зовсім недавно, але вже приніс автору всенародне визнання та лаври провідного письменника #ONCLICK:COUNTRY,[ROOT.GetCountry.GetID] #TOOLTIP:COUNTRY,[ROOT.GetCountry.GetID],X [ROOT.GetCountry.Custom('CL_GEN')|L]#!#!. Він здатен написати ще багато творів, приречених стати класикою #L [ROOT.GetCountry.GetCulture.GetLanguage.GetName|l]ої#! літератури — за умови, що [target_character.GetNameWithNoTooltip] надасть покровительство успішному письменнику."

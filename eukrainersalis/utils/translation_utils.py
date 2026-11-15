@@ -1,5 +1,4 @@
 import json
-import os
 from dataclasses import dataclass, field
 from enum import StrEnum
 from pathlib import Path
@@ -72,6 +71,9 @@ class LocFile:
 
     def set_localization(self, localization: dict[str, str]):
         self.content[self._get_lang_key()] = localization
+
+    def get_localization_value(self, loc_key: str) -> str | None:
+        return self.get_localization().get(loc_key)
 
     def set_localization_value(self, loc_key: str, loc_value: str):
         localization = self.get_localization()

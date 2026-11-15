@@ -22,7 +22,8 @@ from eukrainersalis.utils.translation_utils import Language, LocFile, split_into
 from eukrainersalis.utils.yaml_utils import load_eu5_yaml
 
 _INSTRUCTION_PACKAGE = "eukrainersalis.resources.instructions"
-_INSTRUCTION_SKILL_REL_PATH = "skills/refinement"
+_INSTRUCTION_SKILL_REL_PATH = "skills"
+_INSTRUCTION_REFINEMENT_SKILL_REL_PATH = "skills/refinement"
 _INSTRUCTION_ROLE_FILE = "role"
 _INSTRUCTION_ROLE_EN_UA_FILE = "role_en_ua"
 _UA_PATTERN: Pattern[str] = re.compile(r"[а-яєїґ«’]")
@@ -40,9 +41,14 @@ _ENGLISH_TRANSLATION_ACCEPTABLE_PHRASES = {
 DetectorFactory.seed = 0
 
 
-def _get_refinement_skill_file(file_name_without_extension: str) -> Traversable:
+def get_skill_file(file_name_without_extension: str) -> Traversable:
     return resources.files(_INSTRUCTION_PACKAGE).joinpath(
         f"{_INSTRUCTION_SKILL_REL_PATH}/{file_name_without_extension}.txt")
+
+
+def get_refinement_skill_file(file_name_without_extension: str) -> Traversable:
+    return resources.files(_INSTRUCTION_PACKAGE).joinpath(
+        f"{_INSTRUCTION_REFINEMENT_SKILL_REL_PATH}/{file_name_without_extension}.txt")
 
 
 def select_none(_: str) -> bool:
@@ -184,8 +190,8 @@ class RefinementSkill(StrEnum):
             # return role + "<task_instructions>\n" + skill_task + "\n</task_instructions>"
             return system_instructions_ru_ua_file_path.read_text()
 
-        role = _get_refinement_skill_file(_INSTRUCTION_ROLE_FILE).read_text()
-        skill_task = _get_refinement_skill_file(self).read_text()
+        role = get_refinement_skill_file(_INSTRUCTION_ROLE_FILE).read_text()
+        skill_task = get_refinement_skill_file(self).read_text()
         return role + "<task_instructions>\n" + skill_task + "\n</task_instructions>"
 
 

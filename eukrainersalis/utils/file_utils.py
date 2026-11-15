@@ -5,7 +5,8 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 from eukrainersalis.utils.log_utils import logger
-from eukrainersalis.utils.translation_utils import Language
+from eukrainersalis.utils.translation_utils import Language, LocFile
+from eukrainersalis.utils.yaml_utils import write_eu5_localization_yaml, load_eu5_yaml
 
 load_dotenv()
 
@@ -36,6 +37,8 @@ system_instructions_ru_ua_file_path = instructions_dir / "ru_ua.txt"
 skill_instructions_dir = instructions_dir / "skills"
 refinement_instructions_dir = skill_instructions_dir / "refinement"
 
+migrations_dir = project_dir / "migrations"
+key_lookup_file_path = migrations_dir / f"key_lookup-{os.getenv('MIGRATION_TO', 'default')}.yml"
 game_dir = translation_dir / "game"
 main_menu_dir = game_dir / "main_menu"
 localization_dir = main_menu_dir / "localization"
@@ -64,6 +67,28 @@ rasf_local_game_mod_dir = mod_dir.parent / "RaSF-Ukrainersalis-Compatibility"
 
 
 _EMPTY_LIST = []
+
+
+def create_key_file_lookup() -> dict[str, str]:
+    lookup = {}
+    for file_path in list_localization_files(Language.UK_UA_MACHINE_TRANSLATION):
+        file_path = Path(file_path)
+        rel_path = file_path.relative_to(translation_dir)
+        rel_path_lookup_value = str(rel_path).replace(Language.UK_UA_MACHINE_TRANSLATION.file_suffix, "").replace(".yml", "")
+        for loc_key in LocFile(file_path).load().get_localization().keys():
+            if loc_key in lookup:
+                logger.warning(f"Duplicate key {loc_key} found in: {lookup[loc_key]}, {rel_path_lookup_value}")
+            lookup[loc_key] = rel_path_lookup_value
+
+    write_eu5_localization_yaml(lookup, key_lookup_file_path)
+    return lookup
+
+
+def get_key_file_lookup() -> dict[str, str]:
+    if not key_lookup_file_path.exists():
+        return create_key_file_lookup()
+    else:
+        return load_eu5_yaml(key_lookup_file_path)
 
 
 def list_localization_files(languages: Language | str | list[Language | str] | None = None, source_dir: Path = translation_dir) -> list[str]:
