@@ -3124,7 +3124,7 @@
  PARLIAMENT_BASE_SUPPORT_TT_TITLE: "Базова підтримка зборів на теренах #ONCLICK:COUNTRY,[Country.GetID] #TOOLTIP:COUNTRY,[Country.GetID],X [Country.Custom('CL_GEN')|L]#!#!"
  PARLIAMENT_SUPPORT: "Підтримка зборів"
  PARLIAMENT_SUPPORT_TT: "#T Підтримка на зборах#!\nЗараз нас підтримують [GovernmentView.GetPlayer.GetGovernment.GetParliament.GetParliamentIssueSupport|2%G] членів [GovernmentView.GetPlayer.Custom('parliament_ua_GEN')|l]."
- IO_PARLIAMENT_SUPPORT_BIG_TT: "#T Підтримка на зборах#!\nЗараз обговорюється питання «[InternationalOrganizationsView.GetInternationalOrganization.GetParliament.GetCurrentDebateName]». Нас підтримують [InternationalOrganizationsView.GetInternationalOrganization.GetParliament.GetParliamentIssueSupport|2%G] членів [InternationalOrganizationsView.GetInternationalOrganization.GetParliament.Custom('parliament_ua_GEN')|l]."
+ IO_PARLIAMENT_SUPPORT_BIG_TT: "#T Підтримка на зборах#!\nЗараз обговорюється питання «[InternationalOrganizationsView.GetInternationalOrganization.GetParliament.GetCurrentDebateName]». Нас підтримують [InternationalOrganizationsView.GetInternationalOrganization.GetParliament.GetParliamentIssueSupport|2%G] членів [InternationalOrganizationsView.GetInternationalOrganization.Custom('parliament_io_ua_PREP')|l]."
  ELECTION_CANDIDATES: "Кандидати на виборах"
  POLICY_TRIGGER_START: "Політика «[POLICY.GetNameWithNoTooltip]» доступна, тільки якщо виконуються наступні умови:"
  CABINET_INFLUENCING: "Вплив [Concept('cabinet', 'ради')|e]"
