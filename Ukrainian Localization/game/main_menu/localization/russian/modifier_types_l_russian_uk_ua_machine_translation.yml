@@ -553,7 +553,7 @@
  MODIFIER_TYPE_DESC_artillery_bonus_vs_fort: "Впливає на перевагу, яку #TOOLTIP:UNITCATEGORY,army_artillery,X #L гармати#!#! надають під час [Concept('siege', 'облоги')|e]."
  MODIFIER_TYPE_NAME_research_speed: "Дослідницькі напрацювання на місяць"
  MODIFIER_TYPE_DESC_research_speed: "Впливає на об’єм [Concept('research_progress', 'дослідницьких напрацювань')|e] в [Concept('country', 'країні')|e]."
- MODIFIER_TYPE_NAME_research_speed_modifier: "Поступ дослідження на місяць, %"
+ MODIFIER_TYPE_NAME_research_speed_modifier: "Дослідження на місяць, %"
  MODIFIER_TYPE_DESC_research_speed_modifier: "Впливає на об’єм [Concept('research_progress', 'дослідницьких напрацювань')|e] в [Concept('country', 'країні')|e]."
  MODIFIER_TYPE_NAME_global_monthly_literacy: "Грамотність на місяць"
  MODIFIER_TYPE_DESC_global_monthly_literacy: "Впливає на зміну [Concept('literacy', 'грамотности')|e] [Concept('pops', 'громад')|e] в [Concept('country', 'країні')|e]."
