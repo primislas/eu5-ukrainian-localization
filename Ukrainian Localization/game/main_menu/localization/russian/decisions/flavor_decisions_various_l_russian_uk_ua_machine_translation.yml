@@ -40,6 +40,7 @@
  por_casa_de_india_decision.title: "Каза-да-Індія"
  por_casa_de_india_decision.desc: "Нам необхідно налагодити справне врядування #L [ROOT.GetCountry.GetAdjective|l]ими#! володіннями в #TOOLTIP:SUB_CONTINENT,india,X #L Індії#!#! та #TOOLTIP:CONTINENT,africa,X #L Африці#!#!. Радники пропонують створити для цього окрему установу, яка забезпечуватиме наш контроль над торгівлею в цих регіонах і підпорядковуватиметься безпосередньо [ROOT.GetCountry.GetGovernment.GetAdjective|l]ій скарбниці."
  por_casa_de_india_decision.desc.entry: "За торгівлею, що ведеться по всій Індії та #TOOLTIP:CONTINENT,africa,X #L Африці#!#!, ніхто до пуття не стежить. Якщо передати її одній установі при скарбникові й надати їй монополію на найважливіші товари, усе можна буде звести до однієї спільної книги."
+ por_casa_de_india_decision.subject_tt: "Any [subject|e] owns a [town_or_city|e] in [ShowSubContinentName('south_asia')]"
  por_casa_de_india_decision.a: "Цікавий задум."
  por_casa_de_india_decision.a.tt: "Відкриває доступ до [Concept('government_reform', 'державної реформи')|e] #TOOLTIP:GOVERNMENT_REFORM,por_casa_de_india,X #L «Каза да Індія»#!#!"
  hol_ned_shipbuilding_decision.title: "Флейт"

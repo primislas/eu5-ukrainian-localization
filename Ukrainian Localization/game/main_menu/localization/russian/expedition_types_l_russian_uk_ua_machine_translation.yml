@@ -160,6 +160,7 @@
  EXPEDITION_TT_TYPE_CONCEPT: "[Concept('expedition', 'Виправа')|E] #TOOLTIP:GAME_CONCEPT,expedition #E [ExpeditionType.GetCategoryName]#!#!"
  EXPEDITION_TT_JOURNEY_HEADER: "Виправа"
  EXPEDITION_TT_LEADER: "Очільник: [CHARACTER.GetName]"
+ EXPEDITION_TT_LEADER_REQUIREMENTS: "The leader must meet these requirements:"
  EXPEDITION_TT_CURRENT_LOCATION: "Поточне розташування: [LOCATION.GetName]"
  EXPEDITION_TT_CURRENT_LOCATION_UNKNOWN: "Поточне місцезнаходження: ???"
  EXPEDITION_TT_FINAL_DESTINATION: "Місце призначення: [LOCATION.GetName]"

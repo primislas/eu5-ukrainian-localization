@@ -1,8 +1,6 @@
 ﻿l_russian:
  local_governor_tt: "Сукупна кількість #TOOLTIP:BUILDING_TYPE,local_governor,X #L палаців намісників#!#! та #TOOLTIP:BUILDING_TYPE,lieutenancy,X #L лейтенантств#!#! [SCOPE.sCountry('actor').Custom('preposition_uv')] [SCOPE.sCountry('actor').Custom('CL_PREP')] менша за [SCOPE.sCountry('actor').GetModifierValue('num_local_governors')] (кількість палаців намісників: [SCOPE.sCountry('actor').GetTotalBuildingLevelsIncudingUnderConstruction('local_governor')|V], кількість лейтенантств: [SCOPE.sCountry('actor').GetTotalBuildingLevelsIncudingUnderConstruction('lieutenancy')|V])"
  lieutenancy_tt: "Якщо сукупне число #TOOLTIP:BUILDING_TYPE,local_governor,X #L палаців намісників#!#! та #TOOLTIP:BUILDING_TYPE,lieutenancy,X #L лейтенантств#!#! [SCOPE.sCountry('actor').Custom('preposition_uv')] [SCOPE.sCountry('actor').Custom('CL_PREP')] менше [SCOPE.sCountry('actor').GetModifierValue('num_local_governors')] (палаци намісників: [SCOPE.sCountry('actor').GetTotalBuildingLevelsIncudingUnderConstruction('local_governor')|V], лейтенантства: [SCOPE.sCountry('actor').GetTotalBuildingLevelsIncudingUnderConstruction('lieutenancy')|V])."
- local_governor_dlc_tt: "Кількість #TOOLTIP:BUILDING_TYPE,local_governor,X #L палаців намісника#!#! [SCOPE.sCountry('actor').Custom('preposition_uv')] [SCOPE.sCountry('actor').Custom('CL_PREP')] менша за [SCOPE.sCountry('actor').GetModifierValue('num_local_governors')] (зараз: [SCOPE.sCountry('actor').GetTotalBuildingLevelsIncudingUnderConstruction('local_governor')|V])"
- lieutenancy_dlc_tt: "Кількість #TOOLTIP:BUILDING_TYPE,lieutenancy,X #L лейтенантств#!#! [SCOPE.sCountry('actor').Custom('preposition_uv')] [SCOPE.sCountry('actor').Custom('CL_PREP')] менша за [SCOPE.sCountry('actor').GetModifierValue('num_lieutenancy')] (зараз: [SCOPE.sCountry('actor').GetTotalBuildingLevelsIncudingUnderConstruction('lieutenancy')|V])"
  no_naval_governor_tt: "Можна побудувати хоча б один #TOOLTIP:BUILDING_TYPE,naval_governor,X #L будинок морського намісника#!#!"
  naval_governor_tt: "Якщо кількість #TOOLTIP:BUILDING_TYPE,naval_governor,X #L палаців морських намісників#!#! [SCOPE.sCountry('actor').Custom('preposition_uv')] [SCOPE.sCountry('actor').Custom('CL_PREP')] менша за [SCOPE.sCountry('actor').GetModifierValue('num_naval_governors')] (зараз: [SCOPE.sCountry('actor').GetTotalBuildingLevelsIncudingUnderConstruction('naval_governor')|V])."
  no_local_bailiff_tt: "Можна побудувати хоча б одну #TOOLTIP:BUILDING_TYPE,bailiff,X #L управу#!#!"
@@ -576,6 +574,7 @@
  kings_manor: "Королівський маєток"
  kings_manor_desc: "Це осередок урядування, де вирішуються судові справи. Використовується Радою Півночі."
  kings_manor_why: "Можна побудувати тільки в місцевості [ShowLocationName('york')] після заснування Ради Півночі."
+ kings_manor_cannot_destroy_tt: "The Council of the North has not been established"
  calmecac: "Кальмекак"
  calmecac_desc: "#italic Кальмекак#! — це школа для дітей знаті, де глибоко вивчаються історія, божественні таїнства, військова справа та інші науки. Ця установа поруч із Великим храмом у місті [ShowLocationName('tenochtitlan')] відіграє головну роль в освіті майбутніх жерців. Молоді селяни навчаються в #italic тельпочкаллі#!, а майбутні знатні очільники проходять навчання в #italic кальмекаках#!, часто під опікою військових орденів."
  telpochcalli: "Тельпочкаллі"

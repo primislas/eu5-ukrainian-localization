@@ -817,6 +817,8 @@
  cancel_enforced_tariff_exemption_desc_to_unknown: "Це дозволить нам знову стягувати [Concept('tariffs', 'мита')|e] з їхніх купців."
  cancel_enforced_tariff_exemption_happened_title: "Примусове звільнення від мита скасовано"
  cancel_enforced_tariff_exemption_happened_desc: "[SCOPE.sCountry('recipient').GetName] більше не ма[SCOPE.sCountry('recipient').Custom('end_yeyut')] звільнення від сплати [Concept('tariffs', 'мит')|e] на [SCOPE.sCountry('actor').GetAdjective|l]их ринках."
+ offer_enforced_tariff_exemption_happened_title: "Enforced Tariff Exemption Imposed"
+ offer_enforced_tariff_exemption_happened_desc: "By peace treaty, [SCOPE.sCountry('recipient').GetName] are exempt from paying [tariffs|e] in [SCOPE.sCountry('actor').GetAdjective] markets."
  cancel_enforced_tariff_exemption_proposal_question: "Скасувати примусове звільнення від мита, яке ма[TARGET_COUNTRY.Custom('end_yeyut')] [TARGET_COUNTRY.GetName]?\n$INFO$"
  enforced_tariff_exemption_effect_text: "[SCOPE.sCountry('actor').GetName] отриму[SCOPE.sCountry('actor').Custom('end_yeyut')] звільнення від [Concept('tariffs', 'мит')|e] у [SCOPE.sCountry('recipient').Custom('longname_ua_PREP')]"
  enforced_tariff_exemption_effect_text_past: "[SCOPE.sCountry('actor').GetName] отрима[SCOPE.sCountry('actor').Custom('end_vlaloly')] звільнення від [Concept('tariffs', 'мит')|e] у [SCOPE.sCountry('recipient').Custom('longname_ua_PREP')]"

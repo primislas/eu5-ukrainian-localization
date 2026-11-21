@@ -157,6 +157,7 @@
  DURATION_NO_DATE: "$DURATION$"
  DURATION_NO_DATE_RANGE: "від $DURATION_MIN$ до $DURATION_MAX$"
  CURRENT_DATE: "[GetDateString]"
+ TOPBAR_DATE_HOUR: "$HOUR$, $DATE$"
  CURRENT_DATE_TOOLTIP: "Поточна дата: [GetDateString]"
  PASSED_SCRIPTED_TESTS: "Усі тести ($TOTAL$) успішно виконано."
  FAILED_SCRIPTED_TESTS: "Не вдалося пройти $FAILED$ з $TOTAL$ тестів. Подробиці наведено в журналі помилок."
