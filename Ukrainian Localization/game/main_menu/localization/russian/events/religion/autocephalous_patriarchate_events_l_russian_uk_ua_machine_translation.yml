@@ -10,7 +10,7 @@
  autocephalous_patriarchates.1.c: "Тепер ми самі вестимемо справи з патріархом."
  every_member_of_scopeloser_ap_loses_opinion_of_scopewinner_tt: "Всі учасники патріархату «[target_ap.GetName]» отримають [ShowBiasValue('destroyed_my_autocephalous_patriarchate')|+=0] до думки про нас"
  every_member_of_winner_ap_gains_opinion_of_scopewinner_tt: "Кожен учасник патріархату «[target_winner_ap.GetName]» отримає [ShowBiasValue('destroyed_another_autocephalous_patriarchate')|+=0] до думки про нас"
- autocephalous_patriarchates_no_successor_tt: "No other member of the [target_ap.GetName] can take over its leadership, so it will dissolve anyway"
+ autocephalous_patriarchates_no_successor_tt: "Жоден інший учасник об’єднання [target_ap.GetName] не може перебрати на себе провід, тому воно однаково розпадеться"
  autocephalous_patriarchates.2.title: "Автокефальний патріархат пав!"
  autocephalous_patriarchates.2.desc: "$ap_falls_desc_key$ $ap_falls_desc_key_2$"
  autocephalous_patriarchates.2.desc_diplomatic: "$ap_diplomatic_desc_key$ питання віри покладено на нас. $ap_falls_desc_key_2$"

@@ -7,7 +7,7 @@
  loan_icon_choose_icon: "Оберіть #TOOLTIP:WORK_OF_ART_TYPE,icon,X #L ікону#!#! для передачі в оренду"
  not_already_receiving_icon_tt: "У них не повинно бути раніше позиченої #TOOLTIP:WORK_OF_ART_TYPE,icon,X #L ікони#!#!"
  icon_not_already_loaned_tt: "Ця [ShowWorkOfArtTypeName('icon')|l] наразі не повинна бути позичена в іншої [Concept('country', 'країни')|e]"
- icon_loan_pending_tt: "We must not already have an offer to lend one of our [works_of_art|e] awaiting an answer"
+ icon_loan_pending_tt: "У нас не повинно бути пропозиції позичити одну із наших [Concept('works_of_art', 'ікон')|e], яка очікує на відповідь"
  mend_schism: "Подолати розкол"
  mend_schism_desc: "Ось уже багато століть #TOOLTIP:RELIGIONGROUP,christian,X #L християнство#!#! перебуває в розколі. Тепер же, коли всі катедри пентархії перебувають під нашим контролем, ми повинні скористатися своїм впливом, щоб загоїти ці рани та примирити церкви."
  restore_rome_primacy: "Повернення столиці до Риму"

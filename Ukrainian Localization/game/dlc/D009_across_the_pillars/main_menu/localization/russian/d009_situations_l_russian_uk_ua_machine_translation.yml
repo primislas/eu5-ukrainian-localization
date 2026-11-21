@@ -66,7 +66,7 @@
  until_we_cease_our_patronship_tt: "$until_we_cease_our_projection_efforts_tt$"
  action_active: "[Concept('action', 'Дія')|e] виконується"
  unlock_patronize_shadhili_order_tt: "Відкриває доступ до [Concept('action', 'дії')|e] «[ShowGenericActionName('gra_patronize_shadhili_order')]» у [Concept('situation', 'ситуації')|e] «[ShowSituationName('battle_for_the_strait')]»"
- gra_shadhili_order_unlocked_via_event_tt: "We have unlocked this [action|e] via an [event|e] during the [ShowSituationName('battle_for_the_strait')] [situation|e]"
+ gra_shadhili_order_unlocked_via_event_tt: "Ми відкрили цю [Concept('action', 'дію')|e] завдяки [Concept('event', 'події')|e] під час [Concept('situation', 'ситуації')|e] «#TOOLTIP:SITUATION,battle_for_the_strait,X #L Битва за протоку#!#!»"
  hire_granadan_jinetes: "Найняти гранадських хінетів"
  hire_granadan_jinetes_desc: "#TOOLTIP:CULTURE,[GetCultureByKey('andalusi').GetID],X #L Андалуські#!#! шляхтичі, мешканці порубіжних #italic кампо#!, чиї короткі мечі й гострі дротики сформували подобу кінноти всіх сусідніх країн, непокояться, бачачи, що наближається [ShowSituationName('battle_for_the_strait')]. Приготувавши калитки зі сріблом, ми зможемо залучити до столиці цих вершників, які знають кожен рів і кожну вартову вежу від #TOOLTIP:LOCATION,cordoba,X #L Кордови#!#! до #TOOLTIP:LOCATION,almeria,X #L Альмерії#!#!."
  hire_granadan_jinetes_traditional_tt: "Ми зберемо у [Concept('capital', 'столиці')|e] 2 загони таких вояків: [ShowUnitDefinitionName('a_granadan_jinetes')]"

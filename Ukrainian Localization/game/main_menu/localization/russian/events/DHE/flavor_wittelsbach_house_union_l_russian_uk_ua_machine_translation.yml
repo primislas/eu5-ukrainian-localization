@@ -34,5 +34,5 @@
  flavor_wittelsbach_house_union.6.desc: "Крихка рівновага сил у #TOOLTIP:INTERNATIONAL_ORGANIZATION,[GetUniqueInternationalOrganization('hre').GetID],X #L Священній Римській Імперії#!#! змінилася. [bavaria_country.GetName], де править гілка дому [palatine_ruler.GetDynasty], віднині повністю підкоряється #ONCLICK:COUNTRY,[palatine_country.GetID] #TOOLTIP:COUNTRY,[palatine_country.GetID],X [palatine_country.Custom('CL_DAT')|L]#!#!. Такий несподіваний переворот викликає серйозне питання: хто представлятиме династію [palatine_ruler.GetDynasty] в імперії? Оскільки [bavaria_country.GetName] сьогодні існує під [palatine_country.GetAdjectiveWithNoTooltip|l]ою владою, титул #TOOLTIP:SPECIAL_STATUS,elector,X #L князя-виборця#!#! було вирішено передати #ONCLICK:COUNTRY,[bavaria_country.GetID] #TOOLTIP:COUNTRY,[bavaria_country.GetID],X [bavaria_country.Custom('CL_DAT')|L]#!#!."
  flavor_wittelsbach_house_union.6.a: "Нехай [palatine_country.GetNameWithNoTooltip] займе належну за правом посаду #TOOLTIP:SPECIAL_STATUS,elector,X #L виборця#!#!."
  flavor_wittelsbach_house_union.6.a.entry: "Нехай Пфальц по праву займе посаду князя-виборця."
- variable_tt_wittelsbach_treaty_pavia_yes: "The Treaty of [ShowLocationName('pavia')] is signed"
- variable_tt_wittelsbach_treaty_pavia_undecided: "The Treaty of [ShowLocationName('pavia')] has not been signed"
+ variable_tt_wittelsbach_treaty_pavia_yes: "Підписано угоду #TOOLTIP:LOCATION,pavia,X #L Павії#!#!"
+ variable_tt_wittelsbach_treaty_pavia_undecided: "Угоду #TOOLTIP:LOCATION,pavia,X #L Павії#!#! ще не підписано"

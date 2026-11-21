@@ -13,7 +13,7 @@
  TOOLTIP_DEBUG_DYNASTY_ID: "#D debug: ID: $ID$#!"
  TOOLTIP_DEBUG_ESTATE_DIALECT: "#D debug: [Concept('dialect', 'діалект')|e] = #L [DIALECT.GetName|l]ий#!#!"
  TOOLTIP_DEBUG_CONTENT_PRIORITY: "Пріоритет вмісту: $PRIORITY|l$"
- TOOLTIP_DEBUG_IS_CONTENT_HIGHLIGHTED: "Content Highlighted: $HIGHLIGHTED$"
+ TOOLTIP_DEBUG_IS_CONTENT_HIGHLIGHTED: "Вміст виділено: $HIGHLIGHTED$"
  TOOLTIP_DEBUG_SUBUNIT_UNIFORMITY: "#D налагодження: однорідність = $SUBUNIT_UNIFORMITY$#!"
  johan.1.title: "назва події"
  johan.1.desc: "[ShowSpecialStatusName('archbishop_elector')] [ShowPaymentName('imperial_contribution')] [ShowParliamentTypeName('estate_parliament')]"

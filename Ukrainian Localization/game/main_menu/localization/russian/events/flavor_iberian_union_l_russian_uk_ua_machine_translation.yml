@@ -28,4 +28,4 @@
  flavor_iberian_union.7.a: "Ця зневага не лишиться без відповіді."
  iu_marriage_may_form_union_tt: "Це може призвести до утворення [Concept('union', 'унії')|e]."
  iu_spurned_will_be_displeased_tt: "Рід [iu_spurned.GetName] може погано сприйняти те, що для цього шлюбу обрали не їх."
- iu_wedding_declined_cooldown_tt: "We will not seek a similar marriage match for a while"
+ iu_wedding_declined_cooldown_tt: "Якийсь час ми не шукатимемо подібного шлюбного союзу"

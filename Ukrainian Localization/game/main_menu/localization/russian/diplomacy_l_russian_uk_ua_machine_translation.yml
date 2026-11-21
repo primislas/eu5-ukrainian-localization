@@ -802,7 +802,7 @@
  DIPLOREASON_NUM_OF_LOANS: "Кількість  [Concept('loan', 'позик')|e]"
  DIPLOREASON_CANT_AFFORD_INTEREST: "Не може дозволити собі [Concept('interest', 'лихву')|e]"
  DIPLOREASON_NEED_LOAN: "Потреба в [Concept('loan', 'позиках')|e]"
- DIPLOREASON_NO_NEED_FOR_LOAN: "No need for a [loan|e]"
+ DIPLOREASON_NO_NEED_FOR_LOAN: "Немає потреби в [Concept('loan', 'позиці')|e]"
  DIPLOREASON_LOAN_IS_INSIGNIFICANT: "Країна [TARGET_COUNTRY.GetName] вважає цю [Concept('loan', 'позику')|e] незначною"
  DIPLOREASON_LOAN_ENDS_TOO_SOON: "Занадто короткострокова [Concept('loan', 'позика')|e]"
  DIPLOREASON_LOAN_TOTAL_INTEREST_IS_TOO_MUCH: "Занадто великі виплати [Concept('interest', 'лихви')|e]"

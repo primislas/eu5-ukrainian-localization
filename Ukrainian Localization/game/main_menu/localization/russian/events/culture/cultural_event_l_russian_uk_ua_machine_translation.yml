@@ -58,4 +58,4 @@
  cultural_event.15.desc: "Зусиллями [unifying_country.Custom('longname_ua_GEN')] #L [merged_group.GetName|l]і#! народи згуртувалися й стали єдиним #L [new_merged_culture.GetName|l]им#! людом. Сьогодні ми приймаємо їхніх послів — ті закликають нас забути про колишні розбіжності та піти разом із ними новим, уже #L [new_merged_culture.GetName|l]им#! шляхом, щоби нас єднала спільна доля. Втім, зректися імені та спадщини своїх пращурів буде нелегко."
  cultural_event.15.a: "Ми станемо частиною #L [new_merged_culture.GetName|l]ого#! люду."
  cultural_event.15.b: "Ми лишимося вірними собі."
- cultural_event_15_assimilation_tt: "Some of our [pops|e] from the [merged_group.GetName] cultures will become [new_merged_culture.GetName]"
+ cultural_event_15_assimilation_tt: "Деякі наші [Concept('pops', 'громади')|e] [merged_group.GetName|l]их культур стануть [new_merged_culture.GetName|l]ими"
