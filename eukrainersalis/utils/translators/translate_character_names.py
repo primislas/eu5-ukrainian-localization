@@ -1,5 +1,4 @@
 import asyncio
-from pathlib import Path
 
 from eukrainersalis.translators.gemini_translator import GeminiTranslator, YAMLTranslatorEncoder
 from eukrainersalis.utils.file_utils import translation_dir, get_key_file_lookup, project_dir

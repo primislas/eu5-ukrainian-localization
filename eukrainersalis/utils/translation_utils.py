@@ -82,6 +82,16 @@ class LocFile:
         if loc_key not in self.processed_keys:
             self.processed_keys.append(loc_key)
 
+    def reorder_keys_by(self, source_localization: dict[str, str], carry_over_missing_keys: bool = True) -> "LocFile":
+        reordered_loc: dict[str, str] = {}
+        current_loc = self.get_localization()
+        for loc_key, source_value in source_localization.items():
+            reordered_loc[loc_key] = current_loc.get(loc_key, source_value)
+        self.set_localization(reordered_loc)
+        return self
+
+
+
     def __hash__(self) -> int:
         return hash(self.file_path)
 
