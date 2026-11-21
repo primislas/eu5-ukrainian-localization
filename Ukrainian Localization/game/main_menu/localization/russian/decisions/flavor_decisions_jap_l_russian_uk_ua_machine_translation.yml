@@ -2,6 +2,6 @@
  jap_adopt_japan_identity_decision.title: "Взяти назву $JAP$"
  jap_adopt_japan_identity_decision.desc: "Клани билися до цілковитого виснаження, і один дім піднісся над рештою. Втім, світ і досі знає нас за іменем цього дому, а не за землею, якою ми нині правимо.\n\nВізьмімо собі назву $JAP$, щоб кожен двір і кожна провінція знали: наш край єдиний, і він — наш."
  jap_adopt_japan_identity_decision.a: "Ми — $JAP$."
- jap_adopt_japan_identity_decision.not_yamato_tt: "Our country was not formed through [GetCountry('YMT').GetName]"
+ jap_adopt_japan_identity_decision.not_yamato_tt: "Наша країна не була утворена через #ONCLICK:COUNTRY,[GetCountry('YMT').GetID] #TOOLTIP:COUNTRY,[GetCountry('YMT').GetID],X [GetCountry('YMT').Custom('CL_ACC')|L]#!#!"
  jap_adopt_japan_identity_decision.color_tt: "Ми обираємо #Y червоний#! кольором нашої країни"
  jap_adopt_japan_identity_decision.historical_info: "До 1603 року Токуґава Ієясу поклав край понад столітній міжусобній війні та прийняв титул шьоґуна, правлячи об’єднаною Японією з Едо. До нього владу ворожих князів зламали Ода Нобунаґа та Тойотомі Хідейоші. Європейські купці та посли тієї доби зазвичай вважали шьоґуна правителем усієї Японії."
