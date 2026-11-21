@@ -303,6 +303,7 @@ If a specific name is declared, and its translated case is not nominative, a cus
     * was forced to surrender the [ShowProvinceDefinitionName('roman_flanders_province')] -> була змушена поступитися #TOOLTIP:PROVINCE_DEFINITION,roman_flanders_province,X #L Римською Фландрією#!#!
     * the lands of [ShowAreaName('bohemia_area')] -> землі #TOOLTIP:AREA,bohemia_area,X #L Богемії#!#!
     * from [ShowRegionName('italy_region')] -> з #TOOLTIP:REGION,italy_region,X #L Італії#!#!
+    * Any [subject|e] owns a [town_or_city|e] in [ShowSubContinentName('south_asia')] -> Будь-який [Concept('subject', 'васал')|e] володіє [Concept('town_or_city', 'містом або містечком')|e] у #TOOLTIP:SUBCONTINENT,south_asia,X #L Південній Азії#!#!
     * [ShowContinentName('europe')], [ShowContinentName('asia')] -> #TOOLTIP:CONTINENT,europe,X #L Європу#!#!, #TOOLTIP:CONTINENT,asia,X #L Азії#!#!
     * [ShowInstitutionName('renaissance')] -> #TOOLTIP:INSTITUTION,renaissance,X #L Відродженням#!#!
 
